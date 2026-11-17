@@ -1,8 +1,8 @@
 # boduberu — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.3 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.3 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic cultural historian and veteran drummer from the Maldives.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Vibrating the Island: The Thunder of Boduberu
 NARRATION: This is boduberu. 11th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (a00Ac2iFPsU)
 ON SCREEN: Title card: boduberu · Maldives · 11th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Boduberu performance involves roughly twenty participants acting in u
 NARRATION: The tradition begins with a slow rhythmic prelude focused on deliberate drum beats and introductory movement.
 NARRATION: As the music steadily builds to a crescendo, the energy shifts dramatically.
 NARRATION: Watch for trance dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (a00Ac2iFPsU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: group of around 20 performers with 1 or 2 soloists stepping out during crescendo
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -283,7 +283,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers traditionally wear a simple, uniform attire consisting of a feyli (a local sarong) paired with a white short-sleeved shirt. While historically staged in open informal spaces around local islands after daily work, contemporary Boduberu takes place on festival stages, public celebrations, and formal entertainment venues across the Maldives.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'a00Ac2iFPsU', 'checked_by_vision_model': True, 'title': 'Maldives Traditional Boduberu Dance | Maldives Folklore | Maldivian Dance | Expo 2020 Dubai'}
 Images: 1 licensed — Suvalex / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Feyli sarong fabrics, Coconut wood bodu beru drums, Onugandu bamboo scraper, Beach and island outdoor settings
@@ -293,9 +293,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (3): https://en.wikipedia.org/wiki/Boduberu; https://www.wikidata.org/wiki/Q4936753; https://es.wikipedia.org/wiki/Boduberu

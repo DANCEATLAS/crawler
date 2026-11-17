@@ -1,10 +1,10 @@
 {
  "slug": "dondang-sayang",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:50:19Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 9.55,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,28 @@
    "detail": "sacred=False cues=['ceremon']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Ronggeng",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "review",
+  "notes": "The subject is primarily a musical performance art and poetic tradition rather than a distinct dance style (associated with Ronggeng), making is_a_dance false. Otherwise, the profile is exceptionally well-researched and supported."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=9.55",
+  "not_a_dance"
  ],
  "citation": {
   "claims": 7,

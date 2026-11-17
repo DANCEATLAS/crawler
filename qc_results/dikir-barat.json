@@ -1,10 +1,10 @@
 {
  "slug": "dikir-barat",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:50:31Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Comprehensive, highly accurate profile adhering strictly to evidence claims."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=10.0"
  ],
  "citation": {
   "claims": 7,

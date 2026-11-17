@@ -1,8 +1,8 @@
 # Ula — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An elder Tongan dance instructor emphasizing aristocratic decorum, precise alignment, and the historic weight of royal choreography
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Split Dance of Tonga
 NARRATION: This is Ula. Pre-18th century.
-ON SCREEN: Hero video, first 10 seconds (0clVoLmjRFg)
+ON SCREEN: Hero video, first 10 seconds (OsSEe6d1GCs)
 ON SCREEN: Title card: Ula · Tonga · Pre-18th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is performed almost exclusively by girls, with boys joining
 NARRATION: The hallmark structure that gives the dance its alternate name—fahaʻi-ula, or split dance—lies in its entrance: the ensemble divides into two or more contingents, with one half entering from the left and the other from the right.
 NARRATION: The groups converge in the center of the performance space, merging into one or more horizontal rows.
 NARRATION: Watch for Fahaʻi entry, Haka hand shaping.
-ON SCREEN: Hero video full screen, 30–45 s (0clVoLmjRFg)
+ON SCREEN: Hero video full screen, 30–45 s (OsSEe6d1GCs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Bilateral entrance from stage left and stage right, converging at the center into one or more parallel lines
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -114,7 +114,7 @@ NARRATION: Step 1: Divide the ensemble into two flanking groups offstage to the 
 NARRATION: Step 2: Process inward toward center stage until lines meet and merge into a single row
 NARRATION: Footwork from the sources: Minimal lower-body involvement; occasional steps or lowering to a kneeling position
 NARRATION: Drill: Left-and-right entry marching drill to center mark
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -184,7 +184,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Divide the ensemble into two flanking groups offstage to the left and right
 NARRATION: Step 2: Process inward toward center stage until lines meet and merge into a single row
 NARRATION: Drill: Wrist flexibility and finger placement drill
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -257,7 +257,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Assume an upright, stiff torso posture with minimal leg movement
 NARRATION: Step 2: Execute subtle, supple hand postures in coordination with head tilts while holding a seated, standing, or occasional kneeling posture
 NARRATION: Drill: Reciting the 'tulituli faiva' chant while advancing
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '0clVoLmjRFg', 'checked_by_vision_model': False, 'title': 'LET\'S DANCE THE HULA!  "KŌ‘ULA" VERSES 1 & 2 - HULA PRACTICE'}
+Hero video: {'youtube_id': 'OsSEe6d1GCs', 'checked_by_vision_model': True, 'title': 'Gata Ula - Performed by Matavai Pacific Cultural Arts Group'}
 Images: 1 licensed — Félix Danvin / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Vibrant red dresses moving across the open performance area, Two opposing files of dancers converging into a single horizontal row, Delicate hand flourishes highlighted against stationary torsos
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
+Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
 
 Sources (2): https://en.wikipedia.org/wiki/Ula_(dance); https://www.wikidata.org/wiki/Q11650728

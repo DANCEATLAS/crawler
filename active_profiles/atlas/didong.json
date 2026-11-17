@@ -1,0 +1,145 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Clapping hands in various ways.",
+      "difficulty": "not described in sources",
+      "footwork": "Stomping feet.",
+      "formation_and_space": "Group performance, usually fifteen men.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Sitting cross-legged or standing.",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Drums",
+        "Pillows",
+        "Pots"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Reflective",
+        "Melodious",
+        "Rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A combination of melodious vocal poetry in the Gayo language accompanied by the percussive sounds of drums, pillows, pots, and rhythmic hand clapping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Melodious singing of Gayo-language poetry."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Sitting cross-legged while maintaining rhythmic upper body movement.",
+        "Standing while stomping feet to a rhythmic count.",
+        "Clapping hands in various patterns to accompany vocal poetry.",
+        "Striking percussion objects such as drums, pillows, or pots."
+      ],
+      "formation": "Groups of approximately fifteen men.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "ffc64dcfe14fbfe14259db40e019b919e1c1a55c8f009817976213eef88a5de0",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns or meters used in Didong? Evidence needed: Musicological analysis of Gayo traditional performance.",
+      "Investigate: Are there specific costume requirements for Didong performers? Evidence needed: Ethnographic documentation of Gayo performance attire."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:didong",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Didong",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "b71c4d2da3bdca68",
+      "next_evidence": "Musicological analysis of Gayo traditional performance.",
+      "question": "What are the specific rhythmic patterns or meters used in Didong?",
+      "source": "https://en.wikipedia.org/wiki/Didong",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for rhythm and percussion."
+    },
+    {
+      "domain": "research",
+      "id": "dda7a9dd9e1a4010",
+      "next_evidence": "Ethnographic documentation of Gayo performance attire.",
+      "question": "Are there specific costume requirements for Didong performers?",
+      "source": "https://en.wikipedia.org/wiki/Didong",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete cultural profile of the performance."
+    }
+  ],
+  "research_file": "research_results/didong.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "didong",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Didong",
+    "https://www.wikidata.org/wiki/Q761112"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

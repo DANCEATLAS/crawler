@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex political or satirical themes",
+          "Extended periods of sitting perfectly still"
+        ],
+        "counts": "Simple 2-beat or 4-beat patterns.",
+        "duration_minutes": "10",
+        "game_version": "A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep spinal twists",
+          "Rapid overhead arm movements"
+        ],
+        "counts": "Simple 4/4 clapping patterns.",
+        "seated_version": "Naturally seated; can be performed in standard chairs if cross-legged is difficult.",
+        "standing_version": "Not recommended as the tradition is fundamentally seated.",
+        "tempo_and_range": "Reduce clapping speed; limit torso swaying to a comfortable range."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Rhythmic clapping and synchronized arm gestures to emphasize the beat",
+      "difficulty": "intermediate",
+      "footwork": "None (seated performance)",
+      "formation_and_space": "Groups of 10-15 sitting in rows or a semi-circle on a stage",
+      "hips_and_torso": "Rhythmic body movements and swaying while seated",
+      "levels_and_jumps": "Seated only",
+      "partnering": "None; group unison",
+      "posture": "Seated cross-legged on a platform",
+      "signature_moves": [
+        {
+          "description": "Synchronized rhythmic hand-clapping performed by the entire chorus",
+          "name": "Awak-awak clapping"
+        }
+      ],
+      "tempo_feel": "Starts low-key and builds to high-energy rhythmic intensity",
+      "what_to_avoid": "Individual improvisation during chorus segments; movements must be in perfect unison"
+    },
+    "music_profile": {
+      "instruments": [
+        "rebana",
+        "maracas",
+        "shallow gong"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "satirical",
+        "humorous",
+        "competitive",
+        "rhythmic"
+      ],
+      "musical_form": "Two segments: complex musical intro (tok juara) followed by improvised pantuns (tukang karut)",
+      "reference_recordings": [],
+      "rhythm_pattern": "Responsorial singing with percussive clapping and rebana beats",
+      "sound_description": "A percussive vocal tradition where a lead singer's improvised melodic lines are immediately echoed by a powerful, rhythmic unison chorus, punctuated by sharp hand-claps and the deep resonance of the rebana drum.",
+      "tempo_bpm": "",
+      "vocal_style": "Responsorial, unison chorus, improvised solo verses"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Sit cross-legged on a flat platform in a tight group formation",
+        "Perform rhythmic hand-clapping in unison with the chorus",
+        "Execute synchronized torso swaying and shoulder movements",
+        "Listen to the tukang karut's improvised line",
+        "Sing the line back in responsorial unison"
+      ],
+      "formation": "Seated group (10-15 members) sitting cross-legged on a platform",
+      "level_notes": "Beginners start as 'awak-awak' (chorus members) focusing on rhythm and unison singing.",
+      "rhythm": "Percussive and syncopated, driven by hand-claps and rebana"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f4d601cac2b43778dd1c584ceb6e5402c0824160d87c20ababba1bc8fa49479d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the typical tempo (BPM) for the 'low-key' first segment versus the 'high-energy' second segment? Evidence needed: https://en.wikipedia.org/wiki/Dikir_barat"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand-clapping patterns and torso movements used by the awak-awak? Evidence needed: https://en.wikipedia.org/wiki/Dikir_barat"
+    ]
+  },
+  "id": "atlas:dikir-barat",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dikir barat",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "ab3fa68e1aed7272",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dikir_barat",
+      "question": "What are the specific hand-clapping patterns and torso movements used by the awak-awak?",
+      "source": "https://en.wikipedia.org/wiki/Dikir_barat",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'rhythmic body movements' but does not describe the specific choreography needed for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "3999422777323cde",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dikir_barat",
+      "question": "What is the typical tempo (BPM) for the 'low-key' first segment versus the 'high-energy' second segment?",
+      "source": "https://en.wikipedia.org/wiki/Dikir_barat",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the musical profile for a composer or instructor."
+    }
+  ],
+  "research_file": "research_results/dikir-barat.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dikir-barat",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dikir_barat",
+    "https://www.wikidata.org/wiki/Q5276535"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

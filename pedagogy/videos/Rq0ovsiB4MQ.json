@@ -5,7 +5,183 @@
  "title": "How To Do Pirouettes, Fouettés, and À La Seconde Turns! I Dance Turn Tutorial with @trainwithkendall",
  "channel": "BodyKinect by Kendall",
  "viewer_ratio": 3.67,
- "analysed_at": "2026-11-10T19:21:53Z",
+ "analysed_at": "2026-11-17T21:20:06Z",
  "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ",
- "status": "failed"
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher uses a casual, encouraging tone and breaks down complex movements into manageable, sequential steps. She frequently uses humor and relatable analogies to explain technical concepts like ribcage placement and turn preparation.",
+  "language": "English",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:07",
+    "segment": "intro",
+    "note": "The teacher introduces the three types of turns she will cover."
+   },
+   {
+    "t": "0:30",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the parallel pirouette, focusing on the preparation and the turn."
+   },
+   {
+    "t": "3:38",
+    "segment": "breakdown",
+    "note": "The teacher explains the ballet pirouette, emphasizing turnout and ribcage placement."
+   },
+   {
+    "t": "5:43",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the à la seconde turn, focusing on the slap prep and the second position."
+   },
+   {
+    "t": "6:24",
+    "segment": "slow_practice",
+    "note": "The teacher demonstrates the slap prep for the à la seconde turn."
+   },
+   {
+    "t": "7:02",
+    "segment": "layering",
+    "note": "The teacher adds the second position to the slap prep for the à la seconde turn."
+   }
+  ],
+  "counting_scheme": "1-2",
+  "cues": [
+   "Stand like a soldier",
+   "Close your ribcage",
+   "High high passé",
+   "Squeeze your deep outward rotators"
+  ],
+  "metaphors": [
+   "Stand like a soldier",
+   "Sleepy passé",
+   "Genie"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": 10
+  },
+  "common_mistakes": [
+   "Leaning forward or back during a plié",
+   "Letting the outside arm get behind the body",
+   "Having a 'sleepy' passé"
+  ],
+  "safety": [
+   "Make sure your knee is directly over your toe when you plié."
+  ],
+  "steps_taught": [
+   {
+    "name": "Parallel Pirouette",
+    "counts": "1-2",
+    "description": "A turn performed in a parallel position, common in jazz and contemporary dance."
+   },
+   {
+    "name": "Ballet Pirouette",
+    "counts": "1-2",
+    "description": "A turn performed in a turned-out position, emphasizing vertical alignment."
+   },
+   {
+    "name": "À La Seconde Turn",
+    "counts": "1-2",
+    "description": "A turn where the leg is held in a second position, requiring strong core engagement."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The teacher breaks down complex movements into simple, sequential steps.",
+    "The use of humor and relatable analogies makes technical concepts easier to understand."
+   ],
+   "what_hinders": [
+    "The teacher's fast-paced delivery might be difficult for some students to follow.",
+    "The lack of multiple camera angles makes it harder to see the nuances of the movements."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:44",
+    "text": "Stand like a soldier, I always tell my students."
+   },
+   {
+    "t": "1:48",
+    "text": "Close your ribcage just means to pull your lower tummy in."
+   },
+   {
+    "t": "3:17",
+    "text": "Your pirouettes should be as tight and compact as possible."
+   },
+   {
+    "t": "5:20",
+    "text": "My teacher used to tell me that I have a sleepy passé."
+   },
+   {
+    "t": "6:46",
+    "text": "Literally just that."
+   },
+   {
+    "t": "7:10",
+    "text": "This is pretty much impossible because nobody can really balance up in their second."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 44,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the preparation for a parallel pirouette, showing the arm and leg positions.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 106,
+    "end_s": 112,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the correct plié position, emphasizing the alignment of the knee over the toe.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 217,
+    "end_s": 223,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the passé position, showing how the foot attaches to the knee.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 350,
+    "end_s": 356,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the engagement of the deep outward rotators.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 433,
+    "end_s": 439,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the correct arm position for a ballet pirouette, keeping the outside arm in front.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a 'slap prep' to teach the à la seconde turn, which is a unique way to emphasize the timing and energy of the preparation."
+ },
+ "attempts": 2
 }

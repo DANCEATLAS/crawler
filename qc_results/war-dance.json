@@ -1,10 +1,10 @@
 {
  "slug": "war-dance",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:52:03Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 6.1,
  "gates": [
   {
    "gate": "has_name",
@@ -87,14 +87,33 @@
    "detail": "sacred=True cues=['ritual', 'ceremon']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 3,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile treats 'War dance' as a singular dance tradition rather than a broad, descriptive category of various distinct cultural practices."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "reject",
+  "notes": "The subject is a broad category, not a specific dance. The profile lacks the necessary specificity for a dance encyclopedia entry. It functions more as an anthropological essay than a guide to a dance tradition. It fails the 'is_a_dance' criterion as it describes a thematic classification rather than a singular, teachable style."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "country",
   "insight_concrete",
-  "no_judge",
+  "judge_score=6.1",
+  "doubts=1",
+  "not_a_dance",
   "sacred"
  ],
  "citation": {

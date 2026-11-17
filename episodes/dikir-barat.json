@@ -1,0 +1,835 @@
+{
+ "slug": "dikir-barat",
+ "name": "Dikir barat",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-16T20:28:04Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A charismatic former 'tukang karut' who emphasizes wit, timing, and group unity.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Dikir barat",
+   "dikir hulu",
+   "lebe ulu",
+   "Dikir Singapura"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Dikir barat",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Lyrical Duel of Kelantan",
+     "This is Dikir barat. 20th century (popularized)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Dikir barat · Malaysia · 20th century (popularized)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The art originated among the peasantry of Patani who would incant verses back and forth as entertainment while harvesting paddy fields.",
+     "It was known as 'lebe ulu' before spreading to Kelantan in the 1930s, where it was renamed Dikir barat ('West').",
+     "Sources debate whether it began in southern Thailand, Kelantan, or as a shared wedding dance between the two regions."
+    ],
+    "on_screen": [
+     "Map: Malaysia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a harvest entertainment, it evolved into a banquet performance for guests ('jamuan lebe ulu').",
+     "Today, it serves as a medium for social and political commentary, a competitive sport, and a symbol of national identity in Malaysia.",
+     "It is used to discuss everything from government regulations to everyday human foibles.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Performers sit cross-legged on a platform.",
+     "The 'awak-awak' (chorus) performs rhythmic body movements and clapping while seated.",
+     "These movements bring energy to the performance and accompany the responsorial singing.",
+     "Watch for Awak-awak clapping."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Groups of 10-15 sitting in rows or a semi-circle on a stage"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Dikir barat is primarily a vocal form but often employs percussion.",
+     "Key instruments include the 'rebana' (a Malay frame drum), maracas, and a shallow gong.",
+     "Listen for the rebana, maracas, shallow gong.",
+     "A percussive vocal tradition where a lead singer's improvised melodic lines are immediately echoed by a powerful, rhythmic unison chorus, punctuated by sharp hand-claps and the deep resonance of the rebana drum."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Responsorial singing with percussive clapping and rebana beats"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Groups typically perform on a stage or platform, often surrounded by the audience.",
+     "In competitions, two groups sit on the same stage.",
+     "While traditional attire is common, modern groups in urban areas and universities may wear contemporary clothing or student organisation uniforms."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The 'tukang karut' and 'tok juara' are the central figures.",
+     "Top 'tukang karuts' in Malaysia achieve celebrity status similar to Western rock stars.",
+     "Variants include 'Dikir barat Singapura' (or 'Dikir Singapura'), which developed in Singapore since the mid-1970s.",
+     "Dikir barat is a subclass of Malaysian dance and Malay music."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Dikir barat is variant of Dikir Singapura: A distinctive style adapted by the Malays of Singapore since the mid-1970s."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Sit cross-legged on a flat platform in a tight group formation",
+     "Perform rhythmic hand-clapping in unison with the chorus",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness a high-stakes battle of wits where village poets compete for glory through improvised song and rhythmic clapping.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic seated rhythm",
+   "level": "The Pulse",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic seated rhythm.",
+      "Level: The Pulse. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A charismatic former 'tukang karut' who emphasizes wit, timing, and group unity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Seated cross-legged on a platform",
+      "Rhythmic clapping and synchronized arm gestures to emphasize the beat",
+      "Rhythmic body movements and swaying while seated"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Responsorial singing with percussive clapping and rebana beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Sit cross-legged on a flat platform in a tight group formation",
+      "Step 2: Perform rhythmic hand-clapping in unison with the chorus",
+      "Footwork from the sources: None (seated performance)",
+      "Drill: Seated cross-legged posture check"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute synchronized torso swaying and shoulder movements",
+      "Step 4: Listen to the tukang karut's improvised line",
+      "Drill: Basic 4-beat unison hand-clapping"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Synchronized torso sway on the downbeat"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Individual improvisation during chorus segments; movements must be in perfect unison"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Naturally seated; can be performed in standard chairs if cross-legged is difficult. · For children: A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Naturally seated; can be performed in standard chairs if cross-legged is difficult.",
+      "For children: A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic seated rhythm.",
+      "Originally a harvest entertainment, it evolved into a banquet performance for guests ('jamuan lebe ulu').",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Learn responsorial singing",
+   "level": "The Echo",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Learn responsorial singing.",
+      "Level: The Echo. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A charismatic former 'tukang karut' who emphasizes wit, timing, and group unity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Seated cross-legged on a platform",
+      "Rhythmic clapping and synchronized arm gestures to emphasize the beat",
+      "Rhythmic body movements and swaying while seated"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Responsorial singing with percussive clapping and rebana beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Sing the line back in responsorial unison",
+      "Drill: Call and response vocal exercises"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Awak-awak clapping: Synchronized rhythmic hand-clapping performed by the entire chorus",
+      "Drill: Singing while maintaining the clap rhythm"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Transitioning between tok juara and tukang karut cues"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Individual improvisation during chorus segments; movements must be in perfect unison"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Naturally seated; can be performed in standard chairs if cross-legged is difficult. · For children: A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Naturally seated; can be performed in standard chairs if cross-legged is difficult.",
+      "For children: A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Groups of 10-15 sitting in rows or a semi-circle on a stage"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn responsorial singing.",
+      "The 'tukang karut' and 'tok juara' are the central figures.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Understand the competitive structure",
+   "level": "The Duel",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Understand the competitive structure.",
+      "Level: The Duel. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A charismatic former 'tukang karut' who emphasizes wit, timing, and group unity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Seated cross-legged on a platform",
+      "Rhythmic clapping and synchronized arm gestures to emphasize the beat",
+      "Rhythmic body movements and swaying while seated"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Responsorial singing with percussive clapping and rebana beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Listen to the tukang karut's improvised line",
+      "Step 2: Sing the line back in responsorial unison",
+      "Drill: Mock lyrical debate practice"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Awak-awak clapping: Synchronized rhythmic hand-clapping performed by the entire chorus",
+      "Drill: Maintaining unison energy during long sets"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Reacting to the tukang karut's improvisations"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Individual improvisation during chorus segments; movements must be in perfect unison"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Naturally seated; can be performed in standard chairs if cross-legged is difficult. · For children: A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Naturally seated; can be performed in standard chairs if cross-legged is difficult.",
+      "For children: A 'copy-cat' game where the leader makes up a funny line and the children repeat it with a clap."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Groups of 10-15 sitting in rows or a semi-circle on a stage"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the competitive structure.",
+      "Dikir barat is a subclass of Malaysian dance and Malay music.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Responsorial singing with percussive clapping and rebana beats",
+  "instruments": [
+   "rebana",
+   "maracas",
+   "shallow gong"
+  ],
+  "vocal_style": "Responsorial, unison chorus, improvised solo verses",
+  "musical_form": "Two segments: complex musical intro (tok juara) followed by improvised pantuns (tukang karut)",
+  "mood": [
+   "energetic",
+   "satirical",
+   "humorous",
+   "competitive",
+   "rhythmic"
+  ],
+  "sound_description": "A percussive vocal tradition where a lead singer's improvised melodic lines are immediately echoed by a powerful, rhythmic unison chorus, punctuated by sharp hand-claps and the deep resonance of the rebana drum.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Dikir barat (Malaysia). Rhythm pattern: Responsorial singing with percussive clapping and rebana beats. Instruments: rebana, maracas, shallow gong. Vocal style: Responsorial, unison chorus, improvised solo verses. Form: Two segments: complex musical intro (tok juara) followed by improvised pantuns (tukang karut). Mood: energetic, satirical, humorous, competitive, rhythmic. It should sound like this: A percussive vocal tradition where a lead singer's improvised melodic lines are immediately echoed by a powerful, rhythmic unison chorus, punctuated by sharp hand-claps and the deep resonance of the rebana drum. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Groups typically perform on a stage or platform, often surrounded by the audience. In competitions, two groups sit on the same stage. While traditional attire is common, modern groups in urban areas and universities may wear contemporary clothing or student organisation uniforms. The setting is communal, ranging from village functions to national televised competitions.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADikir_barat.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Dikir_barat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Dikir_barat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "SMK SERI MAHKOTA / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADikir_barat.jpg",
+    "description": "persembahan pelajar"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Cross-legged seating on wooden platforms",
+   "Vibrant traditional Malay textiles",
+   "Blurred hands in rapid rhythmic motion",
+   "Audience members laughing and reacting to lyrics"
+  ],
+  "costume_notes": "Groups typically perform on a stage or platform, often surrounded by the audience. In competitions, two groups sit on the same stage. While traditional attire is common, modern groups in urban areas and universities may wear contemporary clothing or student organisation uniforms. The setting is communal, ranging from village functions to national televised competitions.",
+  "setting_notes": "Originally a harvest entertainment, it evolved into a banquet performance for guests ('jamuan lebe ulu'). Today, it serves as a medium for social and political commentary, a competitive sport, and a symbol of national identity in Malaysia. It is used to discuss everything from government regulations to everyday human foibles.",
+  "map": {
+   "country": "Malaysia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "31 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 31,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
+   "1-2",
+   "3-4",
+   "sa'o'i",
+   "lualua tongi e",
+   "e a'a tongi e",
+   "stomp clap",
+   "chest chest leg leg clap",
+   "pull back and lean to the left"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dikir_barat",
+  "https://www.wikidata.org/wiki/Q5276535"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "5b15e5ea8ba6be070cc525c348579af1c51a19f2019df399b14a9de9616868d4",
+ "hero_checked": null
+}

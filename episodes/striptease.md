@@ -1,6 +1,6 @@
 # Striptease — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Stately strut across the floor while establishing unbroken ey
 NARRATION: Step 2: Torso and shoulder roll to loosen outer garments such as coats, capes, or jackets
 NARRATION: Footwork from the sources: Gliding theatrical walks, heel-to-toe struts, slow pivot turns, and grounded stances supporting hip movements.
 NARRATION: Drill: Practice 8-count slow heel-to-toe stage walking with hands resting on hips.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -189,7 +189,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Shimmy of the shoulders and bust to loosen chest fastenings or unfasten bodices
 NARRATION: Step 2: Strategic delay posture, using detached garments or hands to veil exposed body contours
 NARRATION: Drill: Execute the 4-count glove peel using opposite fingertips while maintaining an arched torso.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -261,7 +261,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Strategic delay posture, using detached garments or hands to veil exposed body contours
 NARRATION: Step 2: Transition down to a prop chair or floor level for slow leg extensions and stocking removal
 NARRATION: Drill: Descend gracefully to a seated chair position while sustaining leg extensions.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
+Source: 8 tutorial(s) of the stage-contemporary family studied · videos studied: 8
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (5): https://en.wikipedia.org/wiki/Striptease; https://www.wikidata.org/wiki/Q152213; https://es.wikipedia.org/wiki/Striptease; https://fr.wikipedia.org/wiki/Striptease; https://pt.wikipedia.org/wiki/Striptease

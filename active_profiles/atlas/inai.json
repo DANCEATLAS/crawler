@@ -1,63 +1,81 @@
 {
   "candidate_material": {
     "adaptations": {
+      "children": {
+        "avoid": [
+          "backward bending"
+        ],
+        "counts": "not described in sources",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "A garden-based movement game focusing on the 'flower picking' aspect of the Perak variant."
+      },
       "derived": true,
-      "withheld": "sacred or restricted dance: no teaching adaptations"
+      "seniors": {
+        "avoid": [
+          "backward bending",
+          "rapid circular movement"
+        ],
+        "counts": "not described in sources",
+        "seated_version": "Perform hand gestures while seated in a supportive chair.",
+        "standing_version": "Not recommended due to balance requirements.",
+        "tempo_and_range": "Reduced tempo; focus on hand gestures only."
+      }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Intricate finger and hand gestures performed continuously",
-      "difficulty": "Intermediate",
-      "footwork": "Continuous circular movements, slow and deliberate",
-      "formation_and_space": "Performed in pairs or circular groups depending on variant",
-      "hips_and_torso": "Incorporates bending backward with face toward the floor",
-      "levels_and_jumps": "No jumps described; focus on controlled bending and hand movements",
-      "partnering": "Historically two men danced together; Perak variant by palace maids without partnering",
-      "posture": "Upright with controlled body bending backward during acrobatic moves",
+      "arms_and_hands": "Intricate finger and hand gestures.",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Palace throne room or palace garden.",
+      "hips_and_torso": "Continuous circular movement; torso arches backward.",
+      "levels_and_jumps": "Standing to extreme backward arch.",
+      "partnering": "Historically performed by two men.",
+      "posture": "Standing, with an acrobatic backward arch.",
       "signature_moves": [
         {
-          "description": "Dancer bends body backward while facing the floor",
+          "description": "The dancer arches their body backward while standing until their face looks toward the floor.",
           "name": "Bending"
         }
       ],
-      "tempo_feel": "Slow to moderate tempo matching ceremonial music",
-      "what_to_avoid": "Avoid performing outside designated ceremonial occasions or by unauthorized persons"
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Do not attempt the backward bending without proper physical training and supervision."
     },
     "music_profile": {
       "instruments": [
         "drums",
         "gongs",
-        "flutes",
-        "gendang (drum)"
+        "flutes"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
         "ceremonial",
-        "formal",
-        "rhythmic"
+        "courtly"
       ],
-      "musical_form": "Includes three songs: Temang Welo, Selong, Mak Inang",
+      "musical_form": "Gendang Terinai",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music features traditional Malay percussion instruments with rhythmic drum beats and melodic gong and flute lines, creating a formal and ceremonial atmosphere.",
+      "sound_description": "The music is driven by the Gendang Terinai, featuring a rhythmic interplay of drums, gongs, and flutes, supporting the three core songs: Temang Welo, Selong, and Mak Inang.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Begin with standing in a circular formation",
-        "Perform continuous circular foot movements",
-        "Execute intricate finger and hand gestures",
-        "Incorporate bending backward movements with face toward the floor",
-        "Maintain slow, controlled tempo matching ceremonial music"
+        "Continuous circular movement",
+        "Intricate finger and hand gestures",
+        "Acrobatic backward bending"
       ],
-      "formation": "Circular or paired (historically two men), or group in garden setting for Perak variant",
-      "level_notes": "Beginners start with basic hand gestures and slow circular footwork; advanced dancers incorporate bending and acrobatic elements.",
-      "rhythm": "Rhythmic and ceremonial, matching Gendang Terinai songs"
+      "formation": "Historically performed by two men; palace maids perform in gardens.",
+      "level_notes": "Advanced: requires significant flexibility for the bending position.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "74d15730aad55403c835f550e5f6910a01bb05e4446df0aba6a2ba0e891aefbb",
+  "fingerprint": "92dd9bfe5babd4ce168560debdf0d8379808f89adcbb035f3e29a01dfd1e6aa4",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -65,8 +83,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: footwork",
       "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts for the Gendang Terinai songs? Evidence needed: Musical notation or ethnomusicological study of Gendang Terinai."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -93,7 +113,17 @@
   ],
   "music_options": [],
   "name": "Inai",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "7adda33af07547f3",
+      "next_evidence": "Musical notation or ethnomusicological study of Gendang Terinai.",
+      "question": "What are the specific rhythmic counts for the Gendang Terinai songs?",
+      "source": "https://en.wikipedia.org/wiki/Inai_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable accurate teaching of the dance's musical structure."
+    }
+  ],
   "research_file": "research_results/inai.json",
   "runtime_active": false,
   "scope": {

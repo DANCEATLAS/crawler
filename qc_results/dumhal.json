@@ -1,10 +1,10 @@
 {
  "slug": "dumhal",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:50:33Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.45,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=True cues=['ritual', 'ceremon', 'spirit']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Accurate, respectful handling of a restricted tribal ritual dance with clear provenance."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "no_judge",
+  "judge_score=9.45",
   "sacred"
  ],
  "citation": {

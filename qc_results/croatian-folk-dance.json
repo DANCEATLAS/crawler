@@ -1,10 +1,10 @@
 {
  "slug": "croatian-folk-dance",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:50:38Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 8.35,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,28 @@
    "detail": "sacred=False cues=['religious']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "reject",
+  "notes": "Fails is_a_dance because 'Croatian folk dance' is a category/tradition name rather than a single specific dance."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=8.35",
+  "not_a_dance"
  ],
  "citation": {
   "claims": 6,

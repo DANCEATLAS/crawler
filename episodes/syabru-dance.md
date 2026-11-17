@@ -1,8 +1,8 @@
 # Syabru dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Sherpa or Yolmo cultural elder and dramnyen player who guides community dancers with warmth, communal patience, and cultural devotion.
@@ -299,7 +299,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'PduimfjXF3U', 'checked_by_vision_model': False, 'title': 'Syabru Dance |  Rotary Club Of Bouddha  | Sherpa Culture'}
+Hero video: {'youtube_id': 'PduimfjXF3U', 'checked_by_vision_model': True, 'title': 'Syabru Dance |  Rotary Club Of Bouddha  | Sherpa Culture'}
 Images: 2 licensed — Less than 3 / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); S Pakhrin from NYC, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Traditional woven Himalayan ethnic attire worn by men and women, The wooden neck and strings of the dramnyen lute, Dancers slowly rounding in an expansive communal circle during Gyalpo Lhosar
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (2): https://en.wikipedia.org/wiki/Syabru_(dance); https://www.wikidata.org/wiki/Q114552797

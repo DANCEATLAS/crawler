@@ -1,6 +1,6 @@
 # Vannam — episode pack
 
-*Status: draft · built 2026-11-11 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; posture, arms and hands; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -108,7 +108,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Observing animal movement
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -170,7 +170,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -231,7 +231,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -292,9 +292,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
+Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
 
 Sources (3): https://en.wikipedia.org/wiki/Dance_in_Sri_Lanka; https://www.wikidata.org/wiki/Q5215413; https://fr.wikipedia.org/wiki/Danses_au_Sri_Lanka

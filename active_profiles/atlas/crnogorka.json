@@ -1,0 +1,140 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Dancers are holding hands.",
+      "difficulty": "intermediate",
+      "footwork": "Quick and small steps on half feet.",
+      "formation_and_space": "Half circle.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes frequent jumps.",
+      "partnering": "Mixed man and woman.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Quick, small steps performed on the balls of the feet.",
+          "name": "Half-feet steps"
+        },
+        {
+          "description": "Frequent vertical movements integrated into the dance.",
+          "name": "Jumps"
+        }
+      ],
+      "tempo_feel": "Vivid and quick.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "gajda"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "vivid",
+        "lively"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by the gajda, a traditional bagpipe, set to a 2/4 rhythm.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold hands in a half-circle formation.",
+        "Execute quick, small steps on the half-feet.",
+        "Incorporate frequent jumps into the step sequence."
+      ],
+      "formation": "Half-circle",
+      "level_notes": "not described in sources",
+      "rhythm": "2/4"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "039fea1bd9b521d1ffac78377c3b3f211873e1a0e765005764dde2c280925fe7",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork counts for the Crnogorka? Evidence needed: Mihailo Dimovski, Macedonian folk dances (1977)."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:crnogorka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Crnogorka",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "7e79ebc014539568",
+      "next_evidence": "Mihailo Dimovski, Macedonian folk dances (1977).",
+      "question": "What are the specific footwork counts for the Crnogorka?",
+      "source": "https://en.wikipedia.org/wiki/Crnogorka_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for the dance."
+    }
+  ],
+  "research_file": "research_results/crnogorka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "crnogorka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Crnogorka_(dance)",
+    "https://www.wikidata.org/wiki/Q5187002"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

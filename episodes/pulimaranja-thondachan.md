@@ -1,8 +1,8 @@
 # Pulimaranja Thondachan — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian specializing in North Malabar folklore and theyyam traditions.
@@ -105,7 +105,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'QjbDIPizFuQ', 'checked_by_vision_model': False, 'title': 'Pulimaranja Thondachan Theyyam - Thazhekavu, Athazhakunnu'}
+Hero video: {'youtube_id': 'QjbDIPizFuQ', 'checked_by_vision_model': True, 'title': 'Pulimaranja Thondachan Theyyam - Thazhekavu, Athazhakunnu'}
 Images: 1 licensed — Uajith / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Theyyam ritual spaces in North Malabar, Depictions of leopard transformation in local lore
@@ -115,7 +115,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

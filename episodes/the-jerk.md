@@ -1,8 +1,8 @@
 # The Jerk — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); instruments; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, knowledgeable dance historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Jerk: The 1960s Dance That Jolted America
 NARRATION: This is The Jerk. 1960s.
-ON SCREEN: Hero video, first 10 seconds (gPn7DgV5d5A)
+ON SCREEN: Hero video, first 10 seconds (TZdvihA7Y1A)
 ON SCREEN: Title card: The Jerk · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The Jerk is performed individually.
 NARRATION: The dancer holds their hands at face level, crossing the wrists in front of the chest before sweeping them outward.
 NARRATION: This outward sweep occurs on the first count of the music, creating a jerky, sudden motion.
 NARRATION: Watch for The Jerk Sweep.
-ON SCREEN: Hero video full screen, 30–45 s (gPn7DgV5d5A)
+ON SCREEN: Hero video full screen, 30–45 s (TZdvihA7Y1A)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Individual, non-partnered.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'gPn7DgV5d5A', 'checked_by_vision_model': False, 'title': 'DubstEpic Symph / Just Jerk Crew Choreography / 310XT Films / URBAN DANCE CAMP'}
+Hero video: {'youtube_id': 'TZdvihA7Y1A', 'checked_by_vision_model': True, 'title': "DANCE CRAZES OF THE '60S (Compiled by Toni Basil)"}
 Images: 0 licensed
 Footage: Down And Dirty: The Contemporary Versions Of The Great All Time Dances! [Full VHS] — https://archive.org/details/down-and-dirty-the-contemporary-versions-of-the-great-all-time-dances-full-vhs; Get Down And Get With It Slade — https://archive.org/details/get-down-and-get-with-it-slade; File:Double Kettlebell Clean and Jerk.webm — https://upload.wikimedia.org/wikipedia/commons/e/ee/Double_Kettlebell_Clean_and_Jerk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Barbell Jerk.webm — https://upload.wikimedia.org/wikipedia/commons/2/20/Barbell_Jerk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 1960s vinyl records, Conductor-like arm gestures, Archive footage of 1960s dance halls

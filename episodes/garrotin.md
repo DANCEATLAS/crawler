@@ -1,8 +1,8 @@
 # Garrotín — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.0 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.0 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A flamenco historian with a focus on regional folk traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Northern Dance that Conquered the South
 NARRATION: This is Garrotín. Early 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (1AUAf3A9iTU)
 ON SCREEN: Title card: Garrotín · Spain · Early 20th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (1AUAf3A9iTU)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -98,7 +98,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 1-2-1-2. The meter is 2/4.
 NARRATION: Rhythm pattern: Tango-like, corresponding to the compás of the Farruca..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -111,14 +111,14 @@ NARRATION: Drill: Clapping the 2/4 meter
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Listening to the chorus structure
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -135,7 +135,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-1-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -164,7 +164,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 1-2-1-2. The meter is 2/4.
 NARRATION: Rhythm pattern: Tango-like, corresponding to the compás of the Farruca..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -176,13 +176,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -199,7 +199,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-1-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -228,7 +228,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 1-2-1-2. The meter is 2/4.
 NARRATION: Rhythm pattern: Tango-like, corresponding to the compás of the Farruca..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -240,13 +240,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -263,7 +263,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-1-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -292,7 +292,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '1AUAf3A9iTU', 'checked_by_vision_model': True, 'title': 'Garrotín Solo at the 2015 Victoria Flamenco Festival'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Archival photos of early 20th-century flamenco dancers, Maps showing the migration from Asturias to Catalonia
@@ -302,9 +302,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-1-2
+Demonstration: views used by most teachers: front, back; tempo progression: slow
+Cues: uno y dos; el sombrero nunca para; que sea siempre continuado
 
 Sources (5): https://en.wikipedia.org/wiki/Garrot%C3%ADn; https://www.wikidata.org/wiki/Q1617418; https://es.wikipedia.org/wiki/Garrotín; https://fr.wikipedia.org/wiki/Garrotín; https://de.wikipedia.org/wiki/Garrotín

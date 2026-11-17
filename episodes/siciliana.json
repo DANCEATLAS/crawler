@@ -2,7 +2,7 @@
  "slug": "siciliana",
  "name": "siciliana",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:22Z",
  "researched_at": "2026-11-02T20:44:38Z",
  "qc_score": 9.0,
  "status": "draft",
@@ -272,7 +272,7 @@
       "Drill: Count slow 6/8 compound beats"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -417,7 +417,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -560,7 +560,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -807,13 +807,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the classical-court family studied",
-  "videos_studied": 4,
+  "source": "6 tutorial(s) of the classical-court family studied",
+  "videos_studied": 6,
   "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
   ],
   "cues": [
    "keep length in both sides of the waist",
@@ -826,15 +827,19 @@
    "hold your placement",
    "stay straight as a board",
    "lift up in your lower abs",
-   "change feet"
+   "change feet",
+   "uno y dos"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
    "context",
+   "full_demo",
    "breakdown",
    "mistakes",
+   "slow_practice",
+   "layering",
    "music_practice"
   ],
   "steps_as_taught": []
@@ -862,6 +867,6 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
- "input_fingerprint": "e7d5a1af76b38f01b0fdb1f3a9ecc97c49d3acb145e99cd4dbb516d543819ba7",
+ "input_fingerprint": "48408b23e992d28e4b2f2ae6c80610bbf1d44444719aa61bc26cb9d7f5cbe03d",
  "hero_checked": "fail"
 }

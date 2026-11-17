@@ -1,6 +1,6 @@
 # Iranian dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 91 tutorials across the atlas studied · videos studied: 91
+Source: 112 tutorials across the atlas studied · videos studied: 112
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; engage your core; right left right; hit; 1-2-3-4; lock your arms; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; let's do this
+Cues: 1-2-3-4; side close side; rock step; engage your core; right left right; hit; 1-2-3-4-5-6-7-8; lock your arms; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward
 
 Sources (5): https://en.wikipedia.org/wiki/Iranian_dance; https://www.wikidata.org/wiki/Q2351372; https://es.wikipedia.org/wiki/Danza_persa; https://fr.wikipedia.org/wiki/Danses_d'Iran; https://pt.wikipedia.org/wiki/Dança_persa

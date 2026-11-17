@@ -1,0 +1,120 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cc79a8b9eaa4a9ac13285679d19d4aede10d301752944cd6db21e0f95317a1d9",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific movement techniques or footwork patterns used by the dancers portraying the deities? Evidence needed: Ethnographic study or technical manual of Newar dance traditions.",
+      "Investigate: What musical instruments are specifically used in the 45-person ensemble? Evidence needed: Musicological documentation of Newar folk ensembles."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:kartik-naach",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kartik Naach",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "aab4d3636c7596fb",
+      "next_evidence": "Ethnographic study or technical manual of Newar dance traditions.",
+      "question": "What are the specific movement techniques or footwork patterns used by the dancers portraying the deities?",
+      "source": "https://en.wikipedia.org/wiki/Kartik_Naach",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not describe the physical movement, which is essential for the 'how_it_is_danced' and 'movement_profile' sections."
+    },
+    {
+      "domain": "research",
+      "id": "badacf69fd8ca2a6",
+      "next_evidence": "Musicological documentation of Newar folk ensembles.",
+      "question": "What musical instruments are specifically used in the 45-person ensemble?",
+      "source": "https://en.wikipedia.org/wiki/Kartik_Naach",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately describe the sound profile for a composer or instructor."
+    }
+  ],
+  "research_file": "research_results/kartik-naach.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kartik-naach",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kartik_Naach",
+    "https://www.wikidata.org/wiki/Q15839063"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

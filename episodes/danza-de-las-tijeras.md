@@ -1,6 +1,6 @@
 # Danza de las Tijeras — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
 
@@ -111,7 +111,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

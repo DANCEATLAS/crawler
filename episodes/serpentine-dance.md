@@ -1,6 +1,6 @@
 # Serpentine dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
 
@@ -113,7 +113,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Hold the silk fabric rods firmly in both hands.
 NARRATION: Step 2: Begin with arms extended to the sides at shoulder height.
 NARRATION: Drill: Practice holding rods and extending arms smoothly.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -182,7 +182,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Use continuous, flowing arm movements to maintain fabric motion.
 NARRATION: Drill: Combine upward and inward arm spirals.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -253,7 +253,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Sweep the fabric in wide arcs around the body.
 NARRATION: Step 2: Use continuous, flowing arm movements to maintain fabric motion.
 NARRATION: Drill: Synchronize arm movements with colored light cues.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
+Source: 8 tutorial(s) of the stage-contemporary family studied · videos studied: 8
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (6): https://en.wikipedia.org/wiki/Serpentine_dance; https://www.wikidata.org/wiki/Q7455127; https://fr.wikipedia.org/wiki/Danse_serpentine; https://pt.wikipedia.org/wiki/Dança_serpentina; https://de.wikipedia.org/wiki/Serpentinentanz; https://archive.org/details/NPTG18941018

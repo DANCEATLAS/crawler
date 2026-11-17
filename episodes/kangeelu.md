@@ -1,51 +1,51 @@
 # Kangeelu — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.7 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 8.5 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A knowledgeable elder from the mundaala community familiar with Kangeelu's ritual and cultural significance
+**Instructor:** A member of the Mundaala community or a cultural historian of Karnataka.
 **Say it:** Kangeelu, Kangilu
 
 ## Episode 1 · Meet Kangeelu · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Kangeelu: The Coconut Leaf Dance of Spirits
-NARRATION: This is Kangeelu. traditional, ongoing.
+NARRATION: The Full Moon Ritual of the Mundaala
+NARRATION: This is Kangeelu. Traditional, ongoing.
 ON SCREEN: Hero video, first 10 seconds (IV0oqaegvLM)
-ON SCREEN: Title card: Kangeelu · India · traditional, ongoing
+ON SCREEN: Title card: Kangeelu · India · Traditional, ongoing
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Kangeelu originates from the Udupi and Dakshina Kannada regions of Karnataka, India, performed by the mundaala community.
-NARRATION: It is linked to the Tulu calendar's Mai month and is part of a seven-day festival to propitiate goddess Khadgeshwari and Koragajja, a spirit form of Shiva.
-NARRATION: The dance has spiritual roots aimed at protecting the village from disease and evil forces.
+NARRATION: The dance originates from the Udupi and Dakshina Kannada regions of Karnataka and is performed by the Mundaala community.
+NARRATION: It is a spiritual practice conducted during the full moon of the Tulu month of Mai to invoke protection from disease and evil.
 ON SCREEN: Map: India · South Asia
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Performed on the full moon day of the Mai month (March), Kangeelu is a spiritual dance to ward off disease, evil spirits, and negative energy.
-NARRATION: It fosters peace, harmony, and community spirit.
-NARRATION: The dance is part of a seven-day ritual festival and includes a procession of the goddess Khadgeshwari's wooden statue and a communal feast.
+NARRATION: Performed during the seven-day Kangilu Kunitha, the dance is a ritual to propitiate goddess Khadgeshwari and the spirit Koragajja.
+NARRATION: It aims to foster peace, harmony, and community spirit while protecting the village from negative energy.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Watch for Koragajja Dance.
+NARRATION: Dancers perform in a circle, with 5 to 12 members per group.
+NARRATION: The performance involves heavy, colorful costumes made from coconut and palm leaves, face paint, and a central masked dancer representing Koragajja.
+NARRATION: The movement is accompanied by drumming and singing.
+NARRATION: Watch for Koragajja impersonation.
 ON SCREEN: Hero video full screen, 30–45 s (IV0oqaegvLM)
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Dancers form a circle around four central singers
+ON SCREEN: Formation: Dancers stand in a circle.
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music includes folk songs called Karungilo and Aati Kalenje, sung by four singers wearing bells in the center of the circle.
-NARRATION: Percussion instruments like Kaase or Dholu provide the rhythmic beats.
-NARRATION: Listen for the Kaase, Dholu, bells.
-NARRATION: Percussive drum beats with bell accompaniment underpin folk vocal songs sung in a call-and-response style, creating a rhythmic and spiritual atmosphere.
+NARRATION: The music is driven by the beats of Kaase or Dholu drums.
+NARRATION: Four singers positioned in the center of the circle wear bells and sing traditional songs, specifically 'Karungilo' and 'Aati Kalenje'.
+NARRATION: Listen for the Kaase, Dholu, Bells.
+NARRATION: The music is characterized by the rhythmic percussion of Kaase or Dholu drums, accompanied by the ringing of bells worn by central singers who perform traditional folk songs.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -53,36 +53,33 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Dancers wear heavy, colorful dresses made from the tender top growth of coconut trees and palm leaves, with face paint.
-NARRATION: One dancer wears a mask and black body paint to represent Koragajja.
-NARRATION: The dance takes place in a village setting, often outdoors, with a circle formation and a central group of singers.
+NARRATION: Dancers wear heavy, colorful dresses constructed from tender coconut and palm leaves.
+NARRATION: The masked dancer representing Koragajja uses black body paint.
+NARRATION: The performance takes place in village settings, including house visits and processions to the village outskirts.
 ON SCREEN: Images — MISSING
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Koragajja, a spirit considered a form of god Shiva, is central to the dance.
-NARRATION: The goddess Khadgeshwari is propitiated through the ritual.
-NARRATION: In Dakshina Kannada, men perform the dance, while in Udupi, women perform it.
-NARRATION: Kangeelu is a traditional Indian folk dance belonging to the Tulu-speaking communities of Karnataka.
+NARRATION: The dance is performed by men in Dakshina Kannada, while women perform the same in the Udupi region.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
+NEEDS: notable_figures, lineage
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Kangeelu is parent of Indian folk dance: Kangeelu is a regional folk dance within the broader category of Indian folk dances.
-ON SCREEN: Graph: the connections with their relation labels
+ON SCREEN: Connections — MISSING
 MUSIC: underscore
 NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: Kangeelu is a spiritual dance performed to propitiate deities and spirits; it involves ritual elements and should be respected as a sacred tradition.
+NARRATION: The dance is a spiritual ritual to propitiate the goddess Khadgeshwari and the spirit Koragajja; it is performed with specific religious intent for the protection and well-being of the community.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover how a circle of dancers in coconut leaf costumes summon a powerful spirit to protect their village.
+NARRATION: Join the Mundaala community in Karnataka as they perform the Kangeelu dance to invoke protection and harmony.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -91,7 +88,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Kangeelu (India). Instruments: Kaase, Dholu, bells. Vocal style: Folk singing by four central singers wearing bells. Form: Songs include Karungilo and Aati Kalenje. Mood: spiritual, invocatory, festive. It should sound like this: Percussive drum beats with bell accompaniment underpin folk vocal songs sung in a call-and-response style, creating a rhythmic and spiritual atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Kangeelu (India). Instruments: Kaase, Dholu, Bells. Vocal style: Four singers in the center of the circle singing folk songs.. Form: Traditional folk songs including 'Karungilo' and 'Aati Kalenje'.. Mood: spiritual, communal, ritualistic. It should sound like this: The music is characterized by the rhythmic percussion of Kaase or Dholu drums, accompanied by the ringing of bells worn by central singers who perform traditional folk songs. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -105,16 +102,16 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: {'youtube_id': 'IV0oqaegvLM', 'checked_by_vision_model': True, 'title': 'Ati Kalenja KANGILU Nrutya...'}
 Images: 0 licensed
 Footage: MISSING
-Motifs: Coconut leaf costumes, Circle of dancers, Masked Koragajja figure, Drummers with Kaase and Dholu, Communal feast and procession
-Costume notes: Dancers wear heavy, colorful dresses made from the tender top growth of coconut trees and palm leaves, with face paint. One dancer wears a mask and black body paint to represent Koragajja. The dance takes place in a village setting, often outdoors, with a circle formation and a central group of singers.
+Motifs: Coconut and palm leaf costumes, Black body paint, Wooden statue of Khadgeshwari, Full moon night
+Costume notes: Dancers wear heavy, colorful dresses constructed from tender coconut and palm leaves. The masked dancer representing Koragajja uses black body paint. The performance takes place in village settings, including house visits and processions to the village outskirts.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Kangilu; https://www.wikidata.org/wiki/Q13158616

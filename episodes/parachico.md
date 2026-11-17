@@ -1,8 +1,8 @@
 # Parachico — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.2 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.2 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -95,7 +95,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '7SDNKbFCZ84', 'checked_by_vision_model': False, 'title': 'DANZA PARACHICOS... CHIAPAS CON EXPLENDOR'}
+Hero video: {'youtube_id': '7SDNKbFCZ84', 'checked_by_vision_model': True, 'title': 'DANZA PARACHICOS... CHIAPAS CON EXPLENDOR'}
 Images: 5 licensed — AlejandroLinaresGarcia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Courtesy of H. Ayuntamiento de Chiapa de Corzo. / Wikimedia Commons / Public domain (Public domain); Maestro artesano Luciano Molina / Wikimedia Commons / Public domain (Public domain); Bruno Rijsman / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Fotografiamerlin / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Wooden masks with blue eyes, Colorful ribbons, Metallic chinchines, Street processions
@@ -105,7 +105,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

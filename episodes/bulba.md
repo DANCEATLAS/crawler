@@ -1,8 +1,8 @@
 # Bulba — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An archival dance historian specializing in Soviet-era theatrical folk choreographies.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Potato Dance That Fooled History
 NARRATION: This is Bulba. Late 1930s.
-ON SCREEN: Hero video, first 10 seconds (YlhTXzoiRGI)
+ON SCREEN: Hero video, first 10 seconds (ocFrDqy0zSE)
 ON SCREEN: Title card: Bulba · Belarus · Late 1930s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Potato production pantomime.
-ON SCREEN: Hero video full screen, 30–45 s (YlhTXzoiRGI)
+ON SCREEN: Hero video full screen, 30–45 s (ocFrDqy0zSE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Concert stage ensemble formation
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -101,7 +101,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -162,7 +162,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -224,7 +224,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -278,7 +278,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'YlhTXzoiRGI', 'checked_by_vision_model': False, 'title': 'Taras Bulba (1962) Ride of the cossacks  HD in Stereo'}
+Hero video: {'youtube_id': 'ocFrDqy0zSE', 'checked_by_vision_model': True, 'title': 'Gopak de Taras Bulba - Denis Medvedev'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Concert stages of national folk dance ensembles, Field tools and agricultural pantomime gestures, Sheet music and folk arrangements of the song Bulba
@@ -288,9 +288,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
+Source: 8 tutorial(s) of the stage-contemporary family studied · videos studied: 8
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (2): https://en.wikipedia.org/wiki/Bulba; https://www.wikidata.org/wiki/Q4987247

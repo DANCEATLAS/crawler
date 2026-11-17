@@ -1,8 +1,8 @@
 # electric boogaloo — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A street dance historian and veteran popping practitioner.
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Crazy legs
 NARRATION: The Slot / Fresno
-NARRATION: Count it: .
+NARRATION: Count it: 3-2-1-go.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -105,7 +105,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 3-2-1-go.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -117,15 +117,17 @@ NARRATION: Step 1: Crazy legs
 NARRATION: Step 2: The Slot / Fresno
 NARRATION: Footwork from the sources: Fluid leg-oriented style including footwalks like Crazy legs and Walk-out.
 NARRATION: Drill: Creepin footwork with arms out
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 3-2-1-go · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Neck-o-flex
 NARRATION: Step 4: Twist-o-flex
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 3-2-1-go · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -136,12 +138,13 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: forgetting the sequence of steps
+NARRATION: Teachers of this dance warn against: getting the timing wrong
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 3-2-1-go.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -171,7 +174,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 3-2-1-go.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -181,9 +184,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Walk-out
 NARRATION: Drill: The Slot / Fresno side movement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 3-2-1-go · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Creepin: A foundational step of Boogaloo done in Oakland inspired by cartoon's Goofy, typically done as an entry and exit step with arms out, legs extended.
@@ -191,6 +195,7 @@ NARRATION: Crazy legs: A footwalk created by Poppin Pete by watching a boy calle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 3-2-1-go · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -201,12 +206,13 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: forgetting the sequence of steps
+NARRATION: Teachers of this dance warn against: getting the timing wrong
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 3-2-1-go.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Side-to-side movement in The Slot or Fresno.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -242,7 +248,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 3-2-1-go.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -253,9 +259,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Twist-o-flex
 NARRATION: Step 2: Walk-out
 NARRATION: Drill: Twist-o-flex sequence
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 3-2-1-go · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Fresno / The Slot: A side-to-side movement ending in a hard pose or hit with the leg and arm of the side moved to.
@@ -263,6 +270,7 @@ NARRATION: Twist-o-flex: A technique creating the impression of unnatural body j
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 3-2-1-go · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -273,12 +281,13 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: forgetting the sequence of steps
+NARRATION: Teachers of this dance warn against: getting the timing wrong
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 3-2-1-go.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Side-to-side movement in The Slot or Fresno.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -315,9 +324,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
-Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 3-2-1-go
+Demonstration: views used by most teachers: front, mirror; tempo progression: slow
+Cues: tap tap; shake shake; fist fist; california
+Common mistakes the studied teachers name: forgetting the sequence of steps; getting the timing wrong
 
 Sources (3): https://en.wikipedia.org/wiki/Electric_boogaloo_(dance); https://www.wikidata.org/wiki/Q354363; https://de.wikipedia.org/wiki/Electric_Boogie

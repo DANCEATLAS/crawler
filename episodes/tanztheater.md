@@ -1,6 +1,6 @@
 # Tanztheater — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; teaching steps written out
 
@@ -112,7 +112,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Explore physical response to an emotional prompt without fixed technique.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -177,7 +177,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Isolate an everyday emotional movement and repeat it across intervals.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -244,7 +244,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Build an extended phrase using rehearsal movement fragments (Bewegungen).
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
+Source: 8 tutorial(s) of the stage-contemporary family studied · videos studied: 8
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (5): https://en.wikipedia.org/wiki/Tanztheater; https://www.wikidata.org/wiki/Q1425858; https://es.wikipedia.org/wiki/Danza_teatro; https://fr.wikipedia.org/wiki/Danse-théâtre; https://de.wikipedia.org/wiki/Tanztheater

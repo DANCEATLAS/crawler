@@ -1,6 +1,6 @@
 # Contact Improvisation — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage
 
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: be completely present; share weight; reach into the negative space
 
 Sources (5): https://en.wikipedia.org/wiki/Contact_improvisation; https://www.wikidata.org/wiki/Q1128456; https://es.wikipedia.org/wiki/Contact_improvisación; https://fr.wikipedia.org/wiki/Contact_Improvisation; https://pt.wikipedia.org/wiki/Contato_improvisação

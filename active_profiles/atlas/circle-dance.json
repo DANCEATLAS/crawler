@@ -1,13 +1,70 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Linked hands, fingers, or hands on shoulders; sometimes arms are raised or lowered depending on the specific dance.",
+      "difficulty": "beginner",
+      "footwork": "Varies; common patterns include three steps forward and one step back.",
+      "formation_and_space": "Circle, semicircle, or curved line; moves around a central point or space.",
+      "hips_and_torso": "Minimal movement above the waist in some traditions like Kolo; more energetic in others.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "No individual partners; the entire group acts as a single unit.",
+      "posture": "Upright, often facing the center of the circle.",
+      "signature_moves": [
+        {
+          "description": "Three steps forward and one step back in a counterclockwise rotation.",
+          "name": "Hora step"
+        },
+        {
+          "description": "Leader breaks from the semicircle to perform improvised, skilled steps.",
+          "name": "Lawweeh lead"
+        }
+      ],
+      "tempo_feel": "Varies from gentle to energetic.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums",
+        "tambourines",
+        "voice"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "communal",
+        "meditative",
+        "energetic"
+      ],
+      "musical_form": "Cyclical, matching the circular movement of the dancers.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Repetitive, often driven by drums or vocal chorus.",
+      "sound_description": "The music is characterized by rhythmic, repetitive patterns that support the circular flow of the dance, often featuring a blend of vocal chanting and percussion.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Group singing, often with a leader singing verses and the group responding in chorus."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle or line by holding hands, fingers, or shoulders.",
+        "Step forward in a rhythmic sequence (e.g., three steps forward, one step back).",
+        "Rotate the circle, typically in a counterclockwise direction.",
+        "Follow the leader's tempo and movement changes."
+      ],
+      "formation": "Circle, semicircle, or curved line.",
+      "level_notes": "Beginner-friendly as it requires no partners, but requires attention to group synchronization.",
+      "rhythm": "Varies by tradition; often steady and repetitive to facilitate group synchronization."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0345572820265a1f3a442cc684528ce58085197b7d65ee59ba4b7ca58c6c9b42",
+  "fingerprint": "0eb9c3e2cf11d52756116b7d34ac65982880e20949c1d88445deef52f7b5fbc4",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +72,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific, standardized footwork patterns for the various regional variants beyond the Hora? Evidence needed: Instructional manuals or ethnographic dance studies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +102,18 @@
   ],
   "music_options": [],
   "name": "Circle dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c110405dc69ff1d0",
+      "next_evidence": "Instructional manuals or ethnographic dance studies.",
+      "question": "What are the specific, standardized footwork patterns for the various regional variants beyond the Hora?",
+      "source": "https://en.wikipedia.org/wiki/Circle_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate, actionable teaching material for different styles."
+    }
+  ],
+  "research_file": "research_results/circle-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +125,11 @@
   "slug": "circle-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Circle_dance",
-    "Source: Circle dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Circle_dance"
+    "https://www.wikidata.org/wiki/Q17080806",
+    "https://es.wikipedia.org/wiki/Danza_en_círculo",
+    "https://de.wikipedia.org/wiki/Kreistanz",
+    "https://ich.unesco.org/en/RL/00359"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

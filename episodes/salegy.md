@@ -1,8 +1,8 @@
 # Salegy — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Malagasy musician and dancer fluent in salegy tradition, blending historical knowledge with practical teaching
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'AUouq1alg10', 'checked_by_vision_model': True, 'title': 'Wawa Salegy - 400 Volt - clip officiel'}
+Hero video: {'youtube_id': 'AUouq1alg10', 'checked_by_vision_model': False, 'title': 'Wawa Salegy - 400 Volt - clip officiel'}
 Images: 1 licensed — The original uploader was Lemurbaby at English Wikipedia. / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 Motifs: Electric guitars glowing under stage lights, Hands clapping in rapid polyrhythms, Dancers bouncing energetically, Accordion synthesizer panels, Nightclub dance floors in Madagascar
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (3): https://en.wikipedia.org/wiki/Salegy; https://www.wikidata.org/wiki/Q3032090; https://fr.wikipedia.org/wiki/Salegy

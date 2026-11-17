@@ -1,8 +1,8 @@
 # Waka Waka — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Andean folk dancer with knowledge of cultural history and character roles
@@ -328,7 +328,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Women dancers wear more than 16 colorful layered skirts called polleras, an alpaca mantilla covering the head, and embroidered jubón jackets. Men wear bull costumes made from dried and shaped animal skins with bells hanging from the bulls' necks. The dance is performed in urban and rural settings, notably during festivals such as the Oruro Carnival and Gran Poder in Bolivia, and the Virgen de la Candelaria in Peru.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'FFtzqqgE3kA', 'checked_by_vision_model': False, 'title': 'Waka Waka Biggest flashmob in the Netherlands'}
+Hero video: {'youtube_id': 'FFtzqqgE3kA', 'checked_by_vision_model': True, 'title': 'Waka Waka Biggest flashmob in the Netherlands'}
 Images: 1 licensed — Akizia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Werra Son (Congo) Music video of "Waka Waka".webm — https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MTV TOP HITS 007 — https://archive.org/details/top-hits-n-o-p
 Motifs: Layered colorful skirts, Bells on bull costumes, Jumping kusillos, Brass band instruments

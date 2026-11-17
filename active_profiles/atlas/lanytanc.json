@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b222c023ff3824c207a56cfee0222fc11e2bca98f466ef62684db0420f2107a1",
+  "fingerprint": "69d88f379702443b1ddd3435a9ad12cf7d0691cb4efbf6e059c3acde48a43865",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific movement patterns and musical characteristics of the Lánytánc? Evidence needed: Ethnographic field studies or dance notation records."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Lánytánc",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5c85a0c349e658ed",
+      "next_evidence": "Ethnographic field studies or dance notation records.",
+      "question": "What are the specific movement patterns and musical characteristics of the Lánytánc?",
+      "source": "https://www.wikidata.org/wiki/Q3237462",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source only identifies it as a Hungarian folk dance without technical detail."
+    }
+  ],
+  "research_file": "research_results/lanytanc.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -56,7 +113,9 @@
     "session_modes": []
   },
   "slug": "lanytanc",
-  "sources": [],
+  "sources": [
+    "https://www.wikidata.org/wiki/Q3237462"
+  ],
   "state": "researching",
   "video_evidence": []
 }

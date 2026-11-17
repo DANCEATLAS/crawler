@@ -1,0 +1,851 @@
+{
+ "slug": "floss",
+ "name": "Floss",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-17T20:37:21Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic digital culture historian.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Floss",
+   "flossing",
+   "baile del hilo dental",
+   "danza del hilo dental"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Floss",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Invisible Thread: Decoding the Floss",
+     "This is Floss. 21st century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (KujchiodZEc)",
+     "Title card: Floss · United States · 21st century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in online video culture, with the earliest known instance dating to October 2010.",
+     "It was later popularized by Russell Horning in 2017 and integrated into video game culture via Fortnite."
+    ],
+    "on_screen": [
+     "Map: United States · Global",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed as a social media trend, a video game emote, and in television performances.",
+     "It has been associated with school environments and youth culture.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Design FLOSS events for developers - what we've learned.webm (https://upload.wikimedia.org/wikipedia/commons/c/ca/Design_FLOSS_events_for_developers_-_what_we%27ve_learned.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dancer performs rapid, parallel arm swings alternating left and right with clenched fists.",
+     "The movement includes counter-hip swings and a specific pattern of two swings in front of the body followed by one swing behind the body, while maintaining a stare directed straight ahead.",
+     "Watch for The Floss."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (KujchiodZEc)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Russell Horning (the 'backpack kid'), Justin Stewart, and Andrew Scites."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Clench fists.",
+     "Swing arms from back to front on alternating sides.",
+     "Count it: 1-2-3.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the origins and mechanics of the viral dance move that took over schoolyards and video games.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the arm swing motion.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the arm swing motion..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic digital culture historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Starr geradeaus gerichteter Blick (staring straight ahead).",
+      "Parallel alternating arm swings with clenched fists.",
+      "Counter-hip movements (gegenläufige Hüftbewegungen)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Clench fists.",
+      "Step 2: Swing arms from back to front on alternating sides.",
+      "Drill: Practice clenching fists."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform two swings in front of the body.",
+      "Step 4: Perform one swing behind the body.",
+      "Drill: Swing arms side to side without hip movement."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: stopping when losing the rhythm"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm swings while seated, focusing on shoulder range of motion. · For children: The 'Floss-Off' challenge: who can keep the rhythm longest."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm swings while seated, focusing on shoulder range of motion.",
+      "For children: The 'Floss-Off' challenge: who can keep the rhythm longest."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the arm swing motion..",
+      "The dance is performed as a social media trend, a video game emote, and in television performances.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate hip movement.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate hip movement..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic digital culture historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Starr geradeaus gerichteter Blick (staring straight ahead).",
+      "Parallel alternating arm swings with clenched fists.",
+      "Counter-hip movements (gegenläufige Hüftbewegungen)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Coordinate with counter-hip movements.",
+      "Drill: Add counter-hip swings to the arm motion."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Floss: Two swings in front of the body, one swing behind the body.",
+      "Drill: Practice the 2-front, 1-back rhythm."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: stopping when losing the rhythm"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm swings while seated, focusing on shoulder range of motion. · For children: The 'Floss-Off' challenge: who can keep the rhythm longest."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm swings while seated, focusing on shoulder range of motion.",
+      "For children: The 'Floss-Off' challenge: who can keep the rhythm longest."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate hip movement..",
+      "Russell Horning (the 'backpack kid'), Justin Stewart, and Andrew Scites.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Floss",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Floss.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic digital culture historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Starr geradeaus gerichteter Blick (staring straight ahead).",
+      "Parallel alternating arm swings with clenched fists.",
+      "Counter-hip movements (gegenläufige Hüftbewegungen)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform one swing behind the body.",
+      "Step 2: Coordinate with counter-hip movements."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Floss: Two swings in front of the body, one swing behind the body."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: stopping when losing the rhythm"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm swings while seated, focusing on shoulder range of motion. · For children: The 'Floss-Off' challenge: who can keep the rhythm longest."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm swings while seated, focusing on shoulder range of motion.",
+      "For children: The 'Floss-Off' challenge: who can keep the rhythm longest."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Floss.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Floss (United States). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "KujchiodZEc",
+   "checked_by_vision_model": false,
+   "title": "Dancing on Live TV!! Meredith Vieira Show"
+  },
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Design FLOSS events for developers - what we've learned.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Design_FLOSS_events_for_developers_-_what_we%27ve_learned.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "MediaWiki / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Lightening talk \"8 FLOSS tools and 4 hardware for audio, video and image editing for Commons\".webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lightening_talk_%228_FLOSS_tools_and_4_hardware_for_audio%2C_video_and_image_editing_for_Commons%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Subhashish Panigrahi / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:EsLibre 2021 P48 - Antonio Montes de Miguel - Creación de recursos espaciales de aprendizaje XR con FLOSS.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/EsLibre_2021_P48_-_Antonio_Montes_de_Miguel_-_Creaci%C3%B3n_de_recursos_espaciales_de_aprendizaje_XR_con_FLOSS.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Congreso esLibre, Germán Martínez / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music)",
+    "url": "https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Little Boy Has To Do Fortnite Dances As Punishment",
+    "url": "https://archive.org/details/youtube-yu-YnJudK6U",
+    "year": 2018,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Bom Bom Floss",
+    "url": "https://archive.org/details/BomBomFloss",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Radio Around the Region- Importance of Flossing (987935).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Radio_Around_the_Region-_Importance_of_Flossing_%28987935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "U.S. Army video by Staff Sgt. Matthew Angulo, Cpl. In Woo Cho / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Funny or Die Video 1eed61a4c1: FLOSS BOSS (The Original Hardcore Rap Video About Flossing)",
+    "url": "https://archive.org/details/funny_or_die_video_1eed61a4c1",
+    "year": 2015,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Split-screen comparisons of early YouTube videos and Fortnite emotes.",
+   "Graphic overlays showing the arm trajectory."
+  ],
+  "costume_notes": null,
+  "setting_notes": "The dance is performed as a social media trend, a video game emote, and in television performances. It has been associated with school environments and youth culture.",
+  "map": {
+   "country": "United States",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-2-3",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "1 2 3",
+   "push through",
+   "thrust your hip through the gap"
+  ],
+  "common_mistakes": [
+   "stopping when losing the rhythm"
+  ],
+  "segment_order": [
+   "intro",
+   "breakdown",
+   "layering",
+   "slow_practice"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "The Floss",
+    "counts": "1-2-3",
+    "description": "Swinging arms side to side while shifting hips in the opposite direction"
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "the music & instruments section",
+  "the costume & setting section",
+  "lineage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Floss_(dance)",
+  "https://www.wikidata.org/wiki/Q55135808",
+  "https://es.wikipedia.org/wiki/Baile_del_hilo_dental",
+  "https://de.wikipedia.org/wiki/Floss_(Tanz)",
+  "https://it.wikipedia.org/wiki/Floss_(danza)",
+  "https://archive.org/details/NPCM19350902"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "15071c7a5fcaa8fd52c5be5373031725aaf97a86685200df926e1395579ff882",
+ "hero_checked": null
+}

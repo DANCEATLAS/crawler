@@ -1,8 +1,8 @@
 # Baksa Kembang — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the music & instruments section; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; the music & instruments section; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -104,7 +104,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Picking flowers in a garden-like movement
 NARRATION: Step 2: Arranging flowers into a bogam bouquet
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -166,7 +166,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Picking flowers in a garden-like movement
 NARRATION: Step 2: Arranging flowers into a bogam bouquet
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -229,7 +229,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Arranging flowers into a bogam bouquet
 NARRATION: Step 2: Graceful movement with a selendang scarf
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -279,7 +279,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear a crown called gajah gemuling, decorated with two small bogam flowers and woven young coconut leaves known as halilipan. They carry a pair of bogam flowers, which are arrangements of roses, jasmine, Magnolia × alba, and Cananga odorata.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'ybK43LXtAwE', 'checked_by_vision_model': False, 'title': 'Tari Baksa Kembang dari Banjarmasin Kalimantan Selatan'}
+Hero video: {'youtube_id': 'ybK43LXtAwE', 'checked_by_vision_model': True, 'title': 'Tari Baksa Kembang dari Banjarmasin Kalimantan Selatan'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Gajah gemuling crown, Bogam flower bouquets, Selendang scarf
@@ -289,9 +289,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
+Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
 
 Sources (2): https://en.wikipedia.org/wiki/Baksa_kembang; https://www.wikidata.org/wiki/Q97240284

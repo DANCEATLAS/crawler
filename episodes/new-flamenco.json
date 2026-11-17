@@ -2,7 +2,7 @@
  "slug": "new-flamenco",
  "name": "New Flamenco",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
+ "built_at": "2026-11-17T21:36:22Z",
  "researched_at": "2026-11-10T17:16:36Z",
  "qc_score": 8.5,
  "status": "draft",
@@ -270,7 +270,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -413,7 +413,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -556,7 +556,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -707,7 +707,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "Y2JZgPdrt4A",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Contemporary flamenco dancer Carmen Avilés brings raw, fast-paced energy to Seville’s streets"
   },
   "wardrobe": {
@@ -745,13 +745,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the classical-court family studied",
-  "videos_studied": 4,
+  "source": "6 tutorial(s) of the classical-court family studied",
+  "videos_studied": 6,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
   ],
   "cues": [
    "keep length in both sides of the waist",
@@ -764,15 +765,19 @@
    "hold your placement",
    "stay straight as a board",
    "lift up in your lower abs",
-   "change feet"
+   "change feet",
+   "uno y dos"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
    "context",
+   "full_demo",
    "breakdown",
    "mistakes",
+   "slow_practice",
+   "layering",
    "music_practice"
   ],
   "steps_as_taught": []
@@ -780,7 +785,6 @@
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -801,6 +805,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "c11cddf69aa20a8bcf9dc7c0e47ac8325ac5b082d31402776a7581ef6248962a",
- "hero_checked": null
+ "input_fingerprint": "7d4e01f834949bba60e6ac5790802152d9f5b596edaddfe366587f82b79b661e",
+ "hero_checked": "pass"
 }

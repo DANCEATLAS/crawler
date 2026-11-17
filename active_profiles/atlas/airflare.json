@@ -1,13 +1,75 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Both hands are used to support the body and execute the circular rotation.",
+      "difficulty": "advanced",
+      "footwork": "Feet must remain off the ground; legs are held in a V-shape.",
+      "formation_and_space": "Circular path parallel to the floor.",
+      "hips_and_torso": "Torso rotates around the vertical axis of the body.",
+      "levels_and_jumps": "Inverted handstand level.",
+      "partnering": "not described in sources",
+      "posture": "Handstand position with the body inverted.",
+      "signature_moves": [
+        {
+          "description": "An advanced variation of the airflare.",
+          "name": "Airflare 1.5"
+        },
+        {
+          "description": "A variation performed on the elbows.",
+          "name": "Elbow airflare"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Feet touching the ground during execution."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Establish a handstand position",
+        "Rotate the torso around the vertical axis",
+        "Initiate circular travel parallel to the floor",
+        "Maintain legs in a V-shape",
+        "Use both hands to support the circular motion"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Advanced: requires significant upper-body strength and technical control.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "be1fbf3cbe9348a14c5043b7017c100be8b8a20abadf539aae2476c51a3c07ae",
+  "fingerprint": "82410e3bfe99e76fc7a23092c4393e683e9994f767a398c41d0d4e1dd646ebe3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +77,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific musical genres or tempo ranges traditionally associated with practicing airflares? Evidence needed: Interviews with breakdancing instructors or analysis of competition music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +106,18 @@
   ],
   "music_options": [],
   "name": "Airflare",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "2b1d828ca72d36f6",
+      "next_evidence": "Interviews with breakdancing instructors or analysis of competition music.",
+      "question": "Are there specific musical genres or tempo ranges traditionally associated with practicing airflares?",
+      "source": "https://en.wikipedia.org/wiki/Airflare",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources focus on the mechanics of the move, leaving the musical context undefined."
+    }
+  ],
+  "research_file": "research_results/airflare.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +129,8 @@
   "slug": "airflare",
   "sources": [
     "https://en.wikipedia.org/wiki/Airflare",
-    "Source: Airflare on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Airflare"
+    "https://www.wikidata.org/wiki/Q4698685",
+    "https://pt.wikipedia.org/wiki/Airflare_(acrobacia)"
   ],
   "state": "researching",
   "video_evidence": []

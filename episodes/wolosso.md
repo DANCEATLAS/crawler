@@ -1,8 +1,8 @@
 # Wolosso — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations.
@@ -307,7 +307,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'pR9RHZGLat0', 'checked_by_vision_model': True, 'title': 'Dollar R DJ Wolosso Clip Officiel'}
+Hero video: {'youtube_id': 'pR9RHZGLat0', 'checked_by_vision_model': False, 'title': 'Dollar R DJ Wolosso Clip Officiel'}
 Images: 0 licensed
 Footage: AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET — https://archive.org/details/africa-dance-5-complet
 Motifs: Close-up of rolling pelvic isolations against street backdrop, Offbeat bass pulse visualization, Contrasting modern urban club dance with rural folk origins
@@ -317,9 +317,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
+Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
 
 Sources (2): https://www.wikidata.org/wiki/Q2592787; https://de.wikipedia.org/wiki/Wolosso

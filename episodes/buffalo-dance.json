@@ -2,7 +2,7 @@
  "slug": "buffalo-dance",
  "name": "Buffalo dance",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-16T19:56:28Z",
  "qc_score": 10.0,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Buffalo dance. Traditional / Historical."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (o74Z0ZZOTEI)",
      "Title card: Buffalo dance · United States · Traditional / Historical"
     ],
     "music": "theme (30 s)"
@@ -105,7 +105,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (o74Z0ZZOTEI)",
      "Signature moves — MISSING",
      "Formation: Performed inside a large earth lodge facing an east-facing opening, centered around an altar displaying a painted buffalo skull."
     ],
@@ -262,7 +262,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "o74Z0ZZOTEI",
+   "checked_by_vision_model": true,
+   "title": "2019 Buffalo dance/Pueblo of Zuni,NM @ Sañto Ñino"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -358,8 +362,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "3 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 3,
+  "source": "4 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 4,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -392,7 +396,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "the how-it-is-danced section",
   "signature moves"
@@ -405,6 +408,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "306c8f4e5525b1203b7044af4422da858d4ce82e63452caf6fa571904d93c178",
- "hero_checked": null
+ "input_fingerprint": "d73e90495874f2e15624000132178ef13806b5a6b008c311067b71d212a85ed9",
+ "hero_checked": "pass"
 }

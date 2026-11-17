@@ -1,13 +1,90 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex kneeling",
+          "High-impact jumps"
+        ],
+        "counts": "Simplified 2/4 counts.",
+        "duration_minutes": "2-3 minutes",
+        "game_version": "A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Kneeling",
+          "Rapid turns"
+        ],
+        "counts": "Simplified 2/4 counts.",
+        "seated_version": "Perform the arm movements and torso rotations while seated in a semi-circle.",
+        "standing_version": "Perform the balancing and turning movements with support from a chair or partner, omitting jumps and kneeling.",
+        "tempo_and_range": "Reduced tempo and limited range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Initially holding shoulders, transitioning to holding hands.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Half circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumping and kneeling.",
+      "partnering": "Group connection via shoulder or hand holds.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Controlled movement performed in the initial phase.",
+          "name": "Balancing"
+        },
+        {
+          "description": "Athletic movement performed during the faster phase.",
+          "name": "Jumping"
+        },
+        {
+          "description": "Lowering to the ground during the faster phase.",
+          "name": "Kneeling"
+        },
+        {
+          "description": "Rotation performed during the faster phase.",
+          "name": "Turning"
+        }
+      ],
+      "tempo_feel": "Medium fast, accelerating.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "medium fast"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "2/4",
+      "sound_description": "The music follows a 2/4 rhythm and supports a transition from medium-fast balancing to faster, high-energy movements.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Balancing in a half-circle formation while holding shoulders.",
+        "Transitioning to holding hands as the tempo increases.",
+        "Executing jumps, kneeling, and turning movements."
+      ],
+      "formation": "Half circle",
+      "level_notes": "Intermediate, due to the requirement of jumping and kneeling.",
+      "rhythm": "2/4"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "37a87940fff52cd68594d76e3b688cd50b6d0a9882cd0b80660f9436336e9f04",
+  "fingerprint": "c2fa101b5573a5f5941e5cf1ce2cca327deeec236e7e9762f8a06f0b934f5a7e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +92,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is the Adana dance still actively performed in the Veles region today? Evidence needed: Field documentation or ethnographic survey of Veles folk traditions.",
+      "Investigate: What are the specific musical instruments traditionally used to accompany the Adana dance? Evidence needed: Musical analysis of the provided YouTube samples or the cited Dimovski (1977) text."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +122,27 @@
   ],
   "music_options": [],
   "name": "Adana",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "9829916da643bfca",
+      "next_evidence": "Field documentation or ethnographic survey of Veles folk traditions.",
+      "question": "Is the Adana dance still actively performed in the Veles region today?",
+      "source": "https://en.wikipedia.org/wiki/Adana_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To confirm the 'living' status of the tradition."
+    },
+    {
+      "domain": "research",
+      "id": "111861ca24e8b76a",
+      "next_evidence": "Musical analysis of the provided YouTube samples or the cited Dimovski (1977) text.",
+      "question": "What are the specific musical instruments traditionally used to accompany the Adana dance?",
+      "source": "https://en.wikipedia.org/wiki/Adana_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete music profile for practitioners."
+    }
+  ],
+  "research_file": "research_results/adana.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +154,7 @@
   "slug": "adana",
   "sources": [
     "https://en.wikipedia.org/wiki/Adana_(dance)",
-    "Source: Adana (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Adana_(dance)"
+    "https://www.wikidata.org/wiki/Q4680603"
   ],
   "state": "researching",
   "video_evidence": []

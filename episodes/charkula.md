@@ -1,8 +1,8 @@
 # Charkula — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Lamps of Braj: The 50-Kilo Pyramids of Charkula
 NARRATION: This is Charkula.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ObpdlAxF9qQ)
 ON SCREEN: Title card: Charkula · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Charkula balancing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ObpdlAxF9qQ)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
@@ -93,7 +93,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ObpdlAxF9qQ', 'checked_by_vision_model': True, 'title': 'Bharatiya लोक नृत्य | folk dance by Banaras Hindu University | National youth festival'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Gaahya, Saakhi, Rasiya, Charkula: Folk Music form of Uttar Pradesh — https://archive.org/details/dni.ncaa.CCRT-30-UMHB; Das Kathia: A narrative form of Orissa; Charkula: A dance form of Uttar Pradesh — https://archive.org/details/dni.ncaa.CCRT-63-UMHB; Folk Dance Performance by Shri Ramesh Chand Sharma and Group — https://archive.org/details/dni.ncaa.ICCR-2495-VHS; Folk Performance by Shri Naad Sangit Kala Kendra — https://archive.org/details/dni.ncaa.ICCR-2422-VHS; Holi Ke Rang Anek: Folk Performance by Charkula Swastik Group — https://archive.org/details/dni.ncaa.ICCR-2574-VHS
 Motifs: Multi-tiered circular wooden pyramid, 108 lighted oil lamps arranged in a spiral, Veiled female dancer maintaining delicate balance, Festive Braj gatherings following Holi
@@ -103,7 +103,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

@@ -1,0 +1,199 @@
+{
+ "youtube_id": "LLqtlKfM-pY",
+ "slug": "furry-dance",
+ "dance": "Furry Dance",
+ "title": "Furry Dance Class - Part 1",
+ "channel": "Komickrazi",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-17T21:25:16Z",
+ "url": "https://www.youtube.com/watch?v=LLqtlKfM-pY",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher uses a friendly, encouraging tone to guide students through basic dance steps. She breaks down movements into manageable parts and provides clear, repetitive verbal cues to help students follow along.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "The teacher introduces the class and explains the goal of working on simple, big moves."
+   },
+   {
+    "t": "0:09",
+    "segment": "warmup",
+    "note": "The teacher leads a short, simple warmup to get students moving."
+   },
+   {
+    "t": "0:23",
+    "segment": "breakdown",
+    "note": "The teacher breaks down step-touches, demonstrating the movement and explaining the arm placement."
+   },
+   {
+    "t": "1:10",
+    "segment": "breakdown",
+    "note": "The teacher introduces a 'drag' step, demonstrating the movement and explaining the footwork."
+   },
+   {
+    "t": "2:43",
+    "segment": "breakdown",
+    "note": "The teacher explains the importance of arm movement while bouncing, emphasizing the coordination between arms and legs."
+   },
+   {
+    "t": "3:44",
+    "segment": "breakdown",
+    "note": "The teacher breaks down a cross-step, emphasizing the footwork and the importance of watching the feet."
+   },
+   {
+    "t": "4:00",
+    "segment": "slow_practice",
+    "note": "The teacher practices the cross-step slowly, encouraging students to follow along."
+   },
+   {
+    "t": "5:17",
+    "segment": "breakdown",
+    "note": "The teacher introduces a side-to-side movement, explaining the coordination and the importance of chest movement."
+   },
+   {
+    "t": "7:27",
+    "segment": "music_practice",
+    "note": "The teacher allows students to practice the moves to their own beat for a minute."
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Step touch to the side",
+   "Drag your leg",
+   "Step across",
+   "Unwind",
+   "Bounce with your arms up"
+  ],
+  "metaphors": [
+   "Imagine you are squeezing something as you go down"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "mirror"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Feeling awkward while bouncing, which the teacher reassures is normal"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Step-touch",
+    "counts": "1-2-3-4",
+    "description": "A simple step to the side followed by a touch."
+   },
+   {
+    "name": "Drag",
+    "counts": "1-2-3-4",
+    "description": "A step followed by a dragging motion of the other foot."
+   },
+   {
+    "name": "Cross-step",
+    "counts": "1-2-3-4",
+    "description": "A step across the body followed by an unwind."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear, repetitive verbal cues",
+    "Breaking down complex movements into smaller parts",
+    "Encouraging and friendly tone"
+   ],
+   "what_hinders": [
+    "The teacher's costume might make it difficult to see some of the finer details of the footwork"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "So we're going to work on some simple, um, big moves first."
+   },
+   {
+    "t": "0:23",
+    "text": "Okay, we're going to start with the step touches to the side."
+   },
+   {
+    "t": "2:43",
+    "text": "So when you're bouncing, your arms up as you go down."
+   },
+   {
+    "t": "3:44",
+    "text": "So really watch your feet here."
+   },
+   {
+    "t": "4:10",
+    "text": "So my feet, watch them carefully, they kind of squeeze in and out."
+   },
+   {
+    "t": "7:27",
+    "text": "So this time, I'm actually going to get you to just kind of move to your own beat."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher stands in front of the class, explaining the lesson plan.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 23,
+    "end_s": 30,
+    "topic": "movement",
+    "observation": "The teacher demonstrates a step-touch, moving side to side.",
+    "viewpoint": "mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 110,
+    "end_s": 120,
+    "topic": "movement",
+    "observation": "The teacher demonstrates a drag step, showing the footwork.",
+    "viewpoint": "mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 243,
+    "end_s": 250,
+    "topic": "teaching",
+    "observation": "The teacher explains the arm movement while bouncing.",
+    "viewpoint": "mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 344,
+    "end_s": 355,
+    "topic": "movement",
+    "observation": "The teacher demonstrates a cross-step, showing the footwork.",
+    "viewpoint": "mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a full-body costume, which adds a unique visual element to the instruction."
+ },
+ "attempts": 1
+}

@@ -1,0 +1,372 @@
+{
+ "slug": "ballu-tundu",
+ "name": "Ballu tundu",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-17T20:43:10Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local Sardinian folk dance practitioner.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ballu tundu",
+   "ballu sardu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ballu tundu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Circle of Sardinia",
+     "This is Ballu tundu. 19th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (cSDjJ_0YaHU)",
+     "Title card: Ballu tundu · Italy · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance is believed to derive from prehistoric sacred ceremonies.",
+     "It has been documented since the early 19th century, with oral transmission ensuring its survival through generations."
+    ],
+    "on_screen": [
+     "Map: Italy · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It serves as a communal expression of social aggregation, historically linked to propitiating harvests or hunting success.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers form a circle, holding hands or arms.",
+     "The movement involves a rhythmic, pulsing motion of the trunk, while the legs execute precise steps.",
+     "The circle rotates clockwise.",
+     "Watch for Sa seria, Su sartiu."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (cSDjJ_0YaHU)",
+     "Captions name each signature move as it appears",
+     "Formation: Clockwise rotation in a circle."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Traditional instruments include the launeddas, organetto diatonico, accordion, harmonica, and various reed flutes.",
+     "Vocal accompaniment, such as the 'canto a tenore', is also common.",
+     "Listen for the launeddas, accordion, organetto diatonico, harmonica.",
+     "The pulse is 6/8.",
+     "The music is characterized by a rhythmic pulse that drives the dancers, often featuring the unique drone and melodic interplay of the launeddas or the energetic bellows of the accordion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Passus de Ballu — Ireneo Massidda",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performed at village festivals, celebrations, and public squares.",
+     "Traditional costumes vary by village, as seen in regional folk group performances."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Includes musicians like Efisio Melis (launeddas), Francesco Bande (accordion), and Antonio Masala (accordion).",
+     "Variants include 'su ballu antigu', 'su ballu seriu', 'su passu torrau', and 'su ballu e Ulassa', which differ in tempo and structure.",
+     "Part of the broader family of Sardinian folk dances (balli sardi), with connections to both monostructured and bistructured rhythmic patterns."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ballu tundu is parent of Ballu antigu: Ballu tundu is considered an evolution of the older ballu antigu."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is theorized to originate from prehistoric sacred ceremonies intended to propitiate harvests or hunting success, maintaining a link to communal ritual."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the ancient, rhythmic pulse of the Ballu Tundu, a dance that has connected Sardinian communities for centuries.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "6/8",
+  "rhythm_pattern": null,
+  "instruments": [
+   "launeddas",
+   "accordion",
+   "organetto diatonico",
+   "harmonica",
+   "reed flute"
+  ],
+  "vocal_style": "canto a tenore (polyphonic)",
+  "musical_form": "Introduction in 2/4, main dance in 6/8",
+  "mood": [
+   "joyous",
+   "lively",
+   "rhythmic"
+  ],
+  "sound_description": "The music is characterized by a rhythmic pulse that drives the dancers, often featuring the unique drone and melodic interplay of the launeddas or the energetic bellows of the accordion.",
+  "listen_before_composing": [
+   "Passus de Ballu — Ireneo Massidda"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Ballu tundu (Italy). Meter 6/8. Instruments: launeddas, accordion, organetto diatonico, harmonica, reed flute. Vocal style: canto a tenore (polyphonic). Form: Introduction in 2/4, main dance in 6/8. Mood: joyous, lively, rhythmic. It should sound like this: The music is characterized by a rhythmic pulse that drives the dancers, often featuring the unique drone and melodic interplay of the launeddas or the energetic bellows of the accordion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "cSDjJ_0YaHU",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performed at village festivals, celebrations, and public squares. Traditional costumes vary by village, as seen in regional folk group performances.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ASardinian_Dance.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sardinian_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Sardinian_Dance.jpg/1280px-Sardinian_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Cristiano Cani / Wikimedia Commons / CC BY 2.5",
+    "license": "CC BY 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASardinian_Dance.jpg",
+    "description": "Gruppo Folk Ittiri Cannedu"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Traditional Sardinian costumes",
+   "Launeddas pipes",
+   "Village square setting"
+  ],
+  "costume_notes": "Performed at village festivals, celebrations, and public squares. Traditional costumes vary by village, as seen in regional folk group performances.",
+  "setting_notes": "It serves as a communal expression of social aggregation, historically linked to propitiating harvests or hunting success.",
+  "map": {
+   "country": "Italy",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-2-3 / right-left-right-left",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: full"
+  ],
+  "cues": [
+   "rigidit del tronco",
+   "sa seria",
+   "s'allegrada"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Sa Seria",
+    "counts": "1-2-3-4",
+    "description": "A serious step starting on the right foot followed by alternating steps."
+   },
+   {
+    "name": "S'Allegrada",
+    "counts": "1-2-3",
+    "description": "A joyful, more playful phase involving lighter jumping or bouncing movements."
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ballu_tundu",
+  "https://www.wikidata.org/wiki/Q2881396",
+  "https://it.wikipedia.org/wiki/Ballo_sardo"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "b148404dfe9301142f3c60543180ffee73a2997b0ef13998b438e8b5430d8c71",
+ "hero_checked": "pass"
+}

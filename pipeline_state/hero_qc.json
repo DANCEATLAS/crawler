@@ -52125,10 +52125,12 @@
   "history": []
  },
  "wari": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:54:29Z",
   "hero": "6aCSB5NBsd8",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -52138,13 +52140,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 9
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 9,
+   "reason": "The video shows Nepalese folk dance, not the Peruvian Wari dance mentioned in the prompt."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "wotagei": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:55:04Z",
   "hero": "MuvJR2Pc9Vc",
   "verdict": "pass",
   "hard_fail": [],
@@ -52157,13 +52181,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 30,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality wide shot of a large group performing Wotagei with glow sticks in a warehouse setting."
+  },
   "history": []
  },
  "zambra": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:55:09Z",
   "hero": "scMES7MqlcU",
   "verdict": "pass",
   "hard_fail": [],
@@ -52176,17 +52221,42 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two dancers in traditional attire performing a fusion dance against a guitar background."
+  },
   "history": []
  },
  "ballet-de-cour": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:55:23Z",
   "hero": "ahtN4XSsTcs",
-  "verdict": "pass",
-  "hard_fail": [],
-  "soft_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -52195,13 +52265,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": false,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": true,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "The thumbnail features a presenter alongside historical illustrations of Ballet de Cour dancers."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "farruca": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:55:27Z",
   "hero": "3j5IRvgQAS8",
   "verdict": "pass",
   "hard_fail": [],
@@ -52214,16 +52306,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Pablo Egea performing Farruca on stage with musicians."
+  },
   "history": []
  },
  "israeli-folk-dance": {
-  "checked_at": "",
-  "hero": "dU3YgNln8ho",
+  "checked_at": "2026-11-17T20:55:30Z",
+  "hero": "qu-LaDQtwMg",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -52233,17 +52348,52 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Four people dancing in a studio setting, motion blur on the front dancer."
+  },
+  "history": [
+   {
+    "replaced": "dU3YgNln8ho",
+    "with": "qu-LaDQtwMg",
+    "at": "2026-11-17T20:55:34Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "dU3YgNln8ho"
  },
  "kemusan": {
-  "checked_at": "",
-  "hero": "Rwb54NW8CcU",
+  "checked_at": "2026-11-17T20:55:39Z",
+  "hero": "Bup3XZOW4hA",
   "verdict": "pass",
-  "hard_fail": [],
-  "soft_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -52252,13 +52402,44 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 5,
+   "reason": "Original Kemusan founder performing on an outdoor stage with added text."
+  },
+  "history": [
+   {
+    "replaced": "Rwb54NW8CcU",
+    "with": "Bup3XZOW4hA",
+    "at": "2026-11-17T20:55:44Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "Rwb54NW8CcU"
  },
  "pyrrhichios": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:56:32Z",
   "hero": "2AYrLtLW5bU",
   "verdict": "pass",
   "hard_fail": [],
@@ -52271,18 +52452,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Group of men performing traditional Pontic Pyrrhichios dance in authentic costumes on stage."
+  },
   "history": []
  },
  "rejang-dance": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:56:34Z",
   "hero": "GjV3VxHoHKg",
-  "verdict": "pass",
+  "verdict": "fail",
   "hard_fail": [],
   "soft_fail": [
-   "hd"
+   "hd",
+   "camera_ok"
   ],
   "checks": {
    "exists": true,
@@ -52292,17 +52495,41 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 5,
+   "reason": "Clear Rejang dancers performing in traditional attire outdoors, though video quality is slightly low."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "robot": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:56:39Z",
   "hero": "wt_nbTRzYrk",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -52311,13 +52538,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 25,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Dancer in a robot dance pose with an audience in a battle setting."
+  },
   "history": []
  },
  "tribal-fusion-belly-dance": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:56:42Z",
   "hero": "8XGIRLwcw4o",
   "verdict": "pass",
   "hard_fail": [],
@@ -52330,16 +52578,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear professional shot of a tribal fusion belly dancer performing a sword dance with a blindfold."
+  },
   "history": []
  },
  "ukusina": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:56:50Z",
   "hero": "3i4KnI4gNfg",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -52349,16 +52620,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": false,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Collage of Zulu maidens in traditional attire, posing rather than actively dancing."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "waacking": {
-  "checked_at": "",
-  "hero": "zuIPARqaNsg",
+  "checked_at": "2026-11-17T20:56:53Z",
+  "hero": "tCDqCnOqOas",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -52368,18 +52663,50 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality professional footage of a Waacking showcase at a dance competition with a clear subject."
+  },
+  "history": [
+   {
+    "replaced": "zuIPARqaNsg",
+    "with": "tCDqCnOqOas",
+    "at": "2026-11-17T20:56:57Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "zuIPARqaNsg"
  },
  "wolosso": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:02Z",
   "hero": "pR9RHZGLat0",
-  "verdict": "pass",
+  "verdict": "fail",
   "hard_fail": [],
   "soft_fail": [
-   "hd"
+   "hd",
+   "camera_ok"
   ],
   "checks": {
    "exists": true,
@@ -52389,32 +52716,87 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 4
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 4,
+   "reason": "Low resolution music video thumbnail showing people dancing in a street setting."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "zydeco": {
-  "checked_at": "",
-  "hero": "mgv8tQ-15MA",
+  "checked_at": "2026-11-17T20:57:06Z",
+  "hero": "CDgbEOnaksE",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "embeddable"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
    "embeddable": true,
    "duration_ok": true,
-   "hd": true,
+   "hd": false,
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Two people in a dance studio setting demonstrating a basic Zydeco dance step."
+  },
+  "history": [
+   {
+    "replaced": "mgv8tQ-15MA",
+    "with": "CDgbEOnaksE",
+    "at": "2026-11-17T20:57:10Z",
+    "reason": [
+     "embeddable"
+    ]
+   }
+  ],
+  "replaced_from": "mgv8tQ-15MA"
  },
  "collegiate-shag": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:15Z",
   "hero": "uUGsLoZYXb4",
   "verdict": "pass",
   "hard_fail": [],
@@ -52427,13 +52809,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality professional shot of a couple performing Collegiate Shag on a stage."
+  },
   "history": []
  },
  "ekikibi": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:19Z",
   "hero": "p3QuqlVw720",
   "verdict": "pass",
   "hard_fail": [],
@@ -52446,37 +52849,96 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Shows traditional Bakonzo dance in an outdoor setting with a group of observers."
+  },
   "history": []
  },
  "ekitaguriro": {
-  "checked_at": "",
-  "hero": "Mgo05aUl0_Y",
+  "checked_at": "2026-11-17T20:57:24Z",
+  "hero": "WJbtf7yQYMs",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
   "soft_fail": [
-   "hd"
+   "hd",
+   "not_talking_head"
   ],
   "checks": {
    "exists": true,
    "embeddable": true,
    "duration_ok": true,
-   "hd": false,
+   "hd": true,
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear footage of traditional Ekitaguriro dance performance at an outdoor cultural event."
+  },
+  "history": [
+   {
+    "replaced": "Mgo05aUl0_Y",
+    "with": "WJbtf7yQYMs",
+    "at": "2026-11-17T20:57:31Z",
+    "reason": [
+     "dance_visible",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "Mgo05aUl0_Y"
  },
  "entogoro": {
-  "checked_at": "",
-  "hero": "H_2lVBWAH3U",
+  "checked_at": "2026-11-17T20:57:35Z",
+  "hero": "KaVMSVIcD7c",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "looks_like_dance"
+  ],
   "soft_fail": [
    "hd"
   ],
@@ -52488,13 +52950,44 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Shows people performing traditional Entogoro dance in an outdoor setting with authentic attire."
+  },
+  "history": [
+   {
+    "replaced": "H_2lVBWAH3U",
+    "with": "KaVMSVIcD7c",
+    "at": "2026-11-17T20:57:40Z",
+    "reason": [
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "H_2lVBWAH3U"
  },
  "hayachine-kagura": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:44Z",
   "hero": "FkDXHdhkUiI",
   "verdict": "pass",
   "hard_fail": [],
@@ -52507,13 +53000,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear shot of a traditional Hayachine Kagura performance on a stage with musicians and a masked dancer."
+  },
   "history": []
  },
  "khiamniungan-folk-dance": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:47Z",
   "hero": "2L62Xv-9gRU",
   "verdict": "pass",
   "hard_fail": [],
@@ -52526,13 +53040,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Men in traditional Khiamniungan attire perform a folk dance outdoors."
+  },
   "history": []
  },
  "melinting-dance": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:52Z",
   "hero": "FL2dxHKipq8",
   "verdict": "pass",
   "hard_fail": [],
@@ -52547,13 +53082,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Four dancers in traditional Melinting dance attire with fans posing clearly."
+  },
   "history": []
  },
  "orunyege-ntogoro": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:57:57Z",
   "hero": "H_2lVBWAH3U",
   "verdict": "pass",
   "hard_fail": [],
@@ -52568,18 +53124,43 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Shows performers in traditional Ugandan attire executing the Orunyege dance outdoors."
+  },
   "history": []
  },
  "tambor-de-crioula": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:20Z",
   "hero": "mFLhyKpG4ok",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
   "soft_fail": [
-   "hd"
+   "hd",
+   "camera_ok"
   ],
   "checks": {
    "exists": true,
@@ -52589,13 +53170,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 3
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": false,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 3,
+   "reason": "Two men standing near a truck, no dancing visible."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "vasoorimala": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:22Z",
   "hero": "BsOzDH_RW2s",
   "verdict": "pass",
   "hard_fail": [],
@@ -52608,13 +53211,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 25,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Traditional Theyyam performers in elaborate costumes amidst a crowd."
+  },
   "history": []
  },
  "circassian-dance": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:28Z",
   "hero": "ua95fPR6HC8",
   "verdict": "pass",
   "hard_fail": [],
@@ -52627,16 +53251,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality video showing a group of women performing a traditional Circassian dance in a formal setting."
+  },
   "history": []
  },
  "debaa": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:32Z",
   "hero": "I_ETkyXu5cg",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -52646,13 +53294,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 9
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 9,
+   "reason": "The video shows a modern dance studio class, not the traditional Debaa dance from France."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "giddha": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:50Z",
   "hero": "U166QxgmCqw",
   "verdict": "pass",
   "hard_fail": [],
@@ -52665,13 +53335,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality image showing a group performing Giddha at a traditional Sangeet ceremony."
+  },
   "history": []
  },
  "gulikan-theyyam": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:54Z",
   "hero": "foAWoX6db84",
   "verdict": "pass",
   "hard_fail": [],
@@ -52684,13 +53375,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "The image shows a traditional Gulikan Theyyam performance with a dancer in costume and accompanying musicians."
+  },
   "history": []
  },
  "haitian-dance": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:58:58Z",
   "hero": "26eXGFrKOXU",
   "verdict": "pass",
   "hard_fail": [],
@@ -52705,18 +53417,43 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality shot of a couple performing a close-embrace dance style consistent with Konpa."
+  },
   "history": []
  },
  "jathilan": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:02Z",
   "hero": "xYvUGPcGM-8",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
   "soft_fail": [
-   "hd"
+   "hd",
+   "not_talking_head"
   ],
   "checks": {
    "exists": true,
@@ -52726,13 +53463,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": false,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 4
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": false,
+   "people_count": 1,
+   "talking_head": true,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 4,
+   "reason": "The thumbnail shows a person in traditional costume, but they are not dancing or in a dance pose."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "kangeelu": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:28Z",
   "hero": "IV0oqaegvLM",
   "verdict": "pass",
   "hard_fail": [],
@@ -52745,13 +53504,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "The image shows a group of performers in traditional costumes dancing on a stage."
+  },
   "history": []
  },
  "moraego": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:30Z",
   "hero": "sa5YcGs52Yc",
   "verdict": "pass",
   "hard_fail": [],
@@ -52766,13 +53546,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 30,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Group of dancers in traditional attire performing Moraego dance outdoors."
+  },
   "history": []
  },
  "okayama": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:35Z",
   "hero": "D6Y-gP9--pQ",
   "verdict": "pass",
   "hard_fail": [],
@@ -52785,13 +53586,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 6,
+   "reason": "Performers in traditional costumes are dancing on a stage, but context for 'Okayama' is unclear."
+  },
   "history": []
  },
  "rueda-de-casino": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:43Z",
   "hero": "rsthpn_W0gE",
   "verdict": "pass",
   "hard_fail": [],
@@ -52804,16 +53626,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 14,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Authentic group practice of Rueda de Casino in Cuba."
+  },
   "history": []
  },
  "salegy": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:46Z",
   "hero": "AUouq1alg10",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -52823,13 +53668,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Professional music video thumbnail showing Wawa performing a dance pose with a keytar."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "tsutsube": {
-  "checked_at": "",
+  "checked_at": "2026-11-17T20:59:55Z",
   "hero": "SzjrDdhyW7g",
   "verdict": "pass",
   "hard_fail": [],
@@ -52842,14 +53709,184 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Traditional dancers performing on stage in authentic attire at a festival."
+  },
   "history": []
  },
  "tsyganochka": {
-  "checked_at": "",
-  "hero": "kNPudJGGCyU",
+  "checked_at": "2026-11-17T21:00:37Z",
+  "hero": "pu9d8aqZsXc",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Shows a couple dancing Tsyganochka in a community setting with an accordion player."
+  },
+  "history": [
+   {
+    "replaced": "kNPudJGGCyU",
+    "with": "pu9d8aqZsXc",
+    "at": "2026-11-17T21:00:47Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "kNPudJGGCyU"
+ },
+ "apache": {
+  "checked_at": "2026-11-17T21:00:50Z",
+  "hero": "3TAxfqPbl8U",
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 8,
+   "reason": "This is a screenshot from the Just Dance video game, not a traditional Apache dance performance."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "caci": {
+  "checked_at": "2026-11-17T21:02:43Z",
+  "hero": "4K5fvJGqtTM",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 50,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Shows a traditional Caci ritual dance performance with participants in authentic attire in an outdoor setting."
+  },
+  "history": [
+   {
+    "replaced": "BMPYB1WgVig",
+    "with": "4K5fvJGqtTM",
+    "at": "2026-11-17T21:03:33Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "BMPYB1WgVig"
+ },
+ "chari-dance": {
+  "checked_at": "2026-11-17T21:03:34Z",
+  "hero": "7yhQfDX1Djk",
   "verdict": "pass",
   "hard_fail": [],
   "soft_fail": [],
@@ -52861,14 +53898,164 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear shot of Chari fire dance with dancer balancing a pot on her head."
+  },
   "history": []
  },
- "apache": {
-  "checked_at": "",
-  "hero": "3TAxfqPbl8U",
+ "grand-pas": {
+  "checked_at": "2026-11-17T21:03:48Z",
+  "hero": "Jujz3Z8EDDs",
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "named"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 10
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 10,
+   "reason": "High-quality professional stage performance of a Spanish-style ballet sequence from Raymonda."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "gusadi": {
+  "checked_at": "2026-11-17T21:03:52Z",
+  "hero": "4elgx_kvEQU",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "The image clearly shows Gonds performing the traditional Gussadi dance in an authentic outdoor setting."
+  },
+  "history": []
+ },
+ "hokey-pokey": {
+  "checked_at": "2026-11-17T21:04:04Z",
+  "hero": "CMHU2RxFgD4",
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 30,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 6,
+   "reason": "A group of people dancing at a social event, likely a dance school party."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "madison": {
+  "checked_at": "2026-11-17T21:04:06Z",
+  "hero": "eEkLpmvIMuw",
   "verdict": "pass",
   "hard_fail": [],
   "soft_fail": [
@@ -52882,14 +54069,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "A clear, high-quality scene from Hairspray depicting the Madison dance in an authentic 1960s style setting."
+  },
   "history": []
  },
- "caci": {
-  "checked_at": "",
-  "hero": "BMPYB1WgVig",
+ "new-flamenco": {
+  "checked_at": "2026-11-17T21:04:11Z",
+  "hero": "Y2JZgPdrt4A",
   "verdict": "pass",
   "hard_fail": [],
   "soft_fail": [],
@@ -52901,9 +54109,3183 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality professional shot of a dancer in a characteristic flamenco pose in an outdoor setting."
+  },
   "history": []
+ },
+ "nguni-stick-fighting": {
+  "checked_at": "2026-11-17T21:04:16Z",
+  "hero": "U1qrVYh7E1k",
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": false,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 6,
+   "reason": "The image shows Nguni stick fighting, which is a martial art, not a dance."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "pajoge": {
+  "checked_at": "2026-11-17T21:04:21Z",
+  "hero": "7NqU6HQMWU0",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality professional shot of a dancer in traditional Bugis attire performing Tari Pajoge."
+  },
+  "history": []
+ },
+ "rebolation": {
+  "checked_at": "2026-11-17T21:04:24Z",
+  "hero": "WGQAGTmc8Qs",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd",
+   "camera_ok"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 4
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 4,
+   "reason": "Low resolution, blurry video frame showing a person performing Free Step/Rebolation dance moves outdoors."
+  },
+  "history": [
+   {
+    "replaced": "Zg92v4lE-Zo",
+    "with": "WGQAGTmc8Qs",
+    "at": "2026-11-17T21:04:27Z",
+    "reason": [
+     "hd",
+     "camera_ok"
+    ]
+   }
+  ],
+  "replaced_from": "Zg92v4lE-Zo"
+ },
+ "sisingaan": {
+  "checked_at": "2026-11-17T21:04:33Z",
+  "hero": "66jouszDYNI",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Shows a group of dancers performing in traditional Indonesian attire with musicians in the background."
+  },
+  "history": [
+   {
+    "replaced": "-wumwQ1VRHs",
+    "with": "66jouszDYNI",
+    "at": "2026-11-17T21:04:43Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "-wumwQ1VRHs"
+ },
+ "the-jerk": {
+  "checked_at": "2026-11-17T21:04:47Z",
+  "hero": "TZdvihA7Y1A",
+  "verdict": "pass",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "A professional black and white performance of 1960s dance moves by a singer and backup dancers."
+  },
+  "history": [
+   {
+    "replaced": "gPn7DgV5d5A",
+    "with": "TZdvihA7Y1A",
+    "at": "2026-11-17T21:04:49Z",
+    "reason": [
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "gPn7DgV5d5A"
+ },
+ "firkal-dance": {
+  "checked_at": "2026-11-17T21:04:56Z",
+  "hero": "qsAp7bwMA-E",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 7,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Shows a group of performers in traditional attire performing a Firkal dance with pots."
+  },
+  "history": [
+   {
+    "replaced": "0JCWeR4AlQs",
+    "with": "qsAp7bwMA-E",
+    "at": "2026-11-17T21:05:07Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "0JCWeR4AlQs"
+ },
+ "ghatu-dance": {
+  "checked_at": "2026-11-17T21:05:31Z",
+  "hero": "U1vVfPUoLkI",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Clear shot of a group performing Ghatu dance in traditional attire on a stage."
+  },
+  "history": []
+ },
+ "nagila": {
+  "checked_at": "2026-11-17T21:05:34Z",
+  "hero": "cR1kloYoPjs",
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 7,
+   "reason": "The image shows a group of dancers in traditional-style costumes performing on stage."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "nepalese-dance": {
+  "checked_at": "2026-11-17T21:05:51Z",
+  "hero": "A59oeV9eX08",
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [
+   "named"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality professional thumbnail showing a dancer in traditional Nepalese attire at a cultural event in Berlin."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "paiki-dance": {
+  "checked_at": "2026-11-17T21:05:55Z",
+  "hero": "9rnS3Gpd8Jk",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear shot of performers in traditional Paika dance attire with swords and shields on a stage."
+  },
+  "history": []
+ },
+ "parachico": {
+  "checked_at": "2026-11-17T21:06:00Z",
+  "hero": "7SDNKbFCZ84",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear shot of Parachicos dancers in traditional attire performing on a stage."
+  },
+  "history": []
+ },
+ "pukllay": {
+  "checked_at": "2026-11-17T21:06:05Z",
+  "hero": "TNB-QHremRU",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "A group of dancers in traditional attire performing a folk dance in an outdoor public setting."
+  },
+  "history": []
+ },
+ "redowa": {
+  "checked_at": "2026-11-17T21:06:06Z",
+  "hero": "tIZozQKadkw",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Couples dancing historical waltzes on a stage in traditional formal attire."
+  },
+  "history": []
+ },
+ "sakhiya-dance": {
+  "checked_at": "2026-11-17T21:06:12Z",
+  "hero": "TldQMocBMNA",
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 5
+  },
+  "vision": {
+   "dance_visible": false,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 5,
+   "reason": "Music video thumbnail featuring two people posing, not showing traditional Sakhiya dance."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "syabru-dance": {
+  "checked_at": "2026-11-17T21:06:16Z",
+  "hero": "PduimfjXF3U",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 7,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Group in traditional Sherpa attire performing a cultural dance with a musician."
+  },
+  "history": []
+ },
+ "tarraxinha": {
+  "checked_at": "2026-11-17T21:06:20Z",
+  "hero": "ZrlZabtuS_g",
+  "verdict": "pass",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Couple dancing Tarraxinha in a studio with spectators watching."
+  },
+  "history": [
+   {
+    "replaced": "VgTzMiiBKSo",
+    "with": "ZrlZabtuS_g",
+    "at": "2026-11-17T21:06:29Z",
+    "reason": [
+     "dance_visible",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "VgTzMiiBKSo"
+ },
+ "tebe-dance": {
+  "checked_at": "2026-11-17T21:06:36Z",
+  "hero": "0mYBp-YxfOc",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 14,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Group performing traditional Tebe dance in traditional attire on a stage at night."
+  },
+  "history": []
+ },
+ "tipri-dance": {
+  "checked_at": "2026-11-17T21:07:21Z",
+  "hero": "iBgHjDXDBxs",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "School girls performing Tipri dance with sticks on stage, with added text overlay."
+  },
+  "history": []
+ },
+ "baksa-kembang": {
+  "checked_at": "2026-11-17T21:07:24Z",
+  "hero": "ybK43LXtAwE",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Four dancers in traditional Balinese attire performing outdoors in daylight."
+  },
+  "history": []
+ },
+ "gusharaveli": {
+  "checked_at": "2026-11-17T21:07:29Z",
+  "hero": "VZxcgyxBs3E",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Dancers performing the traditional Gusharaveli dance on stage in authentic costumes."
+  },
+  "history": []
+ },
+ "poco-poco": {
+  "checked_at": "2026-11-17T21:07:52Z",
+  "hero": "MHzlphKGOxI",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Group of dancers in matching white and red costumes performing outdoors in front of a monument."
+  },
+  "history": []
+ },
+ "poikkaal-kuthirai-aattam": {
+  "checked_at": "2026-11-17T21:07:54Z",
+  "hero": "vYl4RM1ADF4",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Shows performers in traditional Poikkaal Kuthirai Aattam costumes dancing in a public setting."
+  },
+  "history": [
+   {
+    "replaced": "U0P4EaHyEGI",
+    "with": "vYl4RM1ADF4",
+    "at": "2026-11-17T21:08:01Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "U0P4EaHyEGI"
+ },
+ "quebradita": {
+  "checked_at": "2026-11-17T21:08:05Z",
+  "hero": "uIF8MrZ2ptA",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 25,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Shows a couple performing a characteristic Quebradita lift in front of a crowd."
+  },
+  "history": []
+ },
+ "ramayana-ballet": {
+  "checked_at": "2026-11-17T21:08:10Z",
+  "hero": "s8QFBnF2Kd0",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality image showing performers in traditional Ramayana Ballet costumes on stage."
+  },
+  "history": []
+ },
+ "singo-ulung": {
+  "checked_at": "2026-11-17T21:08:15Z",
+  "hero": "GLjlBwt37I8",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear shot of performers in traditional Singo Ulung lion costumes dancing in an outdoor field."
+  },
+  "history": []
+ },
+ "apatampa": {
+  "checked_at": "2026-11-17T21:08:19Z",
+  "hero": "gxnSDuuK7-I",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "A group of children in traditional Ghanaian attire performing a dance in a school courtyard setting."
+  },
+  "history": []
+ },
+ "assamese-folk-dance": {
+  "checked_at": "2026-11-17T21:08:22Z",
+  "hero": "sA-A1YwA8jA",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Five dancers in traditional Assamese attire performing a Bihu dance pose outdoors."
+  },
+  "history": []
+ },
+ "choobazi": {
+  "checked_at": "2026-11-17T21:08:29Z",
+  "hero": "IlKVEZqiemo",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "camera_ok"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 5,
+   "reason": "Shows a group performing traditional Choobazi dance in a social setting, though the image quality is somewhat blurry."
+  },
+  "history": []
+ },
+ "dhunuchi-dance": {
+  "checked_at": "2026-11-17T21:08:33Z",
+  "hero": "i9uGuUrMi4U",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality image showing a woman performing the traditional Dhunuchi dance with incense burners."
+  },
+  "history": [
+   {
+    "replaced": "lYj4t0KGW5s",
+    "with": "i9uGuUrMi4U",
+    "at": "2026-11-17T21:08:36Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "lYj4t0KGW5s"
+ },
+ "duffmuttu": {
+  "checked_at": "2026-11-17T21:08:42Z",
+  "hero": "D-RiS71LR9I",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "A group of performers in traditional white attire performing Duffmuttu on a stage at a school competition."
+  },
+  "history": []
+ },
+ "gendang-beleq": {
+  "checked_at": "2026-11-17T21:08:50Z",
+  "hero": "KP2A39zmmrw",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "A traditional Indonesian dance performance with a dancer and a Gamelan orchestra in an outdoor setting."
+  },
+  "history": []
+ },
+ "harul": {
+  "checked_at": "2026-11-17T21:08:54Z",
+  "hero": "Cn7J6ggDix0",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 14,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Men linked in a traditional Harul dance formation outdoors."
+  },
+  "history": []
+ },
+ "khamba-thoibi-jagoi": {
+  "checked_at": "2026-11-17T21:08:57Z",
+  "hero": "472kJx8MRi0",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Performers in traditional attire dancing on a stage during a cultural event."
+  },
+  "history": []
+ },
+ "kushan-dance": {
+  "checked_at": "2026-11-17T21:09:01Z",
+  "hero": "1EGsfXGahak",
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 25,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Collage of Kushan and Bihu folk dance performances outdoors with Bengali text overlays."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "laudi-khela": {
+  "checked_at": "2026-11-17T21:09:06Z",
+  "hero": "issbpoLFBh8",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 5,
+   "reason": "Men performing traditional Laudi Khela dance outdoors."
+  },
+  "history": []
+ },
+ "malaysian-dance": {
+  "checked_at": "2026-11-17T21:09:09Z",
+  "hero": "N3LR_nx4Nj4",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Performers in traditional Malaysian attire dancing in a large hall."
+  },
+  "history": []
+ },
+ "serbian-folk-dance": {
+  "checked_at": "2026-11-17T21:09:14Z",
+  "hero": "lup58Ftu4S0",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Dancers in traditional Serbian folk attire performing on stage."
+  },
+  "history": []
+ },
+ "yak-dance": {
+  "checked_at": "2026-11-17T21:09:23Z",
+  "hero": "R7AqZsjBbgA",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Authentic performance of the Yak dance in Ladakh with traditional costume and audience."
+  },
+  "history": []
+ },
+ "bappiriyan-theyyam": {
+  "checked_at": "2026-11-17T21:09:26Z",
+  "hero": "8QKu8mzh5ZQ",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [
+   "named"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Authentic Bappiriyan Theyyam performance captured outdoors at night with traditional costume and straw."
+  },
+  "history": [
+   {
+    "replaced": "0pdRSGaVWv0",
+    "with": "8QKu8mzh5ZQ",
+    "at": "2026-11-17T21:09:37Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "0pdRSGaVWv0"
+ },
+ "deodhani-dance": {
+  "checked_at": "2026-11-17T21:09:40Z",
+  "hero": "BF5_jJJjLt0",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Multiple dancers performing in a classroom presentation setting."
+  },
+  "history": [
+   {
+    "replaced": "CWdjauYDJ7s",
+    "with": "BF5_jJJjLt0",
+    "at": "2026-11-17T21:09:44Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "CWdjauYDJ7s"
+ },
+ "dhan-nach": {
+  "checked_at": "2026-11-17T21:09:48Z",
+  "hero": "ZQwamdG0DJI",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "People in traditional attire holding hands, performing Dhan Nach outdoors."
+  },
+  "history": []
+ },
+ "kerala-natanam": {
+  "checked_at": "2026-11-17T21:09:58Z",
+  "hero": "OhMN85bx750",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear shot of dancer performing Kerala Natanam with traditional costume and makeup."
+  },
+  "history": []
+ },
+ "kolkali": {
+  "checked_at": "2026-11-17T21:10:01Z",
+  "hero": "MfkfGjlqaf4",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Men performing the Kolkali dance on a stage with traditional attire."
+  },
+  "history": []
+ },
+ "kuttichathan-theyyam": {
+  "checked_at": "2026-11-17T21:10:06Z",
+  "hero": "bFvOlDyu1Sk",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Authentic Kuttichathan Theyyam performance outdoors with traditional costume."
+  },
+  "history": []
+ },
+ "pulimaranja-thondachan": {
+  "checked_at": "2026-11-17T21:10:09Z",
+  "hero": "QjbDIPizFuQ",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 50,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Authentic Theyyam performance featuring Pulimaranja Thondachan with elaborately dressed performers and spectators."
+  },
+  "history": []
+ },
+ "waka-waka": {
+  "checked_at": "2026-11-17T21:10:16Z",
+  "hero": "FFtzqqgE3kA",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 500,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "High-angle shot of a massive flashmob dancing outdoors in a public square."
+  },
+  "history": []
+ },
+ "baile-folklorico": {
+  "checked_at": "2026-11-17T21:10:19Z",
+  "hero": "L1zsP1plkCY",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Dancers in colorful traditional dresses performing baile folklorico on stage."
+  },
+  "history": []
+ },
+ "bankhead-bounce": {
+  "checked_at": "2026-11-17T21:10:30Z",
+  "hero": "D_hpI0tMZac",
+  "verdict": "pass",
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Two dancers demonstrating the Bankhead Bounce on a basketball court."
+  },
+  "history": [
+   {
+    "replaced": "qcCFxzmBG_M",
+    "with": "D_hpI0tMZac",
+    "at": "2026-11-17T21:10:39Z",
+    "reason": [
+     "dance_visible",
+     "not_poster",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "qcCFxzmBG_M"
+ },
+ "batuque": {
+  "checked_at": "2026-11-17T21:10:44Z",
+  "hero": "NblcFPVqzDY",
+  "verdict": "pass",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Professional music video thumbnail showing Batucadeiras performing Batuque on a beach."
+  },
+  "history": [
+   {
+    "replaced": "Nvld-GrNt5Y",
+    "with": "NblcFPVqzDY",
+    "at": "2026-11-17T21:10:50Z",
+    "reason": [
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "Nvld-GrNt5Y"
+ },
+ "bulba": {
+  "checked_at": "2026-11-17T21:10:54Z",
+  "hero": "ocFrDqy0zSE",
+  "verdict": "pass",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 7,
+   "reason": "Performer captured mid-air executing a traditional dance leap, likely Gopak."
+  },
+  "history": [
+   {
+    "replaced": "YlhTXzoiRGI",
+    "with": "ocFrDqy0zSE",
+    "at": "2026-11-17T21:11:25Z",
+    "reason": [
+     "dance_visible",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "YlhTXzoiRGI"
+ },
+ "bush-dance": {
+  "checked_at": "2026-11-17T21:11:29Z",
+  "hero": "qHqzjQty7aY",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Three people perform the Nutbush line dance outdoors in Australian bushland."
+  },
+  "history": []
+ },
+ "buzzard-lope": {
+  "checked_at": "2026-11-17T21:11:45Z",
+  "hero": "jyv35oHSkho",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "The subject is performing the Buzzard Lope in a natural, culturally relevant setting with high production quality."
+  },
+  "history": []
+ },
+ "chaabi": {
+  "checked_at": "2026-11-17T21:11:49Z",
+  "hero": "vrFkdmw9piE",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Two performers dancing on a stage in front of an audience, consistent with Moroccan Chaabi performance style."
+  },
+  "history": []
+ },
+ "chholiya": {
+  "checked_at": "2026-11-17T21:11:52Z",
+  "hero": "X_qCnIl9qYw",
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "camera_ok"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 4
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 4,
+   "reason": "The thumbnail shows a group dance, but it is not the Chholiya dance, which is traditionally performed by men."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "hustle": {
+  "checked_at": "2026-11-17T21:11:56Z",
+  "hero": "BzrA38NiyoA",
+  "verdict": "pass",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Four people performing the Hustle in a professional television studio setting."
+  },
+  "history": [
+   {
+    "replaced": "frCnHr1CmDg",
+    "with": "BzrA38NiyoA",
+    "at": "2026-11-17T21:12:50Z",
+    "reason": [
+     "dance_visible",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "frCnHr1CmDg"
+ },
+ "jurit-ampil-kridha-warastra-dance": {
+  "checked_at": "2026-11-17T21:12:58Z",
+  "hero": "vaomwDA1VSE",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Three dancers in traditional Javanese warrior attire performing outdoors in front of a temple gate."
+  },
+  "history": []
+ },
+ "panjurli": {
+  "checked_at": "2026-11-17T21:13:07Z",
+  "hero": "Ac_8bkJelD4",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Performer in traditional Panjurli deity ritual attire surrounded by spectators."
+  },
+  "history": []
+ },
+ "ula": {
+  "checked_at": "2026-11-17T21:13:17Z",
+  "hero": "OsSEe6d1GCs",
+  "verdict": "pass",
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Group performing Tongan dance in traditional attire on stage."
+  },
+  "history": [
+   {
+    "replaced": "0clVoLmjRFg",
+    "with": "OsSEe6d1GCs",
+    "at": "2026-11-17T21:13:22Z",
+    "reason": [
+     "dance_visible",
+     "not_poster",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "0clVoLmjRFg"
+ },
+ "batusi": {
+  "checked_at": "2026-11-17T21:13:24Z",
+  "hero": "RsYA8Gr5NTY",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Adam West performing the famous Batusi dance pose from Batman 1966."
+  },
+  "history": []
+ },
+ "boduberu": {
+  "checked_at": "2026-11-17T21:13:32Z",
+  "hero": "a00Ac2iFPsU",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Performer playing drums and dancing boduberu at Expo 2020 Dubai."
+  },
+  "history": []
+ },
+ "boria": {
+  "checked_at": "2026-11-17T21:13:40Z",
+  "hero": "zrxVwuUbl38",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Performers in traditional Boria costumes dancing on a television set."
+  },
+  "history": [
+   {
+    "replaced": "VP8Mmvp1ewg",
+    "with": "zrxVwuUbl38",
+    "at": "2026-11-17T21:14:03Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "VP8Mmvp1ewg"
+ },
+ "branyo": {
+  "checked_at": "2026-11-17T21:14:06Z",
+  "hero": "_l3bArOHHIM",
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "hd",
+   "named"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": false,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": false,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 6,
+   "reason": "Shows musicians performing traditional Portuguese-Malaccan music, but no dancing is visible."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "bubble-dance": {
+  "checked_at": "2026-11-17T21:14:10Z",
+  "hero": "XM1BX5ka5Zg",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Shows historical footage of Sally Rand performing the famous bubble dance."
+  },
+  "history": []
+ },
+ "buffalo-dance": {
+  "checked_at": "2026-11-17T21:14:20Z",
+  "hero": "o74Z0ZZOTEI",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Authentic performance of the Buffalo dance outdoors in Zuni, NM."
+  },
+  "history": []
+ },
+ "cajun-jitterbug": {
+  "checked_at": "2026-11-17T21:14:23Z",
+  "hero": "zYW8JdNC4kg",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Two dancers demonstrating Cajun Jitterbug in a studio setting."
+  },
+  "history": []
+ },
+ "carolina-shag": {
+  "checked_at": "2026-11-17T21:14:27Z",
+  "hero": "y-txQrkv1bE",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "A couple performing a partner dance in a ballroom setting, consistent with Carolina Shag style."
+  },
+  "history": []
+ },
+ "charkula": {
+  "checked_at": "2026-11-17T21:14:34Z",
+  "hero": "ObpdlAxF9qQ",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "named"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "The image clearly shows performers in traditional Charkula dance attire with lamps on their heads."
+  },
+  "history": []
+ },
+ "charleston-stroll": {
+  "checked_at": "2026-11-17T21:14:36Z",
+  "hero": "psch9N4PmO4",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Black and white archival footage showing a group performing 1920s era dance styles on a stage."
+  },
+  "history": []
+ },
+ "clog-dance": {
+  "checked_at": "2026-11-17T21:14:42Z",
+  "hero": "BT9naCq0fdE",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 7,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "Professional stage performance of the Clog Dance from La Fille mal gardée by The Royal Ballet."
+  },
+  "history": []
+ },
+ "garrotin": {
+  "checked_at": "2026-11-17T21:14:44Z",
+  "hero": "1AUAf3A9iTU",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality professional photograph of a flamenco dancer performing with live musical accompaniment."
+  },
+  "history": []
+ },
+ "chozhikali": {
+  "checked_at": "2026-11-17T21:14:54Z",
+  "hero": "DayYB_kRvCo",
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": false,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": false,
+   "people_count": 1,
+   "talking_head": true,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 6,
+   "reason": "The thumbnail shows a talking head video of a woman, not a dance performance."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "vallenato": {
+  "checked_at": "2026-11-17T21:14:56Z",
+  "hero": "osDqYh9MaBc",
+  "verdict": "pass",
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "A woman demonstrating a basic Vallenato dance step in a studio setting."
+  },
+  "history": [
+   {
+    "replaced": "udQPylkKgbM",
+    "with": "osDqYh9MaBc",
+    "at": "2026-11-17T21:15:00Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "udQPylkKgbM"
  }
 }

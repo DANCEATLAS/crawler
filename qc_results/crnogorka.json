@@ -1,0 +1,119 @@
+{
+ "slug": "crnogorka",
+ "qc_at": "2026-11-17T20:53:22Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Crnogorka"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "95"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "168"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the Skopje region, dancers perform the Crnogorka in a half-circle formation, "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "323"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2835"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "North Macedonia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-supported by the provided evidence. It maintains a respectful tone and provides clear, actionable technical details for a beginner. The lack of historical context is handled transparently, which is preferable to speculation."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=9.45"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-17T20:05:51Z"
+}

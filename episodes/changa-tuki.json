@@ -1,0 +1,819 @@
+{
+ "slug": "changa-tuki",
+ "name": "Changa tuki",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-17T18:44:03Z",
+ "qc_score": 9.55,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A veteran barrio dancer from the Máquina Latina era who emphasizes battle resilience, crew pride, and street authenticity.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Changa tuki",
+   "raptor house",
+   "changa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Changa tuki",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Caracas Matinée: The Sweat, Bass, and Battles of Changa Tuki",
+     "This is Changa tuki. Late 1990s to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Changa tuki · Venezuela · Late 1990s to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Changa tuki originated in the late 1990s within the popular barrios of Caracas, Venezuela, including neighborhoods such as Catia and Propatria.",
+     "Created by DJ Baba, the style emerged from improvised house parties known as parrandas, where DJs adapted 1990s techno and house heard on mobile sound systems (minitecas) into a tribal style with strident synthesizers and Caribbean flavor."
+    ],
+    "on_screen": [
+     "Map: Venezuela · South America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally performed during afternoon matinée parties and community parrandas, changa tuki functioned as an outlet for urban youth, reflecting the adrenaline and social tension of Caracas barrios while providing a peaceful arena for rival groups to resolve disputes.",
+     "Despite facing class-based stigma and pejorative labeling from middle and upper classes, the movement enabled prominent dancers to progress professionally and open their own dance academies.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Bailando con la changa.webm (https://upload.wikimedia.org/wikipedia/commons/8/85/Bailando_con_la_changa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING",
+     "Formation: Dance circles and direct battle face-offs inside club dance floors and afternoon matinées"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical foundation of changa tuki (raptor house) combines 1990s techno, house, tribal house, and Afro-Venezuelan rhythms, characterized by strident synthesizers and Caribbean percussive feel.",
+     "Key early productions included the track 'Caracas de noche' alongside bootleg electronic remixes sampling eurodance tracks by Aqua, Def Rhymz, and Vengaboys, eventually expanding into subgenres such as hard fusion, tuki bass, street house, raptordrill, bowflavor, and Venezuelan afro-house.",
+     "Listen for the synthesizers, electronic percussion, samplers.",
+     "Changa tuki is characterized by piercing, strident synthesizers layered over high-velocity tribal house and techno patterns infused with Caribbean and Afro-Venezuelan percussive accents. The sound frequently incorporates pitched eurodance vocal samples, siren-like hooks, and raw electronic basslines tailored for high-volume sound systems."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Caracas de noche — DJ Baba / DJ Yirvin and collaborators; Pan con mortadela — not described in sources; Petarazo — not described in sources",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers developed a recognizable street aesthetic consisting of tight red pants, sleeveless shirts, caps worn low enough to almost cover their eyes, and Nike shoes styled after Air Jordans.",
+     "Dancers frequently used hydrogen peroxide to bleach their beards and the tips of their hair.",
+     "The primary settings were afternoon club matinées, popular barrio discotheques like Iguana in Caracas, and informal residential parrandas."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key musical creators include DJ Baba and DJ Yirvin, supported by producers such as DJ Javith, Byakko, DJ Deep, DJ Armando, DJ Linares, DJ Yoiser, DJ Ronald TRHP, Marvin DJ, Pacheko, and Pocz.",
+     "Acclaimed dancers popularized through the 'Máquina Latina' and 'Adrenalina' video mixtapes include Elberth 'El Maestro', Víctor 'El Heredero', and Eduardo 'Silvestre'.",
+     "Originating in Caracas neighborhoods such as Catia and Propatria, the dance spread to major cities across Venezuela during the early 2000s.",
+     "Changa tuki traces its musical roots directly to 1990s techno, house, and tribal house played on Venezuelan minitecas, blended with traditional Afro-Venezuelan rhythmic patterns."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Changa tuki is parent of Techno: 1990s techno provided the fast electronic template and synthetic instrumentation adapted by Venezuelan producers.",
+     "Changa tuki is parent of Tribal house: Tribal house percussion forms the core rhythmic framework for raptor house.",
+     "Changa tuki is sibling of Kuduro: Shared electronic crossover appeal through Portuguese group Buraka Som Sistema who championed both styles."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the crowded discotheques of Caracas, Venezuelan youth transformed barrio rivalries into electric street dance battles fueled by high-speed raptor house beats.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Changa tuki",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Changa tuki.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A veteran barrio dancer from the Máquina Latina era who emphasizes battle resilience, crew pride, and street authenticity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Changa tuki.",
+      "Originally performed during afternoon matinée parties and community parrandas, changa tuki functioned as an outlet for urban youth, reflecting the adrenaline and social tension of Caracas barrios while providing a peaceful arena for rival groups to resolve disputes.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Changa tuki",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Changa tuki.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A veteran barrio dancer from the Máquina Latina era who emphasizes battle resilience, crew pride, and street authenticity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Dance circles and direct battle face-offs inside club dance floors and afternoon matinées"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Changa tuki.",
+      "Key musical creators include DJ Baba and DJ Yirvin, supported by producers such as DJ Javith, Byakko, DJ Deep, DJ Armando, DJ Linares, DJ Yoiser, DJ Ronald TRHP, Marvin DJ, Pacheko, and Pocz.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Changa tuki",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Changa tuki.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A veteran barrio dancer from the Máquina Latina era who emphasizes battle resilience, crew pride, and street authenticity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Dance circles and direct battle face-offs inside club dance floors and afternoon matinées"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Changa tuki.",
+      "Changa tuki traces its musical roots directly to 1990s techno, house, and tribal house played on Venezuelan minitecas, blended with traditional Afro-Venezuelan rhythmic patterns.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "synthesizers",
+   "electronic percussion",
+   "samplers"
+  ],
+  "vocal_style": null,
+  "musical_form": "Electronic club tracks, tribal house structures, and sample-heavy remixes",
+  "mood": [
+   "strident",
+   "adrenalized",
+   "aggressive",
+   "sweat-drenched",
+   "rebellious"
+  ],
+  "sound_description": "Changa tuki is characterized by piercing, strident synthesizers layered over high-velocity tribal house and techno patterns infused with Caribbean and Afro-Venezuelan percussive accents. The sound frequently incorporates pitched eurodance vocal samples, siren-like hooks, and raw electronic basslines tailored for high-volume sound systems.",
+  "listen_before_composing": [
+   "Caracas de noche — DJ Baba / DJ Yirvin and collaborators",
+   "Pan con mortadela — not described in sources",
+   "Petarazo — not described in sources"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Changa tuki (Venezuela). Instruments: synthesizers, electronic percussion, samplers. Form: Electronic club tracks, tribal house structures, and sample-heavy remixes. Mood: strident, adrenalized, aggressive, sweat-drenched, rebellious. It should sound like this: Changa tuki is characterized by piercing, strident synthesizers layered over high-velocity tribal house and techno patterns infused with Caribbean and Afro-Venezuelan percussive accents. The sound frequently incorporates pitched eurodance vocal samples, siren-like hooks, and raw electronic basslines tailored for high-volume sound systems. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers developed a recognizable street aesthetic consisting of tight red pants, sleeveless shirts, caps worn low enough to almost cover their eyes, and Nike shoes styled after Air Jordans. Dancers frequently used hydrogen peroxide to bleach their beards and the tips of their hair. The primary settings were afternoon club matinées, popular barrio discotheques like Iguana in Caracas, and informal residential parrandas.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Bailando con la changa.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bailando_con_la_changa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC0",
+    "attribution": "Koffermejia / Wikimedia Commons / CC0"
+   },
+   {
+    "title": "File:Sonido la changa en banderilla.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sonido_la_changa_en_banderilla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC0",
+    "attribution": "Koffermejia / Wikimedia Commons / CC0"
+   }
+  ],
+  "motifs": [
+   "Peroxide-dyed blonde beards and hair tips against dark hair",
+   "Low cap brims pulled down over the brow",
+   "Air Jordan-style Nike sneakers stepping on a crowded club floor",
+   "Tight red trousers moving against glowing club lighting",
+   "Sweat dripping under strobes in an afternoon matinée"
+  ],
+  "costume_notes": "Dancers developed a recognizable street aesthetic consisting of tight red pants, sleeveless shirts, caps worn low enough to almost cover their eyes, and Nike shoes styled after Air Jordans. Dancers frequently used hydrogen peroxide to bleach their beards and the tips of their hair. The primary settings were afternoon club matinées, popular barrio discotheques like Iguana in Caracas, and informal residential parrandas.",
+  "setting_notes": "Originally performed during afternoon matinée parties and community parrandas, changa tuki functioned as an outlet for urban youth, reflecting the adrenaline and social tension of Caracas barrios while providing a peaceful arena for rival groups to resolve disputes. Despite facing class-based stigma and pejorative labeling from middle and upper classes, the movement enabled prominent dancers to progress professionally and open their own dance academies.",
+  "map": {
+   "country": "Venezuela",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "29 tutorial(s) of the street-urban family studied",
+  "videos_studied": 29,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg",
+   "feet parallel"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Raptor_house",
+  "https://www.wikidata.org/wiki/Q5071702",
+  "https://es.wikipedia.org/wiki/Raptor_house",
+  "https://fr.wikipedia.org/wiki/Raptor_house"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "8904c81d6e68c3e34194798018eeed9ad7513f9a74c52b26dd5a05c1a9262339",
+ "hero_checked": null
+}

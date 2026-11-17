@@ -1,8 +1,8 @@
 # Furry Dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; lineage; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Helston resident and band member.
@@ -73,7 +73,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Processional walking
 NARRATION: Moving through public and private spaces
-NARRATION: Count it: .
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -100,7 +100,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -110,13 +110,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Processional walking
 NARRATION: Step 2: Moving through public and private spaces
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -128,12 +130,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: feeling awkward while bouncing, which the teacher reassures is normal
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -162,7 +164,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -172,13 +174,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Processional walking
 NARRATION: Step 2: Moving through public and private spaces
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -190,12 +194,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: feeling awkward while bouncing, which the teacher reassures is normal
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Processional through streets and houses
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -224,7 +228,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -234,13 +238,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Processional walking
 NARRATION: Step 2: Moving through public and private spaces
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -252,12 +258,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: feeling awkward while bouncing, which the teacher reassures is normal
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Processional through streets and houses
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -295,9 +301,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full
+Cues: step touch to the side; drag your leg; step across; unwind; bounce with your arms up
+Common mistakes the studied teachers name: feeling awkward while bouncing, which the teacher reassures is normal
 
 Sources (2): https://en.wikipedia.org/wiki/Furry_Dance; https://www.wikidata.org/wiki/Q5509718

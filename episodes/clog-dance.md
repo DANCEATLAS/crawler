@@ -1,8 +1,8 @@
 # clog dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic traditional dancer and dance historian focusing on rhythm, posture, and historical accuracy.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rhythm on Wood: The Story of Clog Dance
 NARRATION: This is clog dance. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (BT9naCq0fdE)
 ON SCREEN: Title card: clog dance · United Kingdom · 19th century to present
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: Dancers execute percussive footwork on hard surfaces.
 NARRATION: The steps demand physical accuracy, strength, balance, and large body movements, often combined with theatrical pantomime appropriate to the character of the piece.
 NARRATION: Watch for Clog step strike.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (BT9naCq0fdE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Stationary or linear progression on hard floors
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The defining attire consists of clogs with rigid wooden soles. Dancing requires a hard floor surface capable of echoing the percussive strikes of the footwear.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'BT9naCq0fdE', 'checked_by_vision_model': True, 'title': 'La Fille mal gardée - The Clog Dance from Act I (The Royal Ballet)'}
 Images: 0 licensed
 Footage: File:Charlwood Music Festival 2024 Surrey England Anocalypse Now Appalachian traditional step dance 02.webm — https://upload.wikimedia.org/wikipedia/commons/4/4a/Charlwood_Music_Festival_2024_Surrey_England_Anocalypse_Now_Appalachian_traditional_step_dance_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; "Too Utterly Too" Clog Dance — https://archive.org/details/tooUtterlyTooClogDance; Reading Clog & Step Dance Festival Performers' Show 1990 — https://archive.org/details/ReadingClogStepDanceFestivalPerformersShow1990; The Highland Dirk Dance From Mary Isdale MacNab — https://archive.org/details/TheHighlandDirkDanceFromMaryIsdaleMacNab; The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music) — https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino; Collecting Traditional Dance — https://archive.org/details/CollectingTraditionalDance; Millions Love Watching This Mountain Clog Dance. You Will Too. Take A Look At The Very Best — https://archive.org/details/youtube-cs2j8f7H2WY
 Motifs: Close-ups of wooden soles striking timber floors, Archival sheet music scores from 1890 and 1912
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (5): https://en.wikipedia.org/wiki/Clog_dance; https://www.wikidata.org/wiki/Q5134885; https://archive.org/details/clogdancebook00fros; https://archive.org/details/b89738585; https://archive.org/details/roommusictitbits00grai_0

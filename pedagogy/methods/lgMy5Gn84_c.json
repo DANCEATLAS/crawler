@@ -1,14 +1,15 @@
 {
  "youtube_id": "lgMy5Gn84_c",
  "slug": "basics-first-steps",
- "dance": "First steps for people who believe they cannot dance (dance basics)",
+ "dance": "First steps (basics)",
  "title": "How To Two Step Dance - Basic 2 Step",
  "teacher": "Country Dance X",
  "teacher_key": "country-dance-x",
- "teacher_score": 63.9,
- "analysed_at": "2026-11-17T05:30:41Z",
+ "teacher_score": 65.8,
+ "analysed_at": "2026-11-17T21:38:36Z",
  "url": "https://www.youtube.com/watch?v=lgMy5Gn84_c",
  "comments_read": 60,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -16,8 +17,8 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces the basic step by having the learner walk in a straight line. He then adds the rhythm of two quick steps and two slow steps, while emphasizing the importance of maintaining a consistent body speed. Finally, he explains the dance position and the importance of maintaining distance between partners to avoid stepping on each other's feet.",
-  "signature": "The teacher explicitly frames the responsibility for not stepping on feet as the follower's job to maintain distance and stay in sync with the leader's body movement.",
+  "teacher_system": "The teacher introduces the partner hold and posture, breaks down the basic two-step walking rhythm with quick and slow counts, and explains frame, distance, and the flow of traffic on the dance floor.",
+  "signature": "",
   "screen": {
    "views": [
     "front"
@@ -27,99 +28,110 @@
   },
   "practices": [
    {
-    "tag": "chunking",
-    "t": "0:27",
-    "what": "The teacher has the learner walk in a straight line to learn the basic step."
-   },
-   {
     "tag": "counts_and_rhythm",
     "t": "0:55",
-    "what": "The teacher introduces the rhythm of two quick steps and two slow steps while walking."
+    "what": "Walk in a straight line counting two quick steps and two slow steps."
    },
    {
-    "tag": "layering",
+    "tag": "chunking",
     "t": "1:30",
-    "what": "The teacher demonstrates the dance position, explaining where to place hands and how to hold the partner."
+    "what": "Demonstrate upper body posture, hand placement, and frame between partners."
    },
    {
-    "tag": "repetition",
-    "t": "1:55",
-    "what": "The teacher and partner repeat the basic step in the dance position."
-   },
-   {
-    "tag": "repetition",
-    "t": "2:20",
-    "what": "The teacher and partner repeat the basic step again."
-   },
-   {
-    "tag": "repetition",
-    "t": "4:35",
-    "what": "The teacher and partner repeat the basic step to demonstrate the importance of maintaining distance."
-   }
-  ],
-  "adaptations": [
-   {
+    "tag": "error_correction",
     "t": "3:45",
-    "difficulty": "The leader is afraid of stepping on the follower's feet.",
-    "adjustment": "The teacher advises the leader to keep knees and ankles close to each other as they pass through.",
-    "kind": "easier"
+    "what": "Explain common beginner mistakes like stepping on feet or trying to walk around the partner."
    }
   ],
+  "adaptations": [],
   "entry_points": [
+   "rhythm_first",
    "feet_first"
   ],
   "pace": {
-   "talk_vs_move": "balanced",
+   "talk_vs_move": "mostly_talk",
    "seconds_before_first_movement": 18,
-   "pieces_taught": 2
+   "pieces_taught": 1
+  },
+  "mentor": {
+   "voice": [
+    "calm",
+    "patient",
+    "precise"
+   ],
+   "beliefs": [],
+   "feelings": []
   },
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Difficulty with the rhythm and counting",
+     "theme": "Count discrepancy between quick-quick-slow-slow and standard 4-beat songs",
      "tag": "counts_and_rhythm",
      "count": 2
     },
     {
-     "theme": "Difficulty with the basic step",
-     "tag": "other",
-     "count": 3
+     "theme": "Difficulty keeping rhythm or getting steps right without music",
+     "tag": "music_early",
+     "count": 2
     },
     {
-     "theme": "Getting stepped on",
-     "tag": "other",
-     "count": 2
+     "theme": "Getting stuck going backwards and getting stepped on",
+     "tag": "error_correction",
+     "count": 1
     }
    ],
    "clicked": [
     {
-     "theme": "Clear, step-by-step instructions",
+     "theme": "Clear step-by-step tutorial helped beginners learn successfully",
      "tag": "chunking",
-     "count": 5
-    },
-    {
-     "theme": "Helpful tips for beginners",
-     "tag": "other",
      "count": 3
     },
     {
-     "theme": "Progressive instruction technique",
+     "theme": "Simple beginner tips like body speed vs feet speed were helpful",
      "tag": "other",
      "count": 1
+    },
+    {
+     "theme": "Informative and helpful explanation for first-timers",
+     "tag": "other",
+     "count": 2
     }
    ],
    "requests": [
     {
-     "theme": "Demonstration with music",
+     "theme": "Ask for a demonstration with actual music at the end",
      "tag": "music_early",
+     "count": 3
+    },
+    {
+     "theme": "Keep sharing more dance videos and moves",
+     "tag": "reason_to_return",
      "count": 2
+    }
+   ],
+   "meant": [
+    {
+     "theme": "Saved a date night or upcoming social event",
+     "tag": "social_connection",
+     "count": 6
+    },
+    {
+     "theme": "Helped metalheads and non-country dancers blend in at country bars",
+     "tag": "social_connection",
+     "count": 3
+    },
+    {
+     "theme": "Brought back nostalgic memories of dancing in younger days",
+     "tag": "other",
+     "count": 3
     }
    ]
   },
-  "limits": "The video does not show the dance with music, which some learners requested to help them understand the rhythm better."
+  "limits": "No music is used during the instructional demonstration in the first 10 minutes."
  },
+ "kind": "lesson",
  "status": "ok",
- "attempts": 1,
+ "attempts": 2,
  "mentor_look": {
   "at": "2026-11-17T06:54:30Z",
   "attempts": 1,

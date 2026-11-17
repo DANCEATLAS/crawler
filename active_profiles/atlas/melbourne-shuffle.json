@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms swing up and down or side to side in time with the beat.",
+      "difficulty": "intermediate",
+      "footwork": "Repeated inward and outward sliding of feet; T-step and running man variations.",
+      "formation_and_space": "Typically solo improvisation, moving within a small area.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumps, 360-degree spins, and slides.",
+      "partnering": "not described in sources",
+      "posture": "Upright with a focus on balance and stability.",
+      "signature_moves": [
+        {
+          "description": "A heel-toe pivot movement forming a T-shape with the feet.",
+          "name": "T-step"
+        },
+        {
+          "description": "A sliding jump sequence that mimics walking in place.",
+          "name": "Running man"
+        }
+      ],
+      "tempo_feel": "Fast and energetic.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizers",
+        "Drum machines"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "High-energy",
+        "Fast-paced",
+        "Driving"
+      ],
+      "musical_form": "Electronic dance music (Acid house, Trance, Hardstyle)",
+      "reference_recordings": [
+        {
+          "artist": "Scooter",
+          "title": "J'adore Hardcore"
+        },
+        {
+          "artist": "LMFAO",
+          "title": "Party Rock Anthem"
+        }
+      ],
+      "rhythm_pattern": "Steady, driving electronic beat.",
+      "sound_description": "Fast-paced, repetitive electronic beats with heavy basslines and synthesized melodies characteristic of rave music.",
+      "tempo_bpm": "130-150",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "T-step: Pivot on one foot while sliding the other in a heel-toe motion.",
+        "Running man: A two-step sequence creating the illusion of walking in place.",
+        "Arm movement: Coordinated swinging of arms in time with the beat."
+      ],
+      "formation": "Typically performed solo, though group 'crews' are common.",
+      "level_notes": "Difficulty is intermediate; requires balance and coordination of footwork and arm movement.",
+      "rhythm": "130-150 BPM electronic dance music."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "eb0d819cef91ad3a15e09800e043868cf906376ff04e9bfdf0648a2c0872e271",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific torso movements associated with the Melbourne shuffle? Evidence needed: Video analysis of historical rave footage."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:melbourne-shuffle",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Melbourne shuffle",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "730e7317f3fc9d8c",
+      "next_evidence": "Video analysis of historical rave footage.",
+      "question": "What are the specific torso movements associated with the Melbourne shuffle?",
+      "source": "https://en.wikipedia.org/wiki/Melbourne_shuffle",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources focus heavily on footwork and arms, leaving the torso movement undefined."
+    }
+  ],
+  "research_file": "research_results/melbourne-shuffle.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "melbourne-shuffle",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Melbourne_shuffle",
+    "https://www.wikidata.org/wiki/Q203827",
+    "https://es.wikipedia.org/wiki/Melbourne_shuffle",
+    "https://fr.wikipedia.org/wiki/Melbourne_shuffle",
+    "https://pt.wikipedia.org/wiki/Melbourne_Shuffle",
+    "https://de.wikipedia.org/wiki/Melbourne_Shuffle"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

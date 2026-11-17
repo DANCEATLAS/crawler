@@ -2,7 +2,7 @@
  "slug": "hustle",
  "name": "Hustle",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-15T16:48:42Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Hustle. 1970s."
     ],
     "on_screen": [
-     "Hero video, first 10 seconds (frCnHr1CmDg)",
+     "Hero video, first 10 seconds (BzrA38NiyoA)",
      "Title card: Hustle · United States · 1970s"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for The Basic, Turn, Left Turn."
     ],
     "on_screen": [
-     "Hero video full screen, 30–45 s (frCnHr1CmDg)",
+     "Hero video full screen, 30–45 s (BzrA38NiyoA)",
      "Captions name each signature move as it appears",
      "Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance."
     ],
@@ -744,9 +744,9 @@
  },
  "visual_brief": {
   "hero_video": {
-   "youtube_id": "frCnHr1CmDg",
-   "checked_by_vision_model": false,
-   "title": "The Hustle / VAN McCOY / Dance / Perfume"
+   "youtube_id": "BzrA38NiyoA",
+   "checked_by_vision_model": true,
+   "title": "Dance Party Friday - The Hustle"
   },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
@@ -816,8 +816,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4 / and-1-and-2",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -825,6 +825,9 @@
    "tempo progression: slow → full"
   ],
   "cues": [
+   "1 2 3 4",
+   "inside left turn",
+   "outside right turn",
    "rock step on 1-2",
    "palm to the sky",
    "open the newspaper"
@@ -835,9 +838,42 @@
   "segment_order": [
    "intro",
    "full_demo",
-   "breakdown"
+   "follow_along",
+   "breakdown",
+   "music_practice",
+   "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "Stationary Basic",
+    "counts": "1-2-3-4",
+    "description": "Basic stationary step in place."
+   },
+   {
+    "name": "Rotating Basic",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Rotating basic step."
+   },
+   {
+    "name": "Inside (Left) Turn",
+    "counts": "1-2-3-4",
+    "description": "Inside turn for the follower."
+   },
+   {
+    "name": "Outside (Right) Turn",
+    "counts": "1-2-3-4",
+    "description": "Outside turn for the follower."
+   },
+   {
+    "name": "Cradle",
+    "counts": "1-2-3-4",
+    "description": "Cradle position pattern."
+   },
+   {
+    "name": "Hammerlock",
+    "counts": "1-2-3-4",
+    "description": "Hammerlock turn pattern."
+   },
    {
     "name": "Rock Step",
     "counts": "1-2",
@@ -852,7 +888,6 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "the hero video's vision check",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -863,6 +898,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "d001c74d205dbc92b830208188da35dfc90b876a732a17b1dc30d2ff123444a3",
- "hero_checked": null
+ "input_fingerprint": "2f2b296076abbcab07a842906263162b1ded4082af540e7569589d3adb5b4a53",
+ "hero_checked": "pass"
 }

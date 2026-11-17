@@ -1,0 +1,167 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex mudra meanings",
+          "Extreme spinal contortion"
+        ],
+        "counts": "Simple 1-2-3-4 rhythm.",
+        "duration_minutes": "15",
+        "game_version": "'Statue' game where children must freeze in a pose from a mural when the music stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep knee bends",
+          "Rapid ribbon spinning",
+          "Back arches"
+        ],
+        "counts": "Slow 4-counts for each hand transition.",
+        "seated_version": "Focus entirely on the mudras (hand gestures) and upper body S-curves while seated.",
+        "standing_version": "Slow-motion transitions between poses using a barre for balance.",
+        "tempo_and_range": "Reduced to 50% speed; focus on wrist flexibility."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "The 'Three-Bend' (Sanwan) Posture",
+          "source": "https://en.wikipedia.org/wiki/Dunhuang_dance"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Ensemble synchronization for 'Thousand Hand' formations.",
+          "source": "https://en.wikipedia.org/wiki/Dunhuang_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Intricate hand gestures (mudras) with fingers often curled or extended in specific symbolic patterns.",
+      "difficulty": "advanced",
+      "footwork": "Soft, gliding steps; often performed on the balls of the feet to suggest weightlessness.",
+      "formation_and_space": "Linear formations for group pieces like 'Thousand Hand Guanyin'; circular paths for soloists.",
+      "hips_and_torso": "Fluid lateral shifts of the hips to create the 'three-bend' silhouette.",
+      "levels_and_jumps": "Low to medium levels; jumps are soft and focused on the shape of the ribbons.",
+      "partnering": "Primarily ensemble synchronization rather than physical partnering.",
+      "posture": "The 'S-curve' (Sanwan) where the head, torso, and hips are angled in three different directions.",
+      "signature_moves": [
+        {
+          "description": "A dancer holds a lute prop behind their head/shoulders while maintaining an S-curve pose.",
+          "name": "Playing the Pipa Behind the Back"
+        },
+        {
+          "description": "Leaps and poses that utilize long silk scarves to create the illusion of celestial flight.",
+          "name": "Flying Apsara"
+        }
+      ],
+      "tempo_feel": "Slow and controlled with sudden moments of dynamic ribbon flourishing.",
+      "what_to_avoid": "Avoid stiff, vertical postures; the dance requires constant curves and 'soft' joints."
+    },
+    "music_profile": {
+      "instruments": [
+        "Pipa",
+        "Dizi (flute)",
+        "Drums",
+        "Zheng (zither)"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "Ethereal",
+        "Ancient",
+        "Majestic",
+        "Serene"
+      ],
+      "musical_form": "Narrative suites",
+      "reference_recordings": [
+        {
+          "artist": "Gansu Dunhuang Art Academy",
+          "title": "Rain of Flowers Along the Silk Road Soundtrack"
+        }
+      ],
+      "rhythm_pattern": "Steady, melodic-driven with occasional syncopated percussion",
+      "sound_description": "A blend of traditional Chinese pentatonic scales with Central Asian modal influences, characterized by prominent pipa plucking and atmospheric flute melodies.",
+      "tempo_bpm": "60-90",
+      "vocal_style": "Often instrumental; if vocal, uses ethereal, high-pitched operatic tones"
+    },
+    "teaching": {
+      "basic_steps": [
+        "S-curve posture (Sanwan) alignment",
+        "Mudra hand gesture formation",
+        "Ribbon manipulation and waving",
+        "Pipa-holding pose (behind the back)",
+        "Gliding walk to simulate floating"
+      ],
+      "formation": "Varies from solo 'Apsara' performances to linear 'Thousand Hand' formations",
+      "level_notes": "Requires high flexibility in the wrists and spine to achieve the characteristic curves.",
+      "rhythm": "Fluid and lyrical, often following 4/4 or flexible melodic phrasing"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "11056cdb0d985f257952f2452ab0ef92bd2624b15d8fb5f88cc2bc5e63b7aae5",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific names and finger positions of the 10 most common mudras used in Dunhuang dance? Evidence needed: https://en.wikipedia.org/wiki/Dunhuang_dance"
+    ]
+  },
+  "id": "atlas:dunhuang-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dunhuang dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "75deca4e6d31bbd0",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dunhuang_dance",
+      "question": "What are the specific names and finger positions of the 10 most common mudras used in Dunhuang dance?",
+      "source": "https://en.wikipedia.org/wiki/Dunhuang_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate interactive feedback for hand gestures, which are central to the style."
+    }
+  ],
+  "research_file": "research_results/dunhuang-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dunhuang-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dunhuang_dance",
+    "https://www.wikidata.org/wiki/Q5315282"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

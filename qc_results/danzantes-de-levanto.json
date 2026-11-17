@@ -1,0 +1,119 @@
+{
+ "slug": "danzantes-de-levanto",
+ "qc_at": "2026-11-17T20:50:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Danzantes de Levanto"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "87"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "154"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Thirteen dancers wearing peacock feather crowns perform in Levanto, Peru, guided"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "428"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3669"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Peru"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "reject",
+  "notes": "The profile is well-written and faithful to the evidence, but 'Danzantes de Levanto' refers to a specific performing troupe/group of dancers rather than a standalone dance style or genre. Thus is_a_dance is false and it should be rejected."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.7",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-17T18:50:36Z"
+}

@@ -1,6 +1,6 @@
 # Finnish tango — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (5): https://en.wikipedia.org/wiki/Finnish_tango; https://www.wikidata.org/wiki/Q1762761; https://es.wikipedia.org/wiki/Tango_de_Finlandia; https://fr.wikipedia.org/wiki/Tango_finlandais; https://pt.wikipedia.org/wiki/Tango_finlandês

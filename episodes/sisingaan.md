@@ -1,8 +1,8 @@
 # Sisingaan — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; posture, arms and hands; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Subang artist or cultural historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In 1975, Subang artists crafted the Sisingaan, a lion-shaped palanquin that carries a newly circumcised child through the village as a symbol of resistance against Dutch colonial rule.
 NARRATION: This is Sisingaan. 20th century.
-ON SCREEN: Hero video, first 10 seconds (-wumwQ1VRHs)
+ON SCREEN: Hero video, first 10 seconds (66jouszDYNI)
 ON SCREEN: Title card: Sisingaan · Indonesia · 20th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed by a group of two or four men who carry a lion
 NARRATION: A child who has recently undergone circumcision rides the lion.
 NARRATION: The carriers perform various dance movements and acrobatics while moving through the village.
 NARRATION: Watch for Lion carrying.
-ON SCREEN: Hero video full screen, 30–45 s (-wumwQ1VRHs)
+ON SCREEN: Hero video full screen, 30–45 s (66jouszDYNI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: The lion effigy is carried by four or two men using bamboo rods in a procession through the village.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -290,7 +290,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '-wumwQ1VRHs', 'checked_by_vision_model': False, 'title': 'GERAKAN SISINGAAN TERBARU & MUSIK TERBARU SISINGAAN UNTUK FESTIVAL  TAHUN 2023'}
+Hero video: {'youtube_id': '66jouszDYNI', 'checked_by_vision_model': True, 'title': 'TARI LATAR SISINGAAN'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ilham.nurwansah / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Amir Hosseini / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Sandhi Irawan / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Tommybandza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Folk Dances of Asia and the Pacific — https://archive.org/details/dni.ncaa.IGRMS-V_129-VHS
 Motifs: The lion-shaped effigy, Bamboo support rods, Village streets of Subang
@@ -300,7 +300,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

@@ -1,0 +1,844 @@
+{
+ "slug": "adana",
+ "name": "Adana",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:02Z",
+ "researched_at": "2026-11-17T20:43:29Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local Macedonian dance expert from the Veles region.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Adana"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Adana",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "This is the Adana, a 20th-century dance."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (BtIkXCTVM70)",
+     "Title card: Adana · North Macedonia · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Adana is a traditional Macedonian Oro from the town of Veles.",
+     "It is a type of Macedonian Oro."
+    ],
+    "on_screen": [
+     "Map: North Macedonia · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "This is a traditional men's dance from Veles.",
+     "It remains a living tradition today."
+    ],
+    "on_screen": [
+     "Footage: File:Egretta garzetta - Little-egrets (video), Adana 2016-11-12 01-1.webm (https://upload.wikimedia.org/wikipedia/commons/9/96/Egretta_garzetta_-_Little-egrets_%28video%29%2C_Adana_2016-11-12_01-1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance begins in a half-circle formation with dancers holding shoulders.",
+     "The initial phase involves balancing movements.",
+     "As the dance accelerates, the dancers transition to holding hands and incorporate jumping, kneeling, and turning.",
+     "Watch for Balancing, Jumping, Kneeling."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (BtIkXCTVM70)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The pulse is 2/4.",
+     "The music follows a 2/4 rhythm, supporting a transition from medium-fast balancing to faster, high-energy movements."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "This is a subclass of the Macedonian Oro."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Adana is a specific type of Macedonian Oro."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Try one step: balance in a half-circle while holding shoulders.",
+     "Transition to holding hands as the tempo increases.",
+     "Count 1-2, 1-2, keeping the two beats per bar pulse.",
+     "Chapter 1 begins slowly."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the transition from shoulder-held balance to high-energy athleticism in this traditional Macedonian men's dance.",
+     "Two references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Establish the half-circle formation and shoulder-hold balance.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 covers first steps, focusing on the half-circle formation and shoulder-hold balance.",
+      "This is a beginner level lesson, though the dance is intermediate.",
+      "Your instructor is a local Macedonian dance expert from the Veles region."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hold shoulders initially, then transition to holding hands."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Balance in a half-circle while holding shoulders.",
+      "Step 2: Transition to holding hands as the tempo increases.",
+      "Drill: Practice the formation."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Executing jumps, kneeling, and turning movements.",
+      "Drill: Shoulder-hold connection"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Perform Step A and Step B without stopping, starting slowly.",
+      "Move to half tempo, then full tempo.",
+      "The instructor mirrors you, so your right is your right.",
+      "Drill: Practice the basic balancing rhythm."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm movements and torso rotations while seated in a semi-circle. · For children: A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and torso rotations while seated in a semi-circle.",
+      "For children: A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now establish the half-circle formation and shoulder-hold balance.",
+      "This is a traditional men's dance from Veles.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Transition to hand-holding and increase tempo.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 focuses on building the dance, transitioning to hand-holding, and increasing tempo.",
+      "This is an intermediate level lesson.",
+      "Your instructor is a local Macedonian dance expert from the Veles region."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hold shoulders initially, then transition to holding hands."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Balance in a half-circle while holding shoulders.",
+      "Step 2: Transition to holding hands as the tempo increases.",
+      "Drill: Practice the hand-hold transition."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Executing jumps, kneeling, and turning movements.",
+      "Balancing: Controlled movement performed in the initial phase.",
+      "Jumping: Athletic movement performed during the faster phase.",
+      "Drill: Tempo acceleration"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Perform Step A and Step B without stopping, starting slowly.",
+      "Move to half tempo, then full tempo.",
+      "The instructor mirrors you, so your right is your right.",
+      "Drill: Practice basic jump technique."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm movements and torso rotations while seated in a semi-circle. · For children: A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and torso rotations while seated in a semi-circle.",
+      "For children: A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now transition to hand-holding and increase tempo.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate kneeling and turning into the full sequence.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 focuses on dancing fully by integrating kneeling and turning into the sequence.",
+      "This is an advanced level lesson.",
+      "Your instructor is a local Macedonian dance expert from the Veles region."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hold shoulders initially, then transition to holding hands."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Transitioning to holding hands as the tempo increases.",
+      "Step 2: Executing jumps, kneeling, and turning movements.",
+      "Drill: Kneeling mechanics"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Kneeling involves lowering to the ground during the faster phase.",
+      "Turning is the rotation performed during the faster phase.",
+      "Drill: Practice turning technique."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Perform Step A and Step B without stopping, starting slowly.",
+      "Move to half tempo, then full tempo.",
+      "The instructor mirrors you, so your right is your right.",
+      "Drill: Practice the full sequence flow."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm movements and torso rotations while seated in a semi-circle. · For children: A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and torso rotations while seated in a semi-circle.",
+      "For children: A follow-the-leader game in a half-circle, focusing on the transition from slow to fast movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now integrate kneeling and turning into the full sequence.",
+      "This is a subclass of the Macedonian Oro.",
+      "You know the dance; go and dance it with others."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4",
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "medium fast"
+  ],
+  "sound_description": "The music follows a 2/4 rhythm and supports a transition from medium-fast balancing to faster, high-energy movements.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Adana (North Macedonia). Meter 2/4. Mood: medium fast. It should sound like this: The music follows a 2/4 rhythm and supports a transition from medium-fast balancing to faster, high-energy movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "BtIkXCTVM70",
+   "checked_by_vision_model": false,
+   "title": "Zoran Dzorlev - DMBUC: oro Adana"
+  },
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Egretta garzetta - Little-egrets (video), Adana 2016-11-12 01-1.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Egretta_garzetta_-_Little-egrets_%28video%29%2C_Adana_2016-11-12_01-1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Zeynel Cebeci / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Supermoon reflection on Seyhan River, Adana 2016-11-14 01-1.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Supermoon_reflection_on_Seyhan_River%2C_Adana_2016-11-14_01-1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Zeynel Cebeci / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Pandemi sonrasında ilk uçuş- İstanbul-Adana.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pandemi_sonras%C4%B1nda_ilk_u%C3%A7u%C5%9F-_%C4%B0stanbul-Adana.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "tolgaozbekcom / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:37. Haftanın En İyi Golü (2021-22 Süper Lig) - Mario Balotelli (Adana Demirspor).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/37._Haftan%C4%B1n_En_%C4%B0yi_Gol%C3%BC_%282021-22_S%C3%BCper_Lig%29_-_Mario_Balotelli_%28Adana_Demirspor%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "beIN SPORTS Türkiye / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Adanada Şiş Kebap.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Adanada_%C5%9Ei%C5%9F_Kebap.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Basak / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Adana'da kalaycı.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Adana%27da_kalayc%C4%B1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Basak / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Half-circle formation",
+   "Shoulder-to-hand transition",
+   "Dynamic jumps and kneeling"
+  ],
+  "costume_notes": null,
+  "setting_notes": "It is a traditional men's dance from the town of Veles.",
+  "map": {
+   "country": "North Macedonia",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "31 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 31,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
+   "1-2",
+   "3-4",
+   "sa'o'i",
+   "lualua tongi e",
+   "e a'a tongi e",
+   "stomp clap",
+   "chest chest leg leg clap",
+   "pull back and lean to the left"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "the music & instruments section",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Adana_(dance)",
+  "https://www.wikidata.org/wiki/Q4680603"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": true,
+ "input_fingerprint": "98d1494c69bb2331dd4a98b3bfffc3666df289ff7e37d2982ab1175a35e77f41",
+ "hero_checked": null,
+ "polish_kept_scenes": 23
+}

@@ -1,0 +1,135 @@
+{
+ "youtube_id": "FU-aIuDEW7I",
+ "slug": "ballu-tundu",
+ "dance": "Ballu tundu",
+ "title": "Su Ballu Tundu - Video tutorial ballo sardo | Ballamus nois ca sos ballos sunt sos nostros",
+ "channel": "Bye Sardegna",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-17T21:27:50Z",
+ "url": "https://www.youtube.com/watch?v=FU-aIuDEW7I",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains the cultural context and movements of the traditional dance while demonstrating steps with two dancers. He breaks down the male and female footwork clearly using verbal descriptions and visual splits on screen.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:21",
+    "segment": "intro",
+    "note": "Introduction to the video tutorial on Su Ballu Tundu"
+   },
+   {
+    "t": "0:38",
+    "segment": "context",
+    "note": "Explanation of the circle formation rotating clockwise"
+   },
+   {
+    "t": "1:17",
+    "segment": "breakdown",
+    "note": "Overview of the two main phases: Sa Seria and S'Allegrada"
+   },
+   {
+    "t": "2:52",
+    "segment": "breakdown",
+    "note": "Detailed breakdown of male footwork for Sa Seria and S'Allegrada"
+   },
+   {
+    "t": "3:58",
+    "segment": "breakdown",
+    "note": "Detailed breakdown of female footwork for Sa Seria and S'Allegrada"
+   },
+   {
+    "t": "5:06",
+    "segment": "full_demo",
+    "note": "Full demonstration of the dance by the two dancers"
+   }
+  ],
+  "counting_scheme": "1-2-3 / right-left-right-left",
+  "cues": [
+   "Rigidità del tronco",
+   "Sa Seria",
+   "S'Allegrada"
+  ],
+  "metaphors": [
+   "I bravi ballerini ballassero con un bicchiere sulla testa"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back",
+    "side"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Sa Seria",
+    "counts": "1-2-3-4",
+    "description": "A serious step starting on the right foot followed by alternating steps."
+   },
+   {
+    "name": "S'Allegrada",
+    "counts": "1-2-3",
+    "description": "A joyful, more playful phase involving lighter jumping or bouncing movements."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Split screens showing both upper body posture and footwork close-ups simultaneously",
+    "Clear division between male and female variations"
+   ],
+   "what_hinders": [
+    "Lack of slow practice counts with audio"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:22",
+    "text": "Ballamus nois ca sos ballos sunt sos nostros"
+   },
+   {
+    "t": "1:21",
+    "text": "Una parte più seria chiamata appunto a passu o a sa seria"
+   },
+   {
+    "t": "1:26",
+    "text": "Una parte allegrada, brincalada dove si deve saltellare"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 38,
+    "end_s": 44,
+    "topic": "movement",
+    "observation": "Close-up of feet stepping side by side in traditional shoes.",
+    "viewpoint": "front",
+    "cannot_infer": "weight transfer",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 255,
+    "end_s": 265,
+    "topic": "teaching",
+    "observation": "Split screen showing overall dancer posture on the left and footwork close-up on the right.",
+    "viewpoint": "front",
+    "cannot_infer": "occlusion",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using a synchronized split-screen format that pairs an upper-body view of the instructor or dancers with a footwork close-up throughout the instructional sections."
+ },
+ "attempts": 1
+}

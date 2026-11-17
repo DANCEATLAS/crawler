@@ -1,6 +1,6 @@
 # Kemusan — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Driving Test Dance That Conquered the World
 NARRATION: This is Kemusan. 21st century.
-ON SCREEN: Hero video, first 10 seconds (Rwb54NW8CcU)
+ON SCREEN: Hero video, first 10 seconds (Bup3XZOW4hA)
 ON SCREEN: Title card: Kemusan · People's Republic of China · 21st century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Wrist twist and knee swing.
-ON SCREEN: Hero video full screen, 30–45 s (Rwb54NW8CcU)
+ON SCREEN: Hero video full screen, 30–45 s (Bup3XZOW4hA)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
@@ -292,7 +292,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Danced in various settings, including wedding receptions, Haidilao restaurants where staff wear uniforms, public squares, and international events where youths wear traditional Chinese clothes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'Rwb54NW8CcU', 'checked_by_vision_model': True, 'title': 'China\'s "wacky" dance breaks barriers, unites the world'}
+Hero video: {'youtube_id': 'Bup3XZOW4hA', 'checked_by_vision_model': True, 'title': '科目三创始人 广西柳州朱开红 The Original "Ke Mu San" Dance'}
 Images: 0 licensed
 Footage: Japanese group’s take on a TikTok dance hit irks Hong Kong | Radio Free Asia (RFA) — https://archive.org/details/youtube-uLMB5p258pk
 Motifs: Haidilao restaurant dining rooms, Douyin phone screens scrolling, Traditional Chinese clothes at diplomatic events
@@ -302,9 +302,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
+Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
 
 Sources (2): https://en.wikipedia.org/wiki/Ke_Mu_San; https://www.wikidata.org/wiki/Q124362129

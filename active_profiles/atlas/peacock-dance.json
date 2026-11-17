@@ -1,13 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms extended to mimic the stretching of peacock feathers.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright with avian-inspired head movements.",
+      "signature_moves": [
+        {
+          "description": "Arms extended to mimic the display of a peacock's tail.",
+          "name": "Feather stretching"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Elephant-foot drums",
+        "Gongs",
+        "Cymbals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Joyful",
+        "Celebratory"
+      ],
+      "musical_form": "Folk accompaniment",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The Dai peacock dance music is driven by the rhythmic interplay of elephant-foot drums, gongs, and cymbals.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Mimicry of peacock head movements",
+        "Arm extensions to represent feathers",
+        "Classical Sundanese-style footwork (Tari Merak only)"
+      ],
+      "formation": "Solo or group, depending on the regional tradition.",
+      "level_notes": "Technique not described in sources.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "12a3196284c44ec7cb703f9e527573f3d259e20a72f8a8b7178a1027b274bdca",
+  "fingerprint": "63d51bb374707e4f3cabe4bebc112e8a50acd98145725cc6a297c505f53223bb",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +66,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns for the 'unarmed' Dai peacock dance? Evidence needed: Ethnographic dance manuals or instructional videos from the Dehong Dai region."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +96,18 @@
   ],
   "music_options": [],
   "name": "Peacock dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "47163ca0ab871bdf",
+      "next_evidence": "Ethnographic dance manuals or instructional videos from the Dehong Dai region.",
+      "question": "What are the specific footwork patterns for the 'unarmed' Dai peacock dance?",
+      "source": "https://en.wikipedia.org/wiki/Peacock_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate movement instructions for learners."
+    }
+  ],
+  "research_file": "research_results/peacock-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +118,10 @@
   },
   "slug": "peacock-dance",
   "sources": [
-    "https://en.wikipedia.org/wiki/Mayilattam"
+    "https://en.wikipedia.org/wiki/Peacock_dance",
+    "https://www.wikidata.org/wiki/Q18207270",
+    "https://archive.org/details/NPTG19221230"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

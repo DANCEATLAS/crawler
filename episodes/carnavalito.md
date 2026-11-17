@@ -1,6 +1,6 @@
 # carnavalito — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
@@ -323,7 +323,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

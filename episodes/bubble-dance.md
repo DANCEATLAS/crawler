@@ -1,8 +1,8 @@
 # Bubble dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Theatrical historian specializing in 20th-century stage performance
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Behind the Sphere: The Art of the Bubble Dance
 NARRATION: This is Bubble dance. 1930s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (XM1BX5ka5Zg)
 ON SCREEN: Title card: Bubble dance · United States · 1930s
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Bubble concealing pose.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (XM1BX5ka5Zg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo stage placement maintaining the bubble prop between the body and the audience.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -101,7 +101,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -162,7 +162,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -224,7 +224,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -276,7 +276,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The defining attire of the soloist in classic bubble dance performances is nudity, with the dancer relying on a large spherical prop shaped like a balloon or ball placed between herself and the spectators. In contemporary 1930s film appearances and cartoon depictions, stage settings feature dramatic spotlighting, stage curtains, and proscenium framing that emphasize the soloist's movement.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'XM1BX5ka5Zg', 'checked_by_vision_model': True, 'title': "Burlesque dancer - Sally Rand's 'Bubble Dance'"}
 Images: 0 licensed
 Footage: Rosita Royce The Dove Dance 1953 Striporama — https://archive.org/details/rosita-royce-dove-dance-1953; SALLY RAND - Fan Dance (1942) — https://archive.org/details/youtube-zYeUx4kOQwI; SALLY RAND BALLOON BUBBLE DANCE PERFORMANCE LITA BARON & GRACIE BARRIE 1940s MUSIC VIDEO XD10084 — https://archive.org/details/xd-10084-ive-got-to-get-hot-vwr-1; Fan Dance. Sally Rand — https://archive.org/details/fan-dance.-sally-rand; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand_202609; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand
 Motifs: Large spherical opaque or translucent balloon, Dramatic stage spotlighting, Vintage theatre curtain backdrop
@@ -286,9 +286,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
+Source: 8 tutorial(s) of the stage-contemporary family studied · videos studied: 8
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (3): https://en.wikipedia.org/wiki/Bubble_dance; https://www.wikidata.org/wiki/Q4982223; https://archive.org/details/SBS_1926042801

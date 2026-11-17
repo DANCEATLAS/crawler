@@ -1,8 +1,8 @@
 # Chaabi — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.7 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.7 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An enthusiastic community culture bearer and social dancer versed in North African popular festivities.
@@ -127,9 +127,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2 / 8 counts.
@@ -191,9 +191,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2 / 8 counts.
@@ -255,9 +255,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2 / 8 counts.
@@ -287,7 +287,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'vrFkdmw9piE', 'checked_by_vision_model': False, 'title': 'Moroccan Chaabi Dance  - حاول وحاول  - hawel w hawel Zina Doudia'}
+Hero video: {'youtube_id': 'vrFkdmw9piE', 'checked_by_vision_model': True, 'title': 'Moroccan Chaabi Dance  - حاول وحاول  - hawel w hawel Zina Doudia'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Wedding celebrations and community gatherings, Streets and alleyways of North African urban quarters and kasbahs, Live performers and electronic sound setups
@@ -297,9 +297,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2 / 8 counts
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Cues: pick up the groove; don't forget this is a popular dance; your butt should be free; don't forget knee flex; you see the work your hips; go a little bit down
+Common mistakes the studied teachers name: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music
 
 Sources (3): https://en.wikipedia.org/wiki/Chaabi; https://www.wikidata.org/wiki/Q2961763; https://it.wikipedia.org/wiki/Chaabi

@@ -1,0 +1,130 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Devils hold tridents; angels hold swords.",
+      "difficulty": "intermediate",
+      "footwork": "Jumps and rhythmic marching.",
+      "formation_and_space": "Group formations, often in streets or plazas.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumps to represent the battle.",
+      "partnering": "Confrontational interaction between angels and devils.",
+      "posture": "Upright and aggressive for devils; graceful for angels.",
+      "signature_moves": [
+        {
+          "description": "A rhythmic, high-kneed march used to clear the path.",
+          "name": "Devil's march"
+        }
+      ],
+      "tempo_feel": "Energetic and fast-paced.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "sikus",
+        "bombo",
+        "tambor redoblante",
+        "platillos",
+        "triángulo"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "dramatic",
+        "festive"
+      ],
+      "musical_form": "Sicu-moreno ensemble performance.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Syncopated huayno.",
+      "sound_description": "A driving, syncopated rhythm led by panpipes (sikus) and supported by a percussion section of bass drums, snare drums, and triangles.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Marching with high knees to represent the devil's presence.",
+        "Jumping movements to signify the battle between angels and demons.",
+        "Coordinated group movement following the Caporal."
+      ],
+      "formation": "Processional and group formations in squares or streets.",
+      "level_notes": "Intermediate: requires stamina and coordination for the jumps and character-specific movements.",
+      "rhythm": "Syncopated huayno rhythm."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7b8c023c8be6af7cca5e3c29b6d3f178186689189f9530ad494022daaabf9d34",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts used by dancers during the performance? Evidence needed: Field observation or instructional video analysis."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:diablada-punena",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Diablada puneña",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "6108bf561a425a0e",
+      "next_evidence": "Field observation or instructional video analysis.",
+      "question": "What are the specific rhythmic counts used by dancers during the performance?",
+      "source": "https://es.wikipedia.org/wiki/Diablada_puneña",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for the movement profile."
+    }
+  ],
+  "research_file": "research_results/diablada-punena.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "diablada-punena",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Diablada",
+    "https://www.wikidata.org/wiki/Q5270152",
+    "https://es.wikipedia.org/wiki/Diablada_puneña"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

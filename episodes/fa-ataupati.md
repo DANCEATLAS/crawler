@@ -1,6 +1,6 @@
 # Fa’ataupati — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -68,7 +68,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Apply coconut oil to the chest, arms, and legs
 NARRATION: Stand in a group formation with a stable, wide stance
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -94,7 +94,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -107,12 +107,14 @@ NARRATION: Step 2: Stand in a group formation with a stable, wide stance
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 / lualua tongi e / a'a tongi e · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Slap the chest with open palms in sync with the group
 NARRATION: Step 4: Slap the thighs forcefully
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 / lualua tongi e / a'a tongi e · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -128,7 +130,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -157,7 +159,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -170,10 +172,12 @@ NARRATION: Step 2: Stomp feet to provide a bass rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 / lualua tongi e / a'a tongi e · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 / lualua tongi e / a'a tongi e · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -190,7 +194,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -219,7 +223,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -232,10 +236,12 @@ NARRATION: Step 2: Stomp feet to provide a bass rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 / lualua tongi e / a'a tongi e · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 / lualua tongi e / a'a tongi e · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -252,7 +258,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4 / lualua tongi e / a'a tongi e.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -289,9 +295,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4 / lualua tongi e / a'a tongi e
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap
 
 Sources (2): https://en.wikipedia.org/wiki/Fa%27ataupati; https://www.wikidata.org/wiki/Q5427523

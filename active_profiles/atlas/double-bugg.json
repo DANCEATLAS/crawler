@@ -1,0 +1,173 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "High-tension leading",
+          "Over-extending shoulders during turns"
+        ],
+        "counts": "Simplified 1-2-3-4 counts with vocal cues (e.g., 'Triangle!', 'Line!')",
+        "duration_minutes": "2",
+        "game_version": "A 'follow the leader' game where the trio must stay in their triangle shape while navigating an obstacle course."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid spins",
+          "Sudden direction changes",
+          "Complex arm entanglements"
+        ],
+        "counts": "Clear 1-2-3-4 marching counts.",
+        "seated_version": "Three chairs arranged in a triangle; dancers perform arm movements and hand-clapping patterns to simulate the formation changes.",
+        "standing_version": "Reduced tempo; focus on the walking transitions between shapes rather than fast swing footwork.",
+        "tempo_and_range": "Slowed to 50% of competition speed; small steps to maintain balance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "The Triangle Formation",
+          "source": "https://en.wikipedia.org/wiki/Double_bugg"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Basic knowledge of Swedish Bugg or Lindy Hop",
+          "source": "https://en.wikipedia.org/wiki/Double_bugg"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Trio formation (typically 1 lead, 2 followers)",
+          "source": "https://en.wikipedia.org/wiki/Double_bugg"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used to maintain connection between three dancers simultaneously",
+      "difficulty": "intermediate",
+      "footwork": "Derived from Swedish Bugg and Lindy Hop",
+      "formation_and_space": "Dynamic shifting between lines, circles, and triangles",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Trio-based lead and follow; one leader managing two followers",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The trio shifts between geometric shapes like triangles and lines",
+          "name": "Formation change"
+        },
+        {
+          "description": "Dancers swap positions within the trio while maintaining the dance flow",
+          "name": "Place changing"
+        }
+      ],
+      "tempo_feel": "Fast and energetic",
+      "what_to_avoid": "Colliding with the second follower during turns; losing the geometric formation"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "upbeat",
+        "rhythmic",
+        "modern"
+      ],
+      "musical_form": "Verse-chorus pop structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "Standard swing/rock'n'roll backbeat",
+      "sound_description": "The music is characterized by modern pop production or classic rock'n'roll arrangements, featuring a clear, driving beat suitable for athletic swing dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Contemporary pop or rock vocals"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Establish a trio connection with a central leader and two followers",
+        "Execute basic Bugg footwork in a 4/4 rhythm",
+        "Rotate positions to form a triangle",
+        "Transition from a triangle into a linear formation",
+        "Perform a place-change where the leader moves between the two followers"
+      ],
+      "formation": "Trio (typically 1 leader, 2 followers) forming lines, circles, and triangles",
+      "level_notes": "Requires prior knowledge of Swedish Bugg; focus on spatial awareness is critical for the trio.",
+      "rhythm": "4/4 time, typical of pop and rock'n'roll music"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "1b95dda972c44063e12b925463f1037e8255be6db606d572d77f7a6dea347c59",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "interaction: feedback_rules",
+      "Investigate: What is the standard BPM range for Double bugg competitions under DSF rules? Evidence needed: https://en.wikipedia.org/wiki/Double_bugg"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand-hold transitions used when the leader switches places between the two followers? Evidence needed: https://en.wikipedia.org/wiki/Double_bugg"
+    ]
+  },
+  "id": "atlas:double-bugg",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Double bugg",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "73529e8df3af13e1",
+      "next_evidence": "https://en.wikipedia.org/wiki/Double_bugg",
+      "question": "What are the specific hand-hold transitions used when the leader switches places between the two followers?",
+      "source": "https://en.wikipedia.org/wiki/Double_bugg",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the dance accurately, the specific mechanics of managing two followers simultaneously must be visualized."
+    },
+    {
+      "domain": "research",
+      "id": "c1b0b38c17a2bf4d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Double_bugg",
+      "question": "What is the standard BPM range for Double bugg competitions under DSF rules?",
+      "source": "https://en.wikipedia.org/wiki/Double_bugg",
+      "status": "candidate_unreviewed",
+      "why_needed": "The music_profile requires a specific tempo for accurate recreation and training."
+    }
+  ],
+  "research_file": "research_results/double-bugg.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "double-bugg",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Double_bugg",
+    "https://www.wikidata.org/wiki/Q5300119"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

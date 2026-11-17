@@ -1,8 +1,8 @@
 # Bankhead Bounce — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An Atlanta-based hip-hop dance historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Bounce from Bankhead
 NARRATION: This is Bankhead Bounce. 1995.
-ON SCREEN: Hero video, first 10 seconds (qcCFxzmBG_M)
+ON SCREEN: Hero video, first 10 seconds (D_hpI0tMZac)
 ON SCREEN: Title card: Bankhead Bounce · United States · 1995
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Shoulder Bounce.
-ON SCREEN: Hero video full screen, 30–45 s (qcCFxzmBG_M)
+ON SCREEN: Hero video full screen, 30–45 s (D_hpI0tMZac)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
@@ -298,7 +298,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance was historically performed in nightclubs and on stage, and is currently performed in dance fitness studios.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'qcCFxzmBG_M', 'checked_by_vision_model': False, 'title': 'Ying Yang Twins on D-Roc Inventing "Bankhead Bounce" Dance, Michael Jackson Doing It (Part 2)'}
+Hero video: {'youtube_id': 'D_hpI0tMZac', 'checked_by_vision_model': True, 'title': 'How to do the Bankhead Bounce | Hip Hop Club Dance Moves'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: 1990s Atlanta street scenes, Shoulder movement close-ups, Archive footage of the 1995 VMAs

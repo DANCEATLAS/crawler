@@ -1,6 +1,6 @@
 # Zapin — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section
 
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (7): https://en.wikipedia.org/wiki/Zapin; https://www.wikidata.org/wiki/Q147371; https://fr.wikipedia.org/wiki/Zapin; https://de.wikipedia.org/wiki/Zapin; https://it.wikipedia.org/wiki/Zapin; https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/1036; https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/1038

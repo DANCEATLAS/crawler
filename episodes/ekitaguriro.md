@@ -1,6 +1,6 @@
 # Ekitaguriro — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Cow Dance of Ankole
 NARRATION: This is Ekitaguriro. Traditional.
-ON SCREEN: Hero video, first 10 seconds (Mgo05aUl0_Y)
+ON SCREEN: Hero video, first 10 seconds (WJbtf7yQYMs)
 ON SCREEN: Title card: Ekitaguriro · Uganda · Traditional
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: Men imitate the walking gait of cows by stepping from one leg to another.
 NARRATION: Women sway from side to side while spreading their hands across and above their heads to represent the long-horned cattle.
 NARRATION: Watch for Cow Gait, Horn Representation.
-ON SCREEN: Hero video full screen, 30–45 s (Mgo05aUl0_Y)
+ON SCREEN: Hero video full screen, 30–45 s (WJbtf7yQYMs)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -295,7 +295,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear 'bitambi' or 'lessu' cloth tied around the waist with a lighter cloth draped over the shoulders. Women wear African-themed jewelry, and men wear shackle-like beads on their legs.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'Mgo05aUl0_Y', 'checked_by_vision_model': True, 'title': 'ekitaguriro rwankunionio'}
+Hero video: {'youtube_id': 'WJbtf7yQYMs', 'checked_by_vision_model': True, 'title': 'Ankole Traditional Dance / Extract from Brenda’s Kuhingira /Western Uganda Culture'}
 Images: 3 licensed — Aubry Arihona / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Owobusingye / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kateregga1 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Ekitaguriro dance.webm — https://upload.wikimedia.org/wikipedia/commons/b/b9/Ekitaguriro_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Ekitaguriro dance..webm — https://upload.wikimedia.org/wikipedia/commons/e/ee/Ekitaguriro_dance..webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Africa2U: Ekitaguriro Dance — https://archive.org/details/actonma-Africa2U_-_Ekitaguriro_Dance; A dance from Ankore - Ekitaguriro — https://archive.org/details/actonma-A_dance_from_Ankore_-_Ekitaguriro
 Motifs: Long-horned Ankole cattle, Traditional bitambi cloth, Engalabi drums
@@ -305,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (2): https://en.wikipedia.org/wiki/Ekitaguriro; https://www.wikidata.org/wiki/Q124333764

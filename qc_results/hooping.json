@@ -1,10 +1,10 @@
 {
  "slug": "hooping",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:51:50Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 8.0,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,36 @@
    "detail": "sacred=False cues=['ritual']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 8,
+  "respect": 7,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The claim that 'recreational hooping swept across England' in the 14th century is historically unsubstantiated and likely conflates general hoop-rolling games with modern hoop dance.",
+   "The claim that the term 'hula' became associated with the activity in the early 19th century due to British sailors is a common folk etymology and lacks credible historical evidence."
+  ],
+  "harm_or_disrespect": [
+   "The profile conflates the modern 'flow arts' hoop dance with the sacred Native American Hoop Dance. While the profile acknowledges the distinction, grouping them under the same 'Hooping' umbrella risks trivializing the cultural and spiritual significance of the indigenous tradition."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The profile is well-researched regarding modern hoop dance but conflates it with the distinct, sacred Native American Hoop Dance. The historical origins cited (14th-century England, 19th-century 'hula' etymology) are speculative. It is published with the caveat that it describes a modern movement practice rather than a singular traditional dance."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "country",
-  "no_judge"
+  "judge_score=8.0",
+  "doubts=2",
+  "harm",
+  "not_a_dance"
  ],
  "citation": {
   "claims": 6,

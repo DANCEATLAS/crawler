@@ -1,6 +1,6 @@
 # Tsyganochka — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections
 
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Tsyganochka: The Gypsy Girl's Slow Entrance
 NARRATION: This is Tsyganochka. 19th century.
-ON SCREEN: Hero video, first 10 seconds (kNPudJGGCyU)
+ON SCREEN: Hero video, first 10 seconds (pu9d8aqZsXc)
 ON SCREEN: Title card: Tsyganochka · Russia · 19th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ NEEDS: occasions_and_meaning
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Entrance Walk.
-ON SCREEN: Hero video full screen, 30–45 s (kNPudJGGCyU)
+ON SCREEN: Hero video full screen, 30–45 s (pu9d8aqZsXc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: solo dance with entrance into the dance area
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -303,7 +303,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'kNPudJGGCyU', 'checked_by_vision_model': True, 'title': 'КРАСАВИЦЫ ЦЫГАНОЧКИ! Цыганские танцы от души!'}
+Hero video: {'youtube_id': 'pu9d8aqZsXc', 'checked_by_vision_model': True, 'title': '240128 Частушки под танец Цыганочка гармонь орловские жители поют танцуют гармошка парк ЦПКиО г Орел'}
 Images: 1 licensed — Солнцев, Фёдор Григорьевич / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: solo dancer entering stage, guitar silhouette, minor key musical notes, gradual tempo graph
@@ -313,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (4): https://en.wikipedia.org/wiki/Tsyganochka; https://www.wikidata.org/wiki/Q52555151; https://es.wikipedia.org/wiki/Tsyganochka; https://it.wikipedia.org/wiki/Cyganočka

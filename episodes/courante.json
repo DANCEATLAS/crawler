@@ -2,7 +2,7 @@
  "slug": "courante",
  "name": "Courante",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-10-30T16:37:58Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -276,7 +276,7 @@
       "Drill: Foot weight-shifting on beats 1, 2, and 3"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -422,7 +422,7 @@
       "Drill: Simple à gauche and simple à droite drill"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -571,7 +571,7 @@
       "Drill: Stepping through metric shifts without losing tempo"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -766,13 +766,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the classical-court family studied",
-  "videos_studied": 4,
+  "source": "6 tutorial(s) of the classical-court family studied",
+  "videos_studied": 6,
   "counting": "count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
   ],
   "cues": [
    "keep length in both sides of the waist",
@@ -785,15 +786,19 @@
    "hold your placement",
    "stay straight as a board",
    "lift up in your lower abs",
-   "change feet"
+   "change feet",
+   "uno y dos"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
    "context",
+   "full_demo",
    "breakdown",
    "mistakes",
+   "slow_practice",
+   "layering",
    "music_practice"
   ],
   "steps_as_taught": []
@@ -816,6 +821,6 @@
  "claims_verified": 9,
  "claims": 9,
  "polished": false,
- "input_fingerprint": "890ccfd0bdd9261149eae50dbf425b4e750885a806bbf2357960d58067e5f410",
+ "input_fingerprint": "f2bda9139eb705cf7d318105e652605846a14f40228fc59c3c6de7910d5dc110",
  "hero_checked": "pass"
 }

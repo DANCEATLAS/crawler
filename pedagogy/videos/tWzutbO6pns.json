@@ -1,0 +1,197 @@
+{
+ "youtube_id": "tWzutbO6pns",
+ "slug": "chiapanecas",
+ "dance": "Chiapanecas",
+ "title": "TUTORIAL LAS CHIAPANECAS CON PASOS SENCILLOS",
+ "channel": "Trakatá",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-17T21:24:43Z",
+ "url": "https://www.youtube.com/watch?v=tWzutbO6pns",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher provides clear, step-by-step instructions for each sequence. He demonstrates the movements from the front and back, breaking down the steps with consistent counting.",
+  "language": "Spanish",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:09",
+    "segment": "intro",
+    "note": "The teacher introduces the first sequence."
+   },
+   {
+    "t": "0:19",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the first sequence with counts."
+   },
+   {
+    "t": "0:29",
+    "segment": "breakdown",
+    "note": "The teacher demonstrates the turn in the first sequence."
+   },
+   {
+    "t": "0:47",
+    "segment": "slow_practice",
+    "note": "The teacher practices the first sequence with repetitions."
+   },
+   {
+    "t": "1:30",
+    "segment": "breakdown",
+    "note": "The teacher introduces and breaks down the second sequence."
+   },
+   {
+    "t": "2:43",
+    "segment": "breakdown",
+    "note": "The teacher demonstrates the second variant of the second sequence."
+   },
+   {
+    "t": "3:33",
+    "segment": "breakdown",
+    "note": "The teacher introduces and breaks down the third sequence."
+   },
+   {
+    "t": "6:01",
+    "segment": "breakdown",
+    "note": "The teacher introduces and breaks down the fourth sequence."
+   },
+   {
+    "t": "6:41",
+    "segment": "music_practice",
+    "note": "The teacher practices the sequences with music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4",
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "1-2-3-4-5-6-7-8"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": 4
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "balseado",
+    "counts": "1-2-3-4",
+    "description": "A basic step involving a rhythmic weight transfer."
+   },
+   {
+    "name": "vuelta",
+    "counts": "1-2-3-4",
+    "description": "A turn performed in four counts."
+   },
+   {
+    "name": "planta",
+    "counts": "1-2-3",
+    "description": "A step involving a firm placement of the foot."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The teacher breaks down each sequence into manageable parts.",
+    "The teacher uses consistent counting throughout the lesson."
+   ],
+   "what_hinders": [
+    "The video lacks verbal explanations of the footwork technique.",
+    "The teacher does not provide tips for posture or arm movements."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "Vamos a iniciar con la secuencia número uno."
+   },
+   {
+    "t": "1:30",
+    "text": "Vamos a continuar ahora con nuestra secuencia número dos."
+   },
+   {
+    "t": "3:33",
+    "text": "Vamos a continuar con la secuencia número tres."
+   },
+   {
+    "t": "6:01",
+    "text": "Vamos a terminar con nuestra secuencia número cuatro."
+   },
+   {
+    "t": "6:41",
+    "text": "Vamos a realizar ahora nuestras secuencias con música."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher stands in front of a plain wall and introduces the sequence.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 19,
+    "end_s": 24,
+    "topic": "movement",
+    "observation": "The teacher performs the balseado step, shifting weight from one foot to the other.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 29,
+    "end_s": 33,
+    "topic": "movement",
+    "observation": "The teacher performs a turn, moving his feet in a circular motion.",
+    "viewpoint": "back",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 47,
+    "end_s": 51,
+    "topic": "movement",
+    "observation": "The teacher repeats the balseado step, demonstrating the rhythm.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 147,
+    "end_s": 150,
+    "topic": "movement",
+    "observation": "The teacher performs the balseado step with a turn.",
+    "viewpoint": "back",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 156,
+    "end_s": 157,
+    "topic": "movement",
+    "observation": "The teacher performs two planta steps with his left foot.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a structured approach, breaking down each sequence into smaller, repeatable parts and practicing them with consistent counting."
+ },
+ "attempts": 1
+}

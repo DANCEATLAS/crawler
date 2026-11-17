@@ -1,8 +1,8 @@
 # Malaysian dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced lion dance master from a Malaysian kung fu school, passionate about cultural heritage
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The Southern Lion costume features a large head made of papier-mâché over a bamboo frame, decorated with fur and painted designs, including a single horn. The body is a durable cloth trimmed with fur, often with a long tail attached. Performances typically occur during Lunar New Year, weddings, business openings, and cultural festivals, often outdoors or in community halls.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'N3LR_nx4Nj4', 'checked_by_vision_model': False, 'title': 'Traditional Malaysian Dance - Penang Airport'}
+Hero video: {'youtube_id': 'N3LR_nx4Nj4', 'checked_by_vision_model': True, 'title': 'Traditional Malaysian Dance - Penang Airport'}
 Images: 8 licensed — hojusaram / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); by lismith28 at Flickr / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); 663highland / Wikimedia Commons / CC BY 2.5 (CC BY 2.5); Michael Gunther / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Gap chuen / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Lion head close-ups, Drummers in action, Colorful festival scenes, Acrobatic leaps
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (5): https://en.wikipedia.org/wiki/Lion_dance; https://www.wikidata.org/wiki/Q713866; https://es.wikipedia.org/wiki/Danza_del_león; https://fr.wikipedia.org/wiki/Danse_du_lion; https://pt.wikipedia.org/wiki/Dança_do_leão

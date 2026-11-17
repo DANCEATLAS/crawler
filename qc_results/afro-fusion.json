@@ -1,0 +1,119 @@
+{
+ "slug": "afro-fusion",
+ "qc_at": "2026-11-17T20:51:31Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Afro fusion"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "89"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "189"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2003, the Kisima Music Awards, founded in 1994, were revivified to include an"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "371"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2648"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "South Africa"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Well-sourced profile blending contemporary dance history and musical evolution. Teaching fields lack specific beginner guidance, but core historical facts are solid."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-17T20:27:50Z"
+}

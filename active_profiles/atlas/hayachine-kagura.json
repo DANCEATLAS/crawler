@@ -4,7 +4,12 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
@@ -16,7 +21,7 @@
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "The final dance of the cycle, performed by a dancer representing a lion-like creature.",
+          "description": "The final dance performed by a personification of the mountain god.",
           "name": "Shishi dance"
         }
       ],
@@ -25,19 +30,19 @@
     },
     "music_profile": {
       "instruments": [
-        "drum",
+        "drums",
         "cymbals",
-        "flute"
+        "flutes"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
         "ritual",
-        "ceremonial"
+        "solemn"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music is characterized by the combination of drums, cymbals, and flutes accompanying the masked dancers.",
+      "sound_description": "The music is characterized by the ensemble of drums, cymbals, and flutes accompanying the masked ritual dancers.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
@@ -51,7 +56,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ae47fe313e0c1726058ebf67ee90e98f6b7db8404fdf1d04d5cb00c02f81a07f",
+  "fingerprint": "9c80f05ab634d6178d56a7211a54e08b2a99c1f9136eecc6662e58ebbeabba1d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -61,7 +66,8 @@
     "research": [
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific movement sequences for the twelve dances? Evidence needed: Ethnographic field notes or dance notation from the Hayachine preservation society."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -88,7 +94,17 @@
   ],
   "music_options": [],
   "name": "Hayachine Kagura",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4984e1fe6ab5b4cd",
+      "next_evidence": "Ethnographic field notes or dance notation from the Hayachine preservation society.",
+      "question": "What are the specific movement sequences for the twelve dances?",
+      "source": "https://ich.unesco.org/en/RL/00272",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources provide a structural overview but lack the technical detail required for movement analysis."
+    }
+  ],
   "research_file": "research_results/hayachine-kagura.json",
   "runtime_active": false,
   "scope": {

@@ -2,7 +2,7 @@
  "slug": "batusi",
  "name": "Batusi",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-16T19:58:09Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Batusi. 1960s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (RsYA8Gr5NTY)",
      "Title card: Batusi · United States · 1960s"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Eye Swipe V-Sign."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (RsYA8Gr5NTY)",
      "Captions name each signature move as it appears",
      "Formation: Solo informal floor space."
     ],
@@ -715,7 +715,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "RsYA8Gr5NTY",
+   "checked_by_vision_model": true,
+   "title": "Batman 1966 - The Batusi"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -750,16 +754,19 @@
   ]
  },
  "teaching_formula": {
-  "source": "24 tutorial(s) of the street-urban family studied",
-  "videos_studied": 24,
+  "source": "29 tutorial(s) of the street-urban family studied",
+  "videos_studied": 29,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, side, back",
+   "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
   "cues": [
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
    "right leg out front",
    "jump split your legs",
    "the back foot goes up",
@@ -768,10 +775,7 @@
    "kick the right leg up",
    "take the right leg back",
    "hop forward with the left leg",
-   "feet parallel",
-   "relax  breath",
-   "land on the balls of your feet",
-   "engage your core"
+   "feet parallel"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -787,7 +791,6 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -799,6 +802,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "7c24c4f90b99dd56c804084daadf5904e6c4349c671e937db738891597fa1637",
- "hero_checked": null
+ "input_fingerprint": "c71b93b97e57a9b6c68a237f2b36e84dace5f3f2490f5db7bb99b45fbfa01cff",
+ "hero_checked": "pass"
 }

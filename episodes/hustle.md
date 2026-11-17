@@ -1,8 +1,8 @@
 # Hustle — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: From South Bronx Basements to the Top of the Charts
 NARRATION: This is Hustle. 1970s.
-ON SCREEN: Hero video, first 10 seconds (frCnHr1CmDg)
+ON SCREEN: Hero video, first 10 seconds (BzrA38NiyoA)
 ON SCREEN: Title card: Hustle · United States · 1970s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Hustle is danced as a couple dance moving freely over the dance floor
 NARRATION: The dance uses a lead-and-follow structure where the leader initiates back-forward steps starting on the left foot without a traditional swing rocking action due to the rapid tempo.
 NARRATION: Counting patterns syncopate against 4/4 disco music; common timings include '&1 2 3 &1 2 3' (leader stepping Left-Right, Left, Right), as well as '1, 2 & 3' (Slow-Quick-Quick-Slow), '1&23', '12&3', or '123&'.
 NARRATION: Watch for The Basic, Turn, Left Turn.
-ON SCREEN: Hero video full screen, 30–45 s (frCnHr1CmDg)
+ON SCREEN: Hero video full screen, 30–45 s (BzrA38NiyoA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -334,7 +334,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Hustle was historically danced in social and urban settings including South Bronx basements, hooky gigs, house parties, church recreation centers such as St. Mary's Recreation Center, and discotheques like New York City's Adam's Apple and club '310 1/2'. Instructional vinyl releases like 'New York Hustle Incorporated' featured period disco attire and instructional photos to guide home learners. Television shows like Marty Angelo's 'Disco Step-by-Step' brought nightclub dress into living rooms, while Saturday Night Fever broadcast club-based disco styling internationally.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'frCnHr1CmDg', 'checked_by_vision_model': False, 'title': 'The Hustle / VAN McCOY / Dance / Perfume'}
+Hero video: {'youtube_id': 'BzrA38NiyoA', 'checked_by_vision_model': True, 'title': 'Dance Party Friday - The Hustle'}
 Images: 1 licensed — Heinrich Klaffs / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
 Footage: File:2025-3-17 Engine AI plays Axe Gang Dance.webm — https://upload.wikimedia.org/wikipedia/commons/c/cf/2025-3-17_Engine_AI_plays_Axe_Gang_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Disney Sing Along Songs: Disneyland Fun (2002 Print) — https://archive.org/details/DisneylandFun2002; Kung Fu Hustle [DVD] [Thai] [Region 3] — https://archive.org/details/kung-fu-hustle
 Motifs: St. Mary's Recreation Center gymnasium filled with teenagers in 1974., The glowing dance floor and spinning mirror ball of 1970s New York discotheques., Close-up of pumping forearm grips executing 'The Wheel'., Vintage CRT television playing 1975 episodes of 'Disco Step-by-Step'.
@@ -344,10 +344,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4 / and-1-and-2
 Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: rock step on 1-2; palm to the sky; open the newspaper
+Cues: 1 2 3 4; inside left turn; outside right turn; rock step on 1-2; palm to the sky; open the newspaper
 Common mistakes the studied teachers name: putting all weight on the rock step
 
 Sources (3): https://en.wikipedia.org/wiki/Hustle_(dance); https://www.wikidata.org/wiki/Q2914794; https://es.wikipedia.org/wiki/Hustle_(baile)

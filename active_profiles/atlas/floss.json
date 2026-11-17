@@ -1,13 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-exertion of shoulders"
+        ],
+        "counts": "Simplified 1-2-3-4 count.",
+        "duration_minutes": "2-3 minutes",
+        "game_version": "The 'Floss-Off' challenge: who can keep the rhythm longest."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid hip twisting",
+          "Loss of balance"
+        ],
+        "counts": "Use a slow 4-count rhythm.",
+        "seated_version": "Perform arm swings while seated, focusing on shoulder range of motion.",
+        "standing_version": "Perform arm swings with feet planted firmly to ensure balance.",
+        "tempo_and_range": "Reduce speed significantly; focus on fluid arm movement rather than rapid swings."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Parallel alternating arm swings with clenched fists.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "Counter-hip movements (gegenläufige Hüftbewegungen).",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Starr geradeaus gerichteter Blick (staring straight ahead).",
+      "signature_moves": [
+        {
+          "description": "Two swings in front of the body, one swing behind the body.",
+          "name": "The Floss"
+        }
+      ],
+      "tempo_feel": "Great speed (mit großer Geschwindigkeit).",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Clench fists.",
+        "Swing arms from back to front on alternating sides.",
+        "Perform two swings in front of the body.",
+        "Perform one swing behind the body.",
+        "Coordinate with counter-hip movements."
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Requires high speed and coordination of arms and hips.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "2633567ba11752fd2a74e8d42879fc32dc44aa05f2867b646b1ef3ba051b41f5",
+  "fingerprint": "21d3910c1ace46fec4abb467b4ae1688d4abbd611810bd00ddf4682a3c63c176",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +78,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific rhythmic patterns or BPM ranges commonly associated with the Floss in viral social media contexts? Evidence needed: Analysis of top-performing 'Floss' videos on social media platforms."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +108,18 @@
   ],
   "music_options": [],
   "name": "Floss",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5331cda6cb9231bd",
+      "next_evidence": "Analysis of top-performing 'Floss' videos on social media platforms.",
+      "question": "Are there specific rhythmic patterns or BPM ranges commonly associated with the Floss in viral social media contexts?",
+      "source": "https://en.wikipedia.org/wiki/Floss_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not define the musicality, which is essential for teaching the dance."
+    }
+  ],
+  "research_file": "research_results/floss.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +131,18 @@
   "slug": "floss",
   "sources": [
     "https://en.wikipedia.org/wiki/Floss_(dance)",
-    "Source: Floss (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Floss_(dance)"
+    "https://www.wikidata.org/wiki/Q55135808",
+    "https://es.wikipedia.org/wiki/Baile_del_hilo_dental",
+    "https://de.wikipedia.org/wiki/Floss_(Tanz)",
+    "https://it.wikipedia.org/wiki/Floss_(danza)",
+    "https://archive.org/details/NPCM19350902"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/SUz4Jcvb0tw.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=SUz4Jcvb0tw"
+    }
+  ]
 }

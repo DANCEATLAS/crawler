@@ -1,0 +1,135 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed in sets, typical of Scottish country dance, historically at hunt balls.",
+          "source": "https://en.wikipedia.org/wiki/Duke_of_Perth_(reel)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Longwise sets (standard for Scottish country dance)",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples in a set",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Considerably slower than a standard reel",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "lively",
+        "formal",
+        "rhythmic",
+        "traditional"
+      ],
+      "musical_form": "Reel/Rant",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rant/Scottish Measure",
+      "sound_description": "A G major tune that functions as a rant but is played at a slower, more deliberate tempo suitable for a Scottish measure in 2/4 time.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "none"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Country dance (typically longwise sets)",
+      "level_notes": "The sources indicate it was a popular social dance at formal balls, suggesting a level accessible to social dancers of the period.",
+      "rhythm": "2/4 time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "9eaceaa52741699c6e192b1249a1e97c28bb9cd1e8554a570c5756c2de2a356d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific figures and steps used in the RSCDS version of the Duke of Perth? Evidence needed: https://www.rscds.org/dance/duke-perth"
+    ]
+  },
+  "id": "atlas:duke-of-perth",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Duke of Perth",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "9ed504c49b584dec",
+      "next_evidence": "https://www.rscds.org/dance/duke-perth",
+      "question": "What are the specific figures and steps used in the RSCDS version of the Duke of Perth?",
+      "source": "https://en.wikipedia.org/wiki/Duke_of_Perth_(reel)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only describe the music and general popularity, not the actual movement mechanics needed for teaching."
+    }
+  ],
+  "research_file": "research_results/duke-of-perth.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "duke-of-perth",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Duke_of_Perth_(reel)",
+    "https://www.wikidata.org/wiki/Q5313084"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

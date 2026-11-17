@@ -1,8 +1,8 @@
 # Buffalo dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; signature moves
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Documentary narrator presenting historical and ethnographic records with profound cultural respect.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Spirit of the Bison: The Sacred Buffalo Dance of the Plains
 NARRATION: This is Buffalo dance. Traditional / Historical.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (o74Z0ZZOTEI)
 ON SCREEN: Title card: Buffalo dance · United States · Traditional / Historical
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage: File:1894 Sioux Buffalo Dance anagoria.webm (https://upload.
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (o74Z0ZZOTEI)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Performed inside a large earth lodge facing an east-facing opening, centered around an altar displaying a painted buffalo skull.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'o74Z0ZZOTEI', 'checked_by_vision_model': True, 'title': '2019 Buffalo dance/Pueblo of Zuni,NM @ Sañto Ñino'}
 Images: 1 licensed — Karl Bodmer / Wikimedia Commons / Public domain (Public domain)
 Footage: File:1894 Sioux Buffalo Dance anagoria.webm — https://upload.wikimedia.org/wikipedia/commons/3/3b/1894_Sioux_Buffalo_Dance_anagoria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Zuni and Hopi Buffalo Dance Group 2.webm — https://upload.wikimedia.org/wikipedia/commons/6/67/Zuni_and_Hopi_Buffalo_Dance_Group_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Buffalo Dance (1894).webm — https://upload.wikimedia.org/wikipedia/commons/c/c4/Buffalo_Dance_%281894%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Buffalo Dance (1894) Best quality.webm — https://upload.wikimedia.org/wikipedia/commons/d/d5/Buffalo_Dance_%281894%29_Best_quality.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Buffalo Dance (Standard 4:3) — https://archive.org/details/SF126; Buffalo Dance — https://archive.org/details/buffalo_dance_1894; More Treasures from American Film Archives (1894-1931) "Program 1" — https://archive.org/details/more-treasures-program-1
 Motifs: Painted buffalo skull on a folded blanket near the lodge altar., East-facing entrance of a traditional Pawnee earth lodge., Traditional buffalo and animal skin ceremonial attire.
@@ -108,7 +108,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

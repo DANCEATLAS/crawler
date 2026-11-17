@@ -1,8 +1,8 @@
 # Charleston Stroll — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic swing historian and master dancer who combines precise technical footwork breakdowns with lively historical storytelling.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Twisting Feet and Fast Kicks: The Birth of the Charleston
 NARRATION: This is Charleston Stroll. 1920s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (psch9N4PmO4)
 ON SCREEN: Title card: Charleston Stroll · United States · 1920s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The Charleston can be danced solo, with a partner, or in group lines 
 NARRATION: Dancers maintain slightly bent knees with feet turned inward and outward, creating alternating knock-kneed and bow-legged positions while keeping feet at right angles to the leg at the ankle.
 NARRATION: The arm action mirrors natural walking: as the left leg steps forward, the right arm moves forward while bent at the elbow and wrist.
 NARRATION: Watch for Basic 8-Count Step, Savoy Kicks, Johnny's Drop.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (psch9N4PmO4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced in place, traveling in stroll lines, or arranged in social circles and jam formats.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -324,7 +324,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: During the 1920s, women wore short flapper dresses or skirts adorned with hanging ribbons, fringe, sequins, or feathers designed to highlight dynamic leg and hip movements, paired with short 'à la garçonne' hair. Men wore black pinstriped suits with bow ties or neckties. Settings ranged from Broadway theaters and Parisian cabarets to American speakeasies, floor contests, and public stunts.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'psch9N4PmO4', 'checked_by_vision_model': True, 'title': '1920s dances featuring the Charleston, the Peabody, Turkey Trot and more'}
 Images: 4 licensed — Walery, Polish-British, 1863-1929 / Wikimedia Commons / Public domain (Public domain); Unknown photographer, National Photo Company / Wikimedia Commons / Public domain (Public domain); Thomas Quine / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Rosiestep / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Josephine Baker - rare topless dance clip & lost color Clara Bow film — https://archive.org/details/JosephineBaker-RareToplessDanceClipLostColorClaraBowFilm; Short Clips — https://archive.org/details/ShortClips_251; YESTERDAY'S NEWSREEL BATTLE OF BRITAIN 1940-41 DANCING THE CHARLESTON TRAIN WRECK 52254 — https://archive.org/details/52254YesterdaysNewsreelBattleForBritain116; Kidsongs - I Can Dance! (1997; VHS Record) — https://archive.org/details/kidsongs-i-can-dance-1997-vhs-record; YESTERDAY'S NEWSREEL ORVILLE & WILBUR WRIGHT THE CHARLESTON POPE PIUS XI 52244 — https://archive.org/details/52244YesterdaysNewsreelMemorialAtKittyhawk9; Dancing With the Celebrities Week Two — https://archive.org/details/Dancing_With_the_Celebrities_Week_Two
 Motifs: Close-up shots of twisting feet and ankle angles., Fringe and ribbon momentum on 1920s dresses., Pianist hands flying across stride piano keys.
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
+Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
 
 Sources (6): https://en.wikipedia.org/wiki/Charleston_(dance); https://www.wikidata.org/wiki/Q1066703; https://es.wikipedia.org/wiki/Charlestón; https://fr.wikipedia.org/wiki/Charleston_(danse); https://pt.wikipedia.org/wiki/Charleston_(dança); https://de.wikipedia.org/wiki/Charleston_(Tanz)

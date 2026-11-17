@@ -1,10 +1,10 @@
 {
  "slug": "asyik",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:51:55Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 8.5,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,28 @@
    "detail": "sacred=False cues=['trance']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurate to the provided evidence. The teaching value is low due to the lack of specific movement descriptions, which is understandable given the source material. The claim regarding 'eleven types' of gedombak asyik in the music section appears to be a slight misinterpretation of the source text, which likely refers to the ensemble composition."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "profile_long_len",
-  "no_judge"
+  "judge_score=8.5"
  ],
  "citation": {
   "claims": 6,

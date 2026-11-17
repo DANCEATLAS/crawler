@@ -1,10 +1,10 @@
 {
  "slug": "acro-dance",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:51:41Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.7,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,28 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched, clearly distinguishing the dance form from gymnastics. It provides concrete historical context and technical requirements. The teaching value is high, though it correctly notes the absence of specific musical rhythm data, which is appropriate for a style that adapts to various genres."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "sections_filled",
-  "no_judge"
+  "judge_score=9.7"
  ],
  "citation": {
   "claims": 6,

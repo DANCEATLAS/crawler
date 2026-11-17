@@ -1,8 +1,8 @@
 # Assamese folk dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Assamese cultural practitioner or Satriya artist.
@@ -101,7 +101,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'sA-A1YwA8jA', 'checked_by_vision_model': False, 'title': 'BIHU ll FOLK DANCE OF ASSAM ll RATI DUPOROLE ll Dance by Minu,Ruma(Riya),Deepanita,Ritu,Gitika'}
+Hero video: {'youtube_id': 'sA-A1YwA8jA', 'checked_by_vision_model': True, 'title': 'BIHU ll FOLK DANCE OF ASSAM ll RATI DUPOROLE ll Dance by Minu,Ruma(Riya),Deepanita,Ritu,Gitika'}
 Images: 3 licensed — Bodoland Territorial Council / Wikimedia Commons / CC0 (CC0); Bipul Rabha / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Diganta Talukdar / Wikimedia Commons / CC0 (CC0)
 Footage: MISSING
 Motifs: The Rang Ghar fields, Traditional dhol and pepa, Colourful dokhna fabrics, Metallic cymbals
@@ -111,7 +111,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

@@ -1,0 +1,120 @@
+{
+ "slug": "bohuwa-dance",
+ "qc_at": "2026-11-17T20:51:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.15,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Bohuwa dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "64"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "193"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Performed every two years in Dibrugarh, the Bohuwa dance reenacts the myth of Da"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "357"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2508"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'deity', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Accurate and respectful profile based strictly on provided evidence. Teaching value is low due to undocumented choreography, which is handled properly as a sacred ritual."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.15",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-17T19:31:29Z"
+}

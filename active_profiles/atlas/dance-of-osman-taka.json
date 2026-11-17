@@ -1,0 +1,155 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "bridge formation",
+          "weight-bearing on others"
+        ],
+        "counts": "Simplified 1-2-3 counts.",
+        "duration_minutes": "3",
+        "game_version": "A game where children hold hands in a line and practice the slow-quick-quick rhythm while moving in a circle."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "bridge formation",
+          "jumps",
+          "rapid turns"
+        ],
+        "counts": "Simplified 1-2-3 counts.",
+        "seated_version": "Perform the arm and upper body movements while seated, focusing on the 90-degree elbow bend and rhythmic hand gestures.",
+        "standing_version": "Perform the row dance steps without the bridge formation, focusing on the slow-quick-quick rhythm with support.",
+        "tempo_and_range": "Reduced tempo and limited range of motion for the legs."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Dancers hold hands with elbows bent 90 degrees upwards.",
+      "difficulty": "advanced",
+      "footwork": "Slow-quick-quick pattern.",
+      "formation_and_space": "Row formation.",
+      "hips_and_torso": "Lead dancer arches back and chest to form a bridge.",
+      "levels_and_jumps": "Includes jumps and turns by the lead dancer.",
+      "partnering": "Dancers must support each other's weight; the lead dancer supports the weight of others on his stomach.",
+      "posture": "Upright, with arms held at 90-degree angles at the elbows.",
+      "signature_moves": [
+        {
+          "description": "Lead dancer drops to knees, arches back, and extends chest upward to form a platform.",
+          "name": "The Bridge"
+        }
+      ],
+      "tempo_feel": "Strict tempo.",
+      "what_to_avoid": "Avoid poor grip or lack of coordination, as the bridge formation requires significant physical stability."
+    },
+    "music_profile": {
+      "instruments": [
+        "lute",
+        "violin",
+        "tambourine",
+        "clarinet"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "dramatic",
+        "resilient",
+        "rhythmic"
+      ],
+      "musical_form": "Instrumental with optional vocal accompaniment",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Hajde more Osman Taka"
+        },
+        {
+          "artist": "Traditional",
+          "title": "Osman Taka o lule"
+        }
+      ],
+      "rhythm_pattern": "slow-quick-quick",
+      "sound_description": "A lively, rhythmic folk sound driven by the interplay of clarinet and strings, maintaining a steady, driving pulse suitable for a row dance.",
+      "tempo_bpm": "",
+      "vocal_style": "Traditional folk singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Slow step",
+        "Quick step",
+        "Quick step"
+      ],
+      "formation": "Row dance",
+      "level_notes": "Requires high physical strength for the lead dancer and trust among the line.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "201d8d77147e7d8082feda5182e5ed278778a38d93cb89b6623d62620649392f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific traditional garments worn by Cham Albanians when performing this dance? Evidence needed: Ethnographic studies of Cham Albanian folk dress."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:dance-of-osman-taka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dance of Osman Taka",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "685298d03855741c",
+      "next_evidence": "Ethnographic studies of Cham Albanian folk dress.",
+      "question": "What are the specific traditional garments worn by Cham Albanians when performing this dance?",
+      "source": "https://en.wikipedia.org/wiki/Dance_of_Osman_Taka",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate visual guidance for the episode brief and costume section."
+    }
+  ],
+  "research_file": "research_results/dance-of-osman-taka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dance-of-osman-taka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dance_of_Osman_Taka",
+    "https://www.wikidata.org/wiki/Q5215268",
+    "https://de.wikipedia.org/wiki/Tanz_von_Osman_Taka"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

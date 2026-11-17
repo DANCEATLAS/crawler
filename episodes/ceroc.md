@@ -1,6 +1,6 @@
 # Ceroc — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the costume & setting section
 
@@ -74,7 +74,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Beginner moves are taught in a structured routine of three moves.
 NARRATION: Partners rotate every few minutes.
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -101,7 +101,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 80 bpm
@@ -113,9 +113,10 @@ NARRATION: Step 1: Beginner moves are taught in a structured routine of three mo
 NARRATION: Step 2: Partners rotate every few minutes.
 NARRATION: Footwork from the sources: Some intermediate moves contain footwork; Australian schools teach 'Step' footwork.
 NARRATION: Drill: Basic step practice
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Beginners practice with taxi dancers.
@@ -123,6 +124,7 @@ NARRATION: Step 4: Intermediate moves include more complex footwork and classic 
 NARRATION: Drill: Partner rotation drill
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -139,7 +141,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -168,7 +170,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 80 bpm
@@ -179,9 +181,10 @@ NEEDS: meter
 NARRATION: Step 1: Beginner moves are taught in a structured routine of three moves.
 NARRATION: Step 2: Partners rotate every few minutes.
 NARRATION: Drill: Classic move sequence
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Beginners practice with taxi dancers.
@@ -192,6 +195,7 @@ NARRATION: Drill: Connection and frame focus
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,7 +211,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Rows facing a stage.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -236,7 +240,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 80 bpm
@@ -246,15 +250,17 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Beginners practice with taxi dancers.
 NARRATION: Step 2: Intermediate moves include more complex footwork and classic moves.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Catapult: A beginner-level move in the New Zealand repertoire.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -270,7 +276,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Rows facing a stage.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -307,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
-Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, mirror; tempo progression: full
+Cues: guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot; guys step forward turning the girl; guys step back right ladies back right; guys pulling the right hand towards you
 
 Sources (3): https://en.wikipedia.org/wiki/Ceroc; https://www.wikidata.org/wiki/Q859676; https://de.wikipedia.org/wiki/Ceroc

@@ -1,8 +1,8 @@
 # Quebradita — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable dance historian or former 90s competitor.
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'uIF8MrZ2ptA', 'checked_by_vision_model': False, 'title': 'New Quebradita Mix# 1 2019'}
+Hero video: {'youtube_id': 'uIF8MrZ2ptA', 'checked_by_vision_model': True, 'title': 'New Quebradita Mix# 1 2019'}
 Images: 1 licensed — Edil Villa / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: L.A. Banda: Dance of the New L.A. — https://archive.org/details/clloy_000027; Baile de la Quebradita — https://archive.org/details/vid-20250927-223344; File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 01.webm — https://upload.wikimedia.org/wikipedia/commons/9/97/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 02.webm — https://upload.wikimedia.org/wikipedia/commons/b/b8/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 1990s television footage, Close-ups of footwork, Technobanda musical instruments
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
+Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
 
 Sources (4): https://en.wikipedia.org/wiki/Quebradita; https://www.wikidata.org/wiki/Q3413969; https://es.wikipedia.org/wiki/Quebradita; https://fr.wikipedia.org/wiki/Quebradita

@@ -1,0 +1,448 @@
+{
+ "slug": "peacock-dance",
+ "name": "Peacock dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:22Z",
+ "researched_at": "2026-11-17T20:38:42Z",
+ "qc_score": 9.3,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Cultural historian or traditional dance practitioner.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Peacock dance",
+   "Mayilattam",
+   "Peafowl dance",
+   "Tari Merak",
+   "Kongque wu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Peacock dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Living Totem: Asia's Peacock Dances",
+     "This is Peacock dance. Traditional/20th Century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (z1wLnfMW0fE)",
+     "Title card: Peacock dance · China, India, Indonesia, Myanmar, Cambodia, Sri Lanka, Bangladesh · Traditional/20th Century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance has deep roots in Asian folk traditions, with specific regional evolutions.",
+     "The Dai peacock dance is tied to ancient ethnic culture and totemism.",
+     "The Indonesian Tari Merak is a 20th-century creation by Raden Tjeje Soemantri."
+    ],
+    "on_screen": [
+     "Map: China, India, Indonesia, Myanmar, Cambodia, Sri Lanka, Bangladesh · Global",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is used for festivals (Water Festival, Thai Pongal), spiritual rituals, and welcoming guests.",
+     "It expresses joy and honors cultural totems.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Peacock dance, at Botanical Garden Hyderabad.webm (https://upload.wikimedia.org/wikipedia/commons/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dai dancers use either a heavy bamboo-and-silk frame or perform 'unarmed' without props.",
+     "Tari Merak dancers use classical Sundanese movements to mimic the bird.",
+     "Mayilattam performers dress as peacocks for harvest festivals.",
+     "Watch for Feather stretching."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (z1wLnfMW0fE)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Listen for the Elephant-foot drums, Gongs, Cymbals.",
+     "The Dai peacock dance music is driven by the rhythmic interplay of elephant-foot drums, gongs, and cymbals."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dai dancers wear heavy bamboo frames or specialized peacock-themed attire.",
+     "Mayilattam dancers dress as peacocks.",
+     "Tari Merak is performed at weddings and official receptions."
+    ],
+    "on_screen": [
+     "Image gallery: 7 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Raden Tjeje Soemantri (choreographer of the Indonesian Tari Merak).",
+     "Dai (China), Mayilattam (India), Tari Merak (Indonesia), and traditions in Myanmar, Cambodia, Sri Lanka, and Bangladesh.",
+     "The dance is a folk tradition in most regions, with the Indonesian variant being a 20th-century classical-folk hybrid."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Peacock dance is variant of Mayilattam: The Indian peacock dance tradition.",
+     "Peacock dance is variant of Tari Merak: The Indonesian peafowl dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Dai peacock dance is a spiritual totem and essential to cultural festivals; the Mayilattam is performed in honor of Lord Murugan. Outsiders should observe local customs regarding festival participation."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how the movements of the peacock have inspired centuries of ritual and performance across Asia.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Elephant-foot drums",
+   "Gongs",
+   "Cymbals"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "Joyful",
+   "Celebratory"
+  ],
+  "sound_description": "The Dai peacock dance music is driven by the rhythmic interplay of elephant-foot drums, gongs, and cymbals.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Peacock dance (China, India, Indonesia, Myanmar, Cambodia, Sri Lanka, Bangladesh). Instruments: Elephant-foot drums, Gongs, Cymbals. Mood: Joyful, Celebratory. It should sound like this: The Dai peacock dance music is driven by the rhythmic interplay of elephant-foot drums, gongs, and cymbals. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "z1wLnfMW0fE",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dai dancers wear heavy bamboo frames or specialized peacock-themed attire. Mayilattam dancers dress as peacocks. Tari Merak is performed at weddings and official receptions.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AShan_peacock_dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMayilattam_%282%29.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AKhum_Khantoke.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Shan_peacock_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Shan_peacock_dance.jpg/1280px-Shan_peacock_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Daryn Nakhuda from Seattle, US / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AShan_peacock_dance.jpg",
+    "description": "Shan peacock (kinnari and kinnara) dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mayilattam_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Mayilattam_%282%29.JPG/1280px-Mayilattam_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Vaikoovery / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMayilattam_%282%29.JPG",
+    "description": "Mayilattam performed at Koovery"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Khum_Khantoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Khum_Khantoke.jpg/1280px-Khum_Khantoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "whyyan / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKhum_Khantoke.jpg",
+    "description": "Dancer at Khum Khantoke dinner and show, Chiang Mai"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/2016_Phnom_Penh%2C_Tradycyjny_Kambod%C5%BCa%C5%84ski_Pokaz_Ta%C5%84ca_%28076%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2016_Phnom_Penh%2C_Tradycyjny_Kambod%C5%BCa%C5%84ski_Pokaz_Ta%C5%84ca_%28076%29.jpg/1280px-2016_Phnom_Penh%2C_Tradycyjny_Kambod%C5%BCa%C5%84ski_Pokaz_Ta%C5%84ca_%28076%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Marcin Konsek / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A2016_Phnom_Penh%2C_Tradycyjny_Kambod%C5%BCa%C5%84ski_Pokaz_Ta%C5%84ca_%28076%29.jpg",
+    "description": "Traditional Cambodian Dance Show - Pailin Peacock Dance. Phnom Penh, Cambodia."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/DSC_0624_yuri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/DSC_0624_yuri.jpg/1280px-DSC_0624_yuri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Yuriandrian85 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADSC_0624_yuri.jpg",
+    "description": "Tari Merak\nDalam acara \"Iwung Kalbu\" yang di selenggarakan di Gedung Budaya Sabilulungan, Soreang, Kabupaten Bandung, pada Tanggal 28 September 2018."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chiang_Mai._Benjarong_Khantoke._Traditional_Thai_dance._2016-10-14_20-30-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chiang_Mai._Benjarong_Khantoke._Traditional_Thai_dance._2016-10-14_20-30-01.jpg/1280px-Chiang_Mai._Benjarong_Khantoke._Traditional_Thai_dance._2016-10-14_20-30-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Shesmax / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai._Benjarong_Khantoke._Traditional_Thai_dance._2016-10-14_20-30-01.jpg",
+    "description": "Chiang Mai. Benjarong Khantoke. Traditional Thai dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Peacock_Dancer_with_Body_Art_-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Peacock_Dancer_with_Body_Art_-2.jpg/1280px-Peacock_Dancer_with_Body_Art_-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "TAPAS KUMAR HALDER / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APeacock_Dancer_with_Body_Art_-2.jpg",
+    "description": "Portrait of a Peacock dance performer with makeup. The Peacock dance is performed by girls dressed as peacock during the harvest festival of Thai Pongal in the Indian states of Tamil Nadu and Kerala."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Peacock dance, at Botanical Garden Hyderabad.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Original:  KCVelagaRefinement:  Rihaan180 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Elmo's World: Stories from Elmo's Friends",
+    "url": "https://archive.org/details/elmos-world-films",
+    "year": 1998,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Folk Dances of India (Vol.I)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-498-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Monkey See Monkey Do™ - Peacock Dance",
+    "url": "https://archive.org/details/monkey-see-monkey-do-tm-peacock-dance",
+    "year": 2010,
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Mayilattam video 2023.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Mayilattam_video_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Vis M / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Peacock feathers",
+   "Bamboo frames",
+   "Traditional festival attire"
+  ],
+  "costume_notes": "Dai dancers wear heavy bamboo frames or specialized peacock-themed attire. Mayilattam dancers dress as peacocks. Tari Merak is performed at weddings and official receptions.",
+  "setting_notes": "The dance is used for festivals (Water Festival, Thai Pongal), spiritual rituals, and welcoming guests. It expresses joy and honors cultural totems.",
+  "map": {
+   "country": "China, India, Indonesia, Myanmar, Cambodia, Sri Lanka, Bangladesh",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 4,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the music & instruments section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Peacock_dance",
+  "https://www.wikidata.org/wiki/Q18207270",
+  "https://archive.org/details/NPTG19221230"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "d0893dea55d2ccc06821860053e45b713efdf266af4f41dc3d9ee77c3ac31b11",
+ "hero_checked": "pass"
+}

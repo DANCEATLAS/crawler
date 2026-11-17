@@ -2,7 +2,7 @@
  "slug": "chaabi",
  "name": "Chaabi",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-15T17:03:44Z",
  "qc_score": 8.7,
  "status": "draft",
@@ -320,16 +320,15 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -464,16 +463,15 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -608,16 +606,15 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -708,7 +705,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "vrFkdmw9piE",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Moroccan Chaabi Dance  - حاول وحاول  - hawel w hawel Zina Doudia"
   },
   "wardrobe": {
@@ -745,8 +742,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2 / 8 counts",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -754,21 +751,38 @@
    "tempo progression: slow → full"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "pick up the groove",
+   "don't forget this is a popular dance",
+   "your butt should be free",
+   "don't forget knee flex",
+   "you see the work your hips",
+   "go a little bit down"
   ],
-  "common_mistakes": [],
+  "common_mistakes": [
+   "the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music"
+  ],
   "segment_order": [
-   "full_demo",
    "intro",
-   "breakdown"
+   "context",
+   "full_demo",
+   "breakdown",
+   "music_practice"
   ],
   "steps_as_taught": [
    {
     "name": "Reverse Maya",
     "counts": "8 counts",
     "description": "Hip movement starting from bottom and bending knees"
+   },
+   {
+    "name": "Horse step",
+    "counts": "",
+    "description": "A step moving forward and backward with a focus on hip movement."
+   },
+   {
+    "name": "Shimmy",
+    "counts": "",
+    "description": "A shaking movement of the hips and body."
    }
   ]
  },
@@ -776,7 +790,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -785,8 +798,7 @@
   "the music & instruments section",
   "the costume & setting section",
   "two or more connections",
-  "teaching steps written out",
-  "what to avoid / common mistakes"
+  "teaching steps written out"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Chaabi",
@@ -796,6 +808,6 @@
  "claims_verified": 9,
  "claims": 9,
  "polished": false,
- "input_fingerprint": "2ff21e48040b2982712f85e6bb0114f4d875e2ae0302f7a7a9f57b6853aa7585",
- "hero_checked": null
+ "input_fingerprint": "63915c62fa14192a8bcc29866dcfdfbd8f4c7e5c0b1c14e71d153cf5cdff07a8",
+ "hero_checked": "pass"
 }

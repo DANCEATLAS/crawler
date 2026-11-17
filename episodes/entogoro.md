@@ -1,6 +1,6 @@
 # Entogoro — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to
 
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of the Last Man Standing
 NARRATION: This is Entogoro. Pre-colonial to present.
-ON SCREEN: Hero video, first 10 seconds (H_2lVBWAH3U)
+ON SCREEN: Hero video, first 10 seconds (KaVMSVIcD7c)
 ON SCREEN: Title card: Entogoro · Uganda · Pre-colonial to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Dancers perform in groups of men (abakwongezi) and women (abakweteger
 NARRATION: The movement involves energetic leg shaking by men to sound their rattles and graceful hip movements by women to accentuate their waist rings.
 NARRATION: Formations include circles, lines, and pairs, with specific moments for individual improvisation such as spinning and jumping.
 NARRATION: Watch for Ebinyege shaking, Entogoro swaying.
-ON SCREEN: Hero video full screen, 30–45 s (H_2lVBWAH3U)
+ON SCREEN: Hero video full screen, 30–45 s (KaVMSVIcD7c)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Moves between collective circles/lines and individual solo spots.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'H_2lVBWAH3U', 'checked_by_vision_model': True, 'title': 'ORUNYEGE DANCE PERFOMED BY KABALEGA ROYAL TROUPE HOIMA'}
+Hero video: {'youtube_id': 'KaVMSVIcD7c', 'checked_by_vision_model': True, 'title': 'Entogoro-Magezi.wmv'}
 Images: 4 licensed — Ngumenawe / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Nyakairuj / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Sagiomhza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: NTOGORO DANCE (UGANDA) — https://archive.org/details/actonma-NTOGORO_DANCE_UGANDA
 Motifs: Dried calabash textures, Beaded waist rings in motion, Dust rising from rhythmic footwork, Moonlight or warm stage lighting
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (2): https://en.wikipedia.org/wiki/Orunyege-Ntogoro; https://www.wikidata.org/wiki/Q124251128

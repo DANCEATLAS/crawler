@@ -1,0 +1,859 @@
+{
+ "slug": "chinese-square-dancing",
+ "name": "Chinese square dancing",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-17T18:41:04Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic retired factory worker from Changsha who leads 80 dancers each evening with humor, strict grid discipline, and zero tolerance for missed beats.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Chinese square dancing",
+   "plaza dancing",
+   "guangchangwu",
+   "guǎngchǎng wǔ",
+   "Chinese fitness dancing"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Chinese square dancing",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Concrete Plazas of the Dancing Grannies",
+     "This is Chinese square dancing. Mid-1990s to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Chinese square dancing · People's Republic of China · Mid-1990s to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Dance for physical exercise in China traces to ancient records such as the Lüshi Chunqiu from the third century B.C.E., which describes slow dancing during Emperor Yao's reign to alleviate joint stiffness caused by damp weather, as well as public performances during the Song dynasty.",
+     "Modern guangchangwu, however, originated directly in the socio-economic transformations of the late 20th century."
+    ],
+    "on_screen": [
+     "Map: People's Republic of China · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Sessions run daily throughout the year at dawn and dusk.",
+     "For participants, square dancing provides low-cost aerobic fitness, alleviates emotional stress, and fosters deep neighborhood networks after leaving the workforce.",
+     "It also carries nostalgic connections to collective youth activities, serving as a vernacular reclamation of dense urban environments.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Guangchangwu Shenzhen 201307.webm (https://upload.wikimedia.org/wikipedia/commons/8/80/Guangchangwu_Shenzhen_201307.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers arrange themselves in a precise grid of ranks and files, all facing forward.",
+     "The lead dancer, known as the vortänzerin, stands at the front, with the most proficient participants occupying the center of the forward ranks and less skilled beginners standing in the rear.",
+     "Synchronized routines consist largely of low-impact movements, primarily involving holding and changing arm positions in front of the body, rhythmic stepping, and continuous coordinated pacing to the beat.",
+     "Watch for Front-arm posturing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Strict rank-and-file grid occupying public plazas, parks, and parking lots, oriented towards a central front leader."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Sound is typically delivered via portable CD players and amplifiers mounted on wheels and connected to car batteries, or through silent wireless headphone systems linked to a central transmitter.",
+     "The music repertoire combines contemporary Chinese pop hits such as 'Little Apple' with 1950s patriotic and revolutionary songs, Western pop, and occasional waltzes, all anchored by a strong rhythmic dance tempo.",
+     "Listen for the Electronic synthesizers, Drum machines, Recorded brass and vocal tracks broadcast through mobile amplifiers.",
+     "High-decibel recorded Chinese dance-pop and mid-century patriotic songs amplified through battery-operated wheeled speakers, punctuated by rhythmic electronic percussion and synchronized group footfalls on paved concrete."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Little Apple — Chopstick Brothers; Without the Communist Party, There Would Be No New China — Various / Traditional Red Song; 小苹果 (Little Apple) — 筷子兄弟 (2014)",
+     "Waveform or rhythm-pattern graphic: Heavy driving dance beat suitable for mass synchronization"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancing occurs outdoors in urban public squares, parks, commercial plazas, and paved parking lots.",
+     "Morning groups assemble near supermarkets as early as 5:30 a.m., while evening groups dance near their residential housing complexes.",
+     "While most dancers wear everyday street clothing, aerobics attire, or yoga pants, advanced troupes wear matching team uniforms, green military fatigues, or Cultural Revolution-era costumes, occasionally holding props such as toy rifles."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The Chopstick Brothers prominently featured square dancers in the 2014 music video for 'Little Apple', which quickly became a defining national anthem for park dance routines across the country.",
+     "Troupes operate across both northern and southern mainland Chinese cities, ranging from small local clusters to organized clubs of up to 80 members.",
+     "Guangchangwu traces its lineage from ancient restorative dances noted in the Lüshi Chunqiu and urban Song dynasty gatherings, through the northern Chinese rural yangge folk traditions popularized during the Cultural Revolution, to modern urban street aerobics."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Chinese square dancing is influence of yangge: Rural collective folk dance encountered during the Cultural Revolution that influenced modern plaza dance culture.",
+     "Chinese square dancing is shares music of tai chi: Practiced simultaneously in morning parks, leading square dancers to seek parking lots and commercial squares.",
+     "Chinese square dancing is influence of radio calisthenics: State-sponsored synchronized group exercise traditions that helped normalize synchronized public drill routines."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand facing forward in rank-and-file formation matching the spacing of adjacent dancers",
+     "Observe the lead dancer at the front center to mirror timing and arm elevations",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "At dawn in the heart of China's mega-cities, retired women transform parking lots and public squares into synchronized aerobic ballrooms.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master plaza spatial alignment and basic forward arm holds",
+   "level": "Foundations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master plaza spatial alignment and basic forward arm holds.",
+      "Level: Foundations. Difficulty of the dance overall: beginner.",
+      "Your instructor: An energetic retired factory worker from Changsha who leads 80 dancers each evening with humor, strict grid discipline, and zero tolerance for missed beats."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, relaxed aerobic stance aligned facing the front of the square.",
+      "Arms held primarily in front of the body in varied low-impact extended and folded positions.",
+      "Controlled, upright aerobic torso with minimal extreme flexion or rapid spinal rotation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Heavy driving dance beat suitable for mass synchronization.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand facing forward in rank-and-file formation matching the spacing of adjacent dancers",
+      "Step 2: Observe the lead dancer at the front center to mirror timing and arm elevations",
+      "Footwork from the sources: Low-impact synchronized steps, weight transfers, and stepping in place in rank-and-file formation.",
+      "Drill: Rank-and-file spacing check with peripheral vision"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute low-impact arm extensions holding hands and forearms in varied positions in front of the body",
+      "Step 4: Step rhythmically in place in time with the driving pop or march beat",
+      "Drill: Static front-arm positioning holding forearm levels"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Rhythmic weight transfers on paved surfaces"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid high-impact jumping, independent improvisational straying from the rank grid, and excessively loud amplification near residential windows."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the characteristic front-of-body arm positioning and rhythmic shoulder phrasing while seated firmly upright in a chair. · For children: Mirror-the-Leader: Children form a grid and must mimic sudden changes in the front instructor's arm poses without breaking formation."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the characteristic front-of-body arm positioning and rhythmic shoulder phrasing while seated firmly upright in a chair.",
+      "For children: Mirror-the-Leader: Children form a grid and must mimic sudden changes in the front instructor's arm poses without breaking formation."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master plaza spatial alignment and basic forward arm holds.",
+      "Sessions run daily throughout the year at dawn and dusk.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate stepping with changing upper-body positions to a pop pulse",
+   "level": "Synchronization",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate stepping with changing upper-body positions to a pop pulse.",
+      "Level: Synchronization. Difficulty of the dance overall: beginner.",
+      "Your instructor: An energetic retired factory worker from Changsha who leads 80 dancers each evening with humor, strict grid discipline, and zero tolerance for missed beats."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, relaxed aerobic stance aligned facing the front of the square.",
+      "Arms held primarily in front of the body in varied low-impact extended and folded positions.",
+      "Controlled, upright aerobic torso with minimal extreme flexion or rapid spinal rotation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Heavy driving dance beat suitable for mass synchronization.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Coordinate weight shifts and synchronized steps with neighboring dancers across the grid",
+      "Drill: Stepping in place while cycling through three basic arm postures"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Front-arm posturing: Holding and maneuvering the arms in diverse steady positions in front of the torso while stepping.",
+      "Drill: Mirroring the lead dancer's directional transitions"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintaining tempo without individual hesitation"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid high-impact jumping, independent improvisational straying from the rank grid, and excessively loud amplification near residential windows."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the characteristic front-of-body arm positioning and rhythmic shoulder phrasing while seated firmly upright in a chair. · For children: Mirror-the-Leader: Children form a grid and must mimic sudden changes in the front instructor's arm poses without breaking formation."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the characteristic front-of-body arm positioning and rhythmic shoulder phrasing while seated firmly upright in a chair.",
+      "For children: Mirror-the-Leader: Children form a grid and must mimic sudden changes in the front instructor's arm poses without breaking formation."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Strict rank-and-file grid occupying public plazas, parks, and parking lots, oriented towards a central front leader."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate stepping with changing upper-body positions to a pop pulse.",
+      "The Chopstick Brothers prominently featured square dancers in the 2014 music video for 'Little Apple', which quickly became a defining national anthem for park dance routines across the country.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform a continuous 3-minute sequence within a full multi-rank troupe",
+   "level": "Group Grid Routine",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform a continuous 3-minute sequence within a full multi-rank troupe.",
+      "Level: Group Grid Routine. Difficulty of the dance overall: beginner.",
+      "Your instructor: An energetic retired factory worker from Changsha who leads 80 dancers each evening with humor, strict grid discipline, and zero tolerance for missed beats."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, relaxed aerobic stance aligned facing the front of the square.",
+      "Arms held primarily in front of the body in varied low-impact extended and folded positions.",
+      "Controlled, upright aerobic torso with minimal extreme flexion or rapid spinal rotation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Heavy driving dance beat suitable for mass synchronization.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step rhythmically in place in time with the driving pop or march beat",
+      "Step 2: Coordinate weight shifts and synchronized steps with neighboring dancers across the grid",
+      "Drill: Executing whole-group formation holds"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Front-arm posturing: Holding and maneuvering the arms in diverse steady positions in front of the torso while stepping.",
+      "Drill: Silent dancing synchronization using wireless audio feeds"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Graceful entry and exit into the rank grid"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid high-impact jumping, independent improvisational straying from the rank grid, and excessively loud amplification near residential windows."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the characteristic front-of-body arm positioning and rhythmic shoulder phrasing while seated firmly upright in a chair. · For children: Mirror-the-Leader: Children form a grid and must mimic sudden changes in the front instructor's arm poses without breaking formation."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the characteristic front-of-body arm positioning and rhythmic shoulder phrasing while seated firmly upright in a chair.",
+      "For children: Mirror-the-Leader: Children form a grid and must mimic sudden changes in the front instructor's arm poses without breaking formation."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Strict rank-and-file grid occupying public plazas, parks, and parking lots, oriented towards a central front leader."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform a continuous 3-minute sequence within a full multi-rank troupe.",
+      "Guangchangwu traces its lineage from ancient restorative dances noted in the Lüshi Chunqiu and urban Song dynasty gatherings, through the northern Chinese rural yangge folk traditions popularized during the Cultural Revolution, to modern urban street aerobics.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Heavy driving dance beat suitable for mass synchronization",
+  "instruments": [
+   "Electronic synthesizers",
+   "Drum machines",
+   "Recorded brass and vocal tracks broadcast through mobile amplifiers"
+  ],
+  "vocal_style": "Recorded commercial pop vocals and choral revolutionary singing",
+  "musical_form": "Strophic verse-chorus pop and patriotic song structures",
+  "mood": [
+   "upbeat",
+   "energetic",
+   "rhythmic",
+   "nostalgic",
+   "communal"
+  ],
+  "sound_description": "High-decibel recorded Chinese dance-pop and mid-century patriotic songs amplified through battery-operated wheeled speakers, punctuated by rhythmic electronic percussion and synchronized group footfalls on paved concrete.",
+  "listen_before_composing": [
+   "Little Apple — Chopstick Brothers",
+   "Without the Communist Party, There Would Be No New China — Various / Traditional Red Song",
+   "小苹果 (Little Apple) — 筷子兄弟 (2014)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Chinese square dancing (People's Republic of China). Rhythm pattern: Heavy driving dance beat suitable for mass synchronization. Instruments: Electronic synthesizers, Drum machines, Recorded brass and vocal tracks broadcast through mobile amplifiers. Vocal style: Recorded commercial pop vocals and choral revolutionary singing. Form: Strophic verse-chorus pop and patriotic song structures. Mood: upbeat, energetic, rhythmic, nostalgic, communal. It should sound like this: High-decibel recorded Chinese dance-pop and mid-century patriotic songs amplified through battery-operated wheeled speakers, punctuated by rhythmic electronic percussion and synchronized group footfalls on paved concrete. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancing occurs outdoors in urban public squares, parks, commercial plazas, and paved parking lots. Morning groups assemble near supermarkets as early as 5:30 a.m., while evening groups dance near their residential housing complexes. While most dancers wear everyday street clothing, aerobics attire, or yoga pants, advanced troupes wear matching team uniforms, green military fatigues, or Cultural Revolution-era costumes, occasionally holding props such as toy rifles.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABinus_Operet_24-10-2009_Yangge.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AOlder_women_practicing_dance_at_Temple_of_Heaven_Park%2C_Beijing.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMass_dancing_at_Haidian_Northern_Cultural_Center_%2820170624195153%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Binus_Operet_24-10-2009_Yangge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Binus_Operet_24-10-2009_Yangge.JPG/1280px-Binus_Operet_24-10-2009_Yangge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "01Raina / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABinus_Operet_24-10-2009_Yangge.JPG",
+    "description": "Traditional Yangge Dance by Dream Butterfly Dance Group 蝶梦舞团. Performed at Binus University's Mandarin's Day 2009: Legend of The Moon Goddess. Photo by: Gaby Andriany Ongso"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Older_women_practicing_dance_at_Temple_of_Heaven_Park%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Older_women_practicing_dance_at_Temple_of_Heaven_Park%2C_Beijing.jpg/1280px-Older_women_practicing_dance_at_Temple_of_Heaven_Park%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Daniel Case / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOlder_women_practicing_dance_at_Temple_of_Heaven_Park%2C_Beijing.jpg",
+    "description": "Women practicing a dance to a pop song in Temple of Heaven Park, Beijing"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mass_dancing_at_Haidian_Northern_Cultural_Center_%2820170624195153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Mass_dancing_at_Haidian_Northern_Cultural_Center_%2820170624195153%29.jpg/1280px-Mass_dancing_at_Haidian_Northern_Cultural_Center_%2820170624195153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "N509FZ / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMass_dancing_at_Haidian_Northern_Cultural_Center_%2820170624195153%29.jpg",
+    "description": "Such mass dancing are common in nearly every city east of Hu Line. Then I even saw a woman in red gown and high heels, probably for dancing as well."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Guangchangwu Shenzhen 201307.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Guangchangwu_Shenzhen_201307.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 2.0",
+    "attribution": "drnan tu from Shenzhen, China / Wikimedia Commons / CC BY-SA 2.0"
+   }
+  ],
+  "motifs": [
+   "Wheeled black speaker box hooked up to a bare car battery",
+   "Dozens of colorful running shoes moving in lockstep over gray pavement",
+   "Glowing neon wireless headphones in an evening city square"
+  ],
+  "costume_notes": "Dancing occurs outdoors in urban public squares, parks, commercial plazas, and paved parking lots. Morning groups assemble near supermarkets as early as 5:30 a.m., while evening groups dance near their residential housing complexes. While most dancers wear everyday street clothing, aerobics attire, or yoga pants, advanced troupes wear matching team uniforms, green military fatigues, or Cultural Revolution-era costumes, occasionally holding props such as toy rifles.",
+  "setting_notes": "Sessions run daily throughout the year at dawn and dusk. For participants, square dancing provides low-cost aerobic fitness, alleviates emotional stress, and fosters deep neighborhood networks after leaving the workforce. It also carries nostalgic connections to collective youth activities, serving as a vernacular reclamation of dense urban environments.",
+  "map": {
+   "country": "People's Republic of China",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "29 tutorial(s) of the street-urban family studied",
+  "videos_studied": 29,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg",
+   "feet parallel"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Square_dancing_(China)",
+  "https://www.wikidata.org/wiki/Q5100786",
+  "https://es.wikipedia.org/wiki/Baile_de_plaza_(China)",
+  "https://fr.wikipedia.org/wiki/Danse_de_place",
+  "https://de.wikipedia.org/wiki/Parktanz"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "4b07b596744a4ab5f15894983978893d09edd8a27160dbf6162e35e11ba4b8bf",
+ "hero_checked": null
+}

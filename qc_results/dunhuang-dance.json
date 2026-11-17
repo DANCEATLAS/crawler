@@ -1,10 +1,10 @@
 {
  "slug": "dunhuang-dance",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:50:12Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,28 @@
    "detail": "sacred=True cues=['sacred', 'religious']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptional, comprehensive profile with zero factual doubts and rigorous alignment with evidence."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "banned_phrasing",
-  "no_judge",
+  "judge_score=10.0",
   "sacred"
  ],
  "citation": {

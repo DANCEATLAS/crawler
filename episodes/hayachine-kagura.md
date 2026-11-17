@@ -1,49 +1,48 @@
 # Hayachine Kagura — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 8.35 · 5/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
-**Say it:** Hayachine Kagura
+**Say it:** Hayachine Kagura, 早池峰神楽
 
 ## Episode 1 · Meet Hayachine Kagura · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: On August 1st, a performer dons a shishi mask to embody the mountain deity of Mount Hayachine, concluding a five-hour cycle of twelve ritual dances that have been performed since the 14th or 15th century.
+NARRATION: The Mountain God's Dance
 NARRATION: This is Hayachine Kagura. 14th-15th century.
 ON SCREEN: Hero video, first 10 seconds (FkDXHdhkUiI)
 ON SCREEN: Title card: Hayachine Kagura · Japan · 14th-15th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The tradition originated in the 14th or 15th century in the Iwate Prefecture, rooted in the worship of Mount Hayachine.
-NARRATION: It was historically performed by shrine officers and is believed to have been influenced by the practices of yamabushi, mountain-dwelling Buddhist ascetics.
-NARRATION: Scholars continue to investigate its potential links to the history of Noh theater.
+NARRATION: The tradition dates to the 14th or 15th century, with historical influences attributed to the yamabushi, or mountain-dwelling Buddhist ascetics.
+NARRATION: Scholars have explored potential links between the development of the Kagura and the history of Noh theater.
 ON SCREEN: Map: Japan · East Asia
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The dances are performed in honor of Seoritsu, the tutelary deity of Mount Hayachine.
-NARRATION: The performance serves to demonstrate the power of the mountain deity, bless the people, and reconfirm the identity of the community.
+NARRATION: The performance is held annually on August 1st at the Hayachine Shrine in Hanamaki to honor Seoritsu, the tutelary deity of Mount Hayachine.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
+NARRATION: The performance consists of twelve masked dances.
+NARRATION: The first six are ritualistic, followed by five historical or deity-focused dances, and a final dance featuring a shishi performer.
+NARRATION: The full cycle lasts approximately five hours.
 NARRATION: Watch for Shishi dance.
 ON SCREEN: Hero video full screen, 30–45 s (FkDXHdhkUiI)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music is performed by an ensemble using drums, cymbals, and flutes.
-NARRATION: This musical accompaniment supports the twelve ritual dances.
-NARRATION: Listen for the drum, cymbals, flute.
-NARRATION: The music is characterized by the combination of drums, cymbals, and flutes accompanying the masked dancers.
+NARRATION: The dance is accompanied by an ensemble playing drums, cymbals, and flutes.
+NARRATION: Listen for the drums, cymbals, flutes.
+NARRATION: The music is characterized by the ensemble of drums, cymbals, and flutes accompanying the masked ritual dancers.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -51,16 +50,16 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Performers wear masks during the dances.
-NARRATION: The primary setting is the Hayachine Shrine in Hanamaki, Iwate, where the performance takes place on August 1st, though it is also performed in other locations.
+NARRATION: Performers wear masks.
+NARRATION: The final dance features a performer dressed as a shishi, an imaginary lion-like creature.
 ON SCREEN: Images — MISSING
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: While the main tradition is at Hayachine Shrine, 'discipleship' shows are performed throughout the Iwate Prefecture, though rarely as the full twelve-dance cycle.
-NARRATION: The tradition is a type of Kagura, a category of ritual dance in Shinto ceremonies.
+NARRATION: Discipleship performances are held throughout Iwate Prefecture, though these rarely feature the full twelve-dance cycle.
+NARRATION: A form of Kagura, influenced by yamabushi practices and potentially related to Noh theater.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
@@ -73,12 +72,12 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: The dance is a ritual performed in Shinto ceremonies in honor of the deity Seoritsu.
+NARRATION: The Hayachine Kagura is a ritual dance performed in Shinto ceremonies in honor of the deity Seoritsu; it is a sacred tradition of the Hayachine Shrine.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: A look at the twelve ritual dances of Hayachine Kagura, a centuries-old tradition from the mountains of Iwate.
+NARRATION: A five-hour ritual cycle at the Hayachine Shrine preserves the ancient traditions of Iwate's mountain ascetics.
 NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -87,7 +86,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Hayachine Kagura (Japan). Instruments: drum, cymbals, flute. Mood: ritual, ceremonial. It should sound like this: The music is characterized by the combination of drums, cymbals, and flutes accompanying the masked dancers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Hayachine Kagura (Japan). Instruments: drums, cymbals, flutes. Mood: ritual, solemn. It should sound like this: The music is characterized by the ensemble of drums, cymbals, and flutes accompanying the masked ritual dancers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -101,14 +100,14 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: {'youtube_id': 'FkDXHdhkUiI', 'checked_by_vision_model': True, 'title': 'Japón - Hayachine Kagura "Yama no Kami Mai" Danza del Dios de la Montaña /Mountain God Dance - Japan'}
 Images: 0 licensed
 Footage: MISSING
-Motifs: Masks, Shrine architecture, Drums and flutes
-Costume notes: Performers wear masks during the dances. The primary setting is the Hayachine Shrine in Hanamaki, Iwate, where the performance takes place on August 1st, though it is also performed in other locations.
+Motifs: Masked dancers, Shishi costume, Hayachine Shrine architecture
+Costume notes: Performers wear masks. The final dance features a performer dressed as a shishi, an imaginary lion-like creature.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

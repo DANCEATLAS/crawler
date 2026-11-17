@@ -1,0 +1,119 @@
+{
+ "slug": "kartik-naach",
+ "qc_at": "2026-11-17T20:51:19Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kartik Naach"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "173"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "King Siddhi Narsingh Malla established this dance-drama in 1641, and it has expa"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "505"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2725"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nepal"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['deities', 'god', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Rich cultural and historical detail, though low teaching value due to sacred/theatrical nature with no step details provided."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.95",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-17T19:31:41Z"
+}

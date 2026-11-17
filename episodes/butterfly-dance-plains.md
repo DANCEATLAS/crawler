@@ -1,6 +1,6 @@
 # Women's Fancy Shawl Dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
 

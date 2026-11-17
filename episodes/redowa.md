@@ -1,8 +1,8 @@
 # redowa — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Historical dance researcher with a focus on folk evolution.
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'tIZozQKadkw', 'checked_by_vision_model': False, 'title': 'Redowa and Mazurka Waltzes'}
+Hero video: {'youtube_id': 'tIZozQKadkw', 'checked_by_vision_model': True, 'title': 'Redowa and Mazurka Waltzes'}
 Images: 2 licensed — Scan by NYPL / Wikimedia Commons / Public domain (Public domain); Scan by NYPL / Wikimedia Commons / Public domain (Public domain)
 Footage: Nikolaj Rimskij-Korsakov, SUITE D'OPERA - Richard Kapp, Milton Katims, David Zinman — https://archive.org/details/rimsky-korsakov-opera-suites
 Motifs: 19th-century ballroom sketches, Mexican norteña dance attire, Close-ups of footwork
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (8): https://en.wikipedia.org/wiki/Redowa; https://www.wikidata.org/wiki/Q3422966; https://es.wikipedia.org/wiki/Redova; https://fr.wikipedia.org/wiki/Redowa; https://it.wikipedia.org/wiki/Redova; https://archive.org/details/danceman098; https://archive.org/details/danceman084; https://archive.org/details/danceman020

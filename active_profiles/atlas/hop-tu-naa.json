@@ -1,13 +1,72 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Couples join hands to create arches.",
+      "difficulty": "beginner",
+      "footwork": "Three running steps followed by a hop on the fourth beat with a slight inward kick.",
+      "formation_and_space": "Processional, groups of two couples.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples work together to form arches and lead the procession.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Three running steps keeping the feet close to the ground and a hop on the fourth beat.",
+          "name": "Manx Reel Step"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "processional",
+        "traditional"
+      ],
+      "musical_form": "Two parts, each eight bars long.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is a traditional tune specifically associated with the hop-tu-naa dance, transcribed in collections like Rinkaghyn Vannin.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Manx Reel Step: Three running steps keeping feet close to ground.",
+        "Hop: A hop on the fourth beat with a slight inward kick of the free foot.",
+        "Arching: Two couples join hands to form an arch for others to pass under."
+      ],
+      "formation": "Processional, any number of two pairs of dancers.",
+      "level_notes": "Highly accessible for children; taught in Manx schools from a young age.",
+      "rhythm": "Two parts, each consisting of eight bars of music."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4962d8f70da7467c1756e586e5d003386266a81f9e37ef655b0a60eb7d191a05",
+  "fingerprint": "5ff635118aba5d9ce4dce4e1663a884b8df95e065a3cab7dc1bd1c2d0cb5ba95",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +74,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific musical instruments historically associated with the Hop-tu-naa tune beyond the transcriptions? Evidence needed: Consult the full 'Kiaull yn Theay' collection for instrumentation notes."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +104,18 @@
   ],
   "music_options": [],
   "name": "Hop-tu-Naa",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0cf1ef8126c8334a",
+      "next_evidence": "Consult the full 'Kiaull yn Theay' collection for instrumentation notes.",
+      "question": "Are there specific musical instruments historically associated with the Hop-tu-naa tune beyond the transcriptions?",
+      "source": "https://en.wikipedia.org/wiki/Hop-tu-Naa_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current music profile lacks specific instrumentation, which is necessary for accurate musical recreation."
+    }
+  ],
+  "research_file": "research_results/hop-tu-naa.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +127,7 @@
   "slug": "hop-tu-naa",
   "sources": [
     "https://en.wikipedia.org/wiki/Hop-tu-Naa_(dance)",
-    "Source: Hop-tu-Naa (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Hop-tu-Naa_(dance)"
+    "https://www.wikidata.org/wiki/Q48791529"
   ],
   "state": "researching",
   "video_evidence": []

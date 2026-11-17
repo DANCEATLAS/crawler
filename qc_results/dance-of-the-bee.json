@@ -1,0 +1,124 @@
+{
+ "slug": "dance-of-the-bee",
+ "qc_at": "2026-11-17T20:53:35Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Dance of the bee"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "201"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1850, a Ghawazee dancer named Kuchuk Hanem performed the 'Dance of the Bee' f"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "487"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2164"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/4 rate=0.75"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Egypt"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The dance is classified as an erotic Egyptian dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The subject is a historical performance anecdote rather than a codified dance tradition. While the profile is accurate to the limited historical record, it lacks teaching value because the 'dance' is a singular, non-replicable pantomime. The classification as 'erotic' is a subjective interpretation of 19th-century Orientalist literature."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sections_filled",
+  "judge_score=7.6",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 3,
+  "rate": 0.75
+ },
+ "researched_at": "2026-11-17T20:13:10Z"
+}

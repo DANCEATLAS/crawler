@@ -1,13 +1,79 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Guitar",
+        "Brass",
+        "Percussion"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Experimental",
+        "Protest",
+        "Diverse"
+      ],
+      "musical_form": "Experimental crossover-like style.",
+      "reference_recordings": [
+        {
+          "artist": "Shakira and Freshlyground",
+          "title": "Waka Waka (This Time for Africa)"
+        },
+        {
+          "artist": "GoldLink",
+          "title": "Zulu Screams"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A blend of traditional African music with Western genres like jazz, pop, and rock, characterized by multilingual vocals and experimental arrangements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Multilingual, often blending African languages with English, French, or Spanish."
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9dbe32b6925a6511204cf064eb97dd81947d0c5539d2a61c8f250f26f2c66292",
+  "fingerprint": "8edaaf4b12a87dbeb344b4533cd8a6371d7cd7c9203f1c888ee1dddef0cee308",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +81,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific, repeatable movement patterns or 'signature steps' of Afro fusion as taught in contemporary dance studios today? Evidence needed: Curriculum documents or instructional videos from contemporary dance companies like Vuyani Dance Theatre."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +99,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,7 +110,17 @@
   ],
   "music_options": [],
   "name": "Afro fusion",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "bf2271e8fe533001",
+      "next_evidence": "Curriculum documents or instructional videos from contemporary dance companies like Vuyani Dance Theatre.",
+      "question": "What are the specific, repeatable movement patterns or 'signature steps' of Afro fusion as taught in contemporary dance studios today?",
+      "source": "https://en.wikipedia.org/wiki/Afro_fusion",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the style's history and philosophy but lack the granular movement data required for an interactive teaching platform."
+    }
+  ],
   "research_file": "research_results/afro-fusion.json",
   "runtime_active": false,
   "scope": {
@@ -58,8 +133,14 @@
   "slug": "afro-fusion",
   "sources": [
     "https://en.wikipedia.org/wiki/Afro_fusion",
-    "Source: Afro fusion on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Afro_fusion"
+    "https://www.wikidata.org/wiki/Q124312240"
   ],
-  "state": "researching",
-  "video_evidence": []
+  "state": "teaching_withheld",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/SpTFND6uH9E.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=SpTFND6uH9E"
+    }
+  ]
 }

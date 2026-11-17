@@ -1,10 +1,10 @@
 {
  "slug": "circassian-dance",
- "qc_at": "2026-11-09T21:23:53Z",
+ "qc_at": "2026-11-17T20:49:42Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.5,
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "159"
+   "detail": "172"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 19th-century competitions, Circassian men danced on toes in military boots, p"
+   "detail": "In 19th-century competitions, Circassian men danced on toes in leather boots, pe"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "417"
+   "detail": "399"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "4029"
+   "detail": "2542"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "7/8 rate=0.875"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "deeply rooted"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "11 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -83,12 +83,12 @@
   },
   {
    "gate": "sacred_handled",
-   "ok": false,
-   "detail": "sacred=True cues=['ritual', 'ceremon', 'deities']"
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'deities']"
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
   "specificity": 10,
   "teaching_value": 9,
@@ -99,22 +99,21 @@
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 9,
+  "overall": 10,
   "verdict": "publish",
-  "notes": "Rich, highly specific profile on Circassian dance traditions with accurate descriptions of martial postures, instruments, and regional variants. Minor mismatch on exact instrument spelling compared to one truncated quote, but overall fully supported and well-crafted."
+  "notes": "An exemplary profile. It maintains high cultural sensitivity, provides clear technical distinctions between dance forms, and includes safe, well-reasoned adaptations. The terminology is precise and aligns perfectly with the provided evidence."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "sacred_handled",
-  "judge_score=9.5",
+  "judge_score=9.85",
   "sacred"
  ],
  "citation": {
-  "claims": 8,
-  "supported": 7,
-  "rate": 0.875
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
  },
- "researched_at": "2026-11-09T20:35:45Z"
+ "researched_at": "2026-11-17T20:21:14Z"
 }

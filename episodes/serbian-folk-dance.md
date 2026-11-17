@@ -1,8 +1,8 @@
 # Serbian folk dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A member of a local Cultural Artistic Society.
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers often wear full traditional costumes when performing on stage. The dance occurs at weddings, festivals, and social gatherings in both urban and rural settings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'lup58Ftu4S0', 'checked_by_vision_model': False, 'title': 'Serbian Folk Dance | The Tamburitzans'}
+Hero video: {'youtube_id': 'lup58Ftu4S0', 'checked_by_vision_model': True, 'title': 'Serbian Folk Dance | The Tamburitzans'}
 Images: 6 licensed — Björn Láczay / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); I would appreciate being notified if you use my work outside Wikimedia.
 More of my work can be found in my personal gallery. / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Sasa.mazinjanin / Wikimedia Commons / Public domain (Public domain); Dmitry Boyarin from Russia / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Laslovarga / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Serbian Folk Dance (Balkan Folk Fest 2018) [WWW.ETOILE.APP] — https://archive.org/details/serbian-folk-dance-balkan-folk-fest-2018-www.-etoile.-app; Šule Radosavljević - Sokolska pesma i Žikino kolo (1927) — https://archive.org/details/youtube-2OGUBXvEgJY; Vasa Bukvić - Arapsko kokonješte (1916) — https://archive.org/details/youtube-sRidWraF2Tc; Henrico Learning Today - Three Chopt Elementary School — https://archive.org/details/hcpsva-Henrico_Learning_Today_-_Three_Chopt_Elementary_School; Stevan Bačić-Trnda - Iz Skoplja pojdo — https://archive.org/details/youtube-dg7WnRS-3rQ
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (3): https://en.wikipedia.org/wiki/Serbian_dances; https://www.wikidata.org/wiki/Q108438031; https://it.wikipedia.org/wiki/Danza_serba

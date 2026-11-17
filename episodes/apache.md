@@ -1,8 +1,8 @@
 # Apache — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional dancer with a background in stage combat and historical dance.
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Waltz step sequence
 NARRATION: Mock slap/punch sequence
-NARRATION: Count it: 1-2-3-5-6-7.
+NARRATION: Count it: 5-6-7-8 and 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-5-6-7. The meter is 3/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4. The meter is 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -120,10 +120,10 @@ NARRATION: Step 1: Waltz step sequence
 NARRATION: Step 2: Mock slap/punch sequence
 NARRATION: Footwork from the sources: Waltz-based steps interrupted by lunges and combat footwork
 NARRATION: Drill: Waltz box step
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-5-6-7 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Controlled lift or throw
@@ -131,7 +131,7 @@ NARRATION: Step 4: Struggle and recovery
 NARRATION: Drill: Partner connection
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-5-6-7 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,6 +143,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Teachers of this dance warn against: incorrect weight transfer location during the step
 NARRATION: Teachers of this dance warn against: hammerlock hand placement difficulty
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting.
@@ -150,7 +151,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-5-6-7.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -181,7 +182,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-5-6-7. The meter is 3/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4. The meter is 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -192,10 +193,10 @@ NEEDS: tempo
 NARRATION: Step 1: Waltz step sequence
 NARRATION: Step 2: Mock slap/punch sequence
 NARRATION: Drill: Mock slap timing
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-5-6-7 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Controlled lift or throw
@@ -206,7 +207,7 @@ NARRATION: Drill: Dramatic posture
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-5-6-7 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,6 +219,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Teachers of this dance warn against: incorrect weight transfer location during the step
 NARRATION: Teachers of this dance warn against: hammerlock hand placement difficulty
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting.
@@ -225,7 +227,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-5-6-7.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple-based, utilizing stage space for dramatic movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -256,7 +258,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-5-6-7. The meter is 3/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4. The meter is 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -267,10 +269,10 @@ NEEDS: tempo
 NARRATION: Step 1: Controlled lift or throw
 NARRATION: Step 2: Struggle and recovery
 NARRATION: Drill: Safe lifting mechanics
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-5-6-7 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Throw: The male partner throws the female partner to the ground.
@@ -279,7 +281,7 @@ NARRATION: Drill: Choreographed struggle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-5-6-7 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -291,6 +293,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Teachers of this dance warn against: incorrect weight transfer location during the step
 NARRATION: Teachers of this dance warn against: hammerlock hand placement difficulty
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting.
@@ -298,7 +301,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-5-6-7.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple-based, utilizing stage space for dramatic movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -327,7 +330,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with the 'Apache' street gang aesthetic of early 20th-century Paris. Settings include seedy bars, cabarets, and Parisian street scenes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '3TAxfqPbl8U', 'checked_by_vision_model': True, 'title': 'Just Dance 3 Apache Jump On It'}
+Hero video: {'youtube_id': '3TAxfqPbl8U', 'checked_by_vision_model': False, 'title': 'Just Dance 3 Apache Jump On It'}
 Images: 1 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
 Footage: File:How to make a MOTIONER - 01.webm — https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grand Canyon Native American Heritage Day 2010- Video 02 (5188538311).webm — https://upload.wikimedia.org/wikipedia/commons/5/59/Grand_Canyon_Native_American_Heritage_Day_2010-_Video_02_%285188538311%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Workout Music ( 54 Songs) — https://archive.org/details/Workout-Music-54-Songs; Getvid Gggg 1 — https://archive.org/details/20220320_20220320_1734; File:Bowery Waltz (1897).webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/Bowery_Waltz_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Black and white film clips, Cabaret stage lights, Vintage Parisian street signs
@@ -337,10 +340,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3-5-6-7
-Demonstration: views used by most teachers: front; tempo progression: full
-Cues: cross over your partner; trade places with one another; cross body lead
-Common mistakes the studied teachers name: hammerlock hand placement difficulty
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8 and 1-2-3-4
+Demonstration: views used by most teachers: front, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pick up one foot; weight is going to transfer; slide back; cross over your partner; trade places with one another; cross body lead
+Common mistakes the studied teachers name: incorrect weight transfer location during the step; hammerlock hand placement difficulty
 
 Sources (8): https://en.wikipedia.org/wiki/Apache_(dance); https://www.wikidata.org/wiki/Q3702326; https://es.wikipedia.org/wiki/Apache_(baile); https://fr.wikipedia.org/wiki/Valse_chaloupée; https://it.wikipedia.org/wiki/Danse_Apache; https://archive.org/details/ghostdancerelig01moongoog; https://archive.org/details/landofpocotiempo00lummrich; https://archive.org/details/ERIC_ED128107

@@ -1,52 +1,58 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Movements of arms, hands, and upper body to enact the story",
+      "arms_and_hands": "Movements of arms, hands, and upper body to enact the story.",
       "difficulty": "beginner",
       "footwork": "not described in sources",
-      "formation_and_space": "Women in lines, men sitting facing them",
+      "formation_and_space": "Women in lines; men sitting opposite.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Standing in lines (modern) or sitting/kneeling (traditional)",
+      "posture": "Standing in lines (modern) or seated/kneeling (traditional).",
       "signature_moves": [],
-      "tempo_feel": "Accelerating",
+      "tempo_feel": "Accelerating.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "empty cabin cracker cans",
         "wooden boxes",
-        "tea chests"
+        "cabin cracker cans",
+        "mats"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "celebratory",
         "competitive",
-        "rhythmic"
+        "celebratory",
+        "dynamic"
       ],
-      "musical_form": "Repetitive and accelerating",
+      "musical_form": "Repetitive, accelerating song structure.",
       "reference_recordings": [],
-      "rhythm_pattern": "Gradually repeating and quickening",
-      "sound_description": "A vocal-heavy performance that starts with a steady, rhythmic pulse on wooden boxes and cans, gradually increasing in volume and speed until an abrupt finish.",
+      "rhythm_pattern": "Gradually repeating and quickening rhythm beaten on boxes or mats.",
+      "sound_description": "The music is characterized by a steady, rhythmic beat provided by percussion on wooden boxes, which accelerates in tempo and increases in volume as the song progresses.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Choral singing led by older men"
+      "vocal_style": "Choral singing, starting with older men."
     },
     "teaching": {
       "basic_steps": [
-        "Standing in a line",
-        "Moving arms and hands to enact a story",
-        "Coordinating upper body movement with the rhythm"
+        "not described in sources"
       ],
-      "formation": "Lines of women facing seated men",
-      "level_notes": "Beginners should focus on the synchronization of arm movements with the accelerating beat.",
-      "rhythm": "Gradually increasing tempo"
+      "formation": "Women in lines, men sitting opposite.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "264ec9ae31a3b8504eee5f03048aa605eb90508506d8247712aac8a6ebc0a9de",
+  "fingerprint": "8d1d23a26160288d2ed275ebaa75f22bda38243e6711cad245cfc9c1f0804783",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -56,7 +62,8 @@
     "research": [
       "movement: footwork, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific arm and hand gestures used to 'enact the story' in the fatele? Evidence needed: Ethnographic video documentation of Tuvaluan dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -83,7 +90,17 @@
   ],
   "music_options": [],
   "name": "Fatele",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "9462c46c670ebdf2",
+      "next_evidence": "Ethnographic video documentation of Tuvaluan dance.",
+      "question": "What are the specific arm and hand gestures used to 'enact the story' in the fatele?",
+      "source": "https://en.wikipedia.org/wiki/Fatele",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention that dancers enact stories, but do not describe the specific movements, which is essential for teaching."
+    }
+  ],
   "research_file": "research_results/fatele.json",
   "runtime_active": false,
   "scope": {

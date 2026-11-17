@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Men dancing in a circle around a central banner.",
+          "source": "https://en.wikipedia.org/wiki/Dumhal"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "A circular formation revolving around a central banner planted in the ground.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; communal group dance.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The ritual act of digging a ceremonial banner into the earth to begin the dance.",
+          "name": "Banner Planting"
+        }
+      ],
+      "tempo_feel": "Ritualistic and steady",
+      "what_to_avoid": "Avoid performing if not a member of the Watal tribe as it is a specific tribal privilege; avoid casual or irreverent behavior near the banner."
+    },
+    "music_profile": {
+      "instruments": [
+        "Drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Ritualistic",
+        "Communal",
+        "Solemn",
+        "Vibrant"
+      ],
+      "musical_form": "Call and response or unison chorus",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady drum-led ritual pulse",
+      "sound_description": "The sound is dominated by the resonant thrum of drums and the synchronized voices of a male chorus. There is a lack of melodic instrumentation, focusing the listener on the rhythmic chanting and the percussive beat that times the dancers' steps.",
+      "tempo_bpm": "",
+      "vocal_style": "Choral singing by the dancers"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Approach the central point in a ritual manner",
+        "Dig the ceremonial banner into the ground",
+        "Form a circle around the banner",
+        "Move in a rhythmic circular path while singing in chorus"
+      ],
+      "formation": "Circle around a central banner",
+      "level_notes": "The dance requires group synchronization and the ability to sing while moving.",
+      "rhythm": "Driven by drums and choral singing"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bffc9f61c5531f8db2de1d5109ae3e1c46f399446d293025c0232a34b58cb491",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific 'set occasions' and 'set locations' required for this dance? Evidence needed: https://en.wikipedia.org/wiki/Dumhal"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns and step counts used when revolving around the banner? Evidence needed: https://en.wikipedia.org/wiki/Dumhal"
+    ]
+  },
+  "id": "atlas:dumhal",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dumhal",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "6d9d79a8752606b3",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dumhal",
+      "question": "What are the specific footwork patterns and step counts used when revolving around the banner?",
+      "source": "https://en.wikipedia.org/wiki/Dumhal",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the movement profile which currently lacks technical detail."
+    },
+    {
+      "domain": "research",
+      "id": "dee5f7153bb1a77f",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dumhal",
+      "question": "What are the specific 'set occasions' and 'set locations' required for this dance?",
+      "source": "https://en.wikipedia.org/wiki/Dumhal",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately document the cultural context and avoid encouraging performance at inappropriate times or places."
+    }
+  ],
+  "research_file": "research_results/dumhal.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dumhal",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dumhal",
+    "https://www.wikidata.org/wiki/Q5313817"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

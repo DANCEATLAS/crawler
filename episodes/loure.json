@@ -2,7 +2,7 @@
  "slug": "loure",
  "name": "loure",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:22Z",
  "researched_at": "2026-11-13T17:42:40Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -274,7 +274,7 @@
       "Drill: Clap the dotted rhythm"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -418,7 +418,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -560,7 +560,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -755,13 +755,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the classical-court family studied",
-  "videos_studied": 4,
+  "source": "6 tutorial(s) of the classical-court family studied",
+  "videos_studied": 6,
   "counting": "count the 6/4 or 3/4 bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
   ],
   "cues": [
    "keep length in both sides of the waist",
@@ -774,15 +775,19 @@
    "hold your placement",
    "stay straight as a board",
    "lift up in your lower abs",
-   "change feet"
+   "change feet",
+   "uno y dos"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
    "context",
+   "full_demo",
    "breakdown",
    "mistakes",
+   "slow_practice",
+   "layering",
    "music_practice"
   ],
   "steps_as_taught": []
@@ -804,6 +809,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "e992e160a292254a0170cad1eb649515e179422f6716928beffe391b51660479",
+ "input_fingerprint": "eb6cdd7f325cda050f7c507cc148d5eb371e98351a01cf6c25a070611a74a255",
  "hero_checked": "pass"
 }

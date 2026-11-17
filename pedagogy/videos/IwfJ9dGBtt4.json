@@ -1,0 +1,154 @@
+{
+ "youtube_id": "IwfJ9dGBtt4",
+ "slug": "electric-boogaloo",
+ "dance": "electric boogaloo",
+ "title": "dancer tries learning tik tok dances 2: electric boogaloo",
+ "channel": "therochellefish",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-17T21:19:05Z",
+ "url": "https://www.youtube.com/watch?v=IwfJ9dGBtt4",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher learns the dance alongside the viewer by watching and mimicking a video. She uses a casual, conversational tone and frequently laughs at her own mistakes.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "The teacher introduces the video and explains the context."
+   },
+   {
+    "t": "3:56",
+    "segment": "full_demo",
+    "note": "The teacher and her friend watch the original video to get a feel for the choreography."
+   },
+   {
+    "t": "4:12",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the dance steps into smaller, manageable parts."
+   },
+   {
+    "t": "5:59",
+    "segment": "other",
+    "note": "The teacher and her friend practice the steps together to the music."
+   }
+  ],
+  "counting_scheme": "3-2-1-go",
+  "cues": [
+   "tap tap",
+   "shake shake",
+   "fist fist",
+   "California"
+  ],
+  "metaphors": [
+   "mopping the floor",
+   "hand on the antenna",
+   "hand to the sky"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "mirror"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "forgetting the sequence of steps",
+   "getting the timing wrong"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "tap tap",
+    "counts": "1-2",
+    "description": "Tapping the floor with hands."
+   },
+   {
+    "name": "shake shake",
+    "counts": "3-4",
+    "description": "Shaking hands in front of the body."
+   },
+   {
+    "name": "fist fist",
+    "counts": "5-6",
+    "description": "Punching fists in the air."
+   },
+   {
+    "name": "California",
+    "counts": "7-8",
+    "description": "A specific arm movement sequence."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The teacher breaks down the dance into small, easy-to-follow steps.",
+    "The teacher practices the steps at a slow pace."
+   ],
+   "what_hinders": [
+    "The teacher's frequent laughter and off-topic commentary can be distracting.",
+    "The lack of a clear, structured lesson plan makes it difficult to follow along."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "3:56",
+    "text": "Gettin a feel for the song/choreo"
+   },
+   {
+    "t": "4:12",
+    "text": "Breaking it all down"
+   },
+   {
+    "t": "5:59",
+    "text": "Putting it back together"
+   },
+   {
+    "t": "6:31",
+    "text": "What do we call this?"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 3,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher speaks directly to the camera, explaining the video's purpose.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 356,
+    "end_s": 365,
+    "topic": "movement",
+    "observation": "The teacher and her friend watch a video on a tablet and attempt to mimic the movements.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 412,
+    "end_s": 420,
+    "topic": "teaching",
+    "observation": "The teacher breaks down the dance steps, demonstrating them slowly.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher learns the dance in real-time, making mistakes and laughing along with the viewer."
+ },
+ "attempts": 1
+}

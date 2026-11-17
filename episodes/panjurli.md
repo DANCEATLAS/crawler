@@ -1,8 +1,8 @@
 # Panjurli — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior elder or cultural custodian from Tulu Nadu discussing the heritage, ecological meaning, and sacred etiquette of daiva worship.
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'Ac_8bkJelD4', 'checked_by_vision_model': False, 'title': 'Panjurli Nema - Barebail Mangalore Yeyyady #kantara '}
+Hero video: {'youtube_id': 'Ac_8bkJelD4', 'checked_by_vision_model': True, 'title': 'Panjurli Nema - Barebail Mangalore Yeyyady #kantara '}
 Images: 4 licensed — Hiart / Wikimedia Commons / CC0 (CC0); Wikimedia Commons / Public domain (Public domain); Vaishakh Mijar / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mosharie / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Padhana on Panjurli Daiva (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Padhana_on_Panjurli_Daiva_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Rudra Minukku face painting, Wild boar iconography and symbolic attributes, Nighttime ritual arena illuminated by ceremonial lamps, Community assemblies gathered across caste lines
@@ -108,7 +108,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

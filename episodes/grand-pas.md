@@ -1,6 +1,6 @@
 # Grand pas — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); the costume & setting section; two or more connections
 

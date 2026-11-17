@@ -1,0 +1,128 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "jerky arm movements",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "shoulder shaking",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Jerky arm movements",
+        "Shoulder shaking"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a9425cb8eec6f40df64c3aa49e5d7348f75cebd3e44ef814f7f3a74848f89e18",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, documented footwork steps that define the 'original' Harlem shake beyond the general description of jerky arm movements? Evidence needed: Video analysis of 1980s/90s Harlem street dance footage."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:harlem-shake",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Harlem shake",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "6c3e478741fee76a",
+      "next_evidence": "Video analysis of 1980s/90s Harlem street dance footage.",
+      "question": "Are there specific, documented footwork steps that define the 'original' Harlem shake beyond the general description of jerky arm movements?",
+      "source": "https://en.wikipedia.org/wiki/Harlem_shake_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the upper body movement well but lack detail on the lower body or footwork, which is essential for teaching."
+    }
+  ],
+  "research_file": "research_results/harlem-shake.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "harlem-shake",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Harlem_shake_(dance)",
+    "https://www.wikidata.org/wiki/Q5169794",
+    "https://es.wikipedia.org/wiki/Harlem_shake_(baile)",
+    "https://fr.wikipedia.org/wiki/Harlem_shake_(danse)",
+    "https://it.wikipedia.org/wiki/Harlem_shake_(danza)"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,8 +1,8 @@
 # Jurit Ampil Kridha Warastra Dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A master Central Javanese classical dance choreographer versed in Surakarta palace styles and Salatiga folk traditions.
@@ -119,7 +119,7 @@ NEEDS: tempo
 NARRATION: Step 1: Assume a balanced warrior stance carrying the gendewa (bow) and cundrik (dagger).
 NARRATION: Step 2: Execute Prajuritan-derived martial footwork blended with Surakarta classical body alignment.
 NARRATION: Drill: Establish rooted warrior foot placement
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars · repetitions: 3
@@ -189,7 +189,7 @@ NEEDS: tempo
 NARRATION: Step 1: Assume a balanced warrior stance carrying the gendewa (bow) and cundrik (dagger).
 NARRATION: Step 2: Execute Prajuritan-derived martial footwork blended with Surakarta classical body alignment.
 NARRATION: Drill: Bow drawing grip and arrow extraction from endhong
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars · repetitions: 3
@@ -262,7 +262,7 @@ NEEDS: tempo
 NARRATION: Step 1: Draw the nyenyep (arrow) from the endhong (quiver) and nock to the gendewa.
 NARRATION: Step 2: Manoeuvre through floor pathways transitioning between lancaran and srepeg musical structures.
 NARRATION: Drill: Lancaran slow walking sequence
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars · repetitions: 3
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear female warrior attire. The hair is gathered in a small bun adorned with a golden crown. The core costume features a short-sleeved blue shirt embellished with gold trim, a belt, and a dodot wrapped over knee-length trousers. The weaponry kit includes the jemparing (bow and arrow set), composed of the gendewa (bow), nyenyep (arrow), and endhong (quiver), alongside a cundrik (dagger). Theatrical makeup is applied specifically to accentuate the bold expression and disciplined character of a royal soldier.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'vaomwDA1VSE', 'checked_by_vision_model': False, 'title': 'SMP Muhammadiyah Plus Salatiga - Tari Jurit Ampil Kridha Warastra'}
+Hero video: {'youtube_id': 'vaomwDA1VSE', 'checked_by_vision_model': True, 'title': 'SMP Muhammadiyah Plus Salatiga - Tari Jurit Ampil Kridha Warastra'}
 Images: 6 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Perpustakaan Digital Budaya Indonesia
 Konversi berkas Erlyndita Setyawardani dan Fandy Aprianto Rohman / Wikimedia Commons / Public domain (Public domain); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain); Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
+Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
 Counting: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
 
 Sources (2): https://en.wikipedia.org/wiki/Jurit_Ampil_Kridha_Warastra; https://www.wikidata.org/wiki/Q97307356

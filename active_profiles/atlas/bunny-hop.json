@@ -1,13 +1,86 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "excessive speed"
+        ],
+        "counts": "Simplified to 'tap-tap, tap-tap, hop-hop-hop'.",
+        "duration_minutes": "3-5 minutes.",
+        "game_version": "Play as a 'Follow the Leader' game in a line."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "high-impact jumping",
+          "unsupported balance"
+        ],
+        "counts": "Maintain the same sequence but at a slower pace.",
+        "seated_version": "Perform the foot taps and hops while seated, holding the shoulders of the person in front.",
+        "standing_version": "Perform with support from a chair or partner, reducing the intensity of the hops.",
+        "tempo_and_range": "Reduced tempo to ensure stability."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands placed on the hips of the person in front.",
+      "difficulty": "beginner",
+      "footwork": "Tap right foot twice, tap left foot twice, hop forward, hop backward, three hops forward.",
+      "formation_and_space": "Line or open circle moving around the floor.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes small hops forward and backward.",
+      "partnering": "Participants hold onto the hips of the person in front to maintain the line.",
+      "posture": "Upright, holding the hips of the person in front.",
+      "signature_moves": [
+        {
+          "description": "A combination of foot taps and forward/backward hops.",
+          "name": "The Hop Sequence"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Big band"
+      ],
+      "meter": "",
+      "mood_keywords": [
+        "novelty",
+        "upbeat"
+      ],
+      "musical_form": "Eponymous composition.",
+      "reference_recordings": [
+        {
+          "artist": "Ray Anthony",
+          "title": "Bunny Hop"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Big band swing style, characterized by a steady, danceable beat suitable for a conga-line formation.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Tap right foot twice on the floor.",
+        "Tap left foot twice on the floor.",
+        "Hop forward once.",
+        "Hop backward once.",
+        "Hop forward three times."
+      ],
+      "formation": "Line or open circle, holding the hips of the person in front.",
+      "level_notes": "Beginner-friendly due to the repetitive, simple nature of the steps.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "1f1117e207619426ff49212ec695eb04c8c0dce24426513217315dc3b42d0f53",
+  "fingerprint": "1bc8502dce71f4f3338a85e0b4e42b2b422d25cb0ea9ec6c5a068adb9765dade",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +88,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -46,7 +118,7 @@
   "music_options": [],
   "name": "Bunny hop",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/bunny-hop.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +130,14 @@
   "slug": "bunny-hop",
   "sources": [
     "https://en.wikipedia.org/wiki/Bunny_hop_(dance)",
-    "Source: Bunny hop (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bunny_hop_(dance)"
+    "https://www.wikidata.org/wiki/Q4997884"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/d8rMlxbSbOk.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=d8rMlxbSbOk"
+    }
+  ]
 }

@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex setting footwork",
+          "Strict formal posture"
+        ],
+        "counts": "Simplified 1-2-3-4 counting.",
+        "duration_minutes": "3",
+        "game_version": "Focus on the 'arch' as a bridge game; emphasize the loud stamps and claps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Fast spinning",
+          "Stamping with high impact"
+        ],
+        "counts": "Keep the standard 8-count phrasing.",
+        "seated_version": "Perform the arm movements and claps while seated; march feet in place instead of traveling.",
+        "standing_version": "Reduce the speed of the turns; use a chair for balance during the setting steps.",
+        "tempo_and_range": "Slower tempo; smaller steps during the advance and retreat."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Joined in a circle or lines; raised to form arches during the progression.",
+      "difficulty": "beginner",
+      "footwork": "Traveling steps for the circle; 'setting' steps (step-close-step) for the middle section; three stamps on the advance.",
+      "formation_and_space": "Starts as a circle of six, transitions to two lines of three facing each other, moves linearly through the room.",
+      "hips_and_torso": "Stable and facing forward; movement is concentrated in the feet and legs.",
+      "levels_and_jumps": "Low impact; no significant jumps, primarily ground-based footwork.",
+      "partnering": "One leader in the middle of two partners; interaction involves turning and setting.",
+      "posture": "Upright, formal but relaxed Scottish country dance carriage",
+      "signature_moves": [
+        {
+          "description": "One set of three raises joined hands for the opposing set to dance under.",
+          "name": "The Arch"
+        },
+        {
+          "description": "Three quick stamps followed by three quick claps during the advance and retreat.",
+          "name": "The Stamp and Clap"
+        }
+      ],
+      "tempo_feel": "Brisk and marching",
+      "what_to_avoid": "Avoid rushing the stamps; they must fit into the two-count musical window."
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle",
+        "Accordion",
+        "Piano",
+        "Drums"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "military",
+        "jovial",
+        "rhythmic"
+      ],
+      "musical_form": "Binary (AABB) or Verse-Chorus",
+      "reference_recordings": [
+        {
+          "artist": "Glasgow Orpheus Choir",
+          "title": "The Dashing White Sergeant"
+        }
+      ],
+      "rhythm_pattern": "Continuous eighth notes typical of a Scottish reel",
+      "sound_description": "A bright, driving 4/4 reel with a military march undertone. The melody is characterized by ascending leaps and a steady, percussive pulse suitable for marching or dancing.",
+      "tempo_bpm": "110",
+      "vocal_style": "Choral (Glasgow Orpheus Choir style) or none"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circle left for 8 counts",
+        "Circle right for 8 counts",
+        "Leader sets to and turns right-hand partner",
+        "Leader sets to and turns left-hand partner",
+        "Advance 2 steps and stamp 3 times",
+        "Retreat 2 steps and clap 3 times",
+        "Advance and pass through arches to next set"
+      ],
+      "formation": "Progressive sets of six (two lines of three facing each other)",
+      "level_notes": "Beginner friendly; focus on the timing of the three stamps over two counts.",
+      "rhythm": "4/4 reel time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "22a27d372b682f92a0f070570f2b6f2b334829603bdb8b9fb1f0fc147c364e53",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the specific footwork used for 'setting' in this dance compared to other Scottish reels? Evidence needed: https://en.wikipedia.org/wiki/Dashing_White_Sergeant"
+    ]
+  },
+  "id": "atlas:dashing-white-sergeant",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dashing White Sergeant",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "4cab2b43317fe345",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dashing_White_Sergeant",
+      "question": "What is the specific footwork used for 'setting' in this dance compared to other Scottish reels?",
+      "source": "https://en.wikipedia.org/wiki/Dashing_White_Sergeant",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'sets to' but does not describe the specific step-hop or pas de basque variation required for authentic performance."
+    }
+  ],
+  "research_file": "research_results/dashing-white-sergeant.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dashing-white-sergeant",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dashing_White_Sergeant",
+    "https://www.wikidata.org/wiki/Q5226627"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -94,15 +94,54 @@
     "warm",
     "calm",
     "patient",
-    "direct"
+    "direct",
+    "energetic"
    ],
    "beliefs": [
     {
-     "t": "0:05",
-     "belief": "Dancing is accessible to any person regardless of zero level or age."
+     "t": "0:01",
+     "belief": "Dancing is accessible to anyone regardless of zero experience or age.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "9:18",
+     "belief": "Repetition is the mother of learning for building muscle memory in the body.",
+     "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:01",
+     "moment": "opening",
+     "says": "The teacher welcomes learners of any level or age, promising an easy sequence to start dancing.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "1:24",
+     "moment": "after_success",
+     "says": "The teacher encourages the learner and expresses hope that the explanation was clear.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "3:15",
+     "moment": "before_hard_part",
+     "says": "The teacher offers a simplified starting point on the spot if learners struggle at first.",
+     "tag": "regression"
+    },
+    {
+     "t": "6:10",
+     "moment": "before_hard_part",
+     "says": "The teacher gives body adaptation advice on foot placement depending on shoes and floor surface.",
+     "tag": "body_adaptation"
+    },
+    {
+     "t": "8:28",
+     "moment": "closing",
+     "says": "The teacher transitions the learner into practicing the full sequence along with the music.",
+     "tag": "reason_to_return"
+    }
+   ]
   },
   "learner_voice": {
    "struggles": [
@@ -158,5 +197,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-17T21:43:29Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 2,
+  "feelings": 0
+ }
 }

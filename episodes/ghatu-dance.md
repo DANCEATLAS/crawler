@@ -1,8 +1,8 @@
 # Ghatu dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian or community elder from the Gurung tradition.
@@ -104,7 +104,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'U1vVfPUoLkI', 'checked_by_vision_model': False, 'title': "Ghatu Nepali Folk Dance 'Daya Sari Biruwa Ta'. 208th BHANU JAYANTI, Aizawl, Mizoram"}
+Hero video: {'youtube_id': 'U1vVfPUoLkI', 'checked_by_vision_model': True, 'title': "Ghatu Nepali Folk Dance 'Daya Sari Biruwa Ta'. 208th BHANU JAYANTI, Aizawl, Mizoram"}
 Images: 2 licensed — S Pakhrin / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); S Pakhrin from NYC, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Crowns of flowers and roasted paddy, The Madal drum, Props representing the King and Queen (horse, comb, bow and arrow)
@@ -114,7 +114,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

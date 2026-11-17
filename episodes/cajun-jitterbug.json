@@ -2,7 +2,7 @@
  "slug": "cajun-jitterbug",
  "name": "Cajun Jitterbug",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-16T19:41:54Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Cajun Jitterbug. 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (zYW8JdNC4kg)",
      "Title card: Cajun Jitterbug · United States · 20th century"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Hobble Step, Cross-Handed Turn."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (zYW8JdNC4kg)",
      "Captions name each signature move as it appears",
      "Formation: Couples dancing face-to-face with underarm turns and open/cross hand transitions."
     ],
@@ -710,7 +710,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "zYW8JdNC4kg",
+   "checked_by_vision_model": true,
+   "title": "Cajun Jitterbug Dancing with Glenn and Lori"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -745,16 +749,19 @@
   ]
  },
  "teaching_formula": {
-  "source": "24 tutorial(s) of the street-urban family studied",
-  "videos_studied": 24,
+  "source": "29 tutorial(s) of the street-urban family studied",
+  "videos_studied": 29,
   "counting": "count the 6-count bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, side, back",
+   "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
   "cues": [
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
    "right leg out front",
    "jump split your legs",
    "the back foot goes up",
@@ -763,10 +770,7 @@
    "kick the right leg up",
    "take the right leg back",
    "hop forward with the left leg",
-   "feet parallel",
-   "relax  breath",
-   "land on the balls of your feet",
-   "engage your core"
+   "feet parallel"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -785,7 +789,6 @@
   "tempo (bpm)",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the occasions & meaning section",
@@ -800,6 +803,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "f8bb45516941b17881909145f246071658a6c084bd66e0565c3caf906aed79e9",
- "hero_checked": null
+ "input_fingerprint": "8b4b86459c5eb4fb9a416ee1f10133ca2261c781abd19cd1d117c81b734db43f",
+ "hero_checked": "pass"
 }

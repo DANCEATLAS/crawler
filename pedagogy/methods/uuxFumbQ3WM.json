@@ -6,10 +6,10 @@
  "teacher": "FitLara Dance",
  "teacher_key": "fitlara-dance",
  "teacher_score": 76.8,
- "analysed_at": "2026-11-17T06:08:47Z",
+ "analysed_at": "2026-11-17T21:41:25Z",
  "url": "https://www.youtube.com/watch?v=uuxFumbQ3WM",
  "comments_read": 60,
- "schema": 2,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -17,8 +17,8 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "Lara introduces the locking dance style and orientation, breaks down each movement in detail with slow counts, and then guides learners through practicing the full combo repeatedly with music.",
-  "signature": "",
+  "teacher_system": "Lara introduces the dance style, breaks down individual movements step by step with clear counts, and then guides learners through repetitions with and without music from multiple angles.",
+  "signature": "Mirrors movements clearly and reverses sides for learners, explaining left-right correspondence explicitly.",
   "screen": {
    "views": [
     "front",
@@ -29,51 +29,52 @@
   },
   "practices": [
    {
+    "tag": "mirror_view",
+    "t": "0:56",
+    "what": "Explains that she will mirror movements so the learner's right side matches her left."
+   },
+   {
     "tag": "chunking",
-    "t": "1:23",
-    "what": "Breaks down the first locking movement step by step, demonstrating arm crosses and muscle locks slowly."
+    "t": "1:27",
+    "what": "Breaks down the first locking movement step by step starting with arms and counts."
    },
    {
     "tag": "tempo_ramp",
     "t": "3:18",
-    "what": "Practices the first sequence of movements slightly faster while counting out loud."
-   },
-   {
-    "tag": "mirror_view",
-    "t": "6:00",
-    "what": "Turns around to face the back so learners can mirror her movements while facing the same direction."
+    "what": "Practices the learned combination a bit faster with counts."
    },
    {
     "tag": "music_early",
     "t": "6:28",
-    "what": "Puts on the music to practice the learned choreography with the rhythm and beat."
+    "what": "Practices the first part of the choreography with music at a slow tempo."
    },
    {
-    "tag": "repetition",
-    "t": "6:42",
-    "what": "Repeats the first eight counts slowly and then faster with the music multiple times."
+    "tag": "mirror_view",
+    "t": "6:00",
+    "what": "Turns around to face the back view so learners can follow along without left-right confusion."
    },
    {
-    "tag": "regression",
-    "t": "7:51",
-    "what": "Offers a simpler alternative for arm movements if the full version is too much."
+    "tag": "recap_and_practice_plan",
+    "t": "8:22",
+    "what": "Suggests pausing the video to practice with music before moving on to the next section."
    }
   ],
   "adaptations": [
    {
-    "t": "5:17",
-    "difficulty": "The arm movements combined with the locking motion might be too much.",
-    "adjustment": "Just straighten your arms up and down, it's also all right.",
+    "t": "5:16",
+    "difficulty": "The arm locking movement feels like too much coordination.",
+    "adjustment": "Straighten your arms up and down instead.",
     "kind": "easier"
    }
   ],
   "entry_points": [
+   "feet_first",
    "rhythm_first",
-   "feet_first"
+   "watch_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 123,
+   "seconds_before_first_movement": 127,
    "pieces_taught": 2
   },
   "mentor": {
@@ -82,7 +83,8 @@
     "energetic",
     "patient",
     "gentle",
-    "playful"
+    "playful",
+    "precise"
    ],
    "beliefs": [
     {
@@ -128,39 +130,58 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Each combination is difficult and hard to master despite looking easy",
+     "theme": "The combination feels difficult despite looking easy",
      "tag": "other",
-     "count": 2
+     "count": 1
+    },
+    {
+     "theme": "Hard to practice without the music track",
+     "tag": "other",
+     "count": 1
     }
    ],
    "clicked": [
     {
-     "theme": "The teacher breaks down every move repeatedly and clearly",
-     "tag": "other",
-     "count": 6
+     "theme": "Repeating every move made it easy to follow and learn",
+     "tag": "repetition",
+     "count": 2
+    },
+    {
+     "theme": "Clear breakdowns helped complete a school project successfully",
+     "tag": "chunking",
+     "count": 4
     }
    ],
    "requests": [
     {
-     "theme": "Ask for longer dance tutorials and more beginner content",
-     "tag": "other",
-     "count": 4
+     "theme": "Asking for the song title to practice at home",
+     "tag": "music_early",
+     "count": 3
+    },
+    {
+     "theme": "Requests for more beginner tutorials and hip hop classes",
+     "tag": "reason_to_return",
+     "count": 3
     }
    ],
    "meant": [
     {
-     "theme": "Helped with school PE projects and dance assignments",
+     "theme": "Helped pass school PE dance projects and exams",
      "tag": "other",
-     "count": 8
+     "count": 5
+    },
+    {
+     "theme": "Felt comfortable and made working out at home fun",
+     "tag": "fun_and_energy",
+     "count": 4
     }
    ]
   },
-  "limits": "The video does not show partner interaction or detailed floorwork options since this is an upper body and footwork focused locking tutorial."
+  "limits": "The video only covers the first part of the choreography up to 10 minutes; advanced variations and full speed performance with music beyond the basic tutorial segments are not fully shown in this excerpt."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 3,
- "attempted_at": "2026-11-17T06:29:01Z",
+ "attempts": 4,
  "mentor_look": {
   "at": "2026-11-17T06:45:10Z",
   "attempts": 1,

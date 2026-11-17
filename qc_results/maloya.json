@@ -1,10 +1,10 @@
 {
  "slug": "maloya",
- "qc_at": "2026-11-02T14:49:11Z",
+ "qc_at": "2026-11-17T20:48:59Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 8.8,
+ "qc_score": 9.0,
  "gates": [
   {
    "gate": "has_name",
@@ -14,17 +14,17 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "81"
+   "detail": "86"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "210"
+   "detail": "206"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Once banned by the French state for its association with political autonomy and "
+   "detail": "Once banned by the French state for its link to political autonomy, this ritual "
   },
   {
    "gate": "profile_len",
@@ -34,17 +34,17 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1637"
+   "detail": "2722"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "the provided sources"
+   "detail": "deeply rooted"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,35 +84,36 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'possession', 'worship', 'ancestor']"
+   "detail": "sacred=True cues=['ritual', 'worship', 'ancestor', 'spirit']"
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
   "specificity": 9,
-  "teaching_value": 6,
+  "teaching_value": 5,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "An excellent, respectful profile. While the movement section is sparse due to the nature of the tradition being primarily musical/vocal with dance as an accompaniment, the cultural context is handled with high integrity. The distinction between ritual and festive forms is well-noted."
+  "notes": "An excellent, well-researched profile. It correctly identifies the sacred nature of the 'servis kabaré' and avoids over-simplifying the movement, which is historically under-documented. The teaching value is limited by the lack of formal movement descriptions in the source material, which is handled with appropriate academic honesty."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=8.8",
+  "judge_score=9.0",
   "sacred"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-01T17:22:25Z"
+ "researched_at": "2026-11-17T20:16:27Z"
 }

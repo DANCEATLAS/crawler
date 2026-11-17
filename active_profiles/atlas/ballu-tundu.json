@@ -1,13 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands held or arms linked, elbows bent.",
+      "difficulty": "intermediate",
+      "footwork": "Double step with cadence on the right foot.",
+      "formation_and_space": "Clockwise rotation in a circle.",
+      "hips_and_torso": "Torso remains rigid; mobility is focused in the lower limbs.",
+      "levels_and_jumps": "Includes leaps and foot-tapping in the 'sartiu' phase.",
+      "partnering": "Strict etiquette: married/engaged hold palm-to-palm; strangers enter to the woman's right.",
+      "posture": "Rigid upper body, composed trunk.",
+      "signature_moves": [
+        {
+          "description": "The introductory, more steady phase of the dance.",
+          "name": "Sa seria"
+        },
+        {
+          "description": "The more vibrant, second phase featuring jumps and foot-tapping.",
+          "name": "Su sartiu"
+        }
+      ],
+      "tempo_feel": "Lively and animated.",
+      "what_to_avoid": "Do not step between a woman and her husband if entering the circle."
+    },
+    "music_profile": {
+      "instruments": [
+        "launeddas",
+        "accordion",
+        "organetto diatonico",
+        "harmonica",
+        "reed flute"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "joyous",
+        "lively",
+        "rhythmic"
+      ],
+      "musical_form": "Introduction in 2/4, main dance in 6/8",
+      "reference_recordings": [
+        {
+          "artist": "Ireneo Massidda",
+          "title": "Passus de Ballu"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by a rhythmic pulse that drives the dancers, often featuring the unique drone and melodic interplay of the launeddas or the energetic bellows of the accordion.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "canto a tenore (polyphonic)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle holding hands with arms bent at the elbows.",
+        "Execute a double step with a rhythmic cadence on the right foot.",
+        "Maintain a rigid upper body while moving the legs."
+      ],
+      "formation": "Closed or open circle.",
+      "level_notes": "Requires high technical specialization for both musicians and dancers.",
+      "rhythm": "6/8 meter for the dance, with a 2/4 introduction."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "8fdc86baa7cee72992f3b23e249fd4079d6d88179780069badaafd9197371a80",
+  "fingerprint": "f003d454bb89543626f1368e8ec65495af66cbc38177de814b5ceaeadd4b69dc",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +78,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic variations between the 'sa seria' and 'su sartiu' phases? Evidence needed: Musicological analysis of Sardinian folk dance recordings."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +95,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,8 +106,18 @@
   ],
   "music_options": [],
   "name": "Ballu tundu",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f3dd6090a8b2915f",
+      "next_evidence": "Musicological analysis of Sardinian folk dance recordings.",
+      "question": "What are the specific rhythmic variations between the 'sa seria' and 'su sartiu' phases?",
+      "source": "https://it.wikipedia.org/wiki/Ballo_sardo",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical instruction for the dance's two-part structure."
+    }
+  ],
+  "research_file": "research_results/ballu-tundu.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +129,15 @@
   "slug": "ballu-tundu",
   "sources": [
     "https://en.wikipedia.org/wiki/Ballu_tundu",
-    "Source: Ballu tundu on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballu_tundu"
+    "https://www.wikidata.org/wiki/Q2881396",
+    "https://it.wikipedia.org/wiki/Ballo_sardo"
   ],
-  "state": "researching",
-  "video_evidence": []
+  "state": "teaching_withheld",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/FU-aIuDEW7I.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=FU-aIuDEW7I"
+    }
+  ]
 }

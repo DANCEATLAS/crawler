@@ -1,10 +1,10 @@
 {
  "slug": "hand-jive",
- "qc_at": "2026-11-09T21:23:51Z",
+ "qc_at": "2026-11-17T20:49:20Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.65,
  "gates": [
   {
    "gate": "has_name",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "116"
+   "detail": "143"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 1957 Soho, The Cat's Whisker coffee bar was so crowded teenagers danced with "
+   "detail": "In 1957, Soho's The Cat's Whisker coffee bar was so packed that teenagers, unabl"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "302"
+   "detail": "435"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2222"
+   "detail": "2833"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "7/7 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "3 paras"
   },
   {
    "gate": "not_duplicate",
@@ -88,7 +88,7 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
   "specificity": 10,
   "teaching_value": 10,
@@ -97,22 +97,24 @@
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
-  "album_doubt": [],
+  "album_doubt": [
+   "Nefertiti"
+  ],
   "adaptations_safe": true,
-  "overall": 10,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "Comprehensive, highly accurate profile of the hand jive, well-supported by evidence claims and cleanly formatted."
+  "notes": "The profile is exceptionally well-researched and adheres strictly to the provided evidence. The inclusion of 'Nefertiti' in the album list is a clear error as it is a jazz fusion album unrelated to the dance. Otherwise, the content is accurate, respectful, and highly instructional."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=10.0"
+  "judge_score=9.65"
  ],
  "citation": {
-  "claims": 7,
-  "supported": 7,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-09T20:43:40Z"
+ "researched_at": "2026-11-17T20:20:36Z"
 }

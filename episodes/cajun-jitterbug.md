@@ -1,8 +1,8 @@
 # Cajun Jitterbug — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the music & instruments section; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the music & instruments section; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An engaging, detail-oriented partner dance instructor focusing on social lead-follow mechanics and clear footwork weight shifts.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Lake Charles Slide: Cajun Jitterbug Mechanics
 NARRATION: This is Cajun Jitterbug. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (zYW8JdNC4kg)
 ON SCREEN: Title card: Cajun Jitterbug · United States · 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dancers execute the Cajun Jitterbug in partner alignment using open-h
 NARRATION: Partners step or walk in time to the music using alternating feet.
 NARRATION: The underlying footwork relies on subtle weighting down of one leg—the lead's right foot and follower's left foot—to enable the opposite leg to step and turn freely.
 NARRATION: Watch for Hobble Step, Cross-Handed Turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (zYW8JdNC4kg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples dancing face-to-face with underarm turns and open/cross hand transitions.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'zYW8JdNC4kg', 'checked_by_vision_model': True, 'title': 'Cajun Jitterbug Dancing with Glenn and Lori'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Low hand connection below waist level, Crossed hand arrangement with right over left, Alternating weight placement on lead right / follower left feet
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
+Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
 Counting: count the 6-count bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
 
 Sources (2): https://en.wikipedia.org/wiki/Cajun_Jitterbug; https://www.wikidata.org/wiki/Q5018008

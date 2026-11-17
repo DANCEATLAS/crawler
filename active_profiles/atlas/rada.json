@@ -4,58 +4,62 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Hands placed on bent knees.",
-      "difficulty": "intermediate",
+      "arms_and_hands": "Hands are placed on bent knees.",
+      "difficulty": "beginner",
       "footwork": "not described in sources",
       "formation_and_space": "not described in sources",
-      "hips_and_torso": "Spinal undulation moving from head to pelvis; torso, spine, chest, and solar plexus involved.",
-      "levels_and_jumps": "Low level (squatting/bent knees).",
+      "hips_and_torso": "Spinal undulation flowing from head to pelvis.",
+      "levels_and_jumps": "Low center of gravity; no jumps described.",
       "partnering": "not described in sources",
       "posture": "Low center of gravity with knees bent.",
       "signature_moves": [
         {
-          "description": "A fluid, wave-like motion traveling from the head down to the pelvis.",
+          "description": "A fluid, 'boneless' wave-like movement of the spine from head to pelvis.",
           "name": "Spinal Undulation"
         }
       ],
-      "tempo_feel": "Slow and fluid.",
+      "tempo_feel": "Slow.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "maman drum",
-        "seconde drum",
-        "boula drum",
-        "ogan"
+        "maman",
+        "seconde (segun)",
+        "boula (bass)",
+        "ogan (iron bell)"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "hypnotic",
-        "fluid",
-        "sacred"
+        "slow",
+        "hypnotic"
       ],
-      "musical_form": "Rada ritual rhythm.",
+      "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Slow and hypnotic rhythm.",
-      "sound_description": "A slow, percussive ensemble featuring three drums of varying sizes and a metallic iron bell, creating a steady, wave-like pulse.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A percussion-heavy rhythm played on three drums and an iron bell, described as slow and hypnotic.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Bend knees and lower center of gravity.",
-        "Place hands on knees.",
-        "Initiate spinal undulation from the head, moving through the chest and solar plexus to the pelvis."
+        "Bend knees and place hands on knees.",
+        "Initiate spinal undulation starting from the head.",
+        "Continue the wave-like motion down through the torso to the pelvis."
       ],
       "formation": "not described in sources",
-      "level_notes": "Beginners should focus on the fluidity of the spinal wave before attempting advanced variations like Maskowan.",
-      "rhythm": "Slow and hypnotic."
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "661c2ca129546c6109d0f2d45a682455f8713f8f0deb61ccf70ddde0d1f95b84",
+  "fingerprint": "06e5bbe0e7fcfce7fb037a7505b7ce625c0098958c5a8a6d5eddb73fcabe765d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -64,8 +68,10 @@
     ],
     "research": [
       "movement: footwork, formation_and_space, what_to_avoid",
-      "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns associated with Yanvalou? Evidence needed: Ethnographic documentation of Haitian Vodou dance.",
+      "Investigate: What is the standard tempo (BPM) and meter for the Yanvalou rhythm? Evidence needed: Musicological analysis of Haitian Rada drumming."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -92,7 +98,26 @@
   ],
   "music_options": [],
   "name": "Rada",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5e88b3f913d0b716",
+      "next_evidence": "Ethnographic documentation of Haitian Vodou dance.",
+      "question": "What are the specific footwork patterns associated with Yanvalou?",
+      "source": "https://en.wikipedia.org/wiki/Yanvalou",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source describes the upper body and posture but lacks detail on footwork, which is essential for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "71f9f6faaf1f7179",
+      "next_evidence": "Musicological analysis of Haitian Rada drumming.",
+      "question": "What is the standard tempo (BPM) and meter for the Yanvalou rhythm?",
+      "source": "https://en.wikipedia.org/wiki/Yanvalou",
+      "status": "candidate_unreviewed",
+      "why_needed": "Essential for musical accompaniment and teaching rhythm."
+    }
+  ],
   "research_file": "research_results/rada.json",
   "runtime_active": false,
   "scope": {

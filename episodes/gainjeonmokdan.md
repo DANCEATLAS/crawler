@@ -1,6 +1,6 @@
 # Gainjeonmokdan — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; what to avoid / common mistakes
 
@@ -107,7 +107,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Move in two groups around the central vase of peonies
 NARRATION: Step 2: Pick a peony from the vase one by one
 NARRATION: Drill: Form two groups
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -171,7 +171,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Move in two groups around the central vase of peonies
 NARRATION: Step 2: Pick a peony from the vase one by one
 NARRATION: Drill: Reach and gently grasp a prop flower
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -237,7 +237,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Pick a peony from the vase one by one
 NARRATION: Step 2: Execute calm movements
 NARRATION: Drill: Move in sync with Changsa vocal verses
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -299,9 +299,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
+Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
 
 Sources (2): https://en.wikipedia.org/wiki/Gainjeonmokdan; https://www.wikidata.org/wiki/Q645548

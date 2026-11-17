@@ -2,7 +2,7 @@
  "slug": "bubble-dance",
  "name": "Bubble dance",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-16T20:14:35Z",
  "qc_score": 7.9,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Bubble dance. 1930s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (XM1BX5ka5Zg)",
      "Title card: Bubble dance · United States · 1930s"
     ],
     "music": "theme (30 s)"
@@ -105,7 +105,7 @@
      "Watch for Bubble concealing pose."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (XM1BX5ka5Zg)",
      "Captions name each signature move as it appears",
      "Formation: Solo stage placement maintaining the bubble prop between the body and the audience."
     ],
@@ -263,7 +263,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -406,7 +406,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -549,7 +549,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -686,7 +686,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "XM1BX5ka5Zg",
+   "checked_by_vision_model": true,
+   "title": "Burlesque dancer - Sally Rand's 'Bubble Dance'"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -764,35 +768,39 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the stage-contemporary family studied",
-  "videos_studied": 4,
+  "source": "8 tutorial(s) of the stage-contemporary family studied",
+  "videos_studied": 8,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
    "keep your feet pointed",
    "use your core",
    "lean your body back",
-   "cross over your partner",
-   "trade places with one another",
-   "cross body lead",
-   "lean down",
-   "knees up",
-   "legs straighten",
-   "engage your core",
-   "feet inside silks",
-   "knees to chest"
+   "tight core",
+   "strong arms",
+   "push to the ceiling",
+   "split your legs",
+   "be completely present",
+   "share weight",
+   "reach into the negative space",
+   "pick up one foot",
+   "weight is going to transfer"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
-   "breakdown",
    "slow_practice",
-   "full_demo"
+   "context",
+   "breakdown",
+   "full_demo",
+   "layering",
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -801,7 +809,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "posture, arms and hands",
   "the how-it-is-danced section",
@@ -818,6 +825,6 @@
  "claims_verified": 5,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "5531da598a5625f3a74fda9738fa3a6244086ec208c88320525a2e82f1b9a382",
- "hero_checked": null
+ "input_fingerprint": "ef6464de80d9e734ab18cacf37f707d37950219dc1e2d71675321ff3c028eb37",
+ "hero_checked": "pass"
 }

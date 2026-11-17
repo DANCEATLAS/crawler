@@ -1,6 +1,6 @@
 # Caci — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.25 · 6/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.25 · 6/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures
 
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Caci: The Whip Duel of Flores
 NARRATION: This is Caci. Traditional, ongoing into modern times.
-ON SCREEN: Hero video, first 10 seconds (BMPYB1WgVig)
+ON SCREEN: Hero video, first 10 seconds (4K5fvJGqtTM)
 ON SCREEN: Title card: Caci · Indonesia · Traditional, ongoing into modern times
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Caci is performed by two bare-chested male fighters wearing pants cov
 NARRATION: Fighters alternate roles as attacker and defender.
 NARRATION: The attacker delivers up to three blows with a whip or stick, aiming primarily for the opponent’s head or face, while the defender blocks with a shield.
 NARRATION: Watch for Whip Spin, Three-strike Attack.
-ON SCREEN: Hero video full screen, 30–45 s (BMPYB1WgVig)
+ON SCREEN: Hero video full screen, 30–45 s (4K5fvJGqtTM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: one-on-one facing each other in open space
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -104,7 +104,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'BMPYB1WgVig', 'checked_by_vision_model': True, 'title': 'CACI‼️Tarian Perang/Permainan Rakyat Manggarai - Flores - NTT @Sa.Ate.Channel'}
+Hero video: {'youtube_id': '4K5fvJGqtTM', 'checked_by_vision_model': True, 'title': 'part 1. Menantang lawan sampai nyerah.  bermain caci / caci Dance Rickar Santos'}
 Images: 6 licensed — Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Fakhri Anindita / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Penis — https://archive.org/details/penis_20260922
 Motifs: horned helmets, jingling bells, whips and shields, drum and gong ensembles, village communal yards
@@ -114,7 +114,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

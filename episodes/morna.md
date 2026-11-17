@@ -1,6 +1,6 @@
 # morna — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
 
@@ -315,9 +315,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
+Source: 8 tutorial(s) of the ballroom-partner family studied · videos studied: 8
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
+Cues: side close side; step and point; turn turn turn; replace; guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot; guys step forward turning the girl; guys step back right ladies back right; guys pulling the right hand towards you; jump jump; step step
 
 Sources (7): https://en.wikipedia.org/wiki/Morna_(music); https://www.wikidata.org/wiki/Q502535; https://es.wikipedia.org/wiki/Morna; https://fr.wikipedia.org/wiki/Morna; https://pt.wikipedia.org/wiki/Morna; https://ich.unesco.org/en/RL/01469; https://archive.org/details/WWS_1932110201

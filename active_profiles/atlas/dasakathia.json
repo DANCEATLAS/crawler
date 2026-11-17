@@ -1,0 +1,144 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "A duo consisting of a lead narrator and a rhythmic follower.",
+          "source": "https://en.wikipedia.org/wiki/Dasakathia"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active use of hands to play the Ramtali and Dasakathi instruments while gesturing.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two performers (Gayaka and Palia) standing in close proximity, usually on a stage or public square.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Call-and-response interaction between the lead and the follower.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Rhythmic striking of a pair of wooden pieces to create percussion while singing.",
+          "name": "Kathia playing"
+        }
+      ],
+      "tempo_feel": "Rhythmic and energetic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Ramtali",
+        "Dasakathi (wooden clappers)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "satirical",
+        "rhythmic",
+        "narrative"
+      ],
+      "musical_form": "Narrative ballad based on Odissi music",
+      "reference_recordings": [],
+      "rhythm_pattern": "Percussive clicking using wooden clappers",
+      "sound_description": "A sharp, rhythmic clicking of wooden instruments provides the pulse for a two-person vocal dialogue. The lead singer provides the melody and narrative, while the second performer provides a rhythmic and vocal echo, creating a layered, percussive folk sound.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Ballad singing, call-and-response"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold the wooden Kathia clappers in one hand",
+        "Establish a rhythmic clicking pattern (the 'Kathia' sound)",
+        "The Gayaka (lead) initiates the vocal ballad",
+        "The Palia (follower) responds with rhythmic accompaniment and vocal echoes",
+        "Incorporate satirical gestures and social commentary through facial expressions"
+      ],
+      "formation": "Duo (Gayaka and Palia) facing the audience.",
+      "level_notes": "Requires coordination between singing and percussive clapping.",
+      "rhythm": "Rhythmic percussion based on the striking of wooden pieces (Kathia)."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "d91c5ac10402cfddcecc6253781f548f5aa52fec17c3f0c1ba7a905df5865ebe",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific rhythmic cycles (talas) used in Dasakathia that distinguish it from standard Odissi music? Evidence needed: https://en.wikipedia.org/wiki/Dasakathia"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand positions and striking angles for the Ramtali versus the Dasakathi? Evidence needed: https://en.wikipedia.org/wiki/Dasakathia"
+    ]
+  },
+  "id": "atlas:dasakathia",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dasakathia",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1eb21bd8509084a4",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dasakathia",
+      "question": "What are the specific hand positions and striking angles for the Ramtali versus the Dasakathi?",
+      "source": "https://en.wikipedia.org/wiki/Dasakathia",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the correct percussive technique, as the instruments are held by different roles (Gayaka vs Palia)."
+    },
+    {
+      "domain": "research",
+      "id": "4ac659da56467f58",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dasakathia",
+      "question": "What are the specific rhythmic cycles (talas) used in Dasakathia that distinguish it from standard Odissi music?",
+      "source": "https://en.wikipedia.org/wiki/Dasakathia",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions it is 'based on' Odissi music, but folk adaptations usually have unique rhythmic signatures."
+    }
+  ],
+  "research_file": "research_results/dasakathia.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dasakathia",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dasakathia",
+    "https://www.wikidata.org/wiki/Q15724280"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

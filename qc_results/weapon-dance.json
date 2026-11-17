@@ -1,10 +1,10 @@
 {
  "slug": "weapon-dance",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:52:15Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 6.9,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,32 @@
    "detail": "sacred=True cues=['ritual', 'ceremon', 'exorcis', 'spirit']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 5,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The Zezuru Jerusema specifically recalling diversionary tactics used against colonial incursions."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "War dance",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile describes a broad category rather than a specific dance tradition. While the content is respectful and well-researched, it functions as an encyclopedic overview of a genre. It fails the 'is_a_dance' criterion because 'Weapon dance' is a classification, not a singular, distinct dance form."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "country",
-  "no_judge",
+  "judge_score=6.9",
+  "doubts=1",
+  "not_a_dance",
   "sacred"
  ],
  "citation": {

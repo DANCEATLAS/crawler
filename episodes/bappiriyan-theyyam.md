@@ -1,8 +1,8 @@
 # Bappiriyan Theyyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 8.55 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 8.55 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the music & instruments section; the costume & setting section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the music & instruments section; the costume & setting section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Vannan community theyyam performer and ritual expert
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Bappiriyan Theyyam: The Tree-Climbing Ritual of North Malabar
 NARRATION: This is Bappiriyan Theyyam.
-ON SCREEN: Hero video, first 10 seconds (0pdRSGaVWv0)
+ON SCREEN: Hero video, first 10 seconds (8QKu8mzh5ZQ)
 ON SCREEN: Title card: Bappiriyan Theyyam · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Tree Climbing, Tree Kicking.
-ON SCREEN: Hero video full screen, 30–45 s (0pdRSGaVWv0)
+ON SCREEN: Hero video full screen, 30–45 s (8QKu8mzh5ZQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance focused on vertical climbing space
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -92,7 +92,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '0pdRSGaVWv0', 'checked_by_vision_model': False, 'title': '13 വയസ്സ്കാരന്റെ ആദ്യത്തെ പുലിയൂർ കാളി തെയ്യം || 13 year Old Boy Performs Puliyoor Kali Theyyam'}
+Hero video: {'youtube_id': '8QKu8mzh5ZQ', 'checked_by_vision_model': True, 'title': 'വീടിന്റെ മുകളിൽ കയറി തെയ്യം... പിന്നീട് സംഭവിച്ചത് കണ്ടോ.. 😲🔥🙏🏻 || #Chembilott #Bhootham @ #Naduvil'}
 Images: 1 licensed — Sumalkv / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Coconut trees, Traditional theyyam costume, Temple setting, Falling coconuts
@@ -102,7 +102,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

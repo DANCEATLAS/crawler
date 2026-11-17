@@ -1,0 +1,144 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "A trio performance involving a horse dancer, a male lead, and a male in female attire.",
+          "source": "https://en.wikipedia.org/wiki/Chaiti_ghoda"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Often used to steady the horse frame or gesture during the narrative song.",
+      "difficulty": "intermediate",
+      "footwork": "Rhythmic stepping to mimic horse movements; specific counts not described in sources.",
+      "formation_and_space": "Open village spaces; the horse moves through the crowd or in a central performance area.",
+      "hips_and_torso": "Torso is encased in the horse frame; movement is generated from the legs and hips to tilt the frame.",
+      "levels_and_jumps": "Ground-level rhythmic stepping; no high jumps described.",
+      "partnering": "Trio interaction between the horse dancer, the Rauta, and the Rautani.",
+      "posture": "Upright, with the weight of the bamboo horse frame supported by the shoulders.",
+      "signature_moves": [
+        {
+          "description": "The dancer inside the frame mimics the galloping and prancing of a horse.",
+          "name": "Ghoda Nacha"
+        }
+      ],
+      "tempo_feel": "Energetic and ritualistic.",
+      "what_to_avoid": "Avoid mishandling the horse frame, which is a consecrated ritual object."
+    },
+    "music_profile": {
+      "instruments": [
+        "Dhola",
+        "Mahuri"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "celebratory",
+        "rhythmic",
+        "vibrant"
+      ],
+      "musical_form": "Narrative folk songs",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic beats provided by dhola",
+      "sound_description": "The sound is characterized by the high-pitched, piercing melody of the mahuri wind instrument over the deep, resonant rhythmic patterns of the dhola drum, accompanied by vocal storytelling.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Folk songs performed by male leads (Rauta and Rautani)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Anointing the bamboo frame with vermillion and butter lamps",
+        "Stepping into the central cavity of the horse frame",
+        "Coordinating shoulder-strapped frame movement with rhythmic walking",
+        "Call-and-response interaction between Rauta and Rautani",
+        "Mimetic horse movements including galloping and turning"
+      ],
+      "formation": "Processional or central circle with the horse at the center",
+      "level_notes": "Requires significant physical stamina to carry the bamboo frame for extended periods.",
+      "rhythm": "Rhythmic patterns dictated by the dhola drum"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "af7c8c993712401d0ca74cc5a8fa3557f60132f333612d64191430e3eccb51a4",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific melodic scales or ragas played on the mahuri during the performance? Evidence needed: https://en.wikipedia.org/wiki/Chaiti_ghoda"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic footwork patterns used by the horse dancer to synchronize with the dhola? Evidence needed: https://en.wikipedia.org/wiki/Chaiti_ghoda"
+    ]
+  },
+  "id": "atlas:chaiti-ghoda-nacha",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Chaiti Ghoda Nacha",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f583cd2f6d510035",
+      "next_evidence": "https://en.wikipedia.org/wiki/Chaiti_ghoda",
+      "question": "What are the specific rhythmic footwork patterns used by the horse dancer to synchronize with the dhola?",
+      "source": "https://en.wikipedia.org/wiki/Chaiti_ghoda",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention rhythm but do not describe the specific steps or counts needed for interactive teaching."
+    },
+    {
+      "domain": "research",
+      "id": "67c7a6513a7aeda7",
+      "next_evidence": "https://en.wikipedia.org/wiki/Chaiti_ghoda",
+      "question": "What are the specific melodic scales or ragas played on the mahuri during the performance?",
+      "source": "https://en.wikipedia.org/wiki/Chaiti_ghoda",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the sound profile accurately for a composer, the melodic structure beyond 'folk songs' is required."
+    }
+  ],
+  "research_file": "research_results/chaiti-ghoda-nacha.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "chaiti-ghoda-nacha",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chaiti_ghoda",
+    "https://www.wikidata.org/wiki/Q15724049"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

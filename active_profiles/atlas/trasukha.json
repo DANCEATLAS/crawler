@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex partner patterns",
+          "Extended duration"
+        ],
+        "counts": "1, 2, 1, 2",
+        "duration_minutes": "3",
+        "game_version": "A 'freeze' game where children must shake (trasukha) when the music plays and freeze when it stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid whirling",
+          "High-impact jumps",
+          "Fast weight shifts"
+        ],
+        "counts": "1, 2, 1, 2",
+        "seated_version": "Perform the 'shaking' motion with the torso and arms while seated, keeping time with the feet on the floor.",
+        "standing_version": "Perform the 2/4 step with reduced travel, focusing on the rhythmic bounce rather than the full polka jump.",
+        "tempo_and_range": "Reduce tempo by 20%; limit arm movements to shoulder height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active hand movements that accompany and strengthen the artistic content",
+      "difficulty": "beginner",
+      "footwork": "Repetitive figures based on the polka step",
+      "formation_and_space": "Group performance, often in couples, moving through the dance space",
+      "hips_and_torso": "A characteristic 'shaking' or vibrating quality (trasukha)",
+      "levels_and_jumps": "Occasional jumps and whirling in more playful variations",
+      "partnering": "Couples within a larger group context",
+      "posture": "Upright but dynamic, ready for quick movements",
+      "signature_moves": [
+        {
+          "description": "The namesake 'shaking' motion that defines the dance's texture",
+          "name": "Trasukha"
+        }
+      ],
+      "tempo_feel": "Fast, quick, and easy",
+      "what_to_avoid": "Avoid stiff or static upper bodies; the dance requires constant emotional and physical dynamism"
+    },
+    "music_profile": {
+      "instruments": [
+        "Violin",
+        "Cymbals",
+        "Bagpipes",
+        "Tambourine",
+        "Accordion",
+        "Cello"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "cheerful",
+        "dynamic",
+        "emotional",
+        "vibrant"
+      ],
+      "musical_form": "Simple, colorful melodies with the same modal basis as circle songs",
+      "reference_recordings": [],
+      "rhythm_pattern": "Square melodies with repetitive rhythmic figures typical of polka",
+      "sound_description": "A bright, rhythmic sound dominated by the 'triple music' of violin, cymbals, and bagpipes, creating a driving 2/4 pulse.",
+      "tempo_bpm": "",
+      "vocal_style": "Often accompanied by folk songs of the same name"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Establish a 2/4 pulse with a light, bouncing posture",
+        "Execute the 'shaking' (trasukha) motion through the torso and limbs",
+        "Perform repetitive polka-based step sequences in couples",
+        "Integrate expressive hand gestures to signal mood changes",
+        "Coordinate movements with the group to maintain the 'mass' performance feel"
+      ],
+      "formation": "Mass performance by an unlimited number of participants, often broken into couples",
+      "level_notes": "The dance is based on 'easy movements' but requires high stamina and expressive coordination.",
+      "rhythm": "2/4 time signature with a square melodic structure"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "8c079b50d4c5d66768f32343875dedbdaf35e2a1121b1e8a23e6e0b101171aef",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Which specific 'two or three dance figures' are most common in the Trasukha variant specifically? Evidence needed: https://en.wikipedia.org/wiki/Belarusian_folk_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the specific frequency and amplitude of the 'shaking' (trasukha) motion in authentic village performance? Evidence needed: https://en.wikipedia.org/wiki/Belarusian_folk_dance"
+    ]
+  },
+  "id": "atlas:trasukha",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Trasukha",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "6ec3c167e5574700",
+      "next_evidence": "https://en.wikipedia.org/wiki/Belarusian_folk_dance",
+      "question": "What is the specific frequency and amplitude of the 'shaking' (trasukha) motion in authentic village performance?",
+      "source": "https://en.wikipedia.org/wiki/Belarusian_folk_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The term 'shaking' is descriptive but requires visual quantification for accurate teaching and sensor feedback."
+    },
+    {
+      "domain": "research",
+      "id": "952bf2f19cef2f0a",
+      "next_evidence": "https://en.wikipedia.org/wiki/Belarusian_folk_dance",
+      "question": "Which specific 'two or three dance figures' are most common in the Trasukha variant specifically?",
+      "source": "https://en.wikipedia.org/wiki/Belarusian_folk_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions traditional dances use 2-3 figures but does not name the specific ones for Trasukha."
+    }
+  ],
+  "research_file": "research_results/trasukha.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "trasukha",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Belarusian_folk_dance",
+    "https://www.wikidata.org/wiki/Q4082728"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

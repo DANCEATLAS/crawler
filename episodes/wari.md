@@ -1,8 +1,8 @@
 # Wari — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable local dancer from Huari, respectful of the ritual context
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '6aCSB5NBsd8', 'checked_by_vision_model': True, 'title': 'CGs - Wari Tunwalo | Paisa Jhare Maruni'}
+Hero video: {'youtube_id': '6aCSB5NBsd8', 'checked_by_vision_model': False, 'title': 'CGs - Wari Tunwalo | Paisa Jhare Maruni'}
 Images: 0 licensed
 Footage: File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm — https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, Apu Onccoy una voz, un sueño en los Andes.webm — https://upload.wikimedia.org/wikipedia/commons/e/ed/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_Apu_Onccoy_una_voz%2C_un_sue%C3%B1o_en_los_Andes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wari Chora.webm — https://upload.wikimedia.org/wikipedia/commons/6/67/Wari_Chora.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; B.knight Video Durandall WARI F. M. C. T — https://archive.org/details/b.knight-video-durandall-wari-f.-m.-c.-t
 Motifs: Pink mesh masks, Floral shawls, Bells on knee pads, Toquilla straw hats, Pinkullo flute and wanqar drum
@@ -113,7 +113,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: count the not explicitly described, but rhythmic emphasis on fourth beat suggests a 4/4 pattern bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

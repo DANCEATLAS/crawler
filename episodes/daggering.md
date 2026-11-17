@@ -1,8 +1,8 @@
 # Daggering — episode pack
 
-*Status: draft · built 2026-11-16 · judge 7.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 7.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; the costume & setting section; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; the costume & setting section; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance That Was Banned: Daggering
 NARRATION: This is Daggering. 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (XkkXPIdSG9Q)
 ON SCREEN: Title card: Daggering · Jamaica · 21st century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Crotch-to-buttocks contact.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (XkkXPIdSG9Q)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
@@ -275,7 +275,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'XkkXPIdSG9Q', 'checked_by_vision_model': False, 'title': 'Patexx teaching daggering to whitey'}
 Images: 0 licensed
 Footage: jamaican daggering shelly belly — https://archive.org/details/y-2mate.is-yaga-saga-raga-shelly-belly-dhq-aga-dancing-behind-the-scene-yp-svsco; Equiknoxx and Shanique Marie Lecture (Berlin, 2018) | Red Bull Music Academy — https://archive.org/details/youtube-EviyCGcx5AU
 Motifs: Dancehall posters, Radio broadcast equipment, Archive footage of dancehall crowds

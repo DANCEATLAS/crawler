@@ -1,8 +1,8 @@
 # Yak dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; signature moves; the music & instruments section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; signature moves; the music & instruments section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian specializing in Himalayan folk traditions.
@@ -273,7 +273,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'R7AqZsjBbgA', 'checked_by_vision_model': False, 'title': 'Beautiful Yak Dance & Song | LEH LADAKH | Tserkarmo monastery'}
+Hero video: {'youtube_id': 'R7AqZsjBbgA', 'checked_by_vision_model': True, 'title': 'Beautiful Yak Dance & Song | LEH LADAKH | Tserkarmo monastery'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Gaden Ngari Monks Yak Dance — https://archive.org/details/Douglasstruth-GadenNgariMonksYakDance750-2
 Motifs: Yak masks, Himalayan mountain ranges, Republic Day parade footage
@@ -283,7 +283,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

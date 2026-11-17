@@ -1,8 +1,8 @@
 # Dhunuchi dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Bengali dancer familiar with puja rituals.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Smoke and the Drum: The Dhunuchi Dance
 NARRATION: This is Dhunuchi dance. Traditional.
-ON SCREEN: Hero video, first 10 seconds (lYj4t0KGW5s)
+ON SCREEN: Hero video, first 10 seconds (i9uGuUrMi4U)
 ON SCREEN: Title card: Dhunuchi dance · India · Traditional
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: The dance involves holding one or two dhunuchis, while experts may hold three (two in hands, one in mouth).
 NARRATION: It is performed to the rhythm of the dhak, kansor, and ghanta.
 NARRATION: Watch for Three-dhunuchi balance.
-ON SCREEN: Hero video full screen, 30–45 s (lYj4t0KGW5s)
+ON SCREEN: Hero video full screen, 30–45 s (i9uGuUrMi4U)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Communal, aiming to involve the community as a whole.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'lYj4t0KGW5s', 'checked_by_vision_model': False, 'title': 'Dhunuchi Naach |Dhunuchi Dance |Performed by Sneha Ghosh|Durga Puja|Dhak beats | Dhaker Taal'}
+Hero video: {'youtube_id': 'i9uGuUrMi4U', 'checked_by_vision_model': True, 'title': 'DHUNUCHI NAACH (Bengali Dance) | Bengal Club Shivaji Park | Mumbai  | Dhakis'}
 Images: 4 licensed — Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Wikimedia Commons / Public domain (Public domain); Ami.bangali / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Bhuppigraphy / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Dhunuchi dance at Samajsevi Sangh V 20181017 112000.webm — https://upload.wikimedia.org/wikipedia/commons/c/c9/Dhunuchi_dance_at_Samajsevi_Sangh_V_20181017_112000.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; screencast-www.facebook.com-2019.10.16-11_02_27 — https://archive.org/details/screencast-www.facebook.com-2019.10.16-11_02_27
 Motifs: Burning incense smoke, The dhak drum, Garad sari, Clay dhunuchi
@@ -104,7 +104,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

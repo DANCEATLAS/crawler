@@ -1,8 +1,8 @@
 # Madison — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic dance historian with a passion for 1960s social dances and community engagement
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'eEkLpmvIMuw', 'checked_by_vision_model': False, 'title': "It's Madison Time"}
+Hero video: {'youtube_id': 'eEkLpmvIMuw', 'checked_by_vision_model': True, 'title': "It's Madison Time"}
 Images: 6 licensed — Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Partial Lunar Eclipse, Madison 12-10-2011 VP8.webm — https://upload.wikimedia.org/wikipedia/commons/3/32/Partial_Lunar_Eclipse%2C_Madison_12-10-2011_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Total Solar Eclipse 2017, Madison County, ID.webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Total_Solar_Eclipse_2017%2C_Madison_County%2C_ID.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Elwha River 2022 by Madison Falls 2.webm — https://upload.wikimedia.org/wikipedia/commons/8/8a/Elwha_River_2022_by_Madison_Falls_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Memorial-Union-Terrace-in-Madison -WI.mpg — https://upload.wikimedia.org/wikipedia/commons/d/da/Memorial-Union-Terrace-in-Madison_-WI.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; German Commercials (1960s) — https://archive.org/details/1966-mit-dem-einkommen-auskommen-ii; He Makes Me Feel Like Dancin' — https://archive.org/details/hemakesmefeellikedancin; Harry's Mad (1993-1996) — https://archive.org/details/s-01-e-01_20260708
 Motifs: Lines of dancers clapping in unison, Close-ups of foot crosses and claps, Vintage 1960s TV footage, Cambodian large group dance events
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (5): https://en.wikipedia.org/wiki/Madison_(dance); https://www.wikidata.org/wiki/Q3276118; https://es.wikipedia.org/wiki/Madison_(baile); https://fr.wikipedia.org/wiki/Madison_(danse); https://archive.org/details/childandchildho01chamgoog

@@ -1,8 +1,8 @@
 # Gusharaveli — episode pack
 
-*Status: draft · built 2026-11-15 · judge 8.45 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.45 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -277,7 +277,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'VZxcgyxBs3E', 'checked_by_vision_model': False, 'title': 'Folklori nga Ulqini: Valle e detarëve Dumsharaveli"'}
+Hero video: {'youtube_id': 'VZxcgyxBs3E', 'checked_by_vision_model': True, 'title': 'Folklori nga Ulqini: Valle e detarëve Dumsharaveli"'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Coastal scenery of Ulcinj, Group gathering in a festival setting

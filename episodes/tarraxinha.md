@@ -1,8 +1,8 @@
 # Tarraxinha — episode pack
 
-*Status: draft · built 2026-11-12 · judge 8.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 8.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Evolution of Tarraxinha
 NARRATION: This is Tarraxinha. 21st century.
-ON SCREEN: Hero video, first 10 seconds (VgTzMiiBKSo)
+ON SCREEN: Hero video, first 10 seconds (ZrlZabtuS_g)
 ON SCREEN: Title card: Tarraxinha · Angola · 21st century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 NEEDS: occasions_and_meaning
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video full screen, 30–45 s (VgTzMiiBKSo)
+ON SCREEN: Hero video full screen, 30–45 s (ZrlZabtuS_g)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -283,7 +283,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'VgTzMiiBKSo', 'checked_by_vision_model': False, 'title': 'TARRAXA AND TARRAXO Basics Tutorial - Gwany & Liliana'}
+Hero video: {'youtube_id': 'ZrlZabtuS_g', 'checked_by_vision_model': True, 'title': 'Tarraxinha Dennis Beijinho & Laho'}
 Images: 0 licensed
 Footage: MISSING
 

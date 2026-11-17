@@ -1,8 +1,8 @@
 # Batusi — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** High-energy, charismatic retro-pop dance historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Holy Dance Craze, Batman!
 NARRATION: This is Batusi. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (RsYA8Gr5NTY)
 ON SCREEN: Title card: Batusi · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The defining upper-body mechanic of the Batusi is performed by formin
 NARRATION: The dancer holds the palms toward the face and draws the fingers horizontally past the eyes, moving away from the center of the face simultaneously so that the eyes pass roughly between the fingers.
 NARRATION: This motion is repeated in time with the music.
 NARRATION: Watch for Eye Swipe V-Sign.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (RsYA8Gr5NTY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo informal floor space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The Batusi requires no specific traditional attire, though its iconic origins place it within the context of 1960s discothèques and television studios, originally performed by Adam West in full Batman costume. In casual social settings, it is performed as an informal solo or party go-go dance.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'RsYA8Gr5NTY', 'checked_by_vision_model': True, 'title': 'Batman 1966 - The Batusi'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Pop-art comic bubbles, Retro 1960s discothèque lighting, Horizontal eye-level camera framing
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
+Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
 
 Sources (3): https://en.wikipedia.org/wiki/Batusi; https://www.wikidata.org/wiki/Q4873372; https://es.wikipedia.org/wiki/Batusi

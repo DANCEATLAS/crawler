@@ -1,0 +1,429 @@
+{
+ "slug": "chaiti-ghoda-nacha",
+ "name": "Chaiti Ghoda Nacha",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-17T19:40:13Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned Keot elder who emphasizes the spiritual weight of the horse frame.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Chaiti Ghoda Nacha",
+   "Chaiti Ghoda Nata",
+   "Chaiti ghoda dance",
+   "Baseli Puja dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Chaiti Ghoda Nacha",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Fishermen's Horse",
+     "This is Chaiti Ghoda Nacha. 10th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Chaiti Ghoda Nacha · India · 10th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance is rooted in the Kaibarta Gita, a 15th-century text by Achutananda Das which traces the worship of Goddess Baseli to the 10th century.",
+     "Mythologically, it commemorates a horse gifted by Lord Rama to the Keot fishermen.",
+     "In the 20th century, it served as a covert tool for freedom fighters to organize against British rule."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during the Baseli Puja, spanning from Chaitra Purnima to Baisakha Purnima.",
+     "It is a ritual of the fisherman community to honor their patron goddess and celebrate their mythological lineage.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Ghoda Nacha.webm (https://upload.wikimedia.org/wikipedia/commons/6/6d/Ghoda_Nacha.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "A dancer enters the hollow bamboo frame of the dummy horse, which is suspended by straps over the shoulders.",
+     "The movement mimics the gait of a horse, coordinated with the Rauta and Rautani who sing and dance alongside.",
+     "The performance involves rhythmic footwork synchronized with the dhola drum and mahuri melodies.",
+     "Watch for Ghoda Nacha."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Open village spaces; the horse moves through the crowd or in a central performance area."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The primary instruments are the dhola (a traditional drum) and the mahuri (a double-reed wind instrument).",
+     "The music consists of folk songs performed by the Rauta and Rautani, often involving call-and-response or narrative storytelling.",
+     "Listen for the Dhola, Mahuri.",
+     "The sound is characterized by the high-pitched, piercing melody of the mahuri wind instrument over the deep, resonant rhythmic patterns of the dhola drum, accompanied by vocal storytelling."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic beats provided by dhola"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The central prop is a bamboo horse frame dyed with red clay and fitted with a wooden head.",
+     "Dancers wear traditional Odia folk attire; the Rautani wears female clothing and ornaments.",
+     "The setting is typically an open village square or temple courtyard during the months of March to May."
+    ],
+    "on_screen": [
+     "Image gallery: 6 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Utsav Charan Das of Choudwar is the most prominent figure, awarded the Padma Shri in 2020 for sixty years of dedication to the dance and its use in social awareness campaigns.",
+     "While primarily associated with the Keot fishermen of coastal Odisha, specific accounts mention the Kujanga area as a site where the dance was historically used for political mobilization.",
+     "The dance belongs to the Shakta tradition of Hinduism, specifically the worship of Baseli, and is passed down through the Keot (Kaibarta) aboriginal fisherman tribes."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Chaiti Ghoda Nacha is sibling of Poikaal Kuthirai Aattam: Another Indian dummy horse dance tradition from Tamil Nadu.",
+     "Chaiti Ghoda Nacha is sibling of Kachhi Ghodi: A similar dummy horse folk dance from Rajasthan."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The horse frame is a ritual object worshipped for eight days before dancing begins; the wooden head is considered a sacred relic and is stored in a temple between seasons."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness the transformation of bamboo and clay into a sacred stallion as Odisha's fishermen dance to honor a goddess and a legendary gift from a king.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic beats provided by dhola",
+  "instruments": [
+   "Dhola",
+   "Mahuri"
+  ],
+  "vocal_style": "Folk songs performed by male leads (Rauta and Rautani)",
+  "musical_form": "Narrative folk songs",
+  "mood": [
+   "devotional",
+   "celebratory",
+   "rhythmic",
+   "vibrant"
+  ],
+  "sound_description": "The sound is characterized by the high-pitched, piercing melody of the mahuri wind instrument over the deep, resonant rhythmic patterns of the dhola drum, accompanied by vocal storytelling.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Chaiti Ghoda Nacha (India). Rhythm pattern: Rhythmic beats provided by dhola. Instruments: Dhola, Mahuri. Vocal style: Folk songs performed by male leads (Rauta and Rautani). Form: Narrative folk songs. Mood: devotional, celebratory, rhythmic, vibrant. It should sound like this: The sound is characterized by the high-pitched, piercing melody of the mahuri wind instrument over the deep, resonant rhythmic patterns of the dhola drum, accompanied by vocal storytelling. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The central prop is a bamboo horse frame dyed with red clay and fitted with a wooden head. Dancers wear traditional Odia folk attire; the Rautani wears female clothing and ornaments. The setting is typically an open village square or temple courtyard during the months of March to May.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGhoda_Nacha_1.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACostume_for_ghoda_nacha_at_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGhoda_nacha_wooden_toy_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ghoda_Nacha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ghoda_Nacha_1.jpg/1280px-Ghoda_Nacha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Prateek Pattanaik / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGhoda_Nacha_1.jpg",
+    "description": "Ghoda Nacha is a traditional folk dance of Odisha performed by the fisherfolk in honour of the horse-shaped goddess Baseli."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Costume_for_ghoda_nacha_at_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Costume_for_ghoda_nacha_at_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg/1280px-Costume_for_ghoda_nacha_at_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Subhashish Panigrahi / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACostume_for_ghoda_nacha_at_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg",
+    "description": "Costume for ghoda nacha at at Odisha Crafts Museum, Bhubaneswar, Odisha, India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ghoda_nacha_wooden_toy_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ghoda_nacha_wooden_toy_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg/1280px-Ghoda_nacha_wooden_toy_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Subhashish Panigrahi / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGhoda_nacha_wooden_toy_at_Odisha_Crafts_Museum%2C_Bhubaneswar%2C_Odisha%2C_India.jpg",
+    "description": "Ghoda nacha wooden toy at Odisha Crafts Museum, Bhubaneswar, Odisha, India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Exhibits_at_the_Odisha_Crafts_Museum%2C_Bhubaneswar_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Exhibits_at_the_Odisha_Crafts_Museum%2C_Bhubaneswar_14.jpg/1280px-Exhibits_at_the_Odisha_Crafts_Museum%2C_Bhubaneswar_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kritzolina / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AExhibits_at_the_Odisha_Crafts_Museum%2C_Bhubaneswar_14.jpg",
+    "description": "Costume for ghoda nacha at Odisha Crafts Museum, Bhubaneswar, Odisha, India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ghoda_Nacha_in_front_of_Ahinsha_Ratha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ghoda_Nacha_in_front_of_Ahinsha_Ratha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Government of Odisha / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGhoda_Nacha_in_front_of_Ahinsha_Ratha.jpg",
+    "description": "Tweet Text: \nବାଲିପାଟଣା ଓ ବନମାଳୀପୁରରେ #ଅହିଂସା_ରଥ'କୁ ବିପୁଳ ସ୍ୱାଗତ ସମ୍ବର୍ଦ୍ଧନା ପ୍ରାପ୍ତ ହୋଇଛି। ଏହି ଅବସରରେ ଓଡିଶୀ ନୃତ୍ଯ ଓ ଚିତ୍ତାକର୍ଷକ ଗୋଟିପୁଅ ନୃତ୍ୟ ପରିବେଷଣ କରାଯାଇଥିଲା। ବିଭିନ୍ନ ସ୍ଥାନରେ ଛାତ୍ରଛାତ୍ରୀଙ୍କ ସମେତ ଜନ ପ୍ରତିନିଧିଗଣ ଓ ସ୍ବୟଂ ସହାୟକ ଗୋଷ୍ଠୀର ସଦସ୍ଯମାନେ ପଦଯାତ୍ରାରେ ଅଂଶଗ୍ରହଣ କରିଥିଲେ।"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ghoda_Nacha_at_Tankapani_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ghoda_Nacha_at_Tankapani_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Government of Odisha / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGhoda_Nacha_at_Tankapani_Village.jpg",
+    "description": "Tweet Text: \nଭୁବନେଶ୍ବର ଉପକଣ୍ଠ ଟଙ୍କପାଣି ଗ୍ରାମରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ସ୍ମୃତିଚାରଣ କରୁଥିବା ମହାତ୍ମାଗାନ୍ଧୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି ନିକଟରେ #ଅହିଂସା_ରଥ'କୁ ଭବ୍ଯ ସମ୍ବର୍ଦ୍ଧନା ପ୍ରଦାନ କରାଯାଇଛି। ଏଥିରେ ଅଞ୍ଚଳର ଛାତ୍ରଛାତ୍ରୀମାନେ ଅଂଶଗ୍ରହଣ କରିଥିଲେ। ଅନୁରୂପ ଭାବରେ ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲା ବାଳକାଟିରେ ଅହିଂସା_ରଥକୁ ସ୍ବାଗତ କରାଯାଇଛି।"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Ghoda Nacha.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ghoda_Nacha.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Jnanaranjan sahu / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Ghoda Nacha in Village.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ghoda_Nacha_in_Village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Sangram Keshari Senapati / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Folk Dance of Orissa by Sangeet Kala Sansad",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-2733-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Red clay-stained bamboo",
+   "Hibiscus flower garlands",
+   "The silhouette of the wooden horse head against a full moon",
+   "The vibrant contrast of the Rautani's female attire"
+  ],
+  "costume_notes": "The central prop is a bamboo horse frame dyed with red clay and fitted with a wooden head. Dancers wear traditional Odia folk attire; the Rautani wears female clothing and ornaments. The setting is typically an open village square or temple courtyard during the months of March to May.",
+  "setting_notes": "The dance is performed during the Baseli Puja, spanning from Chaitra Purnima to Baisakha Purnima. It is a ritual of the fisherman community to honor their patron goddess and celebrate their mythological lineage.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "31 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 31,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
+   "1-2",
+   "3-4",
+   "sa'o'i",
+   "lualua tongi e",
+   "e a'a tongi e",
+   "stomp clap",
+   "chest chest leg leg clap",
+   "pull back and lean to the left"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Chaiti_ghoda",
+  "https://www.wikidata.org/wiki/Q15724049"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "0bbaff3e8bc3a71c181b78236500f12332ad5f4fe8f3b6aa26990233be64619b",
+ "hero_checked": null
+}

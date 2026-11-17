@@ -2,7 +2,7 @@
  "slug": "bulba",
  "name": "Bulba",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-15T17:19:10Z",
  "qc_score": 8.85,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Bulba. Late 1930s."
     ],
     "on_screen": [
-     "Hero video, first 10 seconds (YlhTXzoiRGI)",
+     "Hero video, first 10 seconds (ocFrDqy0zSE)",
      "Title card: Bulba · Belarus · Late 1930s"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Potato production pantomime."
     ],
     "on_screen": [
-     "Hero video full screen, 30–45 s (YlhTXzoiRGI)",
+     "Hero video full screen, 30–45 s (ocFrDqy0zSE)",
      "Captions name each signature move as it appears",
      "Formation: Concert stage ensemble formation"
     ],
@@ -266,7 +266,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -409,7 +409,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -552,7 +552,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -692,9 +692,9 @@
  },
  "visual_brief": {
   "hero_video": {
-   "youtube_id": "YlhTXzoiRGI",
-   "checked_by_vision_model": false,
-   "title": "Taras Bulba (1962) Ride of the cossacks  HD in Stereo"
+   "youtube_id": "ocFrDqy0zSE",
+   "checked_by_vision_model": true,
+   "title": "Gopak de Taras Bulba - Denis Medvedev"
   },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
@@ -730,35 +730,39 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the stage-contemporary family studied",
-  "videos_studied": 4,
+  "source": "8 tutorial(s) of the stage-contemporary family studied",
+  "videos_studied": 8,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
    "keep your feet pointed",
    "use your core",
    "lean your body back",
-   "cross over your partner",
-   "trade places with one another",
-   "cross body lead",
-   "lean down",
-   "knees up",
-   "legs straighten",
-   "engage your core",
-   "feet inside silks",
-   "knees to chest"
+   "tight core",
+   "strong arms",
+   "push to the ceiling",
+   "split your legs",
+   "be completely present",
+   "share weight",
+   "reach into the negative space",
+   "pick up one foot",
+   "weight is going to transfer"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
-   "breakdown",
    "slow_practice",
-   "full_demo"
+   "context",
+   "breakdown",
+   "full_demo",
+   "layering",
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -767,7 +771,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -785,6 +788,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "37c58a9ebc2a67aafb90e413091600c4562bbd706a88541222008faa6d6e955d",
- "hero_checked": null
+ "input_fingerprint": "b8326db0a29a84dd8a24f3fe0814273c5ce7ab3c810a69339a9c2434fa29101b",
+ "hero_checked": "pass"
 }

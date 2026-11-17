@@ -1,0 +1,856 @@
+{
+ "slug": "bygdedans",
+ "name": "Bygdedans",
+ "pack_version": "e2",
+ "built_at": "2026-11-17T21:36:21Z",
+ "researched_at": "2026-11-17T19:42:10Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local 'spelemann' (fiddler) or veteran dancer who emphasizes the 'feeling' of the local valley's rhythm over academic counts.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Bygdedans",
+   "Village dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Bygdedans",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Pulse of the Hidden Valleys",
+     "This is Bygdedans. Ancient/Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Bygdedans · Norway · Ancient/Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Bygdedans is identified as the oldest and most distinctive of Norwegian folk dances, surviving primarily in isolated farming communities.",
+     "While coastal and urban areas shifted toward newer styles like Gammaldans following the introduction of the accordion, these village dances maintained their ancient musical roots."
+    ],
+    "on_screen": [
+     "Map: Norway · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Bygdedans serves as a regional marker of identity.",
+     "It represents a traditional form of social interaction that predates the more standardized European partner dances that arrived later.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Village Dance.webm (https://upload.wikimedia.org/wikipedia/commons/c/cd/Village_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance typically follows a three-part sequence: the figuring part, the free dancing part (lausdans), and the closed hold part (samdans).",
+     "The two main forms are the gangar (walking dance in 2/4 or 3/8) and the springar (running dance in 3/4), which vary in intensity and tempo.",
+     "Watch for Lausdans, Samdans."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couples moving through figuring, free dancing, and closed hold."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The Hardanger fiddle is the primary instrument for Bygdedans.",
+     "The music is considered among the oldest living traditions in Norway.",
+     "Listen for the Hardanger fiddle.",
+     "The pulse is 2/4, 3/8, or 3/4.",
+     "The sound is dominated by the Hardanger fiddle's sympathetic strings, creating a drone-like resonance. The rhythm is characterized by asymmetrical pulses that vary by valley, creating a driving but non-standard 3/4 or 2/4 feel."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Asymmetrical 3/4 (e.g., longer-long-short or short-longer-long)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally performed in farming communities, the dance is historically linked to the social life of rural Norway.",
+     "While specific costumes are not detailed in the source, the dance is geographically tied to the regions where the Hardanger fiddle is prevalent."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Significant variants include the Telemark and Setesdal gangar, the Valdres springar, and the western 'rull' or 'rudl'.",
+     "Bygdedans is the ancestor to or contemporary of several other Norwegian forms."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Bygdedans is parent of Gangar: One of the two basic forms of Bygdedans.",
+     "Bygdedans is parent of Springar: One of the two basic forms of Bygdedans.",
+     "Bygdedans is child of Halling: An athletic, mostly male dance seen as an heir to the gangar.",
+     "Bygdedans is influence of Gammaldans: The newer popular dance style that replaced Bygdedans in urban areas."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Walk in a 2/4 or 3/8 rhythm for the Gangar",
+     "Execute the figuring sequence with a partner",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Journey into the isolated heart of Norway to uncover the asymmetrical rhythms of the Bygdedans, where every valley dances to a different beat of the Hardanger fiddle.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic Gangar walk",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic Gangar walk.",
+      "Level: beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A local 'spelemann' (fiddler) or veteran dancer who emphasizes the 'feeling' of the local valley's rhythm over academic counts."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Used in figuring and closed hold (samdans)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4, 3/8, or 3/4.",
+      "Rhythm pattern: Asymmetrical 3/4 (e.g., longer-long-short or short-longer-long).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Walk in a 2/4 or 3/8 rhythm for the Gangar",
+      "Step 2: Execute the figuring sequence with a partner",
+      "Footwork from the sources: Walking steps for gangar; running steps for springar; regional variations in step duration.",
+      "Drill: Walk to a 2/4 beat with a heavy downbeat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Transition into free dancing (lausdans) where partners may separate",
+      "Step 4: Enter the closed hold (samdans) for the final sequence",
+      "Drill: Practice the walking step in a circle"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintain a steady pace without partner contact"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid applying a standard, even 3/4 waltz beat to the asymmetrical Springar rhythms."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Focus on the rhythmic hand-clapping of the asymmetrical 3/4 pulses (Telemark vs Valdres styles). · For children: A 'follow the leader' game for the figuring part, transitioning to 'freeze dance' during the lausdans."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on the rhythmic hand-clapping of the asymmetrical 3/4 pulses (Telemark vs Valdres styles).",
+      "For children: A 'follow the leader' game for the figuring part, transitioning to 'freeze dance' during the lausdans."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic Gangar walk.",
+      "Bygdedans serves as a regional marker of identity.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Understand regional Springar pulses",
+   "level": "intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Understand regional Springar pulses.",
+      "Level: intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A local 'spelemann' (fiddler) or veteran dancer who emphasizes the 'feeling' of the local valley's rhythm over academic counts."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Used in figuring and closed hold (samdans)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4, 3/8, or 3/4.",
+      "Rhythm pattern: Asymmetrical 3/4 (e.g., longer-long-short or short-longer-long).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Adjust step duration to match regional fiddle pulses (e.g., long-long-short)",
+      "Drill: Clap the Telemark 'longer-long-short' rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Lausdans: A free dancing part of the sequence where dancers perform independently.",
+      "Samdans: The final part of the dance performed in a closed partner hold.",
+      "Drill: Shift weight according to the asymmetrical 3/4 pulse"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice the transition from figuring to closed hold"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid applying a standard, even 3/4 waltz beat to the asymmetrical Springar rhythms."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Focus on the rhythmic hand-clapping of the asymmetrical 3/4 pulses (Telemark vs Valdres styles). · For children: A 'follow the leader' game for the figuring part, transitioning to 'freeze dance' during the lausdans."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on the rhythmic hand-clapping of the asymmetrical 3/4 pulses (Telemark vs Valdres styles).",
+      "For children: A 'follow the leader' game for the figuring part, transitioning to 'freeze dance' during the lausdans."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Couples moving through figuring, free dancing, and closed hold."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand regional Springar pulses.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the full Bygdedans sequence",
+   "level": "advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the full Bygdedans sequence.",
+      "Level: advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A local 'spelemann' (fiddler) or veteran dancer who emphasizes the 'feeling' of the local valley's rhythm over academic counts."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Used in figuring and closed hold (samdans)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4, 3/8, or 3/4.",
+      "Rhythm pattern: Asymmetrical 3/4 (e.g., longer-long-short or short-longer-long).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Enter the closed hold (samdans) for the final sequence",
+      "Step 2: Adjust step duration to match regional fiddle pulses (e.g., long-long-short)",
+      "Drill: Perform the lausdans with individual flourishes"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Lausdans: A free dancing part of the sequence where dancers perform independently.",
+      "Samdans: The final part of the dance performed in a closed partner hold.",
+      "Drill: Maintain the regional lilt during the samdans"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate complex figuring patterns with a partner"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid applying a standard, even 3/4 waltz beat to the asymmetrical Springar rhythms."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Focus on the rhythmic hand-clapping of the asymmetrical 3/4 pulses (Telemark vs Valdres styles). · For children: A 'follow the leader' game for the figuring part, transitioning to 'freeze dance' during the lausdans."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on the rhythmic hand-clapping of the asymmetrical 3/4 pulses (Telemark vs Valdres styles).",
+      "For children: A 'follow the leader' game for the figuring part, transitioning to 'freeze dance' during the lausdans."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Couples moving through figuring, free dancing, and closed hold."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the full Bygdedans sequence.",
+      "Bygdedans is the ancestor to or contemporary of several other Norwegian forms.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4, 3/8, or 3/4",
+  "rhythm_pattern": "Asymmetrical 3/4 (e.g., longer-long-short or short-longer-long)",
+  "instruments": [
+   "Hardanger fiddle"
+  ],
+  "vocal_style": null,
+  "musical_form": "Three-part structure corresponding to dance phases",
+  "mood": [
+   "ancient",
+   "rhythmic",
+   "intense",
+   "regional"
+  ],
+  "sound_description": "The sound is dominated by the Hardanger fiddle's sympathetic strings, creating a drone-like resonance. The rhythm is characterized by asymmetrical pulses that vary by valley, creating a driving but non-standard 3/4 or 2/4 feel.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Bygdedans (Norway). Meter 2/4, 3/8, or 3/4. Rhythm pattern: Asymmetrical 3/4 (e.g., longer-long-short or short-longer-long). Instruments: Hardanger fiddle. Form: Three-part structure corresponding to dance phases. Mood: ancient, rhythmic, intense, regional. It should sound like this: The sound is dominated by the Hardanger fiddle's sympathetic strings, creating a drone-like resonance. The rhythm is characterized by asymmetrical pulses that vary by valley, creating a driving but non-standard 3/4 or 2/4 feel. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Traditionally performed in farming communities, the dance is historically linked to the social life of rural Norway. While specific costumes are not detailed in the source, the dance is geographically tied to the regions where the Hardanger fiddle is prevalent.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Village Dance.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Village_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 2.0",
+    "attribution": "https://www.flickr.com/photos/gails_pictures/ / Wikimedia Commons / CC BY 2.0"
+   },
+   {
+    "title": "MY BLIND MOTHER'S DANCE MOVES 2 - 2017 Latest Nigerian Movies African Nollywood Full Movies",
+    "url": "https://archive.org/details/youtube-O5omZXO1Zxg",
+    "year": 2017,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "MY BLIND MOTHER'S DANCE MOVES - 2017 Latest Nigerian Movies African Nollywood Full Movies",
+    "url": "https://archive.org/details/youtube-h_YRRp3iAjI",
+    "year": 2017,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Arunachal Pradesh Tour (Vol. VI)",
+    "url": "https://archive.org/details/dni.ncaa.IGRMS-MINI_DV_50-MDV",
+    "year": 2000,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "A Day In Our Village-Dance Party",
+    "url": "https://archive.org/details/vopil-A_Day_In_Our_Village-Dance_Party",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Village Dance & Social Club, July 28, 2026",
+    "url": "https://archive.org/details/lwvtca-Village_Dance_Social_Club_July_28_2026",
+    "year": 2026,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Village Dance",
+    "url": "https://archive.org/details/youtube-t_CBLORruV0",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "The ornate carvings of a Hardanger fiddle",
+   "Dust rising from a wooden dance floor",
+   "The contrast between isolated mountain farms and modern Norwegian life",
+   "Leather-soled shoes striking wood"
+  ],
+  "costume_notes": "Traditionally performed in farming communities, the dance is historically linked to the social life of rural Norway. While specific costumes are not detailed in the source, the dance is geographically tied to the regions where the Hardanger fiddle is prevalent.",
+  "setting_notes": "Bygdedans serves as a regional marker of identity. It represents a traditional form of social interaction that predates the more standardized European partner dances that arrived later.",
+  "map": {
+   "country": "Norway",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "31 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 31,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
+   "1-2",
+   "3-4",
+   "sa'o'i",
+   "lualua tongi e",
+   "e a'a tongi e",
+   "stomp clap",
+   "chest chest leg leg clap",
+   "pull back and lean to the left"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bygdedans",
+  "https://www.wikidata.org/wiki/Q3432001"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "27a34ae804a5ee7a9163f9402155fcd584dd224a8c74feedf2331cb2c5af5848",
+ "hero_checked": null
+}

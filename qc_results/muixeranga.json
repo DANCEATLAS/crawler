@@ -1,10 +1,10 @@
 {
  "slug": "muixeranga",
- "qc_at": "2026-11-16T21:54:13Z",
+ "qc_at": "2026-11-17T20:52:11Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.7,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=True cues=['ritual', 'ancestor', 'religious']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Moixiganga",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An excellent, well-researched profile. The distinction between the Muixeranga and competitive castells is clearly articulated, and the sacred nature of the Algemesí festival is handled with appropriate care."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "no_judge",
+  "judge_score=9.7",
   "sacred"
  ],
  "citation": {

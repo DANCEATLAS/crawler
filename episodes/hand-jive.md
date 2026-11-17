@@ -1,86 +1,76 @@
 # Hand Jive — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.65 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history
+**Instructor:** Energetic, rhythm-focused dance historian.
 **Say it:** Hand Jive
 
 ## Episode 1 · Meet Hand Jive · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Hand Jive: The Dance Born in a Crowded Coffee Bar
+NARRATION: The Soho Solution: Dancing Without Space
 NARRATION: This is Hand Jive. 1950s.
 ON SCREEN: Hero video, first 10 seconds (QvOuTInrue0)
 ON SCREEN: Title card: Hand Jive · United Kingdom · 1950s
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The hand jive was invented in 1957 in Soho, London, at The Cat's Whisker coffee bar, where overcrowding prevented foot dancing.
-NARRATION: Leon Bell is credited with its invention.
-NARRATION: Filmmaker Ken Russell documented teenagers performing the dance in the crowded basement.
+NARRATION: The dance was invented in 1957 at The Cat's Whisker coffee bar in Soho, London, by Leon Bell.
+NARRATION: It was documented by filmmaker Ken Russell, who observed teenagers dancing with their hands due to the lack of space for footwork.
 ON SCREEN: Map: United Kingdom · Europe
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The hand jive was a practical dance created for crowded social spaces where traditional foot dancing was impossible.
-NARRATION: It became a symbol of youthful creativity and social interaction in the 1950s, reflecting the energy of rhythm and blues culture.
-NARRATION: It also served as a percussive accompaniment to music, turning hand gestures into a form of dance expression.
+NARRATION: A social dance for teenagers in the 1950s, later featured in Broadway musicals, films, and theme park performances as a choreographed group activity.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: Ding Dong Daddy Hand Jive (https://archive.org/details/ding-dong-daddy-hand-jive)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: The hand jive is performed seated or standing, often with a slightly crouched posture to bring thighs and shoulders closer for easier hand movement.
-NARRATION: The basic sequence includes slapping the palms twice on the thighs, crossing palms over and under each other, pounding fists twice each, touching elbows with fingers one at a time, and hitchhiking gestures twice on each side.
-NARRATION: Movements are synchronized to the beat, typically steady and syncopated, with no footwork involved.
-NARRATION: Watch for Thigh Slap, Wrist Cross, Fist Pound.
+NARRATION: The dance consists of a sequence: two thigh slaps, crossing palms over and under, two fist pounds on top of each other, touching elbows, and two hitchhike gestures over each shoulder.
+NARRATION: Watch for Hitchhike.
 ON SCREEN: Hero video full screen, 30–45 s (QvOuTInrue0)
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Performed seated or standing in confined spaces, often facing a partner or in groups
+ON SCREEN: Formation: Stationary; performed in tight spaces.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Hand jive is danced primarily to rhythm and blues music of the 1950s, especially songs featuring the Bo Diddley beat—a syncopated rhythm with Afro-Latin roots popularized by Bo Diddley.
-NARRATION: Instruments commonly include electric guitar, drums, bass, and vocals.
-NARRATION: Listen for the electric guitar, drums, bass, vocals.
+NARRATION: The dance is performed to rhythm and blues, specifically tracks featuring the Bo Diddley beat, a syncopated rhythm of Afro-Latin origin.
+NARRATION: Listen for the Drums, Guitar, Bass.
 NARRATION: The pulse is 4/4.
-NARRATION: The music features a steady, syncopated rhythm with a distinctive Bo Diddley beat, combining electric guitar riffs, driving drums, and soulful vocals that create a percussive backdrop for the hand movements.
+NARRATION: A driving, syncopated rhythm characterized by the Bo Diddley beat, which provides a clear, percussive pulse for hand movements.
 ON SCREEN: Instrument names on screen as each is mentioned
-ON SCREEN: Listen later: Willie and the Hand Jive — Johnny Otis; Hand Jive — Betty Smith Group; Hand Jive — Miles Davis
-ON SCREEN: Waveform or rhythm-pattern graphic: Syncopated Bo Diddley beat with steady percussive pulse
+ON SCREEN: Listen later: Willie and the Hand Jive — Johnny Otis; Born to Hand Jive — Sha Na Na; Willie And The Hand Jive — The Johnny Otis Show (2012)
+ON SCREEN: Waveform or rhythm-pattern graphic: 
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited.
-NARRATION: Performers typically wore casual 1950s youth attire suitable for social gatherings.
-NARRATION: The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork.
+NARRATION: Originally performed in crowded coffee bars and later at sock hops and school gymnasiums where hard-soled shoes were restricted.
 ON SCREEN: Images — MISSING
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Leon Bell is credited with inventing the hand jive at The Cat's Whisker coffee bar.
-NARRATION: Filmmaker Ken Russell documented the dance's early days.
-NARRATION: The hand jive is related to African-American rhythm and blues culture and the Bo Diddley beat, which has Afro-Latin origins.
+NARRATION: Leon Bell (inventor), Johnny Otis (popularizer), Ken Russell (documentarian), Patricia Birch (choreographer).
+NARRATION: Related to the Juba dance (hambone) and manualism.
 ON SCREEN: Names on screen as they are spoken
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Hand Jive is shares music of Bo Diddley beat: The hand jive is danced to songs featuring the Bo Diddley beat, a syncopated rhythm with Afro-Latin origins.
-NARRATION: Hand Jive is shares music of Juba dance: Both dances use hand clapping and percussive hand movements as rhythmic accompaniment.
-NARRATION: Hand Jive is influence of Willie and the Hand Jive: Johnny Otis's 1958 song popularized the hand jive dance in the United States.
+NARRATION: Hand Jive is sibling of Juba dance: Shares percussive body-slapping origins.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
+NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Slap palms twice on thighs
-NARRATION: Cross palms over and under each other
+NARRATION: Before we go, one step. Crouch slightly and slap thighs twice.
+NARRATION: Cross palms over and under.
 NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -88,30 +78,29 @@ ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover how cramped 1957 Soho teens invented a hand-only dance that became a global rhythm and blues sensation.
+NARRATION: Discover how 1950s teenagers in a crowded London coffee bar turned a lack of space into a global dance craze.
 NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — Learn and perform the basic hand jive sequence slowly · 13 min
+## Chapter 1 · First steps — Master the basic hand sequence. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn and perform the basic hand jive sequence slowly.
+NARRATION: Chapter 1 — First steps. Today: Master the basic hand sequence..
 NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history
+NARRATION: Your instructor: Energetic, rhythm-focused dance historian.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Slightly crouched or bent knees to bring thighs and shoulders closer
-NARRATION: Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures
-NARRATION: Minimal torso movement; focus on hand and arm articulation
+NARRATION: Slightly hunched over, bent knee position.
+NARRATION: Percussive hand movements including slaps, claps, and fist pounding.
+NARRATION: Minimal movement; torso remains relatively stable.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
-NARRATION: Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,19 +108,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Slap palms twice on thighs
-NARRATION: Step 2: Cross palms over and under each other
-NARRATION: Footwork from the sources: No footwork; stationary dance
-NARRATION: Drill: Practice thigh slaps in time with music
+NARRATION: Step 1: Crouch slightly and slap thighs twice.
+NARRATION: Step 2: Cross palms over and under.
+NARRATION: Footwork from the sources: Stationary; optional jazz square.
+NARRATION: Drill: Thigh slap rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Pound fists twice each on top of each other
-NARRATION: Step 4: Touch elbows with fingers one at a time
-NARRATION: Drill: Cross and uncross wrists slowly
+NARRATION: Step 3: Pound fists on top of each other twice.
+NARRATION: Step 4: Touch elbows one at a time.
+NARRATION: Drill: Wrist crossing coordination
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -140,17 +129,17 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Pound fists twice each in rhythm
+NARRATION: Drill: Hitchhike gesture
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing
-ON SCREEN: Side-by-side: source-supported correction
-ON SCREEN: Options card: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences.
+ON SCREEN: Correction withheld until evidence is available
+ON SCREEN: Options card: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle.
 MUSIC: silence
-OPTIONS: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences. (options are derived teaching suggestions, not facts from the sources)
+OPTIONS: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle. (options are derived teaching suggestions, not facts from the sources)
+NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
@@ -160,32 +149,31 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Learn and perform the basic hand jive sequence slowly.
-NARRATION: The hand jive was a practical dance created for crowded social spaces where traditional foot dancing was impossible.
+NARRATION: You can now: Master the basic hand sequence..
+NARRATION: A social dance for teenagers in the 1950s, later featured in Broadway musicals, films, and theme park performances as a choreographed group activity.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 2 · Building the dance — Increase speed and synchronize moves to Bo Diddley beat · 13 min
+## Chapter 2 · Building the dance — the building the dance of Hand Jive · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Increase speed and synchronize moves to Bo Diddley beat.
-NARRATION: Level: Intermediate. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history
+NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Hand Jive.
+NARRATION: Level: intermediate. Difficulty of the dance overall: beginner.
+NARRATION: Your instructor: Energetic, rhythm-focused dance historian.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Slightly crouched or bent knees to bring thighs and shoulders closer
-NARRATION: Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures
-NARRATION: Minimal torso movement; focus on hand and arm articulation
+NARRATION: Slightly hunched over, bent knee position.
+NARRATION: Percussive hand movements including slaps, claps, and fist pounding.
+NARRATION: Minimal movement; torso remains relatively stable.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
-NARRATION: Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -193,17 +181,14 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Perform hitchhike gestures twice on each side
-NARRATION: Drill: Perform full sequence at moderate tempo
+NARRATION: Step 1: Hitchhike over each shoulder twice.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Thigh Slap: Slapping palms twice on thighs
-NARRATION: Wrist Cross: Crossing palms over and under each other
-NARRATION: Drill: Maintain steady rhythm without rushing
+NARRATION: Hitchhike: Making fists with thumbs extended and pointing them over the shoulder.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -213,52 +198,50 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Add slight torso sway for style
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing
-ON SCREEN: Side-by-side: source-supported correction
-ON SCREEN: Options card: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences.
+ON SCREEN: Correction withheld until evidence is available
+ON SCREEN: Options card: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle.
 MUSIC: silence
-OPTIONS: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences. (options are derived teaching suggestions, not facts from the sources)
+OPTIONS: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle. (options are derived teaching suggestions, not facts from the sources)
+NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Performed seated or standing in confined spaces, often facing a partner or in groups
+NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary; performed in tight spaces.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Increase speed and synchronize moves to Bo Diddley beat.
-NARRATION: Leon Bell is credited with inventing the hand jive at The Cat's Whisker coffee bar.
+NARRATION: You can now: the building the dance of Hand Jive.
+NARRATION: Leon Bell (inventor), Johnny Otis (popularizer), Ken Russell (documentarian), Patricia Birch (choreographer).
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 3 · Dancing it fully — Integrate hand jive into group choreography · 13 min
+## Chapter 3 · Dancing it fully — the dancing it fully of Hand Jive · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Integrate hand jive into group choreography.
-NARRATION: Level: Advanced. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Hand Jive.
+NARRATION: Level: advanced. Difficulty of the dance overall: beginner.
+NARRATION: Your instructor: Energetic, rhythm-focused dance historian.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Slightly crouched or bent knees to bring thighs and shoulders closer
-NARRATION: Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures
-NARRATION: Minimal torso movement; focus on hand and arm articulation
+NARRATION: Slightly hunched over, bent knee position.
+NARRATION: Percussive hand movements including slaps, claps, and fist pounding.
+NARRATION: Minimal movement; torso remains relatively stable.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
-NARRATION: Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -266,19 +249,15 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Touch elbows with fingers one at a time
-NARRATION: Step 2: Perform hitchhike gestures twice on each side
-NARRATION: Drill: Coordinate with multiple dancers in formation
+NARRATION: Step 1: Touch elbows one at a time.
+NARRATION: Step 2: Hitchhike over each shoulder twice.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Fist Pound: Pounding fists twice each on top of each other
-NARRATION: Elbow Touch: Touching elbows with fingers one at a time
-NARRATION: Hitchhike: Making fists with thumbs out, pointing over shoulder twice each side
-NARRATION: Drill: Add improvisational hand claps and snaps
+NARRATION: Hitchhike: Making fists with thumbs extended and pointing them over the shoulder.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -288,28 +267,27 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Sync hand jive with live rhythm and blues music
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing
-ON SCREEN: Side-by-side: source-supported correction
-ON SCREEN: Options card: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences.
+ON SCREEN: Correction withheld until evidence is available
+ON SCREEN: Options card: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle.
 MUSIC: silence
-OPTIONS: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences. (options are derived teaching suggestions, not facts from the sources)
+OPTIONS: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle. (options are derived teaching suggestions, not facts from the sources)
+NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Performed seated or standing in confined spaces, often facing a partner or in groups
+NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary; performed in tight spaces.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Integrate hand jive into group choreography.
-NARRATION: The hand jive is related to African-American rhythm and blues culture and the Bo Diddley beat, which has Afro-Latin origins.
+NARRATION: You can now: the dancing it fully of Hand Jive.
+NARRATION: Related to the Juba dance (hambone) and manualism.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -317,32 +295,32 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Hand Jive (United Kingdom). Meter 4/4. Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse. Instruments: electric guitar, drums, bass, vocals. Vocal style: Rhythm and blues style vocals. Form: Verse-chorus typical of 1950s R&B. Mood: energetic, percussive, syncopated, playful. It should sound like this: The music features a steady, syncopated rhythm with a distinctive Bo Diddley beat, combining electric guitar riffs, driving drums, and soulful vocals that create a percussive backdrop for the hand movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Hand Jive (United Kingdom). Meter 4/4. Instruments: Drums, Guitar, Bass. Vocal style: Rhythm and blues vocal delivery. Form: 12-bar blues or standard pop song structure. Mood: Jolly, Upbeat, Funky. It should sound like this: A driving, syncopated rhythm characterized by the Bo Diddley beat, which provides a clear, percussive pulse for hand movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
-Listen before composing (never copy): Willie and the Hand Jive — Johnny Otis; Hand Jive — Betty Smith Group; Hand Jive — Miles Davis; Willie And The Hand Jive — The Johnny Otis Show (2012)
+Listen before composing (never copy): Willie and the Hand Jive — Johnny Otis; Born to Hand Jive — Sha Na Na; Willie And The Hand Jive — The Johnny Otis Show (2012); Nefertiti — Miles Davis (1968)
 
 Rules: Original composition only — no sampling, no melody of any existing recording, no lyrics from any song. Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom. Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe. Label every generated track with the tool, the date and this brief, so provenance is always clear.
 
 ## Visual brief
 
-Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited. Performers typically wore casual 1950s youth attire suitable for social gatherings. The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork.
+Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'QvOuTInrue0', 'checked_by_vision_model': True, 'title': 'Johnny Otis - Willie And The Hand Jive (1958)'}
 Images: 0 licensed
 Footage: Ding Dong Daddy Hand Jive — https://archive.org/details/ding-dong-daddy-hand-jive; Ding Dong Daddy — https://archive.org/details/ding-dong-daddy_202101
-Motifs: Close-ups of hands in motion, Crowded coffee bar interiors, 1950s youth fashion, Musical instruments of R&B bands, Film clips from Grease and Hairspray
-Costume notes: The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited. Performers typically wore casual 1950s youth attire suitable for social gatherings. The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork.
+Motifs: 1950s coffee bar aesthetic, Close-ups of hand movements, Archival footage of teenagers
+Costume notes: Originally performed in crowded coffee bars and later at sock hops and school gymnasiums where hard-soled shoes were restricted.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (4): https://en.wikipedia.org/wiki/Hand_jive; https://www.wikidata.org/wiki/Q2392517; https://fr.wikipedia.org/wiki/Hand_jive; https://history-of-rock.com/dancing_in_the_fifties.htm

@@ -1,8 +1,8 @@
 # Chari Dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable cultural historian or a member of the Gurjar community.
@@ -69,7 +69,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Balancing the chari pot on the head
 NARRATION: Graceful limb movements
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -98,7 +98,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -109,15 +109,17 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Balancing the chari pot on the head
 NARRATION: Step 2: Graceful limb movements
 NARRATION: Drill: Walking with a balanced object on the head
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Deep knee swirls
 NARRATION: Drill: Maintaining upright posture
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -136,7 +138,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and upper body swirls while seated securely. · For children: A balancing game using a safe, non-flammable prop to mimic the Chari. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -167,7 +169,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -177,9 +179,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Balancing the chari pot on the head
 NARRATION: Step 2: Graceful limb movements
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Deep knee swirls
@@ -187,6 +190,7 @@ NARRATION: Chari Balancing: Balancing a lit earthenware or brass pot on the head
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -204,7 +208,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and upper body swirls while seated securely. · For children: A balancing game using a safe, non-flammable prop to mimic the Chari. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Group dance, moving quietly around the floor.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -234,7 +238,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -244,15 +248,17 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Graceful limb movements
 NARRATION: Step 2: Deep knee swirls
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Chari Balancing: Balancing a lit earthenware or brass pot on the head without using hands.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -270,7 +276,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and upper body swirls while seated securely. · For children: A balancing game using a safe, non-flammable prop to mimic the Chari. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Group dance, moving quietly around the floor.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -296,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear traditional Rajasthani golden ornaments including the Hansli, Timniya, Mogri, Punchi, Bangdi, Gajra, Armlets, Karli, Kanka, and Navr.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '7yhQfDX1Djk', 'checked_by_vision_model': False, 'title': 'PANIHARI - CHARI Fire Dance of Rajasthan -  by Aurora in PUSHKAR'}
+Hero video: {'youtube_id': '7yhQfDX1Djk', 'checked_by_vision_model': True, 'title': 'PANIHARI - CHARI Fire Dance of Rajasthan -  by Aurora in PUSHKAR'}
 Images: 3 licensed — Arian Zwegers / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); INGENUEN / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Prakashveer1947 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Chari Folk Dance of Rajasthan.webm — https://upload.wikimedia.org/wikipedia/commons/0/0d/Chari_Folk_Dance_of_Rajasthan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.ICCR-1570-VHS; File:Meet Artemis Team Member Raja Chari.webm — https://upload.wikimedia.org/wikipedia/commons/d/d9/Meet_Artemis_Team_Member_Raja_Chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danse moyen chari.webm — https://upload.wikimedia.org/wikipedia/commons/4/4f/Danse_moyen_chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Raja Chari-NASA 2017 Astronaut Candidate.webm — https://upload.wikimedia.org/wikipedia/commons/7/70/Raja_Chari-NASA_2017_Astronaut_Candidate.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:NHQ 2020 Artemis Astro RAJA CHARI YOUTUBE (751927043383).webm — https://upload.wikimedia.org/wikipedia/commons/d/d1/NHQ_2020_Artemis_Astro_RAJA_CHARI_YOUTUBE_%28751927043383%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A Team Hero Slide Chari 2020-12-03 LR (757013085436).webm — https://upload.wikimedia.org/wikipedia/commons/d/dc/A_Team_Hero_Slide_Chari_2020-12-03_LR_%28757013085436%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.RS-92-VHS
 Motifs: Flaming pots in the dark, Golden Rajasthani jewelry, Desert landscapes
@@ -306,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
+Cues: 1-2-3-4; 1-2; 3-4
 
 Sources (2): https://en.wikipedia.org/wiki/Chari_Dance; https://www.wikidata.org/wiki/Q12426073

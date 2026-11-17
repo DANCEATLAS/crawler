@@ -1,6 +1,6 @@
 # Israeli folk dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-17 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
 
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dancing the Pioneers' Dream
 NARRATION: This is Israeli folk dance. 20th century.
-ON SCREEN: Hero video, first 10 seconds (dU3YgNln8ho)
+ON SCREEN: Hero video, first 10 seconds (qu-LaDQtwMg)
 ON SCREEN: Title card: Israeli folk dance · Israel · 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dances feature fixed choreographies matched to specific musical piece
 NARRATION: Formations include circles, couples, trios, short lines, and group line formations.
 NARRATION: Movement is highly varied, incorporating the Tza'ad Temani, Horah, and dabke.
 NARRATION: Watch for Tza'ad Temani, Horah.
-ON SCREEN: Hero video full screen, 30–45 s (dU3YgNln8ho)
+ON SCREEN: Hero video full screen, 30–45 s (qu-LaDQtwMg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: circle, couples, trios, or short lines, as well as group/line formation
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -302,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dances are performed publicly in towns and cities, notably on beachfronts and promenades (tayelets), as well as at kibbutzim, festivals, and communal gatherings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'dU3YgNln8ho', 'checked_by_vision_model': True, 'title': '5 Iconic Jewish Dances From Around The World'}
+Hero video: {'youtube_id': 'qu-LaDQtwMg', 'checked_by_vision_model': True, 'title': 'Israeli folk dance with Israeli Dance Institute (Fitness, Faith & Feeling Good)'}
 Images: 0 licensed
 Footage: Ensemble ADAR-KRAMIM — https://archive.org/details/EnsembleAdar-kramim_958; Jewish Hora Nirkoda Sixth Grade — https://archive.org/details/jewish-hora-nirkoda-sixth-grade; 5 Iconic Jewish Dances From Around The World — https://archive.org/details/youtube-dU3YgNln8ho
 Motifs: Dancers in a tight circle with arms over shoulders, Kibbutz gatherings and beachfront tayelets, Festival crowds in Galilee
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
+Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
+Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
 
 Sources (2): https://en.wikipedia.org/wiki/Israeli_folk_dance; https://www.wikidata.org/wiki/Q2911039

@@ -2,7 +2,7 @@
  "slug": "branyo",
  "name": "Branyo",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-17T21:36:21Z",
  "researched_at": "2026-11-16T19:43:54Z",
  "qc_score": 9.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Branyo. 16th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (_l3bArOHHIM)",
      "Title card: Branyo · Malaysia · 16th century to present"
     ],
     "music": "theme (30 s)"
@@ -104,7 +104,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (_l3bArOHHIM)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -688,7 +688,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "_l3bArOHHIM",
+   "checked_by_vision_model": false,
+   "title": "Warisan Kita: Portuguese Music & Dance of Malacca"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -722,8 +726,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "24 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 24,
+  "source": "31 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 31,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -732,25 +736,24 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "1-2-3-4",
    "step together step",
    "brush the foot",
    "arms open close in a circle",
-   "pull back and lean to the left",
-   "close in open on and",
-   "milk down knees are bent",
-   "cross with our left leg",
-   "rock step",
-   "side close side",
-   "triple step",
-   "rock step triple step triple step",
-   "open your right leg"
+   "1-2",
+   "3-4",
+   "sa'o'i",
+   "lualua tongi e",
+   "e a'a tongi e",
+   "stomp clap",
+   "chest chest leg leg clap",
+   "pull back and lean to the left"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "count_in",
-   "breakdown",
    "warmup",
+   "breakdown",
    "full_demo",
    "slow_practice",
    "music_practice",
@@ -763,7 +766,7 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -782,6 +785,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "bf52bb6756e6f22dc7d4a670f7e32ff170d487f9e8b7d584153bb817c81cdcc2",
- "hero_checked": null
+ "input_fingerprint": "b66ef42b30d4fdcb36707d2b210bfde08c88fd5045b7edd8b82fe6b623120287",
+ "hero_checked": "fail"
 }

@@ -70,7 +70,8 @@
     "calm",
     "patient",
     "direct",
-    "warm"
+    "warm",
+    "precise"
    ],
    "beliefs": [
     {
@@ -79,10 +80,32 @@
     },
     {
      "t": "5:17",
-     "belief": "repeating steps over and over is key until you get comfortable"
+     "belief": "Learning takes repetition, and practicing steps over and over is necessary to overcome initial stiffness and lack of arm coordination.",
+     "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:09",
+     "moment": "opening",
+     "says": "The teacher introduces himself, welcomes beginners to the tutorial, and explains they will be learning three basic hip hop moves.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:35",
+     "moment": "after_mistake",
+     "says": "The teacher addresses how beginners often become stiff and unsure what to do with their arms, suggesting clapping to keep the beat.",
+     "tag": "names_the_feeling"
+    },
+    {
+     "t": "5:17",
+     "moment": "closing",
+     "says": "The teacher encourages the learner to keep practicing repeatedly until comfortable and invites them to leave comments for future moves.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable of mastering basic hip hop moves through steady practice and attention to rhythm and bounce."
   },
   "learner_voice": {
    "struggles": [
@@ -138,5 +161,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 3
+ "attempts": 3,
+ "mentor_look": {
+  "at": "2026-11-17T21:43:40Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

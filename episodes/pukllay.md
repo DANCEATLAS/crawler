@@ -1,8 +1,8 @@
 # Pukllay — episode pack
 
-*Status: withheld-chapters · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-17 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An elder Yampara cultural guardian and musician from Tarabuco who speaks on the cosmological union between Tata Pujllay, rain, and communal memory.
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'TNB-QHremRU', 'checked_by_vision_model': False, 'title': 'Torollay Pukllay - Ancash - Virgen del Carmen (El Huaraquero 2018 - Tusuyninchis Llaqta)'}
+Hero video: {'youtube_id': 'TNB-QHremRU', 'checked_by_vision_model': True, 'title': 'Torollay Pukllay - Ancash - Virgen del Carmen (El Huaraquero 2018 - Tusuyninchis Llaqta)'}
 Images: 2 licensed — Juliancolton / Wikimedia Commons / Public domain (Public domain); No machine-readable author provided. Carwil assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: The massive pucara structure draped in squash, maize stalks, and drink bottles against the arid mountain backdrop., Close-up of thick wooden sandal soles with iron spurs vibrating as they strike the stony dirt., The sweeping curve of Spanish-style Conquistador monteras trimmed with vibrant woven pompons., The enormous length of the senqatanqana duct flute held angled toward the ground by Yampara musicians.
@@ -108,7 +108,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
+Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin

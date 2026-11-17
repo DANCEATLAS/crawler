@@ -1,0 +1,108 @@
+{
+ "youtube_id": "ZyLn7x4Le1M",
+ "slug": "garrotin",
+ "dance": "Garrotín",
+ "title": "Garrotín. Aprender flamenco online. Coreografía completa",
+ "channel": "Estudio Flamenco Sevilla",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-17T21:26:59Z",
+ "url": "https://www.youtube.com/watch?v=ZyLn7x4Le1M",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains movements clearly while demonstrating step-by-step in a studio setting. She breaks down arm and hat placements with verbal counts and shows variations from different angles.",
+  "language": "Spanish",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Title and introduction to Garrotín flamenco."
+   },
+   {
+    "t": "0:28",
+    "segment": "full_demo",
+    "note": "Full choreography demonstration on stage with group."
+   },
+   {
+    "t": "0:49",
+    "segment": "breakdown",
+    "note": "Detailed explanation and breakdown of hat movements and footwork in the studio."
+   }
+  ],
+  "counting_scheme": "1-2-1-2",
+  "cues": [
+   "uno y dos",
+   "el sombrero nunca para",
+   "que sea siempre continuado"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Movimiento del sombrero",
+    "counts": "1-2",
+    "description": "Continuous hat marking movement raising and lowering."
+   },
+   {
+    "name": "Zapateado",
+    "counts": "1-2",
+    "description": "Basic footwork striking with left foot and toe."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Split screen showing front and back views simultaneously",
+    "Detailed verbal explanation paired with slow demonstration"
+   ],
+   "what_hinders": [
+    "Music and performance clips interrupt instructional flow"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:49",
+    "text": "El sombrero nunca para."
+   },
+   {
+    "t": "0:56",
+    "text": "Que sea siempre continuado."
+   },
+   {
+    "t": "1:13",
+    "text": "Es muy sencillo."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 49,
+    "end_s": 70,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates hat movement facing camera with split-screen showing back view in mirror.",
+    "viewpoint": "front and back split-screen, mirrored",
+    "cannot_infer": "exact weight distribution on feet",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using a simultaneous split-screen of the front-facing teacher and her back-facing reflection in the studio mirror during breakdown."
+ },
+ "attempts": 1
+}

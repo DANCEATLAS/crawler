@@ -1,10 +1,10 @@
 {
  "slug": "ekiria-kiria",
- "qc_at": "2026-11-02T14:49:08Z",
+ "qc_at": "2026-11-17T20:48:28Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "review",
- "qc_score": 7.45,
+ "qc_score": 7.3,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "76"
+   "detail": "62"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "147"
+   "detail": "187"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Performed for centuries in Eastern Uganda, this folk dance has evolved through i"
+   "detail": "Performed by the Iteso people for centuries, this dance serves as a modern vehic"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "418"
+   "detail": "497"
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
-   "detail": "822"
+   "ok": true,
+   "detail": "1220"
   },
   {
    "gate": "sections_filled",
-   "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,regional_variants"
+   "ok": false,
+   "detail": "origins_and_history,regional_variants"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "the available sources"
+   "detail": ""
   },
   {
    "gate": "ai_tells",
@@ -91,28 +91,29 @@
   "accuracy": 10,
   "respect": 10,
   "specificity": 4,
-  "teaching_value": 3,
+  "teaching_value": 2,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 6,
-  "verdict": "review",
-  "notes": "Accurate to the limited evidence provided, but lacks concrete specifics on choreography, costume, and music, resulting in low teaching value and specificity."
+  "review": "review",
+  "notes": "Profile accurately reflects the sparse evidence claims, but low specificity and lack of teaching details due to missing source information limit its practicality for learners."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "profile_long_len",
-  "judge_score=7.45"
+  "sections_filled",
+  "judge_score=7.3"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-29T16:19:13Z"
+ "researched_at": "2026-11-17T20:29:14Z"
 }
