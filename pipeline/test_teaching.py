@@ -123,6 +123,7 @@ METHOD = {"is_lesson": True, "kind": "lesson",
 LOOK = {"voice": ["patient", "robotic"],
         "moments": [{"t": "0:03", "moment": "opening", "says": "Welcomes the learner and promises one step they will dance today.", "tag": "quick_win"},
                     {"t": "4:10", "moment": "after_mistake", "says": "Laughs at her own slip and says a mistake means you are learning.", "tag": "normalise_mistakes"},
+                    {"t": "2:00", "moment": "before_hard_part", "says": "I will mirror this for you, so my left leg is your right leg.", "tag": "mirror_view"},
                     {"t": "", "moment": "closing", "says": "no real time given"}, {"t": "5:00", "moment": "halftime", "says": "not a listed moment"}],
         "beliefs": [{"t": "0:07", "about": "who_can_dance", "belief": "Anyone who can walk can dance."}, {"t": "1:00", "about": "a_step_or_technique", "belief": "Keep the knees soft."}],
         "feelings": [{"t": "6:00", "feeling": "frustrated", "response": "Says to breathe and try the slow version."}],
@@ -398,6 +399,27 @@ class TeachingResearchTests(Project):
         self.assertEqual((counts["science_notes"], counts["paper_notes"], counts["practices_total"]), (3, 1, 34))
         with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
             self.assertIn("## Papers found by the open search (1;", f.read())
+
+    def test_when_the_days_free_quota_is_gone_no_lesson_is_blamed_and_the_stage_stops_asking(self):
+        jsave("tutorial_results.json", LESSONS)
+
+        class Spent(Model):
+            why = {}
+
+            def json(self, system, user, **kw):
+                self.asked.append("asked")
+                self.why = {"no_model_available": self.why.get("no_model_available", 0) + 1}
+                return None
+
+        spent = Spent()
+        with patch.object(teaching, "LLM", return_value=spent), patch.object(teaching, "fetch_comments", return_value=[]), patch.object(teaching, "ytdlp_search", return_value=[]), \
+                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
+            rec = teaching.run(budget=5, science=2)
+        # one question shows that no model can be asked: nothing is written against the lesson, no look and no note is tried
+        self.assertEqual((spent.asked, rec["counters"].get("method_failed"), rec["counters"].get("stopped_early"), os.path.exists("pedagogy/methods/A1.json")), (["asked"], None, 1, False))
+        self.assertEqual(rec["errors"], [])
+        # the mentor's own words are described, never kept: a sentence in the first person is dropped
+        self.assertEqual((teaching._described("The teacher laughs at her own slip."), teaching._described("I will mirror this for you."), teaching._described("Let's try it once more.")), (True, False, False))
 
     def test_with_the_engine_off_nothing_is_asked_and_the_tables_are_still_rebuilt(self):
         jsave("tutorial_results.json", LESSONS)
