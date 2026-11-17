@@ -6,9 +6,10 @@
  "teacher": "Oleg Astakhov",
  "teacher_key": "oleg-astakhov",
  "teacher_score": 73.1,
- "analysed_at": "2026-11-17T05:11:46Z",
+ "analysed_at": "2026-11-17T06:09:06Z",
  "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE",
  "comments_read": 60,
+ "schema": 2,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -16,66 +17,56 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces the dance as a social skill, then breaks down the basic steps into small, manageable chunks. He uses counting to help learners internalize the rhythm and then gradually increases the speed of the movements. Finally, he encourages learners to practice the steps with a partner.",
-  "signature": "The teacher frames the entire lesson as a 'social dance' skill, focusing on how to get on the floor and move with a partner rather than on technical precision.",
+  "teacher_system": "The teacher breaks down the swing dance into small, manageable steps, starting with side-to-side movement. He then introduces a rock step and combines these elements into a basic rhythm. Finally, he adds counts and speeds up the tempo to help learners practice.",
+  "signature": "He explicitly frames the lesson as 'social dancing' rather than 'technique', focusing on the ability to move to music in a social setting rather than perfect form.",
   "screen": {
    "views": [
     "front",
     "back"
    ],
-   "on_screen": [],
+   "on_screen": [
+    "counts"
+   ],
    "editing": []
   },
   "practices": [
    {
     "tag": "chunking",
-    "t": "1:11",
-    "what": "The teacher breaks down the basic side-to-side step, focusing on shifting weight from one leg to the other."
+    "t": "1:10",
+    "what": "The teacher breaks the dance down into simple side-to-side steps."
    },
    {
     "tag": "counts_and_rhythm",
     "t": "2:22",
-    "what": "The teacher introduces counting 'one, two, three, four' to the side-to-side step."
-   },
-   {
-    "tag": "mirror_view",
-    "t": "2:40",
-    "what": "The teacher turns around to demonstrate the steps from a back view, allowing the learner to mirror his movements."
+    "what": "The teacher introduces counting to the side-to-side steps."
    },
    {
     "tag": "chunking",
-    "t": "4:02",
-    "what": "The teacher introduces the rock step, explaining how to step back and shift weight."
+    "t": "3:53",
+    "what": "The teacher introduces the rock step as a separate, backward movement."
    },
    {
-    "tag": "tempo_ramp",
-    "t": "7:50",
-    "what": "The teacher increases the speed of the counting and the steps, transitioning from a slow to a faster tempo."
+    "tag": "layering",
+    "t": "5:10",
+    "what": "The teacher combines the side-to-side steps with the rock step."
    },
    {
     "tag": "counts_and_rhythm",
-    "t": "8:54",
-    "what": "The teacher introduces the rhythm 'slow, slow, quick-quick' to the steps."
+    "t": "6:17",
+    "what": "The teacher adds specific counts to the combined steps."
+   },
+   {
+    "tag": "tempo_ramp",
+    "t": "7:46",
+    "what": "The teacher increases the speed of the counts to practice the steps at a faster tempo."
    }
   ],
   "adaptations": [
    {
-    "t": "1:31",
-    "difficulty": "Learners may find it hard to see the weight shift.",
-    "adjustment": "The teacher suggests lifting the legs to make the steps more visible.",
-    "kind": "easier"
-   },
-   {
-    "t": "3:34",
-    "difficulty": "Learners may find it hard to coordinate the steps.",
-    "adjustment": "The teacher suggests just rocking from side to side without lifting the legs.",
-    "kind": "easier"
-   },
-   {
     "t": "4:18",
-    "difficulty": "Learners may be unsure about foot placement.",
-    "adjustment": "The teacher clarifies that it does not matter if the heel is placed back or not.",
-    "kind": "other"
+    "difficulty": "The learner may be unsure about whether to put their heel back during the rock step.",
+    "adjustment": "The teacher clarifies that it does not matter, focusing on the act of rocking instead.",
+    "kind": "easier"
    }
   ],
   "entry_points": [
@@ -84,38 +75,90 @@
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 111,
+   "seconds_before_first_movement": 110,
    "pieces_taught": 3
+  },
+  "mentor": {
+   "voice": [
+    "energetic",
+    "precise",
+    "patient"
+   ],
+   "beliefs": [
+    {
+     "t": "0:20",
+     "belief": "The goal is to learn how to dance socially, not to master complex technique."
+    },
+    {
+     "t": "3:17",
+     "belief": "If you can do these simple steps, you can dance."
+    },
+    {
+     "t": "4:59",
+     "belief": "The focus should be on moving in a social setting, not on perfect technique."
+    }
+   ],
+   "feelings": [
+    {
+     "t": "0:34",
+     "feeling": "awkward",
+     "response": "The teacher encourages the learner to imagine being in a social situation where everyone is dancing and having fun."
+    }
+   ]
   },
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Applying steps to music",
-     "tag": "music_early",
+     "theme": "Difficulty applying steps to music",
+     "tag": "other",
      "count": 1
     },
     {
      "theme": "Stiff body",
      "tag": "other",
      "count": 2
+    },
+    {
+     "theme": "Fear of looking silly",
+     "tag": "other",
+     "count": 1
     }
    ],
    "clicked": [
     {
-     "theme": "Simple, clear, and detailed instructions",
+     "theme": "Simple, clear, and small-step breakdown",
      "tag": "chunking",
-     "count": 15
+     "count": 10
     },
     {
      "theme": "Encouraging and patient teaching style",
      "tag": "praise_and_expectancy",
-     "count": 6
+     "count": 5
     }
    ],
-   "requests": []
+   "requests": [
+    {
+     "theme": "More music application",
+     "tag": "music_early",
+     "count": 1
+    }
+   ],
+   "meant": [
+    {
+     "theme": "Feeling capable of dancing",
+     "tag": "learner_as_dancer",
+     "count": 3
+    },
+    {
+     "theme": "Fun and social connection",
+     "tag": "social_connection",
+     "count": 2
+    }
+   ]
   },
-  "limits": "The video does not show how to transition between steps with music, which is a common struggle for learners."
+  "limits": "The video does not show how to transition between different dance partners or how to handle more complex music rhythms."
  },
+ "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 2
 }

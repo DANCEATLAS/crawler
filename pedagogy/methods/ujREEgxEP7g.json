@@ -1,14 +1,15 @@
 {
  "youtube_id": "ujREEgxEP7g",
  "slug": "basics-first-steps",
- "dance": "First steps for people who believe they cannot dance (dance basics)",
+ "dance": "First steps (basics)",
  "title": "3 Simple Dance Moves for Beginners (Hip Hop Dance Moves Tutorial) | Mihran Kirakosian",
  "teacher": "MihranTV",
  "teacher_key": "mihrantv",
  "teacher_score": 66.9,
- "analysed_at": "2026-11-17T05:29:53Z",
+ "analysed_at": "2026-11-17T06:08:35Z",
  "url": "https://www.youtube.com/watch?v=ujREEgxEP7g",
  "comments_read": 60,
+ "schema": 2,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -16,107 +17,140 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces three simple hip-hop moves, breaking each down into small, manageable steps. He emphasizes the importance of maintaining a relaxed, bouncy posture and using the balls of the feet to facilitate movement. Finally, he guides the learner through repetitive practice of each move and then combines them into a continuous sequence.",
-  "signature": "The teacher explicitly addresses the common beginner struggle of feeling 'stiff' and not knowing what to do with one's arms, offering simple solutions like clapping to keep the beat.",
+  "teacher_system": "The teacher introduces three basic hip-hop dance moves step-by-step, breaking down footwork and posture. He demonstrates counts and repetitions before combining the moves into a short routine.",
+  "signature": "Reminding learners to keep their knees bent and stay on their toes throughout the steps.",
   "screen": {
-   "views": [],
-   "on_screen": [],
+   "views": [
+    "front",
+    "feet_closeup",
+    "side"
+   ],
+   "on_screen": [
+    "captions"
+   ],
    "editing": []
   },
   "practices": [
    {
-    "tag": "chunking",
-    "t": "0:28",
-    "what": "The teacher breaks down the first move, a step-touch, into small, repeatable segments."
-   },
-   {
-    "tag": "repetition",
-    "t": "0:54",
-    "what": "The teacher leads the learner through the first move multiple times, incorporating a clap to help maintain the rhythm."
+    "tag": "counts_and_rhythm",
+    "t": "0:29",
+    "what": "Teacher demonstrates step-touch counting from 1 to 8, moving side to side."
    },
    {
     "tag": "chunking",
-    "t": "1:45",
-    "what": "The teacher introduces the second move, focusing on staying in place while stepping out and in."
+    "t": "1:33",
+    "what": "Teacher introduces the second move staying in place with leg extending out and in."
    },
    {
     "tag": "repetition",
-    "t": "2:29",
-    "what": "The teacher guides the learner through the second move, emphasizing staying on the balls of the feet."
+    "t": "2:39",
+    "what": "Teacher connects move one and move two together and repeats counts."
    },
    {
     "tag": "chunking",
     "t": "3:26",
-    "what": "The teacher breaks down the third move, which involves a slide, into small, manageable steps."
+    "what": "Teacher introduces the third move involving a slide with the right leg stepping out."
    },
    {
     "tag": "repetition",
-    "t": "4:00",
-    "what": "The teacher leads the learner through the third move, focusing on the dragging motion of the foot."
-   },
-   {
-    "tag": "repetition",
-    "t": "4:32",
-    "what": "The teacher combines all three moves into a continuous sequence, repeating the entire routine."
+    "t": "4:28",
+    "what": "Teacher runs through all three steps together in sequence multiple times."
    }
   ],
   "adaptations": [
    {
     "t": "0:44",
-    "difficulty": "Beginners often feel stiff and do not know what to do with their arms.",
-    "adjustment": "The teacher suggests clapping to keep the beat and keep the arms moving.",
+    "difficulty": "arms don't know what to do",
+    "adjustment": "clap to keep the beat until comfortable",
     "kind": "easier"
    },
    {
-    "t": "4:10",
-    "difficulty": "Beginners may feel awkward or unsure about arm movements.",
-    "adjustment": "The teacher offers various arm variations, such as pushing or using both hands, to allow for personal expression.",
+    "t": "4:08",
+    "difficulty": "arms feeling stiff",
+    "adjustment": "choose whatever arms you want, like pushing or clapping",
     "kind": "easier"
    }
   ],
   "entry_points": [
-   "feet_first"
+   "feet_first",
+   "count_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 29,
+   "seconds_before_first_movement": 28,
    "pieces_taught": 3
+  },
+  "mentor": {
+   "voice": [
+    "calm",
+    "patient",
+    "direct"
+   ],
+   "beliefs": [
+    {
+     "t": "0:21",
+     "belief": "dancing is all about your attitude, bending your knees, and giving it flavor"
+    },
+    {
+     "t": "5:17",
+     "belief": "repeating steps over and over is key until you get comfortable"
+    }
+   ],
+   "feelings": []
   },
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Feeling awkward or cringey while dancing alone",
+     "theme": "Feeling awkward dancing in empty room or in front of mirror",
      "tag": "other",
      "count": 6
     },
     {
-     "theme": "Difficulty with coordination or feeling stiff",
+     "theme": "Trying the moves in bed and never actually getting up",
      "tag": "other",
-     "count": 3
+     "count": 5
+    },
+    {
+     "theme": "Struggling with coordination or feeling stiff",
+     "tag": "other",
+     "count": 4
     }
    ],
    "clicked": [
     {
-     "theme": "Simple, step-by-step instructions",
+     "theme": "Super simple and easy to follow step by step",
      "tag": "chunking",
      "count": 4
     },
     {
-     "theme": "Repetitive practice helps with learning",
-     "tag": "repetition",
-     "count": 2
+     "theme": "Learned a dance move for the first time with ease",
+     "tag": "quick_win",
+     "count": 3
     }
    ],
    "requests": [
     {
-     "theme": "A complete playlist for beginners",
-     "tag": "reason_to_return",
+     "theme": "Make a complete beginner playlist from easy to complex",
+     "tag": "other",
      "count": 1
+    }
+   ],
+   "meant": [
+    {
+     "theme": "Never too old to start learning hip hop dance",
+     "tag": "dance_is_for_everyone",
+     "count": 3
+    },
+    {
+     "theme": "Proud of finally learning a dance routine",
+     "tag": "other",
+     "count": 2
     }
    ]
   },
-  "limits": "The video does not show music, so the learner must provide their own. It also cannot provide real-time feedback on the learner's form."
+  "limits": "Music is not played during the instructional breakdown."
  },
+ "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 2
 }
