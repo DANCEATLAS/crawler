@@ -44,7 +44,7 @@ GAP_ADVICE = {"tempo (bpm)": "a source that states the tempo — a teacher's pag
               "signature moves": "a source that names the characteristic moves", "teaching steps written out": "a teaching source with the basic steps",
               "what to avoid / common mistakes": "a teaching source or a studied tutorial that names mistakes", "two or more connections": "sources that relate the dance to its relatives"}
 
-STAGES = ("research", "qc", "hero_qc", "pedagogy", "episodes", "translate")
+STAGES = ("research", "qc", "hero_qc", "pedagogy", "teaching", "episodes", "translate")
 
 def _runs_by_day(runs, stage, n):
     out = []
@@ -91,7 +91,7 @@ def tune():
                 alerts.append("OpenAI balance is spent (insufficient_quota): research continues on Gemini alone; a top-up is the owner's call")
                 break
     out = {"updated_at": now_iso(), "scale": new, "good_streak": streak, "failure_rate": round(rate, 3), "calls_considered": calls, "reason": reason,
-           "applies_to": ["RESEARCH_NEW", "RESEARCH_ENRICH", "HERO_QC_BUDGET", "PEDAGOGY_BUDGET", "PERFORMANCE_BUDGET", "EPISODE_POLISH", "TRANSLATE_BUDGET"], "alerts": sorted(set(alerts))}
+           "applies_to": ["RESEARCH_NEW", "RESEARCH_ENRICH", "HERO_QC_BUDGET", "PEDAGOGY_BUDGET", "PERFORMANCE_BUDGET", "TEACHING_BUDGET", "EPISODE_POLISH", "TRANSLATE_BUDGET"], "alerts": sorted(set(alerts))}
     save_state("tuning.json", out)
     return out
 

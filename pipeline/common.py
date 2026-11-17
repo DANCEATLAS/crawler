@@ -269,7 +269,9 @@ class LLM:
         self._openai_avail = None
         self._list_tries, self._lane_logged, self._last_call, self._rest = 0, False, {}, {}
         self.dead = set()
-        self.strikes = {}          # model -> consecutive failures; MAX_STRIKES in a row retires the model for this run
+        self.strikes = {}          # model -> consecutive timeouts / dropped connections; MAX_STRIKES in a row rest the model
+        self._busy, self._unusable = {}, {}   # model -> consecutive "overloaded" answers / consecutive unusable answers
+        self.why = {}              # what went wrong this stage, by kind — written into the run record (no log reading needed)
         self.MAX_STRIKES = int(os.environ.get("LLM_MAX_STRIKES", "2"))
         self.timeout_fast = int(os.environ.get("LLM_TIMEOUT_FAST", "120"))
         self.timeout_strong = int(os.environ.get("LLM_TIMEOUT_STRONG", "420"))
@@ -452,12 +454,38 @@ class LLM:
             i += 1
         return "".join(out)
 
+    WAITED = 0.0   # seconds this PROCESS has spent waiting for a resting model, all stages together
+
+    def _why(self, kind, n=1):
+        self.why[kind] = self.why.get(kind, 0) + n
+
     def _strike(self, model):
+        """A timeout, a dropped connection or an unexpected HTTP answer. Two in a row rest the model for ten minutes.
+        (It used to be retired for the whole run: on a night with one or two usable models that emptied the lane.)"""
         self.failures += 1
         self.strikes[model] = self.strikes.get(model, 0) + 1
         if self.strikes[model] >= self.MAX_STRIKES:
-            self.dead.add(model)
-            warn(f"llm: {model} retired for this run after {self.strikes[model]} consecutive failures")
+            self.strikes[model] = 0
+            self._rest[model] = time.time() + int(os.environ.get("LLM_STRIKE_REST_SECONDS", "600"))
+            warn(f"llm: {model} rests after {self.MAX_STRIKES} failures in a row")
+
+    def _wait_for_rested(self, order):
+        """Every usable model is resting (overloaded or rate limited). Wait for the first one to come back instead of
+        dropping the question. Bounded twice: one wait is at most LLM_WAIT_MAX_SECONDS, and the whole process waits at
+        most LLM_WAIT_BUDGET_SECONDS, so an outage costs minutes, never the run."""
+        now = time.time()
+        wakes = [self._rest[m] for p, m in order if m not in self.dead and self.allowance.permitted(p) and self._rest.get(m, 0) > now]
+        if not wakes:
+            return False
+        wait = min(wakes) - now + 1
+        budget = float(os.environ.get("LLM_WAIT_BUDGET_SECONDS", "1800"))
+        if wait > float(os.environ.get("LLM_WAIT_MAX_SECONDS", "330")) or LLM.WAITED + wait > budget:
+            return False
+        LLM.WAITED += wait
+        self._why("waited_seconds", int(wait))
+        log(f"llm: every usable model is resting; waiting {wait:.0f}s ({LLM.WAITED:.0f}s of {budget:.0f}s used this run)")
+        time.sleep(wait)
+        return True
 
     def json(self, system, user, strong=False, temperature=0.2, max_tokens=4000, image_b64=None, prefer=None, video_url=None, video_seconds=480):
         """Return parsed JSON from the first provider/model that works. None if all fail.
@@ -475,54 +503,87 @@ class LLM:
             order = [o for o in order if o[0] == "openai"] + [o for o in order if o[0] != "openai"]
         system = system + "\nRespond with a single JSON object only."
         timeout = self.timeout_strong if strong else self.timeout_fast
-        for prov, model in order:
-            if model in self.dead or self._rest.get(model, 0) > time.time() or not self.allowance.permitted(prov):
-                continue
-            for attempt in (0, 1):
-                try:
-                    t0 = time.time()
-                    txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong, video_url, video_seconds)
-                    out = self.parse_json(txt)
-                    self.strikes[model] = 0
-                    return out
-                except SpendingBlocked:
-                    self.unanswered += 1
-                    return None
-                except HttpError as e:
-                    low = (e.body or "").lower()
-                    short = re.sub(r"\s+", " ", e.body or "")[:200]
-                    if e.code == 429:
-                        # Free-tier quotas: a per-DAY quota is gone for the run (retire the model, the next one has its own quota);
-                        # a per-MINUTE limit is transient (wait for the advertised retryDelay once, then retry the same model).
-                        m = re.search(r'"retrydelay":\s*"(\d+)', low)
-                        delay = int(m.group(1)) if m else 0
-                        if "perday" in low or "per_day" in low or "insufficient_quota" in low or "billing" in low and not delay:
-                            self.dead.add(model); self.failures += 1
-                            if prov == "openai":   # one account-wide balance; a Gemini free-tier day quota belongs to ONE model
-                                self.allowance.stopped.add(prov)
-                            warn(f"llm {prov}/{model}: quota exhausted, retired for this run: {short[:120]}")
-                            break
-                        if attempt == 0:
-                            wait = min(max(delay, 20), 60)
-                            warn(f"llm {prov}/{model}: rate limited, waiting {wait}s and retrying once")
-                            time.sleep(wait)
-                            continue
-                    if e.code in (500, 502, 503, 504):
-                        # the provider is overloaded ("high demand"): rest this model for five minutes; retiring it for a
-                        # four-hour run would throw away its whole day quota over a spike that lasts minutes
-                        self._rest[model] = time.time() + int(os.environ.get("LLM_REST_SECONDS", "300"))
-                        self.failures += 1
-                    elif e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
-                        self.dead.add(model)  # missing model: never again this run
-                        self.failures += 1
-                    else:
-                        self._strike(model)
-                    warn(f"llm {prov}/{model} http {e.code} after {time.time() - t0:.0f}s: {short}")
+        # The first full night on the free lane (16 Nov 2026) left 71 of 312 questions unanswered: one model carried most
+        # of the work, answered "overloaded" now and then, and every question that arrived while it rested was dropped at
+        # once; one unreadable video also put a strike on every model in a row. So: a question waits for a resting model
+        # (bounded), and an answer nobody can use is the question's fault, not the model's.
+        bad, bad_limit, tried = 0, (2 if video_url else 3), 0
+        for _round in range(3):   # at most two waits per question
+            for prov, model in order:
+                if model in self.dead or self._rest.get(model, 0) > time.time() or not self.allowance.permitted(prov):
+                    continue
+                tried += 1
+                for attempt in (0, 1):
+                    try:
+                        t0 = time.time()
+                        txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong, video_url, video_seconds)
+                        out = self.parse_json(txt)
+                        self.strikes[model] = self._busy[model] = self._unusable[model] = 0
+                        return out
+                    except SpendingBlocked:
+                        self.unanswered += 1
+                        return None
+                    except HttpError as e:
+                        low = (e.body or "").lower()
+                        short = re.sub(r"\s+", " ", e.body or "")[:200]
+                        if e.code == 429:
+                            # Free-tier quotas: a per-DAY quota is gone for the run (retire the model, the next one has its own quota);
+                            # a per-MINUTE limit is transient (wait for the advertised retryDelay once, then retry the same model).
+                            m = re.search(r'"retrydelay":\s*"(\d+)', low)
+                            delay = int(m.group(1)) if m else 0
+                            qid = re.search(r'"quotaid":\s*"([\w.\-]+)', low)
+                            per_minute = "perminute" in low or "per_minute" in low
+                            if "perday" in low or "per_day" in low or "insufficient_quota" in low or ("billing" in low and not delay and not per_minute):
+                                self.dead.add(model); self.failures += 1; self._why("day_quota_used_up")
+                                if prov == "openai":   # one account-wide balance; a Gemini free-tier day quota belongs to ONE model
+                                    self.allowance.stopped.add(prov)
+                                warn(f"llm {prov}/{model}: quota exhausted, retired for this run ({qid.group(1) if qid else 'no quota id'}): {short[:120]}")
+                                break
+                            if attempt == 0:
+                                wait = min(max(delay, 20), 60)
+                                warn(f"llm {prov}/{model}: rate limited, waiting {wait}s and retrying once")
+                                time.sleep(wait)
+                                continue
+                            # still limited after the advertised wait: a short rest, the question moves to the next model
+                            self._rest[model] = time.time() + min(max(delay, 30), 120)
+                            self.failures += 1; self._why("rate_limited")
+                        elif e.code in (500, 502, 503, 504):
+                            # the provider is overloaded ("high demand"): a short rest that doubles while it stays overloaded
+                            # (45 s, 90 s … at most LLM_REST_SECONDS); a spike lasts seconds to minutes, not the whole run
+                            n = self._busy[model] = self._busy.get(model, 0) + 1
+                            first = int(os.environ.get("LLM_REST_FIRST_SECONDS", "45"))
+                            self._rest[model] = time.time() + min(int(os.environ.get("LLM_REST_SECONDS", "300")), first * 2 ** (n - 1))
+                            self.failures += 1; self._why("overloaded")
+                        elif e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
+                            self.dead.add(model)  # missing model: never again this run
+                            self.failures += 1; self._why("model_gone")
+                        elif e.code in (401, 403):
+                            self.dead.add(model)  # the key is refused for this model: asking again cannot help
+                            self.failures += 1; self._why("key_refused")
+                        else:
+                            self._strike(model); self._why("http_other")
+                        warn(f"llm {prov}/{model} http {e.code} after {time.time() - t0:.0f}s: {short}")
+                        break
+                    except (RuntimeError, ValueError) as e:
+                        # the model answered with nothing usable (empty or blocked answer, broken JSON). Usually the question:
+                        # a private video is unreadable for every model. No strike; after bad_limit such answers the question is dropped.
+                        bad += 1; self.failures += 1; self._why("unusable_answer")
+                        n = self._unusable[model] = self._unusable.get(model, 0) + 1
+                        if n >= 4:   # four in a row from one model: it is the model after all — rest it
+                            self._unusable[model] = 0
+                            self._rest[model] = time.time() + int(os.environ.get("LLM_STRIKE_REST_SECONDS", "600"))
+                        warn(f"llm {prov}/{model} unusable answer after {time.time() - t0:.0f}s: {type(e).__name__}" + (f" {str(e)[:90]}" if type(e) is RuntimeError else ""))
+                        break
+                    except Exception as e:
+                        self._strike(model); self._why("timeout_or_network")
+                        warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {type(e).__name__}")
+                        break
+                if bad >= bad_limit:
                     break
-                except Exception as e:
-                    self._strike(model)
-                    warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {type(e).__name__}")
-                    break
+            if bad >= bad_limit or _round == 2 or not self._wait_for_rested(order):   # no wait after the last round
+                break
+        if not tried:
+            self._why("no_model_available")
         self.unanswered += 1
         return None
 
@@ -530,6 +591,8 @@ class LLM:
         """Write this LLM's counters into a stage Report (attempts, failed attempts, questions, unanswered questions)."""
         rep.inc("llm_calls", self.calls); rep.inc("llm_failures", self.failures)
         rep.inc("llm_requests", self.requests); rep.inc("llm_unanswered", self.unanswered)
+        if self.why:
+            rep.note("model trouble: " + ", ".join(f"{k} {v}" for k, v in sorted(self.why.items(), key=lambda kv: -kv[1])))
 
 # ----------------------------------------------------------------- run report
 class Report:

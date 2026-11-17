@@ -1,0 +1,235 @@
+"""Offline checks for 17 November 2026: a patient model client (the first full night's lesson) and the teaching research mission."""
+import datetime as dt
+import json
+import os
+import unittest
+from unittest.mock import patch
+from . import common, spending, teaching
+from .common import jload, jsave
+from .test_engine import LISTED, Project, free_policy
+
+ANSWER = (200, json.dumps({"candidates": [{"content": {"parts": [{"text": "{\"ok\": true}"}]}}]}), {})
+EMPTY = (200, json.dumps({"candidates": [{"finishReason": "OTHER"}]}), {})
+BUSY = common.HttpError(503, '{"error": {"status": "UNAVAILABLE", "message": "high demand"}}', "https://example.org")
+ONE_MODEL = {"models": [{"name": "models/gemini-3.5-flash-lite", "supportedGenerationMethods": ["generateContent"]}]}
+
+
+class PatientClientTests(unittest.TestCase):
+    def setUp(self):
+        common.LLM.WAITED = 0.0
+        self.clock = [1000.0]
+
+    def llm(self):
+        with patch.object(spending, "_ALLOWANCE", spending.ModelAllowance(free_policy())), patch.dict("os.environ", {"GEMINI_API_KEY": "fixture"}):
+            return common.LLM()
+
+    def running(self, listed, answers, env=None):
+        """The provider's model list, its answers in order, and a clock that only moves when the client sleeps."""
+        return (patch.object(common, "get_json", return_value=listed), patch.object(common, "http", side_effect=answers),
+                patch.object(common.time, "time", side_effect=lambda: self.clock[0]),
+                patch.object(common.time, "sleep", side_effect=lambda s: self.clock.__setitem__(0, self.clock[0] + s)),
+                patch.dict("os.environ", env or {}))
+
+    def test_a_question_waits_for_the_resting_model_instead_of_being_dropped(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER])
+        with a, b as http, c, d, e:
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+            self.assertEqual(http.call_count, 2)
+        self.assertEqual((llm.unanswered, llm.why.get("overloaded")), (0, 1))
+        self.assertTrue(40 <= common.LLM.WAITED <= 60, common.LLM.WAITED)        # the first rest is short: 45 seconds
+        self.assertNotIn("gemini-3.5-flash-lite", llm.dead)
+
+    def test_the_waiting_is_bounded_for_the_whole_run(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER], {"LLM_WAIT_BUDGET_SECONDS": "30"})
+        with a, b as http, c, d, e:
+            self.assertIsNone(llm.json("system", "user"))
+            self.assertEqual(http.call_count, 1)
+        self.assertEqual((llm.unanswered, common.LLM.WAITED), (1, 0.0))
+
+    def test_a_model_that_stays_overloaded_rests_longer_each_time_up_to_the_cap(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, BUSY, BUSY, ANSWER], {"LLM_REST_SECONDS": "100"})
+        with a, b, c, d, e:
+            self.assertIsNone(llm.json("system", "user"))         # 45 s, 90 s: two waits, then the question is given up
+            rests = llm._rest["gemini-3.5-flash-lite"] - self.clock[0]
+            self.assertEqual(rests, 100)                           # the third rest is capped
+            self.clock[0] += 101
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+        self.assertEqual(llm._busy["gemini-3.5-flash-lite"], 0)
+
+    def test_an_unreadable_video_costs_two_calls_and_no_model(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(LISTED, [EMPTY, EMPTY, ANSWER])
+        with a, b as http, c, d, e:
+            self.assertIsNone(llm.json("system", "user", video_url="https://www.youtube.com/watch?v=private"))
+            self.assertEqual(http.call_count, 2)
+            self.assertEqual((llm.dead, [m for m, t in llm._rest.items() if t > self.clock[0]], llm.why.get("unusable_answer")), (set(), [], 2))
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+
+    def test_two_timeouts_rest_a_model_they_do_not_retire_it(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(LISTED, [TimeoutError("slow"), ANSWER, TimeoutError("slow"), ANSWER])
+        with a, b, c, d, e:
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+        self.assertNotIn("gemini-3.5-flash-lite", llm.dead)
+        self.assertEqual(llm._rest["gemini-3.5-flash-lite"] - self.clock[0], 600)
+
+    def test_a_minute_limit_is_not_mistaken_for_a_spent_day(self):
+        llm = self.llm()
+        minute = common.HttpError(429, '{"error": {"message": "You exceeded your current quota, please check your plan and billing details.", "details": [{"quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"}]}}', "https://example.org")
+        a, b, c, d, e = self.running(LISTED, [minute, minute, ANSWER])
+        with a, b, c, d, e:
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+        self.assertEqual((llm.dead, llm.why.get("rate_limited")), (set(), 1))
+
+    def test_the_run_record_says_what_went_wrong_without_the_log(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(LISTED, [BUSY, ANSWER])
+        with a, b, c, d, e:
+            llm.json("system", "user")
+        rep = common.Report("fixture")
+        with patch.object(common, "log"):
+            llm.record(rep)
+        self.assertEqual(rep.notes, ["model trouble: overloaded 1"])
+
+
+LESSONS = {"salsa": {"lessons": [{"youtube_id": "A1", "channel": "Ana Dance", "title": "Salsa basics", "pos": 30, "neg": 1},
+                                 {"youtube_id": "B1", "channel": "Bo", "title": "Salsa in ten minutes", "pos": 3, "neg": 0}]},
+           "bachata": {"lessons": [{"youtube_id": "A2", "channel": "Ana Dance", "title": "Bachata basics", "pos": 25, "neg": 0},
+                                   {"youtube_id": "C1", "channel": "Cy", "title": "Bachata", "pos": 2, "neg": 6},
+                                   {"youtube_id": "X9", "channel": "Clips", "title": "Bachata show", "pos": 9, "neg": 0}]}}
+METHOD = {"is_lesson": True, "teacher_system": "Shows the whole step, then three small pieces, then the music.", "signature": "Counts in the rhythm's own words.",
+          "screen": {"views": ["mirror", "feet_closeup", "hologram"], "on_screen": ["counts"], "editing": ["slow_motion"]},
+          "practices": [{"tag": "mirror_view", "t": "0:20", "what": "turns her back so learners copy directly"},
+                        {"tag": "chunking", "t": "1:05", "what": "three pieces, one at a time"},
+                        {"tag": "made_up_tag", "t": "2:00", "what": "not in the vocabulary"},
+                        {"tag": "tempo_ramp", "t": "soon", "what": "no real time given"}],
+          "adaptations": [{"t": "3:10", "difficulty": "the turn feels too fast", "adjustment": "walk it without turning first", "kind": "easier"},
+                          {"t": "", "difficulty": "no timestamp", "adjustment": "dropped", "kind": "easier"}],
+          "entry_points": ["feet_first", "by_magic"], "pace": {"talk_vs_move": "balanced", "seconds_before_first_movement": 40, "pieces_taught": 3},
+          "learner_voice": {"struggles": [{"theme": "The turn is too fast", "tag": "tempo_ramp", "count": 4}],
+                            "clicked": [{"theme": "the back view", "tag": "mirror_view", "count": 6, "author": "someone"}],
+                            "requests": [{"theme": "a slower version", "tag": "nonsense", "count": 2}]},
+          "limits": "the feet leave the frame"}
+PAPER = {"url": "https://europepmc.org/article/MED/1", "kind": "paper", "title": "Focus of attention", "authors": "W", "year": "2001", "journal": "J", "cited_by": 5,
+         "text": "Learners who directed attention to the effect of the movement learned the skill faster than learners who attended to their own limbs. "
+                 "The advantage remained in a retention test one day later."}
+NOTE = {"relevant": True, "principle": "Attending to the effect of a movement helps learning.",
+        "findings": [{"finding": "An outward focus speeds learning.", "quote": "directed attention to the effect of the movement learned the skill faster", "source": PAPER["url"]},
+                     {"finding": "The gain lasts.", "quote": "The advantage remained in a retention test one day later", "source": PAPER["url"]},
+                     {"finding": "Invented.", "quote": "dancers improved by forty percent in every study ever made", "source": PAPER["url"]}],
+        "for_the_teacher": ["Give an image for the foot, not a muscle to tense."], "when_it_does_not_apply": ""}
+
+
+class Model:
+    """Stands in for the model client: answers by the kind of question, counts the questions."""
+    def __init__(self, enabled=True, method=METHOD, note=NOTE):
+        self.enabled, self.gemini_key, self.method, self.note, self.asked = enabled, "fixture" if enabled else "", method, note, []
+
+    def json(self, system, user, **kw):
+        self.asked.append("method" if kw.get("video_url") else "science")
+        return self.method if kw.get("video_url") else self.note
+
+    def record(self, rep):
+        pass
+
+
+class TeachingResearchTests(Project):
+    def test_teachers_are_ranked_by_learners_words_and_a_clip_that_is_not_a_lesson_is_left_out(self):
+        t = teaching.build_teachers(LESSONS, studied={"X9": {"status": "not_a_lesson"}})
+        self.assertEqual([x["teacher"] for x in t], ["Ana Dance", "Bo", "Cy"])
+        self.assertEqual([x["rank"] for x in t], [1, 2, 3])
+        self.assertTrue(t[0]["score"] > t[1]["score"] > t[2]["score"] >= 0)
+        self.assertEqual((t[0]["praise"], t[0]["complaints"], t[0]["dances"]), (55, 1, ["bachata", "salsa"]))
+        self.assertGreater(teaching.wilson(90, 100), teaching.wilson(9, 10))
+
+    def test_breadth_before_depth_and_a_studied_or_recently_failed_video_is_not_asked_again(self):
+        today = dt.date(2026, 11, 17)
+        pick = lambda methods, n: [l["youtube_id"] for _, l in teaching.pick_methods(teaching.build_teachers(LESSONS, {"X9": {"status": "not_a_lesson"}}, methods), methods, n, today=today)]
+        self.assertEqual(pick({}, 4), ["A1", "B1", "C1", "A2"])
+        done = {"A1": {"status": "ok", "teacher_key": "ana-dance", "method": teaching.normalise_method(METHOD)},
+                "B1": {"status": "failed", "analysed_at": "2026-11-16T22:00:00Z", "attempts": 1}}
+        self.assertEqual(pick(done, 4), ["C1", "A2"])
+        done["B1"]["analysed_at"] = "2026-11-14T22:00:00Z"
+        self.assertEqual(pick(done, 4), ["B1", "C1", "A2"])
+        self.assertFalse(teaching._due({"status": "not_a_lesson", "analysed_at": "2020-01-01T00:00:00Z"}, today))
+
+    def test_only_the_vocabulary_real_timestamps_and_nameless_themes_are_kept(self):
+        m = teaching.normalise_method(METHOD)
+        self.assertEqual(m["screen"]["views"], ["mirror", "feet_closeup"])
+        self.assertEqual([p["tag"] for p in m["practices"]], ["mirror_view", "chunking"])
+        self.assertEqual([a["adjustment"] for a in m["adaptations"]], ["walk it without turning first"])
+        self.assertEqual(m["entry_points"], ["feet_first"])
+        self.assertEqual(m["learner_voice"]["clicked"], [{"theme": "the back view", "tag": "mirror_view", "count": 6}])
+        self.assertEqual(m["learner_voice"]["requests"][0]["tag"], "other")
+        self.assertEqual((teaching._secs("1:05"), teaching._secs("1:02:03"), teaching._secs("soon")), (65, 3723, None))
+
+    def test_a_research_note_stands_only_on_quotes_that_are_in_the_source(self):
+        item = teaching.SCIENCE[0]
+        note = teaching.science_note(item, Model(), sources=[PAPER])
+        self.assertEqual((note["status"], len(note["findings"]), note["quotes_offered"]), ("ok", 2, 3))
+        self.assertNotIn("text", note["sources"][0])
+        thin = teaching.science_note(item, Model(note=dict(NOTE, findings=NOTE["findings"][1:])), sources=[PAPER])
+        self.assertEqual((thin["status"], len(thin["findings"])), ("thin", 1))
+        self.assertEqual(teaching.science_note(item, Model(), sources=[])["status"], "no_sources")
+        self.assertEqual(teaching.science_note(item, Model(note=None), sources=[PAPER])["status"], "failed")
+        for key, _, _, tags in teaching.SCIENCE:
+            self.assertTrue(tags and all(t in teaching.PRACTICES for t in tags), key)
+        self.assertEqual(len({s[0] for s in teaching.SCIENCE}), len(teaching.SCIENCE))
+
+    def test_three_kinds_of_evidence_are_joined_per_practice(self):
+        methods = {}
+        for yid, who in (("A1", "Ana Dance"), ("B1", "Bo"), ("C1", "Cy")):
+            methods[yid] = {"youtube_id": yid, "status": "ok", "teacher": who, "teacher_key": teaching.channel_key(who), "teacher_score": 50, "slug": "salsa", "dance": "Salsa",
+                            "url": "https://www.youtube.com/watch?v=" + yid, "comments_read": 60, "method": teaching.normalise_method(METHOD)}
+        notes = {"mirrors_in_dance": {"key": "mirrors_in_dance", "status": "ok", "topic": "mirrors in dance", "tags": ["mirror_view"], "principle": "A mirror view helps copying.",
+                                      "findings": [{"finding": "f", "quote": "q", "source": PAPER["url"]}], "for_the_teacher": ["Turn your back."], "when_it_does_not_apply": "",
+                                      "sources": [{"url": PAPER["url"], "title": "t", "authors": "a", "year": "2001", "journal": "j"}]}}
+        s = teaching.fuse(teaching.build_teachers(LESSONS, {}, methods), methods, notes)
+        first = s["practices"][0]
+        self.assertEqual((first["tag"], first["evidence_kinds"], first["teachers"], first["learner_voice"]["clicked"]), ("mirror_view", 3, 3, 18))
+        self.assertEqual(next(p for p in s["practices"] if p["tag"] == "chunking")["evidence_kinds"], 1)
+        self.assertEqual((s["counts"]["lessons_studied_for_method"], s["counts"]["adaptations_seen"], s["counts"]["practices_with_two_or_more_kinds"]), (3, 3, 1))
+        self.assertEqual(s["struggles"][0], {"tag": "tempo_ramp", "theme": "the turn is too fast", "count": 12})
+        page = teaching.render(s)
+        for must in ("### Mirror view ●●●", "&t=20s", "walk it without turning first", "Turn your back.", "## The teachers studied so far"):
+            self.assertIn(must, page)
+        self.assertNotIn("someone", json.dumps(s))
+
+    def test_the_stage_studies_writes_the_page_and_never_loses_a_studied_lesson(self):
+        jsave("tutorial_results.json", LESSONS)
+        model = Model()
+        with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", return_value=["the back view finally made it click"]), \
+                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"):
+            rec = teaching.run(budget=2, science=1)
+        self.assertEqual((rec["counters"].get("method_ok"), rec["counters"].get("science_ok"), model.asked), (2, 1, ["method", "method", "science"]))
+        self.assertEqual(jload("pedagogy/methods/A1.json")["comments_read"], 1)
+        self.assertEqual(jload("public/catalog/bdf_teaching_system.json")["contract"], "da_bdf_teaching_v1")
+        with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
+            self.assertIn("Ana Dance", f.read())
+        self.assertEqual(jload("pedagogy/teachers.json")["teachers"][0]["methods_studied"], 1)
+        broken = Model(method=None, note=None)
+        with patch.object(teaching, "LLM", return_value=broken), patch.object(teaching, "fetch_comments", return_value=[]), \
+                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
+            rec = teaching.run(budget=5, science=2)
+        self.assertEqual(jload("pedagogy/methods/A1.json")["status"], "ok")
+        # three unreadable videos in a row: the stage stops asking (no research note is attempted either) and keeps what it has
+        self.assertEqual((rec["counters"].get("method_failed"), broken.asked), (3, ["method"] * 3))
+        self.assertEqual(jload("pedagogy/bdf_system.json")["counts"]["lessons_studied_for_method"], 2)
+
+    def test_with_the_engine_off_nothing_is_asked_and_the_tables_are_still_rebuilt(self):
+        jsave("tutorial_results.json", LESSONS)
+        model = Model(enabled=False)
+        with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", side_effect=AssertionError("no network when off")), \
+                patch.object(teaching, "science_sources", side_effect=AssertionError("no network when off")), patch.object(common, "log"):
+            rec = teaching.run(budget=5, science=3)
+        self.assertEqual((model.asked, rec["errors"]), ([], []))
+        self.assertEqual(len(jload("pedagogy/teachers.json")["teachers"]), 4)
+        self.assertTrue(os.path.exists("BDF_TEACHING_SYSTEM.md"))
+
+
+if __name__ == "__main__":
+    unittest.main()
