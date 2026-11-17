@@ -39,6 +39,7 @@ LESSONS = "tutorial_results.json"
 METHOD_SECONDS = 600
 RETRY_DAYS, SCIENCE_REFRESH_DAYS = 30, 180
 BASICS = "basics-"   # slug prefix of the lessons that teach what every dance shares
+TALKS = "how-teachers-teach"   # the basics topic that holds talks, not lessons
 
 # One vocabulary for all three kinds of evidence (teachers, learners, research): the join is on these keys.
 # key: (what it is, what a teacher does about it)
@@ -112,7 +113,7 @@ Output a single JSON object:
  "entry_points": [<any of: """ + ", ".join(ENTRY) + """>],
  "pace": {"talk_vs_move": "mostly_talk|balanced|mostly_move", "seconds_before_first_movement": <integer or null>, "pieces_taught": <integer or null>},
  "mentor": {"voice": [<any of: """ + ", ".join(VOICE) + """>],
-            "beliefs": [{"t": "m:ss", "belief": "<what the teacher says about dancing or about learning, in your own words, at most 25 words>"}],
+            "beliefs": [{"t": "m:ss", "belief": "<what the teacher says dancing is for, who can dance, or how people learn; never a step technique; in your own words, at most 25 words>"}],
             "feelings": [{"t": "m:ss", "feeling": "<one of: """ + ", ".join(FEELINGS) + """>", "response": "<what the teacher says or does about that feeling, at most 25 words>"}]},
  "learner_voice": {"struggles": [{"theme": "<what learners say they find hard, at most 12 words>", "tag": "<a tag from the list, or other>", "count": <comments saying it>}],
                    "clicked": [{"theme": "<what learners say made it work for them>", "tag": "<tag or other>", "count": <integer>}],
@@ -344,13 +345,16 @@ def video_facts(ids):
 
 def discover_foundations(store, state, searches, per_search=4, today=None):
     """A few searches a night, in turn through FOUNDATIONS. A video becomes a lesson only when learners praise it."""
-    flat = [(slug, q) for slug, _, qs in FOUNDATIONS for q in qs]
+    flat = [(slug, q) for slug, _, qs in FOUNDATIONS for q in qs if slug != TALKS]
+    talks = [(slug, q) for slug, _, qs in FOUNDATIONS for q in qs if slug == TALKS]
     seen, added = set(state.get("videos_seen") or []), 0
     topics = store.setdefault("topics", {})
-    for _ in range(max(0, searches)):
-        i = int(state.get("foundation_search") or 0)
-        slug, q = flat[i % len(flat)]
-        state["foundation_search"] = i + 1
+    for n in range(max(0, searches)):
+        # the night's last search looks for a teacher explaining how they teach: the mentor's own words must not wait their turn
+        pool, counter = (talks, "talk_search") if (talks and searches >= 2 and n == searches - 1) else (flat, "foundation_search")
+        i = int(state.get(counter) or 0)
+        slug, q = pool[i % len(pool)]
+        state[counter] = i + 1
         new = [x for x in ytdlp_search(q) if x not in seen]
         seen.update(new)
         if not new:
@@ -439,7 +443,7 @@ def normalise_method(jd):
     lv = jd.get("learner_voice") if isinstance(jd.get("learner_voice"), dict) else {}
     mt = jd.get("mentor") if isinstance(jd.get("mentor"), dict) else {}
     rows = lambda v: [x for x in v if isinstance(x, dict)] if isinstance(v, list) else []
-    return {
+    out = {
         "teacher_system": str(jd.get("teacher_system") or "").strip()[:500],
         "signature": str(jd.get("signature") or "").strip()[:300],
         "screen": {"views": _enum(sc.get("views"), VIEWS), "on_screen": _enum(sc.get("on_screen"), ON_SCREEN), "editing": _enum(sc.get("editing"), EDITING)},
@@ -459,6 +463,7 @@ def normalise_method(jd):
                                 for f in rows(mt.get("feelings")) if f.get("feeling") in FEELINGS and _secs(f.get("t")) is not None and str(f.get("response") or "").strip()][:6]},
         "learner_voice": {k: _voice(lv.get(k)) for k in ("struggles", "clicked", "requests", "meant")},
         "limits": str(jd.get("limits") or "").strip()[:300]}
+    return out
 
 def study(teacher, lesson, dance_name, llm, comments=()):
     yid = lesson["youtube_id"]
@@ -588,6 +593,13 @@ def _link(m, t):
     s = _secs(t)
     return m["url"] + (f"&t={s}s" if s else "")
 
+def _practices(m):
+    """What a lesson shows. A feeling the teacher names and answers IS the practice "names the feeling": the same moment counts for it."""
+    ps = list(m["method"]["practices"])
+    have = {(p["tag"], p["t"]) for p in ps}
+    return ps + [{"tag": "names_the_feeling", "t": f["t"], "what": f["response"]}
+                 for f in (m["method"].get("mentor") or {}).get("feelings") or [] if ("names_the_feeling", f["t"]) not in have]
+
 def fuse(teachers, methods, notes, family_of=None, today=None):
     family_of = family_of or {}
     fam = lambda m: "the basics" if str(m.get("slug") or "").startswith(BASICS) else (family_of.get(m.get("slug")) or "other")
@@ -599,7 +611,7 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
     cites = lambda n: max([int(s.get("cited_by") or 0) for s in n.get("sources") or []] or [0])
     practices = []
     for tag, meaning in PRACTICES.items():
-        using = [m for m in oks if any(p["tag"] == tag for p in m["method"]["practices"])]
+        using = [m for m in oks if any(p["tag"] == tag for p in _practices(m))]
         who = sorted({m["teacher_key"] for m in using})
         voice = {k: sum(v["count"] for m in oks for v in m["method"]["learner_voice"][k] if v["tag"] == tag) for k in ("struggles", "clicked", "requests")}
         themes = Counter()
@@ -611,11 +623,11 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
         ns = sorted((n for n in sci if tag in (n.get("tags") or [])), key=lambda n: (n["key"].startswith("paper-"), -len(n.get("findings") or []), -cites(n), n["key"]))
         seen, examples = set(), []
         for m in using:   # one example per teacher, best-ranked first
-            for p in m["method"]["practices"]:
+            for p in _practices(m):
                 if p["tag"] == tag and m["teacher"] not in seen:
                     seen.add(m["teacher"])
                     examples.append({"teacher": m["teacher"], "dance": m.get("dance"), "t": p["t"], "what": p["what"], "url": _link(m, p["t"])})
-        share = lambda group: (round(sum(1 for m in group if any(p["tag"] == tag for p in m["method"]["practices"])) / len(group), 2) if group else None)
+        share = lambda group: (round(sum(1 for m in group if any(p["tag"] == tag for p in _practices(m))) / len(group), 2) if group else None)
         shown, said = [m for m in using if m.get("kind") != "teacher_talk"], [m for m in using if m.get("kind") == "teacher_talk"]
         practices.append({"tag": tag, "meaning": meaning, "do": PRACTICE[tag][1], "lessons": len(shown), "talks": len(said), "teachers": len(who),
                           "show_it": len({m["teacher_key"] for m in shown}), "say_it": len({m["teacher_key"] for m in said}), "families": len({fam(m) for m in using}),
