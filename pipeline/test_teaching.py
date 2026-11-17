@@ -120,6 +120,13 @@ METHOD = {"is_lesson": True, "kind": "lesson",
                             "requests": [{"theme": "a slower version", "tag": "nonsense", "count": 2}],
                             "meant": [{"theme": "First time I felt I could dance", "tag": "quick_win", "count": 5}]},
           "limits": "the feet leave the frame"}
+LOOK = {"voice": ["patient", "robotic"],
+        "moments": [{"t": "0:03", "moment": "opening", "says": "Welcomes the learner and promises one step they will dance today.", "tag": "quick_win"},
+                    {"t": "4:10", "moment": "after_mistake", "says": "Laughs at her own slip and says a mistake means you are learning.", "tag": "normalise_mistakes"},
+                    {"t": "", "moment": "closing", "says": "no real time given"}, {"t": "5:00", "moment": "halftime", "says": "not a listed moment"}],
+        "beliefs": [{"t": "0:07", "about": "who_can_dance", "belief": "Anyone who can walk can dance."}, {"t": "1:00", "about": "a_step_or_technique", "belief": "Keep the knees soft."}],
+        "feelings": [{"t": "6:00", "feeling": "frustrated", "response": "Says to breathe and try the slow version."}],
+        "what_stays": "A learner leaves feeling they already are a dancer."}
 PAPER = {"url": "https://europepmc.org/article/MED/1", "kind": "paper", "title": "Focus of attention", "authors": "W", "year": "2001", "journal": "J", "cited_by": 5,
          "text": "Learners who directed attention to the effect of the movement learned the skill faster than learners who attended to their own limbs. "
                  "The advantage remained in a retention test one day later."}
@@ -132,12 +139,13 @@ NOTE = {"relevant": True, "principle": "Attending to the effect of a movement he
 
 class Model:
     """Stands in for the model client: answers by the kind of question, counts the questions."""
-    def __init__(self, enabled=True, method=METHOD, note=NOTE):
-        self.enabled, self.gemini_key, self.method, self.note, self.asked = enabled, "fixture" if enabled else "", method, note, []
+    def __init__(self, enabled=True, method=METHOD, note=NOTE, look=LOOK):
+        self.enabled, self.gemini_key, self.method, self.note, self.look, self.asked = enabled, "fixture" if enabled else "", method, note, look, []
 
     def json(self, system, user, **kw):
-        self.asked.append("method" if kw.get("video_url") else "science")
-        return self.method if kw.get("video_url") else self.note
+        kind = "look" if system == teaching.MENTOR_SYSTEM else ("method" if kw.get("video_url") else "science")
+        self.asked.append(kind)
+        return {"look": self.look, "method": self.method, "science": self.note}[kind]
 
     def record(self, rep):
         pass
@@ -180,6 +188,60 @@ class TeachingResearchTests(Project):
         self.assertEqual((ids(again), again[1], again[2]), (["F1", "A1", "B1", "C1"], 1, 0))
         # a lesson read before beliefs were kept apart from step technique is read once more
         self.assertTrue(teaching._due(dict(done["T1"], schema=2), today))
+
+    def test_the_mentor_look_adds_to_a_lesson_and_nothing_learned_is_lost(self):
+        os.makedirs(teaching.METHODS_DIR, exist_ok=True)
+        teachers = teaching.build_teachers(LESSONS)
+        ana = teachers[0]
+        rec = teaching.study(ana, ana["lessons"][0], "Salsa", Model())
+        self.assertTrue(teaching._look_due(rec))
+        self.assertEqual(teaching.look(rec, Model()), "ok")
+        mt = rec["method"]["mentor"]
+        # the look adds moments and a sorted belief; the feeling found by the first reading stays; a step technique is not a belief
+        self.assertEqual(([x["moment"] for x in mt["moments"]], mt["voice"], [(b["belief"], b.get("about")) for b in mt["beliefs"]], [f["feeling"] for f in mt["feelings"]]),
+                         (["opening", "after_mistake"], ["warm", "playful", "patient"], [("Anyone who can walk can dance.", "who_can_dance")], ["awkward", "frustrated"]))
+        self.assertEqual((rec["mentor_look"]["status"], rec["mentor_look"]["moments"], teaching._look_due(rec)), ("ok", 2, False))
+        # a look that fails changes nothing and is tried again two days later
+        other = teaching.study(ana, ana["lessons"][0], "Salsa", Model())
+        self.assertEqual((teaching.look(other, Model(look=None)), other["method"]["mentor"].get("moments"), teaching._look_due(other, dt.date.today())), ("failed", None, False))
+        self.assertTrue(teaching._look_due(other, dt.date.today() + dt.timedelta(days=2)))
+        # read once more (a new record version), the lesson keeps what the look found and what the first reading found
+        teaching.save_method(rec)
+        teaching.save_method(teaching.study(ana, ana["lessons"][0], "Salsa", Model(method=dict(METHOD, mentor={"voice": ["calm"], "beliefs": [], "feelings": []}))))
+        kept = jload("pedagogy/methods/A1.json")
+        self.assertEqual(([x["moment"] for x in kept["method"]["mentor"]["moments"]], [f["feeling"] for f in kept["method"]["mentor"]["feelings"]], kept["mentor_look"]["status"]),
+                         (["opening", "after_mistake"], ["awkward", "frustrated"], "ok"))
+        # the best-ranked teacher's lessons get the look first, one lesson of each teacher before a second; a lesson that has it is not asked again
+        b1 = json.loads(json.dumps(other)); b1.update(youtube_id="B1", teacher="Bo", teacher_key=teachers[1]["key"]); b1.pop("mentor_look")
+        a2 = json.loads(json.dumps(b1)); a2.update(youtube_id="A2", teacher="Ana Dance", teacher_key=ana["key"])
+        a3 = json.loads(json.dumps(a2)); a3["youtube_id"] = "A3"
+        self.assertEqual([m["youtube_id"] for m in teaching.pick_looks(teachers, {"A1": kept, "B1": b1, "A3": a3, "A2": a2}, 5)], ["A2", "B1", "A3"])
+        # the first reading sorts its beliefs too: a step technique is dropped, a sorted belief keeps its heading
+        m = teaching.normalise_method(dict(METHOD, mentor={"beliefs": [{"t": "0:10", "about": "a_step_or_technique", "belief": "Turns must be tight."},
+                                                                      {"t": "0:20", "about": "how_people_learn", "belief": "People learn by doing a little, often."}]}))
+        self.assertEqual(m["mentor"]["beliefs"], [{"t": "0:20", "belief": "People learn by doing a little, often.", "about": "how_people_learn"}])
+
+    def test_the_page_shows_what_teachers_say_at_the_moments_that_matter_and_what_they_believe(self):
+        methods = {}
+        for yid, who in (("A1", "Ana Dance"), ("B1", "Bo"), ("C1", "Cy")):
+            methods[yid] = {"youtube_id": yid, "status": "ok", "schema": teaching.SCHEMA, "kind": "lesson", "teacher": who, "teacher_key": teaching.channel_key(who), "teacher_score": 50,
+                            "slug": "salsa", "dance": "Salsa", "url": "https://www.youtube.com/watch?v=" + yid, "comments_read": 60, "method": teaching.normalise_method(METHOD)}
+        methods["C1"]["method"]["mentor"]["beliefs"][0]["belief"] = "Dancing is older than walking."
+        teaching.look(methods["A1"], Model()); teaching.look(methods["B1"], Model())
+        s = teaching.fuse(teaching.build_teachers(LESSONS, {}, methods), methods, {}, family_of={"salsa": "latin"}, today=dt.date(2026, 11, 17))
+        mentor, c = s["mentor"], s["counts"]
+        opening = next(x for x in mentor["moments"] if x["moment"] == "opening")
+        self.assertEqual((opening["seen"], opening["teachers"], opening["examples"][0]["teacher"], c["lessons_with_mentor_look"], c["mentor_moments"]), (2, 2, "Ana Dance", 2, 4))
+        creed = next(x for x in mentor["creed"] if x["about"] == "who_can_dance")
+        self.assertEqual((creed["teachers"], [b["belief"] for b in creed["beliefs"]]), (2, ["Anyone who can walk can dance."]))
+        # a moment that shows a practice is evidence for it: two teachers get the learner dancing something real at once
+        quick = next(p for p in s["practices"] if p["tag"] == "quick_win")
+        self.assertEqual((quick["teachers"], quick["examples"][0]["t"]), (2, "0:03"))
+        page = teaching.render(s)
+        for must in ("**How they open** (seen 2 times with 2 teachers)", "**After a mistake**", "**Who can dance** (2 teachers)", "A learner leaves feeling they already are a dancer.",
+                     "A second, narrower look at the mentor alone has been taken at 2 lessons.", "A teacher's belief: Dancing is older than walking."):
+            self.assertIn(must, page)
+        self.assertEqual(len(s["how_to_use"]), 5)
 
     def test_only_the_vocabulary_real_timestamps_and_nameless_themes_are_kept(self):
         m = teaching.normalise_method(METHOD)
@@ -258,7 +320,9 @@ class TeachingResearchTests(Project):
         with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", return_value=["the back view finally made it click"]), \
                 patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(teaching, "ytdlp_search", return_value=[]), patch.object(common, "log"):
             rec = teaching.run(budget=2, science=1)
-        self.assertEqual((rec["counters"].get("method_ok"), rec["counters"].get("science_ok"), model.asked), (2, 1, ["method", "method", "science"]))
+        # two lessons studied, then the mentor look at both, then the research note
+        self.assertEqual((rec["counters"].get("method_ok"), rec["counters"].get("mentor_look_ok"), rec["counters"].get("science_ok"), model.asked),
+                         (2, 2, 1, ["method", "method", "look", "look", "science"]))
         self.assertEqual([jload("pedagogy/methods/A1.json")[k] for k in ("comments_read", "schema", "kind")], [1, teaching.SCHEMA, "lesson"])
         self.assertEqual(jload("public/catalog/bdf_teaching_system.json")["contract"], "da_bdf_teaching_v1")
         with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
@@ -295,6 +359,14 @@ class TeachingResearchTests(Project):
             teaching.discover_foundations({}, state2, 3)
         talk_phrases = [q for slug, _, qs in teaching.FOUNDATIONS if slug == teaching.TALKS for q in qs]
         self.assertEqual((asked[2], asked[0] in talk_phrases, state2["foundation_search"], state2["talk_search"]), (talk_phrases[0], False, 2, 1))
+        # a talk is kept only when its title speaks of teaching or learning: the search also returns ordinary step lessons
+        store3 = {}
+        found = [{"youtube_id": "T1", "title": "5 steps every beginner should know", "channel": "Steps", "comments": 80},
+                 {"youtube_id": "T2", "title": "How I teach adults who think they cannot dance", "channel": "Quiet Teacher", "comments": 70}]
+        with patch.object(teaching, "ytdlp_search", side_effect=lambda q, n=15: ["T1", "T2"] if q in talk_phrases else []), patch.object(teaching, "video_facts", return_value=found), \
+                patch.object(teaching, "fetch_comments", return_value=said["F1"]):
+            teaching.discover_foundations(store3, {}, 2)
+        self.assertEqual([l["youtube_id"] for l in store3["topics"][teaching.TALKS]["lessons"]], ["T2"])
 
     def test_the_open_search_never_reads_a_paper_twice_and_the_model_proposes_its_tags(self):
         papers = [dict(PAPER, url="https://europepmc.org/article/MED/%d" % i, title="Paper %d" % i) for i in (1, 2, 3)]
