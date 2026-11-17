@@ -1,11 +1,11 @@
 # LEDGER — start here (any AI, any platform)
 
-_Last written 17 November 2026 by Claude. Keep this file under two pages. Read this, `STATUS.md`, `ACTIVE_READY.md` and the top of `BDF_TEACHING_SYSTEM.md`; open the long documents only for the section you need. That is the token rule: the owner pays for every page you read._
+_Last written 17 November 2026 by Claude. Keep this file under two pages. Read this, `STATUS.md`, `ACTIVE_READY.md` and the first three sections of `BDF_TEACHING_SYSTEM.md`; open the long documents only for the section you need. That is the token rule: the owner pays for every page you read._
 
 ## The two missions now (owner, 16 and 17 November 2026)
 
 1. **The starting line.** Many thousands of **active-ready** profiles, built by the machine alone while the owner is away for months. A profile is active-ready when everything an AI teaching service needs to write the lesson for that dance has been gathered and source-checked (`pipeline/readiness.py`, fifteen items, measured daily, no model calls). After the line come the things a machine cannot grant: human review, music rights, platform tests (`ACTIVE_PROFILE_STANDARD.md`).
-2. **Teaching research for the Best Dance Friend (BDF).** A standing, endless study of how the best online dance classes teach: the teachers learners praise most, their screen and sequence, their encouragement, what they offer when a learner struggles, what learners themselves say, and what research on learning movement says. Three kinds of evidence are joined per teaching practice in `BDF_TEACHING_SYSTEM.md` (`pipeline/teaching.py`).
+2. **Teaching research for the Best Dance Friend (BDF).** A standing, endless study of how to teach anyone to dance, the core of BDF's way of teaching (`pipeline/teaching.py`). It finds lessons (for each dance, and for what every dance shares: the beat, groove, balance, confidence), ranks their teachers by learners' praise, watches the best lessons for method and reads their comments, reads the research (a list of topics and an open search of the most cited papers), and joins the three kinds of evidence per teaching practice. `BDF_TEACHING_SYSTEM.md` opens with the summary: where the research stands, the teaching DNA so far, how BDF adjusts to a difficulty.
 
 The long vision is unchanged: BDF, the best dance teacher in the world, a search engine for dance, a social tool that matches dancers, AR (`PRODUCT_VISION.md`, V01–V18).
 
@@ -16,7 +16,7 @@ The long vision is unchanged: BDF, the best dance teacher in the world, a search
 - That night 71 of 312 model questions went unanswered and no performance was observed. One flash-lite model carried most of the work, answered "overloaded" 46 times, and each question that arrived while it rested was dropped; one unreadable video put a strike on six models. Fixed 17 November: a question waits for a resting model (at most 40 minutes a run), rests are short, an unusable answer is the question's fault. Each stage writes `model trouble: …` into `pipeline_state/runs.json`: no log reading needed.
 - Engine: **Google Gemini's free tier only** (AI Studio, 16 November: tier Free, no billing attached). OpenAI is off; its key is not passed to any workflow. Free limits seen: flash 20 requests a day per model; only the newest flash-lite model has a large day quota.
 - Database jobs, proven live 16 November: 16 rows written where the old jobs wrote 1,191 a day.
-- Teaching research: 270 teachers ranked from 423 lessons at the first build; method study and research notes grow nightly from 17 November.
+- Teaching research, first live run (run 36, 17 November, 6 minutes): 270 teachers ranked from 423 lessons, 3 lessons studied for method with 180 comments read, 3 research notes with 12 checked findings, no question unanswered although the model answered "overloaded" three times.
 
 ## What runs by itself (GitHub Actions, no Claude, no Lovable, $0)
 
@@ -24,7 +24,7 @@ The long vision is unchanged: BDF, the best dance teacher in the world, a search
 |---|---|---|
 | 08:15 daily | `crawl` | hero videos; lessons searched in English and the tradition's own language, retried every 45 days |
 | 08:45–08:55 | `push_*` | mirror to Supabase, only rows that changed |
-| 09:20 daily | `atlas_daily` | audit → discover (60) → research (40 new + 30 deeper) → QC → hero check (120) → build → video study (24 lessons + 30 performances) → **teaching research** (10 lessons for method + 3 research notes) → scripts → translate → activation → **readiness** → sync → report |
+| 09:20 daily | `atlas_daily` | audit → discover (60) → research (40 new + 30 deeper) → QC → hero check (120) → build → video study (24 lessons + 30 performances) → **teaching research** (3 free searches for basics lessons, 10 lessons watched for method, 3 research topics + 2 papers) → scripts → translate → activation → **readiness** → sync → report |
 | every 6 h | `watchdog` | restarts a schedule GitHub dropped |
 | Sunday 23:23 | `weekly_report` | the owner's e-mail: active-ready first, engine status, teaching research, one action at most |
 | 1st of month | `monthly_snapshot` | a dated safety copy of everything |
@@ -44,14 +44,14 @@ GitHub starts these hours late (on 16 November: crawl 18:28, pushes 18:56, night
 
 ## Where things are
 
-`pipeline/` code · `research_results/`, `qc_results/` profiles and verdicts · `pedagogy/videos/`, `pedagogy/performances/` video study of each dance · `pedagogy/teachers.json`, `pedagogy/methods/`, `pedagogy/science/`, `pedagogy/bdf_system.json` teaching research · `pipeline_state/` state (`spending_policy.json`, `active_ready.json`, `runs.json`) · `public/catalog/` what the site and a teaching service read (`active_ready.json`, `bdf_teaching_system.json`) · `STATUS.md` daily page · `ACTIVE_READY.md` the line · `BDF_TEACHING_SYSTEM.md` how the best classes teach · `IMPLEMENTATION_LEDGER.md` dated record of every change · `AI_BRIEF.md` system detail · `PRODUCT_VISION.md` the whole vision.
+`pipeline/` code · `research_results/`, `qc_results/` profiles and verdicts · `pedagogy/videos/`, `pedagogy/performances/` video study of each dance · `pedagogy/teachers.json`, `pedagogy/foundation_lessons.json`, `pedagogy/methods/`, `pedagogy/science/`, `pedagogy/bdf_system.json` teaching research · `pipeline_state/` state (`spending_policy.json`, `active_ready.json`, `runs.json`) · `public/catalog/` what the site and a teaching service read (`active_ready.json`, `bdf_teaching_system.json`) · `STATUS.md` daily page · `ACTIVE_READY.md` the line · `BDF_TEACHING_SYSTEM.md` how the best classes teach · `IMPLEMENTATION_LEDGER.md` dated record of every change · `AI_BRIEF.md` system detail · `PRODUCT_VISION.md` the whole vision.
 Platforms: GitHub `DANCEATLAS/crawler` (source of truth) · Lovable project `f79f3666-564d-4799-befe-8b48d1f0a007` (UI and an instructions mirror) · Supabase project `maojpsywvbksrwkrxmjx` (mirror, Viral, accounts) · site `dancingatlas.lovable.app`.
 
 ## Open, in order
 
 1. **Watch the unanswered share** (`llm_unanswered` of `llm_requests` per stage in `runs.json`). It should fall well under the first night's 23 %, and performances should be observed. If `waited_seconds` reaches 2,400 night after night, the free lane is too small for the budgets: lower `HERO_QC_BUDGET` first.
 2. **Lessons are the lever.** Active-ready needs steps with counts, and those come from lessons. If the count stalls, improve lesson finding (`crawler.py`, `lesson_eval`) first.
-3. **Teaching research, next.** (a) Follow the best-ranked teachers to their other lessons; today only lessons found per dance are seen. (b) A person checks a sample of timestamps before the page is used to build BDF. (c) New research topics are one line each (`SCIENCE` in `pipeline/teaching.py`).
+3. **Teaching research, next.** (a) Follow the best-ranked teachers to their other lessons; today a teacher is seen only through lessons found by a search. (b) A person checks a sample of timestamps before the page is used to build BDF. (c) Widening is one line each in `pipeline/teaching.py`: a research topic (`SCIENCE`), a query of the open paper search (`PAPER_QUERIES`), a basics topic or a search phrase in another language (`FOUNDATIONS`), a teaching practice (`PRACTICE`, then add it to a theme).
 4. **Sacred flags.** Half of the withheld pages are the writer's judgment calls; a second opinion from the QC judge, quoting the restricting sentence, is the next refinement.
 5. **Database size.** The Supabase audit log held about 541 MB on 11 November (free limit 500 MB); writes still worked on 16 November and the cause is fixed. Clearing the old log needs the owner's yes and the Supabase account that owns the project.
 6. **Discovery breadth.** Present sources reach roughly 2,500 dances; more need Wikidata items with no English article (`pipeline/discover.py`).
