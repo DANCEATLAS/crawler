@@ -1,6 +1,6 @@
 # Marinera Norteña — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
 
@@ -84,7 +84,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hold a handkerchief in one hand while facing your partner
 NARRATION: Step forward with the right foot, tapping the floor lightly
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -113,7 +113,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated Afro-Peruvian percussion with melodic guitar and clarinet lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -126,10 +126,10 @@ NARRATION: Step 1: Hold a handkerchief in one hand while facing your partner
 NARRATION: Step 2: Step forward with the right foot, tapping the floor lightly
 NARRATION: Footwork from the sources: Quick taps, heel and toe alternations (zapateo), circling steps; women barefoot with adapted soles
 NARRATION: Drill: Practice stepping forward and backward with handkerchief in hand
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step backward with the left foot, waving the handkerchief
@@ -137,7 +137,7 @@ NARRATION: Step 4: Perform zapateo by tapping the heel and toe alternately
 NARRATION: Drill: Simple circular movement around a partner
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -150,13 +150,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Women must not wear footwear during performance; avoid slipping on rough surfaces without preparation
+NARRATION: Teachers of this dance warn against: not keeping the support leg straight during hip movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified handkerchief waving and stepping in place
 MUSIC: silence
 OPTIONS: For children: simplified handkerchief waving and stepping in place (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -187,7 +188,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated Afro-Peruvian percussion with melodic guitar and clarinet lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -199,10 +200,10 @@ NEEDS: tempo
 NARRATION: Step 1: Circle around your partner maintaining eye contact
 NARRATION: Step 2: Use flirtatious gestures with arms and head
 NARRATION: Drill: Combine zapateo with handkerchief twirling
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: For women, practice barefoot foot placement and balance
@@ -213,7 +214,7 @@ NARRATION: Drill: Practice barefoot balance and foot placement
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -226,13 +227,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Women must not wear footwear during performance; avoid slipping on rough surfaces without preparation
+NARRATION: Teachers of this dance warn against: not keeping the support leg straight during hip movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified handkerchief waving and stepping in place
 MUSIC: silence
 OPTIONS: For children: simplified handkerchief waving and stepping in place (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in pairs, loosely facing each other, moving in circular patterns
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -263,7 +265,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated Afro-Peruvian percussion with melodic guitar and clarinet lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -275,10 +277,10 @@ NEEDS: tempo
 NARRATION: Step 1: For women, practice barefoot foot placement and balance
 NARRATION: Step 2: Men practice zapateo rhythm and footwork precision
 NARRATION: Drill: Sustain zapateo at performance tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Handkerchief Wave: Flirtatious waving and twirling of handkerchiefs by both partners
@@ -286,7 +288,7 @@ NARRATION: Drill: Practice dancing barefoot on varied surfaces
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -299,13 +301,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Women must not wear footwear during performance; avoid slipping on rough surfaces without preparation
+NARRATION: Teachers of this dance warn against: not keeping the support leg straight during hip movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified handkerchief waving and stepping in place
 MUSIC: silence
 OPTIONS: For children: simplified handkerchief waving and stepping in place (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in pairs, loosely facing each other, moving in circular patterns
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -342,9 +345,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 8
+Cues: barriguita metida; levanto mi mentn; siempre sonriendo; pie en punta; taco taco; punta y taco
+Common mistakes the studied teachers name: not keeping the support leg straight during hip movements
 
 Sources (5): https://en.wikipedia.org/wiki/Marinera; https://www.wikidata.org/wiki/Q222445; https://es.wikipedia.org/wiki/Marinera; https://fr.wikipedia.org/wiki/Marinera; https://pt.wikipedia.org/wiki/Marinera

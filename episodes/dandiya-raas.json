@@ -1,0 +1,443 @@
+{
+ "slug": "dandiya-raas",
+ "name": "Dandiya Raas",
+ "pack_version": "e2",
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T20:04:07Z",
+ "qc_score": 9.1,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A traditional folk dance practitioner",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Dandiya Raas",
+   "Raas"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Dandiya Raas",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Rhythm of the Sword",
+     "This is Dandiya Raas. Historical to modern."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Dandiya Raas · India · Historical to modern"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in Gujarat and Rajasthan during the Gurjara empire.",
+     "It is a socio-religious form that has transitioned from a communal, ritualistic practice to a highly structured competitive sport in the collegiate circuit."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during Sharad Navratri, Janmashtami fairs, and weddings.",
+     "It represents the battle between the goddess Durga and the demon Mahishasura.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Dandiya Raas: A Folk dance form of Gujarat (https://archive.org/details/dni.ncaa.CCRT-156-UMHB)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers operate in pairs, forming two lines that move clockwise.",
+     "The basic movement involves an eight-beat cycle where dancers hit their own sticks, then their partner's right and left sticks, before moving on to the next partner in the line.",
+     "Watch for stick-clashing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: two lines, partners facing each other, moving clockwise"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music follows an eight-beat time cycle called Kaherva.",
+     "The primary 'instrument' is the pair of wooden sticks used to mark time and create the percussive sound of the dance.",
+     "Listen for the dandiya sticks.",
+     "The pulse is 8-beat.",
+     "The music is characterized by a rhythmic clattering of sticks marking time, starting slowly and building in intensity."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Teams are expected to wear traditional Garba-Raas clothing.",
+     "In competitive settings, the dance is performed on auditorium stages with elaborate sets and props."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Kapila Vatsyayan is noted for her work on the aesthetic theory of Rasa, which provides the underlying unity to Indian arts.",
+     "Popular forms include Dandiya Raas, Gopgunthan Solanga Raas, and Mer Dandiya Raas.",
+     "The dance is a branch of the broader Indian folk dance tradition, with modern competitive Garba-Raas emerging as a distinct style influenced by traditional Dandiya and Garba."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Dandiya Raas is sibling of Garba: Often performed together in the competitive Garba-Raas style."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance represents the battle between the goddess Durga and the demon Mahishasura; the sticks symbolize the swords of Durga."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Learn the ancient steps of Dandiya Raas, where wooden sticks become the weapons of a goddess.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "8-beat",
+  "rhythm_pattern": null,
+  "instruments": [
+   "dandiya sticks"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "rhythmic",
+   "intense",
+   "enthusiastic"
+  ],
+  "sound_description": "The music is characterized by a rhythmic clattering of sticks marking time, starting slowly and building in intensity.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Dandiya Raas (India). Meter 8-beat. Instruments: dandiya sticks. Mood: rhythmic, intense, enthusiastic. It should sound like this: The music is characterized by a rhythmic clattering of sticks marking time, starting slowly and building in intensity. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Teams are expected to wear traditional Garba-Raas clothing. In competitive settings, the dance is performed on auditorium stages with elaborate sets and props.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AChildren_performing_Dandiya_in_Palace_Grounds%2C_Bangalore.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADandiya.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACollegiate_Garba-Raas.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Children_performing_Dandiya_in_Palace_Grounds%2C_Bangalore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Children_performing_Dandiya_in_Palace_Grounds%2C_Bangalore.jpg/1280px-Children_performing_Dandiya_in_Palace_Grounds%2C_Bangalore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "User:psubhashish / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChildren_performing_Dandiya_in_Palace_Grounds%2C_Bangalore.jpg",
+    "description": "Children performing Dandiya in Palace Grounds, Bangalore.\n\n\nCredit information:\n\nThis work was created by Subhashish Panigrahi. You are free to use it for any purpose as long as you credit me properly.\n✐ Contact me (log in required) • ✍︎ Email\n\nIf you are the subject of the picture and would like to schedule another shoot.\nIf you're unsure about how you can use this picture.\nReuse:\n\nIf you use thi"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Dandiya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Dandiya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Biswasmegha.bis / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADandiya.jpg",
+    "description": "रास अथवा दांडिया रास एक सांस्कृति निरत्य है जो गुजरात के भारत मे मनाया जाता है"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Collegiate_Garba-Raas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Collegiate_Garba-Raas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Dogsrule0305 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACollegiate_Garba-Raas.jpg",
+    "description": "This image shows a college Garba-Raas team dressed in the traditional Gujarati Garba-Raas clothing for a competition."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Competition_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Competition_photo.jpg/1280px-Competition_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ideasinimagining / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACompetition_photo.jpg",
+    "description": "Collegiate Garba-Raas team performing for national competition in traditional clothing and dandiyas"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Dandiya Raas: A Folk dance form of Gujarat",
+    "url": "https://archive.org/details/dni.ncaa.CCRT-156-UMHB",
+    "year": 1989,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Raas Mahotsav, Gauhati University.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Raas_Mahotsav%2C_Gauhati_University.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 4.0",
+    "attribution": "পাপৰি বৰা / Wikimedia Commons / CC BY 4.0"
+   },
+   {
+    "title": "File:Raas Mahotsav, Gauhati University,2025.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Raas_Mahotsav%2C_Gauhati_University%2C2025.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 4.0",
+    "attribution": "পাপৰি বৰা / Wikimedia Commons / CC BY 4.0"
+   },
+   {
+    "title": "Indian Dance performance",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-506-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Serai Kalla Chhau Dance by Guru Kedar Nath Sahu and his disciples",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-488-VHS",
+    "year": 1988,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Indian Dance and Music performance",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-789-VHS",
+    "year": 1991,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Bloomington Breakfast Club - Season 9 Episode 4",
+    "url": "https://archive.org/details/iustvin-The_Bloomington_Breakfast_Club_-_Season_9_Episode_4",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Classical Dance: Manipuri Raas",
+    "url": "https://archive.org/details/dni.ncaa.CCRT-388-BC",
+    "year": 2000,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Wooden sticks",
+   "Navratri festival colors",
+   "Two lines of dancers"
+  ],
+  "costume_notes": "Teams are expected to wear traditional Garba-Raas clothing. In competitive settings, the dance is performed on auditorium stages with elaborate sets and props.",
+  "setting_notes": "The dance is performed during Sharad Navratri, Janmashtami fairs, and weddings. It represents the battle between the goddess Durga and the demon Mahishasura.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "41 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 41,
+  "counting": "count the 8-beat bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto",
+   "viene y",
+   "preparacin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dandiya_Raas",
+  "https://www.wikidata.org/wiki/Q3629880"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "e88d8e90bb179b600b10ffb51d55393167a33da3baa2f68cf2d94e8b91b3c9b7",
+ "hero_checked": null
+}

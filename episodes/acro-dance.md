@@ -1,6 +1,6 @@
 # Acro dance — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.7 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-18 · judge 9.7 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the music & instruments section
 
@@ -26,16 +26,16 @@ ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Dancers perform in competitive dance, professional theater, and contemporary circus productions like Cirque du Soleil.
-NARRATION: Today it remains a living tradition.
+NARRATION: Performers take the stage in competitive dance, professional theater, and contemporary circus productions like Cirque du Soleil.
+NARRATION: Today, it remains a living tradition.
 ON SCREEN: Footage: Show Time: On Stage Amazing (https://archive.org/details/PA6096870)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Acro dance requires fluid transitions between dance steps and acrobatic tricks.
 NARRATION: It relies on a foundation of ballet, jazz, or contemporary dance.
-NARRATION: Tricks are categorized as solo, partner, known as adagio, or group, known as pyramids.
-NARRATION: Watch for the Pitch tuck, Bridge pyramid, and Triple cartwheel.
+NARRATION: Tricks are categorized as solo, partner adagio, or group pyramids.
+NARRATION: Watch for the pitch tuck, bridge pyramid, and triple cartwheel.
 ON SCREEN: Hero video full screen, 30–45 s (KeqgvrUKRkQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo, pair, or group formations; requires fluid transitions across the performance space.
@@ -56,16 +56,16 @@ ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Sherman Coates, Tommy Woods, Lulu Coates, and Miriam, the acrobatic tapper, shape this art.
-NARRATION: It has origins in North America across the US and Canada, and is now practiced globally.
-NARRATION: The style evolved from vaudeville variety acts into a modern discipline integrated with ballet and contemporary dance technique.
+NARRATION: Key figures include Sherman Coates, Tommy Woods, Lulu Coates, and Miriam, known as the acrobatic tapper.
+NARRATION: With origins in North America, it is now practiced globally.
+NARRATION: It evolved from vaudeville variety acts into a modern discipline integrated with ballet and contemporary dance technique.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Acro dance is influenced by ballet, which provides the foundational technique for modern acro dance.
-NARRATION: Acro dance is also influenced by jazz dance, serving as a primary foundation for acro dance movements.
+NARRATION: Ballet provides the foundational technique for modern acro dance.
+NARRATION: Jazz dance serves as a primary foundation for acro dance movements.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -87,14 +87,14 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — Understand the importance of form-fitting attire and basic balance. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps. Today, understand the importance of form-fitting attire and basic balance.
-NARRATION: The level is beginner, while the difficulty of the dance overall is advanced.
+NARRATION: Chapter 1 covers first steps. Today, we understand the importance of form-fitting attire and basic balance.
+NARRATION: This is a beginner level lesson, though the dance overall is advanced.
 NARRATION: Your instructor is a professional dancer with a background in both contemporary dance and circus arts.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture is upright and form-fitting, and body lines are emphasized.
+NARRATION: Keep your posture upright and form-fitting to emphasize body lines.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -107,10 +107,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1 is the press up handstand.
-NARRATION: Step 2 is the cartwheel.
-NARRATION: Footwork from the sources utilizes jazz shoes or foot thongs for traction and cushioning on hard surfaces.
-NARRATION: The drill focuses on posture alignment.
+NARRATION: Step 1 is a press up handstand.
+NARRATION: Step 2 is a cartwheel.
+NARRATION: Utilize jazz shoes or foot thongs for traction and cushioning on hard surfaces.
+NARRATION: Drill: focus on posture alignment.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -118,15 +118,15 @@ COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3 is the bridge pyramid.
-NARRATION: The drill focuses on basic balance holds.
+NARRATION: Drill: practice basic balance holds.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Put Step A and Step B together without stopping, going slowly first.
-NARRATION: Now try half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors, so your right is your right.
+NARRATION: Combine Step A and Step B without stopping, starting slowly.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor mirrors you, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -139,8 +139,8 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in: 5, 6, 7, 8.
-NARRATION: Dance the full tempo of the whole sequence twice.
+NARRATION: Count-in: 5-6-7-8.
+NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -156,14 +156,14 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Execute smooth transitions between dance and floor work. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 builds the dance. Today, execute smooth transitions between dance and floor work.
-NARRATION: The level is intermediate, while the difficulty of the dance overall is advanced.
+NARRATION: Chapter 2 is about building the dance. Today, we execute smooth transitions between dance and floor work.
+NARRATION: This is an intermediate level lesson in an advanced discipline.
 NARRATION: Your instructor is a professional dancer with a background in both contemporary dance and circus arts.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture is upright and form-fitting, and body lines are emphasized.
+NARRATION: Keep your posture upright and form-fitting to emphasize body lines.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -176,9 +176,9 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1 is the press up handstand.
-NARRATION: Step 2 is the cartwheel.
-NARRATION: The drill focuses on jazz-based movement transitions.
+NARRATION: Step 1 is a press up handstand.
+NARRATION: Step 2 is a cartwheel.
+NARRATION: Drill: focus on jazz-based movement transitions.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -186,18 +186,18 @@ COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3 is the bridge pyramid.
-NARRATION: In the pitch tuck, one dancer forms a saddle with hands to propel a partner upward for a rotation.
-NARRATION: The bridge pyramid is a group trick involving multiple dancers forming a pyramid structure.
-NARRATION: The drill focuses on controlled floor work.
+NARRATION: In a pitch tuck, one dancer forms a saddle with their hands to propel a partner upward for a rotation.
+NARRATION: A bridge pyramid is a group trick involving multiple dancers forming a pyramid structure.
+NARRATION: Drill: practice controlled floor work.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Put Step A and Step B together without stopping, going slowly first.
-NARRATION: Now try half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors, so your right is your right.
+NARRATION: Combine Step A and Step B without stopping, starting slowly.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor mirrors you, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -210,8 +210,8 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in: 5, 6, 7, 8.
-NARRATION: Dance the full tempo of the whole sequence twice, utilizing solo, pair, or group formations that require fluid transitions across the performance space.
+NARRATION: Count-in: 5-6-7-8.
+NARRATION: Full tempo, the whole sequence, twice. Formation: Solo, pair, or group formations; requires fluid transitions across the performance space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -227,14 +227,14 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Integrate complex tricks into a dance sequence. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 dances it fully. Today, integrate complex tricks into a dance sequence.
-NARRATION: The level is advanced, and the difficulty of the dance overall is advanced.
+NARRATION: Chapter 3 is about dancing it fully. Today, we integrate complex tricks into a dance sequence.
+NARRATION: This is an advanced level lesson.
 NARRATION: Your instructor is a professional dancer with a background in both contemporary dance and circus arts.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture is upright and form-fitting, and body lines are emphasized.
+NARRATION: Keep your posture upright and form-fitting to emphasize body lines.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -247,9 +247,9 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1 is the cartwheel.
-NARRATION: Step 2 is the bridge pyramid.
-NARRATION: The drill focuses on the press up handstand.
+NARRATION: Step 1 is a cartwheel.
+NARRATION: Step 2 is a bridge pyramid.
+NARRATION: Drill: practice the press up handstand.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -257,16 +257,16 @@ COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The triple cartwheel is a group acrobatic movement.
-NARRATION: The drill focuses on partnered adagio elements.
+NARRATION: Drill: focus on partnered adagio elements.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Put Step A and Step B together without stopping, going slowly first.
-NARRATION: Now try half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors, so your right is your right.
+NARRATION: Combine Step A and Step B without stopping, starting slowly.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor mirrors you, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -279,8 +279,8 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in: 5, 6, 7, 8.
-NARRATION: Dance the full tempo of the whole sequence twice, utilizing solo, pair, or group formations that require fluid transitions across the performance space.
+NARRATION: Count-in: 5-6-7-8.
+NARRATION: Full tempo, the whole sequence, twice. Formation: Solo, pair, or group formations; requires fluid transitions across the performance space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full

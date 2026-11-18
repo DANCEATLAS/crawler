@@ -1,0 +1,120 @@
+{
+ "slug": "mdundiko",
+ "qc_at": "2026-11-18T21:20:32Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Mdundiko"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "62"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "197"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Born from the Zaramo community in Dar es Salaam, Mdundiko rhythms have transitio"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "479"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2144"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Tanzania"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-sourced. While technical movement details are sparse in the literature, the profile handles this honestly without inventing filler. The cultural context is handled with appropriate care, and the connection to Bongo Flava is clearly framed as a stylistic evolution rather than a replacement of the ritual tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.3",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T19:34:44Z"
+}

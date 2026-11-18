@@ -1,0 +1,119 @@
+{
+ "slug": "canadian-dance",
+ "qc_at": "2026-11-18T21:19:44Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Canadian dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "195"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1939, English dancer Gweneth Lloyd arrived in Winnipeg to establish Canada's "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "780"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2200"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Canada"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The profile describes a national dance ecosystem rather than a specific dance tradition. While the historical facts are accurate and well-cited, it fails the 'is_a_dance' criterion. It functions as an encyclopedic overview of a country's performing arts sector rather than a guide to a singular dance style."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=7.95",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T18:56:24Z"
+}

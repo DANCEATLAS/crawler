@@ -1,8 +1,8 @@
 # Chaiti Ghoda Nacha — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-18 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned Keot elder who emphasizes the spiritual weight of the horse frame.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Fishermen's Horse
 NARRATION: This is Chaiti Ghoda Nacha. 10th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (a1jX37KcA2Y)
 ON SCREEN: Title card: Chaiti Ghoda Nacha · India · 10th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: A dancer enters the hollow bamboo frame of the dummy horse, which is 
 NARRATION: The movement mimics the gait of a horse, coordinated with the Rauta and Rautani who sing and dance alongside.
 NARRATION: The performance involves rhythmic footwork synchronized with the dhola drum and mahuri melodies.
 NARRATION: Watch for Ghoda Nacha.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (a1jX37KcA2Y)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Open village spaces; the horse moves through the crowd or in a central performance area.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -101,7 +101,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'a1jX37KcA2Y', 'checked_by_vision_model': False, 'title': "Puri: Artists Perform Traditional Folk dance 'Chaiti Ghoda Nacha' At Badadanda"}
 Images: 6 licensed — Prateek Pattanaik / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Subhashish Panigrahi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Subhashish Panigrahi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kritzolina / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Government of Odisha / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: File:Ghoda Nacha.webm — https://upload.wikimedia.org/wikipedia/commons/6/6d/Ghoda_Nacha.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Ghoda Nacha in Village.webm — https://upload.wikimedia.org/wikipedia/commons/0/0d/Ghoda_Nacha_in_Village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dance of Orissa by Sangeet Kala Sansad — https://archive.org/details/dni.ncaa.ICCR-2733-VHS
 Motifs: Red clay-stained bamboo, Hibiscus flower garlands, The silhouette of the wooden horse head against a full moon, The vibrant contrast of the Rautani's female attire
@@ -111,9 +111,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
+Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
 
 Sources (2): https://en.wikipedia.org/wiki/Chaiti_ghoda; https://www.wikidata.org/wiki/Q15724049

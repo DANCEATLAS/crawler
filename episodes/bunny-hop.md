@@ -1,6 +1,6 @@
 # Bunny hop — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); the costume & setting section
 
@@ -137,9 +137,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: not preloading or forcing weight downward correctly
 NARRATION: Teachers of this dance warn against: stabbing your toe pick in
 NARRATION: Teachers of this dance warn against: forgetting to step your other foot down
-NARRATION: Teachers of this dance warn against: doing too many toe picks and sliding on your face
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the foot taps and hops while seated, holding the shoulders of the person in front. · For children: Play as a 'Follow the Leader' game in a line.
 MUSIC: silence
@@ -206,9 +206,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: not preloading or forcing weight downward correctly
 NARRATION: Teachers of this dance warn against: stabbing your toe pick in
 NARRATION: Teachers of this dance warn against: forgetting to step your other foot down
-NARRATION: Teachers of this dance warn against: doing too many toe picks and sliding on your face
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the foot taps and hops while seated, holding the shoulders of the person in front. · For children: Play as a 'Follow the Leader' game in a line.
 MUSIC: silence
@@ -276,9 +276,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: not preloading or forcing weight downward correctly
 NARRATION: Teachers of this dance warn against: stabbing your toe pick in
 NARRATION: Teachers of this dance warn against: forgetting to step your other foot down
-NARRATION: Teachers of this dance warn against: doing too many toe picks and sliding on your face
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the foot taps and hops while seated, holding the shoulders of the person in front. · For children: Play as a 'Follow the Leader' game in a line.
 MUSIC: silence
@@ -324,10 +324,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: left-right-left
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: glide; toe pick; step flat
-Common mistakes the studied teachers name: stabbing your toe pick in; forgetting to step your other foot down; doing too many toe picks and sliding on your face
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → full
+Cues: drop your seat; meerkat position; preload; lunge forwards; glide; toe pick; step flat
+Common mistakes the studied teachers name: not preloading or forcing weight downward correctly; stabbing your toe pick in; forgetting to step your other foot down; doing too many toe picks and sliding on your face
 
 Sources (2): https://en.wikipedia.org/wiki/Bunny_hop_(dance); https://www.wikidata.org/wiki/Q4997884

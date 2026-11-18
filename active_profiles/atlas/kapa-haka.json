@@ -1,23 +1,71 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Wiri: trembling of hands to indicate the interface between mind and body.",
+      "difficulty": "intermediate",
+      "footwork": "Takahi: lifting the right foot and stamping, with the left knee slightly bent.",
+      "formation_and_space": "Performers stand in ranks (kapa).",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Synchronized group movement.",
+      "posture": "Upright and synchronized.",
+      "signature_moves": [
+        {
+          "description": "Trembling of the hands representing shimmering air.",
+          "name": "Wiri"
+        },
+        {
+          "description": "Widening of the eyes to emphasize expression.",
+          "name": "Pūkana"
+        }
+      ],
+      "tempo_feel": "Varies by discipline.",
+      "what_to_avoid": "Avoid disrespectful mimicry of sacred gestures like pūkana or whētero."
+    },
+    "music_profile": {
+      "instruments": [
+        "Guitar",
+        "Pūtatara",
+        "Poi",
+        "Rākau"
+      ],
+      "meter": "Triple meter (haka)",
+      "mood_keywords": [
+        "Powerful",
+        "Synchronized",
+        "Expressive"
+      ],
+      "musical_form": "Suite of songs and dances.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic foot stamping (takahi) and body percussion.",
+      "sound_description": "A blend of European-style vocal harmony and traditional Māori chanting, punctuated by the percussive sounds of poi striking hands and rhythmic foot stamping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Choral harmony and traditional unison mōteatea."
+    },
     "teaching": {
       "basic_steps": [
-        "Foot stamping",
-        "Hand trembling (wiri)",
-        "Swinging poi balls",
-        "Pūkana glaring facial expressions"
+        "Wiri: Rapid trembling of the hands.",
+        "Takahi: Rhythmic foot stamping.",
+        "Pūkana: Widening of the eyes to emphasize expression.",
+        "Whētero: Protrusion of the tongue (men only)."
       ],
-      "formation": "Mixed groups in synchronized lines, with men typically in front for haka and women in front for poi or action songs",
-      "level_notes": "Requires rigorous synchronisation of action, timing, posture, footwork, and sound across a multi-part suite.",
-      "rhythm": "Triple metre for haka items"
+      "formation": "Group ranks (kapa).",
+      "level_notes": "Beginners should focus on synchronization and the wiri technique.",
+      "rhythm": "Triple meter for haka; varied for choral songs."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "30acb6a9fbcbecc898713ef1036588cbf5ad546abd18ab7c873450e32b3024ba",
+  "fingerprint": "72440b1eab75e2a84ccf54906fe3732d65e3695f429ba855fd6b7cc9f7c2e983",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -25,9 +73,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there standardized choreographic notation systems for Kapa haka movements? Evidence needed: Consultation with Te Matatini archives."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -54,7 +101,17 @@
   ],
   "music_options": [],
   "name": "Kapa haka",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e036eb5e8596adc5",
+      "next_evidence": "Consultation with Te Matatini archives.",
+      "question": "Are there standardized choreographic notation systems for Kapa haka movements?",
+      "source": "https://en.wikipedia.org/wiki/Kapa_haka",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure accurate teaching of complex movements like poi figures."
+    }
+  ],
   "research_file": "research_results/kapa-haka.json",
   "runtime_active": false,
   "scope": {
@@ -69,7 +126,9 @@
     "https://en.wikipedia.org/wiki/Kapa_haka",
     "https://www.wikidata.org/wiki/Q3192842",
     "https://es.wikipedia.org/wiki/Kapa_haka",
-    "https://fr.wikipedia.org/wiki/Kapa_haka"
+    "https://fr.wikipedia.org/wiki/Kapa_haka",
+    "https://pt.wikipedia.org/wiki/Kapa_Haka",
+    "https://de.wikipedia.org/wiki/Kapa_Haka"
   ],
   "state": "teaching_withheld",
   "video_evidence": []

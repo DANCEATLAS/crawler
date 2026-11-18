@@ -1,6 +1,6 @@
 # Garrotín — episode pack
 
-*Status: draft · built 2026-11-17 · judge 8.0 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 8.0 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 

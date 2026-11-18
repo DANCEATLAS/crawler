@@ -1,0 +1,120 @@
+{
+ "slug": "dance-in-ancient-egypt",
+ "qc_at": "2026-11-18T21:19:26Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "dance in ancient Egypt"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "73"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "168"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 5th millennium BC Badarian pottery, Egyptians carved their first dancers, est"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "639"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2995"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Egypt"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'god', 'funeral', 'religious', 'priest']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The subject is a historical era of dance rather than a specific dance tradition, but the profile is exceptionally well-researched and adheres to the Dancing Atlas standards for historical reconstruction. The distinction between sacred/funerary and banquet performance is handled with academic rigor."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T18:38:34Z"
+}

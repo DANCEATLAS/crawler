@@ -1,8 +1,8 @@
 # Dunhuang dance — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A graceful researcher-performer who speaks with reverence for the Silk Road's history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Walls That Dance
 NARRATION: This is Dunhuang dance. 20th century (1979).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (acHpowhdX1o)
 ON SCREEN: Title card: Dunhuang dance · China · 20th century (1979)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance features unique hand movements that can be traced back to I
 NARRATION: It combines ethnic dance styles from Central and Western China.
 NARRATION: Key movements include the 'S-curve' body alignment and the use of long silk scarves to simulate the flight of celestial beings.
 NARRATION: Watch for Playing the Pipa Behind the Back, Flying Apsara.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (acHpowhdX1o)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Linear formations for group pieces like 'Thousand Hand Guanyin'; circular paths for soloists.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -324,7 +324,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Costumes are based on the imagery found in the Mogao Grottoes' cave paintings, often featuring high-waisted skirts and long silk ribbons. The setting typically evokes the interior of the caves or the desert landscape of the Silk Road. Dancers often use props like the pipa, held in unconventional positions as seen in the murals.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'acHpowhdX1o', 'checked_by_vision_model': True, 'title': 'Chinese Classical Dunhuang Dance - Understanding China and Falling in Love with China'}
 Images: 5 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain); ArishG / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Dennis G. Jarvis / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); unknown painter from Mid-Tang Dynasty(A.D.762-827) / Wikimedia Commons / Public domain (Public domain); unknown painters from Tang Dynasty / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Swirling silk ribbons, Lotus flowers, Sandstone textures, Golden halos
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
+Source: 7 tutorial(s) of the classical-court family studied · videos studied: 7
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
+Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs
 
 Sources (2): https://en.wikipedia.org/wiki/Dunhuang_dance; https://www.wikidata.org/wiki/Q5315282

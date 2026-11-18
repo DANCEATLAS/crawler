@@ -1,0 +1,890 @@
+{
+ "slug": "sega",
+ "name": "Sega",
+ "pack_version": "e2",
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T20:30:43Z",
+ "qc_score": 9.5,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local Mauritian practitioner who emphasizes the cultural history and community connection.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Sega",
+   "Sega Tipik",
+   "Sega Mauricien",
+   "Mauritian Sega",
+   "Séga"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Sega",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Pulse of the Indian Ocean",
+     "This is Sega. 18th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (KEZ8LVzan28)",
+     "Title card: Sega · Mauritius · 18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Sega originated in the 18th century among enslaved populations in the Indian Ocean.",
+     "It is a fusion of African and Malagasy rhythms with European folk dance elements like the polka, waltz, and quadrille.",
+     "Historically, it was performed in private and often faced opposition from colonial authorities and the Catholic Church due to its perceived sensuality."
+    ],
+    "on_screen": [
+     "Map: Mauritius · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Sega is a social and community-building art form.",
+     "Historically, it was used for dirges, exorcisms, and protest (Santé engagé).",
+     "It serves as a symbol of cultural identity and resilience, transcending social and ethnic barriers in modern society.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Andrew Sega - Taking Tracking Mainstream.webm (https://upload.wikimedia.org/wikipedia/commons/f/fb/Andrew_Sega_-_Taking_Tracking_Mainstream.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed with the feet remaining in constant contact with the ground.",
+     "Dancers move their hips and waist in fluid, circular motions.",
+     "Partners interact in a playful game where the woman leads the movement and the man attempts to follow or anticipate her direction.",
+     "Watch for Hip Rotation."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (KEZ8LVzan28)",
+     "Captions name each signature move as it appears",
+     "Formation: Couples or groups moving in circular paths."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Traditional music relies on the ravanne (goatskin drum), maravanne (rattle), triangle, and bobre (bow).",
+     "Modern ensembles may include electric guitars, keyboards, and bass.",
+     "Listen for the ravanne, maravanne, triangle, bobre.",
+     "The pulse is 6/8.",
+     "A percussive, drum-heavy sound driven by the deep resonance of the ravanne and the metallic shimmer of the triangle, often featuring call-and-response vocals."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Ambalaba — Claudio Veeraragoo; Li tourner — Alain Ramanisum",
+     "Waveform or rhythm-pattern graphic: Driving, percussive pulse"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Women traditionally wear large, colorful circular skirts and tops that bare the midriff to accentuate hip movements.",
+     "Men wear colorful shirts, shorts, and straw hats.",
+     "Performances occur in private family settings, public community events, and formal festivals."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Ti Frère, a Mauritian artist, is credited with bringing sega into the public sphere in the 1960s.",
+     "Other key figures include Serge Lebrasse, Claudio Veeraragoo, and Kaya, the pioneer of the seggae fusion genre.",
+     "Mauritius features 'Sega Tipik'; Rodrigues is known for the fast-paced 'Sega Tambour' and 'Segakordeon'; Réunion shares roots with the distinct but related 'Maloya'; the Seychelles practice 'Moutia'.",
+     "Sega shares historical links with the Maloya of Réunion and is influenced by African, Malagasy, and European dance traditions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Sega is related of Maloya: A distinct but related genre from Réunion.",
+     "Sega is child of Seggae: A fusion genre combining sega with reggae."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Keep feet in contact with the floor at all times.",
+     "Shift weight from side to side to initiate hip movement.",
+     "Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the history and movement of Sega, the soul of Mauritius.",
+     "Sources: 8 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master grounded footwork",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master grounded footwork.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local Mauritian practitioner who emphasizes the cultural history and community connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but relaxed, with knees slightly bent to facilitate hip movement.",
+      "Fluid, expressive movements, often used to balance the hip rotation.",
+      "The primary focus; hips move in circular and side-to-side motions."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.",
+      "Rhythm pattern: Driving, percussive pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Keep feet in contact with the floor at all times.",
+      "Step 2: Shift weight from side to side to initiate hip movement.",
+      "Footwork from the sources: Shuffling steps that never leave the ground.",
+      "Drill: Weight shifting without lifting heels"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Rotate hips in a fluid, circular motion.",
+      "Step 4: Maintain a playful, improvisational connection with a partner.",
+      "Drill: Basic side-to-side shuffle"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Hip isolation exercises"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lifting the feet off the ground."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the hip movements of the instructor."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master grounded footwork.",
+      "Sega is a social and community-building art form.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Sega",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Sega.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local Mauritian practitioner who emphasizes the cultural history and community connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but relaxed, with knees slightly bent to facilitate hip movement.",
+      "Fluid, expressive movements, often used to balance the hip rotation.",
+      "The primary focus; hips move in circular and side-to-side motions."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.",
+      "Rhythm pattern: Driving, percussive pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Keep feet in contact with the floor at all times.",
+      "Step 2: Shift weight from side to side to initiate hip movement."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Rotate hips in a fluid, circular motion.",
+      "Step 4: Maintain a playful, improvisational connection with a partner.",
+      "Hip Rotation: Fluid, rhythmic circular movement of the hips while feet remain grounded."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lifting the feet off the ground."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the hip movements of the instructor."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Couples or groups moving in circular paths."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Sega.",
+      "Ti Frère, a Mauritian artist, is credited with bringing sega into the public sphere in the 1960s.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Sega",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Sega.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local Mauritian practitioner who emphasizes the cultural history and community connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but relaxed, with knees slightly bent to facilitate hip movement.",
+      "Fluid, expressive movements, often used to balance the hip rotation.",
+      "The primary focus; hips move in circular and side-to-side motions."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.",
+      "Rhythm pattern: Driving, percussive pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rotate hips in a fluid, circular motion.",
+      "Step 2: Maintain a playful, improvisational connection with a partner."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Hip Rotation: Fluid, rhythmic circular movement of the hips while feet remain grounded."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lifting the feet off the ground."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the hip movements of the instructor."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Couples or groups moving in circular paths."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Sega.",
+      "Sega shares historical links with the Maloya of Réunion and is influenced by African, Malagasy, and European dance traditions.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "6/8",
+  "rhythm_pattern": "Driving, percussive pulse",
+  "instruments": [
+   "ravanne",
+   "maravanne",
+   "triangle",
+   "bobre"
+  ],
+  "vocal_style": "Improvisational, sung in Creole",
+  "musical_form": "Traditional folk song structure",
+  "mood": [
+   "emotional",
+   "rhythmic",
+   "joyful",
+   "protest"
+  ],
+  "sound_description": "A percussive, drum-heavy sound driven by the deep resonance of the ravanne and the metallic shimmer of the triangle, often featuring call-and-response vocals.",
+  "listen_before_composing": [
+   "Ambalaba — Claudio Veeraragoo",
+   "Li tourner — Alain Ramanisum"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Sega (Mauritius). Meter 6/8. Rhythm pattern: Driving, percussive pulse. Instruments: ravanne, maravanne, triangle, bobre. Vocal style: Improvisational, sung in Creole. Form: Traditional folk song structure. Mood: emotional, rhythmic, joyful, protest. It should sound like this: A percussive, drum-heavy sound driven by the deep resonance of the ravanne and the metallic shimmer of the triangle, often featuring call-and-response vocals. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "KEZ8LVzan28",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Women traditionally wear large, colorful circular skirts and tops that bare the midriff to accentuate hip movements. Men wear colorful shirts, shorts, and straw hats. Performances occur in private family settings, public community events, and formal festivals.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ASega.drumdancer.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGule_Wamkulu_mask.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sega.drumdancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sega.drumdancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Andy Carvin / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASega.drumdancer.jpg",
+    "description": "A woman dances the sega in Pointe-aux-Piments, Mauritius."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Gule_Wamkulu_mask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Gule_Wamkulu_mask.jpg/1280px-Gule_Wamkulu_mask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rachael Zylstra from East Lansing, USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGule_Wamkulu_mask.jpg",
+    "description": "Gule Wamkulu mask; Chewa people; Malawi. Exhibition MASK: Secrets and Revelations, Michigan State University Museum, East Lansing."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Andrew Sega - Taking Tracking Mainstream.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Andrew_Sega_-_Taking_Tracking_Mainstream.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 2.0",
+    "attribution": "Notacon / Wikimedia Commons / CC BY-SA 2.0"
+   },
+   {
+    "title": "File:PAC-MAN and the Ghostly Adventures - Pac-Man Sega Stunt Making of OF.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/PAC-MAN_and_the_Ghostly_Adventures_-_Pac-Man_Sega_Stunt_Making_of_OF.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "BANDAI NAMCO Europe / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:DOTHEPACMAN by Less than Jake and Interlude.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/DOTHEPACMAN_by_Less_than_Jake_and_Interlude.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "BANDAI NAMCO Europe / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Sega Saturn CD - Cracked after 20 years.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sega_Saturn_CD_-_Cracked_after_20_years.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "debuglive / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:$5 Sega Genesis 2 Complete Teardown & Cleaning -- TRU Fixes.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%245_Sega_Genesis_2_Complete_Teardown_%26_Cleaning_--_TRU_Fixes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "TRU Fixes / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Una consola OLVIDADA por el mundo... LA SEGA GAME GEAR.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Una_consola_OLVIDADA_por_el_mundo..._LA_SEGA_GAME_GEAR.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Expector / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "【Genshin Impact MMD】 Ankha dance / Hu Tao Yanfei (Ankha zone meme)",
+    "url": "https://archive.org/details/youtube-YaDB2rHcN54",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Circular skirts in motion",
+   "Close-ups of the ravanne being heated over a fire",
+   "Sunlight on the Indian Ocean"
+  ],
+  "costume_notes": "Women traditionally wear large, colorful circular skirts and tops that bare the midriff to accentuate hip movements. Men wear colorful shirts, shorts, and straw hats. Performances occur in private family settings, public community events, and formal festivals.",
+  "setting_notes": "Sega is a social and community-building art form. Historically, it was used for dirges, exorcisms, and protest (Santé engagé). It serves as a symbol of cultural identity and resilience, transcending social and ethnic barriers in modern society.",
+  "map": {
+   "country": "Mauritius",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 4,
+  "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sega_(genre)",
+  "https://www.wikidata.org/wiki/Q1781796",
+  "https://fr.wikipedia.org/wiki/Séga",
+  "https://es.wikipedia.org/wiki/Segá",
+  "https://pt.wikipedia.org/wiki/Sega_(música)",
+  "https://de.wikipedia.org/wiki/Sega_(Musik)",
+  "https://archive.org/details/book_game-maestro_vol2",
+  "https://archive.org/details/cantilenepopolar00oddo"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "05ab2ffb018cbab9037df0bfdd10e2b5ba4ecc5703c084103e32341f59a2961d",
+ "hero_checked": "pass"
+}

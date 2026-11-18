@@ -2,9 +2,9 @@
  "slug": "rueda-de-casino",
  "name": "Rueda de Casino",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:22Z",
- "researched_at": "2026-11-09T21:02:59Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T20:23:47Z",
+ "qc_score": 9.1,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "Experienced Cuban dancer with deep knowledge of both original and Miami styles, patient and engaging",
+   "persona": "A knowledgeable Cuban dance instructor who emphasizes connection and listening to the caller.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -63,7 +63,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Rueda de Casino: The Cuban Salsa Circle That Spins the World",
+     "The Spinning Circle of Havana",
      "This is Rueda de Casino. 1950s."
     ],
     "on_screen": [
@@ -77,9 +77,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Rueda de Casino originated in Havana, Cuba, in the early 1950s, first danced at Club Casino Deportivo around 1956.",
-     "It developed from Cuban Urban Son, Cha Cha Cha, Mambo, and Rumba Guaguancó.",
-     "The circular group dance with partner swapping was called 'Rueda del Casino' and became popular in Havana clubs and on television by the late 1970s."
+     "Casino was developed in Havana, Cuba in the early 1950s, originating from Cuban Urban Son and Cuban Cha Cha Cha fused with Mambo and Rumba Guaguancó.",
+     "Rueda dancing emerged in the late 1950s at the Club Casino Deportivo.",
+     "Following the Cuban revolution and emigration, the dance spread to Miami, where Rene Gueits structured a distinct 'disco-like' Miami style in 1994, removing traditional Afro-Cuban elements."
     ],
     "on_screen": [
      "Map: Cuba · Caribbean",
@@ -92,30 +92,29 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
+     "Rueda de Casino functions as a social gathering dance emphasizing community, humor, and shared rhythm.",
+     "It is featured in large international flash mobs, television shows like 'Para Bailar', and local social dances.",
      "Today it is a living tradition."
     ],
     "on_screen": [
      "Footage: File:2017-12-05 Rueda de prensa del Fiscal General Tarek William Saab.webm (https://upload.wikimedia.org/wikipedia/commons/b/b3/2017-12-05_Rueda_de_prensa_del_Fiscal_General_Tarek_William_Saab.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
     ],
-    "music": "underscore",
-    "needs": [
-     "occasions_and_meaning"
-    ]
+    "music": "underscore"
    },
    {
     "code": "watch",
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Couples form a circle (rueda) holding closed dance position.",
-     "A caller (líder) inside the circle calls out moves, which the dancers execute simultaneously.",
-     "Moves include partner swaps and turns, often accompanied by hand signals.",
-     "Watch for Dame, Enchufla, Vacila."
+     "Couples form a circle (rueda) and dance synchronized figures called out by a dancer inside the circle.",
+     "The dance starts from 'al Medio' or 'Guapea'.",
+     "Fundamental moves include Dame, Enchufe, Vacila, and Sombrero.",
+     "Watch for Dame, Enchufe, Sombrero."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (rsthpn_W0gE)",
      "Captions name each signature move as it appears",
-     "Formation: Circular formation with couples rotating positions during partner swaps"
+     "Formation: Circular formation (rueda) with pairs facing inward, revolving around a central axis."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -124,19 +123,18 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Rueda de Casino is danced to Cuban Son montuno, guaracha, and later salsa and timba music.",
-     "The tempo is typically salsa tempo but exact BPM is not specified.",
-     "Listen for the congas, bongos, timbales, trumpets.",
-     "The pulse is 4/4."
+     "Music used for Rueda de Casino includes Salsa, Timba, Son, Guaracha, and Chachachá.",
+     "Bands like Conjunto Casino historically played for these events."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: Salsa and timba rhythms with clave-based percussion"
+     "Listen later: No me dejes de querer — Gloria Estefan",
+     "Waveform or rhythm-pattern graphic: "
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
-     "tempo"
+     "tempo",
+     "meter"
     ]
    },
    {
@@ -144,9 +142,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Danced socially in clubs, dance studios, and outdoor venues.",
-     "Traditional Cuban dancers sometimes wear white clothing, especially older groups in Havana.",
-     "The dance circle can vary in size from two couples to large groups forming concentric circles."
+     "Original founders in Havana, such as older dancers at Jardines del 1830, often wear all-white clothing and carry membership cards.",
+     "Dances take place in clubs, beachfront venues, and social dance spaces."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -162,10 +159,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Rene Gueits, founder of Salsa Lovers in Miami (1994), structured the Miami style of Rueda de Casino, modifying the original Cuban style by removing Afro-Cuban elements.",
-     "Cuban dancers and groups on the island and abroad have preserved and shared the original style.",
-     "Two main styles: original Cuban style with Afro-Cuban improvisation and Miami style with disco influences and structured choreography.",
-     "Descended from Cuban Urban Son and Cha Cha Cha, incorporating partner turns from Mambo and Rumba Guaguancó."
+     "Rene Gueits founded 'Salsa Lovers' in 1994 and structured the Miami style.",
+     "Luis Llamo led the 2024 Cuban rueda project 'Retomando el son bailando casino'.",
+     "The two primary styles are Cuban-style Rueda and Miami-style Rueda, which removed traditional Afro-Cuban elements.",
+     "Derived from Casino, Cuban Son, Cha Cha Cha, Mambo, and Rumba Guaguancó."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -178,10 +175,9 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Rueda de Casino is parent of Salsa (Cuban style): Rueda de Casino evolved from Cuban salsa and son montuno dance forms.",
-     "Rueda de Casino is shares music of Timba: Timba music is a common accompaniment for Rueda de Casino.",
-     "Rueda de Casino is variant of Rueda de Bachata: A rueda-style dance adapted to bachata music, originating in Boston.",
-     "Rueda de Casino is variant of Swing Rueda: A rueda format applied to swing dance."
+     "Rueda de Casino is parent of Salsa: Rueda de Casino is danced to salsa music and incorporates casino style salsa.",
+     "Rueda de Casino is parent of Cuban Son: Casino and Rueda trace direct origins to Cuban Urban Son.",
+     "Rueda de Casino is child of Rueda de bachata: A variant adopting the rueda circle concept to bachata music."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -193,9 +189,9 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Form a circle with couples holding closed dance position",
-     "Start with 'al Medio' step: step in and out of the circle",
-     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Before we go, one step. Guapea (stepping forward on the inside foot and backward on the outside foot)",
+     "Al Medio (stepping in and out of the circle in closed hold)",
+     "Count it: .",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -209,8 +205,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a Havana club dance from the 1950s became a global salsa phenomenon where dancers swap partners in a spinning circle.",
-     "Sources: 5 references are listed with the profile."
+     "Couples weave through a synchronized wheel of salsa guided by a caller dancing right inside the ring.",
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -224,17 +220,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn basic steps and simple calls",
-   "level": "Beginner",
+   "goal": "Form a circle and execute the guapea base step.",
+   "level": "Basic",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn basic steps and simple calls.",
-      "Level: Beginner. Difficulty of the dance overall: beginner to advanced depending on figures.",
-      "Your instructor: Experienced Cuban dancer with deep knowledge of both original and Miami styles, patient and engaging"
+      "Chapter 1 — First steps. Today: Form a circle and execute the guapea base step..",
+      "Level: Basic. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable Cuban dance instructor who emphasizes connection and listening to the caller."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -246,9 +242,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright with closed dance hold; dancers face partner within the circle",
-      "Hand signals accompany calls; arms used for partner turns and exchanges",
-      "Natural salsa hip movement; torso rotates with turns"
+      "Closed hold or open hand connections; caller uses hand taps on the head for specific figures like Sombrero."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -260,8 +254,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: Salsa and timba rhythms with clave-based percussion.",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -270,7 +263,8 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
@@ -278,16 +272,17 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Form a circle with couples holding closed dance position",
-      "Step 2: Start with 'al Medio' step: step in and out of the circle",
-      "Drill: Form circle and hold position"
+      "Step 1: Guapea (stepping forward on the inside foot and backward on the outside foot)",
+      "Step 2: Al Medio (stepping in and out of the circle in closed hold)",
+      "Footwork from the sources: Guapea: stepping forward on the inside foot and backward on the outside foot, tangent to the circle.",
+      "Drill: Circle formation spacing"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -295,15 +290,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Or start with 'Guapea': step forward on inside foot, backward on outside foot tangent to the circle",
-      "Step 4: Listen for caller's move and watch hand signals",
-      "Drill: Practice 'al Medio' step"
+      "Step 3: Dame (partner exchange)",
+      "Step 4: Enchufe (turning partner inside and swapping places)",
+      "Drill: Guapea weight shifts"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -314,7 +309,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Learn 'Dame' and 'Enchufla' moves"
+      "Drill: Al Medio stepping in and out"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -326,25 +321,23 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Avoid missing calls; maintain spatial awareness to prevent collisions; respect cultural origins by not altering Afro-Cuban elements in original style"
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: For children: simplified partner swapping game with call-and-response"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
-     "options": [
-      "For children: simplified partner swapping game with call-and-response"
-     ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -358,7 +351,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn basic steps and simple calls.",
+      "You can now: Form a circle and execute the guapea base step..",
+      "Rueda de Casino functions as a social gathering dance emphasizing community, humor, and shared rhythm.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -372,7 +366,7 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Master additional figures and improve synchronization",
+   "goal": "Execute fundamental calls like Enchufe and Dame.",
    "level": "Intermediate",
    "scenes": [
     {
@@ -380,9 +374,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Master additional figures and improve synchronization.",
-      "Level: Intermediate. Difficulty of the dance overall: beginner to advanced depending on figures.",
-      "Your instructor: Experienced Cuban dancer with deep knowledge of both original and Miami styles, patient and engaging"
+      "Chapter 2 — Building the dance. Today: Execute fundamental calls like Enchufe and Dame..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable Cuban dance instructor who emphasizes connection and listening to the caller."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -394,9 +388,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright with closed dance hold; dancers face partner within the circle",
-      "Hand signals accompany calls; arms used for partner turns and exchanges",
-      "Natural salsa hip movement; torso rotates with turns"
+      "Closed hold or open hand connections; caller uses hand taps on the head for specific figures like Sombrero."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -408,8 +400,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: Salsa and timba rhythms with clave-based percussion.",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -418,7 +409,8 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
@@ -426,15 +418,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Execute called moves simultaneously, including partner swaps and turns",
-      "Drill: Practice 'Vacila' and 'Sombrero'"
+      "Step 1: Guapea (stepping forward on the inside foot and backward on the outside foot)",
+      "Step 2: Al Medio (stepping in and out of the circle in closed hold)",
+      "Drill: Enchufe turn mechanics"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -442,16 +435,18 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Dame: Gentleman fetches the partner to his right, initiating a partner swap",
-      "Enchufla: Partner turns inside the circle and swaps places with the caller's right-side partner",
-      "Drill: Increase tempo"
+      "Step 3: Dame (partner exchange)",
+      "Step 4: Enchufe (turning partner inside and swapping places)",
+      "Dame: The lead moves to take the first partner to their right.",
+      "Enchufe: Leader guides the partner through a turn inside the circle and takes their place.",
+      "Drill: Dame partner exchange"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -462,7 +457,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Coordinate with larger groups"
+      "Drill: Responding to spoken calls"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -474,26 +469,24 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Avoid missing calls; maintain spatial awareness to prevent collisions; respect cultural origins by not altering Afro-Cuban elements in original style"
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: For children: simplified partner swapping game with call-and-response"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
-     "options": [
-      "For children: simplified partner swapping game with call-and-response"
-     ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice. Formation: Circular formation with couples rotating positions during partner swaps"
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circular formation (rueda) with pairs facing inward, revolving around a central axis."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -506,8 +499,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master additional figures and improve synchronization.",
-      "Rene Gueits, founder of Salsa Lovers in Miami (1994), structured the Miami style of Rueda de Casino, modifying the original Cuban style by removing Afro-Cuban elements.",
+      "You can now: Execute fundamental calls like Enchufe and Dame..",
+      "Rene Gueits founded 'Salsa Lovers' in 1994 and structured the Miami style.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -521,7 +514,7 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Perform complex figures and improvise within rueda",
+   "goal": "Maintain rhythm through rapid caller sequence changes.",
    "level": "Advanced",
    "scenes": [
     {
@@ -529,9 +522,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Perform complex figures and improvise within rueda.",
-      "Level: Advanced. Difficulty of the dance overall: beginner to advanced depending on figures.",
-      "Your instructor: Experienced Cuban dancer with deep knowledge of both original and Miami styles, patient and engaging"
+      "Chapter 3 — Dancing it fully. Today: Maintain rhythm through rapid caller sequence changes..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable Cuban dance instructor who emphasizes connection and listening to the caller."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -543,9 +536,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright with closed dance hold; dancers face partner within the circle",
-      "Hand signals accompany calls; arms used for partner turns and exchanges",
-      "Natural salsa hip movement; torso rotates with turns"
+      "Closed hold or open hand connections; caller uses hand taps on the head for specific figures like Sombrero."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -557,8 +548,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: Salsa and timba rhythms with clave-based percussion.",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -567,7 +557,8 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
@@ -575,16 +566,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Listen for caller's move and watch hand signals",
-      "Step 2: Execute called moves simultaneously, including partner swaps and turns",
-      "Drill: Learn advanced figures from master level"
+      "Step 1: Dame (partner exchange)",
+      "Step 2: Enchufe (turning partner inside and swapping places)",
+      "Drill: Hand signal recognition in noisy settings"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -592,16 +583,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Vacila: A playful move involving a turn and a pause",
-      "Sombrero: Caller taps the top of the head as a hand signal; dancers perform a specific turn",
-      "Drill: Improvise calls and responses"
+      "Sombrero: A hat move indicated by the caller tapping the top of their head.",
+      "Drill: Complex multi-swap sequences"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -611,8 +601,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Lead as caller"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -624,26 +613,24 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Avoid missing calls; maintain spatial awareness to prevent collisions; respect cultural origins by not altering Afro-Cuban elements in original style"
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: For children: simplified partner swapping game with call-and-response"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
-     "options": [
-      "For children: simplified partner swapping game with call-and-response"
-     ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice. Formation: Circular formation with couples rotating positions during partner swaps"
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circular formation (rueda) with pairs facing inward, revolving around a central axis."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -656,8 +643,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Perform complex figures and improvise within rueda.",
-      "Descended from Cuban Urban Son and Cha Cha Cha, incorporating partner turns from Mambo and Rumba Guaguancó.",
+      "You can now: Maintain rhythm through rapid caller sequence changes..",
+      "Derived from Casino, Cuban Son, Cha Cha Cha, Mambo, and Rumba Guaguancó.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -674,27 +661,21 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "4/4",
-  "rhythm_pattern": "Salsa and timba rhythms with clave-based percussion",
-  "instruments": [
-   "congas",
-   "bongos",
-   "timbales",
-   "trumpets",
-   "piano",
-   "bass"
-  ],
-  "vocal_style": "Call-and-response vocals typical of salsa and timba",
-  "musical_form": "Typically montuno sections with repeated rhythmic patterns supporting dancing",
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
   "mood": [
    "energetic",
-   "lively",
-   "syncopated",
-   "rhythmic"
+   "playful",
+   "dynamic"
   ],
   "sound_description": null,
-  "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Rueda de Casino (Cuba). Meter 4/4. Rhythm pattern: Salsa and timba rhythms with clave-based percussion. Instruments: congas, bongos, timbales, trumpets, piano, bass. Vocal style: Call-and-response vocals typical of salsa and timba. Form: Typically montuno sections with repeated rhythmic patterns supporting dancing. Mood: energetic, lively, syncopated, rhythmic. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "listen_before_composing": [
+   "No me dejes de querer — Gloria Estefan"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Rueda de Casino (Cuba). Mood: energetic, playful, dynamic. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -733,10 +714,10 @@
    "title": "Rueda de casino Santiago de Cuba"
   },
   "wardrobe": {
-   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
-   "dress_the_narrator": false,
-   "restricted_attire": true,
-   "from_sources": "Danced socially in clubs, dance studios, and outdoor venues. Traditional Cuban dancers sometimes wear white clothing, especially older groups in Havana. The dance circle can vary in size from two couples to large groups forming concentric circles. No specific ceremonial costume is described. The setting is informal and social.",
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Original founders in Havana, such as older dancers at Jardines del 1830, often wear all-white clothing and carry membership cards. Dances take place in clubs, beachfront venues, and social dance spaces.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -757,13 +738,6 @@
    {
     "title": "File:Rueda de Prensa FGR (2020-05-22).webm",
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Rueda_de_Prensa_FGR_%282020-05-22%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "Public domain",
-    "attribution": "MPvenezolano / Wikimedia Commons / Public domain"
-   },
-   {
-    "title": "File:Rueda de Prensa del FGR. Dr. Tarek William Saab (2020-06-26).webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Rueda_de_Prensa_del_FGR._Dr._Tarek_William_Saab_%282020-06-26%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "year": null,
     "license": "Public domain",
     "attribution": "MPvenezolano / Wikimedia Commons / Public domain"
@@ -790,6 +764,13 @@
     "attribution": "Capitolio Tv / Wikimedia Commons / Public domain"
    },
    {
+    "title": "File:2025-11-06 Rueda de prensa del PSUV.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2025-11-06_Rueda_de_prensa_del_PSUV.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Luigino Bracci Roa desde Venezuela / Wikimedia Commons / Public domain"
+   },
+   {
     "title": "SYNURA, UN BAILE AL SOL, SIERRA DE LA CULEBRA.",
     "url": "https://archive.org/details/Flickr-39716919212",
     "year": 2018,
@@ -805,14 +786,12 @@
    }
   ],
   "motifs": [
-   "Circular formations",
-   "Hand signals",
-   "Partner exchanges",
-   "Colorful Cuban club scenes",
-   "Energetic footwork"
+   "Circular overhead shot of couples rotating",
+   "Caller gesturing with hand signals",
+   "Dancers in white clothing at Malecón"
   ],
-  "costume_notes": "Danced socially in clubs, dance studios, and outdoor venues. Traditional Cuban dancers sometimes wear white clothing, especially older groups in Havana. The dance circle can vary in size from two couples to large groups forming concentric circles. No specific ceremonial costume is described. The setting is informal and social.",
-  "setting_notes": null,
+  "costume_notes": "Original founders in Havana, such as older dancers at Jardines del 1830, often wear all-white clothing and carry membership cards. Dances take place in clubs, beachfront venues, and social dance spaces.",
+  "setting_notes": "Rueda de Casino functions as a social gathering dance emphasizing community, humor, and shared rhythm. It is featured in large international flash mobs, television shows like 'Para Bailar', and local social dances.",
   "map": {
    "country": "Cuba",
    "region": "Caribbean",
@@ -825,36 +804,38 @@
   ]
  },
  "teaching_formula": {
-  "source": "31 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 31,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
-  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "source": "131 tutorials across the atlas studied",
+  "videos_studied": 131,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, side",
+   "views used by most teachers: front, side, back",
    "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
   "cues": [
    "1-2-3-4",
-   "step together step",
-   "brush the foot",
-   "arms open close in a circle",
-   "1-2",
-   "3-4",
-   "sa'o'i",
-   "lualua tongi e",
-   "e a'a tongi e",
-   "stomp clap",
-   "chest chest leg leg clap",
-   "pull back and lean to the left"
+   "rock step",
+   "5-6-7-8",
+   "side close side",
+   "engage your core",
+   "right left right",
+   "slide",
+   "hit",
+   "1-2-3-4-5-6-7-8",
+   "one and two",
+   "right behind right touch",
+   "lock your arms"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "warmup",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
+   "layering",
    "music_practice",
    "recap"
   ],
@@ -862,20 +843,23 @@
  },
  "gaps": [
   "tempo (bpm)",
+  "meter",
+  "instruments",
   "a verified recording to listen to",
   "licensed images (3 needed)",
-  "the occasions & meaning section"
+  "what to avoid / common mistakes"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Rueda_de_Casino",
   "https://www.wikidata.org/wiki/Q1503394",
   "https://es.wikipedia.org/wiki/Rueda_de_casino",
   "https://fr.wikipedia.org/wiki/Rueda_de_casino",
-  "https://de.wikipedia.org/wiki/Rueda_de_casino"
+  "https://de.wikipedia.org/wiki/Rueda_de_casino",
+  "https://it.wikipedia.org/wiki/Rueda_de_casino"
  ],
- "claims_verified": 9,
- "claims": 9,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "6e8ae1b0a2122b13295fc260cabf58485b5d08b90a533867097e0e3d44686a32",
+ "input_fingerprint": "e9a2a7a2cb467f6e90c776ee8f1aa54aa8e37cd3a7ef0d2f9bf7decb90a5a93f",
  "hero_checked": "pass"
 }

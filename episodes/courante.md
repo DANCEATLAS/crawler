@@ -1,6 +1,6 @@
 # Courante — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
+Source: 7 tutorial(s) of the classical-court family studied · videos studied: 7
 Counting: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
+Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs
 
 Sources (7): https://en.wikipedia.org/wiki/Courante; https://www.wikidata.org/wiki/Q664056; https://es.wikipedia.org/wiki/Courante; https://fr.wikipedia.org/wiki/Courante; https://pt.wikipedia.org/wiki/Courante; https://archive.org/details/danceman160; https://archive.org/details/danceman219

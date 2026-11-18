@@ -1,6 +1,6 @@
 # Furry Dance — episode pack
 
-*Status: draft · built 2026-11-17 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; lineage; two or more connections; teaching steps written out
 

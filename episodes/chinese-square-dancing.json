@@ -2,7 +2,7 @@
  "slug": "chinese-square-dancing",
  "name": "Chinese square dancing",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:21Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-17T18:41:04Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Chinese square dancing. Mid-1990s to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (dkCWnZByRZY)",
      "Title card: Chinese square dancing · People's Republic of China · Mid-1990s to present"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Front-arm posturing."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (dkCWnZByRZY)",
      "Captions name each signature move as it appears",
      "Formation: Strict rank-and-file grid occupying public plazas, parks, and parking lots, oriented towards a central front leader."
     ],
@@ -281,7 +281,7 @@
       "Drill: Rank-and-file spacing check with peripheral vision"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -431,7 +431,7 @@
       "Drill: Stepping in place while cycling through three basic arm postures"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -582,7 +582,7 @@
       "Drill: Executing whole-group formation holds"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -731,7 +731,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "dkCWnZByRZY",
+   "checked_by_vision_model": true,
+   "title": "Why is Chinese Square Dancing Everywhere?"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -803,16 +807,17 @@
   ]
  },
  "teaching_formula": {
-  "source": "29 tutorial(s) of the street-urban family studied",
-  "videos_studied": 29,
+  "source": "34 tutorial(s) of the street-urban family studied",
+  "videos_studied": 34,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
+   "one and two",
    "keep your knees flexible not stiff",
    "weight forward on the balls of your feet",
    "start a new step on count 1",
@@ -823,8 +828,7 @@
    "jump back on the left leg",
    "kick the right leg up",
    "take the right leg back",
-   "hop forward with the left leg",
-   "feet parallel"
+   "hop forward with the left leg"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -832,17 +836,16 @@
    "full_demo",
    "context",
    "breakdown",
-   "slow_practice",
    "layering",
-   "music_practice",
-   "recap"
+   "slow_practice",
+   "recap",
+   "music_practice"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "tempo (bpm)",
-  "meter",
-  "a hero video"
+  "meter"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Square_dancing_(China)",
@@ -854,6 +857,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "4b07b596744a4ab5f15894983978893d09edd8a27160dbf6162e35e11ba4b8bf",
- "hero_checked": null
+ "input_fingerprint": "ba8b898472504f12fabf473b0dbfa73d7a73d5def83585356a984a23658b9996",
+ "hero_checked": "pass"
 }

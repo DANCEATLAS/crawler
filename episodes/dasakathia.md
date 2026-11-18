@@ -1,8 +1,8 @@
 # Dasakathia — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-18 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned 'Gayaka' who balances deep religious reverence with a sharp, twinkling wit.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Clappers of Khandara
 NARRATION: This is Dasakathia. Traditional (Living).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (PamE9dvy6FE)
 ON SCREEN: Title card: Dasakathia · India · Traditional (Living)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The performance is a duo act involving a lead (Gayaka) and a follower
 NARRATION: While specific step-by-step choreography is not detailed in the sources, it is classified as a performing art and dance where the artists use wooden instruments—the Ramtali and Dasakathi—to create a rhythmic accompaniment to their movements and singing.
 NARRATION: The performers engage in a call-and-response format that involves physical gestures and rhythmic coordination.
 NARRATION: Watch for Kathia playing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (PamE9dvy6FE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two performers (Gayaka and Palia) standing in close proximity, usually on a stage or public square.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -100,7 +100,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'PamE9dvy6FE', 'checked_by_vision_model': False, 'title': 'odia Dasakathia nurtya | Odisha sankruti'}
 Images: 3 licensed — Prateek Pattanaik / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Prachites / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Prachites / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: The blur of wooden clappers in motion, The expressive faces of the Gayaka and Palia, Dust rising from the feet of performers in a village square
@@ -110,9 +110,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
+Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
 
 Sources (2): https://en.wikipedia.org/wiki/Dasakathia; https://www.wikidata.org/wiki/Q15724280

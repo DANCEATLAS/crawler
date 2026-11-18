@@ -1,13 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex ribbon weaving"
+        ],
+        "counts": "Simple 1-2-3-4 steps.",
+        "duration_minutes": "5",
+        "game_version": "A ring game where children skip around a central object."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid circular movement"
+        ],
+        "counts": "Simplified 4-count steps.",
+        "seated_version": "Seated in a circle, performing arm gestures and clapping to the rhythm.",
+        "standing_version": "Standing in place, swaying to the music without complex footwork.",
+        "tempo_and_range": "Reduced tempo."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding hands in a ring or holding ribbons",
+      "difficulty": "beginner",
+      "footwork": "Walking, skipping, or hopping",
+      "formation_and_space": "Circular path around a central pole",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes hopping and jumping.",
+      "partnering": "Communal/Group",
+      "posture": "Upright, active",
+      "signature_moves": [
+        {
+          "description": "Hopping like a frog while mimicking animal movements.",
+          "name": "Små Grodorna"
+        }
+      ],
+      "tempo_feel": "Upbeat",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Brass band",
+        "Violin"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "joyful",
+        "festive"
+      ],
+      "musical_form": "Folk song",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Lively, acoustic, and community-driven, often featuring brass or string accompaniment for outdoor dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Communal singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Ring formation around the pole",
+        "Walking or skipping in a circular path",
+        "Gestural movements mimicking daily tasks",
+        "Hopping or jumping (as in Små Grodorna)"
+      ],
+      "formation": "Circular formation around a central pole.",
+      "level_notes": "Accessible to all ages; requires basic coordination for circular movement.",
+      "rhythm": "Varies by local song; typically 2/4 or 4/4 time."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "44cd0585708a5883cf14d719cd9605636bdbd844e580cc1df10b5a7329a7bdbd",
+  "fingerprint": "287b57b11d3450f927c1fc06dd8bf588e8d3fe0ef01f0331cce2cf575763c7c0",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +83,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, standardized ribbon-weaving patterns that are consistent across different European regions? Evidence needed: Ethnographic studies of folk dance societies in England and Sweden."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +113,18 @@
   ],
   "music_options": [],
   "name": "Maypole Dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "ed60e0d9d9dced12",
+      "next_evidence": "Ethnographic studies of folk dance societies in England and Sweden.",
+      "question": "Are there specific, standardized ribbon-weaving patterns that are consistent across different European regions?",
+      "source": "https://en.wikipedia.org/wiki/Maypole",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instructions for the 'weaving' aspect of the dance."
+    }
+  ],
+  "research_file": "research_results/maypole.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +135,12 @@
   },
   "slug": "maypole",
   "sources": [
-    "https://en.wikipedia.org/wiki/Maypole"
+    "https://en.wikipedia.org/wiki/Maypole",
+    "https://www.wikidata.org/wiki/Q76574",
+    "https://fr.wikipedia.org/wiki/Arbre_de_mai",
+    "https://de.wikipedia.org/wiki/Maibaum",
+    "https://it.wikipedia.org/wiki/Albero_di_maggio",
+    "https://archive.org/details/NPTG19281006"
   ],
   "state": "researching",
   "video_evidence": []

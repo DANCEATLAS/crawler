@@ -4,12 +4,17 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Use of fans is a central element.",
+      "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "Divided into four rounds: opening, kugowo queen, floating kenui, and closing.",
+      "formation_and_space": "Eight dancers, four men and four women, moving through four specific rounds.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
@@ -48,7 +53,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "61cf9473b70ef55a3faa507d98d92468ea8ed64ca0e79fb6b9bdc4c32d58be0e",
+  "fingerprint": "fc10c62111bdfe82b027295787b91c9313016123749c0d7863729c990b2b4294",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -58,7 +63,8 @@
     "research": [
       "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific movement sequences for the 'kugowo queen' and 'floating kenui' rounds? Evidence needed: Ethnographic field notes or instructional manuals from the Lampung cultural department."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -85,7 +91,17 @@
   ],
   "music_options": [],
   "name": "Melinting dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "18df22fa54743204",
+      "next_evidence": "Ethnographic field notes or instructional manuals from the Lampung cultural department.",
+      "question": "What are the specific movement sequences for the 'kugowo queen' and 'floating kenui' rounds?",
+      "source": "https://en.wikipedia.org/wiki/Melinting",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources name the rounds but do not describe the physical movements required for them."
+    }
+  ],
   "research_file": "research_results/melinting-dance.json",
   "runtime_active": false,
   "scope": {

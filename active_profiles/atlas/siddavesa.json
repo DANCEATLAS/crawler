@@ -4,58 +4,52 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "Performers move in a group from house to house and dance in a circle around a central lamp.",
+      "formation_and_space": "Performers move from house to house, dancing around a central lamp in the courtyard.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
-      "signature_moves": [
-        {
-          "description": "The Sanyasi character roams the courtyard independently while holding a symbolic phallus made of tied wooden sticks.",
-          "name": "Sanyasi Roam"
-        }
-      ],
+      "signature_moves": [],
       "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Conch",
-        "Drum"
+        "conch",
+        "drum"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "Ritualistic",
-        "Devotional",
-        "Mythological"
+        "ritual",
+        "mythological",
+        "provocative"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The sound is defined by the loud, rhythmic chanting of 'Ḍimbisāle' as the troupe travels, followed by singing and the sound of the conch and drum during the courtyard performance.",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Chanting and singing of traditional verses."
+      "vocal_style": "Chanting and singing"
     },
     "teaching": {
-      "basic_steps": [
-        "Gathering at a holy place for prayer",
-        "Moving in a group from house to house",
-        "Setting up a lamp in the center of the courtyard",
-        "Dancing in a circle around the lit lamp",
-        "Enacting mythological roles through mimicry and song"
-      ],
-      "formation": "Group formation around a central lamp in a courtyard.",
+      "basic_steps": [],
+      "formation": "Dancers move in a group around a central lamp in the courtyard.",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ded34cb89d7fbcc730b58eae909e08cd76d54b6e62c11f8aa9e961321b583dfc",
+  "fingerprint": "8bd728a782f528acd1fedbff241913c98cc63c09c095a8e577385313f87d1298",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -64,8 +58,9 @@
     ],
     "research": [
       "movement: footwork, posture, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns used in the chanting of 'Ḍimbisāle' and the accompanying drum beats? Evidence needed: Field recordings or ethnomusicological documentation of the performance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -81,7 +76,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific movement sequences and gestures performed by the characters during the courtyard mimicry? Evidence needed: Video documentation of a live Siddavesa performance."
     ]
   },
   "id": "atlas:siddavesa",
@@ -92,7 +88,26 @@
   ],
   "music_options": [],
   "name": "Siddavesa",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8294ed0aea05ea5e",
+      "next_evidence": "Field recordings or ethnomusicological documentation of the performance.",
+      "question": "What are the specific rhythmic patterns used in the chanting of 'Ḍimbisāle' and the accompanying drum beats?",
+      "source": "https://en.wikipedia.org/wiki/Siddavesa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow for accurate musical recreation and teaching of the performance rhythm."
+    },
+    {
+      "domain": "video",
+      "id": "7e59eb78eb5f9f41",
+      "next_evidence": "Video documentation of a live Siddavesa performance.",
+      "question": "What are the specific movement sequences and gestures performed by the characters during the courtyard mimicry?",
+      "source": "https://en.wikipedia.org/wiki/Siddavesa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a visual guide for the movement profile and episode brief."
+    }
+  ],
   "research_file": "research_results/siddavesa.json",
   "runtime_active": false,
   "scope": {

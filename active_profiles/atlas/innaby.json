@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex instrumental theory"
+        ],
+        "counts": "1-2-3, 4-5-6",
+        "duration_minutes": "3",
+        "game_version": "A 'statue' game where children move slowly and quietly while the music is lively, stopping when the daf stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "Extended standing"
+        ],
+        "counts": "1, 2, 3, 4, 5, 6",
+        "seated_version": "Perform the 'slow and quiet' arm and hand gestures while seated, focusing on the 6/8 rhythm.",
+        "standing_version": "Gentle swaying in place to the 6/8 meter, avoiding complex footwork.",
+        "tempo_and_range": "Reduce the range of arm movements to shoulder height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed at parties, weddings, and holidays by young women and girls.",
+          "source": "https://en.wikipedia.org/wiki/Innaby"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "none",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Moderately lively pace with slow and quiet motions",
+      "what_to_avoid": "Avoid aggressive or rapid jerky movements; the sources emphasize 'slow and quiet' motions."
+    },
+    "music_profile": {
+      "instruments": [
+        "Tar",
+        "Kamancha",
+        "Daf"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "lively",
+        "graceful",
+        "festive",
+        "quiet"
+      ],
+      "musical_form": "Sazandars ensemble performance",
+      "reference_recordings": [],
+      "rhythm_pattern": "Standard Azerbaijani 6/8 folk rhythm",
+      "sound_description": "The sound is dominated by the plucked resonance of the tar and the melodic wail of the kamancha, underpinned by the steady, driving 6/8 beat of the daf frame drum.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Maintain a slow and quiet upper body posture",
+        "Step in time with the 6/8 rhythm",
+        "Coordinate hand movements with the moderately lively pace of the tar"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "The dance requires a balance between slow, graceful arm movements and a moderately fast musical tempo.",
+      "rhythm": "6/8 time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "3da101d03b56b5354109e805c3aed80df55e2518f9cb9c4a653c7d861dfddb30",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: Is the dance performed in a specific formation, such as a circle or a line? Evidence needed: https://en.wikipedia.org/wiki/Innaby"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand and arm gestures that constitute the 'slow and quiet' motions? Evidence needed: https://en.wikipedia.org/wiki/Innaby"
+    ]
+  },
+  "id": "atlas:innaby",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Innaby",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c4f26c0bb056c8ff",
+      "next_evidence": "https://en.wikipedia.org/wiki/Innaby",
+      "question": "What are the specific hand and arm gestures that constitute the 'slow and quiet' motions?",
+      "source": "https://en.wikipedia.org/wiki/Innaby",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only provide a qualitative description ('slow and quiet') which is insufficient for teaching movement."
+    },
+    {
+      "domain": "research",
+      "id": "45ff16362556bb71",
+      "next_evidence": "https://en.wikipedia.org/wiki/Innaby",
+      "question": "Is the dance performed in a specific formation, such as a circle or a line?",
+      "source": "https://en.wikipedia.org/wiki/Innaby",
+      "status": "candidate_unreviewed",
+      "why_needed": "Spatial formation is a requirement for the movement_profile and teaching sections."
+    }
+  ],
+  "research_file": "research_results/innaby.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "innaby",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Innaby",
+    "https://www.wikidata.org/wiki/Q4201156"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

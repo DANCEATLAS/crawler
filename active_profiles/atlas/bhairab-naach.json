@@ -1,13 +1,57 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "12 deities in a procession and group sequences",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "An energetic segment featuring Bhairab, Kali, Indrayani, and Barah.",
+          "name": "Char Bhairab"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "12 deities performing in a procession and group sequences",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "dc9c466dfda8cc02491e8991ee292f2a22c84214f76d4489539808fba12e8dae",
+  "fingerprint": "2d21b8a2881c33fc0046c0e973fd600b23ded5b246d578a57949551e14f3091e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +59,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments used to accompany the Bhairab Naach? Evidence needed: Field recordings or ethnographic studies of the Bhairab Jatra festival."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +89,18 @@
   ],
   "music_options": [],
   "name": "Bhairab Naach",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "2fecbc45376c0a66",
+      "next_evidence": "Field recordings or ethnographic studies of the Bhairab Jatra festival.",
+      "question": "What are the specific musical instruments used to accompany the Bhairab Naach?",
+      "source": "https://en.wikipedia.org/wiki/Bhairab_Naach",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete music profile for the documentary studio."
+    }
+  ],
+  "research_file": "research_results/bhairab-naach.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +112,8 @@
   "slug": "bhairab-naach",
   "sources": [
     "https://en.wikipedia.org/wiki/Bhairab_Naach",
-    "Source: Bhairab Naach on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bhairab_Naach"
+    "https://www.wikidata.org/wiki/Q4900788"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

@@ -1,0 +1,135 @@
+{
+ "youtube_id": "BxOBhZBLOio",
+ "slug": "melbourne-shuffle",
+ "dance": "Melbourne shuffle",
+ "title": "5 Easy Footwork Shuffle Steps",
+ "channel": "Marbiik",
+ "viewer_ratio": 6.0,
+ "analysed_at": "2026-11-18T21:26:52Z",
+ "url": "https://www.youtube.com/watch?v=BxOBhZBLOio",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains each footwork pattern clearly from a front-facing perspective, demonstrating slow breakdowns before speeding up. He emphasizes weight distribution and posture while guiding viewers through counts.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:09",
+    "segment": "intro",
+    "note": "Introduction to five easy footwork shuffle steps."
+   },
+   {
+    "t": "0:16",
+    "segment": "breakdown",
+    "note": "Step 1: Criss Cross explanation and slow practice."
+   },
+   {
+    "t": "2:14",
+    "segment": "breakdown",
+    "note": "Step 2: Heel Toe explanation and practice."
+   },
+   {
+    "t": "4:35",
+    "segment": "breakdown",
+    "note": "Step 3: W-Step explanation and practice."
+   }
+  ],
+  "counting_scheme": "1-and-2 / 5-6-7-8",
+  "cues": [
+   "cross",
+   "open",
+   "heel and toe",
+   "one and two"
+  ],
+  "metaphors": [
+   "inverted V",
+   "triangle"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 2
+  },
+  "common_mistakes": [
+   "Weight shifting too much to one side instead of staying in the middle"
+  ],
+  "safety": [
+   "Make sure your body is in the middle between the two legs for better balance and control"
+  ],
+  "steps_taught": [
+   {
+    "name": "Criss Cross",
+    "counts": "1 and 2",
+    "description": "Crossing feet alternately while keeping weight centered."
+   },
+   {
+    "name": "Heel Toe",
+    "counts": "1 and 2",
+    "description": "Pivoting on heels and toes to open and close feet."
+   },
+   {
+    "name": "W-Step",
+    "counts": "1 and 2",
+    "description": "Combining criss cross and heel toe movements."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Breaking down steps into slow and fast tempos",
+    "Clear focus on weight distribution and posture"
+   ],
+   "what_hinders": [
+    "Fast pace of shuffle steps might be challenging for complete beginners without practice"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "Today we'll learn five of the most easiest footwork shuffle steps."
+   },
+   {
+    "t": "0:40",
+    "text": "We'll need to balance our weight properly, so make sure your body is exactly in the middle."
+   },
+   {
+    "t": "5:21",
+    "text": "One important thing that you need to know about footwork is that you can do them hopping."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 16,
+    "end_s": 35,
+    "topic": "movement",
+    "observation": "Instructor demonstrates Criss Cross footwork slowly facing forward.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight transfer details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 226,
+    "end_s": 247,
+    "topic": "movement",
+    "observation": "Instructor demonstrates heel and toe pivoting motions.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "subtle foot pressure distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explaining weight distribution using an imaginary vertical centerline between the legs."
+ },
+ "attempts": 1
+}

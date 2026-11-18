@@ -2,9 +2,9 @@
  "slug": "melinting-dance",
  "name": "Melinting dance",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:22Z",
- "researched_at": "2026-11-08T16:49:05Z",
- "qc_score": 8.65,
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T20:21:36Z",
+ "qc_score": 9.0,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,12 +45,13 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "persona": "A cultural historian or traditional Lampung dance practitioner.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Melinting dance",
-   "Melinting"
+   "Melinting",
+   "Cetik Kipas"
   ]
  },
  "episode_1": {
@@ -61,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Royal Dance of Lampung",
+     "The Royal Secret of Lampung",
      "This is Melinting dance. 16th century."
     ],
     "on_screen": [
@@ -75,9 +76,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The dance originated in the 16th century under Ratu Melinting II.",
-     "It was originally called Cetik Kipas and was exclusively performed by the royal family.",
-     "In 1965, President Sukarno renamed it Melinting and introduced it to a national audience at Istora Senayan."
+     "The dance originated in the 16th century under Ratu Melinting II in Lampung.",
+     "It was historically a private royal ritual until it was refined in 1958 and renamed from 'Cetik Kipas' to 'Melinting' by President Sukarno in 1965."
     ],
     "on_screen": [
      "Map: Indonesia · Southeast Asia",
@@ -90,8 +90,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance is performed at traditional events to welcome guests and express gratitude for happiness.",
-     "It also illustrates the majesty of Ratu Melinting.",
+     "The dance is performed at traditional events to welcome guests.",
+     "It symbolizes gratitude for happiness and the majesty of the Melinting kingdom.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -107,7 +107,7 @@
     "on_screen": [
      "Hero video full screen, 30–45 s (FL2dxHKipq8)",
      "Signature moves — MISSING",
-     "Formation: Divided into four rounds: opening, kugowo queen, floating kenui, and closing."
+     "Formation: Eight dancers, four men and four women, moving through four specific rounds."
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
     "needs": [
@@ -120,8 +120,8 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music features the Kalo Bala, kendang, gongs, gamelan, and fiddle.",
-     "It is used to accompany dancers into the arena and signal respect for guests.",
+     "The music utilizes traditional Lampung instruments including Kalo Bala, kendang, gongs, gamelan, and fiddle.",
+     "The music serves to accompany the entrance of dancers and signal respect for guests.",
      "Listen for the Kalo Bala, kendang, gongs, gamelan."
     ],
     "on_screen": [
@@ -140,9 +140,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Men wear tapis cloth, belanga shirts, seretei feathers, fans, and gold skullcaps.",
-     "Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, and ruwi bracelets.",
-     "Make-up is essential for setting the atmosphere."
+     "Men wear tapis cloth, belanga shirts, seretei feathers, gold skullcaps, and fans.",
+     "Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, ruwi bracelets, and fans.",
+     "Make-up is essential to the performance."
     ],
     "on_screen": [
      "Image gallery: 8 licensed images with attribution",
@@ -155,22 +155,20 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Ratu Melinting II (creator), President Sukarno (renamed the dance)."
+     "Ratu Melinting II (creator) and President Sukarno (who renamed the dance).",
+     "The dance is a relic of the Melinting Kingdom and is associated with the development of Islam in the region."
     ],
     "on_screen": [
      "Names on screen as they are spoken"
     ],
-    "music": "underscore",
-    "needs": [
-     "lineage"
-    ]
+    "music": "underscore"
    },
    {
     "code": "family",
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Melinting dance is shares region of Gending Sriwijaya: Both are traditional dances associated with the history of the Indonesian region."
+     "Melinting dance is shares region of Gending Sriwijaya: Both are traditional dances associated with the history of the region."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -185,7 +183,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Originally owned by the royal family and restricted to the Queen's family or nobles."
+     "Historically a private royal ritual of the Queen Melinting family, now performed for guests and public events."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -197,7 +195,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover the 16th-century Melinting dance, a royal tradition transformed by a president's decree.",
+     "Discover the 16th-century royal ritual that transitioned from a private palace dance to a national symbol of Indonesian culture.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -273,7 +271,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Men wear tapis cloth, belanga shirts, seretei feathers, fans, and gold skullcaps. Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, and ruwi bracelets. Make-up is essential for setting the atmosphere.",
+   "from_sources": "Men wear tapis cloth, belanga shirts, seretei feathers, gold skullcaps, and fans. Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, ruwi bracelets, and fans. Make-up is essential to the performance.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
     "https://commons.wikimedia.org/wiki/File%3ATari_Melinting_2.jpg",
@@ -359,8 +357,8 @@
    "Traditional fans",
    "Gamelan instruments"
   ],
-  "costume_notes": "Men wear tapis cloth, belanga shirts, seretei feathers, fans, and gold skullcaps. Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, and ruwi bracelets. Make-up is essential for setting the atmosphere.",
-  "setting_notes": "The dance is performed at traditional events to welcome guests and express gratitude for happiness. It also illustrates the majesty of Ratu Melinting.",
+  "costume_notes": "Men wear tapis cloth, belanga shirts, seretei feathers, gold skullcaps, and fans. Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, ruwi bracelets, and fans. Make-up is essential to the performance.",
+  "setting_notes": "The dance is performed at traditional events to welcome guests. It symbolizes gratitude for happiness and the majesty of the Melinting kingdom.",
   "map": {
    "country": "Indonesia",
    "region": "Southeast Asia",
@@ -410,7 +408,6 @@
   "licensed reference footage",
   "the how-it-is-danced section",
   "signature moves",
-  "lineage",
   "two or more connections"
  ],
  "sources": [
@@ -420,6 +417,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "f8b84a9aac9d28a31ab5d0f48efc7052fc36d0db68c1d103094a98d4a527d2b0",
+ "input_fingerprint": "5938c758cd695b9b8f6d8d0a8bf04a97150250a804a03a6b26ed48f614f9f8ed",
  "hero_checked": "pass"
 }

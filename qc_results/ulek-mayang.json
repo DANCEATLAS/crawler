@@ -1,0 +1,120 @@
+{
+ "slug": "ulek-mayang",
+ "qc_at": "2026-11-18T21:20:38Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.2,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ulek mayang"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "198"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "In the ritual, a bomoh battles six sea princesses to retrieve a fisherman's soul"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "339"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1376"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Malaysia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'shaman', 'spirit', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and respectful of the ritual's sacred nature. It correctly identifies the dance as a ritualistic performance rather than a recreational one. Teaching value is low due to the lack of technical movement descriptions, which is appropriate given the sacred/ritual context and the lack of source material."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=8.2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T19:35:30Z"
+}

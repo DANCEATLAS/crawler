@@ -1,8 +1,8 @@
 # Crnogorka — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); the occasions & meaning section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the occasions & meaning section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Macedonian folk dance expert.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Pulse of Skopje: Crnogorka
 NARRATION: This is Crnogorka. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (wJvguB2n7FE)
 ON SCREEN: Title card: Crnogorka · North Macedonia · 20th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ NEEDS: occasions_and_meaning
 NARRATION: The dance is performed by a mixed group of men and women holding hands in a half-circle formation.
 NARRATION: The movement consists of quick, small steps on the half-feet and frequent jumps.
 NARRATION: Watch for Half-feet steps, Jumps.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (wJvguB2n7FE)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -71,7 +71,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hold hands in a half-circle formation.
 NARRATION: Execute quick, small steps on the half-feet.
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 5-6-7-8 / 1-2-left / 2-2-right.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -98,7 +98,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 5-6-7-8 / 1-2-left / 2-2-right. The meter is 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -110,17 +110,17 @@ NARRATION: Step 1: Hold hands in a half-circle formation.
 NARRATION: Step 2: Execute quick, small steps on the half-feet.
 NARRATION: Footwork from the sources: Quick and small steps on half feet.
 NARRATION: Drill: Hand-holding in a line.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-left / 2-2-right · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Incorporate frequent jumps into the step sequence.
 NARRATION: Drill: Walking in 2/4 time.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-left / 2-2-right · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -137,7 +137,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 5-6-7-8 / 1-2-left / 2-2-right.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -165,7 +165,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 5-6-7-8 / 1-2-left / 2-2-right. The meter is 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -175,10 +175,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hold hands in a half-circle formation.
 NARRATION: Step 2: Execute quick, small steps on the half-feet.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-left / 2-2-right · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Incorporate frequent jumps into the step sequence.
@@ -187,7 +187,7 @@ NARRATION: Jumps: Frequent vertical movements integrated into the dance.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-left / 2-2-right · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -203,7 +203,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 5-6-7-8 / 1-2-left / 2-2-right.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -231,7 +231,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 5-6-7-8 / 1-2-left / 2-2-right. The meter is 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -241,10 +241,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Execute quick, small steps on the half-feet.
 NARRATION: Step 2: Incorporate frequent jumps into the step sequence.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-left / 2-2-right · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Half-feet steps: Quick, small steps performed on the balls of the feet.
@@ -252,7 +252,7 @@ NARRATION: Jumps: Frequent vertical movements integrated into the dance.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-left / 2-2-right · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -268,7 +268,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 5-6-7-8 / 1-2-left / 2-2-right.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -295,7 +295,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'wJvguB2n7FE', 'checked_by_vision_model': True, 'title': 'Skopska Crnogorka, Macedonian folk dance'}
 Images: 0 licensed
 Footage: BEAUTY OF SLAVIC CULTURE — https://archive.org/details/youtube-yMc5b-V7mRI
 Motifs: Half-circle formation, Feet moving on half-feet, Vertical jumps
@@ -305,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8 / 1-2-left / 2-2-right
+Demonstration: views used by most teachers: back; tempo progression: slow → full
+Cues: 1-2-left; 2-2-right; step in front; step behind
 
 Sources (2): https://en.wikipedia.org/wiki/Crnogorka_(dance); https://www.wikidata.org/wiki/Q5187002

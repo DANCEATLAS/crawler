@@ -2,7 +2,7 @@
  "slug": "carolina-shag",
  "name": "Carolina shag",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:21Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-16T20:01:34Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -266,7 +266,7 @@
       "Drill: Practice triple step timing: one-and-two"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -411,7 +411,7 @@
       "Step 2: Triple step to the right (three-and-four)"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -556,7 +556,7 @@
       "Step 2: Rock step back (five-six)"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -749,18 +749,23 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-and-2, 3-and-4, 5-6",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
    "views used by most teachers: front, mirror",
-   "tempo progression: full"
+   "tempo progression: slow → full",
+   "repetitions per step: about 2"
   ],
   "cues": [
    "keep your knees flexible not stiff",
    "weight forward on the balls of your feet",
-   "start a new step on count 1"
+   "start a new step on count 1",
+   "one and two",
+   "three and four",
+   "rock step",
+   "step touch"
   ],
   "common_mistakes": [
    "bouncing hands up and down",
@@ -768,8 +773,10 @@
   ],
   "segment_order": [
    "intro",
+   "recap",
    "context",
    "full_demo",
+   "slow_practice",
    "breakdown"
   ],
   "steps_as_taught": [
@@ -782,6 +789,21 @@
     "name": "Female Under Arm Turn",
     "counts": "1 & 2, 3 & 4, 5 6",
     "description": "Basic step with the female turning under the raised lead hand"
+   },
+   {
+    "name": "basic footwork",
+    "counts": "1-and-2, 3-and-4, 5-6",
+    "description": "Forward forward back, back stay stay, rock step"
+   },
+   {
+    "name": "female turn",
+    "counts": "1-and-2, 3-and-4, 5-6",
+    "description": "Turning the follower while changing position with partner"
+   },
+   {
+    "name": "start step",
+    "counts": "1-2, 3-and-4, 5-6",
+    "description": "Prep step from closed formation into basic pattern"
    }
   ]
  },
@@ -798,6 +820,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "5c05e36344e79714b506149d30932bd3b869ede4a28ffa6ab00d2bac1eaf385b",
+ "input_fingerprint": "2b3381df449b5783a5de2aa3f79d871afb43a157693d8ac6682aeb8786a9184d",
  "hero_checked": "pass"
 }

@@ -2,7 +2,7 @@
  "slug": "chaiti-ghoda-nacha",
  "name": "Chaiti Ghoda Nacha",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:21Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-17T19:40:13Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -67,7 +67,7 @@
      "This is Chaiti Ghoda Nacha. 10th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (a1jX37KcA2Y)",
      "Title card: Chaiti Ghoda Nacha · India · 10th century to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Ghoda Nacha."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (a1jX37KcA2Y)",
      "Captions name each signature move as it appears",
      "Formation: Open village spaces; the horse moves through the crowd or in a central performance area."
     ],
@@ -265,7 +265,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "a1jX37KcA2Y",
+   "checked_by_vision_model": false,
+   "title": "Puri: Artists Perform Traditional Folk dance 'Chaiti Ghoda Nacha' At Badadanda"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -376,8 +380,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "31 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 31,
+  "source": "41 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 41,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -387,24 +391,25 @@
   ],
   "cues": [
    "1-2-3-4",
-   "step together step",
-   "brush the foot",
-   "arms open close in a circle",
-   "1-2",
-   "3-4",
-   "sa'o'i",
-   "lualua tongi e",
-   "e a'a tongi e",
-   "stomp clap",
-   "chest chest leg leg clap",
-   "pull back and lean to the left"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto",
+   "viene y",
+   "preparacin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "warmup",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice",
    "recap"
@@ -415,7 +420,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video"
+  "the hero video's vision check"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Chaiti_ghoda",
@@ -424,6 +429,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "0bbaff3e8bc3a71c181b78236500f12332ad5f4fe8f3b6aa26990233be64619b",
- "hero_checked": null
+ "input_fingerprint": "fc833abf2f842dbb9c4613e3a7083dbe818793a484b7f12d48b7d22dc204a1db",
+ "hero_checked": "fail"
 }

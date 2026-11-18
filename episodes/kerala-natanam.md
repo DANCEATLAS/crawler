@@ -1,6 +1,6 @@
 # Kerala Natanam — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.7 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.7 · 11/11 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; what to avoid / common mistakes
 
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Adopt tribhanga stance replacing Kathakali's rigid posture
 NARRATION: Use angika abhinaya with precise hand gestures
-NARRATION: Count it: .
+NARRATION: Count it: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -117,9 +117,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Adopt tribhanga stance replacing Kathakali's rigid posture
 NARRATION: Step 2: Use angika abhinaya with precise hand gestures
 NARRATION: Drill: Practice standing in tribhanga pose
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: tha-ka-di-ki-ta / tha-the-hi-tha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Express emotions through satvika abhinaya (facial expressions)
@@ -127,6 +128,7 @@ NARRATION: Step 4: Perform role-appropriate costume and makeup
 NARRATION: Drill: Perform basic angika hand gestures
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: tha-ka-di-ki-ta / tha-the-hi-tha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,7 +145,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,7 +176,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -184,9 +186,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Dance in solo, duet, or group formations
 NARRATION: Drill: Sequence simple solo movements
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: tha-ka-di-ki-ta / tha-the-hi-tha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Tribhanga Pose: A three-bend posture replacing Kathakali's rigid stance for fluidity
@@ -194,6 +197,7 @@ NARRATION: Drill: Introduce role-specific costume elements
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: tha-ka-di-ki-ta / tha-the-hi-tha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -210,7 +214,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed solo, in pairs, groups, or extended dance dramas
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -241,7 +245,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -252,9 +256,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Perform role-appropriate costume and makeup
 NARRATION: Step 2: Dance in solo, duet, or group formations
 NARRATION: Drill: Master complex group formations
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: tha-ka-di-ki-ta / tha-the-hi-tha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Tribhanga Pose: A three-bend posture replacing Kathakali's rigid stance for fluidity
@@ -262,6 +267,7 @@ NARRATION: Drill: Integrate full costume and makeup
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: tha-ka-di-ki-ta / tha-the-hi-tha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -278,7 +284,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: tha-ka-di-ki-ta / tha-the-hi-tha.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed solo, in pairs, groups, or extended dance dramas
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -315,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the classical-court family studied · videos studied: 6
-Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet; uno y dos
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: tha-ka-di-ki-ta / tha-the-hi-tha
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: tha-ka-di-ki-ta; tha-the-hi-tha
 
 Sources (2): https://en.wikipedia.org/wiki/Kerala_Natanam; https://www.wikidata.org/wiki/Q3595273

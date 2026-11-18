@@ -1,13 +1,94 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex partner interactions"
+        ],
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "15",
+        "game_version": "A 'follow the leader' game where children mimic the hip movements of the instructor."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "deep knee bends",
+          "rapid turns"
+        ],
+        "counts": "Simplified 4-count rhythm.",
+        "seated_version": "Perform hip rotations and arm movements while seated in a sturdy chair.",
+        "standing_version": "Perform the hip sway while holding onto a chair for balance.",
+        "tempo_and_range": "Reduced tempo and smaller range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Fluid, expressive movements, often used to balance the hip rotation.",
+      "difficulty": "beginner",
+      "footwork": "Shuffling steps that never leave the ground.",
+      "formation_and_space": "Couples or groups moving in circular paths.",
+      "hips_and_torso": "The primary focus; hips move in circular and side-to-side motions.",
+      "levels_and_jumps": "Dancers may lower their bodies towards the floor while continuing to move the upper body.",
+      "partnering": "Playful, non-contact or light-contact interaction where the woman leads the direction.",
+      "posture": "Upright but relaxed, with knees slightly bent to facilitate hip movement.",
+      "signature_moves": [
+        {
+          "description": "Fluid, rhythmic circular movement of the hips while feet remain grounded.",
+          "name": "Hip Rotation"
+        }
+      ],
+      "tempo_feel": "Varies from moderate to very fast (in Rodrigues).",
+      "what_to_avoid": "Lifting the feet off the ground."
+    },
+    "music_profile": {
+      "instruments": [
+        "ravanne",
+        "maravanne",
+        "triangle",
+        "bobre"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "emotional",
+        "rhythmic",
+        "joyful",
+        "protest"
+      ],
+      "musical_form": "Traditional folk song structure",
+      "reference_recordings": [
+        {
+          "artist": "Claudio Veeraragoo",
+          "title": "Ambalaba"
+        },
+        {
+          "artist": "Alain Ramanisum",
+          "title": "Li tourner"
+        }
+      ],
+      "rhythm_pattern": "Driving, percussive pulse",
+      "sound_description": "A percussive, drum-heavy sound driven by the deep resonance of the ravanne and the metallic shimmer of the triangle, often featuring call-and-response vocals.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Improvisational, sung in Creole"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Keep feet in contact with the floor at all times.",
+        "Shift weight from side to side to initiate hip movement.",
+        "Rotate hips in a fluid, circular motion.",
+        "Maintain a playful, improvisational connection with a partner."
+      ],
+      "formation": "Couples or groups in circular formations",
+      "level_notes": "Beginners should focus on maintaining grounded footwork while isolating hip movement from the upper body.",
+      "rhythm": "6/8 meter"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4d733df4025677f328a9f6040bcf9fdb2c9aea98dceb5cad5a36c5023824cd08",
+  "fingerprint": "95403a8487ff13f95e70c65756f2725d6b2c5001a074cad95b36612bf01b06d5",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +96,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -46,7 +124,7 @@
   "music_options": [],
   "name": "Sega",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/sega.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +135,14 @@
   },
   "slug": "sega",
   "sources": [
-    "https://en.wikipedia.org/wiki/Sega_(genre)"
+    "https://en.wikipedia.org/wiki/Sega_(genre)",
+    "https://www.wikidata.org/wiki/Q1781796",
+    "https://fr.wikipedia.org/wiki/Séga",
+    "https://es.wikipedia.org/wiki/Segá",
+    "https://pt.wikipedia.org/wiki/Sega_(música)",
+    "https://de.wikipedia.org/wiki/Sega_(Musik)",
+    "https://archive.org/details/book_game-maestro_vol2",
+    "https://archive.org/details/cantilenepopolar00oddo"
   ],
   "state": "researching",
   "video_evidence": []

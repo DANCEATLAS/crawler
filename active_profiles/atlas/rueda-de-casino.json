@@ -2,97 +2,86 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "complex figures",
-          "fast tempo",
-          "partner collisions"
-        ],
-        "counts": "basic 4-count steps",
-        "duration_minutes": "5",
-        "game_version": "simplified partner swapping game with call-and-response"
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "fast partner swaps",
-          "complex turns",
-          "high tempo"
-        ],
-        "counts": "simplified counts focusing on basic moves",
+        "avoid": [],
+        "counts": "not derivable yet",
         "seated_version": "not derivable yet",
         "standing_version": "not derivable yet",
-        "tempo_and_range": "reduced tempo and smaller range of motion recommended"
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Hand signals accompany calls; arms used for partner turns and exchanges",
-      "difficulty": "beginner to advanced depending on figures",
-      "footwork": "not described in sources",
-      "formation_and_space": "Circular formation with couples rotating positions during partner swaps",
-      "hips_and_torso": "Natural salsa hip movement; torso rotates with turns",
-      "levels_and_jumps": "Levels range from basic to ultra advanced with complex figures; jumps not described",
-      "partnering": "Closed hold; frequent partner exchanges directed by caller",
-      "posture": "Upright with closed dance hold; dancers face partner within the circle",
+      "arms_and_hands": "Closed hold or open hand connections; caller uses hand taps on the head for specific figures like Sombrero.",
+      "difficulty": "intermediate",
+      "footwork": "Guapea: stepping forward on the inside foot and backward on the outside foot, tangent to the circle.",
+      "formation_and_space": "Circular formation (rueda) with pairs facing inward, revolving around a central axis.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Continuous partner swapping where dancers move around the circle to the next partner.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Gentleman fetches the partner to his right, initiating a partner swap",
+          "description": "The lead moves to take the first partner to their right.",
           "name": "Dame"
         },
         {
-          "description": "Partner turns inside the circle and swaps places with the caller's right-side partner",
-          "name": "Enchufla"
+          "description": "Leader guides the partner through a turn inside the circle and takes their place.",
+          "name": "Enchufe"
         },
         {
-          "description": "A playful move involving a turn and a pause",
-          "name": "Vacila"
-        },
-        {
-          "description": "Caller taps the top of the head as a hand signal; dancers perform a specific turn",
+          "description": "A hat move indicated by the caller tapping the top of their head.",
           "name": "Sombrero"
         }
       ],
-      "tempo_feel": "Syncopated salsa rhythm, moderate to fast tempo",
-      "what_to_avoid": "Avoid missing calls; maintain spatial awareness to prevent collisions; respect cultural origins by not altering Afro-Cuban elements in original style"
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
-      "instruments": [
-        "congas",
-        "bongos",
-        "timbales",
-        "trumpets",
-        "piano",
-        "bass"
-      ],
-      "meter": "4/4",
+      "instruments": [],
+      "meter": "not described in sources",
       "mood_keywords": [
         "energetic",
-        "lively",
-        "syncopated",
-        "rhythmic"
+        "playful",
+        "dynamic"
       ],
-      "musical_form": "Typically montuno sections with repeated rhythmic patterns supporting dancing",
-      "reference_recordings": [],
-      "rhythm_pattern": "Salsa and timba rhythms with clave-based percussion",
-      "sound_description": "",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "Call-and-response vocals typical of salsa and timba"
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Gloria Estefan",
+          "title": "No me dejes de querer"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Form a circle with couples holding closed dance position",
-        "Start with 'al Medio' step: step in and out of the circle",
-        "Or start with 'Guapea': step forward on inside foot, backward on outside foot tangent to the circle",
-        "Listen for caller's move and watch hand signals",
-        "Execute called moves simultaneously, including partner swaps and turns"
+        "Guapea (stepping forward on the inside foot and backward on the outside foot)",
+        "Al Medio (stepping in and out of the circle in closed hold)",
+        "Dame (partner exchange)",
+        "Enchufe (turning partner inside and swapping places)"
       ],
-      "formation": "Circle (rueda) of couples, sometimes multiple concentric circles",
-      "level_notes": "Beginners start with basic moves like Dame and Enchufla; intermediate and advanced levels include complex figures and improvisations.",
-      "rhythm": "Salsa rhythm, typically 4/4 meter"
+      "formation": "Circular formation of couples facing inward",
+      "level_notes": "Divided into basic, intermediate, and advanced levels, with master or ultra-advanced levels in some academies.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "95afa23a6ee29dd1a3176b81459fdb55875dcde9dfcbfe5258089d1fb5d7bdee",
+  "fingerprint": "392916a06528db1ec243ab61d96657631d7391b74170fcaa0f6c8fc8b2cde7ba",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -100,8 +89,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
-      "music_structure: sound_description",
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -145,8 +134,9 @@
     "https://www.wikidata.org/wiki/Q1503394",
     "https://es.wikipedia.org/wiki/Rueda_de_casino",
     "https://fr.wikipedia.org/wiki/Rueda_de_casino",
-    "https://de.wikipedia.org/wiki/Rueda_de_casino"
+    "https://de.wikipedia.org/wiki/Rueda_de_casino",
+    "https://it.wikipedia.org/wiki/Rueda_de_casino"
   ],
-  "state": "teaching_withheld",
+  "state": "researching",
   "video_evidence": []
 }

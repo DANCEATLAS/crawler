@@ -1,0 +1,375 @@
+{
+ "slug": "perini-shivatandavam",
+ "name": "Perini Shivatandavam",
+ "pack_version": "e2",
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T19:36:41Z",
+ "qc_score": 9.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Perini Shivatandavam",
+   "Perini Thandavam",
+   "Perini dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Perini Shivatandavam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Warrior's Invocation",
+     "This is Perini Shivatandavam. 13th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Perini Shivatandavam · India · 13th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance prospered during the Kakatiya dynasty in Warangal.",
+     "It is mentioned in the Sanskrit text 'Nrttya Ratnavali' by Jayapa Senani and the 'Bhimeswara Puranam' by Srinatha.",
+     "The form was revived in the modern era by Dr. Nataraja Ramakrishna through the study of manuscripts and temple sculptures."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed in honor of Lord Shiva.",
+     "It was traditionally enacted by warriors before leaving for the battlefield to invoke 'Prerana' (inspiration).",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is performed to the resounding beats of drums.",
+     "No other specific instruments are described in sources.",
+     "Listen for the drums.",
+     "The music is characterized by the resounding beats of drums used to drive the dancer to a state of mental abstraction."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historically performed on special platforms in front of temples.",
+     "Sculptural evidence of the dance is found near the Garbha Gudi of the Ramappa Temple at Warangal."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Nataraja Ramakrishna (revivalist), Jayapa Senani (author of Nrttya Ratnavali), Srinatha (poet)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is performed in honor of Lord Shiva and involves the dancer seeking to enter a state of mental abstraction to channel the deity's power."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "A look at the revival of the Kakatiya-era Perini Shivatandavam.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "drums"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "vigorous",
+   "resounding"
+  ],
+  "sound_description": "The music is characterized by the resounding beats of drums used to drive the dancer to a state of mental abstraction.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Perini Shivatandavam (India). Instruments: drums. Mood: vigorous, resounding. It should sound like this: The music is characterized by the resounding beats of drums used to drive the dancer to a state of mental abstraction. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Historically performed on special platforms in front of temples. Sculptural evidence of the dance is found near the Garbha Gudi of the Ramappa Temple at Warangal.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A%E0%B0%AA%E0%B1%87%E0%B0%B0%E0%B0%BF%E0%B0%A3%E0%B1%80_%E0%B0%B6%E0%B0%BF%E0%B0%B5%E0%B0%A4%E0%B0%BE%E0%B0%82%E0%B0%A1%E0%B0%B5%E0%B0%82_.png",
+    "https://commons.wikimedia.org/wiki/File%3APerini_Dance_Performance_on_Lord_Srirama%27s_Life_at_Mahathi_Auditorium_in_Gajwel_15.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/%E0%B0%AA%E0%B1%87%E0%B0%B0%E0%B0%BF%E0%B0%A3%E0%B1%80_%E0%B0%B6%E0%B0%BF%E0%B0%B5%E0%B0%A4%E0%B0%BE%E0%B0%82%E0%B0%A1%E0%B0%B5%E0%B0%82_.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/19/%E0%B0%AA%E0%B1%87%E0%B0%B0%E0%B0%BF%E0%B0%A3%E0%B1%80_%E0%B0%B6%E0%B0%BF%E0%B0%B5%E0%B0%A4%E0%B0%BE%E0%B0%82%E0%B0%A1%E0%B0%B5%E0%B0%82_.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Adbh266 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%B0%AA%E0%B1%87%E0%B0%B0%E0%B0%BF%E0%B0%A3%E0%B1%80_%E0%B0%B6%E0%B0%BF%E0%B0%B5%E0%B0%A4%E0%B0%BE%E0%B0%82%E0%B0%A1%E0%B0%B5%E0%B0%82_.png",
+    "description": "Perini Shiva Tandavam"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Perini_Dance_Performance_on_Lord_Srirama%27s_Life_at_Mahathi_Auditorium_in_Gajwel_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Perini_Dance_Performance_on_Lord_Srirama%27s_Life_at_Mahathi_Auditorium_in_Gajwel_15.jpg/1280px-Perini_Dance_Performance_on_Lord_Srirama%27s_Life_at_Mahathi_Auditorium_in_Gajwel_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APerini_Dance_Performance_on_Lord_Srirama%27s_Life_at_Mahathi_Auditorium_in_Gajwel_15.jpg",
+    "description": "గజ్వేల్‌లోని మహతి ఆడిటోరియం ప్రారంభోత్సవం సందర్భంగా 2019 డిసెంబరు 15న తెలంగాణ ప్రభుత్వ భాషా సాంస్కృతిక శాఖ నిర్వహించిన సాంస్కృతిక సంబరాలులో పేరిణి నాట్య ప్రదర్శన"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Ramappa Temple sculptures",
+   "Temple platforms",
+   "Drummers"
+  ],
+  "costume_notes": "Historically performed on special platforms in front of temples. Sculptural evidence of the dance is found near the Garbha Gudi of the Ramappa Temple at Warangal.",
+  "setting_notes": "The dance is performed in honor of Lord Shiva. It was traditionally enacted by warriors before leaving for the battlefield to invoke 'Prerana' (inspiration).",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 4,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "signature moves",
+  "lineage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Perini_Sivatandavam",
+  "https://www.wikidata.org/wiki/Q3765070"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "a578a6468a8058847ae75feebf4107413786716d03f58d0fc778768ca1abbea4",
+ "hero_checked": null
+}

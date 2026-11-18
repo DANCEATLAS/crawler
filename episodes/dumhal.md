@@ -1,8 +1,8 @@
 # Dumhal — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-18 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respected elder of the Watal tribe who emphasizes the ritual importance and the privilege of the dance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Banner in the Earth
 NARRATION: This is Dumhal. Contemporary/Living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (u9DO9_AIlYk)
 ON SCREEN: Title card: Dumhal · India · Contemporary/Living tradition
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance begins with a ritualistic movement to dig a banner into the
 NARRATION: Once the banner is set, the men dance in a circle around it.
 NARRATION: The movement is described as ritualistic and performed in a chorus.
 NARRATION: Watch for Banner Planting.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (u9DO9_AIlYk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: A circular formation revolving around a central banner planted in the ground.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -99,7 +99,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'u9DO9_AIlYk', 'checked_by_vision_model': True, 'title': 'Dumhal Dance| Folk Dance of Kashmir'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: The tall conical cap with shells, The banner being thrust into the soil, Brightly colored robes against a mountain backdrop
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
+Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
 
 Sources (2): https://en.wikipedia.org/wiki/Dumhal; https://www.wikidata.org/wiki/Q5313817

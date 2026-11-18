@@ -1,0 +1,137 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex partnering"
+        ],
+        "counts": "1-2, 3",
+        "duration_minutes": "5",
+        "game_version": "Slide-step game following a diagonal path."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "deep knee bends",
+          "rapid changes in direction"
+        ],
+        "counts": "1-2, 3",
+        "seated_version": "Perform the slide and bend using a seated sway motion.",
+        "standing_version": "Supported side-steps with reduced range of motion.",
+        "tempo_and_range": "Reduced tempo, smaller steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Slide left, bend, step right behind.",
+      "formation_and_space": "Diagonal movement forward and backward.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes slight knee bends; simplified versions include jumps.",
+      "partnering": "Couple dancing.",
+      "posture": "Upright, typical of 19th-century ballroom.",
+      "signature_moves": [
+        {
+          "description": "Slide on beats 1-2, step behind on beat 3.",
+          "name": "Two-step sequence"
+        }
+      ],
+      "tempo_feel": "Energetic.",
+      "what_to_avoid": "Avoid ignoring the diagonal path or failing to coordinate the knee bend with the first two beats."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "3/4",
+      "mood_keywords": [
+        "energetic",
+        "brio"
+      ],
+      "musical_form": "Waltz",
+      "reference_recordings": [],
+      "rhythm_pattern": "Two movements per three-beat measure.",
+      "sound_description": "Standard waltz music in 3/4 time, but interpreted by the dancers as a two-beat rhythm.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Slide the left foot to the left on the first beat.",
+        "Bend the knees slightly on the second beat.",
+        "Bring the right foot quickly behind the left foot on the third beat."
+      ],
+      "formation": "Couple.",
+      "level_notes": "Requires coordination to fit two steps into three beats.",
+      "rhythm": "Three-beat measure (3/4 time) interpreted as two movements."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "2d9a0e493720067c1400340e373c5003337f0f9e959c2d08765ebcd25e7b0c63",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific musical scores or tempo markings preserved for the Valse à deux temps? Evidence needed: Consult the American Ballroom Companion digitized collection mentioned in the Wikipedia source."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:valse-a-deux-temps",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Valse à deux temps",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "2b83ada26a736289",
+      "next_evidence": "Consult the American Ballroom Companion digitized collection mentioned in the Wikipedia source.",
+      "question": "Are there specific musical scores or tempo markings preserved for the Valse à deux temps?",
+      "source": "https://en.wikipedia.org/wiki/Valse_%C3%A0_deux_temps",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source mentions the dance is performed to three-beat music but lacks specific tempo or score references."
+    }
+  ],
+  "research_file": "research_results/valse-a-deux-temps.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "valse-a-deux-temps",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Valse_%C3%A0_deux_temps",
+    "https://www.wikidata.org/wiki/Q4103096"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

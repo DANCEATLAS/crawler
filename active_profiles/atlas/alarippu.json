@@ -1,0 +1,132 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands often held in Pataka or Anjali mudras; arms move in geometric lines.",
+      "difficulty": "beginner",
+      "footwork": "Precise rhythmic tapping and stepping that mirrors the mridangam beats.",
+      "formation_and_space": "Stationary or limited forward/backward movement on a single axis.",
+      "hips_and_torso": "Torso remains stable while the lower body maintains the Araimandi position.",
+      "levels_and_jumps": "Transitions between standing, half-sitting, and occasionally full-sitting; no high jumps.",
+      "partnering": "None (Solo)",
+      "posture": "Erect spine, transitioning into Araimandi (half-sit) with knees turned out.",
+      "signature_moves": [
+        {
+          "description": "Stylized neck movements performed in isolation to the rhythm.",
+          "name": "Griva Bheda"
+        },
+        {
+          "description": "The foundational half-seated posture with knees pointed outward.",
+          "name": "Araimandi"
+        }
+      ],
+      "tempo_feel": "Starts with slow, deliberate isolations and builds to a brisk rhythmic finish.",
+      "what_to_avoid": "Avoid facial expressions (abhinaya) as this is pure Nritta; do not lose the turnout in the knees during Araimandi."
+    },
+    "music_profile": {
+      "instruments": [
+        "Mridangam",
+        "Cymbals (Manjira)",
+        "Nattuvanar's voice"
+      ],
+      "meter": "Variable (3, 4, 5, 7, or 9 beats depending on the Jathi)",
+      "mood_keywords": [
+        "meditative",
+        "disciplined",
+        "invocatory",
+        "precise"
+      ],
+      "musical_form": "Nritta (pure rhythm)",
+      "reference_recordings": [],
+      "rhythm_pattern": "Solkattu (rhythmic syllables) recited by the Nattuvanar",
+      "sound_description": "The sound is dominated by the sharp, resonant strikes of the mridangam and the crisp, percussive vocalizations of the Nattuvanar. There is no melodic singing, creating a focused, rhythmic atmosphere that highlights the dancer's footwork.",
+      "tempo_bpm": "Variable, typically starting slow and increasing in intensity",
+      "vocal_style": "Rhythmic recitation (Chollu)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in Samapada (feet together) with hands in Anjali Mudra above the head.",
+        "Execute Griva Bheda (neck movements) in sync with the rhythmic syllables.",
+        "Perform Drishti Bheda (eye movements) following the hand placements.",
+        "Lower the body into Araimandi (half-sit) while extending the arms.",
+        "Execute rhythmic footwork patterns (Adavus) matching the specific Jathi."
+      ],
+      "formation": "Solo dancer facing the audience",
+      "level_notes": "The first piece a student learns; focuses on basic posture and rhythmic timing.",
+      "rhythm": "Based on one of five Jathis (rhythmic patterns)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a9888ab3215aefb4e12afbdbf57d592e8b45acbceeba7763966d7c1b5eb7f758",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific visual differences in footwork between the Tisra and Misra Jathis of Alarippu? Evidence needed: https://en.wikipedia.org/wiki/Alarippu"
+    ]
+  },
+  "id": "atlas:alarippu",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Alarippu",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "a07396264ba20da7",
+      "next_evidence": "https://en.wikipedia.org/wiki/Alarippu",
+      "question": "What are the specific visual differences in footwork between the Tisra and Misra Jathis of Alarippu?",
+      "source": "https://en.wikipedia.org/wiki/Alarippu",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate visual cues for the five different rhythmic variations mentioned in the text."
+    }
+  ],
+  "research_file": "research_results/alarippu.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "alarippu",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Alarippu",
+    "https://www.wikidata.org/wiki/Q4708379"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

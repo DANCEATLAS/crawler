@@ -1,0 +1,120 @@
+{
+ "slug": "dance-in-rotuma",
+ "qc_at": "2026-11-18T21:19:33Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "dance in Rotuma"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "187"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Located 465 km north of Fiji, Rotuma maintains distinct dance traditions includi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "534"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2416"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Fiji"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "9 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 6,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 5,
+  "verdict": "review",
+  "notes": "The subject is a geographical location and a collection of dance styles rather than a single dance tradition. While the factual claims are accurate, the profile lacks sufficient descriptive content to be useful as a teaching resource. It functions more as an ethnographic summary than a dance guide."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=7.65",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T18:39:21Z"
+}

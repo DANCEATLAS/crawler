@@ -1,0 +1,126 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "holding a pair of wooden sticks",
+      "difficulty": "beginner",
+      "footwork": "steps forward to hit sticks with partner, then moves on two people",
+      "formation_and_space": "two lines, partners facing each other, moving clockwise",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "dancers operate in pairs, requiring an even number of participants",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "hitting sticks with partner or self to mark time",
+          "name": "stick-clashing"
+        }
+      ],
+      "tempo_feel": "starts very slowly",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "dandiya sticks"
+      ],
+      "meter": "8-beat",
+      "mood_keywords": [
+        "rhythmic",
+        "intense",
+        "enthusiastic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Kaherva",
+      "sound_description": "The music is characterized by a rhythmic clattering of sticks marking time, starting slowly and building in intensity.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold one stick in each hand",
+        "Hit own sticks together on beat 1",
+        "Hit right stick with partner on beat 2",
+        "Hit left stick with partner on beat 3",
+        "Turn away to the left and hit own sticks together"
+      ],
+      "formation": "Two lines facing each other",
+      "level_notes": "Beginners should focus on the 8-beat cycle and partner synchronization.",
+      "rhythm": "8-beat Kaherva cycle"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "5edee9d19771576d86d1a7beeb089428f73ce2067c4bb72574526208caccf74a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical instruments are traditionally used to accompany the sticks in Dandiya Raas? Evidence needed: Musicological studies of Gujarati folk music."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:dandiya-raas",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dandiya Raas",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "101b550a4ddcc4a3",
+      "next_evidence": "Musicological studies of Gujarati folk music.",
+      "question": "What specific musical instruments are traditionally used to accompany the sticks in Dandiya Raas?",
+      "source": "https://en.wikipedia.org/wiki/Dandiya_Raas",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only mention the sticks themselves as instruments."
+    }
+  ],
+  "research_file": "research_results/dandiya-raas.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dandiya-raas",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dandiya_Raas",
+    "https://www.wikidata.org/wiki/Q3629880"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,13 +1,79 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "joined hands in circles or lines",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "longways lines or squares",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "interaction between partners and other dancers",
+      "posture": "upright",
+      "signature_moves": [
+        {
+          "description": "Dancers join hands and move in a circular path.",
+          "name": "Circle Left"
+        },
+        {
+          "description": "A complex figure that requires specific instruction.",
+          "name": "Strip the Willow"
+        }
+      ],
+      "tempo_feel": "bright and rhythmic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "traditional folk instruments"
+      ],
+      "meter": "2/4 or 6/8",
+      "mood_keywords": [
+        "bright",
+        "rhythmic",
+        "simple"
+      ],
+      "musical_form": "jigs and reels",
+      "reference_recordings": [],
+      "rhythm_pattern": "32-bar structure",
+      "sound_description": "Bright and rhythmic music, typically structured in 32-bar phrases, designed to support the timing of the dance figures.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circle Left: A group of dancers join hands and move in a circle.",
+        "Progression: Dancers move to a new position in the set to meet a new partner.",
+        "Figure execution: Following the caller's instructions to trace a pattern on the floor."
+      ],
+      "formation": "Longways lines or squares",
+      "level_notes": "Beginner figures are intuitive; complex figures require instruction.",
+      "rhythm": "2/4 or 6/8 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e742d9f9b337af596bcf5a49f6887021d951b33a463a096b50fb55d7d837cf99",
+  "fingerprint": "f0efaadc8b58e93a904c36f44a4dfea7df984ae8cbd5ae5b6fd5bcf2dbcf49ae",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +81,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns for common figures like 'Strip the Willow'? Evidence needed: Historical dance manuals or instructional videos from accredited societies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +110,18 @@
   ],
   "music_options": [],
   "name": "Country dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f92bb2e9398e17b3",
+      "next_evidence": "Historical dance manuals or instructional videos from accredited societies.",
+      "question": "What are the specific footwork patterns for common figures like 'Strip the Willow'?",
+      "source": "https://en.wikipedia.org/wiki/Country_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for learners."
+    }
+  ],
+  "research_file": "research_results/country-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +133,9 @@
   "slug": "country-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Country_dance",
-    "Source: Country dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Country_dance"
+    "https://www.wikidata.org/wiki/Q4763331",
+    "https://fr.wikipedia.org/wiki/Danse_country",
+    "https://it.wikipedia.org/wiki/Country_dance"
   ],
   "state": "researching",
   "video_evidence": []

@@ -1,13 +1,72 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "partners hold hands",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "paired, continuous rotations",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "partners rotate back-to-back around their own axes and the partner's axis",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Continuous back-to-back rotations around the dancer's axis and the partner's axis.",
+          "name": "Voltes or Furles"
+        }
+      ],
+      "tempo_feel": "vigorous",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vigorous",
+        "intense"
+      ],
+      "musical_form": "three-part structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold hands with partner",
+        "Perform back-to-back rotations",
+        "Rotate around axis"
+      ],
+      "formation": "paired",
+      "level_notes": "The dance is considered demanding due to the complexity of the rotations.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ecd18df0592034019fd2ba9342c55b56e44bb512adb478f7722d4568339d520c",
+  "fingerprint": "5929011d116f5dd23d6bf18ca2bb776e5a1114abd0c0287dcd34164812207582",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +74,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments used in the Kythnos Balos? Evidence needed: Field recordings or musicological studies of Kythnos folk music.",
+      "Investigate: What is the specific footwork pattern for the three parts of the dance? Evidence needed: Instructional dance manuals or video documentation of the Kythnos Balos."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +105,27 @@
   ],
   "music_options": [],
   "name": "Balos",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8edd7fcbf56b7e4a",
+      "next_evidence": "Field recordings or musicological studies of Kythnos folk music.",
+      "question": "What are the specific musical instruments used in the Kythnos Balos?",
+      "source": "https://en.wikipedia.org/wiki/Balos_(Greek_dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources mention it is part of the music tradition but do not list instruments."
+    },
+    {
+      "domain": "research",
+      "id": "0abb30d877928edf",
+      "next_evidence": "Instructional dance manuals or video documentation of the Kythnos Balos.",
+      "question": "What is the specific footwork pattern for the three parts of the dance?",
+      "source": "https://en.wikipedia.org/wiki/Balos_(Greek_dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources describe the rotation but not the underlying step sequence."
+    }
+  ],
+  "research_file": "research_results/balos.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +137,11 @@
   "slug": "balos",
   "sources": [
     "https://en.wikipedia.org/wiki/Balos_(Greek_dance)",
-    "Source: Balos (Greek dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Balos_(Greek_dance)"
+    "https://www.wikidata.org/wiki/Q113073280",
+    "https://es.wikipedia.org/wiki/Balos_(danza)",
+    "https://fr.wikipedia.org/wiki/Ballos_thermiotique",
+    "https://de.wikipedia.org/wiki/Thermiotischer_Balos",
+    "https://it.wikipedia.org/wiki/Balos_(danza)"
   ],
   "state": "researching",
   "video_evidence": []

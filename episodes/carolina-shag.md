@@ -1,6 +1,6 @@
 # Carolina shag — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands
 
@@ -113,7 +113,7 @@ NARRATION: Step 1: Triple step to the left (one-and-two)
 NARRATION: Step 2: Triple step to the right (three-and-four)
 NARRATION: Footwork from the sources: Six-count, eight-step pattern in a slot: triple step, triple step, rock step
 NARRATION: Drill: Practice triple step timing: one-and-two
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
@@ -182,7 +182,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Triple step to the left (one-and-two)
 NARRATION: Step 2: Triple step to the right (three-and-four)
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
@@ -251,7 +251,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Triple step to the right (three-and-four)
 NARRATION: Step 2: Rock step back (five-six)
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
@@ -319,10 +319,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-and-2, 3-and-4, 5-6
-Demonstration: views used by most teachers: front, mirror; tempo progression: full
-Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1
+Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full; repetitions per step: about 2
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; one and two; three and four; rock step; step touch
 Common mistakes the studied teachers name: bouncing hands up and down; getting the partner out of alignment and balance during turns
 
 Sources (2): https://en.wikipedia.org/wiki/Carolina_shag; https://www.wikidata.org/wiki/Q5044924

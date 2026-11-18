@@ -1,6 +1,6 @@
 # Hustle — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
 

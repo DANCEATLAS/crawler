@@ -1,8 +1,8 @@
 # Nisiotika — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic island local who emphasizes the 'kefi' (spirit) over technical perfection.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In the 1970s, singer Mariza Koch revitalized these island traditions, which use microtonal string bending on the lyre and violin to navigate ancient modes like Rast and Beyati.
 NARRATION: This is Nisiotika. 1970s (Revival) to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (YuaxA8EsFvI)
 ON SCREEN: Title card: Nisiotika · Greece · 1970s (Revival) to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The tradition encompasses various dances including the Syrtos, Ballos
 NARRATION: While specific steps vary by island, they generally involve chain formations or partner pairings.
 NARRATION: For example, the Mihanikos mimics the limping gait of a diver, while the Pidikhtos involves springing movements.
 NARRATION: Watch for Mihanikos step.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (YuaxA8EsFvI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Open circles moving counter-clockwise or facing partner pairs
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dances are traditionally performed in village squares or during island festivals (panigiria). While specific costumes vary by island, they often include the vraka (breeches) for men. The setting is typically the open-air spaces of the Aegean islands, reflecting the maritime environment.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'YuaxA8EsFvI', 'checked_by_vision_model': True, 'title': '8. NISIOTIKOS BALLOS (20 Original GREEK Dances)'}
 Images: 1 licensed — Zde / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Whitewashed walls, Blue sea horizons, Violin bows, Vraka breeches, Circle formations
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
+Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
 Counting: count the Varies (2/4, 7/8, 8/8) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
 
 Sources (2): https://en.wikipedia.org/wiki/Nisiotika; https://www.wikidata.org/wiki/Q12881722

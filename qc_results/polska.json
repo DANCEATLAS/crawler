@@ -1,10 +1,10 @@
 {
  "slug": "polska",
- "qc_at": "2026-11-02T21:14:12Z",
+ "qc_at": "2026-11-18T21:18:33Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.1,
+ "qc_score": 9.45,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "70"
+   "detail": "85"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "147"
+   "detail": "170"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Rooted in 17th-century Polish court visits, the polska evolved into a dizzying N"
+   "detail": "In the 17th century, the polska evolved from courtly set dances into a high-spee"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "496"
+   "detail": "397"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1869"
+   "detail": "1974"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,regional_variants"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "foundational"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -88,7 +88,7 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
   "specificity": 9,
   "teaching_value": 8,
@@ -101,18 +101,18 @@
   "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is well-researched and accurately reflects the distinction between the living Norwegian traditions and the reconstructed Swedish ones. The technical descriptions of the bakmes and pols turns are clear and culturally respectful."
+  "notes": "An excellent, well-researched profile. It accurately captures the complexity of the polska family while maintaining a clear, accessible structure. The distinction between regional variants and the historical context is handled with high precision."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=9.1"
+  "judge_score=9.45"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-02T21:07:05Z"
+ "researched_at": "2026-11-18T20:13:29Z"
 }

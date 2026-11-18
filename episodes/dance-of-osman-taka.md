@@ -1,8 +1,8 @@
 # Dance of Osman Taka — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable folk dance historian or a traditional Cham dance practitioner.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of the Death-Defying Fighter
 NARRATION: This is Dance of Osman Taka. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mXY3l37Qg2k)
 ON SCREEN: Title card: Dance of Osman Taka · Albania · 19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is performed in a row with dancers holding hands and elbows
 NARRATION: The lead dancer performs complex steps before dropping to his knees to arch his back and chest, forming a bridge.
 NARRATION: The other dancers then step onto the lead dancer's stomach to continue the dance.
 NARRATION: Watch for The Bridge.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mXY3l37Qg2k)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -316,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mXY3l37Qg2k', 'checked_by_vision_model': True, 'title': 'Vallja e Osman Takes - The Dance of Osman Taka -  Albanian Folk Dance'}
 Images: 1 licensed — Fut.Perf. ☼ / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Historical portraits of 19th-century Albanian fighters, Close-ups of the bridge formation, Wide shots of the row dance in traditional settings
@@ -326,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
+Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
 
 Sources (3): https://en.wikipedia.org/wiki/Dance_of_Osman_Taka; https://www.wikidata.org/wiki/Q5215268; https://de.wikipedia.org/wiki/Tanz_von_Osman_Taka

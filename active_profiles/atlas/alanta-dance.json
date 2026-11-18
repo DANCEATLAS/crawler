@@ -1,13 +1,71 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "African percussions",
+        "Esan samba drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "urban",
+        "rhythmic"
+      ],
+      "musical_form": "Fusion of Esan samba, reggae, and jazz.",
+      "reference_recordings": [
+        {
+          "artist": "John Oboh",
+          "title": "Folashade"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A fusion of ancient Esan samba beats with reggae and jazz elements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "36f5d36e69910ceeca3d98ef3e4d82e56d029448a69b382449b2dbbf434f0498",
+  "fingerprint": "33472e9e14d0a2e442c3608802df0418f3ef10735047b18faf8094f60957502b",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +73,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific physical movements that define the Alanta dance? Evidence needed: Ethnographic accounts or instructional videos from the 1990s Ajegunle scene."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +103,18 @@
   ],
   "music_options": [],
   "name": "Alanta dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "07c6169ecadd1dbb",
+      "next_evidence": "Ethnographic accounts or instructional videos from the 1990s Ajegunle scene.",
+      "question": "What are the specific physical movements that define the Alanta dance?",
+      "source": "https://en.wikipedia.org/wiki/John_Oboh",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided sources only identify the dance as part of the Ajegunle music scene without describing the actual movement."
+    }
+  ],
+  "research_file": "research_results/alanta-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +125,8 @@
   },
   "slug": "alanta-dance",
   "sources": [
-    "https://en.wikipedia.org/wiki/Alanta_dance",
-    "Source: Alanta dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Alanta_dance"
+    "https://en.wikipedia.org/wiki/John_Oboh",
+    "https://www.wikidata.org/wiki/Q123536850"
   ],
   "state": "researching",
   "video_evidence": []

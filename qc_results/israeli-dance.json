@@ -1,0 +1,119 @@
+{
+ "slug": "israeli-dance",
+ "qc_at": "2026-11-18T21:19:41Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Israeli dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "57"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "153"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "First held in 1987, the Karmiel Dance Festival draws 5,000 or more dancers and a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "665"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2934"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,notable_figures,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Israel"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-researched. It correctly identifies that 'Israeli dance' is a broad category rather than a single dance style, which explains the lack of specific technical teaching instructions. The content is respectful and avoids stereotyping. It serves as a strong historical and cultural overview."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.85",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T18:48:12Z"
+}

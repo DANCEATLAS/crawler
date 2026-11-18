@@ -1,6 +1,6 @@
 # La Bamba — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand erect with straight posture
 NARRATION: Perform zapateado footwork emphasizing right heel
-NARRATION: Count it: count the binary (2/4 or similar) bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-2-3-4-5-6-7.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -105,7 +105,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the binary (2/4 or similar) bar out loud, then in pairs of bars. The meter is binary (2/4 or similar).
+NARRATION: Count: 1-2-3-4-5-6-7. The meter is binary (2/4 or similar).
 NARRATION: Rhythm pattern: Ostinato pattern with arpeggiated bass and rhythmic strumming.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -118,10 +118,10 @@ NARRATION: Step 1: Stand erect with straight posture
 NARRATION: Step 2: Perform zapateado footwork emphasizing right heel
 NARRATION: Footwork from the sources: Intricate zapateado emphasizing right heel, performed to fast binary rhythm
 NARRATION: Drill: Practice right heel taps to 2/4 rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the binary (2/4 or similar) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Practice tying a large ribbon into a knot using feet
@@ -129,7 +129,7 @@ NARRATION: Step 4: Maintain fast, binary rhythm foot taps
 NARRATION: Drill: Maintain erect posture while stepping
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the binary (2/4 or similar) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -148,7 +148,7 @@ MUSIC: silence
 OPTIONS: For children: simplified foot tapping game with ribbon passing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the binary (2/4 or similar) bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,7 +177,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the binary (2/4 or similar) bar out loud, then in pairs of bars. The meter is binary (2/4 or similar).
+NARRATION: Count: 1-2-3-4-5-6-7. The meter is binary (2/4 or similar).
 NARRATION: Rhythm pattern: Ostinato pattern with arpeggiated bass and rhythmic strumming.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -188,10 +188,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Coordinate with partner to toss the tied ribbon into the air
 NARRATION: Drill: Practice foot coordination to tie ribbon knot
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the binary (2/4 or similar) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ribbon knot tying: Dancers use their feet to tie a large red ribbon into a lover's knot on the floor
@@ -200,7 +200,7 @@ NARRATION: Drill: Synchronize movements with partner
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the binary (2/4 or similar) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +219,7 @@ MUSIC: silence
 OPTIONS: For children: simplified foot tapping game with ribbon passing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the binary (2/4 or similar) bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in couples, sometimes multiple couples; space used for footwork and ribbon tying
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -248,7 +248,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the binary (2/4 or similar) bar out loud, then in pairs of bars. The meter is binary (2/4 or similar).
+NARRATION: Count: 1-2-3-4-5-6-7. The meter is binary (2/4 or similar).
 NARRATION: Rhythm pattern: Ostinato pattern with arpeggiated bass and rhythmic strumming.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -260,10 +260,10 @@ NEEDS: tempo
 NARRATION: Step 1: Maintain fast, binary rhythm foot taps
 NARRATION: Step 2: Coordinate with partner to toss the tied ribbon into the air
 NARRATION: Drill: Compose improvised verses respecting tradition
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the binary (2/4 or similar) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ribbon knot tying: Dancers use their feet to tie a large red ribbon into a lover's knot on the floor
@@ -272,7 +272,7 @@ NARRATION: Drill: Lead partner in complex footwork sequences
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the binary (2/4 or similar) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -291,7 +291,7 @@ MUSIC: silence
 OPTIONS: For children: simplified foot tapping game with ribbon passing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the binary (2/4 or similar) bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in couples, sometimes multiple couples; space used for footwork and ribbon tying
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
-Counting: count the binary (2/4 or similar) bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7
+Demonstration: views used by most teachers: front; tempo progression: slow
+Cues: viene y; preparacin; descanso
 
 Sources (6): https://en.wikipedia.org/wiki/La_Bamba_(song); https://www.wikidata.org/wiki/Q641677; https://es.wikipedia.org/wiki/La_bamba; https://fr.wikipedia.org/wiki/La_bamba; https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958); https://archive.org/details/ERIC_ED342705

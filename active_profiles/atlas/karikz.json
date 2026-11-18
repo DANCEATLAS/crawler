@@ -1,13 +1,74 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex footwork"
+        ],
+        "counts": "Simplified",
+        "duration_minutes": "5",
+        "game_version": "Play as a circle game with singing."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid turns"
+        ],
+        "counts": "Simplified",
+        "seated_version": "Perform the arm and upper body movements while seated in a circle.",
+        "standing_version": "Perform the circle movement with reduced tempo and range.",
+        "tempo_and_range": "Reduced"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Simple motifs",
+      "formation_and_space": "Circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "None (a cappella)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "traditional",
+        "unison"
+      ],
+      "musical_form": "Folksong",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music consists entirely of women singing folksongs in unison without instrumental accompaniment.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Unison singing of folksongs"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle with other dancers",
+        "Perform simple motifs while moving in the circle",
+        "Sing folksongs in unison while dancing"
+      ],
+      "formation": "Circle",
+      "level_notes": "Beginner-friendly due to simple motifs",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "fdb2f69dc90f083ec8718cb16b8f56918d9469f1baa22e59588787a4169d16c9",
+  "fingerprint": "bdc77157fe676473fe42544404c748c0288bcc219c4a90ecb8a2ce0170be48d2",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +76,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific regional variations of the karikázó motifs beyond the general Transdanubian popularity? Evidence needed: Ethnographic studies of Transdanubian dance motifs."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +106,18 @@
   ],
   "music_options": [],
   "name": "Karikázó",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "adbe5b5f57010a07",
+      "next_evidence": "Ethnographic studies of Transdanubian dance motifs.",
+      "question": "Are there specific regional variations of the karikázó motifs beyond the general Transdanubian popularity?",
+      "source": "https://en.wikipedia.org/wiki/Hungarian_folk_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide more specific teaching material for different regional styles."
+    }
+  ],
+  "research_file": "research_results/karikz.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +128,9 @@
   },
   "slug": "karikz",
   "sources": [
-    "https://en.wikipedia.org/wiki/Karik%C3%A1z%C3%B3",
-    "Source: Karikázó on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Karik%C3%A1z%C3%B3"
+    "https://en.wikipedia.org/wiki/Hungarian_folk_dance",
+    "https://www.wikidata.org/wiki/Q1162469",
+    "https://fr.wikipedia.org/wiki/Danse_hongroise"
   ],
   "state": "researching",
   "video_evidence": []

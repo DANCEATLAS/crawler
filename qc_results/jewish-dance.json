@@ -1,0 +1,126 @@
+{
+ "slug": "jewish-dance",
+ "qc_at": "2026-11-18T21:20:14Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Jewish dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "175"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1924, Baruch Agadati choreographed a show for the Jezreel Valley pioneer sett"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "638"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2194"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Israel; United States; Eastern Europe"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'spirit', 'religious', 'purification']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The claim that Jewish choreographers were responsible for the founding of the New York City Ballet is historically inaccurate; it was founded by Lincoln Kirstein and George Balanchine.",
+   "Martha Graham is listed as a notable figure in Jewish dance; while she mentored Jewish choreographers, she is not a practitioner of Jewish dance traditions.",
+   "The claim that Gertrud Kraus founded the Israel Ballet Theatre is incorrect; she founded the Israel Ballet (a different entity) or was a pioneer of modern dance, but the Israel Ballet was founded by Berta Yampolsky and Hillel Markman."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The profile is well-researched regarding cultural and religious context but contains significant factual errors regarding the history of specific ballet institutions and the categorization of Martha Graham. 'Jewish dance' is a broad cultural category rather than a single dance style, which complicates the 'is_a_dance' classification."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=8.1",
+  "doubts=3",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T19:29:01Z"
+}

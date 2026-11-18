@@ -1,6 +1,6 @@
 # Quebradita — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the costume & setting section
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Establish a close hold with partner, hands on waist.
 NARRATION: Step 2: Execute small, alternating jumps to create a side-to-side sway.
 NARRATION: Footwork from the sources: Small, alternating jumps or gallops.
 NARRATION: Drill: Side-to-side weight transfer
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: Establish a close hold with partner, hands on waist.
 NARRATION: Step 2: Execute small, alternating jumps to create a side-to-side sway.
 NARRATION: Drill: Maintaining waist hold
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Maintain synchronized footwork with partner.
 NARRATION: Step 2: Perform the tombé by dipping the partner backward with a straight back.
 NARRATION: Drill: Supported back-bend technique
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
+Source: 34 tutorial(s) of the street-urban family studied · videos studied: 34
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: one and two; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
 
 Sources (4): https://en.wikipedia.org/wiki/Quebradita; https://www.wikidata.org/wiki/Q3413969; https://es.wikipedia.org/wiki/Quebradita; https://fr.wikipedia.org/wiki/Quebradita

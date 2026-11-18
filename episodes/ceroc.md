@@ -1,6 +1,6 @@
 # Ceroc — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the costume & setting section
 

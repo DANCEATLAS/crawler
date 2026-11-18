@@ -1,8 +1,8 @@
 # Diablada puneña — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 9.35 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-18 · judge 9.35 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Puno dancer or cultural historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In the Aymara cosmology of Puno, the dance celebrates a moment of equilibrium between the forces of the underworld and the heavens, marking the point when the world began to advance.
 NARRATION: This is Diablada puneña. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (RqYD1_QPj8A)
 ON SCREEN: Title card: Diablada puneña · Peru · 16th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dance features a confrontation between angels and demons.
 NARRATION: Dancers perform in groups, with the Caporal leading the devils.
 NARRATION: Movements include jumps and aggressive steps, with the devils using tridents to clear a path for the musicians.
 NARRATION: Watch for Devil's march.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (RqYD1_QPj8A)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group formations, often in streets or plazas.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'RqYD1_QPj8A', 'checked_by_vision_model': True, 'title': '#Diablada Puneña - Retablo de Candelaria 2019'}
 Images: 2 licensed — Elemaki / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Felipe Guamán Poma de Ayala / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Intricate devil masks, Siku panpipes, The streets of Puno during the festival

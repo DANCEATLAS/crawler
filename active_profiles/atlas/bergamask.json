@@ -1,13 +1,94 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex counterpoint",
+          "long duration"
+        ],
+        "counts": "Simple 1-2-3-4 rhythm",
+        "duration_minutes": "3",
+        "game_version": "Circle game with simple jumping and turning"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "jumps",
+          "rapid turning",
+          "unsupported balance"
+        ],
+        "counts": "Simplified 4-count rhythm",
+        "seated_version": "Seated circular arm movements and rhythmic tapping",
+        "standing_version": "Slowed circular walking without jumps",
+        "tempo_and_range": "Reduced tempo, limited range of motion"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Jumping steps",
+      "formation_and_space": "Circular formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Abundance of jumps and caprioles",
+      "partnering": "Couples embrace and turn",
+      "posture": "Upright, energetic",
+      "signature_moves": [
+        {
+          "description": "Men move forward and women move backward in a circle",
+          "name": "Circular progression"
+        }
+      ],
+      "tempo_feel": "Lively and jumping",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Lute",
+        "Keyboard",
+        "Strings"
+      ],
+      "meter": "2/4 (original), 6/8 (19th century)",
+      "mood_keywords": [
+        "lively",
+        "rustic",
+        "humorous"
+      ],
+      "musical_form": "Ostinato",
+      "reference_recordings": [
+        {
+          "artist": "Marco Uccellini",
+          "title": "Aria sopra 'la bergamasca'"
+        },
+        {
+          "artist": "Ottorino Respighi",
+          "title": "Antiche arie e danze per liuto (Suite #2)"
+        }
+      ],
+      "rhythm_pattern": "I–IV–V–I chord progression",
+      "sound_description": "Lively, jumping instrumental music based on a repeating harmonic cycle (I-IV-V-I), often featuring counterpoint in later baroque iterations.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circular formation by couples",
+        "Men move forward, women move backward",
+        "Jumping steps",
+        "Couples embrace and turn"
+      ],
+      "formation": "Circular",
+      "level_notes": "Historical reconstruction based on 16th-century descriptions.",
+      "rhythm": "2/4 time (16th-17th century); 6/8 time (19th century)"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "53c1cc2b73900c7013e633ffff7913e9d56e33ff8be6e45235830dc5db5e9b49",
+  "fingerprint": "727d67bb2634794b43d513c1ed05aa455f03508669b5798cc1778fb1de1571a3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +96,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there surviving 16th-century choreographic notations or detailed step-by-step manuals for the Bergamask? Evidence needed: Historical dance treatises from the 16th century."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +125,18 @@
   ],
   "music_options": [],
   "name": "Bergamask",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4a32bfe9ec07e98e",
+      "next_evidence": "Historical dance treatises from the 16th century.",
+      "question": "Are there surviving 16th-century choreographic notations or detailed step-by-step manuals for the Bergamask?",
+      "source": "https://it.wikipedia.org/wiki/Bergamasca_(danza)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources only provide general descriptions of the formation and mood; specific footwork sequences are not detailed."
+    }
+  ],
+  "research_file": "research_results/bergamask.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +148,11 @@
   "slug": "bergamask",
   "sources": [
     "https://en.wikipedia.org/wiki/Bergamask",
-    "Source: Bergamask on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bergamask"
+    "https://www.wikidata.org/wiki/Q819325",
+    "https://it.wikipedia.org/wiki/Bergamasca_(danza)",
+    "https://es.wikipedia.org/wiki/Bergamasca",
+    "https://fr.wikipedia.org/wiki/Bergamasque_(danse)",
+    "https://de.wikipedia.org/wiki/Bergamasca"
   ],
   "state": "researching",
   "video_evidence": []

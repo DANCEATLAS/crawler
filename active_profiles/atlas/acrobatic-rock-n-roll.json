@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active, used for balance and partner connection.",
+      "difficulty": "advanced",
+      "footwork": "Kick-ball-change, kick-step (left/right).",
+      "formation_and_space": "Linear movement, pairs or formation groups.",
+      "hips_and_torso": "Controlled, with specific body wave movements used to initiate lifts.",
+      "levels_and_jumps": "Includes lifts, jumps, throws, and flips (varies by class).",
+      "partnering": "Close contact, high-speed coordination for lifts and throws.",
+      "posture": "Upright, precise, and athletic.",
+      "signature_moves": [
+        {
+          "description": "A vaulting move where the male forms a step with his hands for the female to jump off.",
+          "name": "Einsteiger"
+        },
+        {
+          "description": "A body wave movement used to lift the partner.",
+          "name": "Körperwelle"
+        }
+      ],
+      "tempo_feel": "Very fast, precise, and energetic.",
+      "what_to_avoid": "Acrobatics without proper safety training or in unauthorized classes."
+    },
+    "music_profile": {
+      "instruments": [
+        "Modern pop/disco instrumentation"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "fast",
+        "energetic",
+        "athletic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Stress on beats 1 and 3",
+      "sound_description": "High-tempo, driving beat with a clear, consistent pulse designed to support rapid footwork and athletic movement.",
+      "tempo_bpm": "176-208",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Kick-ball-change",
+        "Kick-step (left)",
+        "Kick-step (right)"
+      ],
+      "formation": "Pairs or groups (4-8 couples)",
+      "level_notes": "Beginners start with the 6-basic step in dance schools before progressing to the 9-basic tournament step.",
+      "rhythm": "4/4 meter, 176-208 bpm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "84e5c8e41e9aa59a63b883858febdf4a91acd5c9e6bb37295fd39aa22bdc468a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific safety protocols for the 'Todessturz' (death drop) move? Evidence needed: WRRC safety regulation manual."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:acrobatic-rock-n-roll",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Acrobatic Rock'n'Roll",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "d6212661f5974232",
+      "next_evidence": "WRRC safety regulation manual.",
+      "question": "What are the specific safety protocols for the 'Todessturz' (death drop) move?",
+      "source": "https://de.wikipedia.org/wiki/Rock_’n’_Roll_(Tanz)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure safe teaching practices for advanced students."
+    }
+  ],
+  "research_file": "research_results/acrobatic-rock-n-roll.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "acrobatic-rock-n-roll",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rock_and_Roll_(dance)",
+    "https://www.wikidata.org/wiki/Q556496",
+    "https://es.wikipedia.org/wiki/Rock_and_roll_(baile)",
+    "https://fr.wikipedia.org/wiki/Rock_acrobatique",
+    "https://de.wikipedia.org/wiki/Rock_’n’_Roll_(Tanz)",
+    "https://it.wikipedia.org/wiki/Rock_and_roll_acrobatico"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

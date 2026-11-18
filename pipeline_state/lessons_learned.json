@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-17T18:39:07Z",
- "qc_records_considered": 693,
+ "updated_at": "2026-11-18T18:10:19Z",
+ "qc_records_considered": 741,
  "gate_failures": [
   [
    "sections_filled",
-   142
+   159
   ],
   [
    "citations",
-   87
-  ],
-  [
-   "insight_concrete",
-   75
+   92
   ],
   [
    "country",
+   78
+  ],
+  [
+   "insight_concrete",
    74
   ],
   [
    "sacred_handled",
-   74
-  ],
-  [
-   "profile_long_len",
-   65
+   73
   ],
   [
    "banned_phrasing",
-   65
+   67
+  ],
+  [
+   "profile_long_len",
+   62
   ],
   [
    "not_duplicate",
-   27
+   30
   ],
   [
    "sources",
-   18
+   20
   ],
   [
    "region",
@@ -46,61 +46,61 @@
  "reasons": [
   [
    "sacred",
-   283
+   302
   ],
   [
    "sections_filled",
-   142
+   159
   ],
   [
    "not_a_dance",
-   129
+   149
   ],
   [
    "citations",
-   87
-  ],
-  [
-   "insight_concrete",
-   75
+   92
   ],
   [
    "country",
+   78
+  ],
+  [
+   "insight_concrete",
    74
   ],
   [
    "sacred_handled",
-   74
-  ],
-  [
-   "profile_long_len",
-   65
+   73
   ],
   [
    "banned_phrasing",
-   65
+   67
+  ],
+  [
+   "profile_long_len",
+   62
   ],
   [
    "doubts=1",
-   52
+   56
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'unsupported'",
-   33
+   34
+  ],
+  [
+   "judge notes mention 'missing'",
+   21
   ],
   [
    "judge notes mention 'thin'",
    18
   ],
   [
-   "judge notes mention 'missing'",
-   18
-  ],
-  [
    "judge notes mention 'generic'",
-   9
+   10
   ],
   [
    "judge notes mention 'inaccura'",
@@ -130,89 +130,89 @@
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   341
+   369
   ],
   [
    "a verified recording to listen to",
-   325
+   351
   ],
   [
    "licensed images (3 needed)",
-   265
+   287
   ],
   [
    "meter",
-   257
+   275
   ],
   [
    "licensed reference footage",
-   212
+   230
   ],
   [
    "two or more connections",
-   196
+   210
   ],
   [
    "what to avoid / common mistakes",
-   160
+   168
   ],
   [
    "instruments",
-   123
-  ],
-  [
-   "the how-it-is-danced section",
-   113
+   130
   ],
   [
    "signature moves",
-   107
+   117
+  ],
+  [
+   "the how-it-is-danced section",
+   114
   ],
   [
    "notable figures",
-   102
+   107
   ],
   [
    "the costume & setting section",
-   97
+   105
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (142 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (87 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (75 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (74 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (65 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (159 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (92 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (74 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (73 pages in 30 days)",
+  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (67 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 341,
+   "pages": 369,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 325,
+   "pages": 351,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 265,
+   "pages": 287,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "meter",
-   "pages": 257,
+   "pages": 275,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 212,
+   "pages": 230,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "two or more connections",
-   "pages": 196,
+   "pages": 210,
    "what_helps": "sources that relate the dance to its relatives"
   }
  ]

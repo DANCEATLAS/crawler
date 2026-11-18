@@ -2,7 +2,7 @@
  "slug": "nisiotika",
  "name": "Nisiotika",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:22Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-17T19:40:54Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Nisiotika. 1970s (Revival) to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (YuaxA8EsFvI)",
      "Title card: Nisiotika · Greece · 1970s (Revival) to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Mihanikos step."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (YuaxA8EsFvI)",
      "Captions name each signature move as it appears",
      "Formation: Open circles moving counter-clockwise or facing partner pairs"
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "YuaxA8EsFvI",
+   "checked_by_vision_model": true,
+   "title": "8. NISIOTIKOS BALLOS (20 Original GREEK Dances)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -767,8 +771,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "31 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 31,
+  "source": "41 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 41,
   "counting": "count the Varies (2/4, 7/8, 8/8) bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -778,24 +782,25 @@
   ],
   "cues": [
    "1-2-3-4",
-   "step together step",
-   "brush the foot",
-   "arms open close in a circle",
-   "1-2",
-   "3-4",
-   "sa'o'i",
-   "lualua tongi e",
-   "e a'a tongi e",
-   "stomp clap",
-   "chest chest leg leg clap",
-   "pull back and lean to the left"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto",
+   "viene y",
+   "preparacin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "warmup",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice",
    "recap"
@@ -804,7 +809,6 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -815,6 +819,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "463f39f88f56c781e28caf318d68320f9d1d146b12f7eb09191b061afbc2980f",
- "hero_checked": null
+ "input_fingerprint": "5f0c97c4b9aa667f319d7948905398eb242d8bab2de510ada46ca4e91ea6be12",
+ "hero_checked": "pass"
 }

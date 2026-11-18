@@ -1,0 +1,126 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Refined (alus) posture for high-status characters.",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "suling gambuh",
+        "rebab",
+        "gong",
+        "kajar",
+        "kendang",
+        "klenang",
+        "gentorag",
+        "rincik",
+        "kenyir",
+        "kangsi",
+        "gumanak"
+      ],
+      "meter": "",
+      "mood_keywords": [
+        "sophisticated",
+        "epic"
+      ],
+      "musical_form": "Gamelan gambuh ensemble.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is defined by the low, resonant tones of 75-100 cm bamboo flutes (suling gambuh) accompanied by a rebab and a specific percussion section including rare instruments like the kenyir and gumanak.",
+      "tempo_bpm": "",
+      "vocal_style": "Dialogue in Kawi language, translated to contemporary Balinese."
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "95759128d41c76d6ce6b132a06b7431e1e6fed28273518f67411a5667d2b857a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific physical postures and hand gestures (mudras) used by 'alus' (refined) characters in Gambuh? Evidence needed: Instructional manuals or ethnographic movement analysis of Batuan-style Gambuh."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:gambuh",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gambuh",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cc172ec171e6cc5a",
+      "next_evidence": "Instructional manuals or ethnographic movement analysis of Batuan-style Gambuh.",
+      "question": "What are the specific physical postures and hand gestures (mudras) used by 'alus' (refined) characters in Gambuh?",
+      "source": "https://en.wikipedia.org/wiki/Gambuh",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only identify the characters as 'refined' without describing the physical execution."
+    }
+  ],
+  "research_file": "research_results/gambuh.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gambuh",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gambuh",
+    "https://www.wikidata.org/wiki/Q5247038",
+    "https://es.wikipedia.org/wiki/Gambuh"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

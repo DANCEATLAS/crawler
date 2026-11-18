@@ -1,8 +1,8 @@
 # Melbourne shuffle — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced shuffler with a focus on the history and community of the dance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Melbourne Shuffle: From Underground Raves to Global Phenomenon.
 NARRATION: This is Melbourne shuffle. Late 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (eeAzwFkfyPA)
 ON SCREEN: Title card: Melbourne shuffle · Australia · Late 20th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance relies on the T-step (a pivot-based heel-toe movement) and 
 NARRATION: Arms move in coordination with the feet, either side-to-side or vertically.
 NARRATION: Improvisation is central, with dancers adding spins, kicks, and slides to match the tempo.
 NARRATION: Watch for T-step, Running man.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (eeAzwFkfyPA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Typically solo improvisation, moving within a small area.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. T-step: Pivot on one foot while sliding the other in a heel-toe motion.
 NARRATION: Running man: A two-step sequence creating the illusion of walking in place.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-and-2 / 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-and-2 / 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, driving electronic beat..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,17 +119,17 @@ NARRATION: Step 1: T-step: Pivot on one foot while sliding the other in a heel-t
 NARRATION: Step 2: Running man: A two-step sequence creating the illusion of walking in place.
 NARRATION: Footwork from the sources: Repeated inward and outward sliding of feet; T-step and running man variations.
 NARRATION: Drill: Practice the pivot motion on one foot.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 / 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Arm movement: Coordinated swinging of arms in time with the beat.
 NARRATION: Drill: Add the sliding motion of the second foot.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 / 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -141,12 +141,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: weight shifting too much to one side instead of staying in the middle
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-and-2 / 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -176,7 +176,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-and-2 / 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, driving electronic beat..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -187,10 +187,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: T-step: Pivot on one foot while sliding the other in a heel-toe motion.
 NARRATION: Step 2: Running man: A two-step sequence creating the illusion of walking in place.
 NARRATION: Drill: Practice the small jump sequence.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 / 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Arm movement: Coordinated swinging of arms in time with the beat.
@@ -200,7 +200,7 @@ NARRATION: Drill: Coordinate the leg slide.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 / 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,12 +212,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: weight shifting too much to one side instead of staying in the middle
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-and-2 / 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Typically solo improvisation, moving within a small area.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -247,7 +247,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-and-2 / 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, driving electronic beat..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -258,10 +258,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Running man: A two-step sequence creating the illusion of walking in place.
 NARRATION: Step 2: Arm movement: Coordinated swinging of arms in time with the beat.
 NARRATION: Drill: Transition between T-step and running man.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 / 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: T-step: A heel-toe pivot movement forming a T-shape with the feet.
@@ -270,7 +270,7 @@ NARRATION: Drill: Incorporate 360-degree spins.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 / 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -282,12 +282,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: weight shifting too much to one side instead of staying in the middle
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-and-2 / 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Typically solo improvisation, moving within a small area.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -316,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically, dancers often wore 'phat pants'—wide-legged trousers that helped hide footwork and allowed for airflow. Dancers frequently use talcum powder or liquid on the floor to facilitate sliding.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'eeAzwFkfyPA', 'checked_by_vision_model': True, 'title': 'Haddaway   What Is Love  Shuffle Dance ( Music video )'}
 Images: 0 licensed
 Footage: Crawford High School The Art of Shuffling — https://archive.org/details/macsdca-Crawford_High_School_The_Art_of_Shuffling; Melbourne Shuffle (full Documentary) — https://archive.org/details/melbourne-shuffle-full-documentary; The Melbourne Shuffler Documentary DVD Disc 2： Blue Screen Footage — https://archive.org/details/the-melbourne-shuffler-documentary-dvd-disc-2-blue-screen-footage; How to Hardstyle Shuffle Tutorial 2010 — https://archive.org/details/youtube-AAY5J5bwRDU; *OFFICIAL* HSE's Melbourne Shuffle Meet Up 2011 ! — https://archive.org/details/youtube-OzO0Y879lMk; File:Ritmo shuffle chitarra - guitar rhythm shuffle.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Ritmo_shuffle_chitarra_-_guitar_rhythm_shuffle.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Space to Ground- Dragon Shuffle- May 12, 2023.webm — https://upload.wikimedia.org/wikipedia/commons/f/fd/Space_to_Ground-_Dragon_Shuffle-_May_12%2C_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Shuffle dance kids — https://archive.org/details/PowerofLoveDev_20180505
 Motifs: Neon lights of a club., Close-ups of footwork., Talcum powder on a dance floor.
@@ -326,9 +326,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-and-2 / 5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 2
+Cues: cross; open; heel and toe; one and two
+Common mistakes the studied teachers name: weight shifting too much to one side instead of staying in the middle
 
 Sources (6): https://en.wikipedia.org/wiki/Melbourne_shuffle; https://www.wikidata.org/wiki/Q203827; https://es.wikipedia.org/wiki/Melbourne_shuffle; https://fr.wikipedia.org/wiki/Melbourne_shuffle; https://pt.wikipedia.org/wiki/Melbourne_Shuffle; https://de.wikipedia.org/wiki/Melbourne_Shuffle

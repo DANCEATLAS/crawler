@@ -2,9 +2,9 @@
  "slug": "polska",
  "name": "Polska",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:22Z",
- "researched_at": "2026-11-02T21:07:05Z",
- "qc_score": 9.1,
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T20:13:29Z",
+ "qc_score": 9.45,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,15 +45,15 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A seasoned Nordic folk dancer with deep knowledge of regional Swedish and Norwegian styles.",
+   "persona": "Traditional folk dance expert",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Polska",
-   "polskor",
-   "polsk",
+   "bondepolska",
    "pols",
-   "springleik"
+   "polsk",
+   "polskor"
   ]
  },
  "episode_1": {
@@ -64,7 +64,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Dizzying Turn of the North",
+     "In the 17th century, the polska evolved from courtly set dances into a high-speed partner rotation where couples complete one full turn for every single measure of music.",
      "This is Polska. 17th century."
     ],
     "on_screen": [
@@ -78,7 +78,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The roots of the polska are traced to 17th-century Polish court influences interacting with indigenous Nordic musical structures and older triple-meter folk songs."
+     "The polska is often traced to the influence of the Polish court in the early 17th century.",
+     "Some theories suggest it evolved from earlier Nordic songs or set dances that transitioned into couple-based forms."
     ],
     "on_screen": [
      "Map: Sweden · Europe",
@@ -91,11 +92,11 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Performed socially at community gatherings, weddings, and festivals across Sweden, Norway, and neighboring Nordic regions.",
+     "The polska is a social dance performed in community settings, with specific regional traditions still practiced in parts of Norway and Sweden.",
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: File:Fort VIIa reconstruction Poznań Poland 800x480.webm (https://upload.wikimedia.org/wikipedia/commons/8/80/Fort_VIIa_reconstruction_Pozna%C5%84_Poland_800x480.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+     "Footage: BEAUTY OF SLAVIC CULTURE (https://archive.org/details/youtube-yMc5b-V7mRI)"
     ],
     "music": "underscore"
    },
@@ -104,13 +105,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Danced primarily as a couple, featuring walking promenades, counter-clockwise upper-body turns (bakmes), and rapid clockwise rotations (pols) executed in triple time.",
-     "Watch for Bakmes turn, Pols turn."
+     "The dance is a partner form involving walking promenades and clockwise couple turns.",
+     "In many variants, couples rotate once per measure.",
+     "Techniques vary by region, including the 'bakmes' (counter-clockwise turn) and the 'pols' turn.",
+     "Watch for Pols turn, Bakmes."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (lRl1T7CAD0E)",
      "Captions name each signature move as it appears",
-     "Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot"
+     "Formation: Couples moving counter-clockwise around the periphery of the room."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -119,15 +122,16 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Played on standard violins and the Hardanger fiddle, structured around repeating 32 or 64-measure phrases with variable rhythmic accents.",
-     "Listen for the standard fiddles (violins), hardingfele (Hardanger fiddle).",
-     "The pulse is 3/4 time (with 2/4 and compound variations).",
-     "Fiddles drive the melody through repeating motifs, drone strings on the Hardanger fiddle, and uneven beats where musicians traditionally tap only the first and third beats."
+     "Music is played on standard fiddles or the Hardanger fiddle (hardingfele).",
+     "Tunes are typically in triple time, often structured in two eight-bar phrases that are repeated.",
+     "Listen for the fiddle, Hardanger fiddle.",
+     "The pulse is 3/4.",
+     "Triple-meter fiddle music characterized by regional rhythmic nuances, such as long-short beat patterns or smooth, even pulses."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles"
+     "Waveform or rhythm-pattern graphic: Asymmetrical beats in some variants; others use even sixteenth or eighth notes."
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -138,15 +142,14 @@
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
-    "narration": [
-     "Traditionally performed in regional Nordic folk costumes within community halls, village squares, and mountain settlements."
-    ],
+    "narration": [],
     "on_screen": [
      "Images — MISSING",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
     "needs": [
+     "costume_and_setting",
      "images"
     ]
    },
@@ -155,37 +158,40 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Archivists and researchers such as those from Svenskt visarkiv and regional contributors who documented disappearing traditions in the mid-20th century.",
-     "Includes Norwegian pols and springar, Swedish slängpolskas in Småland, and diverse community styles across Dalarna and Uppland.",
-     "Descended from 17th-century European court dances and Nordic folk songs; gave rise to modern forms like the Swedish hambo."
+     "Variants include the Norwegian 'pols' and 'springar', the Swedish 'slängpolska' and 'bondepolska', and various regional styles in Dalarna, Småland, and Jämtland.",
+     "The polska is considered a precursor or relative to the hambo and is linked to the polonaise and minuet."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
      "Variant names as a small list"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
    },
    {
     "code": "family",
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Polska is parent of Polonaise: Early court inspiration from 17th-century Poland.",
-     "Polska is child of Hambo: Swedish national dance derived from the polska tradition.",
-     "Polska is variant of Springar: Norwegian mountain variant featuring asymmetrical triple time."
+     "Polska is child of Hambo: Derived from the polska tradition in the early 20th century."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
    },
    {
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Promenade walk",
-     "Bakmes counter-clockwise turn",
+     "Before we go, one step. Walking promenade in escort position",
+     "Clockwise couple turn (one rotation per measure)",
      "Count it: 1-2-3, 2-2-3 (three counts a bar).",
      "Chapter 1 takes it slowly from here."
     ],
@@ -200,7 +206,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the high-speed couple dances and driving fiddle tunes of the Nordic polska.",
+     "Discover the high-speed, turning world of the polska.",
      "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
@@ -215,7 +221,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Walk the promenade and basic 3/4 weight shifts",
+   "goal": "Master the walking step in escort position.",
    "level": "Beginner",
    "scenes": [
     {
@@ -223,9 +229,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Walk the promenade and basic 3/4 weight shifts.",
+      "Chapter 1 — First steps. Today: Master the walking step in escort position..",
       "Level: Beginner. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A seasoned Nordic folk dancer with deep knowledge of regional Swedish and Norwegian styles."
+      "Your instructor: Traditional folk dance expert"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -237,9 +243,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body facing as a couple, maintaining a close embrace or escort position",
-      "close hold escort position underarm turns",
-      "Rotating counter-clockwise in bakmes and clockwise in pols rotations"
+      "Escort position or close couple hold."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -251,8 +255,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).",
-      "Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.",
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Asymmetrical beats in some variants; others use even sixteenth or eighth notes..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -269,10 +273,10 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Promenade walk",
-      "Step 2: Bakmes counter-clockwise turn",
-      "Footwork from the sources: Walking promenade steps, stepping primarily on the first and third beat during resting phases",
-      "Drill: Step on beat one and three"
+      "Step 1: Walking promenade in escort position",
+      "Step 2: Clockwise couple turn (one rotation per measure)",
+      "Footwork from the sources: Walking steps on beats one and three; clockwise rotation.",
+      "Drill: Walking in time to 3/4 music"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
@@ -287,9 +291,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Pols clockwise turn",
-      "Step 4: Resting step on beats one and three",
-      "Drill: Promenade hold walking in a circle"
+      "Step 3: Bakmes (counter-clockwise turn)",
+      "Drill: Stepping on beats one and three"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
@@ -319,14 +322,10 @@
      "duration_s": 60,
      "narration": [],
      "on_screen": [
-      "Correction withheld until evidence is available",
-      "Options card: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements.",
-      "For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources",
      "needs": [
       "what_to_avoid"
@@ -351,8 +350,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Walk the promenade and basic 3/4 weight shifts.",
-      "Performed socially at community gatherings, weddings, and festivals across Sweden, Norway, and neighboring Nordic regions.",
+      "You can now: Master the walking step in escort position..",
+      "The polska is a social dance performed in community settings, with specific regional traditions still practiced in parts of Norway and Sweden.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -366,17 +365,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Execute the escort position and resting steps",
-   "level": "Intermediate",
+   "goal": "the building the dance of Polska",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Execute the escort position and resting steps.",
-      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A seasoned Nordic folk dancer with deep knowledge of regional Swedish and Norwegian styles."
+      "Chapter 2 — Building the dance. Today: the building the dance of Polska.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Traditional folk dance expert"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -388,9 +387,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body facing as a couple, maintaining a close embrace or escort position",
-      "close hold escort position underarm turns",
-      "Rotating counter-clockwise in bakmes and clockwise in pols rotations"
+      "Escort position or close couple hold."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -402,8 +399,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).",
-      "Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.",
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Asymmetrical beats in some variants; others use even sixteenth or eighth notes..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -420,9 +417,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Promenade walk",
-      "Step 2: Bakmes counter-clockwise turn",
-      "Drill: Escort walking step"
+      "Step 1: Walking promenade in escort position",
+      "Step 2: Clockwise couple turn (one rotation per measure)"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
@@ -437,11 +433,9 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Pols clockwise turn",
-      "Step 4: Resting step on beats one and three",
-      "Bakmes turn: Counter-clockwise couple rotation at a rate of one revolution per two measures",
-      "Pols turn: Clockwise couple rotation at a rate of one full turn per measure",
-      "Drill: Transitioning from walk to turn"
+      "Step 3: Bakmes (counter-clockwise turn)",
+      "Pols turn: Clockwise rotation at a rate of one turn per measure.",
+      "Bakmes: Counter-clockwise rotation of the couple."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -472,14 +466,10 @@
      "duration_s": 60,
      "narration": [],
      "on_screen": [
-      "Correction withheld until evidence is available",
-      "Options card: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements.",
-      "For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources",
      "needs": [
       "what_to_avoid"
@@ -491,7 +481,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
-      "Full tempo, the whole sequence, twice. Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot"
+      "Full tempo, the whole sequence, twice. Formation: Couples moving counter-clockwise around the periphery of the room."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -504,8 +494,7 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Execute the escort position and resting steps.",
-      "Archivists and researchers such as those from Svenskt visarkiv and regional contributors who documented disappearing traditions in the mid-20th century.",
+      "You can now: the building the dance of Polska.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -519,17 +508,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Master the rapid clockwise pols turn",
-   "level": "Advanced",
+   "goal": "the dancing it fully of Polska",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Master the rapid clockwise pols turn.",
-      "Level: Advanced. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A seasoned Nordic folk dancer with deep knowledge of regional Swedish and Norwegian styles."
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Polska.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Traditional folk dance expert"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -541,9 +530,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body facing as a couple, maintaining a close embrace or escort position",
-      "close hold escort position underarm turns",
-      "Rotating counter-clockwise in bakmes and clockwise in pols rotations"
+      "Escort position or close couple hold."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -555,8 +542,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).",
-      "Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.",
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Asymmetrical beats in some variants; others use even sixteenth or eighth notes..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -573,9 +560,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Pols clockwise turn",
-      "Step 2: Resting step on beats one and three",
-      "Drill: One turn per measure rotation"
+      "Step 1: Clockwise couple turn (one rotation per measure)",
+      "Step 2: Bakmes (counter-clockwise turn)"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
@@ -590,9 +576,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Bakmes turn: Counter-clockwise couple rotation at a rate of one revolution per two measures",
-      "Pols turn: Clockwise couple rotation at a rate of one full turn per measure",
-      "Drill: Bakmes counter-clockwise rotation"
+      "Pols turn: Clockwise rotation at a rate of one turn per measure.",
+      "Bakmes: Counter-clockwise rotation of the couple."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -623,14 +608,10 @@
      "duration_s": 60,
      "narration": [],
      "on_screen": [
-      "Correction withheld until evidence is available",
-      "Options card: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements.",
-      "For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources",
      "needs": [
       "what_to_avoid"
@@ -642,7 +623,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
-      "Full tempo, the whole sequence, twice. Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot"
+      "Full tempo, the whole sequence, twice. Formation: Couples moving counter-clockwise around the periphery of the room."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -655,8 +636,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the rapid clockwise pols turn.",
-      "Descended from 17th-century European court dances and Nordic folk songs; gave rise to modern forms like the Swedish hambo.",
+      "You can now: the dancing it fully of Polska.",
+      "The polska is considered a precursor or relative to the hambo and is linked to the polonaise and minuet.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -673,23 +654,21 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "3/4 time (with 2/4 and compound variations)",
-  "rhythm_pattern": "Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles",
+  "meter": "3/4",
+  "rhythm_pattern": "Asymmetrical beats in some variants; others use even sixteenth or eighth notes.",
   "instruments": [
-   "standard fiddles (violins)",
-   "hardingfele (Hardanger fiddle)"
+   "fiddle",
+   "Hardanger fiddle"
   ],
   "vocal_style": null,
-  "musical_form": "Two or three eight-bar phrases, each repeated (32 to 64 measures per tune cycle)",
+  "musical_form": "Two eight-bar phrases, repeated.",
   "mood": [
    "energetic",
-   "dizzying",
-   "lyrical",
-   "asymmetrical"
+   "rhythmic"
   ],
-  "sound_description": "Fiddles drive the melody through repeating motifs, drone strings on the Hardanger fiddle, and uneven beats where musicians traditionally tap only the first and third beats.",
+  "sound_description": "Triple-meter fiddle music characterized by regional rhythmic nuances, such as long-short beat patterns or smooth, even pulses.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Polska (Sweden). Meter 3/4 time (with 2/4 and compound variations). Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles. Instruments: standard fiddles (violins), hardingfele (Hardanger fiddle). Form: Two or three eight-bar phrases, each repeated (32 to 64 measures per tune cycle). Mood: energetic, dizzying, lyrical, asymmetrical. It should sound like this: Fiddles drive the melody through repeating motifs, drone strings on the Hardanger fiddle, and uneven beats where musicians traditionally tap only the first and third beats. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Polska (Sweden). Meter 3/4. Rhythm pattern: Asymmetrical beats in some variants; others use even sixteenth or eighth notes.. Instruments: fiddle, Hardanger fiddle. Form: Two eight-bar phrases, repeated.. Mood: energetic, rhythmic. It should sound like this: Triple-meter fiddle music characterized by regional rhythmic nuances, such as long-short beat patterns or smooth, even pulses. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -728,10 +707,10 @@
    "title": null
   },
   "wardrobe": {
-   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
-   "dress_the_narrator": true,
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
    "restricted_attire": false,
-   "from_sources": "Traditionally performed in regional Nordic folk costumes within community halls, village squares, and mountain settlements.",
+   "from_sources": null,
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -742,48 +721,6 @@
   },
   "images": [],
   "footage": [
-   {
-    "title": "File:Fort VIIa reconstruction Poznań Poland 800x480.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Fort_VIIa_reconstruction_Pozna%C5%84_Poland_800x480.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 3.0",
-    "attribution": "Klapi / Wikimedia Commons / CC BY-SA 3.0"
-   },
-   {
-    "title": "File:PGA2014 fast video.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/PGA2014_fast_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Klapi / Wikimedia Commons / CC BY-SA 4.0"
-   },
-   {
-    "title": "File:Gates of Maramures VP8.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Gates_of_Maramures_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Mariusz Raniszewski / Wikimedia Commons / CC BY-SA 4.0"
-   },
-   {
-    "title": "File:Latarnie-morskie-w-Polsce-04.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Latarnie-morskie-w-Polsce-04.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY 4.0",
-    "attribution": "Borys Kozielski / Wikimedia Commons / CC BY 4.0"
-   },
-   {
-    "title": "File:Zygmunt Bauman - Kultura ponad prawem.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Zygmunt_Bauman_-_Kultura_ponad_prawem.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 3.0",
-    "attribution": "Miasta w Komie i Centrum Cyfrowe Projekt: Polska / Wikimedia Commons / CC BY-SA 3.0"
-   },
-   {
-    "title": "File:020211030 173324 VP8 Andrzej Mastalerz.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/020211030_173324_VP8_Andrzej_Mastalerz.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Silar / Wikimedia Commons / CC BY-SA 4.0"
-   },
    {
     "title": "BEAUTY OF SLAVIC CULTURE",
     "url": "https://archive.org/details/youtube-yMc5b-V7mRI",
@@ -797,15 +734,29 @@
     "year": 2022,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Pols, Eckhard.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Pols%2C_Eckhard.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Marc Rudnick / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Interview met Wouter Pols van Magic Moon bij Hobnob 2018.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Interview_met_Wouter_Pols_van_Magic_Moon_bij_Hobnob_2018.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "AAVISIE / Wikimedia Commons / CC BY 3.0"
    }
   ],
   "motifs": [
-   "Fiddle bow crossing strings",
-   "Wooden dance floor in a Scandinavian barn",
-   "Traditional embroidered folk costumes swirling"
+   "Fiddle strings",
+   "Rotating couples",
+   "Map of Nordic regions"
   ],
-  "costume_notes": "Traditionally performed in regional Nordic folk costumes within community halls, village squares, and mountain settlements.",
-  "setting_notes": "Performed socially at community gatherings, weddings, and festivals across Sweden, Norway, and neighboring Nordic regions.",
+  "costume_notes": null,
+  "setting_notes": "The polska is a social dance performed in community settings, with specific regional traditions still practiced in parts of Norway and Sweden.",
   "map": {
    "country": "Sweden",
    "region": "Europe",
@@ -818,8 +769,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "31 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 31,
+  "source": "41 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 41,
   "counting": "1-2-3, 2-2-3 (three counts a bar)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -829,24 +780,25 @@
   ],
   "cues": [
    "1-2-3-4",
-   "step together step",
-   "brush the foot",
-   "arms open close in a circle",
-   "1-2",
-   "3-4",
-   "sa'o'i",
-   "lualua tongi e",
-   "e a'a tongi e",
-   "stomp clap",
-   "chest chest leg leg clap",
-   "pull back and lean to the left"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto",
+   "viene y",
+   "preparacin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "warmup",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice",
    "recap"
@@ -857,6 +809,9 @@
   "tempo (bpm)",
   "a verified recording to listen to",
   "licensed images (3 needed)",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections",
   "what to avoid / common mistakes"
  ],
  "sources": [
@@ -866,9 +821,9 @@
   "https://archive.org/details/sztukaludowawpo00mokgoog",
   "https://archive.org/details/cs.2718"
  ],
- "claims_verified": 5,
- "claims": 5,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "e542f37f2154f77221a9b5f55dd9173212bc1e20ee4765272f45e7d74575e8e7",
+ "input_fingerprint": "2c3b1810023a68bbc7e1f3bca07d06a09e9e4657f948b45fe00ea49306f25d40",
  "hero_checked": "pass"
 }

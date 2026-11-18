@@ -1,51 +1,52 @@
 # Yayue — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-18 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; signature moves
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A scholar-practitioner with a focus on historical accuracy and ritual etiquette.
-**Say it:** Yayue, Chinese court music
+**Instructor:** A musicologist specializing in East Asian court traditions.
+**Say it:** Yayue, Chinese court music, Elegant music
 
 ## Episode 1 · Meet Yayue · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Emperor's Gift: A Lost Sound Reclaimed
+NARRATION: In 1116, Emperor Huizong gifted 428 instruments and 572 costumes to Korea, effectively creating a time capsule of ancient Chinese melodies that were later lost in their homeland.
 NARRATION: This is Yayue. 11th century BCE to present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Yayue · China · 11th century BCE to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Yayue was established in the Western Zhou dynasty by the Duke of Zhou under the commission of King Wu.
-NARRATION: It evolved through the Han, Tang, and Song dynasties, with the Song era marking a major development in orchestra size and theoretical documentation.
-NARRATION: The tradition effectively ceased in China after 1949 but saw a revival in Taiwan in the 1960s and mainland China in the 1990s.
+NARRATION: Established in the Western Zhou dynasty, yayue was commissioned by the Duke of Zhou.
+NARRATION: It incorporated shamanistic traditions and early folk music.
+NARRATION: It remained central to imperial ceremonies until the end of the Qing dynasty, with major developments occurring during the Song dynasty.
 ON SCREEN: Map: China · East Asia
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Used for ceremonies honoring Heaven, Earth, gods, and ancestors.
-NARRATION: It also served as a marker of aristocratic status during diplomatic meetings, hunting expeditions, and military celebrations.
+NARRATION: Yayue was performed for ceremonies honoring Heaven, Earth, ancestors, and gods.
+NARRATION: It was also used for diplomatic meetings, archery contests, hunting expeditions, and celebrations following military victories.
 NARRATION: Today it is a revived tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Dances are strictly divided into civil and military types.
+NARRATION: Dances are strictly categorized as civil or military.
 NARRATION: Civil dancers hold a yue flute in the left hand and a feather plume in the right.
 NARRATION: Military dancers hold a shield in the left hand and a battleaxe in the right.
-NARRATION: Watch for Civil Dance, Military Dance.
 ON SCREEN: Hero video — MISSING
-ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Row-based formations (4x4, 6x6, 8x8).
+ON SCREEN: Signature moves — MISSING
+ON SCREEN: Formation: Strict row-based formation (e.g., 8x8, 6x6, 4x4, 2x2) based on social rank.
 MUSIC: diegetic (the video's own sound), underscore under narration
+NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The orchestra uses eight material categories: silk (guqin, se), bamboo (dizi, xiao, paixiao, chi), wood (zhu, yu), stone (bianqing), metal (bianzhong, fangxiang), clay (xun), gourd (sheng, yu), and hide (gu).
+NARRATION: Music is monophonic, slow, and stately, with 4-8 beats per phrase.
+NARRATION: Instruments are classified into eight material categories: silk (guqin, se), bamboo (dizi, xiao, paixiao, chi), wood (zhu, yu), stone (bianqing), metal (bianzhong, fangxiang), clay (xun), gourd (sheng, yu), and hide (gu).
 NARRATION: Listen for the guqin, dizi, xiao, paixiao.
-NARRATION: A stately, monophonic sound dominated by the resonance of bronze bells and stone chimes, supported by the breathy tones of bamboo flutes and the plucked strings of zithers.
+NARRATION: Slow, stately, and monophonic music characterized by the resonance of stone chimes, bronze bells, and various wind instruments, organized into distinct terrace and courtyard ensembles.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: monophonic with little rhythmic variety
@@ -53,33 +54,35 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Performances occur in imperial courts or Confucian temples.
-NARRATION: The setting is highly formal, with musicians arranged in five directions (four compass points and the center) within the courtyard.
+NARRATION: Performances occurred on palace terraces or in courtyards.
+NARRATION: Musicians and dancers wore formal court attire.
+NARRATION: The spatial arrangement followed five directions, with the orchestra split into yin (terrace) and yang (courtyard) ensembles.
 ON SCREEN: Image gallery: 4 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Duke of Zhou, Confucius, Emperor Huizong of Song, Chen Yang, Marquess Wen of Wei.
+NARRATION: Duke of Zhou (founder), Confucius (philosopher who championed yayue), Emperor Huizong of Song (patron who gifted instruments to Korea), Chen Yang (author of the Yueshu).
 NARRATION: Gagaku (Japan), Aak (Korea), Nhã nhạc (Vietnam).
-NARRATION: Western Zhou (origin) -> Song Dynasty (peak development) -> Modern Revival (Taiwan/China).
+NARRATION: Directly linked to the Six Great Dances of the Zhou dynasty; influenced the development of Confucian ritual music across East Asia.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Yayue is child of Aak: Korean court music that preserved elements of Song dynasty yayue.
-NARRATION: Yayue is sibling of Gagaku: Japanese court music sharing the same name roots but distinct development.
+NARRATION: Yayue is variant of Aak: Korean court music that preserves elements of Chinese yayue from the Song dynasty.
+NARRATION: Yayue is variant of Gagaku: Japanese court music influenced by the concept of yayue.
+NARRATION: Yayue is variant of Nhã nhạc: Vietnamese court music influenced by the yayue tradition.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: Yayue is deeply tied to Confucian rituals and ancestor worship; outsiders should observe with solemnity and avoid disruptive behavior during ritual performances.
+NARRATION: Yayue is intrinsically linked to Confucian rites, ancestor worship, and ceremonies honoring Heaven and Earth; it is considered a formal, moral, and political instrument of the state.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover the ancient ritual music of China that vanished from its home, only to be preserved in the courts of Korea.
+NARRATION: Discover the ancient ritual music that defined the moral and political order of the Chinese imperial court.
 NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -88,7 +91,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Yayue (China). Rhythm pattern: monophonic with little rhythmic variety. Instruments: guqin, dizi, xiao, paixiao, bianqing, bianzhong, sheng. Mood: stately, formal, solemn. It should sound like this: A stately, monophonic sound dominated by the resonance of bronze bells and stone chimes, supported by the breathy tones of bamboo flutes and the plucked strings of zithers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Yayue (China). Rhythm pattern: monophonic with little rhythmic variety. Instruments: guqin, dizi, xiao, paixiao, chi, zhu, bianqing, bianzhong. Vocal style: singing included in terrace ensemble. Form: ceremonial, monophonic. Mood: stately, formal, solemn. It should sound like this: Slow, stately, and monophonic music characterized by the resonance of stone chimes, bronze bells, and various wind instruments, organized into distinct terrace and courtyard ensembles. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -102,8 +105,8 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: MISSING
 Images: 4 licensed — The original uploader was Zzjgbc at Chinese Wikipedia. / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); ChaiCat / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Noh Mun Duek / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Huanokinhejo / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
-Motifs: Bronze bells, Stone chimes, Rows of dancers in traditional robes, Calligraphy of the character 'Ya'
-Costume notes: Performances occur in imperial courts or Confucian temples. The setting is highly formal, with musicians arranged in five directions (four compass points and the center) within the courtyard.
+Motifs: Stone chimes and bronze bells, Formal court robes, Courtyard formations
+Costume notes: Performances occurred on palace terraces or in courtyards. Musicians and dancers wore formal court attire. The spatial arrangement followed five directions, with the orchestra split into yin (terrace) and yang (courtyard) ensembles.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 

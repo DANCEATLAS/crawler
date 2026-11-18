@@ -2,7 +2,7 @@
  "slug": "dikir-barat",
  "name": "Dikir barat",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:21Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-16T20:28:04Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Dikir barat. 20th century (popularized)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (C5r4B7jhqMI)",
      "Title card: Dikir barat · Malaysia · 20th century (popularized)"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Awak-awak clapping."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (C5r4B7jhqMI)",
      "Captions name each signature move as it appears",
      "Formation: Groups of 10-15 sitting in rows or a semi-circle on a stage"
     ],
@@ -732,7 +732,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "C5r4B7jhqMI",
+   "checked_by_vision_model": true,
+   "title": "Dikir barat perempuan-Adinda"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -779,8 +783,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "31 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 31,
+  "source": "41 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 41,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -790,24 +794,25 @@
   ],
   "cues": [
    "1-2-3-4",
-   "step together step",
-   "brush the foot",
-   "arms open close in a circle",
-   "1-2",
-   "3-4",
-   "sa'o'i",
-   "lualua tongi e",
-   "e a'a tongi e",
-   "stomp clap",
-   "chest chest leg leg clap",
-   "pull back and lean to the left"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto",
+   "viene y",
+   "preparacin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "warmup",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice",
    "recap"
@@ -818,7 +823,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections"
@@ -830,6 +834,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "5b15e5ea8ba6be070cc525c348579af1c51a19f2019df399b14a9de9616868d4",
- "hero_checked": null
+ "input_fingerprint": "8cbbc94e5e09f8bdee6d41315bb564a8abcf32eddd465bbdbc07fca768bff7d5",
+ "hero_checked": "pass"
 }

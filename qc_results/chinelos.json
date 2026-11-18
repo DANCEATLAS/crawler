@@ -1,10 +1,10 @@
 {
  "slug": "chinelos",
- "qc_at": "2026-11-09T21:23:50Z",
+ "qc_at": "2026-11-18T21:18:37Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.5,
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -19,22 +19,22 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "111"
+   "detail": "200"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 1867, Tlayacapan laborers reclaimed Carnival by donning masks and mocking hac"
+   "detail": "In 1867, Tlayacapan laborers reclaimed Carnival by donning masks and mocking the"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "365"
+   "detail": "419"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1964"
+   "detail": "2509"
   },
   {
    "gate": "sections_filled",
@@ -44,7 +44,7 @@
   {
    "gate": "citations",
    "ok": true,
-   "detail": "6/7 rate=0.857"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,38 +84,35 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=False cues=['monastery']"
+   "detail": "sacred=False cues=[]"
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
   "specificity": 10,
   "teaching_value": 9,
   "is_a_dance": true,
-  "factual_doubt": [
-   "The insight mentions 1867 specifically for Tlayacapan laborers reclaiming Carnival, but the exact year is not robustly supported by the direct quote provided."
-  ],
-  "harm_or_disresist": [],
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 9,
+  "overall": 10,
   "verdict": "publish",
-  "notes": "High quality, highly specific profile with minor date extrapolation in the insight."
+  "notes": "An exemplary profile. It is historically grounded, culturally sensitive, and provides clear, actionable descriptions of the 'brincon' movement. The distinction between the historical origins and the modern practice is well-maintained."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=9.5",
-  "doubts=1"
+  "judge_score=9.85"
  ],
  "citation": {
-  "claims": 7,
+  "claims": 6,
   "supported": 6,
-  "rate": 0.857
+  "rate": 1.0
  },
- "researched_at": "2026-11-09T20:35:15Z"
+ "researched_at": "2026-11-18T20:18:54Z"
 }

@@ -2,7 +2,7 @@
  "slug": "bunny-hop",
  "name": "Bunny hop",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:21Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-17T20:46:50Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -319,9 +319,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
+      "Teachers of this dance warn against: not preloading or forcing weight downward correctly",
       "Teachers of this dance warn against: stabbing your toe pick in",
-      "Teachers of this dance warn against: forgetting to step your other foot down",
-      "Teachers of this dance warn against: doing too many toe picks and sliding on your face"
+      "Teachers of this dance warn against: forgetting to step your other foot down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -466,9 +466,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
+      "Teachers of this dance warn against: not preloading or forcing weight downward correctly",
       "Teachers of this dance warn against: stabbing your toe pick in",
-      "Teachers of this dance warn against: forgetting to step your other foot down",
-      "Teachers of this dance warn against: doing too many toe picks and sliding on your face"
+      "Teachers of this dance warn against: forgetting to step your other foot down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -614,9 +614,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
+      "Teachers of this dance warn against: not preloading or forcing weight downward correctly",
       "Teachers of this dance warn against: stabbing your toe pick in",
-      "Teachers of this dance warn against: forgetting to step your other foot down",
-      "Teachers of this dance warn against: doing too many toe picks and sliding on your face"
+      "Teachers of this dance warn against: forgetting to step your other foot down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -812,20 +812,25 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "left-right-left",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, side",
+   "views used by most teachers: front, side, mirror",
    "tempo progression: slow → full"
   ],
   "cues": [
+   "drop your seat",
+   "meerkat position",
+   "preload",
+   "lunge forwards",
    "glide",
    "toe pick",
    "step flat"
   ],
   "common_mistakes": [
+   "not preloading or forcing weight downward correctly",
    "stabbing your toe pick in",
    "forgetting to step your other foot down",
    "doing too many toe picks and sliding on your face"
@@ -833,10 +838,22 @@
   "segment_order": [
    "intro",
    "full_demo",
+   "context",
+   "warmup",
    "breakdown",
    "slow_practice"
   ],
   "steps_as_taught": [
+   {
+    "name": "Meerkat position",
+    "counts": "",
+    "description": "Standing straight up with bars at your waist"
+   },
+   {
+    "name": "Preload",
+    "counts": "",
+    "description": "Forcing weight downwards before popping up"
+   },
    {
     "name": "Bunny hop",
     "counts": "left-right-left",
@@ -858,6 +875,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "a2e5d6de078bb98fb57c5a5b7b68a89a1bd3546dd23e78551882444a35792bb9",
+ "input_fingerprint": "873380b1a97f7480958f7487ccd40a94f5c6f036ca93c365fed85c153e5626de",
  "hero_checked": null
 }

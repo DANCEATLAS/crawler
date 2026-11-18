@@ -1,6 +1,6 @@
 # Chari Dance — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; two or more connections
 

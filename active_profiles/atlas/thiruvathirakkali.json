@@ -1,0 +1,121 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "clapping hands",
+      "difficulty": "beginner",
+      "footwork": "simple steps",
+      "formation_and_space": "circle around a lit candle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "group ensemble",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A graceful style of movement maintained throughout the dance.",
+          "name": "Lasyabhava"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "graceful"
+      ],
+      "musical_form": "Call-and-response",
+      "reference_recordings": [],
+      "rhythm_pattern": "Call-and-response",
+      "sound_description": "The music is defined by a lead singer performing the first line of a song, with the ensemble responding in unison while clapping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Devotional singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circular movement around a central lamp",
+        "Clapping hands to the rhythm of the song"
+      ],
+      "formation": "Circle",
+      "level_notes": "The steps are very simple, making it easy for the uninitiated to participate.",
+      "rhythm": "Rhythmic clapping to the beat of the song"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a7eb980aebbcd07e9f20106f231836684af075a14a05d3093c75fbe43d0fa246",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments traditionally used to accompany the singing in Thiruvathirakkali? Evidence needed: Ethnomusicological field studies of Kerala folk traditions."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:thiruvathirakkali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Thiruvathirakkali",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1c27bfc37e6a5f63",
+      "next_evidence": "Ethnomusicological field studies of Kerala folk traditions.",
+      "question": "What are the specific musical instruments traditionally used to accompany the singing in Thiruvathirakkali?",
+      "source": "https://en.wikipedia.org/wiki/Thiruvathirakkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources mention singing but do not specify instrumentation, which is vital for music recreation."
+    }
+  ],
+  "research_file": "research_results/thiruvathirakkali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "thiruvathirakkali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thiruvathirakkali",
+    "https://www.wikidata.org/wiki/Q3929828"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

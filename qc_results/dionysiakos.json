@@ -1,0 +1,127 @@
+{
+ "slug": "dionysiakos",
+ "qc_at": "2026-11-18T21:19:04Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 5.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Dionysiakos"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "69"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "141"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "During the Phallus festival in Tyrnavos, dancers revive ancient pagan fertility "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "493"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1717"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'god', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 6,
+  "respect": 8,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile claims 'Dionysiakos' is a specific dance form, but the evidence suggests it is a general term for 'Dionysian dance' or customs rather than a singular, codified choreographic style.",
+   "The assertion that this dance is maintained in the Peloponnese and Crete as a specific 'Dionysiakos' tradition is not supported by ethnographic evidence; these regions have their own distinct folk dance traditions."
+  ],
+  "harm_or_disrespect": [
+   "The profile risks essentializing regional Greek folk traditions by grouping them under a singular 'Dionysiakos' label, which may misrepresent the distinct cultural identities of the Peloponnese and Crete."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "The profile treats 'Dionysiakos' as a specific, singular dance, whereas it is likely a descriptive term for various Dionysian-themed customs. The lack of technical detail makes it poor for teaching. It requires clarification on whether this is a distinct dance or a thematic category of folk performance."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "judge_score=5.25",
+  "doubts=2",
+  "harm",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T18:14:28Z"
+}

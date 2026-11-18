@@ -1,25 +1,72 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "raising and lowering swords or canes, tilting the hand to one side",
+      "difficulty": "beginner",
+      "footwork": "steps forward and backward",
+      "formation_and_space": "two rows of men facing each other with a central space",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "large drums",
+        "small drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "martial",
+        "ceremonial",
+        "rhythmic"
+      ],
+      "musical_form": "call and response",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is defined by the layered sound of large and small drums providing a steady beat for the rhythmic chanting of poetry.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "chanted poetry repeated as a refrain"
+    },
     "teaching": {
       "basic_steps": [
-        "Form two parallel rows facing each other",
-        "Sway the body rhythmically from front to back",
-        "Grasp a light sword in the right or left hand",
-        "Raise the sword and lower it (top to bottom) in sync with the drum beat",
-        "Repeat the poetic verses chanted by the lead poet",
-        "Gather around the central flag-bearer for the finale"
+        "Form two parallel rows facing each other.",
+        "Step forward and backward in rhythm with the drums.",
+        "Raise and lower the sword or cane in time with the body movement.",
+        "Tilt the hand holding the sword to one side."
       ],
-      "formation": "Two facing rows of men",
-      "level_notes": "Accessible to all ages and social classes; focus is on group synchronization rather than individual virtuosity.",
-      "rhythm": "Successive drum strikes, starting with large drums followed by smaller ones"
+      "formation": "Two rows of men facing each other with an open space in the center.",
+      "level_notes": "not described in sources",
+      "rhythm": "Rhythmic drumming with a sequence of large to small drums."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "dfce9b0c90cc33a7677d41bdbd78c10b0531b9a19fd4c4b1554f3807237ca1ee",
+  "fingerprint": "ebfdf767869f702ffaacb6736c99c3f62bbb998df79d7526281a43ef3530d4f6",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -27,9 +74,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts or time signatures used in the drumming for Alardah Alnajdiyah? Evidence needed: Musicological study or instructional manual for Saudi traditional percussion."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -56,7 +104,17 @@
   ],
   "music_options": [],
   "name": "Alardah Alnajdiyah (Saudi Ardah)",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "69d9e131973abdf7",
+      "next_evidence": "Musicological study or instructional manual for Saudi traditional percussion.",
+      "question": "What are the specific rhythmic counts or time signatures used in the drumming for Alardah Alnajdiyah?",
+      "source": "https://en.wikipedia.org/wiki/Ardah",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow for accurate musical recreation and teaching."
+    }
+  ],
   "research_file": "research_results/alardah-alnajdiyah.json",
   "runtime_active": false,
   "scope": {
@@ -71,8 +129,10 @@
     "https://en.wikipedia.org/wiki/Ardah",
     "https://www.wikidata.org/wiki/Q3447507",
     "https://es.wikipedia.org/wiki/Ardah",
-    "https://fr.wikipedia.org/wiki/Alardah_Alnajdiyah"
+    "https://fr.wikipedia.org/wiki/Alardah_Alnajdiyah",
+    "https://pt.wikipedia.org/wiki/Ardah",
+    "https://it.wikipedia.org/wiki/Ardah"
   ],
-  "state": "teaching_withheld",
+  "state": "researching",
   "video_evidence": []
 }

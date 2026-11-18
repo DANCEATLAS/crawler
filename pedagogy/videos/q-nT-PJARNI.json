@@ -1,0 +1,146 @@
+{
+ "youtube_id": "q-nT-PJARNI",
+ "slug": "crnogorka",
+ "dance": "Crnogorka",
+ "title": "Crnogorka - Macedonian Dance Tutorial",
+ "channel": "MKUD Ilinden - Sydney",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-18T21:28:00Z",
+ "url": "https://www.youtube.com/watch?v=q-nT-PJARNI",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the Macedonian dance Crnogorka step by step from the back angle, demonstrating both parts individually and then combining them. She progressively increases the tempo and concludes with a full demonstration with music alongside other dancers.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:10",
+    "segment": "intro",
+    "note": "Teacher introduces herself and the dance Crnogorka"
+   },
+   {
+    "t": "0:14",
+    "segment": "context",
+    "note": "Explains the region of origin, Skopsko Crnogora"
+   },
+   {
+    "t": "0:18",
+    "segment": "breakdown",
+    "note": "Breaks down part one of the dance starting with the right leg"
+   },
+   {
+    "t": "0:31",
+    "segment": "breakdown",
+    "note": "Breaks down part two of the dance"
+   },
+   {
+    "t": "1:00",
+    "segment": "layering",
+    "note": "Combines part one and part two together slowly"
+   },
+   {
+    "t": "1:36",
+    "segment": "count_in",
+    "note": "Counts in full speed practice with 5-6-7-8"
+   },
+   {
+    "t": "2:11",
+    "segment": "music_practice",
+    "note": "Demonstrates the dance with music alongside four dancers"
+   }
+  ],
+  "counting_scheme": "5-6-7-8 / 1-2-left / 2-2-right",
+  "cues": [
+   "1-2-left",
+   "2-2-right",
+   "Step in front",
+   "Step behind"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Crnogorka Part 1",
+    "counts": "1-2-left, 2-2-right",
+    "description": "Step sequences moving side to side starting with right leg"
+   },
+   {
+    "name": "Crnogorka Part 2",
+    "counts": "step in front, step behind, 1-2-right",
+    "description": "Crossing steps in front and behind"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal counts and repeated practice from the back view make it easy to follow along."
+   ],
+   "what_hinders": [
+    "Only a single back-angle view is shown during the breakdown, lacking a mirrored front view."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "In this Macedonian dance tutorial I'll be teaching a dance called Crnogorka."
+   },
+   {
+    "t": "0:18",
+    "text": "There are two parts in this dance, starting with the first with the right."
+   },
+   {
+    "t": "2:08",
+    "text": "Fantastic guys, let's see it together with the music."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 18,
+    "end_s": 30,
+    "topic": "movement",
+    "observation": "Teacher demonstrates footwork for part one of Crnogorka facing away from the camera",
+    "viewpoint": "back, unknown mirror",
+    "cannot_infer": "upper body posture and hand placement details due to camera framing",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 31,
+    "end_s": 39,
+    "topic": "movement",
+    "observation": "Teacher demonstrates footwork for part two with crossing steps",
+    "viewpoint": "back, unknown mirror",
+    "cannot_infer": "exact weight distribution on crossing steps",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 211,
+    "end_s": 234,
+    "topic": "movement",
+    "observation": "Four dancers in traditional costumes perform Crnogorka holding hands in a line",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "individual footwork details due to wide shot",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Teaching entirely from a rear-facing view so students can directly mimic footwork without mental inversion."
+ },
+ "attempts": 1
+}

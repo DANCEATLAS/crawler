@@ -3,7 +3,7 @@
  "slug": "aerial-dance",
  "dance": "Aerial dance",
  "kind": "performance",
- "analysed_at": "2026-11-16T22:21:30Z",
+ "analysed_at": "2026-11-18T21:30:50Z",
  "url": "https://www.youtube.com/watch?v=gLt_4CBdqlA",
  "observation_window": {
   "start_s": 0,
@@ -12,6 +12,51 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed",
- "attempts": 1
+ "status": "ok",
+ "observation": {
+  "setting": "on a brightly lit indoor television talent show stage with a large video screen backdrop and judges seated at a desk",
+  "dancers": "two children, one boy and one girl, aged around 8 to 11",
+  "formation_and_space": "starts on a bed prop on stage, then transitions to aerial straps hanging from above, alternating between floor choreography and aerial suspension",
+  "posture": "upright during floor movement; extended and tensioned limbs during aerial acrobatics",
+  "footwork": "simple walking, running, and skipping steps on the floor; aerial footwork consists of pointed toes and extended legs while suspended or wrapping straps",
+  "arms_and_hands": "used for gripping aerial straps, holding partner's hands, and expressive extension during aerial figures",
+  "hips_and_torso": "flexible, bending in backbends and splits on the floor and in the air",
+  "partnering": "close partner contact, lifting and supporting each other both on the ground and suspended in the air using straps",
+  "levels_jumps_turns": "frequent transitions from floor level to high aerial suspension; spinning and turning while hanging from straps",
+  "costume_and_props": "matching flannel pyjamas; bed prop with large stuffed animals (elephant and rabbit) and aerial straps",
+  "cannot_infer": "exact microphone audio separation for footsteps is obscured by musical score; subtle weight transfer dynamics in rapid aerial catches cannot be fully determined from camera angles",
+  "music_heard": {
+   "instruments": [
+    "piano",
+    "strings"
+   ],
+   "vocals": "none",
+   "tempo_feel": "moderate",
+   "meter_feel": "duple"
+  },
+  "signature_moments": [
+   {
+    "start_s": 27,
+    "end_s": 31,
+    "what": "boy hanging upside down from aerial straps holding a horizontal spread position"
+   },
+   {
+    "start_s": 44,
+    "end_s": 50,
+    "what": "duet aerial hold where boy hangs from strap and supports girl suspended horizontally"
+   },
+   {
+    "start_s": 121,
+    "end_s": 126,
+    "what": "synchronized aerial figures with both children suspended on straps, intertwining legs"
+   },
+   {
+    "start_s": 150,
+    "end_s": 156,
+    "what": "girl performing splits suspended in air while boy balances on the floor below holding a strap"
+   }
+  ]
+ },
+ "verification": "model_candidate",
+ "attempts": 2
 }

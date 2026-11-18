@@ -4,28 +4,24 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Holding ritual props (plumes, shields, axes, flutes) at specific heights.",
+      "arms_and_hands": "Civil: yue flute in left hand, feather plume in right. Military: shield in left hand, battleaxe in right.",
       "difficulty": "beginner",
-      "footwork": "Slow, deliberate steps.",
-      "formation_and_space": "Row-based formations (4x4, 6x6, 8x8).",
-      "hips_and_torso": "Minimal movement; upright.",
-      "levels_and_jumps": "None.",
-      "partnering": "None.",
-      "posture": "Rigid and formal.",
-      "signature_moves": [
-        {
-          "description": "Holding a flute in the left hand and a feather plume in the right.",
-          "name": "Civil Dance"
-        },
-        {
-          "description": "Holding a shield in the left hand and a battleaxe in the right.",
-          "name": "Military Dance"
-        }
-      ],
-      "tempo_feel": "Slow and stately.",
-      "what_to_avoid": "Avoid rapid movements or expressive, non-ritualistic gestures."
+      "footwork": "not described in sources",
+      "formation_and_space": "Strict row-based formation (e.g., 8x8, 6x6, 4x4, 2x2) based on social rank.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "slow and stately",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
@@ -34,9 +30,15 @@
         "dizi",
         "xiao",
         "paixiao",
+        "chi",
+        "zhu",
+        "yu",
         "bianqing",
         "bianzhong",
+        "fangxiang",
+        "xun",
         "sheng",
+        "yu",
         "gu"
       ],
       "meter": "not described in sources",
@@ -45,27 +47,26 @@
         "formal",
         "solemn"
       ],
-      "musical_form": "ceremonial",
+      "musical_form": "ceremonial, monophonic",
       "reference_recordings": [],
       "rhythm_pattern": "monophonic with little rhythmic variety",
-      "sound_description": "A stately, monophonic sound dominated by the resonance of bronze bells and stone chimes, supported by the breathy tones of bamboo flutes and the plucked strings of zithers.",
+      "sound_description": "Slow, stately, and monophonic music characterized by the resonance of stone chimes, bronze bells, and various wind instruments, organized into distinct terrace and courtyard ensembles.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "not described in sources"
+      "vocal_style": "singing included in terrace ensemble"
     },
     "teaching": {
       "basic_steps": [
-        "Stand in a rigid, upright posture with feet together.",
-        "Hold ritual props (plumes or shields) at chest height.",
-        "Execute slow, deliberate steps in a grid formation.",
-        "Maintain a steady, stately tempo with minimal torso movement."
+        "Civil dance: Hold yue flute in left hand, feather plume in right.",
+        "Military dance: Hold shield in left hand, battleaxe in right.",
+        "Formation: Maintain strict row alignment based on rank (e.g., 8x8 for emperor)."
       ],
-      "formation": "Rows of dancers (4x4, 6x6, or 8x8).",
-      "level_notes": "Focus on stillness and precision of gesture rather than complex footwork.",
-      "rhythm": "Slow, monophonic, 4-8 beats per phrase."
+      "formation": "Courtyard arrangement in five directions; orchestra split into terrace (yin) and courtyard (yang) ensembles.",
+      "level_notes": "Technique not described in sources beyond the holding of ritual objects and row-based formation.",
+      "rhythm": "Slow, stately, monophonic; 4-8 beats per phrase."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a51c6d8cbae3f8f9f42ba844a087ccaee00af9dd852471258f2974b0e70092dc",
+  "fingerprint": "3530374ba05866751ef8091e032cc14509eb0678e4e74aab86581551067bbc5d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -73,8 +74,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns for the civil and military dances? Evidence needed: Historical dance manuals or modern reconstruction choreography notes."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -101,7 +104,17 @@
   ],
   "music_options": [],
   "name": "Yayue",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "968159ea4c377e63",
+      "next_evidence": "Historical dance manuals or modern reconstruction choreography notes.",
+      "question": "What are the specific footwork patterns for the civil and military dances?",
+      "source": "https://en.wikipedia.org/wiki/Yayue",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable accurate movement instruction."
+    }
+  ],
   "research_file": "research_results/yayue.json",
   "runtime_active": false,
   "scope": {

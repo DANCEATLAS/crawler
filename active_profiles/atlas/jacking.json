@@ -1,0 +1,150 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Freestyle",
+      "hips_and_torso": "Rippling, undulating motion of the torso back and forth.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Rippling the torso back and forth in an undulating motion.",
+          "name": "The Jack"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ecstatic",
+        "aggressive",
+        "liberated"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Chip E.",
+          "title": "Jack Trax EP"
+        },
+        {
+          "artist": "Farley 'Jackmaster' Funk",
+          "title": "Jack'n the House"
+        },
+        {
+          "artist": "Steve 'Silk' Hurley",
+          "title": "Jack Your Body"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Undulate the torso back and forth in a rhythmic motion",
+        "Move the body up and down in time with the beat"
+      ],
+      "formation": "Freestyle",
+      "level_notes": "Beginner",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "20da13bf2917c9dd11fded57af6e6d0f4574ceee5d18971478fce7de4c0c9807",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific footwork patterns associated with jacking that distinguish it from other house dance elements? Evidence needed: Instructional videos or dance manuals from the 1980s Chicago scene."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:jacking",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Jacking",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e010533ca224cbda",
+      "next_evidence": "Instructional videos or dance manuals from the 1980s Chicago scene.",
+      "question": "Are there specific footwork patterns associated with jacking that distinguish it from other house dance elements?",
+      "source": "https://en.wikipedia.org/wiki/Jacking_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources focus on torso movement, but jacking is often part of a broader house dance vocabulary that includes footwork."
+    }
+  ],
+  "research_file": "research_results/jacking.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "jacking",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jacking_(dance)",
+    "https://www.wikidata.org/wiki/Q6116746",
+    "https://fr.wikipedia.org/wiki/Jacking_(danse)",
+    "https://pt.wikipedia.org/wiki/Jacking",
+    "https://archive.org/details/GAT_1949011801"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -2,83 +2,78 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "fast couple rotation",
-          "complex holds"
-        ],
-        "counts": "1-2-3 walking counts",
-        "duration_minutes": "3",
-        "game_version": "Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "rapid spinning",
-          "sudden balance shifts",
-          "deep knee flexion"
-        ],
-        "counts": "3/4 time slow walk on counts one and three.",
-        "seated_version": "Seated upper-body rotation simulating bakmes and pols turns with arm movements.",
-        "standing_version": "Supported solo walking step marking beats one and three without rapid rotation.",
-        "tempo_and_range": "Reduced tempo with eliminated turns and restricted range of motion."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "close hold escort position underarm turns",
+      "arms_and_hands": "Escort position or close couple hold.",
       "difficulty": "intermediate",
-      "footwork": "Walking promenade steps, stepping primarily on the first and third beat during resting phases",
-      "formation_and_space": "Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot",
-      "hips_and_torso": "Rotating counter-clockwise in bakmes and clockwise in pols rotations",
-      "levels_and_jumps": "Grounded footwork with rapid rotation; no major aerial jumps documented",
-      "partnering": "Partner dance led by the male through a sequence of holds, turns, and promenades",
-      "posture": "Upper body facing as a couple, maintaining a close embrace or escort position",
+      "footwork": "Walking steps on beats one and three; clockwise rotation.",
+      "formation_and_space": "Couples moving counter-clockwise around the periphery of the room.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Close couple hold for turns; escort position for walking.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Counter-clockwise couple rotation at a rate of one revolution per two measures",
-          "name": "Bakmes turn"
+          "description": "Clockwise rotation at a rate of one turn per measure.",
+          "name": "Pols turn"
         },
         {
-          "description": "Clockwise couple rotation at a rate of one full turn per measure",
-          "name": "Pols turn"
+          "description": "Counter-clockwise rotation of the couple.",
+          "name": "Bakmes"
         }
       ],
-      "tempo_feel": "Fast, driving triple meter with organic pulse shifts",
+      "tempo_feel": "High-speed rotation.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "standard fiddles (violins)",
-        "hardingfele (Hardanger fiddle)"
+        "fiddle",
+        "Hardanger fiddle"
       ],
-      "meter": "3/4 time (with 2/4 and compound variations)",
+      "meter": "3/4",
       "mood_keywords": [
         "energetic",
-        "dizzying",
-        "lyrical",
-        "asymmetrical"
+        "rhythmic"
       ],
-      "musical_form": "Two or three eight-bar phrases, each repeated (32 to 64 measures per tune cycle)",
+      "musical_form": "Two eight-bar phrases, repeated.",
       "reference_recordings": [],
-      "rhythm_pattern": "Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles",
-      "sound_description": "Fiddles drive the melody through repeating motifs, drone strings on the Hardanger fiddle, and uneven beats where musicians traditionally tap only the first and third beats.",
+      "rhythm_pattern": "Asymmetrical beats in some variants; others use even sixteenth or eighth notes.",
+      "sound_description": "Triple-meter fiddle music characterized by regional rhythmic nuances, such as long-short beat patterns or smooth, even pulses.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Promenade walk",
-        "Bakmes counter-clockwise turn",
-        "Pols clockwise turn",
-        "Resting step on beats one and three"
+        "Walking promenade in escort position",
+        "Clockwise couple turn (one rotation per measure)",
+        "Bakmes (counter-clockwise turn)"
       ],
-      "formation": "Partner dance moving counter-clockwise around the room or on a fixed spot",
-      "level_notes": "Requires strong core stability, balance, and coordination for rapid rotational steps.",
-      "rhythm": "Triple time (3/4) with variable beat weights and asymmetrical phrasing"
+      "formation": "Couple dance, often moving counter-clockwise around the room",
+      "level_notes": "Intermediate: requires coordination of rotation and rhythm.",
+      "rhythm": "Triple meter (3/4)"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f4c67f95d64fc5961e2b8fda394589632a88b17c65192f8001f9be1fc6a49581",
+  "fingerprint": "ffa6bd2384598323e389fe98c6cd5e6b154c308628475dad68db223b59c918fc",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -86,8 +81,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific physical safety considerations for the high-speed rotation in polska for senior populations? Evidence needed: Expert pedagogical guidelines on Nordic folk dance for seniors."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -114,7 +110,17 @@
   ],
   "music_options": [],
   "name": "Polska",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0526640c6b7b02a5",
+      "next_evidence": "Expert pedagogical guidelines on Nordic folk dance for seniors.",
+      "question": "What are the specific physical safety considerations for the high-speed rotation in polska for senior populations?",
+      "source": "https://en.wikipedia.org/wiki/Polska_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure safe adaptation of the dance for older learners."
+    }
+  ],
   "research_file": "research_results/polska.json",
   "runtime_active": false,
   "scope": {

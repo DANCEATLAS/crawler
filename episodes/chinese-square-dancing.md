@@ -1,8 +1,8 @@
 # Chinese square dancing — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); meter
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic retired factory worker from Changsha who leads 80 dancers each evening with humor, strict grid discipline, and zero tolerance for missed beats.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Concrete Plazas of the Dancing Grannies
 NARRATION: This is Chinese square dancing. Mid-1990s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (dkCWnZByRZY)
 ON SCREEN: Title card: Chinese square dancing · People's Republic of China · Mid-1990s to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers arrange themselves in a precise grid of ranks and files, all 
 NARRATION: The lead dancer, known as the vortänzerin, stands at the front, with the most proficient participants occupying the center of the forward ranks and less skilled beginners standing in the rear.
 NARRATION: Synchronized routines consist largely of low-impact movements, primarily involving holding and changing arm positions in front of the body, rhythmic stepping, and continuous coordinated pacing to the beat.
 NARRATION: Watch for Front-arm posturing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (dkCWnZByRZY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Strict rank-and-file grid occupying public plazas, parks, and parking lots, oriented towards a central front leader.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -121,7 +121,7 @@ NARRATION: Step 1: Stand facing forward in rank-and-file formation matching the 
 NARRATION: Step 2: Observe the lead dancer at the front center to mirror timing and arm elevations
 NARRATION: Footwork from the sources: Low-impact synchronized steps, weight transfers, and stepping in place in rank-and-file formation.
 NARRATION: Drill: Rank-and-file spacing check with peripheral vision
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -191,7 +191,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Coordinate weight shifts and synchronized steps with neighboring dancers across the grid
 NARRATION: Drill: Stepping in place while cycling through three basic arm postures
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -262,7 +262,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Step rhythmically in place in time with the driving pop or march beat
 NARRATION: Step 2: Coordinate weight shifts and synchronized steps with neighboring dancers across the grid
 NARRATION: Drill: Executing whole-group formation holds
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancing occurs outdoors in urban public squares, parks, commercial plazas, and paved parking lots. Morning groups assemble near supermarkets as early as 5:30 a.m., while evening groups dance near their residential housing complexes. While most dancers wear everyday street clothing, aerobics attire, or yoga pants, advanced troupes wear matching team uniforms, green military fatigues, or Cultural Revolution-era costumes, occasionally holding props such as toy rifles.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'dkCWnZByRZY', 'checked_by_vision_model': True, 'title': 'Why is Chinese Square Dancing Everywhere?'}
 Images: 3 licensed — 01Raina / Wikimedia Commons / Public domain (Public domain); Daniel Case / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); N509FZ / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Guangchangwu Shenzhen 201307.webm — https://upload.wikimedia.org/wikipedia/commons/8/80/Guangchangwu_Shenzhen_201307.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Wheeled black speaker box hooked up to a bare car battery, Dozens of colorful running shoes moving in lockstep over gray pavement, Glowing neon wireless headphones in an evening city square
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
+Source: 34 tutorial(s) of the street-urban family studied · videos studied: 34
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: one and two; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
 
 Sources (5): https://en.wikipedia.org/wiki/Square_dancing_(China); https://www.wikidata.org/wiki/Q5100786; https://es.wikipedia.org/wiki/Baile_de_plaza_(China); https://fr.wikipedia.org/wiki/Danse_de_place; https://de.wikipedia.org/wiki/Parktanz

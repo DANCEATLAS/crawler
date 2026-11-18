@@ -1,6 +1,6 @@
 # Tanztheater — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; teaching steps written out
 
@@ -309,7 +309,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the stage-contemporary family studied · videos studied: 8
+Source: 11 tutorial(s) of the stage-contemporary family studied · videos studied: 11
 Counting: 
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer

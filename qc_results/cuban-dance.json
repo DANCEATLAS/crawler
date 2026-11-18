@@ -1,0 +1,124 @@
+{
+ "slug": "cuban-dance",
+ "qc_at": "2026-11-18T21:19:53Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Cuban dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "85"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "169"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "In the danzón, dancers remain perfectly still during the introduction and paseo,"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "445"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1407"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Cuba"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 7,
+  "teaching_value": 6,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile treats 'Cuban dance' as a single dance tradition, whereas it is a broad category encompassing many distinct genres."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The profile is well-researched but fundamentally miscategorizes a national dance culture as a single 'dance'. It should be split into individual entries (e.g., Danzón, Rumba, Casino) to be useful. The insight is excellent and specific. The 'is_a_dance' flag is false because the subject is a country's entire dance repertoire."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=7.7",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T19:15:22Z"
+}

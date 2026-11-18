@@ -1,0 +1,413 @@
+{
+ "slug": "yumsharol-jagoi",
+ "name": "Yumsharol Jagoi",
+ "pack_version": "e2",
+ "built_at": "2026-11-18T21:38:03Z",
+ "researched_at": "2026-11-18T20:39:42Z",
+ "qc_score": 9.3,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A cultural practitioner of Meitei traditions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Yumsharol Jagoi",
+   "Yumsharon Jagoi"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Yumsharol Jagoi",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Building a Home with Hands: The Yumsharol Jagoi",
+     "This is Yumsharol Jagoi. Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Yumsharol Jagoi · India · Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance is a traditional form of the Meitei people, serving as an intangible cultural heritage that honors the skills of house construction."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It is an integral part of the Lai Haraoba festival, which celebrates the Meitei gods and the creation of the world.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Yumsharol Khutthek."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is performed to the Yumsharol song, accompanied by the pena, a traditional musical instrument.",
+     "Listen for the pena.",
+     "The music features the sound of the pena, a traditional instrument, accompanying the Yumsharol song."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance is associated with the broader cultural traditions of the Lai Haraoba festival."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Yumsharol Jagoi is parent of Lai Haraoba: Yumsharol Jagoi is an important part of the Lai Haraoba festival."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is an important part of the Lai Haraoba festival, which celebrates Meitei gods and the creation of the world."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how the Meitei people of Manipur use dance to honor the sacred act of building a home.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "pena"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "spiritual",
+   "artistic"
+  ],
+  "sound_description": "The music features the sound of the pena, a traditional instrument, accompanying the Yumsharol song.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Yumsharol Jagoi (India). Instruments: pena. Mood: spiritual, artistic. It should sound like this: The music features the sound of the pena, a traditional instrument, accompanying the Yumsharol song. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AChook_Yungpa_%28Chuk_Yungba%29_-_a_gesture_%28Khut-thek%29_of_erecting_a_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APaling_Laangsang_Hunpa_%28Paring_Langsang_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALeihun_Jagoi_Khutthek_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Chook_Yungpa_%28Chuk_Yungba%29_-_a_gesture_%28Khut-thek%29_of_erecting_a_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Chook_Yungpa_%28Chuk_Yungba%29_-_a_gesture_%28Khut-thek%29_of_erecting_a_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChook_Yungpa_%28Chuk_Yungba%29_-_a_gesture_%28Khut-thek%29_of_erecting_a_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Chook Yungpa (Chuk Yungba) - a gesture (Khut-thek) of erecting a pole in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / Im Shaba group of gestures of building house / home / hut / cottag"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Paling_Laangsang_Hunpa_%28Paring_Langsang_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Paling_Laangsang_Hunpa_%28Paring_Langsang_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APaling_Laangsang_Hunpa_%28Paring_Langsang_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Paling Laangsang Hunpa (Paring Langsang Hunba / Paling Laangshang / Paring Langshang Hunba) - a gesture (Khut-thek) of building a house in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / "
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Leihun_Jagoi_Khutthek_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/Leihun_Jagoi_Khutthek_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALeihun_Jagoi_Khutthek_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Leihun Jagoi Khutthek - a gesture (Khut-thek) of building a house in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / Im Shaba group of gestures of building house / home / hut / cottage (y"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Paling_Hunpa_%28Paring_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Paling_Hunpa_%28Paring_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APaling_Hunpa_%28Paring_Hunba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Paling Hunpa (Paring Hunba) - a gesture (Khut-thek) of building a house in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / Im Shaba group of gestures of building house / home / hut / cott"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Leitem_Kaayaat_-_a_gesture_%28Khut-thek%29_of_surfacing_each_room_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Leitem_Kaayaat_-_a_gesture_%28Khut-thek%29_of_surfacing_each_room_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALeitem_Kaayaat_-_a_gesture_%28Khut-thek%29_of_surfacing_each_room_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Leitem Kaayaat (Leitem Kayat) - a gesture (Khut-thek) of surfacing each room in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / Im Shaba group of gestures of building house / home / hut /"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Paling_Konpa_%28Paring_Konba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Paling_Konpa_%28Paring_Konba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APaling_Konpa_%28Paring_Konba%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Paling Konpa (Paring Konba) - a gesture (Khut-thek) of building a house in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / Im Shaba group of gestures of building house / home / hut / cott"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Khaangel_Haappa_-_a_gesture_%28Khut-thek%29_of_installing_roof_supporting_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Khaangel_Haappa_-_a_gesture_%28Khut-thek%29_of_installing_roof_supporting_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKhaangel_Haappa_-_a_gesture_%28Khut-thek%29_of_installing_roof_supporting_pole_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Khaangel Haappa (Khaangen Happa / Khangel / Khangen Happa) - a gesture (Khut-thek) of installing roof supporting pole in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba / Yoom Saba / Eem Shaapa / Eem Shapa / Im Shaaba / Im Shaba group of "
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Khaang-ngaa_Thaang-katpa_%28Khang-nga_Thaang-gatpa%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Khaang-ngaa_Thaang-katpa_%28Khang-nga_Thaang-gatpa%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kullachandra Singh, Ngariyambam / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKhaang-ngaa_Thaang-katpa_%28Khang-nga_Thaang-gatpa%29_-_a_gesture_%28Khut-thek%29_of_building_a_house_in_Lai_Haraoba_classical_dance_%26_music_ritualistic_performances_of_ancient_Kangleipak_civilisation.jpg",
+    "description": "Khaang-ngaa Thaang-katpa (Khang-nga Thaang-gatpa / Khaangngaa Thaangkatpa / Khangnga Thaanggatpa / Khaangngaa Thangkatpa / Khangnga Thanggatpa) - a gesture (Khut-thek) of building a house in Lai Haraoba classical dance &amp; music ritualistic performances of ancient Kangleipak civilisation - It is a gesture (Khut-thek) of \"the construction of a house\" - one of the Yum Saapa / Yum Sapa / Yoom Saaba"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Traditional Meitei architecture",
+   "The pena instrument",
+   "Close-ups of hand gestures"
+  ],
+  "costume_notes": null,
+  "setting_notes": "It is an integral part of the Lai Haraoba festival, which celebrates the Meitei gods and the creation of the world.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 4,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yumsharol_Jagoi",
+  "https://www.wikidata.org/wiki/Q135092634"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "47f3d84e9e0e1a1330cfac886a9f4971fc4ec19578f605a571bcb83492521964",
+ "hero_checked": null
+}

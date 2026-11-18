@@ -1,0 +1,122 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Uses Yumsharol Khutthek, which are hand gestures representing different steps in making a house.",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Hand gestures that represent different steps in making a house.",
+          "name": "Yumsharol Khutthek"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "pena"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "spiritual",
+        "artistic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music features the sound of the pena, a traditional instrument, accompanying the Yumsharol song.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Yumsharol song"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Yumsharol Khutthek (hand gestures representing house construction)"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7ce99926f1122e2ffca9534d20ef004658208ef60f97f305031384568ebfc718",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns and body postures associated with Yumsharol Jagoi? Evidence needed: Ethnographic documentation or instructional manuals on Meitei folk dance."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:yumsharol-jagoi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Yumsharol Jagoi",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "37a81b64bb157518",
+      "next_evidence": "Ethnographic documentation or instructional manuals on Meitei folk dance.",
+      "question": "What are the specific footwork patterns and body postures associated with Yumsharol Jagoi?",
+      "source": "https://en.wikipedia.org/wiki/Yumsharol_Jagoi",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only describe the hand gestures (Yumsharol Khutthek), leaving the rest of the movement profile incomplete."
+    }
+  ],
+  "research_file": "research_results/yumsharol-jagoi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "yumsharol-jagoi",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yumsharol_Jagoi",
+    "https://www.wikidata.org/wiki/Q135092634"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

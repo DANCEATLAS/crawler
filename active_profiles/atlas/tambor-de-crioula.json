@@ -4,60 +4,66 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "not described in sources",
+      "arms_and_hands": "Coordinated and harmonious movements of arms and hands.",
       "difficulty": "beginner",
       "footwork": "not described in sources",
-      "formation_and_space": "Circular formation.",
-      "hips_and_torso": "Coordinated, harmonious movements of the body.",
+      "formation_and_space": "Circular formation with individual dancers entering the center.",
+      "hips_and_torso": "Intense and accentuated movements of the waist and hips.",
       "levels_and_jumps": "not described in sources",
-      "partnering": "The 'punga' or 'umbigada' serves as a ritualized invitation between dancers.",
-      "posture": "Upright and fluid.",
+      "partnering": "The 'punga' (umbigada) serves as a ritualized invitation between dancers.",
+      "posture": "Upright and fluid, engaging the whole body.",
       "signature_moves": [
         {
-          "description": "A movement where a dancer in the center bumps her belly against the belly of another dancer in the circle.",
+          "description": "A rhythmic belly-to-belly bump used to invite another dancer into the center of the circle.",
           "name": "Punga"
         }
       ],
-      "tempo_feel": "Vibrant and energetic.",
+      "tempo_feel": "Intense and rhythmic.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "crivador",
-        "meião",
-        "roncador",
+        "crivador (small drum)",
+        "meião (medium drum)",
+        "roncador (large drum)",
         "pandeiro",
         "matracas"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
         "joyful",
-        "rhythmic",
-        "celebratory"
+        "vibrant",
+        "rhythmic"
       ],
-      "musical_form": "Improvisational singing led by a main singer.",
+      "musical_form": "Improvisational singing over a constant drum beat.",
       "reference_recordings": [],
-      "rhythm_pattern": "Driven by three drums (parelhas) and matracas.",
-      "sound_description": "A rhythmic, percussive sound dominated by the deep resonance of three handmade drums tuned by fire, accompanied by the sharp clatter of matracas and vibrant, improvisational vocal call-and-response.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A rhythmic, percussive sound dominated by three drums of varying sizes, accompanied by vocal improvisation and the sharp clatter of matracas.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Call-and-response, improvisation."
+      "vocal_style": "Call and response; lead singer improvises or pulls a toada, followed by a chorus."
     },
     "teaching": {
       "basic_steps": [
-        "Form a circle with other dancers.",
-        "Step rhythmically to the beat of the drums.",
-        "Enter the center of the circle to dance individually.",
-        "Perform the 'punga' to invite another dancer to the center."
+        "Form a circle with other participants.",
+        "Clap hands to maintain the rhythmic pulse.",
+        "Enter the center of the circle individually.",
+        "Perform fluid, rhythmic movements of the hips and torso.",
+        "Execute the 'punga' by bumping bellies with another dancer to invite them into the center."
       ],
       "formation": "Circular.",
-      "level_notes": "Requires spontaneity and rhythmic coordination.",
-      "rhythm": "Percussive, driven by the three drums."
+      "level_notes": "The dance is improvisational and does not require formal rehearsals.",
+      "rhythm": "Percussive, driven by the parelha drums."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "59956cf62cad0be87d03c544cc03a105b58b495964894629307cb9add89e9d87",
+  "fingerprint": "0d2764db7e2e4fb6e0708ba61ba415d51ca0047ccd1d815d2f7dd6c5d07ac11f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -66,8 +72,9 @@
     ],
     "research": [
       "movement: footwork, what_to_avoid",
-      "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic time signatures or counts used in the 'parelha' drum patterns? Evidence needed: Ethnomusicological field recordings or technical manuals from the Casa do Tambor de Crioula."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -94,7 +101,17 @@
   ],
   "music_options": [],
   "name": "Tambor de Crioula",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "65644a861e0638d2",
+      "next_evidence": "Ethnomusicological field recordings or technical manuals from the Casa do Tambor de Crioula.",
+      "question": "What are the specific rhythmic time signatures or counts used in the 'parelha' drum patterns?",
+      "source": "https://pt.wikipedia.org/wiki/Tambor_de_crioula",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for the rhythm section."
+    }
+  ],
   "research_file": "research_results/tambor-de-crioula.json",
   "runtime_active": false,
   "scope": {
@@ -108,9 +125,9 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Tambor_de_Crioula",
     "https://www.wikidata.org/wiki/Q10378015",
+    "https://pt.wikipedia.org/wiki/Tambor_de_crioula",
     "https://es.wikipedia.org/wiki/Tambor_de_crioula",
-    "https://fr.wikipedia.org/wiki/Tambour_de_crioula",
-    "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+    "https://fr.wikipedia.org/wiki/Tambour_de_crioula"
   ],
   "state": "teaching_withheld",
   "video_evidence": []

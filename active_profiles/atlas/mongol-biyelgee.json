@@ -1,20 +1,44 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Used to express household labor and ethnic identity.",
-      "difficulty": "intermediate",
-      "footwork": "Practically no use of feet due to limited space.",
-      "formation_and_space": "Confined space before the hearth of a ger.",
-      "hips_and_torso": "Torso is used for rhythmic expression; Zakhchin dancers incline the body forward while squatting.",
-      "levels_and_jumps": "Low level (sitting/squatting); no jumps.",
+      "arms_and_hands": "Used to express household labor such as milking or cooking",
+      "difficulty": "beginner",
+      "footwork": "Practically no use of feet due to limited space",
+      "formation_and_space": "Confined space before a hearth inside a ger",
+      "hips_and_torso": "Torso inclination used in Zakhchin style; rhythmic movement of shoulders and chest",
+      "levels_and_jumps": "Low level (half-sitting or squatting)",
       "partnering": "not described in sources",
-      "posture": "Half-sitting or cross-legged.",
+      "posture": "Half-sitting or cross-legged",
       "signature_moves": [
         {
-          "description": "Hand and shoulder movements representing milking, cooking, or hunting.",
-          "name": "Household mimicry"
+          "description": "Squatting position with the body inclined forward",
+          "name": "Zakhchin squat"
+        },
+        {
+          "description": "Balancing mugs of airag on knees bent outwards",
+          "name": "Bayid knee-balance"
         }
       ],
       "tempo_feel": "not described in sources",
@@ -28,30 +52,29 @@
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "nomadic",
         "rhythmic",
-        "communal"
+        "celebratory"
       ],
-      "musical_form": "Accompaniment to dance, sometimes purely vocal.",
+      "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music is defined by the resonant, bowed strings of the morin khuur and ikhel, or the plucked sounds of the tovshuur, often accompanied by traditional vocal styles.",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Improvised solo singing with choral refrains in some variants."
+      "vocal_style": "Solo improvisation with chorus refrain in some variants"
     },
     "teaching": {
       "basic_steps": [
-        "Assume a half-sitting or cross-legged position.",
-        "Engage the shoulders and chest to mimic rhythmic labor.",
-        "Use hand gestures to represent specific tasks like milking or cooking."
+        "Half-sitting or cross-legged posture",
+        "Shoulder rhythmic movement",
+        "Hand gesture mimicking household labor"
       ],
-      "formation": "Performed in the limited space before the hearth of a ger.",
+      "formation": "Solo or small group within the confined space of a ger",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9df0c9bf111d9406200b7896dbc85ec8ba8bb136b7233f63921f2cd7ae3c98f8",
+  "fingerprint": "2c7a1e1d90db8fc47c132269018d9fb4d1ad2f102b814fcec73248a1fe71254a",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -60,8 +83,9 @@
     ],
     "research": [
       "movement: what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic meters used in Biyelgee music? Evidence needed: https://ich.unesco.org/en/USL/00311"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -88,7 +112,17 @@
   ],
   "music_options": [],
   "name": "Mongol Biyelgee",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "fb6d2e9a52e71b1b",
+      "next_evidence": "https://ich.unesco.org/en/USL/00311",
+      "question": "What are the specific rhythmic meters used in Biyelgee music?",
+      "source": "https://ich.unesco.org/en/USL/00311",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required for accurate musical recreation and teaching rhythm."
+    }
+  ],
   "research_file": "research_results/mongol-biyelgee.json",
   "runtime_active": false,
   "scope": {

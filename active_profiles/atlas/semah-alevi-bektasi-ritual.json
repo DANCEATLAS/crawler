@@ -4,65 +4,60 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Right hand palm faces upward, left hand palm faces downward; arms move subtly to express spiritual symbolism.",
-      "difficulty": "Beginner to intermediate; emphasis on spiritual focus rather than technical complexity.",
-      "footwork": "Circular stepping around a central point, alternating slow and fast steps; rotation on own axis synchronized with group movement.",
-      "formation_and_space": "Dancers form a circle or pairs facing each other, moving around a central point in coordinated rotations.",
-      "hips_and_torso": "Rotate smoothly with the body’s turning motion, maintaining balance and fluidity.",
-      "levels_and_jumps": "No jumps; movement is low-impact and focused on rotation and stepping.",
-      "partnering": "Often danced in pairs or small groups facing each other, no physical contact required.",
-      "posture": "Upright with gentle rotation on the vertical axis, hands held with right palm up and left palm down.",
+      "arms_and_hands": "Right palm up, left palm down",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Pairs or small groups",
+      "posture": "Upright and balanced",
       "signature_moves": [
         {
-          "description": "Imitation of the crane’s flight with graceful arm and body movements in circular rotation.",
+          "description": "Imitation of the flight movements of a crane.",
           "name": "Turnalar semahı"
-        },
-        {
-          "description": "Dance symbolizing the forty saints, performed in a circular formation with synchronized rotations.",
-          "name": "Kırklar semahı"
         }
       ],
-      "tempo_feel": "Alternates between slow, meditative pace and faster rhythmic steps matching the aksak meter.",
-      "what_to_avoid": "Avoid ostentatious or profane movements; maintain solemnity and control; do not perform outside sacred contexts."
+      "tempo_feel": "Alternating slow and fast",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Saz (long-necked lute)",
-        "Tambourine",
-        "Bells",
-        "Flute"
+        "saz"
       ],
-      "meter": "Aksak rhythm (uneven meter)",
+      "meter": "Aksak",
       "mood_keywords": [
-        "meditative",
-        "devotional",
         "mystical",
-        "solemn"
+        "devotional",
+        "rhythmic"
       ],
-      "musical_form": "Structured to support meditative, trance-like states with alternating tempos",
+      "musical_form": "Ritual accompaniment",
       "reference_recordings": [],
-      "rhythm_pattern": "Alternating slow and fast beats characteristic of aksak",
-      "sound_description": "The music features the saz lute playing melodic lines over an aksak rhythmic base, accompanied by soft percussion and spiritual vocal chants, creating a contemplative and hypnotic atmosphere.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by the rhythmic, plucked strings of the saz, which provides a melodic and percussive foundation for the vocal chanting of spiritual poetry.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Devotional singing of hymns (qawl and bayt), poetry praising Allah, Muhammad, Ali, and spiritual figures"
+      "vocal_style": "Devotional singing of hymns and poetry"
     },
     "teaching": {
       "basic_steps": [
-        "Stand in a circle or paired formation facing each other.",
-        "Raise right hand palm upward, left hand palm downward.",
-        "Begin slow circular stepping around the center point.",
-        "Rotate the body gently on own axis while moving in circle.",
-        "Alternate between slow and faster steps following rhythm."
+        "Circular walking formation",
+        "Individual rotation around the axis",
+        "Hand positioning: right palm up, left palm down"
       ],
-      "formation": "Mixed-gender groups dancing side by side, often in pairs or small groups facing each other in a circle.",
-      "level_notes": "Beginners start with basic circular stepping and hand positioning, progressing to synchronized rotations and animal-inspired gestures.",
-      "rhythm": "Aksak meter, an uneven rhythmic pattern alternating slow and fast beats."
+      "formation": "Circular, often in pairs or small groups",
+      "level_notes": "not described in sources",
+      "rhythm": "Aksak (asymmetric meter)"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "1e1d940dee19c2658f79fdf3f092f48a0e74327f0d21a8fda24abc832e2508d4",
+  "fingerprint": "b5e7e9d27decda5db36c2ce11d9945da9e12089b14d9bede9704f2dc353a7939",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -70,7 +65,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, non-sacred musical recordings recommended for educational use? Evidence needed: Ethnomusicological archives or UNESCO-approved educational materials."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -97,7 +95,17 @@
   ],
   "music_options": [],
   "name": "Semah, Alevi-Bektaşi ritual",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "a19965446d5c486a",
+      "next_evidence": "Ethnomusicological archives or UNESCO-approved educational materials.",
+      "question": "Are there specific, non-sacred musical recordings recommended for educational use?",
+      "source": "https://ich.unesco.org/en/RL/00384",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a standard reference for the music profile."
+    }
+  ],
   "research_file": "research_results/semah-alevi-bektasi-ritual.json",
   "runtime_active": false,
   "scope": {

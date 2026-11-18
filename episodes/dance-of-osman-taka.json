@@ -2,7 +2,7 @@
  "slug": "dance-of-osman-taka",
  "name": "Dance of Osman Taka",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:21Z",
+ "built_at": "2026-11-18T21:38:03Z",
  "researched_at": "2026-11-17T18:58:44Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Dance of Osman Taka. 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (mXY3l37Qg2k)",
      "Title card: Dance of Osman Taka · Albania · 19th century"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for The Bridge."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (mXY3l37Qg2k)",
      "Captions name each signature move as it appears"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
@@ -718,7 +718,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "mXY3l37Qg2k",
+   "checked_by_vision_model": true,
+   "title": "Vallja e Osman Takes - The Dance of Osman Taka -  Albanian Folk Dance"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -764,8 +768,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "31 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 31,
+  "source": "41 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 41,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -775,24 +779,25 @@
   ],
   "cues": [
    "1-2-3-4",
-   "step together step",
-   "brush the foot",
-   "arms open close in a circle",
-   "1-2",
-   "3-4",
-   "sa'o'i",
-   "lualua tongi e",
-   "e a'a tongi e",
-   "stomp clap",
-   "chest chest leg leg clap",
-   "pull back and lean to the left"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto",
+   "viene y",
+   "preparacin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "warmup",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice",
    "recap"
@@ -802,7 +807,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the costume & setting section"
@@ -815,6 +819,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "6dc7eeb7c7726085d0c290d9d4bee39ebd6ba6d045a7a9d15ebe8524b81078bc",
- "hero_checked": null
+ "input_fingerprint": "acd4fcf3d8b8b3f418e56c19a133ee519839098d9aad234b6d9640bab96eaf69",
+ "hero_checked": "pass"
 }

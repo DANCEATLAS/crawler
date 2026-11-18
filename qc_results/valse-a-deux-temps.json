@@ -1,0 +1,118 @@
+{
+ "slug": "valse-a-deux-temps",
+ "qc_at": "2026-11-18T21:20:51Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Valse à deux temps"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "208"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1839, the Baron de Nieuken introduced the Valse à deux temps to Paris, where "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "492"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1512"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "primitive"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Valse Russe",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An excellent, well-researched profile. The historical context is clearly supported by the provided evidence, and the technical description of the two-step-over-three-beats rhythm is accurate to the historical source material. The adaptations are physically appropriate and maintain the integrity of the dance's rhythmic structure."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.85"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-18T19:38:11Z"
+}

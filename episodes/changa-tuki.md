@@ -1,8 +1,8 @@
 # Changa tuki — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A veteran barrio dancer from the Máquina Latina era who emphasizes battle resilience, crew pride, and street authenticity.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Caracas Matinée: The Sweat, Bass, and Battles of Changa Tuki
 NARRATION: This is Changa tuki. Late 1990s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (DHJ-6io__8c)
 ON SCREEN: Title card: Changa tuki · Venezuela · Late 1990s to present
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage: File:Bailando con la changa.webm (https://upload.wikimedia.o
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (DHJ-6io__8c)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Dance circles and direct battle face-offs inside club dance floors and afternoon matinées
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -109,7 +109,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -170,7 +170,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -231,7 +231,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -284,7 +284,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers developed a recognizable street aesthetic consisting of tight red pants, sleeveless shirts, caps worn low enough to almost cover their eyes, and Nike shoes styled after Air Jordans. Dancers frequently used hydrogen peroxide to bleach their beards and the tips of their hair. The primary settings were afternoon club matinées, popular barrio discotheques like Iguana in Caracas, and informal residential parrandas.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'DHJ-6io__8c', 'checked_by_vision_model': True, 'title': 'Aprende a bailar changa tuky con Crew Abstractor'}
 Images: 0 licensed
 Footage: File:Bailando con la changa.webm — https://upload.wikimedia.org/wikipedia/commons/8/85/Bailando_con_la_changa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Sonido la changa en banderilla.webm — https://upload.wikimedia.org/wikipedia/commons/5/5f/Sonido_la_changa_en_banderilla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Peroxide-dyed blonde beards and hair tips against dark hair, Low cap brims pulled down over the brow, Air Jordan-style Nike sneakers stepping on a crowded club floor, Tight red trousers moving against glowing club lighting, Sweat dripping under strobes in an afternoon matinée
@@ -294,9 +294,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 29 tutorial(s) of the street-urban family studied · videos studied: 29
+Source: 34 tutorial(s) of the street-urban family studied · videos studied: 34
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: one and two; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
 
 Sources (4): https://en.wikipedia.org/wiki/Raptor_house; https://www.wikidata.org/wiki/Q5071702; https://es.wikipedia.org/wiki/Raptor_house; https://fr.wikipedia.org/wiki/Raptor_house

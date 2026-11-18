@@ -1,6 +1,6 @@
 # Fa’ataupati — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 

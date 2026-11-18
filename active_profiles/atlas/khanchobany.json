@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex technical footwork",
+          "Over-exertion in high heat"
+        ],
+        "counts": "Simple 1-2-3-4 counts",
+        "duration_minutes": "2",
+        "game_version": "A 'follow the leader' game where children must stay in perfect sync with the head dancer."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid pivots",
+          "High-impact jumps",
+          "Fast weight changes"
+        ],
+        "counts": "Standard 4-count rhythm but at 60 BPM.",
+        "seated_version": "Perform the synchronized arm gestures and upper body rhythmic pulses while seated.",
+        "standing_version": "Reduce the speed by half and use a chair for balance during footwork.",
+        "tempo_and_range": "Significantly slower tempo; focus on small, controlled steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed by men in synchronized groups, often at weddings.",
+          "source": "https://en.wikipedia.org/wiki/Khanchobany_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Quick, synchronized steps",
+      "formation_and_space": "Synchronized group moves",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; group synchronization",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The dancers perform identical moves in perfect unison at a high speed.",
+          "name": "Synchronized Group Movement"
+        }
+      ],
+      "tempo_feel": "Very fast and energetic",
+      "what_to_avoid": "Lack of synchronization with the group; falling behind the fast tempo."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fast",
+        "energetic",
+        "tribal",
+        "masculine"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Akif Gurbetov",
+          "title": "Music of the dance Khanchobany"
+        }
+      ],
+      "rhythm_pattern": "Fast national music",
+      "sound_description": "The music is characterized by a rapid, driving tempo typical of Azerbaijani national folk music, designed to support synchronized, high-speed male movement.",
+      "tempo_bpm": "120",
+      "vocal_style": "Instrumental focus"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Maintain a high-energy upright posture",
+        "Execute synchronized footwork in time with the fast national music",
+        "Coordinate arm movements with the group to ensure visual unity"
+      ],
+      "formation": "Group synchronization (often linear or circular, though specific geometry is not detailed)",
+      "level_notes": "Requires high cardiovascular endurance due to the quick pace.",
+      "rhythm": "Fast, driving national rhythm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "eed86bfc5e2d3c64845513755afa8bb6efecd7b41d2343d1e199fde0b0ffabe5",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What is the standard musical meter for Khanchobany? Evidence needed: https://en.wikipedia.org/wiki/Khanchobany_(dance)"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific leg and arm positions used during the 'synchronized moves'? Evidence needed: https://en.wikipedia.org/wiki/Khanchobany_(dance)"
+    ]
+  },
+  "id": "atlas:khanchobany",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Khanchobany",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "4789ab6130af846d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Khanchobany_(dance)",
+      "question": "What are the specific leg and arm positions used during the 'synchronized moves'?",
+      "source": "https://en.wikipedia.org/wiki/Khanchobany_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the dance, the exact geometry of the synchronized movements must be known."
+    },
+    {
+      "domain": "research",
+      "id": "4462b42c61fa3d19",
+      "next_evidence": "https://en.wikipedia.org/wiki/Khanchobany_(dance)",
+      "question": "What is the standard musical meter for Khanchobany?",
+      "source": "https://en.wikipedia.org/wiki/Khanchobany_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'fast national music' but not the time signature, which is essential for rhythmic instruction."
+    }
+  ],
+  "research_file": "research_results/khanchobany.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "khanchobany",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Khanchobany_(dance)",
+    "https://www.wikidata.org/wiki/Q3793330"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,62 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Closed position or open hand-holds",
+      "arms_and_hands": "Closed or open position",
       "difficulty": "beginner",
-      "footwork": "Step on each beat for one-step; slow-slow-quick-quick for Nilkku",
-      "formation_and_space": "Progressing in the direction of dance",
-      "hips_and_torso": "Bouncing motion following the bass",
-      "levels_and_jumps": "Not described in sources",
-      "partnering": "Closed position or open figures",
+      "footwork": "Step on every first beat for one-step; slow-slow-quick-quick for Nilkku",
+      "formation_and_space": "Progressing around the dance floor",
+      "hips_and_torso": "Vertical bounce following the bass",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Closed or open position",
       "posture": "Upright, social dance posture",
       "signature_moves": [
         {
-          "description": "A limping gait based on a slow, slow, quick, quick rhythm.",
-          "name": "Nilkku step"
+          "description": "A slow-slow-quick-quick rhythm where the first quick step takes minimal weight, creating a limping gait.",
+          "name": "Nilkku"
         }
       ],
-      "tempo_feel": "Fast and driving",
+      "tempo_feel": "Bouncing",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
         "Tuba",
-        "Accordion",
-        "Drums"
+        "Singing saw",
+        "Tin-can percussion"
       ],
       "meter": "2/4",
       "mood_keywords": [
-        "Upbeat",
+        "Bouncing",
         "Rhythmic",
-        "Bouncy"
+        "Fast"
       ],
-      "musical_form": "Variant of foxtrot",
-      "reference_recordings": [
-        {
-          "artist": "Humppa-Veikot",
-          "title": "not described in sources"
-        }
-      ],
-      "rhythm_pattern": "Strong bass on the first beat",
-      "sound_description": "A driving, brass-heavy sound with a distinct 'hump-pa' rhythm created by the tuba on the first beat.",
-      "tempo_bpm": "110-130",
+      "musical_form": "2/4 time signature",
+      "reference_recordings": [],
+      "rhythm_pattern": "Strong bass on the first beat (hump), second beat (pa)",
+      "sound_description": "A steady, driving 2/4 beat characterized by a prominent tuba-like bass pulse on the downbeat, creating a bouncing, energetic feel.",
+      "tempo_bpm": "110",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
         "Step on the first beat (hump)",
         "Step on the second beat (pa)",
-        "Maintain a bounce following the bass line"
+        "Maintain a consistent vertical bounce with the bass"
       ],
-      "formation": "Closed position or open figures",
-      "level_notes": "Beginners should focus on the bounce and the timing of the first beat.",
+      "formation": "Closed or open position, moving in the direction of dance",
+      "level_notes": "Beginner: focus on the bounce; Intermediate: Nilkku limping gait",
       "rhythm": "2/4 time"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "d5c4780b8d8360ec174c86363f148fe47280b891231a62eb8721d621a5ace467",
+  "fingerprint": "b16dbad96885c107b940410d9322339e3d94ed8acc9d25ba33d361bc8a8b7c20",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -65,7 +84,8 @@
     ],
     "research": [
       "movement: what_to_avoid",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork counts for the one-step and two-step variants of Humppa? Evidence needed: Instructional video or dance manual."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -92,7 +112,17 @@
   ],
   "music_options": [],
   "name": "Humppa",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "3be16ebe76e31313",
+      "next_evidence": "Instructional video or dance manual.",
+      "question": "What are the specific footwork counts for the one-step and two-step variants of Humppa?",
+      "source": "https://en.wikipedia.org/wiki/Humppa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention these styles but do not provide the step-by-step counts required for instructional content."
+    }
+  ],
   "research_file": "research_results/humppa.json",
   "runtime_active": false,
   "scope": {

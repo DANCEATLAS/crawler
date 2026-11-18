@@ -1,33 +1,32 @@
 # Melinting dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 8.65 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-18 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; signature moves; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
-**Say it:** Melinting dance, Melinting
+**Instructor:** A cultural historian or traditional Lampung dance practitioner.
+**Say it:** Melinting dance, Melinting, Cetik Kipas
 
 ## Episode 1 · Meet Melinting dance · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Royal Dance of Lampung
+NARRATION: The Royal Secret of Lampung
 NARRATION: This is Melinting dance. 16th century.
 ON SCREEN: Hero video, first 10 seconds (FL2dxHKipq8)
 ON SCREEN: Title card: Melinting dance · Indonesia · 16th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The dance originated in the 16th century under Ratu Melinting II.
-NARRATION: It was originally called Cetik Kipas and was exclusively performed by the royal family.
-NARRATION: In 1965, President Sukarno renamed it Melinting and introduced it to a national audience at Istora Senayan.
+NARRATION: The dance originated in the 16th century under Ratu Melinting II in Lampung.
+NARRATION: It was historically a private royal ritual until it was refined in 1958 and renamed from 'Cetik Kipas' to 'Melinting' by President Sukarno in 1965.
 ON SCREEN: Map: Indonesia · Southeast Asia
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The dance is performed at traditional events to welcome guests and express gratitude for happiness.
-NARRATION: It also illustrates the majesty of Ratu Melinting.
+NARRATION: The dance is performed at traditional events to welcome guests.
+NARRATION: It symbolizes gratitude for happiness and the majesty of the Melinting kingdom.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
@@ -35,13 +34,13 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 ON SCREEN: Hero video full screen, 30–45 s (FL2dxHKipq8)
 ON SCREEN: Signature moves — MISSING
-ON SCREEN: Formation: Divided into four rounds: opening, kugowo queen, floating kenui, and closing.
+ON SCREEN: Formation: Eight dancers, four men and four women, moving through four specific rounds.
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music features the Kalo Bala, kendang, gongs, gamelan, and fiddle.
-NARRATION: It is used to accompany dancers into the arena and signal respect for guests.
+NARRATION: The music utilizes traditional Lampung instruments including Kalo Bala, kendang, gongs, gamelan, and fiddle.
+NARRATION: The music serves to accompany the entrance of dancers and signal respect for guests.
 NARRATION: Listen for the Kalo Bala, kendang, gongs, gamelan.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
@@ -50,32 +49,32 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Men wear tapis cloth, belanga shirts, seretei feathers, fans, and gold skullcaps.
-NARRATION: Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, and ruwi bracelets.
-NARRATION: Make-up is essential for setting the atmosphere.
+NARRATION: Men wear tapis cloth, belanga shirts, seretei feathers, gold skullcaps, and fans.
+NARRATION: Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, ruwi bracelets, and fans.
+NARRATION: Make-up is essential to the performance.
 ON SCREEN: Image gallery: 8 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Ratu Melinting II (creator), President Sukarno (renamed the dance).
+NARRATION: Ratu Melinting II (creator) and President Sukarno (who renamed the dance).
+NARRATION: The dance is a relic of the Melinting Kingdom and is associated with the development of Islam in the region.
 ON SCREEN: Names on screen as they are spoken
 MUSIC: underscore
-NEEDS: lineage
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Melinting dance is shares region of Gending Sriwijaya: Both are traditional dances associated with the history of the Indonesian region.
+NARRATION: Melinting dance is shares region of Gending Sriwijaya: Both are traditional dances associated with the history of the region.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: Originally owned by the royal family and restricted to the Queen's family or nobles.
+NARRATION: Historically a private royal ritual of the Queen Melinting family, now performed for guests and public events.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover the 16th-century Melinting dance, a royal tradition transformed by a president's decree.
+NARRATION: Discover the 16th-century royal ritual that transitioned from a private palace dance to a national symbol of Indonesian culture.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -99,7 +98,7 @@ Hero video: {'youtube_id': 'FL2dxHKipq8', 'checked_by_vision_model': True, 'titl
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Tapis cloth patterns, Gold skullcaps, Traditional fans, Gamelan instruments
-Costume notes: Men wear tapis cloth, belanga shirts, seretei feathers, fans, and gold skullcaps. Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, and ruwi bracelets. Make-up is essential for setting the atmosphere.
+Costume notes: Men wear tapis cloth, belanga shirts, seretei feathers, gold skullcaps, and fans. Women wear tapis pepadun, white kebaya, yellow veils, jukum fruit, ruwi bracelets, and fans. Make-up is essential to the performance.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 

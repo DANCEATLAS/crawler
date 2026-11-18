@@ -1,0 +1,858 @@
+{
+ "slug": "acrobatic-rock-n-roll",
+ "name": "Acrobatic Rock'n'Roll",
+ "pack_version": "e2",
+ "built_at": "2026-11-18T21:37:46Z",
+ "researched_at": "2026-11-18T20:37:39Z",
+ "qc_score": 9.1,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced competitive coach with a background in dance sport.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Acrobatic Rock'n'Roll",
+   "acrobatic rock and roll",
+   "rock 'n' roll",
+   "rock and roll",
+   "rock'n'roll"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Acrobatic Rock'n'Roll",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Physics of the Flip",
+     "This is Acrobatic Rock'n'Roll. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Acrobatic Rock'n'Roll · United States (origin), France (modern sport development) · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "This dance evolves from the Lindy Hop of 1920 and the Boogie Woogie of the 1940s.",
+     "As rock music gains popularity by 1955, the style shifts toward competitive acrobatics.",
+     "In the 1970s, French dance schools in Lyon formalize the discipline and create the World Rock'N'Roll Confederation, or WRRC."
+    ],
+    "on_screen": [
+     "Map: United States (origin), France (modern sport development) · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Acrobatic Rock'n'Roll is primarily a competitive sport.",
+     "Dancers compete at local, national, and international championships organized by the WRRC.",
+     "The sport demands precision, athleticism, and the execution of high-difficulty acrobatic elements.",
+     "It remains a living tradition today."
+    ],
+    "on_screen": [
+     "Footage: File:Rock 'N' Roll (1959) Australian Film.webm (https://upload.wikimedia.org/wikipedia/commons/e/e0/Rock_%27N%27_Roll_%281959%29_Australian_Film.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance relies on a 6-basic or 9-basic step structure.",
+     "The 9-basic step is the modern tournament standard, characterized by a 'kick-ball-change' maneuver.",
+     "Dancers move in a linear fashion, maintaining a precise, upright posture while executing kicks into the air.",
+     "Watch for Einsteiger, Körperwelle."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Linear movement, pairs or formation groups."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Dancers move to 4/4 time music, usually modern disco or pop tracks between 176 and 208 bpm.",
+     "The rhythm stresses the first and third beats, unlike traditional rock music.",
+     "Listen for the modern pop and disco instrumentation.",
+     "The pulse is 4/4 at 192 beats a minute.",
+     "This high-tempo, driving beat supports rapid footwork and athletic movement."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Stress on beats 1 and 3"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear custom-made, multicoloured costumes crafted from elastic, durable artificial fibers.",
+     "These are designed to be tight-fitting to prevent snagging during acrobatics.",
+     "Footwear consists of light jazz shoes for dance programs or aerobics sneakers for acrobatic programs to provide grip and shock absorption."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Notable figures include French world champion Miguel Angueira and Katerina Tikhonova.",
+     "Categories include Youth, Juniors, and Main Class, split into Contact Style and Free Style.",
+     "The lineage runs from 1920s Swing and Lindy Hop to 1940s Boogie Woogie, leading to Acrobatic Rock'n'Roll in 1955."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Acrobatic Rock'n'Roll descends from the Lindy Hop, the foundational swing dance that first introduced acrobatic elements.",
+     "It also descends from Boogie Woogie, a faster swing adaptation that bridges the gap to rock music."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Try one step: the kick-ball-change.",
+     "Follow with a left kick-step.",
+     "Count 1-2-3-4, then 5-6-7-8 for two bars.",
+     "Chapter 1 begins here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the high-octane world of Acrobatic Rock'n'Roll, where dance meets extreme gymnastics.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the 6-basic step",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 covers first steps, focusing on the 6-basic step.",
+      "This is a beginner-level lesson in an advanced dance.",
+      "Your instructor is an experienced competitive coach."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Maintain an upright, precise, and athletic posture.",
+      "Keep the body active for balance and partner connection.",
+      "Use controlled body waves to initiate lifts."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Stress on beats 1 and 3.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 134 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is the kick-ball-change.",
+      "Step 2 is the left kick-step.",
+      "Follow the source footwork: kick-ball-change and left/right kick-steps.",
+      "Drill the kick-ball-change rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3 is the right kick-step.",
+      "Practice your weight transfer."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic kick technique"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not attempt acrobatics without proper safety training or in unauthorized classes."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in 1-2-3-4, then 5-6-7-8.",
+      "Perform the full sequence twice at tempo."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 192 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the 6-basic step.",
+      "Acrobatic Rock'n'Roll is primarily a competitive sport.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Introduction to partner connection",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 introduces partner connection.",
+      "This is an intermediate lesson in an advanced dance.",
+      "Your instructor is an experienced competitive coach."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Maintain an upright, precise, and athletic posture.",
+      "Keep the body active for balance and partner connection.",
+      "Use controlled body waves to initiate lifts."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Stress on beats 1 and 3.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 134 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is the kick-ball-change.",
+      "Step 2 is the left kick-step.",
+      "Drill leading and following basic turns."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3 is the right kick-step.",
+      "The Einsteiger is a vault where the male forms a step for the female to jump.",
+      "The Körperwelle is a body wave used to lift the partner.",
+      "Drill synchronized footwork."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintaining tempo"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not attempt acrobatics without proper safety training or in unauthorized classes."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in 1-2-3-4, then 5-6-7-8.",
+      "Perform the full sequence twice at tempo in linear pairs or groups."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 192 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You have learned partner connection.",
+      "Notable figures include Miguel Angueira and Katerina Tikhonova.",
+      "Next is Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Safe acrobatic entry",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 covers safe acrobatic entry.",
+      "This is an advanced lesson in an advanced dance.",
+      "Your instructor is an experienced competitive coach."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Maintain an upright, precise, and athletic posture.",
+      "Keep the body active for balance and partner connection.",
+      "Use controlled body waves to initiate lifts."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Stress on beats 1 and 3.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 134 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is the left kick-step.",
+      "Step 2 is the right kick-step.",
+      "Drill body wave mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Einsteiger is a vault where the male forms a step for the female to jump.",
+      "The Körperwelle is a body wave used to lift the partner.",
+      "Drill spotting techniques."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Controlled lifts"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not attempt acrobatics without proper safety training or in unauthorized classes."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in 1-2-3-4, then 5-6-7-8.",
+      "Perform the full sequence twice at tempo in linear pairs or groups."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 192 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You have learned safe acrobatic entry.",
+      "The lineage runs from 1920s Swing and Lindy Hop to 1940s Boogie Woogie, leading to Acrobatic Rock'n'Roll in 1955.",
+      "You know the dance; go and dance it."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 192,
+  "meter": "4/4",
+  "rhythm_pattern": "Stress on beats 1 and 3",
+  "instruments": [
+   "Modern pop/disco instrumentation"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "fast",
+   "energetic",
+   "athletic"
+  ],
+  "sound_description": "High-tempo, driving beat with a clear, consistent pulse designed to support rapid footwork and athletic movement.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Acrobatic Rock'n'Roll (United States (origin), France (modern sport development)). Meter 4/4. Tempo about 192 bpm. Rhythm pattern: Stress on beats 1 and 3. Instruments: Modern pop/disco instrumentation. Mood: fast, energetic, athletic. It should sound like this: High-tempo, driving beat with a clear, consistent pulse designed to support rapid footwork and athletic movement. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 134
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 192
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear custom-made, multicoloured costumes crafted from elastic, durable artificial fibers. These are designed to be tight-fitting to prevent snagging during acrobatics. Footwear consists of light jazz shoes for dance programs or aerobics sneakers for acrobatic programs to provide grip and shock absorption.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ARocknroll-dancing-somersault-worldgames2005.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ARocknroll-dancing-swan.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Rocknroll-dancing-somersault-worldgames2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/92/Rocknroll-dancing-somersault-worldgames2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Sebastian Leske / Wikimedia Commons / CC BY 2.5",
+    "license": "CC BY 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARocknroll-dancing-somersault-worldgames2005.jpg",
+    "description": "Photo of Rock'n'Roll dancing. Daniela Bechtold and Bernd Diel dancing the double somersault \nat the World Games 2005 in Oberhausen, Germany. Taken during the first day of the RR competition in the\n\nKönig-Pilsener-Arena in Oberhausen."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rocknroll-dancing-swan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rocknroll-dancing-swan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Sebastian Leske / Wikimedia Commons / CC BY 2.5",
+    "license": "CC BY 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARocknroll-dancing-swan.jpg",
+    "description": "Photo of Rock'n'Roll dancing. The \"Swan\", a popular acrobatic in the lower classes."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Rock 'N' Roll (1959) Australian Film.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rock_%27N%27_Roll_%281959%29_Australian_Film.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Lee Robinson / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Independent Championship Wrestling Rock N Roll Rebel with the Punishers ICW 1998.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Independent_Championship_Wrestling_Rock_N_Roll_Rebel_with_the_Punishers_ICW_1998.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Mdhjr0717 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Taylor Hawkins Tribute Concert 2022 09 03 Wembley Stadium, London [ 1080p]",
+    "url": "https://archive.org/details/taylor-hawkins-tribute-concert-2022-09-03-wembley-stadium-london-1080p",
+    "year": 2022,
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Getvid Gggg 1",
+    "url": "https://archive.org/details/20220320_20220320_1734",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "MTV: 3 Hours with VJ Martha Quinn (July 16th, 1983)",
+    "url": "https://archive.org/details/1983.07.16_MTV_3_Hours_with_VJ_Martha_Quinn_Sunday_July_16th_1983",
+    "year": 1987,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Taylor Hawkins Tribute Concert - September 3 2022 London",
+    "url": "https://archive.org/details/aylorHawkinsTributeConcertSeptember2022London",
+    "year": 2022,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Brightly colored elastic costumes",
+   "Fast-motion footwork close-ups",
+   "Slow-motion acrobatic lifts"
+  ],
+  "costume_notes": "Dancers wear custom-made, multicoloured costumes crafted from elastic, durable artificial fibers. These are designed to be tight-fitting to prevent snagging during acrobatics. Footwear consists of light jazz shoes for dance programs or aerobics sneakers for acrobatic programs to provide grip and shock absorption.",
+  "setting_notes": "Acrobatic Rock'n'Roll is primarily a competitive sport. It is performed at local, national, and international championships organized by the WRRC. The focus is on precision, athleticism, and the successful execution of high-difficulty acrobatic elements.",
+  "map": {
+   "country": "United States (origin), France (modern sport development)",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "34 tutorial(s) of the street-urban family studied",
+  "videos_studied": 34,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 3"
+  ],
+  "cues": [
+   "one and two",
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "layering",
+   "slow_practice",
+   "recap",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rock_and_Roll_(dance)",
+  "https://www.wikidata.org/wiki/Q556496",
+  "https://es.wikipedia.org/wiki/Rock_and_roll_(baile)",
+  "https://fr.wikipedia.org/wiki/Rock_acrobatique",
+  "https://de.wikipedia.org/wiki/Rock_’n’_Roll_(Tanz)",
+  "https://it.wikipedia.org/wiki/Rock_and_roll_acrobatico"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": true,
+ "input_fingerprint": "609cb858c2765e3116a4e90cb36d85bd4ecaec82597977a60ea7c24b5bc22343",
+ "hero_checked": null,
+ "polish_kept_scenes": 26
+}

@@ -1,8 +1,8 @@
 # Dashing White Sergeant — episode pack
 
-*Status: draft · built 2026-11-17 · judge 8.9 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 8.9 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic ceilidh caller with a clear, rhythmic voice.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In 1826, Sir Henry Rowley Bishop set lyrics by General John Burgoyne to music, creating a tune so infectious it became the regimental march of the Royal Berkshire Regiment and a staple at West Point.
 NARRATION: This is Dashing White Sergeant. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Wm_5l_bs-6Y)
 ON SCREEN: Title card: Dashing White Sergeant · Scotland · 19th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers form a circle of six, usually three men and three women alter
 NARRATION: They circle anti-clockwise for eight counts, then clockwise for eight.
 NARRATION: The circle splits into two sets of three.
 NARRATION: Watch for The Arch, The Stamp and Clap.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Wm_5l_bs-6Y)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Starts as a circle of six, transitions to two lines of three facing each other, moves linearly through the room.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Usually performed in social halls or ballrooms with wooden floors. Dancers often wear traditional Scottish dress, such as kilts for men and white dresses with tartan sashes for women, though it is also performed in casual attire at modern ceilidhs.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Wm_5l_bs-6Y', 'checked_by_vision_model': True, 'title': 'The Dashing White Sergeant - learn the steps with Robbie Shepherd'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Kilt fabric in motion, Interlocking hands, The 'archway' of arms, Dust rising from wooden floors
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 31 tutorial(s) of the folk-circle family studied · videos studied: 31
+Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; step together step; brush the foot; arms open close in a circle; 1-2; 3-4; sa'o'i; lualua tongi e; e a'a tongi e; stomp clap; chest chest leg leg clap; pull back and lean to the left
+Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
 
 Sources (2): https://en.wikipedia.org/wiki/Dashing_White_Sergeant; https://www.wikidata.org/wiki/Q5226627
