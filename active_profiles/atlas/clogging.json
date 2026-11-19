@@ -1,56 +1,86 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex shuffle combinations",
+          "prolonged high-impact jumping"
+        ],
+        "counts": "Simple 4-count heel strikes.",
+        "duration_minutes": "15",
+        "game_version": "A rhythm-matching game where children mimic the caller's foot taps to a fiddle tune."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "fast leaping",
+          "high-impact floor stomping",
+          "unsupported balance movements"
+        ],
+        "counts": "Count a steady 4/4 or 2/4 downbeat with slow heel drops.",
+        "seated_version": "Perform heel taps and toe drops while seated upright in a sturdy chair.",
+        "standing_version": "Practice basic foot strikes while holding onto a stable ballet barre or chair for balance.",
+        "tempo_and_range": "Reduced tempo with minimized jumping or heavy floor impact."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Not described in sources",
-      "difficulty": "beginner",
-      "footwork": "Heel and toe strikes against the floor.",
-      "formation_and_space": "Solo or team square dance formations.",
-      "hips_and_torso": "Not described in sources",
-      "levels_and_jumps": "Not described in sources",
-      "partnering": "Not described in sources",
-      "posture": "Relatively still upper body.",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Striking the heel, the toe, or both against a floor or each other to create audible rhythms",
+      "formation_and_space": "Square dance teams and competitive line formations",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Relatively still upper body with minimal arm movement",
       "signature_moves": [
         {
-          "description": "A forward and backward brush of the foot.",
-          "name": "Shuffle"
+          "description": "Popular style utilizing shuffle steps favored by bluegrass dancers",
+          "name": "shuffle clogging"
+        },
+        {
+          "description": "Style emphasizing floor stamps popular in old-time music",
+          "name": "stomp clogging"
         }
       ],
-      "tempo_feel": "Fast, rhythmic.",
-      "what_to_avoid": "Excessive upper body movement."
+      "tempo_feel": "Fast footwork",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Fiddle",
-        "Banjo"
+        "fiddle",
+        "banjo"
       ],
-      "meter": "2/4 or 4/4",
+      "meter": "not described in sources",
       "mood_keywords": [
-        "energetic",
-        "rhythmic",
-        "exhilarating"
+        "exhilarating",
+        "lively"
       ],
-      "musical_form": "Old-time or bluegrass fiddle tunes",
+      "musical_form": "Old-time and bluegrass fiddle and banjo tunes",
       "reference_recordings": [],
-      "rhythm_pattern": "Downbeat emphasis",
-      "sound_description": "Fast-paced fiddle and banjo melodies providing a steady, driving rhythm for percussive footwork.",
+      "rhythm_pattern": "Accents placed on the downbeat or offbeat",
+      "sound_description": "Old-time and bluegrass tunes driven by Anglo-Celtic fiddle melodies and Affrilachian banjo playing, underscored by the continuous percussive clatter of footwear hitting a wooden floor.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Shuffle: A quick forward and backward brush of the foot.",
-        "Heel strike: Striking the heel against the floor on the downbeat.",
-        "Toe strike: Striking the toe against the floor."
+        "Strike the heel against the floor on the downbeat",
+        "Execute shuffle movements with the feet",
+        "Perform stomp steps to match musical rhythms"
       ],
-      "formation": "Solo or team square dance formation.",
-      "level_notes": "Beginners should focus on keeping the upper body still while maintaining a consistent rhythm with the heels.",
-      "rhythm": "Downbeat focus."
+      "formation": "Square dance teams or individual/team line formations",
+      "level_notes": "not described in sources",
+      "rhythm": "Downbeat or offbeat syncopation with the heel keeping the rhythm"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "3afa567ba88dce9c7998717fbcd0c7df385e276fc3389adb51df4b6474935208",
+  "fingerprint": "10a3ef9cc07e80dc236665c1d55273ca3b5a02fb8b6cfa791206d4ca0278697c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -58,7 +88,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the exact BPM ranges used in traditional old-time versus modern bluegrass clogging tunes? Evidence needed: Field recordings and musicological analyses of Appalachian dance archives."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -74,7 +107,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How are specific footwork weight distributions captured across shuffle and stomp clogging styles in visual references? Evidence needed: Frame-by-frame analysis of registered traditional clogging footage."
     ]
   },
   "id": "atlas:clogging",
@@ -85,7 +119,26 @@
   ],
   "music_options": [],
   "name": "Clogging",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4e01407656b2dd6a",
+      "next_evidence": "Field recordings and musicological analyses of Appalachian dance archives.",
+      "question": "What are the exact BPM ranges used in traditional old-time versus modern bluegrass clogging tunes?",
+      "source": "https://en.wikipedia.org/wiki/Clogging",
+      "status": "candidate_unreviewed",
+      "why_needed": "Precise tempo metrics are absent from current sources but necessary for algorithmic music synchronization."
+    },
+    {
+      "domain": "video",
+      "id": "1c443762140f7a76",
+      "next_evidence": "Frame-by-frame analysis of registered traditional clogging footage.",
+      "question": "How are specific footwork weight distributions captured across shuffle and stomp clogging styles in visual references?",
+      "source": "https://fr.wikipedia.org/wiki/Clogging",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profiles lack fine-grained weight-shift counts for interactive learning units."
+    }
+  ],
   "research_file": "research_results/clogging.json",
   "runtime_active": false,
   "scope": {

@@ -1,6 +1,6 @@
 # Electric Slide — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; signature moves; the costume & setting section; lineage; two or more connections; teaching steps written out
 
@@ -100,7 +100,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: right-behind-right-touch · repetitions: 3
@@ -162,7 +162,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: right-behind-right-touch · repetitions: 3
@@ -225,7 +225,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: right-behind-right-touch · repetitions: 3
@@ -289,10 +289,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: right-behind-right-touch
-Demonstration: views used by most teachers: back; tempo progression: slow → full
-Cues: right behind right touch; left behind left touch; back together back touch; step and turn
+Demonstration: views used by most teachers: back, front, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: right behind right touch; left behind left touch; back together back touch; step and turn; four steps to the right; take four steps back; step touch; step and kick
 Common mistakes the studied teachers name: struggling with the turn when facing a different wall
 
 Sources (2): https://en.wikipedia.org/wiki/Electric_Slide; https://www.wikidata.org/wiki/Q5357499

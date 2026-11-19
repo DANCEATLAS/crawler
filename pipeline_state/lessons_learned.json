@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-18T18:10:19Z",
- "qc_records_considered": 741,
+ "updated_at": "2026-11-19T18:22:45Z",
+ "qc_records_considered": 784,
  "gate_failures": [
   [
    "sections_filled",
-   159
+   173
   ],
   [
    "citations",
@@ -12,31 +12,31 @@
   ],
   [
    "country",
-   78
+   81
   ],
   [
    "insight_concrete",
-   74
+   78
   ],
   [
    "sacred_handled",
-   73
+   72
+  ],
+  [
+   "profile_long_len",
+   67
   ],
   [
    "banned_phrasing",
    67
   ],
   [
-   "profile_long_len",
-   62
-  ],
-  [
    "not_duplicate",
-   30
+   33
   ],
   [
    "sources",
-   20
+   22
   ],
   [
    "region",
@@ -46,15 +46,15 @@
  "reasons": [
   [
    "sacred",
-   302
+   315
   ],
   [
    "sections_filled",
-   159
+   173
   ],
   [
    "not_a_dance",
-   149
+   164
   ],
   [
    "citations",
@@ -62,33 +62,33 @@
   ],
   [
    "country",
-   78
+   81
   ],
   [
    "insight_concrete",
-   74
+   78
   ],
   [
    "sacred_handled",
-   73
+   72
+  ],
+  [
+   "profile_long_len",
+   67
   ],
   [
    "banned_phrasing",
    67
   ],
   [
-   "profile_long_len",
-   62
-  ],
-  [
    "doubts=1",
-   56
+   55
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'unsupported'",
-   34
+   32
   ],
   [
    "judge notes mention 'missing'",
@@ -130,89 +130,89 @@
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   369
+   388
   ],
   [
    "a verified recording to listen to",
-   351
+   371
   ],
   [
    "licensed images (3 needed)",
-   287
+   303
   ],
   [
    "meter",
-   275
+   287
   ],
   [
    "licensed reference footage",
-   230
+   241
   ],
   [
    "two or more connections",
-   210
+   226
   ],
   [
    "what to avoid / common mistakes",
-   168
+   170
   ],
   [
    "instruments",
-   130
+   135
   ],
   [
    "signature moves",
-   117
+   126
   ],
   [
    "the how-it-is-danced section",
-   114
+   118
   ],
   [
    "notable figures",
-   107
+   115
   ],
   [
    "the costume & setting section",
-   105
+   109
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (159 pages in 30 days)",
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (173 pages in 30 days)",
   "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (92 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (74 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (73 pages in 30 days)",
-  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (67 pages in 30 days)"
+  "the insight line was vague — put a person, a place, a year or a number in it (78 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (72 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (67 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 369,
+   "pages": 388,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 351,
+   "pages": 371,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 287,
+   "pages": 303,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "meter",
-   "pages": 275,
+   "pages": 287,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 230,
+   "pages": 241,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "two or more connections",
-   "pages": 210,
+   "pages": 226,
    "what_helps": "sources that relate the dance to its relatives"
   }
  ]

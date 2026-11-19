@@ -1,13 +1,62 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Men hold shepherd's crooks entwined with leaves and flowers.",
+      "difficulty": "intermediate",
+      "footwork": "Ten basic steps divided into four parts.",
+      "formation_and_space": "Line formation with men leading and women following.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright, with the hand holding the crook bent at the elbow.",
+      "signature_moves": [
+        {
+          "description": "Men lead the line carrying decorated shepherd's crooks.",
+          "name": "Crook procession"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "voice"
+      ],
+      "meter": "7/8 and 2/4",
+      "mood_keywords": [
+        "commemorative",
+        "processional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music consists solely of vocal song, alternating between 7/8 and 2/4 time signatures.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "song"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a line with men leading and women following.",
+        "Hold the shepherd's crook with the hand bent at the elbow.",
+        "Execute the ten-step sequence divided into four parts."
+      ],
+      "formation": "Line formation",
+      "level_notes": "Requires coordination of the ten-step sequence and the handling of the shepherd's crook.",
+      "rhythm": "7/8 and 2/4"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "24e6ed217b4a42e506b5caade25abdcfb18d62281e9738c04b7307467c2d1055",
+  "fingerprint": "60083ee66e4ecbf375674c6ba9dac951d20e2e6115fac39ad3d697e8d9753de2",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +64,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns for the ten steps mentioned? Evidence needed: Instructional manuals or video documentation from the Nestani community."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +94,18 @@
   ],
   "music_options": [],
   "name": "Ai Georgis",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "163c50abfc86efc7",
+      "next_evidence": "Instructional manuals or video documentation from the Nestani community.",
+      "question": "What are the specific footwork patterns for the ten steps mentioned?",
+      "source": "https://en.wikipedia.org/wiki/Ai_Georgis",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instruction for the dance."
+    }
+  ],
+  "research_file": "research_results/ai-georgis.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +117,8 @@
   "slug": "ai-georgis",
   "sources": [
     "https://en.wikipedia.org/wiki/Ai_Georgis",
-    "Source: Ai Georgis on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ai_Georgis"
+    "https://www.wikidata.org/wiki/Q4696477"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

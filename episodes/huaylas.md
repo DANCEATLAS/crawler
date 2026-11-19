@@ -1,6 +1,6 @@
 # Huaylas (Huaylarsh) — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; notable figures; two or more connections; teaching steps written out
 
@@ -307,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16
-Demonstration: views used by most teachers: front; tempo progression: slow → full
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
 Cues: levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 Common mistakes the studied teachers name: not lifting heels high enough; not using the whole foot for the step
 

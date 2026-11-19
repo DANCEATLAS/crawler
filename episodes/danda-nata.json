@@ -1,0 +1,381 @@
+{
+ "slug": "danda-nata",
+ "name": "danda nata",
+ "pack_version": "e2",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T18:24:04Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An elder Dandua practitioner from Ganjam who balances deep ritual reverence with precise theatrical mastery.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "danda nata",
+   "Danda Naata",
+   "Danda Jatra",
+   "Danda Yatra"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet danda nata",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Fire and Faith of the Danduas",
+     "This is danda nata. Ancient origin to present day."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: danda nata · India · Ancient origin to present day"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Danda Nata traces its heritage to the ancient Kalinga Empire, remaining active in its historic capital region around Samapa (modern Jaugada) in the Ganjam district of Odisha.",
+     "Folk tradition links the word danda to a mythic episode where Lord Shiva taught his son Ganesh the Tandava Nritya; Shiva kicked the stage producing a 'Dan' sound, after which a brass piece detached from his ankle chain, struck a mardala drum with a 'Da' timbre, combining into 'Danda'."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Held over 13, 18, or 21 days during the months of March, April, and May, Danda Nata culminates around Chaitra Sankranti or Meru Parba.",
+     "The primary spiritual dedication is directed toward Lord Shiva, alongside Goddess Kali and other deities such as Durga, Ganesh, and Krishna.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The festival is danced exclusively by male performers who undertake ascetic vows.",
+     "The dance suite begins with the Parva dance performed by the Prabhakar and Prabhakariani.",
+     "Dancers drape a piece of cloth across the shoulders, grasping the ends in both hands and extending the cloth rhythmically forward, backward, right, and left in step with the beat.",
+     "Watch for Parva Vastra Chalana."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Duet staging in open village spaces, facing each other for dramatic dialogues or circling within community arenas."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for Danda Nata is provided by traditional Ghasi instrumentalists utilizing the dhol (two-headed drum) and the mahuri (double-reed wind instrument).",
+     "The melodic repertoire blends regional folk idioms with classical Odissi stylistic modes.",
+     "Listen for the Dhol, Mahuri, Mardala.",
+     "The sonic signature is driven by the sharp, percussive strokes of the dhol drum accompanying the shrill, nasal melodic phrases of the mahuri wind pipe, intercut with expressive folk-Odissi singing."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performances take place in village clearings and temple courtyards during the warm months of Chaitra and Vaishakha.",
+     "Costuming is vivid and character-specific.",
+     "In the opening Parva dance, the male Prabhakar wears a multicolored skirt and jacket, carrying an ornamental semi-circular frame made of bamboo sticks wrapped in decorated fabric with ornamental borders affixed to his back."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Historical documentation highlights its royal patronage under the ancient Kalinga emperors who celebrated the Chaitra festival for their Ista devi, Tara Tarini.",
+     "Modern scholarly accounts draw significantly from the regional studies of researcher Ram Prasad Tripathy regarding its preservation around historic Jaugada.",
+     "The primary historic cradle of Danda Nata lies in South Odisha, especially within Ganjam District.",
+     "Danda Nata originated from tribal folk dances of ancient Odisha and underwent historical integration with the state's classical and theatrical traditions, notably drawing substantial aesthetic influence from popular Yatra folk theatre and Pala narrative performances."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "danda nata is influence of Yatra: Substantially influenced the theatrical staging, dialogue structure, and character presentation of Danda Nata.",
+     "danda nata is influence of Pala: Influenced the narrative storytelling and song performance conventions of Odishan folk drama.",
+     "danda nata is variant of Odissi: Shares regional musical and expressive melodic idioms woven into folk performance songs."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Danda Nata involves severe penitential vows, physical austerities, fasting, and ritual devotion honoring Lord Shiva and Goddess Kali. Participation as a Dandua is strictly restricted to initiating males during the sacred 13- to 21-day observance."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the searing heat of Chaitra, male devotees across Odisha undergo extreme physical vows before transforming into mythic characters for night-long street performances.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Dhol",
+   "Mahuri",
+   "Mardala"
+  ],
+  "vocal_style": "Dramatic, devotional, dialogic question-and-answer, blending folk singing with Odissi vocal stylings.",
+  "musical_form": "Sequential character vignettes and leela narratives featuring alternating question-and-answer dialogue songs.",
+  "mood": [
+   "penitential",
+   "devotional",
+   "theatrical",
+   "celebratory",
+   "austere"
+  ],
+  "sound_description": "The sonic signature is driven by the sharp, percussive strokes of the dhol drum accompanying the shrill, nasal melodic phrases of the mahuri wind pipe, intercut with expressive folk-Odissi singing.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of danda nata (India). Instruments: Dhol, Mahuri, Mardala. Vocal style: Dramatic, devotional, dialogic question-and-answer, blending folk singing with Odissi vocal stylings.. Form: Sequential character vignettes and leela narratives featuring alternating question-and-answer dialogue songs.. Mood: penitential, devotional, theatrical, celebratory, austere. It should sound like this: The sonic signature is driven by the sharp, percussive strokes of the dhol drum accompanying the shrill, nasal melodic phrases of the mahuri wind pipe, intercut with expressive folk-Odissi singing. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performances take place in village clearings and temple courtyards during the warm months of Chaitra and Vaishakha. Costuming is vivid and character-specific. In the opening Parva dance, the male Prabhakar wears a multicolored skirt and jacket, carrying an ornamental semi-circular frame made of bamboo sticks wrapped in decorated fabric with ornamental borders affixed to his back. The Prabhakariani—danced by a male artist portraying a female figure—wears a traditional sari with a kanchala blouse and holds a colored handkerchief. Subsequent characters, such as the Fakir, Savara hunter, and Chadeya bird-catcher, assume distinctive folk attire matching their social and mythological roles.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADanda_Nacha.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AAnother_picture_of_Danda_nritya.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Danda_Nacha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Danda_Nacha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Goutama / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADanda_Nacha.jpg",
+    "description": "Danda Nacha- The famous Devi Kali Pooja of Orissa. Kamanika (the worshiper whose wise got fulfilled by goddess) do danda nacha under afternoon burning hot sun and won’t even drink water in day except once in night."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Another_picture_of_Danda_nritya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Another_picture_of_Danda_nritya.jpg/1280px-Another_picture_of_Danda_nritya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Arpitamaheswarisingh / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAnother_picture_of_Danda_nritya.jpg",
+    "description": "Danda Jatra is one of the most important traditional dance festivals organized in different parts of South Odisha The Danda Nata festival is being held in the month of Chaitra of every year. Danda begins on an auspicious day before the Chaitra Sankranti or Meru Parba with traditional worship and fasting. The total number of days for the festival is 13, 18 or 21 daysOnly male persons take part in t"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Sun-baked red earth of rural Odisha in the month of Chaitra",
+   "Intricately decorated semicircular bamboo frames strapped to performers' backs",
+   "Hands gripping the colored ritual cloth dancing in unison",
+   "The double-reed mahuri catching the glow of performance torches"
+  ],
+  "costume_notes": "Performances take place in village clearings and temple courtyards during the warm months of Chaitra and Vaishakha. Costuming is vivid and character-specific. In the opening Parva dance, the male Prabhakar wears a multicolored skirt and jacket, carrying an ornamental semi-circular frame made of bamboo sticks wrapped in decorated fabric with ornamental borders affixed to his back. The Prabhakariani—danced by a male artist portraying a female figure—wears a traditional sari with a kanchala blouse and holds a colored handkerchief. Subsequent characters, such as the Fakir, Savara hunter, and Chadeya bird-catcher, assume distinctive folk attire matching their social and mythological roles.",
+  "setting_notes": "Held over 13, 18, or 21 days during the months of March, April, and May, Danda Nata culminates around Chaitra Sankranti or Meru Parba. The primary spiritual dedication is directed toward Lord Shiva, alongside Goddess Kali and other deities such as Durga, Ganesh, and Krishna. The festival's physical hardships—including strict fasting on a single daily meal of rice and dal, celibacy, self-inflicted physical wounds, and endurance under harsh heat—are rooted in the philosophical quest for self-mastery over body (kaya), mind (mana), and speech (vakya). The term 'danda' carries the dual meanings of staff or club and religious penance or chastisement.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "6 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 6,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "loosen those hips",
+   "connect with the earth",
+   "knees have to be bent",
+   "arms and your hands are free",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Danda_Nata",
+  "https://www.wikidata.org/wiki/Q5215641"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "b504fa251705debf07935e658f496a6c3d8a19e95dd8bb15c3b11a0a0029213d",
+ "hero_checked": null
+}

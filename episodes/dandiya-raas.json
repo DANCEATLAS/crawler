@@ -2,7 +2,7 @@
  "slug": "dandiya-raas",
  "name": "Dandiya Raas",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-18T20:04:07Z",
  "qc_score": 9.1,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Dandiya Raas. Historical to modern."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (8QY4uQseyKw)",
      "Title card: Dandiya Raas · India · Historical to modern"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for stick-clashing."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (8QY4uQseyKw)",
      "Captions name each signature move as it appears",
      "Formation: two lines, partners facing each other, moving clockwise"
     ],
@@ -260,7 +260,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "8QY4uQseyKw",
+   "checked_by_vision_model": false,
+   "title": "DANDIYA RAAS || GROUP DANCE PERFORMANCE | DHOLIDA DHOL RE VAGAD | AMBA AAVO TO RAMIYE"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -389,8 +393,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "41 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 41,
+  "source": "49 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 49,
   "counting": "count the 8-beat bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -400,6 +404,8 @@
   ],
   "cues": [
    "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
    "5-6-7-8",
    "1-2-left",
    "2-2-right",
@@ -408,9 +414,7 @@
    "levanto los talones hasta atrs",
    "doble golpe con mi pie",
    "pisada con toda la planta del pie",
-   "sin elevarme tanto",
-   "viene y",
-   "preparacin"
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -428,7 +432,7 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "two or more connections"
  ],
  "sources": [
@@ -438,6 +442,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "e88d8e90bb179b600b10ffb51d55393167a33da3baa2f68cf2d94e8b91b3c9b7",
- "hero_checked": null
+ "input_fingerprint": "eae565506062227bd92d5b5c3781b602ad924ba21f7bb4cb3d5b9d92b45b1aea",
+ "hero_checked": "fail"
 }

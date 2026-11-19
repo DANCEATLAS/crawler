@@ -1,8 +1,8 @@
 # Jacking — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a hero video; licensed images (3 needed); the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A house dance historian or experienced club dancer.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In 1980s Chicago, jacking transformed the dance floor into a site of ecstatic surrender, where dancers moved with an intensity described as being in bed while standing up.
 NARRATION: This is Jacking. 1980s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (TNwsQgRsr3o)
 ON SCREEN: Title card: Jacking · United States · 1980s
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance is a freestyle movement where the dancer ripples their torso back and forth in an undulating motion, moving the body up and down.
 NARRATION: Watch for The Jack.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (TNwsQgRsr3o)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -103,7 +103,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Undulate the torso back and forth in a rhythmic motion
 NARRATION: Step 2: Move the body up and down in time with the beat
 NARRATION: Drill: Isolate the chest and ribcage
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -167,7 +167,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Undulate the torso back and forth in a rhythmic motion
 NARRATION: Step 2: Move the body up and down in time with the beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -230,7 +230,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Undulate the torso back and forth in a rhythmic motion
 NARRATION: Step 2: Move the body up and down in time with the beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -283,7 +283,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'TNwsQgRsr3o', 'checked_by_vision_model': True, 'title': 'House Dance Tutorial - Jacking Style'}
 Images: 0 licensed
 Footage: Latin One House Dance Freestyle Mix # 170 — https://archive.org/details/latin-one-house-dance-freestyle-mix-170_202511; Latin One House Freestyle & Dance Mix # 116 — https://archive.org/details/latin-one-house-freestyle-dance-mix-116_202301; BELGIUM Phase III DAY 4: it happen that your brain is sometimes faster than you — https://archive.org/details/d-3-day-4; The Jack Benny Program - first episode - 1950-10-28 - Dinah Shore — https://archive.org/details/19501028TheJackBennyProgramDinahShore
 Motifs: Dark, crowded nightclub lighting, Close-ups of torso movement, Vintage Chicago club footage
@@ -293,9 +293,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 34 tutorial(s) of the street-urban family studied · videos studied: 34
+Source: 39 tutorial(s) of the street-urban family studied · videos studied: 39
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: one and two; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back
 
 Sources (5): https://en.wikipedia.org/wiki/Jacking_(dance); https://www.wikidata.org/wiki/Q6116746; https://fr.wikipedia.org/wiki/Jacking_(danse); https://pt.wikipedia.org/wiki/Jacking; https://archive.org/details/GAT_1949011801

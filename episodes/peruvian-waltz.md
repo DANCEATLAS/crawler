@@ -1,8 +1,8 @@
 # Peruvian waltz — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A musicologist or cultural historian specializing in Peruvian criollo music.
@@ -96,7 +96,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-3 / un-dos-tres. The meter is 3/4.
 NARRATION: Rhythm pattern: Triple meter, sometimes compound duple.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -105,16 +105,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3 / un-dos-tres · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3 / un-dos-tres · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -126,12 +126,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: moving too much or balancing outside the spot instead of keeping everything in place
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-3 / un-dos-tres.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,7 +160,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-3 / un-dos-tres. The meter is 3/4.
 NARRATION: Rhythm pattern: Triple meter, sometimes compound duple.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -169,16 +169,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3 / un-dos-tres · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3 / un-dos-tres · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -190,12 +190,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: moving too much or balancing outside the spot instead of keeping everything in place
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-3 / un-dos-tres.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -224,7 +224,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-3 / un-dos-tres. The meter is 3/4.
 NARRATION: Rhythm pattern: Triple meter, sometimes compound duple.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -233,16 +233,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3 / un-dos-tres · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3 / un-dos-tres · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -254,12 +254,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: moving too much or balancing outside the spot instead of keeping everything in place
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-3 / un-dos-tres.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -298,9 +298,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
-Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3 / un-dos-tres
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full
+Cues: todo en el sitio; un dos tres
+Common mistakes the studied teachers name: moving too much or balancing outside the spot instead of keeping everything in place
 
 Sources (5): https://en.wikipedia.org/wiki/Peruvian_waltz; https://www.wikidata.org/wiki/Q2509521; https://es.wikipedia.org/wiki/Vals_peruano; https://fr.wikipedia.org/wiki/Valse_péruvienne; https://pt.wikipedia.org/wiki/Valsa_peruana

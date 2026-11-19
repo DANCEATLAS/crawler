@@ -2,7 +2,7 @@
  "slug": "electric-slide",
  "name": "Electric Slide",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-17T19:20:33Z",
  "qc_score": 8.7,
  "status": "draft",
@@ -267,7 +267,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -408,7 +408,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -550,7 +550,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -769,19 +769,24 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "right-behind-right-touch",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: back",
-   "tempo progression: slow → full"
+   "views used by most teachers: back, front, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
    "right behind right touch",
    "left behind left touch",
    "back together back touch",
-   "step and turn"
+   "step and turn",
+   "four steps to the right",
+   "take four steps back",
+   "step touch",
+   "step and kick"
   ],
   "common_mistakes": [
    "struggling with the turn when facing a different wall"
@@ -789,7 +794,8 @@
   "segment_order": [
    "intro",
    "breakdown",
-   "follow_along"
+   "follow_along",
+   "layering"
   ],
   "steps_as_taught": [
    {
@@ -816,6 +822,26 @@
     "name": "Step Scuff Turn",
     "counts": "1-2",
     "description": "Step forward and scuff right foot while making a quarter turn."
+   },
+   {
+    "name": "Steps to the right",
+    "counts": "1-2-3-4",
+    "description": "Step four times to the right side."
+   },
+   {
+    "name": "Steps to the left",
+    "counts": "1-2-3-4",
+    "description": "Step four times to the left side."
+   },
+   {
+    "name": "Steps back",
+    "counts": "1-2-3-4",
+    "description": "Step four times backward."
+   },
+   {
+    "name": "Step touch and step kick",
+    "counts": "1-2",
+    "description": "Step touch forward and back, then step and kick."
    }
   ]
  },
@@ -839,6 +865,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "c6a19abc76057380d38eda8e866895c7ba747e275e547d93f50e242222917425",
+ "input_fingerprint": "1fc20fda70869a853f8566cdd7eed76ada574ae316a023e6b1f08852c80e7cf8",
  "hero_checked": "pass"
 }

@@ -4,57 +4,64 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "deft hand movements",
+      "arms_and_hands": "Deft hand movements",
       "difficulty": "intermediate",
-      "footwork": "kicks in any direction up and out, stamping each foot into the ground, hops",
-      "formation_and_space": "line or circular patterns",
+      "footwork": "Powerful kicks in any direction and stamping feet into the ground",
+      "formation_and_space": "Line or circular patterns",
       "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "Kicks and hops performed with agility, strength, and grace",
+      "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "dexterous and vigorous, with dynamic and energetic movements",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Kicking legs up and out in any direction followed by stamping each foot into the ground.",
-          "name": "Ukusina Leg Kick and Stamp"
+          "description": "Kicking legs in any direction up and out",
+          "name": "Powerful kicks"
+        },
+        {
+          "description": "Forcefully stamping each foot into the ground",
+          "name": "Stamping"
         }
       ],
-      "tempo_feel": "energetic",
-      "what_to_avoid": "Respect traditional protocol; sacred and spiritual significance requires cultural awareness."
+      "tempo_feel": "Energetic and dynamic",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "traditional Zulu drums",
-        "percussion instruments"
+        "Traditional Zulu drums",
+        "Other percussion instruments"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "energetic",
-        "vibrant",
-        "expressive",
-        "rhythmic"
+        "Energetic",
+        "Rhythmic",
+        "Dynamic"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Song leader singing interlocking word phrases backed by traditional Zulu drums and percussion",
-      "sound_description": "Traditional Zulu drums and percussion establish a steady rhythmic beat, complemented by a song leader singing interlocking word phrases.",
-      "tempo_bpm": "",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by the rhythmic beat of traditional Zulu drums and percussion, accompanied by a song leader who uses interlocking vocal phrases.",
+      "tempo_bpm": "not described in sources",
       "vocal_style": "Song leader singing interlocking word phrases"
     },
     "teaching": {
       "basic_steps": [
-        "Kick legs in any direction up and out",
-        "Stamp each foot firmly into the ground",
-        "Execute hops and deft hand movements in spatial formations"
+        "Powerful kick in any direction",
+        "Stamping each foot into the ground"
       ],
       "formation": "Line or circular patterns",
-      "level_notes": "Led by an induna who sets the pace and directs the dancers.",
-      "rhythm": "Rhythmic beat of traditional Zulu drums"
+      "level_notes": "Requires dexterity and vigor; led by an induna.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5a329176fd2565454c5ca6b0a5221fdbbcdbefd51e8d2782fb08c1957f7a407b",
+  "fingerprint": "4f1b8d5cd0bc7c821be7de594523e75b0b4c79894dbd5039f7d7433573da75cf",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -62,8 +69,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific rhythmic patterns or time signatures associated with the 'interlocking word phrases' mentioned in the source? Evidence needed: Ethnomusicological studies of Zulu dance music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -90,7 +99,17 @@
   ],
   "music_options": [],
   "name": "Ukusina",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "13e0ab4c01127f3d",
+      "next_evidence": "Ethnomusicological studies of Zulu dance music.",
+      "question": "Are there specific rhythmic patterns or time signatures associated with the 'interlocking word phrases' mentioned in the source?",
+      "source": "https://en.wikipedia.org/wiki/Ukusina",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical instruction for the music_profile."
+    }
+  ],
   "research_file": "research_results/ukusina.json",
   "runtime_active": false,
   "scope": {

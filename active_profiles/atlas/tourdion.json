@@ -3,86 +3,123 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "High jumps",
-          "Complex posture transitions"
+          "Complex posture names",
+          "Long sequences"
         ],
-        "counts": "Simplified 1-2-3, 1-2-3 counts.",
-        "duration_minutes": "5",
-        "game_version": "A 'follow-the-leader' game mimicking the small kicks and hops."
+        "counts": "1-2-3-4-Jump-Land",
+        "duration_minutes": "2",
+        "game_version": "A 'follow the leader' game where children must keep their feet 'glued' to the floor while kicking."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Jumping",
-          "Rapid balance shifts"
+          "Jumps",
+          "Hops on one leg",
+          "Rapid weight changes"
         ],
-        "counts": "Use a 6-count rhythm to match the triple meter.",
-        "seated_version": "Perform the 'cinq pas' rhythm with feet and hands while seated.",
-        "standing_version": "Perform the steps with support from a barre or chair, focusing on the rhythmic weight shift.",
-        "tempo_and_range": "Reduced tempo; avoid jumping."
+        "counts": "1-2-3-4-5-6 (tap-tap-tap-tap-step-hold)",
+        "seated_version": "Perform the 'pied en l'air' as small toe-taps forward while seated, alternating feet to the rhythm.",
+        "standing_version": "Replace hops with small weight shifts; eliminate the jump (saut moyen) in favor of a simple step-together.",
+        "tempo_and_range": "Reduce tempo to 90 BPM; keep all movements within a narrow footprint."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "The Posture: Establishing the starting stance with weight distribution.",
+          "source": "https://en.wikipedia.org/wiki/Tourdion"
+        },
+        {
+          "description": "The Pied en l'air: Coordinating the small kick with the petit saut.",
+          "source": "https://en.wikipedia.org/wiki/Tourdion"
+        },
+        {
+          "description": "The Cadence: Executing the saut moyen to land in the opposite posture.",
+          "source": "https://en.wikipedia.org/wiki/Tourdion"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Couple dance with alternating sequences for man and woman.",
+          "source": "https://es.wikipedia.org/wiki/Turd%C3%B3n"
+        }
+      ]
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "intermediate",
-      "footwork": "Cinq pas (five steps) involving small kicks (pied en l'air) and hops (petit saut).",
-      "formation_and_space": "Couple dance, moving through the space.",
-      "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "Low to the ground; jumps are small (saut moyen) rather than high.",
-      "partnering": "not described in sources",
-      "posture": "Upright, with weight evenly distributed between feet.",
+      "footwork": "Cinq pas: four small kicks (pieds en l'air) with hops, followed by a jump (saut moyen) and landing (cadence).",
+      "formation_and_space": "Couple dance; moves through the hall, often following a basse danse path.",
+      "hips_and_torso": "Stable and upright; the movement is concentrated in the legs and feet.",
+      "levels_and_jumps": "Low to the ground; jumps are 'modéré' or 'petit' rather than 'majeur'.",
+      "partnering": "Danced as a pair; sequences may be performed alternately by man and woman.",
+      "posture": "Upright but relaxed; weight evenly distributed in 'posture' (one foot slightly ahead).",
       "signature_moves": [
         {
-          "description": "A five-step sequence consisting of two kicks, two hops, and a final jump.",
+          "description": "Five steps executed over six beats, the core unit of the dance.",
           "name": "Cinq pas"
         },
         {
-          "description": "A small jump that transitions the dancer into the opposite posture.",
+          "description": "A small kick into the air accompanied by a hop on the opposite foot.",
+          "name": "Pied en l'air"
+        },
+        {
+          "description": "A moderate jump used to transition into the final posture of a sequence.",
           "name": "Saut moyen"
         }
       ],
-      "tempo_feel": "Rapid and smooth.",
-      "what_to_avoid": "High, heavy leaps; the movement should remain 'bas et par terre'."
+      "tempo_feel": "Rapid and smooth; 'mesure légère et concise'.",
+      "what_to_avoid": "Avoid high leaps or violent gestures; keep the feet 'pegados al suelo' (close to the floor)."
     },
     "music_profile": {
       "instruments": [
+        "Flute",
+        "Tambourine",
         "Lute",
-        "Voice"
+        "Harpsichord"
       ],
-      "meter": "Triple meter",
+      "meter": "3/4 or 6/8",
       "mood_keywords": [
         "lively",
-        "rapid",
-        "light"
+        "brisk",
+        "festive",
+        "rhythmic"
       ],
-      "musical_form": "Two or three repeated phrases",
+      "musical_form": "Two or three repeated phrases of four motifs",
       "reference_recordings": [
         {
-          "artist": "Pierre Attaingnant (collection)",
+          "artist": "Pierre Attaingnant",
           "title": "La Magdalena"
+        },
+        {
+          "artist": "Die Streuner",
+          "title": "Tourdion (Quand je bois du vin clairet)"
         }
       ],
-      "rhythm_pattern": "Rapid and light, often consisting of four motifs of six pulses.",
-      "sound_description": "A brisk, triple-meter melody that feels lighter and more concise than the galliard, often featuring repetitive, danceable phrases.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "Four-voice polyphonic (in later arrangements)"
+      "rhythm_pattern": "Half note followed by a quarter note (2+1 pulse)",
+      "sound_description": "A driving triple-meter pulse characterized by a 'jumping' rhythm in the accompaniment. The melody is often smooth with small intervals, supported by a rhythmic bass line that mimics a tambourine's strike.",
+      "tempo_bpm": "120",
+      "vocal_style": "Four-voice chanson (in later arrangements), often syllabic and rhythmic"
     },
     "teaching": {
       "basic_steps": [
-        "Assume posture gauche (left foot forward, weight even).",
-        "Perform a pied en l'air droit (right foot kick) with a simultaneous petit saut (small hop) on the left foot.",
-        "Perform a pied en l'air gauche (left foot kick) with a simultaneous petit saut on the right foot.",
-        "Repeat the two kicks.",
-        "Perform a saut moyen (small jump) to land in posture droit."
+        "Start in posture gauche (left foot slightly forward, weight even)",
+        "Pied en l'air droit: Small kick of right foot with a tiny hop on the left (Beat 1)",
+        "Pied en l'air gauche: Small kick of left foot with a tiny hop on the right (Beat 2)",
+        "Pied en l'air droit: Repeat kick/hop (Beat 3)",
+        "Pied en l'air gauche: Repeat kick/hop (Beat 4)",
+        "Saut moyen: A small jump into the air (Beat 5)",
+        "Cadence: Land in posture droit to finish the sequence (Beat 6)"
       ],
-      "formation": "Couple dance",
-      "level_notes": "Requires balance and agility; focus on keeping movements low to the ground.",
-      "rhythm": "Triple meter"
+      "formation": "Couple dance, often performed in a processional or circular path.",
+      "level_notes": "Requires agility and coordination of small hops, but lacks the high-impact jumps of the galliard.",
+      "rhythm": "Triple meter (6/8 or 3/4) with a brisk, driving pulse."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a8c740b6d61a6354a2414011ac8fbff75febe47e5b5e6cbf30c98a72992deca1",
+  "fingerprint": "68633b98357f6eecb9924b9e5298f4948d06340b369e83c8cfc9e86799f6ac24",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -90,7 +127,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What were the specific arm positions used in the French court for the tourdion? Evidence needed: https://fr.wikipedia.org/wiki/Tourdion"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -106,7 +144,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there visual records of the specific 'twist' (tordre) motion mentioned in the etymology? Evidence needed: https://en.wikipedia.org/wiki/Tourdion"
     ]
   },
   "id": "atlas:tourdion",
@@ -117,7 +156,26 @@
   ],
   "music_options": [],
   "name": "Tourdion",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "e9db610d1f69c2c3",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tourdion",
+      "question": "Are there visual records of the specific 'twist' (tordre) motion mentioned in the etymology?",
+      "source": "https://en.wikipedia.org/wiki/Tourdion",
+      "status": "candidate_unreviewed",
+      "why_needed": "To determine if the feet or torso rotate during the cadence beyond a simple posture change."
+    },
+    {
+      "domain": "research",
+      "id": "49eabfef36125b78",
+      "next_evidence": "https://fr.wikipedia.org/wiki/Tourdion",
+      "question": "What were the specific arm positions used in the French court for the tourdion?",
+      "source": "https://fr.wikipedia.org/wiki/Tourdion",
+      "status": "candidate_unreviewed",
+      "why_needed": "The primary sources (Arbeau, Attaingnant) focus on footwork, leaving the upper body undefined for teaching."
+    }
+  ],
   "research_file": "research_results/tourdion.json",
   "runtime_active": false,
   "scope": {
@@ -131,9 +189,10 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Tourdion",
     "https://www.wikidata.org/wiki/Q2141850",
-    "https://es.wikipedia.org/wiki/Turdión",
     "https://fr.wikipedia.org/wiki/Tourdion",
-    "https://pt.wikipedia.org/wiki/Tourdion"
+    "https://es.wikipedia.org/wiki/Turdión",
+    "https://pt.wikipedia.org/wiki/Tourdion",
+    "https://de.wikipedia.org/wiki/Tourdion"
   ],
   "state": "researching",
   "video_evidence": []

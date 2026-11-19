@@ -1,0 +1,125 @@
+{
+ "slug": "sasa",
+ "qc_at": "2026-11-19T20:26:40Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sasa"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "134"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "First noted in academic literature by Buck in 1927, sasa translates literally to"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "301"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1201"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Samoa"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the 'ava ceremony is always included in the sasa is not supported by the provided evidence and is culturally inaccurate as the 'ava ceremony is a distinct, formal ritual.",
+   "The claim that sasa is cognate with Māori haka and Hawaiian ha'a is a linguistic assertion not supported by the provided evidence."
+  ],
+  "harm_or_disrespect": [
+   "The assertion that the 'ava ceremony is 'always included' in a sasa performance conflates a sacred, highly structured ritual with a performance dance, which is disrespectful to the gravity of the 'ava ceremony."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The profile is generally accurate but contains a significant error regarding the 'ava ceremony. The 'ava ceremony is a distinct, formal, and often sacred ritual in Samoan culture; it is not a component of a sasa performance. This conflation should be removed to ensure cultural accuracy."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.25",
+  "doubts=2",
+  "harm"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-19T20:15:34Z"
+}

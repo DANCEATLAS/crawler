@@ -1,0 +1,816 @@
+{
+ "slug": "urban-champeta",
+ "name": "urban champeta",
+ "pack_version": "e2",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T19:31:27Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic Afro-Colombian coastal dancer emphasizing cultural pride, rhythmic grounding, and connection.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "urban champeta"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet urban champeta",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Rhythms of the Coast: The Rise of Urban Champeta",
+     "This is urban champeta. 1970s to present (urban wave post-2000)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: urban champeta · Colombia · 1970s to present (urban wave post-2000)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Champeta began in the 1970s when commercial trading boats brought African music records to the coast of Cartagena, Colombia.",
+     "Afro-Colombian communities adapted African rhythms—such as soukous, highlife, and mbguanga—alongside Caribbean zouk and soca to reflect urban coastal life.",
+     "Early groups like Son Palenque and Anne Zwin (Anne Swing) popularized the genre, making it a major sound at the Carnaval de Barranquilla in the 1980s."
+    ],
+    "on_screen": [
+     "Map: Colombia · South America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The term 'champeta' originally referred to a large knife, and 'champetúo' was a derogatory label used by wealthy social classes against low-income Afro-descendant communities in Cartagena.",
+     "As pioneer Charles King noted, the dance and music became a vital expression of community identity and resistance against social discrimination.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Urban champeta is danced as a sensual partner dance.",
+     "Dancers position themselves in close proximity, crossing and intertwining their legs with their partner's legs.",
+     "The fundamental technique requires moving continuously to the sound of the music without lifting their feet off the ground, maintaining continuous floor contact.",
+     "Watch for Intertwined leg shuffle."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Close partner stance in a compact spatial footprint"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical setup of urban champeta features electric guitars, electric bass, congas, electric drums, and synthesizers mixed with African rhythms.",
+     "Urban champeta specifically distinguishes itself by blending digital samples into foundational champeta rhythmic arrangements.",
+     "Listen for the electric drums, guitars, bass, congas.",
+     "A dense coastal blend of driving electric bass lines, melodic electric guitar riffs, and conga hand-percussion layered with digital synthesizers, electronic drum samples, and vocal styles borrowing from reggae and dancehall."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: La Voladora — El Sayayin; Busco alguien que me quiera — El Afinaito; La descontinuada — Hernan Hernandez",
+     "Waveform or rhythm-pattern graphic: Basic champeta rhythms combined with African rhythms, digital samples, and modern urban beats"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Champeta originated in low-income Afro-descendant neighborhoods of Cartagena and expanded to street festivals, dance halls, and major cultural events like the Carnaval de Barranquilla, as well as broader coastal and Pacific Colombian venues."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include pioneers Charles King and Viviano Torres (founder of Anne Swing); early groups Son Palenque; turn-of-the-millennium urban champeta stars El Sayayín (Jhon Jairo Sayas), El Afinaito (Sergio Liñan), Mr. Black (Edwin Antequera), Álvaro El Bárbaro (Álvaro Zapata), Elio Boom (Francisco Corrales), El Intelectual (Kevin Florez), Twister El Rey, El Jhonky el profeta (Jhon Einster Gutíerrez Cassianis), El Michel, Hernan Hernandez, Leo Fenix, Karly Way, and El Oveja.",
+     "While originating in Cartagena on the Atlantic coast of Colombia, urban champeta spread across the Colombian Pacific region and influenced coastal artists including Bomba Estereo and Monsieur Bugalú.",
+     "Urban champeta evolved from 1970s Colombian champeta folk traditions, which were shaped by African soukous, highlife, mbguanga, zouk, and soca, subsequently incorporating 2000s electronic synths, samples, reggae, hip hop, and dancehall elements."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "urban champeta is influence of soukous: African rhythm brought by commercial trading boats to Cartagena in the 1970s, shaping champeta's early evolution.",
+     "urban champeta is influence of highlife: West African musical style introduced via coastal trading routes that informed foundational champeta sound.",
+     "urban champeta is influence of zouk: Caribbean musical genre adapted by Cartagena musicians in developing champeta.",
+     "urban champeta is influence of soca: Caribbean rhythm integrated into early champeta music on Colombia's Atlantic coast."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand close facing partner",
+     "Intertwine and cross legs with partner's legs",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how imported African vinyl transformed Cartagena's working-class streets into Colombia's most vibrant urban partner dance movement.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the grounded foot contact and weight transfer",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the grounded foot contact and weight transfer.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Afro-Colombian coastal dancer emphasizing cultural pride, rhythmic grounding, and connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded partner posture allowing close leg engagement",
+      "Rhythmic torso and hip motion synchronized with partner weight transfer"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Basic champeta rhythms combined with African rhythms, digital samples, and modern urban beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand close facing partner",
+      "Step 2: Intertwine and cross legs with partner's legs",
+      "Footwork from the sources: Gliding or sliding footwork maintaining continuous contact with the ground without lifting feet",
+      "Drill: Practice sliding weight from side to side without lifting soles from the floor"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Shift body weight rhythmically without lifting feet off the ground",
+      "Drill: Isolate hip movements while maintaining solid floor contact"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not lift the feet off the floor during the movement."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Sit upright in a firm chair, intertwine lower legs gently with a partner, and slide feet along the floor in rhythm without lifting soles. · For children: The 'Sticky Feet' Game: Dancers partner up and must move their bodies to the music while keeping their shoes glued to the floor at all times."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Sit upright in a firm chair, intertwine lower legs gently with a partner, and slide feet along the floor in rhythm without lifting soles.",
+      "For children: The 'Sticky Feet' Game: Dancers partner up and must move their bodies to the music while keeping their shoes glued to the floor at all times."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the grounded foot contact and weight transfer.",
+      "The term 'champeta' originally referred to a large knife, and 'champetúo' was a derogatory label used by wealthy social classes against low-income Afro-descendant communities in Cartagena.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Partner positioning and leg crossing",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Partner positioning and leg crossing.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Afro-Colombian coastal dancer emphasizing cultural pride, rhythmic grounding, and connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded partner posture allowing close leg engagement",
+      "Rhythmic torso and hip motion synchronized with partner weight transfer"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Basic champeta rhythms combined with African rhythms, digital samples, and modern urban beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand close facing partner",
+      "Step 2: Intertwine and cross legs with partner's legs",
+      "Drill: Step into close partner stance"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Shift body weight rhythmically without lifting feet off the ground",
+      "Intertwined leg shuffle: Sensual weight shifting with legs crossed with partner's legs while keeping feet firmly on the floor",
+      "Drill: Intertwine legs gently while maintaining independent balance and continuous ground contact"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not lift the feet off the floor during the movement."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Sit upright in a firm chair, intertwine lower legs gently with a partner, and slide feet along the floor in rhythm without lifting soles. · For children: The 'Sticky Feet' Game: Dancers partner up and must move their bodies to the music while keeping their shoes glued to the floor at all times."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Sit upright in a firm chair, intertwine lower legs gently with a partner, and slide feet along the floor in rhythm without lifting soles.",
+      "For children: The 'Sticky Feet' Game: Dancers partner up and must move their bodies to the music while keeping their shoes glued to the floor at all times."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Close partner stance in a compact spatial footprint"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Partner positioning and leg crossing.",
+      "Key figures include pioneers Charles King and Viviano Torres (founder of Anne Swing); early groups Son Palenque; turn-of-the-millennium urban champeta stars El Sayayín (Jhon Jairo Sayas), El Afinaito (Sergio Liñan), Mr. Black (Edwin Antequera), Álvaro El Bárbaro (Álvaro Zapata), Elio Boom (Francisco Corrales), El Intelectual (Kevin Florez), Twister El Rey, El Jhonky el profeta (Jhon Einster Gutíerrez Cassianis), El Michel, Hernan Hernandez, Leo Fenix, Karly Way, and El Oveja.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Full partner movement to urban champeta sample tracks",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Full partner movement to urban champeta sample tracks.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Afro-Colombian coastal dancer emphasizing cultural pride, rhythmic grounding, and connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded partner posture allowing close leg engagement",
+      "Rhythmic torso and hip motion synchronized with partner weight transfer"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Basic champeta rhythms combined with African rhythms, digital samples, and modern urban beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Intertwine and cross legs with partner's legs",
+      "Step 2: Shift body weight rhythmically without lifting feet off the ground",
+      "Drill: Execute fluid body waves with partner while keeping feet strictly planted to urban champeta audio tracks"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Intertwined leg shuffle: Sensual weight shifting with legs crossed with partner's legs while keeping feet firmly on the floor"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not lift the feet off the floor during the movement."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Sit upright in a firm chair, intertwine lower legs gently with a partner, and slide feet along the floor in rhythm without lifting soles. · For children: The 'Sticky Feet' Game: Dancers partner up and must move their bodies to the music while keeping their shoes glued to the floor at all times."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Sit upright in a firm chair, intertwine lower legs gently with a partner, and slide feet along the floor in rhythm without lifting soles.",
+      "For children: The 'Sticky Feet' Game: Dancers partner up and must move their bodies to the music while keeping their shoes glued to the floor at all times."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Close partner stance in a compact spatial footprint"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Full partner movement to urban champeta sample tracks.",
+      "Urban champeta evolved from 1970s Colombian champeta folk traditions, which were shaped by African soukous, highlife, mbguanga, zouk, and soca, subsequently incorporating 2000s electronic synths, samples, reggae, hip hop, and dancehall elements.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Basic champeta rhythms combined with African rhythms, digital samples, and modern urban beats",
+  "instruments": [
+   "electric drums",
+   "guitars",
+   "bass",
+   "congas",
+   "synths"
+  ],
+  "vocal_style": "Urban vocal delivery influenced by reggae, hip hop, and dancehall",
+  "musical_form": "Verse-chorus structure utilizing digital audio samples over basic champeta rhythmic patterns",
+  "mood": [
+   "sensual",
+   "energetic",
+   "urban",
+   "coastal",
+   "rhythmic"
+  ],
+  "sound_description": "A dense coastal blend of driving electric bass lines, melodic electric guitar riffs, and conga hand-percussion layered with digital synthesizers, electronic drum samples, and vocal styles borrowing from reggae and dancehall.",
+  "listen_before_composing": [
+   "La Voladora — El Sayayin",
+   "Busco alguien que me quiera — El Afinaito",
+   "La descontinuada — Hernan Hernandez"
+  ],
+  "prompt": "Original instrumental composition in the musical world of urban champeta (Colombia). Rhythm pattern: Basic champeta rhythms combined with African rhythms, digital samples, and modern urban beats. Instruments: electric drums, guitars, bass, congas, synths. Vocal style: Urban vocal delivery influenced by reggae, hip hop, and dancehall. Form: Verse-chorus structure utilizing digital audio samples over basic champeta rhythmic patterns. Mood: sensual, energetic, urban, coastal, rhythmic. It should sound like this: A dense coastal blend of driving electric bass lines, melodic electric guitar riffs, and conga hand-percussion layered with digital synthesizers, electronic drum samples, and vocal styles borrowing from reggae and dancehall. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Champeta originated in low-income Afro-descendant neighborhoods of Cartagena and expanded to street festivals, dance halls, and major cultural events like the Carnaval de Barranquilla, as well as broader coastal and Pacific Colombian venues.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Cartagena street scenes and coastal docks",
+   "Close-up footwork showing continuous ground connection",
+   "Vintage African record sleeves juxtaposed with modern synth controls"
+  ],
+  "costume_notes": "Champeta originated in low-income Afro-descendant neighborhoods of Cartagena and expanded to street festivals, dance halls, and major cultural events like the Carnaval de Barranquilla, as well as broader coastal and Pacific Colombian venues.",
+  "setting_notes": "The term 'champeta' originally referred to a large knife, and 'champetúo' was a derogatory label used by wealthy social classes against low-income Afro-descendant communities in Cartagena. As pioneer Charles King noted, the dance and music became a vital expression of community identity and resistance against social discrimination.",
+  "map": {
+   "country": "Colombia",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "39 tutorial(s) of the street-urban family studied",
+  "videos_studied": 39,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "one and two",
+   "step touch",
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "layering",
+   "slow_practice",
+   "recap",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Urban_champeta",
+  "https://www.wikidata.org/wiki/Q17103754"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "72b812955730999d6fa8f04a8330d0320b59e10892e53627d115d2be121e2fb6",
+ "hero_checked": null
+}

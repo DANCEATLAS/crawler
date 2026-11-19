@@ -2,7 +2,7 @@
  "slug": "huaylas",
  "name": "Huaylas (Huaylarsh)",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-11T18:25:06Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -736,12 +736,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front",
+   "views used by most teachers: front, side",
    "tempo progression: slow → full"
   ],
   "cues": [
@@ -756,7 +756,9 @@
   ],
   "segment_order": [
    "intro",
+   "context",
    "count_in",
+   "warmup",
    "breakdown",
    "music_practice"
   ],
@@ -770,6 +772,21 @@
     "name": "chiuaco",
     "counts": "16",
     "description": "A crossing step with a side-to-side movement."
+   },
+   {
+    "name": "Ishtaka",
+    "counts": "",
+    "description": "Estaca basic step"
+   },
+   {
+    "name": "Iskuwillay",
+    "counts": "",
+    "description": "Escobillado basic step"
+   },
+   {
+    "name": "Kancha Pachyay",
+    "counts": "",
+    "description": "Reventado del maíz basic step"
    }
   ]
  },
@@ -793,6 +810,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "4cbf47d9a036308629d00a6f20dc149a1b09f01e7666442125a5a554e9770f07",
+ "input_fingerprint": "1a90c38d10bbe9d29e4ef1372292ac3690586796ace66f88f30f3ad8d8ca267a",
  "hero_checked": "pass"
 }

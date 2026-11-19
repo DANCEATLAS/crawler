@@ -1,0 +1,146 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Solo female dance performance (Eka Patra Kelika) presenting Agama, Asthana, and Prabandha repertoires on modern concert stages.",
+          "source": "https://en.wikipedia.org/wiki/Andhra_Natyam"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Graceful gestures and traditional Kumbha Harathi lamp handling in ritual items",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Solo female dancer (Eka Patra Kelika) moving within temple sanctums, court arenas, or modern theatrical stages",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Solo performance; no partner",
+      "posture": "Delicate, graceful body movements adhering to the slenderness of Kaisiki Vritti",
+      "signature_moves": [
+        {
+          "description": "Ritual offering of light using the traditional Kumbha Harathi lamp in Agama temple worship",
+          "name": "Kumbha Harathi"
+        },
+        {
+          "description": "Deep internalized emotional portrayal characteristic of Asthana court repertoire",
+          "name": "Saatvikabhinayam in Padam"
+        },
+        {
+          "description": "Specialized interpretative method used for expressing Sanskrit or Telugu verse",
+          "name": "Anvayam in Slokabhinayam"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid treating sacred Agama Nartanam ritual items as secular theatrical spectacle without acknowledging consecrated intent"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "courtly",
+        "expressive",
+        "graceful",
+        "narrative"
+      ],
+      "musical_form": "Compositions include Kauthams, Kaivarams, Adhyatma Ramayana Keerthanas, Sabdam, Swara and Sahithya Pallavis, Padavarnams, Padams, Javalis, Slokas, and Kalapam narratives",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Classical vocal renditions of Padams, Javalis, Slokas, Padyams, and Keerthanas"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "Solo performance (Eka Patra Kelika)",
+      "level_notes": "Repertoire spans sacred temple rituals (Agama), courtly expressional items (Asthana), and narrative dance dramas (Prabandha).",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "547cea3b7ea93cf098b3699c2ae0feae5da2ce8805b39358d319d5231daf50c2",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific step-by-step adavus, footwork patterns, and rhythmic solkattus taught in the 1970 revived pedagogy of Andhra Natyam? Evidence needed: Syllabi and pedagogical publications from Andhra Natyam institutions founded during or following the 1970 revival."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How are the gestural nuances of Kaisiki Vritti and Saatvikabhinayam executed in the Padams of Asthana Nartanam? Evidence needed: Archival performance footage demonstrating hereditary or master-level Asthana Nartanam Padam renditions."
+    ]
+  },
+  "id": "atlas:andhra-natyam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Andhra Natyam",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4c348316bb90036a",
+      "next_evidence": "Syllabi and pedagogical publications from Andhra Natyam institutions founded during or following the 1970 revival.",
+      "question": "What are the specific step-by-step adavus, footwork patterns, and rhythmic solkattus taught in the 1970 revived pedagogy of Andhra Natyam?",
+      "source": "https://en.wikipedia.org/wiki/Andhra_Natyam",
+      "status": "candidate_unreviewed",
+      "why_needed": "Basic instructional drills, rhythm patterns, and safe physical adaptations cannot be derived without documented footwork mechanics."
+    },
+    {
+      "domain": "video",
+      "id": "36f182bcfd2e2042",
+      "next_evidence": "Archival performance footage demonstrating hereditary or master-level Asthana Nartanam Padam renditions.",
+      "question": "How are the gestural nuances of Kaisiki Vritti and Saatvikabhinayam executed in the Padams of Asthana Nartanam?",
+      "source": "https://en.wikipedia.org/wiki/Andhra_Natyam",
+      "status": "candidate_unreviewed",
+      "why_needed": "Accurate computer-vision assessment and human feedback depend on distinguishing subtle torso and facial expressions from technical errors."
+    }
+  ],
+  "research_file": "research_results/andhra-natyam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "andhra-natyam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Andhra_Natyam",
+    "https://www.wikidata.org/wiki/Q4754350"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

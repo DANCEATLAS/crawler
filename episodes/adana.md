@@ -1,6 +1,6 @@
 # Adana — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-19 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Adana · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: This is the Adana, a dance from the 20th century.
+NARRATION: This is the Adana, a 20th-century dance.
 ON SCREEN: Hero video, first 10 seconds (BtIkXCTVM70)
 ON SCREEN: Title card: Adana · North Macedonia · 20th century
 MUSIC: theme (30 s)
@@ -25,14 +25,14 @@ MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: This is a traditional men's dance from Veles.
-NARRATION: It remains a living tradition today.
+NARRATION: It remains a living tradition.
 ON SCREEN: Footage: File:Egretta garzetta - Little-egrets (video), Adana 2016-11-12 01-1.webm (https://upload.wikimedia.org/wikipedia/commons/9/96/Egretta_garzetta_-_Little-egrets_%28video%29%2C_Adana_2016-11-12_01-1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Dancers form a half-circle and hold shoulders.
 NARRATION: The dance begins with balancing movements.
-NARRATION: As it accelerates, dancers hold hands and begin jumping, kneeling, and turning.
+NARRATION: As the tempo increases, dancers hold hands and add jumping, kneeling, and turning.
 NARRATION: Watch for balancing, jumping, and kneeling.
 ON SCREEN: Hero video full screen, 30–45 s (BtIkXCTVM70)
 ON SCREEN: Captions name each signature move as it appears
@@ -66,31 +66,31 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Start by balancing in a half-circle formation while holding shoulders.
+NARRATION: Start by balancing in a half-circle while holding shoulders.
 NARRATION: Transition to holding hands as the tempo increases.
-NARRATION: Count 1-2, 1-2, focusing on the two beats per bar.
-NARRATION: Chapter 1 begins here.
+NARRATION: Count: 1-2, 1-2. Practice the pulse.
+NARRATION: Chapter 1 begins slowly.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore the transition from shoulder-held balance to high-energy athleticism in this traditional Macedonian men's dance.
-NARRATION: Two references are listed with the profile.
+NARRATION: Explore the transition from shoulder-held balance to high-energy athleticism in this Macedonian men's dance.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Establish the half-circle formation and shoulder-hold balance. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps. Establish the half-circle formation and shoulder-hold balance.
-NARRATION: This is a beginner level lesson. The overall dance is intermediate.
-NARRATION: Your instructor is a local Macedonian dance expert from the Veles region.
+NARRATION: Chapter 1 — First steps. Today: Establish the half-circle formation and shoulder-hold balance..
+NARRATION: Level: Beginner. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A local Macedonian dance expert from the Veles region.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Hold shoulders initially, then transition to holding hands.
+NARRATION: Start by holding shoulders, then transition to holding hands.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -103,7 +103,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Balance in a half-circle formation while holding shoulders.
+NARRATION: Step 1: Balance in a half-circle while holding shoulders.
 NARRATION: Step 2: Transition to holding hands as the tempo increases.
 NARRATION: Drill: Formation practice.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
@@ -135,8 +135,8 @@ OPTIONS: Seated or supported option: Perform the arm movements and torso rotatio
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in 1-2, 1-2.
-NARRATION: Perform the full sequence at full tempo twice.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -144,7 +144,7 @@ MUSIC: lesson_full
 ### 9. Recap (40 s) · `close`
 NARRATION: You can now establish the half-circle formation and shoulder-hold balance.
 NARRATION: This is a traditional men's dance from Veles.
-NARRATION: Next is Chapter 2.
+NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -152,14 +152,14 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Transition to hand-holding and increase tempo. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 focuses on building the dance. Transition to hand-holding and increase the tempo.
-NARRATION: This is an intermediate level lesson. The overall dance is intermediate.
-NARRATION: Your instructor is a local Macedonian dance expert from the Veles region.
+NARRATION: Chapter 2 — Building the dance. Today: Transition to hand-holding and increase tempo..
+NARRATION: Level: Intermediate. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A local Macedonian dance expert from the Veles region.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Hold shoulders initially, then transition to holding hands.
+NARRATION: Start by holding shoulders, then transition to holding hands.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -172,7 +172,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Balance in a half-circle formation while holding shoulders.
+NARRATION: Step 1: Balance in a half-circle while holding shoulders.
 NARRATION: Step 2: Transition to holding hands as the tempo increases.
 NARRATION: Drill: Hand-hold transition.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
@@ -207,15 +207,15 @@ OPTIONS: Seated or supported option: Perform the arm movements and torso rotatio
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in 1-2, 1-2.
-NARRATION: Perform the full sequence at full tempo twice.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now transition to hand-holding and increase the tempo.
-NARRATION: Next is Chapter 3.
+NARRATION: You can now transition to hand-holding and increase tempo.
+NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -223,14 +223,14 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Integrate kneeling and turning into the full sequence. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 covers dancing it fully. Integrate kneeling and turning into the sequence.
-NARRATION: This is an advanced level lesson. The overall dance is intermediate.
-NARRATION: Your instructor is a local Macedonian dance expert from the Veles region.
+NARRATION: Chapter 3 — Dancing it fully. Today: Integrate kneeling and turning into the full sequence..
+NARRATION: Level: Advanced. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A local Macedonian dance expert from the Veles region.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Hold shoulders initially, then transition to holding hands.
+NARRATION: Start by holding shoulders, then transition to holding hands.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -252,8 +252,8 @@ MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Kneeling involves lowering to the ground during the faster phase.
-NARRATION: Turning is the rotation performed during the faster phase.
+NARRATION: Kneeling: Lowering to the ground during the faster phase.
+NARRATION: Turning: Rotation performed during the faster phase.
 NARRATION: Drill: Turning technique.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -277,8 +277,8 @@ OPTIONS: Seated or supported option: Perform the arm movements and torso rotatio
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in 1-2, 1-2.
-NARRATION: Perform the full sequence at full tempo twice.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -286,7 +286,7 @@ MUSIC: lesson_full
 ### 9. Recap (40 s) · `close`
 NARRATION: You can now integrate kneeling and turning into the full sequence.
 NARRATION: It is a subclass of the Macedonian Oro.
-NARRATION: You know the dance. Go and dance it with people.
+NARRATION: You know the dance. Go and dance it with others.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Adana_(dance); https://www.wikidata.org/wiki/Q4680603

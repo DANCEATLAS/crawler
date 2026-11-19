@@ -1,6 +1,6 @@
 # Semah, Alevi-Bektaşi ritual — episode pack
 
-*Status: withheld-chapters · built 2026-11-18 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; the costume & setting section; notable figures; two or more connections
 
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
+Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
 Counting: count the Aksak bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
 
 Sources (5): https://en.wikipedia.org/wiki/Sama_(Sufism); https://www.wikidata.org/wiki/Q1437738; https://de.wikipedia.org/wiki/Semah; https://it.wikipedia.org/wiki/Semah; https://ich.unesco.org/en/RL/00384

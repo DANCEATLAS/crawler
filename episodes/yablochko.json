@@ -1,0 +1,886 @@
+{
+ "slug": "yablochko",
+ "name": "Yablochko",
+ "pack_version": "e2",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T18:37:19Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned character dancer and folk choreographer with crisp rhythmic precision and theatrical naval swagger.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Yablochko",
+   "Russian Sailors Dance",
+   "Yablotchko",
+   "Petite pomme",
+   "Danse des marins russes"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Yablochko",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "From the Hornpipe to the Red Square",
+     "This is Yablochko. 1910s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Yablochko · Russia · 1910s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Yablochko emerged as an urban Russian dance in the 1910s, combining the British and Irish hornpipe with traditional Russian dances like the Barynya.",
+     "The hornpipe had entered Russian naval circles in the late nineteenth century and was popularized on café-concert stages as the 'matelot'.",
+     "During the Russian Civil War (1917–1921), the dance merged with topical chastushka verses sung by Red, White, Green, and Black forces, transforming it into an iconic symbol of the revolutionary sailor."
+    ],
+    "on_screen": [
+     "Map: Russia · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally an outlet for revolutionary sailors and wartime soldiers, the dance accompanied biting political chastushkas during the Russian Civil War.",
+     "During the Great Patriotic War, military units formed cultural brigades featuring their own versions of the dance to sustain morale.",
+     "It functions as a celebratory demonstration of agility, humor, and collective naval identity.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Igor Moiseyev Ballet - Yablochko (1982) (https://archive.org/details/igor-moiseyev-ballet-yablochko-1982)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is arranged in phrases of 8 to 16 bars over a musical square, beginning slowly and accelerating to a very fast tempo.",
+     "Performers begin with a slow entrance and broad hand gestures, line up with hands on one another's shoulders, and execute rapid foot-tapping and stomping.",
+     "Watch for Prisiadka, Chechotka, Khlopushka."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Linear chorus lines, stationary fixed-spot center stage, and circular call-and-response spaces"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance tune is played in a minor key at tempos ranging from slow to very fast.",
+     "It is played on the garmoshka (Russian button accordion) or folk and symphonic orchestra instruments.",
+     "Listen for the Garmoshka, Symphony orchestra, Folk orchestra.",
+     "The pulse is 2/4.",
+     "A punchy, minor-key chastushka melody driven by rhythmic button accordion or brass-heavy orchestral syncopation. Phrases cycle in rigid 8-to-16-measure squares that begin at a stately, swaggering tempo before steadily accelerating into a breakneck percussive sprint."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Yablochko (Columbia Records E9054) — David Medoff; Russian Sailors Dance (from The Red Poppy) — Reinhold Glière",
+     "Waveform or rhythm-pattern graphic: Driving square chastushka meter arranged in 8 to 16 bar sections"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Yablochko is performed by dancers wearing naval sailor uniforms, complete with sailor caps referencing the naval pompom.",
+     "Originally performed on ship decks, military grounds, and street corners, it transitioned into concert halls and theaters, famously featured on the Bolshoi Theatre stage and in the touring repertoire of the Moiseyev Ballet."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Reinhold Glière incorporated the choreography into his 1926 ballet The Red Poppy at the Bolshoi Theatre.",
+     "Singer David Medoff produced one of the earliest known audio recordings for Columbia Records in New York in 1923.",
+     "Variants developed within different military fleets and armies, notably the Black Sea Fleet where Ukrainian sailor songs influenced the melody.",
+     "Yablochko descends from the British and Irish hornpipe synthesized with the Russian Barynya folk dance and café-concert matelot performances."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Yablochko is parent of Hornpipe: British and Irish hornpipe dances brought by sailors served as a primary structural ancestor to Yablochko.",
+     "Yablochko is parent of Barynya: Traditional Russian folk dance whose energetic steps and squat motifs synthesized with the hornpipe.",
+     "Yablochko is sibling of Tsyganochka: Shares the uncommon feature of being a Russian folk dance performed in a minor key."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Slow sailor entrance with broad sweeping arm gestures",
+     "Shoulder-to-shoulder formation with synchronized fast foot taps",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a British sailor's jig transformed into the acrobatic, squat-kicking anthem of the Russian naval fleet.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the slow entrance, broad arm gestures, and the stationary chechotka tap rhythm",
+   "level": "Level 1: The Sailor Swagger",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the slow entrance, broad arm gestures, and the stationary chechotka tap rhythm.",
+      "Level: Level 1: The Sailor Swagger. Difficulty of the dance overall: advanced.",
+      "Your instructor: A seasoned character dancer and folk choreographer with crisp rhythmic precision and theatrical naval swagger."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright spine, solid grounded center during standing tap; low compressed posture during squats",
+      "Broad expressive entrance gestures, hands resting on shoulders in line formation, hands held behind the back during fixed-spot tapping, and khlopushka slapping against hands and legs",
+      "Engaged core supporting explosive upward bounces out of floor squats and side-to-side torso sway"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Driving square chastushka meter arranged in 8 to 16 bar sections.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Slow sailor entrance with broad sweeping arm gestures",
+      "Step 2: Shoulder-to-shoulder formation with synchronized fast foot taps",
+      "Footwork from the sources: Rapid chechotka (tap dance) steps, percussive stomps, heel thrusts, and deep prisiadka squat extensions",
+      "Drill: Broad arm open-and-sweep entrance drill"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Chechotka rapid percussive tap footwork performed on a fixed spot",
+      "Step 4: Prisiadka deep knee bend squats and forward heel kicks",
+      "Drill: Shoulder-to-shoulder stationary marching counts"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic heel-toe chechotka tapping on the spot with hands clasped behind back"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid uncontrolled knee landings during prisiadka squats; keep the torso upright rather than collapsing forward when kicking"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the slow opening arm sweeps and chest-level khlopushka claps from a sturdy chair; execute chechotka rhythms with gentle seated heel-and-toe taps. · For children: Play 'Captain's Kolenko': dancers form a line with hands on shoulders, and each child steps forward in turn to perform a funny or energetic kick for the others to mimic."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the slow opening arm sweeps and chest-level khlopushka claps from a sturdy chair; execute chechotka rhythms with gentle seated heel-and-toe taps.",
+      "For children: Play 'Captain's Kolenko': dancers form a line with hands on shoulders, and each child steps forward in turn to perform a funny or energetic kick for the others to mimic."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the slow entrance, broad arm gestures, and the stationary chechotka tap rhythm.",
+      "Originally an outlet for revolutionary sailors and wartime soldiers, the dance accompanied biting political chastushkas during the Russian Civil War.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate tempo acceleration with khlopushka body percussion patterns",
+   "level": "Level 2: Rhythm & Claps",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate tempo acceleration with khlopushka body percussion patterns.",
+      "Level: Level 2: Rhythm & Claps. Difficulty of the dance overall: advanced.",
+      "Your instructor: A seasoned character dancer and folk choreographer with crisp rhythmic precision and theatrical naval swagger."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright spine, solid grounded center during standing tap; low compressed posture during squats",
+      "Broad expressive entrance gestures, hands resting on shoulders in line formation, hands held behind the back during fixed-spot tapping, and khlopushka slapping against hands and legs",
+      "Engaged core supporting explosive upward bounces out of floor squats and side-to-side torso sway"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Driving square chastushka meter arranged in 8 to 16 bar sections.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Khlopushka clapping and slapping combinations against thighs and boots",
+      "Step 2: Kolenko trick exchange mirroring and answering a partner's movement",
+      "Drill: Khlopushka boot and thigh slap rhythm coordination"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Prisiadka: Deep knee bends and rapid squat kicks executed close to the floor",
+      "Chechotka: Rapid percussive tap work danced in place with hands behind the back",
+      "Drill: Speed-building drill through an 8-bar musical square"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Call-and-response rhythm clapping with a partner"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid uncontrolled knee landings during prisiadka squats; keep the torso upright rather than collapsing forward when kicking"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the slow opening arm sweeps and chest-level khlopushka claps from a sturdy chair; execute chechotka rhythms with gentle seated heel-and-toe taps. · For children: Play 'Captain's Kolenko': dancers form a line with hands on shoulders, and each child steps forward in turn to perform a funny or energetic kick for the others to mimic."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the slow opening arm sweeps and chest-level khlopushka claps from a sturdy chair; execute chechotka rhythms with gentle seated heel-and-toe taps.",
+      "For children: Play 'Captain's Kolenko': dancers form a line with hands on shoulders, and each child steps forward in turn to perform a funny or energetic kick for the others to mimic."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Linear chorus lines, stationary fixed-spot center stage, and circular call-and-response spaces"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate tempo acceleration with khlopushka body percussion patterns.",
+      "Reinhold Glière incorporated the choreography into his 1926 ballet The Red Poppy at the Bolshoi Theatre.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute prisiadka floor squats and initiate a kolenko trick exchange",
+   "level": "Level 3: The Acrobatic Squat",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute prisiadka floor squats and initiate a kolenko trick exchange.",
+      "Level: Level 3: The Acrobatic Squat. Difficulty of the dance overall: advanced.",
+      "Your instructor: A seasoned character dancer and folk choreographer with crisp rhythmic precision and theatrical naval swagger."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright spine, solid grounded center during standing tap; low compressed posture during squats",
+      "Broad expressive entrance gestures, hands resting on shoulders in line formation, hands held behind the back during fixed-spot tapping, and khlopushka slapping against hands and legs",
+      "Engaged core supporting explosive upward bounces out of floor squats and side-to-side torso sway"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Driving square chastushka meter arranged in 8 to 16 bar sections.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Khlopushka clapping and slapping combinations against thighs and boots",
+      "Step 2: Kolenko trick exchange mirroring and answering a partner's movement",
+      "Drill: Half-squat knee balance and weight shift"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Khlopushka: Rhythmic percussive claps and slaps striking the boots, thighs, and hands",
+      "Kolenko: A competitive solo variation or trick passed between dancers to challenge and replicate",
+      "Drill: Alternating forward heel kick from a squat position"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Pair trading drill mirroring and innovating signature kolenko variations"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid uncontrolled knee landings during prisiadka squats; keep the torso upright rather than collapsing forward when kicking"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the slow opening arm sweeps and chest-level khlopushka claps from a sturdy chair; execute chechotka rhythms with gentle seated heel-and-toe taps. · For children: Play 'Captain's Kolenko': dancers form a line with hands on shoulders, and each child steps forward in turn to perform a funny or energetic kick for the others to mimic."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the slow opening arm sweeps and chest-level khlopushka claps from a sturdy chair; execute chechotka rhythms with gentle seated heel-and-toe taps.",
+      "For children: Play 'Captain's Kolenko': dancers form a line with hands on shoulders, and each child steps forward in turn to perform a funny or energetic kick for the others to mimic."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Linear chorus lines, stationary fixed-spot center stage, and circular call-and-response spaces"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute prisiadka floor squats and initiate a kolenko trick exchange.",
+      "Yablochko descends from the British and Irish hornpipe synthesized with the Russian Barynya folk dance and café-concert matelot performances.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4",
+  "rhythm_pattern": "Driving square chastushka meter arranged in 8 to 16 bar sections",
+  "instruments": [
+   "Garmoshka",
+   "Symphony orchestra",
+   "Folk orchestra"
+  ],
+  "vocal_style": "Chastushka verse singing, often topical and satirical",
+  "musical_form": "Structured musical square in 8 to 16 bar phrases with progressive tempo acceleration",
+  "mood": [
+   "spirited",
+   "minor-key",
+   "energetic",
+   "militant",
+   "acrobatic"
+  ],
+  "sound_description": "A punchy, minor-key chastushka melody driven by rhythmic button accordion or brass-heavy orchestral syncopation. Phrases cycle in rigid 8-to-16-measure squares that begin at a stately, swaggering tempo before steadily accelerating into a breakneck percussive sprint.",
+  "listen_before_composing": [
+   "Yablochko (Columbia Records E9054) — David Medoff",
+   "Russian Sailors Dance (from The Red Poppy) — Reinhold Glière"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Yablochko (Russia). Meter 2/4. Rhythm pattern: Driving square chastushka meter arranged in 8 to 16 bar sections. Instruments: Garmoshka, Symphony orchestra, Folk orchestra. Vocal style: Chastushka verse singing, often topical and satirical. Form: Structured musical square in 8 to 16 bar phrases with progressive tempo acceleration. Mood: spirited, minor-key, energetic, militant, acrobatic. It should sound like this: A punchy, minor-key chastushka melody driven by rhythmic button accordion or brass-heavy orchestral syncopation. Phrases cycle in rigid 8-to-16-measure squares that begin at a stately, swaggering tempo before steadily accelerating into a breakneck percussive sprint. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Yablochko is performed by dancers wearing naval sailor uniforms, complete with sailor caps referencing the naval pompom. Originally performed on ship decks, military grounds, and street corners, it transitioned into concert halls and theaters, famously featured on the Bolshoi Theatre stage and in the touring repertoire of the Moiseyev Ballet.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3A%D0%91%D0%B0%D0%BB%D0%B5%D1%82_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/%D0%91%D0%B0%D0%BB%D0%B5%D1%82_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%D0%91%D0%B0%D0%BB%D0%B5%D1%82_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F.jpg/1280px-%D0%91%D0%B0%D0%BB%D0%B5%D1%82_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Вениамин Царегородцев / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%D0%91%D0%B0%D0%BB%D0%B5%D1%82_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F.jpg",
+    "description": "Матросское яблочко"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Igor Moiseyev Ballet - Yablochko (1982)",
+    "url": "https://archive.org/details/igor-moiseyev-ballet-yablochko-1982",
+    "year": 1982,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Red Poppy - Yablochko (1927)",
+    "url": "https://archive.org/details/the-red-poppy-yablochko-1927",
+    "year": 1927,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Yablochko (1946)",
+    "url": "https://archive.org/details/yablochko-1946",
+    "year": 1946,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Yablochko (1961)",
+    "url": "https://archive.org/details/yablochko-1961",
+    "year": 1961,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Talmud's Got to Go",
+    "url": "https://archive.org/details/youtube-XHLHDRUpuOA",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Pacific Fleet - Yablochko (1970)",
+    "url": "https://archive.org/details/pacific-fleet-yablochko-1970",
+    "year": 1970,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Reinhold Glière Orch. Adolf Schmid: Russian Sailors Dance from The Red Poppy",
+    "url": "https://archive.org/details/retnvt-Reinhold_Gliere_Orch._Adolf_Schmid_-_Russian_Sailors_Dance_from_The_Red_Poppy",
+    "year": 2017,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Naval striped shirts and naval caps with flying ribbons",
+   "Rapidly tapping leather boot heels kicking up floor dust",
+   "A garmoshka player's bellows expanding and contracting in rhythm",
+   "Low-angle camera tracks framing explosive prisiadka squat kicks"
+  ],
+  "costume_notes": "Yablochko is performed by dancers wearing naval sailor uniforms, complete with sailor caps referencing the naval pompom. Originally performed on ship decks, military grounds, and street corners, it transitioned into concert halls and theaters, famously featured on the Bolshoi Theatre stage and in the touring repertoire of the Moiseyev Ballet.",
+  "setting_notes": "Originally an outlet for revolutionary sailors and wartime soldiers, the dance accompanied biting political chastushkas during the Russian Civil War. During the Great Patriotic War, military units formed cultural brigades featuring their own versions of the dance to sustain morale. It functions as a celebratory demonstration of agility, humor, and collective naval identity.",
+  "map": {
+   "country": "Russia",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "49 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 49,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yablochko",
+  "https://www.wikidata.org/wiki/Q4535968",
+  "https://fr.wikipedia.org/wiki/Yablotchko",
+  "https://pt.wikipedia.org/wiki/Yablochko"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "3db8549c372c47d2854ebe73eae8e06a0caf0d9daf6a4d17654bf9c1fa0ca697",
+ "hero_checked": null
+}

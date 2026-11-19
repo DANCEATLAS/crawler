@@ -1,8 +1,8 @@
 # Dandiya Raas — episode pack
 
-*Status: withheld-chapters · built 2026-11-18 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional folk dance practitioner
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of the Sword
 NARRATION: This is Dandiya Raas. Historical to modern.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (8QY4uQseyKw)
 ON SCREEN: Title card: Dandiya Raas · India · Historical to modern
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Dancers operate in pairs, forming two lines that move clockwise.
 NARRATION: The basic movement involves an eight-beat cycle where dancers hit their own sticks, then their partner's right and left sticks, before moving on to the next partner in the line.
 NARRATION: Watch for stick-clashing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (8QY4uQseyKw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: two lines, partners facing each other, moving clockwise
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -99,7 +99,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '8QY4uQseyKw', 'checked_by_vision_model': False, 'title': 'DANDIYA RAAS || GROUP DANCE PERFORMANCE | DHOLIDA DHOL RE VAGAD | AMBA AAVO TO RAMIYE'}
 Images: 4 licensed — User:psubhashish / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Biswasmegha.bis / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Dogsrule0305 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ideasinimagining / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Dandiya Raas: A Folk dance form of Gujarat — https://archive.org/details/dni.ncaa.CCRT-156-UMHB; File:Raas Mahotsav, Gauhati University.webm — https://upload.wikimedia.org/wikipedia/commons/9/92/Raas_Mahotsav%2C_Gauhati_University.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Raas Mahotsav, Gauhati University,2025.webm — https://upload.wikimedia.org/wikipedia/commons/b/b6/Raas_Mahotsav%2C_Gauhati_University%2C2025.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Indian Dance performance — https://archive.org/details/dni.ncaa.ICCR-506-VHS; Serai Kalla Chhau Dance by Guru Kedar Nath Sahu and his disciples — https://archive.org/details/dni.ncaa.ICCR-488-VHS; Indian Dance and Music performance — https://archive.org/details/dni.ncaa.ICCR-789-VHS; The Bloomington Breakfast Club - Season 9 Episode 4 — https://archive.org/details/iustvin-The_Bloomington_Breakfast_Club_-_Season_9_Episode_4; Classical Dance: Manipuri Raas — https://archive.org/details/dni.ncaa.CCRT-388-BC
 Motifs: Wooden sticks, Navratri festival colors, Two lines of dancers
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: count the 8-beat bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Dandiya_Raas; https://www.wikidata.org/wiki/Q3629880

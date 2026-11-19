@@ -2,7 +2,7 @@
  "slug": "seis",
  "name": "Seis",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-11T18:24:53Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -188,7 +188,7 @@
     "narration": [
      "Before we go, one step. Form two parallel lines with partners facing each other.",
      "Step forward to approach the opposite line.",
-     "Count it: .",
+     "Count it: 1-2.",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -252,7 +252,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2.",
       "Rhythm pattern: syncopated bass and Cuban rhythms.",
       "Clap it first, then step it in place."
      ],
@@ -277,11 +277,11 @@
       "Drill: Practice walking in two parallel lines."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2",
      "repetitions": 3
     },
     {
@@ -297,7 +297,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2",
      "repetitions": 3
     },
     {
@@ -336,7 +336,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -400,7 +400,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2.",
       "Rhythm pattern: syncopated bass and Cuban rhythms.",
       "Clap it first, then step it in place."
      ],
@@ -423,11 +423,11 @@
       "Step 2: Step forward to approach the opposite line."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2",
      "repetitions": 3
     },
     {
@@ -444,7 +444,7 @@
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2",
      "repetitions": 3
     },
     {
@@ -482,7 +482,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2.",
       "Full tempo, the whole sequence, twice. Formation: two lines facing each other"
      ],
      "on_screen": [
@@ -546,7 +546,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2.",
       "Rhythm pattern: syncopated bass and Cuban rhythms.",
       "Clap it first, then step it in place."
      ],
@@ -569,11 +569,11 @@
       "Step 2: Tap the rhythm with the feet at prescribed intervals."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2",
      "repetitions": 3
     },
     {
@@ -588,7 +588,7 @@
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2",
      "repetitions": 3
     },
     {
@@ -626,7 +626,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2.",
       "Full tempo, the whole sequence, twice. Formation: two lines facing each other"
      ],
      "on_screen": [
@@ -824,41 +824,53 @@
   ]
  },
  "teaching_formula": {
-  "source": "41 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 41,
-  "counting": "",
-  "counting_basis": "missing",
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-2",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front",
+   "tempo progression: full"
   ],
   "cues": [
-   "1-2-3-4",
-   "5-6-7-8",
-   "1-2-left",
-   "2-2-right",
-   "step in front",
-   "step behind",
-   "levanto los talones hasta atrs",
-   "doble golpe con mi pie",
-   "pisada con toda la planta del pie",
-   "sin elevarme tanto",
-   "viene y",
-   "preparacin"
+   "atend",
+   "al frente",
+   "atrs"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
-   "full_demo",
    "breakdown",
-   "slow_practice",
-   "music_practice",
-   "recap"
+   "follow_along"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Sicá",
+    "counts": "basic step",
+    "description": "Traditional step for Sicá rhythm"
+   },
+   {
+    "name": "Cuembé",
+    "counts": "back and forth",
+    "description": "Step moving back and forward in a repeating pattern"
+   },
+   {
+    "name": "Yubá",
+    "counts": "1-2",
+    "description": "Basic step for Yubá rhythm"
+   },
+   {
+    "name": "Holandés",
+    "counts": "running-style",
+    "description": "Running-style step to enter the Batey"
+   },
+   {
+    "name": "Seis Corrido",
+    "counts": "6",
+    "description": "Bomba style from Loíza, Puerto Rico"
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
@@ -877,6 +889,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "44056ddeca05f4de8747546bf269debbe07651ad84b92ab7110d02bc1219c251",
+ "input_fingerprint": "fac3a088fce88ceb2f3942d49e6abc897fb5a75325aff9482dbbf201d3c12d19",
  "hero_checked": "fail"
 }

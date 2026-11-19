@@ -1,6 +1,6 @@
 # Striptease — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
 
@@ -329,7 +329,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the stage-contemporary family studied · videos studied: 11
+Source: 12 tutorial(s) of the stage-contemporary family studied · videos studied: 12
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer

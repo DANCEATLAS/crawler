@@ -2,9 +2,9 @@
  "slug": "chiapanecas",
  "name": "Chiapanecas",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
- "researched_at": "2026-11-05T19:04:39Z",
- "qc_score": 8.1,
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T20:02:05Z",
+ "qc_score": 8.7,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A local cultural historian or a traditional marimba player.",
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -61,7 +61,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Anthem of the Marimba",
+     "The Anthem of Chiapas",
      "This is Chiapanecas. 1897."
     ],
     "on_screen": [
@@ -75,8 +75,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The melody was composed in 1897 by Bulmaro López Fernández in Chiapa de Corzo, inspired by his fiancée's traditional dress.",
-     "Juan Arozamena later added lyrics and arranged the music for wider performance."
+     "The melody was composed by Bulmaro López Fernández in Chiapa de Corzo, inspired by his fiancée's attire.",
+     "Juan Arozamena later added the lyrics and popularized the piece.",
+     "The choreography and hand-clapping were added by performers as the piece gained popularity."
     ],
     "on_screen": [
      "Map: Mexico · Central America",
@@ -89,7 +90,7 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "It serves as an informal anthem for the state of Chiapas and is frequently performed at school events, festivals, and cultural celebrations.",
+     "The melody serves as an informal anthem for the state of Chiapas and is considered an emblematic representation of the region.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -102,7 +103,7 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Hand-clapping."
+     "Watch for hand-clapping."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (3oXy9_EV2jU)",
@@ -118,10 +119,9 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music is traditionally played on the marimba, a signature instrument of the region.",
-     "Notable recordings include those by the Hermanos Paniagua and the London Philharmonic Orchestra.",
-     "Listen for the marimba.",
-     "The music is defined by the bright, percussive resonance of the marimba, providing a rhythmic and melodic foundation that supports the vocal line."
+     "The music is traditionally played on the marimba, as evidenced by the 'Hermanos Paniagua' ensemble.",
+     "It has been arranged for various ensembles, including the London Philharmonic Orchestra.",
+     "Listen for the marimba."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -139,8 +139,7 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Dancers wear the traditional Traje de Chiapaneca, which originates from Chiapa de Corzo.",
-     "The costume is a central element of the performance's visual identity."
+     "Dancers wear the 'Traje de Chiapaneca', which is the traditional attire originating from Chiapa de Corzo."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -156,25 +155,23 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Bulmaro López Fernández (composer), Juan Arozamena (lyricist/arranger), Conchita Ramírez (dancer), Nat King Cole (performer).",
-     "While the melody is standard, various sets of lyrics have been proposed, including a version by Mercedes Leal Velasco in 1940, though the version attributed to Arozamena remains the most popular.",
-     "The dance is a product of 20th-century Mexican cultural synthesis, blending local marimba traditions with theatrical choreography."
+     "Bulmaro López Fernández (composer), Juan Arozamena (composer/lyricist), Conchita Ramírez (dancer), Nat King Cole (singer), Luis Cobos (conductor)."
     ],
     "on_screen": [
-     "Names on screen as they are spoken",
-     "Variant names as a small list"
+     "Names on screen as they are spoken"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "lineage"
+    ]
    },
    {
     "code": "family",
     "title": "Family tree",
     "duration_s": 40,
-    "narration": [
-     "Chiapanecas is shares music of Rumba: Performed by Conchita Ramírez during the same tour as Chiapanecas."
-    ],
+    "narration": [],
     "on_screen": [
-     "Graph: the connections with their relation labels"
+     "Connections — MISSING"
     ],
     "music": "underscore",
     "needs": [
@@ -200,7 +197,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover the story of a 19th-century love song that became the heartbeat of Chiapas.",
+     "Discover the origins of the melody that became the informal anthem of the Mexican state of Chiapas.",
      "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
@@ -215,17 +212,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn the basic rhythmic clapping pattern.",
-   "level": "beginner",
+   "goal": "the first steps of Chiapanecas",
+   "level": "not derivable yet",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn the basic rhythmic clapping pattern..",
-      "Level: beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local cultural historian or a traditional marimba player."
+      "Chapter 1 — First steps. Today: the first steps of Chiapanecas.",
+      "Level: not derivable yet. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -236,13 +233,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "The dance includes characteristic rhythmic hand-clapping."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -342,8 +340,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn the basic rhythmic clapping pattern..",
-      "It serves as an informal anthem for the state of Chiapas and is frequently performed at school events, festivals, and cultural celebrations.",
+      "You can now: the first steps of Chiapanecas.",
+      "The melody serves as an informal anthem for the state of Chiapas and is considered an emblematic representation of the region.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -366,8 +364,8 @@
      "duration_s": 45,
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of Chiapanecas.",
-      "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local cultural historian or a traditional marimba player."
+      "Level: intermediate. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -378,13 +376,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "The dance includes characteristic rhythmic hand-clapping."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -425,7 +424,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Hand-clapping: Rhythmic clapping used to accompany the melody."
+      "hand-clapping: The audience accompanies the melody with rhythmic hand-clapping."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -485,7 +484,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the building the dance of Chiapanecas.",
-      "Bulmaro López Fernández (composer), Juan Arozamena (lyricist/arranger), Conchita Ramírez (dancer), Nat King Cole (performer).",
+      "Bulmaro López Fernández (composer), Juan Arozamena (composer/lyricist), Conchita Ramírez (dancer), Nat King Cole (singer), Luis Cobos (conductor).",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -508,8 +507,8 @@
      "duration_s": 45,
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of Chiapanecas.",
-      "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local cultural historian or a traditional marimba player."
+      "Level: advanced. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -520,13 +519,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "The dance includes characteristic rhythmic hand-clapping."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -567,7 +567,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Hand-clapping: Rhythmic clapping used to accompany the melody."
+      "hand-clapping: The audience accompanies the melody with rhythmic hand-clapping."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -627,7 +627,6 @@
      "duration_s": 40,
      "narration": [
       "You can now: the dancing it fully of Chiapanecas.",
-      "The dance is a product of 20th-century Mexican cultural synthesis, blending local marimba traditions with theatrical choreography.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -652,14 +651,14 @@
   "vocal_style": null,
   "musical_form": null,
   "mood": [
-   "festive",
-   "anthemic"
+   "emblematic",
+   "traditional"
   ],
-  "sound_description": "The music is defined by the bright, percussive resonance of the marimba, providing a rhythmic and melodic foundation that supports the vocal line.",
+  "sound_description": null,
   "listen_before_composing": [
    "Cole en Español — Nat King Cole"
   ],
-  "prompt": "Original instrumental composition in the musical world of Chiapanecas (Mexico). Instruments: marimba. Mood: festive, anthemic. It should sound like this: The music is defined by the bright, percussive resonance of the marimba, providing a rhythmic and melodic foundation that supports the vocal line. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Chiapanecas (Mexico). Instruments: marimba. Mood: emblematic, traditional. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -701,7 +700,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Dancers wear the traditional Traje de Chiapaneca, which originates from Chiapa de Corzo. The costume is a central element of the performance's visual identity.",
+   "from_sources": "Dancers wear the 'Traje de Chiapaneca', which is the traditional attire originating from Chiapa de Corzo.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -713,12 +712,12 @@
   "images": [],
   "footage": [],
   "motifs": [
-   "The embroidered Traje de Chiapaneca",
-   "Marimba players",
-   "The Exconvento Santo Domingo de Guzmán"
+   "Traje de Chiapaneca",
+   "Marimba",
+   "Exconvento Santo Domingo de Guzmán"
   ],
-  "costume_notes": "Dancers wear the traditional Traje de Chiapaneca, which originates from Chiapa de Corzo. The costume is a central element of the performance's visual identity.",
-  "setting_notes": "It serves as an informal anthem for the state of Chiapas and is frequently performed at school events, festivals, and cultural celebrations.",
+  "costume_notes": "Dancers wear the 'Traje de Chiapaneca', which is the traditional attire originating from Chiapa de Corzo.",
+  "setting_notes": "The melody serves as an informal anthem for the state of Chiapas and is considered an emblematic representation of the region.",
   "map": {
    "country": "Mexico",
    "region": "Central America",
@@ -793,7 +792,9 @@
   "a verified recording to listen to",
   "licensed images (3 needed)",
   "licensed reference footage",
+  "posture, arms and hands",
   "the how-it-is-danced section",
+  "lineage",
   "two or more connections",
   "teaching steps written out"
  ],
@@ -805,6 +806,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "eadb38bd0563596d9c655866c81ee252ae522a3e70baaff42ca18601b421de81",
+ "input_fingerprint": "2f69ad65bb8ac418bc5a3188d3ab9364e75d5d1c16e5e18738d12a75205faf2c",
  "hero_checked": "pass"
 }

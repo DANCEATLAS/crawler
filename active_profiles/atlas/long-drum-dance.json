@@ -1,13 +1,59 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Horseshoe shape, circle, single file, or seated drummers surrounded by dancers.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Frame drum",
+        "Qilaut",
+        "Suayaq",
+        "Kilaun",
+        "Dream drum",
+        "Horn rattle"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Spiritual",
+        "Social",
+        "Endurance"
+      ],
+      "musical_form": "Strophic form (Inuit).",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "Singing and chanting."
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e467207d8f17728763fd5f722aafd57bcf5ba472973d1126dc4cb0894f985158",
+  "fingerprint": "3f70c0c05b13e72726341efd033748fa2276193953344095ee9f6d606bccc815",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +61,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Does the Yao Long Drum Dance (Changgu) share technical or historical lineage with the drum dances described in the provided source? Evidence needed: Ethnographic records of Yao cultural practices."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +91,18 @@
   ],
   "music_options": [],
   "name": "Long Drum Dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1a337352bf7e1cab",
+      "next_evidence": "Ethnographic records of Yao cultural practices.",
+      "question": "Does the Yao Long Drum Dance (Changgu) share technical or historical lineage with the drum dances described in the provided source?",
+      "source": "https://en.wikipedia.org/wiki/Drum_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source only covers North American, African, and PNG drum dances, leaving the Yao tradition unaddressed."
+    }
+  ],
+  "research_file": "research_results/long-drum-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +113,9 @@
   },
   "slug": "long-drum-dance",
   "sources": [
-    "https://www.travelchina1.com/thread/Long-Drum-Dance-of-Yao-Nationality.html",
-    "https://en.wikipedia.org/wiki/Dance_of_the_Yao_People"
+    "https://en.wikipedia.org/wiki/Drum_dance",
+    "https://www.wikidata.org/wiki/Q109482960"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

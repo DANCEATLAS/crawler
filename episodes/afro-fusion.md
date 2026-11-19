@@ -1,6 +1,6 @@
 # Afro fusion — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; posture, arms and hands; signature moves; the costume & setting section; teaching steps written out
 
@@ -11,16 +11,16 @@
 ## Episode 1 · Meet Afro fusion · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Rhythm of Resistance: Afro Fusion
-NARRATION: This is Afro fusion. 20th and 21st century.
+NARRATION: This is the rhythm of resistance: Afro fusion.
+NARRATION: We explore the 20th and 21st centuries.
 ON SCREEN: Hero video, first 10 seconds (V003vlc4Joo)
 ON SCREEN: Title card: Afro fusion · South Africa · 20th and 21st century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Afro fusion emerged in South Africa during the 1970s, pioneered by Sylvia Glasser.
-NARRATION: It was developed as a contemporary dance vocabulary that challenged the racial segregation of the apartheid era.
-NARRATION: The musical style evolved from earlier South African jazz and mbaqanga traditions, gaining institutional support and global recognition by the early 2000s.
+NARRATION: Sylvia Glasser pioneered Afro fusion in South Africa during the 1970s.
+NARRATION: This contemporary dance vocabulary challenged racial segregation under apartheid.
+NARRATION: The style evolved from South African jazz and mbaqanga, gaining global recognition by the early 2000s.
 ON SCREEN: Map: South Africa · Africa
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
@@ -34,19 +34,19 @@ ON SCREEN: Footage: File:Afro-Fusion Artist Irene Ntale Talks Uganda’s Vibrant
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: The dance style is a hybrid of African movement and Western contemporary techniques.
-NARRATION: It incorporates somatic practices like the Alexander Technique and release work, combined with traditional African dance styles such as kwassa kwassa and pantsula.
-NARRATION: Choreography often emphasizes a fusion of ritualistic movement and modern contemporary forms.
+NARRATION: This style blends African movement with Western contemporary techniques.
+NARRATION: It incorporates somatic practices like the Alexander Technique and release work, alongside traditional styles like kwassa kwassa and pantsula.
+NARRATION: Choreography emphasizes a fusion of ritualistic movement and modern forms.
 ON SCREEN: Hero video full screen, 30–45 s (V003vlc4Joo)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Afro fusion music is an experimental crossover style blending traditional African music with jazz, hip hop, kwaito, reggae, soul, pop, kwela, blues, and rock.
-NARRATION: Songs are frequently multilingual, incorporating African languages alongside English, French, or Spanish.
-NARRATION: Listen for the Guitar, Brass, Percussion.
-NARRATION: A blend of traditional African music with Western genres like jazz, pop, and rock, characterized by multilingual vocals and experimental arrangements.
+NARRATION: Afro fusion music blends traditional African sounds with jazz, hip hop, kwaito, reggae, soul, pop, kwela, blues, and rock.
+NARRATION: Songs are multilingual, mixing African languages with English, French, or Spanish.
+NARRATION: Listen for the guitar, brass, and percussion.
+NARRATION: Experimental arrangements characterize this blend of traditional African music with Western genres.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Listen later: Waka Waka (This Time for Africa) — Shakira and Freshlyground; Zulu Screams — GoldLink; Diaspora — GoldLink (2019)
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -60,16 +60,16 @@ MUSIC: underscore
 NEEDS: costume_and_setting
 
 ### 7. The people (60 s) · `people`
-NARRATION: Sylvia Glasser, Vincent Mantsoe, Gregory Maqoma, Ray Phiri, Miriam Makeba, Hugh Masekela, Tsepo Tshola, and the band Freshlyground.
-NARRATION: While originating in South Africa, the style has seen significant development in Kenya, particularly through the support of the Alliance Française de Nairobi.
-NARRATION: The style descends from a blend of traditional African dance, mbaqanga, jazz, and Western contemporary dance techniques like the Graham technique.
+NARRATION: Key figures include Sylvia Glasser, Vincent Mantsoe, Gregory Maqoma, Ray Phiri, Miriam Makeba, Hugh Masekela, Tsepo Tshola, and the band Freshlyground.
+NARRATION: The style has developed significantly in Kenya, supported by the Alliance Française de Nairobi.
+NARRATION: It descends from traditional African dance, mbaqanga, jazz, and Western techniques like the Graham method.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Afro fusion is influence of Mbaqanga: A foundational South African genre that heavily influenced the musical development of Afro fusion.
-NARRATION: Afro fusion is influence of Pantsula: An indigenous South African dance style incorporated into the Afro fusion movement vocabulary.
+NARRATION: Mbaqanga is a foundational South African genre that influenced Afro fusion's musical development.
+NARRATION: Pantsula is an indigenous South African dance style incorporated into the movement vocabulary.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -81,7 +81,7 @@ NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how Sylvia Glasser and a generation of South African artists turned dance into a tool for liberation.
-NARRATION: Sources: 2 references are listed with the profile.
+NARRATION: Two references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -121,9 +121,9 @@ COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Perform Step A and Step B without stopping, starting slowly.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor mirrors you, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -184,9 +184,9 @@ COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Perform Step A and Step B without stopping, starting slowly.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor mirrors you, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -247,9 +247,9 @@ COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Perform Step A and Step B without stopping, starting slowly.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor mirrors you, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full

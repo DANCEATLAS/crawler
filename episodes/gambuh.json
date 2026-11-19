@@ -2,7 +2,7 @@
  "slug": "gambuh",
  "name": "Gambuh",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-18T18:27:14Z",
  "qc_score": 8.85,
  "status": "withheld-chapters",
@@ -64,7 +64,7 @@
      "This is Gambuh. 15th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (DCKt1c3YB-Y)",
      "Title card: Gambuh · Indonesia · 15th century"
     ],
     "music": "theme (30 s)"
@@ -102,7 +102,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (DCKt1c3YB-Y)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -259,7 +259,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "DCKt1c3YB-Y",
+   "checked_by_vision_model": true,
+   "title": "Gambuh Masutasoma"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -363,12 +367,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 4,
+  "source": "6 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 6,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, mirror, back",
+   "views used by most teachers: front, back, mirror",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
@@ -378,6 +382,10 @@
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
+   "loosen those hips",
+   "connect with the earth",
+   "knees have to be bent",
+   "arms and your hands are free",
    "one two",
    "over and spin"
   ],
@@ -397,7 +405,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage",
   "the how-it-is-danced section",
   "signature moves",
@@ -411,6 +418,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "da247e7b592bf4eb46dfa4ce36254f84e7a5e6f4da38c100eb64661add7a506a",
- "hero_checked": null
+ "input_fingerprint": "125e17329349ec568babab87d4b97375f79125a533118f05f3ea4d1418999cef",
+ "hero_checked": "pass"
 }

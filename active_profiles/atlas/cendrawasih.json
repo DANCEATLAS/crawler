@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "En pointe footwork",
+          "Long sustained endurance sequences"
+        ],
+        "counts": "4-count wing flaps and 8-count bird runs.",
+        "duration_minutes": "2",
+        "game_version": "Bird flight game: children hold silk scarves as wings and mimic perching and fluttering."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "En pointe standing",
+          "Fast running passes",
+          "Sudden direction shifts"
+        ],
+        "counts": "Simple 4-count wing opens and closes.",
+        "seated_version": "Perform arm wing extensions and head tilts while seated in a supportive chair.",
+        "standing_version": "Execute wing movements while standing near a barre without rising en pointe.",
+        "tempo_and_range": "Reduce step speed and avoid full en pointe extensions."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Wing formation using costume trailing skirts.",
+          "source": "https://en.wikipedia.org/wiki/Cendrawasih_dance"
+        },
+        {
+          "description": "En pointe balancing poses representing birds perching.",
+          "source": "https://en.wikipedia.org/wiki/Cendrawasih_dance"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms extend wide holding long flowing skirts or scarves to imitate bird wings.",
+      "difficulty": "advanced",
+      "footwork": "Includes standing en pointe and light fluttering running steps across the floor.",
+      "formation_and_space": "Duet space interaction simulating avian courtship pathways.",
+      "hips_and_torso": "Flexed and responsive body posture matching avian movements.",
+      "levels_and_jumps": "Rises to en pointe stance; no dramatic high jumps described.",
+      "partnering": "Two female dancers interacting closely, representing male and female birds fluttering and flirting.",
+      "posture": "Upright, delicate, with expressive head tilts and en pointe balance poses.",
+      "signature_moves": [
+        {
+          "description": "Holding extended skirt edges to form wide avian wing structures.",
+          "name": "Wing Extension"
+        },
+        {
+          "description": "Rising en pointe to represent perching or hovering birds.",
+          "name": "En Pointe Pose"
+        },
+        {
+          "description": "Rapid running patterns that cause trailing pink-striped scarves to flutter behind.",
+          "name": "Flight Run"
+        }
+      ],
+      "tempo_feel": "Aerobic, energetic, and rapid with sudden pauses.",
+      "what_to_avoid": "Avoid rigid arm holds that collapse the fabric wings or heavy steps that disrupt the buoyant flight illusion."
+    },
+    "music_profile": {
+      "instruments": [
+        "Gamelan instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "courtly",
+        "flirtatious",
+        "bird-like"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "sound description not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Grasp trailing skirt edges with fingertips to extend wings",
+        "Rise onto toes (en pointe) while maintaining low core stability",
+        "Perform fluttering quick runs to create skirt movement symbolizing flight",
+        "Execute responsive flirtatious head turns and glances facing partner"
+      ],
+      "formation": "Duet (two female dancers portraying male and female birds)",
+      "level_notes": "Requires high cardiovascular endurance (average heart rate 157 bpm), ankle strength for en pointe work, and precise prop manipulation.",
+      "rhythm": "Dynamic Balinese gamelan tempos supporting avian gestures"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "efa44a7de7aebb0de8841d8e3b44c41919743cc014ac1227d306e01d4a3c2564",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step counts and transition signals used between the two dancers during the courtship interaction? Evidence needed: Frame-by-frame video analysis of standard 1988 choreography performance."
+    ]
+  },
+  "id": "atlas:cendrawasih",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Cendrawasih",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "2faf899638260504",
+      "next_evidence": "Frame-by-frame video analysis of standard 1988 choreography performance.",
+      "question": "What are the exact step counts and transition signals used between the two dancers during the courtship interaction?",
+      "source": "https://en.wikipedia.org/wiki/Cendrawasih_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow precise interactive movement tracking and rhythm sync in digital lessons."
+    }
+  ],
+  "research_file": "research_results/cendrawasih.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "cendrawasih",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cendrawasih_dance",
+    "https://www.wikidata.org/wiki/Q18559945",
+    "https://fr.wikipedia.org/wiki/Cendrawasih"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

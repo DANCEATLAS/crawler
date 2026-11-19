@@ -1,8 +1,8 @@
 # Dalkhai — episode pack
 
-*Status: withheld-chapters · built 2026-11-18 · judge 8.8 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 8.8 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local cultural practitioner from the Sambalpur region
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: During the Bhaijauntia festival, women dance outside the temple of the mother goddess while praying for their brothers' longevity, marking the transition of the autumn season.
 NARRATION: This is Dalkhai. 20th-21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (2laK55HziT4)
 ON SCREEN: Title card: Dalkhai · India · 20th-21st century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance is performed by women who move to the rhythm of the music while shouting 'Dalkhai Bo!' at the start and end of song stanzas.
 NARRATION: Male dancers participate by engaging in playful interaction with the women.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (2laK55HziT4)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '2laK55HziT4', 'checked_by_vision_model': True, 'title': 'Dalkhai Sambalpuri Folk Dance performance at OTB 2018 in Bhubaneswar'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Sambalpuri sarees, Earthen pitchers, Traditional percussion instruments
@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (3): https://en.wikipedia.org/wiki/Dalkhai; https://www.wikidata.org/wiki/Q5211077; https://archive.org/details/celebrationoflif0000pani

@@ -2,7 +2,7 @@
  "slug": "innaby",
  "name": "Innaby",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-18T19:34:23Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Innaby. Early 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (QYtzcCP8lLg)",
      "Title card: Innaby · Azerbaijan · Early 20th century"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "It is performed in a 6/8 time signature, which typically involves a swaying or skipping feel in Azerbaijani folk traditions."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (QYtzcCP8lLg)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -710,7 +710,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "QYtzcCP8lLg",
+   "checked_by_vision_model": false,
+   "title": "İnnabı Rəqsi (Qara Zurna)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -745,8 +749,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "41 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 41,
+  "source": "49 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 49,
   "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -756,6 +760,8 @@
   ],
   "cues": [
    "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
    "5-6-7-8",
    "1-2-left",
    "2-2-right",
@@ -764,9 +770,7 @@
    "levanto los talones hasta atrs",
    "doble golpe con mi pie",
    "pisada con toda la planta del pie",
-   "sin elevarme tanto",
-   "viene y",
-   "preparacin"
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -784,7 +788,7 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -799,6 +803,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "78c20c2f0bdba9437b2b1598e17498dc2f3ff4389837614e5c25c1003325ca7e",
- "hero_checked": null
+ "input_fingerprint": "00123c78d8aed2b21392e0dcac55fd0a85ac4bbeefec37a6b9f6717d3bee5ced",
+ "hero_checked": "fail"
 }

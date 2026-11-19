@@ -1,0 +1,125 @@
+{
+ "slug": "nizamikos",
+ "qc_at": "2026-11-19T20:25:28Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 3.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Nizamikos"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "30"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "90"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Nizamikos is classified in global databases as a specific traditional form of Gr"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "232"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1059"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/2 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 10,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Nizamikos is classified in global databases as a specific traditional form of Greek dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile lacks any actual content, consisting entirely of statements that information is not described in sources. It fails specificity and teaching value."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=3.25",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-19T19:28:48Z"
+}

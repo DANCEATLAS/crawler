@@ -1,10 +1,10 @@
 {
  "slug": "clogging",
- "qc_at": "2026-11-02T14:49:11Z",
+ "qc_at": "2026-11-19T20:23:22Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -14,32 +14,32 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "77"
+   "detail": "82"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "196"
+   "detail": "128"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Clogging emerged from the 19th-century synthesis of Irish step dance, Black Amer"
+   "detail": "In 1928, Bascom Lamar Lunsford organized Asheville's Mountain Dance and Folk Fes"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "569"
+   "detail": "433"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2414"
+   "detail": "1539"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
   },
   {
    "gate": "citations",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "4 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -91,27 +91,28 @@
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 10,
+  "teaching_value": 9,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "Excellent, well-sourced profile with precise historical and technical detail."
+  "notes": "Comprehensive, highly specific, and entirely supported profile of American clogging."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=10.0"
+  "judge_score=9.85"
  ],
  "citation": {
   "claims": 6,
   "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-01T17:11:30Z"
+ "researched_at": "2026-11-19T19:53:54Z"
 }

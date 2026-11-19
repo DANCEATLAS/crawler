@@ -1,0 +1,862 @@
+{
+ "slug": "gair-dance",
+ "name": "Gair dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T18:54:37Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Rajasthani folk master who emphasizes communal coordination, rhythmic precision, and martial presence.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Gair dance",
+   "Gair Ghalna",
+   "Gair Ghumna",
+   "Gair Khelna",
+   "Gair Nachna"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Gair dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Swords, Skirts, and the Clashing Circles of Rajasthan",
+     "This is Gair dance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Gair dance · India · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Gair dance emerged from the Bhil community in Rajasthan, India, and gradually gained widespread adoption across the entire state.",
+     "Although practiced by diverse communities across Rajasthan, it has developed especially strong roots in the Mewar and Marwar regions.",
+     "The dance reflects enduring communal heritage and martial traditions, with local lore suggesting historic connections to scenes from the war front."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Gair dance is closely associated with major festive occasions, prominently the spring festival of Holi during February and March, as well as Janmashtami.",
+     "Locals consider Janmashtami incomplete without the staging of Gair.",
+     "Although staged at any time for entertainment, the dance carries symbolic associations with warfare, appearing to evoke battlefield maneuvers.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Jugalbandi of Morchhang and Dholak, Gair Dance, Devotional Songs by Manganiar and Meghwal Musicians (https://archive.org/details/dni.ncaa.RS-600-MDV)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers perform in large circular formations, striking slender wooden sticks called khanda against those of other dancers.",
+     "When performed jointly by men and women, participants initially form two concentric rings, with the women comprising a smaller inner ring surrounded by the men.",
+     "The dancers move in a clockwise direction before reversing into a counter-clockwise path, coordinating their footwork with the striking of sticks and drumbeats.",
+     "Watch for Half-swirl, Khanda striking."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Large circular formations, often concentric, traveling clockwise and counter-clockwise"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical accompaniment for Gair dance relies on traditional Rajasthani percussion and wind instruments.",
+     "The ensemble features the dhol, nagada, and dholak, which establish the driving percussive rhythm, alongside the flute.",
+     "Listen for the Dhol, Nagada, Dholak, Flute.",
+     "A driving percussive soundscape anchored by the resonance of dhol, dholak, and nagada drums, intertwined with melodious flute lines and the sharp, consistent rhythmic clacking of wooden khanda sticks or swords."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Vigorous, consistent pulse driven by synchronized stick striking and drumbeats"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Men generally wear long, pleated tunics designed to flare out into full-length skirts during spins and half-swirls.",
+     "Bhil dancers wear brightly coloured traditional attire and may carry accessories including arrows, swords, and wooden sticks.",
+     "The sticks, known as khanda, are harvested from the Gundi tree, require minimal cleaning, and are cut thin and light to enhance speed and visual flare."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Regional styles of Gair vary by rhythm, circular formations, and attire across Rajasthan.",
+     "Gair originated directly from the folk dances of the indigenous Bhil community of Rajasthan, later branching into regional variants like Dandi Gair and Geendad across various communities."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Gair dance is variant of Dandi Gair: A regional variant of Gair dance found in the Marwar region of Rajasthan.",
+     "Gair dance is variant of Geendad: A regional variant of Gair dance performed in the Shekhawati region of Rajasthan."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form two concentric circles, with women in the inner circle and men in the outer circle",
+     "Step rhythmically in a clockwise direction while striking khanda sticks in time with the drums",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the high-energy stick dance born of Rajasthan's Bhil community, where concentric circles, flowing skirts, and wooden blades evoke ancient martial valor.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master basic circle travel and stick strikes",
+   "level": "Novice",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master basic circle travel and stick strikes.",
+      "Level: Novice. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced Rajasthani folk master who emphasizes communal coordination, rhythmic precision, and martial presence."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Striking slender khanda sticks together or wielding swords and arrows",
+      "Half-swirl rotations that open out the pleated tunics"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Vigorous, consistent pulse driven by synchronized stick striking and drumbeats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form two concentric circles, with women in the inner circle and men in the outer circle",
+      "Step 2: Step rhythmically in a clockwise direction while striking khanda sticks in time with the drums",
+      "Footwork from the sources: Series of intricate pattern steps and directional circle changes",
+      "Drill: Step to a steady drum beat in a clockwise ring"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Reverse direction to travel counter-clockwise around the circle",
+      "Step 4: Execute half-swirl turns to flare the pleated tunic or skirt",
+      "Drill: Synchronize a two-hand stick tap with a partner on the beat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Reverse direction smoothly to travel counter-clockwise"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid careless stick or sword handling that could cause injury during close circular passes."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform stick striking patterns while seated in a circle, coordinating strikes with neighbors on the drum pulse without foot travel. · For children: A rhythmic ring game where children pass or strike lightweight sticks to the dhol beat, changing direction when the drum accent sounds."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform stick striking patterns while seated in a circle, coordinating strikes with neighbors on the drum pulse without foot travel.",
+      "For children: A rhythmic ring game where children pass or strike lightweight sticks to the dhol beat, changing direction when the drum accent sounds."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master basic circle travel and stick strikes.",
+      "Gair dance is closely associated with major festive occasions, prominently the spring festival of Holi during February and March, as well as Janmashtami.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate half-swirls and directional switching",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate half-swirls and directional switching.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced Rajasthani folk master who emphasizes communal coordination, rhythmic precision, and martial presence."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Striking slender khanda sticks together or wielding swords and arrows",
+      "Half-swirl rotations that open out the pleated tunics"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Vigorous, consistent pulse driven by synchronized stick striking and drumbeats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Switch circle layers, moving men into the inner circle and women to the outer ring",
+      "Drill: Execute a controlled half-swirl turn while maintaining foot placement"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Half-swirl: A rotational turning movement that causes the pleated skirts of the tunic to flare outward.",
+      "Khanda striking: Rhythmic beating together of wooden sticks cut from the Gundi tree to determine tempo and invoke martial scenes.",
+      "Drill: Coordinate the half-swirl with an upward stick strike"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice concentric circle passing to exchange inner and outer rings"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid careless stick or sword handling that could cause injury during close circular passes."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform stick striking patterns while seated in a circle, coordinating strikes with neighbors on the drum pulse without foot travel. · For children: A rhythmic ring game where children pass or strike lightweight sticks to the dhol beat, changing direction when the drum accent sounds."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform stick striking patterns while seated in a circle, coordinating strikes with neighbors on the drum pulse without foot travel.",
+      "For children: A rhythmic ring game where children pass or strike lightweight sticks to the dhol beat, changing direction when the drum accent sounds."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Large circular formations, often concentric, traveling clockwise and counter-clockwise"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate half-swirls and directional switching.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform intricate footwork and martial styling",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform intricate footwork and martial styling.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced Rajasthani folk master who emphasizes communal coordination, rhythmic precision, and martial presence."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Striking slender khanda sticks together or wielding swords and arrows",
+      "Half-swirl rotations that open out the pleated tunics"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Vigorous, consistent pulse driven by synchronized stick striking and drumbeats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute half-swirl turns to flare the pleated tunic or skirt",
+      "Step 2: Switch circle layers, moving men into the inner circle and women to the outer ring",
+      "Drill: Accelerate footwork to complex rhythmic patterns"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Half-swirl: A rotational turning movement that causes the pleated skirts of the tunic to flare outward.",
+      "Khanda striking: Rhythmic beating together of wooden sticks cut from the Gundi tree to determine tempo and invoke martial scenes.",
+      "Drill: Wield dual implements (sword and khanda) with balanced hand control"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintain rapid continuous striking throughout dynamic circle swaps"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid careless stick or sword handling that could cause injury during close circular passes."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform stick striking patterns while seated in a circle, coordinating strikes with neighbors on the drum pulse without foot travel. · For children: A rhythmic ring game where children pass or strike lightweight sticks to the dhol beat, changing direction when the drum accent sounds."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform stick striking patterns while seated in a circle, coordinating strikes with neighbors on the drum pulse without foot travel.",
+      "For children: A rhythmic ring game where children pass or strike lightweight sticks to the dhol beat, changing direction when the drum accent sounds."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Large circular formations, often concentric, traveling clockwise and counter-clockwise"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform intricate footwork and martial styling.",
+      "Gair originated directly from the folk dances of the indigenous Bhil community of Rajasthan, later branching into regional variants like Dandi Gair and Geendad across various communities.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Vigorous, consistent pulse driven by synchronized stick striking and drumbeats",
+  "instruments": [
+   "Dhol",
+   "Nagada",
+   "Dholak",
+   "Flute"
+  ],
+  "vocal_style": "Melodious traditional song",
+  "musical_form": null,
+  "mood": [
+   "vigorous",
+   "festive",
+   "martial",
+   "enchanting"
+  ],
+  "sound_description": "A driving percussive soundscape anchored by the resonance of dhol, dholak, and nagada drums, intertwined with melodious flute lines and the sharp, consistent rhythmic clacking of wooden khanda sticks or swords.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Gair dance (India). Rhythm pattern: Vigorous, consistent pulse driven by synchronized stick striking and drumbeats. Instruments: Dhol, Nagada, Dholak, Flute. Vocal style: Melodious traditional song. Mood: vigorous, festive, martial, enchanting. It should sound like this: A driving percussive soundscape anchored by the resonance of dhol, dholak, and nagada drums, intertwined with melodious flute lines and the sharp, consistent rhythmic clacking of wooden khanda sticks or swords. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Men generally wear long, pleated tunics designed to flare out into full-length skirts during spins and half-swirls. Bhil dancers wear brightly coloured traditional attire and may carry accessories including arrows, swords, and wooden sticks. The sticks, known as khanda, are harvested from the Gundi tree, require minimal cleaning, and are cut thin and light to enhance speed and visual flare. In certain variants, dancers carry a naked sword in one hand paired with a wooden sword or stick in the other.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAn_important_festival_of_the_region_with_special_celebration%3B_colorfully_attired_tribesmen_carrying_sticks%2C_performing_the_Gair_dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGair_dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGair_Dancer.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/An_important_festival_of_the_region_with_special_celebration%3B_colorfully_attired_tribesmen_carrying_sticks%2C_performing_the_Gair_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/An_important_festival_of_the_region_with_special_celebration%3B_colorfully_attired_tribesmen_carrying_sticks%2C_performing_the_Gair_dance.jpg/1280px-An_important_festival_of_the_region_with_special_celebration%3B_colorfully_attired_tribesmen_carrying_sticks%2C_performing_the_Gair_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "pradeep kumar chatte… / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAn_important_festival_of_the_region_with_special_celebration%3B_colorfully_attired_tribesmen_carrying_sticks%2C_performing_the_Gair_dance.jpg",
+    "description": "An important festival of the region with special celebration; colorfully attired tribesmen carrying sticks, performing the Gair dance."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Gair_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gair_dance.jpg/1280px-Gair_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Siddharth 36 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGair_dance.jpg",
+    "description": "gair dance is performed by tribal people from across rajasthan state of india . they wore red and white traditional attire with stick in both hand  and other instrument also they circle around dance by sticking stick with  neighbor   performer"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Gair_Dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Gair_Dancer.jpg/1280px-Gair_Dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manojmeena / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGair_Dancer.jpg",
+    "description": "Gair dance is a traditional folk dance from Rajasthan, India, performed by men wearing long skirts and turbans, carrying sticks, and forming a circle. They stamp their feet, twirl their sticks, and engage in mock fights while accompanied by traditional music. It is performed during festive occasions and celebrates the bravery of the Rajasthani people."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gair_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Gair_Dance.jpg/1280px-Gair_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manojmeena / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGair_Dance.jpg",
+    "description": "Gair dance is a traditional folk dance from Rajasthan, India, performed by men wearing long skirts and turbans, carrying sticks, and forming a circle. They stamp their feet, twirl their sticks, and engage in mock fights while accompanied by traditional music. It is performed during festive occasions and celebrates the bravery of the Rajasthani people."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Jugalbandi of Morchhang and Dholak, Gair Dance, Devotional Songs by Manganiar and Meghwal Musicians",
+    "url": "https://archive.org/details/dni.ncaa.RS-600-MDV",
+    "year": 2012,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Spinning pleated tunics opening like umbrellas",
+   "Thin wooden khanda sticks meeting in percussive clashes",
+   "Gleaming swords flashing in sunlight during festive Holi celebrations"
+  ],
+  "costume_notes": "Men generally wear long, pleated tunics designed to flare out into full-length skirts during spins and half-swirls. Bhil dancers wear brightly coloured traditional attire and may carry accessories including arrows, swords, and wooden sticks. The sticks, known as khanda, are harvested from the Gundi tree, require minimal cleaning, and are cut thin and light to enhance speed and visual flare. In certain variants, dancers carry a naked sword in one hand paired with a wooden sword or stick in the other.",
+  "setting_notes": "Gair dance is closely associated with major festive occasions, prominently the spring festival of Holi during February and March, as well as Janmashtami. Locals consider Janmashtami incomplete without the staging of Gair. Although staged at any time for entertainment, the dance carries symbolic associations with warfare, appearing to evoke battlefield maneuvers.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "49 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 49,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gair_dance",
+  "https://www.wikidata.org/wiki/Q5517326"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "ca4c643fcd775b4151b668930250dfe6a4f14ed798c371601425b48ee3f7f47e",
+ "hero_checked": null
+}

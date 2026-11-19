@@ -1,8 +1,8 @@
 # Alarippu — episode pack
 
-*Status: withheld-chapters · built 2026-11-18 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A disciplined and serene senior guru who emphasizes precision over speed.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Architecture of a Flower
 NARRATION: This is Alarippu. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (vxJ8rgBtAmE)
 ON SCREEN: Title card: Alarippu · India · 19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance starts with the feet together (Samapada) and progresses thr
 NARRATION: It focuses on the coordination of the neck, eyes, and head.
 NARRATION: The movement begins with subtle isolations and builds into larger rhythmic patterns involving the arms and legs, following the beat of the mridangam.
 NARRATION: Watch for Griva Bheda, Araimandi.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (vxJ8rgBtAmE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Stationary or limited forward/backward movement on a single axis.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -101,7 +101,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'vxJ8rgBtAmE', 'checked_by_vision_model': True, 'title': 'Alarippu'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Alarippu.webm — https://upload.wikimedia.org/wikipedia/commons/9/9f/Alarippu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Dance Performance by Ms. Roopa Rajagopal — https://archive.org/details/dni.ncaa.ICCR-2124-VHS; Classical Dance performance (Vol.I) — https://archive.org/details/dni.ncaa.ICCR-997-VHS; Arangetram: Bharatnatyam Recital by Ms. Parul Pandya — https://archive.org/details/dni.ncaa.ICCR-2186-VHS; Bharatnatyam Recital by Ms. Roopa Rajagopal — https://archive.org/details/dni.ncaa.ICCR-2316-VHS; Bharatnatyam Recital by Ms. V. Subha — https://archive.org/details/dni.ncaa.ICCR-2479-VHS; Bharatnatyam Recital by Ms. Corneliya Punj — https://archive.org/details/dni.ncaa.ICCR-2719-VHS
 Motifs: Opening flower buds, Geometric lines of the arms, The rhythmic strike of the mridangam, Dust rising from the floor during footwork
@@ -111,9 +111,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 7 tutorial(s) of the classical-court family studied · videos studied: 7
+Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: count the Variable (3, 4, 5, 7, or 9 beats depending on the Jathi) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs
+Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
 
 Sources (2): https://en.wikipedia.org/wiki/Alarippu; https://www.wikidata.org/wiki/Q4708379

@@ -1,10 +1,10 @@
 {
  "slug": "chiapanecas",
- "qc_at": "2026-11-05T19:11:36Z",
+ "qc_at": "2026-11-19T20:23:39Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 8.1,
+ "qc_score": 8.7,
  "gates": [
   {
    "gate": "has_name",
@@ -19,12 +19,12 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "207"
+   "detail": "190"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Composed in 1897 by Bulmaro López Fernández, this melody evolved from a private "
+   "detail": "In 1942, the Venezuelan dancer Conchita Ramírez brought 'Las Chiapanecas' to the"
   },
   {
    "gate": "profile_len",
@@ -34,12 +34,12 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2795"
+   "detail": "2419"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures"
   },
   {
    "gate": "citations",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -88,9 +88,9 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
-  "specificity": 8,
+  "specificity": 9,
   "teaching_value": 3,
   "is_a_dance": true,
   "factual_doubt": [],
@@ -99,20 +99,20 @@
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 8,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is historically rigorous and well-sourced. However, it lacks practical teaching value because the actual dance steps are not documented in the provided evidence. It is a strong cultural profile but a weak instructional guide for a dancer."
+  "notes": "Profile is exceptionally well-supported by evidence claims and respects cultural context. Teaching details are sparse due to source limitations."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=8.1"
+  "judge_score=8.7"
  ],
  "citation": {
   "claims": 6,
   "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-05T19:04:39Z"
+ "researched_at": "2026-11-19T20:02:05Z"
 }

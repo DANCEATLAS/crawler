@@ -3,48 +3,52 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Aggressive arm movements",
-          "Pushing"
+          "Aggressive pushing",
+          "Fast-paced technical footwork"
         ],
-        "counts": "Simplified 1-2-3-4",
-        "duration_minutes": "2-3 minutes",
-        "game_version": "Follow-the-leader circle stroll."
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "5",
+        "game_version": "Follow-the-leader circle dance using the 'stroll' variation."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Jumping",
-          "Rapid changes in direction",
-          "Balance-heavy movements"
+          "Balance-heavy movements",
+          "Jumping"
         ],
-        "counts": "4/4 count",
-        "seated_version": "Seated rhythmic arm punches and leg tapping to the backbeat.",
-        "standing_version": "Supported standing sway with simplified arm movements.",
-        "tempo_and_range": "Reduced tempo, limited range of motion."
+        "counts": "4/4 count.",
+        "seated_version": "Perform the arm punches and side-to-side swaying while seated.",
+        "standing_version": "Perform the arm punches and swaying without the running-man leg motion.",
+        "tempo_and_range": "Reduced tempo to match reggae-style pacing."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Alternating bent-elbow fist-punches",
+      "arms_and_hands": "Alternating bent-elbow fist-punches, left and right.",
       "difficulty": "beginner",
-      "footwork": "Running-man motion",
-      "formation_and_space": "Circle pit or individual",
+      "footwork": "Running-man motion of the legs to the beat.",
+      "formation_and_space": "Dancers often form a circle or a 'pit'.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "not described in sources",
+      "partnering": "Not a partner dance; performed individually within a group.",
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Swaying from side to side with arms bent and marching in sync.",
+          "description": "Dancers move in a circle, swaying side to side with bent arms and marching in sync.",
           "name": "Stroll"
         },
         {
-          "description": "Fast, technical movements used in drum and bass.",
-          "name": "X-stepping"
+          "description": "A punk-style variation featuring sharp striking arm movements.",
+          "name": "Two-stepping"
         }
       ],
-      "tempo_feel": "Dictated by rhythm and genre",
-      "what_to_avoid": "Actual striking or hurting others in the pit."
+      "tempo_feel": "Varies by genre; slower for reggae, fast and technical for drum and bass.",
+      "what_to_avoid": "Actual striking or hurting other dancers; trampling those who fall."
     },
     "music_profile": {
       "instruments": [
@@ -57,23 +61,23 @@
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Backbeat on beats two and four",
-      "sound_description": "Ska music features a prominent backbeat played by the electric guitar on beats two and four of a 4/4 bar.",
+      "rhythm_pattern": "Prominent backbeat on beats two and four.",
+      "sound_description": "The music is defined by a strong backbeat played by the electric guitar on the second and fourth beats of a 4/4 bar.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Running-man leg motion",
-        "Alternating bent-elbow fist-punches"
+        "Running-man leg motion to the beat.",
+        "Alternating bent-elbow fist-punches, left and right."
       ],
-      "formation": "Individual or circle pit",
-      "level_notes": "Beginners should focus on matching the backbeat rhythm before increasing speed.",
-      "rhythm": "4/4 time with a backbeat on 2 and 4"
+      "formation": "Usually performed in a 'pit' or a circle.",
+      "level_notes": "Beginners should focus on the synchronization of the leg motion with the arm punches.",
+      "rhythm": "4/4 time with a prominent backbeat on beats two and four."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4baf5c56f175343a7d8f02716a4f20d23f6a73990b4c22de19a49090f0f653e0",
+  "fingerprint": "a8362c62804b49d0b50c22dd8cf69d0197c35f5fada7cee6e71c0e03592dd923",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -82,7 +86,8 @@
     ],
     "research": [
       "movement: posture",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, named historical dancers from the 1950s Jamaican dance halls who codified the early skank? Evidence needed: Documentary footage or interviews from the 1960s."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -109,7 +114,17 @@
   ],
   "music_options": [],
   "name": "Skank",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f965fc68ed3bf159",
+      "next_evidence": "Documentary footage or interviews from the 1960s.",
+      "question": "Are there specific, named historical dancers from the 1950s Jamaican dance halls who codified the early skank?",
+      "source": "https://en.wikipedia.org/wiki/Skank_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide historical depth and human connection to the origins."
+    }
+  ],
   "research_file": "research_results/skank.json",
   "runtime_active": false,
   "scope": {
@@ -127,5 +142,11 @@
     "https://it.wikipedia.org/wiki/Skank_(danza)"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/BBwafDLCiW4.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=BBwafDLCiW4"
+    }
+  ]
 }

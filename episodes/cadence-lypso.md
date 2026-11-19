@@ -1,6 +1,6 @@
 # Cadence-lypso — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -111,7 +111,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -173,7 +173,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -235,7 +235,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -298,9 +298,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 131 tutorials across the atlas studied · videos studied: 131
+Source: 1 tutorial(s) of the latin-caribbean family studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; rock step; 5-6-7-8; side close side; engage your core; right left right; slide; hit; 1-2-3-4-5-6-7-8; one and two; right behind right touch; lock your arms
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: mujeres; exhibela; abajo; desplazate; culebra; dile que no; dame una; sombrero
 
 Sources (3): https://en.wikipedia.org/wiki/Cadence-lypso; https://www.wikidata.org/wiki/Q2932658; https://fr.wikipedia.org/wiki/Cadence-lypso

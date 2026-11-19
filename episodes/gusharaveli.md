@@ -1,6 +1,6 @@
 # Gusharaveli — episode pack
 
-*Status: draft · built 2026-11-17 · judge 8.45 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 8.45 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -287,7 +287,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the african-diaspora family studied · videos studied: 13
+Source: 14 tutorial(s) of the african-diaspora family studied · videos studied: 14
 Counting: count the 2/2 bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees

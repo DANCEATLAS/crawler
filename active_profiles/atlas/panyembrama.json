@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Performers open the dance kneeling in prayer posture before executing slow welcoming gestures with gamelan music.",
+          "source": "https://en.wikipedia.org/wiki/Panyembrama"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Group performance by two or more young women moving in synchronized circles while throwing flowers at each other and the audience.",
+          "source": "https://en.wikipedia.org/wiki/Panyembrama"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Welcoming arm and hand gestures carried out while holding a silver or aluminium dish containing incense and flowers.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Group of two or more dancers on stage moving in circular formations during the finale.",
+      "hips_and_torso": "Controlled, slow movement accentuating the curves of the body.",
+      "levels_and_jumps": "Floor-level kneeling position transitioning to standing movement; no jumps described.",
+      "partnering": "Non-contact group synchronization, ending with dancers casting flowers at each other and the audience.",
+      "posture": "Slow, deliberate body posture accentuating physical curves, beginning from a kneeling prayer stance.",
+      "signature_moves": [
+        {
+          "description": "Performers open the dance in a kneeling position as if in prayer before rising to deliver welcoming gestures.",
+          "name": "Kneeling prayer opening"
+        },
+        {
+          "description": "Dancers move in circles and scatter fragrant flowers from their metal dishes over one another and into the audience.",
+          "name": "Flower tossing finale"
+        }
+      ],
+      "tempo_feel": "Slow and graceful.",
+      "what_to_avoid": "Avoid presenting sacred temple dances in secular tourist contexts without using designated secular forms like Panyembrama."
+    },
+    "music_profile": {
+      "instruments": [
+        "Gamelan"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "welcoming",
+        "graceful",
+        "ceremonial",
+        "festive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by a traditional Balinese gamelan ensemble, generating melodic bronze percussion structures that frame the slow, measured body curves and flower-throwing movements of the dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Kneel on the floor in a prayer-like opening posture holding a metal flower dish.",
+        "Rise slowly into standing posture, executing slow arm gestures welcoming guests.",
+        "Maintain accentuated torso and body posture to the rhythm of gamelan music.",
+        "Form circular group spatial paths while scattering flower petals toward guests."
+      ],
+      "formation": "Group of two or more dancers moving in unison and circular spatial paths",
+      "level_notes": "Taught in Balinese dance schools as an introductory classical welcoming dance.",
+      "rhythm": "Gamelan accompaniment with slow, measured tempo shifts"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "62a032223b40680c882e98c04df8123761689d3c9e3dc1e8bf48ba1cac956b37",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific footwork counts and leg positions transition the dancer from kneeling to standing in Panyembrama? Evidence needed: Video analysis or pedagogical manuals from Balinese dance conservatories (e.g., ISI Denpasar)."
+    ]
+  },
+  "id": "atlas:panyembrama",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Panyembrama",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "3cce172a29bd43e0",
+      "next_evidence": "Video analysis or pedagogical manuals from Balinese dance conservatories (e.g., ISI Denpasar).",
+      "question": "What specific footwork counts and leg positions transition the dancer from kneeling to standing in Panyembrama?",
+      "source": "https://en.wikipedia.org/wiki/Panyembrama",
+      "status": "candidate_unreviewed",
+      "why_needed": "Footwork details are missing from written sources, preventing exact motion breakdown for digital instruction."
+    }
+  ],
+  "research_file": "research_results/panyembrama.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "panyembrama",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Panyembrama",
+    "https://www.wikidata.org/wiki/Q18559952",
+    "https://fr.wikipedia.org/wiki/Panyembrama"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

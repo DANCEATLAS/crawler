@@ -1,13 +1,62 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Men hold and swing the lusheng while playing",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Concentric circles",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Courtship-based interaction between men and women",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Men swing the lusheng from side to side while playing",
+          "name": "Instrument swinging"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Playing the instrument between spring and autumn harvest"
+    },
+    "music_profile": {
+      "instruments": [
+        "Lusheng (bamboo mouth-organ)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "spiritual",
+        "melodic"
+      ],
+      "musical_form": "Polyphonic",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A polyphonic, bright, and resonant sound produced by multiple bamboo pipes of varying lengths, often played in groups to create a layered, harmonic texture.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Antiphonal singing often accompanies the lusheng"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Concentric circular movement",
+        "Side-to-side swinging of the instrument while playing"
+      ],
+      "formation": "Concentric circles",
+      "level_notes": "Technique not described in sources",
+      "rhythm": "Polyphonic, dictated by the lusheng melody"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "816c1139381420bda199665b636e8ef965def432ae0c69b51223e54b446800f9",
+  "fingerprint": "d908c6bca6ced24322d754426345debcee5144d0a32e482db9c34869a83de69c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +64,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific named footwork patterns for the concentric circle dance? Evidence needed: Ethnographic field studies of Miao festival dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +94,18 @@
   ],
   "music_options": [],
   "name": "Lusheng Dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0885e16956dccdec",
+      "next_evidence": "Ethnographic field studies of Miao festival dance.",
+      "question": "Are there specific named footwork patterns for the concentric circle dance?",
+      "source": "https://en.wikipedia.org/wiki/Lusheng",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the formation but lack the technical footwork required for teaching."
+    }
+  ],
+  "research_file": "research_results/lusheng-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +116,10 @@
   },
   "slug": "lusheng-dance",
   "sources": [
-    "https://www.chinatravel.com/culture/lusheng-festival-of-miao-people",
-    "https://www.eguizhou.gov.cn/2025-01/10/c_1063759.htm"
+    "https://en.wikipedia.org/wiki/Lusheng",
+    "https://www.wikidata.org/wiki/Q1595537",
+    "https://de.wikipedia.org/wiki/Qeej"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

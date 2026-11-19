@@ -1,0 +1,808 @@
+{
+ "slug": "parayan-thullal",
+ "name": "Parayan Thullal",
+ "pack_version": "e2",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T19:13:33Z",
+ "qc_score": 9.45,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A calm, elder scholar-performer who speaks in measured tones and emphasizes the spiritual weight of every gesture.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Parayan Thullal"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Parayan Thullal",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Serpent's Morning Song",
+     "This is Parayan Thullal. 18th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Parayan Thullal · India · 18th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Parayan Thullal is one of the three major Thullal forms that emerged in Kerala, India.",
+     "It is part of a tradition of poetic performance that blends dance and storytelling.",
+     "Historically, these forms are linked to the cultural landscape of Kerala, specifically associated with figures like Mani Madhava Chakyar and institutions like Kerala Kalamandalam which have preserved the classical arts of the region."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Parayan Thullal is typically performed in the morning.",
+     "Unlike other Thullal forms that may focus on social satire, the stories in Parayan Thullal usually deal with spiritual matters and religious epics.",
+     "It serves as a medium for religious education and spiritual reflection through the arts.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The performance is characterized by a very slow tempo.",
+     "The dancer remains largely in an erect standing position with minimal footwork or complex dance sequences.",
+     "The primary focus is on the use of gestures to explain the literal and metaphorical meanings of the poetic verses being sung.",
+     "Watch for Erect Narrative Stance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo performer standing in a central position"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music of Parayan Thullal is defined by the use of the Sanskrit metre known as Mallika.",
+     "This metre dictates the slow, rhythmic delivery of the performance.",
+     "The pulse is Mallika metre.",
+     "A slow-paced vocal recitation of Sanskrit-influenced poetry, where the rhythm is governed by the Mallika metre, creating a steady and meditative atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Steady, slow rhythmic cycles dictated by the poetic verse"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The costume is highly specific, designed to resemble the serpent Shesha.",
+     "The performer wears a crown shaped like a snake and applies yellow paint to their face.",
+     "A red cloth is worn around the waist."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The tradition is associated with the broader history of Kerala's performing arts, which includes masters like Mani Madhava Chakyar and the pedagogical influence of the Kerala Kalamandalam institution.",
+     "Parayan Thullal is itself a variant within the Thullal tradition, distinct from Ottan Thullal (the most popular and fastest) and Sheethankan Thullal (medium tempo).",
+     "The dance is a subclass of Kerala dance and is categorized as a type of dance-drama and poetic performance form native to India."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Parayan Thullal is sibling of Ottan Thullal: One of the three major Thullal forms, known for a much faster tempo.",
+     "Parayan Thullal is sibling of Sheethankan Thullal: The third Thullal form, characterized by a medium tempo."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Assume an erect standing posture",
+     "Observe the Mallika metre rhythm",
+     "Count it: count the Mallika metre bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "At the break of dawn in Kerala, a lone performer adorned in a snake-hood crown brings ancient spiritual epics to life through the slow, deliberate art of Parayan Thullal.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the erect posture",
+   "level": "1",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the erect posture.",
+      "Level: 1. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A calm, elder scholar-performer who speaks in measured tones and emphasizes the spiritual weight of every gesture."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Erect and mostly stationary",
+      "Extensive use of gestures to explain the meanings of the songs",
+      "Minimal movement; focus is on the upper body and facial expression"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Mallika metre bar out loud, then in pairs of bars. The meter is Mallika metre.",
+      "Rhythm pattern: Steady, slow rhythmic cycles dictated by the poetic verse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume an erect standing posture",
+      "Step 2: Observe the Mallika metre rhythm",
+      "Footwork from the sources: Very little dance element; primarily standing",
+      "Drill: Standing still for 3 minutes with focused breathing"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Mallika metre bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Begin hand gestures (mudras) to mirror the sung verse",
+      "Step 4: Maintain minimal lower body movement while pivoting to face the audience",
+      "Drill: Slowly pivoting the torso while keeping the feet planted"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Mallika metre bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid fast or jerky movements which contradict the slow tempo and spiritual nature of the form."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body. · For children: The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body.",
+      "For children: The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Mallika metre bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the erect posture.",
+      "Parayan Thullal is typically performed in the morning.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Introduction to Mallika Metre",
+   "level": "2",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Introduction to Mallika Metre.",
+      "Level: 2. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A calm, elder scholar-performer who speaks in measured tones and emphasizes the spiritual weight of every gesture."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Erect and mostly stationary",
+      "Extensive use of gestures to explain the meanings of the songs",
+      "Minimal movement; focus is on the upper body and facial expression"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Mallika metre bar out loud, then in pairs of bars. The meter is Mallika metre.",
+      "Rhythm pattern: Steady, slow rhythmic cycles dictated by the poetic verse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume an erect standing posture",
+      "Step 2: Observe the Mallika metre rhythm",
+      "Drill: Clapping the slow rhythm of the Mallika metre"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Mallika metre bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Begin hand gestures (mudras) to mirror the sung verse",
+      "Step 4: Maintain minimal lower body movement while pivoting to face the audience",
+      "Erect Narrative Stance: The performer stands straight, focusing all energy into the hand gestures and facial expressions.",
+      "Drill: Walking in place to the slow beat without lifting feet high"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Mallika metre bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid fast or jerky movements which contradict the slow tempo and spiritual nature of the form."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body. · For children: The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body.",
+      "For children: The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Mallika metre bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo performer standing in a central position"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Introduction to Mallika Metre.",
+      "The tradition is associated with the broader history of Kerala's performing arts, which includes masters like Mani Madhava Chakyar and the pedagogical influence of the Kerala Kalamandalam institution.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Basic Gestural Storytelling",
+   "level": "3",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Basic Gestural Storytelling.",
+      "Level: 3. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A calm, elder scholar-performer who speaks in measured tones and emphasizes the spiritual weight of every gesture."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Erect and mostly stationary",
+      "Extensive use of gestures to explain the meanings of the songs",
+      "Minimal movement; focus is on the upper body and facial expression"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Mallika metre bar out loud, then in pairs of bars. The meter is Mallika metre.",
+      "Rhythm pattern: Steady, slow rhythmic cycles dictated by the poetic verse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Begin hand gestures (mudras) to mirror the sung verse",
+      "Step 2: Maintain minimal lower body movement while pivoting to face the audience",
+      "Drill: Learning three basic mudras used in Parayan Thullal"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Mallika metre bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Erect Narrative Stance: The performer stands straight, focusing all energy into the hand gestures and facial expressions.",
+      "Drill: Synchronizing a single gesture with a slow vocal cue"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Mallika metre bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid fast or jerky movements which contradict the slow tempo and spiritual nature of the form."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body. · For children: The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body.",
+      "For children: The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Mallika metre bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo performer standing in a central position"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Basic Gestural Storytelling.",
+      "The dance is a subclass of Kerala dance and is categorized as a type of dance-drama and poetic performance form native to India.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Mallika metre",
+  "rhythm_pattern": "Steady, slow rhythmic cycles dictated by the poetic verse",
+  "instruments": [],
+  "vocal_style": "Poetic recitation and singing of spiritual stories",
+  "musical_form": "Narrative verse-based",
+  "mood": [
+   "spiritual",
+   "solemn",
+   "meditative",
+   "devotional"
+  ],
+  "sound_description": "A slow-paced vocal recitation of Sanskrit-influenced poetry, where the rhythm is governed by the Mallika metre, creating a steady and meditative atmosphere.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Parayan Thullal (India). Meter Mallika metre. Rhythm pattern: Steady, slow rhythmic cycles dictated by the poetic verse. Vocal style: Poetic recitation and singing of spiritual stories. Form: Narrative verse-based. Mood: spiritual, solemn, meditative, devotional. It should sound like this: A slow-paced vocal recitation of Sanskrit-influenced poetry, where the rhythm is governed by the Mallika metre, creating a steady and meditative atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The costume is highly specific, designed to resemble the serpent Shesha. The performer wears a crown shaped like a snake and applies yellow paint to their face. A red cloth is worn around the waist. Performances are traditionally conducted in the morning, often within temple precincts or cultural stages in Kerala.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "The snake-hood crown",
+   "Yellow facial pigment",
+   "The red waist cloth",
+   "Morning sunlight filtering through trees"
+  ],
+  "costume_notes": "The costume is highly specific, designed to resemble the serpent Shesha. The performer wears a crown shaped like a snake and applies yellow paint to their face. A red cloth is worn around the waist. Performances are traditionally conducted in the morning, often within temple precincts or cultural stages in Kerala.",
+  "setting_notes": "Parayan Thullal is typically performed in the morning. Unlike other Thullal forms that may focus on social satire, the stories in Parayan Thullal usually deal with spiritual matters and religious epics. It serves as a medium for religious education and spiritual reflection through the arts.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "9 tutorial(s) of the classical-court family studied",
+  "videos_studied": 9,
+  "counting": "count the Mallika metre bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
+  ],
+  "cues": [
+   "tha-ka-di-ki-ta",
+   "tha-the-hi-tha",
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "kanna",
+   "demi-plie",
+   "pas de bourree",
+   "releve",
+   "fifth position",
+   "hold your placement",
+   "stay straight as a board"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Parayan_Thullal",
+  "https://www.wikidata.org/wiki/Q15051550"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "6a438d6ce9ca01b267e0d1b25ff52c3b46ece192757a02d868b1f0b93361b217",
+ "hero_checked": null
+}

@@ -1,8 +1,8 @@
 # Thiruvathirakkali — episode pack
 
-*Status: withheld-chapters · built 2026-11-18 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable practitioner from Kerala with a focus on cultural preservation.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Circle of Light: Thiruvathirakkali
 NARRATION: This is Thiruvathirakkali. Ancient to modern.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (x0YFsRIdCd8)
 ON SCREEN: Title card: Thiruvathirakkali · India · Ancient to modern
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Women dance in a circle around a lit candle.
 NARRATION: The movement involves rhythmic clapping of hands and simple steps performed to the beat of devotional songs.
 NARRATION: Watch for Lasyabhava.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (x0YFsRIdCd8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: circle around a lit candle
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -97,7 +97,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'x0YFsRIdCd8', 'checked_by_vision_model': True, 'title': 'Angane Njan | അംഗനേ ഞാൻ | Thiruvathirakali | Thiruvathira | Onam | Unni Ganapathi Thampuran'}
 Images: 1 licensed — Jigesh at Malayalam Wikipedia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Indian Folk and Tribal Dance Performances — https://archive.org/details/dni.ncaa.ICCR-2088-VHS
 Motifs: Lit candle or lamp, Traditional sarees, Circle of women, Dasapushkas flowers
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Thiruvathirakkali; https://www.wikidata.org/wiki/Q3929828

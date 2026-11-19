@@ -1,13 +1,68 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "traditional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "females singing, clapping, and ululating"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b6909dd1ec297731af0ada1ba551e234614849a00d794bbea8750a77b62b3984",
+  "fingerprint": "010ebbdd0fa2ca31264b936b17a8b0a846bc3a03c82cf2a933f9b5244c734ad8",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +70,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -46,7 +100,7 @@
   "music_options": [],
   "name": "Phathisi",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/phathisi.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +111,8 @@
   },
   "slug": "phathisi",
   "sources": [
-    "https://www.knowbotswana.com/dance-styles-in-botswana.html",
-    "https://en.wikipedia.org/wiki/Setapa"
+    "https://en.wikipedia.org/wiki/Borankana",
+    "https://www.wikidata.org/wiki/Q48783348"
   ],
   "state": "researching",
   "video_evidence": []

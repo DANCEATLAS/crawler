@@ -57,10 +57,58 @@
    "voice": [
     "calm",
     "patient",
-    "precise"
+    "precise",
+    "warm",
+    "playful",
+    "direct"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "3:45",
+     "feeling": "afraid_of_looking_silly",
+     "response": "The teacher names the fear of stepping on a partner's feet and explains how to avoid it by keeping knees and ankles close."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:05",
+     "moment": "opening",
+     "says": "The teacher introduces himself and his partner, and explains that the two-step is the most popular country dance.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "0:30",
+     "moment": "before_hard_part",
+     "says": "The teacher explains the basic step is just walking in a straight line, and clarifies that leaders start with their left foot and followers with their right.",
+     "tag": "other"
+    },
+    {
+     "t": "0:47",
+     "moment": "before_hard_part",
+     "says": "The teacher introduces the rhythm of the two-step, which consists of two quick steps and two slow steps.",
+     "tag": "other"
+    },
+    {
+     "t": "1:30",
+     "moment": "before_hard_part",
+     "says": "The teacher demonstrates the correct dance position, explaining where to place hands and how to maintain the right distance.",
+     "tag": "other"
+    },
+    {
+     "t": "3:45",
+     "moment": "after_mistake",
+     "says": "The teacher describes the common mistake of stepping around the partner's feet, and explains that knees and ankles should almost brush each other.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "5:07",
+     "moment": "closing",
+     "says": "The teacher thanks the learner for watching and invites them to return for the next lesson on the promenade.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling that they can master the two-step by focusing on body connection and maintaining a consistent pace."
   },
   "learner_voice": {
    "struggles": [
@@ -133,8 +181,11 @@
  "status": "ok",
  "attempts": 2,
  "mentor_look": {
-  "at": "2026-11-17T06:54:30Z",
-  "attempts": 1,
-  "status": "failed"
+  "at": "2026-11-19T20:51:41Z",
+  "attempts": 2,
+  "status": "ok",
+  "moments": 6,
+  "beliefs": 0,
+  "feelings": 1
  }
 }

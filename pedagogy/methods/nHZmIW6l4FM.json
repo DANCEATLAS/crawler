@@ -50,16 +50,60 @@
    "voice": [
     "warm",
     "calm",
-    "precise"
+    "precise",
+    "direct"
    ],
    "beliefs": [
     {
-     "t": "0:43",
-     "belief": "Good or amazing dancing is extremely subjective and you can just dance the way you want.",
+     "t": "0:26",
+     "belief": "The teacher believes that looking like an off-brand version of a dancer does not mean one is a bad dancer.",
      "about": "who_can_dance"
+    },
+    {
+     "t": "0:44",
+     "belief": "The teacher believes that good or amazing dancing is subjective and that one should dance the way they want.",
+     "about": "what_dancing_is_for"
+    },
+    {
+     "t": "5:05",
+     "belief": "The teacher believes there is a limit to how much one can improve by just watching videos and that one must eventually get up and dance.",
+     "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "0:18",
+     "feeling": "awkward",
+     "response": "The teacher validates this feeling by sharing that she has felt the same way when trying to imitate her favorite dancers."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:18",
+     "moment": "opening",
+     "says": "The teacher introduces the topic of movement execution by asking if the learner has ever felt like an awkward, off-brand version of their favorite dancers.",
+     "tag": "names_the_feeling"
+    },
+    {
+     "t": "1:14",
+     "moment": "before_hard_part",
+     "says": "The teacher invites the learner to try the movements with her, using a specific move as a base.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "4:35",
+     "moment": "before_hard_part",
+     "says": "The teacher acknowledges that matching the movement execution of favorite dancers is a daunting task.",
+     "tag": "names_the_feeling"
+    },
+    {
+     "t": "5:12",
+     "moment": "closing",
+     "says": "The teacher encourages the learner to take the next step in their dance journey by clicking the link in the description to train.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling empowered to embrace their own style and understand the mechanics behind dance execution."
   },
   "learner_voice": {
    "struggles": [
@@ -117,8 +161,11 @@
  "status": "ok",
  "attempts": 1,
  "mentor_look": {
-  "at": "2026-11-17T06:54:30Z",
-  "attempts": 1,
-  "status": "failed"
+  "at": "2026-11-19T20:53:16Z",
+  "attempts": 2,
+  "status": "ok",
+  "moments": 4,
+  "beliefs": 3,
+  "feelings": 1
  }
 }

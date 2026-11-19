@@ -1,13 +1,99 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex canoe spatial formations without supervision"
+        ],
+        "counts": "not described in sources",
+        "duration_minutes": "3",
+        "game_version": "A call-and-response rhythm game following the fa'aluma commands ('tulolo' and 'nofo')."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Excessive forceful striking against thighs",
+          "Unstable standing transitions"
+        ],
+        "counts": "not described in sources",
+        "seated_version": "Performed from a stable chair maintaining the seated upper-body claps and gestures.",
+        "standing_version": "Omit standing sections if mobility requires remaining seated.",
+        "tempo_and_range": "Modify arm extension range and reduce striking force to protect joints."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Compare timing of hand slaps to group unison; note that individual gesture variations exist as modern moves are added.",
+          "source": "https://en.wikipedia.org/wiki/Sasa_(dance)"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Execute seated response to fa'aluma commands tulolo and nofo.",
+          "source": "https://en.wikipedia.org/wiki/Sasa_(dance)"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Ability to sit in rows and perform upper body percussive strikes.",
+          "source": "https://en.wikipedia.org/wiki/Sasa_(dance)"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Large group formation, traditionally whole villages sitting in rows.",
+          "source": "https://en.wikipedia.org/wiki/Sasa_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Precise, rhythmic claps and intricate hand movements depicting everyday practices, fish, birds, cooking, cleaning, and paddling.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Large group of people, traditionally whole villages, moving into formations like a large canoe with arms mimicking paddles.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Seated and standing levels; jumps not described in sources.",
+      "partnering": "Group dance, not partnered.",
+      "posture": "Usually seated, with parts of the dance requiring the group to stand up.",
+      "signature_moves": [
+        {
+          "description": "Arms on the outside mimic the movement of paddles in the water while the group forms a large canoe.",
+          "name": "Canoe paddling"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "unison"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "Chants like 'Talofa' at the beginning and 'Tofa' at the end, directed by the fa'aluma yelling 'tulolo' and 'nofo'."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Bow head on fa'aluma command 'tulolo'",
+        "Sit up on command 'nofo'",
+        "Execute rhythmic claps and hand movements",
+        "Mimic everyday actions like cooking, paddling, or cleaning while seated",
+        "Stand up for designated standing sections"
+      ],
+      "formation": "Large group, normally seated in rows",
+      "level_notes": "Performed by all ages and genders; movements range from traditional gestures to newly added contemporary moves.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9d8e3da1cf4e1438e8fcec951dc6c75ea12c9af4289a9da360a9fdb1aa55164a",
+  "fingerprint": "e1a8aefb216a83c0b2a884b8738f1c0a07387de0e0fce0d2e5fb37ce8e323d4d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +101,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "Investigate: What specific rhythm patterns or tempos are traditionally used by the fa'aluma during a sasa performance? Evidence needed: Ethnomusicological field recordings or instructional manuals of Samoan dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +130,18 @@
   ],
   "music_options": [],
   "name": "Sasa",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "3fd84239728355ca",
+      "next_evidence": "Ethnomusicological field recordings or instructional manuals of Samoan dance.",
+      "question": "What specific rhythm patterns or tempos are traditionally used by the fa'aluma during a sasa performance?",
+      "source": "https://en.wikipedia.org/wiki/Sasa_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources note the use of chants and striking, but lack explicit musical structure or tempo details."
+    }
+  ],
+  "research_file": "research_results/sasa.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +152,9 @@
   },
   "slug": "sasa",
   "sources": [
-    "https://en.wikipedia.org/wiki/Sasa_(dance)"
+    "https://en.wikipedia.org/wiki/Sasa_(dance)",
+    "https://www.wikidata.org/wiki/Q7424953",
+    "https://archive.org/details/NPTG19360425"
   ],
   "state": "researching",
   "video_evidence": []

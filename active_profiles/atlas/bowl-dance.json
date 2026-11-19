@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "dae5cfde5b285adbd6739834a77af8cc8d1b25a53295e0ce527ad3fa1cbcef2c",
+  "fingerprint": "a3ff9d72a2a25709fc43c00a38be581d2048eebbc9490b154bf3836fd9e70501",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -46,7 +93,7 @@
   "music_options": [],
   "name": "Bowl Dance",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/bowl-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +104,12 @@
   },
   "slug": "bowl-dance",
   "sources": [
-    "https://en.chinaculture.org/focus/focus/minzuwang/2007-08/23/content_382185.htm",
-    "https://learning.hku.hk/ccch9051/group-31/items/show/9"
+    "https://en.wikipedia.org/wiki/Belly_dance",
+    "https://www.wikidata.org/wiki/Q182863",
+    "https://es.wikipedia.org/wiki/Danza_del_vientre",
+    "https://fr.wikipedia.org/wiki/Danse_orientale",
+    "https://pt.wikipedia.org/wiki/Dança_do_ventre",
+    "https://de.wikipedia.org/wiki/Orientalischer_Tanz"
   ],
   "state": "researching",
   "video_evidence": []

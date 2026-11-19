@@ -1,56 +1,36 @@
 {
   "candidate_material": {
     "adaptations": {
-      "children": {
-        "avoid": [
-          "Complex footwork",
-          "Heavy drumsticks",
-          "Fast tempo"
-        ],
-        "counts": "Basic 4-beat counts with simple drum strikes",
-        "duration_minutes": "10",
-        "game_version": "Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants"
-      },
       "derived": true,
-      "seniors": {
-        "avoid": [
-          "Knee bends",
-          "Fast spins",
-          "Jumps",
-          "Rapid footwork"
-        ],
-        "counts": "Simplify rhythmic patterns to basic steady beats",
-        "seated_version": "Use seated percussion playing and simplified arm movements; avoid knee bends and spins",
-        "standing_version": "Reduce tempo and range of motion; avoid acrobatic moves and fast footwork",
-        "tempo_and_range": "Slower tempo with limited movement range"
-      }
+      "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Active use of arms for drum playing and spinning sangmo ribbons; sogo held in one hand and struck rhythmically",
-      "difficulty": "beginner to advanced (progressing from basic rhythms to complex acrobatic dances)",
+      "arms_and_hands": "Arms swing naturally; hands hold instruments or drumsticks (yeolchae/gungchae).",
+      "difficulty": "intermediate",
       "footwork": "not described in sources",
-      "formation_and_space": "Performed in outdoor procession lines and group formations with fluid spatial movement",
-      "hips_and_torso": "Engaged in rhythmic swaying and bending to support dance and ribbon spinning",
-      "levels_and_jumps": "not described in sources",
+      "formation_and_space": "Outdoor processions or circular formations (jinpuri).",
+      "hips_and_torso": "Torso remains stable while hips and knees drive the rhythmic pulse.",
+      "levels_and_jumps": "Acrobatic elements are common in sogo dance.",
       "partnering": "not described in sources",
-      "posture": "Upright and dynamic, with fluid upper body movements and knee bends to power sangmo ribbon spins",
+      "posture": "Upright but flexible, with knees slightly bent to facilitate rhythmic movement.",
       "signature_moves": [
         {
-          "description": "Spinning and flipping long ribbons attached to hats using head and knee movements",
-          "name": "Sangmo spinning"
+          "description": "Twirling a long ribbon attached to a hat using head and knee movements.",
+          "name": "Sangmonori"
         },
         {
-          "description": "Group dance with varied formations during procession",
-          "name": "Jinpuri formation"
-        },
-        {
-          "description": "Solo lead kkwaenggwari player’s dance and rhythmic performance",
-          "name": "Sangsoe noleum"
+          "description": "Complex group formations presented during the performance.",
+          "name": "Jinpuri"
         }
       ],
-      "tempo_feel": "Varies from slow and graceful to rapid and energetic depending on regional style and jangdan",
-      "what_to_avoid": "Avoid misusing sangmo ribbons to prevent injury; respect the tradition’s communal and ritual context"
+      "tempo_feel": "Constant motion, varying from graceful (udo) to rapid (jwado).",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
@@ -58,46 +38,36 @@
         "janggu",
         "buk",
         "jing",
-        "sogo",
-        "taepyeongso (occasionally)"
+        "taepyeongso",
+        "sogo"
       ],
-      "meter": "varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori",
+      "meter": "Variable (e.g., 12/8, 9/8, 4/4)",
       "mood_keywords": [
         "energetic",
-        "festive",
         "communal",
-        "dynamic",
-        "rhythmic"
+        "rhythmic",
+        "festive"
       ],
-      "musical_form": "Processional and cyclical rhythmic patterns with dynamic tempo changes",
-      "reference_recordings": [
-        {
-          "artist": "Kim Duk-soo and SamulNori ensemble",
-          "source": "https://en.wikipedia.org/wiki/Pungmul",
-          "title": "SamulNori"
-        }
-      ],
-      "rhythm_pattern": "Overlapping polyrhythms led by kkwaenggwari, supported by janggu, buk, and jing; sogo adds subtle rhythmic decoration",
-      "sound_description": "A vibrant, layered percussion ensemble featuring sharp metallic strikes of the kkwaenggwari, deep resonant beats of the buk and jing, and intricate rhythms of the janggu, punctuated by lively wind instrument flourishes and energetic vocal chants.",
+      "musical_form": "Rhythmic cycles (jangdan) repeated and varied",
+      "reference_recordings": [],
+      "rhythm_pattern": "Jangdan (e.g., Gutgeori, Semachi, Hwimori, Jajinmori)",
+      "sound_description": "A dense, polyrhythmic texture dominated by metallic gong strikes and deep drum thuds, punctuated by the high-pitched, piercing melody of the taepyeongso.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Includes folk songs (minyo) and chants sung by performers and audience"
+      "vocal_style": "Chants and minyo (folksongs)"
     },
     "teaching": {
       "basic_steps": [
-        "Form a procession line led by a banner bearer and kkwaenggwari player",
-        "Play steady rhythm on kkwaenggwari to set tempo",
-        "Accompany with janggu, buk, and jing drums following rhythmic patterns",
-        "Dancers play sogo and perform footwork with knee bends to spin sangmo ribbons",
-        "Engage in group formations (jinpuri) and solo dances (sangsoe noleum, sangmonori)",
-        "Actors (japsaek) perform skits to interact with audience"
+        "Basic walking step (bal-noleum) synchronized with the drum beat.",
+        "Knee-bend (deul-sawi) to power the sangmo ribbon rotation.",
+        "Formation shifting (jinpuri) in a group circle."
       ],
-      "formation": "Processional line led by banner bearer and kkwaenggwari player, followed by percussionists and dancers; formations vary regionally",
-      "level_notes": "Beginners start by learning steady kkwaenggwari rhythms and simple sogo drum patterns; intermediate levels add sangmo spinning and group formations; advanced levels perform complex rhythmic variations and acrobatic dance moves",
-      "rhythm": "Common jangdan include gutgeori (12 beats), semachi (9/8), hwimori (4/4 or 12/8), and jajinmori (fast 12/8)"
+      "formation": "Outdoor procession or circular group formation.",
+      "level_notes": "Beginners start with basic rhythmic walking; advanced students focus on sangmo ribbon control and acrobatic sogo techniques.",
+      "rhythm": "Jangdan patterns (e.g., 12-beat gutgeori, 3-beat semachi)."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4627bd05f39749fe543e62023a381ab004bc98acdb615f9844b7d5fc0c4ca2b8",
+  "fingerprint": "d2e8f9db9404d68d6588d48027cc689161dce70c26634ca6589ef18cce661da9",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -105,8 +75,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns (Bal-Noleum) for each of the five regional styles? Evidence needed: Regional dance manuals or ethnographic field studies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -122,7 +93,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there publicly available, high-quality instructional videos for the five regional styles? Evidence needed: Official cultural heritage archives or educational video databases."
     ]
   },
   "id": "atlas:pungmul",
@@ -133,7 +105,26 @@
   ],
   "music_options": [],
   "name": "Pungmul",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c959e2fb6c973ca9",
+      "next_evidence": "Regional dance manuals or ethnographic field studies.",
+      "question": "What are the specific footwork patterns (Bal-Noleum) for each of the five regional styles?",
+      "source": "https://en.wikipedia.org/wiki/Pungmul",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for learners."
+    },
+    {
+      "domain": "video",
+      "id": "7fbb6b350e0f4336",
+      "next_evidence": "Official cultural heritage archives or educational video databases.",
+      "question": "Are there publicly available, high-quality instructional videos for the five regional styles?",
+      "source": "https://en.wikipedia.org/wiki/Pungmul",
+      "status": "candidate_unreviewed",
+      "why_needed": "To support visual learning and movement accuracy."
+    }
+  ],
   "research_file": "research_results/pungmul.json",
   "runtime_active": false,
   "scope": {

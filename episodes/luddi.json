@@ -2,7 +2,7 @@
  "slug": "luddi",
  "name": "Luddi",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-10-28T16:26:23Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -266,7 +266,7 @@
       "Step 2: Hand clapping"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -407,7 +407,7 @@
       "Step 2: Hand clapping"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -548,7 +548,7 @@
       "Step 2: Half-turns"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -712,16 +712,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front",
+   "views used by most teachers: front, side",
    "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 8"
   ],
   "cues": [
+   "right leg to shuru hoyega",
+   "side movement dikhauna",
+   "shoulder movement bahut sohni honi chahidi aa",
+   "taali marni aa",
    "1-2-3-4",
    "5-6-7-8"
   ],
@@ -730,10 +734,23 @@
   ],
   "segment_order": [
    "intro",
+   "full_demo",
    "breakdown",
-   "music_practice"
+   "layering",
+   "music_practice",
+   "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "Basic Luddi Step 1",
+    "counts": "1-8",
+    "description": "Right leg side stepping with alternating arm claps and shoulder lifts."
+   },
+   {
+    "name": "Basic Luddi Step 2",
+    "counts": "1-8",
+    "description": "Leg lifts with raised arm posture and shoulder movement."
+   },
    {
     "name": "Luddi Basic Step 1",
     "counts": "1-2-3-4",
@@ -770,6 +787,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "cfe732727b36aee488ce5254cd6292854118761021b61218290a1994b14809ba",
+ "input_fingerprint": "43b02a32c73304c46b1b5229c36393a4eefe10e0e8865d9e181fccea0cc9ff66",
  "hero_checked": "pass"
 }

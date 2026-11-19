@@ -1,13 +1,68 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "pop",
+        "contemporary"
+      ],
+      "musical_form": "mandopop",
+      "reference_recordings": [
+        {
+          "artist": "Will Pan and Xianzi",
+          "title": "I Have to Love"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "",
+      "tempo_bpm": "",
+      "vocal_style": "pop vocals"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e69fc0b8cd1503237c346d375d413a4993098fba000e3812d9e0b6b7ddc023c9",
+  "fingerprint": "84d1efd174c5ca24be040c37111e7edcb57ce297379db3bc3b8f2f9b72c8362c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +70,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -46,7 +100,7 @@
   "music_options": [],
   "name": "Xianzi",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/xianzi.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +111,9 @@
   },
   "slug": "xianzi",
   "sources": [
-    "https://news.cgtn.com/news/2021-07-09/Cultural-legacy-on-Tibetan-Plateau-Batang-Xianzi-11KZuAwV8BO/index.html",
-    "http://en.chinaculture.org/gallery/2007-05/23/content_624.htm"
+    "https://en.wikipedia.org/wiki/Zhang_Xianzi",
+    "https://www.wikidata.org/wiki/Q717363",
+    "https://es.wikipedia.org/wiki/Zhang_Xianzi"
   ],
   "state": "researching",
   "video_evidence": []

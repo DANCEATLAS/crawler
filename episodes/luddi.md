@@ -1,6 +1,6 @@
 # Luddi — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; the costume & setting section; two or more connections
 
@@ -103,7 +103,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Finger clicking
 NARRATION: Step 2: Hand clapping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -167,7 +167,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Finger clicking
 NARRATION: Step 2: Hand clapping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -231,7 +231,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hand clapping
 NARRATION: Step 2: Half-turns
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -293,10 +293,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8
-Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 8
+Cues: right leg to shuru hoyega; side movement dikhauna; shoulder movement bahut sohni honi chahidi aa; taali marni aa; 1-2-3-4; 5-6-7-8
 Common mistakes the studied teachers name: confusing luddi steps with gidda steps
 
 Sources (2): https://en.wikipedia.org/wiki/Luddi; https://www.wikidata.org/wiki/Q25624527

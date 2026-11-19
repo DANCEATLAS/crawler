@@ -1,23 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding wooden replica rifles.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two facing lines with dancers filling the space between.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Choreographed movements while holding wooden replica rifles.",
+          "name": "Rifle manipulation"
+        },
+        {
+          "description": "Young girls swing their hair in time to the music.",
+          "name": "Hair swinging"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Drums",
+        "Other instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "communal"
+      ],
+      "musical_form": "Dual chorus led by a main singer.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Antiphonal chanting of Nabati poetry."
+    },
     "teaching": {
       "basic_steps": [
-        "Form two equal rows facing each other",
-        "Sing antiphonal chants led by the main singer",
-        "Step into the space between lines while carrying a wooden replica rifle",
-        "Execute choreographed movements holding the rifle in time to the drum rhythm"
+        "Form two facing lines of men.",
+        "Chant Nabati poetry in an antiphonal manner.",
+        "Perform choreographed movements in the space between the rows.",
+        "Manipulate wooden replica rifles in rhythm with the music.",
+        "Girls swing hair in time to the music."
       ],
-      "formation": "Two facing lines of male singers with dancers filling the center space",
-      "level_notes": "Beginners start by joining the facing rows to observe and chant along before handling replica rifles in the center space.",
-      "rhythm": "Antiphonal drum rhythm accompanying sung Nabati poetry"
+      "formation": "Two facing lines with dancers in the middle.",
+      "level_notes": "Inclusive of all ages and social classes.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "777781c938021631ba1b3c8bf35efc4cbb52014a13bb79beae97ba1c2c682114",
+  "fingerprint": "6c11b114275a9287ca5b2e132237695cdd2eed2ad2a0f73137df8d68b67d6a28",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -25,9 +83,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns and common time signatures used in Al-Razfa? Evidence needed: Musicological analysis of Al-Razfa performances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -43,7 +102,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific, named footwork sequences used by the dancers between the rows? Evidence needed: Instructional video or dance notation of the performance."
     ]
   },
   "id": "atlas:al-razfa",
@@ -54,7 +114,26 @@
   ],
   "music_options": [],
   "name": "Al-Razfa",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "598ca432eeb0e481",
+      "next_evidence": "Musicological analysis of Al-Razfa performances.",
+      "question": "What are the specific rhythmic patterns and common time signatures used in Al-Razfa?",
+      "source": "https://ich.unesco.org/en/RL/01078",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow for accurate musical recreation and teaching."
+    },
+    {
+      "domain": "video",
+      "id": "e45ac65cd7bf44a4",
+      "next_evidence": "Instructional video or dance notation of the performance.",
+      "question": "What are the specific, named footwork sequences used by the dancers between the rows?",
+      "source": "https://ich.unesco.org/en/RL/01078",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide actionable movement instructions for learners."
+    }
+  ],
   "research_file": "research_results/al-razfa.json",
   "runtime_active": false,
   "scope": {

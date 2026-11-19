@@ -1,67 +1,67 @@
 # Sarai dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-17 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the music & instruments section; the costume & setting section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+**Instructor:** A local cultural guide or community elder from western Nepal
 **Say it:** Sarai dance, Saraya dance, Saraya nach
 
 ## Episode 1 · Meet Sarai dance · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Devotees in western Nepal wield real khukuris and swords, clashing metal and chanting Wakkhai Wa at hill shrines after Dashain.
+NARRATION: Wakkhai Wa: The Weapon Dance of Western Nepal
 NARRATION: This is Sarai dance. Traditional.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Sarai dance · Nepal · Traditional
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Legend holds that the Sarai dance originated after the victory of gods and goddesses over giants and demons, with the dance symbolizing weapon use during that war.
-NARRATION: The tradition is tied to rituals starting on Saptami, when an alam (image of God) decorated with colored flags is brought to a temple or kot.
+NARRATION: Legend holds that the Saraya dance originated after the victory of gods and goddesses over giants and demons, symbolizing war weapons.
+NARRATION: Rituals begin on Saptami when an alam (image of God) decorated with colored flags is brought to the temple or kot after flowers are collected.
+NARRATION: The dance may have originally served to protect valuable statues and weapons before evolving into an entertaining Dashain tradition.
 ON SCREEN: Map: Nepal · South Asia
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Sarai dance is performed during the festival of Dashain, usually starting the day after Dashain tika and spanning from Ekadashi to Purnima.
-NARRATION: It carries deep religious meaning, symbolizing the cosmic victory of deities over evil forces and honoring temple weapons through daily puja.
+NARRATION: Held annually from Ekadashi to Purnima, typically beginning the day after Dashain tika.
+NARRATION: The largest performance occurs on the full moon day at Arje Phulbari in Gulmi.
+NARRATION: It symbolizes the ancient war and victory of deities over demons.
+NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Devotees perform rhythmic movements while swinging, displaying, and clashing weapons such as the khukuri, sword, and khuda.
-NARRATION: Performers chant 'Wakkhai Wa' throughout the dance.
-NARRATION: While weapon demonstrations have declined in recent years due to safety concerns, full-scale performances are preserved in locations like Dhurkot, Arje, and Isma, reaching a peak on the full moon day at Arje Phulbari in Gulmi.
+NARRATION: Watch for Weapon clashing.
 ON SCREEN: Hero video — MISSING
-ON SCREEN: Signature moves — MISSING
+ON SCREEN: Captions name each signature move as it appears
+ON SCREEN: Formation: performed at religious shrines, temples, and kots across hilly regions
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: signature_moves
+NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The dance is accompanied by Panchebaja, a set of traditional Nepalese musical instruments, alongside the vocal chanting of 'Wakkhai Wa' by the participating devotees.
+NARRATION: Listen for the Panchebaja.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
-NEEDS: tempo, meter
+NEEDS: music_and_instruments, tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Performed primarily at religious shrines, temples, and kots in the western hilly regions of Nepal.
-NARRATION: The setting features an alam—an image of the deity decorated with colored flags—placed outside the shrine.
-NARRATION: Dancers hold traditional metal weapons such as khukuris, khuda, and swords.
 ON SCREEN: Images — MISSING
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
+NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
-NARRATION: The dance is practiced predominantly in western Nepalese districts including Gulmi, Arghakhanchi, Pyuthan, Palpa, Kapilvastu, Rupandehi, and Dang, with major localized gatherings occurring in Dhurkot, Isma, and Arje Phulbari.
+NARRATION: Practiced across western hilly districts including Gulmi, Arghakhanchi, Pyuthan, Palpa, Kapilvastu, Rupandehi, and Dang, with prominent local participation in Dhurkot, Arje, and Isma.
+NARRATION: Classified as a folk dance of Nepal, maintaining deep ties to temple rituals and Dashain festival traditions.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
-NEEDS: notable_figures, lineage
+NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
 ON SCREEN: Connections — MISSING
@@ -69,11 +69,12 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: Performed at religious shrines during Dashain using consecrated temple weapons; outsiders should respect safety protocols and temple rules regarding weapon handling.
+NARRATION: The dance is tied to sacred temple rituals starting on Saptami involving an alam (image of God) and offerings to deities; outsiders must respect local religious shrines and temple protocols.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
+NARRATION: Explore the sacred hill shrines of Gulmi where devotees commemorate divine victory by clashing khukuris and swords.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -82,7 +83,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Sarai dance (Nepal). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Sarai dance (Nepal). Instruments: Panchebaja. Vocal style: chanting the Wakkhai Wa. Mood: devotional, martial, festive. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -96,16 +97,16 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: MISSING
 Images: 0 licensed
 Footage: MISSING
+Motifs: Decorated alam with colored flags, Traditional khukuris and swords, Panchebaja instruments, Hill shrine gatherings
 
-Costume notes: Performed primarily at religious shrines, temples, and kots in the western hilly regions of Nepal. The setting features an alam—an image of the deity decorated with colored flags—placed outside the shrine. Dancers hold traditional metal weapons such as khukuris, khuda, and swords.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
+Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Sarai_dance; https://www.wikidata.org/wiki/Q136659445

@@ -2,7 +2,7 @@
  "slug": "dalkhai",
  "name": "Dalkhai",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-18T18:18:58Z",
  "qc_score": 8.8,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Dalkhai. 20th-21st century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (2laK55HziT4)",
      "Title card: Dalkhai · India · 20th-21st century"
     ],
     "music": "theme (30 s)"
@@ -105,7 +105,7 @@
      "Male dancers participate by engaging in playful interaction with the women."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (2laK55HziT4)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -268,7 +268,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "2laK55HziT4",
+   "checked_by_vision_model": true,
+   "title": "Dalkhai Sambalpuri Folk Dance performance at OTB 2018 in Bhubaneswar"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -314,8 +318,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "41 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 41,
+  "source": "49 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 49,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -325,6 +329,8 @@
   ],
   "cues": [
    "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
    "5-6-7-8",
    "1-2-left",
    "2-2-right",
@@ -333,9 +339,7 @@
    "levanto los talones hasta atrs",
    "doble golpe con mi pie",
    "pisada con toda la planta del pie",
-   "sin elevarme tanto",
-   "viene y",
-   "preparacin"
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -354,7 +358,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "signature moves",
@@ -369,6 +372,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "784d3da1528249fcefa40a350b3d9857e9437ffa9f07077e9be89b022b92b113",
- "hero_checked": null
+ "input_fingerprint": "09dfe4d8be9bf04d42647cb0c93ad57e0b17e23c7b6b173ef173580173c8f7c2",
+ "hero_checked": "pass"
 }

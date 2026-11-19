@@ -1,6 +1,6 @@
 # Taualuga — episode pack
 
-*Status: withheld-chapters · built 2026-11-18 · judge 9.35 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-19 · judge 9.35 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 7 tutorial(s) of the classical-court family studied · videos studied: 7
+Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs
+Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
 
 Sources (2): https://en.wikipedia.org/wiki/Taualuga; https://www.wikidata.org/wiki/Q7688635

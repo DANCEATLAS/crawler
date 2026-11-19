@@ -20,10 +20,15 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "The dance includes characteristic rhythmic hand-clapping.",
-      "difficulty": "beginner",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
       "footwork": "not described in sources",
       "formation_and_space": "not described in sources",
       "hips_and_torso": "not described in sources",
@@ -32,8 +37,8 @@
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Rhythmic clapping used to accompany the melody.",
-          "name": "Hand-clapping"
+          "description": "The audience accompanies the melody with rhythmic hand-clapping.",
+          "name": "hand-clapping"
         }
       ],
       "tempo_feel": "not described in sources",
@@ -45,8 +50,8 @@
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "festive",
-        "anthemic"
+        "emblematic",
+        "traditional"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [
@@ -56,7 +61,7 @@
         }
       ],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music is defined by the bright, percussive resonance of the marimba, providing a rhythmic and melodic foundation that supports the vocal line.",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
@@ -70,7 +75,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "cf2a932f3d05b7c0c4f0134622ab832a351a89ae9e8623a732953d9ce6592dc3",
+  "fingerprint": "e36031754672e70b5ff3a0187bb5360029530c14097c56ee78e6265159e75c03",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -79,8 +84,9 @@
     ],
     "research": [
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns associated with the 'Traje de Chiapaneca' performance? Evidence needed: Ethnographic field notes or instructional dance manuals from the Chiapas region."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -104,7 +110,17 @@
   ],
   "music_options": [],
   "name": "Chiapanecas",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "25024fc9089288cf",
+      "next_evidence": "Ethnographic field notes or instructional dance manuals from the Chiapas region.",
+      "question": "What are the specific footwork patterns associated with the 'Traje de Chiapaneca' performance?",
+      "source": "https://es.wikipedia.org/wiki/Las_chiapanecas_(melodía)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the costume and the existence of choreography but lack the technical details required for an active teaching profile."
+    }
+  ],
   "research_file": "research_results/chiapanecas.json",
   "runtime_active": false,
   "scope": {

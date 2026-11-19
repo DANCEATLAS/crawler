@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Circular movement to the right and center step progression.",
+          "source": "https://en.wikipedia.org/wiki/Simeriani"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Women's circular group dance with improvisational movement.",
+          "source": "https://en.wikipedia.org/wiki/Simeriani"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Improvised steps moving to the right of the circle and stepping toward the center",
+      "formation_and_space": "Circular formation moving to the right and inward toward the center",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group circle dance",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Lateral progression around the circle towards the right.",
+          "name": "Rightward circle progression"
+        },
+        {
+          "description": "Improvised step sequence moving towards the center of the circle.",
+          "name": "Center step"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "joyful",
+        "romantic"
+      ],
+      "musical_form": "Verse and refrain song",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A traditional Cappadocian Greek vocal song accompaniment focusing on lyrical stanzas about Sinasos women, romance, and festive joy.",
+      "tempo_bpm": "",
+      "vocal_style": "Traditional singing in Greek with repeating verse-refrain structure detailing love and local pride"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle with participating female dancers.",
+        "Step progressively to the right along the circular perimeter.",
+        "Step inward towards the center of the circle as improvised by the dancers."
+      ],
+      "formation": "Circle formation (women only)",
+      "level_notes": "Improvisational circle dance moving right and inward toward the center.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e2e2372a0b1fb5548eacdd922840a44893ba72aef0a3efc206568f5135245004",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What is the exact musical meter and rhythm structure for the song Simeriani? Evidence needed: Ethnomusicological field recordings and sheet music transcripts of Cappadocian Greek songs."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific handholds and arm positions are used by the women during the circle progression of Simeriani? Evidence needed: Video analysis of traditional performances from Sinasos Cappadocian heritage societies."
+    ]
+  },
+  "id": "atlas:simeriani",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Simeriani",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "2cabe1efae996ef5",
+      "next_evidence": "Video analysis of traditional performances from Sinasos Cappadocian heritage societies.",
+      "question": "What specific handholds and arm positions are used by the women during the circle progression of Simeriani?",
+      "source": "https://en.wikipedia.org/wiki/Simeriani",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile lacks arm and posture details required for accurate interactive teaching."
+    },
+    {
+      "domain": "research",
+      "id": "18960e5137aea063",
+      "next_evidence": "Ethnomusicological field recordings and sheet music transcripts of Cappadocian Greek songs.",
+      "question": "What is the exact musical meter and rhythm structure for the song Simeriani?",
+      "source": "https://en.wikipedia.org/wiki/Simeriani",
+      "status": "candidate_unreviewed",
+      "why_needed": "Music profile lacks tempo and meter data necessary to guide musical notation or soundtrack synthesis."
+    }
+  ],
+  "research_file": "research_results/simeriani.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "simeriani",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Simeriani",
+    "https://www.wikidata.org/wiki/Q17101751"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

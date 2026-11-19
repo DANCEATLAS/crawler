@@ -1,0 +1,151 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex Sanskrit terminology",
+          "Heavy traditional costumes"
+        ],
+        "counts": "Simple 4-beat slow counts.",
+        "duration_minutes": "5",
+        "game_version": "The 'Snake King' game: children wear paper snake crowns and must tell a story using only their hands while moving as slowly as possible."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Prolonged standing without support",
+          "Overextending the neck while wearing heavy headgear"
+        ],
+        "counts": "Slow 1-2-3-4 counts following the Mallika metre.",
+        "seated_version": "The dance is highly suitable for a seated version as it emphasizes hand gestures and an erect upper body.",
+        "standing_version": "Perform while standing near a support; the minimal footwork makes it accessible for those with limited mobility.",
+        "tempo_and_range": "Maintain the original slow tempo; reduce the range of arm extensions if shoulder mobility is limited."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Extensive use of gestures to explain the meanings of the songs",
+      "difficulty": "intermediate",
+      "footwork": "Very little dance element; primarily standing",
+      "formation_and_space": "Solo performer standing in a central position",
+      "hips_and_torso": "Minimal movement; focus is on the upper body and facial expression",
+      "levels_and_jumps": "None described; focus is on the standing level",
+      "partnering": "None",
+      "posture": "Erect and mostly stationary",
+      "signature_moves": [
+        {
+          "description": "The performer stands straight, focusing all energy into the hand gestures and facial expressions.",
+          "name": "Erect Narrative Stance"
+        }
+      ],
+      "tempo_feel": "Very slow",
+      "what_to_avoid": "Avoid fast or jerky movements which contradict the slow tempo and spiritual nature of the form."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "Mallika metre",
+      "mood_keywords": [
+        "spiritual",
+        "solemn",
+        "meditative",
+        "devotional"
+      ],
+      "musical_form": "Narrative verse-based",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady, slow rhythmic cycles dictated by the poetic verse",
+      "sound_description": "A slow-paced vocal recitation of Sanskrit-influenced poetry, where the rhythm is governed by the Mallika metre, creating a steady and meditative atmosphere.",
+      "tempo_bpm": "Slow",
+      "vocal_style": "Poetic recitation and singing of spiritual stories"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume an erect standing posture",
+        "Observe the Mallika metre rhythm",
+        "Begin hand gestures (mudras) to mirror the sung verse",
+        "Maintain minimal lower body movement while pivoting to face the audience"
+      ],
+      "formation": "Solo performance",
+      "level_notes": "Requires high proficiency in mudras (hand gestures) and knowledge of Sanskrit-based poetry.",
+      "rhythm": "Slow, based on the Mallika Sanskrit metre"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "2dc4ed7bc324dfb2080c5ffd1365c2b4ebec3f20e4e3d7b9a665c958dfaf758a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Which specific percussion instruments accompany the Mallika metre in Parayan Thullal? Evidence needed: https://en.wikipedia.org/wiki/Parayan_Thullal"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand gestures (mudras) used to interpret the Mallika metre verses? Evidence needed: https://en.wikipedia.org/wiki/Parayan_Thullal"
+    ]
+  },
+  "id": "atlas:parayan-thullal",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Parayan Thullal",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "e2f7437fc9f3293d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Parayan_Thullal",
+      "question": "What are the specific hand gestures (mudras) used to interpret the Mallika metre verses?",
+      "source": "https://en.wikipedia.org/wiki/Parayan_Thullal",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions gestures are used to explain meanings, but does not name them, which is essential for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "a5a8dda533eb432e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Parayan_Thullal",
+      "question": "Which specific percussion instruments accompany the Mallika metre in Parayan Thullal?",
+      "source": "https://en.wikipedia.org/wiki/Parayan_Thullal",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the music profile accurately for a composer or student."
+    }
+  ],
+  "research_file": "research_results/parayan-thullal.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "parayan-thullal",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Parayan_Thullal",
+    "https://www.wikidata.org/wiki/Q15051550"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

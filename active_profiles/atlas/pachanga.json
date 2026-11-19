@@ -3,42 +3,47 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Complex footwork that requires high coordination"
+          "Complex weight shifts"
         ],
-        "counts": "Simple 1-2-3-4 count.",
+        "counts": "4/4",
         "duration_minutes": "15",
-        "game_version": "A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga."
+        "game_version": "Follow-the-leader game focusing on the knee-bounce."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Deep knee bends that strain the joints",
-          "Rapid weight shifts that compromise balance"
+          "Jumping",
+          "Deep knee bends"
         ],
-        "counts": "Use a slow 4-count rhythm.",
-        "seated_version": "Perform the knee-bounce while seated by lifting heels and engaging the core.",
-        "standing_version": "Hold onto a stable chair for balance while practicing the weight shift.",
-        "tempo_and_range": "Reduce tempo to a comfortable pace; limit the depth of knee bends."
+        "counts": "4/4",
+        "seated_version": "Perform the knee-bounce and upper body rock while seated.",
+        "standing_version": "Supportive standing with reduced tempo and range of motion.",
+        "tempo_and_range": "Reduced tempo."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "beginner",
-      "footwork": "Gliding weight transfer mimicking a moonwalk.",
-      "formation_and_space": "Solo shines or partner dance.",
+      "difficulty": "intermediate",
+      "footwork": "Double-bending and straightening of the knees; gliding weight transfers.",
+      "formation_and_space": "Solo shines or partnerwork.",
       "hips_and_torso": "Upper body rocks in response to knee-driven weight changes.",
-      "levels_and_jumps": "not described in sources",
+      "levels_and_jumps": "Low level, grounded.",
       "partnering": "not described in sources",
-      "posture": "Grounded with knees never fully straightening.",
+      "posture": "Grounded, knees never fully straightening.",
       "signature_moves": [
         {
-          "description": "An improvised dance move popularized at the Triton Club.",
+          "description": "An improvised move created by Johnny Pacheco at the Triton Club.",
           "name": "Bronx Hop"
         }
       ],
-      "tempo_feel": "Lively and festive.",
-      "what_to_avoid": "Locking the knees."
+      "tempo_feel": "Lively, syncopated.",
+      "what_to_avoid": "Fully straightening the knees."
     },
     "music_profile": {
       "instruments": [
@@ -65,24 +70,24 @@
           "title": "Pachanga at the Caravana Club"
         }
       ],
-      "rhythm_pattern": "Strong downbeat with mambo-influenced offbeat",
-      "sound_description": "A bright, rhythmic sound driven by high-pitched violins and flutes, characterized by repetitive riffs and a persistent, bouncy downbeat.",
+      "rhythm_pattern": "Strong down-beat emphasis",
+      "sound_description": "A lively, syncopated sound driven by the interplay between high-pitched violins and flutes, supported by a rhythmic foundation of drums and piano.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Jocular and mischievous"
+      "vocal_style": "Jocular, mischievous"
     },
     "teaching": {
       "basic_steps": [
-        "Bend and straighten knees continuously without locking.",
-        "Shift weight from one foot to the other with a glide.",
-        "Rock the upper body to maintain connectivity."
+        "Double-bend and straighten knees to establish the bounce.",
+        "Shift weight from one foot to the other while maintaining the knee bend.",
+        "Execute a glide on the weight transfer to mimic a moonwalk."
       ],
-      "formation": "Solo or social partner dance",
-      "level_notes": "Focus on keeping the knees bent and grounded to achieve the characteristic glide.",
-      "rhythm": "4/4 time"
+      "formation": "Solo (shines) or partnerwork.",
+      "level_notes": "Intermediate: Requires high degree of knee control and groundedness.",
+      "rhythm": "4/4 time, emphasizing the downbeat."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a8b312bfb13d123ad80e53a8498d0607dbbf9f40e6d53fbd560cba820bf7075e",
+  "fingerprint": "54d24439379d60960b576b57f9f8c25c15eda595b846956e3d581aabd7a92567",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -90,7 +95,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific counts for the 'Bronx Hop'? Evidence needed: Instructional video or dance manual from the 1960s."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -116,7 +122,17 @@
   ],
   "music_options": [],
   "name": "pachanga",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0e7b7b39a9fcf036",
+      "next_evidence": "Instructional video or dance manual from the 1960s.",
+      "question": "What are the specific counts for the 'Bronx Hop'?",
+      "source": "https://en.wikipedia.org/wiki/Pachanga",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for the signature move."
+    }
+  ],
   "research_file": "research_results/pachanga.json",
   "runtime_active": false,
   "scope": {
@@ -132,7 +148,8 @@
     "https://www.wikidata.org/wiki/Q367751",
     "https://es.wikipedia.org/wiki/Pachanga_(música)",
     "https://fr.wikipedia.org/wiki/Pachanga",
-    "https://de.wikipedia.org/wiki/Pachanga_(Genre)"
+    "https://de.wikipedia.org/wiki/Pachanga_(Genre)",
+    "https://it.wikipedia.org/wiki/Pachanga"
   ],
   "state": "researching",
   "video_evidence": [

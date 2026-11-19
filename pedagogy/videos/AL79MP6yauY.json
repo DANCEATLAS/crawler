@@ -1,0 +1,123 @@
+{
+ "youtube_id": "AL79MP6yauY",
+ "slug": "tanztheater",
+ "dance": "Tanztheater",
+ "title": "Online Class - Tanztheater",
+ "channel": "Tanztheater Adrian Look",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-19T20:35:00Z",
+ "url": "https://www.youtube.com/watch?v=AL79MP6yauY",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher demonstrates movement exercises step-by-step in front of a mirror while explaining technique. He combines spoken instruction with counts and musical accompaniment to guide students through posture and movement.",
+  "language": "en",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "The teacher introduces the first exercise for arms."
+   },
+   {
+    "t": "1:22",
+    "segment": "music_practice",
+    "note": "The teacher practices the arm exercise with music."
+   },
+   {
+    "t": "3:46",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the foot and arm exercise."
+   },
+   {
+    "t": "5:37",
+    "segment": "music_practice",
+    "note": "The teacher practices the foot exercise with music."
+   },
+   {
+    "t": "6:57",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the next exercise for plié and upper body curve."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "reach out",
+   "through the plié",
+   "relax the chest"
+  ],
+  "metaphors": [
+   "brush along here"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "not stretching knees all the way",
+   "not reaching far enough"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "First exercise arms",
+    "counts": "1-8",
+    "description": "Arm movements with side bends and chest curls."
+   },
+   {
+    "name": "Foot exercise",
+    "counts": "1-8",
+    "description": "Foot pointing and plié with arm reaches."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear counting",
+    "Demonstration with mirror"
+   ],
+   "what_hinders": [
+    "Lacks verbal breakdown for some transitions"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "Okay, the first exercise is arms up."
+   },
+   {
+    "t": "1:22",
+    "text": "And then we do the other side."
+   },
+   {
+    "t": "3:47",
+    "text": "Next exercise is for the feet."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 1,
+    "end_s": 6,
+    "topic": "movement",
+    "observation": "The teacher raises arms to first position and side bends to the right.",
+    "viewpoint": "front view reflected in mirror",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining vocal singing along with live musical accompaniment while demonstrating exercises in front of a mirror."
+ },
+ "attempts": 1
+}

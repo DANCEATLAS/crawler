@@ -1,6 +1,6 @@
 # Batusi — episode pack
 
-*Status: draft · built 2026-11-18 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Form a horizontal V-sign with the index and middle fingers of
 NARRATION: Step 2: Position your fingers in front of your eyes so your eyes look between the V-shape.
 NARRATION: Footwork from the sources: Simple rhythmic weight shifts, 1960s go-go stepping or foot tapping on the beat.
 NARRATION: Drill: Practice forming the horizontal V-sign with palms facing inward.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -191,7 +191,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Form a horizontal V-sign with the index and middle fingers of both hands, palms facing toward your face.
 NARRATION: Step 2: Position your fingers in front of your eyes so your eyes look between the V-shape.
 NARRATION: Drill: Add side-to-side weight transfer while executing eye swipes.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -263,7 +263,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Draw both hands outward away from the center of the face horizontally in time with the music beat.
 NARRATION: Step 2: Maintain a continuous rhythmic go-go step or torso twist with the lower body.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 34 tutorial(s) of the street-urban family studied · videos studied: 34
+Source: 39 tutorial(s) of the street-urban family studied · videos studied: 39
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: one and two; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back
 
 Sources (3): https://en.wikipedia.org/wiki/Batusi; https://www.wikidata.org/wiki/Q4873372; https://es.wikipedia.org/wiki/Batusi

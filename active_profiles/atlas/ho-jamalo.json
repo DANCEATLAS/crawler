@@ -1,0 +1,136 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Clapping of the hands to create rhythm",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "handclapping"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "triumphant",
+        "celebratory",
+        "joyous",
+        "festive"
+      ],
+      "musical_form": "Call-and-response refrain centered around 'Ho Jamalo'",
+      "reference_recordings": [
+        {
+          "artist": "Ali Sethi and Humaira Arshad",
+          "title": "Ho Jamalo (Coke Studio Season 11)"
+        }
+      ],
+      "rhythm_pattern": "Rhythmic handclapping accompanying vocal chorus",
+      "sound_description": "A festive folk style built on simple chorus refrains, driven by steady group handclapping and vocal responses celebrating victory.",
+      "tempo_bpm": "",
+      "vocal_style": "Chorus singing with lead refrains"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Clap hands rhythmically in time with the chorus refrain"
+      ],
+      "formation": "Group chorus formation",
+      "level_notes": "Accessible simple folk dance structure",
+      "rhythm": "Rhythmic handclapping in chorus meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "9fd05b5519b606387b028e140937e42eab65cb48eb419f8394fc3936a2b69795",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific choreography and body movements accompany the rhythmic handclapping in traditional Sindhi performances of Ho Jamalo? Evidence needed: Archival video documentation or ethnographic field recordings of Ho Jamalo dance performances in Sindh."
+    ]
+  },
+  "id": "atlas:ho-jamalo",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Ho Jamalo",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "3f5a1c0a18a50fdd",
+      "next_evidence": "Archival video documentation or ethnographic field recordings of Ho Jamalo dance performances in Sindh.",
+      "question": "What specific choreography and body movements accompany the rhythmic handclapping in traditional Sindhi performances of Ho Jamalo?",
+      "source": "https://en.wikipedia.org/wiki/Ho_Jamalo",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile footwork and body posture fields are not described in existing text sources."
+    }
+  ],
+  "research_file": "research_results/ho-jamalo.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "ho-jamalo",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ho_Jamalo",
+    "https://www.wikidata.org/wiki/Q16920556"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

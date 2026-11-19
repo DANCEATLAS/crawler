@@ -1,8 +1,8 @@
 # American Tribal Style Belly Dance — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Language of the Tribe
 NARRATION: This is American Tribal Style Belly Dance. Late 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (_DTMoZf1jis)
 ON SCREEN: Title card: American Tribal Style Belly Dance · United States · Late 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: Dancers operate in a group (tribe) using a standardized vocabulary of movements.
 NARRATION: The leader is positioned at the far left.
 NARRATION: Dancers use physical cues to signal transitions between movements.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (_DTMoZf1jis)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Leader is always farthest to the left, followers to the right. Dancers angle their bodies to the left to read cues.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -286,7 +286,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Costumes feature tiered skirts (10-25 meters), cholis, coin bras, and heavy oxidized silver jewelry. Hair is often worn up with flowers or hair gardens. Makeup is eye-focused with heavy kohl or kajal.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '_DTMoZf1jis', 'checked_by_vision_model': True, 'title': 'День рождения Трайбл Мафии - Tiana Frolkina - Tribal Fusion'}
 Images: 0 licensed
 Footage: Fat Chance Belly Dance Live — https://archive.org/details/fat-chance-belly-dance-live-199-dance-vhs_1; File:Tribal Festival Dance 2014.webm — https://upload.wikimedia.org/wikipedia/commons/8/8b/Tribal_Festival_Dance_2014.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wes Studi Offers COVID-19 Guidance to Tribal Communities 30sec PSA.webm — https://upload.wikimedia.org/wikipedia/commons/2/2f/Wes_Studi_Offers_COVID-19_Guidance_to_Tribal_Communities_30sec_PSA.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2022 White House Tribal Nations Summit - Day 1.webm — https://upload.wikimedia.org/wikipedia/commons/2/21/2022_White_House_Tribal_Nations_Summit_-_Day_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Western Oregon Tribal Fairness Act Explained (26390350647).webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Western_Oregon_Tribal_Fairness_Act_Explained_%2826390350647%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Koya - Education, Employment, and alternative careers in Tribal Community.webm — https://upload.wikimedia.org/wikipedia/commons/5/5f/Koya_-_Education%2C_Employment%2C_and_alternative_careers_in_Tribal_Community.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Encyclopedia of Tribal Medicines by Pankaj Oudhia (Related Videos/Movies/Slide Shows-1) — https://archive.org/details/EncyclopediaOfTribalMedicinesByPankajOudhia-1
 Motifs: Layered skirts, Oxidized silver jewelry, Kohl-lined eyes
@@ -296,9 +296,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (4): https://en.wikipedia.org/wiki/American_Tribal_Style_Belly_Dance; https://www.wikidata.org/wiki/Q448706; https://fr.wikipedia.org/wiki/Danse_tribale_américaine; https://de.wikipedia.org/wiki/American_Tribal_Style_Belly_Dance

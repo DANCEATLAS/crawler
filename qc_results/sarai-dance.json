@@ -1,10 +1,10 @@
 {
  "slug": "sarai-dance",
- "qc_at": "2026-11-02T14:47:01Z",
+ "qc_at": "2026-11-19T20:23:01Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.7,
+ "qc_score": 9.55,
  "gates": [
   {
    "gate": "has_name",
@@ -14,27 +14,27 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "70"
+   "detail": "88"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "127"
+   "detail": "113"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Devotees in western Nepal wield real khukuris and swords, clashing metal and cha"
+   "detail": "Devotees in western Nepal clash real khukuris and swords while chanting Wakkhai "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "600"
+   "detail": "402"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2414"
+   "detail": "4364"
   },
   {
    "gate": "sections_filled",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "deeply rooted"
   },
   {
    "gate": "ai_tells",
@@ -84,29 +84,30 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'deity', 'deities', 'god', 'goddess', 'worship', 'spirit', 'religious', 'offering']"
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'deity', 'deities', 'god', 'goddess', 'worship', 'religious']"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 8,
+  "teaching_value": 7,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 10,
+  "adaptations_safe": true,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "Extremely well-documented, specific, and culturally accurate profile of the Nepalese Sarai dance."
+  "notes": "Exceptionally detailed profile strictly supported by evidence, handling sacred weapons and ritual contexts appropriately."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.7",
+  "judge_score=9.55",
   "sacred"
  ],
  "citation": {
@@ -114,5 +115,5 @@
   "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-28T06:33:25Z"
+ "researched_at": "2026-11-19T20:21:10Z"
 }

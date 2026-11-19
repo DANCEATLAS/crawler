@@ -1,0 +1,123 @@
+{
+ "slug": "plataniotiko-nero",
+ "qc_at": "2026-11-19T20:26:15Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.9,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Plataniotiko Nero"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "68"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "176"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Named for the 'Water of Platanos' in Samos, this dance traces the melodic contou"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "490"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3115"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "2/2 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ancestor', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and culturally respectful. It accurately situates the dance within the Aegean syrtos tradition. The teaching instructions are clear and physically appropriate for beginners. The connection between the village of Platanos, the spring, and the dance is well-articulated."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sources",
+  "banned_phrasing",
+  "sacred_handled",
+  "judge_score=8.9",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 2,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-19T19:40:00Z"
+}

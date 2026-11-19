@@ -1,0 +1,878 @@
+{
+ "slug": "condong",
+ "name": "Condong",
+ "pack_version": "e2",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T19:20:32Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An exacting Balinese conservatory master like Putu Evie Suyadnyani, instilling courtly discipline and vivid expressive intensity in young performers.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Condong",
+   "Legong Condong",
+   "Tari Condong"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Condong",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Palace Maid's Omen",
+     "This is Condong. Mid-19th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Condong · Indonesia · Mid-19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Map: Indonesia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore",
+    "needs": [
+     "origins_and_history"
+    ]
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally danced for the pleasure of Balinese royal families, Condong introduces royal legong, gambuh, and arja theatrical suites.",
+     "It portrays the devotion, awe, and daily duties of a palace maidservant serving her sovereign.",
+     "Today, it also features in youth dance competitions, preservation festivals, and international conservatory showcases.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The condong dancer enters the stage solo before the legong begins, moving with an intense and sharp dynamic quality.",
+     "The routine depicts a capricious maidservant attending to court life and admiring royal majesty.",
+     "As the legong performers enter, the condong dancer dances alongside them, hands each a fan, and withdraws.",
+     "Watch for Fan presentation, Raven omen dance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo floor entrance traversing the stage, culminating in a shared space with legong dancers before exit"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Condong is accompanied by the semar pangulingan style of gamelan, as well as antique ensembles such as the Semara Patangian orchestra.",
+     "The musical composition features a sequence of short 16-beat melodic structures played in the gegaboran meter.",
+     "Listen for the semar pangulingan gamelan, Semara Patangian gamelan orchestra.",
+     "The pulse is 16-beat gegaboran meter shifting to batel meter.",
+     "A refined, vibrant Balinese gamelan sound characterized by the crystalline resonance of semar pangulingan metallurgy, executing short 16-beat melodic periods in gegaboran meter that accelerate and transition sharply into the driving batel meter."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Series of short 16-beat melodic cycles"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed on court stages, theater spaces, and modern concert halls.",
+     "Dancers wear traditional Balinese court dance attire appropriate for female palace roles, carry hand fans to present to the subsequent dancers, and don raven wings when enacting the omen in Legong Lasem."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Choreographer and teacher Ni Ketut Arini; master instructors Ni Reneng of Kedaton and I.G.A. Susilawati; choreographer I Wayan Berata (who adapted condong movements into Panyembrama in 1971); and dancer Putu Evie Suyadnyani of Mekar Bhuana Conservatory.",
+     "The dance originated in Sukawati and is preserved in major Balinese court traditions including Kedaton and Sanur.",
+     "Derived from royal 19th-century court dances and legong prototypes; gave rise to the 1971 modern classic Panyembrama choreographed by I Wayan Berata, and continues as a foundational teaching tool in contemporary Balinese conservatories."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Condong is parent of Legong: Condong features simplified versions of legong movements and serves as its traditional introductory preface.",
+     "Condong is variant of Legong Lasem: In Legong Lasem (Legong Kraton), the condong dancer returns wearing raven wings to foretell the king's doom.",
+     "Condong is child of Panyembrama: Created in 1971 by I Wayan Berata, incorporating adapted movements from Condong and Legong.",
+     "Condong is shares music of Gambuh: Shares the condong stock maidservant character."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Solo entrance onto the performance space",
+     "Sharp, intense character routine depicting the maidservant's duties",
+     "Count it: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Before the queens of Balinese legong take the stage, a young girl portraying a nimble maidservant commands the palace floor with razor-sharp grace.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Internalize the 16-beat gegaboran rhythm and lively stance.",
+   "level": "Level 1: Foundation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Internalize the 16-beat gegaboran rhythm and lively stance..",
+      "Level: Level 1: Foundation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An exacting Balinese conservatory master like Putu Evie Suyadnyani, instilling courtly discipline and vivid expressive intensity in young performers."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hand gestures manipulating and presenting fans to subsequent dancers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars. The meter is 16-beat gegaboran meter shifting to batel meter.",
+      "Rhythm pattern: Series of short 16-beat melodic cycles.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Solo entrance onto the performance space",
+      "Step 2: Sharp, intense character routine depicting the maidservant's duties",
+      "Footwork from the sources: Simplified versions of legong footwork executed with sharp and intense precision",
+      "Drill: Count through the 16-beat cycle with gamelan accompaniment."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Meeting and dancing with incoming legong dancers",
+      "Step 4: Presentation of fans to each legong dancer",
+      "Drill: Practice holding the intense, focused gaze required of the condong maidservant."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Execute basic entrance steps to the opening melodic phrase."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sluggish or loose movements, maintaining the sharp, lively, and intense precision characteristic of Balinese female court dance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count. · For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count.",
+      "For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Internalize the 16-beat gegaboran rhythm and lively stance..",
+      "Traditionally danced for the pleasure of Balinese royal families, Condong introduces royal legong, gambuh, and arja theatrical suites.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate sharp movement transitions and prop handoffs.",
+   "level": "Level 2: Character and Fanwork",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate sharp movement transitions and prop handoffs..",
+      "Level: Level 2: Character and Fanwork. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An exacting Balinese conservatory master like Putu Evie Suyadnyani, instilling courtly discipline and vivid expressive intensity in young performers."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hand gestures manipulating and presenting fans to subsequent dancers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars. The meter is 16-beat gegaboran meter shifting to batel meter.",
+      "Rhythm pattern: Series of short 16-beat melodic cycles.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stage withdrawal prior to the main legong dance",
+      "Drill: Drill the sharp, sudden directional shifts characteristic of the routine."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Fan presentation: Dancing with the incoming legong performers and handing a fan to each dancer before withdrawing.",
+      "Raven omen dance: Re-entering the stage wearing raven wings to foretell the death of King Lasem.",
+      "Drill: Rehearse the ceremonial grip and presentation of the fan."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate step timing during the transition into batel meter."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sluggish or loose movements, maintaining the sharp, lively, and intense precision characteristic of Balinese female court dance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count. · For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count.",
+      "For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo floor entrance traversing the stage, culminating in a shared space with legong dancers before exit"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate sharp movement transitions and prop handoffs..",
+      "Choreographer and teacher Ni Ketut Arini; master instructors Ni Reneng of Kedaton and I.G.A. Susilawati; choreographer I Wayan Berata (who adapted condong movements into Panyembrama in 1971); and dancer Putu Evie Suyadnyani of Mekar Bhuana Conservatory.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Sustain the 15-minute choreography with stamina and dramatic presence.",
+   "level": "Level 3: Full Performance",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Sustain the 15-minute choreography with stamina and dramatic presence..",
+      "Level: Level 3: Full Performance. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An exacting Balinese conservatory master like Putu Evie Suyadnyani, instilling courtly discipline and vivid expressive intensity in young performers."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hand gestures manipulating and presenting fans to subsequent dancers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars. The meter is 16-beat gegaboran meter shifting to batel meter.",
+      "Rhythm pattern: Series of short 16-beat melodic cycles.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Presentation of fans to each legong dancer",
+      "Step 2: Stage withdrawal prior to the main legong dance",
+      "Drill: Execute the full 15-minute solo endurance run."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Fan presentation: Dancing with the incoming legong performers and handing a fan to each dancer before withdrawing.",
+      "Raven omen dance: Re-entering the stage wearing raven wings to foretell the death of King Lasem.",
+      "Drill: Coordinate spatial transitions with two incoming legong partners."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Perform the dramatic raven-wing omen sequence for Legong Lasem."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sluggish or loose movements, maintaining the sharp, lively, and intense precision characteristic of Balinese female court dance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count. · For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count.",
+      "For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo floor entrance traversing the stage, culminating in a shared space with legong dancers before exit"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Sustain the 15-minute choreography with stamina and dramatic presence..",
+      "Derived from royal 19th-century court dances and legong prototypes; gave rise to the 1971 modern classic Panyembrama choreographed by I Wayan Berata, and continues as a foundational teaching tool in contemporary Balinese conservatories.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "16-beat gegaboran meter shifting to batel meter",
+  "rhythm_pattern": "Series of short 16-beat melodic cycles",
+  "instruments": [
+   "semar pangulingan gamelan",
+   "Semara Patangian gamelan orchestra"
+  ],
+  "vocal_style": null,
+  "musical_form": "Cyclic 16-beat gegaboran melody concluding with batel transition",
+  "mood": [
+   "fast",
+   "lively",
+   "intense",
+   "courtly",
+   "sharp"
+  ],
+  "sound_description": "A refined, vibrant Balinese gamelan sound characterized by the crystalline resonance of semar pangulingan metallurgy, executing short 16-beat melodic periods in gegaboran meter that accelerate and transition sharply into the driving batel meter.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Condong (Indonesia). Meter 16-beat gegaboran meter shifting to batel meter. Rhythm pattern: Series of short 16-beat melodic cycles. Instruments: semar pangulingan gamelan, Semara Patangian gamelan orchestra. Form: Cyclic 16-beat gegaboran melody concluding with batel transition. Mood: fast, lively, intense, courtly, sharp. It should sound like this: A refined, vibrant Balinese gamelan sound characterized by the crystalline resonance of semar pangulingan metallurgy, executing short 16-beat melodic periods in gegaboran meter that accelerate and transition sharply into the driving batel meter. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance is performed on court stages, theater spaces, and modern concert halls. Dancers wear traditional Balinese court dance attire appropriate for female palace roles, carry hand fans to present to the subsequent dancers, and don raven wings when enacting the omen in Legong Lasem.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Wajangfiguur_voorstellende_de_vrouwelijke_bediende_Condong_TMnr_15-954-89.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AUbud%2C_Legong_dance.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "description": "bali ubud danseur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/COLLECTIE_TROPENMUSEUM_Wajangfiguur_voorstellende_de_vrouwelijke_bediende_Condong_TMnr_15-954-89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/COLLECTIE_TROPENMUSEUM_Wajangfiguur_voorstellende_de_vrouwelijke_bediende_Condong_TMnr_15-954-89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Tropenmuseum / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Wajangfiguur_voorstellende_de_vrouwelijke_bediende_Condong_TMnr_15-954-89.jpg",
+    "description": "Schaduwfiguur. Vrouwelijke bediende.. Wajangfiguur voorstellende de vrouwelijke bediende Condong"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ubud%2C_Legong_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ubud%2C_Legong_dance.jpg/1280px-Ubud%2C_Legong_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Arian Zwegers / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AUbud%2C_Legong_dance.jpg",
+    "description": "Ubud, Legong dance, the two Legongs and the Condong"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/17_Years_of_Sekar_Jepun_2014-11-01_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/17_Years_of_Sekar_Jepun_2014-11-01_01.jpg/1280px-17_Years_of_Sekar_Jepun_2014-11-01_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A17_Years_of_Sekar_Jepun_2014-11-01_01.jpg",
+    "description": "Sanata Dharma University's Sekar Jepun, a Balinese dance troupe, celebrates its 17th anniversary. Shown here is poet Monika N. Arundhati, who danced the Legong Bapang Saba."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/17_Years_of_Sekar_Jepun_2014-11-01_72.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/17_Years_of_Sekar_Jepun_2014-11-01_72.jpg/1280px-17_Years_of_Sekar_Jepun_2014-11-01_72.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A17_Years_of_Sekar_Jepun_2014-11-01_72.jpg",
+    "description": "Sanata Dharma University's Sekar Jepun, a Balinese dance troupe, celebrates its 17th anniversary. This dancer is performing the Condong dance."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+    "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+    "description": "Seni Tari Piring"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+    "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Intricate Balinese headdress and gilded textiles",
+   "Ornate carved fans presented to dancers",
+   "Bronze keys and gongs of the semar pangulingan orchestra",
+   "Dramatic spread of raven wings against the temple backdrop"
+  ],
+  "costume_notes": "The dance is performed on court stages, theater spaces, and modern concert halls. Dancers wear traditional Balinese court dance attire appropriate for female palace roles, carry hand fans to present to the subsequent dancers, and don raven wings when enacting the omen in Legong Lasem.",
+  "setting_notes": "Traditionally danced for the pleasure of Balinese royal families, Condong introduces royal legong, gambuh, and arja theatrical suites. It portrays the devotion, awe, and daily duties of a palace maidservant serving her sovereign. Today, it also features in youth dance competitions, preservation festivals, and international conservatory showcases.",
+  "map": {
+   "country": "Indonesia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "9 tutorial(s) of the classical-court family studied",
+  "videos_studied": 9,
+  "counting": "count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
+  ],
+  "cues": [
+   "tha-ka-di-ki-ta",
+   "tha-the-hi-tha",
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "kanna",
+   "demi-plie",
+   "pas de bourree",
+   "releve",
+   "fifth position",
+   "hold your placement",
+   "stay straight as a board"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage",
+  "the origins & history section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Condong",
+  "https://www.wikidata.org/wiki/Q18521550",
+  "https://fr.wikipedia.org/wiki/Condong",
+  "https://archive.org/details/20131117program"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "e84f3e797d85244a0c2380408648a2e2fbc61496a9db05325390ed24a5740b9f",
+ "hero_checked": null
+}

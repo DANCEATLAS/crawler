@@ -1,8 +1,8 @@
 # Innaby — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful elder or cultural historian familiar with Azerbaijani folk traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Quiet Grace of the Sazandars
 NARRATION: This is Innaby. Early 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (QYtzcCP8lLg)
 ON SCREEN: Title card: Innaby · Azerbaijan · Early 20th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The dance is performed by young women and girls.
 NARRATION: The motions are characterized as slow and quiet, even though the musical pace is moderately lively.
 NARRATION: It is performed in a 6/8 time signature, which typically involves a swaying or skipping feel in Azerbaijani folk traditions.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (QYtzcCP8lLg)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
@@ -302,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Innaby is performed at parties, weddings, and holidays. While specific costume details are not provided in the sources, it is traditionally associated with the festive attire worn by Azerbaijani women during these social events.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'QYtzcCP8lLg', 'checked_by_vision_model': False, 'title': 'İnnabı Rəqsi (Qara Zurna)'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The intricate strings of the tar, Traditional Azerbaijani festive attire, The circular frame of the daf
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Innaby; https://www.wikidata.org/wiki/Q4201156

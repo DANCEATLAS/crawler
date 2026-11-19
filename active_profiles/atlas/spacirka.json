@@ -1,13 +1,67 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Starts slow and transitions to moderately fast.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "moderately fast"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Antonín Dvořák",
+          "title": "Slavonic Dances, Op. 72, No. 5"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by a 2/4 time signature and a transition from a slow, walking tempo to a moderately fast pace.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "2/4 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "66821fdc3ed54168c3f29369d782ec664b4b0708f12f047db5da6e3e9019aee0",
+  "fingerprint": "28c2b9682e82577fddfe09b3e50ee50864a6cd7a463cb73298b88bb32439c2ac",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +69,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is the Špacírka currently practiced as a living folk tradition in Bohemia, or is it primarily known through its classical music adaptations? Evidence needed: Ethnographic records or contemporary folk dance documentation from the Czech Republic."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +99,18 @@
   ],
   "music_options": [],
   "name": "Špacírka",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "098b967c0afac4e3",
+      "next_evidence": "Ethnographic records or contemporary folk dance documentation from the Czech Republic.",
+      "question": "Is the Špacírka currently practiced as a living folk tradition in Bohemia, or is it primarily known through its classical music adaptations?",
+      "source": "https://en.wikipedia.org/wiki/%C5%A0pac%C3%ADrka",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only mention its use by composers, leaving its status as a living dance tradition unclear."
+    }
+  ],
+  "research_file": "research_results/spacirka.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -56,7 +120,10 @@
     "session_modes": []
   },
   "slug": "spacirka",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/%C5%A0pac%C3%ADrka",
+    "https://www.wikidata.org/wiki/Q8082850"
+  ],
   "state": "researching",
   "video_evidence": []
 }

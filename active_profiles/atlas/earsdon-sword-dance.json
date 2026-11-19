@@ -1,0 +1,156 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Real steel blades",
+          "Heavy percussive shoes on hard floors",
+          "Complex 'nut' locks that might pinch fingers"
+        ],
+        "counts": "Standard 1-2-3-4 or 1-2-3 (jig) counts.",
+        "duration_minutes": "3",
+        "game_version": "Use foam 'swords' or pool noodles to learn the weaving patterns as a puzzle-solving game."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping over blades",
+          "Rapid twisting of the spine",
+          "High-speed circular movement"
+        ],
+        "counts": "Slow 1-2-3-4 walking counts.",
+        "seated_version": "Participants sit in a circle and use ribbons or lightweight flexible rods to simulate the weaving patterns without the weight or danger of steel.",
+        "standing_version": "Perform the weaving figures at a walking pace without the jumping or rapid stepping, focusing on the arm coordination.",
+        "tempo_and_range": "Reduce tempo by 50%; focus on upper body mobility."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands remain low, gripping the handles and tips of the flexible swords to form a continuous chain.",
+      "difficulty": "advanced",
+      "footwork": "Rapid rhythmic stepping, often described as a form of clog dancing or 'shuffling' in time with the music.",
+      "formation_and_space": "A very tight circle that moves as a single unit; requires minimal floor space but high vertical clearance for jumps.",
+      "hips_and_torso": "Relatively stable, with most movement occurring in the legs and through the weaving of the arms.",
+      "levels_and_jumps": "Includes jumping over the flexible blades while maintaining the grip.",
+      "partnering": "Collective; all five dancers are physically linked throughout the majority of the dance.",
+      "posture": "Upright and compact to allow for tight circular weaving.",
+      "signature_moves": [
+        {
+          "description": "The swords are woven together into a five-pointed star and held aloft by the leader.",
+          "name": "The Nut"
+        }
+      ],
+      "tempo_feel": "Extremely fast and continuous.",
+      "what_to_avoid": "Releasing the sword grip during figures; losing the rhythmic timing which can lead to entanglement."
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle"
+      ],
+      "meter": "6/8 or 4/4",
+      "mood_keywords": [
+        "energetic",
+        "rhythmic",
+        "festive",
+        "driving"
+      ],
+      "musical_form": "Binary folk tunes repeated for different dance figures",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rapid, driving jigs or hornpipes",
+      "sound_description": "A solo fiddle playing fast-paced traditional Northumbrian tunes, punctuated by the rhythmic percussive sound of five dancers' feet and the occasional metallic clink of flexible steel blades.",
+      "tempo_bpm": "110",
+      "vocal_style": "Introductory songs or speeches by the Tommy character"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle of five dancers",
+        "Each dancer grasps the handle of their own sword and the tip of the sword to their left",
+        "Perform rhythmic stepping (clog-style) in place",
+        "Execute weaving figures (under and over swords) while maintaining the circle",
+        "Lock swords into a 'nut' or star formation"
+      ],
+      "formation": "Closed circle of five dancers linked by swords",
+      "level_notes": "Requires high physical agility and group synchronization; the flexibility of the rapper swords is essential for the movements.",
+      "rhythm": "Fast jig or hornpipe time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "3d460437b0c3fce36b4f16d1ff585ee3621af8005b3d3e04b14641bc47fa9bc2",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Which specific fiddle tunes are traditionally played for the Earsdon dance? Evidence needed: https://en.wikipedia.org/wiki/Earsdon_Sword_Dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific names and sequences of the 'figures' performed by the Royal Earsdon team? Evidence needed: https://en.wikipedia.org/wiki/Earsdon_Sword_Dance"
+    ]
+  },
+  "id": "atlas:earsdon-sword-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Earsdon Sword Dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "2e197239b6ec44ee",
+      "next_evidence": "https://en.wikipedia.org/wiki/Earsdon_Sword_Dance",
+      "question": "What are the specific names and sequences of the 'figures' performed by the Royal Earsdon team?",
+      "source": "https://en.wikipedia.org/wiki/Earsdon_Sword_Dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete movement profile for interactive teaching, the specific sequence of weaving must be known."
+    },
+    {
+      "domain": "research",
+      "id": "5326d2ae7be84467",
+      "next_evidence": "https://en.wikipedia.org/wiki/Earsdon_Sword_Dance",
+      "question": "Which specific fiddle tunes are traditionally played for the Earsdon dance?",
+      "source": "https://en.wikipedia.org/wiki/Earsdon_Sword_Dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The music profile requires specific reference recordings or tune names to be authentic."
+    }
+  ],
+  "research_file": "research_results/earsdon-sword-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "earsdon-sword-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Earsdon_Sword_Dance",
+    "https://www.wikidata.org/wiki/Q5326977"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

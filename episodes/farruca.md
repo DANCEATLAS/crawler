@@ -1,6 +1,6 @@
 # Farruca — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
+Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
 
 Sources (7): https://en.wikipedia.org/wiki/Farruca; https://www.wikidata.org/wiki/Q2557688; https://fr.wikipedia.org/wiki/Farruca; https://de.wikipedia.org/wiki/Farruca; https://it.wikipedia.org/wiki/Farruca; https://archive.org/details/elsombrerodetres00fall_0; https://archive.org/details/31761034898247

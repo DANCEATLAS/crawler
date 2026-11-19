@@ -1,6 +1,6 @@
 # Men's Fancy Dance — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
@@ -116,7 +116,7 @@ NARRATION: Step 1: Maintain a high-energy, fast-paced movement.
 NARRATION: Step 2: Synchronize footwork with the drum beat.
 NARRATION: Footwork from the sources: Rapid, high-energy steps synchronized to the drum.
 NARRATION: Drill: Step in time to a steady drum beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -182,7 +182,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Maintain a high-energy, fast-paced movement.
 NARRATION: Step 2: Synchronize footwork with the drum beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -250,7 +250,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Synchronize footwork with the drum beat.
 NARRATION: Step 2: Strike a pose immediately when the drum beat stops.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the ritual-sacred family studied · videos studied: 4
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: say the count before the move; name the body part, then the direction; one correction at a time
 
 Sources (2): https://en.wikipedia.org/wiki/Fancy_dance; https://www.wikidata.org/wiki/Q5433706

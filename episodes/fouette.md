@@ -1,6 +1,6 @@
 # Fouetté — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -344,10 +344,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2
-Demonstration: views used by most teachers: front; tempo progression: slow; repetitions per step: about 10
-Cues: stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
-Common mistakes the studied teachers name: leaning forward or back during a plié; letting the outside arm get behind the body; having a 'sleepy' passé
+Demonstration: views used by most teachers: front, side; tempo progression: slow; repetitions per step: about 10
+Cues: stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked
+Common mistakes the studied teachers name: leaning forward or back during a plié; letting the outside arm get behind the body; having a 'sleepy' passé; sticking the booty out (corrected by instructing to neutralize the pelvis)
 
 Sources (4): https://en.wikipedia.org/wiki/Turn_(dance_and_gymnastics); https://www.wikidata.org/wiki/Q2669969; https://es.wikipedia.org/wiki/Fouetté_en_tournant; https://it.wikipedia.org/wiki/Fouettés_en_tournant

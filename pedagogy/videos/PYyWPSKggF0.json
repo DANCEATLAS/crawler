@@ -5,7 +5,7 @@
  "title": "Fouetté Turn Tutorial- Step By Step Breakdown",
  "channel": "BodyKinect by Kendall",
  "viewer_ratio": 3.5,
- "analysed_at": "2026-11-13T18:26:44Z",
+ "analysed_at": "2026-11-19T20:33:09Z",
  "url": "https://www.youtube.com/watch?v=PYyWPSKggF0",
  "evidence_version": 2,
  "observation_window": {
@@ -15,5 +15,171 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed"
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher uses a supportive and encouraging tone, frequently praising her assistant to model positive reinforcement. She breaks down complex movements into manageable, sequential progressions to ensure students can build the necessary strength and technique.",
+  "language": "English",
+  "level": "mixed",
+  "lesson_structure": [
+   {
+    "t": "0:47",
+    "segment": "full_demo",
+    "note": "The assistant performs the full fouetté turn sequence."
+   },
+   {
+    "t": "0:59",
+    "segment": "breakdown",
+    "note": "The teacher explains the starting position and the importance of a neutral pelvis."
+   },
+   {
+    "t": "3:00",
+    "segment": "warmup",
+    "note": "The teacher leads 16 relevés in first position to build strength."
+   },
+   {
+    "t": "3:35",
+    "segment": "slow_practice",
+    "note": "The teacher introduces the first progression: a simple passé."
+   },
+   {
+    "t": "4:12",
+    "segment": "slow_practice",
+    "note": "The teacher introduces the second, more advanced progression with leg extension."
+   },
+   {
+    "t": "5:16",
+    "segment": "other",
+    "note": "The teacher explains the concept of spotting."
+   },
+   {
+    "t": "6:12",
+    "segment": "full_demo",
+    "note": "The assistant demonstrates the full turn sequence slowly."
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Neutralize your pelvis",
+   "Shoulders are dropped",
+   "Squeeze your abs",
+   "Keep your eyes locked"
+  ],
+  "metaphors": [
+   "Find something stationary in your room, like a photo on the wall or a teddy bear."
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Sticking the booty out (corrected by instructing to neutralize the pelvis)"
+  ],
+  "safety": [
+   "Try not to grip the hip flexor too hard"
+  ],
+  "steps_taught": [
+   {
+    "name": "First position",
+    "counts": "1-2",
+    "description": "Heels together, arms in low position."
+   },
+   {
+    "name": "Passé",
+    "counts": "1-2",
+    "description": "Working leg bent with toe at the knee."
+   },
+   {
+    "name": "Fouetté turn",
+    "counts": "1-2-3-4",
+    "description": "A turn sequence involving a passé and leg extension."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear, step-by-step progression",
+    "Use of an assistant to demonstrate",
+    "Focus on foundational strength"
+   ],
+   "what_hinders": [
+    "The assistant's movements are sometimes fast, making it hard to see the exact foot placement"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "1:45",
+    "text": "You want to neutralize the pelvis and hold."
+   },
+   {
+    "t": "3:24",
+    "text": "Keep the energy in the upper body."
+   },
+   {
+    "t": "5:06",
+    "text": "Try not to grip it too too hard."
+   },
+   {
+    "t": "6:01",
+    "text": "Spotting is maintaining your focus on a stationary object while you're rotating."
+   },
+   {
+    "t": "7:27",
+    "text": "Dance technique is layer by layer by layer."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 103,
+    "end_s": 109,
+    "topic": "teaching",
+    "observation": "The teacher physically adjusts the assistant's arm position to demonstrate the correct placement.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 140,
+    "end_s": 145,
+    "topic": "teaching",
+    "observation": "The teacher physically guides the assistant's pelvis to demonstrate a neutral position.",
+    "viewpoint": "side",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 305,
+    "end_s": 315,
+    "topic": "movement",
+    "observation": "The assistant performs relevés in first position while the teacher counts.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 340,
+    "end_s": 345,
+    "topic": "movement",
+    "observation": "The assistant performs a passé, showing the transition from first position.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 440,
+    "end_s": 445,
+    "topic": "movement",
+    "observation": "The assistant demonstrates the leg extension during the turn sequence.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a 'layering' approach, starting with very basic movements and adding complexity only after the foundation is established."
+ },
+ "attempts": 2
 }

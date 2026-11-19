@@ -1,0 +1,120 @@
+{
+ "slug": "traditional-dances-of-himachal-pradesh",
+ "qc_at": "2026-11-19T20:24:04Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "traditional dances of Himachal Pradesh"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "62"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "147"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In January 2016, Himachal Pradesh's circular Nati dance entered the Guinness Wor"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "778"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2825"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'deity', 'deities', 'god', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "reject",
+  "notes": "The profile is comprehensive and accurate, but is_a_dance is false because the subject ('traditional dances of Himachal Pradesh') is a regional category of multiple dances rather than a single distinct dance tradition or style."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-19T18:28:23Z"
+}

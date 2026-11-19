@@ -2,7 +2,7 @@
  "slug": "alarippu",
  "name": "Alarippu",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:41Z",
  "researched_at": "2026-11-18T19:24:30Z",
  "qc_score": 10.0,
  "status": "withheld-chapters",
@@ -64,7 +64,7 @@
      "This is Alarippu. 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (vxJ8rgBtAmE)",
      "Title card: Alarippu · India · 19th century"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Griva Bheda, Araimandi."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (vxJ8rgBtAmE)",
      "Captions name each signature move as it appears",
      "Formation: Stationary or limited forward/backward movement on a single axis."
     ],
@@ -264,7 +264,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "vxJ8rgBtAmE",
+   "checked_by_vision_model": true,
+   "title": "Alarippu"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -361,8 +365,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "7 tutorial(s) of the classical-court family studied",
-  "videos_studied": 7,
+  "source": "9 tutorial(s) of the classical-court family studied",
+  "videos_studied": 9,
   "counting": "count the Variable (3, 4, 5, 7, or 9 beats depending on the Jathi) bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -376,19 +380,22 @@
    "keep length in both sides of the waist",
    "keep the supporting leg strong and stable",
    "keep the spine long",
+   "kanna",
    "demi-plie",
    "pas de bourree",
    "releve",
    "fifth position",
    "hold your placement",
-   "stay straight as a board",
-   "lift up in your lower abs"
+   "stay straight as a board"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "warmup",
    "context",
    "breakdown",
+   "full_demo",
+   "slow_practice",
    "music_practice"
   ],
   "steps_as_taught": []
@@ -396,7 +403,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -406,6 +412,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "ab4d86c568774518934391eb907ad8f033a9fd2db68553d3cfbc317abfcb8cc2",
- "hero_checked": null
+ "input_fingerprint": "d1a2aa225f285373bb5718f88a6e8ac8244b3ef6f46127126297ea34b4efaa80",
+ "hero_checked": "pass"
 }

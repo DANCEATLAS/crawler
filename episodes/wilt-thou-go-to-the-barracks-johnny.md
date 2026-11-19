@@ -1,8 +1,8 @@
 # Wilt thou go to the barracks, Johnny? — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 8.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A disciplined Highland dance adjudicator or examiner.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Kilted National Dance
 NARRATION: This is Wilt thou go to the barracks, Johnny?. 19th century (manuscript); Modern (current form).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (qqBgCvZzru0)
 ON SCREEN: Title card: Wilt thou go to the barracks, Johnny? · Scotland · 19th century (manuscript); Modern (current form)
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (qqBgCvZzru0)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -291,7 +291,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear the standard Highland dance costume, consisting of a kilt and waistcoat. This is notable because female dancers do not wear the Aboyne dress usually required for National dances. It is performed on stages for competitions and medal testing.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'qqBgCvZzru0', 'checked_by_vision_model': True, 'title': "'Barracks, Johnny' exhibition Highland Dance by champion dancers during 2020 #VirtualHighlandGames"}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Tartan kilt and waistcoat, The Great Highland Bagpipe, 19th-century manuscript handwriting, Competition medals
@@ -301,9 +301,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Wilt_thou_go_to_the_barracks,_Johnny%3F; https://www.wikidata.org/wiki/Q4368968

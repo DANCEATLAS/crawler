@@ -1,13 +1,80 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex footwork",
+          "Excessive speed"
+        ],
+        "counts": "Simplified 1-2, 1-2 rhythm.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "A 'follow the leader' game in a half-circle where the leader controls the speed."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid tempo changes",
+          "Unstable balance"
+        ],
+        "counts": "Use a simplified 2/4 count.",
+        "seated_version": "Perform the arm movements at shoulder level while seated, focusing on heel taps.",
+        "standing_version": "Hold onto a support for balance while performing the steady steps and heel movements.",
+        "tempo_and_range": "Maintain a consistent, slower tempo throughout."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands held up at shoulder level.",
+      "difficulty": "beginner",
+      "footwork": "Steady steps on the whole foot.",
+      "formation_and_space": "Half-circle.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Mixed-gender, holding hands in a line.",
+      "posture": "Upright with hands held at shoulder level.",
+      "signature_moves": [
+        {
+          "description": "A characteristic movement of the heels performed while stepping.",
+          "name": "Heel movement"
+        }
+      ],
+      "tempo_feel": "Starts slow and speeds up.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "steady",
+        "accelerating"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music follows a 2/4 rhythm that supports a steady pace, which gradually speeds up toward the end of the dance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Establish a half-circle formation with hands held at shoulder level.",
+        "Perform steady steps on the whole foot.",
+        "Execute the characteristic heel movement.",
+        "Gradually increase the tempo of the steps as the dance progresses."
+      ],
+      "formation": "Half-circle",
+      "level_notes": "Beginner-friendly due to steady footwork, but requires attention to tempo changes.",
+      "rhythm": "2/4"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "04dff19861f0155e2e23204c8f00796c66404688aa3a177027a2b2bc81105f93",
+  "fingerprint": "588cb4ba3785da93f348a8346aa6cbe3bf58ae6df899ed35c3b77a4309da5882",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +82,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments typically used to accompany Pembe? Evidence needed: Consult Dimovski, Mihailo. (1977:44-5). Macedonian folk dances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +112,18 @@
   ],
   "music_options": [],
   "name": "Pembe",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5f4d51db043cce31",
+      "next_evidence": "Consult Dimovski, Mihailo. (1977:44-5). Macedonian folk dances.",
+      "question": "What are the specific musical instruments typically used to accompany Pembe?",
+      "source": "https://en.wikipedia.org/wiki/Pembe",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical guidance for practitioners."
+    }
+  ],
+  "research_file": "research_results/pembe.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +135,7 @@
   "slug": "pembe",
   "sources": [
     "https://en.wikipedia.org/wiki/Pembe",
-    "Source: Pembe on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Pembe"
+    "https://www.wikidata.org/wiki/Q7161862"
   ],
   "state": "researching",
   "video_evidence": []

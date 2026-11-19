@@ -2,9 +2,9 @@
  "slug": "carinosa",
  "name": "Cariñosa",
  "pack_version": "e2",
- "built_at": "2026-11-12T18:57:17Z",
- "researched_at": "2026-11-08T16:52:46Z",
- "qc_score": 8.85,
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T20:05:32Z",
+ "qc_score": 9.55,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,10 +45,11 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "persona": "A cultural researcher or experienced folk dance practitioner.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
+   "Cariñosa",
    "Cariñosa",
    "Carinosa"
   ]
@@ -61,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "In the Bicol region, dancers perform the Cariñosa using two handkerchiefs instead of the traditional fan and hanky, a variation documented by researcher Francisca Reyes-Aquino.",
+     "The Dance of Affection: Uncovering the Cariñosa",
      "This is Cariñosa. 16th century."
     ],
     "on_screen": [
@@ -75,8 +76,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The Cariñosa originated on Panay Island during the Spanish colonial era.",
-     "It is considered part of the Maria Clara suite and shares lineage with the Spanish bolero and the Mexican jarabe tapatio."
+     "The dance originated on Panay Island during the Spanish colonial period.",
+     "It is classified as part of the Maria Clara suite and shares lineage with Spanish and Mexican dance forms like the bolero and jarabe tapatio."
     ],
     "on_screen": [
      "Map: Philippines · Southeast Asia",
@@ -89,7 +90,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance is performed during festivals and social gatherings, representing a romantic courtship scenario.",
+     "The dance is performed at festivals and social gatherings.",
+     "It serves as a courtship performance, depicting a romantic scenario between partners.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -102,17 +104,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance centers on a hide-and-seek courtship movement using a fan and a handkerchief.",
-     "In the Bicolano version, dancers use two handkerchiefs instead of a fan, holding them by the corners while pointing the foot forward and raising the arms."
+     "The dance centers on a hide-and-seek routine using a fan and a handkerchief.",
+     "In the Bicol region, dancers use two handkerchiefs instead of a fan, holding them by the corners while pointing the foot forward and raising the arms.",
+     "Watch for Hide-and-seek."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (jaszm_kuY7I)",
-     "Signature moves — MISSING"
+     "Captions name each signature move as it appears"
     ],
-    "music": "diegetic (the video's own sound), underscore under narration",
-    "needs": [
-     "signature_moves"
-    ]
+    "music": "diegetic (the video's own sound), underscore under narration"
    },
    {
     "code": "music",
@@ -136,7 +136,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Performers wear the María Clara gown and barong tagalog, or alternatively, the patadyong kimona and camisa de chino."
+     "Performers wear the María Clara gown and barong tagalog.",
+     "Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -152,9 +153,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Francisca Reyes-Aquino, a researcher who documented the dance in her book, 'Philippine Folk Dances, Volume 2'.",
-     "The Bicolano version, which uses two handkerchiefs and omits the fan.",
-     "Part of the Maria Clara suite of Philippine folk dances."
+     "Francisca Reyes-Aquino, a Filipino folk dancer and cultural researcher who documented the Bicolano version of the dance.",
+     "The Bicolano Cariñosa, which uses two handkerchiefs and omits the fan, involving a distinct hide-and-seek movement.",
+     "Related to Spanish bolero and Mexican jarabe tapatio."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -167,8 +168,8 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Cariñosa is influence of bolero: The Cariñosa is related to Spanish dances like the bolero.",
-     "Cariñosa is influence of jarabe tapatio: The Cariñosa is related to the Mexican jarabe tapatio."
+     "Cariñosa is influence of bolero: Spanish dance that influenced the development of the Cariñosa.",
+     "Cariñosa is influence of jarabe tapatio: Mexican dance that shares stylistic similarities with the Cariñosa."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -179,21 +180,24 @@
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
-    "narration": [],
+    "narration": [
+     "Before we go, one step. Point foot forward while raising arms with handkerchiefs (Bicolano variant)",
+     "Hide-and-seek movement using fan and handkerchief",
+     "Count it: 1-2-3.",
+     "Chapter 1 takes it slowly from here."
+    ],
     "on_screen": [
      "Instructor, front view, slow",
      "Count on screen"
     ],
-    "music": "lesson_slow",
-    "needs": [
-     "teaching steps"
-    ]
+    "music": "lesson_slow"
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
+     "Explore the romantic hide-and-seek of the Philippines' most famous colonial-era courtship dance.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -208,17 +212,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "the first steps of Cariñosa",
-   "level": null,
+   "goal": "Learn the basic hide-and-seek gesture.",
+   "level": "Beginner",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: the first steps of Cariñosa.",
-      "Level: beginner. ",
-      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+      "Chapter 1 — First steps. Today: Learn the basic hide-and-seek gesture..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A cultural researcher or experienced folk dance practitioner."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -229,14 +233,13 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [],
-     "on_screen": [
-      "Demonstration withheld until posture is sourced"
+     "narration": [
+      "Arms raised with handkerchiefs held by corners (Bicolano variant)."
      ],
-     "music": "silence",
-     "needs": [
-      "posture"
-     ]
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
     },
     {
      "code": "count",
@@ -260,23 +263,27 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [],
+     "narration": [
+      "Step 1: Point foot forward while raising arms with handkerchiefs (Bicolano variant)",
+      "Step 2: Hide-and-seek movement using fan and handkerchief",
+      "Footwork from the sources: Pointing the foot forward (Bicolano variant).",
+      "Drill: Practice holding the fan/handkerchief."
+     ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3",
-     "repetitions": 3,
-     "needs": [
-      "teaching steps"
-     ]
+     "repetitions": 3
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [],
+     "narration": [
+      "Drill: Coordinate arm movement with face obscuring."
+     ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
@@ -336,8 +343,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the first steps of Cariñosa.",
-      "The dance is performed during festivals and social gatherings, representing a romantic courtship scenario.",
+      "You can now: Learn the basic hide-and-seek gesture..",
+      "The dance is performed at festivals and social gatherings.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -360,8 +367,8 @@
      "duration_s": 45,
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of Cariñosa.",
-      "Level: intermediate. ",
-      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A cultural researcher or experienced folk dance practitioner."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -372,14 +379,13 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [],
-     "on_screen": [
-      "Demonstration withheld until posture is sourced"
+     "narration": [
+      "Arms raised with handkerchiefs held by corners (Bicolano variant)."
      ],
-     "music": "silence",
-     "needs": [
-      "posture"
-     ]
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
     },
     {
      "code": "count",
@@ -403,32 +409,32 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [],
+     "narration": [
+      "Step 1: Point foot forward while raising arms with handkerchiefs (Bicolano variant)",
+      "Step 2: Hide-and-seek movement using fan and handkerchief"
+     ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3",
-     "repetitions": 3,
-     "needs": [
-      "teaching steps"
-     ]
+     "repetitions": 3
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [],
+     "narration": [
+      "Hide-and-seek: Dancers use a fan and handkerchief to obscure and reveal their faces to one another."
+     ],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo"
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3",
-     "repetitions": 3,
-     "needs": [
-      "signature moves"
-     ]
+     "repetitions": 3
     },
     {
      "code": "combine",
@@ -480,7 +486,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the building the dance of Cariñosa.",
-      "Francisca Reyes-Aquino, a researcher who documented the dance in her book, 'Philippine Folk Dances, Volume 2'.",
+      "Francisca Reyes-Aquino, a Filipino folk dancer and cultural researcher who documented the Bicolano version of the dance.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -503,8 +509,8 @@
      "duration_s": 45,
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of Cariñosa.",
-      "Level: advanced. ",
-      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A cultural researcher or experienced folk dance practitioner."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -515,14 +521,13 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [],
-     "on_screen": [
-      "Demonstration withheld until posture is sourced"
+     "narration": [
+      "Arms raised with handkerchiefs held by corners (Bicolano variant)."
      ],
-     "music": "silence",
-     "needs": [
-      "posture"
-     ]
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
     },
     {
      "code": "count",
@@ -546,32 +551,32 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [],
+     "narration": [
+      "Step 1: Point foot forward while raising arms with handkerchiefs (Bicolano variant)",
+      "Step 2: Hide-and-seek movement using fan and handkerchief"
+     ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3",
-     "repetitions": 3,
-     "needs": [
-      "teaching steps"
-     ]
+     "repetitions": 3
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [],
+     "narration": [
+      "Hide-and-seek: Dancers use a fan and handkerchief to obscure and reveal their faces to one another."
+     ],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo"
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3",
-     "repetitions": 3,
-     "needs": [
-      "signature moves"
-     ]
+     "repetitions": 3
     },
     {
      "code": "combine",
@@ -623,7 +628,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the dancing it fully of Cariñosa.",
-      "Part of the Maria Clara suite of Philippine folk dances.",
+      "Related to Spanish bolero and Mexican jarabe tapatio.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -645,10 +650,13 @@
   "instruments": [],
   "vocal_style": null,
   "musical_form": null,
-  "mood": [],
+  "mood": [
+   "affectionate",
+   "romantic"
+  ],
   "sound_description": null,
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Cariñosa (Philippines). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Cariñosa (Philippines). Mood: affectionate, romantic. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -690,7 +698,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Performers wear the María Clara gown and barong tagalog, or alternatively, the patadyong kimona and camisa de chino.",
+   "from_sources": "Performers wear the María Clara gown and barong tagalog. Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3APhilippine_culture_dance.jpg"
    ],
@@ -727,9 +735,13 @@
     "attribution": "Internet Archive"
    }
   ],
-  "motifs": [],
-  "costume_notes": "Performers wear the María Clara gown and barong tagalog, or alternatively, the patadyong kimona and camisa de chino.",
-  "setting_notes": "The dance is performed during festivals and social gatherings, representing a romantic courtship scenario.",
+  "motifs": [
+   "Fan and handkerchief",
+   "María Clara gown",
+   "Barong tagalog"
+  ],
+  "costume_notes": "Performers wear the María Clara gown and barong tagalog. Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men.",
+  "setting_notes": "The dance is performed at festivals and social gatherings. It serves as a courtship performance, depicting a romantic scenario between partners.",
   "map": {
    "country": "Philippines",
    "region": "Southeast Asia",
@@ -826,8 +838,6 @@
   "instruments",
   "a verified recording to listen to",
   "licensed images (3 needed)",
-  "posture, arms and hands",
-  "signature moves",
   "the music & instruments section",
   "teaching steps written out",
   "what to avoid / common mistakes"
@@ -839,6 +849,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "9405dc99915efad36d2404d652351cfe8af6019feee0cf8b0f5ae78e2255d172",
+ "input_fingerprint": "fe029f131d31b2438c056401e9b0762f5d036a1f612701667c6bf460bc47f4b0",
  "hero_checked": "pass"
 }

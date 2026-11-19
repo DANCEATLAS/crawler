@@ -1,6 +1,6 @@
 # Rebolation — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step forward with the lead foot.
 NARRATION: Use the heel as a pivot point.
-NARRATION: Count it: .
+NARRATION: Count it: vai e volta.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: vai e volta.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -120,9 +120,10 @@ NARRATION: Step 1: Step forward with the lead foot.
 NARRATION: Step 2: Use the heel as a pivot point.
 NARRATION: Footwork from the sources: Heel-pivot based movement creating a sliding effect.
 NARRATION: Drill: Practice shifting weight onto the heel.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: vai e volta · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Turn the back foot backwards while the front foot turns inwards.
@@ -130,6 +131,7 @@ NARRATION: Step 4: Repeat the motion in reverse to move backwards.
 NARRATION: Drill: Pivot the back foot while keeping the front foot steady.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: vai e volta · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -148,7 +150,7 @@ OPTIONS: Seated or supported option: Perform the heel-pivot motion while seated,
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: vai e volta.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,7 +180,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: vai e volta.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -189,9 +191,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Step forward with the lead foot.
 NARRATION: Step 2: Use the heel as a pivot point.
 NARRATION: Drill: Maintain a loose upper body while pivoting.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: vai e volta · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Turn the back foot backwards while the front foot turns inwards.
@@ -201,6 +204,7 @@ NARRATION: Drill: Increase the speed of the footwork to match a steady beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: vai e volta · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +223,7 @@ OPTIONS: Seated or supported option: Perform the heel-pivot motion while seated,
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: vai e volta.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Individual, moving across a flat surface.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -249,7 +253,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: vai e volta.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -260,9 +264,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Turn the back foot backwards while the front foot turns inwards.
 NARRATION: Step 2: Repeat the motion in reverse to move backwards.
 NARRATION: Drill: Incorporate loose, rhythmic arm swings.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: vai e volta · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Heel-Pivot Walk: Walking forward using the heel as a pivot to turn the back foot, creating a sliding, hovering impression.
@@ -270,6 +275,7 @@ NARRATION: Drill: Maintain the hovering illusion while moving in different direc
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: vai e volta · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,7 +294,7 @@ OPTIONS: Seated or supported option: Perform the heel-pivot motion while seated,
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: vai e volta.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Individual, moving across a flat surface.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -325,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 34 tutorial(s) of the street-urban family studied · videos studied: 34
-Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: one and two; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: vai e volta
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: vai e volta; fecha; joga atras; joga pra frente
 
 Sources (2): https://en.wikipedia.org/wiki/Rebolation; https://www.wikidata.org/wiki/Q3287288

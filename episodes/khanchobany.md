@@ -1,8 +1,8 @@
 # Khanchobany — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections
+**Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An elder from the Shirvan region who emphasizes the 'spirit of the tribe' and the importance of the group over the individual.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Speed of Shirvan
 NARRATION: This is Khanchobany. Late 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cB4L2pDhJYE)
 ON SCREEN: Title card: Khanchobany · Azerbaijan · Late 19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Khanchobany is performed exclusively by men.
 NARRATION: The primary characteristic is its quick pace and the requirement for all dancers to perform moves in total synchronization.
 NARRATION: It is a group dance that emphasizes collective timing and sharp execution.
 NARRATION: Watch for Synchronized Group Movement.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cB4L2pDhJYE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Synchronized group moves
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -306,7 +306,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is traditionally performed at village weddings, during national holidays, and at formal concerts. Dancers typically wear traditional Azerbaijani male attire suitable for the Shirvan region, allowing for the freedom of movement required by the fast tempo.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cB4L2pDhJYE', 'checked_by_vision_model': False, 'title': 'Xançobanı Rəqsi'}
 Images: 1 licensed — Gulustan / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Dust rising from the feet of dancers in a village square, Traditional Azerbaijani male hats (papakhs), The rhythmic hands of a naghara player
@@ -316,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 41 tutorial(s) of the folk-circle family studied · videos studied: 41
+Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto; viene y; preparacin
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Khanchobany_(dance); https://www.wikidata.org/wiki/Q3793330

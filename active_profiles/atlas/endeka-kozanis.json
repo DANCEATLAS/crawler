@@ -1,0 +1,156 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex partner interactions that require high spatial awareness"
+        ],
+        "counts": "1-11",
+        "duration_minutes": "2",
+        "game_version": "A 'freeze' game where dancers must finish their 11th step exactly when the music stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "Large steps that compromise stability"
+        ],
+        "counts": "1-11",
+        "seated_version": "Perform the 11-step rhythm using foot taps while seated, facing a partner.",
+        "standing_version": "Perform the steps with reduced travel, using a chair for balance if needed.",
+        "tempo_and_range": "Slower tempo to ensure balance during the 11-count."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Eleven steps",
+      "formation_and_space": "Duo style, face-to-face",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Two people, usually a man and a woman, dancing in relation to each other",
+      "posture": "Facing partner",
+      "signature_moves": [
+        {
+          "description": "A sequence of 11 steps that defines the dance's structure and name.",
+          "name": "The Eleven Steps"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Breaking the face-to-face orientation or losing the eleven-step count."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "concluding",
+        "traditional",
+        "interactive",
+        "Macedonian"
+      ],
+      "musical_form": "Concluding song for celebrations",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Endeka Kozanis"
+        }
+      ],
+      "rhythm_pattern": "11-step rhythmic cycle",
+      "sound_description": "A specific local melody from Kozani used for face-to-face dancing, historically played as the final song of the night.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Partners stand facing each other",
+        "Execute a sequence of eleven steps",
+        "Maintain face-to-face orientation throughout the movement",
+        "Coordinate steps with the specific antikristos rhythm"
+      ],
+      "formation": "Duo (face-to-face)",
+      "level_notes": "The focus is on the interaction between the two dancers and the precise eleven-step count.",
+      "rhythm": "11-count sequence"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bbff301b8c90a48973e88f8650c59c76478e6520f1b9492d1e3128d9fbf9f94e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is the 11-step count performed over a specific number of musical bars (e.g., 11/8 or 11/16 time)? Evidence needed: https://en.wikipedia.org/wiki/Makedonikos_antikristos"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific arm positions and hand gestures used by the man and woman during the face-to-face interaction? Evidence needed: https://en.wikipedia.org/wiki/Makedonikos_antikristos"
+    ]
+  },
+  "id": "atlas:endeka-kozanis",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Endeka Kozanis",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "2ab4e8d6ee6be751",
+      "next_evidence": "https://en.wikipedia.org/wiki/Makedonikos_antikristos",
+      "question": "What are the specific arm positions and hand gestures used by the man and woman during the face-to-face interaction?",
+      "source": "https://en.wikipedia.org/wiki/Makedonikos_antikristos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate visual instruction for the 'antikristos' style which relies on upper body communication."
+    },
+    {
+      "domain": "research",
+      "id": "eedaf79a88cb4182",
+      "next_evidence": "https://en.wikipedia.org/wiki/Makedonikos_antikristos",
+      "question": "Is the 11-step count performed over a specific number of musical bars (e.g., 11/8 or 11/16 time)?",
+      "source": "https://en.wikipedia.org/wiki/Makedonikos_antikristos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To synchronize the movement profile with the music profile for teaching purposes."
+    }
+  ],
+  "research_file": "research_results/endeka-kozanis.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "endeka-kozanis",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Makedonikos_antikristos",
+    "https://www.wikidata.org/wiki/Q16950252"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -2,8 +2,8 @@
  "slug": "ukusina",
  "name": "Ukusina",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:22Z",
- "researched_at": "2026-11-07T17:21:00Z",
+ "built_at": "2026-11-19T20:42:42Z",
+ "researched_at": "2026-11-19T19:55:39Z",
  "qc_score": 9.45,
  "status": "withheld-chapters",
  "release_status": "not_validated",
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A knowledgeable Zulu cultural practitioner or experienced dance instructor.",
+   "persona": "A knowledgeable Zulu cultural practitioner or experienced induna.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -60,7 +60,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Stamping Pulse of the Zulu",
+     "The Rhythm of the Ancestors",
      "This is Ukusina. Traditional."
     ],
     "on_screen": [
@@ -74,9 +74,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Ukusina originates from South Africa's coastal region among the Zulu people.",
-     "The etymology stems from the verb sina ('to dance') and the prefix uku-.",
-     "Passed down primarily through oral traditions, the dance has been actively preserved and promoted against modernization through cultural festivals and institutions."
+     "Ukusina originates from the coastal region of South Africa among the Zulu people.",
+     "It has been passed down primarily through oral traditions, with specific historical origins not well-documented.",
+     "It is currently preserved through cultural programs and festivals like the Zulu Reed Dance."
     ],
     "on_screen": [
      "Map: South Africa · Africa",
@@ -90,7 +90,7 @@
     "duration_s": 60,
     "narration": [
      "Ukusina is performed at weddings, memorial services, and coming-of-age ceremonies.",
-     "It serves as a spiritual ritual to communicate with ancestors and request blessings, alongside its role in social entertainment.",
+     "It serves as a way to communicate with ancestors and request their blessings and protection.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -103,14 +103,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance features tremendous dexterity and vigor, led by an induna who sets the pace.",
-     "Movements include powerful leg kicks in any direction up and out, ground-stamping of each foot, hops, and deft hand movements performed in line or circular patterns.",
-     "Watch for Ukusina Leg Kick and Stamp."
+     "Dancers perform powerful kicks in any direction and stamp their feet into the ground.",
+     "The dance is led by an induna who sets the pace.",
+     "Dancers move in line or circular formations while keeping time with the music.",
+     "Watch for Powerful kicks, Stamping."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (3i4KnI4gNfg)",
      "Captions name each signature move as it appears",
-     "Formation: line or circular patterns"
+     "Formation: Line or circular patterns"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -119,15 +120,15 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Performances are socially created around a song leader singing interlocking word phrases.",
-     "The rhythmic foundation is provided by traditional Zulu drums and other percussion instruments.",
-     "Listen for the traditional Zulu drums, percussion instruments.",
-     "Traditional Zulu drums and percussion establish a steady rhythmic beat, complemented by a song leader singing interlocking word phrases."
+     "The music is based on the rhythmic beat of traditional Zulu drums and other percussion instruments.",
+     "A song leader sings interlocking word phrases to guide the performance.",
+     "Listen for the Traditional Zulu drums, Other percussion instruments.",
+     "The music is driven by the rhythmic beat of traditional Zulu drums and percussion, accompanied by a song leader who uses interlocking vocal phrases."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: Song leader singing interlocking word phrases backed by traditional Zulu drums and percussion"
+     "Waveform or rhythm-pattern graphic: "
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -140,8 +141,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Dancers wear intricate beadwork on headdresses, necklaces, bracelets, and anklets, alongside animal-skin clothing from cows and goats and spiritual feathers.",
-     "Men wear an ibheshu or isikhakha, while women wear an isidwaba."
+     "Dancers wear intricate beadwork, animal skin skirts (such as cow or goat), and feathers.",
+     "Men may wear an ibheshu or isikhakha, while women may wear an isidwaba.",
+     "Feathers are used in headpieces and armbands for spiritual significance."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -157,13 +159,15 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "The induna serves as the lead competent dancer who sets the pace and directs other participants.",
-     "Passed down mostly through oral traditions among the Zulu people."
+     "The induna, a competent dancer who sets the pace and directs the other dancers."
     ],
     "on_screen": [
      "Names on screen as they are spoken"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "lineage"
+    ]
    },
    {
     "code": "family",
@@ -183,7 +187,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Ukusina is an expressive and rhythmic ritual of deep cultural and spiritual importance used to communicate with ancestor spirits."
+     "Ukusina is considered a fundamental component of religious life, used to communicate with ancestor spirits; outsiders should observe with respect for its ritual function."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -195,7 +199,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore Ukusina, the vigorous Zulu ritual dance of soaring kicks and ancestral connection in South Africa.",
+     "Discover the powerful Zulu ritual of Ukusina, where every stamp and kick serves as a bridge to the spirit world.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -213,22 +217,21 @@
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": "Song leader singing interlocking word phrases backed by traditional Zulu drums and percussion",
+  "rhythm_pattern": null,
   "instruments": [
-   "traditional Zulu drums",
-   "percussion instruments"
+   "Traditional Zulu drums",
+   "Other percussion instruments"
   ],
   "vocal_style": "Song leader singing interlocking word phrases",
   "musical_form": null,
   "mood": [
-   "energetic",
-   "vibrant",
-   "expressive",
-   "rhythmic"
+   "Energetic",
+   "Rhythmic",
+   "Dynamic"
   ],
-  "sound_description": "Traditional Zulu drums and percussion establish a steady rhythmic beat, complemented by a song leader singing interlocking word phrases.",
+  "sound_description": "The music is driven by the rhythmic beat of traditional Zulu drums and percussion, accompanied by a song leader who uses interlocking vocal phrases.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Ukusina (South Africa). Rhythm pattern: Song leader singing interlocking word phrases backed by traditional Zulu drums and percussion. Instruments: traditional Zulu drums, percussion instruments. Vocal style: Song leader singing interlocking word phrases. Mood: energetic, vibrant, expressive, rhythmic. It should sound like this: Traditional Zulu drums and percussion establish a steady rhythmic beat, complemented by a song leader singing interlocking word phrases. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Ukusina (South Africa). Instruments: Traditional Zulu drums, Other percussion instruments. Vocal style: Song leader singing interlocking word phrases. Mood: Energetic, Rhythmic, Dynamic. It should sound like this: The music is driven by the rhythmic beat of traditional Zulu drums and percussion, accompanied by a song leader who uses interlocking vocal phrases. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -270,7 +273,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Dancers wear intricate beadwork on headdresses, necklaces, bracelets, and anklets, alongside animal-skin clothing from cows and goats and spiritual feathers. Men wear an ibheshu or isikhakha, while women wear an isidwaba.",
+   "from_sources": "Dancers wear intricate beadwork, animal skin skirts (such as cow or goat), and feathers. Men may wear an ibheshu or isikhakha, while women may wear an isidwaba. Feathers are used in headpieces and armbands for spiritual significance.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AZulu_maiden_dancing_Umemulo.jpg"
    ],
@@ -293,12 +296,13 @@
   ],
   "footage": [],
   "motifs": [
-   "Intricate beadwork flashing under the sun",
-   "Feathers adorning headpieces and armbands",
-   "Lines of dancers moving in synchrony"
+   "Intricate beadwork",
+   "Animal skin skirts",
+   "Feathered headpieces",
+   "Circular dance formations"
   ],
-  "costume_notes": "Dancers wear intricate beadwork on headdresses, necklaces, bracelets, and anklets, alongside animal-skin clothing from cows and goats and spiritual feathers. Men wear an ibheshu or isikhakha, while women wear an isidwaba.",
-  "setting_notes": "Ukusina is performed at weddings, memorial services, and coming-of-age ceremonies. It serves as a spiritual ritual to communicate with ancestors and request blessings, alongside its role in social entertainment.",
+  "costume_notes": "Dancers wear intricate beadwork, animal skin skirts (such as cow or goat), and feathers. Men may wear an ibheshu or isikhakha, while women may wear an isidwaba. Feathers are used in headpieces and armbands for spiritual significance.",
+  "setting_notes": "Ukusina is performed at weddings, memorial services, and coming-of-age ceremonies. It serves as a way to communicate with ancestors and request their blessings and protection.",
   "map": {
    "country": "South Africa",
    "region": "Africa",
@@ -311,12 +315,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 4,
+  "source": "6 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 6,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, mirror, back",
+   "views used by most teachers: front, back, mirror",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
@@ -326,6 +330,10 @@
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
+   "loosen those hips",
+   "connect with the earth",
+   "knees have to be bent",
+   "arms and your hands are free",
    "one two",
    "over and spin"
   ],
@@ -348,6 +356,7 @@
   "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
+  "lineage",
   "two or more connections"
  ],
  "sources": [
@@ -357,6 +366,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "c7d8bfb8b2fa609b6c2b10de8a9a346a963db5455aeb4d4d81d61c5fedd37d5e",
+ "input_fingerprint": "4769dbc914644e34f4e2544657a54acda5411363b4fdce16ad43ff9169f8d1d8",
  "hero_checked": "fail"
 }

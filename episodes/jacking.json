@@ -2,7 +2,7 @@
  "slug": "jacking",
  "name": "Jacking",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-19T20:42:42Z",
  "researched_at": "2026-11-18T21:06:37Z",
  "qc_score": 9.7,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Jacking. 1980s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (TNwsQgRsr3o)",
      "Title card: Jacking · United States · 1980s"
     ],
     "music": "theme (30 s)"
@@ -106,7 +106,7 @@
      "Watch for The Jack."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (TNwsQgRsr3o)",
      "Captions name each signature move as it appears"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
@@ -265,7 +265,7 @@
       "Drill: Isolate the chest and ribcage"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -410,7 +410,7 @@
       "Step 2: Move the body up and down in time with the beat"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -552,7 +552,7 @@
       "Step 2: Move the body up and down in time with the beat"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -691,7 +691,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "TNwsQgRsr3o",
+   "checked_by_vision_model": true,
+   "title": "House Dance Tutorial - Jacking Style"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -755,17 +759,18 @@
   ]
  },
  "teaching_formula": {
-  "source": "34 tutorial(s) of the street-urban family studied",
-  "videos_studied": 34,
+  "source": "39 tutorial(s) of the street-urban family studied",
+  "videos_studied": 39,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 3"
+   "repetitions per step: about 4"
   ],
   "cues": [
    "one and two",
+   "step touch",
    "keep your knees flexible not stiff",
    "weight forward on the balls of your feet",
    "start a new step on count 1",
@@ -775,8 +780,7 @@
    "lift the left leg up",
    "jump back on the left leg",
    "kick the right leg up",
-   "take the right leg back",
-   "hop forward with the left leg"
+   "take the right leg back"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -795,7 +799,6 @@
   "tempo (bpm)",
   "meter",
   "instruments",
-  "a hero video",
   "licensed images (3 needed)",
   "the costume & setting section",
   "two or more connections",
@@ -812,6 +815,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "7dd38735a1716961017735bd82c43c4369ca0be9d409ce435d48a9dd0f444b1d",
- "hero_checked": null
+ "input_fingerprint": "9827bdecf88004be6f0dd473dafcd10a79a89ab3e87fcaee2efd9e4e342840e4",
+ "hero_checked": "pass"
 }

@@ -1,13 +1,62 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "addition of arm and torso movement, known as styling, required at higher levels",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "addition of arm and torso movement, known as styling, required at higher levels",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "sequenced (composed of verses that are either 16 or 32 bars long)",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "New Vogue dances can be danced at different levels, with higher levels requiring more precise steps and the addition of arm and torso movement, known as styling.",
+      "rhythm": "Viennese Waltz Rhythm, Slow Foxtrot Rhythm, March Rhythm and Tango Rhythm"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "40d088f3f3e2da0754395ef9a0b003d4b35f57ade65e324beea6028e79ec66f2",
+  "fingerprint": "193defd0d47de6e488b3ec257ee4bd6b0328374b1a8a671945dfc36e5250199a",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +64,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -46,7 +94,7 @@
   "music_options": [],
   "name": "New Vogue",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/new-vogue.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +106,8 @@
   "slug": "new-vogue",
   "sources": [
     "https://en.wikipedia.org/wiki/New_Vogue",
-    "Source: New Vogue on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/New_Vogue"
+    "https://www.wikidata.org/wiki/Q7012289",
+    "https://archive.org/details/NPSH19290203"
   ],
   "state": "researching",
   "video_evidence": []

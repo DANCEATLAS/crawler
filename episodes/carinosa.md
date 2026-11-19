@@ -1,42 +1,43 @@
 # Cariñosa — episode pack
 
-*Status: draft · built 2026-11-12 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-19 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; signature moves; the music & instruments section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the music & instruments section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
-**Say it:** Cariñosa, Carinosa
+**Instructor:** A cultural researcher or experienced folk dance practitioner.
+**Say it:** Cariñosa, Cariñosa, Carinosa
 
 ## Episode 1 · Meet Cariñosa · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: In the Bicol region, dancers perform the Cariñosa using two handkerchiefs instead of the traditional fan and hanky, a variation documented by researcher Francisca Reyes-Aquino.
+NARRATION: The Dance of Affection: Uncovering the Cariñosa
 NARRATION: This is Cariñosa. 16th century.
 ON SCREEN: Hero video, first 10 seconds (jaszm_kuY7I)
 ON SCREEN: Title card: Cariñosa · Philippines · 16th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The Cariñosa originated on Panay Island during the Spanish colonial era.
-NARRATION: It is considered part of the Maria Clara suite and shares lineage with the Spanish bolero and the Mexican jarabe tapatio.
+NARRATION: The dance originated on Panay Island during the Spanish colonial period.
+NARRATION: It is classified as part of the Maria Clara suite and shares lineage with Spanish and Mexican dance forms like the bolero and jarabe tapatio.
 ON SCREEN: Map: Philippines · Southeast Asia
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The dance is performed during festivals and social gatherings, representing a romantic courtship scenario.
+NARRATION: The dance is performed at festivals and social gatherings.
+NARRATION: It serves as a courtship performance, depicting a romantic scenario between partners.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: Music from the Philippines: Robert Garfias Films (https://archive.org/details/waueum_1966004-Garfias_Philippine-Films)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: The dance centers on a hide-and-seek courtship movement using a fan and a handkerchief.
-NARRATION: In the Bicolano version, dancers use two handkerchiefs instead of a fan, holding them by the corners while pointing the foot forward and raising the arms.
+NARRATION: The dance centers on a hide-and-seek routine using a fan and a handkerchief.
+NARRATION: In the Bicol region, dancers use two handkerchiefs instead of a fan, holding them by the corners while pointing the foot forward and raising the arms.
+NARRATION: Watch for Hide-and-seek.
 ON SCREEN: Hero video full screen, 30–45 s (jaszm_kuY7I)
-ON SCREEN: Signature moves — MISSING
+ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
 ON SCREEN: Instrument names on screen as each is mentioned
@@ -46,50 +47,55 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: music_and_instruments, tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Performers wear the María Clara gown and barong tagalog, or alternatively, the patadyong kimona and camisa de chino.
+NARRATION: Performers wear the María Clara gown and barong tagalog.
+NARRATION: Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men.
 ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Francisca Reyes-Aquino, a researcher who documented the dance in her book, 'Philippine Folk Dances, Volume 2'.
-NARRATION: The Bicolano version, which uses two handkerchiefs and omits the fan.
-NARRATION: Part of the Maria Clara suite of Philippine folk dances.
+NARRATION: Francisca Reyes-Aquino, a Filipino folk dancer and cultural researcher who documented the Bicolano version of the dance.
+NARRATION: The Bicolano Cariñosa, which uses two handkerchiefs and omits the fan, involving a distinct hide-and-seek movement.
+NARRATION: Related to Spanish bolero and Mexican jarabe tapatio.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Cariñosa is influence of bolero: The Cariñosa is related to Spanish dances like the bolero.
-NARRATION: Cariñosa is influence of jarabe tapatio: The Cariñosa is related to the Mexican jarabe tapatio.
+NARRATION: Cariñosa is influence of bolero: Spanish dance that influenced the development of the Cariñosa.
+NARRATION: Cariñosa is influence of jarabe tapatio: Mexican dance that shares stylistic similarities with the Cariñosa.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
+NARRATION: Before we go, one step. Point foot forward while raising arms with handkerchiefs (Bicolano variant)
+NARRATION: Hide-and-seek movement using fan and handkerchief
+NARRATION: Count it: 1-2-3.
+NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
-NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
+NARRATION: Explore the romantic hide-and-seek of the Philippines' most famous colonial-era courtship dance.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — the first steps of Cariñosa · 13 min
+## Chapter 1 · First steps — Learn the basic hide-and-seek gesture. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: the first steps of Cariñosa.
-NARRATION: Level: beginner. 
-NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+NARRATION: Chapter 1 — First steps. Today: Learn the basic hide-and-seek gesture..
+NARRATION: Level: Beginner. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A cultural researcher or experienced folk dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-ON SCREEN: Demonstration withheld until posture is sourced
+NARRATION: Arms raised with handkerchiefs held by corners (Bicolano variant).
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
-NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3.
@@ -100,13 +106,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
+NARRATION: Step 1: Point foot forward while raising arms with handkerchiefs (Bicolano variant)
+NARRATION: Step 2: Hide-and-seek movement using fan and handkerchief
+NARRATION: Footwork from the sources: Pointing the foot forward (Bicolano variant).
+NARRATION: Drill: Practice holding the fan/handkerchief.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
-NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
+NARRATION: Drill: Coordinate arm movement with face obscuring.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
@@ -133,8 +143,8 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: the first steps of Cariñosa.
-NARRATION: The dance is performed during festivals and social gatherings, representing a romantic courtship scenario.
+NARRATION: You can now: Learn the basic hide-and-seek gesture..
+NARRATION: The dance is performed at festivals and social gatherings.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -144,15 +154,15 @@ MUSIC: theme (10 s)
 
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Cariñosa.
-NARRATION: Level: intermediate. 
-NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+NARRATION: Level: intermediate. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A cultural researcher or experienced folk dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-ON SCREEN: Demonstration withheld until posture is sourced
+NARRATION: Arms raised with handkerchiefs held by corners (Bicolano variant).
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
-NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3.
@@ -163,17 +173,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
+NARRATION: Step 1: Point foot forward while raising arms with handkerchiefs (Bicolano variant)
+NARRATION: Step 2: Hide-and-seek movement using fan and handkerchief
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
-NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
+NARRATION: Hide-and-seek: Dancers use a fan and handkerchief to obscure and reveal their faces to one another.
 ON SCREEN: Instructor front and back view; slow, then half tempo
+ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
-NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -197,7 +209,7 @@ MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
 NARRATION: You can now: the building the dance of Cariñosa.
-NARRATION: Francisca Reyes-Aquino, a researcher who documented the dance in her book, 'Philippine Folk Dances, Volume 2'.
+NARRATION: Francisca Reyes-Aquino, a Filipino folk dancer and cultural researcher who documented the Bicolano version of the dance.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -207,15 +219,15 @@ MUSIC: theme (10 s)
 
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Cariñosa.
-NARRATION: Level: advanced. 
-NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+NARRATION: Level: advanced. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A cultural researcher or experienced folk dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-ON SCREEN: Demonstration withheld until posture is sourced
+NARRATION: Arms raised with handkerchiefs held by corners (Bicolano variant).
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
-NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3.
@@ -226,17 +238,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
+NARRATION: Step 1: Point foot forward while raising arms with handkerchiefs (Bicolano variant)
+NARRATION: Step 2: Hide-and-seek movement using fan and handkerchief
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
-NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
+NARRATION: Hide-and-seek: Dancers use a fan and handkerchief to obscure and reveal their faces to one another.
 ON SCREEN: Instructor front and back view; slow, then half tempo
+ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
-NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -260,7 +274,7 @@ MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
 NARRATION: You can now: the dancing it fully of Cariñosa.
-NARRATION: Part of the Maria Clara suite of Philippine folk dances.
+NARRATION: Related to Spanish bolero and Mexican jarabe tapatio.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -268,7 +282,7 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Cariñosa (Philippines). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Cariñosa (Philippines). Mood: affectionate, romantic. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -276,14 +290,14 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 
 ## Visual brief
 
-Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear the María Clara gown and barong tagalog, or alternatively, the patadyong kimona and camisa de chino.
+Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear the María Clara gown and barong tagalog. Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'jaszm_kuY7I', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — Markytour777 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Music from the Philippines: Robert Garfias Films — https://archive.org/details/waueum_1966004-Garfias_Philippine-Films; Jaela - Find My Forever En Español — https://archive.org/details/Jaela_-_Find_My_Forever_En_Espanol
-
-Costume notes: Performers wear the María Clara gown and barong tagalog, or alternatively, the patadyong kimona and camisa de chino.
+Motifs: Fan and handkerchief, María Clara gown, Barong tagalog
+Costume notes: Performers wear the María Clara gown and barong tagalog. Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 

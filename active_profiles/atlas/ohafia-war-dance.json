@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "The lead dancer holds a short cutlass and a basket of skulls; dancers mime cutting off heads.",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dancers perform gestures representing the act of beheading.",
+          "name": "Miming the cutting of heads"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "akwatankwa"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "martial",
+        "commemorative"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5994671786b80867d4e70c46d6d049431317fbca3f1d24405a51c7f2998903e9",
+  "fingerprint": "9c3203d6b64aac9a0ff625abb587e19f186be7e1c67fdb1884f3324814ae6234",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns and tempo of the akwatankwa music used in the Ohafia War Dance? Evidence needed: Field recordings or ethnomusicological studies of Ohafia traditional music.",
+      "Investigate: Are there specific, standardized movement sequences or footwork patterns that define the 'warrior' mime in the dance? Evidence needed: Video documentation or instructional guides from Ohafia cultural practitioners."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +93,27 @@
   ],
   "music_options": [],
   "name": "Ohafia War Dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "6e2ff5a95c42bb66",
+      "next_evidence": "Field recordings or ethnomusicological studies of Ohafia traditional music.",
+      "question": "What are the specific rhythmic patterns and tempo of the akwatankwa music used in the Ohafia War Dance?",
+      "source": "https://en.wikipedia.org/wiki/Ohafia_War_Dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical guidance for practitioners and educators."
+    },
+    {
+      "domain": "research",
+      "id": "be1123f099efc253",
+      "next_evidence": "Video documentation or instructional guides from Ohafia cultural practitioners.",
+      "question": "Are there specific, standardized movement sequences or footwork patterns that define the 'warrior' mime in the dance?",
+      "source": "https://en.wikipedia.org/wiki/Ohafia_War_Dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable the creation of a movement profile for teaching purposes."
+    }
+  ],
+  "research_file": "research_results/ohafia-war-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +125,8 @@
   "slug": "ohafia-war-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Ohafia_War_Dance",
-    "Source: Ohafia War Dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ohafia_War_Dance"
+    "https://www.wikidata.org/wiki/Q21597692"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

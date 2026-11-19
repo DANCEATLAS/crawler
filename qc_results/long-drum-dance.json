@@ -1,0 +1,123 @@
+{
+ "slug": "long-drum-dance",
+ "qc_at": "2026-11-19T20:27:36Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.2,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Long Drum Dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "187"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Drum dances are performed in many cultures and may have various kinds of spiritu"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "386"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1241"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Not described in sources."
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'prayer', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile treats 'Long Drum Dance' as a global category while noting Yao Changgu, confusing a specific regional dance with a generic umbrella term."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "reject",
+  "notes": "The profile describes a broad global category or basket term rather than a single specific dance tradition, violating the criteria for 'is_a_dance'."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=7.2",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-19T20:16:17Z"
+}

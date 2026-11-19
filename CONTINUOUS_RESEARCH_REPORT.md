@@ -1,10 +1,10 @@
 # Continuing research toward Active Profiles
 
-Agenda evaluated 2026-11-18; this date is not a research completion date.
+Agenda evaluated 2026-11-19; this date is not a research completion date.
 
 Next focus: **ai interaction**.
 Rotating sample: atlas:aati-kalenja, viral:360-charli-xcx.
-Source-backed profile questions: 141.
+Source-backed profile questions: 210.
 Open external findings: 11.
 
 The daily pipeline re-evaluates all dossiers. Its existing research calls now ask what requirements may have been overlooked.

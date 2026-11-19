@@ -1,13 +1,63 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "satirical",
+        "historical"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "244209c597c22cb777d6a394a1f7631ca86357697df6c21c00d88fc9f464dde2",
+  "fingerprint": "26baf49eff6e7c01692e578d49c92b351241d22c68516de3647e4dd707e9b030",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +65,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical instruments and rhythm patterns accompany Awki awki performances in La Paz and Huancané? Evidence needed: Field recordings or ethnomusicological studies documenting Awki awki music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +84,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact footwork counts and spatial formations executed by dancers wearing the colonial-era costumes? Evidence needed: Instructional video or direct ethnographic observation of the dance steps."
     ]
   },
   "id": "atlas:awki-awki",
@@ -45,8 +96,27 @@
   ],
   "music_options": [],
   "name": "Awki awki",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "266761196fcd28ec",
+      "next_evidence": "Field recordings or ethnomusicological studies documenting Awki awki music.",
+      "question": "What specific musical instruments and rhythm patterns accompany Awki awki performances in La Paz and Huancané?",
+      "source": "https://es.wikipedia.org/wiki/Auqui_auqui",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current documentation lacks any musical profile details."
+    },
+    {
+      "domain": "video",
+      "id": "e2df0fccae904bd3",
+      "next_evidence": "Instructional video or direct ethnographic observation of the dance steps.",
+      "question": "What are the exact footwork counts and spatial formations executed by dancers wearing the colonial-era costumes?",
+      "source": "https://es.wikipedia.org/wiki/Auqui_auqui",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile fields are entirely unsupported by current encyclopedia text."
+    }
+  ],
+  "research_file": "research_results/awki-awki.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +127,8 @@
   },
   "slug": "awki-awki",
   "sources": [
-    "https://en.wikipedia.org/wiki/Awki_awki",
-    "Source: Awki awki on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Awki_awki"
+    "https://www.wikidata.org/wiki/Q17002041",
+    "https://es.wikipedia.org/wiki/Auqui_auqui"
   ],
   "state": "researching",
   "video_evidence": []

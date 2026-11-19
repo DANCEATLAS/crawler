@@ -16,24 +16,37 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "not described in sources",
-      "difficulty": "not described in sources",
-      "footwork": "not described in sources",
-      "formation_and_space": "not described in sources",
+      "arms_and_hands": "Arms raised with handkerchiefs held by corners (Bicolano variant).",
+      "difficulty": "intermediate",
+      "footwork": "Pointing the foot forward (Bicolano variant).",
+      "formation_and_space": "Couple dance.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "not described in sources",
+      "partnering": "Courtship-based hide-and-seek routine.",
       "posture": "not described in sources",
-      "signature_moves": [],
+      "signature_moves": [
+        {
+          "description": "Dancers use a fan and handkerchief to obscure and reveal their faces to one another.",
+          "name": "Hide-and-seek"
+        }
+      ],
       "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [],
       "meter": "not described in sources",
-      "mood_keywords": [],
+      "mood_keywords": [
+        "affectionate",
+        "romantic"
+      ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
@@ -43,15 +56,16 @@
     },
     "teaching": {
       "basic_steps": [
-        "not described in sources"
+        "Point foot forward while raising arms with handkerchiefs (Bicolano variant)",
+        "Hide-and-seek movement using fan and handkerchief"
       ],
-      "formation": "not described in sources",
+      "formation": "Couple dance.",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4440a6eeab2516cdb22dcd677c789904085ebbe2fb2c23df316176bdf444696e",
+  "fingerprint": "d2b1b84f47e8d30e7b73cfa9b6ee046872af6704a2262beb7143270cd4d3ed27",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -59,9 +73,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments and rhythmic patterns used in the accompaniment of the Cariñosa? Evidence needed: Musicological studies of the Maria Clara suite."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -85,7 +100,17 @@
   ],
   "music_options": [],
   "name": "Cariñosa",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "7ab7b77a45bb4fd2",
+      "next_evidence": "Musicological studies of the Maria Clara suite.",
+      "question": "What are the specific musical instruments and rhythmic patterns used in the accompaniment of the Cariñosa?",
+      "source": "https://en.wikipedia.org/wiki/Cari%C3%B1osa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete music profile for practitioners."
+    }
+  ],
   "research_file": "research_results/carinosa.json",
   "runtime_active": false,
   "scope": {
