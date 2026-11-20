@@ -3,7 +3,7 @@
  "slug": "bwola",
  "dance": "Bwola",
  "kind": "performance",
- "analysed_at": "2026-11-16T22:21:30Z",
+ "analysed_at": "2026-11-20T20:01:28Z",
  "url": "https://www.youtube.com/watch?v=2FYXw2I726M",
  "observation_window": {
   "start_s": 0,
@@ -12,6 +12,41 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed",
- "attempts": 1
+ "status": "ok",
+ "observation": {
+  "setting": "outdoor paved plaza or courtyard, bright daylight, lined with white and red tents and a large crowd watching",
+  "dancers": "large group of men, performing in unison",
+  "formation_and_space": "initially arranged in a long diagonal line facing forward, transitioning into a large circular formation",
+  "posture": "torso leaned forward from the hips, knees bent in a deep squat position with weight centered over the legs",
+  "footwork": "stamping steps on the beat while shifting weight side to side or traveling in a circle; rapid individual footwork cannot be clearly detailed due to distance and angle",
+  "arms_and_hands": "arms held forward and angled downward, some dancers holding drums or sticks",
+  "hips_and_torso": "torso remains bent forward with slight bouncing action from the knees",
+  "partnering": "none, group formation dancing",
+  "levels_jumps_turns": "low level maintained through bent knees, no high jumps or complex turns visible",
+  "costume_and_props": "white feathered headdresses, animal-skin wrap skirts over trousers, white socks and shoes, some holding handheld drums",
+  "cannot_infer": "exact footwork details and subtle weight transfer cannot be determined due to distance and camera perspective.",
+  "music_heard": {
+   "instruments": [
+    "drums",
+    "horns"
+   ],
+   "vocals": "chorus",
+   "tempo_feel": "moderate",
+   "meter_feel": "duple"
+  },
+  "signature_moments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "what": "dancers in a diagonal line stamping rhythmically in deep knee bends while holding white feathered headdresses"
+   },
+   {
+    "start_s": 58,
+    "end_s": 70,
+    "what": "the entire group smoothly transitions from a line formation into a unified circle"
+   }
+  ]
+ },
+ "verification": "model_candidate",
+ "attempts": 2
 }

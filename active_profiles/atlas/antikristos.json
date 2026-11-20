@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Couples facing each other.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "Couples facing each other.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c1979cb90e6567fe78492a2c0fbe93dfd43296b8dd2c7b927b2895ac9165ae65",
+  "fingerprint": "23393b74b521e5f6faa5ab2747a5785658068aaee1d3275abf9755ddd0a6e2bb",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is the dance currently practised in specific regions of Greece or Armenia? Evidence needed: Ethnographic field studies or regional dance association records.",
+      "Investigate: What are the specific musical characteristics or instrumentation associated with Antikristos? Evidence needed: Musicological analysis of regional folk recordings."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +93,27 @@
   ],
   "music_options": [],
   "name": "Antikristos",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "ac69e565e4263eb6",
+      "next_evidence": "Ethnographic field studies or regional dance association records.",
+      "question": "Is the dance currently practised in specific regions of Greece or Armenia?",
+      "source": "https://en.wikipedia.org/wiki/Antikristos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To determine the tradition_status and identify potential living communities."
+    },
+    {
+      "domain": "research",
+      "id": "c84d006709804087",
+      "next_evidence": "Musicological analysis of regional folk recordings.",
+      "question": "What are the specific musical characteristics or instrumentation associated with Antikristos?",
+      "source": "https://en.wikipedia.org/wiki/Antikristos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To complete the music_profile for educational purposes."
+    }
+  ],
+  "research_file": "research_results/antikristos.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +125,7 @@
   "slug": "antikristos",
   "sources": [
     "https://en.wikipedia.org/wiki/Antikristos",
-    "Source: Antikristos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Antikristos"
+    "https://www.wikidata.org/wiki/Q4774876"
   ],
   "state": "researching",
   "video_evidence": []

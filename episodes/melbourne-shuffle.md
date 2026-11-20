@@ -1,6 +1,6 @@
 # Melbourne shuffle — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed)
 
@@ -326,10 +326,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-and-2 / 5-6-7-8
 Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 2
-Cues: cross; open; heel and toe; one and two
+Cues: cross; open; heel and toe; one and two; in and up; hop and slide; hop and up
 Common mistakes the studied teachers name: weight shifting too much to one side instead of staying in the middle
 
 Sources (6): https://en.wikipedia.org/wiki/Melbourne_shuffle; https://www.wikidata.org/wiki/Q203827; https://es.wikipedia.org/wiki/Melbourne_shuffle; https://fr.wikipedia.org/wiki/Melbourne_shuffle; https://pt.wikipedia.org/wiki/Melbourne_Shuffle; https://de.wikipedia.org/wiki/Melbourne_Shuffle

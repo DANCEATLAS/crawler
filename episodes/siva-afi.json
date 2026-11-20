@@ -2,9 +2,9 @@
  "slug": "siva-afi",
  "name": "Siva Afi",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
- "researched_at": "2026-11-02T20:57:25Z",
- "qc_score": 8.95,
+ "built_at": "2026-11-20T20:02:15Z",
+ "researched_at": "2026-11-20T19:23:47Z",
+ "qc_score": 8.5,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A skilled fire knife practitioner grounded in Samoan cultural history.",
+   "persona": "A practitioner of the traditional ailao style.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -62,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Blazing Steel: The Warrior Roots of Siva Afi",
+     "In 1946, Tavita Vaoifi revived the ancient Samoan ailao, transforming a forgotten warrior's battle exhibition into the modern fire-twirling spectacle known globally as Siva Afi.",
      "This is Siva Afi. Ancient origins, revived 1946."
     ],
     "on_screen": [
@@ -76,7 +76,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Rooted in the training of Toa warriors between 900 and 1200 AD with the serrated nifo oti war club, evolving from the ancient ailao battle exhibition."
+     "The dance originated as the 'ailao', a battle exhibition for Toa warriors, conceived on Upolu between 1200 and 1250 AD.",
+     "It was used to demonstrate combat readiness and commemorate historical victories against Tongan invaders."
     ],
     "on_screen": [
      "Map: Samoa · Oceania",
@@ -89,7 +90,7 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Historically linked to warrior prowess and military defiance, such as the overthrow of Tongan rule; now a staple of Polynesian shows and annual competitions.",
+     "Originally a warrior's exhibition, it is now a central feature of Polynesian luaus and the annual World Fireknife Championship.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -102,16 +103,16 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Ailao twirling."
+     "Performers engage in rapid twirling, throwing, and catching of a fire-lit implement.",
+     "Acrobatic stunts are integrated into the performance.",
+     "The dance requires high levels of spatial control and timing.",
+     "Watch for Ailao."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (hlqSonapHtk)",
      "Captions name each signature move as it appears"
     ],
-    "music": "diegetic (the video's own sound), underscore under narration",
-    "needs": [
-     "how_it_is_danced"
-    ]
+    "music": "diegetic (the video's own sound), underscore under narration"
    },
    {
     "code": "music",
@@ -135,7 +136,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Traditionally performed with a machete wrapped in towels or palm sennit set afire, staged at night gatherings, luaus, and cultural centers."
+     "The implement is a machete or pole wrapped in towels or palm fronds, which are set on fire.",
+     "Modern performers may use aluminum or wooden poles."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -151,9 +153,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Tavita Vaoifi, who revived the dance; various World Fireknife Champions such as Falaniko Penesa and Hale Motu'apuaka.",
-     "Adopted across Polynesian islands including Tahiti, Hawaii, the Cook Islands, Fiji, and Tonga.",
-     "Descended from the ancient Samoan ailao and warrior combat training with the nifo oti war club."
+     "Tavita Vaoifi, who revived the tradition in 1946; Malietoa Tanumafili II, who bestowed a High Chief title upon Vaoifi.",
+     "The dance has been implemented in Tahiti, Hawaii, Cook Islands, Fiji, and Tonga, often becoming homogenized with local cultural shows.",
+     "Directly descended from the ancient 'ailao' battle exhibition."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -166,7 +168,7 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Siva Afi is parent of Ailao: ancient Samoan exhibition of battle prowess with a war club."
+     "Siva Afi is parent of Ailao: The ancient battle exhibition from which Siva Afi is derived."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -181,8 +183,8 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. twirling the knife",
-     "throwing and catching",
+     "Before we go, one step. Twirling the implement",
+     "Throwing the implement",
      "Count it: 1-2-3-4-5.",
      "Chapter 1 takes it slowly from here."
     ],
@@ -197,7 +199,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how ancient Samoan war club exhibitions evolved into the high-octane international art of fire knife dancing.",
+     "Discover the ancient Samoan warrior art of Siva Afi, where battle training meets the modern stage.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -212,17 +214,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "practice spatial control and timing safely",
-   "level": "beginner",
+   "goal": "the first steps of Siva Afi",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: practice spatial control and timing safely.",
+      "Chapter 1 — First steps. Today: the first steps of Siva Afi.",
       "Level: beginner. Difficulty of the dance overall: advanced.",
-      "Your instructor: A skilled fire knife practitioner grounded in Samoan cultural history."
+      "Your instructor: A practitioner of the traditional ailao style."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -233,13 +235,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "twirling, throwing, and catching the knife"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -264,9 +267,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: twirling the knife",
-      "Step 2: throwing and catching",
-      "Drill: rehearse rotation with practice batons or LED equipment"
+      "Step 1: Twirling the implement",
+      "Step 2: Throwing the implement"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
@@ -281,8 +283,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: acrobatic stunts",
-      "Drill: practice basic grip and hand transitions"
+      "Step 3: Catching the implement"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
@@ -311,7 +312,7 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "open flame hazards and sharpened blades without proper training"
+      "Sharpened blades are dangerous; commercial performers often use dulled or non-bladed implements."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -339,8 +340,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: practice spatial control and timing safely.",
-      "Historically linked to warrior prowess and military defiance, such as the overthrow of Tongan rule; now a staple of Polynesian shows and annual competitions.",
+      "You can now: the first steps of Siva Afi.",
+      "Originally a warrior's exhibition, it is now a central feature of Polynesian luaus and the annual World Fireknife Championship.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -364,7 +365,7 @@
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of Siva Afi.",
       "Level: intermediate. Difficulty of the dance overall: advanced.",
-      "Your instructor: A skilled fire knife practitioner grounded in Samoan cultural history."
+      "Your instructor: A practitioner of the traditional ailao style."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -375,13 +376,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "twirling, throwing, and catching the knife"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -406,8 +408,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: twirling the knife",
-      "Step 2: throwing and catching"
+      "Step 1: Twirling the implement",
+      "Step 2: Throwing the implement"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
@@ -422,8 +424,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: acrobatic stunts",
-      "Ailao twirling: flashy demonstration of battle prowess through artful twirling, throwing, and catching"
+      "Step 3: Catching the implement",
+      "Ailao: Flashy demonstration of a Samoan warrior's battle prowess through artful twirling, throwing and catching."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -453,7 +455,7 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "open flame hazards and sharpened blades without proper training"
+      "Sharpened blades are dangerous; commercial performers often use dulled or non-bladed implements."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -482,7 +484,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the building the dance of Siva Afi.",
-      "Tavita Vaoifi, who revived the dance; various World Fireknife Champions such as Falaniko Penesa and Hale Motu'apuaka.",
+      "Tavita Vaoifi, who revived the tradition in 1946; Malietoa Tanumafili II, who bestowed a High Chief title upon Vaoifi.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -506,7 +508,7 @@
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of Siva Afi.",
       "Level: advanced. Difficulty of the dance overall: advanced.",
-      "Your instructor: A skilled fire knife practitioner grounded in Samoan cultural history."
+      "Your instructor: A practitioner of the traditional ailao style."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -517,13 +519,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "twirling, throwing, and catching the knife"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -548,8 +551,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: throwing and catching",
-      "Step 2: acrobatic stunts"
+      "Step 1: Throwing the implement",
+      "Step 2: Catching the implement"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
@@ -564,7 +567,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Ailao twirling: flashy demonstration of battle prowess through artful twirling, throwing, and catching"
+      "Ailao: Flashy demonstration of a Samoan warrior's battle prowess through artful twirling, throwing and catching."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -594,7 +597,7 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "open flame hazards and sharpened blades without proper training"
+      "Sharpened blades are dangerous; commercial performers often use dulled or non-bladed implements."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -623,7 +626,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the dancing it fully of Siva Afi.",
-      "Descended from the ancient Samoan ailao and warrior combat training with the nifo oti war club.",
+      "Directly descended from the ancient 'ailao' battle exhibition.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -645,14 +648,10 @@
   "instruments": [],
   "vocal_style": null,
   "musical_form": null,
-  "mood": [
-   "energetic",
-   "dramatic",
-   "fierce"
-  ],
+  "mood": [],
   "sound_description": null,
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Siva Afi (Samoa). Mood: energetic, dramatic, fierce. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Siva Afi (Samoa). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -694,7 +693,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Traditionally performed with a machete wrapped in towels or palm sennit set afire, staged at night gatherings, luaus, and cultural centers.",
+   "from_sources": "The implement is a machete or pole wrapped in towels or palm fronds, which are set on fire. Modern performers may use aluminum or wooden poles.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AFire_dancer.JPG"
    ],
@@ -717,12 +716,12 @@
   ],
   "footage": [],
   "motifs": [
-   "flaming blade spinning against the night sky",
-   "traditional wooden and metal nifo oti designs",
-   "competitors at the Polynesian Cultural Center"
+   "Serrated nifo oti",
+   "Palm fronds",
+   "Fire trails in the dark"
   ],
-  "costume_notes": "Traditionally performed with a machete wrapped in towels or palm sennit set afire, staged at night gatherings, luaus, and cultural centers.",
-  "setting_notes": "Historically linked to warrior prowess and military defiance, such as the overthrow of Tongan rule; now a staple of Polynesian shows and annual competitions.",
+  "costume_notes": "The implement is a machete or pole wrapped in towels or palm fronds, which are set on fire. Modern performers may use aluminum or wooden poles.",
+  "setting_notes": "Originally a warrior's exhibition, it is now a central feature of Polynesian luaus and the annual World Fireknife Championship.",
   "map": {
    "country": "Samoa",
    "region": "Oceania",
@@ -772,7 +771,7 @@
   "a verified recording to listen to",
   "licensed images (3 needed)",
   "licensed reference footage",
-  "the how-it-is-danced section",
+  "posture, arms and hands",
   "the music & instruments section",
   "two or more connections"
  ],
@@ -780,9 +779,9 @@
   "https://en.wikipedia.org/wiki/Fire_knife",
   "https://www.wikidata.org/wiki/Q5451612"
  ],
- "claims_verified": 5,
- "claims": 5,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "0984e8312285c67654ec5f1678706422b0a4a1c8e90070b15eeb6733c009f5b2",
+ "input_fingerprint": "dbf168ff6f1a55ae0b7047c732a7b79f49f19d40221f73a2a55ff2d0032f92ae",
  "hero_checked": "pass"
 }

@@ -1,6 +1,6 @@
 # Wotagei — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -122,7 +122,7 @@ NEEDS: tempo
 NARRATION: Step 1: Learn chorus techniques: thundersnake, muramasa, romance
 NARRATION: Step 2: Practice rhythmic clapping and calls like PPPH
 NARRATION: Drill: Practice thundersnake arm swings
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Use glow sticks to create light trails in choreography
 NARRATION: Drill: Sequence rosario and romance moves
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars · repetitions: 3
@@ -264,7 +264,7 @@ NEEDS: tempo
 NARRATION: Step 1: Combine arm swings and body movements with claps
 NARRATION: Step 2: Use glow sticks to create light trails in choreography
 NARRATION: Drill: Integrate sliding romeo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars · repetitions: 3
@@ -333,9 +333,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
+Cues: first balance your arms like a straight line; move both of your arms clockwise and keep it as a straight line; spin towards yourself; put your left hand under your armpit
 
 Sources (5): https://en.wikipedia.org/wiki/Wotagei; https://www.wikidata.org/wiki/Q2636818; https://es.wikipedia.org/wiki/Wotagei; https://fr.wikipedia.org/wiki/Wotagei; https://it.wikipedia.org/wiki/Wotagei

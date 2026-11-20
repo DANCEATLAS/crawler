@@ -11,10 +11,10 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Girls use pumpkin leaves, jute fabric, and Majaira cymbals in successive phases.",
+      "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "Performed in the courtyard of the village headsman's house.",
+      "formation_and_space": "Performed in the courtyard of the village headsman.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
@@ -25,34 +25,34 @@
     },
     "music_profile": {
       "instruments": [
-        "drums",
-        "cymbals (Majaira)"
+        "Drums",
+        "Majaira (cymbals)"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "ritualistic",
-        "festive"
+        "festive",
+        "ritualistic"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music is characterized by the rhythmic beating of drums by the boys and the metallic clashing of Majaira cymbals used by the girls in the final phase.",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Phase 1: Rhythmic drumming by boys and movement with pumpkin leaves by girls.",
-        "Phase 2: Movement using jute fabric.",
-        "Phase 3: Rhythmic movement using Majaira cymbals."
+        "Phase 1: Rhythmic movement while holding pumpkin leaves.",
+        "Phase 2: Rhythmic movement while holding jute fabric.",
+        "Phase 3: Rhythmic movement while playing Majaira cymbals."
       ],
-      "formation": "Performed in the courtyard of the village headsman's house.",
+      "formation": "Group performance in the courtyard of the village headsman.",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f80506751789a1351425e8eaf383d60ea7f6174eff2ad11cc5fccbf772c4ddb8",
+  "fingerprint": "1320c5a49b308bcc221b3c4176efdcd86105d1d725a08a9c20718fa811d8992c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -61,8 +61,9 @@
     ],
     "research": [
       "movement: footwork, posture, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns used in the three phases of the Sakhiya dance? Evidence needed: Field recordings or ethnomusicological studies of Tharu music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -89,7 +90,17 @@
   ],
   "music_options": [],
   "name": "Sakhiya dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "304083f0cc641146",
+      "next_evidence": "Field recordings or ethnomusicological studies of Tharu music.",
+      "question": "What are the specific rhythmic patterns used in the three phases of the Sakhiya dance?",
+      "source": "https://en.wikipedia.org/wiki/Sakhiya_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow for accurate musical recreation and teaching."
+    }
+  ],
   "research_file": "research_results/sakhiya-dance.json",
   "runtime_active": false,
   "scope": {

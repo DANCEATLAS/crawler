@@ -2,78 +2,75 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "High-speed pivots",
-          "Complex coordination patterns"
-        ],
-        "counts": "Simplified 1-2-3-4 counts.",
-        "duration_minutes": "10-15 minutes.",
-        "game_version": "A 'sliding' game where children mimic the hovering motion to reach markers."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "Jumping",
-          "Rapid balance shifts",
-          "Excessive spinal rotation"
-        ],
-        "counts": "Simplified 4-count rhythm.",
-        "seated_version": "Perform the heel-pivot motion while seated, focusing on ankle flexibility.",
-        "standing_version": "Perform the pivot with support from a sturdy chair or railing.",
-        "tempo_and_range": "Reduced tempo to ensure stability and comfort."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Loose, fluid movements that contrast with the precise footwork.",
-      "difficulty": "intermediate",
-      "footwork": "Heel-pivot based movement creating a sliding effect.",
-      "formation_and_space": "Individual, moving across a flat surface.",
+      "arms_and_hands": "Loose, rhythmic movements that suggest a lack of rigid control.",
+      "difficulty": "beginner",
+      "footwork": "Heel-pivoting technique where the front foot turns inward and the back foot turns backward.",
+      "formation_and_space": "not described in sources",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Loose and relaxed upper body.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Walking forward using the heel as a pivot to turn the back foot, creating a sliding, hovering impression.",
-          "name": "Heel-Pivot Walk"
+          "description": "A forward or backward walking motion using the heel as a pivot to create a sliding effect.",
+          "name": "Heel-pivot walk"
         }
       ],
-      "tempo_feel": "High-tempo, matching the pulse of electronic music.",
+      "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Synthesizers",
+        "Electronic synthesizers",
         "Drum machines"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
         "high-energy",
-        "rhythmic",
-        "pulsing"
+        "electronic"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "Electronic music, specifically psy trance or electro house, characterized by a driving, repetitive beat that supports fluid, continuous movement.",
+      "sound_description": "The music is characterized by the high-energy pulse of psy trance and electro house, providing a steady, driving beat for the dancer.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Step forward with the lead foot.",
+        "Place one foot forward.",
         "Use the heel as a pivot point.",
-        "Turn the back foot backwards while the front foot turns inwards.",
-        "Repeat the motion in reverse to move backwards."
+        "Turn the back foot backwards while the front foot turns inwards around the heel.",
+        "Repeat the movement in reverse to travel backwards."
       ],
-      "formation": "Individual, typically performed in open spaces or on dance floors.",
-      "level_notes": "Requires focus on heel-pivot coordination to achieve the 'hovering' effect.",
-      "rhythm": "High-tempo electronic music, typically psy trance or electro house."
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "6f04c3c06b4530a75d77410f5461cb9a4ed46f70f9fc96f72d59bcde684d8617",
+  "fingerprint": "ffd43639785a32e99b71c91be844794d978260c1a2ecf4479953205f3ec53c9a",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -81,9 +78,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
+      "movement: posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts used in Rebolation footwork? Evidence needed: Video analysis of instructional content from the Brazilian Rebolation community."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -110,7 +108,17 @@
   ],
   "music_options": [],
   "name": "Rebolation",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "fe86875c1b29d86e",
+      "next_evidence": "Video analysis of instructional content from the Brazilian Rebolation community.",
+      "question": "What are the specific rhythmic counts used in Rebolation footwork?",
+      "source": "https://en.wikipedia.org/wiki/Rebolation",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for the 'basic_steps' section."
+    }
+  ],
   "research_file": "research_results/rebolation.json",
   "runtime_active": false,
   "scope": {

@@ -1,61 +1,55 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Not described in sources.",
-      "difficulty": "Beginner",
-      "footwork": "Rhythmic shaking of feet and ankles in time with drums; specific counts not described.",
-      "formation_and_space": "Danced in social group formations; exact spatial arrangement not specified.",
-      "hips_and_torso": "Incorporates body sway and rhythmic shaking to embody spirit energy.",
-      "levels_and_jumps": "Not described in sources.",
-      "partnering": "Not described in sources.",
-      "posture": "Slightly bent knees, relaxed but engaged stance.",
-      "signature_moves": [
-        {
-          "description": "Shaking the ankle rattles in sync with the drum rhythm.",
-          "name": "Ankle Shake"
-        }
-      ],
-      "tempo_feel": "Steady, rhythmic tempo aligned with apinti drum beats.",
-      "what_to_avoid": "Disrespecting the spiritual significance of the dance; outsiders should not appropriate or perform without community permission."
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "apinti drums",
-        "kwakwa ankle rattles"
+        "ankle-attached rattles"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "rhythmic",
         "spiritual",
-        "social",
-        "playful"
+        "rhythmic"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Steady rhythmic pattern from apinti drums with complementary ankle rattle sounds.",
-      "sound_description": "The music features deep, resonant apinti drum beats layered with sharp, rhythmic shaking of ankle rattles, creating a textured percussive soundscape that guides the dancers' movements.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by the rhythmic shaking of instruments attached to the dancers' ankles, integrated with the movement of the dance.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Wear ankle rattles (kwakwa) securely around ankles",
-        "Stand in a social formation with other dancers",
-        "Bend knees slightly to prepare for rhythmic movement",
-        "Shake ankles in time with apinti drum beats",
-        "Move feet rhythmically, maintaining steady tempo",
-        "Incorporate body sway and rhythmic shaking",
-        "Maintain connection to drum rhythm throughout"
+        "not described in sources"
       ],
-      "formation": "Social group formation, not specified as circle or line in sources.",
-      "level_notes": "Technique details not described in sources; beginners start by matching ankle rattle shakes to drum rhythm.",
-      "rhythm": "Steady, rhythmic beat provided by apinti drums; dancers synchronize ankle rattles to this rhythm."
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5b57974f9e31bf326438fc4f49da8f7ba4c9d377ff91d0955ad164879cd1c5fa",
+  "fingerprint": "ae70bdb008419336f3089cd8b19e17083d848cf79fbd3ffcf9da4cacbeb33308",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -63,9 +57,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
-      "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns used in Sekete? Evidence needed: Field recordings or ethnomusicological studies of Saramaka music.",
+      "Investigate: Are there specific footwork patterns associated with the ankle-rattle movement? Evidence needed: Video documentation of traditional Sekete performances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -92,7 +88,26 @@
   ],
   "music_options": [],
   "name": "Sekete",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "a1edece91c6a74db",
+      "next_evidence": "Field recordings or ethnomusicological studies of Saramaka music.",
+      "question": "What are the specific rhythmic patterns used in Sekete?",
+      "source": "https://en.wikipedia.org/wiki/Dance_in_Suriname",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical guidance for practitioners."
+    },
+    {
+      "domain": "research",
+      "id": "6101dc2af39e21d1",
+      "next_evidence": "Video documentation of traditional Sekete performances.",
+      "question": "Are there specific footwork patterns associated with the ankle-rattle movement?",
+      "source": "https://en.wikipedia.org/wiki/Dance_in_Suriname",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable the creation of a movement profile for teaching."
+    }
+  ],
   "research_file": "research_results/sekete.json",
   "runtime_active": false,
   "scope": {

@@ -1,8 +1,8 @@
 # Andhra Natyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-19 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-20 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced practitioner and scholar dedicated to the revived Nattuva Mela legacy and its tripartite repertoire.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Nine Nights of Pithapuram
 NARRATION: This is Andhra Natyam. Antiquity to present (revived 1970).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Zvpr6kgo7GI)
 ON SCREEN: Title card: Andhra Natyam · India · Antiquity to present (revived 1970)
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Kumbha Harathi, Saatvikabhinayam in Padam, Anvayam in Slokabhinayam.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Zvpr6kgo7GI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo female dancer (Eka Patra Kelika) moving within temple sanctums, court arenas, or modern theatrical stages
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -95,7 +95,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Zvpr6kgo7GI', 'checked_by_vision_model': True, 'title': 'alarimpu Andhra natyam ♥'}
 Images: 1 licensed — రహ్మానుద్దీన్ / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Kuchipudi Recital by Shri Ratan Kumar — https://archive.org/details/dni.ncaa.ICCR-1751-VHS; Bharatanatyam, Vol. 2 — https://archive.org/details/dli.pb.bhartnatyam.2; Aradhana Nritham — https://archive.org/details/aradhana-nritham
 Motifs: Carved stone pillars of Kakatiya temples, The brass Kumbha Harathi flame offering, Courtyard of Kunti Madhava Temple in Pithapuram, Expressive facial close-ups during Saatvikabhinayam
@@ -108,6 +108,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
+Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
 
 Sources (2): https://en.wikipedia.org/wiki/Andhra_Natyam; https://www.wikidata.org/wiki/Q4754350

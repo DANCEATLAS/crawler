@@ -2,9 +2,9 @@
  "slug": "passamezzo",
  "name": "Passamezzo",
  "pack_version": "e2",
- "built_at": "2026-11-19T20:42:42Z",
- "researched_at": "2026-11-04T17:59:21Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-20T20:02:15Z",
+ "researched_at": "2026-11-20T19:22:15Z",
+ "qc_score": 9.55,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,15 +45,15 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A historically informed dance specialist with expertise in Renaissance court dances and music",
+   "persona": "A historical dance researcher with a focus on Renaissance treatises.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Passamezzo",
    "pass'e mezzo",
-   "passo e mezzo",
-   "passomezzo",
-   "passemeze"
+   "passemeasure",
+   "passemeze",
+   "passemezze"
   ]
  },
  "episode_1": {
@@ -64,7 +64,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Passamezzo: The Renaissance Dance of Steps and Chords",
+     "The Secret Steps of Shakespeare's Passamezzo",
      "This is Passamezzo. 16th to early 17th century."
     ],
     "on_screen": [
@@ -78,9 +78,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The passamezzo originated in 16th-century Italy and was popular through the early 17th century.",
-     "It was known throughout Europe, with early printed collections appearing in Germany, Italy, France, and England.",
-     "The dance is closely related to the pavane, sometimes considered a faster variant or an elaborated form."
+     "The passamezzo originated in Italy during the 16th century and gained widespread popularity across Europe until roughly 1640.",
+     "Early written evidence appears in German lute publications by Hans Neuslider in 1536 and 1540, followed swiftly by extensive adoption in Italy, France, and England.",
+     "The form was closely linked to the pavane, with theorists such as Francisco de Salinas noting their interchangeable use in early contexts."
     ],
     "on_screen": [
      "Map: Italy · Europe",
@@ -93,9 +93,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The passamezzo was performed in courtly and social settings during the Renaissance.",
-     "It was often part of a suite of dances, serving as a stately opening or main dance followed by livelier triple-time dances.",
-     "The dance was associated with elegance and measured grace, reflecting the tastes of Italian and European courts.",
+     "The passamezzo was performed in solo settings, paired social gatherings, or as part of multi-movement musical suites.",
+     "It often preceded a faster triple-time dance like the saltarello or gagliarda to balance solemnity with agility.",
      "Today it is a historical tradition."
     ],
     "on_screen": [
@@ -108,16 +107,16 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Step and a Half."
+     "The passamezzo is executed in binary rhythm as a flowing, measured court or folk dance.",
+     "While choreographies by masters like Fabritio Caroso exist from later decades, original early step descriptions are not preserved, though sources consistently relate its movements to elaborate variants of the pavane."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (A7AzGhMV1T8)",
-     "Captions name each signature move as it appears",
-     "Formation: Couples in procession or courtly line, moving forward or in place"
+     "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
     "needs": [
-     "how_it_is_danced"
+     "signature_moves"
     ]
    },
    {
@@ -125,16 +124,16 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The passamezzo is defined by two main chord progressions: passamezzo antico (minor key) and passamezzo moderno (major key).",
-     "These progressions form ostinato bass lines repeated throughout the dance.",
-     "Listen for the Lute, Keyboard instruments, Ensemble (strings, winds), Occasional vocal accompaniment.",
-     "The pulse is 2/2 or 4/4 (binary rhythm).",
-     "The passamezzo features a steady, repeating chord progression in minor (antico) or major (moderno) keys, played on lute or keyboard, with a calm and flowing rhythmic feel supporting measured dance steps."
+     "Music for the passamezzo is defined by repeating ostinato bass progressions divided into the minor passamezzo antico and major passamezzo moderno.",
+     "It was performed on lutes, keyboards, chitarrones, and chamber ensembles, with notable compositions by Giacomo Gorzanis, Andrea Gabrieli, and Samuel Scheidt.",
+     "Listen for the lute, keyboard, chitarrone, chamber ensemble.",
+     "The pulse is binary.",
+     "A steady, flowing binary rhythm driven by repeating ostinato chord progressions in minor or major, maintaining a calm and measured pace."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: 24 Passamezzi — Giacomo Gorzanis; Passamezzo Suites — Vincenzo Galilei",
-     "Waveform or rhythm-pattern graphic: Ostinato chord progression repeated continuously"
+     "Listen later: Ostinato — Hespèrion XXI, Jordi Savall; Ostinato — Hespèrion XXI, Jordi Savall (2001)",
+     "Waveform or rhythm-pattern graphic: "
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -161,10 +160,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Giacomo Gorzanis composed 24 passamezzi for lute in 1561, including both antico and moderno types paired with saltarelli.",
-     "Vincenzo Galilei compiled 24 suites featuring passamezzo, romanesca, and saltarello in 1584.",
-     "The passamezzo spread from Italy to Germany, France, and England, where it was adapted and printed in collections.",
-     "The passamezzo is a Renaissance Italian folk dance related to the pavane and linked to the development of Baroque dance suites."
+     "Key figures associated with the passamezzo include lutenist Giacomo Gorzanis, who published 24 passamezzi in 1561; theorist Vincenzo Galilei; and composers such as William Byrd, John Bull, Sweelinck, and Bernardo Storace.",
+     "Regional variants developed across Europe, including the English 'passingmeasure pavan' for the antico progression and the 'quadro pavan' or 'quadran pavan' for the major-key moderno progression.",
+     "The passamezzo evolved in parallel with the pavane and frequently shared structural DNA with related ostinato forms like the romanesca and the follia."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -177,10 +175,8 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Passamezzo is sibling of Pavane: Closely related slow Renaissance dance, often confused or interchanged with passamezzo.",
-     "Passamezzo is follows of Saltarello: Triple-time dance typically performed after the passamezzo.",
-     "Passamezzo is follows of Galliard: Lively triple-time dance often paired in suites with passamezzo.",
-     "Passamezzo is shares music of Romanesca: Related chord progression and bass ostinato pattern."
+     "Passamezzo is variant of Pavane: Considered an elaborated variant or faster relative of the pavane.",
+     "Passamezzo is sibling of Saltarello: Frequently followed the passamezzo in performance suites."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -191,25 +187,23 @@
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
-    "narration": [
-     "Before we go, one step. Begin with a measured walking step in binary rhythm",
-     "Maintain upright posture with steady, graceful movement",
-     "Count it: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.",
-     "Chapter 1 takes it slowly from here."
-    ],
+    "narration": [],
     "on_screen": [
      "Instructor, front view, slow",
      "Count on screen"
     ],
-    "music": "lesson_slow"
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the Italian passamezzo, a 16th-century dance defined by its iconic chord progressions and graceful binary rhythm.",
-     "Sources: 5 references are listed with the profile."
+     "Explore the 16th-century Italian passamezzo, a binary dance defined by its iconic antico and moderno bass progressions.",
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -223,7 +217,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Understand basic rhythm and step timing",
+   "goal": "Understand the basic chord progressions",
    "level": "Beginner",
    "scenes": [
     {
@@ -231,9 +225,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Understand basic rhythm and step timing.",
-      "Level: Beginner. Difficulty of the dance overall: Beginner to intermediate.",
-      "Your instructor: A historically informed dance specialist with expertise in Renaissance court dances and music"
+      "Chapter 1 — First steps. Today: Understand the basic chord progressions.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance researcher with a focus on Renaissance treatises."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -244,21 +238,21 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright, poised, steady"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).",
-      "Rhythm pattern: Ostinato chord progression repeated continuously.",
+      "Count: count the binary bar out loud, then in pairs of bars. The meter is binary.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -275,34 +269,35 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Begin with a measured walking step in binary rhythm",
-      "Step 2: Maintain upright posture with steady, graceful movement",
-      "Footwork from the sources: Measured walking steps in binary rhythm, with variations resembling pavane and galliard steps",
-      "Drill: Walking steps in 2/2 rhythm"
+      "Drill: Listen to the ostinato bass pattern"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "count the binary bar out loud, then in pairs of bars",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Repeat step sequences in place or progressing forward",
-      "Step 4: Incorporate variations resembling pavane steps and galliard movements",
-      "Drill: Counting and clapping the passamezzo chord progression"
+      "Drill: Count the binary meter against the pavane"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "count the binary bar out loud, then in pairs of bars",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "combine",
@@ -311,8 +306,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Practicing posture and arm carriage"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -324,22 +318,23 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "No jumps or fast movements; maintain measured pace and grace"
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.",
+      "Count-in: count the binary bar out loud, then in pairs of bars.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -353,8 +348,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Understand basic rhythm and step timing.",
-      "The passamezzo was performed in courtly and social settings during the Renaissance.",
+      "You can now: Understand the basic chord progressions.",
+      "The passamezzo was performed in solo settings, paired social gatherings, or as part of multi-movement musical suites.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -368,17 +363,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Perform basic step variations and transitions",
-   "level": "Intermediate",
+   "goal": "the building the dance of Passamezzo",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Perform basic step variations and transitions.",
-      "Level: Intermediate. Difficulty of the dance overall: Beginner to intermediate.",
-      "Your instructor: A historically informed dance specialist with expertise in Renaissance court dances and music"
+      "Chapter 2 — Building the dance. Today: the building the dance of Passamezzo.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance researcher with a focus on Renaissance treatises."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -389,21 +384,21 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright, poised, steady"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).",
-      "Rhythm pattern: Ostinato chord progression repeated continuously.",
+      "Count: count the binary bar out loud, then in pairs of bars. The meter is binary.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -419,33 +414,32 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Conclude with a transition to a triple-time dance such as saltarello",
-      "Drill: Step and a half figure practice"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "count the binary bar out loud, then in pairs of bars",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Step and a Half: A possible figure involving a step plus a half-step, origin of the dance’s name",
-      "Drill: Couple procession formation"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "count the binary bar out loud, then in pairs of bars",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -454,8 +448,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Transitioning to a saltarello rhythm"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -467,23 +460,24 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "No jumps or fast movements; maintain measured pace and grace"
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.",
-      "Full tempo, the whole sequence, twice. Formation: Couples in procession or courtly line, moving forward or in place"
+      "Count-in: count the binary bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -496,8 +490,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Perform basic step variations and transitions.",
-      "Giacomo Gorzanis composed 24 passamezzi for lute in 1561, including both antico and moderno types paired with saltarelli.",
+      "You can now: the building the dance of Passamezzo.",
+      "Key figures associated with the passamezzo include lutenist Giacomo Gorzanis, who published 24 passamezzi in 1561; theorist Vincenzo Galilei; and composers such as William Byrd, John Bull, Sweelinck, and Bernardo Storace.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -511,17 +505,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Combine musical phrasing with dance variations",
-   "level": "Advanced",
+   "goal": "the dancing it fully of Passamezzo",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Combine musical phrasing with dance variations.",
-      "Level: Advanced. Difficulty of the dance overall: Beginner to intermediate.",
-      "Your instructor: A historically informed dance specialist with expertise in Renaissance court dances and music"
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Passamezzo.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance researcher with a focus on Renaissance treatises."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -532,21 +526,21 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright, poised, steady"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).",
-      "Rhythm pattern: Ostinato chord progression repeated continuously.",
+      "Count: count the binary bar out loud, then in pairs of bars. The meter is binary.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -562,34 +556,32 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Incorporate variations resembling pavane steps and galliard movements",
-      "Step 2: Conclude with a transition to a triple-time dance such as saltarello",
-      "Drill: Syncing steps with chord progression repeats"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "count the binary bar out loud, then in pairs of bars",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Step and a Half: A possible figure involving a step plus a half-step, origin of the dance’s name",
-      "Drill: Incorporating galliard-like movements"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "count the binary bar out loud, then in pairs of bars",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -598,8 +590,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Performing a short passamezzo suite"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -611,23 +602,24 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "No jumps or fast movements; maintain measured pace and grace"
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.",
-      "Full tempo, the whole sequence, twice. Formation: Couples in procession or courtly line, moving forward or in place"
+      "Count-in: count the binary bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -640,8 +632,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Combine musical phrasing with dance variations.",
-      "The passamezzo is a Renaissance Italian folk dance related to the pavane and linked to the development of Baroque dance suites.",
+      "You can now: the dancing it fully of Passamezzo.",
+      "The passamezzo evolved in parallel with the pavane and frequently shared structural DNA with related ostinato forms like the romanesca and the follia.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -658,28 +650,26 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "2/2 or 4/4 (binary rhythm)",
-  "rhythm_pattern": "Ostinato chord progression repeated continuously",
+  "meter": "binary",
+  "rhythm_pattern": null,
   "instruments": [
-   "Lute",
-   "Keyboard instruments",
-   "Ensemble (strings, winds)",
-   "Occasional vocal accompaniment"
+   "lute",
+   "keyboard",
+   "chitarrone",
+   "chamber ensemble"
   ],
-  "vocal_style": "Rare examples; typically instrumental",
-  "musical_form": "Repeated chord progression (ostinato bass) with melodic variations; often part of a suite",
+  "vocal_style": null,
+  "musical_form": "binary variations over ostinato bass",
   "mood": [
-   "calm",
-   "measured",
-   "graceful",
-   "stately"
+   "tranquil",
+   "serious"
   ],
-  "sound_description": "The passamezzo features a steady, repeating chord progression in minor (antico) or major (moderno) keys, played on lute or keyboard, with a calm and flowing rhythmic feel supporting measured dance steps.",
+  "sound_description": "A steady, flowing binary rhythm driven by repeating ostinato chord progressions in minor or major, maintaining a calm and measured pace.",
   "listen_before_composing": [
-   "24 Passamezzi — Giacomo Gorzanis",
-   "Passamezzo Suites — Vincenzo Galilei"
+   "Ostinato — Hespèrion XXI, Jordi Savall",
+   "Ostinato — Hespèrion XXI, Jordi Savall (2001)"
   ],
-  "prompt": "Original instrumental composition in the musical world of Passamezzo (Italy). Meter 2/2 or 4/4 (binary rhythm). Rhythm pattern: Ostinato chord progression repeated continuously. Instruments: Lute, Keyboard instruments, Ensemble (strings, winds), Occasional vocal accompaniment. Vocal style: Rare examples; typically instrumental. Form: Repeated chord progression (ostinato bass) with melodic variations; often part of a suite. Mood: calm, measured, graceful, stately. It should sound like this: The passamezzo features a steady, repeating chord progression in minor (antico) or major (moderno) keys, played on lute or keyboard, with a calm and flowing rhythmic feel supporting measured dance steps. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Passamezzo (Italy). Meter binary. Instruments: lute, keyboard, chitarrone, chamber ensemble. Form: binary variations over ostinato bass. Mood: tranquil, serious. It should sound like this: A steady, flowing binary rhythm driven by repeating ostinato chord progressions in minor or major, maintaining a calm and measured pace. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -738,17 +728,22 @@
     "year": 2019,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
+   },
+   {
+    "title": "Dances and Music from the Italian Renaissance / Gastoldi, Gabrieli, Mainerio [...]",
+    "url": "https://archive.org/details/youtube-739R9G0qDH8",
+    "year": 2013,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
    }
   ],
   "motifs": [
-   "Renaissance court costumes",
-   "Lute and keyboard instruments",
-   "Manuscript pages with dance notation",
-   "Couples in procession",
-   "Chalk or wooden floor of a palace hall"
+   "A Renaissance lute resting on a wooden table",
+   "An open score of Giacomo Gorzanis's tablature",
+   "A courtly ballroom engraving from the 16th century"
   ],
   "costume_notes": null,
-  "setting_notes": "The passamezzo was performed in courtly and social settings during the Renaissance. It was often part of a suite of dances, serving as a stately opening or main dance followed by livelier triple-time dances. The dance was associated with elegance and measured grace, reflecting the tastes of Italian and European courts.",
+  "setting_notes": "The passamezzo was performed in solo settings, paired social gatherings, or as part of multi-movement musical suites. It often preceded a faster triple-time dance like the saltarello or gagliarda to balance solemnity with agility.",
   "map": {
    "country": "Italy",
    "region": "Europe",
@@ -761,9 +756,9 @@
   ]
  },
  "teaching_formula": {
-  "source": "49 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 49,
-  "counting": "count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars",
+  "source": "58 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 58,
+  "counting": "count the binary bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
@@ -772,17 +767,17 @@
   ],
   "cues": [
    "1-2-3-4",
+   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "5-6-7-8",
-   "1-2-left",
-   "2-2-right",
-   "step in front",
-   "step behind",
-   "levanto los talones hasta atrs",
-   "doble golpe con mi pie",
-   "pisada con toda la planta del pie",
-   "sin elevarme tanto"
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "drop your seat",
+   "meerkat position",
+   "preload",
+   "lunge forwards"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -799,21 +794,24 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a verified recording to listen to",
   "licensed images (3 needed)",
-  "the how-it-is-danced section",
-  "the costume & setting section"
+  "posture, arms and hands",
+  "signature moves",
+  "the costume & setting section",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Passamezzo",
   "https://www.wikidata.org/wiki/Q1294481",
+  "https://it.wikipedia.org/wiki/Passamezzo",
   "https://es.wikipedia.org/wiki/Passamezzo",
   "https://fr.wikipedia.org/wiki/Passamezzo",
   "https://de.wikipedia.org/wiki/Passamezzo"
  ],
- "claims_verified": 12,
- "claims": 13,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "ee03339511f461b7f628cf51e00f7cc57f4f0d3e382894c1b371106e21889bac",
+ "input_fingerprint": "919304ba3fce0ba6db43b43e462e7d178257a29c40659db72441b10c51618909",
  "hero_checked": "pass"
 }

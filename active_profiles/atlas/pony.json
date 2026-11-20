@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Colliding with other dancers"
+        ],
+        "counts": "1&2, 3&4",
+        "duration_minutes": "15",
+        "game_version": "Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Sudden turns",
+          "Overextending knees"
+        ],
+        "counts": "1&2, 3&4",
+        "seated_version": "Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently.",
+        "standing_version": "Stand near a chair for support, performing gentle low bounces on the spot.",
+        "tempo_and_range": "Slower tempo with minimal foot elevation."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Basic Pony bounce step",
+          "source": "https://en.wikipedia.org/wiki/Pony_Time"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Non-touching partner dance where couples face each other.",
+          "source": "https://en.wikipedia.org/wiki/Pony_Time"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Various arm and hand motions are possible, mimicking holding reins or rhythmic pumping.",
+      "difficulty": "beginner",
+      "footwork": "Feet kept comfortably together, moving on counts 1&2, 3&4.",
+      "formation_and_space": "Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed.",
+      "hips_and_torso": "Rhythmic bouncing motion corresponding to a horse-riding appearance.",
+      "levels_and_jumps": "Low bouncing off the balls of the feet; no high jumps.",
+      "partnering": "Non-contact partner dance.",
+      "posture": "Upright or slightly bent knee stance attempting to look as if riding a horse.",
+      "signature_moves": [
+        {
+          "description": "Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.",
+          "name": "Horse-riding bounce"
+        }
+      ],
+      "tempo_feel": "Bouncy and syncopated mid-tempo beat.",
+      "what_to_avoid": "Avoid touching partner or sticking strictly to a rigid line-of-dance."
+    },
+    "music_profile": {
+      "instruments": [
+        "electric guitar",
+        "bass guitar",
+        "drums",
+        "vocals"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "playful",
+        "energetic",
+        "retro",
+        "upbeat"
+      ],
+      "musical_form": "Verse-chorus pop structure",
+      "reference_recordings": [
+        {
+          "artist": "Chubby Checker",
+          "title": "Pony Time"
+        },
+        {
+          "artist": "Don Covay with the Goodtimers",
+          "title": "Pony Time"
+        }
+      ],
+      "rhythm_pattern": "1&2, 3&4 subdivided rhythm",
+      "sound_description": "Mid-tempo early 1960s rock and roll driving an accented 1&2, 3&4 beat rhythm, characterized by expressive vocals and rhythmic calls.",
+      "tempo_bpm": "115-130",
+      "vocal_style": "Upbeat 1960s R&B/rock and roll vocals with rhythmic calls"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Keep feet comfortably together.",
+        "Step or hop in place to the rhythmic count of 1&2, 3&4.",
+        "Imitate riding a horse using optional hand and arm motions.",
+        "Maintain a position facing your partner without physical contact.",
+        "Optionally add turns or chase movements around the dance space."
+      ],
+      "formation": "Non-touching couples facing each other; open space with no line-of-dance.",
+      "level_notes": "Accessible to beginners; focuses on rhythm and relaxed horse-riding imagery.",
+      "rhythm": "1&2, 3&4 beat"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "889613e078a226a4f2c464417261441aac88916d6f0eaceb3ac6a335291d0991",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:pony",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Pony",
+  "open_questions": [],
+  "research_file": "research_results/pony.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "pony",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pony_Time",
+    "https://www.wikidata.org/wiki/Q17000192",
+    "https://archive.org/details/childrensliterat0000curr",
+    "https://archive.org/details/rockymountainwon00mill",
+    "https://archive.org/details/folkstoriesfable0000unse"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

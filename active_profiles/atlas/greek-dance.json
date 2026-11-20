@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "derivable yet"
+        ],
+        "counts": "derivable yet",
+        "duration_minutes": "derivable yet",
+        "game_version": "derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "derivable yet"
+        ],
+        "counts": "derivable yet",
+        "seated_version": "derivable yet",
+        "standing_version": "derivable yet",
+        "tempo_and_range": "derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Dancers hold hands in open or closed circles, or cross arms; men take the front of the line in Thrace.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Open circles, lines, couples, or solo improvisations by the leader.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Aegean and Cretan dances are light and jumpy; Epirus and Peloponnese use heavy, grounded steps.",
+      "partnering": "Couples in Aegean dances, otherwise community line or circle formation.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Varies from slow and heavy in Epirus to fast, light, and jumpy in Crete and the Aegean.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Pontian lyra",
+        "kemenche",
+        "lyres",
+        "flutes",
+        "tambourines",
+        "cymbals",
+        "castanets",
+        "bouzouki"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fast",
+        "upbeat",
+        "slow",
+        "heavy",
+        "smooth"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by traditional instruments like the Pontian lyra or bouzouki, featuring regional folk melodies ranging from the heavy, slow tones of Epirus to the fast, upbeat rhythms of Thrace.",
+      "tempo_bpm": "",
+      "vocal_style": "Traditional singing by participants and musicians"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Open circle hand-hold step",
+        "Slow heavy step",
+        "Agile leap"
+      ],
+      "formation": "Open or closed circles, lines, or couples",
+      "level_notes": "Strict order in arrangement by age; Epirus requires great balance; Aegean dances are fast and jumpy.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "887ef0516106a645cb5e8b05e01cad13745063b19793bc87e11b33d756aa4651",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the exact step counts and rhythmic meters for regional dances like Kalamatianos and Syrtos? Evidence needed: Ethnochoreological field manuals from Greece."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:greek-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Greek dance",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cda24b6bb9f4f57b",
+      "next_evidence": "Ethnochoreological field manuals from Greece.",
+      "question": "What are the exact step counts and rhythmic meters for regional dances like Kalamatianos and Syrtos?",
+      "source": "https://en.wikipedia.org/wiki/Greek_dances",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable precise technical instruction for learners."
+    }
+  ],
+  "research_file": "research_results/greek-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "greek-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Greek_dances",
+    "https://www.wikidata.org/wiki/Q5601924",
+    "https://de.wikipedia.org/wiki/Griechischer_Tanz",
+    "https://archive.org/details/antiquegreekdan00emmagoog",
+    "https://archive.org/details/cu31924019239668"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

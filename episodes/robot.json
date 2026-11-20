@@ -2,7 +2,7 @@
  "slug": "robot",
  "name": "robot",
  "pack_version": "e2",
- "built_at": "2026-11-17T21:36:22Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-09T21:02:21Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -864,12 +864,12 @@
    "lean forward",
    "arm up",
    "elbow up",
-   "tick each part",
-   "lock your arms",
    "twist your wrist",
    "keep your arm tense",
    "pivot your feet",
-   "turn your torso"
+   "turn your torso",
+   "tick each part",
+   "lock your arms"
   ],
   "common_mistakes": [
    "moving everything below the elbow instead of including the elbow",
@@ -901,16 +901,6 @@
     "description": "A leg lift and a small step to the front."
    },
    {
-    "name": "Billy Jean Ticking Robot",
-    "counts": "free count",
-    "description": "Walking motion with rigid ticking isolation across body parts."
-   },
-   {
-    "name": "Human Nature Robot",
-    "counts": "free count",
-    "description": "Wide stance with arms pushing and locking against invisible walls."
-   },
-   {
     "name": "Wrist Twist",
     "counts": "1-2",
     "description": "A sharp, controlled twist of the wrist while keeping the arm tense."
@@ -934,6 +924,16 @@
     "name": "Shuffle",
     "counts": "1-and-2-and-3-and-4",
     "description": "A shuffling motion while bringing the arms up in a robotic fashion."
+   },
+   {
+    "name": "Billy Jean Ticking Robot",
+    "counts": "free count",
+    "description": "Walking motion with rigid ticking isolation across body parts."
+   },
+   {
+    "name": "Human Nature Robot",
+    "counts": "free count",
+    "description": "Wide stance with arms pushing and locking against invisible walls."
    }
   ]
  },
@@ -952,6 +952,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "fcef38cef74d27b0783d5d6ab31cc8e9026a74efda228513c7856683eb48be64",
+ "input_fingerprint": "cc60a6fc0a3da9f52c796eae155418a2078ed00366acf887ef18b888b93d1800",
  "hero_checked": "pass"
 }

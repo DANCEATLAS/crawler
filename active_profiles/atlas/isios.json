@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Rough pulling in the basket weave grip"
+        ],
+        "counts": "1, 2 basic count",
+        "duration_minutes": "10",
+        "game_version": "Children form a line with crossed arm holds and take turns being the leader who invents a new step for the rest to watch."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Sudden direction changes",
+          "Excessive pulling on the interlocked arms"
+        ],
+        "counts": "1, 2 pulse counts.",
+        "seated_version": "Dancers sit in a semi-circle and cross arms in a modified basket weave hold, swaying side to side to the 2/4 pulse.",
+        "standing_version": "Perform the open circle dance with a lighter hold and reduced step size to preserve stability.",
+        "tempo_and_range": "Maintain standard 2/4 meter with smaller footwork steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Execute the basic step in an open circle using a 2/4 meter.",
+          "source": "https://en.wikipedia.org/wiki/Isios"
+        },
+        {
+          "description": "Form a crossed basket weave hand hold with adjacent dancers.",
+          "source": "https://en.wikipedia.org/wiki/Isios"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Open circle formation containing men and women with a leading dancer who improvises.",
+          "source": "https://en.wikipedia.org/wiki/Isios"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Basket weave (crossed) hand hold with adjacent dancers.",
+      "difficulty": "beginner",
+      "footwork": "Basic step repeated by the circle, with solo improvisation performed exclusively by the line leader.",
+      "formation_and_space": "Open circle formation containing both men and women.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group connection via crossed basket weave hand hold.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Solo footwork and step variations executed by the lead dancer while the line maintains the basic step.",
+          "name": "Leader Improvisation"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Breaking the basket weave hand hold or improvising steps while in the follower line."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "festive",
+        "social",
+        "communal"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Cross arms with neighbors to form a basket weave hand hold.",
+        "Step in sequence to the 2/4 rhythm following the open circle formation.",
+        "Maintain the basic repetitive step while the line leader performs improvisations."
+      ],
+      "formation": "Open circle",
+      "level_notes": "Beginner friendly for the circle dancers; intermediate for the leader who improvises.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "52596dadcdf53332acb23398a1654000648ebf4149a84c06f35595b76034347b",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: rhythm_pattern, sound_description",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: Which specific traditional instruments typically accompany the Isios on Kalymnos? Evidence needed: Ethnomusicological field recordings or literature on Dodecanese folk music."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What exact footwork sequence constitutes the basic step of the Isios? Evidence needed: Video documentation or instructional manuals detailing Kalymnian folk dance steps."
+    ]
+  },
+  "id": "atlas:isios",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Isios",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "71f9fd4006c621f3",
+      "next_evidence": "Video documentation or instructional manuals detailing Kalymnian folk dance steps.",
+      "question": "What exact footwork sequence constitutes the basic step of the Isios?",
+      "source": "https://en.wikipedia.org/wiki/Isios",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources note that followers perform a 'basic step', but do not detail the specific direction, weight changes, or foot placements required to teach it."
+    },
+    {
+      "domain": "research",
+      "id": "d0c0ce57bdf193b9",
+      "next_evidence": "Ethnomusicological field recordings or literature on Dodecanese folk music.",
+      "question": "Which specific traditional instruments typically accompany the Isios on Kalymnos?",
+      "source": "https://en.wikipedia.org/wiki/Isios",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source specifies a 2/4 rhythm but omits the musical ensemble and instrumentation."
+    }
+  ],
+  "research_file": "research_results/isios.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "isios",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Isios",
+    "https://www.wikidata.org/wiki/Q16920791"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

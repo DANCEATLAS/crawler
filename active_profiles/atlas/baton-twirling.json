@@ -1,13 +1,93 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex gymnastics",
+          "Heavy metal batons"
+        ],
+        "counts": "Basic 1-2-3-4 counts.",
+        "duration_minutes": "15",
+        "game_version": "Baton rhythm games focusing on coordination and simple tosses."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "High aerial tosses",
+          "Balance-intensive moves"
+        ],
+        "counts": "Simplified 4-count patterns.",
+        "seated_version": "Seated baton manipulation focusing on wrist and arm mobility.",
+        "standing_version": "Simplified marching with basic baton rolls, avoiding jumps.",
+        "tempo_and_range": "Reduced tempo; focus on controlled, low-level movements."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Continuous manipulation of the baton, utilizing the ball, tip, and center.",
+      "difficulty": "intermediate",
+      "footwork": "Marching, leaps, tour jeté, step ball changes.",
+      "formation_and_space": "X-patterns, lines, and circular formations.",
+      "hips_and_torso": "Controlled and flexible, supporting gymnastics elements.",
+      "levels_and_jumps": "Includes cartwheels, front walkovers, and illusions.",
+      "partnering": "Synchronized group movement or duo collaboration.",
+      "posture": "Upright, athletic, and poised.",
+      "signature_moves": [
+        {
+          "description": "The foundation of twirling; baton is rolled over the thumb and launched.",
+          "name": "Thumb toss"
+        },
+        {
+          "description": "Baton rolls over the elbows in a continuous motion.",
+          "name": "Elbow roll"
+        }
+      ],
+      "tempo_feel": "Fast and precise.",
+      "what_to_avoid": "Improper baton balance; lack of control during aerial tosses."
+    },
+    "music_profile": {
+      "instruments": [
+        "Marching band",
+        "Orchestral",
+        "Pop"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "precise",
+        "upbeat"
+      ],
+      "musical_form": "Rhythmic accompaniment",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Stars and Stripes"
+        }
+      ],
+      "rhythm_pattern": "Marching beat",
+      "sound_description": "Typically features a steady, driving march rhythm with clear, accented beats to facilitate the timing of tosses and catches.",
+      "tempo_bpm": "Variable",
+      "vocal_style": "None"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Thumb toss: Roll the baton over the thumb from the waist and lift with a slight hand movement.",
+        "Elbow roll: Roll the baton over one elbow, dip to the second elbow, and continue the motion.",
+        "Basic march: Place one hand on the hip, cradle the baton, lift the leg to chair height, and step to the beat."
+      ],
+      "formation": "Solo, pairs, or groups in lines or X-patterns.",
+      "level_notes": "Levels range from Novice to Elite, determined by competition wins.",
+      "rhythm": "Follows the beat of the accompanying music, often 4/4 time for marching."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "8ed4a7ec41855d9ddabab75d3aaebc862c43a552ce463ca382f12317fc64e22e",
+  "fingerprint": "bae558e4650cb5ddd3d4ad13ec2767f4e7a2c561b24e33ff45fb9464ca06b600",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +95,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific biomechanical risks associated with long-term baton twirling for youth athletes? Evidence needed: Clinical sports medicine studies on repetitive upper-limb motion in twirling."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +123,18 @@
   ],
   "music_options": [],
   "name": "Baton Twirling",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5c975715cab7fad7",
+      "next_evidence": "Clinical sports medicine studies on repetitive upper-limb motion in twirling.",
+      "question": "What are the specific biomechanical risks associated with long-term baton twirling for youth athletes?",
+      "source": "https://en.wikipedia.org/wiki/Baton_twirling",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide safer training guidelines for children."
+    }
+  ],
+  "research_file": "research_results/baton-twirling.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +146,12 @@
   "slug": "baton-twirling",
   "sources": [
     "https://en.wikipedia.org/wiki/Baton_twirling",
-    "Source: Baton twirling on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Baton_twirling"
+    "https://www.wikidata.org/wiki/Q733010",
+    "https://es.wikipedia.org/wiki/Twirling",
+    "https://fr.wikipedia.org/wiki/Twirling_bâton",
+    "https://de.wikipedia.org/wiki/Twirling",
+    "https://it.wikipedia.org/wiki/Twirling",
+    "https://archive.org/details/SGE_1979061301"
   ],
   "state": "researching",
   "video_evidence": []

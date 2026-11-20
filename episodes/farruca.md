@@ -1,6 +1,6 @@
 # Farruca — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Upright, proud posture with contained arm movements.
 NARRATION: Marking the compás with a strong, rhythmic step on the 1st, 3rd, 5th, and 7th beats.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4 / y-tac-tac.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4 / y-tac-tac. The meter is 4/4.
 NARRATION: Rhythm pattern: 1-2-3-4-5-6-7-8 (accents on 1, 3, 5, 7).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,10 +119,10 @@ NARRATION: Step 1: Upright, proud posture with contained arm movements.
 NARRATION: Step 2: Marking the compás with a strong, rhythmic step on the 1st, 3rd, 5th, and 7th beats.
 NARRATION: Footwork from the sources: Sharp zapateado with accents on 1, 3, 5, 7.
 NARRATION: Drill: Clapping the 1, 3, 5, 7 accents.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / y-tac-tac · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Executing sharp, percussive zapateado (footwork) sequences.
@@ -130,7 +130,7 @@ NARRATION: Step 4: Incorporating sudden, dramatic pauses to contrast with the fo
 NARRATION: Drill: Walking in time to the pulse.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / y-tac-tac · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -148,7 +148,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and rhythmic clapping while seated. · For children: A rhythm game focusing on the 'stop and go' nature of the dance. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4 / y-tac-tac.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -179,7 +179,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4 / y-tac-tac. The meter is 4/4.
 NARRATION: Rhythm pattern: 1-2-3-4-5-6-7-8 (accents on 1, 3, 5, 7).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,10 +191,10 @@ NEEDS: tempo
 NARRATION: Step 1: Upright, proud posture with contained arm movements.
 NARRATION: Step 2: Marking the compás with a strong, rhythmic step on the 1st, 3rd, 5th, and 7th beats.
 NARRATION: Drill: Practicing heel strikes on the beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / y-tac-tac · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Executing sharp, percussive zapateado (footwork) sequences.
@@ -205,7 +205,7 @@ NARRATION: Drill: Combining footwork with a static, proud posture.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / y-tac-tac · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -223,7 +223,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and rhythmic clapping while seated. · For children: A rhythm game focusing on the 'stop and go' nature of the dance. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4 / y-tac-tac.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance, utilizing stage space for dramatic entrances and exits.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -254,7 +254,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4 / y-tac-tac. The meter is 4/4.
 NARRATION: Rhythm pattern: 1-2-3-4-5-6-7-8 (accents on 1, 3, 5, 7).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -266,10 +266,10 @@ NEEDS: tempo
 NARRATION: Step 1: Executing sharp, percussive zapateado (footwork) sequences.
 NARRATION: Step 2: Incorporating sudden, dramatic pauses to contrast with the footwork.
 NARRATION: Drill: Stopping abruptly on the final beat of a phrase.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / y-tac-tac · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Zapateado: Forceful, percussive footwork.
@@ -278,7 +278,7 @@ NARRATION: Drill: Transitioning from fast footwork to a held pose.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / y-tac-tac · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -296,7 +296,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and rhythmic clapping while seated. · For children: A rhythm game focusing on the 'stop and go' nature of the dance. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4 / y-tac-tac.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance, utilizing stage space for dramatic entrances and exits.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4 / y-tac-tac
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: full
+Cues: y tac tac; el segundo
 
 Sources (7): https://en.wikipedia.org/wiki/Farruca; https://www.wikidata.org/wiki/Q2557688; https://fr.wikipedia.org/wiki/Farruca; https://de.wikipedia.org/wiki/Farruca; https://it.wikipedia.org/wiki/Farruca; https://archive.org/details/elsombrerodetres00fall_0; https://archive.org/details/31761034898247

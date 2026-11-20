@@ -1,13 +1,79 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Men carry horns, shields, and spears; women carry small wooden axes or unsharpened sticks.",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Women form a procession flanked by men.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Ululations performed by the lead woman to initiate the dance.",
+          "name": "Kigila"
+        },
+        {
+          "description": "A mock fight movement performed by the lead man.",
+          "name": "Owoc"
+        }
+      ],
+      "tempo_feel": "Vigorous.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vigorous",
+        "martial",
+        "courageous"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by the sound of drums accompanying vocal war songs, yelling, and high-pitched ululations.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "War songs, yelling, and kigila (ululations)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Kigila: A vocal ululation initiated by the lead woman.",
+        "Owoc: A mock fight movement initiated by the lead man.",
+        "Procession: Women form a line flanked by men."
+      ],
+      "formation": "Women form a procession flanked by men.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "d0dd21116dbbc763c23ab28d0619e0ddfd10df11b84460d0f42c98b3d7a595df",
+  "fingerprint": "4beb6d709c20021d435862223465b2c817861f2e7af3821e6b79d8f2005972f6",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +81,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns used by the drummers during the Otole? Evidence needed: Ethnomusicological field recordings of Acholi war dances.",
+      "Investigate: Are there specific footwork sequences that define the 'mock fight' (owoc)? Evidence needed: Video documentation of traditional Otole performances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +112,27 @@
   ],
   "music_options": [],
   "name": "Otole dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "9ace6c38f72cbc99",
+      "next_evidence": "Ethnomusicological field recordings of Acholi war dances.",
+      "question": "What are the specific rhythmic patterns used by the drummers during the Otole?",
+      "source": "https://en.wikipedia.org/wiki/Otole_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow for accurate musical recreation."
+    },
+    {
+      "domain": "research",
+      "id": "5b2b265b5284a75f",
+      "next_evidence": "Video documentation of traditional Otole performances.",
+      "question": "Are there specific footwork sequences that define the 'mock fight' (owoc)?",
+      "source": "https://en.wikipedia.org/wiki/Otole_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide actionable movement instructions for learners."
+    }
+  ],
+  "research_file": "research_results/otole-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +144,7 @@
   "slug": "otole-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Otole_dance",
-    "Source: Otole dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Otole_dance"
+    "https://www.wikidata.org/wiki/Q124338507"
   ],
   "state": "researching",
   "video_evidence": []

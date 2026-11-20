@@ -1,6 +1,6 @@
 # Carolina shag — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands
 
@@ -74,7 +74,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Triple step to the left (one-and-two)
 NARRATION: Triple step to the right (three-and-four)
-NARRATION: Count it: 1-and-2, 3-and-4, 5-6.
+NARRATION: Count it: 1-and-2-3-and-4-5-6.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -101,7 +101,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-and-2, 3-and-4, 5-6. The meter is 4/4.
+NARRATION: Count: 1-and-2-3-and-4-5-6. The meter is 4/4.
 NARRATION: Rhythm pattern: Triple step, triple step, rock step (one-and-two, three-and-four, five-six).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -116,14 +116,14 @@ NARRATION: Drill: Practice triple step timing: one-and-two
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
+COUNTS: 1-and-2-3-and-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rock step back (five-six)
 NARRATION: Drill: Practice triple step timing: three-and-four
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
+COUNTS: 1-and-2-3-and-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,7 +143,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the eight-step count 'one-and-two, three-and-four, five-six' using seated foot taps. · For children: Follow-the-leader along straight tape lines on the floor mimicking the slotted movement. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-and-2, 3-and-4, 5-6.
+NARRATION: Count-in: 1-and-2-3-and-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -172,7 +172,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-and-2, 3-and-4, 5-6. The meter is 4/4.
+NARRATION: Count: 1-and-2-3-and-4-5-6. The meter is 4/4.
 NARRATION: Rhythm pattern: Triple step, triple step, rock step (one-and-two, three-and-four, five-six).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -185,7 +185,7 @@ NARRATION: Step 2: Triple step to the right (three-and-four)
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
+COUNTS: 1-and-2-3-and-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rock step back (five-six)
@@ -193,7 +193,7 @@ NARRATION: Basic Step: An eight-step pattern over six counts featuring two tripl
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
+COUNTS: 1-and-2-3-and-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,7 +212,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the eight-step count 'one-and-two, three-and-four, five-six' using seated foot taps. · For children: Follow-the-leader along straight tape lines on the floor mimicking the slotted movement. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-and-2, 3-and-4, 5-6.
+NARRATION: Count-in: 1-and-2-3-and-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Slotted path between partners
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -241,7 +241,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-and-2, 3-and-4, 5-6. The meter is 4/4.
+NARRATION: Count: 1-and-2-3-and-4-5-6. The meter is 4/4.
 NARRATION: Rhythm pattern: Triple step, triple step, rock step (one-and-two, three-and-four, five-six).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -254,14 +254,14 @@ NARRATION: Step 2: Rock step back (five-six)
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
+COUNTS: 1-and-2-3-and-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Basic Step: An eight-step pattern over six counts featuring two triple steps and a rock step in a slot.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2, 3-and-4, 5-6 · repetitions: 3
+COUNTS: 1-and-2-3-and-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,7 +280,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the eight-step count 'one-and-two, three-and-four, five-six' using seated foot taps. · For children: Follow-the-leader along straight tape lines on the floor mimicking the slotted movement. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-and-2, 3-and-4, 5-6.
+NARRATION: Count-in: 1-and-2-3-and-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Slotted path between partners
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-and-2, 3-and-4, 5-6
+Counting: 1-and-2-3-and-4-5-6
 Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full; repetitions per step: about 2
-Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; one and two; three and four; rock step; step touch
+Cues: one and two; three and four; rock step; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1
 Common mistakes the studied teachers name: bouncing hands up and down; getting the partner out of alignment and balance during turns
 
 Sources (2): https://en.wikipedia.org/wiki/Carolina_shag; https://www.wikidata.org/wiki/Q5044924

@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy headdresses",
+          "Sharp props",
+          "Extended sun exposure during long marches"
+        ],
+        "counts": "Basic 4-count rhythms.",
+        "duration_minutes": "15",
+        "game_version": "A 'Follow the Leader' game where children mimic the Captain's whistle commands and the Bowman's scouting moves."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Long-distance marching",
+          "Rapid pivots",
+          "High-impact jumping"
+        ],
+        "counts": "Simple 1-2-3-4 march counts.",
+        "seated_version": "Focus on upper body rhythmic movements and hand gestures using small props like a handheld fan to represent the bow.",
+        "standing_version": "Marching in place with a reduced range of motion; focus on the rhythmic response to drum cues rather than long processions.",
+        "tempo_and_range": "Perform at a slower tempo; limit the 'cockfight' movements to gentle swaying."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Carrying ritual objects: bow and arrow for the Bowman, tomahawks for Warriors.",
+      "difficulty": "intermediate",
+      "footwork": "Rhythmic steps driven by snare drum patterns and rimshots.",
+      "formation_and_space": "Processional marching; circular or face-to-face formations for 'cockfights'.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Ritualized face-offs (cockfights) between two warriors.",
+      "posture": "Athletic and alert; warriors often carry tomahawks on shoulders.",
+      "signature_moves": [
+        {
+          "description": "A ritualized face-off where two warriors dance against each other.",
+          "name": "Cockfight"
+        },
+        {
+          "description": "The Lead Indian moves ahead of the group to scout the way.",
+          "name": "Scouting"
+        }
+      ],
+      "tempo_feel": "Driving and energetic.",
+      "what_to_avoid": "Avoid performing in the streets of Hamilton without a permit due to local laws."
+    },
+    "music_profile": {
+      "instruments": [
+        "Mother drum (bass)",
+        "Snare drum",
+        "Kettle drum",
+        "Fife",
+        "Whistle"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "exhilarating",
+        "intoxicating",
+        "rhythmic",
+        "driving"
+      ],
+      "musical_form": "Drum-driven processional with whistle-led transitions.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Complicated snare riffs over a steady pulse; call and response.",
+      "sound_description": "A dense percussive soundscape dominated by the sharp, military-style snapping of snare drums playing complex syncopations against a deep, steady bass drum pulse. Whistles pierce the rhythm to signal changes, creating a high-energy, driving atmosphere.",
+      "tempo_bpm": "",
+      "vocal_style": "Rude songs or wild yelling screams (historical description)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Scouting: The Lead Indian moves ahead of the troupe with a bow and arrow to survey the path.",
+        "Warrior Walk: Dancers march with tomahawks resting on their shoulders.",
+        "Cockfight: Two warriors face each other in a ritualized competitive dance.",
+        "Rimshot Response: Dancers execute sharp footwork changes in direct response to snare drum rimshots."
+      ],
+      "formation": "Processional troupe of 10-30 dancers led by a Captain.",
+      "level_notes": "Requires high stamina for day-long marching and precise rhythmic coordination with drummers.",
+      "rhythm": "Complex snare riffs over a steady bass pulse; call-and-response patterns."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bb4153b45b69cfb2e8c8e8134084990768e779313115d04ff1f0e9611719bd07",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific rhythmic patterns (meters) associated with different troupes? Evidence needed: https://en.wikipedia.org/wiki/Gombey"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns that correspond to the snare rimshots? Evidence needed: https://en.wikipedia.org/wiki/Gombey"
+    ]
+  },
+  "id": "atlas:gombey",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gombey",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "ec235f7addc62a52",
+      "next_evidence": "https://en.wikipedia.org/wiki/Gombey",
+      "question": "What are the specific footwork patterns that correspond to the snare rimshots?",
+      "source": "https://en.wikipedia.org/wiki/Gombey",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the 'movement_profile' and 'lesson_ladder'."
+    },
+    {
+      "domain": "research",
+      "id": "840fd6b81f336597",
+      "next_evidence": "https://en.wikipedia.org/wiki/Gombey",
+      "question": "Are there specific rhythmic patterns (meters) associated with different troupes?",
+      "source": "https://en.wikipedia.org/wiki/Gombey",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'distinct differences' in beats between troupes; identifying these would allow for a more precise 'music_profile'."
+    }
+  ],
+  "research_file": "research_results/gombey.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gombey",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gombey",
+    "https://www.wikidata.org/wiki/Q5581130"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

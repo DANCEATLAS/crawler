@@ -1,13 +1,74 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "lively",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "tambourin de Provence",
+        "galoubet"
+      ],
+      "meter": "duple meter",
+      "mood_keywords": [
+        "lively",
+        "energetic",
+        "resonant"
+      ],
+      "musical_form": "lively dance music",
+      "reference_recordings": [
+        {
+          "artist": "Jean-Philippe Rameau",
+          "title": "Le Tambourin"
+        }
+      ],
+      "rhythm_pattern": "repetitive, non-melodic bass figure",
+      "sound_description": "A driving, rhythmic sound characterized by the steady, low-pitched pulse of a deep drum accompanied by the high-pitched, piercing melody of a three-holed flute.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "lively duple meter"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "63e1b898add818d38caee4f9fe41bc403038920b5b70975ee7577190182134fe",
+  "fingerprint": "03e5f7d2a428d33531fa07a8ed803327fb9962671ba8bf0e42bba4a3205a1213",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +76,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns or traditional steps associated with the Provençal tambourin dance? Evidence needed: Ethnographic dance manuals or video documentation of Provençal folk dance groups."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +105,18 @@
   ],
   "music_options": [],
   "name": "Tambourin",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cd3592d134db30b8",
+      "next_evidence": "Ethnographic dance manuals or video documentation of Provençal folk dance groups.",
+      "question": "What are the specific footwork patterns or traditional steps associated with the Provençal tambourin dance?",
+      "source": "https://fr.wikipedia.org/wiki/Tambourin_provençal",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only describe the music and the instrument, leaving the actual dance movement undefined."
+    }
+  ],
+  "research_file": "research_results/tambourin.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +128,11 @@
   "slug": "tambourin",
   "sources": [
     "https://en.wikipedia.org/wiki/Tambourin",
-    "Source: Tambourin on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Tambourin"
+    "https://www.wikidata.org/wiki/Q19754610",
+    "https://fr.wikipedia.org/wiki/Tambourin_provençal",
+    "https://archive.org/details/b10024086",
+    "https://archive.org/details/birch_122up",
+    "https://archive.org/details/classicromanticp01unse"
   ],
   "state": "researching",
   "video_evidence": []

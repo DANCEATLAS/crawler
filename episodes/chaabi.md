@@ -1,6 +1,6 @@
 # Chaabi — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 8.7 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out
 
@@ -95,7 +95,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2 / 8 counts.
+NARRATION: Count: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Rhythm pattern: festive, insistent, and fast-paced rhythmic patterns strongly connected to dance.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -108,14 +108,14 @@ NARRATION: Drill: Listen to the insistent tempo of Maghrebi or Egyptian chaabi
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 / 8 counts · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Mark the pulse socially within a group celebration setting
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2 / 8 counts · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -132,7 +132,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2 / 8 counts.
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -161,7 +161,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2 / 8 counts.
+NARRATION: Count: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Rhythm pattern: festive, insistent, and fast-paced rhythmic patterns strongly connected to dance.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -173,13 +173,13 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 / 8 counts · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2 / 8 counts · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -196,7 +196,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2 / 8 counts.
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Full tempo, the whole sequence, twice. Formation: celebratory social gatherings, weddings, and festivals
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -225,7 +225,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2 / 8 counts.
+NARRATION: Count: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Rhythm pattern: festive, insistent, and fast-paced rhythmic patterns strongly connected to dance.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -237,13 +237,13 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 / 8 counts · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2 / 8 counts · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -260,7 +260,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2 / 8 counts.
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Full tempo, the whole sequence, twice. Formation: celebratory social gatherings, weddings, and festivals
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -298,7 +298,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2 / 8 counts
+Counting: the teacher does not use a formal counting scheme, instead f
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full
 Cues: pick up the groove; don't forget this is a popular dance; your butt should be free; don't forget knee flex; you see the work your hips; go a little bit down
 Common mistakes the studied teachers name: the teacher warns against doing a 100% choreographed routine, as it can cause the dancer to lose the feeling of the music

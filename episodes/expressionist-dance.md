@@ -1,6 +1,6 @@
 # expressionist dance — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section
 
@@ -331,6 +331,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 12 tutorial(s) of the stage-contemporary family studied · videos studied: 12
 Counting: count the variable bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
+Cues: lean down; knees up; legs straighten; engage your core; feet inside silks; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space
 
 Sources (5): https://en.wikipedia.org/wiki/Expressionist_dance; https://www.wikidata.org/wiki/Q778382; https://es.wikipedia.org/wiki/Danza_expresionista; https://fr.wikipedia.org/wiki/Danse_expressionniste; https://de.wikipedia.org/wiki/Ausdruckstanz

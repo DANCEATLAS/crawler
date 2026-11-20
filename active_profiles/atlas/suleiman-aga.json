@@ -1,0 +1,155 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex synchronized turning"
+        ],
+        "counts": "1-2, 1-2, 1-2, 1-2-3",
+        "duration_minutes": "15",
+        "game_version": "Partner greeting game where children make funny faces on step 4 (the 3-count beat) while keeping the 9/8 rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Sudden sharp pivots",
+          "High impact hopping"
+        ],
+        "counts": "2+2+2+3 (9 counts total per measure)",
+        "seated_version": "Tap feet seated in a chair following the 2+2+2+3 count pattern while mirroring arm gestures with a seated partner.",
+        "standing_version": "Perform gentle small steps in place face-to-face without rapid directional turns.",
+        "tempo_and_range": "Slightly reduced tempo, keeping footwork close to the floor."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Executing basic face-to-face 9/8 metric step sequence.",
+          "source": "https://en.wikipedia.org/wiki/Karsilamas"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Face-to-face open couple dance.",
+          "source": "https://en.wikipedia.org/wiki/Karsilamas"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Four small steps per measure following a 2+2+2+3 duration scheme",
+      "formation_and_space": "Face-to-face couple positioning with fluid spatial interaction",
+      "hips_and_torso": "Natural responsive movement echoing the rhythmic pulse",
+      "levels_and_jumps": "Low to ground, subtle knee bounces without dramatic airborne jumps",
+      "partnering": "Unconnected or loosely held open face-to-face alignment",
+      "posture": "Upright, open torso oriented directly towards partner",
+      "signature_moves": [
+        {
+          "description": "Four small steps executed directly opposite a partner in 9/8 meter.",
+          "name": "Face-to-face greeting step"
+        }
+      ],
+      "tempo_feel": "Bouncy or smooth depending on regional style",
+      "what_to_avoid": "Avoid breaking visual connection with partner or rushing the elongated three-count fourth step."
+    },
+    "music_profile": {
+      "instruments": [
+        "zurna",
+        "davul",
+        "clear percussion",
+        "lute"
+      ],
+      "meter": "9/8",
+      "mood_keywords": [
+        "lively",
+        "bouncy",
+        "smooth",
+        "welcoming"
+      ],
+      "musical_form": "Repeating 9-beat metric cycles with regional melodic variations",
+      "reference_recordings": [],
+      "rhythm_pattern": "2+2+2+3 asymmetrical pulse",
+      "sound_description": "A rhythmic 9/8 metric structure defined by a 2+2+2+3 pulse driving dynamic melodic lines characteristic of Balkan and Anatolian folk music.",
+      "tempo_bpm": "120-140",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step 1 (duration 2 counts): Small step forward or side facing partner",
+        "Step 2 (duration 2 counts): Small step matching rhythm",
+        "Step 3 (duration 2 counts): Small step maintaining face-to-face orientation",
+        "Step 4 (duration 3 counts): Slightly extended step resolving the 9/8 measure"
+      ],
+      "formation": "Couples in a face-to-face open pairing",
+      "level_notes": "Beginners focus on maintaining face-to-face visual contact while internalizing the 9/8 rhythm across four steps.",
+      "rhythm": "9/8 meter (divided 2+2+2+3)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e51dbdab926770cd84b15e23973c721fb3927dbcde0936294cdef37dac3c8242",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific arm movements distinguish the Suleiman Aga variant from other regional Karsilamas dances? Evidence needed: Video documentation of Suleiman Aga dance performances in regional archives."
+    ]
+  },
+  "id": "atlas:suleiman-aga",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Suleiman Aga",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "9bed83583cdf962a",
+      "next_evidence": "Video documentation of Suleiman Aga dance performances in regional archives.",
+      "question": "What specific arm movements distinguish the Suleiman Aga variant from other regional Karsilamas dances?",
+      "source": "https://en.wikipedia.org/wiki/Karsilamas",
+      "status": "candidate_unreviewed",
+      "why_needed": "Arm positioning details are not described in the provided text sources."
+    }
+  ],
+  "research_file": "research_results/suleiman-aga.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "suleiman-aga",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Karsilamas",
+    "https://www.wikidata.org/wiki/Q16939287"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

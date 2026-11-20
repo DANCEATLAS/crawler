@@ -1,8 +1,8 @@
 # danda nata — episode pack
 
-*Status: withheld-chapters · built 2026-11-19 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-20 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An elder Dandua practitioner from Ganjam who balances deep ritual reverence with precise theatrical mastery.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Fire and Faith of the Danduas
 NARRATION: This is danda nata. Ancient origin to present day.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (MoDzPUyoiZI)
 ON SCREEN: Title card: danda nata · India · Ancient origin to present day
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The festival is danced exclusively by male performers who undertake a
 NARRATION: The dance suite begins with the Parva dance performed by the Prabhakar and Prabhakariani.
 NARRATION: Dancers drape a piece of cloth across the shoulders, grasping the ends in both hands and extending the cloth rhythmically forward, backward, right, and left in step with the beat.
 NARRATION: Watch for Parva Vastra Chalana.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (MoDzPUyoiZI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Duet staging in open village spaces, facing each other for dramatic dialogues or circling within community arenas.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'MoDzPUyoiZI', 'checked_by_vision_model': True, 'title': 'Danda Nacha ଦଣ୍ଡ ନାଚ   Traditional Odia Dance part-2.'}
 Images: 2 licensed — Goutama / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Arpitamaheswarisingh / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Sun-baked red earth of rural Odisha in the month of Chaitra, Intricately decorated semicircular bamboo frames strapped to performers' backs, Hands gripping the colored ritual cloth dancing in unison, The double-reed mahuri catching the glow of performance torches
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
+Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (2): https://en.wikipedia.org/wiki/Danda_Nata; https://www.wikidata.org/wiki/Q5215641

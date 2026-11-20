@@ -1,8 +1,8 @@
 # Condong — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed reference footage; the origins & history section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the origins & history section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An exacting Balinese conservatory master like Putu Evie Suyadnyani, instilling courtly discipline and vivid expressive intensity in young performers.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Palace Maid's Omen
 NARRATION: This is Condong. Mid-19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (5mwmS5MciJk)
 ON SCREEN: Title card: Condong · Indonesia · Mid-19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The condong dancer enters the stage solo before the legong begins, mo
 NARRATION: The routine depicts a capricious maidservant attending to court life and admiring royal majesty.
 NARRATION: As the legong performers enter, the condong dancer dances alongside them, hands each a fan, and withdraws.
 NARRATION: Watch for Fan presentation, Raven omen dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (5mwmS5MciJk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo floor entrance traversing the stage, culminating in a shared space with legong dancers before exit
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is performed on court stages, theater spaces, and modern concert halls. Dancers wear traditional Balinese court dance attire appropriate for female palace roles, carry hand fans to present to the subsequent dancers, and don raven wings when enacting the omen in Legong Lasem.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '5mwmS5MciJk', 'checked_by_vision_model': True, 'title': 'Tari Condong Legong Keraton - kiriman Tasya'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tropenmuseum / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Arian Zwegers / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Intricate Balinese headdress and gilded textiles, Ornate carved fans presented to dancers, Bronze keys and gongs of the semar pangulingan orchestra, Dramatic spread of raven wings against the temple backdrop
@@ -332,6 +332,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
+Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
 
 Sources (4): https://en.wikipedia.org/wiki/Condong; https://www.wikidata.org/wiki/Q18521550; https://fr.wikipedia.org/wiki/Condong; https://archive.org/details/20131117program

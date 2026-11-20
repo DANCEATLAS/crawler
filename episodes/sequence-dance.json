@@ -2,9 +2,9 @@
  "slug": "sequence-dance",
  "name": "Sequence dance",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
- "researched_at": "2026-11-04T17:28:43Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-20T20:02:15Z",
+ "researched_at": "2026-11-20T19:23:08Z",
+ "qc_score": 9.3,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A seasoned ballroom dance teacher from a local dance club.",
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -60,7 +60,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Empress Ballroom: Home of the Sequence",
+     "The Empress Ballroom Rhythm",
      "This is Sequence dance. 19th century to present."
     ],
     "on_screen": [
@@ -74,8 +74,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Sequence dancing is older than modern ballroom dances.",
-     "With the exception of the waltz, all ballroom dances were sequence dances until the early 20th century."
+     "Sequence dancing predates modern ballroom, with most ballroom dances being sequence-based until the early 20th century.",
+     "It evolved to include Classical, Modern, and Latin styles, with New Vogue emerging in Australia in the 1930s."
     ],
     "on_screen": [
      "Map: United Kingdom, Australia · Global",
@@ -88,8 +88,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Functions as both a competitive sport and a social pastime.",
-     "Competitions between teachers determine which new dances are officially adopted.",
+     "It serves as both a social pastime and a competitive sport.",
+     "Competitions are held to decide which new dances are officially adopted and scripted.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -102,25 +102,27 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Dancers follow a preset pattern of movements that repeats every sixteenth bar.",
-     "The dance usually continues for five or six sequences in total.",
-     "Watch for RF Fwd in CBMP."
+     "Dancers follow a preset pattern of steps that repeats every sixteen bars.",
+     "The dance is designed to allow participants to progress around the room, ending when the music finishes."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (daepSH4v6ZQ)",
-     "Captions name each signature move as it appears",
-     "Formation: Progressive around the room"
+     "Signature moves — MISSING",
+     "Formation: Dancers progress around the room."
     ],
-    "music": "diegetic (the video's own sound), underscore under narration"
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Music is predetermined and typically requires a strict tempo.",
-     "Ideally, it includes a four-bar introduction followed by sixteen-bar sequences.",
-     "Music is performed in strict tempo to match the 16-bar sequence structure of the dance."
+     "Music is typically 'strict tempo' with a four-bar introduction.",
+     "It must be structured in sixteen-bar sequences to match the choreography.",
+     "Strict tempo music designed to fit 16-bar sequences, often featuring a 4-bar introduction."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -138,8 +140,7 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Performed in ballrooms, at Tea Dances, and in dance clubs.",
-     "The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool."
+     "Dances are held in ballrooms, such as the Empress Ballroom in Blackpool, and at social functions like Tea Dances."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -155,38 +156,38 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "John P. Bennett (author of 1995 paper on sequence dance for lifelong leisure).",
-     "New Vogue, developed in Australia in the 1930s, uses modern ballroom technique and includes fifteen competition dances.",
-     "Old Time (Classical), Modern, and Latin American."
+     "New Vogue (Australia and New Zealand), Old Time (Classical), Modern, and Latin sequences.",
+     "Evolved from 19th-century ballroom traditions; influenced by the development of modern ballroom and Latin American dance styles."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
      "Variant names as a small list"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
    },
    {
     "code": "family",
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Sequence dance is sibling of Modern Ballroom: Sequence dance is older; modern ballroom developed as a distinct style in the early 20th century."
+     "Sequence dance is influence of Modern Ballroom: Sequence dancing adapted versions of modern ballroom dances.",
+     "Sequence dance is influence of Latin American dance: Sequence dancing incorporates versions of Latin dances."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Forward in CBMP (Contrary Body Movement Position)",
-     "Side step",
+     "Before we go, one step. RF Fwd in CBMP (OP) comm to tn R",
+     "Cls RF to LF to end bkng LOD",
      "Count it: 1-2-3-4.",
      "Chapter 1 takes it slowly from here."
     ],
@@ -201,7 +202,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "A look at the structured world of sequence dancing, from its 19th-century roots to the competitive stages of Blackpool.",
+     "Discover the precision and history of sequence dancing, where every step is a scripted journey.",
      "Sources: 4 references are listed with the profile."
     ],
     "on_screen": [
@@ -216,17 +217,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn a basic 16-bar sequence",
-   "level": "Beginner",
+   "goal": "the first steps of Sequence dance",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn a basic 16-bar sequence.",
-      "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A seasoned ballroom dance teacher from a local dance club."
+      "Chapter 1 — First steps. Today: the first steps of Sequence dance.",
+      "Level: beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -269,10 +270,9 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Forward in CBMP (Contrary Body Movement Position)",
-      "Step 2: Side step",
-      "Footwork from the sources: Preset patterns following a 16-bar repeat structure",
-      "Drill: Footwork pattern practice"
+      "Step 1: RF Fwd in CBMP (OP) comm to tn R",
+      "Step 2: Cls RF to LF to end bkng LOD",
+      "Footwork from the sources: 1. RF Fwd in CBMP (OP) comm to tn R * Side LF * Cls RF to LF to end bkng LOD. S Q Q. 2. LF bk dn LOD *RF Bk, R shldr ldg * Crs LF in front of RF S Q Q."
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -287,9 +287,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Close feet",
-      "Step 4: Backward step",
-      "Drill: Timing to 16-bar music"
+      "Step 3: LF bk dn LOD",
+      "Step 4: RF Bk, R shldr ldg"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
@@ -305,8 +304,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Floor progression"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -348,8 +346,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn a basic 16-bar sequence.",
-      "Functions as both a competitive sport and a social pastime.",
+      "You can now: the first steps of Sequence dance.",
+      "It serves as both a social pastime and a competitive sport.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -373,7 +371,7 @@
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of Sequence dance.",
       "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A seasoned ballroom dance teacher from a local dance club."
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -416,8 +414,7 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Forward in CBMP (Contrary Body Movement Position)",
-      "Step 2: Side step"
+      "Step 1: Crs LF in front of RF"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -431,18 +428,16 @@
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Step 3: Close feet",
-      "Step 4: Backward step",
-      "RF Fwd in CBMP: Right foot forward in contrary body movement position."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3-4",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -480,7 +475,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3-4.",
-      "Full tempo, the whole sequence, twice. Formation: Progressive around the room"
+      "Full tempo, the whole sequence, twice. Formation: Dancers progress around the room."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -494,7 +489,6 @@
      "duration_s": 40,
      "narration": [
       "You can now: the building the dance of Sequence dance.",
-      "John P. Bennett (author of 1995 paper on sequence dance for lifelong leisure).",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -518,7 +512,7 @@
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of Sequence dance.",
       "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A seasoned ballroom dance teacher from a local dance club."
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -561,8 +555,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Close feet",
-      "Step 2: Backward step"
+      "Step 1: RF Bk, R shldr ldg",
+      "Step 2: Crs LF in front of RF"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -576,16 +570,16 @@
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "RF Fwd in CBMP: Right foot forward in contrary body movement position."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3-4",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -623,7 +617,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3-4.",
-      "Full tempo, the whole sequence, twice. Formation: Progressive around the room"
+      "Full tempo, the whole sequence, twice. Formation: Dancers progress around the room."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -637,7 +631,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the dancing it fully of Sequence dance.",
-      "Old Time (Classical), Modern, and Latin American.",
+      "Evolved from 19th-century ballroom traditions; influenced by the development of modern ballroom and Latin American dance styles.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -658,13 +652,13 @@
   "rhythm_pattern": null,
   "instruments": [],
   "vocal_style": null,
-  "musical_form": "16-bar sequences with a 4-bar introduction",
+  "musical_form": "4 bar introduction followed by 5 or 6 sixteen bar sequences",
   "mood": [
    "strict tempo"
   ],
-  "sound_description": "Music is performed in strict tempo to match the 16-bar sequence structure of the dance.",
+  "sound_description": "Strict tempo music designed to fit 16-bar sequences, often featuring a 4-bar introduction.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Sequence dance (United Kingdom, Australia). Form: 16-bar sequences with a 4-bar introduction. Mood: strict tempo. It should sound like this: Music is performed in strict tempo to match the 16-bar sequence structure of the dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Sequence dance (United Kingdom, Australia). Form: 4 bar introduction followed by 5 or 6 sixteen bar sequences. Mood: strict tempo. It should sound like this: Strict tempo music designed to fit 16-bar sequences, often featuring a 4-bar introduction. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -706,7 +700,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Performed in ballrooms, at Tea Dances, and in dance clubs. The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool.",
+   "from_sources": "Dances are held in ballrooms, such as the Empress Ballroom in Blackpool, and at social functions like Tea Dances.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AQuadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg"
    ],
@@ -744,12 +738,12 @@
    }
   ],
   "motifs": [
-   "Empress Ballroom architecture",
-   "Dance script notation",
-   "Couples moving in unison"
+   "Ballroom floor",
+   "Handwritten dance scripts",
+   "Metronome"
   ],
-  "costume_notes": "Performed in ballrooms, at Tea Dances, and in dance clubs. The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool.",
-  "setting_notes": "Functions as both a competitive sport and a social pastime. Competitions between teachers determine which new dances are officially adopted.",
+  "costume_notes": "Dances are held in ballrooms, such as the Empress Ballroom in Blackpool, and at social functions like Tea Dances.",
+  "setting_notes": "It serves as both a social pastime and a competitive sport. Competitions are held to decide which new dances are officially adopted and scripted.",
   "map": {
    "country": "United Kingdom, Australia",
    "region": "Global",
@@ -807,7 +801,8 @@
   "a verified recording to listen to",
   "licensed images (3 needed)",
   "posture, arms and hands",
-  "two or more connections",
+  "signature moves",
+  "notable figures",
   "what to avoid / common mistakes"
  ],
  "sources": [
@@ -819,6 +814,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "4a9d9bb9f18bd20e44719eb42ac7e2a867d09dece6a1dda6ea197e663db681ac",
+ "input_fingerprint": "80404d163eb7b045f1223aa3d64a11567ee91f666bfb549833e61bd4fc09e1c1",
  "hero_checked": "pass"
 }

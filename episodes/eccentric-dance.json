@@ -2,7 +2,7 @@
  "slug": "eccentric-dance",
  "name": "Eccentric dance",
  "pack_version": "e2",
- "built_at": "2026-11-19T20:42:42Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-19T19:16:28Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Eccentric dance. Late 19th and early 20th centuries."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (_RHHUmGaRsk)",
      "Title card: Eccentric dance · United States · Late 19th and early 20th centuries"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Rubber legs, Legmania, Torso disassociation."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (_RHHUmGaRsk)",
      "Captions name each signature move as it appears",
      "Formation: Solo theatrical stage space with dynamic erratic paths across the performance area"
     ],
@@ -731,7 +731,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "_RHHUmGaRsk",
+   "checked_by_vision_model": true,
+   "title": "Dickie Henderson - Leg Mania: Eccentric Dance routine with Billy Dainty and Max Wall 1971"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -791,18 +795,18 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "keep your feet pointed",
-   "use your core",
-   "lean your body back",
+   "lean down",
+   "knees up",
+   "legs straighten",
+   "engage your core",
+   "feet inside silks",
    "tight core",
    "strong arms",
    "push to the ceiling",
    "split your legs",
    "be completely present",
    "share weight",
-   "reach into the negative space",
-   "pick up one foot",
-   "weight is going to transfer"
+   "reach into the negative space"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -821,7 +825,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -831,6 +834,6 @@
  "claims_verified": 9,
  "claims": 9,
  "polished": false,
- "input_fingerprint": "f84f282eef8ae6352aef6c7328a9c814042704ab45445948f64d74e1ae3c2a9d",
- "hero_checked": null
+ "input_fingerprint": "f189c706240c0eef4564597b1900db48039ecccbd092c74e45c94ce360725412",
+ "hero_checked": "pass"
 }

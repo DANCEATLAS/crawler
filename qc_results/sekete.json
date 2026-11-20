@@ -1,10 +1,10 @@
 {
  "slug": "sekete",
- "qc_at": "2026-11-02T14:49:11Z",
+ "qc_at": "2026-11-20T19:45:40Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 7.7,
+ "qc_score": 8.45,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "76"
+   "detail": "85"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "136"
+   "detail": "195"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Sekete is a Saramaka Maroon dance where dancers shake ankle rattles to apinti dr"
+   "detail": "Sekete is a traditional Saramaka Maroon dance where performers create their own "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "351"
+   "detail": "502"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1464"
+   "detail": "1847"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "deeply rooted"
   },
   {
    "gate": "ai_tells",
@@ -84,39 +84,36 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'ceremon', 'spirit']"
+   "detail": "sacred=True cues=['ritual', 'spirit', 'religious']"
   }
  ],
  "judge": {
-  "accuracy": 8,
-  "respect": 9,
-  "specificity": 7,
-  "teaching_value": 6,
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 3,
   "is_a_dance": true,
-  "factual_doubt": [
-   "The claim that Sekete embodies 'indji-winti' (mischievous spirits) is not supported by the provided evidence claims.",
-   "The claim that Sekete was performed with permission from plantation owners during the colonial period is not supported by the provided evidence claims."
-  ],
+  "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 8,
+  "adaptations_safe": true,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is well-researched and respectful. While it includes some cultural context not explicitly in the provided evidence snippets, it remains grounded in the known traditions of the Saramaka. The teaching section is appropriately cautious given the lack of formal technical documentation."
+  "notes": "Well-sourced profile of a sacred Maroon dance tradition. Teaching and movement details are sparse due to source limitations, which is handled correctly via sacred withholding."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=7.7",
-  "doubts=2",
+  "judge_score=8.45",
   "sacred"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-31T16:20:42Z"
+ "researched_at": "2026-11-20T19:24:41Z"
 }

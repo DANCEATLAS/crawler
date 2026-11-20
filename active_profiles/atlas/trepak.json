@@ -1,13 +1,88 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms waved widely, right arm often raised higher than the left.",
+      "difficulty": "intermediate",
+      "footwork": "Syncopated stamps, knee movements, and leg kicks.",
+      "formation_and_space": "Solo or pair dancing in a circle.",
+      "hips_and_torso": "Shoulder shimmies and torso twists.",
+      "levels_and_jumps": "Includes deep squats, jumping, and floor-level movements.",
+      "partnering": "Can be performed as a solo or a dance duel.",
+      "posture": "Upright, head tilted back, hands on hips or crossed over chest.",
+      "signature_moves": [
+        {
+          "description": "A deep squatting movement often involving leg kicks.",
+          "name": "Prysiadka"
+        }
+      ],
+      "tempo_feel": "Accelerating.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "accordion",
+        "bandura",
+        "kobza",
+        "violin"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "brisk",
+        "fiery",
+        "enthusiastic"
+      ],
+      "musical_form": "Allegro, alternating tonic and dominant chords.",
+      "reference_recordings": [
+        {
+          "artist": "Pyotr Ilyich Tchaikovsky",
+          "title": "Trepak (Russian Dance)"
+        },
+        {
+          "artist": "Louis Katzman",
+          "title": "Tropak"
+        }
+      ],
+      "rhythm_pattern": "Syncopated stamps on a quick duple meter.",
+      "sound_description": "A brisk, major-key allegro characterized by a driving, accelerating tempo and simple, alternating harmonic structure.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Entrance: Stand in a circle, hands on hips, head tilted back.",
+        "Syncopated stamp: Strike the ground with the sole of the foot.",
+        "Squatting: Perform knee-based movements and deep squats.",
+        "Spinning: Rotate in place while maintaining rhythm."
+      ],
+      "formation": "Solo or pair in a circle.",
+      "level_notes": "Requires high physical stamina and leg strength.",
+      "rhythm": "Quick duple meter (2/4)."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c7c8517d2ac7fba81042eb67cb9d6832d9e2a5531b75d2a1f796849fbe8a1217",
+  "fingerprint": "9bfe23b4e929f34712efdbfb0da7a350aed0fef13d581e0f1b4d85ac43e5a5a1",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +90,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific traditional costumes worn for the Trepak in different regions? Evidence needed: Ethnographic studies of Cossack folk dress."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +119,18 @@
   ],
   "music_options": [],
   "name": "Trepak",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "655ed61020de7566",
+      "next_evidence": "Ethnographic studies of Cossack folk dress.",
+      "question": "What are the specific traditional costumes worn for the Trepak in different regions?",
+      "source": "https://en.wikipedia.org/wiki/Trepak",
+      "status": "candidate_unreviewed",
+      "why_needed": "Costume is a key part of cultural identity and visual presentation for dance."
+    }
+  ],
+  "research_file": "research_results/trepak.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +141,14 @@
   },
   "slug": "trepak",
   "sources": [
-    "https://en.wikipedia.org/wiki/Trepak"
+    "https://en.wikipedia.org/wiki/Trepak",
+    "https://www.wikidata.org/wiki/Q6524609",
+    "https://es.wikipedia.org/wiki/Trepak",
+    "https://fr.wikipedia.org/wiki/Trepak",
+    "https://pt.wikipedia.org/wiki/Trepak",
+    "https://de.wikipedia.org/wiki/Trepak",
+    "https://archive.org/details/suitepetertschai0071unse"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

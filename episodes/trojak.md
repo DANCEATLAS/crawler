@@ -1,6 +1,6 @@
 # Trojak — episode pack
 
-*Status: draft · built 2026-11-19 · judge 8.7 · 8/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 8.7 · 8/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; notable figures; what to avoid / common mistakes
 
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form a trio with one male and two female dancers.
 NARRATION: Begin moving in sync from the same foot.
-NARRATION: Count it: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-and-2-and-3-and.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -100,7 +100,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars. The meter is Two distinct metres corresponding to two parts of the music.
+NARRATION: Count: 1-and-2-and-3-and. The meter is Two distinct metres corresponding to two parts of the music.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,10 +111,10 @@ NEEDS: tempo
 NARRATION: Step 1: Form a trio with one male and two female dancers.
 NARRATION: Step 2: Begin moving in sync from the same foot.
 NARRATION: Drill: Form a circle with two partners
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-and-2-and-3-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Male dancer partners with one female while the other dances alone.
@@ -122,7 +122,7 @@ NARRATION: Step 4: Switch female partners with the male dancer.
 NARRATION: Drill: Step in sync from the same foot
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-and-2-and-3-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -139,7 +139,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-and-2-and-3-and.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -168,7 +168,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars. The meter is Two distinct metres corresponding to two parts of the music.
+NARRATION: Count: 1-and-2-and-3-and. The meter is Two distinct metres corresponding to two parts of the music.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -179,10 +179,10 @@ NEEDS: tempo
 NARRATION: Step 1: Perform rolling movements on and off the male's arms.
 NARRATION: Step 2: Form a circle and move together.
 NARRATION: Drill: Practice rolling on and off partner's arms
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-and-2-and-3-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Separate and move in opposite directions, then rejoin.
@@ -192,7 +192,7 @@ NARRATION: Drill: Dance to two-part music with tempo shifts
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-and-2-and-3-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -209,7 +209,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-and-2-and-3-and.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Trio formation, often forming a circle; dancers separate and move in opposite directions before rejoining
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -237,7 +237,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars. The meter is Two distinct metres corresponding to two parts of the music.
+NARRATION: Count: 1-and-2-and-3-and. The meter is Two distinct metres corresponding to two parts of the music.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -248,10 +248,10 @@ NEEDS: tempo
 NARRATION: Step 1: Form a circle and move together.
 NARRATION: Step 2: Separate and move in opposite directions, then rejoin.
 NARRATION: Drill: Combine all figures smoothly
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-and-2-and-3-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Partner switch: Male dancer switches between the two female partners
@@ -260,7 +260,7 @@ NARRATION: Drill: Maintain circle formation during partner switches
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-and-2-and-3-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -277,7 +277,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-and-2-and-3-and.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Trio formation, often forming a circle; dancers separate and move in opposite directions before rejoining
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
-Counting: count the Two distinct metres corresponding to two parts of the music bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-and-2-and-3-and
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: say the count before the move; name the body part, then the direction; one correction at a time
 
 Sources (2): https://en.wikipedia.org/wiki/Trojak_(dance); https://www.wikidata.org/wiki/Q7483878

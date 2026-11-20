@@ -1,0 +1,122 @@
+{
+ "slug": "makedonikos-antikristos",
+ "qc_at": "2026-11-20T19:47:44Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Makedonikos antikristos"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "192"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Danced face-to-face in Kozani, the Makedonikos antikristos variant 'Enteka' deri"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "493"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3404"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"endeka-kozanis\", \"score\": 1.0}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Well-documented and culturally grounded traditional Greek duet profile with solid historical context."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "endeka-kozanis",
+  "score": 1.0
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "judge_score=8.7"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-20T18:32:11Z"
+}

@@ -1,6 +1,6 @@
 # ballet-féerie — episode pack
 
-*Status: draft · built 2026-11-19 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -292,6 +292,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
+Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
 
 Sources (3): https://en.wikipedia.org/wiki/F%C3%A9erie; https://www.wikidata.org/wiki/Q123578591; https://fr.wikipedia.org/wiki/Ballet-féerie

@@ -1,6 +1,6 @@
 # The Running Man — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
 
@@ -141,9 +141,9 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid losing balance by keeping the weight centered.
+NARRATION: Teachers of this dance warn against: landing like a jog instead of both feet landing at the same time
+NARRATION: Teachers of this dance warn against: leaning too far forward or too far back
 NARRATION: Teachers of this dance warn against: landing heel heavy
-NARRATION: Teachers of this dance warn against: standing too straight and robotic
-NARRATION: Teachers of this dance warn against: skipping foundational steps
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps.
 MUSIC: silence
@@ -215,9 +215,9 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid losing balance by keeping the weight centered.
+NARRATION: Teachers of this dance warn against: landing like a jog instead of both feet landing at the same time
+NARRATION: Teachers of this dance warn against: leaning too far forward or too far back
 NARRATION: Teachers of this dance warn against: landing heel heavy
-NARRATION: Teachers of this dance warn against: standing too straight and robotic
-NARRATION: Teachers of this dance warn against: skipping foundational steps
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps.
 MUSIC: silence
@@ -287,9 +287,9 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid losing balance by keeping the weight centered.
+NARRATION: Teachers of this dance warn against: landing like a jog instead of both feet landing at the same time
+NARRATION: Teachers of this dance warn against: leaning too far forward or too far back
 NARRATION: Teachers of this dance warn against: landing heel heavy
-NARRATION: Teachers of this dance warn against: standing too straight and robotic
-NARRATION: Teachers of this dance warn against: skipping foundational steps
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps.
 MUSIC: silence
@@ -338,7 +338,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-2 / 7-and
 Demonstration: views used by most teachers: side, front, back; tempo progression: slow → full
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; land on the balls of your feet; engage your core; down up down up; down slide; tabletop position; split the line; land flat footed; perch up
-Common mistakes the studied teachers name: landing heel heavy; standing too straight and robotic; skipping foundational steps; landing like a jog instead of both feet landing at the same time; leaning too far forward or too far back
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; tabletop position; split the line; land flat footed; perch up; hop back; land on the balls of your feet; engage your core; down up down up
+Common mistakes the studied teachers name: landing like a jog instead of both feet landing at the same time; leaning too far forward or too far back; landing heel heavy; standing too straight and robotic; skipping foundational steps
 
 Sources (2): https://en.wikipedia.org/wiki/Running_man_(dance); https://www.wikidata.org/wiki/Q7761867

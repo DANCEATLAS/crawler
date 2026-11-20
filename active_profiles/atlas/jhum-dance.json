@@ -1,0 +1,147 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy jewelry that may cause injury during fast movement"
+        ],
+        "counts": "Simple 4-count pulse.",
+        "duration_minutes": "5",
+        "game_version": "A 'follow the leader' game where children mimic different animals or plants using the dance's mudras."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid acceleration",
+          "Deep knee bends"
+        ],
+        "counts": "Simple 4-count pulse.",
+        "seated_version": "Focus on the mimetic hand gestures (mudras) and upper body swaying to the rhythm of the flute.",
+        "standing_version": "Gentle rhythmic stepping in place without the acceleration of tempo.",
+        "tempo_and_range": "Maintain a slow, steady tempo; avoid the traditional increase in speed."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Group dance involving both male and female participants, often moving between villages.",
+          "source": "https://en.wikipedia.org/wiki/Dances_of_Tripura"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Mimetic gestures (mudras) representing nature",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Group formation, often moving from village to village",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Mixed gender participation (boys and girls)",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Accelerando; starts slow and increases in speed",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Khamb",
+        "Flute",
+        "Sarinda",
+        "Pung"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "agricultural",
+        "communal",
+        "energetic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Gradually increasing tempo",
+      "sound_description": "The sound is dominated by the deep, rhythmic pulse of the khamb drum and the melodic overlays of the bamboo flute. The music is designed to build energy, starting at a steady pace and accelerating to a climax that mirrors the excitement of the harvest.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Gather in a mixed group of boys and girls",
+        "Follow the rhythmic beat of the khamb (drum)",
+        "Maintain a tempo that gradually increases throughout the performance",
+        "Incorporate gestures that mimic the natural environment or agricultural actions"
+      ],
+      "formation": "Group dance involving both sexes",
+      "level_notes": "The dance is a communal folk form accessible to the youth of the community.",
+      "rhythm": "Rhythmic and percussive, driven by drums and flutes"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "093e9f96c85c9fba7812199b4e8b8c1db6161db96cd766c2bb488b0ee6a7c39c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there specific footwork patterns that distinguish the Jhum dance from the Garia or Lebang Boomani dances? Evidence needed: https://en.wikipedia.org/wiki/Dances_of_Tripura"
+    ]
+  },
+  "id": "atlas:jhum-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Jhum dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "994d0e8e10c3b8b6",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dances_of_Tripura",
+      "question": "Are there specific footwork patterns that distinguish the Jhum dance from the Garia or Lebang Boomani dances?",
+      "source": "https://en.wikipedia.org/wiki/Dances_of_Tripura",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material, the specific steps of Jhum must be isolated from other Tripuri agricultural dances."
+    }
+  ],
+  "research_file": "research_results/jhum-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "jhum-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dances_of_Tripura",
+    "https://www.wikidata.org/wiki/Q16881596"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

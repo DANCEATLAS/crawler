@@ -1,0 +1,162 @@
+{
+ "youtube_id": "O4260OyOjd4",
+ "slug": "skank",
+ "dance": "Skank",
+ "title": "How To Skank",
+ "channel": "Mike Matza",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-20T19:56:39Z",
+ "url": "https://www.youtube.com/watch?v=O4260OyOjd4",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher uses a humorous, informal tone to explain the steps of the dance. He breaks down the movements into simple, sequential instructions while incorporating various comedic scenarios.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:20",
+    "segment": "intro",
+    "note": "The teacher introduces himself and the dance."
+   },
+   {
+    "t": "0:33",
+    "segment": "context",
+    "note": "The teacher discusses appropriate attire for the dance."
+   },
+   {
+    "t": "2:05",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the steps of the dance."
+   },
+   {
+    "t": "2:37",
+    "segment": "full_demo",
+    "note": "The teacher demonstrates the full dance."
+   },
+   {
+    "t": "2:43",
+    "segment": "other",
+    "note": "The teacher shows various modifications of the dance."
+   },
+   {
+    "t": "6:32",
+    "segment": "recap",
+    "note": "The teacher concludes the lesson."
+   }
+  ],
+  "counting_scheme": "the teacher does not use a formal counting scheme",
+  "cues": [
+   "Bob your arms up and down",
+   "Move your legs while moving your arms",
+   "Kick your legs"
+  ],
+  "metaphors": [
+   "Bobbing your arms",
+   "Pickin' up change",
+   "Juggling",
+   "Free falling"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Wearing casual clothes instead of appropriate attire"
+  ],
+  "safety": [
+   "Do not skank with scissors"
+  ],
+  "steps_taught": [
+   {
+    "name": "Arm movement",
+    "counts": "",
+    "description": "Bob your arms up and down."
+   },
+   {
+    "name": "Leg movement",
+    "counts": "",
+    "description": "Move your legs while you are moving your arms."
+   },
+   {
+    "name": "Kicking",
+    "counts": "",
+    "description": "Kick your legs."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The steps are broken down into simple, sequential instructions.",
+    "The teacher uses clear, repetitive verbal cues."
+   ],
+   "what_hinders": [
+    "The comedic tone and frequent scene changes may distract from the instruction."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:27",
+    "text": "It actually has its own dance too, known as skanking."
+   },
+   {
+    "t": "0:34",
+    "text": "When you're skanking, you need to be dressed appropriately."
+   },
+   {
+    "t": "2:06",
+    "text": "The first step to skanking is bobbing of your arms."
+   },
+   {
+    "t": "2:27",
+    "text": "After that though, you're going to start kicking, which is the last step."
+   },
+   {
+    "t": "5:16",
+    "text": "Warning, be sure not to ever skank with scissors!"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 205,
+    "end_s": 215,
+    "topic": "teaching",
+    "observation": "The teacher demonstrates the arm movement while the text 'Step 1: Bob your arms up and down' is displayed on the screen.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 220,
+    "end_s": 225,
+    "topic": "teaching",
+    "observation": "The teacher demonstrates the leg movement while the text 'Step 2: Move your legs while you are moving your arms' is displayed on the screen.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 226,
+    "end_s": 230,
+    "topic": "teaching",
+    "observation": "The teacher demonstrates the kicking movement while the text 'Step 3: Kick your legs' is displayed on the screen.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a variety of humorous, themed modifications of the dance to keep the lesson engaging."
+ },
+ "attempts": 1
+}

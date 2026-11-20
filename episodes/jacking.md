@@ -1,6 +1,6 @@
 # Jacking — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -103,7 +103,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Undulate the torso back and forth in a rhythmic motion
 NARRATION: Step 2: Move the body up and down in time with the beat
 NARRATION: Drill: Isolate the chest and ribcage
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -167,7 +167,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Undulate the torso back and forth in a rhythmic motion
 NARRATION: Step 2: Move the body up and down in time with the beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -230,7 +230,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Undulate the torso back and forth in a rhythmic motion
 NARRATION: Step 2: Move the body up and down in time with the beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -293,9 +293,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 39 tutorial(s) of the street-urban family studied · videos studied: 39
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: heel step; stomp; farmer; basic jack
 
 Sources (5): https://en.wikipedia.org/wiki/Jacking_(dance); https://www.wikidata.org/wiki/Q6116746; https://fr.wikipedia.org/wiki/Jacking_(danse); https://pt.wikipedia.org/wiki/Jacking; https://archive.org/details/GAT_1949011801

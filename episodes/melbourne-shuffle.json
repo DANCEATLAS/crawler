@@ -2,7 +2,7 @@
  "slug": "melbourne-shuffle",
  "name": "Melbourne shuffle",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-17T20:28:39Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -799,8 +799,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-and-2 / 5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -812,14 +812,22 @@
    "cross",
    "open",
    "heel and toe",
-   "one and two"
+   "one and two",
+   "in and up",
+   "hop and slide",
+   "hop and up"
   ],
   "common_mistakes": [
    "weight shifting too much to one side instead of staying in the middle"
   ],
   "segment_order": [
    "intro",
-   "breakdown"
+   "context",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "follow_along",
+   "recap"
   ],
   "steps_as_taught": [
    {
@@ -836,6 +844,11 @@
     "name": "W-Step",
     "counts": "1 and 2",
     "description": "Combining criss cross and heel toe movements."
+   },
+   {
+    "name": "Running Man",
+    "counts": "1-and-2-and-3-and-4-and",
+    "description": "Hop and slide foot work with alternating knees coming up."
    }
   ]
  },
@@ -853,6 +866,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "f24fe125c40c549b824656c1aed2d21fa1f97e504404af467906e4da981b0424",
+ "input_fingerprint": "1d848a0c3339a641522f6e6cc015dbca03f3137c737045bb6c1f11d4540f5d5f",
  "hero_checked": "pass"
 }

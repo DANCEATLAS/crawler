@@ -1,6 +1,6 @@
 # Twist — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed)
 
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 39 tutorial(s) of the street-urban family studied · videos studied: 39
+Source: 46 tutorial(s) of the street-urban family studied · videos studied: 46
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: one and two; step touch; vamos a comenzar; marcamos; repetimos; y marco; make sure you touch all the way back; down back out back up back out back; pick up the groove; don't forget this is a popular dance; your butt should be free; don't forget knee flex
 
 Sources (5): https://en.wikipedia.org/wiki/Twist_(dance); https://www.wikidata.org/wiki/Q387916; https://es.wikipedia.org/wiki/Twist_(baile); https://fr.wikipedia.org/wiki/Twist; https://pt.wikipedia.org/wiki/Twist

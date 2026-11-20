@@ -1,13 +1,80 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms held in the air, bringing hands together medially to clap in the center.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular formation.",
+      "hips_and_torso": "Full twists in place.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group circle dance.",
+      "posture": "Upright, circular path.",
+      "signature_moves": [
+        {
+          "description": "Bringing hands together medially while in the circle to clap once or twice.",
+          "name": "Central Clap"
+        },
+        {
+          "description": "A complete rotation of the body performed in place.",
+          "name": "Full Twist"
+        }
+      ],
+      "tempo_feel": "Starts slow and gradually increases in speed.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Dhol"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "rhythmic",
+        "intense"
+      ],
+      "musical_form": "Musician-led, responsive to dancer technique.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Variable; the musician tunes the beat to the technique of the performers.",
+      "sound_description": "The music is driven by the Dhol, a double-headed barrel drum, which provides a consistent beat that can be adjusted in real-time by the musician to match the dancers' movements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle with other dancers.",
+        "Extend arms into the air.",
+        "Execute a full twist in place.",
+        "Bring hands together medially to clap once or twice in the center of the circle."
+      ],
+      "formation": "Circular formation.",
+      "level_notes": "The dance starts slow and gradually increases in tempo.",
+      "rhythm": "The rhythm is dictated by the Dhol player, who adjusts the beat to the dancers' technique."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "af24acd3d4ff217506c466c466545b3818bb48febba67edd0665ac670bd18123",
+  "fingerprint": "7eccb2f2eb090a75dddee0f159b0cb266e7091b6b32dc0245810f65dbf65e127",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +82,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific musical notations or rhythmic cycles (tal) associated with Logari beyond the general Dhol beat? Evidence needed: Ethnomusicological field recordings or technical manuals."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +112,18 @@
   ],
   "music_options": [],
   "name": "Logari",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "a96455e0814a895f",
+      "next_evidence": "Ethnomusicological field recordings or technical manuals.",
+      "question": "Are there specific musical notations or rhythmic cycles (tal) associated with Logari beyond the general Dhol beat?",
+      "source": "https://en.wikipedia.org/wiki/Attan",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical guidance for practitioners."
+    }
+  ],
+  "research_file": "research_results/logari.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +134,10 @@
   },
   "slug": "logari",
   "sources": [
-    "https://sfdh.us/encyclopedia/afghan_dance_st_john.html",
-    "https://en.wikipedia.org/wiki/Attan"
+    "https://en.wikipedia.org/wiki/Attan",
+    "https://www.wikidata.org/wiki/Q176076",
+    "https://de.wikipedia.org/wiki/Atan"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

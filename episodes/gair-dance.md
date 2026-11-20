@@ -1,8 +1,8 @@
 # Gair dance — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced Rajasthani folk master who emphasizes communal coordination, rhythmic precision, and martial presence.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Swords, Skirts, and the Clashing Circles of Rajasthan
 NARRATION: This is Gair dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (9sn25yqqq8o)
 ON SCREEN: Title card: Gair dance · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Dancers perform in large circular formations, striking slender wooden
 NARRATION: When performed jointly by men and women, participants initially form two concentric rings, with the women comprising a smaller inner ring surrounded by the men.
 NARRATION: The dancers move in a clockwise direction before reversing into a counter-clockwise path, coordinating their footwork with the striking of sticks and drumbeats.
 NARRATION: Watch for Half-swirl, Khanda striking.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (9sn25yqqq8o)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Large circular formations, often concentric, traveling clockwise and counter-clockwise
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Men generally wear long, pleated tunics designed to flare out into full-length skirts during spins and half-swirls. Bhil dancers wear brightly coloured traditional attire and may carry accessories including arrows, swords, and wooden sticks. The sticks, known as khanda, are harvested from the Gundi tree, require minimal cleaning, and are cut thin and light to enhance speed and visual flare. In certain variants, dancers carry a naked sword in one hand paired with a wooden sword or stick in the other.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '9sn25yqqq8o', 'checked_by_vision_model': True, 'title': 'गेर नृत्य Gair dance #gair #rajasthan #folk'}
 Images: 4 licensed — pradeep kumar chatte… / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Siddharth 36 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Manojmeena / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Manojmeena / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Jugalbandi of Morchhang and Dholak, Gair Dance, Devotional Songs by Manganiar and Meghwal Musicians — https://archive.org/details/dni.ncaa.RS-600-MDV
 Motifs: Spinning pleated tunics opening like umbrellas, Thin wooden khanda sticks meeting in percussive clashes, Gleaming swords flashing in sunlight during festive Holi celebrations
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
+Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
 
 Sources (2): https://en.wikipedia.org/wiki/Gair_dance; https://www.wikidata.org/wiki/Q5517326

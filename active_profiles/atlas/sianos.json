@@ -1,0 +1,145 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Pulling forcefully on neighbors' hands"
+        ],
+        "counts": "Count 1 to 6 to complete each step cycle.",
+        "duration_minutes": "3",
+        "game_version": "Form an opening chain where dancers connect in a cross-handhold and take turns acting as the line leader."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Sudden direction changes",
+          "Over-stretching arms during handholds"
+        ],
+        "counts": "Counted in a 6-step cycle over 2/4 meter.",
+        "seated_version": "Perform the six-step rhythm using seated foot taps in a 2/4 meter while holding hands in a cross hold.",
+        "standing_version": "Perform the six-step sequence at a reduced stride length while maintaining the basket-weave hold.",
+        "tempo_and_range": "Maintain a moderate tempo with small, controlled steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Execute the six-step lateral sequence in 2/4 meter with a basket-weave hold.",
+          "source": "https://en.wikipedia.org/wiki/Sianos"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Line dance with basket-weave handhold led and ended by male dancers, with women joining after initiation.",
+          "source": "https://en.wikipedia.org/wiki/Sianos"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Basket weave (cross) handhold formation.",
+      "difficulty": "beginner",
+      "footwork": "Six steps to the dance, similar to Sta Tria.",
+      "formation_and_space": "Open line or chain; men start the dance, women join later; leader and end dancer must be male.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Non-partnered line dance connected via basket-weave hold.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Do not place a female dancer at the absolute front (leader) or end position of the line."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "festive",
+        "ceremonial",
+        "opening"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Music set in a 2/4 time signature suitable for opening Greek social gatherings.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a line holding hands in a basket weave (cross) hold, led by a male dancer.",
+        "Execute the six-step sequence in 2/4 meter, similar to Sta Tria footwork.",
+        "Allow female dancers to join the line as the dance progresses, maintaining male dancers at both the front and end positions."
+      ],
+      "formation": "Open chain or circle using a basket-weave (cross) handhold",
+      "level_notes": "Beginner-friendly six-step pattern in 2/4 time.",
+      "rhythm": "2/4 time signature"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e0634d4adeb3de9f7124ef7fc8b553786d0cfbf1d33ec1e45be8a18baed94653",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: rhythm_pattern",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact foot placement details for the six steps of Sianos on Karpathos? Evidence needed: Field video recordings of Sianos / Kato Horos from Karpathos."
+    ]
+  },
+  "id": "atlas:sianos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Sianos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "949d6348f0bda2e9",
+      "next_evidence": "Field video recordings of Sianos / Kato Horos from Karpathos.",
+      "question": "What are the exact foot placement details for the six steps of Sianos on Karpathos?",
+      "source": "https://en.wikipedia.org/wiki/Sianos",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source states there are six steps similar to Sta Tria, but does not detail exact directional footwork for interactive teaching."
+    }
+  ],
+  "research_file": "research_results/sianos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "sianos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sianos",
+    "https://www.wikidata.org/wiki/Q16929850"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

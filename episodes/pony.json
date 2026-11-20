@@ -1,0 +1,856 @@
+{
+ "slug": "pony",
+ "name": "Pony",
+ "pack_version": "e2",
+ "built_at": "2026-11-20T20:02:15Z",
+ "researched_at": "2026-11-20T18:42:09Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Upbeat, energetic documentary dance historian and instructor.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Pony"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Pony",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Riding the 1960s Beat: The Pony Craze",
+     "This is Pony. 1960s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Pony · United States · 1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Pony was introduced as a dance style alongside the 1960 song 'Pony Time', written by Don Covay and John Berry.",
+     "Chubby Checker's 1961 recording of the song became a US No. 1 hit and popularised the dance nationwide."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "A 1960s novelty party dance designed for open social dancing, youth gatherings, and rock and roll television showcases.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:02016 Regional Pony Rally in Rudawka Rymanowska.webm (https://upload.wikimedia.org/wikipedia/commons/4/40/02016_Regional_Pony_Rally_in_Rudawka_Rymanowska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dancer attempts to look as if riding a horse.",
+     "The beat is 1&2, 3&4.",
+     "Dancers keep their feet comfortably together while executing arm and hand motions.",
+     "Watch for Horse-riding bounce."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Danced to 1960s R&B and rock and roll tracks featuring a 1&2, 3&4 beat rhythm.",
+     "The lyrics of 'Pony Time' feature vocal commands such as 'gee' and 'haw'.",
+     "Listen for the electric guitar, bass guitar, drums, vocals.",
+     "The pulse is 4/4 at about 122 beats a minute.",
+     "Mid-tempo early 1960s rock and roll driving an accented 1&2, 3&4 beat rhythm, characterized by expressive vocals and rhythmic calls."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Pony Time — Chubby Checker; Pony Time — Don Covay with the Goodtimers; It’s Pony Time — Chubby Checker (1961)",
+     "Waveform or rhythm-pattern graphic: 1&2, 3&4 subdivided rhythm"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Social dance halls and party settings.",
+     "Later television and stage performances featured mid-century early 1960s outfits and hairstyles."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Chubby Checker (who popularized 'Pony Time' in 1961), Don Covay and John Berry (songwriters), and Cindy Wilson of The B-52's (who performed the dance in 1978–1980).",
+     "Emerged from American 1960s rock and roll fad dances following the popularity of the Twist."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Pony is sibling of Twist: Both were major early 1960s fad dances popularized by Chubby Checker recordings."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Keep feet comfortably together.",
+     "Step or hop in place to the rhythmic count of 1&2, 3&4.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how Chubby Checker turned an equestrian imitation into a national dance sensation in 1961.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the 1&2, 3&4 foot bounce",
+   "level": "Basic Rhythm",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the 1&2, 3&4 foot bounce.",
+      "Level: Basic Rhythm. Difficulty of the dance overall: beginner.",
+      "Your instructor: Upbeat, energetic documentary dance historian and instructor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright or slightly bent knee stance attempting to look as if riding a horse.",
+      "Various arm and hand motions are possible, mimicking holding reins or rhythmic pumping.",
+      "Rhythmic bouncing motion corresponding to a horse-riding appearance."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: 1&2, 3&4 subdivided rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 85 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Keep feet comfortably together.",
+      "Step 2: Step or hop in place to the rhythmic count of 1&2, 3&4.",
+      "Footwork from the sources: Feet kept comfortably together, moving on counts 1&2, 3&4.",
+      "Drill: Count 1&2, 3&4 aloud while bouncing softly on both feet."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Imitate riding a horse using optional hand and arm motions.",
+      "Step 4: Maintain a position facing your partner without physical contact.",
+      "Drill: Keep feet comfortably close together while maintaining rhythm."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid touching partner or sticking strictly to a rigid line-of-dance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently.",
+      "For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 122 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the 1&2, 3&4 foot bounce.",
+      "A 1960s novelty party dance designed for open social dancing, youth gatherings, and rock and roll television showcases.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Add arm motions and non-touch partner facing position",
+   "level": "Upper Body & Motion",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Add arm motions and non-touch partner facing position.",
+      "Level: Upper Body & Motion. Difficulty of the dance overall: beginner.",
+      "Your instructor: Upbeat, energetic documentary dance historian and instructor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright or slightly bent knee stance attempting to look as if riding a horse.",
+      "Various arm and hand motions are possible, mimicking holding reins or rhythmic pumping.",
+      "Rhythmic bouncing motion corresponding to a horse-riding appearance."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: 1&2, 3&4 subdivided rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 85 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Optionally add turns or chase movements around the dance space.",
+      "Drill: Add hand motions simulating holding reins."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Horse-riding bounce: Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.",
+      "Drill: Face a partner without touching while staying on beat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid touching partner or sticking strictly to a rigid line-of-dance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently.",
+      "For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 122 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Add arm motions and non-touch partner facing position.",
+      "Chubby Checker (who popularized 'Pony Time' in 1961), Don Covay and John Berry (songwriters), and Cindy Wilson of The B-52's (who performed the dance in 1978–1980).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute turns and chase positions across the floor",
+   "level": "Spatial Movement",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute turns and chase positions across the floor.",
+      "Level: Spatial Movement. Difficulty of the dance overall: beginner.",
+      "Your instructor: Upbeat, energetic documentary dance historian and instructor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright or slightly bent knee stance attempting to look as if riding a horse.",
+      "Various arm and hand motions are possible, mimicking holding reins or rhythmic pumping.",
+      "Rhythmic bouncing motion corresponding to a horse-riding appearance."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: 1&2, 3&4 subdivided rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 85 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain a position facing your partner without physical contact.",
+      "Step 2: Optionally add turns or chase movements around the dance space.",
+      "Drill: Perform full turns while keeping the 1&2, 3&4 bounce."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Horse-riding bounce: Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.",
+      "Drill: Move around partner in a chase formation."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid touching partner or sticking strictly to a rigid line-of-dance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently.",
+      "For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 122 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute turns and chase positions across the floor.",
+      "Emerged from American 1960s rock and roll fad dances following the popularity of the Twist.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 122,
+  "meter": "4/4",
+  "rhythm_pattern": "1&2, 3&4 subdivided rhythm",
+  "instruments": [
+   "electric guitar",
+   "bass guitar",
+   "drums",
+   "vocals"
+  ],
+  "vocal_style": "Upbeat 1960s R&B/rock and roll vocals with rhythmic calls",
+  "musical_form": "Verse-chorus pop structure",
+  "mood": [
+   "playful",
+   "energetic",
+   "retro",
+   "upbeat"
+  ],
+  "sound_description": "Mid-tempo early 1960s rock and roll driving an accented 1&2, 3&4 beat rhythm, characterized by expressive vocals and rhythmic calls.",
+  "listen_before_composing": [
+   "Pony Time — Chubby Checker",
+   "Pony Time — Don Covay with the Goodtimers",
+   "It’s Pony Time — Chubby Checker (1961)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Pony (United States). Meter 4/4. Tempo about 122 bpm. Rhythm pattern: 1&2, 3&4 subdivided rhythm. Instruments: electric guitar, bass guitar, drums, vocals. Vocal style: Upbeat 1960s R&B/rock and roll vocals with rhythmic calls. Form: Verse-chorus pop structure. Mood: playful, energetic, retro, upbeat. It should sound like this: Mid-tempo early 1960s rock and roll driving an accented 1&2, 3&4 beat rhythm, characterized by expressive vocals and rhythmic calls. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 85
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 122
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Social dance halls and party settings. Later television and stage performances featured mid-century early 1960s outfits and hairstyles.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:02016 Regional Pony Rally in Rudawka Rymanowska.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/02016_Regional_Pony_Rally_in_Rudawka_Rymanowska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Silar / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Exmoor pony at Šlovický vrch, Dobřany, 2019-03-02.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Exmoor_pony_at_%C5%A0lovick%C3%BD_vrch%2C_Dob%C5%99any%2C_2019-03-02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Adam Hauner / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Vermin Supreme's Pony Protest in Concord, NH.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Vermin_Supreme%27s_Pony_Protest_in_Concord%2C_NH.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "FreeKeene / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Pony ride - kanagawa - 2023 3 12.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pony_ride_-_kanagawa_-_2023_3_12.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Nesnad / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:My Little Pony Mane Ponies.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/My_Little_Pony_Mane_Ponies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Hasbro Australia / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "\"The old american barn dance\" (1953)",
+    "url": "https://archive.org/details/theOldAmericanBarnDance1953",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Getvid Gggg 1",
+    "url": "https://archive.org/details/20220320_20220320_1734",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Backyardigans It's Great To Be A Ghost 2005 Fanmade VHS",
+    "url": "https://archive.org/details/the-backyardigans-its-great-to-be-a-ghost-2005-fanmade-vhs",
+    "year": 2005,
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Early 1960s outfits and hairstyles",
+   "Bouncing silhouettes mimicking horse riding",
+   "Couples facing each other on a dance floor without touching"
+  ],
+  "costume_notes": "Social dance halls and party settings. Later television and stage performances featured mid-century early 1960s outfits and hairstyles.",
+  "setting_notes": "A 1960s novelty party dance designed for open social dancing, youth gatherings, and rock and roll television showcases.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "46 tutorial(s) of the street-urban family studied",
+  "videos_studied": 46,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "one and two",
+   "step touch",
+   "vamos a comenzar",
+   "marcamos",
+   "repetimos",
+   "y marco",
+   "make sure you touch all the way back",
+   "down back out back up back out back",
+   "pick up the groove",
+   "don't forget this is a popular dance",
+   "your butt should be free",
+   "don't forget knee flex"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "layering",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pony_Time",
+  "https://www.wikidata.org/wiki/Q17000192",
+  "https://archive.org/details/childrensliterat0000curr",
+  "https://archive.org/details/rockymountainwon00mill",
+  "https://archive.org/details/folkstoriesfable0000unse"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "1c3da6434f5ca42ff648a256cc85fd6fb298ffec89c38b1cf57b2b95478085e6",
+ "hero_checked": null
+}

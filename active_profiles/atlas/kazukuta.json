@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "fe34fbc8e74fc094b69b59ab84951690e3ed37e35e97eababf87026b654be9b2",
+  "fingerprint": "d820a00e846a3a5f5c012f61c810eb6baa59a53790fa7c8c997867ecc2ce5647",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific movement characteristics of Kazukuta? Evidence needed: Ethnographic studies of Angolan Carnival dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Kazukuta",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "785734fd986bc542",
+      "next_evidence": "Ethnographic studies of Angolan Carnival dance.",
+      "question": "What are the specific movement characteristics of Kazukuta?",
+      "source": "https://en.wikipedia.org/wiki/Semba",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only identify the dance as Carnival music and do not provide any movement descriptions."
+    }
+  ],
+  "research_file": "research_results/kazukuta.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +114,11 @@
   },
   "slug": "kazukuta",
   "sources": [
-    "https://www.mundodadanca.com.br/2012/12/dancas-africanas-angola-kazukuta.html",
-    "http://www.arte.seed.pr.gov.br/modules/conteudo/conteudo.php?conteudo=38/"
+    "https://en.wikipedia.org/wiki/Semba",
+    "https://www.wikidata.org/wiki/Q1470503",
+    "https://pt.wikipedia.org/wiki/Semba",
+    "https://es.wikipedia.org/wiki/Semba",
+    "https://fr.wikipedia.org/wiki/Semba_(musique)"
   ],
   "state": "researching",
   "video_evidence": []

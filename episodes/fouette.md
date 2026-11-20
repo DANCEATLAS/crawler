@@ -1,6 +1,6 @@
 # Fouetté — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -88,7 +88,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand on one flat foot in plié with the knee bent
 NARRATION: Extend and whip the working leg to the side to create momentum
-NARRATION: Count it: 1-2.
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -115,7 +115,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -130,7 +130,7 @@ NARRATION: Drill: Stand in plié on one flat foot
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pull the working leg into a retiré or passé position while transitioning the supporting foot to relevé or en pointe
@@ -138,7 +138,7 @@ NARRATION: Step 4: Rotate in place on the supporting foot to complete the turn
 NARRATION: Drill: Extend the working leg to the side
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -150,14 +150,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: sticking the booty out (corrected by instructing to neutralize the pelvis)
 NARRATION: Teachers of this dance warn against: leaning forward or back during a plié
 NARRATION: Teachers of this dance warn against: letting the outside arm get behind the body
-NARRATION: Teachers of this dance warn against: having a 'sleepy' passé
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -186,7 +186,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -199,7 +199,7 @@ NARRATION: Step 2: Extend and whip the working leg to the side to create momentu
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pull the working leg into a retiré or passé position while transitioning the supporting foot to relevé or en pointe
@@ -208,7 +208,7 @@ NARRATION: 32 consecutive fouettés: Performing 32 consecutive fouetté turns wi
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,14 +219,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: sticking the booty out (corrected by instructing to neutralize the pelvis)
 NARRATION: Teachers of this dance warn against: leaning forward or back during a plié
 NARRATION: Teachers of this dance warn against: letting the outside arm get behind the body
-NARRATION: Teachers of this dance warn against: having a 'sleepy' passé
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: rotating in place on the supporting foot without traveling
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -269,7 +269,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -282,14 +282,14 @@ NARRATION: Step 2: Rotate in place on the supporting foot to complete the turn
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: 32 consecutive fouettés: Performing 32 consecutive fouetté turns without stopping or traveling
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -300,14 +300,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: sticking the booty out (corrected by instructing to neutralize the pelvis)
 NARRATION: Teachers of this dance warn against: leaning forward or back during a plié
 NARRATION: Teachers of this dance warn against: letting the outside arm get behind the body
-NARRATION: Teachers of this dance warn against: having a 'sleepy' passé
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: rotating in place on the supporting foot without traveling
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -345,9 +345,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2
+Counting: 5-6-7-8
 Demonstration: views used by most teachers: front, side; tempo progression: slow; repetitions per step: about 10
-Cues: stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked
-Common mistakes the studied teachers name: leaning forward or back during a plié; letting the outside arm get behind the body; having a 'sleepy' passé; sticking the booty out (corrected by instructing to neutralize the pelvis)
+Cues: neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
+Common mistakes the studied teachers name: sticking the booty out (corrected by instructing to neutralize the pelvis); leaning forward or back during a plié; letting the outside arm get behind the body; having a 'sleepy' passé
 
 Sources (4): https://en.wikipedia.org/wiki/Turn_(dance_and_gymnastics); https://www.wikidata.org/wiki/Q2669969; https://es.wikipedia.org/wiki/Fouetté_en_tournant; https://it.wikipedia.org/wiki/Fouettés_en_tournant

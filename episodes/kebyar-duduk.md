@@ -1,8 +1,8 @@
 # Kebyar duduk — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authoritative Balinese dance scholar and performer emphasizing precise posture, explosive energy, and fluid facial expression.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Seated Burst: I Mario's Balinese Revolution
 NARRATION: This is Kebyar duduk. 1920s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (nUJtp94qO98)
 ON SCREEN: Title card: Kebyar duduk · Indonesia · 1920s
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dancer executes virtually all movements while seated, half-seated
 NARRATION: Holding a fan in the right hand, the dancer spins across the floor in low circles without rising to a full standing posture.
 NARRATION: The choreography demands active eye movements that shift rapidly between coquettish, bashful, and angry expressions.
 NARRATION: Watch for Angsel, Seated spin.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (nUJtp94qO98)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo dancer remaining within a localized central floor footprint, performing 360-degree seated spins
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Assume a low cross-legged or half-seated squat position on the ground
 NARRATION: Hold the fan in the right hand and execute sharp wrist flicks
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -110,7 +110,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Rapid percussive interlocking patterns punctuated by sudden explosive breaks (kebyar) and sudden shifts in volume.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,10 +122,10 @@ NARRATION: Step 1: Assume a low cross-legged or half-seated squat position on th
 NARRATION: Step 2: Hold the fan in the right hand and execute sharp wrist flicks
 NARRATION: Footwork from the sources: Flexed feet positioned under the thighs or crossed in a low squat, supporting seated turns and weight shifts without standing
 NARRATION: Drill: Practice holding a steady cross-legged squat with upright spinal alignment
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Isolate active eye movements to shift expressions across distinct emotional registers
@@ -133,7 +133,7 @@ NARRATION: Step 4: Execute seated turns on folded legs without elevating the tor
 NARRATION: Drill: Perform wrist-flick snaps with the fan in the right hand
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -151,7 +151,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the torso isolations, fan flicks, and active eye movements while sitting upright in a standard chair rather than squatting on the floor. · For children: A interactive game where children freeze in low squatting postures and flash dramatic eyes or fan snaps whenever the drum stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 240 bpm
@@ -182,7 +182,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Rapid percussive interlocking patterns punctuated by sudden explosive breaks (kebyar) and sudden shifts in volume.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,10 +192,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Signal musical shifts (angsel) through sharp posture accentuations coordinated with the lead drummer
 NARRATION: Drill: Execute rapid lateral eye darting drills to accent percussive beats
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Angsel: Sudden sharp movement accent or flourish that cues the lead drummer to shift the orchestra's rhythm or volume.
@@ -204,7 +204,7 @@ NARRATION: Drill: Practice 180-degree floor turns while maintaining a low squat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -222,7 +222,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the torso isolations, fan flicks, and active eye movements while sitting upright in a standard chair rather than squatting on the floor. · For children: A interactive game where children freeze in low squatting postures and flash dramatic eyes or fan snaps whenever the drum stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo dancer remaining within a localized central floor footprint, performing 360-degree seated spins
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 240 bpm
@@ -253,7 +253,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Rapid percussive interlocking patterns punctuated by sudden explosive breaks (kebyar) and sudden shifts in volume.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -264,10 +264,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Execute seated turns on folded legs without elevating the torso to a standing position
 NARRATION: Step 2: Signal musical shifts (angsel) through sharp posture accentuations coordinated with the lead drummer
 NARRATION: Drill: Initiate sharp accent flourishes (angsel) precisely on four-beat per second counts
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Angsel: Sudden sharp movement accent or flourish that cues the lead drummer to shift the orchestra's rhythm or volume.
@@ -276,7 +276,7 @@ NARRATION: Drill: Execute full 360-degree seated turns in continuous sequence wh
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -294,7 +294,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the torso isolations, fan flicks, and active eye movements while sitting upright in a standard chair rather than squatting on the floor. · For children: A interactive game where children freeze in low squatting postures and flash dramatic eyes or fan snaps whenever the drum stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo dancer remaining within a localized central floor footprint, performing 360-degree seated spins
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 240 bpm
@@ -321,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dancer wears a 5-metre (16 ft) long cloth called a kamben decorated with gold-painted prada patterns. Accessories and headgear (udeng) feature shimmering golden designs. The dancer holds a fan in the right hand throughout the performance, using it to complement sharp head and hand gestures.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'nUJtp94qO98', 'checked_by_vision_model': True, 'title': 'TARI KEBYAR DUDUK PELIATAN BY ARJUNA SUTEDJA - 2020'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492; edits by User:Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MASTERS | AAGde Bagoes Mandera Erawan | Kebyar Duduk — https://archive.org/details/20120226GentaBhuanaSariBalerungKebyarTrompongAjiBagus
 Motifs: Shimmering gold prada fabric trailing on the floor during low spins, Close-up shots of intense, rapidly shifting eye expressions, Synchronized cuts between the drum skin strike and the dancer's sharp fan snap
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
+Cues: kanan; kiri; mundur; depan
 
 Sources (3): https://en.wikipedia.org/wiki/Kebyar_duduk; https://www.wikidata.org/wiki/Q18572835; https://it.wikipedia.org/wiki/Kebyar_duduk

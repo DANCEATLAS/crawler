@@ -3,73 +3,89 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Physical contact",
-          "High-intensity collisions"
+          "Intentional collisions",
+          "Punching motions",
+          "Crowded spaces"
         ],
-        "counts": "Simplified 4/4 counts.",
-        "duration_minutes": "2-3 minutes.",
-        "game_version": "Rhythmic jumping in a circle without contact."
+        "counts": "1-2-3-jump!",
+        "duration_minutes": "3",
+        "game_version": "The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Balance risks",
+          "Physical contact",
           "Jumping",
-          "Physical contact"
+          "Rapid torso rotation"
         ],
-        "counts": "Simplified 4/4 counts.",
-        "seated_version": "Rhythmic swaying to the music while seated.",
-        "standing_version": "Gentle side-to-side movement with support.",
-        "tempo_and_range": "Reduced tempo and limited range of motion."
+        "counts": "Simple 1-2-3-4 marching counts.",
+        "seated_version": "Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat.",
+        "standing_version": "Stationary marching with controlled arm swings at waist level.",
+        "tempo_and_range": "Reduce tempo to 80 BPM; keep arms within the frame of the torso."
       }
     },
     "interaction_profile": {
       "feedback_rules": [],
-      "learning_units": [],
-      "prerequisites": [],
-      "social_formats": []
-    },
-    "movement_profile": {
-      "arms_and_hands": "Swinging arms, punching, or holding arms at sides.",
-      "difficulty": "beginner",
-      "footwork": "Jumping, running, or crossing legs (two-step).",
-      "formation_and_space": "Circular or chaotic, within a designated 'pit'.",
-      "hips_and_torso": "Active, shifting weight to maintain balance during collisions.",
-      "levels_and_jumps": "Jumping is common, particularly in the pogo style.",
-      "partnering": "Non-partnered, but involves physical contact with others.",
-      "posture": "Leaning forward, active, ready for impact.",
-      "signature_moves": [
+      "learning_units": [
         {
-          "description": "Strutting in a circle while swinging arms.",
-          "name": "Huntington Beach Strut"
+          "description": "The Brace: Maintaining a low center of gravity and protective arm posture.",
+          "source": "https://pt.wikipedia.org/wiki/Mosh"
         },
         {
-          "description": "Running in place with legs crossing over one another.",
-          "name": "Two-step"
+          "description": "The Two-Step: Rhythmic crossing of legs during mid-tempo breakdowns.",
+          "source": "https://fr.wikipedia.org/wiki/Mosh"
         }
       ],
-      "tempo_feel": "Fast and frantic.",
-      "what_to_avoid": "Do not wear glasses; avoid crowd killing; avoid targeting others for injury."
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Circle Pit: Group rotation in a counter-clockwise direction.",
+          "source": "https://en.wikipedia.org/wiki/Moshing"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Swinging (windmilling), punching the air, or pushing others",
+      "difficulty": "intermediate",
+      "footwork": "Running, jumping, or crossing steps (two-step)",
+      "formation_and_space": "Circular (circle pit) or linear (wall of death) within a confined 'pit'",
+      "hips_and_torso": "Torso rotation during arm swings; high-impact collisions",
+      "levels_and_jumps": "Frequent vertical jumping (pogo) and occasional stage diving",
+      "partnering": "Non-partnered but highly interactive; collective collisions",
+      "posture": "Low center of gravity, slightly hunched, arms held up for protection",
+      "signature_moves": [
+        {
+          "description": "Swinging both arms in large, rapid circles",
+          "name": "Windmilling"
+        },
+        {
+          "description": "A rhythmic step where legs cross over each other in a running motion",
+          "name": "Two-step"
+        },
+        {
+          "description": "Bending low and striking toward the ground with fists",
+          "name": "Floor punching"
+        }
+      ],
+      "tempo_feel": "Double-time during fast verses; heavy and deliberate during breakdowns",
+      "what_to_avoid": "Avoid wearing jewelry or glasses; do not target the head or neck; do not leave a fallen person on the ground."
     },
     "music_profile": {
       "instruments": [
         "Electric guitar",
         "Bass guitar",
         "Drums",
-        "Vocals"
+        "Synthesizers (in EDM variants)"
       ],
       "meter": "4/4",
       "mood_keywords": [
         "aggressive",
         "energetic",
-        "intense"
+        "anarchic",
+        "cathartic"
       ],
-      "musical_form": "High energy, often featuring verses, choruses, and breakdowns.",
+      "musical_form": "Verse-chorus with a distinct 'mosh part' or breakdown section",
       "reference_recordings": [
-        {
-          "artist": "Bad Brains",
-          "title": "Banned in D.C."
-        },
         {
           "artist": "Stormtroopers of Death",
           "title": "Milano Mosh"
@@ -77,26 +93,31 @@
         {
           "artist": "Anthrax",
           "title": "Caught in a Mosh"
+        },
+        {
+          "artist": "Onyx",
+          "title": "Slam"
         }
       ],
-      "rhythm_pattern": "Fast, driving, often featuring rhythmic breakdowns.",
-      "sound_description": "Aggressive, high-tempo music with distorted guitars, driving drum beats, and intense vocal delivery.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "Aggressive, shouting, or screaming."
+      "rhythm_pattern": "Aggressive, driving eighth notes with syncopated breakdowns",
+      "sound_description": "A wall of distorted sound characterized by high-gain guitars and rapid-fire percussion, punctuated by sudden shifts to slower, crushing rhythmic sections known as breakdowns.",
+      "tempo_bpm": "140-200 (punk/metal) or 70-90 (half-time breakdowns)",
+      "vocal_style": "Shouted, screamed, or aggressive rapping"
     },
     "teaching": {
       "basic_steps": [
-        "Pogo: jumping up and down in place.",
-        "Two-step: running in place with legs crossing over one another.",
-        "Circle running: moving in a circular path around the edge of the pit."
+        "Pogo: Jump vertically with arms at sides",
+        "HB Strut: Walk in a circular path while swinging arms horizontally",
+        "Two-step: Cross one leg over the other in a rhythmic running motion",
+        "Circle Pit: Run at high speed following the counter-clockwise flow of the crowd"
       ],
-      "formation": "A 'pit' or open area within a crowd.",
-      "level_notes": "Beginner: Pogo; Intermediate: Two-step; Advanced: Circle running.",
-      "rhythm": "Fast-paced, aggressive, often 4/4 time."
+      "formation": "The Pit (a designated area in front of the stage)",
+      "level_notes": "Beginners should stay at the edges of the pit to observe the flow before entering.",
+      "rhythm": "Follows the 'mosh part' or 'breakdown' of the music, often half-time or heavy 4/4 beats"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f6d01c8e330bcf8ade785c9f3096ef4b0f5638960f14377df74856139af26711",
+  "fingerprint": "8f67e5e0dd5555894e4fd7aba5bf78768e76aa5a4b0958d9b747d885e9a8249e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -104,7 +125,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What are the specific 'mosh parts' or 'skank parts' musical cues that trigger the transition from pogo to slam? Evidence needed: https://it.wikipedia.org/wiki/Mosh"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -120,7 +142,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there specific biomechanical differences between 'slamming' in a metal pit versus 'raging' in a hip-hop pit? Evidence needed: https://en.wikipedia.org/wiki/Moshing"
     ]
   },
   "id": "atlas:moshing",
@@ -131,7 +154,26 @@
   ],
   "music_options": [],
   "name": "moshing",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "91b37761e20b4c6b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Moshing",
+      "question": "Are there specific biomechanical differences between 'slamming' in a metal pit versus 'raging' in a hip-hop pit?",
+      "source": "https://en.wikipedia.org/wiki/Moshing",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources suggest hip-hop pits are 'less violent' and involve 'jumping in unison,' but precise movement data is needed for accurate interactive feedback."
+    },
+    {
+      "domain": "research",
+      "id": "4e9c58a15e0c8f6c",
+      "next_evidence": "https://it.wikipedia.org/wiki/Mosh",
+      "question": "What are the specific 'mosh parts' or 'skank parts' musical cues that trigger the transition from pogo to slam?",
+      "source": "https://it.wikipedia.org/wiki/Mosh",
+      "status": "candidate_unreviewed",
+      "why_needed": "To automate music-movement synchronization in an interactive app, we need the exact rhythmic signatures of these transitions."
+    }
+  ],
   "research_file": "research_results/moshing.json",
   "runtime_active": false,
   "scope": {
@@ -147,7 +189,8 @@
     "https://www.wikidata.org/wiki/Q1463560",
     "https://es.wikipedia.org/wiki/Mosh",
     "https://fr.wikipedia.org/wiki/Mosh",
-    "https://pt.wikipedia.org/wiki/Mosh"
+    "https://pt.wikipedia.org/wiki/Mosh",
+    "https://it.wikipedia.org/wiki/Mosh"
   ],
   "state": "researching",
   "video_evidence": []

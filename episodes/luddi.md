@@ -1,6 +1,6 @@
 # Luddi — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; the costume & setting section; two or more connections
 
@@ -296,7 +296,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 8
-Cues: right leg to shuru hoyega; side movement dikhauna; shoulder movement bahut sohni honi chahidi aa; taali marni aa; 1-2-3-4; 5-6-7-8
+Cues: 1-2-3-4; 5-6-7-8; right leg to shuru hoyega; side movement dikhauna; shoulder movement bahut sohni honi chahidi aa; taali marni aa
 Common mistakes the studied teachers name: confusing luddi steps with gidda steps
 
 Sources (2): https://en.wikipedia.org/wiki/Luddi; https://www.wikidata.org/wiki/Q25624527

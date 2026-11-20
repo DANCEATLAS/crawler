@@ -1,13 +1,62 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Wide sweeping motions.",
+      "difficulty": "intermediate",
+      "footwork": "Tapping or stepping on the drum beat; one foot planted while the body moves around it.",
+      "formation_and_space": "Circular formation around a drum.",
+      "hips_and_torso": "Symmetrical movement to mimic waving grass.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright with active, swaying limbs.",
+      "signature_moves": [
+        {
+          "description": "One foot is firmly planted on the ground while the rest of the body moves around it.",
+          "name": "Staked warrior"
+        }
+      ],
+      "tempo_feel": "Fast-paced, faster than Northern Tradition but slower than Fancy dance.",
+      "what_to_avoid": "Lack of symmetry; failing to maintain the drum beat."
+    },
+    "music_profile": {
+      "instruments": [
+        "Drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fast-paced",
+        "rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady drum beat",
+      "sound_description": "The music is driven by a central drum played by multiple drummers, accompanied by group singing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Group singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step or tap on the drum beat.",
+        "Perform symmetrical sweeping motions with both sides of the body.",
+        "Execute the 'staked' step by planting one foot firmly while moving the body around it."
+      ],
+      "formation": "Dancers move around a central drum.",
+      "level_notes": "Intermediate: requires maintaining symmetry and fluid fringe movement.",
+      "rhythm": "Steady drum beat."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "1dfe8610c9d435a33045c33fe85326bd78fb8439dc7035fd4073f9e4ad249858",
+  "fingerprint": "742b9f1b83f4116584310b7db078c211421a131b0edd49eedc1592a298e11feb",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +64,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific protocols for non-Indigenous practitioners to learn the Grass dance? Evidence needed: Consultation with tribal cultural departments."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +93,18 @@
   ],
   "music_options": [],
   "name": "Grass dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "87bf37b6f5306049",
+      "next_evidence": "Consultation with tribal cultural departments.",
+      "question": "Are there specific protocols for non-Indigenous practitioners to learn the Grass dance?",
+      "source": "https://archive.org/details/ancestorsindigen00bruc",
+      "status": "candidate_unreviewed",
+      "why_needed": "The dance has sacred origins and is a living tradition; respectful engagement is required."
+    }
+  ],
+  "research_file": "research_results/grass-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +116,9 @@
   "slug": "grass-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Grass_dance",
-    "Source: Grass dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Grass_dance"
+    "https://www.wikidata.org/wiki/Q5597484",
+    "https://archive.org/details/ancestorsindigen00bruc"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

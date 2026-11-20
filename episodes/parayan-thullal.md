@@ -1,8 +1,8 @@
 # Parayan Thullal — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A calm, elder scholar-performer who speaks in measured tones and emphasizes the spiritual weight of every gesture.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Serpent's Morning Song
 NARRATION: This is Parayan Thullal. 18th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (pqaI_9gLDlc)
 ON SCREEN: Title card: Parayan Thullal · India · 18th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The performance is characterized by a very slow tempo.
 NARRATION: The dancer remains largely in an erect standing position with minimal footwork or complex dance sequences.
 NARRATION: The primary focus is on the use of gestures to explain the literal and metaphorical meanings of the poetic verses being sung.
 NARRATION: Watch for Erect Narrative Stance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (pqaI_9gLDlc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performer standing in a central position
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -324,7 +324,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'pqaI_9gLDlc', 'checked_by_vision_model': True, 'title': 'PARAYAN THULLAL | Powerful Kerala Ritual Dance | Rare Traditional Temple Performance'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The snake-hood crown, Yellow facial pigment, The red waist cloth, Morning sunlight filtering through trees
@@ -337,6 +337,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: count the Mallika metre bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
+Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
 
 Sources (2): https://en.wikipedia.org/wiki/Parayan_Thullal; https://www.wikidata.org/wiki/Q15051550

@@ -2,7 +2,7 @@
  "slug": "danda-nata",
  "name": "danda nata",
  "pack_version": "e2",
- "built_at": "2026-11-19T20:42:42Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-19T18:24:04Z",
  "qc_score": 9.7,
  "status": "withheld-chapters",
@@ -67,7 +67,7 @@
      "This is danda nata. Ancient origin to present day."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (MoDzPUyoiZI)",
      "Title card: danda nata · India · Ancient origin to present day"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Parva Vastra Chalana."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (MoDzPUyoiZI)",
      "Captions name each signature move as it appears",
      "Formation: Duet staging in open village spaces, facing each other for dramatic dialogues or circling within community arenas."
     ],
@@ -271,7 +271,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "MoDzPUyoiZI",
+   "checked_by_vision_model": true,
+   "title": "Danda Nacha ଦଣ୍ଡ ନାଚ   Traditional Odia Dance part-2."
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -327,27 +331,28 @@
   ]
  },
  "teaching_formula": {
-  "source": "6 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 6,
+  "source": "8 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 8,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, mirror, back",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
   "cues": [
-   "let's do this",
-   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "one two",
+   "over and spin",
    "loosen those hips",
    "connect with the earth",
-   "knees have to be bent",
-   "arms and your hands are free",
-   "one two",
-   "over and spin"
+   "knees have to be bent"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -356,7 +361,6 @@
    "breakdown",
    "full_demo",
    "music_practice",
-   "recap",
    "slow_practice"
   ],
   "steps_as_taught": []
@@ -365,7 +369,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -376,6 +379,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "b504fa251705debf07935e658f496a6c3d8a19e95dd8bb15c3b11a0a0029213d",
- "hero_checked": null
+ "input_fingerprint": "37c4775e20cd9ff773afda4d275487f7472dd514352a10e28540ebcb2e9bb08a",
+ "hero_checked": "pass"
 }

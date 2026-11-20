@@ -2,7 +2,7 @@
  "slug": "wotagei",
  "name": "Wotagei",
  "pack_version": "e2",
- "built_at": "2026-11-19T20:42:42Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-14T16:29:55Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -279,7 +279,7 @@
       "Drill: Practice thundersnake arm swings"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -424,7 +424,7 @@
       "Drill: Sequence rosario and romance moves"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -571,7 +571,7 @@
       "Drill: Integrate sliding romeo"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -765,41 +765,37 @@
   ]
  },
  "teaching_formula": {
-  "source": "49 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 49,
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
   "counting": "count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "1-2-3-4",
-   "un dos tres",
-   "1-2-3",
-   "5-6-7-8",
-   "1-2-left",
-   "2-2-right",
-   "step in front",
-   "step behind",
-   "levanto los talones hasta atrs",
-   "doble golpe con mi pie",
-   "pisada con toda la planta del pie",
-   "sin elevarme tanto"
+   "first balance your arms like a straight line",
+   "move both of your arms clockwise and keep it as a straight line",
+   "spin towards yourself",
+   "put your left hand under your armpit"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "intro",
-   "context",
-   "warmup",
-   "full_demo",
    "breakdown",
-   "slow_practice",
-   "music_practice",
-   "recap"
+   "full_demo"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Yashichi",
+    "counts": "7",
+    "description": "Clockwise arm rotation with alternating arm extensions pointing up and down."
+   },
+   {
+    "name": "23 torch",
+    "counts": "23",
+    "description": "Combination of Yashichi, 8 torch, and reverse 8 torch."
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
@@ -817,6 +813,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "5554df558c98e0b503c345051034af2f785429a44b6c9d0f993646f7e319c035",
+ "input_fingerprint": "b2368831cef45a13c7baab5318fb1b5bf320e9bfb14ad6e6f079a60c41cfc67a",
  "hero_checked": "pass"
 }

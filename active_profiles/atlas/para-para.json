@@ -3,22 +3,22 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Complex, fast-paced arm sequences"
+          "Complex arm crossings"
         ],
-        "counts": "Simplified 4-count sequences.",
-        "duration_minutes": "15",
-        "game_version": "Follow-the-leader style game using simplified arm movements."
+        "counts": "Simplified 4-count patterns.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "Simplified routine focusing on following the leader."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Jumping",
+          "Jumps",
           "Rapid balance shifts"
         ],
-        "counts": "Simplified counts for arm sequences.",
-        "seated_version": "Perform arm gestures while seated, focusing on range of motion.",
-        "standing_version": "Perform routines with reduced tempo and minimal foot movement.",
-        "tempo_and_range": "Reduced tempo to match comfort levels."
+        "counts": "Simplified counts.",
+        "seated_version": "Perform arm movements while seated, focusing on rhythm and range of motion.",
+        "standing_version": "Perform with reduced tempo and minimal footwork.",
+        "tempo_and_range": "Reduced tempo to accommodate comfort."
       }
     },
     "interaction_profile": {
@@ -28,35 +28,36 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Primary focus; complex, choreographed gestures that follow the melody and rhythm.",
+      "arms_and_hands": "Primary focus; complex, rhythmic gestures synchronized with the music.",
       "difficulty": "beginner",
-      "footwork": "Minimal; includes stepping side-to-side, stepping in place, and occasional hops.",
-      "formation_and_space": "Synchronized group formation, often facing a lead instructor or the front.",
-      "hips_and_torso": "Minimal movement, occasionally involving hip shifts.",
-      "levels_and_jumps": "Occasional jumping or hopping.",
-      "partnering": "None; performed as a solo or group synchronized dance.",
-      "posture": "Upright and alert, facilitating rapid arm movements.",
+      "footwork": "Minimal; side-to-side stepping, stepping in place, and occasional hops.",
+      "formation_and_space": "Synchronized group formation, usually facing forward.",
+      "hips_and_torso": "Subtle hip movements and torso engagement to complement arm gestures.",
+      "levels_and_jumps": "Occasional hops or jumps, but generally low-impact.",
+      "partnering": "not described in sources",
+      "posture": "Upright, energetic, and ready for rapid arm movement.",
       "signature_moves": [
         {
-          "description": "Specific, song-dependent hand and arm gestures performed in unison.",
-          "name": "Arm sequences"
+          "description": "The iconic, pre-choreographed routine performed during the chorus of a song.",
+          "name": "Sabi choreography"
         }
       ],
-      "tempo_feel": "Very fast, high-energy.",
+      "tempo_feel": "Fast and precise.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Synthesizers",
-        "Drum machines"
+        "Synthesizer",
+        "Drum machine",
+        "Electronic keyboard"
       ],
       "meter": "4/4",
       "mood_keywords": [
         "Energetic",
-        "Fast",
-        "Upbeat"
+        "Upbeat",
+        "Fast"
       ],
-      "musical_form": "Eurobeat",
+      "musical_form": "Intro, verses (melos), and chorus (sabi)",
       "reference_recordings": [
         {
           "artist": "Niko",
@@ -68,24 +69,24 @@
         }
       ],
       "rhythm_pattern": "Four-on-the-floor",
-      "sound_description": "High-tempo electronic music characterized by driving synthesizer melodies and a steady, repetitive kick drum pattern.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "Upbeat, energetic, often featuring English-language lyrics."
+      "sound_description": "Fast-paced, high-energy electronic music characterized by driving synth melodies and a steady, rhythmic kick drum.",
+      "tempo_bpm": "High tempo (often 140-160+ BPM)",
+      "vocal_style": "Upbeat, pop-oriented vocals"
     },
     "teaching": {
       "basic_steps": [
-        "Step side-to-side in time with the 4/4 beat.",
-        "Execute synchronized arm gestures corresponding to the song's specific routine.",
-        "Maintain upper body focus while keeping footwork minimal.",
-        "Perform the routine in unison with the group."
+        "Side-to-side stepping",
+        "Rhythmic arm extensions",
+        "Hand gestures synchronized to the beat",
+        "Hip swaying"
       ],
-      "formation": "Group synchronization, often in lines or facing the front.",
-      "level_notes": "Beginners should focus on learning the specific arm choreography for a single track before attempting footwork.",
-      "rhythm": "Four-on-the-floor, high-tempo Eurobeat."
+      "formation": "Synchronized group formation, often in lines or facing the DJ booth",
+      "level_notes": "Beginners start by learning the 'sabi' (chorus) of a song, as it is the most repetitive and iconic part of the routine.",
+      "rhythm": "Four-on-the-floor, high-tempo"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e635361a08a2fac345179d7aa515bfe883b5b72cf84aae1fd3cda976f32b251c",
+  "fingerprint": "6d59f67b60313eb41038360b82496395d1355c469234e9e195a67cfbe3fba803",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -94,7 +95,8 @@
     ],
     "research": [
       "movement: what_to_avoid",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, standardized counts for the most popular 'official' routines? Evidence needed: Instructional video analysis of 'official' routines."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -121,7 +123,17 @@
   ],
   "music_options": [],
   "name": "Para Para",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c8085680c483f542",
+      "next_evidence": "Instructional video analysis of 'official' routines.",
+      "question": "Are there specific, standardized counts for the most popular 'official' routines?",
+      "source": "https://en.wikipedia.org/wiki/Para_Para",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable accurate interactive teaching and feedback."
+    }
+  ],
   "research_file": "research_results/para-para.json",
   "runtime_active": false,
   "scope": {
@@ -137,7 +149,8 @@
     "https://www.wikidata.org/wiki/Q1331500",
     "https://es.wikipedia.org/wiki/ParaPara",
     "https://fr.wikipedia.org/wiki/Para_Para",
-    "https://pt.wikipedia.org/wiki/Para_Para"
+    "https://pt.wikipedia.org/wiki/Para_Para",
+    "https://de.wikipedia.org/wiki/Para_Para"
   ],
   "state": "researching",
   "video_evidence": [

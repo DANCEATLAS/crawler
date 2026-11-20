@@ -1,6 +1,6 @@
 # Vannam — episode pack
 
-*Status: draft · built 2026-11-19 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; posture, arms and hands; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -295,6 +295,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: tha-ka-di-ki-ta; tha-the-hi-tha; keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; kanna; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board
+Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
 
 Sources (3): https://en.wikipedia.org/wiki/Dance_in_Sri_Lanka; https://www.wikidata.org/wiki/Q5215413; https://fr.wikipedia.org/wiki/Danses_au_Sri_Lanka

@@ -1,8 +1,8 @@
 # Cendrawasih — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, precise Balinese dance master emphasizing crisp hand work, stamina, and dramatic mimicry.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Wings of Paradise: The Balinese Avian Duet
 NARRATION: This is Cendrawasih. 1988 (modern version).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (IWB7uMeNgxc)
 ON SCREEN: Title card: Cendrawasih · Indonesia · 1988 (modern version)
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is staged as an intimate duet between two women: one portra
 NARRATION: Together, they perform a stylized mating ritual characterized by playful fluttering, flirting, and bird-like motions.
 NARRATION: Choreographers and individual performers are permitted to introduce their own interpretations within the canonical frame.
 NARRATION: Watch for Wing Extension, En Pointe Pose, Flight Run.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (IWB7uMeNgxc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Duet space interaction simulating avian courtship pathways.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The visually striking costumes are central to the performance narrative. Dancers wear feathered Pandji-style headdresses alongside long flowing skirts or scarves adorned with a prominent pink stripe. These trailing skirts represent the vibrant tail feathers of the bird of paradise. When grasped and extended by the dancers' hands, the fabric transforms into wings; as the dancers run across the performance space, the fluttering textiles generate an illusion of aerial flight.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'IWB7uMeNgxc', 'checked_by_vision_model': True, 'title': 'Tari Cendrawasih Dance'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Bali Ensemble — https://archive.org/details/calauem_200201_omvf0000645a_ac
 Motifs: Feathered Pandji headdresses shimmering under lights, Vibrant pink stripes fluttering through swift running movement, Side-by-side bird-like flirtation gestures
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
+Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
 
 Sources (3): https://en.wikipedia.org/wiki/Cendrawasih_dance; https://www.wikidata.org/wiki/Q18559945; https://fr.wikipedia.org/wiki/Cendrawasih

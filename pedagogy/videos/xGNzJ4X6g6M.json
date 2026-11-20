@@ -1,0 +1,133 @@
+{
+ "youtube_id": "xGNzJ4X6g6M",
+ "slug": "poco-poco",
+ "dance": "Poco-poco",
+ "title": "BELAJAR LANGKAH “SENAM POCO-POCO”",
+ "channel": "Yusila Iswanti Putri",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-20T19:53:13Z",
+ "url": "https://www.youtube.com/watch?v=xGNzJ4X6g6M",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher introduces the lesson enthusiastically and clearly breaks down the movements step by step. She then practices the steps alongside music to help students follow along.",
+  "language": "Indonesian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:03",
+    "segment": "intro",
+    "note": "Greeting and encouragement for students to get ready."
+   },
+   {
+    "t": "0:23",
+    "segment": "context",
+    "note": "Introducing the topic: senam poco-poco."
+   },
+   {
+    "t": "0:32",
+    "segment": "breakdown",
+    "note": "Breaking down counts 1-8 step-by-step without music."
+   },
+   {
+    "t": "1:13",
+    "segment": "music_practice",
+    "note": "Practicing the movements along with music."
+   },
+   {
+    "t": "2:05",
+    "segment": "recap",
+    "note": "Concluding remarks and assignment instructions."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "satu dua tiga empat lima enam tujuh delapan"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Poco-Poco Basic Step",
+    "counts": "1-8",
+    "description": "Stepping and turning through 8 counts in multiple directions."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Counting clearly out loud during the breakdown",
+    "Demonstrating from different angles"
+   ],
+   "what_hinders": []
+  },
+  "quotes": [
+   {
+    "t": "0:07",
+    "text": "Salam olahraga!"
+   },
+   {
+    "t": "0:25",
+    "text": "senam irama yaitu gerakan senam poco-poco"
+   },
+   {
+    "t": "0:33",
+    "text": "gerakannya itu ke kanan 2 1"
+   },
+   {
+    "t": "2:07",
+    "text": "Semoga ilmunya bermanfaat"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 3,
+    "end_s": 22,
+    "topic": "teaching",
+    "observation": "Teacher speaks to the camera with hand gestures.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 32,
+    "end_s": 112,
+    "topic": "movement",
+    "observation": "Teacher counts and demonstrates stepping movements step by step.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "weight transfer",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 115,
+    "end_s": 152,
+    "topic": "movement",
+    "observation": "Teacher dances along with background music.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "fast movement",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down the 8-count movement while turning to face different directions sequentially."
+ },
+ "attempts": 1
+}

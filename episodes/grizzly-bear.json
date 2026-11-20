@@ -1,0 +1,892 @@
+{
+ "slug": "grizzly-bear",
+ "name": "Grizzly Bear",
+ "pack_version": "e2",
+ "built_at": "2026-11-20T20:02:15Z",
+ "researched_at": "2026-11-20T19:15:11Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A sharp-witted 1910s dance hall regular who values expression over etiquette.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Grizzly Bear",
+   "Pas de l'ours",
+   "Grizzly Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Grizzly Bear",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dance That Scandalized a Nation",
+     "This is Grizzly Bear. Early 20th century (c. 1910-1914)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Grizzly Bear · United States · Early 20th century (c. 1910-1914)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance emerged around 1910 in the United States, with many sources pointing to the San Francisco underworld and African American communities as its source.",
+     "It was part of a broader 'animal dance' trend that included the Turkey Trot and Bunny Hug.",
+     "Its popularity was cemented by Irving Berlin's 1910 song 'The Dance of the Grizzly Bear.'"
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance served as a playful break from social conventions, offering 'immediate physical pleasure' through movement.",
+     "For young immigrants, it was a way to assert American identity, while for critics, it symbolized moral regression and 'sexual excitement.'",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Grizzly bear (Ursus arctos horribilis) in Woodland Park Zoo.webm (https://upload.wikimedia.org/wikipedia/commons/1/14/Grizzly_bear_%28Ursus_arctos_horribilis%29_in_Woodland_Park_Zoo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers perform a swaying gait with feet turned outward, mimicking a bear.",
+     "The posture involves a close, chest-to-chest embrace with arms resting on the partner's shoulders and fingers curled like claws.",
+     "It features lateral hip oscillations, forward rocking of the torso, and syncopated walking steps that allow for improvisation.",
+     "Watch for Bear-like embrace, Swaying gait, The Spiel."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Closed couple; moving in small circles (pivoting) or progressing along the floor."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is performed to ragtime music, characterized by syncopation and displaced accents over a steady bass pattern.",
+     "Key instruments include the piano, often played in a style where the right hand syncopates while the left maintains a regular beat.",
+     "Listen for the Piano, Voice.",
+     "The pulse is 2/4 or 4/4 (Ragtime).",
+     "Ragtime music characterized by 'ragged time' where the melody is heavily syncopated and accents are displaced. The sound is driven by a steady, marching bass pattern on the piano, while the vocal versions feature humorous, fast-paced lyrics often delivered in a vaudevillian style."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: The Dance of the Grizzly Bear — Stella Mayhew; Everybody's Doin' It Now — Irving Berlin",
+     "Waveform or rhythm-pattern graphic: Syncopated right-hand melodies against a steady, regular bass line"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Originally practiced in urban dance halls and 'rackets' associated with nightlife and popular entertainment.",
+     "In high society settings, it was performed in formal attire but with a parodic, 'loufoque' tone.",
+     "In France, it was featured in music halls and films."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Irving Berlin composed the most famous songs for the dance.",
+     "Performers like Sophie Tucker, Fanny Brice, and Stella Mayhew featured it in vaudeville.",
+     "In San Francisco, it was linked to the 'tough' underworld.",
+     "It belongs to the 'animal dance' family of the early 20th century."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Grizzly Bear is sibling of Turkey Trot: Often used interchangeably with the Grizzly Bear as part of the animal dance craze.",
+     "Grizzly Bear is child of Foxtrot: The Grizzly Bear's walking variations anticipated the development of the foxtrot.",
+     "Grizzly Bear is influence of Waltz: The Grizzly Bear emerged as a parodic rupture from the formal conventions of the waltz."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Assume a close chest-to-chest embrace with partner",
+     "Place arms loosely on partner's shoulders with fingers curled like claws",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a parodic imitation of a bear's gait broke the rules of the ballroom and sparked a global moral panic.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the heavy, turned-out gait",
+   "level": "The Bear Walk",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the heavy, turned-out gait.",
+      "Level: The Bear Walk. Difficulty of the dance overall: beginner.",
+      "Your instructor: A sharp-witted 1910s dance hall regular who values expression over etiquette."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Close embrace, chest-to-chest; torso and abdomen thrust forward beyond normal posture; knees slightly bent.",
+      "Arms resting loosely on partner's shoulders; fingers curled to suggest animal paws or claws; leading arm sometimes held rigid and thrust forward.",
+      "Pronounced lateral hip oscillations; forward rocking of the torso; wriggling of the trunk."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4 (Ragtime).",
+      "Rhythm pattern: Syncopated right-hand melodies against a steady, regular bass line.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume a close chest-to-chest embrace with partner",
+      "Step 2: Place arms loosely on partner's shoulders with fingers curled like claws",
+      "Footwork from the sources: Walking steps performed with feet turned outward; heavy, swaying gait mimicking a bear.",
+      "Drill: Walk in time to a ragtime beat with feet turned outward"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step forward with feet turned outward in a heavy, swaying gait",
+      "Step 4: Incorporate lateral hip oscillations (swaying) on each step",
+      "Drill: Add a lateral sway to the hips with every step"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice leaning the torso slightly forward while walking"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid formal, rounded ballroom frames; avoid elegant, upright posture."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the lateral swaying of the torso and the 'claw' hand gestures while seated; march feet in place with toes turned out. · For children: A 'Follow the Bear' game where children mimic the bear's gait and claws to the music."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the lateral swaying of the torso and the 'claw' hand gestures while seated; march feet in place with toes turned out.",
+      "For children: A 'Follow the Bear' game where children mimic the bear's gait and claws to the music."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the heavy, turned-out gait.",
+      "The dance served as a playful break from social conventions, offering 'immediate physical pleasure' through movement.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Establish the signature Grizzly hold",
+   "level": "The Embrace",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Establish the signature Grizzly hold.",
+      "Level: The Embrace. Difficulty of the dance overall: beginner.",
+      "Your instructor: A sharp-witted 1910s dance hall regular who values expression over etiquette."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Close embrace, chest-to-chest; torso and abdomen thrust forward beyond normal posture; knees slightly bent.",
+      "Arms resting loosely on partner's shoulders; fingers curled to suggest animal paws or claws; leading arm sometimes held rigid and thrust forward.",
+      "Pronounced lateral hip oscillations; forward rocking of the torso; wriggling of the trunk."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4 (Ragtime).",
+      "Rhythm pattern: Syncopated right-hand melodies against a steady, regular bass line.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rock the torso and abdomen forward and back in time with the music",
+      "Step 2: Add syncopated 'wriggling' of the trunk during turns",
+      "Drill: Partner up in a close chest-to-chest position"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bear-like embrace: A very close, chest-to-chest hold with arms over the partner's shoulders.",
+      "Swaying gait: A heavy walk with feet turned out and lateral hip movement.",
+      "Drill: Rest arms on partner's shoulders and curl fingers like claws"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice the swaying walk while maintaining the close hold"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid formal, rounded ballroom frames; avoid elegant, upright posture."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the lateral swaying of the torso and the 'claw' hand gestures while seated; march feet in place with toes turned out. · For children: A 'Follow the Bear' game where children mimic the bear's gait and claws to the music."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the lateral swaying of the torso and the 'claw' hand gestures while seated; march feet in place with toes turned out.",
+      "For children: A 'Follow the Bear' game where children mimic the bear's gait and claws to the music."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Closed couple; moving in small circles (pivoting) or progressing along the floor."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Establish the signature Grizzly hold.",
+      "Irving Berlin composed the most famous songs for the dance.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Add syncopation and improvisation",
+   "level": "The Ragtime Wriggle",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Add syncopation and improvisation.",
+      "Level: The Ragtime Wriggle. Difficulty of the dance overall: beginner.",
+      "Your instructor: A sharp-witted 1910s dance hall regular who values expression over etiquette."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Close embrace, chest-to-chest; torso and abdomen thrust forward beyond normal posture; knees slightly bent.",
+      "Arms resting loosely on partner's shoulders; fingers curled to suggest animal paws or claws; leading arm sometimes held rigid and thrust forward.",
+      "Pronounced lateral hip oscillations; forward rocking of the torso; wriggling of the trunk."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4 (Ragtime).",
+      "Rhythm pattern: Syncopated right-hand melodies against a steady, regular bass line.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rock the torso and abdomen forward and back in time with the music",
+      "Step 2: Add syncopated 'wriggling' of the trunk during turns",
+      "Drill: Introduce a 'wriggling' motion of the trunk while turning"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Spiel: Closely embraced couple turning and moving in small circles.",
+      "Drill: Practice shifting speed (double time) for four counts"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Improvise arm accents (shrugs) against the steady bass"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid formal, rounded ballroom frames; avoid elegant, upright posture."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the lateral swaying of the torso and the 'claw' hand gestures while seated; march feet in place with toes turned out. · For children: A 'Follow the Bear' game where children mimic the bear's gait and claws to the music."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the lateral swaying of the torso and the 'claw' hand gestures while seated; march feet in place with toes turned out.",
+      "For children: A 'Follow the Bear' game where children mimic the bear's gait and claws to the music."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Closed couple; moving in small circles (pivoting) or progressing along the floor."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Add syncopation and improvisation.",
+      "It belongs to the 'animal dance' family of the early 20th century.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4 or 4/4 (Ragtime)",
+  "rhythm_pattern": "Syncopated right-hand melodies against a steady, regular bass line",
+  "instruments": [
+   "Piano",
+   "Voice"
+  ],
+  "vocal_style": "Coon shouter style; use of dialect and humorous lyrics",
+  "musical_form": "Ragtime song with verse and refrain",
+  "mood": [
+   "Syncopated",
+   "Playful",
+   "Exciting",
+   "Parodic"
+  ],
+  "sound_description": "Ragtime music characterized by 'ragged time' where the melody is heavily syncopated and accents are displaced. The sound is driven by a steady, marching bass pattern on the piano, while the vocal versions feature humorous, fast-paced lyrics often delivered in a vaudevillian style.",
+  "listen_before_composing": [
+   "The Dance of the Grizzly Bear — Stella Mayhew",
+   "Everybody's Doin' It Now — Irving Berlin"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Grizzly Bear (United States). Meter 2/4 or 4/4 (Ragtime). Rhythm pattern: Syncopated right-hand melodies against a steady, regular bass line. Instruments: Piano, Voice. Vocal style: Coon shouter style; use of dialect and humorous lyrics. Form: Ragtime song with verse and refrain. Mood: Syncopated, Playful, Exciting, Parodic. It should sound like this: Ragtime music characterized by 'ragged time' where the melody is heavily syncopated and accents are displaced. The sound is driven by a steady, marching bass pattern on the piano, while the vocal versions feature humorous, fast-paced lyrics often delivered in a vaudevillian style. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Originally practiced in urban dance halls and 'rackets' associated with nightlife and popular entertainment. In high society settings, it was performed in formal attire but with a parodic, 'loufoque' tone. In France, it was featured in music halls and films.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGrizzly_Bear_et_Pas_de_l%27ours.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Grizzly_Bear_et_Pas_de_l%27ours.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/Grizzly_Bear_et_Pas_de_l%27ours.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Walker for the American source, unknown for the French source / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGrizzly_Bear_et_Pas_de_l%27ours.jpg",
+    "description": "Caricatures of the American and the French versions of this ragtime dance"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Grizzly bear (Ursus arctos horribilis) in Woodland Park Zoo.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Grizzly_bear_%28Ursus_arctos_horribilis%29_in_Woodland_Park_Zoo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 2.0",
+    "attribution": "rnjacobs / Wikimedia Commons / CC BY 2.0"
+   },
+   {
+    "title": "File:Grizzly bear (Ursus arctos horribilis) in Yellowstone National Park.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Grizzly_bear_%28Ursus_arctos_horribilis%29_in_Yellowstone_National_Park.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 2.0",
+    "attribution": "kennejima / Wikimedia Commons / CC BY 2.0"
+   },
+   {
+    "title": "File:Grizzly bears (Ursus arctos) in Alaska.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Grizzly_bears_%28Ursus_arctos%29_in_Alaska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "jerry harlin / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Grizzly bear and her cubs eating grass.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Grizzly_bear_and_her_cubs_eating_grass.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Jussy / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:The Grizzly Bear Dance (1913).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/The_Grizzly_Bear_Dance_%281913%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Grizzly Bear Mayhew.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Grizzly_Bear_Mayhew.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Apeda Studio (artwork), George Bostford (music), and Irving Berlin (lyrics) / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Native American Culture Comes Alive at the Harvest Pow Wow",
+    "url": "https://archive.org/details/npctv-Native_American_Culture_Comes_Alive_at_the_Harvest_Pow_Wow",
+    "year": 2019,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Beauty and the Grizzly Bear (1992 VHS)",
+    "url": "https://archive.org/details/beauty-and-the-grizzly-bear-part-01-prologue",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Clawed hands",
+   "Swaying hips",
+   "Ragtime sheet music",
+   "Crowded, smoky dance halls",
+   "Bear-like silhouettes"
+  ],
+  "costume_notes": "Originally practiced in urban dance halls and 'rackets' associated with nightlife and popular entertainment. In high society settings, it was performed in formal attire but with a parodic, 'loufoque' tone. In France, it was featured in music halls and films.",
+  "setting_notes": "The dance served as a playful break from social conventions, offering 'immediate physical pleasure' through movement. For young immigrants, it was a way to assert American identity, while for critics, it symbolized moral regression and 'sexual excitement.'",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "46 tutorial(s) of the street-urban family studied",
+  "videos_studied": 46,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "one and two",
+   "step touch",
+   "vamos a comenzar",
+   "marcamos",
+   "repetimos",
+   "y marco",
+   "make sure you touch all the way back",
+   "down back out back up back out back",
+   "pick up the groove",
+   "don't forget this is a popular dance",
+   "your butt should be free",
+   "don't forget knee flex"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "layering",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Grizzly_Bear_(dance)",
+  "https://www.wikidata.org/wiki/Q5609781",
+  "https://fr.wikipedia.org/wiki/Pas_de_l'ours",
+  "https://archive.org/details/cu31924030998680",
+  "https://archive.org/details/rockymountainwo02millgoog",
+  "https://archive.org/details/rockymountainwo00unkngoog"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "b9aae907182d85531136e40416b76957e4ca06415b16713924a521d0a171f645",
+ "hero_checked": null
+}

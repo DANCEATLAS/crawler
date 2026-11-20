@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "5",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Danced in small groups of three, typically two men and one woman, moving in a V formation.",
+          "source": "https://en.wikipedia.org/wiki/Pirgousikos"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Groups of three dancers moving together in a V formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Trio structure, typically two men and one woman",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Three dancers position themselves in a V shape and travel together in synchronized steps.",
+          "name": "V-Formation Trio Shift"
+        }
+      ],
+      "tempo_feel": "Brisk 2/4 binary feel",
+      "what_to_avoid": "Breaking the trio V formation during movement."
+    },
+    "music_profile": {
+      "instruments": [
+        "Violin",
+        "Tsampouna (bagpipe)"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "Festive",
+        "Celebratory",
+        "Lively"
+      ],
+      "musical_form": "Instrumental dance tune in 2/4 meter",
+      "reference_recordings": [],
+      "rhythm_pattern": "Lively binary 2/4 rhythm",
+      "sound_description": "A crisp, upbeat Aegean instrumental track featuring a prominent lead violin carrying a fast-paced melody in 2/4 meter, historically anchored by the drone and reed sound of the tsampouna bagpipe.",
+      "tempo_bpm": "",
+      "vocal_style": "Historically vocal sing-along by dancers; modern style is primarily instrumental"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Arrange group into a trio of three dancers (typically two men and one woman)",
+        "Form a tight V shape formation",
+        "Step in synchronization to the 2/4 meter, following the violin melody"
+      ],
+      "formation": "Trio in V formation",
+      "level_notes": "Beginners focus on maintaining the trio V formation and keeping step with the 2/4 time signature.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7068c28edd1486b9ac19e9ae9124da3facc4346023f9d5a36d5ee468bcd2deeb",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific footwork pattern and step count sequence do the three dancers execute while moving in their V formation? Evidence needed: Field video recordings or archival dance notation from Chian cultural associations detailing the Pirgousikos step mechanics."
+    ]
+  },
+  "id": "atlas:pirgousikos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Pirgousikos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "47624c73bb6a6423",
+      "next_evidence": "Field video recordings or archival dance notation from Chian cultural associations detailing the Pirgousikos step mechanics.",
+      "question": "What specific footwork pattern and step count sequence do the three dancers execute while moving in their V formation?",
+      "source": "https://en.wikipedia.org/wiki/Pirgousikos",
+      "status": "candidate_unreviewed",
+      "why_needed": "Footwork mechanics are not described in the current textual sources, making interactive motion capture or tutorial step generation impossible."
+    }
+  ],
+  "research_file": "research_results/pirgousikos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "pirgousikos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pirgousikos",
+    "https://www.wikidata.org/wiki/Q16934494"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

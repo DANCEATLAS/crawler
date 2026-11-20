@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Processions on bullock carts, boats, or hand-pulled carts; three circuits around the temple",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Suspension on a tall pedestal-like structure",
+      "partnering": "None; solo performers suspended on individual hooks",
+      "posture": "Mimicking the flight of an eagle",
+      "signature_moves": [
+        {
+          "description": "The piercing of the skin on the back with a sharp metal hook for suspension.",
+          "name": "Choondakuthal"
+        },
+        {
+          "description": "The symbolic movement of the suspended dancer, sometimes pouring flowers on devotees.",
+          "name": "Eagle Flight"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Physical injury during piercing; only trained ritual practitioners should perform."
+    },
+    "music_profile": {
+      "instruments": [
+        "Chenda"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ritualistic",
+        "intense",
+        "devotional",
+        "rhythmic"
+      ],
+      "musical_form": "Night-long performance",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythms provided by scores of chenda experts",
+      "sound_description": "The soundscape is dominated by the powerful, sharp cracks and rolling thuds of multiple chenda drums playing in unison, creating a high-energy, percussive environment that lasts throughout the night.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Garuda-vesham: Donning the eagle costume and makeup",
+        "Rhythmic night-long dance accompanied by chenda drums",
+        "Choondakuthal: Ritual piercing of the back skin with metal hooks",
+        "Suspension from the Thooka chadu shaft",
+        "Circumambulation: Being carried thrice around the temple while suspended"
+      ],
+      "formation": "Solo or multiple performers on mobile pedestals, boats, or chariots",
+      "level_notes": "This is a highly specialized ritual performance restricted to specific devotees and families; it is not a recreational dance.",
+      "rhythm": "Driven by chenda percussion ensembles"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "fe2de80a249f839c7d113400679e5f0370d042a38f0debdcff369d13da08ae27",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific 'Garuda-like' movements performed during the night-long dance before the piercing? Evidence needed: https://en.wikipedia.org/wiki/Garudan_Thookkam"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic patterns played by the chenda during the night-long dance versus the suspension phase? Evidence needed: https://en.wikipedia.org/wiki/Garudan_Thookkam"
+    ]
+  },
+  "id": "atlas:garudan-thookkam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Garudan Thookkam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "ca21e132ae4afe95",
+      "next_evidence": "https://en.wikipedia.org/wiki/Garudan_Thookkam",
+      "question": "What are the specific rhythmic patterns played by the chenda during the night-long dance versus the suspension phase?",
+      "source": "https://en.wikipedia.org/wiki/Garudan_Thookkam",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the music profile and understand the transition between dance and ritual sacrifice."
+    },
+    {
+      "domain": "research",
+      "id": "ef7f255e026f841d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Garudan_Thookkam",
+      "question": "What are the specific 'Garuda-like' movements performed during the night-long dance before the piercing?",
+      "source": "https://en.wikipedia.org/wiki/Garudan_Thookkam",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current description only mentions 'mimicking flight' without technical detail for choreography."
+    }
+  ],
+  "research_file": "research_results/garudan-thookkam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "garudan-thookkam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Garudan_Thookkam",
+    "https://www.wikidata.org/wiki/Q5524472"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

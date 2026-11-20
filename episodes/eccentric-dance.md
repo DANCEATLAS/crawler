@@ -1,8 +1,8 @@
 # Eccentric dance — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic stage comedian and dance historian who models exaggerated physical comedy with effortless joint control.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dancing Like Your Bones Melted: The Vaudeville Eccentrics
 NARRATION: This is Eccentric dance. Late 19th and early 20th centuries.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (_RHHUmGaRsk)
 ON SCREEN: Title card: Eccentric dance · United States · Late 19th and early 20th centuries
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Eccentric dance is danced through unconventional, individualistic, and exaggerated physical comedy.
 NARRATION: Instead of holding the body stiff and straight in the traditional manner of a jig, dancers deliberately isolate body segments, shaking or snaking their limbs in styles termed rubber legs or legmania.
 NARRATION: Watch for Rubber legs, Legmania, Torso disassociation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (_RHHUmGaRsk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo theatrical stage space with dynamic erratic paths across the performance area
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance was performed in vaudeville theatres, music halls, Broadway stages, and soundstages for cinematic comedies. Costumes typically emphasized physical humor, visual distortion, and character archetypes, ranging from baggy street clothes and exaggerated comic suits to theatrical stage outfits like Ray Bolger's floppy straw-filled Scarecrow costume in The Wizard of Oz.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '_RHHUmGaRsk', 'checked_by_vision_model': True, 'title': 'Dickie Henderson - Leg Mania: Eccentric Dance routine with Billy Dainty and Max Wall 1971'}
 Images: 0 licensed
 Footage: File:A Breeze From The South (1928).webm — https://upload.wikimedia.org/wikipedia/commons/4/47/A_Breeze_From_The_South_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Eccentric Dance (1902) Directed By Alice Guy Blaché — https://archive.org/details/eccentric-dance-1902-directed-by-alice-guy-blache
 Motifs: Floppy fabric and oversized theatrical trousers exaggerating leg wobble, Vaudeville footlights casting elongated comic shadows, Split-screen comparison of rigid Irish jigs versus loose eccentric footwork
@@ -332,6 +332,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 12 tutorial(s) of the stage-contemporary family studied · videos studied: 12
 Counting: 
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
+Cues: lean down; knees up; legs straighten; engage your core; feet inside silks; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space
 
 Sources (2): https://en.wikipedia.org/wiki/Eccentric_dance; https://www.wikidata.org/wiki/Q19571554

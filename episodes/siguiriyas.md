@@ -1,6 +1,6 @@
 # siguiriyas — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
 
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
+Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
 Counting: count the 12-count compás bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (5): https://en.wikipedia.org/wiki/Siguiriyas; https://www.wikidata.org/wiki/Q2339999; https://es.wikipedia.org/wiki/Seguiriya; https://fr.wikipedia.org/wiki/Seguiriya; https://de.wikipedia.org/wiki/Seguiriya

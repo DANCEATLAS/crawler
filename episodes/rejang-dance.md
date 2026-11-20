@@ -1,6 +1,6 @@
 # Rejang dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-19 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-20 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; signature moves; the music & instruments section; notable figures
 
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 151 tutorials across the atlas studied · videos studied: 151
+Source: 170 tutorials across the atlas studied · videos studied: 170
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; rock step; 5-6-7-8; un dos tres; side close side; engage your core; right left right; 1-2-3; 1 2 3 4; switch; slide; hit
+Cues: 1-2-3-4; 5-6-7-8; rock step; engage your core; cross; one and two; right behind right touch; 1-2-3-4-5-6-7-8; right left right; hit; side close side; 1 2 3 4
 
 Sources (2): https://en.wikipedia.org/wiki/Rejang_dance; https://www.wikidata.org/wiki/Q12519987

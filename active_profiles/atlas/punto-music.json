@@ -1,13 +1,87 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands joined in the beginning; man may raise hands during seguidilla",
+      "difficulty": "intermediate",
+      "footwork": "Walking, brushing, and zapateo (foot-tapping)",
+      "formation_and_space": "Circular; man moves outside the circle in Punto de Mejorana",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumping in some variants like Punto Santeño",
+      "partnering": "Single couple, face-to-face interaction",
+      "posture": "Upright, with expressions of longing and passion",
+      "signature_moves": [
+        {
+          "description": "The male and female walk around in a wide circle.",
+          "name": "El Paseo"
+        },
+        {
+          "description": "Dancers face each other and show off skill and dexterity.",
+          "name": "El Zapateo"
+        }
+      ],
+      "tempo_feel": "Graceful and precise",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "rabel",
+        "accordion",
+        "mejoranera",
+        "flamenco guitar",
+        "tambor repicador",
+        "tambor pujador",
+        "caja redoblante"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "elegant",
+        "graceful",
+        "passionate"
+      ],
+      "musical_form": "melodic cantilena with ternary subdivision",
+      "reference_recordings": [],
+      "rhythm_pattern": "iambic dipodia",
+      "sound_description": "A rustic, melodic fiddle or accordion leads over a ternary-subdivided rhythmic base provided by folk drums and chordophones.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Kneeling start with left knee on floor",
+        "Walking in a wide circle (El Paseo)",
+        "Face-to-face footwork (El Zapateo)",
+        "Backward-moving separation (El Escobillao)",
+        "Close rotation (El Seguidilla)"
+      ],
+      "formation": "Single couple, circular path",
+      "level_notes": "Requires coordination and grace; specific steps repeat two or three times.",
+      "rhythm": "6/8 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c75428d08b95a108ace6372c81e06ce641b56c005df57987333e1fccaf2f1ee9",
+  "fingerprint": "203f7d48dc716f70b05fff4d19b4bc29dc32ea67031c4cd102896ed199122100",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +89,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, widely recognized recordings or artists that define the modern performance of the Punto? Evidence needed: Panamanian folk music archives or discographies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +118,18 @@
   ],
   "music_options": [],
   "name": "Punto music",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f1155b90f1131af7",
+      "next_evidence": "Panamanian folk music archives or discographies.",
+      "question": "Are there specific, widely recognized recordings or artists that define the modern performance of the Punto?",
+      "source": "https://en.wikipedia.org/wiki/Punto_music",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the instruments but do not name specific artists or albums for the music_profile."
+    }
+  ],
+  "research_file": "research_results/punto-music.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +141,8 @@
   "slug": "punto-music",
   "sources": [
     "https://en.wikipedia.org/wiki/Punto_music",
-    "Source: Punto music on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Punto_music"
+    "https://www.wikidata.org/wiki/Q6093242",
+    "https://es.wikipedia.org/wiki/Punto_panameño"
   ],
   "state": "researching",
   "video_evidence": []

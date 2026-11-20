@@ -1,0 +1,137 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "Feet akimbo with knees extended backwards.",
+      "formation_and_space": "Single-file line passing under a horizontal bar.",
+      "hips_and_torso": "Torso bent backwards; hip movement is central to the technique.",
+      "levels_and_jumps": "Levels decrease as the bar is lowered.",
+      "partnering": "not described in sources",
+      "posture": "Backwards arch with chest facing the sky.",
+      "signature_moves": [
+        {
+          "description": "Bending the back towards the floor while moving forward under the bar.",
+          "name": "The Arch"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Touching the bar, touching the floor with hands, or turning the head/neck to the side."
+    },
+    "music_profile": {
+      "instruments": [
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Chubby Checker",
+          "title": "Limbo Rock"
+        },
+        {
+          "artist": "Brigo",
+          "title": "Limbo Break"
+        }
+      ],
+      "rhythm_pattern": "Afro-Caribbean drum patterns",
+      "sound_description": "Characterized by driving Afro-Caribbean percussion rhythms that provide a steady pulse for the dancer's movements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Approach the bar with feet akimbo.",
+        "Lower the body while leaning backwards.",
+        "Extend knees backwards while passing under the bar.",
+        "Maintain balance without touching the ground with hands."
+      ],
+      "formation": "Single-file line of contestants.",
+      "level_notes": "Difficulty increases as the bar is lowered.",
+      "rhythm": "Afro-Caribbean drum patterns."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "0dbedbe480bb2e94cfa5b2b008d41b0a3a05591b032bf2a374e742705d1f2198",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, non-tourist-oriented traditional drum rhythms used in the original wake context? Evidence needed: Ethnomusicological field recordings from Tobago."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:calypso-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Limbo (dance)",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f01cd01df71d99ae",
+      "next_evidence": "Ethnomusicological field recordings from Tobago.",
+      "question": "Are there specific, non-tourist-oriented traditional drum rhythms used in the original wake context?",
+      "source": "https://en.wikipedia.org/wiki/Limbo_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To distinguish between modern entertainment music and the original ritualistic accompaniment."
+    }
+  ],
+  "research_file": "research_results/calypso-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "calypso-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Limbo_(dance)",
+    "https://www.wikidata.org/wiki/Q1756379",
+    "https://es.wikipedia.org/wiki/Limbo_(juego)",
+    "https://fr.wikipedia.org/wiki/Limbo_(danse)",
+    "https://de.wikipedia.org/wiki/Limbo_(Tanz)",
+    "https://it.wikipedia.org/wiki/Limbo_(ballo)"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

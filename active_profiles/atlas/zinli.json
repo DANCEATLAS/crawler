@@ -1,13 +1,59 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "kpezinga",
+        "kpezinvi",
+        "zin",
+        "gan daho",
+        "gan kwe kwe",
+        "assan"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "funereal",
+        "rhythmic",
+        "traditional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Prominent polyrhythms.",
+      "sound_description": "A polyrhythmic ensemble featuring hand-played drums, a pot-based percussion instrument, two types of bells, and a basket rattle.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a9c06d9dec10f03d24afccf26c6b92ed4c6b570318d6ba8efc8ecb99a22d1ef9",
+  "fingerprint": "65dbf484fb99d144eae24ff988297cc64edaf8380d94d90482e09dc71a823b39",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +61,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific physical movements or footwork associated with Zinli? Evidence needed: Ethnographic field recordings or dance notation from the Abomey region."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +91,18 @@
   ],
   "music_options": [],
   "name": "Zinli",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "57c824adfcdb089a",
+      "next_evidence": "Ethnographic field recordings or dance notation from the Abomey region.",
+      "question": "What are the specific physical movements or footwork associated with Zinli?",
+      "source": "https://en.wikipedia.org/wiki/Zilin_Music",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only describe the music and history; without movement data, the dance cannot be taught."
+    }
+  ],
+  "research_file": "research_results/zinli.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +113,9 @@
   },
   "slug": "zinli",
   "sources": [
-    "https://numeridanse.com/en/publication/traditional-dances-from-benin/",
-    "https://www.academia.edu/15183387/Music_of_the_Earth_Explorations_in_the_Fon_Funeral_Repertoire_of_Zinli"
+    "https://en.wikipedia.org/wiki/Zilin_Music",
+    "https://www.wikidata.org/wiki/Q138606031"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

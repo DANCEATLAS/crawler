@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "The dance takes place in a paddy field with participants moving through stages of cultivation.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Cooperative movement between men and women representing agricultural labor.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "harmonium",
+        "idakka",
+        "tabla"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ritual",
+        "agricultural"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by the combination of the harmonium, the traditional idakka drum, and the tabla, providing a rhythmic accompaniment to the agricultural narrative.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Ploughing movement (men)",
+        "Planting seedlings (men and women)",
+        "Harvesting motions",
+        "Threshing motions"
+      ],
+      "formation": "Group formation in a paddy field",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "58d1bf81fe41734ee4c06555c856c71dfe120774134f7df19ac82e53d8f5d175",
+  "fingerprint": "42b634bab3ef3641d2415852b0eb3886e53eeb66d316e66ac3803fac8b65e55b",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns used for the different stages of the agricultural cycle? Evidence needed: Field recordings or ethnomusicological studies of Theyyannam."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Theyyannam",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "a1e7336ccd80cba0",
+      "next_evidence": "Field recordings or ethnomusicological studies of Theyyannam.",
+      "question": "What are the specific rhythmic patterns used for the different stages of the agricultural cycle?",
+      "source": "https://en.wikipedia.org/wiki/Theyyannam",
+      "status": "candidate_unreviewed",
+      "why_needed": "To understand the musical structure and tempo variations during the performance."
+    }
+  ],
+  "research_file": "research_results/theyyannam.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +115,8 @@
   "slug": "theyyannam",
   "sources": [
     "https://en.wikipedia.org/wiki/Theyyannam",
-    "Source: Theyyannam on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Theyyannam"
+    "https://www.wikidata.org/wiki/Q104172919"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

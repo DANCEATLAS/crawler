@@ -4,7 +4,7 @@
       "children": {
         "avoid": [],
         "counts": "not derivable yet",
-        "duration_minutes": "not derivable yet",
+        "duration_minutes": "0",
         "game_version": "not derivable yet"
       },
       "derived": true,
@@ -16,72 +16,58 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "Beginner to intermediate",
-      "footwork": "Measured walking steps in binary rhythm, with variations resembling pavane and galliard steps",
-      "formation_and_space": "Couples in procession or courtly line, moving forward or in place",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "Danced by couples, no complex partnering described",
-      "posture": "Upright, poised, steady",
-      "signature_moves": [
-        {
-          "description": "A possible figure involving a step plus a half-step, origin of the dance’s name",
-          "name": "Step and a Half"
-        }
-      ],
-      "tempo_feel": "Measured, steady, moderately paced",
-      "what_to_avoid": "No jumps or fast movements; maintain measured pace and grace"
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "faster than the pavane",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Lute",
-        "Keyboard instruments",
-        "Ensemble (strings, winds)",
-        "Occasional vocal accompaniment"
+        "lute",
+        "keyboard",
+        "chitarrone",
+        "chamber ensemble"
       ],
-      "meter": "2/2 or 4/4 (binary rhythm)",
+      "meter": "binary",
       "mood_keywords": [
-        "calm",
-        "measured",
-        "graceful",
-        "stately"
+        "tranquil",
+        "serious"
       ],
-      "musical_form": "Repeated chord progression (ostinato bass) with melodic variations; often part of a suite",
+      "musical_form": "binary variations over ostinato bass",
       "reference_recordings": [
         {
-          "artist": "Giacomo Gorzanis",
-          "source": "https://es.wikipedia.org/wiki/Passamezzo",
-          "title": "24 Passamezzi"
-        },
-        {
-          "artist": "Vincenzo Galilei",
-          "source": "https://fr.wikipedia.org/wiki/Passamezzo",
-          "title": "Passamezzo Suites"
+          "artist": "Hespèrion XXI, Jordi Savall",
+          "title": "Ostinato"
         }
       ],
-      "rhythm_pattern": "Ostinato chord progression repeated continuously",
-      "sound_description": "The passamezzo features a steady, repeating chord progression in minor (antico) or major (moderno) keys, played on lute or keyboard, with a calm and flowing rhythmic feel supporting measured dance steps.",
+      "rhythm_pattern": "ostinato bass line",
+      "sound_description": "A steady, flowing binary rhythm driven by repeating ostinato chord progressions in minor or major, maintaining a calm and measured pace.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Rare examples; typically instrumental"
+      "vocal_style": "not described in sources"
     },
     "teaching": {
-      "basic_steps": [
-        "Begin with a measured walking step in binary rhythm",
-        "Maintain upright posture with steady, graceful movement",
-        "Repeat step sequences in place or progressing forward",
-        "Incorporate variations resembling pavane steps and galliard movements",
-        "Conclude with a transition to a triple-time dance such as saltarello"
-      ],
-      "formation": "Couples dancing in procession or courtly line",
-      "level_notes": "Technique not described in sources; teaching focuses on measured walking steps and rhythm awareness.",
-      "rhythm": "Binary (duple) meter"
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "binary rhythm"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9f655ba4c736fd6df30eee37b491da680ce040d79a57d3149df373a65a6a3751",
+  "fingerprint": "acaf2c79de30ac909574ed03f876bcb2b7cb7490eec1a01e7e0c45a06be2b582",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -89,7 +75,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there undiscovered manuscript treatises that preserve specific footwork counts for the passamezzo? Evidence needed: Archival surveys of 16th-century Italian dance manuals."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -116,7 +104,17 @@
   ],
   "music_options": [],
   "name": "Passamezzo",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "069e66e86e739b31",
+      "next_evidence": "Archival surveys of 16th-century Italian dance manuals.",
+      "question": "Are there undiscovered manuscript treatises that preserve specific footwork counts for the passamezzo?",
+      "source": "https://en.wikipedia.org/wiki/Passamezzo",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources note that original step details are not preserved."
+    }
+  ],
   "research_file": "research_results/passamezzo.json",
   "runtime_active": false,
   "scope": {
@@ -130,6 +128,7 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Passamezzo",
     "https://www.wikidata.org/wiki/Q1294481",
+    "https://it.wikipedia.org/wiki/Passamezzo",
     "https://es.wikipedia.org/wiki/Passamezzo",
     "https://fr.wikipedia.org/wiki/Passamezzo",
     "https://de.wikipedia.org/wiki/Passamezzo"

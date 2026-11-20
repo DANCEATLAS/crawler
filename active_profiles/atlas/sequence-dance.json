@@ -16,23 +16,23 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "beginner",
-      "footwork": "Preset patterns following a 16-bar repeat structure",
-      "formation_and_space": "Progressive around the room",
+      "footwork": "1. RF Fwd in CBMP (OP) comm to tn R * Side LF * Cls RF to LF to end bkng LOD. S Q Q. 2. LF bk dn LOD *RF Bk, R shldr ldg * Crs LF in front of RF S Q Q.",
+      "formation_and_space": "Dancers progress around the room.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
-      "signature_moves": [
-        {
-          "description": "Right foot forward in contrary body movement position.",
-          "name": "RF Fwd in CBMP"
-        }
-      ],
-      "tempo_feel": "Strict tempo",
+      "signature_moves": [],
+      "tempo_feel": "strict tempo",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
@@ -41,27 +41,29 @@
       "mood_keywords": [
         "strict tempo"
       ],
-      "musical_form": "16-bar sequences with a 4-bar introduction",
+      "musical_form": "4 bar introduction followed by 5 or 6 sixteen bar sequences",
       "reference_recordings": [],
-      "rhythm_pattern": "16-bar sequences",
-      "sound_description": "Music is performed in strict tempo to match the 16-bar sequence structure of the dance.",
+      "rhythm_pattern": "16 bar sequences",
+      "sound_description": "Strict tempo music designed to fit 16-bar sequences, often featuring a 4-bar introduction.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Forward in CBMP (Contrary Body Movement Position)",
-        "Side step",
-        "Close feet",
-        "Backward step"
+        "RF Fwd in CBMP (OP) comm to tn R",
+        "Side LF",
+        "Cls RF to LF to end bkng LOD",
+        "LF bk dn LOD",
+        "RF Bk, R shldr ldg",
+        "Crs LF in front of RF"
       ],
-      "formation": "Progressive around the room",
-      "level_notes": "Beginners learn via scripts or dance clubs.",
-      "rhythm": "Strict tempo, 16-bar sequences"
+      "formation": "Dancers progress around the room in a circle or line.",
+      "level_notes": "Scripts are written in a shorthand jargon that is easily learned.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5bee0c7315dde73ec0e376bd60f8ed8004b384fcfaeeccdc296a3ea69529e22e",
+  "fingerprint": "1171bf8ebc2259e42a7e29eb9483a3cf315416784cd8f88370c4c75132ba3724",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",

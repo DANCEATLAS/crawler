@@ -1,0 +1,121 @@
+{
+ "slug": "zinli",
+ "qc_at": "2026-11-20T19:50:07Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Zinli"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "58"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "182"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Created in the 17th century by King Glele for a funeral, Zinli remains a respect"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "477"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1972"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,music_and_instruments,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Benin"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['funeral']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well-sourced and respectful of sacred funerary context. Teaching value is low due to withheld steps for a sacred dance, which is correctly handled."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=8.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-20T19:43:54Z"
+}

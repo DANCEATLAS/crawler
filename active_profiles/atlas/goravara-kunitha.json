@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Right hand holds the Nagabetha (stick); left hand holds the Pillangovi (flute) or Damaru.",
+      "difficulty": "advanced",
+      "footwork": "Rhythmic stepping to activate anklets; moving in circles.",
+      "formation_and_space": "Straight lines for 10-12 people, transitioning into circular paths.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Transitions from standing to lying flat on the stomach.",
+      "partnering": "None; group synchronization led by a senior member.",
+      "posture": "Upright during public circles; lying flat on the stomach during specific ritual segments.",
+      "signature_moves": [
+        {
+          "description": "Lying flat on the stomach to eat ritual offerings without using hands.",
+          "name": "Ogu Seve Eating"
+        },
+        {
+          "description": "Making big eyes and raised eyebrows to create a sense of awe or fear.",
+          "name": "Scary Gaze"
+        }
+      ],
+      "tempo_feel": "Intoxicating and energetic.",
+      "what_to_avoid": "Avoid touching ritual offerings with hands during the Mane Seve; avoid breaking the 'scary' facial expression during performance."
+    },
+    "music_profile": {
+      "instruments": [
+        "Damaru (small drum)",
+        "Pillangovi (flute)",
+        "Gante (jingle/anklets)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "intoxicating",
+        "scary",
+        "devotional",
+        "rhythmic"
+      ],
+      "musical_form": "Continuous storytelling/epic recitation that can last for days.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Intoxicating beats of the Damaru synchronized with heavy anklet strikes.",
+      "sound_description": "A dense percussive layer of small drums and heavy metal anklets overlaid with high-pitched flute melodies and deep, repetitive vocal chanting of religious epics.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Recitation of epics and singing praises; repetition of Paraks (chants)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Initiate the rhythm by beating the Damaru drum in the left hand.",
+        "Play the Pillangovi (flute) while maintaining the drum rhythm.",
+        "Step in a circular path with heavy footfalls to sound the Gante (anklets).",
+        "Widen the eyes and raise eyebrows to maintain the 'scary' ritual expression.",
+        "Brandish the Nagabetha (wooden stick) while moving in the circle."
+      ],
+      "formation": "Straight lines transitioning into circular movements.",
+      "level_notes": "Requires high physical stamina for continuous chanting and drumming; the 'Mane Seve' version requires the ability to transition to the floor.",
+      "rhythm": "Intoxicating, repetitive beats driven by the Damaru and rhythmic anklets."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "5ca0bf7b843b17d8c63324436ddb515961c4567b996c312effa13b7ba30b85c4",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific 'Paraks' (chants) that correspond to specific movements? Evidence needed: https://en.wikipedia.org/wiki/Goravara_Kunitha"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the specific rhythmic synchronization between the Damaru strike and the footfall? Evidence needed: https://en.wikipedia.org/wiki/Goravara_Kunitha"
+    ]
+  },
+  "id": "atlas:goravara-kunitha",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Goravara Kunitha",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "24350dd2da1cde39",
+      "next_evidence": "https://en.wikipedia.org/wiki/Goravara_Kunitha",
+      "question": "What is the specific rhythmic synchronization between the Damaru strike and the footfall?",
+      "source": "https://en.wikipedia.org/wiki/Goravara_Kunitha",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the dance accurately, the relationship between the percussive instrument and the step must be clear."
+    },
+    {
+      "domain": "research",
+      "id": "79a19850d3e7ca53",
+      "next_evidence": "https://en.wikipedia.org/wiki/Goravara_Kunitha",
+      "question": "Are there specific 'Paraks' (chants) that correspond to specific movements?",
+      "source": "https://en.wikipedia.org/wiki/Goravara_Kunitha",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions repeating Paraks while dancing; understanding the link between chant and step is vital for ritual accuracy."
+    }
+  ],
+  "research_file": "research_results/goravara-kunitha.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "goravara-kunitha",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Goravara_Kunitha",
+    "https://www.wikidata.org/wiki/Q5584533"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

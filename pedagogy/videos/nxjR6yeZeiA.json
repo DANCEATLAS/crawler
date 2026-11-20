@@ -1,0 +1,137 @@
+{
+ "youtube_id": "nxjR6yeZeiA",
+ "slug": "pogo",
+ "dance": "Pogo",
+ "title": "How to Breakdance | Pogo Rock(Back Rock) | Jay Rawk(Style Elements/Floor Rockers)",
+ "channel": "VincaniTV",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-20T19:52:51Z",
+ "url": "https://www.youtube.com/watch?v=nxjR6yeZeiA",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the pogo rock move step by step, demonstrating it slowly before speeding it up. He encourages repetition and practice of the transition for better flow.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Host introduces guest teacher Jay Rawk."
+   },
+   {
+    "t": "0:30",
+    "segment": "breakdown",
+    "note": "Teacher demonstrates the pogo rock slowly."
+   },
+   {
+    "t": "1:01",
+    "segment": "count_in",
+    "note": "Teacher counts out the steps 1 through 4."
+   },
+   {
+    "t": "1:30",
+    "segment": "music_practice",
+    "note": "Teacher performs the pogo rock at a faster speed."
+   },
+   {
+    "t": "1:46",
+    "segment": "recap",
+    "note": "Teacher wraps up the lesson and offers encouragement."
+   }
+  ],
+  "counting_scheme": "1-2-3-4",
+  "cues": [
+   "Start from my back",
+   "Hit one two three"
+  ],
+  "metaphors": [
+   "kind of uses it like as a spring"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Pogo Rock",
+    "counts": "1-2-3-4",
+    "description": "A transition back rock starting from the back and working up and down like a spring."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Slow demonstration followed by a counted breakdown",
+    "Repeated practice suggestions"
+   ],
+   "what_hinders": [
+    "Lacks close-up angles of foot and hand placement"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:15",
+    "text": "I call it the pogo rock."
+   },
+   {
+    "t": "0:43",
+    "text": "Start from my back. Start one leg up."
+   },
+   {
+    "t": "1:03",
+    "text": "Go one, two, three, in, come back to the same spot, four."
+   },
+   {
+    "t": "1:51",
+    "text": "Take your time, step by step, so you guys can get the form."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 30,
+    "end_s": 57,
+    "topic": "movement",
+    "observation": "Teacher demonstrates the pogo rock on the floor slowly.",
+    "viewpoint": "front view, unknown mirror status",
+    "cannot_infer": "exact weight distribution on hands and back",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 101,
+    "end_s": 113,
+    "topic": "teaching",
+    "observation": "Teacher performs the pogo rock while counting aloud 1 to 4.",
+    "viewpoint": "front view, unknown mirror status",
+    "cannot_infer": "rhythm alignment with music",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 133,
+    "end_s": 144,
+    "topic": "movement",
+    "observation": "Teacher demonstrates the pogo rock at a faster tempo.",
+    "viewpoint": "front view, unknown mirror status",
+    "cannot_infer": "precise footwork details during fast rotation",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Teaching a foundational transition rock by emphasizing repetition as a spring-like loop."
+ },
+ "attempts": 1
+}

@@ -1,8 +1,8 @@
 # Yablochko — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned character dancer and folk choreographer with crisp rhythmic precision and theatrical naval swagger.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: From the Hornpipe to the Red Square
 NARRATION: This is Yablochko. 1910s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (HAN5W1QttiE)
 ON SCREEN: Title card: Yablochko · Russia · 1910s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ MUSIC: underscore
 NARRATION: The dance is arranged in phrases of 8 to 16 bars over a musical square, beginning slowly and accelerating to a very fast tempo.
 NARRATION: Performers begin with a slow entrance and broad hand gestures, line up with hands on one another's shoulders, and execute rapid foot-tapping and stomping.
 NARRATION: Watch for Prisiadka, Chechotka, Khlopushka.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (HAN5W1QttiE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Linear chorus lines, stationary fixed-spot center stage, and circular call-and-response spaces
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -330,7 +330,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Yablochko is performed by dancers wearing naval sailor uniforms, complete with sailor caps referencing the naval pompom. Originally performed on ship decks, military grounds, and street corners, it transitioned into concert halls and theaters, famously featured on the Bolshoi Theatre stage and in the touring repertoire of the Moiseyev Ballet.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'HAN5W1QttiE', 'checked_by_vision_model': True, 'title': 'Alexei Orohovsky 11 year old 2019 Yablochko'}
 Images: 1 licensed — Вениамин Царегородцев / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Igor Moiseyev Ballet - Yablochko (1982) — https://archive.org/details/igor-moiseyev-ballet-yablochko-1982; The Red Poppy - Yablochko (1927) — https://archive.org/details/the-red-poppy-yablochko-1927; Yablochko (1946) — https://archive.org/details/yablochko-1946; Yablochko (1961) — https://archive.org/details/yablochko-1961; The Talmud's Got to Go — https://archive.org/details/youtube-XHLHDRUpuOA; Pacific Fleet - Yablochko (1970) — https://archive.org/details/pacific-fleet-yablochko-1970; Reinhold Glière Orch. Adolf Schmid: Russian Sailors Dance from The Red Poppy — https://archive.org/details/retnvt-Reinhold_Gliere_Orch._Adolf_Schmid_-_Russian_Sailors_Dance_from_The_Red_Poppy
 Motifs: Naval striped shirts and naval caps with flying ribbons, Rapidly tapping leather boot heels kicking up floor dust, A garmoshka player's bellows expanding and contracting in rhythm, Low-angle camera tracks framing explosive prisiadka squat kicks
@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
+Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
 
 Sources (4): https://en.wikipedia.org/wiki/Yablochko; https://www.wikidata.org/wiki/Q4535968; https://fr.wikipedia.org/wiki/Yablotchko; https://pt.wikipedia.org/wiki/Yablochko

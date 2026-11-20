@@ -1,18 +1,18 @@
 # Active Profile readiness
 
-Evaluated 2026-11-19. No model calls; existing budgets unchanged.
+Evaluated 2026-11-20. No model calls; existing budgets unchanged.
 
-1,398 dossiers; 0 ready for activation; 0 running interactive experiences.
+1,427 dossiers; 0 ready for activation; 0 running interactive experiences.
 
 ## Missing work across the catalogue
 
 | Work stream | Profiles with gaps |
 |---|---:|
-| research | 1396 |
-| video | 1373 |
-| rights | 1398 |
-| review | 1398 |
-| platform | 1398 |
+| research | 1425 |
+| video | 1396 |
+| rights | 1427 |
+| review | 1427 |
+| platform | 1427 |
 
 Technology evidence needing recheck: none in the recorded watchlist
 

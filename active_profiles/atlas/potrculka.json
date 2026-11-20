@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-stretching the belt grip",
+          "Colliding in the half-circle"
+        ],
+        "counts": "1-and-2-and",
+        "duration_minutes": "3",
+        "game_version": "The 'Hurrying Game': children must maintain the belt-hold while the leader gradually increases the tempo."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Prolonged balance on balls of feet",
+          "Rapid direction changes"
+        ],
+        "counts": "1, 2, 1, 2",
+        "seated_version": "Perform the 2/4 rhythm with heel-toe taps while seated; simulate the belt grip by resting hands on the lap or a belt.",
+        "standing_version": "Perform small steps without the jumps; use a chair for balance instead of the belt grip if needed.",
+        "tempo_and_range": "Reduce tempo to a slow walk; minimize the height of the 'half-feet' lift."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding belts with the left hand over the right hand.",
+      "difficulty": "intermediate",
+      "footwork": "Small steps and small jumps on half feet (balls of the feet).",
+      "formation_and_space": "Half-circle formation.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Small jumps on half feet.",
+      "partnering": "None; communal line dance.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Small jumps performed on the balls of the feet in 2/4 time.",
+          "name": "Hurrying Jumps"
+        }
+      ],
+      "tempo_feel": "Medium-fast; 'hurrying'.",
+      "what_to_avoid": "Avoid flat-footed steps; the dance requires being on the half-feet."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "hurrying",
+        "brisk",
+        "energetic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by a 2/4 rhythm that supports a medium-fast tempo, designed to facilitate small jumps and quick footwork.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume a half-circle formation",
+        "Grasp the belt with the left hand placed over the right hand",
+        "Rise onto the half-feet (balls of the feet)",
+        "Execute small, quick steps in a 2/4 rhythm",
+        "Incorporate small jumps while maintaining the belt grip"
+      ],
+      "formation": "Half-circle",
+      "level_notes": "Requires agility and balance on the balls of the feet.",
+      "rhythm": "2/4"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "65b4bf54a3bacc775d2001787aa053c814a77d6eacc152007b3fc9d41cb36f8a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific melodic patterns or instruments used in the Kočani region for this 2/4 rhythm? Evidence needed: https://en.wikipedia.org/wiki/Potr%C4%8Dulka"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there archival recordings from the Institut za folklor in Skopje showing the specific footwork sequence? Evidence needed: https://en.wikipedia.org/wiki/Potr%C4%8Dulka"
+    ]
+  },
+  "id": "atlas:potrculka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Potrčulka",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "e7ab6c0bf2ea43ca",
+      "next_evidence": "https://en.wikipedia.org/wiki/Potr%C4%8Dulka",
+      "question": "Are there archival recordings from the Institut za folklor in Skopje showing the specific footwork sequence?",
+      "source": "https://en.wikipedia.org/wiki/Potr%C4%8Dulka",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current description of 'small steps' is insufficient for a full choreographic reconstruction."
+    },
+    {
+      "domain": "research",
+      "id": "8daac51ac5aae4c4",
+      "next_evidence": "https://en.wikipedia.org/wiki/Potr%C4%8Dulka",
+      "question": "What are the specific melodic patterns or instruments used in the Kočani region for this 2/4 rhythm?",
+      "source": "https://en.wikipedia.org/wiki/Potr%C4%8Dulka",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide an authentic music profile for composers or performers."
+    }
+  ],
+  "research_file": "research_results/potrculka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "potrculka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Potr%C4%8Dulka",
+    "https://www.wikidata.org/wiki/Q16947075"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex satirical dialogue",
+          "Heavy wooden masks"
+        ],
+        "counts": "Simplified rhythmic clapping to match the drum.",
+        "duration_minutes": "15",
+        "game_version": "A 'follow the leader' game where children mimic the different character masks (e.g., the 'clown' or the 'noble')."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep squats",
+          "Rapid pivots"
+        ],
+        "counts": "Simple 4/4 or 3/4 pulses.",
+        "seated_version": "Focus on the expressive arm gestures and facial mimicry (even without masks) while seated.",
+        "standing_version": "Gentle rhythmic stepping in place, emphasizing the storytelling aspect over large movements.",
+        "tempo_and_range": "Reduced tempo to allow for clear articulation of gestures."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Fluid, sweeping motions characteristic of Youngnam province style",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular or open-front dramatic stage",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Theatrical interaction between characters (e.g., gentry vs. commoner)",
+      "posture": "Grounded and natural, reflecting the 'dancing farmer' aesthetic",
+      "signature_moves": [
+        {
+          "description": "A regional aesthetic characterized by specific lines and mask-work preserved from the early 1900s.",
+          "name": "Youngnam Style"
+        }
+      ],
+      "tempo_feel": "Varies by act, ranging from slow dramatic tension to fast comedic resolution",
+      "what_to_avoid": "Avoid performing exorcism rituals, as this specific tradition omits them in favor of entertainment."
+    },
+    "music_profile": {
+      "instruments": [
+        "Janggu",
+        "Buk",
+        "Kkwaenggwari"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "satirical",
+        "energetic",
+        "earthy",
+        "humorous"
+      ],
+      "musical_form": "Five-act structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "Jangdan (Korean rhythmic structures)",
+      "sound_description": "A percussion-driven soundscape featuring the sharp clatter of gongs and the deep resonance of barrel drums, supporting a narrative filled with spoken satire.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Dramatic, spoken lines integrated with dance"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Enter the performance space with a rhythmic, grounded walk",
+        "Perform character-specific gestures (e.g., the aristocrat's swagger)",
+        "Execute the 'Youngnam' style fluid arm movements",
+        "Deliver dramatic lines while maintaining dance posture",
+        "Exit following the completion of the act's story"
+      ],
+      "formation": "Open-air dramatic circle",
+      "level_notes": "Requires both acting ability and the 'natural' dance style associated with rural labor.",
+      "rhythm": "Traditional Korean folk rhythms (Jangdan)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "838528bbdf2fe7ddfdfcf647c109a3981c2a2a33c57a8d4a7721e592f9ef76d3",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific names and narrative arcs of the five acts (stories) in the drama? Evidence needed: https://en.wikipedia.org/wiki/Goseong_ogwangdae"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns (e.g., kkaekkiri) used in the Youngnam style of Goseong? Evidence needed: https://en.wikipedia.org/wiki/Goseong_ogwangdae"
+    ]
+  },
+  "id": "atlas:goseong-ogwangdae",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Goseong ogwangdae",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "021221ead577808b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Goseong_ogwangdae",
+      "question": "What are the specific footwork patterns (e.g., kkaekkiri) used in the Youngnam style of Goseong?",
+      "source": "https://en.wikipedia.org/wiki/Goseong_ogwangdae",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions the style is well-preserved but does not describe the mechanics of the steps needed for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "89a75ef5805b20a2",
+      "next_evidence": "https://en.wikipedia.org/wiki/Goseong_ogwangdae",
+      "question": "What are the specific names and narrative arcs of the five acts (stories) in the drama?",
+      "source": "https://en.wikipedia.org/wiki/Goseong_ogwangdae",
+      "status": "candidate_unreviewed",
+      "why_needed": "The 'five clowns' name implies five distinct segments, but the source only mentions they cover gentry satire and domestic issues."
+    }
+  ],
+  "research_file": "research_results/goseong-ogwangdae.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "goseong-ogwangdae",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Goseong_ogwangdae",
+    "https://www.wikidata.org/wiki/Q5587169"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,13 +1,75 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Rigid technical corrections that may discourage movement"
+        ],
+        "counts": "Simplified counts.",
+        "duration_minutes": "15",
+        "game_version": "Focus on the 'lilting' quality through creative movement games."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Deep knee bends",
+          "Balance-intensive movements"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Focus on arm movements and upper body flow while seated.",
+        "standing_version": "Use a ballet barre for support to maintain alignment.",
+        "tempo_and_range": "Reduced tempo to accommodate slower movement."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Classical ballet alignment and turnout",
+      "signature_moves": [],
+      "tempo_feel": "Lilting and poetic",
+      "what_to_avoid": "Turning-in of legs and jazz-style finger-gestures"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4 or 4/4",
+      "mood_keywords": [
+        "soft",
+        "smooth",
+        "lilting",
+        "poetic"
+      ],
+      "musical_form": "Russian folk tunes",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is based on Russian folk tunes, characterized by a soft and smooth quality, played at a medium tempo.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Establish classical turnout and body alignment",
+        "Execute ballroom-influenced steps with a lilting, poetic quality",
+        "Maintain continuous flow between movements"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Requires mastery of classical ballet turnout and alignment.",
+      "rhythm": "2/4 or 4/4 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9f6795d3d145ff4bca55036a5e5000b5311eeb0384f834fd6b6b0d60f0f7b849",
+  "fingerprint": "437398270c54134804f991ff65eb181d41d848bdc51ce516d586c6953d8fdc60",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +77,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, formation_and_space",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific pedagogical exercises or 'barre' routines that define the transition from Soviet ballroom to lyrical ballet? Evidence needed: Instructional manuals or dance pedagogy records from Russian dance academies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +107,18 @@
   ],
   "music_options": [],
   "name": "Lyrical ballet",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "49221a8e3502b4e3",
+      "next_evidence": "Instructional manuals or dance pedagogy records from Russian dance academies.",
+      "question": "Are there specific pedagogical exercises or 'barre' routines that define the transition from Soviet ballroom to lyrical ballet?",
+      "source": "https://en.wikipedia.org/wiki/Lyrical_ballet",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source mentions the incorporation of ballroom steps but lacks the specific technical drills required for teaching."
+    }
+  ],
+  "research_file": "research_results/lyrical-ballet.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +130,7 @@
   "slug": "lyrical-ballet",
   "sources": [
     "https://en.wikipedia.org/wiki/Lyrical_ballet",
-    "Source: Lyrical ballet on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Lyrical_ballet"
+    "https://www.wikidata.org/wiki/Q6710020"
   ],
   "state": "researching",
   "video_evidence": []

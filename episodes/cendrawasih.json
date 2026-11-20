@@ -2,7 +2,7 @@
  "slug": "cendrawasih",
  "name": "Cendrawasih",
  "pack_version": "e2",
- "built_at": "2026-11-19T20:42:42Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-19T19:35:02Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Cendrawasih. 1988 (modern version)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (IWB7uMeNgxc)",
      "Title card: Cendrawasih · Indonesia · 1988 (modern version)"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Wing Extension, En Pointe Pose, Flight Run."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (IWB7uMeNgxc)",
      "Captions name each signature move as it appears",
      "Formation: Duet space interaction simulating avian courtship pathways."
     ],
@@ -717,7 +717,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "IWB7uMeNgxc",
+   "checked_by_vision_model": true,
+   "title": "Tari Cendrawasih Dance"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -829,8 +833,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "49 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 49,
+  "source": "58 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 58,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -840,17 +844,17 @@
   ],
   "cues": [
    "1-2-3-4",
+   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "5-6-7-8",
-   "1-2-left",
-   "2-2-right",
-   "step in front",
-   "step behind",
-   "levanto los talones hasta atrs",
-   "doble golpe con mi pie",
-   "pisada con toda la planta del pie",
-   "sin elevarme tanto"
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "drop your seat",
+   "meerkat position",
+   "preload",
+   "lunge forwards"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -869,7 +873,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "the music & instruments section"
  ],
  "sources": [
@@ -880,6 +883,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "07a7d426752fbd0d7e2784f0dd5d873cf8515e5f4246d761eca3a0b55327e808",
- "hero_checked": null
+ "input_fingerprint": "05ca8a9e95a4196bfac08df28656d71ef6c075ad670b25ff005ffe8a77ea0183",
+ "hero_checked": "pass"
 }

@@ -1,0 +1,130 @@
+{
+ "youtube_id": "n8-SMQYL2Ro",
+ "slug": "farruca",
+ "dance": "Farruca",
+ "title": "La Farruca - Masterclass Escuela de Flamenco Manolete",
+ "channel": "Escuela Internacional de Flamenco Manolete",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-20T19:56:09Z",
+ "url": "https://www.youtube.com/watch?v=n8-SMQYL2Ro",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher leads a group masterclass with energetic vocal counts and active demonstration at the front of the studio. She corrects rhythm and accents directly while students follow along.",
+  "language": "Spanish",
+  "level": "mixed",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "follow_along",
+    "note": "Teacher and students practicing footwork together in studio"
+   },
+   {
+    "t": "0:11",
+    "segment": "breakdown",
+    "note": "Teacher explaining the accent on the second beat"
+   },
+   {
+    "t": "0:56",
+    "segment": "music_practice",
+    "note": "Group dancing with clapping and guitar accompaniment"
+   },
+   {
+    "t": "1:25",
+    "segment": "full_demo",
+    "note": "Solo demonstration by the teacher"
+   }
+  ],
+  "counting_scheme": "1-2-3-4 / y-tac-tac",
+  "cues": [
+   "Y tac tac",
+   "El segundo"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side",
+    "mirror"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Farruca footwork sequence",
+    "counts": "1-2-3-4",
+    "description": ""
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear vocal counting and rhythmic clapping by instructor"
+   ],
+   "what_hinders": [
+    "Rapid pacing and multiple dancers in frame make individual foot placement hard to see"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:13",
+    "text": "Una, dos y"
+   },
+   {
+    "t": "0:21",
+    "text": "El segundo que marcamos tiene el acento"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 8,
+    "topic": "movement",
+    "observation": "Instructor and students performing rapid flamenco footwork on a studio stage facing forward",
+    "viewpoint": "front view, unmirrored",
+    "cannot_infer": "exact weight distribution due to fast movement",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 11,
+    "end_s": 19,
+    "topic": "teaching",
+    "observation": "Instructor facing the class, giving verbal count and gesturing with her arm before moving",
+    "viewpoint": "front view, unmirrored",
+    "cannot_infer": "complete breakdown of footwork mechanics",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 28,
+    "end_s": 34,
+    "topic": "movement",
+    "observation": "Close-up of instructor's legs and shoes demonstrating fast tacandeo/heel work",
+    "viewpoint": "side view, unmirrored",
+    "cannot_infer": "full body posture and arm placement",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 56,
+    "end_s": 62,
+    "topic": "movement",
+    "observation": "Group dancing in a circle with arms raised while people clap along on the sides",
+    "viewpoint": "angled view, unmirrored",
+    "cannot_infer": "individual instruction details",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining live guitar accompaniment and hand-clapping circle with the teacher dancing alongside students at full performance speed."
+ },
+ "attempts": 1
+}

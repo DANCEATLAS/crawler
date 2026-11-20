@@ -4,57 +4,60 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "beginner",
-      "footwork": "Barefoot stomping.",
+      "footwork": "Barefoot stomping",
       "formation_and_space": "not described in sources",
-      "hips_and_torso": "Vigorous shaking of the thoracic region and upper body (ukutyityimba).",
+      "hips_and_torso": "Shaking of the thoracic region (ukutyityimba)",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Upright and grounded.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "A vigorous shaking of the thoracic region and the rest of the upper body.",
+          "description": "Vigorous shaking of the thoracic region and upper body.",
           "name": "Ukutyityimba"
         }
       ],
-      "tempo_feel": "Varies by category; slow for Umngqungqo, rhythmic for others.",
-      "what_to_avoid": "Avoid disrespectful imitation of ritual movements; ensure barefoot safety on appropriate surfaces."
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
         "Uhadi musical bow",
         "Drum",
-        "Impempe (reed whistle)"
+        "Impempe whistle (Ingcongolo reed)"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
         "dignified",
-        "ritual",
         "rhythmic"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Rhythmic pulse provided by clapping and drums.",
-      "sound_description": "The music is characterized by the resonant twang of the Uhadi bow, the steady beat of drums, and the piercing, high-pitched sound of the Ingcongolo reed whistle, all layered under rhythmic clapping and vocal chanting.",
+      "rhythm_pattern": "Rhythmic clapping and drum beat",
+      "sound_description": "The music is characterized by the resonance of the Uhadi bow, the percussive strike of drums, the sharp tone of the reed whistle, and vocal theme songs accompanied by clapping.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Ukombela (slow vocal music/theme songs)"
+      "vocal_style": "Ukombela (theme songs)"
     },
     "teaching": {
       "basic_steps": [
-        "Barefoot stomping to the rhythm of the drum or clapping.",
-        "Engaging the thoracic region to perform the ukutyityimba shoulder shake.",
-        "Coordinating upper body shaking with the rhythmic footwork."
+        "Barefoot stomping",
+        "Thoracic shaking (ukutyityimba)"
       ],
       "formation": "not described in sources",
-      "level_notes": "Beginners should focus on the coordination of the shoulder shake (ukutyityimba) while maintaining a steady, grounded stomp.",
-      "rhythm": "Rhythmic pulse provided by drums, clapping, or vocal ukombela."
+      "level_notes": "not described in sources",
+      "rhythm": "Rhythmic clapping and drum beats"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b70a0c4eca0aa4022aa56bb6946ba4c3114eb5cff331a0b5895260414ed85920",
+  "fingerprint": "b9a92a3fc7f073118784480b772c95c5d2b800302e1cc869edaeb10a891b984b",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -62,9 +65,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: formation_and_space",
+      "movement: posture, formation_and_space, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts used in the different variants of Umxhentso? Evidence needed: Field recordings or ethnographic dance notation."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -91,7 +95,17 @@
   ],
   "music_options": [],
   "name": "Umxhentso",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "89b0581dff39d9f1",
+      "next_evidence": "Field recordings or ethnographic dance notation.",
+      "question": "What are the specific rhythmic counts used in the different variants of Umxhentso?",
+      "source": "https://en.wikipedia.org/wiki/Umxhentso",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for learners."
+    }
+  ],
   "research_file": "research_results/umxhentso.json",
   "runtime_active": false,
   "scope": {

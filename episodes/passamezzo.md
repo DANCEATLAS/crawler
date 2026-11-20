@@ -1,55 +1,54 @@
 # Passamezzo — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.85 · 12/13 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); posture, arms and hands; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A historically informed dance specialist with expertise in Renaissance court dances and music
-**Say it:** Passamezzo, pass'e mezzo, passo e mezzo, passomezzo, passemeze
+**Instructor:** A historical dance researcher with a focus on Renaissance treatises.
+**Say it:** Passamezzo, pass'e mezzo, passemeasure, passemeze, passemezze
 
 ## Episode 1 · Meet Passamezzo · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Passamezzo: The Renaissance Dance of Steps and Chords
+NARRATION: The Secret Steps of Shakespeare's Passamezzo
 NARRATION: This is Passamezzo. 16th to early 17th century.
 ON SCREEN: Hero video, first 10 seconds (A7AzGhMV1T8)
 ON SCREEN: Title card: Passamezzo · Italy · 16th to early 17th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The passamezzo originated in 16th-century Italy and was popular through the early 17th century.
-NARRATION: It was known throughout Europe, with early printed collections appearing in Germany, Italy, France, and England.
-NARRATION: The dance is closely related to the pavane, sometimes considered a faster variant or an elaborated form.
+NARRATION: The passamezzo originated in Italy during the 16th century and gained widespread popularity across Europe until roughly 1640.
+NARRATION: Early written evidence appears in German lute publications by Hans Neuslider in 1536 and 1540, followed swiftly by extensive adoption in Italy, France, and England.
+NARRATION: The form was closely linked to the pavane, with theorists such as Francisco de Salinas noting their interchangeable use in early contexts.
 ON SCREEN: Map: Italy · Europe
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The passamezzo was performed in courtly and social settings during the Renaissance.
-NARRATION: It was often part of a suite of dances, serving as a stately opening or main dance followed by livelier triple-time dances.
-NARRATION: The dance was associated with elegance and measured grace, reflecting the tastes of Italian and European courts.
+NARRATION: The passamezzo was performed in solo settings, paired social gatherings, or as part of multi-movement musical suites.
+NARRATION: It often preceded a faster triple-time dance like the saltarello or gagliarda to balance solemnity with agility.
 NARRATION: Today it is a historical tradition.
 ON SCREEN: Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) (https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Watch for Step and a Half.
+NARRATION: The passamezzo is executed in binary rhythm as a flowing, measured court or folk dance.
+NARRATION: While choreographies by masters like Fabritio Caroso exist from later decades, original early step descriptions are not preserved, though sources consistently relate its movements to elaborate variants of the pavane.
 ON SCREEN: Hero video full screen, 30–45 s (A7AzGhMV1T8)
-ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Couples in procession or courtly line, moving forward or in place
+ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: how_it_is_danced
+NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The passamezzo is defined by two main chord progressions: passamezzo antico (minor key) and passamezzo moderno (major key).
-NARRATION: These progressions form ostinato bass lines repeated throughout the dance.
-NARRATION: Listen for the Lute, Keyboard instruments, Ensemble (strings, winds), Occasional vocal accompaniment.
-NARRATION: The pulse is 2/2 or 4/4 (binary rhythm).
-NARRATION: The passamezzo features a steady, repeating chord progression in minor (antico) or major (moderno) keys, played on lute or keyboard, with a calm and flowing rhythmic feel supporting measured dance steps.
+NARRATION: Music for the passamezzo is defined by repeating ostinato bass progressions divided into the minor passamezzo antico and major passamezzo moderno.
+NARRATION: It was performed on lutes, keyboards, chitarrones, and chamber ensembles, with notable compositions by Giacomo Gorzanis, Andrea Gabrieli, and Samuel Scheidt.
+NARRATION: Listen for the lute, keyboard, chitarrone, chamber ensemble.
+NARRATION: The pulse is binary.
+NARRATION: A steady, flowing binary rhythm driven by repeating ostinato chord progressions in minor or major, maintaining a calm and measured pace.
 ON SCREEN: Instrument names on screen as each is mentioned
-ON SCREEN: Listen later: 24 Passamezzi — Giacomo Gorzanis; Passamezzo Suites — Vincenzo Galilei
-ON SCREEN: Waveform or rhythm-pattern graphic: Ostinato chord progression repeated continuously
+ON SCREEN: Listen later: Ostinato — Hespèrion XXI, Jordi Savall; Ostinato — Hespèrion XXI, Jordi Savall (2001)
+ON SCREEN: Waveform or rhythm-pattern graphic: 
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 NEEDS: tempo
 
@@ -60,54 +59,47 @@ MUSIC: underscore
 NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Giacomo Gorzanis composed 24 passamezzi for lute in 1561, including both antico and moderno types paired with saltarelli.
-NARRATION: Vincenzo Galilei compiled 24 suites featuring passamezzo, romanesca, and saltarello in 1584.
-NARRATION: The passamezzo spread from Italy to Germany, France, and England, where it was adapted and printed in collections.
-NARRATION: The passamezzo is a Renaissance Italian folk dance related to the pavane and linked to the development of Baroque dance suites.
+NARRATION: Key figures associated with the passamezzo include lutenist Giacomo Gorzanis, who published 24 passamezzi in 1561; theorist Vincenzo Galilei; and composers such as William Byrd, John Bull, Sweelinck, and Bernardo Storace.
+NARRATION: Regional variants developed across Europe, including the English 'passingmeasure pavan' for the antico progression and the 'quadro pavan' or 'quadran pavan' for the major-key moderno progression.
+NARRATION: The passamezzo evolved in parallel with the pavane and frequently shared structural DNA with related ostinato forms like the romanesca and the follia.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Passamezzo is sibling of Pavane: Closely related slow Renaissance dance, often confused or interchanged with passamezzo.
-NARRATION: Passamezzo is follows of Saltarello: Triple-time dance typically performed after the passamezzo.
-NARRATION: Passamezzo is follows of Galliard: Lively triple-time dance often paired in suites with passamezzo.
-NARRATION: Passamezzo is shares music of Romanesca: Related chord progression and bass ostinato pattern.
+NARRATION: Passamezzo is variant of Pavane: Considered an elaborated variant or faster relative of the pavane.
+NARRATION: Passamezzo is sibling of Saltarello: Frequently followed the passamezzo in performance suites.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Begin with a measured walking step in binary rhythm
-NARRATION: Maintain upright posture with steady, graceful movement
-NARRATION: Count it: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
-NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
+NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore the Italian passamezzo, a 16th-century dance defined by its iconic chord progressions and graceful binary rhythm.
-NARRATION: Sources: 5 references are listed with the profile.
+NARRATION: Explore the 16th-century Italian passamezzo, a binary dance defined by its iconic antico and moderno bass progressions.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — Understand basic rhythm and step timing · 13 min
+## Chapter 1 · First steps — Understand the basic chord progressions · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Understand basic rhythm and step timing.
-NARRATION: Level: Beginner. Difficulty of the dance overall: Beginner to intermediate.
-NARRATION: Your instructor: A historically informed dance specialist with expertise in Renaissance court dances and music
+NARRATION: Chapter 1 — First steps. Today: Understand the basic chord progressions.
+NARRATION: Level: Beginner. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A historical dance researcher with a focus on Renaissance treatises.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upright, poised, steady
-ON SCREEN: Instructor front then side view; freeze-frame on validated posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
+NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).
-NARRATION: Rhythm pattern: Ostinato chord progression repeated continuously.
+NARRATION: Count: count the binary bar out loud, then in pairs of bars. The meter is binary.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -115,69 +107,64 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Begin with a measured walking step in binary rhythm
-NARRATION: Step 2: Maintain upright posture with steady, graceful movement
-NARRATION: Footwork from the sources: Measured walking steps in binary rhythm, with variations resembling pavane and galliard steps
-NARRATION: Drill: Walking steps in 2/2 rhythm
+NARRATION: Drill: Listen to the ostinato bass pattern
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: count the binary bar out loud, then in pairs of bars · repetitions: 3
+NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Repeat step sequences in place or progressing forward
-NARRATION: Step 4: Incorporate variations resembling pavane steps and galliard movements
-NARRATION: Drill: Counting and clapping the passamezzo chord progression
+NARRATION: Drill: Count the binary meter against the pavane
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: count the binary bar out loud, then in pairs of bars · repetitions: 3
+NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Practicing posture and arm carriage
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: No jumps or fast movements; maintain measured pace and grace
-ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
+NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
+NARRATION: Count-in: count the binary bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Understand basic rhythm and step timing.
-NARRATION: The passamezzo was performed in courtly and social settings during the Renaissance.
+NARRATION: You can now: Understand the basic chord progressions.
+NARRATION: The passamezzo was performed in solo settings, paired social gatherings, or as part of multi-movement musical suites.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 2 · Building the dance — Perform basic step variations and transitions · 13 min
+## Chapter 2 · Building the dance — the building the dance of Passamezzo · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Perform basic step variations and transitions.
-NARRATION: Level: Intermediate. Difficulty of the dance overall: Beginner to intermediate.
-NARRATION: Your instructor: A historically informed dance specialist with expertise in Renaissance court dances and music
+NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Passamezzo.
+NARRATION: Level: intermediate. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A historical dance researcher with a focus on Renaissance treatises.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upright, poised, steady
-ON SCREEN: Instructor front then side view; freeze-frame on validated posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
+NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).
-NARRATION: Rhythm pattern: Ostinato chord progression repeated continuously.
+NARRATION: Count: count the binary bar out loud, then in pairs of bars. The meter is binary.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -185,67 +172,62 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Conclude with a transition to a triple-time dance such as saltarello
-NARRATION: Drill: Step and a half figure practice
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: count the binary bar out loud, then in pairs of bars · repetitions: 3
+NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step and a Half: A possible figure involving a step plus a half-step, origin of the dance’s name
-NARRATION: Drill: Couple procession formation
 ON SCREEN: Instructor front and back view; slow, then half tempo
-ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: count the binary bar out loud, then in pairs of bars · repetitions: 3
+NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Transitioning to a saltarello rhythm
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: No jumps or fast movements; maintain measured pace and grace
-ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
+NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
-NARRATION: Full tempo, the whole sequence, twice. Formation: Couples in procession or courtly line, moving forward or in place
+NARRATION: Count-in: count the binary bar out loud, then in pairs of bars.
+NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Perform basic step variations and transitions.
-NARRATION: Giacomo Gorzanis composed 24 passamezzi for lute in 1561, including both antico and moderno types paired with saltarelli.
+NARRATION: You can now: the building the dance of Passamezzo.
+NARRATION: Key figures associated with the passamezzo include lutenist Giacomo Gorzanis, who published 24 passamezzi in 1561; theorist Vincenzo Galilei; and composers such as William Byrd, John Bull, Sweelinck, and Bernardo Storace.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 3 · Dancing it fully — Combine musical phrasing with dance variations · 13 min
+## Chapter 3 · Dancing it fully — the dancing it fully of Passamezzo · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Combine musical phrasing with dance variations.
-NARRATION: Level: Advanced. Difficulty of the dance overall: Beginner to intermediate.
-NARRATION: Your instructor: A historically informed dance specialist with expertise in Renaissance court dances and music
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Passamezzo.
+NARRATION: Level: advanced. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: A historical dance researcher with a focus on Renaissance treatises.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upright, poised, steady
-ON SCREEN: Instructor front then side view; freeze-frame on validated posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
+NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).
-NARRATION: Rhythm pattern: Ostinato chord progression repeated continuously.
+NARRATION: Count: count the binary bar out loud, then in pairs of bars. The meter is binary.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -253,46 +235,41 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Incorporate variations resembling pavane steps and galliard movements
-NARRATION: Step 2: Conclude with a transition to a triple-time dance such as saltarello
-NARRATION: Drill: Syncing steps with chord progression repeats
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: count the binary bar out loud, then in pairs of bars · repetitions: 3
+NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step and a Half: A possible figure involving a step plus a half-step, origin of the dance’s name
-NARRATION: Drill: Incorporating galliard-like movements
 ON SCREEN: Instructor front and back view; slow, then half tempo
-ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: count the binary bar out loud, then in pairs of bars · repetitions: 3
+NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Performing a short passamezzo suite
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: No jumps or fast movements; maintain measured pace and grace
-ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
+NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
-NARRATION: Full tempo, the whole sequence, twice. Formation: Couples in procession or courtly line, moving forward or in place
+NARRATION: Count-in: count the binary bar out loud, then in pairs of bars.
+NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Combine musical phrasing with dance variations.
-NARRATION: The passamezzo is a Renaissance Italian folk dance related to the pavane and linked to the development of Baroque dance suites.
+NARRATION: You can now: the dancing it fully of Passamezzo.
+NARRATION: The passamezzo evolved in parallel with the pavane and frequently shared structural DNA with related ostinato forms like the romanesca and the follia.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -300,11 +277,11 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Passamezzo (Italy). Meter 2/2 or 4/4 (binary rhythm). Rhythm pattern: Ostinato chord progression repeated continuously. Instruments: Lute, Keyboard instruments, Ensemble (strings, winds), Occasional vocal accompaniment. Vocal style: Rare examples; typically instrumental. Form: Repeated chord progression (ostinato bass) with melodic variations; often part of a suite. Mood: calm, measured, graceful, stately. It should sound like this: The passamezzo features a steady, repeating chord progression in minor (antico) or major (moderno) keys, played on lute or keyboard, with a calm and flowing rhythmic feel supporting measured dance steps. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Passamezzo (Italy). Meter binary. Instruments: lute, keyboard, chitarrone, chamber ensemble. Form: binary variations over ostinato bass. Mood: tranquil, serious. It should sound like this: A steady, flowing binary rhythm driven by repeating ostinato chord progressions in minor or major, maintaining a calm and measured pace. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
-Listen before composing (never copy): 24 Passamezzi — Giacomo Gorzanis; Passamezzo Suites — Vincenzo Galilei
+Listen before composing (never copy): Ostinato — Hespèrion XXI, Jordi Savall; Ostinato — Hespèrion XXI, Jordi Savall (2001)
 
 Rules: Original composition only — no sampling, no melody of any existing recording, no lyrics from any song. Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom. Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe. Label every generated track with the tool, the date and this brief, so provenance is always clear.
 
@@ -315,17 +292,17 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'A7AzGhMV1T8', 'checked_by_vision_model': True, 'title': 'Passamezzo'}
 Images: 0 licensed
-Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) — https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da
-Motifs: Renaissance court costumes, Lute and keyboard instruments, Manuscript pages with dance notation, Couples in procession, Chalk or wooden floor of a palace hall
+Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) — https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da; Dances and Music from the Italian Renaissance / Gastoldi, Gabrieli, Mainerio [...] — https://archive.org/details/youtube-739R9G0qDH8
+Motifs: A Renaissance lute resting on a wooden table, An open score of Giacomo Gorzanis's tablature, A courtly ballroom engraving from the 16th century
 
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
-Counting: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars
+Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
+Counting: count the binary bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
 
-Sources (5): https://en.wikipedia.org/wiki/Passamezzo; https://www.wikidata.org/wiki/Q1294481; https://es.wikipedia.org/wiki/Passamezzo; https://fr.wikipedia.org/wiki/Passamezzo; https://de.wikipedia.org/wiki/Passamezzo
+Sources (6): https://en.wikipedia.org/wiki/Passamezzo; https://www.wikidata.org/wiki/Q1294481; https://it.wikipedia.org/wiki/Passamezzo; https://es.wikipedia.org/wiki/Passamezzo; https://fr.wikipedia.org/wiki/Passamezzo; https://de.wikipedia.org/wiki/Passamezzo

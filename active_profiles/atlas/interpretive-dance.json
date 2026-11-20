@@ -1,0 +1,165 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex psychological themes",
+          "Strenuous floor work that could impact joints"
+        ],
+        "counts": "Simple 1-2-3-4 or following the melody.",
+        "duration_minutes": "15",
+        "game_version": "Musical statues where the 'freeze' must express a specific emotion (e.g., 'be a happy cloud')."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid floor drops",
+          "High-velocity turns",
+          "Unsupported weight shifts"
+        ],
+        "counts": "Free-form or slow 4/4 counts.",
+        "seated_version": "Focus on the 'grandiloquent movements of the arms' and torso expression while seated.",
+        "standing_version": "Gentle swaying and natural walking; use a chair for balance during 'drops' or floor-reaching moves.",
+        "tempo_and_range": "Reduced tempo; focus on fluid, small-range gestures."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      " what_to_avoid": "Avoid rigid, 'codified' ballet positions and mechanical movements that lack emotional intent.",
+      "arms_and_hands": "Grandiloquent and expressive; used to translate emotions or fantasies.",
+      "difficulty": "intermediate",
+      "footwork": "Often barefoot; involves natural steps, runs, and grounded contact with the floor.",
+      "formation_and_space": "Exploration of new or unconventional floor work and spatial paths.",
+      "hips_and_torso": "Fluid and mobile; used in 'fall and recovery' and floor-based movements.",
+      "levels_and_jumps": "Frequent use of low levels (floor) and natural, non-codified leaps.",
+      "partnering": "Unconventional partnering that departs from traditional balletic lifts.",
+      "posture": "Natural and free; rejection of the upright, corseted posture of classical ballet.",
+      "signature_moves": [
+        {
+          "description": "A technique developed by Doris Humphrey involving the body's response to gravity.",
+          "name": "Fall and Recovery"
+        },
+        {
+          "description": "Movement sequences performed while sitting, kneeling, or lying on the ground.",
+          "name": "Floor Work"
+        }
+      ],
+      "tempo_feel": "Fluid and emotive, often varying with the dramatic intensity of the theme.",
+      "what_to_avoid": ""
+    },
+    "music_profile": {
+      "instruments": [
+        "Piano",
+        "Orchestral strings",
+        "Electronic/Avant-garde sounds"
+      ],
+      "meter": "Variable",
+      "mood_keywords": [
+        "Expressive",
+        "Intense",
+        "Natural",
+        "Dramatic"
+      ],
+      "musical_form": "Non-linear; often follows the emotional arc of the piece.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Often follows the melodic phrasing of classical music or avant-garde textures.",
+      "sound_description": "The soundscape ranges from traditional classical concert music to avant-garde and chance-based compositions, or even total silence to emphasize the dancer's breath and movement.",
+      "tempo_bpm": "Variable",
+      "vocal_style": "Usually instrumental, but can include vocalizations."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Natural walking or running with fluid posture",
+        "Grandiloquent arm extensions to express emotion",
+        "Controlled drops to the floor (floor work)",
+        "Spontaneous turns and rotations",
+        "Recovery from the floor to a standing position"
+      ],
+      "formation": "Usually solo or small group; uses unconventional spatial paths.",
+      "level_notes": "Beginners focus on shedding balletic rigidity; advanced dancers integrate psychological themes with floor work.",
+      "rhythm": "Variable; can follow classical meters or be performed to internal rhythm in silence."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e6eda1e88a9f8fa3a4879471b574d306255358d8499153e8c9fe4a81e527fe89",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How do the 'traditional ethnic movements' mentioned in the source specifically manifest in modern interpretive expression? Evidence needed: https://it.wikipedia.org/wiki/Danza_interpretativa"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific 'grandiloquent arm movements' are most representative of the Duncan or St. Denis styles? Evidence needed: https://en.wikipedia.org/wiki/Interpretive_dance"
+    ]
+  },
+  "id": "atlas:interpretive-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Interpretive dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "081815c7b9a5d939",
+      "next_evidence": "https://en.wikipedia.org/wiki/Interpretive_dance",
+      "question": "What specific 'grandiloquent arm movements' are most representative of the Duncan or St. Denis styles?",
+      "source": "https://en.wikipedia.org/wiki/Interpretive_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate visual references for the movement_profile and signature_moves."
+    },
+    {
+      "domain": "research",
+      "id": "d34d79bc696249b8",
+      "next_evidence": "https://it.wikipedia.org/wiki/Danza_interpretativa",
+      "question": "How do the 'traditional ethnic movements' mentioned in the source specifically manifest in modern interpretive expression?",
+      "source": "https://it.wikipedia.org/wiki/Danza_interpretativa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To avoid generic descriptions and provide concrete examples of cultural adaptation."
+    }
+  ],
+  "research_file": "research_results/interpretive-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "interpretive-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Interpretive_dance",
+    "https://www.wikidata.org/wiki/Q17081731",
+    "https://it.wikipedia.org/wiki/Danza_interpretativa",
+    "https://archive.org/details/ERIC_ED175547"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

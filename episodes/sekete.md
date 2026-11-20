@@ -1,53 +1,52 @@
 # Sekete — episode pack
 
-*Status: withheld-chapters · built 2026-11-19 · judge 7.7 · 4/4 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-20 · judge 8.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; signature moves; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A respected Saramaka elder and dancer deeply versed in Winti traditions
+**Instructor:** Cultural historian or community elder from the Saramaka Maroon tradition.
 **Say it:** Sekete, Sekete
 
 ## Episode 1 · Meet Sekete · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Sekete: The Rhythmic Heartbeat of Saramaka Spirits
+NARRATION: The Rhythmic Spirits of the Saramaka
 NARRATION: This is Sekete. Colonial period to present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Sekete · Suriname · Colonial period to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Sekete originates from the Saramaka Maroon community in Suriname, descendants of enslaved Africans who escaped plantations and formed independent tribes in the rainforest.
-NARRATION: The dance is linked to the Winti religion, which incorporates West African spiritual elements and has evolved with Christian and indigenous influences.
-NARRATION: Sekete is one of the original Winti dances, reflecting the cultural and spiritual life of the Maroons since the colonial era.
+NARRATION: Sekete originated among the Saramaka Maroon tribes in the Surinamese rainforest.
+NARRATION: It is an Afro-Surinamese tradition rooted in the Winti religion, which developed from West African religious rituals upon the arrival of enslaved populations in Suriname.
 ON SCREEN: Map: Suriname · Caribbean
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Sekete is performed during social gatherings and spiritual ceremonies within the Saramaka Maroon community.
-NARRATION: It is connected to the Winti religion, embodying spirits and ancestral reverence.
-NARRATION: The dance serves both entertainment and ritual purposes, reflecting the community's cultural identity and spiritual beliefs.
+NARRATION: Sekete is a Winti-related dance.
+NARRATION: It is performed in a social and spiritual context, as Winti is central to Afro-Surinamese music and dance, with each dance evoking specific spirits.
+NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Watch for Ankle Shake.
+NARRATION: The dance is performed by Saramaka dancers who incorporate music-making into their movement.
+NARRATION: Dancers shake instruments attached to their ankles to create rhythmic accompaniment while they perform.
 ON SCREEN: Hero video — MISSING
-ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Danced in social group formations; exact spatial arrangement not specified.
+ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: how_it_is_danced
+NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music accompanying Sekete features apinti drums, traditional Maroon drums with a deep, resonant sound.
-NARRATION: Dancers wear kwakwa ankle rattles that add a percussive layer synchronized with the drum rhythms.
-NARRATION: Listen for the apinti drums, kwakwa ankle rattles.
-NARRATION: The music features deep, resonant apinti drum beats layered with sharp, rhythmic shaking of ankle rattles, creating a textured percussive soundscape that guides the dancers' movements.
+NARRATION: The music is rooted in Winti traditions.
+NARRATION: The primary musical element described is the use of instruments attached to the dancers' ankles, which produce sound through the dancers' movements.
+NARRATION: Listen for the ankle-attached rattles.
+NARRATION: The music is characterized by the rhythmic shaking of instruments attached to the dancers' ankles, integrated with the movement of the dance.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
-ON SCREEN: Waveform or rhythm-pattern graphic: Steady rhythmic pattern from apinti drums with complementary ankle rattle sounds.
+ON SCREEN: Waveform or rhythm-pattern graphic: 
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 NEEDS: tempo, meter
 
@@ -58,27 +57,26 @@ MUSIC: underscore
 NEEDS: costume_and_setting
 
 ### 7. The people (60 s) · `people`
-NARRATION: The sources do not name specific individuals associated with Sekete dance.
-NARRATION: Sekete is specific to the Saramaka Maroons in Suriname.
-NARRATION: Sekete descends from African dance and spiritual traditions brought by enslaved Africans, preserved and transformed within the Saramaka Maroon community under the Winti religion.
+NARRATION: Related to the awasa and songé dances of the Aukan people.
+NARRATION: Part of the Afro-Surinamese dance tradition rooted in the Winti religion.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
+NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Sekete is sibling of awasa: Another Winti dance among the Aukan Maroons sharing spiritual and musical roots.
-NARRATION: Sekete is sibling of songé: A Winti dance of the Aukan Maroons related in style and religious context.
-NARRATION: Sekete is family of Winti dances: Sekete belongs to the broader family of Winti spiritual dances in Suriname.
+NARRATION: Sekete is sibling of awasa: An Aukan dance that also uses ankle-shaking instruments.
+NARRATION: Sekete is sibling of songé: An Aukan dance that also uses ankle-shaking instruments.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: Sekete is linked to the Winti religion and embodies spiritual practices; it is both social and sacred, and outsiders should respect its spiritual significance.
+NARRATION: Sekete is rooted in the Winti religion, which involves the evocation of spirits; practitioners should approach the tradition with respect for its spiritual significance.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore Sekete, the Saramaka Maroon dance where ankle rattles and apinti drums bring Winti spirits to life in Suriname's rainforest.
+NARRATION: Explore the Sekete, a sacred Maroon dance where the dancer becomes the instrument.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -87,7 +85,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Sekete (Suriname). Rhythm pattern: Steady rhythmic pattern from apinti drums with complementary ankle rattle sounds.. Instruments: apinti drums, kwakwa ankle rattles. Mood: rhythmic, spiritual, social, playful. It should sound like this: The music features deep, resonant apinti drum beats layered with sharp, rhythmic shaking of ankle rattles, creating a textured percussive soundscape that guides the dancers' movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Sekete (Suriname). Instruments: ankle-attached rattles. Mood: spiritual, rhythmic. It should sound like this: The music is characterized by the rhythmic shaking of instruments attached to the dancers' ankles, integrated with the movement of the dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -101,16 +99,16 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: MISSING
 Images: 8 licensed — Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Suyash Dwivedi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
-Motifs: ankle rattles, apinti drums, rainforest setting, community circle, bent knees, body sway
+Motifs: Rainforest setting, Close-up of ankle rattles, Traditional Maroon attire
 
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the ritual-sacred family studied · videos studied: 6
+Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 5
-Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Suriname; https://www.wikidata.org/wiki/Q107447246

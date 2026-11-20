@@ -1,8 +1,8 @@
 # Gaur Maria Dance — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A village elder from the Sing Maria community, emphasizing the joy and ancestral pride of the hunt.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dancers wear towering head-dresses made of bison horns and peacock plumes to mimic the movements of the hunt, a tradition preserved by the Sing Marias of South Bastar.
 NARRATION: This is Gaur Maria Dance. 20th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (RtNwAjTY22s)
 ON SCREEN: Title card: Gaur Maria Dance · India · 20th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Men and women join in a gathering where men beat drums and toss their
 NARRATION: The dance depicts hunting procedures through movement.
 NARRATION: As the tempo rises, the movements become more intense and 'wild,' involving the tossing of plumes and horns in synchronization with the drum beats.
 NARRATION: Watch for Horn Tossing, Hunting Depiction.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (RtNwAjTY22s)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performed in an open dancing ground; starts as a gathering and moves into a synchronized group display.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -308,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Men wear head-dresses with bison horns, peacock feathers, and stringed cowries. Women wear brass fillets, bead necklaces, and have tattooed bodies. The dance is performed in open dancing grounds during marriage celebrations.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'RtNwAjTY22s', 'checked_by_vision_model': True, 'title': 'Gaur Maria tribal dance from Madhya Pradesh'}
 Images: 2 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ramesh Lalwani / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Manipuri: Subtle, Sublime, and Seren — https://archive.org/details/dli.pb.manipuri
 Motifs: Bison horns silhouetted against the sky, The blur of peacock feathers in motion, Intricate tribal tattoos on the women's arms, Dust rising from the dancing ground under rhythmic feet
@@ -318,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
+Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
 
 Sources (2): https://en.wikipedia.org/wiki/Gaur_Maria_Dance; https://www.wikidata.org/wiki/Q5527724

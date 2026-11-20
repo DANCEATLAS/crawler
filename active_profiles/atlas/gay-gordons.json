@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex hand holds if too difficult; hold basic hands instead"
+        ],
+        "counts": "Count 4 marching beats forward and 4 marching beats backward.",
+        "duration_minutes": "3",
+        "game_version": "Create a musical statues variant where children march in couples and must switch partners when the music pauses."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns under arm",
+          "Sudden direction changes"
+        ],
+        "counts": "March 1-2-3-4 forward, pause/turn on 4, march 1-2-3-4 backward.",
+        "seated_version": "Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter.",
+        "standing_version": "Walk forward and backward at a gentle pace without sharp pivot turns or dynamic speed changes.",
+        "tempo_and_range": "Reduce marching stride length and select a slower 2/4 march accompaniment."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Couples march forward anti-clockwise for four bars in allemande hold.",
+          "source": "https://en.wikipedia.org/wiki/Gay_Gordons_(dance)"
+        },
+        {
+          "description": "Progressive transfer where ladies move to the partner ahead in the circle between bars 12-13.",
+          "source": "https://en.wikipedia.org/wiki/Gay_Gordons_(dance)"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Couples arranged in a circle facing anti-clockwise moving together around the room.",
+          "source": "https://en.wikipedia.org/wiki/Gay_Gordons_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Allemande hold in first eight bars",
+      "difficulty": "beginner",
+      "footwork": "Walking and marching steps forward and backward",
+      "formation_and_space": "Couples in a circle around the room facing anti-clockwise, ladies on the right",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples in allemande hold; optional partner transition between bars 12-13",
+      "posture": "Upright marching posture",
+      "signature_moves": [
+        {
+          "description": "Couples hold hands in allemande position while marching anti-clockwise.",
+          "name": "Allemande hold march"
+        },
+        {
+          "description": "Ladies move to the partner ahead in the circle between bars 12-13.",
+          "name": "Progressive shift"
+        }
+      ],
+      "tempo_feel": "Brisk march",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Accordion",
+        "Fiddle"
+      ],
+      "meter": "2/4 or 4/4",
+      "mood_keywords": [
+        "lively",
+        "festive",
+        "marching"
+      ],
+      "musical_form": "16-bar repeating march tune",
+      "reference_recordings": [
+        {
+          "artist": "Jimmy Shand",
+          "title": "The Gay Gordons"
+        }
+      ],
+      "rhythm_pattern": "March tempo",
+      "sound_description": "A brisk Scottish march tune set in 2/4 or 4/4 meter. The music features driving accordion or fiddle melodies structured around repeating phrasing ideal for circle walking and turning.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Walk forward anti-clockwise in circle for four bars in allemande hold",
+        "Pivot to face clockwise and walk backwards for four bars",
+        "Turn lady under arm and set or progress to next partner between bars 12 and 13"
+      ],
+      "formation": "Couples in a circle around the room facing anti-clockwise, ladies on the right",
+      "level_notes": "Standard entry-level ceilidh dance suitable for beginners.",
+      "rhythm": "2/4 or 4/4 march"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "54da0c3d937e4e58c398e93f371d3ffeda939818205df457c36faee717f9641c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:gay-gordons",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gay Gordons",
+  "open_questions": [],
+  "research_file": "research_results/gay-gordons.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gay-gordons",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gay_Gordons_(dance)",
+    "https://www.wikidata.org/wiki/Q5528586"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

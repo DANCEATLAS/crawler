@@ -2,7 +2,7 @@
  "slug": "qhapaq-negro",
  "name": "Qhapaq negro",
  "pack_version": "e2",
- "built_at": "2026-11-19T20:42:42Z",
+ "built_at": "2026-11-20T20:02:15Z",
  "researched_at": "2026-11-19T19:29:11Z",
  "qc_score": 8.85,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Qhapaq negro. Traditional / Living tradition."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (QumSoPvi_ic)",
      "Title card: Qhapaq negro · Peru · Traditional / Living tradition"
     ],
     "music": "theme (30 s)"
@@ -104,7 +104,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (QumSoPvi_ic)",
      "Signature moves — MISSING",
      "Formation: Processional lines and group formations through festival streets and town plazas."
     ],
@@ -258,7 +258,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "QumSoPvi_ic",
+   "checked_by_vision_model": true,
+   "title": "Coreografía: Qhapaq Negro de Paucartambo (Mamacha Carmen 2023)"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -304,27 +308,28 @@
   ]
  },
  "teaching_formula": {
-  "source": "6 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 6,
+  "source": "8 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 8,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, mirror, back",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
   "cues": [
-   "let's do this",
-   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "one two",
+   "over and spin",
    "loosen those hips",
    "connect with the earth",
-   "knees have to be bent",
-   "arms and your hands are free",
-   "one two",
-   "over and spin"
+   "knees have to be bent"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -333,7 +338,6 @@
    "breakdown",
    "full_demo",
    "music_practice",
-   "recap",
    "slow_practice"
   ],
   "steps_as_taught": []
@@ -343,7 +347,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the how-it-is-danced section",
@@ -359,6 +362,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "5778a03931726ccaeda8ce64f68197d9666e252ae6a93533cea82cc0e93b162b",
- "hero_checked": null
+ "input_fingerprint": "028a6c12f1fe341464e1bd04acb3ef2e1661664761c1361fc4aa240d24c0215d",
+ "hero_checked": "pass"
 }

@@ -1,6 +1,6 @@
 # New Vogue — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -292,6 +292,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 8 tutorial(s) of the ballroom-partner family studied · videos studied: 8
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: side close side; step and point; turn turn turn; replace; guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot; guys step forward turning the girl; guys step back right ladies back right; guys pulling the right hand towards you; jump jump; step step
+Cues: guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot; guys step forward turning the girl; guys step back right ladies back right; guys pulling the right hand towards you; hit; swing; pop; cross; swag; step to side on 4-1
 
 Sources (3): https://en.wikipedia.org/wiki/New_Vogue; https://www.wikidata.org/wiki/Q7012289; https://archive.org/details/NPSH19290203

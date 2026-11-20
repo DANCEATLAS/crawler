@@ -1,10 +1,10 @@
 {
  "slug": "singo-ulung",
- "qc_at": "2026-11-12T18:36:34Z",
+ "qc_at": "2026-11-20T19:46:22Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 8.55,
+ "qc_score": 9.55,
  "gates": [
   {
    "gate": "has_name",
@@ -34,17 +34,17 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1349"
+   "detail": "2049"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "6/6 rate=1.0"
+   "detail": "7/7 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "deeply rooted"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,14 +84,14 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'god', 'goddess', 'spirit']"
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'god', 'goddess', 'spirit', 'purification']"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 2,
+  "specificity": 10,
+  "teaching_value": 7,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -99,21 +99,21 @@
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 8,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is highly accurate and respectful of the sacred nature of the ritual. While the teaching section is empty due to the lack of source material on technique, this is the correct approach for a sacred, undocumented practice. The information is well-sourced and specific."
+  "notes": "Profile is extremely well-sourced and accurate to the evidence. Sacred and contextual elements handled with complete respect."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=8.55",
+  "judge_score=9.55",
   "sacred"
  ],
  "citation": {
-  "claims": 6,
-  "supported": 6,
+  "claims": 7,
+  "supported": 7,
   "rate": 1.0
  },
- "researched_at": "2026-11-12T17:47:49Z"
+ "researched_at": "2026-11-20T19:24:04Z"
 }

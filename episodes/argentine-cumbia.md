@@ -1,8 +1,8 @@
 # Argentine cumbia — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned bailanta regular who knows the history of every regional style.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Saint and the Shantytown
 NARRATION: This is Argentine cumbia. 1950s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (1sgylG_m5MA)
 ON SCREEN: Title card: Argentine cumbia · Argentina · 1950s to present
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (1sgylG_m5MA)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Large dance halls (bailantas) and social party spaces
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -299,7 +299,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Clothing is a central characteristic; bands often wear matching, specialized costumes or exclusive clothes. The primary setting is the 'bailanta,' a large dancing hall. Digital cumbia is associated with modern clubs like Zizek Club in Buenos Aires.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '1sgylG_m5MA', 'checked_by_vision_model': True, 'title': 'Tutorial de como bailar cumbia Argentina'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Neon lights of a Buenos Aires bailanta, Matching sequined suits of a cumbia band, The roadside shrines dedicated to Gilda, The rhythmic scraping of a metal güiro
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 49 tutorial(s) of the folk-circle family studied · videos studied: 49
+Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
 
 Sources (5): https://en.wikipedia.org/wiki/Argentine_cumbia; https://www.wikidata.org/wiki/Q4789437; https://es.wikipedia.org/wiki/Cumbia_argentina; https://fr.wikipedia.org/wiki/Cumbia_argentine; https://pt.wikipedia.org/wiki/Cúmbia_na_Argentina

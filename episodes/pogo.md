@@ -1,6 +1,6 @@
 # Pogo — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Jump straight up and down on the spot
 NARRATION: Keep torso stiff and legs close together
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -109,7 +109,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4.
 NARRATION: Rhythm pattern: fast-paced, anti-disco beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,9 +122,10 @@ NARRATION: Step 1: Jump straight up and down on the spot
 NARRATION: Step 2: Keep torso stiff and legs close together
 NARRATION: Footwork from the sources: jumping straight up and down, jumping in any direction, or spinning in the air
 NARRATION: Drill: Practice jumping straight up and down
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Hold arms rigidly at your sides
@@ -132,6 +133,7 @@ NARRATION: Step 4: Optionally thrash torso or flail arms
 NARRATION: Drill: Maintain a stiff torso and rigid arms
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -150,7 +152,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated vertical torso bounce in place · For children: Pogo stick jumping game without collisions (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -181,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4.
 NARRATION: Rhythm pattern: fast-paced, anti-disco beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,9 +194,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Jump straight up and down on the spot
 NARRATION: Step 2: Keep torso stiff and legs close together
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Hold arms rigidly at your sides
@@ -203,6 +206,7 @@ NARRATION: Up-and-down: Jumping straight up and down on the spot with a stiff to
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -220,7 +224,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated vertical torso bounce in place · For children: Pogo stick jumping game without collisions (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: dancers remaining on the spot or moving around in a crowd / mosh pit
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -251,7 +255,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4.
 NARRATION: Rhythm pattern: fast-paced, anti-disco beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,15 +266,17 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hold arms rigidly at your sides
 NARRATION: Step 2: Optionally thrash torso or flail arms
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Up-and-down: Jumping straight up and down on the spot with a stiff torso and rigid arms.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,7 +294,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated vertical torso bounce in place · For children: Pogo stick jumping game without collisions (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: dancers remaining on the spot or moving around in a crowd / mosh pit
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -327,9 +333,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 39 tutorial(s) of the street-urban family studied · videos studied: 39
-Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: start from my back; hit one two three
 
 Sources (5): https://en.wikipedia.org/wiki/Pogo_(dance); https://www.wikidata.org/wiki/Q840880; https://es.wikipedia.org/wiki/Pogo_(baile); https://fr.wikipedia.org/wiki/Pogo_(danse); https://de.wikipedia.org/wiki/Pogo

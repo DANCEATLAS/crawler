@@ -1,0 +1,148 @@
+{
+ "youtube_id": "5sSYwQYwjAQ",
+ "slug": "wotagei",
+ "dance": "Wotagei",
+ "title": "【Wotagei tutorial】How to do 弥七(Yashichi) and 23 torch?【ヲタ芸】",
+ "channel": "夜空 account",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-20T19:52:33Z",
+ "url": "https://www.youtube.com/watch?v=5sSYwQYwjAQ",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor demonstrates the wotagei routines clearly from front and back angles, utilizing on-screen text instructions to guide each sequential movement. They break down the choreography into step-by-step components without verbal narration, relying entirely on visual demonstration and textual cues.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:10",
+    "segment": "full_demo",
+    "note": "Demonstration of 23 torch move"
+   },
+   {
+    "t": "0:43",
+    "segment": "breakdown",
+    "note": "Breakdown and step-by-step tutorial for Yashichi"
+   },
+   {
+    "t": "1:18",
+    "segment": "breakdown",
+    "note": "Step-by-step tutorial for 23 torch"
+   },
+   {
+    "t": "1:51",
+    "segment": "full_demo",
+    "note": "Demonstration of 23 torch from the back side"
+   }
+  ],
+  "counting_scheme": "",
+  "cues": [
+   "First balance your arms like a straight line",
+   "Move both of your arms clockwise and keep it as a straight line",
+   "Spin towards yourself",
+   "Put your left hand under your armpit"
+  ],
+  "metaphors": [
+   "balance your arms like a straight line"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Yashichi",
+    "counts": "7",
+    "description": "Clockwise arm rotation with alternating arm extensions pointing up and down."
+   },
+   {
+    "name": "23 torch",
+    "counts": "23",
+    "description": "Combination of Yashichi, 8 torch, and reverse 8 torch."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear on-screen text matching each step",
+    "Demonstration from both front and back angles"
+   ],
+   "what_hinders": [
+    "Lack of verbal explanation or audio count cues"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:08",
+    "text": "Let's see what is 23 torch first"
+   },
+   {
+    "t": "0:40",
+    "text": "Now let's learn how to do Yashichi first"
+   },
+   {
+    "t": "1:16",
+    "text": "And now let's learn 23 torch"
+   },
+   {
+    "t": "1:51",
+    "text": "And here's the back side"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 10,
+    "end_s": 27,
+    "topic": "movement",
+    "observation": "Performer executes continuous wotagei arm movements holding light sticks outdoors at night.",
+    "viewpoint": "front view, unknown if mirrored",
+    "cannot_infer": "exact footwork details due to dark lighting",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 48,
+    "end_s": 111,
+    "topic": "teaching",
+    "observation": "Instructor demonstrates Yashichi arm positions sequentially with overlaid text instructions.",
+    "viewpoint": "front view, unknown if mirrored",
+    "cannot_infer": "exact muscular tension or weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 118,
+    "end_s": 150,
+    "topic": "teaching",
+    "observation": "Instructor breaks down 23 torch with numbered steps appearing on screen.",
+    "viewpoint": "front view, unknown if mirrored",
+    "cannot_infer": "internal count or rhythm timing",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 151,
+    "end_s": 211,
+    "topic": "movement",
+    "observation": "Performer shows 23 torch from the rear view angle to clarify arm and wrist placements.",
+    "viewpoint": "back view, unknown if mirrored",
+    "cannot_infer": "facial expression or front-facing visual cues",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using on-screen numbered steps and text prompts instead of verbal instructions to guide learners through wotagei combinations."
+ },
+ "attempts": 1
+}

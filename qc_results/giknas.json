@@ -1,0 +1,123 @@
+{
+ "slug": "giknas",
+ "qc_at": "2026-11-20T19:48:10Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Giknas"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "60"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "169"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the Pontic tradition, the Giknas serves as a rhythmic bridge between the dome"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "422"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3061"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "2/3 rate=0.667"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptionally detailed, well-structured, and culturally grounded profile on a specific Pontic dance tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sources",
+  "banned_phrasing",
+  "sacred_handled",
+  "judge_score=10.0",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 2,
+  "rate": 0.667
+ },
+ "researched_at": "2026-11-20T18:45:43Z"
+}

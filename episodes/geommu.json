@@ -1,0 +1,834 @@
+{
+ "slug": "geommu",
+ "name": "Geommu",
+ "pack_version": "e2",
+ "built_at": "2026-11-20T20:02:15Z",
+ "researched_at": "2026-11-20T18:00:48Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An authoritative master dancer from a Korean intangible cultural heritage preservation center, blending historical precision with graceful demonstration.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Geommu",
+   "Gummu",
+   "Kommu",
+   "Hwangchangmu",
+   "Kalchum"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Geommu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Blades of the Royal Court: The Legacy of Geommu",
+     "This is Geommu. 7th century AD to Joseon Dynasty (1392–1910)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Geommu · South Korea · 7th century AD to Joseon Dynasty (1392–1910)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Legend traces Geommu to the Three Kingdoms period around 660 AD in Silla.",
+     "Chronicled in sources like Samguk yusa and Donggyeong japgi, tales tell of Hwangchang (a boy sword dancer who killed the king of Baekje and was executed) and Gwanchang (a young Hwarang warrior slain in battle).",
+     "Memorial dances wearing masks imitating Hwangchang were known as Hwangchangmu."
+    ],
+    "on_screen": [
+     "Map: South Korea · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a memorial and court entertainment performance, Geommu bridges military symbolism and theatrical elegance.",
+     "In Jinju, the dance is prominently performed during an annual memorial ritual honoring Nongae, a patriot kisaeng who died taking a Japanese general off a cliff during wartime.",
+     "Modern performances take place at cultural heritage centers, national theaters, and traditional arts festivals.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Geommu is performed by a group of 6 to 8 female dancers working through chum-sawi (dance movements) and changdan (rhythmic cycles).",
+     "Performance centers on three primary movement patterns: Ipchum-sawi (dancers standing in two facing rows), Anjeon-sawi (dancers executing floorwork while kneeling in the two-row formation), and Yeonpungdae (dancers forming a circular pattern and spinning in rotation).",
+     "Watch for Ipchum-sawi, Anjeon-sawi, Yeonpungdae."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Transitions between two facing parallel lines (Ipchum-sawi, Anjeon-sawi) and a revolving group circle (Yeonpungdae)."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Geommu is accompanied by Samhyeon-nyukgak, a traditional six-instrument ensemble comprising two piri (bamboo double-reed oboes), one daegeum (large bamboo transverse flute), one haegeum (two-string bowed fiddle), one janggu (double-headed hourglass drum), and one buk (barrel drum).",
+     "The janggu uses different leather skins on each head to produce distinct pitches, while the buk is struck with an open hand and a wooden stick.",
+     "Listen for the Piri (2), Daegeum, Haegeum, Janggu.",
+     "The pulse is Varied changdan meters at about 100 beats a minute.",
+     "A wind-and-percussion soundscape dominated by the resonant bamboo reeding of twin piri and the breathy transverse tones of the daegeum, underpinned by the dual-pitched skin tones of the janggu drum, punctuated by the metallic clinking of sword rings."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Changdan cycles defined by dual-pitched Janggu strokes and accentuating Buk strikes."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear a stylized Joseon Dynasty military uniform over a hanbok.",
+     "The costume consists of a chima (skirt), jeogori (jacket), kwaeja or jeonbok (military overcoat), and jeon-dae or hongtti (wide red chest sash).",
+     "Dancers wear a black military-style cap (jeon-rip or jeollip) tied under the chin with dangling red and yellow beads and a red tassel, along with thick white socks (beoseon) and detachable striped sleeve covers (saektonghansam)."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Historical accounts credit Horace Newton Allen with writing the first detailed Western eyewitness description of the dance in 1896.",
+     "In the 1950s, traditional cultural promoter Park Heonbong led the reconstruction of Jinju Geommu by interviewing and working with eight surviving female dancers.",
+     "Jinju Geommu is the primary court-derived variant, originating in Jinju and characterized by blue skirts and jade green jackets.",
+     "Traces from ancient Silla sword rituals and Hwangchangmu mask dances to Joseon court Kisaeng repertoire taught at Gwonbeon institutions, preserved today as Intangible Cultural Property No. 12."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Geommu is sibling of Seungjeonmu: Another traditional Korean dance sharing court dance lineage and cultural preservation status.",
+     "Geommu is sibling of Mugo: Traditional Korean court drum dance performed within similar historical royal court settings."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Ipchum-sawi: Form two parallel rows facing your partner, standing tall with arms extended in saektonghansam sleeves.",
+     "Sleeve release and floor passage: Perform controlled sleeve waves around swords lying on the floor.",
+     "Count it: count the Varied changdan meters bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how ancient Silla sword legends transformed into one of South Korea's most treasured court dance traditions.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master facing line alignment and sleeve movements.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master facing line alignment and sleeve movements..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authoritative master dancer from a Korean intangible cultural heritage preservation center, blending historical precision with graceful demonstration."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, graceful court posture with broad shoulder carriage to accommodate military overcoats and headpiece balance.",
+      "Fluid arm swoops using extended striped sleeve covers (saektonghansam), shifting to rapid hilt twirling of twin short blades.",
+      "Controlled torso stability during kneeling drops; slight fluid rotation of upper body during sword flourishes."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Varied changdan meters bar out loud, then in pairs of bars. The meter is Varied changdan meters.",
+      "Rhythm pattern: Changdan cycles defined by dual-pitched Janggu strokes and accentuating Buk strikes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 70 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Ipchum-sawi: Form two parallel rows facing your partner, standing tall with arms extended in saektonghansam sleeves.",
+      "Step 2: Sleeve release and floor passage: Perform controlled sleeve waves around swords lying on the floor.",
+      "Footwork from the sources: Smooth gliding step executed in thick white socks (beoseon) without outer shoes, progressing into swift circular walking and floor pivots.",
+      "Drill: Practice standing posture with extended arms while wearing sleeve extensions."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varied changdan meters bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Anjeon-sawi: Lower smoothly onto knees maintaining the two facing rows, keeping upper body upright.",
+      "Step 4: Sword lift: Lift the twin short swords (ssang dan geom) from the floor while maintaining knee placement or standing up.",
+      "Drill: Execute basic forward gliding steps in beoseon socks."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varied changdan meters bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Learn Ipchum-sawi facing line spatial positioning."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sudden uncoordinated wrist snaps that cause erratic sword ring clattering; maintain smooth torso balance while dropping into kneeling positions."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform Ipchum-sawi upper-body arm swoops and wrist blade twirling while seated firmly in a chair. · For children: Sleeve and Ring Tag: Children practice waving sleeve extensions and sounding toy sword rings in coordinated row patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform Ipchum-sawi upper-body arm swoops and wrist blade twirling while seated firmly in a chair.",
+      "For children: Sleeve and Ring Tag: Children practice waving sleeve extensions and sounding toy sword rings in coordinated row patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Varied changdan meters bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 100 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master facing line alignment and sleeve movements..",
+      "Originally a memorial and court entertainment performance, Geommu bridges military symbolism and theatrical elegance.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate kneeling transitions and replica sword handling.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate kneeling transitions and replica sword handling..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authoritative master dancer from a Korean intangible cultural heritage preservation center, blending historical precision with graceful demonstration."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, graceful court posture with broad shoulder carriage to accommodate military overcoats and headpiece balance.",
+      "Fluid arm swoops using extended striped sleeve covers (saektonghansam), shifting to rapid hilt twirling of twin short blades.",
+      "Controlled torso stability during kneeling drops; slight fluid rotation of upper body during sword flourishes."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Varied changdan meters bar out loud, then in pairs of bars. The meter is Varied changdan meters.",
+      "Rhythm pattern: Changdan cycles defined by dual-pitched Janggu strokes and accentuating Buk strikes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 70 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Yeonpungdae: Form a large group circle and rotate smoothly in spatial coordination while twirling the short blades.",
+      "Drill: Practice Anjeon-sawi knee drops with vertical torso alignment."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varied changdan meters bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Ipchum-sawi: Standing dance motion performed in two parallel lines facing one another.",
+      "Anjeon-sawi: Kneeling dance motion executed while preserving the two facing rows.",
+      "Drill: Practice smooth floor pickups of twin short swords."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varied changdan meters bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Twirl short swords to generate consistent metallic ring sounds."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sudden uncoordinated wrist snaps that cause erratic sword ring clattering; maintain smooth torso balance while dropping into kneeling positions."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform Ipchum-sawi upper-body arm swoops and wrist blade twirling while seated firmly in a chair. · For children: Sleeve and Ring Tag: Children practice waving sleeve extensions and sounding toy sword rings in coordinated row patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform Ipchum-sawi upper-body arm swoops and wrist blade twirling while seated firmly in a chair.",
+      "For children: Sleeve and Ring Tag: Children practice waving sleeve extensions and sounding toy sword rings in coordinated row patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Varied changdan meters bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Transitions between two facing parallel lines (Ipchum-sawi, Anjeon-sawi) and a revolving group circle (Yeonpungdae)."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 100 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate kneeling transitions and replica sword handling..",
+      "Historical accounts credit Horace Newton Allen with writing the first detailed Western eyewitness description of the dance in 1896.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform full group circular rotations (Yeonpungdae) at accelerated tempo.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform full group circular rotations (Yeonpungdae) at accelerated tempo..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authoritative master dancer from a Korean intangible cultural heritage preservation center, blending historical precision with graceful demonstration."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, graceful court posture with broad shoulder carriage to accommodate military overcoats and headpiece balance.",
+      "Fluid arm swoops using extended striped sleeve covers (saektonghansam), shifting to rapid hilt twirling of twin short blades.",
+      "Controlled torso stability during kneeling drops; slight fluid rotation of upper body during sword flourishes."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Varied changdan meters bar out loud, then in pairs of bars. The meter is Varied changdan meters.",
+      "Rhythm pattern: Changdan cycles defined by dual-pitched Janggu strokes and accentuating Buk strikes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 70 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Sword lift: Lift the twin short swords (ssang dan geom) from the floor while maintaining knee placement or standing up.",
+      "Step 2: Yeonpungdae: Form a large group circle and rotate smoothly in spatial coordination while twirling the short blades.",
+      "Drill: Practice synchronized circular rotation in group formation."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varied changdan meters bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Yeonpungdae: Circular formation movement where dancers rotate and turn in unison.",
+      "Drill: Combine swift foot pivots with continuous blade twirling."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varied changdan meters bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Execute full performance piece following Changdan acceleration."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sudden uncoordinated wrist snaps that cause erratic sword ring clattering; maintain smooth torso balance while dropping into kneeling positions."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform Ipchum-sawi upper-body arm swoops and wrist blade twirling while seated firmly in a chair. · For children: Sleeve and Ring Tag: Children practice waving sleeve extensions and sounding toy sword rings in coordinated row patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform Ipchum-sawi upper-body arm swoops and wrist blade twirling while seated firmly in a chair.",
+      "For children: Sleeve and Ring Tag: Children practice waving sleeve extensions and sounding toy sword rings in coordinated row patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Varied changdan meters bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Transitions between two facing parallel lines (Ipchum-sawi, Anjeon-sawi) and a revolving group circle (Yeonpungdae)."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 100 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform full group circular rotations (Yeonpungdae) at accelerated tempo..",
+      "Traces from ancient Silla sword rituals and Hwangchangmu mask dances to Joseon court Kisaeng repertoire taught at Gwonbeon institutions, preserved today as Intangible Cultural Property No. 12.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 100,
+  "meter": "Varied changdan meters",
+  "rhythm_pattern": "Changdan cycles defined by dual-pitched Janggu strokes and accentuating Buk strikes.",
+  "instruments": [
+   "Piri (2)",
+   "Daegeum",
+   "Haegeum",
+   "Janggu",
+   "Buk"
+  ],
+  "vocal_style": "Instrumental ensemble accompaniment without vocalists.",
+  "musical_form": "Samhyeon-nyukgak suite structure transitioning through distinct changdan rhythmic phases.",
+  "mood": [
+   "stately",
+   "ceremonial",
+   "dynamic",
+   "melancholic",
+   "spirited"
+  ],
+  "sound_description": "A wind-and-percussion soundscape dominated by the resonant bamboo reeding of twin piri and the breathy transverse tones of the daegeum, underpinned by the dual-pitched skin tones of the janggu drum, punctuated by the metallic clinking of sword rings.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Geommu (South Korea). Meter Varied changdan meters. Tempo about 100 bpm. Rhythm pattern: Changdan cycles defined by dual-pitched Janggu strokes and accentuating Buk strikes.. Instruments: Piri (2), Daegeum, Haegeum, Janggu, Buk. Vocal style: Instrumental ensemble accompaniment without vocalists.. Form: Samhyeon-nyukgak suite structure transitioning through distinct changdan rhythmic phases.. Mood: stately, ceremonial, dynamic, melancholic, spirited. It should sound like this: A wind-and-percussion soundscape dominated by the resonant bamboo reeding of twin piri and the breathy transverse tones of the daegeum, underpinned by the dual-pitched skin tones of the janggu drum, punctuated by the metallic clinking of sword rings. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 70
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 100
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear a stylized Joseon Dynasty military uniform over a hanbok. The costume consists of a chima (skirt), jeogori (jacket), kwaeja or jeonbok (military overcoat), and jeon-dae or hongtti (wide red chest sash). Dancers wear a black military-style cap (jeon-rip or jeollip) tied under the chin with dangling red and yellow beads and a red tassel, along with thick white socks (beoseon) and detachable striped sleeve covers (saektonghansam). Regional variants dictate skirt and jacket colors, such as Jinju's blue skirt and jade green jacket. Dancers carry paired short swords (dangeom/kal) made of nickel-brass alloy (baektong) measuring 22 cm, featuring three attached rings between hilt and blade that sound during movement.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKorean_sword_dance-Jinju_geommu-03.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKorean_sword_dance-Jinju_geommu-04.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGeommu%28Sword_dance%29_%284420816591%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Korean_sword_dance-Jinju_geommu-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Korean_sword_dance-Jinju_geommu-03.jpg/1280px-Korean_sword_dance-Jinju_geommu-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "SJ Yang / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorean_sword_dance-Jinju_geommu-03.jpg",
+    "description": "Korean sword dance-Jinju geommu"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Korean_sword_dance-Jinju_geommu-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Korean_sword_dance-Jinju_geommu-04.jpg/1280px-Korean_sword_dance-Jinju_geommu-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "SJ Yang / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorean_sword_dance-Jinju_geommu-04.jpg",
+    "description": "Korean sword dance-Jinju geommu"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Geommu%28Sword_dance%29_%284420816591%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Geommu%28Sword_dance%29_%284420816591%29.jpg/1280px-Geommu%28Sword_dance%29_%284420816591%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Korea.net / Korean Culture and Information Service / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeommu%28Sword_dance%29_%284420816591%29.jpg",
+    "description": "Geommu is performed with special costume, dance motions, and music."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Red-tasselled military caps and bead chin straps.",
+   "Ringing nickel-brass sword rings in close-up motion.",
+   "Cascading rainbow-striped sleeve silk (saektonghansam).",
+   "Juxtaposition of blue and red hanbok skirts against wooden courtyard floors."
+  ],
+  "costume_notes": "Performers wear a stylized Joseon Dynasty military uniform over a hanbok. The costume consists of a chima (skirt), jeogori (jacket), kwaeja or jeonbok (military overcoat), and jeon-dae or hongtti (wide red chest sash). Dancers wear a black military-style cap (jeon-rip or jeollip) tied under the chin with dangling red and yellow beads and a red tassel, along with thick white socks (beoseon) and detachable striped sleeve covers (saektonghansam). Regional variants dictate skirt and jacket colors, such as Jinju's blue skirt and jade green jacket. Dancers carry paired short swords (dangeom/kal) made of nickel-brass alloy (baektong) measuring 22 cm, featuring three attached rings between hilt and blade that sound during movement.",
+  "setting_notes": "Originally a memorial and court entertainment performance, Geommu bridges military symbolism and theatrical elegance. In Jinju, the dance is prominently performed during an annual memorial ritual honoring Nongae, a patriot kisaeng who died taking a Japanese general off a cliff during wartime. Modern performances take place at cultural heritage centers, national theaters, and traditional arts festivals.",
+  "map": {
+   "country": "South Korea",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "9 tutorial(s) of the classical-court family studied",
+  "videos_studied": 9,
+  "counting": "count the Varied changdan meters bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
+  ],
+  "cues": [
+   "uno y dos",
+   "el sombrero nunca para",
+   "que sea siempre continuado",
+   "kanna",
+   "neutralize your pelvis",
+   "shoulders are dropped",
+   "squeeze your abs",
+   "keep your eyes locked",
+   "stand like a soldier",
+   "close your ribcage",
+   "high high pass",
+   "squeeze your deep outward rotators"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Geommu",
+  "https://www.wikidata.org/wiki/Q5371834",
+  "https://fr.wikipedia.org/wiki/Geommu",
+  "https://it.wikipedia.org/wiki/Geommu"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "44dabcf42af9eebf78c33291bc50bb8612f947c7385ede26cc5a62529df9a327",
+ "hero_checked": null
+}

@@ -1,8 +1,8 @@
 # Rueda de Casino — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-20 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Cuban dance instructor who emphasizes connection and listening to the caller.
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Guapea (stepping forward on the inside foot and backward on the outside foot)
 NARRATION: Al Medio (stepping in and out of the circle in closed hold)
-NARRATION: Count it: 1-2-3 / 5-6-7-8.
+NARRATION: Count it: 5-6-7-8 / 1-2-3.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -105,7 +105,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3 / 5-6-7-8.
+NARRATION: Count: 5-6-7-8 / 1-2-3.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -120,7 +120,7 @@ NARRATION: Drill: Circle formation spacing
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3 / 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Dame (partner exchange)
@@ -128,7 +128,7 @@ NARRATION: Step 4: Enchufe (turning partner inside and swapping places)
 NARRATION: Drill: Guapea weight shifts
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3 / 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,12 +140,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: panicking and going forward instead of starting with the right leg back for girls
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3 / 5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 / 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,7 +174,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3 / 5-6-7-8.
+NARRATION: Count: 5-6-7-8 / 1-2-3.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,7 +188,7 @@ NARRATION: Drill: Enchufe turn mechanics
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3 / 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Dame (partner exchange)
@@ -199,7 +199,7 @@ NARRATION: Drill: Dame partner exchange
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3 / 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -211,12 +211,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: panicking and going forward instead of starting with the right leg back for girls
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3 / 5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 / 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular formation (rueda) with pairs facing inward, revolving around a central axis.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -245,7 +245,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3 / 5-6-7-8.
+NARRATION: Count: 5-6-7-8 / 1-2-3.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -259,7 +259,7 @@ NARRATION: Drill: Hand signal recognition in noisy settings
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3 / 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Sombrero: A hat move indicated by the caller tapping the top of their head.
@@ -267,7 +267,7 @@ NARRATION: Drill: Complex multi-swap sequences
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3 / 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -278,12 +278,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: panicking and going forward instead of starting with the right leg back for girls
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3 / 5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 / 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular formation (rueda) with pairs facing inward, revolving around a central axis.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -322,9 +322,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3 / 5-6-7-8
-Demonstration: views used by most teachers: front; tempo progression: full
-Cues: mujeres; exhibela; abajo; desplazate; culebra; dile que no; dame una; sombrero
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8 / 1-2-3
+Demonstration: views used by most teachers: overhead, front; tempo progression: slow → full
+Cues: dame; dame dos; directo; hop; step step step; mujeres; exhibela; abajo; desplazate; culebra; dile que no; dame una
+Common mistakes the studied teachers name: panicking and going forward instead of starting with the right leg back for girls
 
 Sources (6): https://en.wikipedia.org/wiki/Rueda_de_Casino; https://www.wikidata.org/wiki/Q1503394; https://es.wikipedia.org/wiki/Rueda_de_casino; https://fr.wikipedia.org/wiki/Rueda_de_casino; https://de.wikipedia.org/wiki/Rueda_de_casino; https://it.wikipedia.org/wiki/Rueda_de_casino

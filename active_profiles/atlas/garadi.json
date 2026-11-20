@@ -1,0 +1,156 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy iron rings (risk of bruising)",
+          "Late night performances"
+        ],
+        "counts": "Energetic 1-2-3-4 counts.",
+        "duration_minutes": "10",
+        "game_version": "The 'Vanara Army' game: children pretend to be the monkey army celebrating a victory."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Long durations",
+          "Heavy iron rings (use lighter bells)",
+          "Hard surfaces that impact joints"
+        ],
+        "counts": "Simple 1-2-1-2 marching counts.",
+        "seated_version": "Perform rhythmic foot tapping while seated to sound the rings without the strain of standing for hours.",
+        "standing_version": "Short duration rhythmic stepping while holding a support (like a chair or rail).",
+        "tempo_and_range": "Reduce the 8-hour duration to 5-minute intervals; limit leg lift height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "Intricate movements designed to sound the iron rings",
+      "formation_and_space": "Processional or temple-based; performed during car festivals",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Rhythmic leg movements designed to make the ten iron rings on each leg collide",
+          "name": "Anjali striking"
+        }
+      ],
+      "tempo_feel": "Endurance-based, sustained for 5-8 hours",
+      "what_to_avoid": "Avoid exhaustion; the dance requires pacing for 5-8 hour durations."
+    },
+    "music_profile": {
+      "instruments": [
+        "Anjali (iron rings)",
+        "Drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "triumphant",
+        "energetic",
+        "rhythmic",
+        "ceremonial"
+      ],
+      "musical_form": "Continuous rhythmic accompaniment",
+      "reference_recordings": [],
+      "rhythm_pattern": "Metallic percussive clanging from leg rings",
+      "sound_description": "The sound is dominated by the rhythmic, metallic jingling and clanging of twenty iron rings striking together with every step, layered over a foundation of traditional drumming.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step firmly to engage the iron rings (anjali) on the lower legs",
+        "Execute rhythmic footwork to create a metallic clanging sound",
+        "Maintain a steady pace suitable for a multi-hour performance"
+      ],
+      "formation": "Group performance, often accompanying a procession",
+      "level_notes": "Requires extreme physical endurance for 5-8 hour sessions.",
+      "rhythm": "Percussive and metallic, driven by the leg rings"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "1b7f7209a63614704d43183fc8af3d4654d884ec9d07f872c1ae48178b8aa338",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific drum rhythms used to accompany the anjali rings? Evidence needed: https://archive.org/details/celebrationoflif0000pani"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific 'intricate movements' mentioned in the source? Evidence needed: https://archive.org/details/celebrationoflif0000pani"
+    ]
+  },
+  "id": "atlas:garadi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Garadi",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "30d0471e87179b94",
+      "next_evidence": "https://archive.org/details/celebrationoflif0000pani",
+      "question": "What are the specific 'intricate movements' mentioned in the source?",
+      "source": "https://archive.org/details/celebrationoflif0000pani",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'intricate movements' but does not describe them, making choreography impossible to teach without visual evidence."
+    },
+    {
+      "domain": "research",
+      "id": "85ffd85bb813bff0",
+      "next_evidence": "https://archive.org/details/celebrationoflif0000pani",
+      "question": "What are the specific drum rhythms used to accompany the anjali rings?",
+      "source": "https://archive.org/details/celebrationoflif0000pani",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions the rings create sound but doesn't specify the meter or rhythm of the accompanying music."
+    }
+  ],
+  "research_file": "research_results/garadi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "garadi",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q5521851",
+    "https://archive.org/details/celebrationoflif0000pani"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}
