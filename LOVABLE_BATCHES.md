@@ -466,28 +466,38 @@ WHY
 The Viral page reads a database view whose three "charts" (this month, this year, all time) are the same list in order of date, with rank numbers that look like popularity. No popularity is known. The same list, with more verified facts and its sources, is now an open file on GitHub. After this batch the page tells the truth and the app has no backend at all.
 
 DATA
-https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/viral.json — contract "da_viral_v1", about 300 KB, rebuilt when it changes. Fields: count; order (a sentence); categories {<key>: number}; fingerprint; updated; challenges[] in the order to show them, each { slug, name, category?, song?, origin_date?, origin_year?, originator?, originator_story?, timeline?, peak_period?, fun_facts?, celebrity_performances?[] {performer, platform?, url?}, platform?, hero_video_youtube_id?, hero_title?, hero_channel?, video_stack?[] {youtube_id, role, title?, channel?}, original_video_url?, sources?[] (urls) }. Every field after name may be missing: then nothing is rendered for it.
-Load it with the loader the dance files use: fetched when /viral opens (or when Home has saved viral items to show), 10-second timeout, one retry, stored whole in the browser database da_library_v2 under "viral.json"; a stored copy is shown at once and replaced in the background when the file's fingerprint differs. If it cannot be loaded and no copy is stored: the page header and one calm line t("pages.viral.unavailable","The Viral list could not be loaded just now. Please try again in a moment."). Add viral.json to the files /health checks.
+https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/viral.json — contract "da_viral_v1", about 300 KB, rebuilt when it changes. Fields: count; order (a sentence); categories {<key>: number}; fingerprint; updated; challenges[] in the order to show them, each { slug, name, category?, song?, origin_date?, origin_year?, originator?, originator_story?, timeline?, peak_period?, fun_facts? (one text), celebrity_performances?[] {performer, platform?}, platform?, hero_video_youtube_id?, hero_title?, hero_channel?, video_stack?[] {youtube_id, role ("hero" or "rendition"), title?, channel?}, original_video_url?, sources?[] (addresses) }. Every field after name may be missing: then nothing is rendered for it, and no label either.
+Load it the way the other files of the library are loaded: fetched when /viral opens (and on Home only when there are saved viral challenges to show), 10-second timeout, one retry, stored whole in the browser database da_library_v2 under "viral.json". A stored copy is shown at once; the file is fetched again in the background and, when its fingerprint differs, the stored copy is replaced for the next opening of the page. If it cannot be loaded and no copy is stored: the page header and one calm line t("pages.viral.unavailable","The Viral list could not be loaded just now. Please try again in a moment."). Add viral.json to the files /health checks.
 
 REMOVE
-1. Supabase, completely: the client, its npm package, the project address and the key in the code, the request to viral_chart and every other call. If anything other than the Viral list still reads from Supabase, do not remove that one call: name it in your report. After this batch the app's only data requests go to raw.githubusercontent.com.
+1. Supabase, completely: every import and call, the client module, the npm package @supabase/supabase-js, the project address and the key. If Lovable itself manages a file of that integration that cannot be deleted, leave the file, make sure nothing imports it, and name it in your report. If anything other than the Viral list still reads from Supabase, do not remove that call: name it in your report. After this batch the app's only data requests go to raw.githubusercontent.com.
 2. The three tabs THIS MONTH / THIS YEAR / ALL TIME.
-3. Every rank: the "#1" numbers on cards and in the details, the "NEW" badge, rank arrows, weeks on a chart, view counts, and the "How ranking works" block. Nothing on this page may suggest popularity.
-4. In the details: the "Tutorials coming soon…" block.
-5. The word "Top" in the page title: it becomes "Viral dance challenges — Dancing Atlas".
+3. Every rank: the "#1" numbers on the cards and in the details, the "NEW" badge, rank arrows, weeks on a chart, view counts, and the "How ranking works" button with what it opens. Nothing on this page may suggest popularity.
+4. In the details: the "TUTORIALS" block with "Tutorials coming soon…".
+5. The head of the page: the title becomes "Viral dance challenges · Dancing Atlas"; the description becomes "The viral dance challenges: who made each, when it began, the song and the sources. In order of date, not a ranking."; the og and twitter titles become "Viral dance challenges" and their descriptions the same sentence. The words "top", "chart", "ranked" and "biggest" leave the page and its head.
 
 SHOW
-A. Under the page title t("pages.viral.title","Viral dance challenges") one muted line t("pages.viral.order","In order of when each began, newest first. This is not a ranking.").
-B. Category chips as today: t("pages.viral.all","All") with count, then one chip per key of categories with its number, in the order the page uses today for the keys it knows. A key the page does not know is shown with underscores as spaces and capitals as the others. A category with no entries is not shown (today "Flashmob IRL 0" is shown).
-C. The cards in the file's order, with the same look and video behaviour as today: category · origin_year; name; then t("pages.viral.made_by","Made by") + " " + originator; Save, Share and Details as today. The video is hero_video_youtube_id; a challenge without one shows its card without a video.
-D. The details sheet: category · origin_year; name; t("pages.viral.made_by","Made by") + originator; then, each only when present: originator_story under t("pages.viral.story","Who made it"); timeline under t("pages.viral.timeline","How it spread"); peak_period under t("pages.viral.peak","At its height"); fun_facts under t("pages.viral.fact","Worth knowing"); celebrity_performances as lines "performer · platform" under t("pages.viral.also","Also danced by"); song under t("pages.viral.song","The song") as today; the Watch button t("pages.viral.watch","Watch") as today; the other videos of video_stack as the page shows more videos today; sources as numbered links (new tab, rel="noopener noreferrer") under t("pages.viral.sources","Sources").
-E. Saved viral challenges keep working with the same slugs: the hearts, "Fav viral" on Home and the Saved page take names and pictures from viral.json.
+A. Where the three tabs are today, one small muted line: t("pages.viral.order","In order of when each began, newest first. This is not a ranking."). The page heading is t("pages.viral.title","Viral dance challenges").
+B. Category chips as today: t("pages.viral.all","All") with count, then one chip per key of categories with its number, in the order the page uses today for the keys it knows. A key the page does not know is shown with its underscores as spaces, styled as the others. A category that is not in the file is not shown (today "Flashmob IRL 0" is shown).
+C. The cards in the file's order, with the same look and video behaviour as today: the small line "category · origin_year" without rank and without "NEW"; the name; under it originator, as today; Save, Share and Details as today. The video is hero_video_youtube_id; a challenge without one shows its card without a video.
+D. The details sheet, in this order, each part only when its value is present:
+1. "category · origin_year" (no rank), the name and the originator line, as today.
+2. originator_story (the paragraph shown today).
+3. The Watch button t("pages.viral.watch","Watch") as today.
+4. t("pages.viral.timeline","How it spread"): timeline.
+5. t("pages.viral.peak","At its height"): peak_period.
+6. t("pages.viral.fact","Worth knowing"): fun_facts.
+7. t("pages.viral.also","Also danced by"): celebrity_performances, one line each: performer · platform.
+8. t("pages.viral.song","The song") with the song, as today.
+9. t("pages.viral.more","More videos"): the entries of video_stack whose role is not "hero", each a row "title · channel" that opens https://www.youtube.com/watch?v=<youtube_id> in a new tab (rel="noopener noreferrer"). No embedded players in the sheet.
+10. t("pages.viral.sources","Sources"): sources as a numbered list of links, each showing the host name of its address (new tab, rel="noopener noreferrer").
+E. Saved viral challenges keep working with the same slugs and the same browser storage: the heart on a card, and wherever saved viral challenges are listed today (the "Fav viral" block on Home, the Saved page), their names and pictures now come from viral.json. A saved slug that is not in the file is not shown and not deleted.
 
 RULES
-Read-only. No number is typed into the code. Nothing is rendered for an empty value. Change no other page.
+Read-only. No number is typed into the code. Nothing is rendered for an empty value. Change nothing else on other pages.
 
 WHEN DONE
-Open /viral in the preview and report: the number on "All", every category chip with its number, the first three names, the title of the page, what the details of the first card show, the list of hosts the page requested data from, whether the Supabase package is gone from package.json, and the rows of /health. Then save one viral challenge, open Home and Saved, and report that it shows there.
+Open /viral in the preview and report: the number on "All"; every category chip with its number; the first three names; the title and the description of the page; every label and value shown in the details of the first card; the hosts the page requested data from; whether @supabase/supabase-js is gone from package.json; the rows of /health. Then save one viral challenge, open Home and the Saved page, and report that it shows there.
 ```
 
 
@@ -504,13 +514,13 @@ The Atlas counts 213 "countries" because a joined name such as "France and Italy
 DATA (already loaded: index.json, contract "da_index_v1")
 Head: count; regions[] (names, in the order to show them); places {<ISO code>: {region, dances}}; no_place (number); families {<key>: {name, dances}}; no_family (number).
 Per dance: countries?[] (ISO codes: a dance belongs to EVERY code in this list), family? (a key of families), name, era, region, slug and the fields used today.
-A country's name is new Intl.DisplayNames(["en"], {type: "region"}).of(code); its flag is the emoji made from the two letters of the code. Do not use the dance's free-text "country" field for grouping or counting any more; it may still be shown as text on a dance page.
+A country's name is new Intl.DisplayNames(["en"], {type: "region"}).of(code); its flag is the emoji made from the two letters of the code. Do not use a dance's own "country" or "region" text for grouping or counting any more (they are free text: 213 different country strings, hundreds of region strings); they may still be shown as text on a dance page. A country's region is places[code].region.
 
 ATLAS (/atlas)
 1. Header: "<count> DANCES · <number of keys in places> COUNTRIES".
 2. One section per name in regions, in that order; under it the countries whose places[code].region is that name, sorted by name, each a chip as today: flag, name, places[code].dances.
 3. After the regions, when no_place is above zero, one chip without a flag: t("pages.atlas.no_place","Place not yet known") with the number no_place; it lists the dances that have no countries.
-4. The sheet a chip opens stays as it is, with the heading "<name>", "<n> DANCES · <region>", listing every dance whose countries include that code, sorted by name.
+4. The sheet a chip opens stays as it is, with the heading "<name>" and the line "<n> DANCES · <places[code].region>", listing every dance whose countries include that code, sorted by name.
 
 FLAGS (/flags)
 One tile per key of places: no flag appears twice. Sorted by country name. A tile opens what it opens today, for the dances whose countries include that code.
