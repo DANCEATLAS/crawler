@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-21T06:19:37Z",
+ "generated_at": "2026-11-21T09:00:30Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -19,13 +19,13 @@
    "file": "manifest.json",
    "contract": "da_manifest_v1",
    "holds": "where to start: every file, its contract and the standing rules",
-   "bytes": 6036
+   "bytes": 6037
   },
   {
    "file": "index.json",
    "contract": "da_index_v1",
    "holds": "every dance in a few fields, with the address and fingerprint of its own file",
-   "bytes": 625928
+   "bytes": 632565
   },
   {
    "file": "bdf_teaching_system.json",
@@ -49,7 +49,13 @@
    "file": "site.json",
    "contract": "da_site_v1",
    "holds": "the words of the website's newer screens",
-   "bytes": 19770
+   "bytes": 20689
+  },
+  {
+   "file": "viral.json",
+   "contract": "da_viral_v1",
+   "holds": "the viral dance challenges: who made each, when, the song and the sources; in order of date, not a ranking",
+   "bytes": 304915
   },
   {
    "file": "retired.json",
@@ -115,7 +121,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 22955880,
+  "bytes_behind_this_door": 23268352,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },
