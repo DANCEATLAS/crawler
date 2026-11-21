@@ -9,14 +9,14 @@ _Last written 17 November 2026 by Claude. Keep this file under two pages. Read t
 
 The long vision is unchanged: BDF, the best dance teacher in the world, a search engine for dance, a social tool that matches dancers, AR (`PRODUCT_VISION.md`, V01–V18).
 
-## State on 17 November 2026 (measured)
+## State on 21 November 2026 (measured)
 
-- Atlas: 1,155 dances, 359 published deep profiles, **5 active-ready** (1 the day before), 26 within two items. What holds pages back most: steps with counts, a studied video, a checked hero video.
-- First full night on the free lane (run 35, 16 November, 2 h 44 min): 47 profiles written of 70 tried, 120 hero videos checked, 22 lessons studied; the lesson list grew from 303 to 427. But 71 of 312 model questions went unanswered: one free model carried most of the work and each question that arrived while it rested was dropped. Fixed 17 November: a question waits (at most 40 minutes a run). In the live runs since, nothing went unanswered. Each stage writes `model trouble: …` into `pipeline_state/runs.json`: no log reading needed.
-- Engine: **Google Gemini's free tier only** (AI Studio, 16 November: tier Free, no billing attached). OpenAI is off; its key is not passed to any workflow. Seen: flash 20 requests a day per model; only the newest flash-lite model has a large day quota.
-- Database jobs: 16 rows written where the old jobs wrote 1,191 a day.
-- The mentor's DNA after five live runs on 17 November (runs 36 to 40): 291 teachers ranked, 35 basics lessons and talks found, 14 lessons of 12 teachers studied, 840 comments read, 10 lessons with the mentor look (46 moments, 12 feelings met, beliefs under four headings), 12 research topics and 5 papers with 53 checked findings, 7 practices with two or more kinds of evidence, 2 with all three. The vocabulary: 34 practices in six themes, 6 mentor moments, 4 headings of belief, 66 research topics, 40 open-search queries, 16 basics topics (one of them teachers' talks: searched every night, and one talk is studied first each night when one is waiting).
-- The free engine's day is about 400 model calls (16 November, Pacific day: 328 by the night, 84 by five live tests, then the quota was spent). The mentor research therefore runs after the stages that grow the library and takes what is left; when no model can be asked it stops, and no lesson is marked as failed for it.
+- Atlas: 1,244 dances, 476 published deep profiles, **32 active-ready** (5 on 16 November), 80 more within two items. What holds pages back most: the steps with their counts (279 pages), a studied lesson or performance (207), common mistakes (176).
+- Five nights in a row without an error (16 to 20 November). Since the patient model client (17 November) 2 questions of 1,128 went unanswered; a night takes between 2 h 20 min and 3 h 35 min (limit 5 h 10 min). Each stage writes `model trouble: …` into `pipeline_state/runs.json`: no log reading needed.
+- **The pace, said plainly:** a night adds about 22 dances to the atlas, 30 published profiles and 5 active-ready profiles. On 21 November 326 lessons and 501 performances were waiting to be studied and the free day had room, so the nightly video study was raised from 24 + 30 to 40 + 50. Thousands of active-ready profiles need more dances with a lesson on the web than are known today (open items 2 and 6).
+- Engine: **Google Gemini's free tier only** (AI Studio, 16 November: tier Free, no billing attached). OpenAI is off; its key is not passed to any workflow. The free day has carried 405 answered questions in one night (17 November); a usual night now asks about 240. The mentor research runs after the stages that grow the library and takes what is left; when no model can be asked it stops, and no lesson is marked as failed for it.
+- Database: **38 MB of the free 500** since the change log was cleaned on 21 November (627 MB before): 104,162 rows that repeated the row before them were removed, 4,094 kept. The nightly jobs write about 100 rows a night where the old jobs wrote 1,191.
+- The mentor's DNA after the night of 20 November: 549 teachers ranked, 51 lessons of 45 teachers studied, every one with the mentor look, 4 of them teachers' talks; 236 moments (the opening 47, before a hard part 84, after a mistake 31, after a success 31, checking in 23, the close 20); 48 feelings met; beliefs of 15 teachers on who can dance and of 19 on how people learn; 2,991 learner comments read; 24 research topics and 9 papers with 106 checked findings; **23 of 34 practices with two or more kinds of evidence, 12 with all three**. The vocabulary: 34 practices in six themes, 6 mentor moments, 4 headings of belief, 66 research topics, 40 open-search queries, 16 basics topics (one of them teachers' talks: searched every night, and one talk is studied first each night when one is waiting).
 
 ## What runs by itself (GitHub Actions, no Claude, no Lovable, $0)
 
@@ -24,7 +24,7 @@ The long vision is unchanged: BDF, the best dance teacher in the world, a search
 |---|---|---|
 | 08:15 daily | `crawl` | hero videos; lessons searched in English and the tradition's own language, retried every 45 days |
 | 08:45–08:55 | `push_*` | mirror to Supabase, only rows that changed |
-| 09:20 daily | `atlas_daily` | audit → discover (60) → research (40 new + 30 deeper) → QC → hero check (120) → build → video study (24 lessons + 30 performances) → scripts → translate → activation → **teaching research** (3 free searches for basics lessons and teachers' talks, 10 lessons watched for method, 12 mentor looks, 3 research topics + 2 papers) → **readiness** → sync → report |
+| 09:20 daily | `atlas_daily` | audit → discover (60) → research (40 new + 30 deeper) → QC → hero check (120) → build → video study (40 lessons + 50 performances) → scripts → translate → activation → **teaching research** (3 free searches for basics lessons and teachers' talks, 10 lessons watched for method, 12 mentor looks, 3 research topics + 2 papers) → **readiness** → sync → report |
 | every 6 h | `watchdog` | restarts a schedule GitHub dropped |
 | Sunday 23:23 | `weekly_report` | the owner's e-mail: active-ready first, engine status, teaching research, one action at most |
 | 1st of month | `monthly_snapshot` | a dated safety copy of everything |
@@ -50,13 +50,13 @@ Platforms: GitHub `DANCEATLAS/crawler` (source of truth) · Lovable project `f79
 ## Open, in order
 
 1. **Watch the unanswered share** (`llm_unanswered` of `llm_requests` per stage in `runs.json`): it should stay far under the first night's 23 %, and performances should be observed. If `waited_seconds` reaches 2,400 night after night, lower `HERO_QC_BUDGET` first.
-2. **Lessons are the lever.** Active-ready needs steps with counts, and those come from lessons. If the count stalls, improve lesson finding (`crawler.py`, `lesson_eval`) first.
+2. **Lessons are the lever.** Active-ready needs steps with counts, and those come from lessons. The nightly video study was raised on 21 November; watch whether active-ready grows faster than 5 a night. If the count stalls, improve lesson finding (`crawler.py`, `lesson_eval`) first.
 3. **The mentor's DNA, next.** (a) Whoever builds BDF starts from `public/catalog/bdf_teaching_system.json`: `dna` is the default behaviour, `adjustments` and `mentor.feelings` say what to do when a learner struggles or shows a feeling, `learner_model` is what BDF's memory of a person should hold (vision V04). (b) A person checks a sample of timestamps first. (c) Follow the best-ranked teachers to their other lessons. (d) Widening is one line each in `pipeline/teaching.py`: `SCIENCE`, `PAPER_QUERIES`, `FOUNDATIONS`, `PRACTICE` (then add it to a theme). (e) Every lesson studied gets the mentor look in its teacher's turn (12 a night); a later reading adds to an earlier one and never replaces what was learned about the mentor.
 4. **Sacred flags.** Half of the withheld pages are the writer's judgment calls; a second opinion from the QC judge is the next refinement.
-5. **Database size.** The Supabase audit log held about 541 MB on 11 November (free limit 500 MB); writes still worked on 17 November. Clearing it needs the owner's yes and the Supabase login that owns the project (the GitHub login is an empty account).
+5. **Database size.** Done on 21 November: 38 MB of 500. Look at `audit_log` again only if the nightly jobs start rewriting unchanged rows (they wrote about 1,000 such rows a night before 16 November, about 7 since). The Supabase project belongs to the owner's e-mail sign-in; the GitHub sign-in opens an empty account.
 6. **Discovery breadth.** Present sources reach roughly 2,500 dances; more need Wikidata items with no English article (`pipeline/discover.py`).
 7. **Viral chart** orders by date, not popularity. Not on the path to the starting line.
-8. **Mirrors.** Lovable Project instructions hold a short copy of this file (17 November); the Supabase `ai_context` copy is from 11 November.
+8. **Mirrors.** Lovable Project instructions hold a short copy of this file (17 November); the Supabase `ai_context` copy is from 21 November.
 
 ## When you finish a session
 
