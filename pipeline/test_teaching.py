@@ -187,6 +187,15 @@ class TeachingResearchTests(Project):
         again = teaching.tonight(teaching.build_teachers(lessons, out, done), done, 4, today=today)
         # no talk waiting: its place goes back to the basics and the dances
         self.assertEqual((ids(again), again[1], again[2]), (["F1", "A1", "B1", "C1"], 1, 0))
+        # a stored video under the talk topic whose title is not about teaching or learning does not get the talk's place,
+        # and a video the study found not to be a lesson no longer counts for its channel
+        fans = dict(lessons, **{teaching.BASICS + teaching.TALKS: {"lessons": [{"youtube_id": "S1", "channel": "Star Fans", "title": "STAR IS A DANCE TEACHER 2022", "pos": 90, "neg": 0}]}})
+        got = teaching.tonight(teaching.build_teachers(fans, out, {}), {}, 2, today=today)
+        self.assertEqual((got[2], "Star Fans" in [t["teacher"] for t in teaching.build_teachers(fans, out, {"S1": {"status": "not_a_lesson"}})]), (0, False))
+        for title, kept in (("Why Counting Rhythms Doesn't Teach Rhythm", True), ("How to teach rhythm to someone with no rhythm", True), ("What makes a great dance teacher", True),
+                            ("Teaching dance to shy beginners", True), ("Viral Kid Dancer and Her Teacher Show Off Their Moves", False), ("Dance Teacher Mode On", False),
+                            ("TAP DANCE BASICS - 5 Steps EVERY Beginner should Master", False)):
+            self.assertEqual(bool(teaching.TALK_TITLE.search(title)), kept, title)
         # a lesson read before beliefs were kept apart from step technique is read once more
         self.assertTrue(teaching._due(dict(done["T1"], schema=2), today))
 
