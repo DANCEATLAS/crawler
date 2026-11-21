@@ -1,0 +1,97 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "pilou",
+ "name": "Pilou",
+ "state": "not_published",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "countries": [
+  "NC"
+ ],
+ "card": {
+  "slug": "pilou",
+  "name": "Pilou",
+  "country": "New Caledonia",
+  "region": "Pacific",
+  "era": "pre-colonial",
+  "tagline": "Kanak round-dance around a central pole.",
+  "profile": "Kanak narrative round-dance; banned by France, last reported 1951. Sacred.",
+  "aliases": [
+   "Pilou"
+  ],
+  "related": [
+   "zamba",
+   "highland-fling",
+   "pavane",
+   "african-dance"
+  ],
+  "unesco": false,
+  "hero_video_youtube_id": "kIZ1uqK1bq8",
+  "video_stack": [
+   {
+    "youtube_id": "kIZ1uqK1bq8",
+    "role": "hero",
+    "title": "Dance from Hwaarhê, Kanaky (New Caledonia)",
+    "channel": "Ludo Kuipers",
+    "hd": false
+   }
+  ],
+  "image_significance": {
+   "status": "pending",
+   "captions": []
+  },
+  "tier": "content_ready",
+  "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 5.9,
+  "last_researched_at": "2026-10-31T16:22:56Z",
+  "pipeline_version": "v3.3",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "Pilou was a sacred dance within Kanak culture and was banned by French authorities; outsiders should respect its cultural significance and the reasons for its suppression.",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-15T17:58:39Z",
+   "soft_fail": [
+    "hd",
+    "named",
+    "camera_ok"
+   ]
+  },
+  "related_slugs": [
+   "zamba",
+   "highland-fling",
+   "pavane"
+  ]
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 1,
+  "of": 6,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
+   },
+   {
+    "key": "status",
+    "label": "known to be living, revived or historical"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   }
+  ]
+ },
+ "teaching_withheld": "Pilou was a sacred dance within Kanak culture and was banned by French authorities; outsiders should respect its cultural significance and the reasons for its suppression.",
+ "fingerprint": "f64f69e16d5409e6",
+ "updated": "2026-11-21"
+}

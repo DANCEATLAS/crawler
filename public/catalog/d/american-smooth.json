@@ -1,0 +1,63 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "american-smooth",
+ "name": "American Smooth",
+ "state": "not_published",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "card": {
+  "slug": "american-smooth",
+  "name": "American Smooth",
+  "tagline": "list of dance terms that are not names of dances or types of dances",
+  "profile": "This is a list of dance terms that are not names of dances or types of dances. See List of dances and List of dance style categories for those. This glossary lists terms used in various types of ballroom partner dances, leaving out terms of highly evolved or specialized dance forms, such as ballet, tap dancing, and square dancing, which have their own elaborate terminology. See also: Glossary of ballet terms Glossary of dance moves",
+  "insight": "The exception would be \"lifts\" – often featured in some forms of swing dancing, and ballroom showdance presentations, but banned in ordinary ballroom competition and rarely seen in social dancing.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Glossary_of_partner_dance_terms",
+   "Source: Glossary of partner dance terms on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Glossary_of_partner_dance_terms"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Glossary_of_partner_dance_terms",
+  "wikidata_qid": "Q5571845",
+  "unesco": false,
+  "hero_video_youtube_id": "VybO4fOdDvU",
+  "tier": "needs_curation",
+  "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 9.45,
+  "last_researched_at": "2026-11-14T17:17:27Z",
+  "pipeline_version": "v3.3",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-01T17:59:35Z",
+   "soft_fail": []
+  }
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 10,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ]
+ },
+ "fingerprint": "ec02863c1edc8191",
+ "updated": "2026-11-21"
+}

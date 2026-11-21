@@ -1,0 +1,126 @@
+{
+ "contract": "da_manifest_v1",
+ "generated_at": "2026-11-21T04:08:24Z",
+ "library": "Dance Atlas",
+ "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
+ "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
+ "rules": [
+  "Everything here was gathered and written by a machine from public sources and checked against them: quotes, links, timestamps. It has not been reviewed by a person, cleared for rights or tested on learners. Say so when you use it.",
+  "A dance with teaching_withheld is sacred or restricted. Tell its story with care. Never teach it, and never rebuild its steps from other sources.",
+  "Never invent steps, counts, origins, credits or rankings. What is missing is missing: readiness.missing names it.",
+  "What a machine saw in a video is a candidate, not a verified fact (verification: model_candidate). A performance never supplies counts.",
+  "Teach from bdf_teaching_system.json: dna is the default behaviour, adjustments and mentor.feelings answer a difficulty or a feeling, learner_model is what to keep in mind about one person. It is evidence, not a verdict.",
+  "Atlas (traditions) and Viral (challenges and dance culture) are separate collections.",
+  "Videos, pictures and music are linked, never copied. A link is not a licence to reuse.",
+  "The state active_ready means the machine has gathered everything a teaching service needs for that dance. Activation still needs human review, music rights and platform tests (ACTIVE_PROFILE_STANDARD.md)."
+ ],
+ "files": [
+  {
+   "file": "manifest.json",
+   "contract": "da_manifest_v1",
+   "holds": "where to start: every file, its contract and the standing rules"
+  },
+  {
+   "file": "index.json",
+   "contract": "da_index_v1",
+   "holds": "every dance in a few fields, with the address and fingerprint of its own file",
+   "bytes": 625928
+  },
+  {
+   "file": "bdf_teaching_system.json",
+   "contract": "da_bdf_teaching_v1",
+   "holds": "how to teach anyone to dance: the teaching DNA, how to adjust, the mentor, what to remember about a learner, with the evidence",
+   "bytes": 322811
+  },
+  {
+   "file": "active_ready.json",
+   "contract": "da_active_ready_v1",
+   "holds": "the starting line: which dances have everything a teaching service needs",
+   "bytes": 1800
+  },
+  {
+   "file": "machine.json",
+   "contract": "da_machine_v1",
+   "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
+   "bytes": 11265
+  },
+  {
+   "file": "site.json",
+   "contract": "da_site_v1",
+   "holds": "the words of the website's newer screens",
+   "bytes": 2795
+  },
+  {
+   "file": "retired.json",
+   "holds": "entries that were removed or merged, and where they went",
+   "bytes": 15314
+  },
+  {
+   "file": "episodes.json",
+   "contract": "dw_episodes_v1",
+   "holds": "draft scripts per dance (a presentation asset, not proof of readiness)",
+   "bytes": 134095
+  },
+  {
+   "file": "dances.app.json",
+   "contract": "dw_app_v1",
+   "holds": "the older single file the website loaded before the index; kept for compatibility",
+   "bytes": 5211628
+  },
+  {
+   "file": "profiles_v2.json",
+   "contract": "dw_profiles_v2",
+   "holds": "the older single file of deep profiles; the same content is in d/<slug>.json",
+   "bytes": 5184967
+  }
+ ],
+ "dance_file": {
+  "pattern": "d/{slug}.json",
+  "contract": "da_dance_v1",
+  "count": 1244,
+  "bytes": 11420453,
+  "sections": {
+   "card": "identity and the short story: names, places, era, family, hero video, pictures, sources",
+   "profile": "the deep profile of a published dance: story sections, music, movement, connections, footage, checked claims",
+   "readiness": "the dance against the starting line: how many of the items it has and which are missing",
+   "lessons": "lessons the machine studied: parts with their time, steps with counts, cues, common mistakes, what works",
+   "performances": "what the machine saw in the dance's own performance video",
+   "episodes": "the state of the draft scripts and where they are",
+   "teaching_withheld": "present on a sacred or restricted dance: why nothing is taught"
+  },
+  "changes": "A dance file carries no clock. Compare the fingerprint in index.json (fp) with the one you kept and fetch only what moved."
+ },
+ "counts": {
+  "listed": 1244,
+  "researched": 589,
+  "published": 476,
+  "active_ready": 32,
+  "one_short": 41,
+  "two_short": 39,
+  "three_to_five_short": 87,
+  "story_ready_teaching_withheld": 43,
+  "lessons_studied": 170,
+  "performances_observed": 121,
+  "in_the_door": 1244
+ },
+ "teaching": {
+  "file": "bdf_teaching_system.json",
+  "how_to_use": [
+   "dna: what the teacher does by default; a rule appears only where two or more kinds of evidence agree, and evidence_kinds says how strong it is",
+   "adjustments: when a learner says something is hard, what teachers offer for it and what the research adds",
+   "mentor.moments: what teachers say at the moments that decide whether a learner stays; mentor.creed: what they believe, sorted; mentor.feelings: when a learner shows a feeling, how teachers have answered it; mentor.voice: how they sound",
+   "learner_model: what to keep in mind about one learner over time, so that the teaching fits them better the longer they stay",
+   "practices, adaptations, science, papers: the evidence behind every line, each with a link to the video moment or the source"
+  ]
+ },
+ "whole_library": {
+  "bytes_behind_this_door": 22931056,
+  "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
+  "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
+ },
+ "read_more": {
+  "vision": "https://github.com/DANCEATLAS/crawler/blob/main/PRODUCT_VISION.md",
+  "state": "https://github.com/DANCEATLAS/crawler/blob/main/LEDGER.md",
+  "starting_line": "https://github.com/DANCEATLAS/crawler/blob/main/ACTIVE_READY.md"
+ }
+}

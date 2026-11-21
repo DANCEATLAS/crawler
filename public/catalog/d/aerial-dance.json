@@ -1,0 +1,959 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "aerial-dance",
+ "name": "Aerial dance",
+ "state": "building",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "countries": [
+  "US"
+ ],
+ "card": {
+  "slug": "aerial-dance",
+  "name": "Aerial dance",
+  "country": "United States",
+  "country_code": "US",
+  "region": "Global",
+  "family": "stage-contemporary",
+  "flag_emoji": "🇺🇸",
+  "era": "1970s–present",
+  "tagline": "Defying gravity through vertical choreography and suspended apparatus.",
+  "profile": "Aerial dance is a contemporary discipline that merges modern dance aesthetics with circus-derived suspension techniques. Emerging in the United States during the 1970s, it utilizes apparatuses such as silks, harnesses, and trapezes to transform the vertical plane into a choreographic stage. Performers engage with these tools as active partners, requiring exceptional core strength, flexibility, and spatial orientation. The form encompasses both 'vertical dance' on walls and 'aerial modern' pieces that integrate floor work with suspended flight.",
+  "insight": "In 1970, Terry Sendgraff revolutionized the form by hanging a circus trapeze from a single point, allowing it to spin and spiral rather than just swing.",
+  "aliases": [
+   "Aerial modern dance",
+   "Vertical dance",
+   "Telas acrobáticas",
+   "Danza aérea en telas"
+  ],
+  "related": [
+   "Modern dance",
+   "Aerial silk",
+   "Trapeze",
+   "Bungee dance"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aerial_dance",
+   "https://www.wikidata.org/wiki/Q507033",
+   "https://es.wikipedia.org/wiki/Danza_aérea",
+   "https://fr.wikipedia.org/wiki/Danse_aérienne",
+   "https://pt.wikipedia.org/wiki/Tecido_acrobático",
+   "https://it.wikipedia.org/wiki/Tessuti_aerei"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aerial_dance",
+  "wikidata_qid": "Q507033",
+  "unesco": false,
+  "hero_video_youtube_id": "gLt_4CBdqlA",
+  "video_stack": [
+   {
+    "youtube_id": "gLt_4CBdqlA",
+    "role": "hero",
+    "title": "Kid Dancers MOVE JUDGES TO TEARS with EMOTIONAL AERIAL DANCE Performance!",
+    "channel": "Top Viral Talent",
+    "hd": true
+   },
+   {
+    "youtube_id": "IJhe7dXWyM4",
+    "role": "rendition",
+    "title": "Zurcaroh: Aerial Dance Group Spreads Their Wings With Epic Act - America's Got Talent 2018",
+    "channel": "bruhify pro max ultra",
+    "hd": true
+   }
+  ],
+  "tier": "content_ready",
+  "publish_gate": "publish",
+  "_is_sacred": false,
+  "is_sacred": false,
+  "updated_at": "2026-11-16",
+  "origin": "pipeline",
+  "research_gate": "publish",
+  "qc_score": 9.85,
+  "last_researched_at": "2026-11-16T20:54:38Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Aerial dance emerged as a distinct subgenre of modern dance in the United States during the 1970s, marking a departure from traditional circus arts by prioritizing choreographic expression over mere spectacle. Early pioneers like Trisha Brown explored 'equipment pieces' between 1968 and 1971, where dancers moved along walls to illustrate the choreography of everyday pedestrian movement in an altered gravitational state. Terry Sendgraff further evolved the form by inventing the 'motivity' trapeze, which utilized a single point of attachment to allow for spinning and spiraling movements that were previously impossible on standard circus apparatus. This shift allowed the apparatus to become a true partner in the dance, possessing its own motion and rhythm that the performer must respond to.\n\nThe discipline is broadly categorized into two primary forms: vertical dance and aerial modern dance. Vertical dance typically involves a performer suspended in a harness from a rope or cable, often using the facade of a building or a rock face as a floor. This allows for a 90-degree shift in perspective, where the dancer scales, leaps, and 'walks' on vertical surfaces. Aerial modern dance, conversely, often takes place in a theater or studio setting, utilizing apparatuses like aerial silks (telas), lyra (hoop), or low-hung trapezes. In this style, the dancer frequently transitions between the floor and the air, using the apparatus to extend the reach of contemporary movement into three-dimensional space.\n\nTechnically, aerial dance is exceptionally demanding, requiring a rigorous fusion of physical power and artistic grace. Performers must master complex 'wraps' (envolvimentos) and 'keys' (llaves) to secure themselves within fabrics or ropes. These techniques, such as the 'hip key' or 'foot lock,' provide the necessary friction and support for static poses and high-velocity 'drops' (caídas). The physical toll is significant; dancers must develop intense grip strength and abdominal control to manage inversions and transitions while suspended. Safety is paramount, involving certified riggers, specialized hardware like 'rescue eights' and swivels, and the use of crash mats to mitigate the risk of falls.\n\nIn the late 1990s, the form gained global notoriety through troupes like Argentina's De La Guarda, which blended performance art with high-energy aerial maneuvers. Today, the tradition is maintained through international festivals in locations such as Boulder, Colorado, and County Donegal, Ireland. Modern practitioners like Joanna Haigood and Amelia Rudolph have pushed the boundaries of site-specific work, performing on skyscrapers and canyon walls. This evolution has transformed aerial dance from a niche experimental movement into a global phenomenon that continues to redefine the relationship between the human body, architecture, and gravity.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Airdancelive.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Airdancelive.JPG/1280px-Airdancelive.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3072,
+    "height": 2304,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Airdancelive\n\nCreator:Airdancelive / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAirdancelive.JPG",
+    "description": "Projecto de danza aerea airdancelive\nInterprete:ivan torres"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Blue_Lapis_Light_Aerial_Dance_Maya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Blue_Lapis_Light_Aerial_Dance_Maya.jpg/1280px-Blue_Lapis_Light_Aerial_Dance_Maya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3336,
+    "height": 2224,
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "Earl J. McGehee / Wikimedia Commons / CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABlue_Lapis_Light_Aerial_Dance_Maya.jpg",
+    "description": "Blue Lapis Light dance company performance on the exterior wall of the Texas State History Museum in Austin, Texas, USA."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Aerial_Dance_Rehearsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Aerial_Dance_Rehearsal.jpg/1280px-Aerial_Dance_Rehearsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4000,
+    "height": 3091,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Earl J McGehee / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAerial_Dance_Rehearsal.jpg",
+    "description": "Aerial dance company rehearsal on the side of the Fifth Avenue Place building in Pittsburgh, PA."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Site_Specific_Aerial_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Site_Specific_Aerial_Dance.jpg/1280px-Site_Specific_Aerial_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4000,
+    "height": 3000,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Earl McGehee / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASite_Specific_Aerial_Dance.jpg",
+    "description": "Aerial dance performance at the former Seaholm Power Plant which was converted into office space.  Performance of \"Belonging Part One\" by Blue Lapis Light in Austin, Texas, USA."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Vertical_Dance_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Vertical_Dance_Performance.jpg/1280px-Vertical_Dance_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3918,
+    "height": 2938,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Earl McGehee / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVertical_Dance_Performance.jpg",
+    "description": "Aerial dance performance on the exterior wall of a parking garage.  Performance of \"Belonging Part One\" by Blue Lapis Light in Austin, Texas, USA."
+   }
+  ],
+  "movie_ready": true,
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-16T22:00:52Z",
+   "soft_fail": []
+  },
+  "tutorials": [
+   {
+    "youtube_id": "QPL0pohBeUo",
+    "title": "Aerial Hammock Basic - 10 Beginner Tricks | aerial practice",
+    "channel": "Aerial Practice",
+    "level": "beginner",
+    "pos": 12,
+    "neg": 0,
+    "ratio": 12.0,
+    "evidence": [
+     "Your videos are easy to follow for a beginner like myself, I'm glad you will be uploading more frequently.",
+     "I love how you move slowly and I can see all angles of the pose, thank you so much! :)",
+     "Thank you for giving us a slow and steady approach. That’s a sign of a great teacher"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "YXneG5jMgrI",
+    "title": "A Beginner Drop you can do on Aerial Hammock | Aerial Dance",
+    "channel": "Aerial Practice",
+    "level": "beginner",
+    "pos": 7,
+    "neg": 2,
+    "ratio": 2.33,
+    "evidence": [
+     "Thank you!  I love your videos,  you break things down and explain them on such an easy to follow manner,  and I don't have to watch over and over again at .25 ",
+     "Thank you so much - you have become kind of a lockdown-friend to me and I just wanted to let you know that your videos are precious and so well done :-)",
+     "Thank you so much ❤🥰"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "qoGsIUEHw8Y",
+    "title": "Beginner Aerial Sling (short) Dance Follow Along | aerial practice",
+    "channel": "Aerial Practice",
+    "level": "beginner",
+    "pos": 3,
+    "neg": 1,
+    "ratio": 1.5,
+    "evidence": [
+     "Thank you so much, this video is great❤",
+     "thank you so much!! this is so fun and a good challenge for a beginner like me. thank you for inspiring me to start aerial, i got my first hammock yesterday and",
+     "Amazing! Thank you so much for this video"
+    ],
+    "lesson_status": "in_review"
+   }
+  ],
+  "related_slugs": [
+   "modern-dance"
+  ]
+ },
+ "profile": {
+  "sections": {
+   "origins_and_history": "Recognized in the 1970s in the United States, aerial dance grew from modern dance's desire to explore three-dimensional space. Trisha Brown's 'equipment pieces' (1968–1971) were foundational, placing dancers on side walls to recontextualize pedestrian movement. Terry Sendgraff's 1970s 'motivity' trapeze introduced single-point suspension, enabling rotational movement. In the 1990s, Canadian artists in Quebec developed aerial silks, which were later popularized globally by Cirque du Soleil productions like 'Mystère'.",
+   "how_it_is_danced": "Dancers utilize suspended apparatuses to perform wraps, inversions, and drops. In vertical dance, performers in harnesses use walls as floors, executing leaps and runs perpendicular to the ground. In silk (tela) work, dancers climb using 'French' or 'spiral' ascents and secure themselves with 'keys' (locks) around the waist or feet. Movement is characterized by a constant negotiation with the apparatus's own momentum, requiring the dancer to adjust their center of gravity and balance in mid-air.",
+   "music_and_instruments": "Music is used to complement the choreography and rhythm of the apparatus. While no specific genre is mandated, contemporary scores, electronic music, and theatrical soundscapes are common. The rhythm of the music often dictates the tempo of the spins and the timing of dramatic drops. In large-scale productions like those of De La Guarda, the music is integral to the immersive performance art environment.",
+   "costume_and_setting": "Settings range from traditional theaters and circus tents to office buildings, bridges, and canyons. Costumes are typically form-fitting to avoid entanglement with ropes or silks; 'acetato deportivo' or jersey fabrics are common for the apparatus itself. Safety equipment is a critical part of the setting, including crash mats, carabiners with screw locks, and swivels to allow for 360-degree rotation without twisting the lines.",
+   "occasions_and_meaning": "Aerial dance is performed at arts festivals, in contemporary circus, and as site-specific installations. It often explores themes of weightlessness, freedom, and the human relationship with architecture. For many practitioners, it represents a 'place where everything is possible,' breaking the constraints of floor-bound movement to communicate contemporary ideas through an altered state of gravity.",
+   "notable_figures": "Trisha Brown (pioneer of equipment pieces), Terry Sendgraff (inventor of motivity trapeze), Joanna Haigood (site-specific researcher), Amelia Rudolph (Project Bandaloop founder), Wanda Moretti (vertical dance network creator), and Isabelle Chassé (aerial silk pioneer).",
+   "regional_variants": "The 'Boulder' style in Colorado is known for its annual festival and workshops. Italy's vertical dance, led by Wanda Moretti, emphasizes classical harmony on vertical stages. French traditions are closely tied to professional circus schools (FEDEC), while Argentinian styles, influenced by De La Guarda, focus on high-impact performance art and 'bungee' aesthetics.",
+   "lineage": "Derived from a combination of modern dance, traditional circus arts (Spanish web, static trapeze), and rock climbing. It has influenced contemporary circus, urban dance, and site-specific performance art."
+  },
+  "teaching": {
+   "basic_steps": [
+    "French climb (subida francesa)",
+    "Foot lock (llave de pie)",
+    "Inversion (invertida)",
+    "Hip key (llave de vientre)",
+    "Basic drop (caída simple)"
+   ],
+   "rhythm": "Variable; follows the momentum of the apparatus and musical score.",
+   "formation": "Solo, duo (partnering), or ensemble; often vertical or suspended.",
+   "level_notes": "Beginners start with low-height silks and basic climbs; advanced students master high-altitude drops and complex wraps."
+  },
+  "claims": [
+   {
+    "text": "Aerial modern dance was first recognized as a subgenre in the United States in the 1970s.",
+    "source": "https://en.wikipedia.org/wiki/Aerial_dance"
+   },
+   {
+    "text": "Trisha Brown's 'equipment pieces' (1968–1971) illustrated the choreography of everyday movement on walls.",
+    "source": "https://en.wikipedia.org/wiki/Aerial_dance"
+   },
+   {
+    "text": "Terry Sendgraff invented the motivity trapeze by using a single point of attachment to allow spinning.",
+    "source": "https://en.wikipedia.org/wiki/Aerial_dance"
+   },
+   {
+    "text": "Aerial silks emerged in the early 1990s, developed by artists in Quebec, Canada.",
+    "source": "https://pt.wikipedia.org/wiki/Tecido_acrobático"
+   },
+   {
+    "text": "Vertical dance uses a harness and rope to explore gravity on surfaces like building facades.",
+    "source": "https://es.wikipedia.org/wiki/Danza_aérea"
+   },
+   {
+    "text": "The apparatus in aerial dance acts as a partner with its own motion that the dancer must respond to.",
+    "source": "https://fr.wikipedia.org/wiki/Danse_aérienne"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Airdancelive.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Airdancelive.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Airdancelive.JPG/1280px-Airdancelive.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3072,
+    "height": 2304,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Airdancelive\n\nCreator:Airdancelive",
+    "description": "Projecto de danza aerea airdancelive\nInterprete:ivan torres",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAirdancelive.JPG",
+    "attribution": "Airdancelive\n\nCreator:Airdancelive / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Blue Lapis Light Aerial Dance Maya.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Blue_Lapis_Light_Aerial_Dance_Maya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Blue_Lapis_Light_Aerial_Dance_Maya.jpg/1280px-Blue_Lapis_Light_Aerial_Dance_Maya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3336,
+    "height": 2224,
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Earl J. McGehee",
+    "description": "Blue Lapis Light dance company performance on the exterior wall of the Texas State History Museum in Austin, Texas, USA.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABlue_Lapis_Light_Aerial_Dance_Maya.jpg",
+    "attribution": "Earl J. McGehee / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Aerial Dance Rehearsal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Aerial_Dance_Rehearsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Aerial_Dance_Rehearsal.jpg/1280px-Aerial_Dance_Rehearsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4000,
+    "height": 3091,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Earl J McGehee",
+    "description": "Aerial dance company rehearsal on the side of the Fifth Avenue Place building in Pittsburgh, PA.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAerial_Dance_Rehearsal.jpg",
+    "attribution": "Earl J McGehee / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Site Specific Aerial Dance.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Site_Specific_Aerial_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Site_Specific_Aerial_Dance.jpg/1280px-Site_Specific_Aerial_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4000,
+    "height": 3000,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Earl McGehee",
+    "description": "Aerial dance performance at the former Seaholm Power Plant which was converted into office space.  Performance of \"Belonging Part One\" by Blue Lapis Light in Austin, Texas, USA.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASite_Specific_Aerial_Dance.jpg",
+    "attribution": "Earl McGehee / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Vertical Dance Performance.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Vertical_Dance_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Vertical_Dance_Performance.jpg/1280px-Vertical_Dance_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3918,
+    "height": 2938,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Earl McGehee",
+    "description": "Aerial dance performance on the exterior wall of a parking garage.  Performance of \"Belonging Part One\" by Blue Lapis Light in Austin, Texas, USA.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVertical_Dance_Performance.jpg",
+    "attribution": "Earl McGehee / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "gaps": [
+   "Specific musical rhythm patterns (e.g., specific time signatures) are not detailed in sources.",
+   "Standardized teaching counts for specific moves are not described in sources."
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "Variable",
+   "meter": "Variable",
+   "rhythm_pattern": "Often atmospheric or driving, synchronized with the swing or spin of the apparatus.",
+   "instruments": [
+    "Synthesizers",
+    "Percussion",
+    "Strings",
+    "Electronic soundscapes"
+   ],
+   "vocal_style": "Often non-verbal or operatic in theatrical contexts.",
+   "musical_form": "Through-composed or modular to match choreographic sequences.",
+   "mood_keywords": [
+    "Ethereal",
+    "Dynamic",
+    "Suspenseful",
+    "Atmospheric"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Villa Villa",
+     "artist": "De La Guarda"
+    }
+   ],
+   "sound_description": "The soundscape typically features sweeping electronic or orchestral textures that emphasize the scale of the vertical space, often punctuated by rhythmic beats that cue drops or transitions."
+  },
+  "movement_profile": {
+   "posture": "Engaged core with elongated limbs; requires 'hollow body' positioning for inversions.",
+   "footwork": "Climbing techniques using the feet to grip fabric; 'panino' (sandwiching the fabric between feet).",
+   "arms_and_hands": "High grip strength; arms used for pulling (ascents) and stabilizing (poses).",
+   "hips_and_torso": "The center of gravity; used for 'hip keys' and controlling rotation.",
+   "formation_and_space": "Three-dimensional; utilizes vertical, horizontal, and diagonal paths.",
+   "partnering": "Involves weight-sharing while suspended; one dancer may act as a 'porteur'.",
+   "tempo_feel": "Fluid and sustained during poses; explosive and rapid during drops.",
+   "signature_moves": [
+    {
+     "name": "Kamikaze",
+     "description": "A high-risk controlled drop involving multiple body rotations."
+    },
+    {
+     "name": "Star drop",
+     "description": "A dramatic fall where the dancer unravels from a wrapped position into a star shape."
+    }
+   ],
+   "levels_and_jumps": "Extensive use of high levels; 'jumps' are often assisted by bungee or rope tension.",
+   "difficulty": "advanced",
+   "what_to_avoid": "Avoid wrapping fabric around the neck; avoid releasing grips without a confirmed 'lock'; avoid practicing without crash mats."
+  },
+  "episode_brief": {
+   "title_hook": "The Vertical Frontier",
+   "logline": "Discover how dancers transformed skyscrapers and silk into a new stage, defying gravity to redefine human movement.",
+   "beats": [
+    "Trisha Brown's dancers walking down the side of a building in 1970 Manhattan.",
+    "Terry Sendgraff experimenting with a single-point trapeze in her San Francisco studio.",
+    "The birth of aerial silks in 1990s Quebec and its explosion in Cirque du Soleil.",
+    "A modern vertical dancer scaling a glass office building in Italy.",
+    "The intense physical preparation: a dancer's hands gripping the 'acetato' fabric.",
+    "The climax: a synchronized ensemble drop from 30 feet in a Boulder festival."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Ground Prep",
+     "goal": "Build core and grip strength",
+     "drills": [
+      "Hollow body holds on the floor",
+      "Grip hangs on low fabric",
+      "Basic leg wrap mechanics while seated"
+     ]
+    },
+    {
+     "level": "The First Ascent",
+     "goal": "Master the basic climb",
+     "drills": [
+      "French climb (3 repetitions)",
+      "Foot lock engagement at 5 feet",
+      "Controlled descent"
+     ]
+    },
+    {
+     "level": "Inversion",
+     "goal": "Go upside down safely",
+     "drills": [
+      "Tuck-up to inversion",
+      "Straddle-back hold",
+      "Transition to hip key"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Swirling colorful silks against a dark background",
+    "The mechanical detail of a carabiner locking",
+    "Dancers' silhouettes against a city skyline",
+    "Chalk dust rising from a performer's hands"
+   ],
+   "instructor_persona": "A veteran aerialist who balances technical safety with poetic movement.",
+   "music_cue": "A driving, rhythmic electronic track that builds tension during the climb and releases during the drop."
+  },
+  "connections": [
+   {
+    "name": "Modern dance",
+    "relation": "parent",
+    "note": "Aerial dance is a subgenre that applies modern dance aesthetics to vertical space."
+   },
+   {
+    "name": "Aerial silk",
+    "relation": "variant",
+    "note": "A specific discipline within aerial dance using fabric."
+   },
+   {
+    "name": "Bungee dance",
+    "relation": "variant",
+    "note": "A form of aerial dance utilizing elastic cords for high-rebound movement."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated movements using low-hung silks for upper body stretching and resistance.",
+    "standing_version": "Using the fabric as a balance support for gentle swaying and weight-shifting exercises.",
+    "tempo_and_range": "Slow, controlled movements; range limited to shoulder height.",
+    "counts": "Slow 4/4 time.",
+    "avoid": [
+     "Inversions",
+     "Weight-bearing hangs",
+     "Rapid spins"
+    ]
+   },
+   "children": {
+    "game_version": "The 'Cocoon' game: sitting inside a low-hung silk hammock.",
+    "duration_minutes": "30",
+    "counts": "Simple 1-2-3-4 counts for climbing.",
+    "avoid": [
+     "High-altitude drops",
+     "Complex neck wraps",
+     "Unsupervised inversions"
+    ]
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "File:VideoCervantino 1.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/VideoCervantino_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Cecygdl / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "\"Firebirds, Fidget Feet Aerial Dance Theatre\" a show presented during the 2015 edition of the Cervantino Festival in Guanajuato, Guanajuato, Mexico.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVideoCervantino_1.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:VideoCervantino 2.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/VideoCervantino_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Cecygdl / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "\"Firebirds, Fidget Feet Aerial Dance Theatre\" a show presented during the 2015 edition of the Cervantino Festival in Guanajuato, Guanajuato, Mexico.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVideoCervantino_2.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:VideoCervantino 5.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/VideoCervantino_5.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Cecygdl / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "\"Firebirds, Fidget Feet Aerial Dance Theatre\" a show presented during the 2015 edition of the Cervantino Festival in Guanajuato, Guanajuato, Mexico.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVideoCervantino_5.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:VideoCervantino 4.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/VideoCervantino_4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Cecygdl / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "\"Firebirds, Fidget Feet Aerial Dance Theatre\" a show presented during the 2015 edition of the Cervantino Festival in Guanajuato, Guanajuato, Mexico.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVideoCervantino_4.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:VideoCervantino 8.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/VideoCervantino_8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Cecygdl / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "\"Firebirds, Fidget Feet Aerial Dance Theatre\" a show presented during the 2015 edition of the Cervantino Festival in Guanajuato, Guanajuato, Mexico.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVideoCervantino_8.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:VideoCervantino 6.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/VideoCervantino_6.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Cecygdl / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "\"Firebirds, Fidget Feet Aerial Dance Theatre\" a show presented during the 2015 edition of the Cervantino Festival in Guanajuato, Guanajuato, Mexico.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVideoCervantino_6.webm",
+    "source": "commons"
+   },
+   {
+    "title": "Aerial Dance: S. T. Shimi",
+    "url": "https://archive.org/details/411Show-AerialDanceSTShimi968",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "S.T. Shimi with Jumpstart Performance Company in San Antonio dances this beautiful aerial dance. Aerial dancing is done while suspended in the air.Shimi dances to Ye Wada Raha by DJ Aqueel. Espanol: S.T. Shimi baile este baile aerial.Â ",
+    "source": "archive"
+   },
+   {
+    "title": "Gravity - Aerial Dance Chicago",
+    "url": "https://archive.org/details/733123",
+    "year": 2013,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive",
+    "description": "Dancers incorporate a variety of apparatus such as suspended fabrics, bungee cords, hoops, swings and ropes, as well as delve into the expressive potential of a multi-dimensional dance floor. This program was recorded by Chicago Access Network Television (CAN TV).",
+    "source": "archive"
+   }
+  ],
+  "researched_at": "2026-11-16T20:54:38Z",
+  "qc_score": 9.85
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 14,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   }
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "QPL0pohBeUo",
+   "url": "https://www.youtube.com/watch?v=QPL0pohBeUo",
+   "title": "Aerial Hammock Basic - 10 Beginner Tricks | aerial practice",
+   "channel": "Aerial Practice",
+   "analysed_on": "2026-11-06",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Welcomes viewers and introduces 10 basic beginner aerial hammock tricks"
+    },
+    {
+     "t": "0:38",
+     "seconds": 38,
+     "segment": "warmup",
+     "note": "Demonstrates warm-up stretches and exercises on a mat and with the hammock"
+    },
+    {
+     "t": "2:03",
+     "seconds": 123,
+     "segment": "breakdown",
+     "note": "Demonstrates tricks 1 through 10 with verbal explanation"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Flipping into the hammock",
+     "description": "Standing below rigging, bring knees to chest and flip back to land in the hammock."
+    },
+    {
+     "name": "Sitting position",
+     "description": "Put one leg through the hammock, bend and straighten legs to sit up."
+    },
+    {
+     "name": "Mermaid pose",
+     "description": "Open arm and move hip to mermaid pose."
+    }
+   ],
+   "cues": [
+    "knees to chest",
+    "straightening my legs",
+    "bringing my body up",
+    "bend both legs",
+    "opening my left arm",
+    "straightening my left leg",
+    "bringing my top leg down"
+   ],
+   "images": [
+    "mermaid pose"
+   ],
+   "teacher_style": "The teacher introduces 10 basic beginner aerial hammock tricks with clear visual demonstrations and verbal walkthroughs. She guides the viewer from warmups on the floor and hammock to sequential trick breakdowns.",
+   "what_works": [
+    "Numbered tricks make it easy to follow along",
+    "Voiceover explains body positioning clearly during movement"
+   ],
+   "what_hinders": [
+    "No slow-motion replay of complex transitions"
+   ],
+   "seen": {
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "YXneG5jMgrI",
+   "url": "https://www.youtube.com/watch?v=YXneG5jMgrI",
+   "title": "A Beginner Drop you can do on Aerial Hammock | Aerial Dance",
+   "channel": "Aerial Practice",
+   "analysed_on": "2026-11-12",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces the aerial hammock drop."
+    },
+    {
+     "t": "0:32",
+     "seconds": 32,
+     "segment": "other",
+     "note": "Safety warning and preparation."
+    },
+    {
+     "t": "0:36",
+     "seconds": 36,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the drop step-by-step."
+    },
+    {
+     "t": "1:35",
+     "seconds": 95,
+     "segment": "slow_practice",
+     "note": "The teacher demonstrates the movement on the ground."
+    },
+    {
+     "t": "2:10",
+     "seconds": 130,
+     "segment": "breakdown",
+     "note": "The teacher demonstrates the movement on the hammock."
+    },
+    {
+     "t": "5:07",
+     "seconds": 307,
+     "segment": "full_demo",
+     "note": "The teacher performs the full sequence with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Straddle",
+     "description": "The starting position in the hammock."
+    },
+    {
+     "name": "Fan kick",
+     "description": "A leg movement to prepare for the drop."
+    },
+    {
+     "name": "Scorpion",
+     "description": "A pose in the hammock."
+    },
+    {
+     "name": "The drop",
+     "description": "The main aerial drop movement."
+    }
+   ],
+   "cues": [
+    "Keep your feet pointed",
+    "Use your core",
+    "Lean your body back"
+   ],
+   "images": [
+    "The feeling is like unhook and immediately hook again"
+   ],
+   "common_mistakes": [
+    "Not pointing feet",
+    "Not engaging core and glutes"
+   ],
+   "safety": [
+    "Prepare safety mats",
+    "Aerial is a dangerous activity",
+    "Do not attempt alone without consulting professionals",
+    "Make sure there is a good space between your head and the ground"
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions with a focus on safety and technique. She uses a combination of verbal cues and visual demonstrations to guide the student through the movements.",
+   "distinctive_method": "The teacher demonstrates the movement on the ground before attempting it in the air to help the student understand the mechanics.",
+   "what_works": [
+    "Clear step-by-step breakdown",
+    "Safety warnings",
+    "Demonstration on the ground"
+   ],
+   "what_hinders": [
+    "No counting scheme"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher speaks directly to the camera while standing in front of the hammock.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 36,
+     "end_s": 45,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the straddle position in the hammock.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 135,
+     "end_s": 145,
+     "topic": "teaching",
+     "observation": "The teacher demonstrates the movement on the ground to show the mechanics.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 210,
+     "end_s": 220,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the fan kick on the hammock.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 312,
+     "end_s": 322,
+     "topic": "movement",
+     "observation": "The teacher shows the correct foot position for the straddle.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 444,
+     "end_s": 454,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the drop slowly.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "qoGsIUEHw8Y",
+   "url": "https://www.youtube.com/watch?v=qoGsIUEHw8Y",
+   "title": "Beginner Aerial Sling (short) Dance Follow Along | aerial practice",
+   "channel": "Aerial Practice",
+   "analysed_on": "2026-11-14",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "trick-by-trick instruction",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "Welcome and introduction to aerial sling flow"
+    },
+    {
+     "t": "0:33",
+     "seconds": 33,
+     "segment": "breakdown",
+     "note": "Breaking down trick 1: inverted L shape"
+    },
+    {
+     "t": "1:28",
+     "seconds": 88,
+     "segment": "breakdown",
+     "note": "Breaking down trick 2: sitting position from inversion"
+    },
+    {
+     "t": "2:27",
+     "seconds": 147,
+     "segment": "breakdown",
+     "note": "Breaking down trick 3: hip lock"
+    },
+    {
+     "t": "3:48",
+     "seconds": 228,
+     "segment": "breakdown",
+     "note": "Breaking down tricks 4-6 connected"
+    },
+    {
+     "t": "4:38",
+     "seconds": 278,
+     "segment": "full_demo",
+     "note": "Full flow demonstration from top"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Inverted L-shape",
+     "description": "Lean down, bring knees up and straighten legs into inverted L"
+    },
+    {
+     "name": "Sitting position",
+     "description": "Bring feet inside silks, reach silks, and push hip up"
+    },
+    {
+     "name": "Hip lock",
+     "description": "Reach clockwise, swing left leg to draw a circle into hip lock"
+    }
+   ],
+   "cues": [
+    "Lean down",
+    "Knees up",
+    "Legs straighten",
+    "Engage your core",
+    "Feet inside silks"
+   ],
+   "images": [
+    "inverted L-shape",
+    "draw a circle",
+    "reverse circle"
+   ],
+   "common_mistakes": [
+    "Climbing up looking uncleaned if legs muscle not engaged"
+   ],
+   "safety": [
+    "Be prepared for slight discomfort if this is your first time having silks wrap around your thighs",
+    "Use a floor mat"
+   ],
+   "teacher_style": "The instructor provides calm, step-by-step breakdowns of aerial sling tricks with on-screen text reinforcing spoken directions. She encourages beginners by relating routines to past struggles and reviewing sequences from the top.",
+   "distinctive_method": "Breaking down a continuous aerial flow into numbered distinct tricks (1-6) with dedicated practice segments for each.",
+   "what_works": [
+    "Clear on-screen text matching spoken instructions",
+    "Repetition of tricks from the top"
+   ],
+   "what_hinders": [
+    "Fast transitions in aerial work can be hard to follow without previous experience"
+   ],
+   "evidence": [
+    {
+     "start_s": 39,
+     "end_s": 50,
+     "topic": "teaching",
+     "observation": "Instructor stands beside hanging silk hammock, demonstrating alignment before going into inversion",
+     "viewpoint": "front view, unknown mirroring",
+     "cannot_infer": "exact muscle engagement under clothing",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 129,
+     "end_s": 139,
+     "topic": "movement",
+     "observation": "Instructor positions in hammock in side profile showing thigh wrap placement",
+     "viewpoint": "side view, unknown mirroring",
+     "cannot_infer": "tension of silks",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "gLt_4CBdqlA",
+   "url": "https://www.youtube.com/watch?v=gLt_4CBdqlA",
+   "analysed_on": "2026-11-18",
+   "observation": {
+    "setting": "on a brightly lit indoor television talent show stage with a large video screen backdrop and judges seated at a desk",
+    "dancers": "two children, one boy and one girl, aged around 8 to 11",
+    "formation_and_space": "starts on a bed prop on stage, then transitions to aerial straps hanging from above, alternating between floor choreography and aerial suspension",
+    "posture": "upright during floor movement; extended and tensioned limbs during aerial acrobatics",
+    "footwork": "simple walking, running, and skipping steps on the floor; aerial footwork consists of pointed toes and extended legs while suspended or wrapping straps",
+    "arms_and_hands": "used for gripping aerial straps, holding partner's hands, and expressive extension during aerial figures",
+    "hips_and_torso": "flexible, bending in backbends and splits on the floor and in the air",
+    "partnering": "close partner contact, lifting and supporting each other both on the ground and suspended in the air using straps",
+    "levels_jumps_turns": "frequent transitions from floor level to high aerial suspension; spinning and turning while hanging from straps",
+    "costume_and_props": "matching flannel pyjamas; bed prop with large stuffed animals (elephant and rabbit) and aerial straps",
+    "cannot_infer": "exact microphone audio separation for footsteps is obscured by musical score; subtle weight transfer dynamics in rapid aerial catches cannot be fully determined from camera angles",
+    "music_heard": {
+     "instruments": [
+      "piano",
+      "strings"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 27,
+      "end_s": 31,
+      "what": "boy hanging upside down from aerial straps holding a horizontal spread position"
+     },
+     {
+      "start_s": 44,
+      "end_s": 50,
+      "what": "duet aerial hold where boy hangs from strap and supports girl suspended horizontally"
+     },
+     {
+      "start_s": 121,
+      "end_s": 126,
+      "what": "synchronized aerial figures with both children suspended on straps, intertwining legs"
+     },
+     {
+      "start_s": 150,
+      "end_s": 156,
+      "what": "girl performing splits suspended in air while boy balances on the floor below holding a strap"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 2,
+  "runtime_min": 50,
+  "polished": true,
+  "file": "episodes/aerial-dance.json"
+ },
+ "fingerprint": "b7aa234e6f158c24",
+ "updated": "2026-11-21"
+}

@@ -1,0 +1,919 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "line-dance",
+ "name": "Line dance",
+ "state": "active_ready",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "countries": [
+  "US"
+ ],
+ "card": {
+  "slug": "line-dance",
+  "name": "Line dance",
+  "country": "United States",
+  "country_code": "US",
+  "region": "Global",
+  "family": "folk-circle",
+  "flag_emoji": "🇺🇸",
+  "era": "20th century to present",
+  "tagline": "A choreographed group dance performed in rows without physical contact between dancers.",
+  "profile": "Line dance is a choreographed form where individuals perform identical sequences of steps in parallel rows. Unlike partner dances, participants maintain no physical contact, allowing for a standardized, repeatable structure that can be adapted to diverse musical genres. Originating in its modern form during the 20th century, it has evolved from country-western roots into a global practice spanning pop, disco, and Latin styles.",
+  "insight": "In 2014, Durham, North Carolina, was officially declared the line dancing capital of America based on the per capita density of local MeetUp groups.",
+  "aliases": [
+   "linedance"
+  ],
+  "related": [
+   "Haka",
+   "Chorus line"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Line_dance",
+   "https://www.wikidata.org/wiki/Q912389",
+   "https://es.wikipedia.org/wiki/Line_dance",
+   "https://fr.wikipedia.org/wiki/Danse_en_ligne",
+   "https://de.wikipedia.org/wiki/Line_Dance"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Line_dance",
+  "wikidata_qid": "Q912389",
+  "unesco": false,
+  "hero_video_youtube_id": "9BhPdnxD6Xk",
+  "video_stack": [
+   {
+    "youtube_id": "9BhPdnxD6Xk",
+    "role": "hero",
+    "title": "Kane's Boots - Line Dance (Dance & Teach in English & 中文)",
+    "channel": "LineDanceDallas5",
+    "hd": true
+   },
+   {
+    "youtube_id": "gPxRPins1js",
+    "role": "rendition",
+    "title": "My People - Line Dance (Dance & Teach in English & 中文)",
+    "channel": "LineDanceDallas3",
+    "hd": true
+   }
+  ],
+  "tier": "content_ready",
+  "publish_gate": "publish",
+  "_is_sacred": false,
+  "is_sacred": false,
+  "updated_at": "2026-11-12",
+  "origin": "pipeline",
+  "research_gate": "publish",
+  "qc_score": 9.85,
+  "last_researched_at": "2026-11-12T18:23:44Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Line dance is a structured, choreographed form of movement where participants perform identical sequences of steps while arranged in parallel rows or lines. Unlike traditional partner dances, line dancers maintain no physical contact with one another, allowing the practice to be performed individually within a collective setting. The dance is defined by its repeatable nature; a specific sequence of steps is usually tied to a particular song, and these sequences are performed in cycles. Dancers typically face the same direction, though variations exist where lines face each other or change orientation throughout the dance. \n\nThe development of modern line dance is primarily associated with the 20th century, drawing from a blend of folk traditions, show dance, and the influence of American television programs like 'American Bandstand'. While its roots are often linked to 19th-century European folk dances brought to North America, the 1970s disco era and the 1980s country-western boom were pivotal in establishing its current global popularity. The 1977 film 'Saturday Night Fever' and the 1992 hit 'Achy Breaky Heart' are frequently cited as catalysts that brought the form into the mainstream. \n\nTechnically, line dances are categorized by the number of 'walls'—the directions a dancer faces at the end of a sequence. A one-wall dance returns the dancer to the starting orientation, while two-wall and four-wall dances involve turns of 180 or 90 degrees, respectively. Choreographies are often documented in 'step sheets' that detail the footwork, counts, and directional changes. While historically tied to country-western music, the genre has expanded to include pop, techno, Latin, and big band music, making it a versatile social activity practiced in clubs, ballrooms, and community centers worldwide.",
+  "albums": [
+   {
+    "title": "Electric Boogie",
+    "artist": "Marcia Griffiths",
+    "year": "1983",
+    "mbid": "a00b7c23-adba-32f1-9704-367020a8f244",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/a00b7c23-adba-32f1-9704-367020a8f244",
+    "type": "Single",
+    "source": "https://en.wikipedia.org/wiki/Line_dance",
+    "verified": true
+   },
+   {
+    "title": "Achy Breaky Heart",
+    "artist": "Billy Ray Cyrus",
+    "year": "2001",
+    "mbid": "c545f1b2-e205-3c68-a08f-33a6b67b827f",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/c545f1b2-e205-3c68-a08f-33a6b67b827f",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Line_dance",
+    "verified": true
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Madison_%28dance%291.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Madison_%28dance%291.jpg/1280px-Madison_%28dance%291.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4416,
+    "height": 3312,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%291.jpg",
+    "description": "Madison dancers, position #1"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Neustadttreffen_2009-Linedance_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Neustadttreffen_2009-Linedance_01.JPG/1280px-Neustadttreffen_2009-Linedance_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3648,
+    "height": 2736,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Bernd Hannemann / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANeustadttreffen_2009-Linedance_01.JPG",
+    "description": "Line Dancers from different organisations at 31st. meeting of villages named Neustadt (in Europe), here in D-02979 Neustadt on Spree, Saxony, Germany"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Line_dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Line_dancing.jpg/1280px-Line_dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3888,
+    "height": 2592,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "quinn.anya / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALine_dancing.jpg",
+    "description": "Six people line dancing"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Line_dancing_in_Esino_Lario_%2827858764286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Line_dancing_in_Esino_Lario_%2827858764286%29.jpg/1280px-Line_dancing_in_Esino_Lario_%2827858764286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4896,
+    "height": 3264,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Sebastiaan ter Burg from Utrecht, The Netherlands / Wikimedia Commons / CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALine_dancing_in_Esino_Lario_%2827858764286%29.jpg",
+    "description": "Wikimania 2016 Esino Lario"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Donald_Trump_with_ceremonial_swordsmen_on_his_arrival_to_Murabba_Palace%2C_May_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Donald_Trump_with_ceremonial_swordsmen_on_his_arrival_to_Murabba_Palace%2C_May_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1200,
+    "height": 800,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "The White House from Washington, DC / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADonald_Trump_with_ceremonial_swordsmen_on_his_arrival_to_Murabba_Palace%2C_May_2017.jpg",
+    "description": "President Donald Trump poses for photos with ceremonial swordsmen on his arrival to Murabba Palace, as the guest of King Salman bin Abdulaziz Al Saud of Saudi Arabia, Saturday evening, May 20, 2017, in Riyadh, Saudi Arabia. (Official White House Photo by Shealah Craighead)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Palestinian_girls_dancing_traditional_Dabke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Palestinian_girls_dancing_traditional_Dabke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 916,
+    "height": 640,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Sarah Canbel / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APalestinian_girls_dancing_traditional_Dabke.jpg",
+    "description": "Palestinian girls dancing traditional Dabke"
+   }
+  ],
+  "movie_ready": false,
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-16T21:58:48Z",
+   "soft_fail": []
+  },
+  "tutorials": [
+   {
+    "youtube_id": "EAP1E-B5qk8",
+    "title": "BEGINNER LINE DANCE - COWBOY HUSTLE - TUTORIAL!",
+    "channel": "Line Dance with Coral",
+    "level": "beginner",
+    "pos": 17,
+    "neg": 1,
+    "ratio": 8.5,
+    "evidence": [
+     "I am 71 years old just started taking line dance classes ......  \nYour instructions are so clear .... Amazing how relax and easy steps ...... You did demonstrat",
+     "THIS is what dance lessons are supposed to look like. Thank you so much for these videos, you did such a great job breaking this dance down. Looking forward to ",
+     "Oh my! That all there is to it? You're a great teacher, thanks you so much for sharing 😊 will be showing off at the campground next summer 😅"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "XhW9TnfiOoQ",
+    "title": "Tamia Line Dance Tutorial - \"Can't Get Enough\"",
+    "channel": "Bizzy Boom",
+    "level": "general",
+    "pos": 7,
+    "neg": 1,
+    "ratio": 3.5,
+    "evidence": [
+     "I sat down immediately every time I heard this song. I wasn’t about to embarrass myself. I didn’t think I could ever accomplish this dance until I came across y",
+     "I have tried and tried and tried to learn this dance with no luck. Your tutorial was easy to follow. I  have an event to go to tomorrow night. I am ready. Thank",
+     "He is the BEST TEACHER!!"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "6WUNB-EQbsc",
+    "title": "\"A Bar Song\" Beginner Linedance / A Bar Song (Tipsy) - Shaboozey",
+    "channel": "Ben Murphy",
+    "level": "beginner",
+    "pos": 2,
+    "neg": 0,
+    "ratio": 2.0,
+    "evidence": [
+     "This helped me a lot. And this time I ain't exaggerating like in my other vidoes",
+     "great video, easy to follow!"
+    ],
+    "lesson_status": "in_review"
+   }
+  ],
+  "related_slugs": [
+   "haka"
+  ]
+ },
+ "profile": {
+  "sections": {
+   "origins_and_history": "Modern line dance emerged in the 20th century, with roots in European folk dances brought to North America in the 1800s. The 1957 'Madison' is considered one of the first true line dances. The 1970s disco era introduced dances like the 'L.A. Hustle' and 'Electric Slide', while the 1980s and 90s saw a surge in country-western line dancing, popularized by films like 'Urban Cowboy' and songs like 'Achy Breaky Heart'.",
+   "how_it_is_danced": "Dancers stand in rows, repeating a set sequence of steps. Movements are performed independently without physical contact. Choreographies are often based on counts of 32, 48, or 64, with syncopated steps like shuffles or chassés. Dancers may turn to face different 'walls' during the sequence.",
+   "music_and_instruments": "Originally tied to country-western music, line dance now incorporates pop, disco, Latin, rock, and techno. Instruments vary by genre, but the music must be suitable for a repeating, rhythmic step sequence.",
+   "costume_and_setting": "While historically associated with Western-style clothing and boots, modern participants often wear casual clothing and dance trainers. It is practiced in dance bars, social clubs, and ballrooms.",
+   "occasions_and_meaning": "Line dance serves as a social activity and a form of recreational exercise. It is used in dance programs alongside other styles and is recognized as a competitive discipline in some regions.",
+   "notable_figures": "Ric L. Silver (choreographer of the Electric Slide), Max Perry, Jo Thompson Szymanski, Scott Blevins, and Bill Bader.",
+   "regional_variants": "Variations include contra-dance (lines facing each other), and regional styles influenced by local music scenes in the US, Europe, and Quebec.",
+   "lineage": "Evolved from 19th-century European folk dances and 20th-century show dance."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Step forward",
+    "Step side",
+    "Shuffle",
+    "Turn"
+   ],
+   "rhythm": "Repeating sequences, often based on multiples of 8 counts.",
+   "formation": "Parallel rows or lines, facing the same direction.",
+   "level_notes": "Beginners start with 10-20 basic dances; advanced dancers may master over 100."
+  },
+  "claims": [
+   {
+    "text": "Line dance is a choreographed dance in which a group of people dance along to a repeating sequence of steps while arranged in one or more lines or rows.",
+    "source": "https://en.wikipedia.org/wiki/Line_dance"
+   },
+   {
+    "text": "The Madison, created in 1957, is considered one of the first true line dances.",
+    "source": "https://en.wikipedia.org/wiki/Line_dance"
+   },
+   {
+    "text": "The Electric Slide was choreographed by Ric Silver in 1976.",
+    "source": "https://de.wikipedia.org/wiki/Line_Dance"
+   },
+   {
+    "text": "Durham, North Carolina, was declared the line dancing capital of America in 2014.",
+    "source": "https://en.wikipedia.org/wiki/Line_dance"
+   },
+   {
+    "text": "Line dances are categorized by the number of walls, which refers to the direction dancers face.",
+    "source": "https://en.wikipedia.org/wiki/Line_dance"
+   },
+   {
+    "text": "Line dance is a living tradition practiced in clubs and social settings globally.",
+    "source": "https://en.wikipedia.org/wiki/Line_dance"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "albums": [
+   {
+    "title": "Electric Boogie",
+    "artist": "Marcia Griffiths",
+    "year": "1983",
+    "mbid": "a00b7c23-adba-32f1-9704-367020a8f244",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/a00b7c23-adba-32f1-9704-367020a8f244",
+    "type": "Single",
+    "source": "https://en.wikipedia.org/wiki/Line_dance",
+    "verified": true
+   },
+   {
+    "title": "Achy Breaky Heart",
+    "artist": "Billy Ray Cyrus",
+    "year": "2001",
+    "mbid": "c545f1b2-e205-3c68-a08f-33a6b67b827f",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/c545f1b2-e205-3c68-a08f-33a6b67b827f",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Line_dance",
+    "verified": true
+   }
+  ],
+  "images": [
+   {
+    "title": "File:Madison (dance)1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Madison_%28dance%291.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Madison_%28dance%291.jpg/1280px-Madison_%28dance%291.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4416,
+    "height": 3312,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Tangopaso",
+    "description": "Madison dancers, position #1",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%291.jpg",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Neustadttreffen 2009-Linedance 01.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Neustadttreffen_2009-Linedance_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Neustadttreffen_2009-Linedance_01.JPG/1280px-Neustadttreffen_2009-Linedance_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3648,
+    "height": 2736,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Bernd Hannemann",
+    "description": "Line Dancers from different organisations at 31st. meeting of villages named Neustadt (in Europe), here in D-02979 Neustadt on Spree, Saxony, Germany",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANeustadttreffen_2009-Linedance_01.JPG",
+    "attribution": "Bernd Hannemann / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Line dancing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Line_dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Line_dancing.jpg/1280px-Line_dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3888,
+    "height": 2592,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "quinn.anya",
+    "description": "Six people line dancing",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALine_dancing.jpg",
+    "attribution": "quinn.anya / Wikimedia Commons / CC BY-SA 2.0"
+   },
+   {
+    "title": "File:Line dancing in Esino Lario (27858764286).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Line_dancing_in_Esino_Lario_%2827858764286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Line_dancing_in_Esino_Lario_%2827858764286%29.jpg/1280px-Line_dancing_in_Esino_Lario_%2827858764286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4896,
+    "height": 3264,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sebastiaan ter Burg from Utrecht, The Netherlands",
+    "description": "Wikimania 2016 Esino Lario",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALine_dancing_in_Esino_Lario_%2827858764286%29.jpg",
+    "attribution": "Sebastiaan ter Burg from Utrecht, The Netherlands / Wikimedia Commons / CC BY 2.0"
+   },
+   {
+    "title": "File:Donald Trump with ceremonial swordsmen on his arrival to Murabba Palace, May 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Donald_Trump_with_ceremonial_swordsmen_on_his_arrival_to_Murabba_Palace%2C_May_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Donald_Trump_with_ceremonial_swordsmen_on_his_arrival_to_Murabba_Palace%2C_May_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1200,
+    "height": 800,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "The White House from Washington, DC",
+    "description": "President Donald Trump poses for photos with ceremonial swordsmen on his arrival to Murabba Palace, as the guest of King Salman bin Abdulaziz Al Saud of Saudi Arabia, Saturday evening, May 20, 2017, in Riyadh, Saudi Arabia. (Official White House Photo by Shealah Craighead)",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADonald_Trump_with_ceremonial_swordsmen_on_his_arrival_to_Murabba_Palace%2C_May_2017.jpg",
+    "attribution": "The White House from Washington, DC / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Palestinian girls dancing traditional Dabke.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Palestinian_girls_dancing_traditional_Dabke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Palestinian_girls_dancing_traditional_Dabke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 916,
+    "height": 640,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Sarah Canbel",
+    "description": "Palestinian girls dancing traditional Dabke",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APalestinian_girls_dancing_traditional_Dabke.jpg",
+    "attribution": "Sarah Canbel / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "gaps": [
+   "posture",
+   "arms_and_hands",
+   "hips_and_torso",
+   "tempo_bpm",
+   "instructor_persona"
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "Repeating sequences, often 32, 48, or 64 counts.",
+   "instruments": [],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "social",
+    "recreational"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Electric Boogie",
+     "artist": "Marcia Griffiths"
+    },
+    {
+     "title": "Achy Breaky Heart",
+     "artist": "Billy Ray Cyrus"
+    }
+   ],
+   "sound_description": "Music is chosen for its suitability to a repeating, rhythmic step sequence, spanning genres from country to pop and disco."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "Repeating sequences of steps, shuffles, and turns.",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Parallel rows or lines; dancers face one or more 'walls'.",
+   "partnering": "None; dancers perform independently.",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [
+    {
+     "name": "Shuffle",
+     "description": "A syncopated step sequence."
+    },
+    {
+     "name": "Turn",
+     "description": "Rotation to face a new wall."
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "beginner",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Global Row: How Line Dance Conquered the World",
+   "logline": "Explore the evolution of line dance from 19th-century folk roots to the global phenomenon of the 21st century.",
+   "beats": [
+    "Introduction to the line dance formation.",
+    "The influence of 1950s American television.",
+    "The disco era and the birth of the Electric Slide.",
+    "The 1990s country-western explosion.",
+    "Modern global adaptations and diverse musical genres."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Learn a 4-wall sequence",
+     "drills": [
+      "Basic forward step",
+      "Side step",
+      "90-degree turn"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Parallel lines of dancers",
+    "Dance trainers",
+    "Step sheets"
+   ],
+   "instructor_persona": "not described in sources",
+   "music_cue": "Electric Boogie by Marcia Griffiths"
+  },
+  "connections": [
+   {
+    "name": "Contra dance",
+    "relation": "variant",
+    "note": "Lines face each other instead of the same direction."
+   },
+   {
+    "name": "Madison",
+    "relation": "parent",
+    "note": "An early 1957 line dance that influenced later styles."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "Line-Dance Videos",
+    "url": "https://archive.org/details/Line-danceVideos",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "license_url": "http://creativecommons.org/licenses/publicdomain/",
+    "attribution": "Internet Archive",
+    "description": "Line-Dance Video Clips.",
+    "source": "archive"
+   },
+   {
+    "title": "Line-Dance Videos",
+    "url": "https://archive.org/details/Line-Dance_Videos",
+    "year": 2013,
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "license_url": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Internet Archive",
+    "description": "Teach and dancing line-dance videos done by instructor Rafel Corbí from Catalonia. Teaching line-dance since 1998",
+    "source": "archive"
+   },
+   {
+    "title": "CBEEBIES Balamory The Line Dance",
+    "url": "https://archive.org/details/cbeebiesbalamorythelinedance",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Josie wants to teach the nursery children a dance inside instead of outside because it is pouring down with rain. She wants to teach the nursery children a dance that doesn't take up too much space. Miss Hoolie suggests Line Dancing but Josie doesn't know any of the dance steps! So she goes to see P",
+    "source": "archive"
+   },
+   {
+    "title": "Soul Train (Season 1, Episode 7)",
+    "url": "https://archive.org/details/soul-train-season-1-episode-7-partially-full-episode",
+    "year": 1971,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Soul Train (Season 1, Episode 7) Featuring: Martha and the Vandellas (\"Dancing In The Streets\", \"Love Makes Me Do Foolish Things\" & \"Bless You\") Soul Train Line Dance Song: \"Get Down\" by Curtis Mayfield Dance Songs: \"90 Day Freeze (On Her Love)\" by 100 Proof (Aged In Soul), \"Rock Steady\" by Aretha F",
+    "source": "archive"
+   },
+   {
+    "title": "Soul Train (Season 8, Episode 25)",
+    "url": "https://archive.org/details/soul-train-season-8-episode-25",
+    "year": 1979,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Soul Train (Season 8, Episode 25) Aired February 3rd, 1979 Featuring: Dance Songs: \"Knock on Wood\" by Amii Stewart , \"Do Ya Think I'm Sexy\" by Rod Stewart , \"YMCA\" by The Village People, \"Bustin' Loose\" by Chuck Brown & the Soul Searchers The Jacksons (\"Shake Your Body (Down to the Ground)\", \"Push M",
+    "source": "archive"
+   },
+   {
+    "title": "1992 VHS • Kickin' Country Workout with Denise Austin 60 FPS",
+    "url": "https://archive.org/details/TheVistaGroup-KickinCountryWorkoutwithDeniseAustin1992",
+    "year": 1992,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Kickin' Country Workout with Denise Austin is a low-impact aerobic exercise video filmed at the Roy Acuff Theater at Opryland in Nashville, Tennessee. Austin opens by framing the workout around country line dance movements adapted for aerobic fitness, performed to a live country band playing songs i",
+    "source": "archive"
+   },
+   {
+    "title": "File:1929-07-13 Irish GP Eireann Cup video.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/1929-07-13_Irish_GP_Eireann_Cup_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "description": "Eireann Cup in Dublin during the Irish GP on 13 July 1929.  Main scenes:\n0.0 Linedance \n2 sec: Le Mans type start, drivers running to cars.\n38 sec: A skidding #43 Brooklands 9 driven by Kaye Don (must be from the Saorstát Cup held the day before).\n50 sec: Glen Kidston has finished with his #4 Bentle",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A1929-07-13_Irish_GP_Eireann_Cup_video.webm",
+    "source": "commons"
+   },
+   {
+    "title": "DeSoto Steppers - Easy to Learn Dance Moves",
+    "url": "https://archive.org/details/desotx-DeSoto_Steppers_-_Easy_to_Learn_Dance_Moves",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Our very own, DeSoto Steppers!!! Although the senior center is closed, our seniors are still steppin'. Join the Steppers every Friday afternoon and dance along. SHARE SHARE SHARE!!!!! #desotorec #desotopard #desotoseniorcitizens #seniorcitizens #desototx #linedance",
+    "source": "archive"
+   }
+  ],
+  "researched_at": "2026-11-12T18:23:44Z",
+  "qc_score": 9.85
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 15,
+  "of": 15,
+  "via": {
+   "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "lesson_plan": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "6WUNB-EQbsc",
+   "url": "https://www.youtube.com/watch?v=6WUNB-EQbsc",
+   "title": "\"A Bar Song\" Beginner Linedance / A Bar Song (Tipsy) - Shaboozey",
+   "channel": "Ben Murphy",
+   "analysed_on": "2026-11-13",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Title card displaying dance name, wall count, and choreographer"
+    },
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "segment": "full_demo",
+     "note": "Full demonstration of the line dance to music with three dancers"
+    }
+   ],
+   "teacher_style": "The instructor performs the routine facing front alongside two other dancers to music without spoken instruction or breakdown in this segment. The demonstration is continuous and relies entirely on visual modeling.",
+   "distinctive_method": "Pure performance demonstration video without instructional voiceover or verbal breakdowns.",
+   "what_works": [
+    "Clear full-length demonstration with multiple dancers for visibility"
+   ],
+   "what_hinders": [
+    "No spoken instruction, breakdown, or count-in provided in this video segment"
+   ],
+   "evidence": [
+    {
+     "start_s": 12,
+     "end_s": 50,
+     "topic": "movement",
+     "observation": "Three dancers performing a choreographed line dance facing forward in a mirrored studio",
+     "viewpoint": "front, unknown",
+     "cannot_infer": "exact footwork details and weight transfers due to distance",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "EAP1E-B5qk8",
+   "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8",
+   "title": "BEGINNER LINE DANCE - COWBOY HUSTLE - TUTORIAL!",
+   "channel": "Line Dance with Coral",
+   "analysed_on": "2026-11-16",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4 / 5-6-7-8",
+   "parts": [
+    {
+     "t": "0:23",
+     "seconds": 23,
+     "segment": "intro",
+     "note": "Introduction to Coral and the Cowboy Hustle line dance."
+    },
+    {
+     "t": "0:46",
+     "seconds": 46,
+     "segment": "breakdown",
+     "note": "Breakdown of the first part: fan motion and heels/toes."
+    },
+    {
+     "t": "1:52",
+     "seconds": 112,
+     "segment": "breakdown",
+     "note": "Breakdown of the second part: step, kick, step, touch."
+    },
+    {
+     "t": "2:41",
+     "seconds": 161,
+     "segment": "breakdown",
+     "note": "Breakdown of the third part: grapevine with quarter turn."
+    },
+    {
+     "t": "3:48",
+     "seconds": 228,
+     "segment": "breakdown",
+     "note": "Breakdown of the final part: step out and back hops."
+    },
+    {
+     "t": "4:08",
+     "seconds": 248,
+     "segment": "full_demo",
+     "note": "Full practice of the dance with counts from the top."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Fan motion / Heels and Toes",
+     "counts": "1-2-3-4",
+     "description": "Fan right toe out-in-out-in, then two heels forward and two toes back."
+    },
+    {
+     "name": "Alternating Heels and Toes",
+     "counts": "5-6-7-8",
+     "description": "Right heel forward, right toe back, right heel forward, right toe back."
+    },
+    {
+     "name": "Step Kick Step Touch",
+     "counts": "1-2-3-4",
+     "description": "Step forward right, kick left, step left, touch right toe back. Repeated twice."
+    },
+    {
+     "name": "Grapevine",
+     "counts": "1-2-3-4",
+     "description": "Step right out, step left behind, step right out, touch left next to right."
+    }
+   ],
+   "cues": [
+    "out, in, out, in",
+    "heel, heel, toe, toe",
+    "step, kick, step, and touch",
+    "right behind right touch"
+   ],
+   "teacher_style": "Coral breaks down each section of the line dance step-by-step while facing away from the camera so viewers can easily mirror her movements. She speaks in an encouraging and upbeat tone, combining verbal descriptions with counts and foot close-ups.",
+   "distinctive_method": "Integrating specific close-up insert cuts of the instructor's boots directly into the explanation of footwork.",
+   "what_works": [
+    "Turning around to face away from the camera so students can mirror her footwork",
+    "Inserting dedicated close-up shots of footwork during explanations"
+   ],
+   "evidence": [
+    {
+     "start_s": 46,
+     "end_s": 65,
+     "topic": "teaching",
+     "observation": "Teacher stands facing away from the camera with weight on left foot, explaining foot positioning.",
+     "viewpoint": "back, unmirrored",
+     "cannot_infer": "exact weight distribution between feet",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 103,
+     "end_s": 107,
+     "topic": "movement",
+     "observation": "Close-up shot of cowboy boots demonstrating out-in-out-in toe fan.",
+     "viewpoint": "feet close-up, unknown mirror status",
+     "cannot_infer": "upper body posture during foot movement",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 211,
+     "end_s": 217,
+     "topic": "movement",
+     "observation": "Close-up shot of boots demonstrating step and kick forward.",
+     "viewpoint": "feet close-up, unknown mirror status",
+     "cannot_infer": "balance and knee alignment",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "XhW9TnfiOoQ",
+   "url": "https://www.youtube.com/watch?v=XhW9TnfiOoQ",
+   "title": "Tamia Line Dance Tutorial - \"Can't Get Enough\"",
+   "channel": "Bizzy Boom",
+   "analysed_on": "2026-11-11",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4 / 5-6-7-8 / and",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to the Tamia line dance tutorial"
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "breakdown",
+     "note": "Breaking down section 1"
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "segment": "breakdown",
+     "note": "Breaking down section 2"
+    },
+    {
+     "t": "3:25",
+     "seconds": 205,
+     "segment": "breakdown",
+     "note": "Breaking down section 3"
+    },
+    {
+     "t": "4:34",
+     "seconds": 274,
+     "segment": "breakdown",
+     "note": "Breaking down section 4 and quarter turn technique"
+    },
+    {
+     "t": "6:20",
+     "seconds": 380,
+     "segment": "slow_practice",
+     "note": "Slow review of all sections together"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Section 1 steps",
+     "counts": "1-2-3-4 5-6-7-8",
+     "description": "Stepping and pacing with bounce"
+    },
+    {
+     "name": "Section 2 weave",
+     "counts": "5 and 6 and 7 and 8 and",
+     "description": "Crossing right over left, stepping back and side, then left over right"
+    },
+    {
+     "name": "Section 3 steps",
+     "counts": "5-6-7-8",
+     "description": "Stepping out with right leg, back on left, cross with right"
+    },
+    {
+     "name": "Section 4 turn",
+     "counts": "5-6-7-8 and",
+     "description": "Step out and quarter turn using shoulder orientation"
+    }
+   ],
+   "cues": [
+    "Step by step",
+    "Right, left, right",
+    "One more time slow"
+   ],
+   "images": [
+    "This is like a weave"
+   ],
+   "common_mistakes": [
+    "People get messed up on section 2 footwork",
+    "People get confused on the turn in section 4"
+   ],
+   "teacher_style": "The instructor breaks the line dance down into numbered sections and teaches step-by-step facing away from the camera. He offers tips on spatial awareness by referencing physical objects in the room to help students with turns.",
+   "distinctive_method": "Instructing students to use room landmarks (like a cabinet or door aligned with their shoulder) to anchor their quarter turns.",
+   "what_works": [
+    "Dividing the dance into four distinct sections",
+    "Using room landmarks like cabinets and doors for turn orientation"
+   ],
+   "what_hinders": [
+    "The teacher only demonstrates facing away from the camera"
+   ],
+   "evidence": [
+    {
+     "start_s": 16,
+     "end_s": 35,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates section 1 counts while facing away from the camera",
+     "viewpoint": "back, unmirrored",
+     "cannot_infer": "exact weight distribution on the floor",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "9BhPdnxD6Xk",
+   "url": "https://www.youtube.com/watch?v=9BhPdnxD6Xk",
+   "analysed_on": "2026-11-17",
+   "observation": {
+    "setting": "spacious dance studio with light wood flooring, white walls, large windows and a row of mirrors along one wall",
+    "dancers": "group of 9 women of mixed ages",
+    "formation_and_space": "a single horizontal line facing forward, moving in unison as a group without traveling across the room",
+    "posture": "upright torso, soft knees, weight shifting evenly from foot to foot on the beat",
+    "footwork": "side-shuffles, rock-steps, jazz boxes, and diagonal V-steps in synchronization with the music; exact heel-toe articulation is occluded by footwear and video quality",
+    "arms_and_hands": "arms hang naturally at sides during basic steps, rising to clap in front of the chest during specific rhythm sections",
+    "hips_and_torso": "minimal torso movement, natural hip sway accompanying weight changes and turns",
+    "partnering": "none, all dancers perform individually in formation",
+    "levels_jumps_turns": "standing level throughout, quarter and half turns executed on the balls of the feet with no jumps or floor work",
+    "costume_and_props": "casual exercise attire of colored t-shirts or tops with dark trousers or leggings; no props",
+    "cannot_infer": "exact foot articulation and precise weight transfer cannot be determined due to distance and video resolution",
+    "music_heard": {
+     "instruments": [
+      "acoustic guitar",
+      "drums",
+      "keyboard"
+     ],
+     "vocals": "male lead vocals",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 27,
+      "end_s": 32,
+      "what": "dancers execute a jazz box while clapping hands in front of the chest"
+     },
+     {
+      "start_s": 107,
+      "end_s": 112,
+      "what": "synchronized clap pattern performed while shifting weight on the spot"
+     },
+     {
+      "start_s": 229,
+      "end_s": 234,
+      "what": "group clapping overhead and to the sides on the beat"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 5,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/line-dance.json"
+ },
+ "fingerprint": "5c0ecfe69c6bf311",
+ "updated": "2026-11-21"
+}

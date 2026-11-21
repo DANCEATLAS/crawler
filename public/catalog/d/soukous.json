@@ -1,0 +1,612 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "soukous",
+ "name": "soukous",
+ "state": "building",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "countries": [
+  "CD"
+ ],
+ "card": {
+  "slug": "soukous",
+  "name": "soukous",
+  "country": "Democratic Republic of the Congo",
+  "country_code": "CD",
+  "region": "Africa",
+  "family": "african-diaspora",
+  "flag_emoji": "🇨🇩",
+  "era": "20th century",
+  "tagline": "A high-energy Congolese dance genre defined by rapid guitar improvisation and hip motion.",
+  "profile": "Soukous is a vibrant dance and music genre originating in the Congo region during the 1960s. It is characterized by its fast tempo, intricate electric guitar solos, and a rhythmic foundation centered on the sebene—an extended instrumental bridge. The dance is known for its energetic hip movements and has influenced urban music across Africa, Europe, and South America.",
+  "insight": "Derived from the French 'secouer' (to shake), soukous evolved from the slower Congolese rumba into a high-tempo, guitar-driven sound that sparked international dance crazes.",
+  "aliases": [
+   "Congo Music",
+   "Lingala",
+   "Soukouss",
+   "Sukus"
+  ],
+  "related": [
+   "Congolese rumba",
+   "Highlife",
+   "Champeta",
+   "Makossa"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Soukous",
+   "https://www.wikidata.org/wiki/Q1752683",
+   "https://es.wikipedia.org/wiki/Soukous",
+   "https://fr.wikipedia.org/wiki/Soukous",
+   "https://de.wikipedia.org/wiki/Soukous",
+   "https://archive.org/details/breakoutprofiles00stew"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Soukous",
+  "wikidata_qid": "Q1752683",
+  "unesco": false,
+  "hero_video_youtube_id": "XS4ErzpF9uw",
+  "video_stack": [
+   {
+    "youtube_id": "XS4ErzpF9uw",
+    "role": "hero",
+    "title": "Soukous Vibration Dancers - II",
+    "channel": "Musique Congolaise",
+    "hd": false
+   },
+   {
+    "youtube_id": "yNF6quZnCjA",
+    "role": "rendition",
+    "title": "AFRICA DANCE  SOUKOUS",
+    "channel": "Peter Egeonu",
+    "hd": false
+   }
+  ],
+  "tier": "content_ready",
+  "publish_gate": "publish",
+  "_is_sacred": false,
+  "is_sacred": false,
+  "updated_at": "2026-11-11",
+  "origin": "pipeline",
+  "research_gate": "publish",
+  "qc_score": 9.1,
+  "last_researched_at": "2026-11-11T18:13:53Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Soukous emerged in the 1960s within the Democratic Republic of the Congo and the Republic of the Congo, evolving from the foundational Congolese rumba. The term itself is derived from the French verb 'secouer', meaning 'to shake', reflecting the dance's focus on vitality and rhythmic movement. While often conflated with rumba by international observers, soukous is distinct for its accelerated tempo, complex song structures, and extended instrumental sections known as the sebene. The genre gained significant momentum in the 1980s, particularly within the African diaspora in France and Belgium, before spreading to international stages.\n\nThe musical architecture of soukous is defined by its lead guitar work, which features rapid, high-pitched fingerwork and intricate improvisation. The bassline, often inspired by military march rhythms, provides a 16th-note cadence that serves as the rhythmic anchor. Percussion sections frequently utilize the fast-paced 'cavacha' beat, while vocalists perform in Lingala, Kikongo, French, and Swahili, often employing call-and-response techniques. The sebene, a critical component of the genre, acts as an instrumental bridge where the music shifts into a high-energy, improvisational space that encourages spontaneous dancing.\n\nHistorically, the genre developed in urban centers like Kinshasa and Brazzaville, influenced by the blending of local maringa rhythms with imported Cuban son and other Caribbean styles. By the late 1960s, bands like Orchestre Sinza Kotoko and Zaïko Langa Langa began pushing the tempo, favoring a faster, more energetic sound that appealed to younger audiences. This era also saw the rise of various dance variations, such as kiri-kiri and mossaka, which allowed dancers to experiment with new steps. The political climate of the era, particularly under the Mobutu Sese Seko regime in Zaire, saw music become a tool for national identity, while simultaneously driving many musicians to relocate to Europe, where they further refined the soukous sound for global audiences.\n\nToday, soukous remains a pillar of social life in Central Africa, frequently performed at weddings, festivals, and popular gatherings. Its influence is vast, having shaped urban music styles across the continent and finding a dedicated following in the Caribbean, particularly in Colombia, where it is known as 'champeta'. Despite attempts by some authorities to regulate or censor the dance due to its expressive hip movements, soukous continues to thrive as a symbol of cultural resilience and creative adaptation.",
+  "album_candidates": [
+   {
+    "title": "Malako",
+    "artist": "Orchestra Virunga",
+    "source": "https://de.wikipedia.org/wiki/Soukous",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Docteur_Nico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Docteur_Nico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 643,
+    "height": 1004,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "unknown, Ngoma / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADocteur_Nico.jpg",
+    "description": "Photograph of \"Docteur\" Nico Kasanda on the cover of a record single produced by Ngoma between 1963 and 1968"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Le_groupe_Loketo_en_concert%2C_en_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Le_groupe_Loketo_en_concert%2C_en_1986.jpg/1280px-Le_groupe_Loketo_en_concert%2C_en_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1487,
+    "height": 864,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "BIB39 / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo_en_concert%2C_en_1986.jpg",
+    "description": "Premier concert du groupe Loketo à Paris"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Le_groupe_Loketo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Le_groupe_Loketo.jpg/1280px-Le_groupe_Loketo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1799,
+    "height": 1188,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "BIB39 / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo.jpg",
+    "description": "Le groupe Loketo, en studio, lors de l’enregistrement de leur premier album « Trouble »"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1064,
+    "height": 1600,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Mbokamosika / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AA_posture_of_Pepe_Kalle_in_1978.jpg",
+    "description": "Transporting us to a bygone era, this shot captures the heart of the iconic Congolese soukous musician, Pépé Kallé, in a vintage pose. With an air of elegance and charisma, Pépé Kallé’s presence is indeed fascinating, taking us on a nostalgic journey to a golden age of Congolese and African music in general. As a pioneering figure in the world of soukous music, he left an unforgettable impact on t"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Nyboma%2C_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nyboma%2C_1973.jpg/1280px-Nyboma%2C_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1284,
+    "height": 1109,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANyboma%2C_1973.jpg",
+    "description": "Une posture de Nyboma en 1973 lors de son triomphe avec son unique succès \"Kamale\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1052,
+    "height": 1067,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAbeti_Masikini%2C_1978.jpg",
+    "description": "L'artiste congolaise de soukous et de rumba Abeti Masikini prenant la pose après la sortie de son single à succès \"Singa Mwambe\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 993,
+    "height": 1036,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg",
+    "description": "Le chanteur de soukous congolais Gaby Lita Bembo jouant du piano à la fin des années 1970"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg/1280px-Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1500,
+    "height": 1527,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Lemvo Jean Abou Bakar Depara / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AClub_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg",
+    "description": "Deux hommes se produisant dans un club de rumba congolaise à Léopoldville"
+   }
+  ],
+  "movie_ready": true,
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-16T21:56:17Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
+  "related_slugs": [
+   "highlife",
+   "makossa"
+  ]
+ },
+ "profile": {
+  "sections": {
+   "origins_and_history": "Soukous originated in the 1960s, evolving from Congolese rumba. It was pioneered by bands like Orchestre Sinza Kotoko in Brazzaville and later refined by groups like Zaïko Langa Langa in Kinshasa, who accelerated the tempo and emphasized the sebene.",
+   "how_it_is_danced": "The dance is characterized by energetic hip movements and shifting body weight. It features freestyle sections that encourage audience participation, often performed at high speeds to match the rapid guitar-driven sebene.",
+   "music_and_instruments": "The genre utilizes electric guitars, double bass, congas, and brass/woodwinds. The lead guitar is central, often playing in higher registers, while the bass provides a 16th-note rhythmic foundation.",
+   "costume_and_setting": "Historically associated with dance halls and urban clubs in Kinshasa and Brazzaville, soukous is a staple of weddings and public festivals. Fashion and elegance, particularly within the Sapeur movement, are integral to the performance culture.",
+   "occasions_and_meaning": "Soukous is a celebratory genre used for social gatherings. It has served as a vehicle for both political expression and personal storytelling, with lyrics covering themes of love, struggle, and success.",
+   "notable_figures": "Key figures include Franco Luambo, Tabu Ley Rochereau, Docteur Nico, Papa Wemba, and Aurlus Mabélé.",
+   "regional_variants": "Variants include the fast-paced 'ndombolo', the 'kiri-kiri' dance style, and the Colombian 'champeta', which incorporates soukous rhythms.",
+   "lineage": "Soukous is a direct descendant of Congolese rumba, which itself was influenced by Cuban son and local maringa dance music."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Shifting body weight between legs",
+    "Rhythmic hip movement",
+    "Freestyle movement during sebene"
+   ],
+   "rhythm": "Fast-paced 4/4 time, often with a 16th-note bass cadence.",
+   "formation": "Freestyle, often in dance halls or clubs.",
+   "level_notes": "Requires high energy and coordination of hip and leg movements."
+  },
+  "claims": [
+   {
+    "text": "Soukous originated in the 1960s in the Congo region, deriving from Congolese rumba.",
+    "source": "https://en.wikipedia.org/wiki/Soukous"
+   },
+   {
+    "text": "The term soukous comes from the French 'secouer', meaning to shake.",
+    "source": "https://en.wikipedia.org/wiki/Soukous"
+   },
+   {
+    "text": "The sebene is a central instrumental bridge in soukous music.",
+    "source": "https://en.wikipedia.org/wiki/Soukous"
+   },
+   {
+    "text": "Orchestre Sinza Kotoko is credited with introducing the soukous style to Brazzaville in the 1960s.",
+    "source": "https://en.wikipedia.org/wiki/Soukous"
+   },
+   {
+    "text": "Soukous is a living tradition popular in Central Africa and the diaspora.",
+    "source": "https://es.wikipedia.org/wiki/Soukous"
+   },
+   {
+    "text": "Soukous is widely listened to in Colombia under the name champeta.",
+    "source": "https://fr.wikipedia.org/wiki/Soukous"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Docteur Nico.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Docteur_Nico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Docteur_Nico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 643,
+    "height": 1004,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "unknown, Ngoma",
+    "description": "Photograph of \"Docteur\" Nico Kasanda on the cover of a record single produced by Ngoma between 1963 and 1968",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADocteur_Nico.jpg",
+    "attribution": "unknown, Ngoma / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Le groupe Loketo en concert, en 1986.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Le_groupe_Loketo_en_concert%2C_en_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Le_groupe_Loketo_en_concert%2C_en_1986.jpg/1280px-Le_groupe_Loketo_en_concert%2C_en_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1487,
+    "height": 864,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "BIB39",
+    "description": "Premier concert du groupe Loketo à Paris",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo_en_concert%2C_en_1986.jpg",
+    "attribution": "BIB39 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Le groupe Loketo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Le_groupe_Loketo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Le_groupe_Loketo.jpg/1280px-Le_groupe_Loketo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1799,
+    "height": 1188,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "BIB39",
+    "description": "Le groupe Loketo, en studio, lors de l’enregistrement de leur premier album « Trouble »",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo.jpg",
+    "attribution": "BIB39 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:A posture of Pepe Kalle in 1978.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1064,
+    "height": 1600,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Mbokamosika",
+    "description": "Transporting us to a bygone era, this shot captures the heart of the iconic Congolese soukous musician, Pépé Kallé, in a vintage pose. With an air of elegance and charisma, Pépé Kallé’s presence is indeed fascinating, taking us on a nostalgic journey to a golden age of Congolese and African music in general. As a pioneering figure in the world of soukous music, he left an unforgettable impact on t",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AA_posture_of_Pepe_Kalle_in_1978.jpg",
+    "attribution": "Mbokamosika / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Nyboma, 1973.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Nyboma%2C_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nyboma%2C_1973.jpg/1280px-Nyboma%2C_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1284,
+    "height": 1109,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Unknown author",
+    "description": "Une posture de Nyboma en 1973 lors de son triomphe avec son unique succès \"Kamale\"",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANyboma%2C_1973.jpg",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Abeti Masikini, 1978.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1052,
+    "height": 1067,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Unknown author",
+    "description": "L'artiste congolaise de soukous et de rumba Abeti Masikini prenant la pose après la sortie de son single à succès \"Singa Mwambe\"",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAbeti_Masikini%2C_1978.jpg",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gaby Lita Bembo jouant du piano à la fin des années 1970.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 993,
+    "height": 1036,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Unknown author",
+    "description": "Le chanteur de soukous congolais Gaby Lita Bembo jouant du piano à la fin des années 1970",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Club de rumba congolaise à Léopoldville.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg/1280px-Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1500,
+    "height": 1527,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Lemvo Jean Abou Bakar Depara",
+    "description": "Deux hommes se produisant dans un club de rumba congolaise à Léopoldville",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AClub_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg",
+    "attribution": "Lemvo Jean Abou Bakar Depara / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "128",
+   "meter": "4/4",
+   "rhythm_pattern": "16th-note bass cadence, cavacha percussion beat.",
+   "instruments": [
+    "Electric guitar",
+    "Double bass",
+    "Congas",
+    "Brass",
+    "Woodwinds"
+   ],
+   "vocal_style": "Call-and-response, often in Lingala, Kikongo, French, or Swahili.",
+   "musical_form": "Alternation between vocal passages and extended instrumental sebene.",
+   "mood_keywords": [
+    "Energetic",
+    "Festive",
+    "Hypnotic"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Marie-Louise",
+     "artist": "Antoine Wendo Kolosoy"
+    },
+    {
+     "title": "Kiri-Kiri Mabina Ya Sika",
+     "artist": "Docteur Nico"
+    }
+   ],
+   "sound_description": "Characterized by rapid, intricate electric guitar solos in the higher registers and a driving, percussive bassline."
+  },
+  "movement_profile": {
+   "posture": "Upright with fluid torso movement.",
+   "footwork": "Shifting weight between legs, rhythmic stepping.",
+   "arms_and_hands": "Fluid, expressive movements.",
+   "hips_and_torso": "Energetic hip movements are a signature element.",
+   "formation_and_space": "Freestyle, individual or group.",
+   "partnering": "not described in sources",
+   "tempo_feel": "Fast and energetic.",
+   "signature_moves": [
+    {
+     "name": "Hip movement",
+     "description": "Rapid, rhythmic motion of the hips."
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Sound of the Shake",
+   "logline": "Discover the high-energy world of soukous, the Congolese dance that conquered the globe.",
+   "beats": [
+    "Introduction to the origins in the Congo basin",
+    "The evolution from rumba to soukous",
+    "The role of the sebene in dance",
+    "The influence of the Sapeur movement on style",
+    "International spread via Paris and Brussels"
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Basic weight shift",
+     "drills": [
+      "Step-touch with hip sway"
+     ]
+    },
+    {
+     "level": "Intermediate",
+     "goal": "Rhythmic coordination",
+     "drills": [
+      "Syncopated hip circles"
+     ]
+    },
+    {
+     "level": "Advanced",
+     "goal": "Sebene improvisation",
+     "drills": [
+      "Free-form movement to guitar solos"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Guitar fretboard close-ups",
+    "Urban dance hall scenes",
+    "Vibrant fashion"
+   ],
+   "instructor_persona": "Energetic, knowledgeable dance historian.",
+   "music_cue": "Upbeat soukous track with prominent guitar sebene."
+  },
+  "connections": [
+   {
+    "name": "Congolese rumba",
+    "relation": "parent",
+    "note": "Soukous evolved directly from the slower Congolese rumba."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": [
+     "not derivable yet"
+    ]
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": [
+     "not derivable yet"
+    ]
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "0cbf 58305382f 8916e 69800315e 14e 6c 56185588 360p",
+    "url": "https://archive.org/details/0cbf-58305382f-8916e-69800315e-14e-6c-56185588-360p",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "African music is a rich and diverse blend of rhythms, melodies, and cultural expressions that reflect the continent’s deep traditions and vibrant spirit. With powerful drumming, dynamic beats, and soulful vocals, it spans genres like Afrobeat, Highlife, Soukous, and traditional folk music. Instrumen",
+    "source": "archive"
+   },
+   {
+    "title": "AFRICA DANCE VOL. 1 (2002) 🌍 — COMPILATION AFRICAINE – DVD COMPLET",
+    "url": "https://archive.org/details/africa-dance-1",
+    "year": 2002,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Archive d’une compilation DVD consacrée à la musique africaine du début des années 2000. Africa Dance Vol. 1 , sorti en 2002 en France , rassemble 19 clips d’artistes majeurs de la scène africaine, notamment dans les univers du soukous, du zouk, de la musique camerounaise et des musiques populaires ",
+    "source": "archive"
+   },
+   {
+    "title": "File:Werra Son (Congo) Music video of \"Waka Waka\".webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "Thomas Nordanstad / Wikimedia Commons / CC BY 3.0",
+    "description": "Made in Stockholm during a rare visit and concert by this hugely popular band from Congo. Carsten Höller, great artist, organized a concert at Färgfabriken, Stockholm as well as in Tensta, a suburb of Sweden. We then went together to Congo to film them for a project Carsten did at Gagosian Gallery i",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWerra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Moise speaking French, English, Lingala, Hunde, Congo Swahili.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Moise_speaking_French%2C_English%2C_Lingala%2C_Hunde%2C_Congo_Swahili.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Wikitongues, Inc / Wikimedia Commons / CC0",
+    "description": "This video is donated by Wikitongues through its oral histories project.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMoise_speaking_French%2C_English%2C_Lingala%2C_Hunde%2C_Congo_Swahili.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Hbd Lingala gâteau 05.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Hbd_Lingala_g%C3%A2teau_05.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Beheme / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "Lingala gâteau",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHbd_Lingala_g%C3%A2teau_05.webm",
+    "source": "commons"
+   }
+  ],
+  "researched_at": "2026-11-11T18:13:53Z",
+  "qc_score": 9.1
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   }
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "XS4ErzpF9uw",
+   "url": "https://www.youtube.com/watch?v=XS4ErzpF9uw",
+   "analysed_on": "2026-11-18",
+   "observation": {
+    "setting": "indoor stage with a glowing multicolored background and a white floor",
+    "dancers": "group of seven women, mixed ethnicities",
+    "formation_and_space": "horizontal line formation, facing forward with slight individual variations",
+    "posture": "upright torso with soft knees, weight shifting between feet",
+    "footwork": "fast, rhythmic stepping and shifting of weight on the beat, low to the ground",
+    "arms_and_hands": "arms moving fluidly in coordination with hip movements, sometimes bent at the elbow with hands near the head or hips",
+    "hips_and_torso": "frequent hip rotations and shaking (undulations and hip circles) characteristic of soukous",
+    "partnering": "none",
+    "levels_jumps_turns": "low level maintained with bent knees, occasional pivots and turns",
+    "costume_and_props": "matching short outfits (crop tops, shorts, skirts) with caps and sneakers in the first half, changing to red/plaid outfits and boots in the second half",
+    "cannot_infer": "exact foot placement details and subtle weight transfers are obscured by rapid editing, camera cuts, and low resolution.",
+    "music_heard": {
+     "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "keyboard"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 15,
+      "end_s": 22,
+      "what": "synchronized hip rolls while stepping side to side in a line"
+     },
+     {
+      "start_s": 36,
+      "end_s": 42,
+      "what": "raising arms overhead while stepping and accentuating hip sways"
+     },
+     {
+      "start_s": 54,
+      "end_s": 60,
+      "what": "fast hip shaking with arms held close to the body"
+     },
+     {
+      "start_s": 126,
+      "end_s": 133,
+      "what": "pivoting with circular hip movements and arm extensions"
+     },
+     {
+      "start_s": 224,
+      "end_s": 230,
+      "what": "facing backward and emphasizing deep hip drops and shakes"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 3,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/soukous.json"
+ },
+ "fingerprint": "bb366612d2a9d93b",
+ "updated": "2026-11-21"
+}

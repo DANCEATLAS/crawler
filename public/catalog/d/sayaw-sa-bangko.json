@@ -1,0 +1,78 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "sayaw-sa-bangko",
+ "name": "Sayaw sa Bangko",
+ "state": "not_published",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "countries": [
+  "PH"
+ ],
+ "card": {
+  "slug": "sayaw-sa-bangko",
+  "name": "Sayaw sa Bangko",
+  "country": "Philippines",
+  "region": "Pangasinan",
+  "era": "traditional",
+  "tagline": "Dancing on a six-inch bench",
+  "profile": "Dancing on a six-inch bench — Sayaw sa Bangko (Philippines, Pangasinan). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
+  "aliases": [
+   "Sayaw sa Bangko"
+  ],
+  "related": [
+   "binasuan",
+   "khon",
+   "tinikling",
+   "apsara-dance"
+  ],
+  "unesco": false,
+  "hero_video_youtube_id": "me3zQLQ1rrQ",
+  "image_significance": "Dancing on a six-inch bench. A representative image shows gilded costume, angular hand poses and a temple or court setting — Pangasinan, Philippines.",
+  "tier": "content_ready",
+  "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 8.15,
+  "last_researched_at": "2026-11-04T18:29:31Z",
+  "pipeline_version": "v3.3",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-03T18:28:45Z",
+   "soft_fail": []
+  },
+  "related_slugs": [
+   "binasuan",
+   "khon",
+   "tinikling",
+   "apsara-dance"
+  ]
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 11,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ],
+  "ritual_context": true
+ },
+ "teaching_withheld": "Sacred or restricted: the story is told, the dance is not taught.",
+ "fingerprint": "46f1bfb3a7056462",
+ "updated": "2026-11-21"
+}

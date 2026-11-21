@@ -1,0 +1,113 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "tondero",
+ "name": "Tondero",
+ "state": "not_published",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "countries": [
+  "PE"
+ ],
+ "card": {
+  "slug": "tondero",
+  "name": "Tondero",
+  "country": "Peru",
+  "region": "South America",
+  "era": "colonial",
+  "tagline": "Northern Peru’s courtship of the birds.",
+  "profile": "Piura/Lambayeque courtship dance; cockfight choreography with handkerchief.",
+  "aliases": [
+   "Tondero"
+  ],
+  "related": [
+   "marinera",
+   "cachua",
+   "kantu",
+   "thirra"
+  ],
+  "unesco": false,
+  "hero_video_youtube_id": "eKx3At7mV0s",
+  "video_stack": [
+   {
+    "youtube_id": "eKx3At7mV0s",
+    "role": "hero",
+    "title": "PERÚ DE MIS AMORES BF - TONDERO",
+    "channel": "CABALLODEPASO ACF",
+    "hd": false
+   },
+   {
+    "youtube_id": "InP2tpWUIsc",
+    "role": "rendition",
+    "title": "Retablo Bicentenario, Ballet Folclórico Nacional del Perú - Tondero Negro",
+    "channel": "Perú Cultural",
+    "hd": true
+   },
+   {
+    "youtube_id": "_zQKx10vHjA",
+    "role": "rendition",
+    "title": "Tondero Leandro Köhli y Alessia Cafazzo,Zürich 30.4.2016 Coronación.",
+    "channel": "Daniel Koehli",
+    "hd": true
+   },
+   {
+    "youtube_id": "ur5hwEnnbCY",
+    "role": "rendition",
+    "title": "TONDERO - RAICES DEL PERU - IX FESTIVAL DANZANDO EN LA PERLA DEL NORTE",
+    "channel": "TELEAMIGOS CHEPEN",
+    "hd": true
+   }
+  ],
+  "image_significance": {
+   "status": "pending",
+   "captions": []
+  },
+  "tier": "content_ready",
+  "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 8.5,
+  "last_researched_at": "2026-10-31T16:21:46Z",
+  "pipeline_version": "v3.3",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-15T17:59:35Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
+  "related_slugs": [
+   "marinera",
+   "cachua",
+   "kantu",
+   "thirra"
+  ]
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 10,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "status",
+    "label": "known to be living, revived or historical"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "fingerprint": "9ce996eefee4bbef",
+ "updated": "2026-11-21"
+}

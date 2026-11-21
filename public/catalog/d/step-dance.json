@@ -1,0 +1,518 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "step-dance",
+ "name": "Step dance",
+ "state": "not_published",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "card": {
+  "slug": "step-dance",
+  "name": "Step dance",
+  "tagline": "generic term for dance styles in which footwork is considered to be the most important part of the dance an…",
+  "profile": "Step dance is a generic term for dance styles in which footwork is considered to be the most important part of the dance and arm movements and styling are either restricted or considered less relevant. Step-dancing is a percussive form of dance that employs hard-soled shoes and may be synchronized with music played at a specified tempo using instruments like pipes, whistles, fiddles, or puirt-a-beul (mouth music).",
+  "insight": "Irish stepdance is, as of 2017, the only form of step dance to which a Broadway production, Lord of the Dance, has been devoted.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Step_dance",
+   "Source: Step dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Step_dance"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Step_dance",
+  "wikidata_qid": "Q3360620",
+  "unesco": false,
+  "hero_video_youtube_id": "lgMy5Gn84_c",
+  "tier": "needs_curation",
+  "_is_sacred": false,
+  "research_gate": "reject",
+  "qc_score": 7.7,
+  "last_researched_at": "2026-11-14T17:16:48Z",
+  "pipeline_version": "v3.3",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-01T17:59:30Z",
+   "soft_fail": []
+  },
+  "tutorials": [
+   {
+    "youtube_id": "a5-ZnI4tDyI",
+    "title": "Tyla - Chanel STEP BY STEP Dance Tutorial (Explained) | Easy to Follow for Beginners",
+    "channel": "Ana Bensig",
+    "level": "beginner",
+    "pos": 15,
+    "neg": 0,
+    "ratio": 15.0,
+    "evidence": [
+     "You are a great teacher 👏",
+     "OMG TY SO MUCH! IM MORE OF A POP DANCER SO I STRUGGLED WITH FLOWY STEPS THIS WAS SO CLEAR TYYY",
+     "THANK YOU SO MUCH FOR THE BODY WAVE BRO 😭"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "lgMy5Gn84_c",
+    "title": "How To Two Step Dance - Basic 2 Step",
+    "channel": "Country Dance X",
+    "level": "general",
+    "pos": 2,
+    "neg": 0,
+    "ratio": 2.0,
+    "evidence": [
+     "Thank you so muchh im going to a hardcore show tomorrow!!",
+     "Quick quick slow slow\nThank you so much ❤"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "THJ2YEvRgkM",
+    "title": "Beginner Step with a Bass Beat | Step Dance",
+    "channel": "Howcast",
+    "level": "beginner",
+    "pos": 2,
+    "neg": 0,
+    "ratio": 2.0,
+    "evidence": [
+     "Best dance I've ever seen, thank you so much!!!👍👍👍❤❤❤😊😊😊👏👏👏👍👍👍",
+     "Thank you so much you made me make my dance camp team! ;)"
+    ],
+    "lesson_status": "in_review"
+   }
+  ]
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   }
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "THJ2YEvRgkM",
+   "url": "https://www.youtube.com/watch?v=THJ2YEvRgkM",
+   "title": "Beginner Step with a Bass Beat | Step Dance",
+   "channel": "Howcast",
+   "analysed_on": "2026-11-16",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "The teacher introduces himself and his assistant."
+    },
+    {
+     "t": "0:18",
+     "seconds": 18,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the base beat."
+    },
+    {
+     "t": "0:36",
+     "seconds": 36,
+     "segment": "breakdown",
+     "note": "The teacher demonstrates the base beat with a single stomp."
+    },
+    {
+     "t": "1:16",
+     "seconds": 76,
+     "segment": "breakdown",
+     "note": "The teacher adds a left stomp and a hand clap."
+    },
+    {
+     "t": "1:55",
+     "seconds": 115,
+     "segment": "breakdown",
+     "note": "The teacher explains the next stomp on the left leg."
+    },
+    {
+     "t": "2:35",
+     "seconds": 155,
+     "segment": "breakdown",
+     "note": "The teacher explains how to loop the steps."
+    },
+    {
+     "t": "3:20",
+     "seconds": 200,
+     "segment": "breakdown",
+     "note": "The teacher adds the actual step to the base beat."
+    },
+    {
+     "t": "4:54",
+     "seconds": 294,
+     "segment": "breakdown",
+     "note": "The teacher explains the ending of the step."
+    },
+    {
+     "t": "6:12",
+     "seconds": 372,
+     "segment": "full_demo",
+     "note": "The teacher and his assistant perform the full step with the base beat."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Base beat",
+     "counts": "5-6-7-8",
+     "description": "A rhythmic sequence of stomps and claps."
+    },
+    {
+     "name": "Step",
+     "counts": "5-6-7-8",
+     "description": "A sequence of stomps and claps combined with the base beat."
+    }
+   ],
+   "cues": [
+    "Right, left, clap",
+    "Stomp with our right leg",
+    "Stomp with our left leg",
+    "Hit both your thighs with your hands"
+   ],
+   "teacher_style": "The teacher uses a clear, step-by-step approach, breaking down complex movements into manageable segments. He frequently uses his assistant to demonstrate the steps, ensuring the viewer can follow along easily.",
+   "distinctive_method": "The teacher uses his assistant to demonstrate the steps, which allows the viewer to see the movement from a different perspective.",
+   "what_works": [
+    "The teacher breaks down the steps into small, manageable parts.",
+    "The teacher uses a clear counting scheme."
+   ],
+   "what_hinders": [
+    "The video does not provide a mirror view, which can make it difficult for the viewer to follow along."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher stands in front of the camera and introduces himself and his assistant.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 36,
+     "end_s": 45,
+     "topic": "movement",
+     "observation": "The teacher demonstrates a single stomp with his right leg, followed by a stomp with his left leg.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 55,
+     "topic": "movement",
+     "observation": "The teacher and his assistant perform a stomp and a clap together.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 116,
+     "end_s": 120,
+     "topic": "movement",
+     "observation": "The teacher adds a left stomp and a hand clap to the sequence.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 212,
+     "end_s": 218,
+     "topic": "movement",
+     "observation": "The teacher demonstrates a stomp and a clap, followed by a stomp and two claps.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "a5-ZnI4tDyI",
+   "url": "https://www.youtube.com/watch?v=a5-ZnI4tDyI",
+   "title": "Tyla - Chanel STEP BY STEP Dance Tutorial (Explained) | Easy to Follow for Beginners",
+   "channel": "Ana Bensig",
+   "analysed_on": "2026-11-14",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "4-3-2-go / 1-2-3-4",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "intro",
+     "note": "Welcomes viewers and introduces the song and tutorial"
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "other",
+     "note": "Reminds viewers to mirror the video and adjust speed if needed"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "breakdown",
+     "note": "Breaks down the first move: freeze and body wave"
+    },
+    {
+     "t": "1:15",
+     "seconds": 75,
+     "segment": "breakdown",
+     "note": "Explains body roll technique step by step"
+    },
+    {
+     "t": "2:32",
+     "seconds": 152,
+     "segment": "breakdown",
+     "note": "Teaches the jump and hip movement section"
+    },
+    {
+     "t": "4:43",
+     "seconds": 283,
+     "segment": "breakdown",
+     "note": "Teaches arm wipes and footwork"
+    },
+    {
+     "t": "6:03",
+     "seconds": 363,
+     "segment": "breakdown",
+     "note": "Teaches the final turn and arm positioning"
+    },
+    {
+     "t": "7:18",
+     "seconds": 438,
+     "segment": "recap",
+     "note": "Recaps all steps learned so far with music/counts"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Freeze and Body Wave",
+     "counts": "1-2-3-4",
+     "description": "Freeze in place followed by a body wave down and up"
+    },
+    {
+     "name": "Body Roll",
+     "counts": "1-2-3-4",
+     "description": "Roll body starting from head through chest, stomach, and hips"
+    },
+    {
+     "name": "Jump and Hip Bounce",
+     "counts": "1-2-3-4",
+     "description": "Jump open into a squat and bounce hips with alternate heel lifts"
+    },
+    {
+     "name": "Arm Wipe and Step",
+     "counts": "1-2-3-4",
+     "description": "Step side to side while wiping arms up and down"
+    }
+   ],
+   "cues": [
+    "make me freeze",
+    "head, chest, stomach, down",
+    "up and up",
+    "step and close"
+   ],
+   "images": [
+    "like a wave",
+    "biting our nail"
+   ],
+   "safety": [
+    "Make sure to stretch"
+   ],
+   "teacher_style": "The teacher breaks down choreography into clear, step-by-step instructions with mirrored demonstrations. She provides verbal cues and counts while explaining body placement and alternative positioning for solo or group practice.",
+   "distinctive_method": "Explicitly labels left and right on screen corners and suggests speed adjustments in YouTube settings before starting.",
+   "what_works": [
+    "Mirrored view labels on screen",
+    "Detailed breakdown of body isolation parts"
+   ],
+   "what_hinders": [
+    "Fast transitions between detailed breakdowns and full speed"
+   ],
+   "evidence": [
+    {
+     "start_s": 16,
+     "end_s": 20,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates mirroring gesture by pointing to left and right sides on screen.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "exact learning outcome for viewer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 120,
+     "end_s": 135,
+     "topic": "movement",
+     "observation": "Teacher turns to the side profile to demonstrate body roll isolation.",
+     "viewpoint": "side, mirrored",
+     "cannot_infer": "viewer weight distribution accuracy",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "lgMy5Gn84_c",
+   "url": "https://www.youtube.com/watch?v=lgMy5Gn84_c",
+   "title": "How To Two Step Dance - Basic 2 Step",
+   "channel": "Country Dance X",
+   "analysed_on": "2026-11-15",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "quick-quick-slow-slow",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "The teachers introduce themselves and the dance."
+    },
+    {
+     "t": "0:17",
+     "seconds": 17,
+     "segment": "context",
+     "note": "The teachers explain the importance of maintaining space between partners."
+    },
+    {
+     "t": "0:27",
+     "seconds": 27,
+     "segment": "breakdown",
+     "note": "The teachers demonstrate the basic step by walking in a straight line."
+    },
+    {
+     "t": "0:54",
+     "seconds": 54,
+     "segment": "breakdown",
+     "note": "The teachers introduce the counting scheme."
+    },
+    {
+     "t": "1:30",
+     "seconds": 90,
+     "segment": "context",
+     "note": "The teachers explain the dance position."
+    },
+    {
+     "t": "2:25",
+     "seconds": 145,
+     "segment": "context",
+     "note": "The teachers explain the concept of a progressive dance."
+    },
+    {
+     "t": "3:27",
+     "seconds": 207,
+     "segment": "breakdown",
+     "note": "The teachers provide tips for the ladies."
+    },
+    {
+     "t": "4:03",
+     "seconds": 243,
+     "segment": "context",
+     "note": "The teachers explain the importance of body connection over footwork."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Basic Two Step",
+     "counts": "quick-quick-slow-slow",
+     "description": "A basic step involving walking in a straight line with a specific rhythm."
+    }
+   ],
+   "cues": [
+    "quick-quick-slow-slow"
+   ],
+   "images": [
+    "driving on the wrong side of the street"
+   ],
+   "common_mistakes": [
+    "stepping around the partner's feet"
+   ],
+   "safety": [
+    "maintaining space between partners to avoid stepping on feet"
+   ],
+   "teacher_style": "The teacher explains the mechanics of the dance, focusing on the connection between partners. He uses a clear, instructional tone to guide the students through the steps.",
+   "distinctive_method": "The teacher emphasizes the importance of body connection over footwork, explaining that the follower should feel the leader's body movement rather than just following the steps.",
+   "what_works": [
+    "The teacher breaks down the steps clearly and explains the mechanics of the dance."
+   ],
+   "what_hinders": [
+    "The video is a bit repetitive and could be more concise."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher explains the basic step of the two-step dance.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 27,
+     "end_s": 37,
+     "topic": "movement",
+     "observation": "The teachers demonstrate the basic step by walking in a straight line.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 54,
+     "end_s": 64,
+     "topic": "movement",
+     "observation": "The teachers demonstrate the quick-quick-slow-slow rhythm.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 130,
+     "end_s": 140,
+     "topic": "teaching",
+     "observation": "The teacher explains the dance position.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 225,
+     "end_s": 235,
+     "topic": "teaching",
+     "observation": "The teacher explains the concept of a progressive dance.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 327,
+     "end_s": 337,
+     "topic": "teaching",
+     "observation": "The teacher provides tips for the ladies.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "f5244ec9f0925cac",
+ "updated": "2026-11-21"
+}

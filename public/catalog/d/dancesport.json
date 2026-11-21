@@ -1,0 +1,108 @@
+{
+ "contract": "da_dance_v1",
+ "slug": "dancesport",
+ "name": "Dancesport",
+ "state": "not_published",
+ "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
+ "card": {
+  "slug": "dancesport",
+  "name": "Dancesport",
+  "tagline": "Dancesport (also stylized as DanceSport) is competitive dancing, as contrasted with social or exhibition da…",
+  "profile": "Dancesport (also stylized as DanceSport) is competitive dancing, as contrasted with social or exhibition dancing. The term dancesport encompasses many dance disciplines (e.g., Acrobatic Rock'n'Roll, Boogie Woogie, Breaking, Hip Hop, and Ballroom). Most dancesport disciplines are competed by couples, but there are solo styles (e.g., Breaking) and group styles (e.g., Formation dance). In the case of Para dancesport, at least one of the dancers is in a wheelchair.",
+  "insight": "== History ==\nThe first unofficial world championship for Ballroom dance took place in 1909, and the first formation team was presented in 1932 by Olive Ripman at the Astoria Ballroom, London.",
+  "related": [
+   "world-dance-council",
+   "baton-twirling",
+   "blackpool-dance-festival",
+   "british-dance-council",
+   "english-amateur-dancesport-association",
+   "formation-dance",
+   "usa-dance",
+   "viennese-waltz",
+   "world-10-dance-champions",
+   "world-ballroom-dance-champions"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dancesport",
+   "Source: Dancesport on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Dancesport"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dancesport",
+  "wikidata_qid": "Q738622",
+  "unesco": false,
+  "hero_video_youtube_id": "hGgYgan3Il8",
+  "tier": "needs_curation",
+  "_albums": [
+   {
+    "title": "Strictly Bolero & Rumba (The Best of Dancesport)",
+    "artist": "The New 101 Strings Orchestra"
+   },
+   {
+    "title": "Ballroom Resilience",
+    "artist": "Olivato Dancesport Orchestra"
+   },
+   {
+    "title": "Ballroom Beauty",
+    "artist": "Olivato Dancesport Orchestra"
+   }
+  ],
+  "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 9.85,
+  "last_researched_at": "2026-11-16T21:20:03Z",
+  "pipeline_version": "v3.3",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-01T17:59:38Z",
+   "soft_fail": [
+    "not_vertical"
+   ]
+  },
+  "tutorials": [
+   {
+    "youtube_id": "jlY_nxpQJIQ",
+    "title": "Jive Dance ||| Jive Basic Step || Jive Footwork, Timing & Technique | Beginner Jive Dance Tutorial",
+    "channel": "DanceSport Explained with Mila",
+    "level": "beginner",
+    "pos": 2,
+    "neg": 0,
+    "ratio": 2.0,
+    "evidence": [
+     "The best Jive teacher ever.  Well explained and easily to follow.  Well done girl 👍",
+     "Thank you so much for your clear explanations.❤❤"
+    ],
+    "lesson_status": "in_review"
+   }
+  ],
+  "related_slugs": [
+   "baton-twirling",
+   "formation-dance",
+   "viennese-waltz"
+  ]
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 11,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "fingerprint": "43dfcb25f0d93918",
+ "updated": "2026-11-21"
+}
