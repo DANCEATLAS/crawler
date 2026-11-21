@@ -422,3 +422,11 @@ Three rules follow, now in `LOVABLE_BATCHES.md` (rules 9 and 10, and the note on
 **Credits.** The balance page at 18:40: 25.8 expiring credits left (28.5 in all). Batch 8 with its repairs took 14.5: about a third of it was the price of the fault.
 
 **Also found:** the Saved page lives at `/profile`; `/saved` is no address and shows the load-error text. Batch 9 redirects it.
+
+## 21 November 2026 (18:45 to 19:10) — countries and families from the index; 71.7 of the 90.9 expiring credits used in the day
+
+**Batch 9, published at 19:03.** 6.60 credits, 13 min 25 s, no repair. The standing instructions had been replaced first (6,187 characters, read back, no build) so that Lovable checks on a production build and keeps working components. Atlas and Flags now group by ISO country from the head of `index.json`: 153 countries in 12 regions (the page said 213, counting joined names such as "France and Italy" as countries), a dance under every country it belongs to, 33 dances under "Place not yet known". The tree shows 774 dances as "Family not yet known" (they sat inside "Folk & circle", which read 977 and now reads 203). Home no longer promises a map. An address that does not exist says so; `/saved` leads to the Saved page. Checked on the built preview and live against the index (the record is in `LOVABLE_BATCHES.md`).
+
+**Credits.** The balance page at 19:05: 19.2 expiring credits left (21.9 in all). Used on 21 November: 71.7 of 90.9, in nine batches and three repairs. With two batches a day the expiring credits are used by Tuesday 24 November; the plan is in `LOVABLE_BATCHES.md`, section 6.
+
+**Found while checking, for the next batches:** the dance page shows the chip "Folk" for a dance that has no family (372 published pages); a first visit shows the old grouping for a moment; an address of a dance that does not exist shows only a link back; one card (`american-smooth`) carries a description that belongs to a list.
