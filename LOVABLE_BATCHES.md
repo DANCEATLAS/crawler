@@ -49,6 +49,8 @@ Also measured: the whole catalogue (5.2 MB, growing 0.16 MB a night) is loaded f
 6. Machine readings are labelled as such, with the link to the video moment or the source. No number is typed into the code.
 7. Every data request has a timeout and a calm fallback. No screen may go blank.
 8. After the build: check the preview against the data, run the fixed check of the old pages (home count, atlas, one dance page, viral, a retired slug, a saved heart), publish, record the cost here.
+9. A batch changes what a component shows, not what it is built on: a working sheet, chip or tile keeps its present component unless the batch says otherwise (learned with batch 8).
+10. Every check is made on the built preview (`preview--dancingatlas.lovable.app`), which is what gets published. Lovable's own check runs on its dev server and can pass while the built page is wrong; the built preview follows a change by a minute or two (the name of the stylesheet in the page changes when it has).
 
 ## 5. The batches, in order of value
 
@@ -94,13 +96,12 @@ The reserve is longer than the budget on purpose: estimates can be wrong in both
 
 | Day (Japan) | Batches | For the project's future | Expiring left after |
 |---|---|---|---:|
-| Sat 21 Nov, evening (done) | 5 The starting line, with the two repairs · 6 The machine room in Hebrew · 7 The direction | mission 1 visible; the browser store keeps whole files; the founder sees the machine and the study in Hebrew; the direction in his words | 40.3 |
-| Sun 22 Nov | 8 Truth repairs: the Viral list · 9 Truth repairs: countries and families | a truthful window with no backend at all | about 30 |
-| Mon 23 Nov | A What an agent receives, on every dance page · B The mentor in Hebrew | the bridge to BDF made visible; the founder reads the teaching DNA | about 20 |
-| Tue 24 Nov | C The research library · D Search that knows other names | he steers the research; the material is easy to find | about 12 |
-| Wed 25 Nov | 10 Speed and access · E The window works without a connection | ready for a beta; robust | about 2 |
-| Thu 26 Nov | finishing items | the expiring line at zero | 0 |
-| Fri 27 Nov | spare day | | |
+| Sat 21 Nov, evening (done) | 5 The starting line, with the two repairs · 6 The machine room in Hebrew · 7 The direction · 8 Truth repairs: the Viral list, with three repairs of its details sheet | mission 1 visible; the browser store keeps whole files; the founder sees the machine and the study in Hebrew; the direction in his words; a Viral page that claims no popularity; no backend at all | 25.8 |
+| next (21 or 22 Nov) | 9 Truth repairs: countries and families | real countries, real families, no promised map | about 20 |
+| Sun 22 Nov | A What an agent receives, on every dance page · B The mentor in Hebrew | the bridge to BDF made visible; the founder reads the teaching DNA | about 12 |
+| Mon 23 Nov | C The research library · D Search that knows other names | he steers the research; the material is easy to find | about 5 |
+| Tue 24 Nov | 10 Speed and access · E The window works without a connection | ready for a beta; robust | 0 |
+| Wed 25 to Fri 27 Nov | spare days: finishing items with what is left and the day's free credits | the expiring line at zero | 0 |
 
 Batch 8 was split in two when it was written: 8 is the Viral list (read from GitHub, the database client removed, no rank), and the number 9, free since the door page was folded away, is countries and families. A, B, C, D and E are prepared in that order (messages below as they are written). A: the episode and the activation dossier of a dance, shown as what a teaching agent would be handed (`d/<slug>.json`, `active_profiles.json`). B: the teaching DNA, the themes and the six moments in Hebrew, translated by the machine and marked as such (a new block in `bdf_teaching_system.json`), with a language switch on `/mentor`. C: the research notes and papers by the founder's three strands, what is read and what waits (R2). D: R4. E: R5. The teachers' hall (R1), how the atlas is made (R3) and the episode scripts (R6) follow if credits remain.
 
@@ -143,10 +144,14 @@ All of it is GitHub work, tested, merged by pull request, no model calls, no cos
 | 21 Nov | 5 The starting line, with two repairs | 7.20 | 50.3 | 6 min 47 s. In the preview against `machine.json` and the index: 32 ready, "+6.8 a night, measured over the last 4 days", the ladder 1,244 / 589 / 476 / 87 / 39 / 41 / 32, 32 cards, 12 closest rows, 14 bars with their numbers, three charts (5 to 32, 359 to 476, 91 to 170), one new request (`machine.json`); Home strip "32 dances ready to activate · The starting line →" with no new request. Repairs: only the database `da_library_v2` exists and the stored Hustle file is whole (14 keys); the signature moments of the Hustle performance show at 0:23, 0:36 and 1:53 with links to the moment. Old pages: home 1,244, atlas, viral 154, the retired address, `/health` OK with the new database, `/mentor`, a saved heart kept. Live: the page, the strip, a dance that had a trimmed copy | yes |
 | 21 Nov | 6 The machine room, in Hebrew | 5.70 | 44.6 | 3 min 28 s. In the preview against `machine.json`: the page reads right to left (`lang="he"`, body 20 px, titles 28 px), dance names and English notes left to right; "לא צריך ממך כלום…" in the green card; the last night 20.11.2026 "הלילה עבד", 141 minutes, 242 questions, 0 unanswered, 13 stages; the library numbers; the pace +6.8 / +29.2 / +22.2 over 4 days; the study: 24 of 80 topics, 0 of the owner's 14, 9 papers, 51 lessons, 45 teachers, 106 findings, 23 of 34 practices, and the six topics read next under their Hebrew names; 14 bars and the closest dances with Hebrew item names; 14 nights; the links to `/starting-line`, `/mentor`, `/health`, and the link to `/machine` at the end of `/starting-line` and `/health`. Old pages unchanged. Live: the page opens in Hebrew | yes |
 | 21 Nov | 7 The direction, in the founder's words | 3.10 | 40.3 (balance page, 17:50; 1.2 less than the three "Credits used" figures of the evening add up to) | 1 min 56 s. In the preview: `/vision` with the title, two pull quotes (the second marked as translated from Hebrew), Now / Next / Later, why a mentor, what is not here, sacred dances, open to any AI with the link to the manifest (new tab) and to `/health`, "32 / 1,244" after Mission 1, the honesty line; no new request. Home strip: "32 dances ready to activate · The starting line → · Where this is going →". Old pages unchanged. Live: the page opens | yes |
+| 21 Nov | 8 Truth repairs: the Viral list | 7.70 | | 4 min 55 s. On the built preview against `viral.json`: "All 154" and seven category chips with the file's numbers (the empty "Flashmob IRL" is gone); 154 cards in the file's order (first: KPop Demon Hunters — Soda Pop / Golden, Anxiety, Bad Bunny; last: The Woah); no tabs, no rank, no "NEW", no "How ranking works", no "Tutorials coming soon"; the line "In order of when each began, newest first. This is not a ranking."; the page head without "top", "chart" or "ranked"; the details in order (story, Watch, how it spread, at its height, also danced by, the song, more videos as links, sources by host name); two cards without a video and two without a year show nothing in their place; data requests go to `raw.githubusercontent.com` only, no database host; `/health` lists `viral.json` (304,915 bytes); a saved challenge shows on Home and on the Saved page (`/profile`). Old pages unchanged. **One fault:** the details sheet was off the screen (next row) | after the repairs |
+| 21 Nov | 8a, 8b, 8c Repairs of that sheet | 2.10 + 1.60 + 3.00 | 25.8 (balance page, 18:40; 28.5 in all) | 1 min 48 s, 50 s, 4 min 8 s. Batch 8 rebuilt the working sheet on the shared Dialog, whose Tailwind classes move it by half its size (`translate: -50% -50%`); the box sat at left -700 px, top -232 px in a 1400 × 724 window. 8a and 8b each passed Lovable's own check and failed on the built preview: the production build lowers a hand-written `translate: none` into `transform`, which does not cancel the separate `translate` property. 8c named that cause and gave a build-safe repair (`translate-x-0 translate-y-0` on the element, and the two `--tw-translate` variables in the rule). On the built preview and live: the sheet at left 0, top 127 px, full width, `translate` 0, Close button, Escape closes, the sources reachable by scrolling | yes, 18:38; live checked: the page, the sheet, no database host |
 
 ### How a message is sent (learned on 21 November)
 
 The chat field of Lovable is a rich-text editor. Put the text in with `document.execCommand('insertText', false, text)` on the focused field: the page can fetch the text of a batch straight from this file on main. A synthetic paste event turns the text into an attachment, and typing it key by key would send it at the first line break. Check that the field holds the whole message and that the mode is Build, then press Send. The cost is in the menu "More options" under the answer (it opens on the second click). Of the free 5 build credits of the day, the first batch uses them all.
+
+**The built preview, not the dev server (learned with batch 8).** `preview--dancingatlas.lovable.app` serves a production build, the same kind that is published; it follows the agent's last change by a minute or two (compare the name of the stylesheet in the page, or look for the change itself, before judging). Lovable's own check runs on its dev server. The two can differ: the build minifies the CSS and rewrote a hand-written `translate: none` into `transform: translate(0px)`. A repair that depends on CSS is written with Tailwind utilities on the element or with Tailwind's own variables, and is accepted only on the built preview. A repair message says what was measured, in which window, and what the accepted measurement is.
 
 ## Batch 1 — the message
 
@@ -501,6 +506,54 @@ Open /viral in the preview and report: the number on "All"; every category chip 
 ```
 
 
+## Batch 8 — the three repairs, as sent
+
+Sent on 21 November between 18:25 and 18:32, each put into the chat field as written here. What they repaired and what they cost is in the record.
+
+```
+REPAIR 8a — the details sheet on /viral is off the screen. Read the Project instructions first. Do exactly this and nothing else.
+
+WHAT IS WRONG (measured in the preview at 1400 x 724)
+Since Batch 8 the details sheet is the shared Dialog with the class "viral-details". The Dialog's base classes translate-x-[-50%] translate-y-[-50%] set the CSS property translate to "-50% -50%" (Tailwind v4 uses the translate property, not transform). The viral-details rule sets left 0, right 0, bottom 0 and a top of 12vh, but does not reset translate. Result: the sheet's box is at left -700px, top -232px, so three quarters of it lie outside the window and its text cannot be read. Before Batch 8 the sheet was a plain element with role="dialog" at left 0, top 153px, full width, translate none.
+
+REPAIR
+1. When open, the sheet is a bottom sheet inside the window: left edge 0, full width, bottom edge at the bottom of the window, top edge below the category chips, scrolling inside itself. Its computed translate is "none" (or 0), also during and after the opening animation. No part of it is outside the window at any width from 320px up.
+2. The sheet has a visible Close button at its top right, as before Batch 8.
+3. Keep everything else of Batch 8 as it is: the content and order of the sheet, focus moving into it, Escape closing it, the page behind not scrolling.
+4. Correct only this sheet. Do not change how the shared Dialog looks on other pages.
+
+WHEN DONE
+In the preview open /viral, open the details of the first card, and report for a 1400 x 724 window and for a 390 x 844 window: the sheet's left, top, width and height from getBoundingClientRect(), and its computed translate. Scroll the sheet to its end and confirm that the Sources list is visible.
+```
+
+```
+REPAIR 8b — the Viral details sheet is still off the screen in Chrome. Read the Project instructions first. Do exactly this and nothing else.
+
+MEASURED after Repair 8a, in Chrome, in the preview, window 1400 x 724, details of the first card open: getBoundingClientRect() gives left -700, top -171, width 1400, height 597, and getComputedStyle(sheet).translate is "-50% -50%". The rule .viral-details sets "transform: translate(0px) !important" and the rule .viral-details[data-state] sets "transform: none !important". Neither sets the property "translate". The Dialog's Tailwind v4 classes translate-x-[-50%] translate-y-[-50%] set exactly that property (translate: -50% -50%), not transform, so the sheet is still moved half its width to the left and half its height up. A browser that does not know the separate translate property hides the fault, which is probably why your check passed.
+
+REPAIR
+In the CSS rule .viral-details add this declaration: translate: none !important;
+Nothing else changes.
+
+WHEN DONE
+Report the full text of the .viral-details rule, and the computed translate and the left edge of the open sheet, measured in a current Chrome or Chromium (version 110 or later). Say which browser and version you measured in.
+```
+
+```
+REPAIR 8c — the cause found: the production build rewrites the hand-written translate declaration. Read the Project instructions first. Do exactly this and nothing else.
+
+WHAT HAPPENS
+Your check runs on the dev server, where the sheet is right. The address https://preview--dancingatlas.lovable.app/viral serves the production bundle (styles-*.css, index-*.css). There the CSS minifier lowers the hand-written "translate: none !important" into "transform: translate(0px) !important": in the built stylesheet the rule .viral-details has no translate property at all. Tailwind's own classes translate-x-[-50%] translate-y-[-50%] survive the build because they use variables (translate: var(--tw-translate-x) var(--tw-translate-y)), so in the built page the open sheet still computes translate "-50% -50%" and sits at left -700px, top -171px in a 1400 x 724 window. The published site is built the same way.
+
+REPAIR (both steps)
+1. In the component that renders the Viral details sheet, add the utilities translate-x-0 translate-y-0 to the className given to the Dialog content, so that tailwind-merge drops translate-x-[-50%] translate-y-[-50%] for this sheet only.
+2. In the CSS rule .viral-details replace the declaration "translate: none !important;" by these two declarations, which no minifier can lower: --tw-translate-x: 0 !important; --tw-translate-y: 0 !important;
+Nothing else changes. The shared Dialog stays as it is for other pages.
+
+WHEN DONE
+Run the production build and check the BUILT result, not the dev server: (a) quote the .viral-details rule as it stands in the built stylesheet; (b) on the built page, with the details of the first card open in a 1400 x 724 window, report getComputedStyle(sheet).translate and the left and top of getBoundingClientRect(). The left must be 0 and the top must be positive.
+```
+
 ## Batch 9 — the message
 
 Send when the index on main carries `places` and `families` (the stage `door` after the change of 21 November, evening) and the words `pages.atlas`, `pages.tree`, `pages.home`, `pages.notfound` are in `site.json`.
@@ -534,11 +587,11 @@ HOME
 The sentence under the hero ("<count> traditions still danced today — wander by flag, map, or family tree.") becomes "<count> " + t("pages.home.lead","traditions still danced today.") followed by three text links: t("pages.home.by_country","By country") to /atlas, t("pages.home.by_flag","By flag") to /flags, t("pages.home.by_family","By family") to /tree. There is no map: the word goes. The "Start exploring" button and the strip under it stay.
 
 AN ADDRESS THAT DOES NOT EXIST
-An address that matches no route (for example /map) shows t("pages.notfound.title","This page does not exist") and a link t("pages.notfound.back","Back to the atlas") to /atlas. The "could not be loaded" message stays for real loading failures only. A retired dance address keeps redirecting as today.
+An address that matches no route (for example /map) shows t("pages.notfound.title","This page does not exist") and a link t("pages.notfound.back","Back to the atlas") to /atlas. The "could not be loaded" message stays for real loading failures only. A retired dance address keeps redirecting as today. The address /saved redirects to /profile (the Saved page).
 
 RULES
-Read-only. No number is typed into the code: every number comes from the index. No new request, no new npm dependency. Change no other page.
+Read-only. No number is typed into the code: every number comes from the index. No new request, no new npm dependency. Change no other page. Keep the present components (the sheet a chip opens, the chips, the tiles, the tree): change what they show, not what they are built on. Check the result on the built preview (https://preview--dancingatlas.lovable.app), not only on the dev server.
 
 WHEN DONE
-Report from the preview: the Atlas header; the regions shown, in order, with the number of countries under each; the number on the "Place not yet known" chip; the number of dances in the sheet of France and of Japan; the number of tiles on /flags; every family on /tree with its number, and the number of the group without a family; the Home sentence with its three links; the text shown at /map.
+Report from the preview: the Atlas header; the regions shown, in order, with the number of countries under each; the number on the "Place not yet known" chip; the number of dances in the sheet of France and of Japan; the number of tiles on /flags; every family on /tree with its number, and the number of the group without a family; the Home sentence with its three links; the text shown at /map; where /saved leads.
 ```
