@@ -30,6 +30,9 @@ LIGHT = ("slug", "name", "aliases", "tagline", "country", "country_code", "flag_
 WITHHELD = ("teaching", "movement_profile", "adaptations")          # never in the door for a sacred or restricted dance
 WITHHELD_STATES = ("story_ready_teaching_withheld", "teaching_withheld")
 EMPTY = (None, "", [], {})
+TEACHES = re.compile(r"\b(tutorial|lessons?|how to|learn(?:ing)?|step by step|basic steps?|beginners?|class(?:es)?|master ?class|workshop|teach(?:ing|es)?"
+                     r"|instruction(?:al)?|aprende|paso a paso|clases?|c[oó]mo bailar|pasos b[aá]sicos|cours|apprendre|lernen|урок)\b", re.I)   # a video title that offers to teach
+RENAMED = {"how_is_danced": "how_it_is_danced"}                    # a key the writing model misspelt
 NOTE = "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json."
 RULES = [
     "Everything here was gathered and written by a machine from public sources and checked against them: quotes, links, timestamps. It has not been reviewed by a person, cleared for rights or tested on learners. Say so when you use it.",
@@ -98,6 +101,20 @@ def _sacred(style, ready):
 
 def _full(d):
     return {k: v for k, v in d.items() if v not in EMPTY}
+
+
+def _tidy(obj):
+    """Keys as the contract names them: no stray spaces, a known misspelling put right. A correctly named key wins."""
+    if isinstance(obj, list):
+        return [_tidy(x) for x in obj]
+    if not isinstance(obj, dict):
+        return obj
+    out = {}
+    for k, v in obj.items():
+        key = RENAMED.get(k.strip(), k.strip())
+        if key == k or out.get(key) in EMPTY:
+            out[key] = _tidy(v)
+    return out
 
 
 def _secs(t):
@@ -171,9 +188,12 @@ def dance(slug, style, deep, ready, lessons, shows, pack):
     card = _full(style)
     if sacred:
         card.pop("tutorials", None)
+        if isinstance(card.get("video_stack"), list):      # the hero passed the vision check as a performance and stays
+            card["video_stack"] = [v for v in card["video_stack"]
+                                   if not (isinstance(v, dict) and v.get("role") != "hero" and TEACHES.search(str(v.get("title") or "")))]
     out["card"] = card
     if deep:
-        prof = _full(deep)
+        prof = _full(_tidy(deep))
         if sacred:
             for k in WITHHELD:
                 prof.pop(k, None)

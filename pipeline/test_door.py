@@ -13,7 +13,9 @@ STYLES = {
               "family": "latin-caribbean", "research_gate": "publish", "publish_gate": "publish", "hero_video_youtube_id": "HERO1", "hero_qc": {"verdict": "pass"},
               "tutorials": [{"youtube_id": "LESSON1"}], "profile": "Short story.", "sources": ["https://example.org/salsa"]},
     "holy": {"slug": "holy", "name": "Holy dance", "country": "France (term origin), Italy", "is_sacred": True, "sacred_note": "Danced only inside the rite.",
-             "research_gate": "publish", "publish_gate": "publish", "tutorials": [{"youtube_id": "LESSON2"}]},
+             "research_gate": "publish", "publish_gate": "publish", "tutorials": [{"youtube_id": "LESSON2"}],
+             "video_stack": [{"youtube_id": "RITE1", "role": "hero", "title": "The rite, filmed"}, {"youtube_id": "RITE2", "role": "rendition", "title": "Basic Steps - Holy dance"},
+                             {"youtube_id": "RITE3", "role": "rendition", "title": "Holy dance at the classical festival"}]},
     "newcomer": {"slug": "newcomer", "name": "Newcomer", "country": "Balkans/Roma", "unesco": False, "lat": None},
     "gone": {"slug": "gone", "name": "Gone", "country": "Spain"},
 }
@@ -135,6 +137,7 @@ class Door(unittest.TestCase):
         self.assertNotIn("lessons", d)
         self.assertNotIn("performances", d)
         self.assertNotIn("tutorials", d["card"])
+        self.assertEqual([v["youtube_id"] for v in d["card"]["video_stack"]], ["RITE1", "RITE3"])     # the video that offers to teach is not in the door
         self.assertNotIn("A secret step", json.dumps(d))
         e = read(self.root, "index.json")["dances"]["holy"]
         self.assertTrue(e["is_sacred"])
@@ -153,6 +156,19 @@ class Door(unittest.TestCase):
         self.assertNotIn("is_sacred", idx["salsa"])
         self.assertTrue(idx["newcomer"]["is_sacred"])
         self.assertIn("teaching_withheld", read(self.root, "d/newcomer.json"))
+
+    def test_a_video_that_offers_to_teach_stays_with_a_dance_that_is_taught(self):
+        styles = json.loads(json.dumps(STYLES))
+        styles["salsa"]["video_stack"] = [{"youtube_id": "S1", "role": "rendition", "title": "Salsa tutorial for beginners"}]
+        library(self.root, styles)
+        door.run(self.root, DAY1)
+        self.assertEqual(len(read(self.root, "d/salsa.json")["card"]["video_stack"]), 1)
+
+    def test_a_misspelt_key_is_put_right_and_the_right_key_wins(self):
+        self.assertEqual(door._tidy({"sections": {"how_is_danced": "In lines."}}), {"sections": {"how_it_is_danced": "In lines."}})
+        self.assertEqual(door._tidy({"movement_profile": {" what_to_avoid": "stray", "what_to_avoid": "locking the knees"}}), {"movement_profile": {"what_to_avoid": "locking the knees"}})
+        self.assertEqual(door._tidy({"movement_profile": {"what_to_avoid": "locking the knees", " what_to_avoid": "stray"}}), {"movement_profile": {"what_to_avoid": "locking the knees"}})
+        self.assertEqual(door._tidy({"a": [{" b ": 1}], "c": "text"}), {"a": [{"b": 1}], "c": "text"})
 
     def test_an_unchanged_dance_is_not_written_again(self):
         self.assertEqual(door.run(self.root, DAY1)["counters"]["written"], 3)
