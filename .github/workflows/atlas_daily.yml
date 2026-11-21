@@ -60,9 +60,11 @@ jobs:
           # budgets are sized to the free tier: flash 20 requests a day per model (kept for the writer); flash-lite carries judges and video (on 16 Nov only the newest flash-lite model had a large day quota)
           # the movie phase (MOVIE_PHASE.md): tutorial videos studied per day (Gemini watches the public YouTube URL, free tier),
           # and episode packs whose narration the model may polish per day (0 = assembled text only; polished text is verified)
-          PEDAGOGY_BUDGET: "24"
+          # raised 21 Nov 2026 (24 to 40 lessons, 30 to 50 performances): the hero check had caught up, the free day had room
+          # (about 240 questions a night of the 400 and more it has carried), and 326 lessons and 501 performances were waiting
+          PEDAGOGY_BUDGET: "40"
           # performances observed per day: what a dance looks and sounds like in its own hero video (dances without a lesson on the web)
-          PERFORMANCE_BUDGET: "30"
+          PERFORMANCE_BUDGET: "50"
           # teaching research for the Best Dance Friend (BDF_TEACHING_SYSTEM.md): lessons watched a day for HOW the teacher teaches
           # (one free video call each, read together with the public comments; BASICS_SHARE of them teach what every dance shares),
           # free searches a day for such basics lessons (yt-dlp, no API search quota), research topics written a day from open sources,

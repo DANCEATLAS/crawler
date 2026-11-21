@@ -298,3 +298,30 @@ What followed (pull request 17):
 - **A spent quota is not a failed lesson:** when a question fails because no model could be asked, nothing is written against the lesson, the look or the research topic, and the stage stops asking (`gone()` in `run()`). Before this, a lesson would have waited two days, and after three such nights a month.
 - **Descriptions only:** the look is asked for the third person, and a moment written in the first person (the teacher's own words) is dropped on reading and on the page (`_described()`). Two of the 48 moments were such sentences.
 - 89 tests pass. No live run followed: the day's quota was spent; the night of 17 November is the first to run all of it.
+
+## 18 November 2026 — the second full night
+
+Commit `ed65369` ("pipeline: daily 2026-11-17"), 192 minutes against the 310-minute limit. 405 questions asked and none unanswered (23 % on the first night); 516 model calls. Research 70 asked (68 profiles researched), QC 83, hero check 163, video study 54 with 30 of 30 performances read (0 of 30 the night before), scripts 4, translations 6. The mentor research ran after the stages that grow the library and got its full share in 13 minutes: 10 lessons studied, 10 mentor looks, 3 topic notes, 1 paper kept and 1 thin.
+
+On the pages: 18 active-ready profiles (5 the day before), 391 published (359), 1,178 in the atlas. 22 lessons of 19 teachers studied, 20 of them with the mentor look; 92 moments (the opening 18, before a hard part 25, after a mistake 17, after a success 12, checking in 11, the close 9); 17 feelings met; beliefs of 8 teachers on who can dance; 1,319 learner comments read; 15 research topics and 6 papers with 67 checked findings; 10 practices with two or more kinds of evidence, 4 with all three.
+
+The free day held more than the 400 calls estimated on 17 November: the night alone made 516 calls, about 405 of them answered. Models with a small day quota were used up and retired (`day_quota_used_up` 10 across three stages) and the work went on with the others.
+
+One flaw seen: the talk search kept three fan videos whose titles carry the word "teacher". Prepared for the next upload: the title rule needs words about teaching or learning as an activity (`TALK_TITLE`), the talk's place each night goes only to such titles, and a video that the study finds not to be a lesson no longer counts for its channel's rank (`build_teachers()`). 89 tests pass.
+
+## 21 November 2026 — the database cleaned, five nights checked, video study raised
+
+**Five nights** (`pipeline_state/runs.json`): 16 November 79 of 372 questions unanswered (before the patient client); 17 November 0 of 405 in 192 minutes; 18 November 1 of 242 in 215 minutes; 19 November 1 of 239 in 154 minutes; 20 November 0 of 242 in 141 minutes. No stage reported an error. Active-ready 5, 18, 24, 28, 32; published 359, 391, 412, 442, 476; in the atlas 1,155, 1,178, 1,192, 1,215, 1,244. The mentor research got its share every night (10 lessons, 10 or 11 mentor looks, 3 topic notes, 1 or 2 papers) and stands at 51 lessons of 45 teachers, 236 moments, 48 feelings met, 23 practices with two or more kinds of evidence and 12 with all three. The hero check has caught up (15 targets on 20 November, 118 on 17 November), which is why a night now asks about 240 questions.
+
+**Video study raised** (`.github/workflows/atlas_daily.yml`): `PEDAGOGY_BUDGET` 24 to 40 and `PERFORMANCE_BUDGET` 30 to 50. 326 lessons and 501 performances were waiting (`pick_targets`, `pick_performances`), and the free day had carried 405 answered questions on 17 November. The health stage still lowers every budget when the models fail, and the mentor research still runs last.
+
+**The Supabase change log** (`public.audit_log`, owner's yes on 17 November with the condition that no issue may follow; done in the owner's browser, signed in with the account that owns the project):
+
+- Measured: 108,256 rows, 597 MB of a 627 MB database (free limit 500 MB). Every row came from the trigger `trg_audit_dances` on `dances`, which logs each UPDATE whether or not anything changed; until 16 November the push jobs rewrote every row every day.
+- Checked before anything was removed: `anon` and `authenticated` have no grant and no policy on the table (the website cannot read it); no view, materialised view, foreign key, trigger, publication or function other than the writer uses it; `pg_stat_statements` showed one API read ever; no code in this repository names it.
+- Rule: a row was removed only if it is an UPDATE whose old and new row are equal **and** whose state equals the state recorded by the row before it for the same dance. The second condition kept 1,068 rows from June that carry the first appearance of columns added to `dances` by schema changes (`needs_eyes_on`, `search_vector`, `ich_ref`, `tutorials`). For each quarter of the table a query then found no remaining row that breaks the rule.
+- Method: the rows to keep were copied to a private helper table (row security on, no API grants); one `DO` statement then locked the table, added every row written since, checked the counts, truncated and re-inserted. One statement, so all or nothing, and no long delete on a small instance. The helper was dropped afterwards.
+- Result: 104,162 rows removed, 4,094 kept (1,309 inserts, 2,778 updates, 7 deletes), ids and the sequence unchanged, trigger enabled, 1,302 dances untouched. Table 17.6 MB, **database 38 MB**. Not reversible: the free plan keeps no backups.
+- The dashboard's "exceeding usage limits" badge follows Supabase's own usage measure and updates later.
+
+**Uploaded with this entry:** the tighter talk search prepared on 18 November (`TALK_TITLE`, the talk's place, `build_teachers()`). 89 tests pass.

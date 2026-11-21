@@ -41,7 +41,10 @@ RETRY_DAYS, SCIENCE_REFRESH_DAYS = 30, 180
 BASICS = "basics-"   # slug prefix of the lessons that teach what every dance shares
 TALKS = "how-teachers-teach"   # the basics topic that holds talks, not lessons
 # A search for talks also returns ordinary step lessons: a talk is kept only when its title speaks of teaching or learning.
-TALK_TITLE = re.compile(r"teach|\blearning\b|how to learn|mistake|\btips\b|advice|\bwhy\b|philosoph|interview|mindset|confiden|motivat|practi[cs]|improv|struggl|secret", re.I)
+# The word "teacher" alone is not enough: fan videos about a star who is "a dance teacher" carry it too.
+TALK_TITLE = re.compile(r"how (?:i|to|we|do you) teach|teaching (?:danc|beginner|adult|kid|child|tip|method|philosoph|people|someone|student)"
+                        r"|(?:tips|advice|lessons?) for (?:dance )?teachers|what makes a (?:great|good) (?:dance )?teacher"
+                        r"|\blearning\b|how to learn|mistake|\btips\b|advice|\bwhy\b|philosoph|pedagog|mindset|confiden|motivat|practi[cs]|improv|struggl|secret", re.I)
 
 # One vocabulary for all three kinds of evidence (teachers, learners, research): the join is on these keys.
 # key: (what it is, what a teacher does about it)
@@ -407,8 +410,8 @@ def build_teachers(lessons, studied=None, methods=None):
     for slug, v in sorted((lessons or {}).items()):
         for l in (v or {}).get("lessons") or []:
             ch, yid = str(l.get("channel") or "").strip(), l.get("youtube_id")
-            if not ch or not yid or (studied.get(yid) or {}).get("status") == "not_a_lesson":
-                continue
+            if not ch or not yid or "not_a_lesson" in ((studied.get(yid) or {}).get("status"), (methods.get(yid) or {}).get("status")):
+                continue   # a video that either study found not to be a lesson does not count for its channel
             t = by.setdefault(channel_key(ch), {"key": channel_key(ch), "teacher": ch, "lessons": [], "dances": set(), "praise": 0, "complaints": 0})
             pos, neg = int(l.get("pos") or 0), int(l.get("neg") or 0)
             t["lessons"].append({"youtube_id": yid, "slug": slug, "title": str(l.get("title") or "")[:140], "pos": pos, "neg": neg})
@@ -458,7 +461,7 @@ def pick_methods(teachers, methods, budget, per_teacher=3, today=None, want=None
 
 def tonight(teachers, methods, n, per=3, basics_share=3, talk_share=1, today=None):
     """Tonight's lessons: first a teacher explaining how they teach, when one is waiting (the mentor's own words), then the basics, then the dances."""
-    talk = pick_methods(teachers, methods, min(n, talk_share), per, today=today, want=lambda l: l["slug"] == BASICS + TALKS)
+    talk = pick_methods(teachers, methods, min(n, talk_share), per, today=today, want=lambda l: l["slug"] == BASICS + TALKS and bool(TALK_TITLE.search(l["title"])))
     basics = talk + pick_methods(teachers, methods, max(0, min(n, basics_share) - len(talk)), per, today=today,
                                  want=lambda l: l["slug"].startswith(BASICS), skip={l["youtube_id"] for _, l in talk})
     rest = pick_methods(teachers, methods, n - len(basics), per, today=today, skip={l["youtube_id"] for _, l in basics})
