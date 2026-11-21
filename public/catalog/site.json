@@ -106,11 +106,292 @@
         "changed": "Last changed"
       },
       "unavailable": "The details of this dance could not be loaded just now."
+    },
+    "starting_line": {
+      "eyebrow": "MISSION 1",
+      "title": "The starting line",
+      "lead": "Dance Atlas is preparing every dance so that, when the technology is ready, all of them can be switched on at once. A dance stands at the starting line when a machine has gathered everything a teaching service needs for it and checked it against its sources.",
+      "counted": "Counted",
+      "unavailable": "The numbers could not be loaded just now. Please try again in a moment.",
+      "ready": {
+        "label": "dances ready to activate",
+        "pace": "a night, measured over the last",
+        "days": "days"
+      },
+      "ladder": {
+        "title": "From a name to the starting line",
+        "listed": "Listed",
+        "listed_note": "a real dance, named and placed",
+        "researched": "Researched",
+        "researched_note": "its sources read and its story written",
+        "published": "Published",
+        "published_note": "passed every quality gate and an independent judge",
+        "three_to_five_short": "Three to five items short",
+        "two_short": "Two items short",
+        "one_short": "One item short",
+        "active_ready": "Ready to activate",
+        "active_ready_note": "everything a teaching service needs, gathered and source-checked",
+        "story_only": "Story only",
+        "story_only_note": "sacred or restricted: the story is told, the dance is not taught"
+      },
+      "ready_list": {
+        "title": "Ready to activate"
+      },
+      "closest": {
+        "title": "Closest to the line",
+        "needs": "still needs",
+        "all": "Show all"
+      },
+      "blockers": {
+        "title": "What holds the others back",
+        "lead": "How many published dances are waiting for each item.",
+        "dances": "dances"
+      },
+      "growth": {
+        "title": "Growth",
+        "active_ready": "Ready to activate",
+        "published": "Published",
+        "lessons_studied": "Lessons studied"
+      },
+      "honesty": "Ready means machine-complete and source-checked. No dance here has been reviewed by a person, cleared for rights or tested on a platform; activation still needs all three.",
+      "home": {
+        "ready": "dances ready to activate",
+        "link": "The starting line"
+      }
+    },
+    "vision": {
+      "eyebrow": "WHERE THIS IS GOING",
+      "title": "What Dance Atlas is preparing",
+      "lead": "Dance Atlas is the library being prepared for BDF, the Best Dance Friend: a mentor you talk with and move with, who draws on everything known about a dance and on everything known about how to teach it. BDF is not built yet. What you see on this site is the knowledge it will stand on.",
+      "words": {
+        "title": "In the founder's words",
+        "one": "We need to be cutting edge with our knowledge of the dance and the education of it, and be ready for the breakthrough in the technology, and then just overnight activate all the profiles.",
+        "two": "Once we teach people to teach in the best way, they become better people, because they can teach. Not only dance: through learning movement we can instil the foundations of mentoring, and they take that with them into life.",
+        "two_note": "translated from Hebrew"
+      },
+      "now": {
+        "title": "Now",
+        "body": "Gather the knowledge. Every night, at no cost, a machine researches the world's dances, studies lessons and performances, and reads how the best teachers teach.",
+        "mission1": "Mission 1: thousands of dances at the starting line, ready to be switched on.",
+        "mission1_link": "The starting line",
+        "mission2": "Mission 2: the mentor's DNA, an endless study of how to teach anyone to dance.",
+        "mission2_link": "The mentor"
+      },
+      "next": {
+        "title": "Next",
+        "body": "A beta for people who live dance culture and music: to look, to check and to correct, together with the founder."
+      },
+      "later": {
+        "title": "Later",
+        "body": "BDF itself: a full conversation, in virtual and augmented reality. Seeing the other friends who are learning the same dance, lessons taken together, practising together, a community built on dance."
+      },
+      "mentor": {
+        "title": "Why a mentor",
+        "body": "The mentor has to come out of the most serious research into how to teach: how to create ease and openness, and an experience that inspires, because it joins learning with movement, with knowledge and with other people. The research does not end, and what it finds becomes knowledge the mentor uses."
+      },
+      "not_here": {
+        "title": "What you will not find here",
+        "body": "No course, no price, no sign-in. Nothing is for sale and nothing asks for your details. There are no click-through lessons either: that is not how people will enjoy learning to dance."
+      },
+      "sacred": {
+        "title": "Sacred and restricted dances",
+        "body": "Their story is told with care. They are not taught."
+      },
+      "agents": {
+        "title": "Open to any AI",
+        "body": "The whole library is a set of open files that any agent can read through one documented door: where to start, the rules, an index, and one complete file for every dance.",
+        "link": "The door: manifest.json",
+        "health": "The health of every file"
+      },
+      "honesty": "Everything here was gathered and written by a machine from public sources and checked against them. It has not been reviewed by a person.",
+      "home": {
+        "link": "Where this is going"
+      }
+    },
+    "machine": {
+      "title": "חדר המכונות",
+      "lead": "מה המכונה עשתה הלילה, כמה מהר הספרייה גדלה, ומה צריך ממך.",
+      "updated": "עודכן",
+      "of": "מתוך",
+      "unavailable": "לא הצלחתי לטעון את הנתונים כרגע. נסה שוב בעוד רגע.",
+      "owner": {
+        "title": "מה צריך ממך",
+        "none": "לא צריך ממך כלום. המכונה רצה כל לילה, בלי עלות.",
+        "needed": "צריך אותך:",
+        "checked": "נבדק"
+      },
+      "night": {
+        "title": "הלילה האחרון",
+        "ok": "הלילה עבד",
+        "errors": "היו שגיאות בלילה",
+        "minutes": "דקות",
+        "questions": "שאלות למודל",
+        "unanswered": "בלי תשובה",
+        "stages": "שלבים",
+        "notes": "הערות מהלילה"
+      },
+      "library": {
+        "title": "הספרייה",
+        "active_ready": "מוכנים להפעלה",
+        "one_short": "חסר להם פריט אחד",
+        "two_short": "חסרים להם שני פריטים",
+        "published": "פורסמו",
+        "researched": "נחקרו",
+        "listed": "ברשימה",
+        "lessons_studied": "שיעורים שנלמדו",
+        "performances_observed": "הופעות שנצפו",
+        "story_only": "סיפור בלבד, לא מלמדים"
+      },
+      "pace": {
+        "title": "הקצב",
+        "lead": "בממוצע בכל לילה",
+        "days": "ימים נמדדו",
+        "active_ready": "מוכנים להפעלה",
+        "published": "פורסמו",
+        "listed": "נוספו לרשימה"
+      },
+      "study": {
+        "title": "המחקר של המנטור",
+        "lead": "איך ללמד כל אדם לרקוד: המכונה קוראת מחקרים, לומדת שיעורים ומקשיבה ללומדים.",
+        "topics": "נושאי מחקר נקראו",
+        "first": "מהנושאים שביקשת ב-21 בנובמבר נקראו",
+        "next": "בתור ללילה הבא",
+        "papers": "מאמרים נקראו",
+        "lessons": "שיעורים נצפו כדי ללמוד איך מלמדים",
+        "teachers": "מורים שהמכונה למדה מהם",
+        "findings": "ממצאים נבדקו מול המקור",
+        "dna": "דרכי הוראה נכנסו ל-DNA של המנטור",
+        "link": "לדף המנטור"
+      },
+      "blockers": {
+        "title": "מה מעכב את הדפים",
+        "lead": "כמה דפים מחכים לכל פריט"
+      },
+      "closest": {
+        "title": "הקרובים ביותר לקו הזינוק",
+        "needs": "חסר",
+        "all": "הצג הכול"
+      },
+      "nights": {
+        "title": "הלילות האחרונים",
+        "date": "תאריך",
+        "minutes": "דקות",
+        "questions": "שאלות",
+        "unanswered": "בלי תשובה",
+        "errors": "שגיאות"
+      },
+      "links": {
+        "health": "בריאות הקבצים",
+        "starting_line": "קו הזינוק",
+        "mentor": "המנטור"
+      },
+      "note": "הדף נבנה מקובץ אחד שהמכונה כותבת כל לילה. שום דבר כאן לא עולה כסף."
     }
   },
   "tags": {
     "clicked": "What clicked",
     "struggles": "What is hard",
     "requests": "What learners ask for"
+  },
+  "he": {
+    "items": {
+      "published": "עבר את כל בדיקות האיכות ואת השופט העצמאי",
+      "story": "מקורות, משמעות ואירועים, לבוש ומקום, כתוב מתוך מקורות",
+      "status": "ידוע אם הריקוד חי, חודש או היסטורי",
+      "footwork_counts": "הצעדים עם הספירות שלהם",
+      "posture": "יציבה",
+      "arms": "ידיים וזרועות",
+      "formation": "מבנה ושימוש במרחב",
+      "signature_moves": "שתי תנועות מזוהות או יותר",
+      "rhythm": "קצב, משקל או הספירה של המורה",
+      "sound": "הכלים ואיך המוזיקה נשמעת",
+      "lesson_plan": "צעדי בסיס לפי הסדר, או סולם שיעורים",
+      "mistakes": "ממה להימנע: טעויות נפוצות או בטיחות",
+      "hero_video": "סרטון ראשי שעבר את בדיקת הראייה",
+      "study_video": "שיעור או הופעה שהמכונה למדה, עם זמנים",
+      "picture": "תמונה או צילום ברישיון"
+    },
+    "topics": {
+      "external_focus": "מיקוד חיצוני",
+      "expectancies_and_autonomy": "ציפייה להצלחה וחופש בחירה",
+      "autonomy_support": "תמיכה בעצמאות של הלומד",
+      "self_efficacy": "האמונה ביכולת שלי",
+      "early_success": "הצלחה מוקדמת",
+      "enjoyment_and_staying_with_it": "הנאה והתמדה",
+      "basic_needs": "צרכים פסיכולוגיים בסיסיים",
+      "habit_formation": "יצירת הרגל",
+      "music_and_reward": "מוזיקה ותגמול",
+      "observational_learning": "למידה מצפייה",
+      "action_observation_in_dance": "צפייה בתנועה בריקוד",
+      "chunking": "חלוקה ליחידות קטנות",
+      "part_and_whole_practice": "תרגול בחלקים ותרגול של השלם",
+      "spacing": "תרגול מפוזר בזמן",
+      "varied_practice": "תרגול מגוון",
+      "challenge_point": "רמת האתגר הנכונה",
+      "adaptive_difficulty": "קושי שמתאים את עצמו",
+      "individual_differences": "הבדלים בין לומדים",
+      "errorless_learning": "למידה בלי טעויות",
+      "feedback": "משוב",
+      "self_controlled_practice": "תרגול בשליטת הלומד",
+      "video_feedback": "משוב בווידאו",
+      "motor_imagery": "דמיון של תנועה",
+      "analogy_learning": "למידה דרך דימויים",
+      "rhythm_entrainment": "הסתנכרנות עם הקצב",
+      "groove": "גרוב",
+      "universals_of_music_and_dance": "מה משותף לכל מוזיקה וריקוד",
+      "infants_move_to_rhythm": "תינוקות זזים לקצב",
+      "speed_and_accuracy": "מהירות מול דיוק",
+      "cognitive_load": "עומס קוגניטיבי",
+      "words_and_pictures": "מילים ותמונות",
+      "mirrors_in_dance": "מראות בריקוד",
+      "online_dance_learning": "לימוד ריקוד מרחוק",
+      "dance_pedagogy": "פדגוגיה של ריקוד",
+      "beginners": "מתחילים",
+      "scaffolding": "פיגומים ללמידה",
+      "zone_of_proximal_development": "אזור ההתפתחות הקרובה",
+      "mastery_learning": "למידה עד שליטה",
+      "growth_mindset": "דפוס חשיבה מתפתח",
+      "flow": "זרימה",
+      "play": "משחק",
+      "overlearning": "תרגול מעבר לשליטה",
+      "retrieval_practice": "תרגול שליפה מהזיכרון",
+      "moving_together": "לזוז ביחד",
+      "older_learners": "לומדים בגיל השלישי",
+      "children": "ילדים",
+      "dance_across_life": "ריקוד לאורך החיים",
+      "embodied_cognition": "חשיבה דרך הגוף",
+      "gamification": "משחוק",
+      "coach_and_learner_relationship": "הקשר בין מאמן ללומד",
+      "working_alliance": "ברית עבודה בין מורה ללומד",
+      "teacher_enthusiasm": "התלהבות של המורה",
+      "need_supportive_teaching": "הוראה שתומכת בצרכים של הלומד",
+      "teacher_expectations": "הציפיות של המורה",
+      "self_compassion": "חמלה עצמית",
+      "embarrassment_and_body_image": "מבוכה ודימוי גוף",
+      "anxiety_and_confidence": "חרדה וביטחון",
+      "emotion_and_learning": "רגש ולמידה",
+      "identity_and_staying": "זהות והתמדה",
+      "human_tutoring": "הוראה פרטית, אחד על אחד",
+      "adaptive_tutors": "מורים ממוחשבים שמתאימים את עצמם",
+      "virtual_coaches": "מאמנים וירטואליים",
+      "mentoring": "מנטורינג",
+      "deliberate_practice": "תרגול מכוון",
+      "adult_learners": "למידה של מבוגרים",
+      "dance_for_everyone": "ריקוד לכל אחד",
+      "psychological_safety": "ביטחון פסיכולוגי",
+      "learning_climate": "אקלים למידה",
+      "mindful_movement": "תנועה קשובה",
+      "awe_and_transcendence": "השתאות והתעלות",
+      "spirituality_and_dance": "רוחניות וריקוד",
+      "ritual_and_belonging": "טקס ושייכות",
+      "meaning_and_staying": "משמעות והתמדה",
+      "embodied_learning": "למידה דרך הגוף",
+      "learning_by_teaching": "ללמוד דרך ללמד",
+      "peer_teaching": "הוראת עמיתים",
+      "peer_tutoring_of_movement": "לומדים מלמדים זה את זה תנועה",
+      "peer_mentoring": "מנטורינג בין עמיתים",
+      "life_skills_that_transfer": "כישורי חיים שעוברים מהשיעור אל החיים",
+      "how_teachers_learn_to_teach": "איך מורים לומדים ללמד"
+    }
   }
 }

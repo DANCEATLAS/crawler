@@ -207,8 +207,38 @@ class Door(unittest.TestCase):
         self.assertEqual([x["date"] for x in m["nights"]], ["2026-11-19", "2026-11-20"])
         self.assertEqual(m["pace"], {"days": 4, "per_night": {"listed": 10.0, "published": 5.0, "active_ready": 2.0}})
         self.assertEqual(m["blockers"], [{"key": "mistakes", "label": "what to avoid: common mistakes or safety", "profiles": 1}])
-        self.assertEqual(m["closest"], [{"slug": "salsa", "name": "Salsa", "needs": ["what to avoid: common mistakes or safety"]}])
+        self.assertEqual(m["closest"], [{"slug": "salsa", "name": "Salsa", "needs": ["what to avoid: common mistakes or safety"], "need_keys": ["mistakes"]}])
         self.assertEqual(m["owner"]["text"], "Nothing needs you.")
+
+    def test_the_machine_page_says_how_far_the_mentors_study_has_come(self):
+        from . import teaching
+        first, plain = teaching.FIRST_TOPICS[0], teaching.SCIENCE[0][0]
+        for key, status in ((first, "ok"), (plain, "ok"), (teaching.FIRST_TOPICS[1], "failed"), ("paper-med-1", "ok"), ("paper-med-2", "thin")):
+            path = os.path.join(self.root, "pedagogy", "science", key + ".json")
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump({"key": key, "status": status, "written_at": "2026-11-21T20:00:00Z"}, f)
+        with open(os.path.join(self.root, "public", "catalog", "bdf_teaching_system.json"), "w", encoding="utf-8") as f:
+            json.dump({"contract": "da_bdf_teaching_v1", "counts": {"lessons_studied_for_method": 51, "teachers_studied": 45, "practices_total": 37, "practices_with_two_or_more_kinds": 23}}, f)
+        door.run(self.root, DAY2)
+        s = read(self.root, "machine.json")["study"]
+        self.assertEqual((s["topics"], s["topics_read"], s["first"], s["papers_read"]), (len(teaching.SCIENCE), 2, {"topics": len(teaching.FIRST_TOPICS), "read": 1}, 1))
+        # what is read next: the owner's unread topics, in their order; a topic that failed today waits its month
+        self.assertEqual(s["next"], list(teaching.FIRST_TOPICS[2:5]))
+        self.assertEqual((s["lessons_studied"], s["practices"], s["practices_in_dna"]), (51, 37, 23))
+        self.assertEqual(door.study(self.root, DAY2, budget=0)["next"] if "next" in door.study(self.root, DAY2, budget=0) else [], [])
+
+    def test_the_words_file_names_every_readiness_item_and_research_topic_in_hebrew(self):
+        from . import readiness, teaching
+        path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public", "catalog", "site.json")
+        if not os.path.exists(path):
+            self.skipTest("the words file is not in this copy")
+        with open(path, encoding="utf-8") as f:
+            site = json.load(f)
+        self.assertEqual(site["contract"], "da_site_v1")
+        he = site.get("he") or {}
+        self.assertEqual(sorted(set(k for k, _ in readiness.ITEMS) - set(he.get("items") or {})), [])        # the owner reads Hebrew: add the name with the item
+        self.assertEqual(sorted(set(item[0] for item in teaching.SCIENCE) - set(he.get("topics") or {})), [])
 
     def test_the_manifest_names_only_files_that_exist(self):
         door.run(self.root, DAY1)

@@ -72,8 +72,11 @@ jobs:
           TEACHING_BUDGET: "10"
           BASICS_SHARE: "3"
           FOUNDATION_SEARCHES: "3"
-          SCIENCE_BUDGET: "3"
-          PAPER_BUDGET: "2"
+          # raised 21 Nov 2026 (3 to 6 topics, 2 to 4 papers): 53 of the 80 research topics were still unread, among them the owner's
+          # topics of that day (ease and openness, an experience that inspires, learners who learn to teach), which are read first.
+          # Five more short text questions a night; the stage used 8 to 12 of its 40 minutes
+          SCIENCE_BUDGET: "6"
+          PAPER_BUDGET: "4"
           TEACHING_MAX_MINUTES: "40"
           # time guards: a slow model day must not eat the run (the judge, the build and the report still have to happen)
           RESEARCH_MAX_MINUTES: "180"

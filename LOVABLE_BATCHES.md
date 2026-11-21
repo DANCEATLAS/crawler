@@ -59,10 +59,10 @@ Also measured: the whole catalogue (5.2 MB, growing 0.16 MB a night) is loaded f
 | 3 | **The mentor** (`/mentor`) | The teaching DNA with its evidence, what a teacher does when a learner struggles, the six moments, beliefs, feelings, what BDF keeps in mind about a person, the teachers and the research | "cutting edge … the education of it"; mission 2 | `bdf_teaching_system.json` (live) | 6 |
 | 4 | **The whole profile** | On the dance page: story in eight parts, music, movement, what the machine has gathered for teaching (steps with counts, cues, common mistakes, each with the lesson it came from), connections, footage, pictures, "N of M claims checked", and the meter "15 of 15: ready to activate" or what is missing. Shown as knowledge, not as a class | "drawing from all the database"; V12, V13 | `d/<slug>.json` | 9 |
 | 5 | **The starting line** (`/starting-line`, and on Home) | How many profiles are ready to be activated, the ladder from listed to ready, the closest ones with what each needs, what holds pages back, growth over time | "overnight activate all the profiles"; mission 1 | `active_ready.json` (live), `machine.json` (to make) | 6 |
-| 6 | **The machine room** (`/machine`), in Hebrew | For the owner, large type: did last night work, how fast it grows, what needs him | V16, V17; he reads Hebrew faster | `machine.json`, `site.json` | 5 |
-| 7 | **The direction, in the owner's words** (`/vision`, and on Home) | What Dance Atlas prepares: BDF as an agent in conversation and virtual reality; now, next, later; the two missions with live numbers; why there is no course and no price | owner, 21 November; gate 10 | `site.json` | 5 |
+| 6 | **The machine room** (`/machine`), in Hebrew | For the owner, large type, right to left: did last night work, how fast it grows, how far the mentor's study has come (topics read, what is read next, his topics of 21 November), what needs him | V16, V17; he reads Hebrew faster; "endless research … embedded" | `machine.json` (with `study`), `site.json` (`pages.machine`, `he.items`, `he.topics`) | 5 |
+| 7 | **The direction, in the owner's words** (`/vision`, and on Home) | What Dance Atlas prepares: BDF as an agent in conversation and virtual reality; now, next (a beta for people of dance culture and music), later; why a mentor; the two missions; why there is no course and no price; the door for any AI (the link to the manifest and to `/health`) | owner, 21 November, morning and afternoon; gate 10 | `site.json` (`pages.vision`) | 5 |
 | 8 | **Truth repairs** | Viral: read from GitHub like everything else (no database at run time), the order named for what it is, no rank that looks like popularity, credits by role. Atlas: a dance listed under every country it belongs to; a dance without a family shown as such; unknown shown as unknown | V02, V08, V09 | `index.json`; `viral.json` (to make) | 7 |
-| 9 | **The door for a future agent** (`/library`) | A plain page: how any AI reads the whole library (the manifest, the contracts, the rules, the size, the safety copy), and on each dance page a link to the file an agent receives | "be ready for the breakthrough" | `manifest.json` | 4 |
+| 9 | ~~The door for a future agent (`/library`)~~ | Folded into batches 4 and 7 on 21 November: each dance page links to the file an agent receives, and the direction page links to the manifest and to `/health`. The manifest itself is the page an agent reads. Its credits go to the reserve | "be ready for the breakthrough" | `manifest.json` | 0 |
 | 10 | **Speed and access** | A smaller first load (pages on demand; the old bundled catalogue goes once the browser keeps its own copy), lazy pictures, keyboard and screen-reader use, reduced motion, text size | robust; V03, gate 4 | none | 7 |
 | | Fixes found in the checks | | | | 9 |
 | | **Planned** | | | | **75** |
@@ -77,6 +77,8 @@ Also measured: the whole catalogue (5.2 MB, growing 0.16 MB a night) is loaded f
 Left out on purpose, because they belong to the click-to-learn app the owner ruled out: a practice player, a printable lesson sheet, a guided "find a dance" chooser, a camera mirror, two dances side by side, the shell translated into other languages.
 
 Batches are sent in the order their data is ready: 1 and 3 need nothing new; 2 and 4 wait for the machine-side files of section 7.
+
+Changed on the afternoon of 21 November, on the owner's words of that afternoon (`PRODUCT_VISION.md`, points 8 and 9): the site is where he looks at the material comfortably and, later, a possible beta; what he cares about most is the mentor's research. So the machine room (6) also shows how far that research has come, in Hebrew; the direction page (7) carries why a mentor and the beta as the next stage; the separate door page (9) is folded into 4 and 7.
 
 The reserve is longer than the budget on purpose: estimates can be wrong in both directions, and the free 5 credits of each working day are spent before the expiring ones.
 
@@ -123,6 +125,7 @@ All of it is GitHub work, tested, merged by pull request, no model calls, no cos
 | 21 Nov | 1 Payment and accounts erased | 7.90 | 88.0 | In the preview: the old addresses (`/membership`, `/c/…`, `/auth/callback`, `/terms`) redirect; the Saved page and the privacy text come from `site.json`; a heart saves at once with no prompt; Viral 154; Atlas 1,244; no payment or sign-in wording left in the interface code | yes |
 | 21 Nov | 3 The mentor page (`/mentor`, "BDF" in the navigation) | 7.30 | 80.7 | In the preview against the data file: 23 of 23 rules, 8 cards, 6 moments, the six numbers equal, 87 outside links all open in a new tab, nothing stored in the browser, the proof panels open | yes |
 | 21 Nov | 2 Loading that cannot break | 15.7 | 65.0 | In the preview: only `index.json` is loaded at start (0.6 MB in place of 5.2 MB), a dance page fetches its own file and the next one, the two large session-store entries are gone, the browser database `da_library_v1` holds the last good copy, a retired address redirects, `/health` reads "Health: OK" for six files, Atlas 1,244, Viral 154, saved hearts kept, a dance page identical to the live one before | yes |
+| 21 Nov | 4 The whole profile on the dance page | 7.30 | 57.7 | In the preview against the dance files: `/style/hustle` (chips "Ready to activate" and "Living"; the story in eight parts; music with three album links; movement; six basic steps; two lesson panels and one performance panel, closed, 11 links to the moment in the video; "15 of 15"; adaptations closed; five connections, four of them linked; three footage links, no embed; three lesson links in place of "Tutorials coming soon"; "8 of 8 claims checked"; the link to the dance's own file; all 16 outside links open in a new tab), `/style/ahwash` (story only: no movement, teaching, adaptations or lesson links; the reason; "6 of 6" under "How complete is the story?"), `/style/salsa` (listed: one lesson panel, lesson links, no chip), `/style/country-swing-dance` ("In the making · 13 of 15", two items missing). Old pages: home 1,244, atlas, viral 154, `/style/rumba` to `/style/cuban-rumba`, `/health` OK, `/mentor`. **Two repairs found**, sent with batch 5: the browser database keeps trimmed copies of files, so a dance opened before this batch showed no profile until its copy was removed; and signature moments of a performance are objects, which my message described as texts, so their label shows without values | yes |
 
 ### How a message is sent (learned on 21 November)
 
@@ -305,4 +308,132 @@ Read-only. Panels are real buttons with aria-expanded, closed panels render lazi
 
 WHEN DONE
 In the preview open /style/hustle (ready to activate, with a studied lesson), /style/ahwash (story only) and /style/salsa (listed, with a lesson). Report for each which of the sections A to M are shown, and any console error.
+```
+
+## Batch 5 — the message
+
+Send after batch 4 is published. Needs `pages.starting_line` in `site.json` on main (machine.json is live). It opens with two repairs found in the check of batch 4.
+
+```
+BATCH 5 — THE STARTING LINE (new route /starting-line, and one strip on Home). Read the Project instructions first. Build exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHAT IT IS
+A read-only page that shows how many dances are ready to be activated, how the rest climb towards that, and how fast the library grows. It is a status page, not a feature. All words go through t(path, fallback) with the fallbacks written here. No backend, no Lovable Cloud, no AI calls, no analytics, no new npm dependency (the two small charts are plain inline SVG). Change no existing page except the two repairs and the one strip on Home described below.
+
+TWO REPAIRS FIRST (found when batch 4 was checked)
+R1. The browser database keeps trimmed copies of the files: a dance file stored before batch 4 holds only its card, so that dance shows no profile until its fingerprint changes, and the stored index has no "states". From now on every file is stored whole, exactly as it was fetched, and read whole. Use a new database name, da_library_v2, with the same rules as before (a stored dance file is reused only when its fingerprint equals index.dances[slug].fp; the index is refreshed in the background), and delete da_library_v1 once at app start. /health reports the new database.
+R2. On the dance page, in a performance panel, observation.signature_moments is a list of objects {start_s, end_s, what}, not of texts. Show each as a line "<m:ss> — <what>" that links to the performance's url with "&t=<start_s>s" added (new tab), and show the label only when the list has entries.
+
+DATA
+1. The index already in memory (index.json): count, states {active_ready, building, …}, dances{slug: {name, flag_emoji, state, …}}.
+2. One new request when /starting-line opens: https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/machine.json — contract "da_machine_v1", about 12 KB, rebuilt every night. 10-second timeout, one retry, kept in memory for the session, never in sessionStorage or localStorage. If it fails or "contract" differs: show the header, sections D and (from the index) the big number, and one calm line t("pages.starting_line.unavailable","The numbers could not be loaded just now. Please try again in a moment."). Never an error screen.
+Fields used from machine.json: generated_at; counts {listed, researched, published, three_to_five_short, two_short, one_short, active_ready, story_ready_teaching_withheld}; pace {days, per_night {active_ready}}; line[] {date, published, active_ready, lessons_studied}; blockers[] {key, label, profiles}; closest[] {slug, name, needs[]}. Any of them may be missing: then its block is not rendered.
+
+THE PAGE, top to bottom (mobile first; the existing fonts, colours and spacing; accent #CC785C)
+A. Header. Eyebrow t("pages.starting_line.eyebrow","MISSION 1"). H1 t("pages.starting_line.title","The starting line"). Lead t("pages.starting_line.lead","Dance Atlas is preparing every dance so that, when the technology is ready, all of them can be switched on at once. A dance stands at the starting line when a machine has gathered everything a teaching service needs for it and checked it against its sources."). A muted line: t("pages.starting_line.counted","Counted") + " <date of generated_at>".
+B. One very large number: counts.active_ready (from the index's states.active_ready when machine.json is missing), with the label t("pages.starting_line.ready.label","dances ready to activate"). Under it, when pace.per_night.active_ready is a number: "+<pace.per_night.active_ready> " + t("pages.starting_line.ready.pace","a night, measured over the last") + " <pace.days> " + t("pages.starting_line.ready.days","days").
+C. t("pages.starting_line.ladder.title","From a name to the starting line"): seven steps in this order, each a row with its number from counts, a bar whose length is the number relative to counts.listed, and a short note where one is given:
+   listed — t("pages.starting_line.ladder.listed","Listed") — t("pages.starting_line.ladder.listed_note","a real dance, named and placed")
+   researched — t("pages.starting_line.ladder.researched","Researched") — t("pages.starting_line.ladder.researched_note","its sources read and its story written")
+   published — t("pages.starting_line.ladder.published","Published") — t("pages.starting_line.ladder.published_note","passed every quality gate and an independent judge")
+   three_to_five_short — t("pages.starting_line.ladder.three_to_five_short","Three to five items short")
+   two_short — t("pages.starting_line.ladder.two_short","Two items short")
+   one_short — t("pages.starting_line.ladder.one_short","One item short")
+   active_ready — t("pages.starting_line.ladder.active_ready","Ready to activate") — t("pages.starting_line.ladder.active_ready_note","everything a teaching service needs, gathered and source-checked") (this row in the accent colour)
+   Then, set apart and muted: counts.story_ready_teaching_withheld — t("pages.starting_line.ladder.story_only","Story only") — t("pages.starting_line.ladder.story_only_note","sacred or restricted: the story is told, the dance is not taught").
+D. t("pages.starting_line.ready_list.title","Ready to activate"): every dance of the index whose state is "active_ready", sorted by name, shown with the dance card the Atlas already uses, linking to /style/<slug>.
+E. t("pages.starting_line.closest.title","Closest to the line"): the first 12 of closest[], each a row: the name (link to /style/<slug>), then t("pages.starting_line.closest.needs","still needs") and its needs as chips. A button t("pages.starting_line.closest.all","Show all") reveals the rest.
+F. t("pages.starting_line.blockers.title","What holds the others back") with the lead t("pages.starting_line.blockers.lead","How many published dances are waiting for each item."): blockers[] as horizontal bars, longest first: label, bar relative to the largest, "<profiles> " + t("pages.starting_line.blockers.dances","dances").
+G. t("pages.starting_line.growth.title","Growth"): three small inline-SVG line charts side by side (stacked on a phone), each on its own scale, from line[]: active_ready — t("pages.starting_line.growth.active_ready","Ready to activate"); published — t("pages.starting_line.growth.published","Published"); lessons_studied — t("pages.starting_line.growth.lessons_studied","Lessons studied"). Each chart shows its first and its last value as text and the first and last date under the axis, and has an aria-label that says the same. With fewer than two points a chart is not rendered.
+H. Always visible at the end: t("pages.starting_line.honesty","Ready means machine-complete and source-checked. No dance here has been reviewed by a person, cleared for rights or tested on a platform; activation still needs all three.").
+Page title "The starting line — Dancing Atlas".
+
+HOME
+Directly under the Home hero, one slim strip that is a single link to /starting-line: "<states.active_ready from the index> " + t("pages.starting_line.home.ready","dances ready to activate") + " · " + t("pages.starting_line.home.link","The starting line") + " →". It uses the index only: no new request on Home. When states.active_ready is missing the strip is not rendered.
+
+RULES
+Read-only. No number is typed into the code: every number comes from the files. Nothing is rendered for an empty value. Buttons are real buttons, usable with the keyboard. Numbers of four digits and more are shown with a thousands separator.
+
+WHEN DONE
+Open /starting-line in the preview and report: the big number, the seven numbers of the ladder, the number of cards under "Ready to activate", the number of bars under "What holds the others back", whether the three charts render, and any console error. Then open Home and report the strip's text. For the repairs: the name of the browser database after a reload and the keys of one stored dance file, and the signature moments shown in the performance panel of /style/hustle.
+```
+
+
+## Batch 6 — the message
+
+Send after batch 5 is published (it shares the loader of `machine.json` and the small chart). Needs `pages.machine`, `he.items` and `he.topics` in `site.json` on main, and `study` and `need_keys` in `machine.json` (the stage `door` after the change of 21 November).
+
+```
+BATCH 6 — THE MACHINE ROOM (new route /machine, in Hebrew, for the owner). Read the Project instructions first. Build exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHAT IT IS
+One read-only page in Hebrew, right to left, in large type, where the owner sees at a glance whether last night's run worked, how fast the library grows, how far the mentor's study has come and whether anything needs him. Every Hebrew word comes from site.json through t(path, fallback); the fallbacks below are the same Hebrew. No backend, no Lovable Cloud, no AI calls, no analytics, no new npm dependency, no new font file. Change no existing page except the two links named at the end.
+
+DATA
+One request when /machine opens: https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/machine.json (contract "da_machine_v1", about 12 KB; the same file /starting-line reads: share its loader). 10-second timeout, one retry, memory only. If it fails or "contract" differs: the header and one calm line t("pages.machine.unavailable","לא הצלחתי לטעון את הנתונים כרגע. נסה שוב בעוד רגע.").
+Fields: generated_at; owner {status, text, verified_at}; last_night {date, minutes, questions, unanswered, stages, errors[], trouble[]}; counts {active_ready, one_short, two_short, published, researched, listed, lessons_studied, performances_observed, story_ready_teaching_withheld}; pace {days, per_night {active_ready, published, listed}}; line[] {date, active_ready}; study {topics, topics_read, first {topics, read}, next[], papers_read, lessons_studied, teachers_studied, findings_checked, practices, practices_in_dna}; blockers[] {key, label, profiles}; closest[] {slug, name, needs[], need_keys[]}; nights[] {date, minutes, questions, unanswered, errors}. Any field may be missing: then its line or block is not rendered.
+Hebrew names: a readiness item key is shown as t("he.items.<key>", <the English label from the file>); a research topic key as t("he.topics.<key>", <the key with underscores as spaces>).
+
+LAYOUT
+The page container has dir="rtl" and lang="he". Font family for this page only: system-ui, "Arial Hebrew", "Noto Sans Hebrew", sans-serif. Body text at least 20px, section titles at least 28px, the big numbers at least 44px, generous spacing, one column, cards with the site's present colours (accent #CC785C). English fragments from the file (dance names, error texts, trouble notes) are wrapped in dir="ltr" spans so they read correctly. Dates are shown as day.month.year; generated_at also with its local time.
+
+THE PAGE, top to bottom
+A. H1 t("pages.machine.title","חדר המכונות"). Lead t("pages.machine.lead","מה המכונה עשתה הלילה, כמה מהר הספרייה גדלה, ומה צריך ממך."). Muted: t("pages.machine.updated","עודכן") + " <generated_at>".
+B. Card t("pages.machine.owner.title","מה צריך ממך"). When owner.status is "resolved": a calm green card with t("pages.machine.owner.none","לא צריך ממך כלום. המכונה רצה כל לילה, בלי עלות."). Otherwise an amber card: t("pages.machine.owner.needed","צריך אותך:") and owner.text as it is (dir="ltr"). Under it, muted: t("pages.machine.owner.checked","נבדק") + " <owner.verified_at>".
+C. Card t("pages.machine.night.title","הלילה האחרון") with last_night.date. When last_night.errors is empty: a green tick and t("pages.machine.night.ok","הלילה עבד"); otherwise a red mark, t("pages.machine.night.errors","היו שגיאות בלילה") and the errors listed (dir="ltr"). Then four numbers with labels: minutes — t("pages.machine.night.minutes","דקות"); questions — t("pages.machine.night.questions","שאלות למודל"); unanswered — t("pages.machine.night.unanswered","בלי תשובה"); stages — t("pages.machine.night.stages","שלבים"). Then a closed panel t("pages.machine.night.notes","הערות מהלילה") with the trouble lines (dir="ltr", small).
+D. t("pages.machine.library.title","הספרייה"): big numbers from counts, in this order, each with its label: active_ready — t("pages.machine.library.active_ready","מוכנים להפעלה") (accent colour, largest); one_short — t("pages.machine.library.one_short","חסר להם פריט אחד"); two_short — t("pages.machine.library.two_short","חסרים להם שני פריטים"); published — t("pages.machine.library.published","פורסמו"); researched — t("pages.machine.library.researched","נחקרו"); listed — t("pages.machine.library.listed","ברשימה"); lessons_studied — t("pages.machine.library.lessons_studied","שיעורים שנלמדו"); performances_observed — t("pages.machine.library.performances_observed","הופעות שנצפו"); story_ready_teaching_withheld — t("pages.machine.library.story_only","סיפור בלבד, לא מלמדים").
+E. t("pages.machine.pace.title","הקצב") with the lead t("pages.machine.pace.lead","בממוצע בכל לילה"): three numbers with a plus sign: per_night.active_ready — t("pages.machine.pace.active_ready","מוכנים להפעלה"); per_night.published — t("pages.machine.pace.published","פורסמו"); per_night.listed — t("pages.machine.pace.listed","נוספו לרשימה"). Muted: "<pace.days> " + t("pages.machine.pace.days","ימים נמדדו"). Under it the small inline-SVG line chart of line[].active_ready (the chart of /starting-line; drawn left to right, inside a dir="ltr" box).
+F. t("pages.machine.study.title","המחקר של המנטור") with the lead t("pages.machine.study.lead","איך ללמד כל אדם לרקוד: המכונה קוראת מחקרים, לומדת שיעורים ומקשיבה ללומדים."). Lines, each a large number phrase: "<study.topics_read> " + t("pages.machine.of","מתוך") + " <study.topics> " + t("pages.machine.study.topics","נושאי מחקר נקראו"); "<study.first.read> " + t("pages.machine.of","מתוך") + " <study.first.topics> " + t("pages.machine.study.first","מהנושאים שביקשת ב-21 בנובמבר נקראו"); "<study.papers_read> " + t("pages.machine.study.papers","מאמרים נקראו"); "<study.lessons_studied> " + t("pages.machine.study.lessons","שיעורים נצפו כדי ללמוד איך מלמדים"); "<study.teachers_studied> " + t("pages.machine.study.teachers","מורים שהמכונה למדה מהם"); "<study.findings_checked> " + t("pages.machine.study.findings","ממצאים נבדקו מול המקור"); "<study.practices_in_dna> " + t("pages.machine.of","מתוך") + " <study.practices> " + t("pages.machine.study.dna","דרכי הוראה נכנסו ל-DNA של המנטור"). Then t("pages.machine.study.next","בתור ללילה הבא") and study.next as chips with their Hebrew names. Then a link t("pages.machine.study.link","לדף המנטור") to /mentor.
+G. t("pages.machine.blockers.title","מה מעכב את הדפים") with the lead t("pages.machine.blockers.lead","כמה דפים מחכים לכל פריט"): blockers[] as horizontal bars, longest first, each with its Hebrew name and its number.
+H. t("pages.machine.closest.title","הקרובים ביותר לקו הזינוק"): the first 10 of closest[]: the name (dir="ltr", link to /style/<slug>), then t("pages.machine.closest.needs","חסר") and the Hebrew names of need_keys as chips (the needs texts when need_keys is missing). A button t("pages.machine.closest.all","הצג הכול") reveals the rest.
+I. t("pages.machine.nights.title","הלילות האחרונים"): a simple table of nights[], newest first, at most 14 rows, with the column titles t("pages.machine.nights.date","תאריך"), t("pages.machine.nights.minutes","דקות"), t("pages.machine.nights.questions","שאלות"), t("pages.machine.nights.unanswered","בלי תשובה"), t("pages.machine.nights.errors","שגיאות"); a row whose errors is 0 shows a green tick in that column.
+J. At the end, three links in one row: t("pages.machine.links.starting_line","קו הזינוק") to /starting-line, t("pages.machine.links.mentor","המנטור") to /mentor, t("pages.machine.links.health","בריאות הקבצים") to /health; and one muted line t("pages.machine.note","הדף נבנה מקובץ אחד שהמכונה כותבת כל לילה. שום דבר כאן לא עולה כסף.").
+Page title "חדר המכונות — Dancing Atlas".
+
+THE TWO LINKS ELSEWHERE
+At the end of /starting-line and at the end of /health add one small muted link t("pages.machine.title","חדר המכונות") to /machine. No item in the top bar or the bottom bar.
+
+RULES
+Read-only. No number is typed into the code. Nothing is rendered for an empty value. Panels and buttons are real buttons, usable with the keyboard, with aria-expanded.
+
+WHEN DONE
+Open /machine in the preview and report: the text of card B, the text and the four numbers of card C, the first number of D, the three numbers of E, the first two lines of F and the chips under "בתור ללילה הבא", the number of bars in G, the number of rows in I, and any console error. Confirm that the page reads right to left and that dance names read left to right.
+```
+
+
+## Batch 7 — the message
+
+Send after batch 5 is published (it adds a link to the Home strip made there). Needs `pages.vision` in `site.json` on main.
+
+```
+BATCH 7 — THE DIRECTION (new route /vision, and one link on Home). Read the Project instructions first. Build exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHAT IT IS
+One calm, read-only page that says in the founder's words what Dance Atlas is preparing, so that nobody mistakes this site for the product. Text only, in the site's present style. Every word comes from site.json through t(path, fallback) with the fallbacks written here, so the founder can change any sentence without a build. No new request except the words already loaded, no backend, no Lovable Cloud, no AI calls, no analytics, no new npm dependency. Change no existing page except the one link on Home.
+
+DATA
+Only what is already in memory: the words (site.json) and the index head (index.json: count, states.active_ready).
+
+THE PAGE, top to bottom (mobile first; one readable column, at most 70 characters wide; body text at least 18px; accent #CC785C)
+A. Header. Eyebrow t("pages.vision.eyebrow","WHERE THIS IS GOING"). H1 t("pages.vision.title","What Dance Atlas is preparing"). Lead t("pages.vision.lead","Dance Atlas is the library being prepared for BDF, the Best Dance Friend: a mentor you talk with and move with, who draws on everything known about a dance and on everything known about how to teach it. BDF is not built yet. What you see on this site is the knowledge it will stand on.").
+B. t("pages.vision.words.title","In the founder's words"): two large pull quotes, each in a block with an accent bar: t("pages.vision.words.one","We need to be cutting edge with our knowledge of the dance and the education of it, and be ready for the breakthrough in the technology, and then just overnight activate all the profiles.") and t("pages.vision.words.two","Once we teach people to teach in the best way, they become better people, because they can teach. Not only dance: through learning movement we can instil the foundations of mentoring, and they take that with them into life."); under the second, muted: t("pages.vision.words.two_note","translated from Hebrew").
+C. Three cards in a row (stacked on a phone), each with a title and a body:
+   t("pages.vision.now.title","Now") — t("pages.vision.now.body","Gather the knowledge. Every night, at no cost, a machine researches the world's dances, studies lessons and performances, and reads how the best teachers teach."). Under the body two lines: t("pages.vision.now.mission1","Mission 1: thousands of dances at the starting line, ready to be switched on.") followed by "<states.active_ready> / <count>" and a link t("pages.vision.now.mission1_link","The starting line") to /starting-line; then t("pages.vision.now.mission2","Mission 2: the mentor's DNA, an endless study of how to teach anyone to dance.") and a link t("pages.vision.now.mission2_link","The mentor") to /mentor.
+   t("pages.vision.next.title","Next") — t("pages.vision.next.body","A beta for people who live dance culture and music: to look, to check and to correct, together with the founder.").
+   t("pages.vision.later.title","Later") — t("pages.vision.later.body","BDF itself: a full conversation, in virtual and augmented reality. Seeing the other friends who are learning the same dance, lessons taken together, practising together, a community built on dance.").
+D. t("pages.vision.mentor.title","Why a mentor") — t("pages.vision.mentor.body","The mentor has to come out of the most serious research into how to teach: how to create ease and openness, and an experience that inspires, because it joins learning with movement, with knowledge and with other people. The research does not end, and what it finds becomes knowledge the mentor uses.").
+E. t("pages.vision.not_here.title","What you will not find here") — t("pages.vision.not_here.body","No course, no price, no sign-in. Nothing is for sale and nothing asks for your details. There are no click-through lessons either: that is not how people will enjoy learning to dance.").
+F. t("pages.vision.sacred.title","Sacred and restricted dances") — t("pages.vision.sacred.body","Their story is told with care. They are not taught.").
+G. t("pages.vision.agents.title","Open to any AI") — t("pages.vision.agents.body","The whole library is a set of open files that any agent can read through one documented door: where to start, the rules, an index, and one complete file for every dance."). Two links: t("pages.vision.agents.link","The door: manifest.json") to https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/manifest.json (new tab, rel="noopener noreferrer") and t("pages.vision.agents.health","The health of every file") to /health.
+H. Always visible at the end, muted: t("pages.vision.honesty","Everything here was gathered and written by a machine from public sources and checked against them. It has not been reviewed by a person.").
+Page title "Where this is going — Dancing Atlas".
+
+HOME
+In the slim strip under the Home hero (made in batch 5) add, after the starting-line link, a second link: " · " + t("pages.vision.home.link","Where this is going") + " →" to /vision. If that strip does not exist, add the link alone in its place.
+
+RULES
+Read-only. Nothing is rendered for an empty value: a card or section whose words are empty in site.json is not shown. No number is typed into the code.
+
+WHEN DONE
+Open /vision in the preview and report: the H1, the number of pull quotes, the three card titles, the numbers shown after Mission 1, and any console error. Then open Home and report the strip's text.
 ```
