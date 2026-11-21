@@ -1,0 +1,101 @@
+{
+ "youtube_id": "VuQnlSQiXDE",
+ "slug": "pony",
+ "dance": "Pony",
+ "title": "Jake Kodish - PONY - Dance Tutorial [Preview] - #TMillyTV: Learn Choreography",
+ "channel": "Tim Milgram",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-21T19:22:53Z",
+ "url": "https://www.youtube.com/watch?v=VuQnlSQiXDE",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Jake Kodish breaks down choreography step-by-step with clear counts and verbal descriptions of body actions. He incorporates stylistic phrasing and sound effects to help students connect movement to the musical feel.",
+  "language": "English",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Teacher introduces himself and the choreography"
+   },
+   {
+    "t": "0:06",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the first section count by count"
+   }
+  ],
+  "counting_scheme": "6-7-8 and 1-2-3-4",
+  "cues": [
+   "grab onto your tie",
+   "part ner",
+   "some one who knows how to ride",
+   "heel toe"
+  ],
+  "metaphors": [
+   "grabbing onto your tie"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Bachelor shot",
+    "counts": "6-7-8 1-2",
+    "description": "Step right, snap, left hit and grab tie"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Mirrored video text indicator helps students follow along",
+    "Slow-motion demonstration with verbal explanations"
+   ],
+   "what_hinders": [
+    "Fast transitions between explaining and dancing"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "Hey what's up guys it's Jake Kodish"
+   },
+   {
+    "t": "0:03",
+    "text": "And I'm here to teach you my choreography to Pony"
+   },
+   {
+    "t": "0:11",
+    "text": "I'm just a bachelor shot"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 6,
+    "end_s": 15,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates footwork counts facing forward in a mirror-flipped studio",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining narrative phrasing like 'some one who knows how to ride' directly into rhythm breakdowns."
+ },
+ "attempts": 1
+}

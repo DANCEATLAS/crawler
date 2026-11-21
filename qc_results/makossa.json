@@ -1,10 +1,10 @@
 {
  "slug": "makossa",
- "qc_at": "2026-11-05T19:09:16Z",
+ "qc_at": "2026-11-21T19:16:11Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 8.7,
+ "qc_score": 9.0,
  "gates": [
   {
    "gate": "has_name",
@@ -14,32 +14,32 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "79"
+   "detail": "93"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "172"
+   "detail": "191"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In the 1950s, Nelle Eyoum coined the term 'kossa' by shouting it at children to "
+   "detail": "In the 1950s, Nelle Eyoum shouted 'kossa kossa' to children in Douala to spur th"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "542"
+   "detail": "377"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2893"
+   "detail": "2119"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
   },
   {
    "gate": "citations",
@@ -49,7 +49,7 @@
   {
    "gate": "sources",
    "ok": true,
-   "detail": "5"
+   "detail": "6"
   },
   {
    "gate": "country",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "4 paras"
+   "detail": "3 paras"
   },
   {
    "gate": "not_duplicate",
@@ -91,7 +91,7 @@
   "accuracy": 10,
   "respect": 10,
   "specificity": 9,
-  "teaching_value": 3,
+  "teaching_value": 5,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -101,18 +101,18 @@
   "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "Accurate and respectful profile of a Cameroonian rhythm and dance. Teaching value is slightly low due to lack of granular step descriptions in sources, but this is handled honestly."
+  "notes": "Solidly researched and accurate profile on Makossa. Teaching value is slightly limited by the lack of granular movement descriptions in source literature, but accurately noted as such."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=8.7"
+  "judge_score=9.0"
  ],
  "citation": {
   "claims": 6,
   "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-05T17:53:16Z"
+ "researched_at": "2026-11-21T18:44:59Z"
 }

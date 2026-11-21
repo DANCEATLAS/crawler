@@ -51,7 +51,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -65,17 +65,154 @@
    {
     "key": "signature_moves",
     "label": "two or more signature moves"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "6d62fc048d89d32c",
+ "lessons": [
+  {
+   "youtube_id": "6UdpfPi7FZw",
+   "url": "https://www.youtube.com/watch?v=6UdpfPi7FZw",
+   "title": "3 Step Assyrian Dance Tutorial",
+   "channel": "Mesoacademia",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "Introduction to the 3-step Assyrian dance."
+    },
+    {
+     "t": "0:14",
+     "seconds": 14,
+     "segment": "breakdown",
+     "note": "Breakdown of the basic footwork."
+    },
+    {
+     "t": "0:41",
+     "seconds": 41,
+     "segment": "layering",
+     "note": "Adding shoulder movements to the footwork."
+    },
+    {
+     "t": "1:38",
+     "seconds": 98,
+     "segment": "follow_along",
+     "note": "Practicing with a partner."
+    },
+    {
+     "t": "2:07",
+     "seconds": 127,
+     "segment": "other",
+     "note": "Explanation of the intermediate level."
+    },
+    {
+     "t": "3:28",
+     "seconds": 208,
+     "segment": "other",
+     "note": "Tips on rhythm and etiquette."
+    },
+    {
+     "t": "4:27",
+     "seconds": 267,
+     "segment": "other",
+     "note": "Demonstration of a modified, shorter step."
+    },
+    {
+     "t": "5:59",
+     "seconds": 359,
+     "segment": "recap",
+     "note": "Final tips and closing remarks."
+    }
+   ],
+   "steps": [
+    {
+     "name": "3-step",
+     "counts": "1-2-3",
+     "description": "A sequence of taps and a cross-step."
+    }
+   ],
+   "cues": [
+    "up-up-down",
+    "tap-back-tap-back-cross"
+   ],
+   "images": [
+    "the top doesn't know what the bottom is doing"
+   ],
+   "common_mistakes": [
+    "crossing the foot from the back instead of the front",
+    "stiffening the arms while holding hands"
+   ],
+   "safety": [
+    "be aware of rings that can pinch your partner's hand",
+    "don't rub against your partner if wearing sequins to avoid skin irritation"
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions with a focus on both footwork and upper-body synchronization. She uses a supportive and encouraging tone, often incorporating her dance partner to demonstrate the social aspect of the dance.",
+   "distinctive_method": "The teacher emphasizes the social etiquette of the dance, such as how to join a line and how to handle physical contact with partners.",
+   "what_works": [
+    "clear verbal cues",
+    "demonstration with a partner",
+    "breaking down complex movements into smaller parts"
+   ],
+   "what_hinders": [
+    "the teacher's movements are sometimes obscured by her clothing"
+   ],
+   "evidence": [
+    {
+     "start_s": 14,
+     "end_s": 22,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the basic footwork by tapping and crossing her feet.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 56,
+     "end_s": 63,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the shoulder movement by lifting and lowering them in a rhythmic pattern.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 138,
+     "end_s": 145,
+     "topic": "teaching",
+     "observation": "The teacher introduces her partner and explains the social aspect of the dance.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 152,
+     "end_s": 160,
+     "topic": "movement",
+     "observation": "The teacher and her partner perform the basic 3-step dance together while holding hands.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 441,
+     "end_s": 448,
+     "topic": "movement",
+     "observation": "The teacher demonstrates a modified, shorter version of the step.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "c1fcf9109e8b761c",
  "updated": "2026-11-21"
 }

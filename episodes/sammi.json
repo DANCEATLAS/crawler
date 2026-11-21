@@ -2,7 +2,7 @@
  "slug": "sammi",
  "name": "Sammi",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-01T17:33:45Z",
  "qc_score": 9.3,
  "status": "draft",
@@ -266,7 +266,7 @@
       "Step 2: Swing arms from the sides to the front."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -408,7 +408,7 @@
       "Step 2: Swing arms from the sides to the front."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -549,7 +549,7 @@
       "Step 2: Swing arms from the sides to the front."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -732,34 +732,43 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
    "views used by most teachers: front",
-   "tempo progression: slow → full"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
    "here we go",
    "one more time",
-   "turn up the energy"
+   "turn up the energy",
+   "1 2 3 and 4"
   ],
   "common_mistakes": [
    "not keeping legs back",
    "confusing count with claps"
   ],
   "segment_order": [
+   "full_demo",
    "intro",
    "breakdown",
    "slow_practice",
-   "music_practice"
+   "music_practice",
+   "recap"
   ],
   "steps_as_taught": [
    {
     "name": "Sammi",
     "counts": "1-2-3-4",
     "description": "Intermediate Bhangra step with alternating knee lifts and clapping arms."
+   },
+   {
+    "name": "Sammi",
+    "counts": "1-2-3-4",
+    "description": "Left leg starts, knee lifts with alternating clapping and body movement"
    }
   ]
  },
@@ -781,6 +790,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "8d52be05f92e8023e6faefe0b5d458733c2c5ba85fea2b591768dd7620b7e280",
+ "input_fingerprint": "e27185951fd6cd8203c9f21c257e9b3a17be0f85ed82366b488afc5bd3772f08",
  "hero_checked": "pass"
 }

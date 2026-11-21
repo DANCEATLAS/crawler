@@ -1,0 +1,831 @@
+{
+ "slug": "stiletto-dance",
+ "name": "Stiletto dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T18:40:19Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A professional commercial choreographer with a background in both jazz and hip-hop.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Stiletto dance",
+   "High Heels Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Stiletto dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Architecture of the Heel",
+     "This is Stiletto dance. Late 20th to early 21st century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Stiletto dance · United States; Europe · Late 20th to early 21st century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The style emerged in the late 20th and early 21st centuries across the United States and Europe.",
+     "It evolved from the technical foundations of showgirl dance, which was the first style to perform technical choreography in heels, and was later shaped by the demands of the pop music video industry."
+    ],
+    "on_screen": [
+     "Map: United States; Europe · Global",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Stiletto dance is primarily a professional performance art used in the entertainment industry.",
+     "It also serves as a physical fitness discipline for women, focusing on movement vocabulary and body language.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: unaputita_315 (https://archive.org/details/unaputita_315)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "It is a solo dance characterized by dynamic footwork and torso isolations.",
+     "Dancers perform a mix of jazz-based steps, ballroom-influenced movements, and hip-hop isolations.",
+     "The technique includes significant floor work and fluid arm movements, all executed while wearing stiletto heels.",
+     "Watch for Torso Isolation, Floor work."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo performance; utilizes both vertical space and floor levels."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is typically performed to pop and hip-hop music.",
+     "The rhythm and tempo are dictated by the commercial tracks used in music videos or stage performances, often featuring strong beats that support sharp isolations and rhythmic footwork.",
+     "Listen for the Synthesizers, Drum machines, Electronic bass, Vocals.",
+     "The pulse is 4/4 at about 109 beats a minute.",
+     "The sound is defined by modern commercial production, featuring heavy basslines and sharp percussive elements that facilitate the 'hits' and isolations in the choreography."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The defining costume element is the stiletto heel shoe.",
+     "Settings range from professional stages and cruise ships to music video sets and dance studios or gyms for fitness-based practice."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The style is practiced throughout the United States and Europe, though specific regional variations in technique are not detailed in the sources.",
+     "It descends from showgirl dance and incorporates elements from jazz, ballroom, Latin, belly dance, hip-hop, exotic dance, and contemporary dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Stiletto dance is parent of Jazz dance: Provides the foundational dynamic footwork.",
+     "Stiletto dance is parent of Showgirl dance: The first style of technical dance to be performed in heels.",
+     "Stiletto dance is influence of Hip hop dance: Source of torso isolations and contemporary music video context."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Weight distribution adjustment for high heels",
+     "Jazz-based dynamic footwork",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how professional dancers master the physics of the stiletto to create the iconic movements of modern pop culture.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Mastering balance in heels",
+   "level": "Foundations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Mastering balance in heels.",
+      "Level: Foundations. Difficulty of the dance overall: advanced.",
+      "Your instructor: A professional commercial choreographer with a background in both jazz and hip-hop."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with an engaged core to manage the forward shift in center of gravity caused by heels.",
+      "Fluid and expressive, drawing from exotic and contemporary dance styles.",
+      "Heavy use of isolations borrowed from belly dance and hip-hop."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 76 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Weight distribution adjustment for high heels",
+      "Step 2: Jazz-based dynamic footwork",
+      "Footwork from the sources: Dynamic steps based on jazz and ballroom; requires constant awareness of the heel's placement.",
+      "Drill: Static balance holds in heels"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Torso isolations (hip-hop and belly dance style)",
+      "Step 4: Fluid arm extensions",
+      "Drill: Slow-motion walking to find the center of gravity"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic jazz squares in heels"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid locking knees; avoid placing full weight on the heel during rapid lateral movements to prevent ankle injury."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels. · For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels.",
+      "For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 109 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Mastering balance in heels.",
+      "Stiletto dance is primarily a professional performance art used in the entertainment industry.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Separating upper and lower body movement",
+   "level": "Isolations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Separating upper and lower body movement.",
+      "Level: Isolations. Difficulty of the dance overall: advanced.",
+      "Your instructor: A professional commercial choreographer with a background in both jazz and hip-hop."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with an engaged core to manage the forward shift in center of gravity caused by heels.",
+      "Fluid and expressive, drawing from exotic and contemporary dance styles.",
+      "Heavy use of isolations borrowed from belly dance and hip-hop."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 76 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Floor work transitions",
+      "Drill: Hip circles while maintaining a fixed head position"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Torso Isolation: Independent movement of the chest or hips while the rest of the body remains still.",
+      "Floor work: Athletic movements performed on the ground, transitioning from standing to floor and back.",
+      "Drill: Chest pops and slides"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Arm waves while maintaining a steady stance"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid locking knees; avoid placing full weight on the heel during rapid lateral movements to prevent ankle injury."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels. · For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels.",
+      "For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance; utilizes both vertical space and floor levels."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 109 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Separating upper and lower body movement.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Combining levels and speed",
+   "level": "Performance",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Combining levels and speed.",
+      "Level: Performance. Difficulty of the dance overall: advanced.",
+      "Your instructor: A professional commercial choreographer with a background in both jazz and hip-hop."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with an engaged core to manage the forward shift in center of gravity caused by heels.",
+      "Fluid and expressive, drawing from exotic and contemporary dance styles.",
+      "Heavy use of isolations borrowed from belly dance and hip-hop."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 76 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Fluid arm extensions",
+      "Step 2: Floor work transitions",
+      "Drill: Standing to floor transitions"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Torso Isolation: Independent movement of the chest or hips while the rest of the body remains still.",
+      "Floor work: Athletic movements performed on the ground, transitioning from standing to floor and back.",
+      "Drill: Rapid footwork sequences"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Full routine integration with pop music"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid locking knees; avoid placing full weight on the heel during rapid lateral movements to prevent ankle injury."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels. · For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels.",
+      "For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance; utilizes both vertical space and floor levels."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 109 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combining levels and speed.",
+      "It descends from showgirl dance and incorporates elements from jazz, ballroom, Latin, belly dance, hip-hop, exotic dance, and contemporary dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 109,
+  "meter": "4/4",
+  "rhythm_pattern": "Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop.",
+  "instruments": [
+   "Synthesizers",
+   "Drum machines",
+   "Electronic bass",
+   "Vocals"
+  ],
+  "vocal_style": "Pop and hip-hop vocals",
+  "musical_form": "Verse-chorus structure",
+  "mood": [
+   "energetic",
+   "sensual",
+   "powerful",
+   "commercial"
+  ],
+  "sound_description": "The sound is defined by modern commercial production, featuring heavy basslines and sharp percussive elements that facilitate the 'hits' and isolations in the choreography.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Stiletto dance (United States; Europe). Meter 4/4. Tempo about 109 bpm. Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop.. Instruments: Synthesizers, Drum machines, Electronic bass, Vocals. Vocal style: Pop and hip-hop vocals. Form: Verse-chorus structure. Mood: energetic, sensual, powerful, commercial. It should sound like this: The sound is defined by modern commercial production, featuring heavy basslines and sharp percussive elements that facilitate the 'hits' and isolations in the choreography. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 76
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 109
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The defining costume element is the stiletto heel shoe. Settings range from professional stages and cruise ships to music video sets and dance studios or gyms for fitness-based practice.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "unaputita_315",
+    "url": "https://archive.org/details/unaputita_315",
+    "year": null,
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "High Heels Dance By D 3t",
+    "url": "https://archive.org/details/high-heels-dance-by-d-3t",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Pee Wees Playhouse - High Heels Dance 480p",
+    "url": "https://archive.org/details/y-2mate.com-pee-wees-playhouse-high-heels-dance-480p",
+    "year": 1990,
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Frisco Features – High Tops & High Heels Dance",
+    "url": "https://archive.org/details/ftvntx-Frisco_Features_High_Tops_High_Heels_Dance",
+    "year": 2023,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-ups of stiletto heels striking a wooden floor",
+   "Slow-motion captures of torso isolations",
+   "The contrast between the industrial gym setting and the glamour of the stage"
+  ],
+  "costume_notes": "The defining costume element is the stiletto heel shoe. Settings range from professional stages and cruise ships to music video sets and dance studios or gyms for fitness-based practice.",
+  "setting_notes": "Stiletto dance is primarily a professional performance art used in the entertainment industry. It also serves as a physical fitness discipline for women, focusing on movement vocabulary and body language.",
+  "map": {
+   "country": "United States; Europe",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "58 tutorial(s) of the street-urban family studied",
+  "videos_studied": 58,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "heel toe",
+   "one and two",
+   "step touch",
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "5-6-7-8",
+   "here we go"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Stiletto_dance",
+  "https://www.wikidata.org/wiki/Q25042625"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "fc265cacf297d096d48e11ca3bdb0402305bb35cc71d4154ab82cf0b03ff6e2a",
+ "hero_checked": null
+}

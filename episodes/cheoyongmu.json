@@ -2,9 +2,9 @@
  "slug": "cheoyongmu",
  "name": "Cheoyongmu",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
- "researched_at": "2026-11-01T17:18:27Z",
- "qc_score": 9.55,
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T18:47:22Z",
+ "qc_score": 9.3,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,13 +45,13 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "persona": "Traditional Korean court dance custodian",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Cheoyongmu",
-   "처용무",
-   "Obang Cheoyongmu"
+   "Obang Cheoyongmu",
+   "처용무"
   ]
  },
  "episode_1": {
@@ -62,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Dragon King's Son: A Dance Against Disease",
+     "The Dragon King's Son Who Banished Smallpox",
      "This is Cheoyongmu. Unified Silla period to present."
     ],
     "on_screen": [
@@ -76,9 +76,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Originating in the Unified Silla period, Cheoyongmu is the oldest surviving Korean court dance.",
-     "It evolved from a solo performance into a five-person dance by the Joseon era.",
-     "It was historically used for exorcism rites and royal banquets."
+     "Cheoyongmu originated during the Unified Silla period, making it the oldest surviving Korean court dance.",
+     "It is based on the legend of Cheoyong, son of the dragon king Yongwang, who saved his wife from the smallpox spirit.",
+     "From the Silla period to the late Goryeo dynasty, the dance was performed by a single dancer, after which it expanded to five dancers, incorporating the Confucian Theory of the Five Elements during the Joseon era."
     ],
     "on_screen": [
      "Map: South Korea · East Asia",
@@ -91,7 +91,9 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Originally a ritual to drive off evil spirits and smallpox, it was performed at royal banquets and New Year's Eve exorcisms to promote good fortune and tranquility."
+     "Cheoyongmu was formerly performed during royal banquets, New Year's Eve exorcism rites to dispel evil spirits, and to pray for tranquility and good fortune.",
+     "It embodies Korean folk mythology and the Confucian Theory of the Five Elements, including the belief that Cheoyong's image on a gate repels smallpox.",
+     "Today it is a living tradition."
     ],
     "on_screen": [
      "Footage — MISSING (use images)"
@@ -102,17 +104,15 @@
     "code": "watch",
     "title": "Watch it",
     "duration_s": 75,
-    "narration": [
-     "The dance is performed by five men who move with stateliness and vigor.",
-     "The performance is punctuated by lyrical song recitations and varies in tempo and style."
-    ],
+    "narration": [],
     "on_screen": [
      "Hero video full screen, 30–45 s (DSWYr-FNmQ8)",
      "Signature moves — MISSING",
-     "Formation: Five dancers arranged to represent the four cardinal directions and the center."
+     "Formation: performed by five dancers"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
     "needs": [
+     "how_it_is_danced",
      "signature_moves"
     ]
    },
@@ -121,8 +121,9 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music includes lyrical song recitations and varies in style and tempo to accompany the dancers' movements.",
-     "Music is punctuated by various lyrical song recitations and varies in style and tempo."
+     "The music accompanying Cheoyongmu features style and tempo variations punctuated by lyrical song recitations.",
+     "Specific musical instruments are not named in the sources.",
+     "Music featuring varying styles and tempos, punctuated by lyrical song recitations."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -140,8 +141,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Dancers wear costumes in yellow, red, blue, white, and black.",
-     "They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches."
+     "Dancers wear costumes in yellow, red, blue, white, and black, representing the four cardinal directions and the center.",
+     "They wear light wine-colored masks depicting a man-god with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -157,15 +158,15 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Derived from the legend of Cheoyong, son of the Dragon King Yongwang."
+     "Cheoyong, the mythological son of the Dragon King Yongwang.",
+     "The dance transitioned from a single-dancer format in the Silla and Goryeo periods to a five-dancer format (Obang Cheoyongmu) during the Joseon era.",
+     "Derived from Korean court dance traditions and shamanistic exorcism rituals of the Unified Silla period."
     ],
     "on_screen": [
-     "Names on screen as they are spoken"
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
     ],
-    "music": "underscore",
-    "needs": [
-     "notable_figures"
-    ]
+    "music": "underscore"
    },
    {
     "code": "family",
@@ -185,7 +186,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Historically an exorcism rite; the mask and dance are intended to ward off evil and smallpox."
+     "Originally performed as a ritual exorcism to drive off evil spirits and protect against smallpox, embodying sacred mythological and Confucian cosmological beliefs."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -197,7 +198,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Five dancers in masks of wine and gold perform an ancient ritual to banish the spirit of smallpox.",
+     "Five dancers in wine-colored masks execute majestic court choreography to ward off evil.",
      "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
@@ -223,9 +224,9 @@
    "majestic",
    "vigorous"
   ],
-  "sound_description": "Music is punctuated by various lyrical song recitations and varies in style and tempo.",
+  "sound_description": "Music featuring varying styles and tempos, punctuated by lyrical song recitations.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Cheoyongmu (South Korea). Vocal style: lyrical song recitations. Mood: majestic, vigorous. It should sound like this: Music is punctuated by various lyrical song recitations and varies in style and tempo. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Cheoyongmu (South Korea). Vocal style: lyrical song recitations. Mood: majestic, vigorous. It should sound like this: Music featuring varying styles and tempos, punctuated by lyrical song recitations. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -267,7 +268,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Dancers wear costumes in yellow, red, blue, white, and black. They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
+   "from_sources": "Dancers wear costumes in yellow, red, blue, white, and black, representing the four cardinal directions and the center. They wear light wine-colored masks depicting a man-god with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AThe_Fugong_Temple_Wooden_Pagoda.jpg"
    ],
@@ -290,13 +291,12 @@
   ],
   "footage": [],
   "motifs": [
-   "Light wine-colored masks with white teeth",
-   "Five-colored costumes",
-   "Peony blossoms and peaches on black hats",
-   "The image of Cheoyong on a wooden gate"
+   "Wine-colored masks",
+   "Five colored costumes",
+   "Black hat with peony and peaches"
   ],
-  "costume_notes": "Dancers wear costumes in yellow, red, blue, white, and black. They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
-  "setting_notes": "Originally a ritual to drive off evil spirits and smallpox, it was performed at royal banquets and New Year's Eve exorcisms to promote good fortune and tranquility.",
+  "costume_notes": "Dancers wear costumes in yellow, red, blue, white, and black, representing the four cardinal directions and the center. They wear light wine-colored masks depicting a man-god with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
+  "setting_notes": "Cheoyongmu was formerly performed during royal banquets, New Year's Eve exorcism rites to dispel evil spirits, and to pray for tranquility and good fortune. It embodies Korean folk mythology and the Confucian Theory of the Five Elements, including the belief that Cheoyong's image on a gate repels smallpox.",
   "map": {
    "country": "South Korea",
    "region": "East Asia",
@@ -309,37 +309,38 @@
   ]
  },
  "teaching_formula": {
-  "source": "8 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 8,
+  "source": "12 tutorial(s) of the classical-court family studied",
+  "videos_studied": 12,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, mirror, back",
+   "views used by most teachers: front, side, back",
    "tempo progression: slow → full",
-   "repetitions per step: about 5"
+   "repetitions per step: about 10"
   ],
   "cues": [
-   "hold your knife out",
-   "every time the blade faces down",
-   "two thumbs are facing up",
-   "kick",
-   "inside",
-   "out",
-   "keep it down",
-   "one two",
-   "over and spin",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "uno dos tres cuatro",
+   "sin parar",
+   "y ahora de regreso",
+   "tha-ka-di-ki-ta",
+   "tha-the-hi-tha",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "kick kick kick kick step"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "warmup",
    "context",
    "breakdown",
    "full_demo",
-   "music_practice",
-   "slow_practice"
+   "slow_practice",
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -351,8 +352,8 @@
   "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
+  "the how-it-is-danced section",
   "signature moves",
-  "notable figures",
   "two or more connections"
  ],
  "sources": [
@@ -362,9 +363,9 @@
   "https://pt.wikipedia.org/wiki/Cheoyongmu",
   "https://ich.unesco.org/en/RL/00189"
  ],
- "claims_verified": 4,
- "claims": 4,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "c04d26f925bf159dfc3fd0c74d6676d004ed6f52913439a609f7426193cd2070",
+ "input_fingerprint": "be5eb467368244d36eed20a5bdb774a42051ebadb6cc9680a2172de7f08084c7",
  "hero_checked": "fail"
 }

@@ -2,14 +2,18 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [],
+        "avoid": [
+          "not derivable yet"
+        ],
         "counts": "not derivable yet",
         "duration_minutes": "not derivable yet",
         "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [],
+        "avoid": [
+          "not derivable yet"
+        ],
         "counts": "not derivable yet",
         "seated_version": "not derivable yet",
         "standing_version": "not derivable yet",
@@ -23,13 +27,13 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Shoulder movements are characteristic of the 'Shim Sham Shimmy'.",
+      "arms_and_hands": "not described in sources",
       "difficulty": "beginner",
-      "footwork": "Includes Double Shuffle, Cross Over, Tack Annie, and Falling Off a Log.",
-      "formation_and_space": "Line dance formation.",
-      "hips_and_torso": "not described in sources",
+      "footwork": "Double Shuffle, Cross Over, Tack Annie, Falling Off a Log",
+      "formation_and_space": "Line dance",
+      "hips_and_torso": "Shoulder movements added by Willie Bryant",
       "levels_and_jumps": "not described in sources",
-      "partnering": "Dancers often break into freestyle Lindy Hop after the choreographed portion.",
+      "partnering": "Transition to freestyle Lindy Hop after the routine",
       "posture": "not described in sources",
       "signature_moves": [
         {
@@ -37,28 +41,26 @@
           "name": "Double Shuffle"
         },
         {
-          "description": "A standard tap step used in the routine.",
-          "name": "Cross Over"
-        },
-        {
-          "description": "An up-and-back shuffle step.",
+          "description": "An up-and-back shuffle movement.",
           "name": "Tack Annie"
         },
         {
-          "description": "A standard tap step used in the routine.",
+          "description": "A standard step involving half breaks.",
           "name": "Falling Off a Log"
         }
       ],
-      "tempo_feel": "Medium tempo.",
+      "tempo_feel": "Medium",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
-      "instruments": [],
+      "instruments": [
+        "Brass",
+        "Rhythm section"
+      ],
       "meter": "4/4",
       "mood_keywords": [
-        "swing",
-        "energetic",
-        "communal"
+        "Energetic",
+        "Social"
       ],
       "musical_form": "32-bar chorus",
       "reference_recordings": [
@@ -73,14 +75,10 @@
         {
           "artist": "Erskine Hawkins",
           "title": "Tuxedo Junction"
-        },
-        {
-          "artist": "George Gee band",
-          "title": "Stompin' at the Savoy"
         }
       ],
-      "rhythm_pattern": "not described in sources",
-      "sound_description": "Swing music with a medium tempo, featuring a melody that begins on beat eight to align with the choreography.",
+      "rhythm_pattern": "Swing rhythm",
+      "sound_description": "Swing music with a steady pulse, often featuring breaks that align with the dance's choreographed pauses.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
@@ -92,12 +90,12 @@
         "Falling Off a Log"
       ],
       "formation": "Line dance",
-      "level_notes": "The original routine is considered a foundational tap routine; Frankie Manning's version is common for swing dancers.",
+      "level_notes": "Beginner to intermediate; requires mastery of 8-count phrasing.",
       "rhythm": "4/4 time"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "d898fb84dc37820b3308556c293bb0d9c2265c2995b289ca8f09f8a4b7bb9308",
+  "fingerprint": "c4949ee5d9ef2811b53129cea1a2530bfc2bd17abc522ade09304c44339a9fae",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -106,7 +104,6 @@
     ],
     "research": [
       "movement: posture, what_to_avoid",
-      "music_structure: rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

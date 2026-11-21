@@ -31,6 +31,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Grida_dance",
   "wikidata_qid": "Q5608618",
   "unesco": false,
+  "hero_video_youtube_id": "_w8IwIen9IQ",
+  "video_stack": [
+   {
+    "youtube_id": "_w8IwIen9IQ",
+    "role": "hero",
+    "title": "Folk Dance: Grida Dance",
+    "channel": "Life Dynamics",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -56,7 +66,13 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:23Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -267,7 +283,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -277,42 +293,71 @@
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "_w8IwIen9IQ",
+   "url": "https://www.youtube.com/watch?v=_w8IwIen9IQ",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Outdoor covered stage with painted pillars, daytime performance with musicians on the left",
+    "dancers": "Mixed group of men and women, approximately 14-16 dancers including musicians",
+    "formation_and_space": "Dancers start in lines on the right and left, later forming a circle and building human pyramids",
+    "posture": "Upright torso with slightly bent knees during stepping, maintaining balance during acrobatic formations",
+    "footwork": "Stepping and stepping in place on the beat, moving in circles with rhythmic steps",
+    "arms_and_hands": "Arms held out, linked in circles, or supporting other dancers in lifts and pyramids",
+    "hips_and_torso": "Minimal torso isolation, mostly engaged in maintaining posture and balance",
+    "partnering": "Close physical contact during circle formations, lifts, and pyramid structures",
+    "levels_jumps_turns": "Transitions from standing to crouching, lifts and multi-tier human pyramids",
+    "costume_and_props": "Men wear yellow tunics, white dhotis, red headbands; women wear red and orange traditional attire; some hold white cloth props",
+    "cannot_infer": "Precise footwork details are obscured by long garments and distance; exact musical timing nuances",
+    "music_heard": {
+     "instruments": [
+      "drum",
+      "flute"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 149,
+      "end_s": 160,
+      "what": "Dancers form a circle holding hands and moving rhythmically in a line"
+     },
+     {
+      "start_s": 235,
+      "end_s": 260,
+      "what": "Dancers lift other performers to construct a multi-tiered human pyramid"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 12,
+  "gaps": 11,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/grida-dance.json"
  },
- "fingerprint": "7e461a78ffa0fdbe",
+ "fingerprint": "d3c5df85e45e54af",
  "updated": "2026-11-21"
 }

@@ -186,36 +186,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 11,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -226,15 +202,70 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "4RldSmDzb9Y",
+   "url": "https://www.youtube.com/watch?v=4RldSmDzb9Y",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor dance hall with wooden parquet floor, tables, chairs, and a small stage in the background",
+    "dancers": "one couple, a man and a woman",
+    "formation_and_space": "couple dancing in closed ballroom hold, traveling counterclockwise around the room",
+    "posture": "upright ballroom posture with straight torsos, soft knees, and continuous weight shifts",
+    "footwork": "smooth walking steps and side closes on the beat, blending forward and backward progression with swivelling steps",
+    "arms_and_hands": "closed ballroom dance hold with arms elevated and extended outwards in standard frame",
+    "hips_and_torso": "minimal torso movement, maintaining frame while turning and progressing",
+    "partnering": "closed dance hold with continuous physical connection and coordinated lead and follow",
+    "levels_jumps_turns": "upright level throughout, incorporating turns and pivots with no jumps or floor work",
+    "costume_and_props": "man in black button-down shirt, black trousers, and light tie; woman in black top and long black flared skirt with low-heeled dance shoes",
+    "cannot_infer": "exact foot pressure and micro-rhythms due to low-resolution video sampling",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "electronic keyboard"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 8,
+      "end_s": 15,
+      "what": "a progressive walking sequence traveling forward in closed ballroom hold"
+     },
+     {
+      "start_s": 27,
+      "end_s": 35,
+      "what": "a pivoting turn sequence where the couple rotates together"
+     },
+     {
+      "start_s": 103,
+      "end_s": 111,
+      "what": "side-by-side walking steps followed by a curved step and tap"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -244,6 +275,6 @@
   "polished": false,
   "file": "episodes/new-vogue.json"
  },
- "fingerprint": "2632fa6c89816ef7",
+ "fingerprint": "7ea8431ea6439ec9",
  "updated": "2026-11-21"
 }

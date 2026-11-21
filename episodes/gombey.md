@@ -1,8 +1,8 @@
 # Gombey — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Troupe Captain: authoritative, deeply knowledgeable about family lineage, and rhythmic.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Behind the Mask of Bermuda
 NARRATION: This is Gombey. 17th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (czmDldlBL3w)
 ON SCREEN: Title card: Gombey · Bermuda · 17th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is performed as a procession or a series of ritualized face
 NARRATION: The Lead Indian or Bowman scouts ahead with a bow and arrow, while Warriors carry tomahawks on their shoulders.
 NARRATION: A signature element is the 'cockfight,' where two dancers face off in a display of agility and mock combat.
 NARRATION: Watch for Cockfight, Scouting.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (czmDldlBL3w)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processional marching; circular or face-to-face formations for 'cockfights'.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -322,7 +322,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'czmDldlBL3w', 'checked_by_vision_model': True, 'title': 'BERMUDA GOMBEY'}
 Images: 0 licensed
 Footage: File:Gumba Nεmbu Piligu.webm — https://upload.wikimedia.org/wikipedia/commons/3/32/Gumba_N%CE%B5mbu_Piligu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Gumba Tobu (Pounding Millet at a funeral ).webm — https://upload.wikimedia.org/wikipedia/commons/d/d5/Gumba_Tobu_%28Pounding_Millet_at_a_funeral_%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Peacock feathers swaying in the wind, The reflection of mirrors on the capes, Close-ups of painted masks, Drummers' hands hitting the snare rims
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
+Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Gombey; https://www.wikidata.org/wiki/Q5581130

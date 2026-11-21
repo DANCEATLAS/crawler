@@ -1,13 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand-in-hand formation",
+      "difficulty": "beginner",
+      "footwork": "Stepping or jumping",
+      "formation_and_space": "Open or closed circle, chain, or line",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Jumping is mentioned as a characteristic of the 'reie' variant.",
+      "partnering": "Collective group movement",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dancers move in a continuous loop holding hands.",
+          "name": "Circle Chain"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Human voice",
+        "Lute (historical depiction)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "communal",
+        "celebratory",
+        "ritualistic"
+      ],
+      "musical_form": "Strophic song with refrain",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The sound is defined by the collective singing of the dancers, often featuring a lead singer who initiates verses while the group joins in the refrain.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Call-and-response (Rondel-type)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle or chain by holding hands.",
+        "Move in a unified step or jump pattern.",
+        "Sing in a call-and-response format with a leader."
+      ],
+      "formation": "Circle or chain",
+      "level_notes": "Beginner-friendly due to the simple, repetitive nature of circle movement.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4edea43f3d92b8e5000114125e481be31e85e7fc2f29aa8c43c23de6f0101c4d",
+  "fingerprint": "c3d8067746b3f592dc667ef99ac77161c3185799ef6b11fc6b4d55b27089f892",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +66,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -46,7 +96,7 @@
   "music_options": [],
   "name": "Choreia",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/choreia.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +108,11 @@
   "slug": "choreia",
   "sources": [
     "https://en.wikipedia.org/wiki/Choreia",
-    "Source: Choreia on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Choreia"
+    "https://www.wikidata.org/wiki/Q374364",
+    "https://es.wikipedia.org/wiki/Corea_(danza)",
+    "https://fr.wikipedia.org/wiki/Chorea",
+    "https://de.wikipedia.org/wiki/Reigen_(Tanz)"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

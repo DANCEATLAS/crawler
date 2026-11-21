@@ -267,32 +267,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 10,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
    },
    {
     "key": "rhythm",
@@ -307,15 +287,68 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "Y2JZgPdrt4A",
+   "url": "https://www.youtube.com/watch?v=Y2JZgPdrt4A",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "outdoor paved courtyard surrounded by apartment buildings in daylight",
+    "dancers": "one female solo dancer, accompanied by one seated male guitar player and two seated women clapping",
+    "formation_and_space": "solo dancer in center facing seated musicians and seated audience at a table",
+    "posture": "upright torso with flexible spine, engaged core, bent knees and weight shifting",
+    "footwork": "percussive footwork with heel and toe strikes synchronized with clapping and guitar strumming; exact weight placement cannot be verified due to sampling rate",
+    "arms_and_hands": "expressive arm movements, overhead framing of the face and wrists rolling outward",
+    "hips_and_torso": "subtle torso contractions and hip shifts responding to rhythmic accents",
+    "partnering": "none",
+    "levels_jumps_turns": "standing levels with foot stamping and circular turns",
+    "costume_and_props": "red heeled shoes, purple athletic pants with white side stripes, red top, and peach-colored jacket",
+    "cannot_infer": "exact foot placement and precise weight transfer timing due to video compression and frame rate",
+    "music_heard": {
+     "instruments": [
+      "acoustic guitar"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": ""
+    },
+    "signature_moments": [
+     {
+      "start_s": 47,
+      "end_s": 60,
+      "what": "dancer stands facing musicians with arms extended, moving her hands and fingers in circular wrist rolls while shifting weight"
+     },
+     {
+      "start_s": 129,
+      "end_s": 142,
+      "what": "dancer raises both arms overhead, crossing wrists and framing her face while executing rhythmic foot taps"
+     },
+     {
+      "start_s": 196,
+      "end_s": 210,
+      "what": "dancer claps hands overhead while spinning and maintaining direct eye contact with the camera"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -325,6 +358,6 @@
   "polished": false,
   "file": "episodes/new-flamenco.json"
  },
- "fingerprint": "5f5a7879dac7da08",
+ "fingerprint": "4440ab76012f3ad3",
  "updated": "2026-11-21"
 }

@@ -50,7 +50,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 1,
+  "have": 6,
   "of": 15,
   "missing": [
    {
@@ -66,10 +66,6 @@
     "label": "known to be living, revived or historical"
    },
    {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
     "key": "posture",
     "label": "posture"
    },
@@ -82,35 +78,123 @@
     "label": "formation and use of space"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "aad1195849f8fac8",
+ "lessons": [
+  {
+   "youtube_id": "ihm_JKGb_Ao",
+   "url": "https://www.youtube.com/watch?v=ihm_JKGb_Ao",
+   "title": "Full BEGINNERS/INTERMEDIATE Ballet Class for a Small Space | FOLLOW ALONG | Nataliya Bondar-Shelest",
+   "channel": "Nataliya Bondar-Shelest",
+   "analysed_on": "2026-11-21",
+   "level": "mixed",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:27",
+     "seconds": 27,
+     "segment": "warmup",
+     "note": "Warm up exercises starting with feet and ankle movement."
+    },
+    {
+     "t": "2:42",
+     "seconds": 162,
+     "segment": "breakdown",
+     "note": "Explanation and demonstration of barre combinations."
+    },
+    {
+     "t": "3:02",
+     "seconds": 182,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of plie combination with arm positions."
+    }
+   ],
+   "steps": [
+    {
+     "name": "demi plie",
+     "counts": "1-2",
+     "description": "Half bend of the knees keeping heels on the floor."
+    },
+    {
+     "name": "grand plie",
+     "counts": "3-4",
+     "description": "Full bend of the knees allowing heels to rise in certain positions."
+    },
+    {
+     "name": "releve",
+     "counts": "5-6",
+     "description": "Rising onto the balls of the feet."
+    }
+   ],
+   "cues": [
+    "first position feet",
+    "demi plie",
+    "grand plie",
+    "releve"
+   ],
+   "teacher_style": "The instructor guides students through each movement with precise verbal terminology and hand demonstrations. She combines professional dance experience with clear instruction focusing on classical ballet technique.",
+   "distinctive_method": "Explaining and demonstrating every exercise with hands first before performing it to music.",
+   "what_works": [
+    "Clear verbal explanation combined with hand demonstration before execution."
+   ],
+   "what_hinders": [
+    "Limited multi-angle demonstrations for foot placement."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 27,
+     "topic": "teaching",
+     "observation": "Instructor introduces herself while sitting in front of the ballet barre.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 51,
+     "end_s": 115,
+     "topic": "movement",
+     "observation": "Instructor demonstrates foot articulation and demi pointes at the barre.",
+     "viewpoint": "front",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 305,
+     "end_s": 450,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates arm positions and plie variations facing the camera without the barre.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "41d2fd7cfb38b87d",
  "updated": "2026-11-21"
 }

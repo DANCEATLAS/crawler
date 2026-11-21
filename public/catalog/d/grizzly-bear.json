@@ -41,6 +41,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Grizzly_Bear_(dance)",
   "wikidata_qid": "Q5609781",
   "unesco": false,
+  "hero_video_youtube_id": "0nXsCGyFuz8",
+  "video_stack": [
+   {
+    "youtube_id": "0nXsCGyFuz8",
+    "role": "hero",
+    "title": "Laura Grizzlypaws BEAR DANCE @ Umatilla PW 2015",
+    "channel": "Amigo Kandu",
+    "hd": true
+   },
+   {
+    "youtube_id": "AhF9U0PqE0U",
+    "role": "rendition",
+    "title": "Dance in British Columbia: Evoking the Wild Grizzly Bear's Spirit",
+    "channel": "The New York Times",
+    "hd": true
+   },
+   {
+    "youtube_id": "_FkV33jxokE",
+    "role": "rendition",
+    "title": "Dancing the Grizzly Bear | Downton Abbey",
+    "channel": "Downton Abbey",
+    "hd": true
+   },
+   {
+    "youtube_id": "TNQRAPFXND8",
+    "role": "rendition",
+    "title": "The Grizzly Bear Dance-2013",
+    "channel": "P Cary",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -76,6 +107,12 @@
   "needs_eyes_on": true,
   "movie_ready": true,
   "tradition_status": "historical",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:28Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "bunny-hug",
    "one-step",
@@ -396,16 +433,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 13,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    },
    {
     "key": "study_video",
@@ -418,11 +451,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/grizzly-bear.json"
  },
- "fingerprint": "8889a9eee0ec2b17",
+ "fingerprint": "c9226611b8ec8b8c",
  "updated": "2026-11-21"
 }

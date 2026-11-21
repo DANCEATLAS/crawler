@@ -1,8 +1,8 @@
 # Grotesque dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous but spirited historian-dancer who values athletic power over dainty aesthetics.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In 1779, Gennaro Magri redefined the 'grotesque' dancer not as a buffoon, but as a 'vortex of force' capable of multiple-turn pirouettes on one foot that put courtly amateurs to shame.
 NARRATION: This is Grotesque dance. 18th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (sEjOQ7IInTY)
 ON SCREEN: Title card: Grotesque dance · Italy; France · 18th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers use 'false positions' (inwardly turned) or 'Spanish positions
 NARRATION: The technique involves 'vortex of force' kinetic principles, where energy is concentrated and released.
 NARRATION: Key movements include pirouettes on one foot for as many turns as possible, wrapping steps, and complex airborne beats (cabrioles).
 NARRATION: Watch for Salto dell'impiccato, Pirouette on one foot, Cabrioles.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (sEjOQ7IInTY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Theatrical stage; often part of a series of tableaux (entrée de ballet).
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Grotesque dance was performed in theatrical settings, including royal courts and public theaters. Costumes often represented buffoons or specific Commedia dell'arte archetypes, designed to facilitate the high-impact jumps and turns of the style.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'sEjOQ7IInTY', 'checked_by_vision_model': True, 'title': 'BRAGOLIN - THIS GROTESQUE DANCE'}
 Images: 1 licensed — Gregorio Lambranzi / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Inward-turned feet (false positions), The 'vortex'—swirling energy visual effects, Commedia dell'arte masks, 18th-century theatrical sketches
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
+Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
+Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
 
 Sources (3): https://en.wikipedia.org/wiki/Grotesque_dance; https://www.wikidata.org/wiki/Q5610714; https://it.wikipedia.org/wiki/Danza_grottesca

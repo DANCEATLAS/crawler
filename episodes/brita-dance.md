@@ -1,8 +1,8 @@
 # Brita dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Folklorist documenting devotional dance traditions of Bengal
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Vows of Faith in West Bengal
 NARRATION: This is Brita dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (H7XS01P-huM)
 ON SCREEN: Title card: Brita dance · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (H7XS01P-huM)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -86,7 +86,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'H7XS01P-huM', 'checked_by_vision_model': True, 'title': 'Beautiful Bengali Folk Dance  |  Indian Classical Dance | Apsara 2023 |'}
 Images: 3 licensed — Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ami.bangali / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Rural West Bengal temple precincts, Devotional gathering of women
@@ -96,9 +96,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Brita_dance; https://www.wikidata.org/wiki/Q5480371

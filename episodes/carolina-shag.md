@@ -1,6 +1,6 @@
 # Carolina shag — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands
 
@@ -137,6 +137,7 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: bouncing hands up and down
 NARRATION: Teachers of this dance warn against: getting the partner out of alignment and balance during turns
+NARRATION: Teachers of this dance warn against: not maintaining tension
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the eight-step count 'one-and-two, three-and-four, five-six' using seated foot taps. · For children: Follow-the-leader along straight tape lines on the floor mimicking the slotted movement.
 MUSIC: silence
@@ -206,6 +207,7 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: bouncing hands up and down
 NARRATION: Teachers of this dance warn against: getting the partner out of alignment and balance during turns
+NARRATION: Teachers of this dance warn against: not maintaining tension
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the eight-step count 'one-and-two, three-and-four, five-six' using seated foot taps. · For children: Follow-the-leader along straight tape lines on the floor mimicking the slotted movement.
 MUSIC: silence
@@ -274,6 +276,7 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: bouncing hands up and down
 NARRATION: Teachers of this dance warn against: getting the partner out of alignment and balance during turns
+NARRATION: Teachers of this dance warn against: not maintaining tension
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the eight-step count 'one-and-two, three-and-four, five-six' using seated foot taps. · For children: Follow-the-leader along straight tape lines on the floor mimicking the slotted movement.
 MUSIC: silence
@@ -319,10 +322,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-and-2-3-and-4-5-6
 Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full; repetitions per step: about 2
-Cues: one and two; three and four; rock step; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1
-Common mistakes the studied teachers name: bouncing hands up and down; getting the partner out of alignment and balance during turns
+Cues: keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; one and two; three and four; rock step; step touch; left-right-left; right-left-right; rock-step; forward-forward-back; back-stay-stay
+Common mistakes the studied teachers name: bouncing hands up and down; getting the partner out of alignment and balance during turns; not maintaining tension; hand placement too low
 
 Sources (2): https://en.wikipedia.org/wiki/Carolina_shag; https://www.wikidata.org/wiki/Q5044924

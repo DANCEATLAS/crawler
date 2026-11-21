@@ -3,85 +3,88 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "heavy collisions",
-          "sharp elbows"
+          "Collisions",
+          "Aggressive pushing"
         ],
-        "counts": "simple 1-2 up and down counts",
-        "duration_minutes": "3",
-        "game_version": "Pogo stick jumping game without collisions"
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "A 'freeze-jump' game where children jump to the music and freeze when it stops."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "balance loss",
-          "knees stress",
-          "jumps"
+          "Jumping",
+          "High-impact landings",
+          "Crowded spaces"
         ],
-        "counts": "steady counts on the beat",
-        "seated_version": "Seated vertical torso bounce in place",
-        "standing_version": "Supported vertical bounce holding a stable bar",
-        "tempo_and_range": "reduced tempo and minimal jump height"
+        "counts": "4/4 time, simplified.",
+        "seated_version": "Perform the vertical arm and torso movements while seated, focusing on rhythm.",
+        "standing_version": "Perform a gentle, low-impact bounce without leaving the ground.",
+        "tempo_and_range": "Reduced tempo and limited range of motion."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "holding arms stiffly at the sides or flailing them",
+      "arms_and_hands": "Rigid at sides or flailing.",
       "difficulty": "beginner",
-      "footwork": "jumping straight up and down, jumping in any direction, or spinning in the air",
-      "formation_and_space": "dancers remaining on the spot or moving around in a crowd / mosh pit",
-      "hips_and_torso": "legs close together or kicking about, torso stiff or thrashing",
-      "levels_and_jumps": "vertical jumps, occasional horizontal leaps and spins",
-      "partnering": "individual movement, brief and energetic body contact with others",
-      "posture": "torsos rigid or thrashing about",
+      "footwork": "Vertical jumps, legs together.",
+      "formation_and_space": "Crowded, non-linear, collective.",
+      "hips_and_torso": "Rigid.",
+      "levels_and_jumps": "High jumps, vertical orientation.",
+      "partnering": "None; individual movement in a group.",
+      "posture": "Stiff torso, upright.",
       "signature_moves": [
         {
-          "description": "Jumping straight up and down on the spot with a stiff torso and rigid arms.",
-          "name": "Up-and-down"
+          "description": "Jumping straight up and down while keeping the torso stiff.",
+          "name": "Vertical Jump"
         }
       ],
-      "tempo_feel": "fast and frantic",
-      "what_to_avoid": "potentially dangerous behavior, though accidental bruises and split lips occur; helping fallen dancers is mandatory."
+      "tempo_feel": "Fast, frantic.",
+      "what_to_avoid": "Deliberate physical harm to others; ignoring fallen participants."
     },
     "music_profile": {
       "instruments": [
-        "electric guitar",
-        "bass guitar",
-        "drums",
-        "saxophone"
+        "Electric guitar",
+        "Electric bass",
+        "Drums"
       ],
-      "meter": "not described in sources",
+      "meter": "4/4",
       "mood_keywords": [
-        "aggressive",
-        "fast",
-        "anti-disco",
-        "energetic"
+        "Aggressive",
+        "High-energy",
+        "Defiant"
       ],
-      "musical_form": "punk rock songs",
+      "musical_form": "Punk rock song structure.",
       "reference_recordings": [
         {
           "artist": "Patricio Rey y sus Redonditos de Ricota",
           "title": "Ji ji ji"
         }
       ],
-      "rhythm_pattern": "fast-paced, anti-disco beat",
-      "sound_description": "Fast, aggressive punk rock music designed to counter the uniform disco beat, featuring driving drums and electric guitars.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "aggressive punk vocals"
+      "rhythm_pattern": "Driving, steady eighth-note pulse.",
+      "sound_description": "Fast-paced, distorted electric guitars and a heavy, driving drum beat create an urgent, high-energy atmosphere that compels the listener to move.",
+      "tempo_bpm": "140-180",
+      "vocal_style": "Aggressive, shouted, or high-energy singing."
     },
     "teaching": {
       "basic_steps": [
-        "Jump straight up and down on the spot",
-        "Keep torso stiff and legs close together",
-        "Hold arms rigidly at your sides",
-        "Optionally thrash torso or flail arms"
+        "Stand with feet together and torso upright.",
+        "Keep arms rigid at your sides.",
+        "Jump vertically off the ground.",
+        "Land softly on the balls of your feet."
       ],
-      "formation": "crowd gathered near or in front of a stage (mosh pit)",
-      "level_notes": "Beginners start with vertical jumping on the spot with rigid posture.",
-      "rhythm": "fast-paced punk rock tempo"
+      "formation": "Collective, non-synchronized group movement.",
+      "level_notes": "Beginner: Focus on vertical jumping on the spot. Intermediate: Incorporate movement around the space. Advanced: Integrate with crowd dynamics.",
+      "rhythm": "Fast, driving 4/4 time."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9345b25617aa1dbc7b03b1839b1d39c35f0a43da6c36ba1df3a4e11e22eb502c",
+  "fingerprint": "b5aa24ce4a16657d8d7fecddb42c9006157c6bdfa2b4b70bc016c349e2edc1c8",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -89,8 +92,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific regional variations in the 'code of conduct' for the pogo beyond the general consensus of helping fallen dancers? Evidence needed: Ethnographic studies of punk subcultures."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -116,7 +119,17 @@
   ],
   "music_options": [],
   "name": "Pogo",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "2fcb5a5d4d969563",
+      "next_evidence": "Ethnographic studies of punk subcultures.",
+      "question": "Are there specific regional variations in the 'code of conduct' for the pogo beyond the general consensus of helping fallen dancers?",
+      "source": "https://en.wikipedia.org/wiki/Pogo_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a more nuanced understanding of the dance's social dynamics."
+    }
+  ],
   "research_file": "research_results/pogo.json",
   "runtime_active": false,
   "scope": {
@@ -132,7 +145,8 @@
     "https://www.wikidata.org/wiki/Q840880",
     "https://es.wikipedia.org/wiki/Pogo_(baile)",
     "https://fr.wikipedia.org/wiki/Pogo_(danse)",
-    "https://de.wikipedia.org/wiki/Pogo"
+    "https://de.wikipedia.org/wiki/Pogo",
+    "https://it.wikipedia.org/wiki/Pogo_(danza)"
   ],
   "state": "researching",
   "video_evidence": [

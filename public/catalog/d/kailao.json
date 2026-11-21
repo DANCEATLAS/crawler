@@ -239,7 +239,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -251,35 +251,70 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "Vwrq3xSbhAQ",
+   "url": "https://www.youtube.com/watch?v=Vwrq3xSbhAQ",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "outdoor stage under a large white tent at a festival or competition with a seated audience in front",
+    "dancers": "a large group of young men in uniform costumes, arranged in two rows with a lead dancer moving in front",
+    "formation_and_space": "two horizontal rows spanning the stage width, with a lead dancer moving independently in the center foreground",
+    "posture": "torso upright or leaning slightly forward, knees deeply bent in a wide squat position, weight shifting dynamically between feet",
+    "footwork": "stamping, stepping wide, and rapid foot lifting/tapping synchronized with the chant beats; exact weight transfers obscured by wide skirts and distance",
+    "arms_and_hands": "holding wooden clubs or paddles, thrusting them forward, upward, or horizontally, and striking them in rhythmic unison",
+    "hips_and_torso": "torso remains relatively stable with deep squatting and occasional bending from the waist",
+    "partnering": "none",
+    "levels_jumps_turns": "deep squats, low level maintained throughout, occasional leaping or jumping steps by the lead dancer and ensemble",
+    "costume_and_props": "tall elaborate patterned headpieces, leaf skirts over patterned wrap-around skirts, bare chests with necklaces or body ornamentation; wooden clubs held in hands",
+    "cannot_infer": "exact foot placement and weight transfer details are obscured by low video resolution and distance; specific instrumental accompaniment cannot be heard clearly over the loud choral chanting",
+    "music_heard": {
+     "instruments": [],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 22,
+      "end_s": 30,
+      "what": "The group drops into a wide squat while thrusting and tapping wooden clubs in unison."
+     },
+     {
+      "start_s": 154,
+      "end_s": 162,
+      "what": "The lead dancer steps forward vigorously while the background group stamps and chants in deep squat posture."
+     },
+     {
+      "start_s": 202,
+      "end_s": 213,
+      "what": "Dancers execute synchronized powerful leg lifts while holding clubs horizontally across their bodies."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -289,6 +324,6 @@
   "polished": false,
   "file": "episodes/kailao.json"
  },
- "fingerprint": "42201be94ed090e5",
+ "fingerprint": "d492e99a173973c1",
  "updated": "2026-11-21"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "swing",
  "name": "Swing",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -11,12 +11,18 @@
   "slug": "swing",
   "name": "Swing",
   "country": "United States",
+  "country_code": "US",
+  "flag_emoji": "🇺🇸",
   "region": "North America",
-  "tagline": "United States — category of social dances that developed with the swing style of jazz music in the 1920s–1940s, with the or…",
-  "profile": "Swing dance is a category of social dances that developed with the swing style of jazz music in the 1920s–1940s, with the origin of each dance predating the swing era. Hundreds of styles of swing dancing were developed; those that have survived beyond that era include Charleston, Balboa, Lindy Hop, West Coast Swing, and Collegiate Shag. Today, the best-known of these dances is the Lindy Hop, which originated in Harlem in the early 1930s.",
-  "insight": "Shag is believed to have been the first and most popular swing dance of the original swing era\nLindy Hop evolved in the early 1930s.",
+  "family": "african-diaspora",
+  "era": "1920s–present",
+  "tagline": "A family of social dances originating in 1920s–1940s United States jazz culture.",
+  "profile": "Swing is a diverse family of social dances that evolved alongside jazz music in the United States during the 1920s and 1930s. Primarily rooted in African-American vernacular traditions, these dances are characterized by rhythmic improvisation, a signature 'bounce,' and a variety of partner connections. While the term 'swing' was initially applied to the music, it later became a catch-all for dances like Lindy Hop, Balboa, and Shag. Today, these traditions remain active worldwide through social clubs, competitions, and global workshops.",
+  "insight": "Lindy Hop, the 'grandfather' of swing dances, emerged in 1927 at Harlem's Savoy Ballroom, where dancers fused jazz rhythms into an energetic, improvisational style that defined the era.",
   "aliases": [
-   "Swing dance"
+   "Swing dance",
+   "swing dancing",
+   "jitterbug"
   ],
   "related": [
    "acro-dance",
@@ -32,13 +38,20 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Swing_(dance)",
-   "Source: Swing (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Swing_(dance)"
+   "Source: Swing (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Swing_(dance)",
+   "https://www.wikidata.org/wiki/Q123704",
+   "https://es.wikipedia.org/wiki/Swing_(baile)",
+   "https://fr.wikipedia.org/wiki/Swing_(danse)",
+   "https://pt.wikipedia.org/wiki/Swing_(dança)",
+   "https://de.wikipedia.org/wiki/Swing_(Tanz)",
+   "https://archive.org/details/childrensliterat0000curr",
+   "https://archive.org/details/smash-hits-1981-03-19"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Swing_(dance)",
   "wikidata_qid": "Q123704",
   "unesco": false,
   "hero_video_youtube_id": "LQxHfEjBhh0",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_albums": [
    {
     "title": "Back in Town (again)",
@@ -62,6 +75,57 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.25,
+  "last_researched_at": "2026-11-21T19:09:42Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Swing dance is a category of social dances that developed with the swing style of jazz music in the 1920s–1940s. The origins of these dances predate the swing era, with the majority beginning in African-American communities as vernacular dances. The Savoy Ballroom in Harlem, New York, served as a fundamental site for the popularization of these styles, particularly the Lindy Hop, which is often cited as the 'grandfather' of swing dances. Historically, the term 'swing' referred to the jazz music itself, which inspired the evolution of the dance, while the term 'jitterbug' was later used to describe the dancers and the dances themselves. The movement is defined by a high degree of physical vigor, improvisation, and a characteristic 'bounce'—a rhythmic compression into the floor that mirrors the ternary rhythm of swing music. As the music evolved from big bands to rhythm and blues and rock 'n' roll, the dances adapted, leading to a wide spectrum of styles including Balboa, Collegiate Shag, and the later West Coast Swing. During the 1940s, the dance spread globally, particularly through the influence of American troops during World War II. While the popularity of big bands waned in the 1970s, a revival beginning in the 1980s and 1990s has seen these dances flourish in social and competitive circuits worldwide. Today, swing dance is practiced in various formats, from social dance halls to structured competitions, and continues to influence modern dance forms.",
+  "album_candidates": [
+   {
+    "title": "Not described in sources",
+    "artist": "Duke Ellington",
+    "source": "https://fr.wikipedia.org/wiki/Swing_(danse)",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Moore_Theatre_100_Years_-_swing_dance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Moore_Theatre_100_Years_-_swing_dance_04.jpg/1280px-Moore_Theatre_100_Years_-_swing_dance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2592,
+    "height": 1944,
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Joe Mabel / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMoore_Theatre_100_Years_-_swing_dance_04.jpg",
+    "description": "Peter Loggins and Mia Goldsmith swing dancing at the Moore 100 Open House Celebration, celebration of the 100th anniversary of the Moore Theatre, Seattle, Washington."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 974,
+    "height": 1400,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "William H. Johnson / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWilliam_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg",
+    "description": "Artist: William H. Johnson, born Florence, SC 1901-died Central Islip, NY 1970\nType: Graphic Arts-Print\nDate: ca. 1941-1942\nTopic: Figure group\n     Ethnic\\African-American\n     Recreation\\dancing\n     Object\\musical instrument\\drum\n     Object\\musical instrument\\horn\nObject number: 1971.136\nMedium: serigraph on paper\nCredit Line: Smithsonian American Art Museum, Gift of Mrs. Douglas E. Younger\nPe"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Swing_Dancing_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Swing_Dancing_photo.jpg/1280px-Swing_Dancing_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4324,
+    "height": 2461,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "David McSpadden / Wikimedia Commons / CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASwing_Dancing_photo.jpg",
+    "description": "San Francisco Sunday Streets: Valencia"
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_replaced",
   "hero_qc": {
    "verdict": "pass",
@@ -129,6 +193,376 @@
    "chicago-stepping"
   ]
  },
- "fingerprint": "27760ca4733fda92",
+ "profile": {
+  "sections": {
+   "origins_and_history": "Swing dance originated in the 1920s within African-American communities in the United States, particularly in Harlem, New York. The Savoy Ballroom was central to this development, fostering a fusion of jazz-based movements that resulted in the Lindy Hop. Over the following decades, the dance evolved into various regional and stylistic forms, spreading across the U.S. and eventually to Europe.",
+   "how_it_is_danced": "Swing dances are generally performed in pairs, though solo variations exist. The technique typically involves a 'bounce' or rhythmic compression into the floor. Basic steps are often counted in six or eight-beat patterns. Partners maintain a connection that ranges from close, chest-to-chest contact (as in Balboa) to open, elastic connections (as in Lindy Hop or West Coast Swing).",
+   "music_and_instruments": "Swing dance is danced to swing-style jazz, characterized by a ternary rhythm (12/8 feel) that gives the music a 'bouncing' quality. Instrumentation typically includes brass sections (trumpets, trombones, saxophones) and a rhythm section (drums, bass, piano, guitar).",
+   "costume_and_setting": "Historically associated with dance halls and juke joints, swing is now performed in studios, clubs, and competition venues. There is no specific costume, though comfortable, durable clothing and shoes that allow for movement and sliding are standard.",
+   "occasions_and_meaning": "Swing is a social dance, though it has developed a significant competitive culture. It is used for recreation, community building, and artistic expression. In some contexts, it is a competitive sport with standardized judging criteria.",
+   "notable_figures": "Frankie Manning, George Snowden, Dean Collins, and Hal Takier are key figures historically associated with the development and preservation of swing dance styles.",
+   "regional_variants": "Variants include the Lindy Hop (Harlem), Balboa (Southern California), Collegiate Shag (Carolinas), West Coast Swing (California), and Swing Criollo (Costa Rica).",
+   "lineage": "Swing dance is rooted in African-American vernacular dance traditions, influenced by jazz music, and has since branched into numerous derivatives including Jive, Boogie-Woogie, and modern competitive forms."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Triple step (triple-step, triple-step)",
+    "Rock step (back, replace)"
+   ],
+   "rhythm": "6 or 8 count patterns",
+   "formation": "Partnered (closed or open position) or solo",
+   "level_notes": "Beginners typically start with 6-count East Coast Swing before progressing to 8-count Lindy Hop or slotted dances like West Coast Swing."
+  },
+  "claims": [
+   {
+    "text": "Swing dance is a category of social dances that developed with the swing style of jazz music in the 1920s–1940s.",
+    "source": "https://en.wikipedia.org/wiki/Swing_(dance)"
+   },
+   {
+    "text": "Lindy Hop, which originated in Harlem in the early 1930s, is the best-known of these dances.",
+    "source": "https://en.wikipedia.org/wiki/Swing_(dance)"
+   },
+   {
+    "text": "The term 'jitterbug' was associated with band leader Cab Calloway, who described the dancers as looking like 'a bunch of jitterbugs'.",
+    "source": "https://en.wikipedia.org/wiki/Swing_(dance)"
+   },
+   {
+    "text": "Balboa is a fast eight-count dance in closed position that evolved in Southern California.",
+    "source": "https://en.wikipedia.org/wiki/Swing_(dance)"
+   },
+   {
+    "text": "The Savoy Ballroom in Harlem was the home of the Lindy Hop.",
+    "source": "https://en.wikipedia.org/wiki/Swing_(dance)"
+   },
+   {
+    "text": "Swing dance is a living tradition with clubs and contests held worldwide.",
+    "source": "https://en.wikipedia.org/wiki/Swing_(dance)"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Moore Theatre 100 Years - swing dance 04.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Moore_Theatre_100_Years_-_swing_dance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Moore_Theatre_100_Years_-_swing_dance_04.jpg/1280px-Moore_Theatre_100_Years_-_swing_dance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2592,
+    "height": 1944,
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Joe Mabel",
+    "description": "Peter Loggins and Mia Goldsmith swing dancing at the Moore 100 Open House Celebration, celebration of the 100th anniversary of the Moore Theatre, Seattle, Washington.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMoore_Theatre_100_Years_-_swing_dance_04.jpg",
+    "attribution": "Joe Mabel / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:William H. Johnson - Jitterbugs (V) - Smithsonian American Art Museum.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 974,
+    "height": 1400,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "William H. Johnson",
+    "description": "Artist: William H. Johnson, born Florence, SC 1901-died Central Islip, NY 1970\nType: Graphic Arts-Print\nDate: ca. 1941-1942\nTopic: Figure group\n     Ethnic\\African-American\n     Recreation\\dancing\n     Object\\musical instrument\\drum\n     Object\\musical instrument\\horn\nObject number: 1971.136\nMedium: serigraph on paper\nCredit Line: Smithsonian American Art Museum, Gift of Mrs. Douglas E. Younger\nPe",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWilliam_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg",
+    "attribution": "William H. Johnson / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Swing Dancing photo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Swing_Dancing_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Swing_Dancing_photo.jpg/1280px-Swing_Dancing_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4324,
+    "height": 2461,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "David McSpadden",
+    "description": "San Francisco Sunday Streets: Valencia",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASwing_Dancing_photo.jpg",
+    "attribution": "David McSpadden / Wikimedia Commons / CC BY 2.0"
+   }
+  ],
+  "gaps": [
+   "Specific historical album titles are not provided in the sources.",
+   "Detailed pedagogical breakdown of all regional variants is not provided."
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "170-200 (varies by style)",
+   "meter": "4/4",
+   "rhythm_pattern": "Swing rhythm (ternary feel)",
+   "instruments": [
+    "Brass section",
+    "Drums",
+    "Double bass",
+    "Piano",
+    "Guitar"
+   ],
+   "vocal_style": "Jazz-inflected",
+   "musical_form": "Big band jazz",
+   "mood_keywords": [
+    "Energetic",
+    "Bouncy",
+    "Upbeat"
+   ],
+   "reference_recordings": [],
+   "sound_description": "Recognizable by a driving, syncopated rhythm section and a 'swing' feel where the eighth notes are unequal, creating a forward-moving, bouncy energy."
+  },
+  "movement_profile": {
+   "posture": "Upright or athletic, with a slight forward lean in some styles.",
+   "footwork": "Triple steps and rock steps are common in 6-count variations.",
+   "arms_and_hands": "Used for lead-follow communication; connection is elastic.",
+   "hips_and_torso": "Torso remains relatively stable while hips and legs facilitate the bounce.",
+   "formation_and_space": "Circular or slotted (linear) depending on the specific style.",
+   "partnering": "Lead-follow communication through physical connection.",
+   "tempo_feel": "Bouncy and energetic.",
+   "signature_moves": [
+    {
+     "name": "Swingout",
+     "description": "An 8-count basic move that transitions from closed to open position and back."
+    }
+   ],
+   "levels_and_jumps": "Aerials are common in performance Lindy Hop but restricted in some social dance settings.",
+   "difficulty": "beginner",
+   "what_to_avoid": "Excessive tension in the arms; ignoring partner's comfort."
+  },
+  "episode_brief": {
+   "title_hook": "The Rhythm of the Savoy",
+   "logline": "Discover the high-energy world of swing, from its Harlem roots to the global dance floors of today.",
+   "beats": [
+    "Introduction to the swing era and the Savoy Ballroom.",
+    "The role of jazz music in shaping the movement.",
+    "Demonstration of the basic 6-count step.",
+    "The evolution of regional styles like Balboa and West Coast Swing.",
+    "Social etiquette and the importance of partner connection.",
+    "Modern-day swing culture and global workshops."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Master the 6-count basic step",
+     "drills": [
+      "Triple step rhythm practice",
+      "Rock step weight transfer",
+      "Partner connection exercise"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Archival footage of the Savoy Ballroom",
+    "Close-ups of footwork",
+    "Dynamic partner turns"
+   ],
+   "instructor_persona": "Energetic, clear, and focused on social connection.",
+   "music_cue": "Upbeat big band jazz track"
+  },
+  "connections": [
+   {
+    "name": "Lindy Hop",
+    "relation": "parent",
+    "note": "Considered the 'grandfather' of swing dances."
+   },
+   {
+    "name": "Balboa",
+    "relation": "sibling",
+    "note": "Developed in Southern California dance halls."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated rhythmic movement focusing on arm and torso engagement.",
+    "standing_version": "Supported standing steps with reduced tempo and no jumps.",
+    "tempo_and_range": "Reduced tempo; focus on small, controlled movements.",
+    "counts": "Simplified 4-count patterns.",
+    "avoid": [
+     "Jumps",
+     "Rapid turns",
+     "High-impact footwork"
+    ]
+   },
+   "children": {
+    "game_version": "Simplified 'follow-the-leader' game using basic swing rhythms.",
+    "duration_minutes": "15-20 minutes",
+    "counts": "Simplified 4-count steps.",
+    "avoid": [
+     "Complex partner connections",
+     "High-speed rotations"
+    ]
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "File:The mystic swing (1900).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_mystic_swing_%281900%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "description": "American short silent trick film. From Edison films catalog: \"The professor shows his power to Mephisto by mysteriously placing a young lady in a swing. Mephisto then shows his power by making the young lady disappear from the swing, to the surprise of the professor. The professor makes another myst",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_mystic_swing_%281900%29.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Multi-arm Swing Test Odl0TFh0Qy0.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Multi-arm_Swing_Test_Odl0TFh0Qy0.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "NASA's Kennedy Space Center / Wikimedia Commons / Public domain",
+    "description": "Exploration Ground Systems continued to make sure the mobile launcher is ready for Artemis I with a multi-arm swing test on Friday, October 4, 2019 at Launch Pad 39B at Kennedy Space Center in Florida. The Umbilical Arm Simultaneous Retract Test included retraction of the connections that will provi",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMulti-arm_Swing_Test_Odl0TFh0Qy0.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Boy enjoying rope and log swing.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Boy_enjoying_rope_and_log_swing.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Geossegawa / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "Boy enjoys Rope and wood log swing tied on tree branch",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABoy_enjoying_rope_and_log_swing.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Hikers on a swing in Steigerwald.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Hikers_on_a_swing_in_Steigerwald.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Elfabso / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "Hikers on a ginat swing in Steigerwald near Ebrach, Bavaria",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHikers_on_a_swing_in_Steigerwald.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Swing You Sinners! Original Print.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Swing_You_Sinners%21_Original_Print.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Paramount Pictures / Wikimedia Commons / Public domain",
+    "description": "1931 film",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASwing_You_Sinners%21_Original_Print.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:(20260404 154546659) Medieval swing ride Leipzig.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/%2820260404_154546659%29_Medieval_swing_ride_Leipzig.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Roy Zuo / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "Medieval-style swing ride, Leipzig.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%2820260404_154546659%29_Medieval_swing_ride_Leipzig.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Swing Dance.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Swing_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "vincefry100 / Wikimedia Commons / CC BY 3.0",
+    "description": "Evita and Michael at 2011 Catalina Swing Dance Festival",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASwing_Dance.webm",
+    "source": "commons"
+   },
+   {
+    "title": "File:Swing dance in Toronto in November 2023 video.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Swing_dance_in_Toronto_in_November_2023_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Sdkb / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "A Lindy Hop swing dance in Toronto in November 2023, attended during WikiConference North America 2023.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASwing_dance_in_Toronto_in_November_2023_video.webm",
+    "source": "commons"
+   }
+  ],
+  "researched_at": "2026-11-21T19:09:42Z",
+  "qc_score": 9.25
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   }
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "LQxHfEjBhh0",
+   "url": "https://www.youtube.com/watch?v=LQxHfEjBhh0",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor ballroom stage with red curtains and seated audience",
+    "dancers": "one couple: one man and one woman",
+    "formation_and_space": "couple dancing in close proximity, staying on a wooden dance floor",
+    "posture": "upright torso with flexible, bouncing knees and shifting weight",
+    "footwork": "quick syncopated steps, triple steps, and weight shifts on the beat",
+    "arms_and_hands": "partner connection with one or two-hand holds, releasing for solo spins and flourishes",
+    "hips_and_torso": "fluid hip movement and torso bounces matching the rhythm",
+    "partnering": "partner dance with lead and follow, closed and open holds, spins, and turns",
+    "levels_jumps_turns": "spins underarm, partner turns, small jumps, and low dips",
+    "costume_and_props": "casual black outfits: woman in black crop top and loose trousers; man in black polo and trousers",
+    "cannot_infer": "exact foot placement details and low-level body tension due to camera cuts and framing",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "bass",
+      "keyboard",
+      "horns"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 1,
+      "end_s": 3,
+      "what": "woman jumps into the air with a mushroom prop while man watches"
+     },
+     {
+      "start_s": 13,
+      "end_s": 16,
+      "what": "underarm turn with quick footwork and hand connection"
+     },
+     {
+      "start_s": 35,
+      "end_s": 39,
+      "what": "partnered spin into a low dip"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 2,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/swing.json"
+ },
+ "fingerprint": "5225513712b1fb7a",
  "updated": "2026-11-21"
 }

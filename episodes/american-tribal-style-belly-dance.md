@@ -1,6 +1,6 @@
 # American Tribal Style Belly Dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); signature moves; two or more connections; teaching steps written out
 

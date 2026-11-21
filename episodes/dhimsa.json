@@ -1,0 +1,382 @@
+{
+ "slug": "dhimsa",
+ "name": "Dhimsa",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T18:26:50Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A village elder from the Porja community, emphasizing rhythm as a form of collective relief and identity.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Dhimsa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Dhimsa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Sound of Footsteps",
+     "This is Dhimsa. Ancient/Living tradition."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Dhimsa · India · Ancient/Living tradition"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Dhimsa originated in the Koraput district of Odisha, India.",
+     "It is deeply rooted in the culture of the tribal communities living near the Araku Valley and Borra Caves.",
+     "Historically, the dance was performed by unmarried youth as a social activity."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Dhimsa is performed for various reasons: as a relaxation during work, during matrimonial alliances, and for religious worship.",
+     "It serves as a communal bond, with no discrimination regarding who can join.",
+     "The 'Boda Dhimsa' variant is specifically dedicated to the worship of village gods and goddesses.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Folk and Tribal Dance Performance by Folk and Tribal Dance Academy (https://archive.org/details/dni.ncaa.ICCR-2578-VHS)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a chain formation, typically consisting of 15 to 20 women who link together to form circles.",
+     "The movement is dominated by synchronized footwork and hand gestures.",
+     "Dancers move in patterns that create smaller and larger circles.",
+     "Watch for Goddi Beta, Boda Dhimsa."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Chain formation moving in expanding and contracting circles."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is traditionally played by men using a specific set of tribal instruments.",
+     "These include the Dappu (a drum played with a short stick), the Tudumu, the Mori (a trumpet-like reed instrument), the Kiridi, and the Jodukommulu.",
+     "Listen for the Dappu, Tudumu, Mori, Kiridi.",
+     "The sound is dominated by the sharp, percussive strike of the Dappu drum and the high-pitched, melodic wail of the Mori reed instrument, creating a loud and energetic atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Heavy rhythmic beats emphasizing the sound of footsteps."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear bright, colorful sarees in earthy tones such as green, red, and yellow, typically worn at calf-length (just below the knee) to facilitate movement.",
+     "They adorn themselves with traditional tribal ornaments and necklaces.",
+     "The dance is usually performed outdoors, in village squares or near natural sites like the Borra Caves and Araku Valley."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The sources do not name specific individual dancers or choreographers, as Dhimsa is a collective tribal tradition rather than a soloist-driven form.",
+     "There are twelve popular variations, including Bhag Dhimisa, Natikari Dhimsa, Kunda Dhimisa, Pathartola Dhimisa, Pedda Dhimisa, Sambor Nisani Dhimisa, Bayya Dhimisa, Mouli Dhimisa, Choti Dhimisa, Boda Dhimsa (ritual worship), and Goddi Beta Dimsa (forward and backward movement).",
+     "Dhimsa is a tribal folk dance of the Porja and other communities in the Odisha-Andhra Pradesh border region."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Dhimsa is same region of Chhau: Another major dance tradition from the Odisha region, though more martial and masked."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Boda Dhimsa variation involves the worship of village gods and goddesses; outsiders should observe with respect and follow local guidance regarding participation in ritual sequences."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the shadow of the Borra Caves, a tribal community turns the rhythm of daily labor into a mesmerizing circular dance of survival and spirit.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Heavy rhythmic beats emphasizing the sound of footsteps.",
+  "instruments": [
+   "Dappu",
+   "Tudumu",
+   "Mori",
+   "Kiridi",
+   "Jodukommulu"
+  ],
+  "vocal_style": null,
+  "musical_form": "Cyclical and repetitive to support continuous group dancing.",
+  "mood": [
+   "earthy",
+   "rhythmic",
+   "communal",
+   "vibrant"
+  ],
+  "sound_description": "The sound is dominated by the sharp, percussive strike of the Dappu drum and the high-pitched, melodic wail of the Mori reed instrument, creating a loud and energetic atmosphere.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Dhimsa (India). Rhythm pattern: Heavy rhythmic beats emphasizing the sound of footsteps.. Instruments: Dappu, Tudumu, Mori, Kiridi, Jodukommulu. Form: Cyclical and repetitive to support continuous group dancing.. Mood: earthy, rhythmic, communal, vibrant. It should sound like this: The sound is dominated by the sharp, percussive strike of the Dappu drum and the high-pitched, melodic wail of the Mori reed instrument, creating a loud and energetic atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear bright, colorful sarees in earthy tones such as green, red, and yellow, typically worn at calf-length (just below the knee) to facilitate movement. They adorn themselves with traditional tribal ornaments and necklaces. The dance is usually performed outdoors, in village squares or near natural sites like the Borra Caves and Araku Valley.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAraku_Tribal_Dancers.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Araku_Tribal_Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Araku_Tribal_Dancers.jpg/1280px-Araku_Tribal_Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "No machine-readable author provided. Robbygrine assumed (based on copyright claims). / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAraku_Tribal_Dancers.jpg",
+    "description": "Tribal dancers perform in Araku Valley, Andhra Pradesh, India\nPhoto by Robert Griner\n\nMay 2005"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Folk and Tribal Dance Performance by Folk and Tribal Dance Academy",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-2578-VHS",
+    "year": 1989,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Concentric circles",
+   "Earthy tones of sarees (green, red, yellow)",
+   "The Mori reed instrument",
+   "The rugged landscape of the Araku Valley"
+  ],
+  "costume_notes": "Dancers wear bright, colorful sarees in earthy tones such as green, red, and yellow, typically worn at calf-length (just below the knee) to facilitate movement. They adorn themselves with traditional tribal ornaments and necklaces. The dance is usually performed outdoors, in village squares or near natural sites like the Borra Caves and Araku Valley.",
+  "setting_notes": "Dhimsa is performed for various reasons: as a relaxation during work, during matrimonial alliances, and for religious worship. It serves as a communal bond, with no discrimination regarding who can join. The 'Boda Dhimsa' variant is specifically dedicated to the worship of village gods and goddesses.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dhimsa",
+  "https://www.wikidata.org/wiki/Q24930364"
+ ],
+ "claims_verified": 9,
+ "claims": 9,
+ "polished": false,
+ "input_fingerprint": "78acf76e2d8e168a3cc562a7cd6629c48e6cc02f70da0f70a26940250bfa81cf",
+ "hero_checked": null
+}

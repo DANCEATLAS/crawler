@@ -1,6 +1,6 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-21T09:00:30Z",
+ "generated_at": "2026-11-21T19:42:50Z",
  "last_night": {
   "date": "2026-11-20",
   "started": "2026-11-20T17:52:43Z",
@@ -203,16 +203,16 @@
   }
  ],
  "counts": {
-  "listed": 1244,
-  "researched": 589,
-  "published": 476,
-  "active_ready": 32,
-  "one_short": 41,
-  "two_short": 39,
-  "three_to_five_short": 87,
-  "story_ready_teaching_withheld": 43,
-  "lessons_studied": 170,
-  "performances_observed": 121
+  "listed": 1272,
+  "researched": 630,
+  "published": 512,
+  "active_ready": 37,
+  "one_short": 45,
+  "two_short": 46,
+  "three_to_five_short": 119,
+  "story_ready_teaching_withheld": 46,
+  "lessons_studied": 203,
+  "performances_observed": 171
  },
  "line": [
   {
@@ -259,86 +259,95 @@
    "active_ready": 32,
    "lessons_studied": 170,
    "performances_observed": 121
+  },
+  {
+   "date": "2026-11-21",
+   "listed": 1272,
+   "researched": 630,
+   "published": 512,
+   "active_ready": 37,
+   "lessons_studied": 203,
+   "performances_observed": 171
   }
  ],
  "pace": {
-  "days": 4,
+  "days": 5,
   "per_night": {
-   "listed": 22.2,
-   "published": 29.2,
-   "active_ready": 6.8
+   "listed": 23.4,
+   "published": 30.6,
+   "active_ready": 6.4
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 279
+   "profiles": 297
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 207
+   "profiles": 193
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 176
-  },
-  {
-   "key": "signature_moves",
-   "label": "two or more signature moves",
-   "profiles": 145
-  },
-  {
-   "key": "posture",
-   "label": "posture",
-   "profiles": 138
-  },
-  {
-   "key": "rhythm",
-   "label": "tempo, meter or the teacher's count",
-   "profiles": 138
+   "profiles": 188
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 137
+   "profiles": 147
   },
   {
-   "key": "arms",
-   "label": "arms and hands",
-   "profiles": 109
+   "key": "signature_moves",
+   "label": "two or more signature moves",
+   "profiles": 127
+  },
+  {
+   "key": "rhythm",
+   "label": "tempo, meter or the teacher's count",
+   "profiles": 121
+  },
+  {
+   "key": "posture",
+   "label": "posture",
+   "profiles": 113
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 100
+   "profiles": 111
   },
   {
-   "key": "sound",
-   "label": "the instruments and what the music sounds like",
-   "profiles": 95
+   "key": "arms",
+   "label": "arms and hands",
+   "profiles": 89
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 77
+   "profiles": 82
+  },
+  {
+   "key": "sound",
+   "label": "the instruments and what the music sounds like",
+   "profiles": 76
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 76
+   "profiles": 66
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 63
+   "profiles": 45
   },
   {
    "key": "status",
    "label": "known to be living, revived or historical",
-   "profiles": 31
+   "profiles": 30
   }
  ],
  "closest": [
@@ -370,6 +379,16 @@
    ],
    "need_keys": [
     "footwork_counts"
+   ]
+  },
+  {
+   "slug": "bugg",
+   "name": "Bugg",
+   "needs": [
+    "ordered basic steps or a lesson ladder"
+   ],
+   "need_keys": [
+    "lesson_plan"
    ]
   },
   {
@@ -523,6 +542,36 @@
    ]
   },
   {
+   "slug": "geommu",
+   "name": "Geommu",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
+   "slug": "gombey",
+   "name": "Gombey",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
+   "slug": "grotesque-dance",
+   "name": "Grotesque dance",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
    "slug": "huaylarsh",
    "name": "Huaylarsh",
    "needs": [
@@ -540,6 +589,16 @@
    ],
    "need_keys": [
     "picture"
+   ]
+  },
+  {
+   "slug": "j-setting",
+   "name": "J-Setting",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
    ]
   },
   {
@@ -613,6 +672,16 @@
    ]
   },
   {
+   "slug": "pantsula",
+   "name": "Pantsula",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
+   ]
+  },
+  {
    "slug": "pas-de-deux",
    "name": "pas de deux",
    "needs": [
@@ -620,6 +689,16 @@
    ],
    "need_keys": [
     "footwork_counts"
+   ]
+  },
+  {
+   "slug": "passacaglia",
+   "name": "passacaglia",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
    ]
   },
   {
@@ -663,16 +742,6 @@
    ]
   },
   {
-   "slug": "sega",
-   "name": "Sega",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
    "slug": "sequence-dance",
    "name": "Sequence dance",
    "needs": [
@@ -680,66 +749,6 @@
    ],
    "need_keys": [
     "mistakes"
-   ]
-  },
-  {
-   "slug": "serpentine-dance",
-   "name": "Serpentine dance",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
-   "slug": "shim-sham",
-   "name": "Shim Sham",
-   "needs": [
-    "the instruments and what the music sounds like"
-   ],
-   "need_keys": [
-    "sound"
-   ]
-  },
-  {
-   "slug": "siva-afi",
-   "name": "Siva Afi",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
-   "slug": "slide",
-   "name": "Slide",
-   "needs": [
-    "origins, meaning and occasions, dress and setting — written from sources"
-   ],
-   "need_keys": [
-    "story"
-   ]
-  },
-  {
-   "slug": "solea",
-   "name": "Soleá",
-   "needs": [
-    "known to be living, revived or historical"
-   ],
-   "need_keys": [
-    "status"
-   ]
-  },
-  {
-   "slug": "tobas",
-   "name": "Tobas",
-   "needs": [
-    "known to be living, revived or historical"
-   ],
-   "need_keys": [
-    "status"
    ]
   }
  ],
@@ -764,10 +773,10 @@
    "spirituality_and_dance"
   ],
   "papers_read": 9,
-  "lessons_studied": 51,
-  "teachers_studied": 45,
+  "lessons_studied": 60,
+  "teachers_studied": 53,
   "findings_checked": 106,
-  "practices": 34,
-  "practices_in_dna": 23
+  "practices": 37,
+  "practices_in_dna": 24
  }
 }

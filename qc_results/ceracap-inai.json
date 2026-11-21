@@ -1,0 +1,123 @@
+{
+ "slug": "ceracap-inai",
+ "qc_at": "2026-11-21T19:18:26Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ceracap Inai"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "73"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "170"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Dancers balance lit candles and golden flowers to honor the 'King of the Day', a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "504"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3230"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/7 rate=0.857"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Malaysia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'worship', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the dance is a 'living tradition in Malaysia' is not explicitly supported by the provided evidence quote, which only lists the country as a metadata field."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and culturally respectful. It provides clear, concrete details about the Muar District origins and the specific props used. The teaching section is practical and safe, particularly the adaptations for seniors and children."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.35",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
+ },
+ "researched_at": "2026-11-21T18:25:38Z"
+}

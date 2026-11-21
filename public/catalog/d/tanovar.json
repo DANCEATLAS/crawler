@@ -238,55 +238,84 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 12,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "tcAY_qEsnus",
+   "url": "https://www.youtube.com/watch?v=tcAY_qEsnus",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor stage with dark backdrop and projection screen showing competition logo",
+    "dancers": "one female solo dancer",
+    "formation_and_space": "solo performer moving across the stage floor",
+    "posture": "upright torso, erect carriage, graceful head tilts",
+    "footwork": "light stepping patterns, turns on balls of feet, kneeling transitions",
+    "arms_and_hands": "expressive arm movements, wrist rotations, fluid hand gestures, arms held in graceful frames",
+    "hips_and_torso": "minimal hip movement, occasional upper body bends and turns",
+    "partnering": "none",
+    "levels_jumps_turns": "spins, turns, dropping to knees on the floor",
+    "costume_and_props": "layered traditional gown with metallic stripes, white underskirt, decorative belt, headpiece with long veil, necklaces",
+    "cannot_infer": "exact footwork details obscured by long skirt length and stage lighting",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "stringed instrument",
+      "wind instrument"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 30,
+      "end_s": 37,
+      "what": "graceful turning while articulating wrist and hand movements with head tilts"
+     },
+     {
+      "start_s": 109,
+      "end_s": 113,
+      "what": "spinning and smoothly dropping directly onto both knees on the floor"
+     },
+     {
+      "start_s": 204,
+      "end_s": 213,
+      "what": "kneeling on the stage floor while moving arms gracefully in front of the body"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -296,6 +325,6 @@
   "polished": false,
   "file": "episodes/tanovar.json"
  },
- "fingerprint": "6397baca5bed689e",
+ "fingerprint": "0dda66603160f863",
  "updated": "2026-11-21"
 }

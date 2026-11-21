@@ -1,0 +1,147 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Fluid arm movements accentuated by hand-held fans (tegumiaq) or finger masks.",
+      "difficulty": "intermediate",
+      "footwork": "Stationary kneeling for men; standing rhythmic shifting for women.",
+      "formation_and_space": "Linear rows with men in front and women behind; drummers at the very back.",
+      "hips_and_torso": "Rhythmic swaying and motions that correspond to the storytelling of the song.",
+      "levels_and_jumps": "Low levels (kneeling) and medium levels (standing); no jumps described.",
+      "partnering": "None; communal group performance.",
+      "posture": "Men typically kneeling; women standing.",
+      "signature_moves": [
+        {
+          "description": "A section of voiceless motion within the dance structure.",
+          "name": "Cauyarialnguq"
+        },
+        {
+          "description": "The encore or 'tail' of the dance where the energy increases.",
+          "name": "Pamyua"
+        }
+      ],
+      "tempo_feel": "Varies from slow (ingula) to fast (cukaqautet).",
+      "what_to_avoid": "Striking the drum from below (this is Iñupiaq style, not Yup'ik)."
+    },
+    "music_profile": {
+      "instruments": [
+        "Cauyaq (bentwood frame drum)",
+        "Cauyaun (drum stick)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "spiritual",
+        "communal",
+        "storytelling",
+        "rhythmic"
+      ],
+      "musical_form": "Warm-up chorus, chorus, first verse, voiceless motion, second verse, encore (pamyua).",
+      "reference_recordings": [
+        {
+          "artist": "not described in sources",
+          "title": "Drums of Winter (Uksuum Cauyai)"
+        }
+      ],
+      "rhythm_pattern": "Rhythmic beating of a frame drum from above.",
+      "sound_description": "The sound is dominated by the resonant, sharp strike of a single or multiple frame drums hit from above, accompanying unison or melodic chanting in the Yup'ik language.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Songs in Yup'ik language with specific verse and chorus structures."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Kneeling posture (for men) or standing posture (for women)",
+        "Grasping the tegumiaq (finger masks or fans)",
+        "Fluid arm extensions to accentuate song lyrics",
+        "Rhythmic torso swaying in time with the cauyaq (drum)",
+        "Pamyua (encore) - repeating the final verse with increased energy"
+      ],
+      "formation": "Tiered: Men kneeling in front, women standing behind, drummers in the rear.",
+      "level_notes": "Beginners start with basic arm motions and learning the song structures before moving to complex storytelling gestures.",
+      "rhythm": "Steady pulse provided by the frame drum struck from above."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "51c06237db5d9c3def6aa115f9f7a667ab63545123b86b8ee77c1e31f0f5c47b",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the standard BPM range for 'cukaqautet' (fast beat dances) versus 'ingulautet' (slow dances)? Evidence needed: https://en.wikipedia.org/wiki/Yup%CA%BCik_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand gestures for different animals in the storytelling dances? Evidence needed: https://en.wikipedia.org/wiki/Yup%CA%BCik_dance"
+    ]
+  },
+  "id": "atlas:yup-ik-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Yup'ik dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d75ef6b94a99024b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Yup%CA%BCik_dance",
+      "question": "What are the specific hand gestures for different animals in the storytelling dances?",
+      "source": "https://en.wikipedia.org/wiki/Yup%CA%BCik_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the 'yurapiat' (storytelling dances) accurately, the specific symbolic meanings of gestures must be documented."
+    },
+    {
+      "domain": "research",
+      "id": "511ef1d951ca66f8",
+      "next_evidence": "https://en.wikipedia.org/wiki/Yup%CA%BCik_dance",
+      "question": "What is the standard BPM range for 'cukaqautet' (fast beat dances) versus 'ingulautet' (slow dances)?",
+      "source": "https://en.wikipedia.org/wiki/Yup%CA%BCik_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Musical profiles require specific tempo ranges to guide composers or practitioners."
+    }
+  ],
+  "research_file": "research_results/yup-ik-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "yup-ik-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yup%CA%BCik_dance",
+    "https://www.wikidata.org/wiki/Q20712759"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

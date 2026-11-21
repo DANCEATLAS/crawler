@@ -1,0 +1,447 @@
+{
+ "slug": "gaudiya-nritya",
+ "name": "Gaudiya Nritya",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T17:11:57Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An authoritative dance historian and practitioner focused on classical reconstruction and sacred narrative.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Gaudiya Nritya",
+   "Gauriya Nritya",
+   "Gouriyo Nrityo"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Gaudiya Nritya",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Resurrecting Bengal's Lost Temple Stances",
+     "This is Gaudiya Nritya. Ancient origin; reconstructed 1980s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Gaudiya Nritya · India · Ancient origin; reconstructed 1980s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The theoretical foundations of Gaudiya Nritya derive from the ancient Sanskrit treatise Natyashastra.",
+     "Physical evidence of its historic practice is visible in temple sculptures and archaeological sites across Bengal associated with Hinduism, Buddhism, and Jainism, as well as in ancient Bengali poetry.",
+     "Historical literature attests to the style; notably, the 17th-century Sanskrit treatise Abhinaya Chandrika by Maheswara Mohapatra of Odisha lists Gaudiya dance as one of seven regional dance styles."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Gaudiya Nritya is a devotional classical art form traditionally executed to express religious narratives and philosophical concepts.",
+     "Its performances convey Vaishnavite devotional themes, Shakta religious ideas, and veneration of deities such as Shiva and Ganesha through songs composed by ancient poets.",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage: Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. V) (https://archive.org/details/dni.ncaa.IGNCA-1045-UM)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music in Gaudiya Nritya is centered on sacred Hindu traditions, primarily Vaishnavism, Shakta themes, and songs dedicated to Shiva and Ganesha.",
+     "Kirtana forms the musical mainstay, classified as a Medini type of Prabandha-giti featuring six angas (svara, viruda, pada, tenaka, pata, tala).",
+     "Listen for the Pakhavaj, Shrikhol.",
+     "The pulse is Variable multi-meter cycles determined by varṇakāla (4 to 68 units).",
+     "The soundscape of Gaudiya Nritya is characterized by resonant, complex drumming from the Pakhavaj and Shrikhol supporting classical devotional singing. Verses follow classical ragas and structured Prabandha-giti forms like Kirtana, built over precise rhythmic metric cycles."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Varṇakāla cycles such as Aditala (4), Lopha (6 or 12), and Canchuputa/Karpha (8)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 7 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historical and contemporary figures associated with Gaudiya Nritya include researcher Mahua Mukherjee, who reconstructed the form in the 1980s; Indologist Bratindra Nath Mukhopadhyay, who advised adopting its formal name in 1994; and 17th-century musicologist Sangeet Shastrakar Maheswara Mohapatra, who documented the style in his treatise Abhinaya Chandrika.",
+     "Rooted in the ancient temple traditions of Gauda (Bengal) during the Pala and Sena periods, the lineage of Gaudiya Nritya traces back through Natyashastra theory and medieval treatises like Abhinaya Chandrika."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Gaudiya Nritya is a sacred devotional dance form centered on Hindu religious traditions, Vaishnavism, Shakta concepts, and veneration of deities Shiva and Ganesha."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how scholar Mahua Mukherjee reconstructed Gaudiya Nritya from ancient temple sculptures, texts, and intricate varṇakāla rhythms.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Variable multi-meter cycles determined by varṇakāla (4 to 68 units)",
+  "rhythm_pattern": "Varṇakāla cycles such as Aditala (4), Lopha (6 or 12), and Canchuputa/Karpha (8)",
+  "instruments": [
+   "Pakhavaj",
+   "Shrikhol"
+  ],
+  "vocal_style": "Devotional classical singing including Kirtana and Bhavasangita",
+  "musical_form": "Prabandha-giti (comprising up to 6 angas: svara, viruda, pada, tenaka, pata, tala)",
+  "mood": [
+   "devotional",
+   "sacred",
+   "classical",
+   "expressive"
+  ],
+  "sound_description": "The soundscape of Gaudiya Nritya is characterized by resonant, complex drumming from the Pakhavaj and Shrikhol supporting classical devotional singing. Verses follow classical ragas and structured Prabandha-giti forms like Kirtana, built over precise rhythmic metric cycles.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Gaudiya Nritya (India). Meter Variable multi-meter cycles determined by varṇakāla (4 to 68 units). Rhythm pattern: Varṇakāla cycles such as Aditala (4), Lopha (6 or 12), and Canchuputa/Karpha (8). Instruments: Pakhavaj, Shrikhol. Vocal style: Devotional classical singing including Kirtana and Bhavasangita. Form: Prabandha-giti (comprising up to 6 angas: svara, viruda, pada, tenaka, pata, tala). Mood: devotional, sacred, classical, expressive. It should sound like this: The soundscape of Gaudiya Nritya is characterized by resonant, complex drumming from the Pakhavaj and Shrikhol supporting classical devotional singing. Verses follow classical ragas and structured Prabandha-giti forms like Kirtana, built over precise rhythmic metric cycles. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMridanga_2.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AJor_Bangla_Temple_Arnab_Dutta_2011.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AGuruMahua.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mridanga_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Mridanga_2.jpg/1280px-Mridanga_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jan Kraus / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMridanga_2.jpg",
+    "description": "photo of mridanga showing the big head"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Jor_Bangla_Temple_Arnab_Dutta_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Jor_Bangla_Temple_Arnab_Dutta_2011.JPG/1280px-Jor_Bangla_Temple_Arnab_Dutta_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJor_Bangla_Temple_Arnab_Dutta_2011.JPG",
+    "description": "Jor-Bangla Temple or Keshta Roy Temple (c. 1655), Bishnupur, Bankura dist., West Bengal, India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/GuruMahua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/GuruMahua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Dr. Mahua Mukherjee / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGuruMahua.jpg",
+    "description": "Guru Sreemati Dr. Mahua Mukherjee performing Gaudiya Nritya, a classical dance of Bengal."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg/1280px-%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ami.bangali / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg",
+    "description": "গৌরাঙ্গিনী"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg/1280px-Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Suyash Dwivedi / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg",
+    "description": "Pakhavaj Mrudang Rathaava Community Gujrat"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2018_Durga_Puja_Carnival_at_red_road_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/2018_Durga_Puja_Carnival_at_red_road_06.jpg/1280px-2018_Durga_Puja_Carnival_at_red_road_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kritzolina / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A2018_Durga_Puja_Carnival_at_red_road_06.jpg",
+    "description": "2018 Durga Puja Carnival at red road"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. V)",
+    "url": "https://archive.org/details/dni.ncaa.IGNCA-1045-UM",
+    "year": 1995,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. II)",
+    "url": "https://archive.org/details/dni.ncaa.IGNCA-1042-UM",
+    "year": 1995,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. IV)",
+    "url": "https://archive.org/details/dni.ncaa.IGNCA-1044-UM",
+    "year": 1995,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. I)",
+    "url": "https://archive.org/details/dni.ncaa.IGNCA-1041-UM",
+    "year": 1995,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. III)",
+    "url": "https://archive.org/details/dni.ncaa.IGNCA-1043-UM",
+    "year": 1995,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Temple stone carvings depicting classical dancers",
+   "Hands striking the dual heads of a Shrikhol drum",
+   "Sculptural arm and body posture alignments"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Gaudiya Nritya is a devotional classical art form traditionally executed to express religious narratives and philosophical concepts. Its performances convey Vaishnavite devotional themes, Shakta religious ideas, and veneration of deities such as Shiva and Ganesha through songs composed by ancient poets.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the classical-court family studied",
+  "videos_studied": 12,
+  "counting": "count the Variable multi-meter cycles determined by varṇakāla (4 to 68 units) bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 10"
+  ],
+  "cues": [
+   "uno dos tres cuatro",
+   "sin parar",
+   "y ahora de regreso",
+   "tha-ka-di-ki-ta",
+   "tha-the-hi-tha",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "kick kick kick kick step"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "the how-it-is-danced section",
+  "signature moves",
+  "the costume & setting section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gaudiya_Nritya",
+  "https://www.wikidata.org/wiki/Q5527615"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "9aefd61a218fc615f1c7ef86276455a0a80376e9d08dfc6be6d22cbd859383e2",
+ "hero_checked": null
+}

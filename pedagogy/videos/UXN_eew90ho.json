@@ -1,0 +1,137 @@
+{
+ "youtube_id": "UXN_eew90ho",
+ "slug": "ballos",
+ "dance": "Ballos",
+ "title": "Su Passu Torrau - Video tutorial di ballo sardo | Ballamus nois ca sos ballos sunt sos nostros",
+ "channel": "Bye Sardegna",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-21T19:25:03Z",
+ "url": "https://www.youtube.com/watch?v=UXN_eew90ho",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher introduces and explains the historical context and characteristics of the dance while demonstrating couples in traditional costumes. He verbally breaks down the counts and footwork structure while close-up camera angles show the precise foot movements.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:22",
+    "segment": "intro",
+    "note": "The host introduces the traditional Sardinian dance Su Passu Torrau of Mamoiada."
+   },
+   {
+    "t": "0:35",
+    "segment": "context",
+    "note": "Explanation of what 'passu torrau' means in Sardinian dances."
+   },
+   {
+    "t": "1:35",
+    "segment": "breakdown",
+    "note": "Detailed breakdown of the 6 movements per musical bar for the male step."
+   },
+   {
+    "t": "3:58",
+    "segment": "breakdown",
+    "note": "Demonstration and breakdown of the male steps with close-up footwork."
+   },
+   {
+    "t": "4:47",
+    "segment": "breakdown",
+    "note": "Demonstration and breakdown of the female steps with close-up footwork."
+   }
+  ],
+  "counting_scheme": "6 movimenti per battuta / 1-2-3-4-5-6",
+  "cues": [
+   "Destro destro sinistro destro sinistro sinistro"
+  ],
+  "metaphors": [
+   "tremolio ritmico costante",
+   "passi microscopici"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Passo base maschile",
+    "counts": "6 movimenti",
+    "description": "Six-count step starting with weight on left, moving right then left with constant trembling."
+   },
+   {
+    "name": "Passo base femminile",
+    "counts": "6 movimenti",
+    "description": "Microscopic steps forward and backward following the same 6-count structure."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Use of close-up shots focusing entirely on the feet",
+    "Clear verbal counting synchronized with foot placement"
+   ],
+   "what_hinders": [
+    "The host talks over the demonstration without real-time voiceover matching the exact foot counts"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:35",
+    "text": "Su Passu Torrau è un ballo nel caso specifico abiente a Mamoiada."
+   },
+   {
+    "t": "1:09",
+    "text": "La difficoltà in questo passo sta in un tremolio ritmico costante."
+   },
+   {
+    "t": "1:36",
+    "text": "Il passo è caratterizzato da sei movimenti per battuta musicale."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 35,
+    "end_s": 41,
+    "topic": "movement",
+    "observation": "Dancer's feet standing together in traditional shoes.",
+    "viewpoint": "front close-up, unknown mirror",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 136,
+    "end_s": 155,
+    "topic": "movement",
+    "observation": "Dancer stepping right and left with close-up on footwear.",
+    "viewpoint": "back close-up, unknown mirror",
+    "cannot_infer": "full body posture",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 400,
+    "end_s": 435,
+    "topic": "movement",
+    "observation": "Male dancer performing solo steps with split screen showing upper body and foot close-up.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "exact floor friction",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining cultural history and folklore explanations with microscopic footwork breakdowns in split-screen format."
+ },
+ "attempts": 1
+}

@@ -1,13 +1,87 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Real weapons",
+          "High-intensity spinning"
+        ],
+        "counts": "Basic 1-2-3-4 rhythm.",
+        "duration_minutes": "5",
+        "game_version": "Simplified stick-passing game in a circle."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid spinning of heavy weapons"
+        ],
+        "counts": "Simplified 4-count rhythm.",
+        "seated_version": "Seated rhythmic hopping and arm movements with sticks.",
+        "standing_version": "Reduced tempo and range of motion; focus on rhythmic swaying.",
+        "tempo_and_range": "Slower tempo, limited range for arms."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding sticks, swords, or dummy rifles; spinning and throwing weapons.",
+      "difficulty": "intermediate",
+      "footwork": "Hopping from one foot to the other.",
+      "formation_and_space": "Two rows of men facing each other; women stand at the front.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright.",
+      "signature_moves": [
+        {
+          "description": "Women tossing their long hair from side to side.",
+          "name": "Naash"
+        }
+      ],
+      "tempo_feel": "Synchronous with drum rhythm.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "large drums",
+        "small drums",
+        "tambourines",
+        "brass cymbals",
+        "leather bagpipes",
+        "flutes"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "martial",
+        "celebratory",
+        "rhythmic"
+      ],
+      "musical_form": "Chanted poetry with instrumental accompaniment.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Seven-tone irregular repeated pattern.",
+      "sound_description": "A rhythmic, percussive soundscape driven by drums and cymbals, layered with melodic flute or bagpipe lines and vocal chanting.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanted poetry."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a row facing another row of performers.",
+        "Hop from one foot to the other in time with the drum rhythm.",
+        "Move head and stick/weapon in synchronization with the row.",
+        "Spin or throw the weapon (for advanced performers)."
+      ],
+      "formation": "Two rows of men facing each other, with musicians in the center.",
+      "level_notes": "The lead performer role is inherited and involves training others.",
+      "rhythm": "Irregular seven-tone repeated pattern."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ffffea25bdc02d5bda944b26529c191b5024eb2593e6d093e7ded891da5b2ef5",
+  "fingerprint": "7d9790a176f1924772b6bf293d53f9bdc103bd8e002eeb17b42b04fb1388534a",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +89,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts used in the 7-tone melody? Evidence needed: Musicological study of Al-Ayyala recordings."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +119,18 @@
   ],
   "music_options": [],
   "name": "Yowlah",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0d922e23c7f5f350",
+      "next_evidence": "Musicological study of Al-Ayyala recordings.",
+      "question": "What are the specific rhythmic counts used in the 7-tone melody?",
+      "source": "https://en.wikipedia.org/wiki/Yowlah",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for the dance's rhythm."
+    }
+  ],
+  "research_file": "research_results/yowlah.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +142,9 @@
   "slug": "yowlah",
   "sources": [
     "https://en.wikipedia.org/wiki/Yowlah",
-    "Source: Yowlah on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Yowlah"
+    "https://www.wikidata.org/wiki/Q12213610",
+    "https://it.wikipedia.org/wiki/Yowlah"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

@@ -427,32 +427,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -461,13 +441,69 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "s8QFBnF2Kd0",
+   "url": "https://www.youtube.com/watch?v=s8QFBnF2Kd0",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "outdoor and indoor stages and courtyards, night and evening performances",
+    "dancers": "mixed groups of men and women, including soloists and large ensembles of men",
+    "formation_and_space": "circles of seated men, pairs, and groups moving across a stage",
+    "posture": "deep low stances with bent knees, upright torso, or dynamic martial poses",
+    "footwork": "stamping, shifting weight in low squatting steps, and quick articulated foot placements",
+    "arms_and_hands": "expressive hand gestures with hyper-extended fingers, arms held at shoulder or chest height, holding fans or props",
+    "hips_and_torso": "isolated upper body shifts, deep side-to-side torso sways, and controlled hip alignment",
+    "partnering": "solo dancing, character interactions, and coordinated ensemble lifts",
+    "levels_jumps_turns": "low floor crouching, leaps, elevated group lifts, and spins",
+    "costume_and_props": "elaborate gilded crowns, ornate patterned sarongs, face paint, masks, fabric sashes, and lit torches",
+    "cannot_infer": "exact weight transfer and fast footwork details due to wide camera angles and rapid cuts",
+    "music_heard": {
+     "instruments": [
+      "gamelan percussion",
+      "drums",
+      "cymbals"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "varied",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 16,
+      "end_s": 19,
+      "what": "Dancers in traditional attire performing low crouching movements while holding flaming torches"
+     },
+     {
+      "start_s": 204,
+      "end_s": 212,
+      "what": "A large circle of bare-chested men chanting and raising their arms rapidly in unison"
+     },
+     {
+      "start_s": 239,
+      "end_s": 248,
+      "what": "Ensemble members lifting a central performer overhead while keeping hands raised"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -477,6 +513,6 @@
   "polished": false,
   "file": "episodes/ramayana-ballet.json"
  },
- "fingerprint": "c68a14368a25f470",
+ "fingerprint": "5eec46a1c1aaf994",
  "updated": "2026-11-21"
 }

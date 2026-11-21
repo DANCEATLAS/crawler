@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "sega",
  "name": "Sega",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "MU"
@@ -152,6 +152,17 @@
      "Finally a sega tutorial on youtube ! Thank you so much !! I look forward your future videos on this topic. X from France"
     ],
     "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "-qCqL-Z016c",
+    "title": "Cancun Sega Genesis (Footwork) EASY TUTORIAL STEP BY STEP EXPLANATION | Footwork Tutorial",
+    "channel": "Abraar Bawazeer",
+    "level": "beginner",
+    "pos": 1,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
    }
   ]
  },
@@ -429,15 +440,10 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   }
-  ],
   "via": {
+   "footwork_counts": "lesson",
    "signature_moves": "lesson",
    "study_video": "lesson"
   }
@@ -691,6 +697,112 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "9bVn3o_Q_Ow",
+   "url": "https://www.youtube.com/watch?v=9bVn3o_Q_Ow",
+   "title": "Mauritian Sega Tutorial- Basic steps with Angel",
+   "channel": "Angel E",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-1-2",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to Mauritian Sega and basic steps"
+    },
+    {
+     "t": "0:27",
+     "seconds": 27,
+     "segment": "breakdown",
+     "note": "Hip movements breakdown"
+    },
+    {
+     "t": "1:05",
+     "seconds": 65,
+     "segment": "breakdown",
+     "note": "Feet movements breakdown"
+    },
+    {
+     "t": "1:47",
+     "seconds": 107,
+     "segment": "breakdown",
+     "note": "One step count"
+    },
+    {
+     "t": "2:05",
+     "seconds": 125,
+     "segment": "breakdown",
+     "note": "Two step count"
+    },
+    {
+     "t": "3:09",
+     "seconds": 189,
+     "segment": "breakdown",
+     "note": "Hand movements integration"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hip movements",
+     "counts": "1-2",
+     "description": "Moving hips side to side or in a circular motion."
+    },
+    {
+     "name": "Feet movements",
+     "counts": "1-2",
+     "description": "Scraping the back foot along the floor like kicking off sand."
+    }
+   ],
+   "cues": [
+    "Move your hips side to side",
+    "Scrape it along the floor",
+    "Remember to breathe"
+   ],
+   "images": [
+    "As though you're kicking off sand",
+    "Or trying to wipe something off your foot"
+   ],
+   "safety": [
+    "Remember to breathe because if you're doing it right you'll probably be tired afterwards"
+   ],
+   "teacher_style": "The teacher explains basic movements step by step with clear verbal descriptions. She demonstrates the techniques calmly while speaking directly to the camera.",
+   "distinctive_method": "Breaking down the dance strictly by body isolations (hips first, then feet, then hands) before putting everything together.",
+   "what_works": [
+    "Breaking down body parts separately before combining them",
+    "Showing movements from multiple angles"
+   ],
+   "what_hinders": [
+    "Music overlays can make verbal instructions harder to hear at times"
+   ],
+   "evidence": [
+    {
+     "start_s": 27,
+     "end_s": 42,
+     "topic": "movement",
+     "observation": "Teacher demonstrates hip movement side to side and circular motion facing front and back.",
+     "viewpoint": "front and back, unmirrored",
+     "cannot_infer": "exact weight distribution between feet",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 105,
+     "end_s": 120,
+     "topic": "movement",
+     "observation": "Teacher demonstrates scraping foot motion with ball of foot on the floor.",
+     "viewpoint": "side and back, unmirrored",
+     "cannot_infer": "exact friction or pressure on the floor",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -763,6 +875,6 @@
   "polished": false,
   "file": "episodes/sega.json"
  },
- "fingerprint": "2042b5ebf31044cc",
+ "fingerprint": "07b723cf7636c891",
  "updated": "2026-11-21"
 }

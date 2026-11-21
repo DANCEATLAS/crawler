@@ -1,6 +1,6 @@
 # Hustle — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
 
@@ -347,7 +347,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4 / and-1-and-2
 Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: rock step on 1-2; palm to the sky; open the newspaper; 1 2 3 4; inside left turn; outside right turn
+Cues: 1 2 3 4; inside left turn; outside right turn; rock step on 1-2; palm to the sky; open the newspaper
 Common mistakes the studied teachers name: putting all weight on the rock step
 
 Sources (3): https://en.wikipedia.org/wiki/Hustle_(dance); https://www.wikidata.org/wiki/Q2914794; https://es.wikipedia.org/wiki/Hustle_(baile)

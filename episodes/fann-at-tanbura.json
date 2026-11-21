@@ -1,0 +1,360 @@
+{
+ "slug": "fann-at-tanbura",
+ "name": "Fann at-Tanbura",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T17:03:17Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable Gulf heritage practitioner and master musician who respects the sacred roots of the genre.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Fann at-Tanbura"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Fann at-Tanbura",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Echoes of the Lyre and the Goat-Hoof Apron",
+     "This is Fann at-Tanbura. Historical to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Fann at-Tanbura · Oman · Historical to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Fann at-Tanbura originated as a communal ritual tradition in the Arab states of the Persian Gulf, especially within Bahrain, Kuwait, and Oman.",
+     "The genre developed through historical cultural connections with East Africa, embedding African-derived ritual practices into the musical fabric of Eastern Arabia.",
+     "Historically, it was closely associated with the Zār spiritual tradition and utilized primarily for healing and ceremonial rites."
+    ],
+    "on_screen": [
+     "Map: Oman · Middle East",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally, Fann at-Tanbura was performed as a sacred healing ritual within the Zār tradition, where music and dance were deployed to treat ailments and induce spiritual trances.",
+     "In contemporary society, it has largely evolved into a valued form of public musical and dance heritage, performed during cultural celebrations, national festivals, and folk music showcases.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Men and women participate together in the singing and dancing.",
+     "The movement relies on rhythmic body shifts, hip sways, and steps that actuate the manjur—an apron strung with goat hooves attached around the waist.",
+     "As dancers move, the striking of the hooves against each other generates a sharp, rustling percussion that aligns with the drums and lyre.",
+     "Watch for Manjur Shaking."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Group performance involving men and women moving in unison or facing arrangements."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical ensemble is anchored by the tanbura, a bowl lyre that plays a central role in driving the melody and rhythm.",
+     "Accompanying the lyre are several traditional drums and the manjur, a percussive body-worn instrument constructed from a large number of goat hooves attached to a waist apron.",
+     "Listen for the tanbura, manjur, drums.",
+     "A dense polyrhythmic soundscape dominated by the resonant plucking of the tanbura lyre, layered drum patterns, group chorus singing, and the sharp, continuous metallic-like rattling of goat hooves from the manjur apron."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic accompaniment driven by tanbura lyre, several drums, and percussive goat-hoof manjur."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "A primary functional element of the costume is the manjur, a large apron fitted with numerous goat hooves worn wrapped around the performer's waist.",
+     "The dance was historically conducted in private or semi-private ritual spaces for Zār healing ceremonies, whereas modern performances take place on public stages, cultural centers, and festival grounds throughout the Gulf region."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The genre is documented across the Arab states of the Persian Gulf, with prominent localized traditions and performance groups found in Bahrain, Kuwait, Oman, and the United Arab Emirates (such as performance groups in Sharjah).",
+     "Fann at-Tanbura forms a subclass of Arabic folk music and Arab folk dance, carrying historical links to African musical heritage in the Persian Gulf and the broader Zār ritual complex."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Fann at-Tanbura is historically linked to the Zār spiritual healing ritual and trance practices. Performers and observers should treat its ritual contexts and sacred heritage with cultural respect."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how Gulf communities turn waist movement into rhythm through the sacred lyre and goat-hoof aprons of Fann at-Tanbura.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic accompaniment driven by tanbura lyre, several drums, and percussive goat-hoof manjur.",
+  "instruments": [
+   "tanbura",
+   "manjur",
+   "drums"
+  ],
+  "vocal_style": "Group vocal singing performed by both men and women.",
+  "musical_form": "Call-and-response song structure integrated with hypnotic lyre and percussive ostinatos.",
+  "mood": [
+   "trance",
+   "rhythmic",
+   "ceremonial",
+   "spiritual",
+   "hypnotic"
+  ],
+  "sound_description": "A dense polyrhythmic soundscape dominated by the resonant plucking of the tanbura lyre, layered drum patterns, group chorus singing, and the sharp, continuous metallic-like rattling of goat hooves from the manjur apron.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Fann at-Tanbura (Oman). Rhythm pattern: Rhythmic accompaniment driven by tanbura lyre, several drums, and percussive goat-hoof manjur.. Instruments: tanbura, manjur, drums. Vocal style: Group vocal singing performed by both men and women.. Form: Call-and-response song structure integrated with hypnotic lyre and percussive ostinatos.. Mood: trance, rhythmic, ceremonial, spiritual, hypnotic. It should sound like this: A dense polyrhythmic soundscape dominated by the resonant plucking of the tanbura lyre, layered drum patterns, group chorus singing, and the sharp, continuous metallic-like rattling of goat hooves from the manjur apron. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "A primary functional element of the costume is the manjur, a large apron fitted with numerous goat hooves worn wrapped around the performer's waist. The dance was historically conducted in private or semi-private ritual spaces for Zār healing ceremonies, whereas modern performances take place on public stages, cultural centers, and festival grounds throughout the Gulf region.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Close-up shots of goat hooves clashing on the manjur apron.",
+   "Plucking mechanism of the tanbura lyre strings.",
+   "Group of male and female dancers moving in unison."
+  ],
+  "costume_notes": "A primary functional element of the costume is the manjur, a large apron fitted with numerous goat hooves worn wrapped around the performer's waist. The dance was historically conducted in private or semi-private ritual spaces for Zār healing ceremonies, whereas modern performances take place on public stages, cultural centers, and festival grounds throughout the Gulf region.",
+  "setting_notes": "Originally, Fann at-Tanbura was performed as a sacred healing ritual within the Zār tradition, where music and dance were deployed to treat ailments and induce spiritual trances. In contemporary society, it has largely evolved into a valued form of public musical and dance heritage, performed during cultural celebrations, national festivals, and folk music showcases.",
+  "map": {
+   "country": "Oman",
+   "region": "Middle East",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "loosen those hips",
+   "connect with the earth"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fann_at-Tanbura",
+  "https://www.wikidata.org/wiki/Q5433911"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "570f4f5706e26f7f502dfccb8be04e92398456018fffdcb21084de07140f6e17",
+ "hero_checked": null
+}

@@ -1,0 +1,372 @@
+{
+ "slug": "ramanattam",
+ "name": "Ramanattam",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T17:53:06Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A scholar-practitioner of Keralite classical theatre specializing in the historical lineage of temple dance dramas.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ramanattam",
+   "Ramanattom",
+   "Rāmanāṭṭaṃ"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ramanattam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Born of a Royal Insult: The Secret Stem of Kathakali",
+     "This is Ramanattam. 17th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Ramanattam · India · 17th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Ramanattam was created in Kerala, India, under the patronage of Veera Kerala Varma (AD 1653–1694), known as Kottarakkara Thampuran.",
+     "Its creation was catalyzed by an insult from King Manavedan, the Zamorin of Kozhikode, who in 1657 AD refused to send his Krishnattam troupe to perform at a wedding in Kottarakkara, stating the court would not understand it.",
+     "Spurred by political and artistic rivalry, Kottarakkara Thampuran composed an eight-part dance drama based on the epic Ramayana in the Manipravalam literary style."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Ramanattam is a sacred temple art presenting the narrative of the epic Ramayana.",
+     "Its eight daily plays depict key spiritual and dramatic chapters: Puthrakameshti, Seetha Swayamvaram, Vicchinnabhishekam, Kharavadham, Balivadham, Thoranayudham, Sethubandhanam, and Yudham, ending with Rama's crowning at Ayodhya.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING",
+     "Formation: Temple and court staging, designed for single-day performance of each of the eight episodic sections."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historic figures associated with Ramanattam include Veera Kerala Varma (Kottarakkara Thampuran, AD 1653–1694), who authored the plays and founded the art form; King Manavedan (Zamorin of Kozhikode), whose refusal to share Krishnattam sparked its creation; and Kottayath Thampuran, who later adapted Ramanattam into Kathakali.",
+     "Ramanattam originated in Kottarakkara in southern Kerala and heavily influenced the development of Kathakali at the Mridangashaileshwari temple in Muzhakkunn, northern Kerala.",
+     "Derived as a direct response to Krishnattam (created by Zamorin Raja of Calicut in 1657 AD), Ramanattam served as the foundational parent tradition that evolved into Kathakali under the development of Kottayath Thampuran."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ramanattam is parent of Kathakali: Ramanattam is widely recognized as the direct immediate precursor and stem of Kathakali.",
+     "Ramanattam is influence of Krishnattam: Created as an artistic rival tradition to Krishnattam following a dispute with the Zamorin of Kozhikode."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Ramanattam is a sacred temple art depicting the divine incarnation and life of Lord Rama from the epic Ramayana; sacred performance boundaries and temple traditions must be respected by observers."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a 17th-century king transformed a bitter court rejection into Ramanattam, the eight-day sacred dance drama that birthed Kathakali.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": "Poetic narrative recitation in Manipravalam style (a blend of Malayalam and Sanskrit).",
+  "musical_form": "Eight-part serial composition designed for eight sequential single-day theatrical enactments.",
+  "mood": [
+   "epic",
+   "dramatic",
+   "devotional",
+   "sacred"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ramanattam (India). Vocal style: Poetic narrative recitation in Manipravalam style (a blend of Malayalam and Sanskrit).. Form: Eight-part serial composition designed for eight sequential single-day theatrical enactments.. Mood: epic, dramatic, devotional, sacred. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKathakali_dance_02.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Kathakali_dance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Kathakali_dance_02.jpg/1280px-Kathakali_dance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "JP Vets / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKathakali_dance_02.jpg",
+    "description": "It is a \"story play\" genre of art, but one distinguished by the elaborately colorful make-up, costumes and face masks that the traditionally male actor-dancers wear. Kathakali is a Hindu performance art in the Malayalam-speaking southwestern region of India (Kerala)."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "17th-century palace courts of Kerala",
+   "Temple performance grounds",
+   "Manipravalam script scrolls",
+   "Traditional Keralite theatrical adornments"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Ramanattam is a sacred temple art presenting the narrative of the epic Ramayana. Its eight daily plays depict key spiritual and dramatic chapters: Puthrakameshti, Seetha Swayamvaram, Vicchinnabhishekam, Kharavadham, Balivadham, Thoranayudham, Sethubandhanam, and Yudham, ending with Rama's crowning at Ayodhya.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "loosen those hips",
+   "connect with the earth"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "signature moves",
+  "the music & instruments section",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ramanattam",
+  "https://www.wikidata.org/wiki/Q7288942"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "eac9791dd34f53364ea5f9e218f027bb60acbbc132fb474e7d15d3c9b1e6b24a",
+ "hero_checked": null
+}

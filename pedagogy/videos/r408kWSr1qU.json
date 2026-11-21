@@ -1,0 +1,139 @@
+{
+ "youtube_id": "r408kWSr1qU",
+ "slug": "pantsula",
+ "dance": "Pantsula",
+ "title": "PANTSULA DANCE TUTORIAL - Life In Progress",
+ "channel": "Life In Progress",
+ "viewer_ratio": 2.0,
+ "analysed_at": "2026-11-21T19:24:31Z",
+ "url": "https://www.youtube.com/watch?v=r408kWSr1qU",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the choreography into step-by-step counts with a group of dancers. He demonstrates slowly before practicing at full tempo.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Teacher introduces himself and the dance origin in South Africa"
+   },
+   {
+    "t": "0:27",
+    "segment": "full_demo",
+    "note": "Group demonstrates the routine at fast tempo"
+   },
+   {
+    "t": "0:47",
+    "segment": "breakdown",
+    "note": "Step 1 explanation and slow practice"
+   },
+   {
+    "t": "1:23",
+    "segment": "breakdown",
+    "note": "Step 2 explanation and slow practice"
+   },
+   {
+    "t": "2:02",
+    "segment": "breakdown",
+    "note": "Step 3 explanation and slow practice"
+   },
+   {
+    "t": "2:22",
+    "segment": "recap",
+    "note": "Combination of all three steps together"
+   }
+  ],
+  "counting_scheme": "5-6-7-8 and 1-2-3-4-5-6-7-8",
+  "cues": [
+   "5-6-7-8",
+   "Here we go!"
+  ],
+  "metaphors": [
+   "We are running",
+   "We are walking to catch a taxi to Johannesburg - City of Gold"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 4
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Running Step",
+    "counts": "2 counts of 8",
+    "description": "Running in place for counts and stepping forward"
+   },
+   {
+    "name": "Walking Step",
+    "counts": "1 8-count",
+    "description": "Walking points with hand in pocket"
+   },
+   {
+    "name": "Taxi Step",
+    "counts": "1 8-count",
+    "description": "Stepping and moving together as a group"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear step numbering on screen",
+    "Demonstrating with a group of back-up dancers"
+   ],
+   "what_hinders": [
+    "No close-ups on footwork"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:48",
+    "text": "So we are going to do steps slowly, slowly."
+   },
+   {
+    "t": "1:24",
+    "text": "The next step we are walking."
+   },
+   {
+    "t": "2:22",
+    "text": "Now we're going to do the combination of these 3 steps."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 27,
+    "end_s": 47,
+    "topic": "movement",
+    "observation": "Group dancing outdoors on dirt surface in a line facing front",
+    "viewpoint": "front, mirror unknown",
+    "cannot_infer": "exact foot placement details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 57,
+    "end_s": 61,
+    "topic": "teaching",
+    "observation": "Back-up dancers practicing Step 1 slowly while counting",
+    "viewpoint": "front, mirror unknown",
+    "cannot_infer": "weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using thematic storytelling elements like catching a taxi to Johannesburg to anchor the choreography."
+ },
+ "attempts": 1
+}

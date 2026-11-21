@@ -1,6 +1,6 @@
 # Quebradita — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the costume & setting section
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Establish a close hold with partner, hands on waist.
 NARRATION: Execute small, alternating jumps to create a side-to-side sway.
-NARRATION: Count it: 1-2-3-4-5-6-7-8.
+NARRATION: Count it: 7-and-1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 2/4.
+NARRATION: Count: 7-and-1-2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Rhythm pattern: Cumbia-based, double-time, rhythmic..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,7 +123,7 @@ NARRATION: Drill: Side-to-side weight transfer
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 7-and-1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain synchronized footwork with partner.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Perform the tombé by dipping the partner backward with a str
 NARRATION: Drill: Small, rhythmic jumps
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 7-and-1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -149,7 +149,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated sway to the rhythm of technobanda. · For children: Galloping game mimicking horse movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 7-and-1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -180,7 +180,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 2/4.
+NARRATION: Count: 7-and-1-2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Rhythm pattern: Cumbia-based, double-time, rhythmic..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -195,7 +195,7 @@ NARRATION: Drill: Maintaining waist hold
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 7-and-1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain synchronized footwork with partner.
@@ -206,7 +206,7 @@ NARRATION: Drill: Matching footwork rhythm
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 7-and-1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -224,7 +224,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated sway to the rhythm of technobanda. · For children: Galloping game mimicking horse movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 7-and-1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Partnered, moving in place or around the dance floor.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -255,7 +255,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 2/4.
+NARRATION: Count: 7-and-1-2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Rhythm pattern: Cumbia-based, double-time, rhythmic..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -270,7 +270,7 @@ NARRATION: Drill: Supported back-bend technique
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 7-and-1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Tombé: Male dancer dips the female partner backward toward the floor with a straight back.
@@ -279,7 +279,7 @@ NARRATION: Drill: Controlled recovery
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 7-and-1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -297,7 +297,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated sway to the rhythm of technobanda. · For children: Galloping game mimicking horse movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 7-and-1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Partnered, moving in place or around the dance floor.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -337,8 +337,8 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2-3-4-5-6-7-8
+Counting: 7-and-1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: back, front; tempo progression: slow → full; repetitions per step: about 8
-Cues: vamos a comenzar; marcamos; repetimos; y marco; marcamos fluido; y uno dos tres cuatro
+Cues: marcamos fluido; y uno dos tres cuatro; vamos a comenzar; marcamos; repetimos; y marco
 
 Sources (4): https://en.wikipedia.org/wiki/Quebradita; https://www.wikidata.org/wiki/Q3413969; https://es.wikipedia.org/wiki/Quebradita; https://fr.wikipedia.org/wiki/Quebradita

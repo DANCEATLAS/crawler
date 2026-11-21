@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "da915a21ea39c884ec1455ad90a65cfcdb4550a1fde49a22298bae880c1ae770",
+  "fingerprint": "982b282d986dcacc2f8b2ea949728b6179804a57446b311b6dc0ef111cbe2a16",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments used in the Apu Inka performance? Evidence needed: Ethnographic studies of the Sapallanga District festivals."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +81,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the visual characteristics of the costumes worn by the dancers? Evidence needed: Photographic or video documentation of the feast of the Virgen de Cocharcas."
     ]
   },
   "id": "atlas:apu-inka",
@@ -45,8 +93,27 @@
   ],
   "music_options": [],
   "name": "Apu Inka",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "629f6c2f48a55955",
+      "next_evidence": "Ethnographic studies of the Sapallanga District festivals.",
+      "question": "What are the specific musical instruments used in the Apu Inka performance?",
+      "source": "https://en.wikipedia.org/wiki/Apu_Inka",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not describe the music, which is essential for a documentary-standard profile."
+    },
+    {
+      "domain": "video",
+      "id": "5c04de9041516d8a",
+      "next_evidence": "Photographic or video documentation of the feast of the Virgen de Cocharcas.",
+      "question": "What are the visual characteristics of the costumes worn by the dancers?",
+      "source": "https://en.wikipedia.org/wiki/Apu_Inka",
+      "status": "candidate_unreviewed",
+      "why_needed": "Visual motifs are required for the episode brief and to provide cultural context."
+    }
+  ],
+  "research_file": "research_results/apu-inka.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +125,7 @@
   "slug": "apu-inka",
   "sources": [
     "https://en.wikipedia.org/wiki/Apu_Inka",
-    "Source: Apu Inka on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Apu_Inka"
+    "https://www.wikidata.org/wiki/Q16963320"
   ],
   "state": "researching",
   "video_evidence": []

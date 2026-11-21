@@ -173,6 +173,19 @@
    "checked_at": "2026-11-20T19:51:18Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "_Z8uqszU1hw",
+    "title": "Belajar TEKNIK TARI KEBYAR DUDUK -Bumi Bajra-",
+    "channel": "gekhan",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "legong",
    "baris"
@@ -507,6 +520,85 @@
  },
  "lessons": [
   {
+   "youtube_id": "2tbtuSDCizg",
+   "url": "https://www.youtube.com/watch?v=2tbtuSDCizg",
+   "title": "BELAJAR TARI KEBYAR DUDUK",
+   "channel": "Sanggar Seni Kebo Iwa",
+   "analysed_on": "2026-11-21",
+   "level": "intermediate",
+   "language": "Indonesian",
+   "counting_scheme": "jeng-jeng-ereng-ereng-pak-pak",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Demonstration of Kebyar Duduk with fan and traditional cloth"
+    },
+    {
+     "t": "0:29",
+     "seconds": 29,
+     "segment": "breakdown",
+     "note": "Detailed instruction and demonstration of seated movements"
+    },
+    {
+     "t": "5:47",
+     "seconds": 347,
+     "segment": "follow_along",
+     "note": "Group practice with multiple students learning choreography"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Kebyar Duduk sequence",
+     "counts": "jeng-jeng-pak",
+     "description": "Seated traditional Balinese dance movement using a fan and cloth"
+    }
+   ],
+   "cues": [
+    "jeng",
+    "pak",
+    "ser"
+   ],
+   "common_mistakes": [
+    "asal banting tumit"
+   ],
+   "teacher_style": "The instructor demonstrates technique alongside another dancer while giving verbal instructions and counts. They break down movement details, posture, and positioning directly to the students.",
+   "distinctive_method": "Combining vocalization of gamelan sounds and rhythm directly with physical posture corrections during seated choreography.",
+   "what_works": [
+    "Clear visual demonstration from multiple angles",
+    "Direct verbal counts matching the movements"
+   ],
+   "what_hinders": [
+    "Fast initial tempo without a slow breakdown first"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 29,
+     "topic": "movement",
+     "observation": "Dancer demonstrates seated fan movements with traditional cloth on a brick-wall studio floor.",
+     "viewpoint": "front view, unknown mirror presence",
+     "cannot_infer": "exact foot placement under the cloth",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 29,
+     "end_s": 130,
+     "topic": "teaching",
+     "observation": "Instructor stands supervising while a dancer practices specific fan and arm postures.",
+     "viewpoint": "front view",
+     "cannot_infer": "verbal instructions content without audio",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "_Z8uqszU1hw",
    "url": "https://www.youtube.com/watch?v=_Z8uqszU1hw",
    "title": "Belajar TEKNIK TARI KEBYAR DUDUK -Bumi Bajra-",
@@ -660,6 +752,6 @@
   "polished": false,
   "file": "episodes/kebyar-duduk.json"
  },
- "fingerprint": "8142fd54916e2c96",
+ "fingerprint": "d043375c8277a7f3",
  "updated": "2026-11-21"
 }

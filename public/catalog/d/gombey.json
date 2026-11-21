@@ -35,6 +35,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gombey",
   "wikidata_qid": "Q5581130",
   "unesco": false,
+  "hero_video_youtube_id": "czmDldlBL3w",
+  "video_stack": [
+   {
+    "youtube_id": "czmDldlBL3w",
+    "role": "hero",
+    "title": "BERMUDA GOMBEY",
+    "channel": "Indo Bermuda",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -48,6 +58,12 @@
   "profile_long": "The Gombey tradition of Bermuda represents a complex cultural synthesis, emerging from the island's unique history as a crossroads of the Atlantic. While the word 'Gombey' shares etymological roots with the Bahamian Goombay and refers to a specific African drum, the Bermudian expression is distinct for its emphasis on dance and elaborate masquerade. Historically, the ruling class viewed the Gombey with disdain; an 1831 newspaper account described it as an 'Idolatrous procession' and a 'nuisance.' For the enslaved population, however, the dance was a vital vehicle for expression and resistance. By performing in masks, they could satirize and protest the actions of slave masters without fear of direct retribution. This history of defiance is embedded in the dance's timing, traditionally reaching its peak during the Christmas season and Boxing Day—the rare periods when enslaved people were permitted to gather.\n\nThe structure of a Gombey troupe is hierarchical and familial, with traditions passed down orally through generations. Each troupe is led by a Captain who determines the specific style, beats, and direction of the group. The performance is characterized by its 'war dance' elements, which include specific roles such as the Bowman or Lead Indian, who scouts the path ahead with a bow and arrow. Warriors carry tomahawks, using them in stylized 'cockfights' where they face off against one another. These movements were notably recognized by Wampanoag and Pequot dancers during reconnection festivals in 2000, suggesting a deep-seated link to Indigenous North American traditions alongside African and Caribbean roots.\n\nMusically, the Gombey is defined by a high-energy percussive ensemble. The 'Mother' drum provides a steady bass pulse, while pairs of snare drums—a British military influence—play complex, driving riffs. The interaction between the drummers and dancers is immediate and communicative; snare drum rimshots are often timed to signal or respond to the dancer's footwork. Leaders use whistles to command the troupe's movements and transitions. This auditory landscape is matched by the visual intensity of the costumes. Modern Gombeys wear capes and headdresses adorned with Asian peacock feathers, mirrors, and bells, covering the body from head to toe. While 19th-century accounts describe the use of red and yellow paints and scarlet cloth, the modern costume has evolved into a highly intricate craft where each troupe’s specific adornments serve as a unique signature.\n\nToday, the Gombey has transitioned from a marginalized folk practice to a celebrated national symbol, appearing on postage stamps and at major sporting events like cricket and football matches. Despite this elevated status, the tradition remains rooted in community and street performance. Trousers and capes still flash through the streets of Hamilton and across the island on holidays like Bermuda Day and New Year's Day. The dance continues to serve as a living archive of Bermudian identity, reflecting a genetic and cultural heritage that spans from the forests of the Wampanoag to the coastal regions of Angola and Mozambique.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:06Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "morris-dance"
   ]
@@ -280,36 +296,74 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "czmDldlBL3w",
+   "url": "https://www.youtube.com/watch?v=czmDldlBL3w",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "outdoor patio area in front of a restaurant named Marcus, with spectators watching on the sides and from a balcony",
+    "dancers": "group of about 10 dancers, mostly men of various ages",
+    "formation_and_space": "initially emerging from a doorway, forming a loose line moving across the patio, then lining up along the side while individual dancers step out into the center to dance",
+    "posture": "upright torso, knees bent with deep bouncing/kneeling movements",
+    "footwork": "fast rhythmic stepping, high knee raises, stamping and kicking to the beat of the drums",
+    "arms_and_hands": "arms held out or down, some holding sticks or reins",
+    "hips_and_torso": "minimal isolation, torso moves with the bouncing knee action",
+    "partnering": "none, solo dancing within a group",
+    "levels_jumps_turns": "frequent deep knee bends (squatting/crouching low to the ground) and fast spinning turns with tall headdresses swaying",
+    "costume_and_props": "elaborate colorful fringed costumes with tall conical headdresses topped with black feathers; some carry sticks",
+    "cannot_infer": "exact footwork details obscured by heavy fringe and fast movement",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "snare drum"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 4,
+      "end_s": 15,
+      "what": "dancers enter from the doorway stepping high with rhythmic knee lifts and shaking headdresses"
+     },
+     {
+      "start_s": 27,
+      "end_s": 38,
+      "what": "dancers move in a line along the patio with bouncy steps and swinging fringe costumes"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/gombey.json"
  },
- "fingerprint": "15c34e94ba40ed55",
+ "fingerprint": "8eb98d40167ad5f2",
  "updated": "2026-11-21"
 }

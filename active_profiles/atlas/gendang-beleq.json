@@ -12,51 +12,48 @@
     },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "footwork": "not described in sources",
-      "formation_and_space": "Group marching formation",
+      "formation_and_space": "performed in a group form of orchestra",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
       "signature_moves": [],
       "tempo_feel": "not described in sources",
-      "what_to_avoid": "not described in sources"
+      "what_to_avoid": "withheld (sacred or restricted dance)"
     },
     "music_profile": {
       "instruments": [
-        "Gendang mama (male drum)",
-        "Gendang nina (female drum)",
+        "gendang beleq",
+        "gendang mama",
+        "gendang nina",
+        "kendang",
         "Kodeq drum",
-        "Gong",
-        "Reog nina",
-        "Reog mama"
+        "sniper rifle",
+        "code shooter",
+        "gong",
+        "reog nina",
+        "reog mama"
       ],
       "meter": "not described in sources",
-      "mood_keywords": [
-        "Ceremonial",
-        "Rhythmic",
-        "Dynamic"
-      ],
-      "musical_form": "Orchestral ensemble",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "A percussion-heavy ensemble sound led by two large drums that provide dynamic shifts, supported by melodic reogs and a rhythmic gong.",
-      "tempo_bpm": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
       "vocal_style": "not described in sources"
     },
     "teaching": {
-      "basic_steps": [
-        "Marching in formation while playing instruments",
-        "Coordinated rhythmic movement with the drum"
-      ],
-      "formation": "Group orchestra formation, typically 13 or 17 performers",
+      "basic_steps": [],
+      "formation": "group form of orchestra",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "529f1c2129ceefe17d4836bc27f8a5f13cdca064a36ba360bb1a62eb2d993ea0",
+  "fingerprint": "ee10b22b1bc95b56aa055ad2b82c6ebfc66ffd7b1b2346a43defadf9cf9f9559",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -65,8 +62,9 @@
     ],
     "research": [
       "movement: footwork, posture, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork counts and rhythmic meter used by the gendang mama and gendang nina players? Evidence needed: Field recordings and ethnomusicological documentation of Sasak music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -93,7 +91,17 @@
   ],
   "music_options": [],
   "name": "Gendang Beleq",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "54b0df6ee54f097f",
+      "next_evidence": "Field recordings and ethnomusicological documentation of Sasak music.",
+      "question": "What are the specific footwork counts and rhythmic meter used by the gendang mama and gendang nina players?",
+      "source": "https://en.wikipedia.org/wiki/Gendang_Beleq_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Essential for accurate interactive teaching of the dance steps."
+    }
+  ],
   "research_file": "research_results/gendang-beleq.json",
   "runtime_active": false,
   "scope": {

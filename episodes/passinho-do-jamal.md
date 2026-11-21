@@ -1,6 +1,6 @@
 # Passinho do Jamal — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections
 
@@ -126,6 +126,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
+NARRATION: Teachers of this dance warn against: moving same arm and leg instead of opposite
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -190,6 +191,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
+NARRATION: Teachers of this dance warn against: moving same arm and leg instead of opposite
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -254,6 +256,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
+NARRATION: Teachers of this dance warn against: moving same arm and leg instead of opposite
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -295,10 +298,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 8
-Cues: pisa; marca; troca
-Common mistakes the studied teachers name: andar com braço esquerdo e perna esquerda separados em vez de juntos
+Cues: pisa; marca; troca; marcha soldado cabea de papel; pisa e marcha; subiu perna direita
+Common mistakes the studied teachers name: andar com braço esquerdo e perna esquerda separados em vez de juntos; moving same arm and leg instead of opposite
 
 Sources (3): https://en.wikipedia.org/wiki/Passinho_do_Jamal; https://www.wikidata.org/wiki/Q140274899; https://pt.wikipedia.org/wiki/Passinho_do_Jamal

@@ -1,13 +1,71 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Couples, either single or multiple, moving in spontaneous or structured figures.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Courtship-based interaction involving pursuit and surrender.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "",
+      "mood_keywords": [
+        "joyous",
+        "lyrical",
+        "sad"
+      ],
+      "musical_form": "Songs based on the Byzantine scale in Cyprus.",
+      "reference_recordings": [
+        {
+          "artist": "Muammer Ketencioglu",
+          "title": "Ti se mellei esenane"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music varies from joyous and lyrical Aegean island melodies to melancholic, vocal-heavy amane songs based on the Byzantine scale.",
+      "tempo_bpm": "",
+      "vocal_style": "Joyous and lyrical in the Aegean; sad and requiring a talented singer in Cyprus (amane style)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Couples (single or multiple)",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "bbe3f61e19f8c044bed07d0be892ab15c46623f1f09d125fa8b2aa9dd5bb7a64",
+  "fingerprint": "a8db3f49d0db94ea803b26e39212a200459da491616e0ff7fc5aacf3e9cfa539",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +73,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns associated with the Ballos in the Aegean islands? Evidence needed: Ethnographic dance manuals or video documentation of regional island dance societies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +103,18 @@
   ],
   "music_options": [],
   "name": "Ballos",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "ed52a06a9cc30f42",
+      "next_evidence": "Ethnographic dance manuals or video documentation of regional island dance societies.",
+      "question": "What are the specific footwork patterns associated with the Ballos in the Aegean islands?",
+      "source": "https://en.wikipedia.org/wiki/Ballos",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the dance as a courtship ritual but lack technical instructions for movement."
+    }
+  ],
+  "research_file": "research_results/ballos.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +126,14 @@
   "slug": "ballos",
   "sources": [
     "https://en.wikipedia.org/wiki/Ballos",
-    "Source: Ballos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballos"
+    "https://www.wikidata.org/wiki/Q3561149"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/UXN_eew90ho.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=UXN_eew90ho"
+    }
+  ]
 }

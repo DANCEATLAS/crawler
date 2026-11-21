@@ -1,8 +1,8 @@
 # Egedege Dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A dignified elder or lead dancer who emphasizes the 'richness and bravery' of the Igbo spirit.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Queen of the Moonlight
 NARRATION: This is Egedege Dance. 1985 to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (3C6Mj2ZykCQ)
 ON SCREEN: Title card: Egedege Dance · Nigeria · 1985 to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The performance begins with a flute cue heralding the group's entranc
 NARRATION: The lead 'queen' enters under a large umbrella, fanned by an attendant.
 NARRATION: She leads the singing and dances to the rhythm of the instruments.
 NARRATION: Watch for The Queen's Entrance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (3C6Mj2ZykCQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processional entry followed by a stage-based group display
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '3C6Mj2ZykCQ', 'checked_by_vision_model': True, 'title': 'Egedege Dance'}
 Images: 0 licensed
 Footage: File:Egedege Dance 01.webm — https://upload.wikimedia.org/wikipedia/commons/c/c8/Egedege_Dance_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Egedege Dance 02.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Egedege_Dance_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Ostrich feathers swaying, The large ceremonial umbrella, Red and white raffia, Bronze staff and horsetail
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
+Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Egedege_Dance; https://www.wikidata.org/wiki/Q5347740

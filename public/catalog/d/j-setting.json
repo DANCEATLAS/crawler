@@ -31,6 +31,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/J-Setting",
   "wikidata_qid": "Q16973422",
   "unesco": false,
+  "hero_video_youtube_id": "Z7X3Jqu0x5Y",
+  "video_stack": [
+   {
+    "youtube_id": "Z7X3Jqu0x5Y",
+    "role": "hero",
+    "title": "The Dance Troupe Inspiring Beyoncé",
+    "channel": "Great Big Story",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -75,7 +85,13 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:36Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -310,32 +326,84 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "Z7X3Jqu0x5Y",
+   "url": "https://www.youtube.com/watch?v=Z7X3Jqu0x5Y",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "outdoor football stadium field and bleachers",
+    "dancers": "group of young women",
+    "formation_and_space": "horizontal rows and staggered formations across turf field and stadium bleachers",
+    "posture": "upright torso with flexible spine, soft knees, and athletic lower body stance",
+    "footwork": "fast repetitive stepping, jumps, kicks, and turns synchronized to energetic music",
+    "arms_and_hands": "sharp arm swings, overhead reaches, and hand-to-head framing",
+    "hips_and_torso": "rapid hip shakes, pelvic thrusts (bucking), and torso rolls",
+    "partnering": "none",
+    "levels_jumps_turns": "high leg extensions, cartwheels, floor drops, and jumps",
+    "costume_and_props": "matching crop tops, leotards or two-piece sets with fringe or rhinestones, white boots, and fishnet tights",
+    "cannot_infer": "exact weight transfer and fast footwork details obscured by video compression and camera cuts",
+    "music_heard": {
+     "instruments": [
+      "brass",
+      "percussion",
+      "cymbals"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 3,
+      "end_s": 6,
+      "what": "rapid hip shaking while squatting with sharp arm movements"
+     },
+     {
+      "start_s": 46,
+      "end_s": 49,
+      "what": "cartwheels followed by immediate floor drops into splits"
+     },
+     {
+      "start_s": 56,
+      "end_s": 59,
+      "what": "salt and pepper arm swing movement while stepping quickly"
+     },
+     {
+      "start_s": 115,
+      "end_s": 118,
+      "what": "bucking with fast bouncing hips and sweeping arm extensions"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/j-setting.json"
  },
- "fingerprint": "98a480746695e8d7",
+ "fingerprint": "8c3d92cb27101bd7",
  "updated": "2026-11-21"
 }

@@ -1,49 +1,50 @@
 # Active-ready — the starting line
 
-_Measured 2026-11-20 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
+_Measured 2026-11-21 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 32 profiles are active-ready
+## 37 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,244 |
-| Researched from sources (in the atlas) | 589 |
-| Published (passed every gate) | 476 |
-| **Active-ready** | **32** |
-| One item short | 41 |
-| Two items short | 39 |
-| Three to five short | 87 |
-| Story-ready, teaching withheld (sacred or restricted) | 43 |
+| In the atlas | 1,272 |
+| Researched from sources (in the atlas) | 630 |
+| Published (passed every gate) | 512 |
+| **Active-ready** | **37** |
+| One item short | 45 |
+| Two items short | 46 |
+| Three to five short | 119 |
+| Story-ready, teaching withheld (sacred or restricted) | 46 |
 
-Video studied so far: 170 lessons, 121 performances.
+Video studied so far: 203 lessons, 171 performances.
 
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 279 |
-| a lesson or performance the machine studied, with timestamps | 207 |
-| what to avoid: common mistakes or safety | 176 |
-| two or more signature moves | 145 |
-| posture | 138 |
-| tempo, meter or the teacher's count | 138 |
-| a hero video that passed the vision check | 137 |
-| arms and hands | 109 |
-| a licensed picture or licensed footage | 100 |
-| the instruments and what the music sounds like | 95 |
-| ordered basic steps or a lesson ladder | 77 |
-| origins, meaning and occasions, dress and setting — written from sources | 76 |
-| formation and use of space | 63 |
-| known to be living, revived or historical | 31 |
+| the steps with their counts | 297 |
+| a lesson or performance the machine studied, with timestamps | 193 |
+| what to avoid: common mistakes or safety | 188 |
+| a hero video that passed the vision check | 147 |
+| two or more signature moves | 127 |
+| tempo, meter or the teacher's count | 121 |
+| posture | 113 |
+| a licensed picture or licensed footage | 111 |
+| arms and hands | 89 |
+| ordered basic steps or a lesson ladder | 82 |
+| the instruments and what the music sounds like | 76 |
+| origins, meaning and occasions, dress and setting — written from sources | 66 |
+| formation and use of space | 45 |
+| known to be living, revived or historical | 30 |
 
 ## Closest to the line
 
 - **Acrobatic Rock'n'Roll** — needs: the steps with their counts
 - **Aerial dance** — needs: the steps with their counts
 - **Bele** — needs: the steps with their counts
+- **Bugg** — needs: ordered basic steps or a lesson ladder
 - **Bush dance** — needs: the steps with their counts
 - **Cariñosa** — needs: what to avoid: common mistakes or safety
 - **Charleston Stroll** — needs: a lesson or performance the machine studied, with timestamps
@@ -59,8 +60,12 @@ Video studied so far: 170 lessons, 121 performances.
 - **Electric Slide** — needs: origins, meaning and occasions, dress and setting — written from sources
 - **Fancy Shawl Dance** — needs: what to avoid: common mistakes or safety
 - **Fouetté** — needs: the instruments and what the music sounds like
+- **Geommu** — needs: the steps with their counts
+- **Gombey** — needs: the steps with their counts
+- **Grotesque dance** — needs: the steps with their counts
 - **Huaylarsh** — needs: a licensed picture or licensed footage
 - **Huaylas (Huaylarsh)** — needs: a licensed picture or licensed footage
+- **J-Setting** — needs: the steps with their counts
 - **Jurit Ampil Kridha Warastra Dance** — needs: the steps with their counts
 - **Kebyar duduk** — needs: the steps with their counts
 - **Kerala Natanam** — needs: what to avoid: common mistakes or safety
@@ -68,19 +73,14 @@ Video studied so far: 170 lessons, 121 performances.
 - **Marinera Norteña** — needs: a hero video that passed the vision check
 - **moshing** — needs: the steps with their counts
 - **pachanga** — needs: the steps with their counts
+- **Pantsula** — needs: what to avoid: common mistakes or safety
 - **pas de deux** — needs: the steps with their counts
+- **passacaglia** — needs: what to avoid: common mistakes or safety
 - **Pogo** — needs: the steps with their counts
 - **Polska** — needs: what to avoid: common mistakes or safety
 - **Queer Tango** — needs: the steps with their counts
 - **Rebolation** — needs: a licensed picture or licensed footage
-- **Sega** — needs: the steps with their counts
 - **Sequence dance** — needs: what to avoid: common mistakes or safety
-- **Serpentine dance** — needs: the steps with their counts
-- **Shim Sham** — needs: the instruments and what the music sounds like
-- **Siva Afi** — needs: the steps with their counts
-- **Slide** — needs: origins, meaning and occasions, dress and setting — written from sources
-- **Soleá** — needs: known to be living, revived or historical
-- **Tobas** — needs: known to be living, revived or historical
 
 ## The fifteen items
 

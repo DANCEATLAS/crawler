@@ -1,13 +1,85 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex partner connections",
+          "High-speed rotations"
+        ],
+        "counts": "Simplified 4-count steps.",
+        "duration_minutes": "15-20 minutes",
+        "game_version": "Simplified 'follow-the-leader' game using basic swing rhythms."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid turns",
+          "High-impact footwork"
+        ],
+        "counts": "Simplified 4-count patterns.",
+        "seated_version": "Seated rhythmic movement focusing on arm and torso engagement.",
+        "standing_version": "Supported standing steps with reduced tempo and no jumps.",
+        "tempo_and_range": "Reduced tempo; focus on small, controlled movements."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used for lead-follow communication; connection is elastic.",
+      "difficulty": "beginner",
+      "footwork": "Triple steps and rock steps are common in 6-count variations.",
+      "formation_and_space": "Circular or slotted (linear) depending on the specific style.",
+      "hips_and_torso": "Torso remains relatively stable while hips and legs facilitate the bounce.",
+      "levels_and_jumps": "Aerials are common in performance Lindy Hop but restricted in some social dance settings.",
+      "partnering": "Lead-follow communication through physical connection.",
+      "posture": "Upright or athletic, with a slight forward lean in some styles.",
+      "signature_moves": [
+        {
+          "description": "An 8-count basic move that transitions from closed to open position and back.",
+          "name": "Swingout"
+        }
+      ],
+      "tempo_feel": "Bouncy and energetic.",
+      "what_to_avoid": "Excessive tension in the arms; ignoring partner's comfort."
+    },
+    "music_profile": {
+      "instruments": [
+        "Brass section",
+        "Drums",
+        "Double bass",
+        "Piano",
+        "Guitar"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "Energetic",
+        "Bouncy",
+        "Upbeat"
+      ],
+      "musical_form": "Big band jazz",
+      "reference_recordings": [],
+      "rhythm_pattern": "Swing rhythm (ternary feel)",
+      "sound_description": "Recognizable by a driving, syncopated rhythm section and a 'swing' feel where the eighth notes are unequal, creating a forward-moving, bouncy energy.",
+      "tempo_bpm": "170-200 (varies by style)",
+      "vocal_style": "Jazz-inflected"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Triple step (triple-step, triple-step)",
+        "Rock step (back, replace)"
+      ],
+      "formation": "Partnered (closed or open position) or solo",
+      "level_notes": "Beginners typically start with 6-count East Coast Swing before progressing to 8-count Lindy Hop or slotted dances like West Coast Swing.",
+      "rhythm": "6 or 8 count patterns"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f8037d833b16fcbe50786fedb6326a915b1d29042572595e4d647c57fd409c5a",
+  "fingerprint": "735e72b6390b34a38e6aae8f43bb69ff33253fecceb15ca083d09e4b61d0274b",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +87,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific pedagogical differences between the 'Savoy' and 'Hollywood' styles of Lindy Hop? Evidence needed: Dance technique manuals or expert interviews."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +115,18 @@
   ],
   "music_options": [],
   "name": "Swing",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "989df4a06de1c062",
+      "next_evidence": "Dance technique manuals or expert interviews.",
+      "question": "What are the specific pedagogical differences between the 'Savoy' and 'Hollywood' styles of Lindy Hop?",
+      "source": "https://en.wikipedia.org/wiki/Swing_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for different swing lineages."
+    }
+  ],
+  "research_file": "research_results/swing.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +138,13 @@
   "slug": "swing",
   "sources": [
     "https://en.wikipedia.org/wiki/Swing_(dance)",
-    "Source: Swing (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Swing_(dance)"
+    "https://www.wikidata.org/wiki/Q123704",
+    "https://es.wikipedia.org/wiki/Swing_(baile)",
+    "https://fr.wikipedia.org/wiki/Swing_(danse)",
+    "https://pt.wikipedia.org/wiki/Swing_(dança)",
+    "https://de.wikipedia.org/wiki/Swing_(Tanz)",
+    "https://archive.org/details/childrensliterat0000curr",
+    "https://archive.org/details/smash-hits-1981-03-19"
   ],
   "state": "researching",
   "video_evidence": []

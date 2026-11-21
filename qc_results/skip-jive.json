@@ -1,0 +1,120 @@
+{
+ "slug": "skip-jive",
+ "qc_at": "2026-11-21T19:18:05Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.4,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Skip jive"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "78"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "123"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 1950s and 1960s, dancers packed London venues like Jazzshows at 100 Oxfor"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "376"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "754"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,costume_and_setting,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United Kingdom"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Jive",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "publish",
+  "notes": "The profile is historically accurate and well-cited, but lacks any practical teaching value as the movement vocabulary is entirely undocumented. It serves as a useful historical record of a niche mid-century British social dance, but cannot currently function as a guide for dancers."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=8.4"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-21T18:18:33Z"
+}

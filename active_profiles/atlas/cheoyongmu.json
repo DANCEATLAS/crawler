@@ -1,24 +1,30 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "not described in sources",
+      "difficulty": "intermediate",
       "footwork": "not described in sources",
-      "formation_and_space": "Five dancers arranged to represent the four cardinal directions and the center.",
+      "formation_and_space": "performed by five dancers",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "stately",
+      "posture": "not described in sources",
       "signature_moves": [],
-      "tempo_feel": "vigorous",
+      "tempo_feel": "stateliness and vigour",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
-      "instruments": [
-        "not described in sources"
-      ],
+      "instruments": [],
       "meter": "not described in sources",
       "mood_keywords": [
         "majestic",
@@ -27,7 +33,7 @@
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "Music is punctuated by various lyrical song recitations and varies in style and tempo.",
+      "sound_description": "Music featuring varying styles and tempos, punctuated by lyrical song recitations.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "lyrical song recitations"
     },
@@ -35,13 +41,13 @@
       "basic_steps": [
         "not described in sources"
       ],
-      "formation": "Five dancers representing the four cardinal directions and the center.",
+      "formation": "Always performed by five dancers representing cardinal directions and the center",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9af6d23f2f3582e5ec134c5c949ac2a18ed1960143c9bfaffdde613cf56c7b59",
+  "fingerprint": "5d5247143eaf4a46b9a6afb023ba7de2768552afde8f7f9525d3c62201088803",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -49,7 +55,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -67,7 +73,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact spatial pathways and footwork counts used by the five dancers during stage performances? Evidence needed: Detailed choreography notations from the Korean National Center for Korean Traditional Performing Arts."
     ]
   },
   "id": "atlas:cheoyongmu",
@@ -78,7 +85,17 @@
   ],
   "music_options": [],
   "name": "Cheoyongmu",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d51708d870794215",
+      "next_evidence": "Detailed choreography notations from the Korean National Center for Korean Traditional Performing Arts.",
+      "question": "What are the exact spatial pathways and footwork counts used by the five dancers during stage performances?",
+      "source": "https://en.wikipedia.org/wiki/Cheoyongmu",
+      "status": "candidate_unreviewed",
+      "why_needed": "Needed for precise interactive instructional reconstruction."
+    }
+  ],
   "research_file": "research_results/cheoyongmu.json",
   "runtime_active": false,
   "scope": {

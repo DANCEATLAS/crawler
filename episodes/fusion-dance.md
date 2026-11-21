@@ -1,8 +1,8 @@
 # Fusion Dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A contemporary social dance organizer
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Breaking the Rules of Partner Dance
 NARRATION: This is Fusion Dance. 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (82R915KChps)
 ON SCREEN: Title card: Fusion Dance · United States · 21st century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Fusion dance is an improvised social partner dance utilizing a lead-follow approach, physical connection, extension-compression, and frame.
 NARRATION: It decouples dance roles from historically associated genders and emphasizes consent between partners.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (82R915KChps)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: partner dance formation
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -71,7 +71,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. connection
 NARRATION: extension-compression
-NARRATION: Count it: .
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -98,7 +98,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -108,13 +108,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: connection
 NARRATION: Step 2: extension-compression
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -131,7 +133,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,7 +162,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -170,13 +172,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: connection
 NARRATION: Step 2: extension-compression
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -193,7 +197,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: partner dance formation
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -221,7 +225,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -231,13 +235,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: connection
 NARRATION: Step 2: extension-compression
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -254,7 +260,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: partner dance formation
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -281,7 +287,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Fusion dances take place in public events, private gatherings, and multi-day festivals across cities in Europe and the United States.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '82R915KChps', 'checked_by_vision_model': True, 'title': 'FUSION DANCE (Golden Jubilee Celebration of Holy Child Hr. Sec. School Shillong)'}
 Images: 2 licensed — Sdkb / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); DanceNinjas / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: "What If" Origins of Belly Dancing — https://archive.org/details/Nohorse-WhatIfOriginsOfBellyDancing514; Dance Performance by Shobha Chanel Dance Group — https://archive.org/details/dni.ncaa.ICCR-1281-VHS; Bolly Latin Dance by Desi Rhythms School of Dance — https://archive.org/details/actonma-Bolly_Latin_Dance_by_Desi_Rhythms_School_of_Dance; raasibomma 2025-02-25 — https://archive.org/details/raasibomma-2025-02-25; IMPROVVISAZIONE - RADIOATTIVA DUBSTEP PIANO FUSION DANCE — https://archive.org/details/improvisation-radioactive-dubstep-piano-fusion-dance; Sacred Bellydance. — https://archive.org/details/sacred-bellydance
 Motifs: Dancers transitioning between blues and popping, Partner connection grips
@@ -291,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ballroom-partner family studied · videos studied: 8
-Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot; guys step forward turning the girl; guys step back right ladies back right; guys pulling the right hand towards you; hit; swing; pop; cross; swag; step to side on 4-1
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: down down baby; hit hit; squeeze your butt
 
 Sources (3): https://en.wikipedia.org/wiki/Fusion_dance; https://www.wikidata.org/wiki/Q17081177; https://es.wikipedia.org/wiki/Baile_fusión

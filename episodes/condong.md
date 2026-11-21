@@ -1,6 +1,6 @@
 # Condong — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the origins & history section
 
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Solo entrance onto the performance space
 NARRATION: Sharp, intense character routine depicting the maidservant's duties
-NARRATION: Count it: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-2-3-4-5-6.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars. The meter is 16-beat gegaboran meter shifting to batel meter.
+NARRATION: Count: 1-2-3-4-5-6. The meter is 16-beat gegaboran meter shifting to batel meter.
 NARRATION: Rhythm pattern: Series of short 16-beat melodic cycles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,10 +119,10 @@ NARRATION: Step 1: Solo entrance onto the performance space
 NARRATION: Step 2: Sharp, intense character routine depicting the maidservant's duties
 NARRATION: Footwork from the sources: Simplified versions of legong footwork executed with sharp and intense precision
 NARRATION: Drill: Count through the 16-beat cycle with gamelan accompaniment.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Meeting and dancing with incoming legong dancers
@@ -130,7 +130,7 @@ NARRATION: Step 4: Presentation of fans to each legong dancer
 NARRATION: Drill: Practice holding the intense, focused gaze required of the condong maidservant.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -149,7 +149,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count. · For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,7 +178,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars. The meter is 16-beat gegaboran meter shifting to batel meter.
+NARRATION: Count: 1-2-3-4-5-6. The meter is 16-beat gegaboran meter shifting to batel meter.
 NARRATION: Rhythm pattern: Series of short 16-beat melodic cycles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -189,10 +189,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stage withdrawal prior to the main legong dance
 NARRATION: Drill: Drill the sharp, sudden directional shifts characteristic of the routine.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Fan presentation: Dancing with the incoming legong performers and handing a fan to each dancer before withdrawing.
@@ -201,7 +201,7 @@ NARRATION: Drill: Rehearse the ceremonial grip and presentation of the fan.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -220,7 +220,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count. · For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo floor entrance traversing the stage, culminating in a shared space with legong dancers before exit
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -249,7 +249,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars. The meter is 16-beat gegaboran meter shifting to batel meter.
+NARRATION: Count: 1-2-3-4-5-6. The meter is 16-beat gegaboran meter shifting to batel meter.
 NARRATION: Rhythm pattern: Series of short 16-beat melodic cycles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -261,10 +261,10 @@ NEEDS: tempo
 NARRATION: Step 1: Presentation of fans to each legong dancer
 NARRATION: Step 2: Stage withdrawal prior to the main legong dance
 NARRATION: Drill: Execute the full 15-minute solo endurance run.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Fan presentation: Dancing with the incoming legong performers and handing a fan to each dancer before withdrawing.
@@ -273,7 +273,7 @@ NARRATION: Drill: Coordinate spatial transitions with two incoming legong partne
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -292,7 +292,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the maidservant's upper-body gestures and fan presentations seated upright in a stable chair, following the 16-beat melodic count. · For children: The Royal Messenger game: children carry and hand off fans to partners on count 16 without dropping the rhythm. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo floor entrance traversing the stage, culminating in a shared space with legong dancers before exit
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
-Counting: count the 16-beat gegaboran meter shifting to batel meter bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: 1; 2; 3; 4; 5; 6
 
 Sources (4): https://en.wikipedia.org/wiki/Condong; https://www.wikidata.org/wiki/Q18521550; https://fr.wikipedia.org/wiki/Condong; https://archive.org/details/20131117program

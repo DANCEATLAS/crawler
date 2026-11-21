@@ -1,0 +1,123 @@
+{
+ "slug": "aragonaise",
+ "qc_at": "2026-11-21T19:19:21Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Aragonaise"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "117"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1890, Pierre Duvernet published a piano arrangement of Jules Massenet's drivi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "493"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "5922"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "4/6 rate=0.667"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "exotic"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that Wikidata formally classifies the term as a specific type of dance is unsupported by the provided evidence.",
+   "The claim that Massenet's Aragonaise is marked 'Assai vivo' is not explicitly supported by the provided evidence quote, which only links the phrase to the piano arrangement."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Jota",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The profile is well-researched regarding the musical history of the term, though it correctly identifies that the actual physical dance steps are not documented in the provided sources. It maintains a respectful tone and avoids exoticism by acknowledging the operatic context of the term."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=7.85",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 4,
+  "rate": 0.667
+ },
+ "researched_at": "2026-11-21T18:59:24Z"
+}

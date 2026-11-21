@@ -1,6 +1,6 @@
 # Sammi — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section; notable figures; teaching steps written out
 
@@ -105,7 +105,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a circle formation.
 NARRATION: Step 2: Swing arms from the sides to the front.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 · repetitions: 3
@@ -170,7 +170,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a circle formation.
 NARRATION: Step 2: Swing arms from the sides to the front.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 · repetitions: 3
@@ -235,7 +235,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a circle formation.
 NARRATION: Step 2: Swing arms from the sides to the front.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 · repetitions: 3
@@ -299,10 +299,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4
-Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: here we go; one more time; turn up the energy
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 4
+Cues: here we go; one more time; turn up the energy; 1 2 3 and 4
 Common mistakes the studied teachers name: not keeping legs back; confusing count with claps
 
 Sources (2): https://en.wikipedia.org/wiki/Sammi_(dance); https://www.wikidata.org/wiki/Q7409668

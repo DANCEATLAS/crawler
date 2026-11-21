@@ -1,8 +1,8 @@
 # Garudan Thookkam — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A temple elder or cultural historian of the Travancore tradition
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Blood of the Eagle
 NARRATION: This is Garudan Thookkam. Ancient/Living Tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (a1d1G-Mj9JU)
 ON SCREEN: Title card: Garudan Thookkam · India · Ancient/Living Tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Performers dress as Garuda and engage in a night-long dance.
 NARRATION: The movement mimics the flight of the divine eagle.
 NARRATION: The climax involves 'Choondakuthal,' where the skin of the back is pierced with metal hooks.
 NARRATION: Watch for Choondakuthal, Eagle Flight.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (a1d1G-Mj9JU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processions on bullock carts, boats, or hand-pulled carts; three circuits around the temple
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'a1d1G-Mj9JU', 'checked_by_vision_model': True, 'title': 'Garudan thookkam'}
 Images: 1 licensed — Devdarsh DS / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Folk Dance of Kerala (Vol. IV) — https://archive.org/details/dni.ncaa.IGNCA-36-VHS
 Motifs: The sharp metal hook, The three-storied floating Attuvela, The vibrant feathers of the Garuda costume, The flickering lamps of the night procession
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Garudan_Thookkam; https://www.wikidata.org/wiki/Q5524472

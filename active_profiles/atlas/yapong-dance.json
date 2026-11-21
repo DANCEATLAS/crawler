@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex historical narratives",
+          "Heavy headgear"
+        ],
+        "counts": "1-2-3-4 matching the 'ya-pong' sounds.",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' game based on the 'ya-ya-ya' vocal cues."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid formation changes",
+          "Deep knee bends"
+        ],
+        "counts": "Simple 4/4 counts following the 'ya-pong' rhythm.",
+        "seated_version": "Focus on the 'toka-toka' sash movements and hand gestures while seated.",
+        "standing_version": "Gentle swaying and rhythmic stepping without high-impact jumps.",
+        "tempo_and_range": "Reduced tempo to match comfortable breathing; limited arm extension."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Mass dance performance patterns",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "none",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A movement synchronized with the 'ya-pong' rhythmic sound",
+          "name": "Yapong Step"
+        }
+      ],
+      "tempo_feel": "dynamic and happy",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Rebana Biang",
+        "Rebana Hadroh",
+        "Rebana Ketimpring",
+        "Javanese instruments",
+        "Sundanese instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "joyful",
+        "dynamic",
+        "festive",
+        "exotic"
+      ],
+      "musical_form": "A mixture of Betawi, Javanese, and Sundanese styles",
+      "reference_recordings": [],
+      "rhythm_pattern": "ya-ya-ya vocalizations paired with pong-pong-pong percussion",
+      "sound_description": "A rhythmic blend of traditional Betawi frame drums (rebana) with Javanese and Sundanese melodic influences, characterized by a call-and-response feel between singers and percussion.",
+      "tempo_bpm": "",
+      "vocal_style": "Singing featuring the repetitive phrase 'ya, ya, ya'"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Dynamic walking steps to the rhythm of the rebana",
+        "Swaying movements reflecting the 'ya-ya-ya' vocalizations",
+        "Hand gestures coordinated with the 'pong' percussion strikes",
+        "Formation changes typical of mass performance"
+      ],
+      "formation": "Mass dance or group performance",
+      "level_notes": "Accessible for beginners due to its origins as a mass celebratory dance.",
+      "rhythm": "Syncopated and joyful, driven by rebana percussion"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "215d622641e5d36860e52661fbbabae1a8ebfb088dc16d7a78cde2ec23bc583c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How does the 'toka-toka' sash specifically restrict or enhance torso movement? Evidence needed: https://en.wikipedia.org/wiki/Yapong_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand positions (mudras or gestures) used during the 'ya-ya-ya' vocal section? Evidence needed: https://en.wikipedia.org/wiki/Yapong_dance"
+    ]
+  },
+  "id": "atlas:yapong-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Yapong dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1ca8e49006dfbdbe",
+      "next_evidence": "https://en.wikipedia.org/wiki/Yapong_dance",
+      "question": "What are the specific hand positions (mudras or gestures) used during the 'ya-ya-ya' vocal section?",
+      "source": "https://en.wikipedia.org/wiki/Yapong_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'dynamic and exotic movements' but does not define the specific shapes required for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "78a1e0225542c9d8",
+      "next_evidence": "https://en.wikipedia.org/wiki/Yapong_dance",
+      "question": "How does the 'toka-toka' sash specifically restrict or enhance torso movement?",
+      "source": "https://en.wikipedia.org/wiki/Yapong_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Understanding the interaction between costume and movement is vital for accurate choreography."
+    }
+  ],
+  "research_file": "research_results/yapong-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "yapong-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yapong_dance",
+    "https://www.wikidata.org/wiki/Q20427625"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

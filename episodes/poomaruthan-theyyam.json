@@ -1,0 +1,384 @@
+{
+ "slug": "poomaruthan-theyyam",
+ "name": "Poomaruthan Theyyam",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T18:19:43Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior Thiyya community ritualist who emphasizes the deity's protective but fierce nature.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Poomaruthan Theyyam",
+   "Poomarutha"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Poomaruthan Theyyam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Wind in the Flower",
+     "This is Poomaruthan Theyyam. Ancient/Living Tradition."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Poomaruthan Theyyam · India · Ancient/Living Tradition"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The origins of Poomaruthan Theyyam are rooted in the migration myths of the Thiyya community in North Malabar.",
+     "The deity is described as a guard of Shiva origin who resided within a blossoming flower in the form of wind.",
+     "He became a 'brotherly friend' to the goddess Poomala Devi after helping her in a heavenly garden."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Poomaruthan Theyyam is performed during the annual festivals of Poomala shrines.",
+     "It represents the protection of the goddess and the community.",
+     "The act of the deity hitting onlookers with a shield is a significant ritual event, believed to be a form of divine engagement.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by 'lively movements' that emphasize martial skill.",
+     "The performer holds a sword and a wooden shield, which are the primary tools of the choreography.",
+     "The movement involves 'twirling the shield and swinging the sword' in rhythmic patterns.",
+     "Watch for Shield Knock, Shield Twirl."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Performs in the courtyard of Poomala shrines, interacting with a surrounding crowd."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "While the specific percussion patterns are not detailed in the sources, the performance is described as 'ritualistic dance' accompanied by 'lively movements.' In the context of North Malabar Theyyam, this typically involves the Chenda (drum) and Elathalam (cymbals) to provide the rhythmic structure for the sword and shield play.",
+     "The shouting of the valyakars serves as a vocal accompaniment that drives the energy of the performance.",
+     "Listen for the Chenda (implied by tradition), Elathalam (implied by tradition).",
+     "The soundscape is dominated by the rhythmic clashing of the wooden shield and sword, punctuated by the high-energy shouts of the valyakars who gather to provoke and excite the deity."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The costume features 'special face art and body art' created from natural substances.",
+     "A defining feature is the 'black mustache and beard' worn on the face.",
+     "The performer wears a 'Mudi,' a large wooden crown-like ornamentation."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The deity Poomaruthan is the central figure, described as a 'Hindu god' of Shiva origin.",
+     "The Arya princess Aryapoonkani is also central to the myth, as she was possessed by Poomala and traveled with Poomaruthan on the wooden ship.",
+     "Variants are linked to specific temple myths.",
+     "Poomaruthan is classified as a 'Theyyam' and an 'Indian folk dance.' It belongs to the broader tradition of North Malabar Theyyam, specifically associated with the 'Shiva origin' deities and the 'Thiyya community' worship practices."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Poomaruthan Theyyam is parent of Theyyam: Poomaruthan is a specific manifestation within the broader Theyyam tradition.",
+     "Poomaruthan Theyyam is sibling of Poomala Bhagavathy: Poomaruthan is the brotherly protector of Poomala, though she has no Theyyam form."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Poomaruthan Theyyam is a sacred ritual where the performer is believed to be the living embodiment of the deity. Respectful distance should be maintained unless the deity initiates contact. Photography may be restricted in certain inner sanctums of the Poomala shrines."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness the transformation of a celestial wind spirit into a shield-clashing warrior deity in the shrines of North Malabar.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Chenda (implied by tradition)",
+   "Elathalam (implied by tradition)"
+  ],
+  "vocal_style": "Shouts from ritual assistants (valyakars) to excite the deity.",
+  "musical_form": "Progressive intensity from night (Vellattam) to day performance.",
+  "mood": [
+   "lively",
+   "martial",
+   "divine",
+   "energetic"
+  ],
+  "sound_description": "The soundscape is dominated by the rhythmic clashing of the wooden shield and sword, punctuated by the high-energy shouts of the valyakars who gather to provoke and excite the deity.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Poomaruthan Theyyam (India). Instruments: Chenda (implied by tradition), Elathalam (implied by tradition). Vocal style: Shouts from ritual assistants (valyakars) to excite the deity.. Form: Progressive intensity from night (Vellattam) to day performance.. Mood: lively, martial, divine, energetic. It should sound like this: The soundscape is dominated by the rhythmic clashing of the wooden shield and sword, punctuated by the high-energy shouts of the valyakars who gather to provoke and excite the deity. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The costume features 'special face art and body art' created from natural substances. A defining feature is the 'black mustache and beard' worn on the face. The performer wears a 'Mudi,' a large wooden crown-like ornamentation. The size of the Mudi changes according to the time of the ritual: a 'small Mudi' is used for the night Vellattam, while a 'large Mudi' is used for the daytime Theyyam. The setting is typically the 'shrine of the regional Hindu goddess Poomala bhagavathy' or associated temple grounds in Kannur and Kasaragod.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKuttamath_poomala_bhagavathy_temple_Cheruvathur_01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APoomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APoomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016_2.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kuttamath_poomala_bhagavathy_temple_Cheruvathur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kuttamath_poomala_bhagavathy_temple_Cheruvathur_01.jpg/1280px-Kuttamath_poomala_bhagavathy_temple_Cheruvathur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKuttamath_poomala_bhagavathy_temple_Cheruvathur_01.jpg",
+    "description": "Shrines of poomala bhagavathy and poomaruthan at Kuttamath poomala bhagavathy temple Cheruvathur, Kasaragod district, Kerala."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Poomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Poomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016.jpg/1280px-Poomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016.jpg",
+    "description": "Poomaruthan theyyam performed at Kuttamath Poomala bhagavathy temple Kaliyattam in 2016"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Poomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Poomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016_2.jpg/1280px-Poomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoomaruthan_theyyam_at_Kuttamath_Poomala_temple_2016_2.jpg",
+    "description": "Poomaruthan theyyam performed at Kuttamath Poomala bhagavathy temple Kaliyattam in 2016"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The black mustache and beard against intricate face paint",
+   "The massive wooden Mudi crown",
+   "The wooden shield striking the crowd",
+   "Tender coconut water being offered"
+  ],
+  "costume_notes": "The costume features 'special face art and body art' created from natural substances. A defining feature is the 'black mustache and beard' worn on the face. The performer wears a 'Mudi,' a large wooden crown-like ornamentation. The size of the Mudi changes according to the time of the ritual: a 'small Mudi' is used for the night Vellattam, while a 'large Mudi' is used for the daytime Theyyam. The setting is typically the 'shrine of the regional Hindu goddess Poomala bhagavathy' or associated temple grounds in Kannur and Kasaragod.",
+  "setting_notes": "Poomaruthan Theyyam is performed during the annual festivals of Poomala shrines. It represents the protection of the goddess and the community. The act of the deity hitting onlookers with a shield is a significant ritual event, believed to be a form of divine engagement. The myth of the deity being welcomed with tender coconut water at the Oriyara temple is often commemorated during the ritual proceedings.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "loosen those hips",
+   "connect with the earth"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
+  "https://www.wikidata.org/wiki/Q20581714"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "5f02e0162d71b74e484676ce37c9e08143e59d7292d93c8cef09e90f0d39a2ba",
+ "hero_checked": null
+}

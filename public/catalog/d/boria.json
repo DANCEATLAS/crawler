@@ -204,28 +204,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 11,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -236,15 +220,80 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "zrxVwuUbl38",
+   "url": "https://www.youtube.com/watch?v=zrxVwuUbl38",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "television studio stage with backdrop featuring geometric patterns and text branding",
+    "dancers": "six dancers, mixed group of men and women",
+    "formation_and_space": "line formation moving horizontally and rotating in place",
+    "posture": "upright torso, relaxed knees, weight shifting side to side",
+    "footwork": "step-touch and light stepping matching the rhythmic feel",
+    "arms_and_hands": "arms bent at elbows, hands making fluid waving and swirling gestures",
+    "hips_and_torso": "minimal torso twists and hip movement following the arm gestures",
+    "partnering": "none",
+    "levels_jumps_turns": "standing level, occasional small pivots and turns",
+    "costume_and_props": "women wear pink dresses with wide dark belts, elaborate feather headpieces; men wear blue sheer jackets over yellow shirts, red sashes, dark trousers, and red top hats",
+    "cannot_infer": "fast footwork details and exact weight transfers are obscured by camera movement and wide shots",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "keyboard",
+      "strings"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 10,
+      "end_s": 18,
+      "what": "dancers step in a line while swinging arms and swaying their skirts"
+     },
+     {
+      "start_s": 28,
+      "end_s": 36,
+      "what": "dancers alternate stepping side to side with overhead arm reaches"
+     },
+     {
+      "start_s": 108,
+      "end_s": 118,
+      "what": "dancers circle around each other with coordinated hand waving gestures"
+     },
+     {
+      "start_s": 150,
+      "end_s": 158,
+      "what": "dancers step forward and back in unison with extended arm styling"
+     },
+     {
+      "start_s": 228,
+      "end_s": 236,
+      "what": "dancers hold poses with raised arms and one leg extended pointing the toe"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -254,6 +303,6 @@
   "polished": false,
   "file": "episodes/boria.json"
  },
- "fingerprint": "46c4502f1b740494",
+ "fingerprint": "ce87a8265b311a1c",
  "updated": "2026-11-21"
 }

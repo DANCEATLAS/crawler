@@ -89,7 +89,20 @@
    "verdict": "pass",
    "checked_at": "2026-11-15T18:00:06Z",
    "soft_fail": []
-  }
+  },
+  "tutorials": [
+   {
+    "youtube_id": "J1fptBTGY6Q",
+    "title": "COMO DANÇAR O PASSINHO DO JAMAL? Passo a passo ",
+    "channel": "Brown Andrade",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ]
  },
  "profile": {
   "sections": {
@@ -149,7 +162,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -157,37 +170,120 @@
     "label": "known to be living, revived or historical"
    },
    {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
+   "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "lesson",
    "rhythm": "lesson",
+   "sound": "performance",
    "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "5s2Y_iww93o",
+   "url": "https://www.youtube.com/watch?v=5s2Y_iww93o",
+   "title": "Aprenda o Passinho do Jamal",
+   "channel": "Humberto França",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "Portuguese",
+   "counting_scheme": "pisa-pisa-pisa-marcha",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to passinho do Jamal"
+    },
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "breakdown",
+     "note": "Marching step breakdown"
+    },
+    {
+     "t": "0:17",
+     "seconds": 17,
+     "segment": "breakdown",
+     "note": "Pamp step and transition练习"
+    },
+    {
+     "t": "0:53",
+     "seconds": 53,
+     "segment": "breakdown",
+     "note": "Adding arms to the movements"
+    },
+    {
+     "t": "3:35",
+     "seconds": 215,
+     "segment": "music_practice",
+     "note": "Putting the steps together with timing"
+    },
+    {
+     "t": "4:45",
+     "seconds": 285,
+     "segment": "layering",
+     "note": "Adding styling and flourishes"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Marcha",
+     "counts": "unspecified",
+     "description": "Marching in place lifting knees"
+    },
+    {
+     "name": "Pisada",
+     "counts": "unspecified",
+     "description": "Stepping with alternating feet"
+    }
+   ],
+   "cues": [
+    "Marcha soldado cabeça de papel",
+    "pisa e marcha",
+    "subiu perna direita"
+   ],
+   "images": [
+    "Marcha soldado cabeça de papel"
+   ],
+   "common_mistakes": [
+    "Moving same arm and leg instead of opposite"
+   ],
+   "safety": [
+    "tomar cuidado para você não ter um desmaio durante a dança"
+   ],
+   "teacher_style": "The teacher breaks down the passinho do Jamal step by step, focusing on lower body footwork before adding arms. He uses verbal explanations to clarify counterintuitive movements.",
+   "distinctive_method": "Isolating arm and leg coordination to teach a counterintuitive movement pattern.",
+   "what_works": [
+    "Clear separation of feet and arms instruction"
+   ],
+   "what_hinders": [
+    "Lack of musical rhythm demonstration early on"
+   ],
+   "evidence": [
+    {
+     "start_s": 5,
+     "end_s": 15,
+     "topic": "movement",
+     "observation": "Teacher demonstrates marching in place.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "J1fptBTGY6Q",
    "url": "https://www.youtube.com/watch?v=J1fptBTGY6Q",
@@ -274,6 +370,57 @@
    }
   }
  ],
+ "performances": [
+  {
+   "youtube_id": "lk8QZ8poyJg",
+   "url": "https://www.youtube.com/watch?v=lk8QZ8poyJg",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Urban outdoor settings including a turf soccer field, rooftops with water tanks, streets, and an illuminated modern walkway at night.",
+    "dancers": "Mixed group of men, women, and children; soloists and groups performing choreography.",
+    "formation_and_space": "Groups lined up on the soccer field, individual performers in various outdoor locations, and tight cluster formations.",
+    "posture": "Upright torso with soft knees during footwork, bending forward during hip movements.",
+    "footwork": "Rhythmic stepping, quick weight shifts, and bouncing on the beat, foot placement obscured in some wide shots.",
+    "arms_and_hands": "Arms swing naturally, hands gestures, pointing, holding smoke flares or cell phones.",
+    "hips_and_torso": "Prominent hip rotation, twirling, and lower body isolations, especially during twerking movements by women in groups.",
+    "partnering": "Solo dancing alongside partners, occasional close positioning without complex partnering holds.",
+    "levels_jumps_turns": "Standing level with low squatting positions and deep hip drops, occasional turns.",
+    "costume_and_props": "Casual streetwear, athletic jerseys, caps, sunglasses, heavy chains; props include red smoke flares, motorcycles, and smartphones.",
+    "cannot_infer": "Precise footwork details are obscured by rapid camera cuts and low-resolution sampling in several wide-angle group shots.",
+    "music_heard": {
+     "instruments": [
+      "electronic drum machine",
+      "synthesizer"
+     ],
+     "vocals": "solo and chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 36,
+      "end_s": 39,
+      "what": "Dancers shaking hips and twerking low to the ground surrounded by smoke flares."
+     },
+     {
+      "start_s": 51,
+      "end_s": 54,
+      "what": "Men stepping in sync with arm gestures on a turf field."
+     },
+     {
+      "start_s": 121,
+      "end_s": 124,
+      "what": "Group synchronizing arm pumps and leg bounces on the soccer field."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -283,6 +430,6 @@
   "polished": false,
   "file": "episodes/passinho-do-jamal.json"
  },
- "fingerprint": "a8ceff686f7a0e48",
+ "fingerprint": "449962f933263971",
  "updated": "2026-11-21"
 }

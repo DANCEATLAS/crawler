@@ -2,7 +2,7 @@
  "slug": "j-setting",
  "name": "J-Setting",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T18:45:17Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is J-Setting. Late 1970s to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (Z7X3Jqu0x5Y)",
      "Title card: J-Setting · United States · Late 1970s to present"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Bucking, Salt and Pepper."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (Z7X3Jqu0x5Y)",
      "Captions name each signature move as it appears",
      "Formation: Linear rows that shift into complex geometric patterns similar to marching band drills."
     ],
@@ -716,7 +716,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "Z7X3Jqu0x5Y",
+   "checked_by_vision_model": true,
+   "title": "The Dance Troupe Inspiring Beyoncé"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -772,8 +776,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "14 tutorial(s) of the african-diaspora family studied",
-  "videos_studied": 14,
+  "source": "13 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 13,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -782,18 +786,18 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "make sure that you are wearing comfortable shoes",
-   "stand properly",
-   "don't do that",
+   "out in out half circle back close",
+   "one two tap accent with left shoulder",
+   "one and two and three",
+   "contract the pelvis it will pull you forward",
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
    "and out and out and in and in",
    "double double",
    "and cross and cross",
    "right slap left slap",
-   "left foot",
-   "right foot",
-   "step",
-   "touch",
-   "stomp off"
+   "bend the knees"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -803,13 +807,13 @@
    "full_demo",
    "breakdown",
    "slow_practice",
-   "music_practice"
+   "music_practice",
+   "layering"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -820,6 +824,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "71540439ef6b45d2b0c7111f6434b9d4556f3814903d3d7ac23046c833da0554",
- "hero_checked": null
+ "input_fingerprint": "2e181f194aef3cbb666a30d2336ac849da4698461231876472163f46000566ec",
+ "hero_checked": "pass"
 }

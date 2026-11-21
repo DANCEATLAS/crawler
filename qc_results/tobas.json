@@ -1,6 +1,6 @@
 {
  "slug": "tobas",
- "qc_at": "2026-11-02T14:49:10Z",
+ "qc_at": "2026-11-21T19:15:50Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "155"
+   "detail": "174"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Tobas originated in early 20th-century Oruro, inspired by the Chunchos dance, ye"
+   "detail": "Created in 1905 Oruro by miners inspired by Tarija pilgrims, the Tobas dance tra"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "576"
+   "detail": "420"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2327"
+   "detail": "3138"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "16/16 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "4 paras"
+   "detail": "5 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,7 +84,7 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=False cues=['religious']"
+   "detail": "sacred=True cues=['ritual', 'shaman', 'spirit', 'religious']"
   }
  ],
  "judge": {
@@ -98,20 +98,22 @@
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 10,
+  "adaptations_safe": true,
+  "overall": 9.5,
   "verdict": "publish",
-  "notes": "Extremely detailed, well-supported profile on Tobas with precise historical origin details and specific dance step breakdowns."
+  "notes": "Exceptional fact-checking alignment with solid historical and structural details on the Tobas dance."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
- "is_sacred": false,
+ "is_sacred": true,
  "reasons": [
-  "judge_score=9.7"
+  "judge_score=9.7",
+  "sacred"
  ],
  "citation": {
-  "claims": 16,
-  "supported": 16,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-31T15:47:48Z"
+ "researched_at": "2026-11-21T18:44:41Z"
 }

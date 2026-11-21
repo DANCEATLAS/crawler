@@ -1,8 +1,8 @@
 # Goravara Kunitha — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Gorava who speaks of the dance as a lifelong oath, not a performance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Bear-Men of Mailara Linga
 NARRATION: This is Goravara Kunitha. Ancient/Living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (iA3gr_NkqxI)
 ON SCREEN: Title card: Goravara Kunitha · India · Ancient/Living tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: In public, 10-12 dancers stand in a straight line before moving into 
 NARRATION: The senior Gorava leads with the flute and damaru.
 NARRATION: Dancers use 'big eyes' and raised eyebrows to create a fearsome look.
 NARRATION: Watch for Ogu Seve Eating, Scary Gaze.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (iA3gr_NkqxI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Straight lines for 10-12 people, transitioning into circular paths.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -104,7 +104,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'iA3gr_NkqxI', 'checked_by_vision_model': True, 'title': 'Goravara Kunitha Karnataka'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The texture of the bear-skin headgear, The yellow and white turmeric/ash on the face, The black woolen blanket on the floor, The blur of the spinning Damaru
@@ -114,9 +114,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Goravara_Kunitha; https://www.wikidata.org/wiki/Q5584533

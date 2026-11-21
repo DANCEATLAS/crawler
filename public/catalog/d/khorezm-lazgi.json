@@ -139,7 +139,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -151,39 +151,74 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "gLcj_WLam9w",
+   "url": "https://www.youtube.com/watch?v=gLcj_WLam9w",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Dance studio with wooden floors and wall mirrors.",
+    "dancers": "Mixed group of male and female dancers in traditional and rehearsal attire.",
+    "formation_and_space": "Dancers move in rows and formations across the studio floor.",
+    "posture": "Upright torso with flexible movement, knees bent in low stances at times.",
+    "footwork": "Stepping and shifting weight in rhythm with the music; specific foot details partially obscured by wide skirts and trousers.",
+    "arms_and_hands": "Arms raised and undulating with detailed wrist and finger movements, some holding small stone castanets (kairok).",
+    "hips_and_torso": "Fluid horizontal and vertical waves through the torso.",
+    "partnering": "None, dancers perform independently or in ensemble coordination.",
+    "levels_jumps_turns": "Low knee bends and turns executed across the floor.",
+    "costume_and_props": "Women wear bright yellow dresses with patterned vests, headpieces with white feathers, and braided hair. Men wear dark trousers, tall fur hats, and patterned tunics. Some hold stone castanets.",
+    "cannot_infer": "Exact footwork precision and weight distribution are partially obscured by long garments and quick camera angles.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "dutar"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "Group unison arm waving and wrist articulation while stepping in formation."
+     },
+     {
+      "start_s": 52,
+      "end_s": 57,
+      "what": "Male dancers performing low squatting steps with alternating leg extensions."
+     },
+     {
+      "start_s": 232,
+      "end_s": 237,
+      "what": "Female dancers extending arms overhead with fluid wrist rolls while spinning."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -193,6 +228,6 @@
   "polished": false,
   "file": "episodes/khorezm-lazgi.json"
  },
- "fingerprint": "6168390dd9fbae57",
+ "fingerprint": "7c9a3e89e0486b85",
  "updated": "2026-11-21"
 }

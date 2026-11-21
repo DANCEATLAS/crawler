@@ -122,21 +122,6 @@
   },
   "tutorials": [
    {
-    "youtube_id": "KAYibD5FE6U",
-    "title": "How to Play Tambourine - Tutorial",
-    "channel": "WORLD DRUM CLUB",
-    "level": "general",
-    "pos": 4,
-    "neg": 0,
-    "ratio": 4.0,
-    "evidence": [
-     "Thank you so much for your videos. I’m an actor and have been cast in a show where I’ve been asked to play bongos, the tambourine & shakers in a scene..my chara",
-     "❤thank you so much!! I've been searching for hours for a teacher 🎉. You're the best!!",
-     "Thank you so much! \nThis helps me a lot!\nI don't play a tambourine, I need it for in a recording... Now I don't have to ask anyone and hopefully I can do it mys"
-    ],
-    "lesson_status": "in_review"
-   },
-   {
     "youtube_id": "MakZ1I2yN-Y",
     "title": "10 Easy Tambourine Dance Steps pt. 1",
     "channel": "CMA-Isabel Dance Team",
@@ -377,16 +362,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 9,
   "of": 15,
   "missing": [
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    },
    {
     "key": "posture",
@@ -401,27 +382,164 @@
     "label": "formation and use of space"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "MakZ1I2yN-Y",
+   "url": "https://www.youtube.com/watch?v=MakZ1I2yN-Y",
+   "title": "10 Easy Tambourine Dance Steps pt. 1",
+   "channel": "CMA-Isabel Dance Team",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Hosts welcome viewers to CMA Dance Ministries channel and provide a disclaimer."
+    },
+    {
+     "t": "0:46",
+     "seconds": 46,
+     "segment": "full_demo",
+     "note": "Full demonstration of tambourine dance steps."
+    },
+    {
+     "t": "2:16",
+     "seconds": 136,
+     "segment": "context",
+     "note": "Introduction of pattern 'Blessed' with scripture reference (Genesis 1:22)."
+    },
+    {
+     "t": "2:28",
+     "seconds": 148,
+     "segment": "count_in",
+     "note": "Count-in and demonstration of Blessed pattern."
+    },
+    {
+     "t": "2:51",
+     "seconds": 171,
+     "segment": "slow_practice",
+     "note": "Slow motion demonstration of Blessed pattern."
+    },
+    {
+     "t": "3:44",
+     "seconds": 224,
+     "segment": "context",
+     "note": "Introduction of pattern 'Zion' with scripture reference (Isaiah 8:18)."
+    },
+    {
+     "t": "3:56",
+     "seconds": 236,
+     "segment": "count_in",
+     "note": "Count-in and demonstration of Zion pattern."
+    },
+    {
+     "t": "4:22",
+     "seconds": 262,
+     "segment": "slow_practice",
+     "note": "Slow motion demonstration of Zion pattern."
+    },
+    {
+     "t": "5:27",
+     "seconds": 327,
+     "segment": "context",
+     "note": "Introduction of pattern 'Gospel' with scripture reference (Romans 1:16)."
+    },
+    {
+     "t": "5:39",
+     "seconds": 339,
+     "segment": "slow_practice",
+     "note": "Slow demonstration of Gospel pattern."
+    },
+    {
+     "t": "7:27",
+     "seconds": 447,
+     "segment": "slow_practice",
+     "note": "Slow demonstration of Gospel B pattern."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Blessed",
+     "counts": "1-8",
+     "description": "Tambourine pattern with arm movements and ribbon flourishes."
+    },
+    {
+     "name": "Zion",
+     "counts": "1-8",
+     "description": "Circle pattern with tambourine swings and steps."
+    },
+    {
+     "name": "Gospel",
+     "counts": "1-8",
+     "description": "Praise pattern with overhead and side tambourine gestures."
+    }
+   ],
+   "cues": [
+    "1-2-3 go"
+   ],
+   "teacher_style": "The instructors present structured tambourine dance routines with scripture references, demonstrating each pattern at regular and slow motion speeds. They introduce each pattern verbally before performing alongside background music or count-ins.",
+   "distinctive_method": "Associating each tambourine pattern with specific Bible verses and categorization labels like Gospel and Zion.",
+   "what_works": [
+    "Inclusion of slow motion demonstrations allows learners to follow intricate tambourine and arm placements.",
+    "Clear visual scripture references and pattern names organize the tutorial sections."
+   ],
+   "what_hinders": [
+    "Lack of verbal breakdown of footwork and individual counts during slow demonstrations."
+   ],
+   "evidence": [
+    {
+     "start_s": 2,
+     "end_s": 15,
+     "topic": "teaching",
+     "observation": "Two speakers standing side by side talking directly to the camera with text overlays.",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "instructional depth",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 226,
+     "end_s": 247,
+     "topic": "movement",
+     "observation": "Two dancers in yellow overlays performing tambourine routines with ribbon attachments.",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "weight transfer detail",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 354,
+     "end_s": 417,
+     "topic": "movement",
+     "observation": "Dancers in red overlays executing tambourine arm extensions and turns.",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "footwork precision",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -431,6 +549,6 @@
   "polished": false,
   "file": "episodes/tambourin.json"
  },
- "fingerprint": "7a72590833d9d789",
+ "fingerprint": "f8832ea4605ea643",
  "updated": "2026-11-21"
 }

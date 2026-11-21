@@ -1,6 +1,6 @@
 # Thiruvathirakkali — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
 
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
+Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Thiruvathirakkali; https://www.wikidata.org/wiki/Q3929828

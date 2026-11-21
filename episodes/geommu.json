@@ -2,7 +2,7 @@
  "slug": "geommu",
  "name": "Geommu",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T18:00:48Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Geommu. 7th century AD to Joseon Dynasty (1392–1910)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (d11H2pJc7lQ)",
      "Title card: Geommu · South Korea · 7th century AD to Joseon Dynasty (1392–1910)"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Ipchum-sawi, Anjeon-sawi, Yeonpungdae."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (d11H2pJc7lQ)",
      "Captions name each signature move as it appears",
      "Formation: Transitions between two facing parallel lines (Ipchum-sawi, Anjeon-sawi) and a revolving group circle (Yeonpungdae)."
     ],
@@ -715,7 +715,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "d11H2pJc7lQ",
+   "checked_by_vision_model": true,
+   "title": "Geommu, korean sword dance by Ajna"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -780,8 +784,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "9 tutorial(s) of the classical-court family studied",
-  "videos_studied": 9,
+  "source": "12 tutorial(s) of the classical-court family studied",
+  "videos_studied": 12,
   "counting": "count the Varied changdan meters bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -790,18 +794,18 @@
    "repetitions per step: about 10"
   ],
   "cues": [
-   "uno y dos",
-   "el sombrero nunca para",
-   "que sea siempre continuado",
-   "kanna",
-   "neutralize your pelvis",
-   "shoulders are dropped",
-   "squeeze your abs",
-   "keep your eyes locked",
-   "stand like a soldier",
-   "close your ribcage",
-   "high high pass",
-   "squeeze your deep outward rotators"
+   "uno dos tres cuatro",
+   "sin parar",
+   "y ahora de regreso",
+   "tha-ka-di-ki-ta",
+   "tha-the-hi-tha",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "kick kick kick kick step"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -817,7 +821,6 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage"
  ],
  "sources": [
@@ -829,6 +832,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "44dabcf42af9eebf78c33291bc50bb8612f947c7385ede26cc5a62529df9a327",
- "hero_checked": null
+ "input_fingerprint": "0e7e1c081f013c658d5ccb45278432f1658079cc6238a7fd618df1f401b1c6f4",
+ "hero_checked": "pass"
 }

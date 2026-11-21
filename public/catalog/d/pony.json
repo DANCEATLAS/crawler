@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "pony",
  "name": "Pony",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -32,6 +32,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Pony_Time",
   "wikidata_qid": "Q17000192",
   "unesco": false,
+  "hero_video_youtube_id": "FPSJfIioFKU",
+  "video_stack": [
+   {
+    "youtube_id": "FPSJfIioFKU",
+    "role": "hero",
+    "title": "My Little Pony - Cafeteria Song dance (Helping Twilight Win the Crown)",
+    "channel": "Yalisa Tu",
+    "hd": true
+   },
+   {
+    "youtube_id": "9FoM9JHXCWQ",
+    "role": "rendition",
+    "title": "MAGIC MIKE XXL - Pony - Oficial Warner Bros. Pictures",
+    "channel": "Warner Bros. Pictures Latinoamérica",
+    "hd": true
+   },
+   {
+    "youtube_id": "AXdsxfdbT0U",
+    "role": "rendition",
+    "title": "Jenna Dewan-Tatum's \"Pony\"| Lip Sync Battle",
+    "channel": "Comedy Central Asia",
+    "hd": true
+   },
+   {
+    "youtube_id": "fb3Eub5gt1A",
+    "role": "rendition",
+    "title": "Ginuwine Pony - Dance Choreography by WilldaBEAST Adams & CJ Salvador",
+    "channel": "Willda -",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -65,6 +96,12 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:44Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "twist"
   ]
@@ -354,32 +391,141 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   }
-  ]
+  "via": {
+   "signature_moves": "performance",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "VuQnlSQiXDE",
+   "url": "https://www.youtube.com/watch?v=VuQnlSQiXDE",
+   "title": "Jake Kodish - PONY - Dance Tutorial [Preview] - #TMillyTV: Learn Choreography",
+   "channel": "Tim Milgram",
+   "analysed_on": "2026-11-21",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "6-7-8 and 1-2-3-4",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the choreography"
+    },
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the first section count by count"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Bachelor shot",
+     "counts": "6-7-8 1-2",
+     "description": "Step right, snap, left hit and grab tie"
+    }
+   ],
+   "cues": [
+    "grab onto your tie",
+    "part ner",
+    "some one who knows how to ride",
+    "heel toe"
+   ],
+   "images": [
+    "grabbing onto your tie"
+   ],
+   "teacher_style": "Jake Kodish breaks down choreography step-by-step with clear counts and verbal descriptions of body actions. He incorporates stylistic phrasing and sound effects to help students connect movement to the musical feel.",
+   "distinctive_method": "Combining narrative phrasing like 'some one who knows how to ride' directly into rhythm breakdowns.",
+   "what_works": [
+    "Mirrored video text indicator helps students follow along",
+    "Slow-motion demonstration with verbal explanations"
+   ],
+   "what_hinders": [
+    "Fast transitions between explaining and dancing"
+   ],
+   "evidence": [
+    {
+     "start_s": 6,
+     "end_s": 15,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates footwork counts facing forward in a mirror-flipped studio",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "FPSJfIioFKU",
+   "url": "https://www.youtube.com/watch?v=FPSJfIioFKU",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "bright dance studio with white walls, wooden floor, and large white double doors at the back",
+    "dancers": "six young women, mixed group in colourful character costumes",
+    "formation_and_space": "line formation facing forward across the studio width, occasionally shifting to pairs or brief diagonal spreads",
+    "posture": "upright torso with soft knees, weight shifting dynamically with high energy pop choreography",
+    "footwork": "stepping side-to-side, skipping in place, jumping on beats, and deep squatting steps",
+    "arms_and_hands": "expressive pop choreography with arms reaching overhead, pointing, waving, and framing the face; holding balloons and props later in the video",
+    "hips_and_torso": "hip sways, bounces in low squat positions, and upper body turns",
+    "partnering": "none, except occasional hand-holding or playful interaction in pairs",
+    "levels_jumps_turns": "frequent high jumps with legs tucked or extended, low squats, and spins",
+    "costume_and_props": "anime/cartoon character cosplay outfits featuring brightly colored skirts, boots, hats, and wigs; holding balloons and balloon animals",
+    "cannot_infer": "fast footwork detail obscured by wide camera angles and rapid editing cuts",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "electronic drums",
+      "electric bass"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 25,
+      "end_s": 26,
+      "what": "Synchronized high jump with arms raised high overhead"
+     },
+     {
+      "start_s": 44,
+      "end_s": 46,
+      "what": "Dancers drop into a low squat position with knees bent wide"
+     },
+     {
+      "start_s": 52,
+      "end_s": 55,
+      "what": "Quick directional stomp and pivot with arm gestures"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/pony.json"
  },
- "fingerprint": "6388309fe7057a5c",
+ "fingerprint": "a2c49085819a9766",
  "updated": "2026-11-21"
 }

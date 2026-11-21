@@ -245,36 +245,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 12,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -283,13 +259,74 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "uhAW519cnXQ",
+   "url": "https://www.youtube.com/watch?v=uhAW519cnXQ",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor hall or marquee with tables and chairs around the edge, colorful striped floor mat",
+    "dancers": "group of mixed men and women",
+    "formation_and_space": "line formation that changes into pairs and circles, moving around the space",
+    "posture": "upright torso, knees bent in bouncy action, weight shifting continuously",
+    "footwork": "lively stepping and hopping on the beat, feet lifting off the floor with alternating steps",
+    "arms_and_hands": "men holding black hats in one hand; women holding skirt hems and small decorative items or floral arrangements",
+    "hips_and_torso": "minimal isolated hip movement, torso upright with natural swaying from steps",
+    "partnering": "pairs dancing facing each other or side by side, some independent movement",
+    "levels_jumps_turns": "frequent small hops, individual spinning turns while moving",
+    "costume_and_props": "men in white shirts, dark vests, trousers, sashes, and black hats; women in bright pink and black skirts, white blouses, shawls, and floral garlands; one dancer balances a box on their head",
+    "cannot_infer": "low resolution prevents seeing exact foot placements and weight transfer details",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "brass instruments",
+      "percussion"
+     ],
+     "vocals": "chorus and call and response",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 18,
+      "end_s": 25,
+      "what": "dancers step and hop vigorously while women flare their skirts outward with both hands"
+     },
+     {
+      "start_s": 56,
+      "end_s": 63,
+      "what": "men lift their black hats high with one hand while skipping and turning in place"
+     },
+     {
+      "start_s": 137,
+      "end_s": 144,
+      "what": "dancers pair up and spin rapidly in circles while lifting their feet high on each beat"
+     },
+     {
+      "start_s": 253,
+      "end_s": 260,
+      "what": "group performs syncopated hopping steps with hats held overhead, moving in a circle"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -299,6 +336,6 @@
   "polished": false,
   "file": "episodes/muliza.json"
  },
- "fingerprint": "a7d7abf39e750a0e",
+ "fingerprint": "54090d613e9a35db",
  "updated": "2026-11-21"
 }

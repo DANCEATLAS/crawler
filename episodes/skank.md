@@ -1,6 +1,6 @@
 # Skank — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); teaching steps written out
 

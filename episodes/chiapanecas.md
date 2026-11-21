@@ -1,6 +1,6 @@
 # Chiapanecas — episode pack
 
-*Status: draft · built 2026-11-20 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; lineage; two or more connections; teaching steps written out
 
@@ -93,7 +93,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: 1-2-3 / 1-2-3-4-5-6.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -104,13 +104,13 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 / 1-2-3-4-5-6 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 / 1-2-3-4-5-6 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -128,7 +128,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-2-3 / 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -157,7 +157,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: 1-2-3 / 1-2-3-4-5-6.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -168,7 +168,7 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 / 1-2-3-4-5-6 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
@@ -176,7 +176,7 @@ NARRATION: hand-clapping: The audience accompanies the melody with rhythmic hand
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 / 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -193,7 +193,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-2-3 / 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -222,7 +222,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: 1-2-3 / 1-2-3-4-5-6.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -233,7 +233,7 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 / 1-2-3-4-5-6 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
@@ -241,7 +241,7 @@ NARRATION: hand-clapping: The audience accompanies the melody with rhythmic hand
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 / 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -258,7 +258,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-2-3 / 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -297,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2-3-4
+Counting: 1-2-3 / 1-2-3-4-5-6
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 1-2-3-4-5-6-7-8; un dos tres; uno sale dos; fijate muy bien
+Cues: un dos tres; uno sale dos; fijate muy bien; 1-2-3-4; 1-2-3; 1-2-3-4-5-6-7-8
 Common mistakes the studied teachers name: lifting the skirt too high or going too diagonal; not maintaining skirt line in the center
 
 Sources (3): https://en.wikipedia.org/wiki/Las_Chiapanecas; https://www.wikidata.org/wiki/Q16589485; https://es.wikipedia.org/wiki/Las_chiapanecas_(melodía)

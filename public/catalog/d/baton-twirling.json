@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -58,13 +58,107 @@
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "8da1c5291508567f",
+ "lessons": [
+  {
+   "youtube_id": "uSHS7Q7RetY",
+   "url": "https://www.youtube.com/watch?v=uSHS7Q7RetY",
+   "title": "Baton Twirling Lesson (Learning Fishtails)",
+   "channel": "LuceroLIFE",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Welcomes viewers and introduces learning fishtails."
+    },
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "segment": "breakdown",
+     "note": "Demonstrates initial backhand roll and catch."
+    },
+    {
+     "t": "0:39",
+     "seconds": 39,
+     "segment": "breakdown",
+     "note": "Introduces the scoop with half-figure eight."
+    },
+    {
+     "t": "1:04",
+     "seconds": 64,
+     "segment": "breakdown",
+     "note": "Emphasizes straight line pattern and common mistakes."
+    },
+    {
+     "t": "1:39",
+     "seconds": 99,
+     "segment": "other",
+     "note": "Shows self-help tip using a hair rubber band on the wrist."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Backhand roll",
+     "description": "Roll the baton over the back of the hand to catch."
+    },
+    {
+     "name": "Fishtails",
+     "description": "Scooping the baton back and forth in a straight line pattern."
+    }
+   ],
+   "cues": [
+    "Slide it down",
+    "Scoop it to the front",
+    "Keep it on pattern"
+   ],
+   "common_mistakes": [
+    "Cutting your baton diagonally"
+   ],
+   "teacher_style": "The teacher is encouraging and conversational, explaining mechanics step-by-step with clear demonstrations. She breaks down the motion into smaller components and offers progressive practice tips like using a rubber band.",
+   "distinctive_method": "Suggests using a hair rubber band around the wrist to help keep the baton in place while learning the fishtail motion.",
+   "what_works": [
+    "Clear breakdown of hand positioning and motion direction",
+    "Useful prop hack with a rubber band for practice"
+   ],
+   "what_hinders": [
+    "Lack of structured counts or rhythm"
+   ],
+   "evidence": [
+    {
+     "start_s": 12,
+     "end_s": 25,
+     "topic": "movement",
+     "observation": "Teacher demonstrates holding the baton upright and moving the bottom part towards the shoulder into a backhand roll.",
+     "viewpoint": "side, unknown if mirrored",
+     "cannot_infer": "exact finger pressure on the baton",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 40,
+     "end_s": 50,
+     "topic": "movement",
+     "observation": "Teacher scoops the baton to the front with a half figure-eight motion and rolls it back over the hand.",
+     "viewpoint": "side, unknown if mirrored",
+     "cannot_infer": "tension in the forearm",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "ffabe53cebcee4b3",
  "updated": "2026-11-21"
 }

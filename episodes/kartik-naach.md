@@ -1,6 +1,6 @@
 # Kartik Naach — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; signature moves; two or more connections
 
@@ -103,9 +103,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Kartik_Naach; https://www.wikidata.org/wiki/Q15839063

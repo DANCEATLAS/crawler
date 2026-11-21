@@ -1,10 +1,10 @@
 {
  "slug": "cheoyongmu",
- "qc_at": "2026-11-02T14:49:11Z",
+ "qc_at": "2026-11-21T19:15:59Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.55,
+ "qc_score": 9.3,
  "gates": [
   {
    "gate": "has_name",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "210"
+   "detail": "155"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Danced by five men in masks of light wine-color, Cheoyongmu uses the philosophy "
+   "detail": "Danced by five men in wine-colored masks with white teeth, Cheoyongmu applies th"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "331"
+   "detail": "362"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1527"
+   "detail": "2375"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "rich heritage"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "3 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,13 +84,13 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'exorcis', 'spirit']"
+   "detail": "sacred=True cues=['ritual', 'shaman', 'god', 'exorcis', 'spirit', 'offering']"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 10,
+  "specificity": 9,
   "teaching_value": 7,
   "is_a_dance": true,
   "factual_doubt": [],
@@ -98,21 +98,22 @@
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "Excellent, highly accurate profile of the UNESCO-recognized Korean court dance Cheoyongmu. Fully faithful to evidence claims."
+  "notes": "Extremely well-sourced and historically grounded profile of a major Korean intangible heritage dance. Teaching details are appropriately transparent about gaps in source material."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.55",
+  "judge_score=9.3",
   "sacred"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-01T17:18:27Z"
+ "researched_at": "2026-11-21T18:47:22Z"
 }

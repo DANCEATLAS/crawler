@@ -40,6 +40,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Greek_dances",
   "wikidata_qid": "Q5601924",
   "unesco": false,
+  "hero_video_youtube_id": "t6-89Y1G56Q",
+  "video_stack": [
+   {
+    "youtube_id": "t6-89Y1G56Q",
+    "role": "hero",
+    "title": "greek dance zorba in Canada",
+    "channel": "Erythraios",
+    "hd": false
+   },
+   {
+    "youtube_id": "5iR2bO9vEUc",
+    "role": "rendition",
+    "title": "Greek Dances Suite  Sirtaki by National Dance Ensemble Romiosini",
+    "channel": "National Dance Ensemble ROMIOSINI",
+    "hd": false
+   },
+   {
+    "youtube_id": "_m20zyZpJqE",
+    "role": "rendition",
+    "title": "Telly Savalas  -  Telly ... Who Loves Ya, Baby 1976 - Greek Dance",
+    "channel": "Gail Alvidrez",
+    "hd": false
+   },
+   {
+    "youtube_id": "Dx1cSngbpGI",
+    "role": "rendition",
+    "title": "Greek Dance Zorba Adana Dance",
+    "channel": "Adana Dance Studio",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -145,6 +176,14 @@
   "sacred_note": "Not described as a restricted sacred dance, though historically linked to ancient religious worship, rituals, and divine veneration.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:19Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "syrtos",
    "kalamatianos",
@@ -501,7 +540,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -529,10 +568,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -543,11 +578,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/greek-dance.json"
  },
- "fingerprint": "a042db2055e2c1b6",
+ "fingerprint": "27a1916333fd554c",
  "updated": "2026-11-21"
 }

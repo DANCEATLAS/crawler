@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Prop usage such as fire or heavy canes",
+          "High-impact gymnastic flips without spotters"
+        ],
+        "counts": "4-count repeating pattern: Stomp right (1), Stomp left (2), Clap (3), Clap (4).",
+        "duration_minutes": "15",
+        "game_version": "Call-and-response clapping game where kids echo the leader's rhythmic body-strikes and vocal chants."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Acrobatic stunts",
+          "High hops",
+          "Rapid directional drill turns",
+          "Heavy floor impacts"
+        ],
+        "counts": "Simple 4-count rhythm: Stomp (1), Clap (2), Slap thigh (3), Pause (4).",
+        "seated_version": "Perform hand claps, chest pats, and alternating seated foot stomps on a firm chair.",
+        "standing_version": "Execute claps, thigh slaps, and gentle floor taps while holding a secure rail or chair back for balance.",
+        "tempo_and_range": "Reduce tempo to moderate speed and limit knee lift height during foot stomps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Basic body percussion sequence combining footsteps, claps, and thigh slaps.",
+          "source": "https://en.wikipedia.org/wiki/Stepping_(African-American)"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Group performance of three or more dancers in military close-order drill formation.",
+          "source": "https://en.wikipedia.org/wiki/Stepping_(African-American)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Sharp hand claps, chest pats, thigh slaps, and precise arm extensions or cane work.",
+      "difficulty": "intermediate",
+      "footwork": "Heavy foot stomps, walking in circles, marching steps, and percussive heel-toe strikes.",
+      "formation_and_space": "Linear rows, grids, or circles executed in tight close-order military formations.",
+      "hips_and_torso": "Engaged core with dynamic chest pops and torso slaps creating secondary rhythms.",
+      "levels_and_jumps": "Incorporate low grounded stomps, mid-level torso strikes, high gymnastic stunts, and signature leaps such as the Q Hop.",
+      "partnering": "Synchronized line work with call-and-response interactions between line leaders and group members.",
+      "posture": "Upright, grounded, athletic stance resembling military close-order drill posture.",
+      "signature_moves": [
+        {
+          "description": "Staple signature routine move belonging to Alpha Phi Alpha fraternity.",
+          "name": "The Alpha Train"
+        },
+        {
+          "description": "Signature acrobatic jump move originating from Omega Psi Phi fraternity.",
+          "name": "The Q Hop"
+        },
+        {
+          "description": "Signature percussive routine move unique to Phi Beta Sigma fraternity.",
+          "name": "The Nut Cracker"
+        },
+        {
+          "description": "Signature stylized movement routine unique to Zeta Phi Beta sorority.",
+          "name": "The Dove"
+        },
+        {
+          "description": "Signature rhythmic walk move belonging to Sigma Gamma Rho sorority.",
+          "name": "The Poodle Prance"
+        }
+      ],
+      "tempo_feel": "Varies depending upon the desired beat and rhythm of the performers.",
+      "what_to_avoid": "Avoid executing signature organization-specific moves or chants (e.g. Q Hop, Alpha Train) if not an initiated member of that specific fraternity or sorority."
+    },
+    "music_profile": {
+      "instruments": [
+        "human body (footsteps, hand claps, chest/thigh slaps)",
+        "props (canes, rhythm sticks)"
+      ],
+      "meter": "Polyrhythmic acapella meter",
+      "mood_keywords": [
+        "energetic",
+        "percussive",
+        "disciplined",
+        "bold",
+        "triumphant"
+      ],
+      "musical_form": "Acapella percussive drill format punctuated by organizational chants and vocal lead calls",
+      "reference_recordings": [],
+      "rhythm_pattern": "Interlocking body strikes, hand claps, foot stomps, and call-and-response vocal chants",
+      "sound_description": "A crisp, acapella percussive soundscape created without band instruments, using heavy shoe stomps for bass beats, sharp hand claps and thigh slaps for snare accents, and group vocal chants for melodic and rhythmic structure.",
+      "tempo_bpm": "",
+      "vocal_style": "Call-and-response, spoken word chants, group singing, and military-style drill orders"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stomp right foot heavily onto floor to create bass beat",
+        "Clap both hands crisply in front of chest",
+        "Slap right thigh with open palm",
+        "Stomp left foot firmly while chanting organizational cadence"
+      ],
+      "formation": "Military close-order drill lines or synchronized grid arrangements of three or more performers",
+      "level_notes": "Beginners focus on clear isolation of claps and stomps; advanced dancers combine high-speed polyrhythms, stunts, canes, and vocal calls.",
+      "rhythm": "Polyrhythmic percussive meter driven by body strikes, stomps, claps, and spoken cadences"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6e199b3c7e3d432a4412a8050a0b7f8f81ee93912d0beaf766e75c867c861a62",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:stepping",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "stepping",
+  "open_questions": [],
+  "research_file": "research_results/stepping.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "stepping",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Stepping_(African-American)",
+    "https://www.wikidata.org/wiki/Q7611114",
+    "https://fr.wikipedia.org/wiki/Stepping_(danse)",
+    "https://archive.org/details/smash-hits-1980-06-12"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

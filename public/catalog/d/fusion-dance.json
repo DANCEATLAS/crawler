@@ -32,6 +32,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fusion_dance",
   "wikidata_qid": "Q17081177",
   "unesco": false,
+  "hero_video_youtube_id": "82R915KChps",
+  "video_stack": [
+   {
+    "youtube_id": "82R915KChps",
+    "role": "hero",
+    "title": "FUSION DANCE (Golden Jubilee Celebration of Holy Child Hr. Sec. School Shillong)",
+    "channel": "Lmkoiba",
+    "hd": true
+   },
+   {
+    "youtube_id": "JTg8aW9frUc",
+    "role": "rendition",
+    "title": "Cinematic Fusion Dance/ Bundy Girls/Choreographed By Sherin /BIMA AUSTRALIA 2025/Easter Program",
+    "channel": "Akhil Thomas",
+    "hd": true
+   },
+   {
+    "youtube_id": "12aLho7TZ_0",
+    "role": "rendition",
+    "title": "CHRISTIAN | FUSION DANCE | IAGC DANCE CREW",
+    "channel": "IAGC OFFICIAL",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -69,6 +93,55 @@
   ],
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:20:37Z",
+   "soft_fail": []
+  },
+  "tutorials": [
+   {
+    "youtube_id": "4hB5m2ErOTo",
+    "title": "Online Jazz Fusion Dance Class! (LEARN COMBO AT HOME) Beginner/Int. Ava Chappell Choreography",
+    "channel": "avamayvibes",
+    "level": "beginner",
+    "pos": 3,
+    "neg": 0,
+    "ratio": 3.0,
+    "evidence": [
+     "Thank you so much for these, in the UK dance schools still haven't gone back 😭",
+     "Omg thank you so much for this video 🥺❤️",
+     "Thank you so much for this video! I'm in lock-down and missing dance so much, this is keeping me sane x"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "0-zNYiHo8TE",
+    "title": "10-Minute Salsa Pop Fusion Dance Workout With Luis Cervantes | POPSUGAR FITNESS",
+    "channel": "PS Fit ",
+    "level": "general",
+    "pos": 3,
+    "neg": 1,
+    "ratio": 1.5,
+    "evidence": [
+     "THANK YOU SO MUCH THAT WAS REALLY FUN !!!",
+     "THANK YOU SO MUCH!! Absolutely loved it, might be my favourite!",
+     "thank you so much> So much fun"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "fwwvrYnl1hk",
+    "title": "30 MIN | BEGINNER AFRO FUSION DANCE CLASS",
+    "channel": "PPGYT",
+    "level": "beginner",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "swing",
    "contact-improvisation"
@@ -292,36 +365,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -330,26 +379,142 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "4hB5m2ErOTo",
+   "url": "https://www.youtube.com/watch?v=4hB5m2ErOTo",
+   "title": "Online Jazz Fusion Dance Class! (LEARN COMBO AT HOME) Beginner/Int. Ava Chappell Choreography",
+   "channel": "avamayvibes",
+   "analysed_on": "2026-11-21",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:09",
+     "seconds": 9,
+     "segment": "intro",
+     "note": "welcoming viewers back and introducing the combination"
+    },
+    {
+     "t": "2:12",
+     "seconds": 132,
+     "segment": "breakdown",
+     "note": "breaking down the starting position and first movements"
+    },
+    {
+     "t": "7:02",
+     "seconds": 422,
+     "segment": "music_practice",
+     "note": "practicing the combination with music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "jazz fusion opening combo",
+     "counts": "5-6-7-8",
+     "description": "starting with feet apart and head down, moving into upper body and arm accents"
+    }
+   ],
+   "cues": [
+    "down, down, baby",
+    "hit, hit",
+    "squeeze your butt"
+   ],
+   "teacher_style": "The instructor guides students step by step through jazz fusion choreography, emphasizing musicality and emotional expression. She demonstrates the moves clearly while breaking down counts and accents.",
+   "distinctive_method": "frequent use of song lyrics as direct counts for the choreography",
+   "what_works": [
+    "breaking down movements slowly before adding music",
+    "repeating sections multiple times"
+   ],
+   "what_hinders": [
+    "the pace is quite fast for beginners"
+   ],
+   "evidence": [
+    {
+     "start_s": 211,
+     "end_s": 220,
+     "topic": "teaching",
+     "observation": "teacher explaining starting posture and feet placement facing forward",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "82R915KChps",
+   "url": "https://www.youtube.com/watch?v=82R915KChps",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Outdoor paved courtyard with grass and trees in the background, with seated audience members watching a school or community event",
+    "dancers": "A group of young female dancers, mostly teenagers or older children",
+    "formation_and_space": "Initially standing in lines, later shifting into smaller groups and circles; they travel across the courtyard area",
+    "posture": "Upright torso, slightly bent knees with body weight shifting between feet",
+    "footwork": "Stepping side to side, gentle heel digs, and small steps timed to the beat; exact weight transfer cannot be fully verified due to video resolution",
+    "arms_and_hands": "Arms held near the chest or extended out to the sides, hands clapping or holding small round flat props (plates/cymbals)",
+    "hips_and_torso": "Torso remains relatively upright with minimal isolated hip movement",
+    "partnering": "None in lines; brief hand-holding in small circles",
+    "levels_jumps_turns": "Dancers lower into a crouch/squat position briefly and perform circular turns",
+    "costume_and_props": "Red long-sleeved tops, draped cream or yellow garments/saris with red and black borders, patterned skirts, beaded necklaces, and some wear elaborate headdresses; holding small round metallic plates or cymbals",
+    "cannot_infer": "Exact foot placement subtleties and weight shifts are partially obscured by long garments and low-resolution video sampling",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "synthesizer"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 17,
+      "end_s": 25,
+      "what": "Dancers clap their hands rhythmically while holding arms up near their chest in a lined formation"
+     },
+     {
+      "start_s": 42,
+      "end_s": 49,
+      "what": "Dancers lower themselves into a low crouch while keeping their arms raised high above their heads"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 12,
+  "gaps": 11,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/fusion-dance.json"
  },
- "fingerprint": "a4899373dcc67800",
+ "fingerprint": "236b58bb1e74f8dc",
  "updated": "2026-11-21"
 }

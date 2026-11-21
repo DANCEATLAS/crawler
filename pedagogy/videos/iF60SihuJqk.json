@@ -1,0 +1,134 @@
+{
+ "youtube_id": "iF60SihuJqk",
+ "slug": "flamenco",
+ "dance": "Flamenco",
+ "title": "Complete Intro to Flamenco Dance Class",
+ "channel": "Rina Orellana Flamenco",
+ "viewer_ratio": 10.0,
+ "analysed_at": "2026-11-21T19:33:15Z",
+ "url": "https://www.youtube.com/watch?v=iF60SihuJqk",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor provides detailed cultural background and structure before guiding students step by step. She breaks down complex movements into counts and rhythms using clear demonstrations and verbal counting.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:04",
+    "segment": "intro",
+    "note": "Teacher introduces herself and welcomes beginners to the workshop."
+   },
+   {
+    "t": "0:36",
+    "segment": "context",
+    "note": "Teacher explains what flamenco is, its origins with the Romani people, and its cultural evolution."
+   },
+   {
+    "t": "2:10",
+    "segment": "context",
+    "note": "Teacher explains flamenco rhythms (palos) and specifically tangos."
+   },
+   {
+    "t": "3:02",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the four-count compas and hand clapping (palmas)."
+   },
+   {
+    "t": "4:45",
+    "segment": "music_practice",
+    "note": "Teacher practices palmas along with guitar music."
+   },
+   {
+    "t": "6:03",
+    "segment": "breakdown",
+    "note": "Teacher explains arm and upper body posture and wrist movement."
+   }
+  ],
+  "counting_scheme": "1-2-3-4",
+  "cues": [
+   "Stay in compas",
+   "Rounded arms",
+   "Keep your arms up",
+   "Start off with the pinky"
+  ],
+  "metaphors": [
+   "Holding a beach ball",
+   "Like your favorite song"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Keeping arms straight instead of rounded",
+   "Moving arms along with the hands"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Hand clapping rhythm in compas",
+    "counts": "1-2-3-4",
+    "description": "Hand clapping in a four-count compas rhythm for tangos."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal explanations of rhythm and structure",
+    "Step-by-step breakdown of counts before adding music"
+   ],
+   "what_hinders": [
+    "Long periods of talking before physical demonstration"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:39",
+    "text": "Before we begin, let's talk about what is flamenco."
+   },
+   {
+    "t": "3:16",
+    "text": "Each measure is called a compas."
+   },
+   {
+    "t": "6:09",
+    "text": "Our arms are always going to be rounded."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 4,
+    "end_s": 35,
+    "topic": "teaching",
+    "observation": "Teacher stands facing the camera in a dance studio speaking to the audience.",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "any dance steps",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 342,
+    "end_s": 352,
+    "topic": "movement",
+    "observation": "Teacher demonstrates counting with hand gestures.",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "full body weight transfer",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explaining the cultural and musical definition of compas and palos extensively before applying them to physical practice."
+ },
+ "attempts": 1
+}

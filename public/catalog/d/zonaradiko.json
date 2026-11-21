@@ -188,7 +188,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -200,39 +200,75 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "R5xaag4HuUA",
+   "url": "https://www.youtube.com/watch?v=R5xaag4HuUA",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Stage performance in an auditorium with dark background and a projection screen showing a landscape slide",
+    "dancers": "Mixed group of men and women, approximately twelve dancers in total",
+    "formation_and_space": "Group starts in smaller segments, transitions into a single curved line/semi-circle holding hands, moving side to side across the stage",
+    "posture": "Upright torso, erect posture with engaged core, knees soft and lifting high on steps",
+    "footwork": "Stepping side to side, crossing steps, and lifting knees high with active foot extension on beats",
+    "arms_and_hands": "Dancers hold hands in a line with arms extended outwards at shoulder height or bent at elbows; sometimes released for brief solo or sectional flourishes",
+    "hips_and_torso": "Torso remains upright and stable with subtle weight shifts following leg movements; no prominent hip isolations",
+    "partnering": "None; line dance with hand-in-hand hold",
+    "levels_jumps_turns": "Standing level throughout, occasional quick low dips of knees, high knee lifts, no floor work",
+    "costume_and_props": "Traditional-style folk costumes: men in white shirts, dark vests, dark trousers, and red sashes; women in white blouses, dark skirts with decorative borders, aprons, and head coverings",
+    "cannot_infer": "Exact foot articulation and precise weight transfer cannot be determined due to stage lighting and camera distance.",
+    "music_heard": {
+     "instruments": [
+      "clarinet",
+      "accordion",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 46,
+      "end_s": 54,
+      "what": "The line of male dancers steps side to side while rhythmically lifting their outer legs high with bent knees."
+     },
+     {
+      "start_s": 112,
+      "end_s": 122,
+      "what": "The joined group shifts into a synchronized lateral traveling step, pausing to stamp and lift feet on the beat."
+     },
+     {
+      "start_s": 245,
+      "end_s": 255,
+      "what": "Dancers perform a coordinated deep knee bend while holding hands in a semi-circle line."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -242,6 +278,6 @@
   "polished": false,
   "file": "episodes/zonaradiko.json"
  },
- "fingerprint": "d062264f71bdd808",
+ "fingerprint": "6bb6463afc4aa1c5",
  "updated": "2026-11-21"
 }

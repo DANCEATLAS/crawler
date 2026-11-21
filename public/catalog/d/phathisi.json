@@ -235,36 +235,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -273,13 +249,69 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "QUc-0BxQuI4",
+   "url": "https://www.youtube.com/watch?v=QUc-0BxQuI4",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "open-air dirt ground arena with bleachers and spectators surrounding the perimeter under shaded canopies",
+    "dancers": "a large group of male and female dancers in traditional attire",
+    "formation_and_space": "group arranged initially in a line, moving in unison, forming a tight multi-row formation, and some solo dancers moving around the main group",
+    "posture": "torsos leaning forward slightly with bent knees and weight kept low",
+    "footwork": "stamping, hopping, and high knee lifts on the beat, creating dust",
+    "arms_and_hands": "arms held up or extending outwards, holding wooden poles across shoulders or whips",
+    "hips_and_torso": "bouncing and undulating torso matching the leg movements",
+    "partnering": "none",
+    "levels_jumps_turns": "frequent lowering into deep knee bends and drops to the ground, rising with high stamps and jumps",
+    "costume_and_props": "matching brown animal hide skirts or shorts, patterned shin guards or leg wraps, bare chests, and wooden poles carried on shoulders",
+    "cannot_infer": "exact footwork details obscured by dust kicked up from the dirt floor and low resolution of the video",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "rattles"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 5,
+      "end_s": 12,
+      "what": "dancers holding poles across their shoulders drop synchronously to their knees on the dirt ground"
+     },
+     {
+      "start_s": 100,
+      "end_s": 108,
+      "what": "dancers fall smoothly to the ground and slide or crawl forward in unison while keeping upper bodies low"
+     },
+     {
+      "start_s": 146,
+      "end_s": 155,
+      "what": "dancers raise both arms overhead while executing rapid, high knee lifts and stamping in place"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -289,6 +321,6 @@
   "polished": false,
   "file": "episodes/phathisi.json"
  },
- "fingerprint": "abc1c0b509e0feb9",
+ "fingerprint": "5eecc59525314872",
  "updated": "2026-11-21"
 }

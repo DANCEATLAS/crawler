@@ -29,6 +29,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Egedege_Dance",
   "wikidata_qid": "Q5347740",
   "unesco": false,
+  "hero_video_youtube_id": "3C6Mj2ZykCQ",
+  "video_stack": [
+   {
+    "youtube_id": "3C6Mj2ZykCQ",
+    "role": "hero",
+    "title": "Egedege Dance",
+    "channel": "BenginTV",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -50,7 +60,15 @@
   ],
   "needs_eyes_on": true,
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:20:32Z",
+   "soft_fail": [
+    "hd"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -257,7 +275,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -273,10 +291,6 @@
     "label": "tempo, meter or the teacher's count"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -287,11 +301,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/egedege-dance.json"
  },
- "fingerprint": "952237f691bc3bdb",
+ "fingerprint": "bcc5061d5d429d8c",
  "updated": "2026-11-21"
 }

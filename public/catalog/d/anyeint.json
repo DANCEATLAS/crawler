@@ -2,19 +2,24 @@
  "contract": "da_dance_v1",
  "slug": "anyeint",
  "name": "Anyeint",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
+  "MM",
   "TH"
  ],
  "card": {
   "slug": "anyeint",
   "name": "Anyeint",
   "country": "Thailand",
+  "country_code": "MM",
+  "flag_emoji": "🇲🇲",
   "region": "Southeast Asia",
-  "tagline": "Thailand — Anyeint (Burmese: အငြိမ့်, MLCTS: a ngrim",
-  "profile": "Anyeint (Burmese: အငြိမ့်, MLCTS: a ngrim.; IPA: [ʔəɲḛiɰ̃]; Burmese: အငြိမ့်; also spelt a-nyeint) is a traditional Burmese entertainment form that combines dance with instrumental music, song, and comedy routines, in theatrical performances. It is a form of pwe, the Burmese word for traditional entertainment. While classical pwe can be quite formal and almost ritualistic, anyeint is considered light entertainment.",
-  "insight": "The first known anyeint troupe was formed in Mandalay around 1900, by comedian U Chit Phwe and his wife, dancer Ma Sein Thone.",
+  "family": "ritual-sacred",
+  "era": "20th century to present",
+  "tagline": "A traditional Burmese theatrical performance blending dance, music, and comedy.",
+  "profile": "Anyeint is a traditional Burmese entertainment form that integrates dance, instrumental music, song, and comedic skits. Historically rooted in the royal court, it has evolved into a popular theatrical performance characterized by the interplay between a lead actress and slapstick comedians. Today, it remains a living tradition, though it is subject to strict government censorship regarding its content.",
+  "insight": "Originating as an exclusive royal court dance, anyeint transitioned to the public sphere after the fall of the Konbaung dynasty in 1885, evolving into a hybrid form that often serves as a vehicle for political satire.",
   "related": [
    "khon",
    "burmese-dance",
@@ -24,14 +29,36 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Anyeint",
-   "Source: Anyeint on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Anyeint"
+   "Source: Anyeint on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Anyeint",
+   "https://www.wikidata.org/wiki/Q4778246"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anyeint",
   "wikidata_qid": "Q4778246",
   "unesco": false,
   "hero_video_youtube_id": "idY-P3VJoBs",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.55,
+  "last_researched_at": "2026-11-21T18:56:45Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Anyeint (Burmese: အငြိမ့်) is a multifaceted Burmese performance tradition that functions as a form of 'pwe', or general entertainment. The term itself derives from a Burmese word meaning 'gentle'. While its origins lie in the formal, ritualistic environment of the royal court, the collapse of the Konbaung dynasty in 1885 forced performers to seek new audiences. This shift led to the development of a hybrid performance style that appealed to the growing merchant class in British Burma. By 1900, the first known anyeint troupe was established in Mandalay by the comedian U Chit Phwe and his wife, the dancer Ma Sein Thone.\n\nA typical performance follows a structured sequence. It begins with the recitation of ancient verses, followed by a 'pari kamma', a formal introduction where troupe members introduce themselves and acknowledge the show's patron. Comedians, known as 'lu shwin daw', perform an introductory slapstick skit before the lead actress, the 'anyeint minthami', takes the stage. The performance then alternates between the minthami’s dance sets—often accompanied by instrumental music or a cappella singing—and comedic interludes. During these interludes, the comedians engage in improvised jokes and playful insults, often directed at the audience or the actress herself, who is expected to rebut them. In the past, performances concluded with a verse play known as 'zat kyi', though this practice has largely been abandoned in contemporary shows.\n\nThe aesthetic of the performance is highly stylized. The costumes worn by the performers are modeled after those seen in traditional Burmese marionette theater. The musical accompaniment is provided by a small all-male orchestra, with the 'pattala' (xylophone) serving as the lead instrument. Comedians typically wear checkered-patterned 'Taungshay-style' longyi (sarongs) and loose coats, a look popularized by the 19th-century performer U Po Sein.\n\nThroughout the 20th century, anyeint became a significant platform for social and political commentary. During the colonial era and subsequent administrations, troupes frequently incorporated satire into their skits. This tradition of critique has faced significant challenges; since 1988, regulations have tightened, and performers who include political satire have been subject to arrest. Modern oversight is rigorous, with the Myanmar Motion Picture Enterprise mandating full dress rehearsals to audit content for 'questionable' material, such as jokes targeting government officials or cross-dressing scenes. Despite these pressures, the form remains a vibrant part of Burmese culture, with popular troupes like Htawara Hninzi performing for international audiences in countries with large Burmese diaspora populations.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Eternal_Rose_Anyient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Eternal_Rose_Anyient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 720,
+    "height": 480,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "wimcp / Wikimedia Commons / CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEternal_Rose_Anyient.jpg",
+    "description": "Eternal Rose Group entertaining as comedians in cultural dance show held in Singapore"
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -48,6 +75,210 @@
    "apsara-dance"
   ]
  },
- "fingerprint": "c50c0fa749fde48e",
+ "profile": {
+  "sections": {
+   "origins_and_history": "Anyeint originated as a royal court dance performed by women. Following the 1885 fall of the Konbaung dynasty, it moved into the public domain, becoming a popular hybrid of dance and comedy for the merchant class. The first troupe was formed in Mandalay around 1900 by U Chit Phwe and Ma Sein Thone.",
+   "how_it_is_danced": "The performance centers on the anyeint minthami, who performs solo and group dances to instrumental music. Comedians provide slapstick routines while the actress changes costumes. The dance is characterized by the minthami's interaction with the comedians, who provide improvised jokes and insults that the dancer must rebut.",
+   "music_and_instruments": "The music is provided by a small all-male orchestra. The pattala (xylophone) is the primary instrument leading the ensemble. Performances include instrumental music and singing, which can be performed either with accompaniment or a cappella.",
+   "costume_and_setting": "Performers wear costumes identical to those seen in traditional Burmese marionette theater. Comedians typically wear checkered-patterned Taungshay-style longyi (sarongs) and loose coats, a style innovated by U Po Sein.",
+   "occasions_and_meaning": "Anyeint is a form of light entertainment. Historically, it served as a venue for political satire and social commentary, though modern performances are subject to strict censorship by the Myanmar Motion Picture Enterprise.",
+   "notable_figures": "Key figures include U Chit Phwe and Ma Sein Thone (founders of the first troupe), U Po Sein (costume innovator), Zarganar (comedian), and actresses like May Than Nu and Yadana Khin.",
+   "regional_variants": "not described in sources",
+   "lineage": "Anyeint is a form of pwe (traditional Burmese entertainment) and evolved from royal court dance traditions."
+  },
+  "teaching": {
+   "basic_steps": [],
+   "rhythm": "not described in sources",
+   "formation": "Solo dancer (minthami) with supporting comedians on stage.",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "Anyeint is a traditional Burmese entertainment form that combines dance with instrumental music, song, and comedy routines.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   },
+   {
+    "text": "The first known anyeint troupe was formed in Mandalay around 1900, by comedian U Chit Phwe and his wife, dancer Ma Sein Thone.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   },
+   {
+    "text": "The lead singer and dancer in an anyeint performance is called the anyeint minthami.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   },
+   {
+    "text": "The costumes of anyeint performers are identical to those worn by puppets in traditional marionette theater.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   },
+   {
+    "text": "A small all-male music orchestra, led by the pattala (xylophone) music, accompanies the performance.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   },
+   {
+    "text": "The form originated as a royal court dance performed by female dancers and was originally confined to the royal court.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   },
+   {
+    "text": "Since 1988, regulations have become stricter, with comedians who perform political satire subject to arrest.",
+    "source": "https://en.wikipedia.org/wiki/Anyeint"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Eternal Rose Anyient.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Eternal_Rose_Anyient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Eternal_Rose_Anyient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 720,
+    "height": 480,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "wimcp",
+    "description": "Eternal Rose Group entertaining as comedians in cultural dance show held in Singapore",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEternal_Rose_Anyient.jpg",
+    "attribution": "wimcp / Wikimedia Commons / CC BY 2.0"
+   }
+  ],
+  "gaps": [
+   "Detailed movement technique (footwork, specific gestures) is not described in the sources.",
+   "Specific musical notation or rhythmic patterns are not described in the sources.",
+   "Regional variants are not described in the sources."
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "pattala (xylophone)"
+   ],
+   "vocal_style": "Singing interspersed with comedic dialogue.",
+   "musical_form": "Sequence of solo and group dances accompanied by instrumental music.",
+   "mood_keywords": [
+    "light",
+    "theatrical",
+    "comedic"
+   ],
+   "reference_recordings": [],
+   "sound_description": "A small all-male orchestra led by the xylophone, accompanying a lead singer/dancer with rhythmic instrumental music and vocal segments."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Lead actress performs on stage with comedians who enter and exit during costume changes.",
+   "partnering": "Interaction between the minthami and comedians involving improvised jokes and verbal rebuttals.",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "not described in sources",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Gentle Art of Burmese Comedy",
+   "logline": "Explore the history and theatricality of Anyeint, a Burmese performance tradition that blends dance with sharp-witted satire.",
+   "beats": [
+    "Introduction to the origins of Anyeint in the royal court.",
+    "The transition from courtly dance to public theatrical performance.",
+    "The role of the anyeint minthami and the slapstick comedians.",
+    "The significance of the pattala-led orchestra.",
+    "The history of political satire within the performance.",
+    "Contemporary challenges and censorship in the modern era."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Marionette-style costumes",
+    "Pattala xylophone",
+    "Checkered Taungshay-style longyi"
+   ],
+   "instructor_persona": "A cultural historian or traditional Burmese performing artist.",
+   "music_cue": "Traditional Burmese instrumental music featuring the pattala."
+  },
+  "connections": [
+   {
+    "name": "pwe",
+    "relation": "parent",
+    "note": "Anyeint is a specific form of pwe, the general Burmese term for traditional entertainment."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Not derivable yet",
+    "standing_version": "Not derivable yet",
+    "tempo_and_range": "Not derivable yet",
+    "counts": "Not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "Not derivable yet",
+    "duration_minutes": "Not derivable yet",
+    "counts": "Not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-21T18:56:45Z",
+  "qc_score": 9.55
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 6,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "arms",
+    "label": "arms and hands"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 11,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/anyeint.json"
+ },
+ "fingerprint": "ab1d9749acd4c42f",
  "updated": "2026-11-21"
 }

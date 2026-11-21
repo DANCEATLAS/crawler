@@ -2,7 +2,7 @@
  "slug": "egedege-dance",
  "name": "Egedege Dance",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T19:19:50Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Egedege Dance. 1985 to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (3C6Mj2ZykCQ)",
      "Title card: Egedege Dance · Nigeria · 1985 to present"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for The Queen's Entrance."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (3C6Mj2ZykCQ)",
      "Captions name each signature move as it appears",
      "Formation: Processional entry followed by a stage-based group display"
     ],
@@ -724,7 +724,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "3C6Mj2ZykCQ",
+   "checked_by_vision_model": true,
+   "title": "Egedege Dance"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -775,8 +779,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -786,24 +790,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -815,7 +819,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "two or more connections"
  ],
@@ -826,6 +829,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "187cb50295ee90ec69df4380abde8187d84642b59c6048ce9ed2188dd5740e6b",
- "hero_checked": null
+ "input_fingerprint": "951c24b1e37f57d65f19b633299cff8e587a548507d5b1245fdb614988916ba4",
+ "hero_checked": "pass"
 }

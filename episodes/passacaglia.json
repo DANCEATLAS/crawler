@@ -2,9 +2,9 @@
  "slug": "passacaglia",
  "name": "passacaglia",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
- "researched_at": "2026-11-11T18:19:23Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T18:55:57Z",
+ "qc_score": 9.3,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,14 +45,14 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A musicologist with a background in both Baroque organ performance and Andean folk music.",
+   "persona": "A musicologist and ethnomusicologist bridging classical European history with living Latin American street traditions.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "passacaglia",
+   "kalejira",
    "pasacalle",
-   "passacaille",
-   "kalejira"
+   "passacaille"
   ]
  },
  "episode_1": {
@@ -63,7 +63,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "From the Street to the Cathedral: The Passacaglia's Journey",
+     "From Street Guitar to Baroque Pillar and Andean Anthem",
      "This is passacaglia. 17th century to present."
     ],
     "on_screen": [
@@ -77,8 +77,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The passacaglia originated in early 17th-century Spain as a strummed guitar interlude between songs or dances, with the name derived from 'pasar' (to pass) and 'calle' (street).",
-     "It was first documented in Italian sources in 1606 and later transformed by Girolamo Frescobaldi into a series of continuous variations over a bass ostinato."
+     "The passacaglia originated in early 17th-century Spain as a strummed guitar interlude between instrumentally accompanied dances or songs, derived from the words pasar (cross, pass) and calle (street).",
+     "The first written examples appear in an Italian source dated 1606.",
+     "Girolamo Frescobaldi redefined it in the late 1620s into continuous variations over a bass ostinato."
     ],
     "on_screen": [
      "Map: Spain, Italy, France, Germany, Ecuador, Chile, Peru, Colombia · Global",
@@ -91,8 +92,9 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Used for religious processions and theatrical interludes in the 17th century.",
-     "In modern Ecuador and Peru, it serves as a civic anthem and a celebratory marker of regional identity during anniversaries and carnivals.",
+     "Originally used as a transition between theatrical numbers or religious processions.",
+     "In Europe, it became a pillar of sacred and secular art music.",
+     "In South America and the Basque Country, it serves a strong social and civic function, organizing public space during desfilados, patron saint festivals, anniversaries, and national holidays.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -104,46 +106,42 @@
     "code": "watch",
     "title": "Watch it",
     "duration_s": 75,
-    "narration": [
-     "In the European Baroque tradition, it was a slow, solemn dance in triple meter.",
-     "In the Andean tradition, it is a lively, march-like dance performed in processions, often involving brass bands and communal movement through streets.",
-     "Watch for Processional March."
-    ],
+    "narration": [],
     "on_screen": [
      "Hero video full screen, 30–45 s (3AICNrKts3A)",
-     "Captions name each signature move as it appears",
-     "Formation: Street processions or human chains (Andean)."
+     "Signature moves — MISSING",
+     "Formation: Walking in street chains (kalejira), processional lines, or stationary court formations."
     ],
-    "music": "diegetic (the video's own sound), underscore under narration"
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music is defined by a bass ostinato, usually four to eight bars long, which repeats while upper voices vary.",
-     "Instruments include guitar (early), organ, harpsichord, violin, and in the Andean tradition, brass bands, accordions, and percussion like bombos and redoblantes.",
-     "Listen for the Guitar, Organ, Brass band, Accordion.",
-     "The pulse is 3/4 (Baroque) or 2/4 (Andean)..",
-     "A repeating, foundational bass line provides the harmonic anchor for increasingly complex melodic variations or brass-led march themes."
+     "Characterized by a bass ostinato (basso ostinato) or ground bass that repeats while upper lines vary freely.",
+     "European Baroque examples are typically in triple metre (3/4) and minor keys, played on organs, harpsichords, lutes, and baroque guitars by composers like Frescobaldi, Bach, Buxtehude, and Handel.",
+     "Listen for the organ, harpsichord, lute, baroque guitar.",
+     "The pulse is Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants at about 106 beats a minute.",
+     "A repeating, weighty four- or eight-note bassline anchors the texture, while upper voices weave continuous, solemn or animated counterpoint and melodic variations in a steady meter."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Passacaglia and Fugue in C minor, BWV 582 — Johann Sebastian Bach; El Chulla Quiteño — Traditional; Passacaglia and Fugue in C minor, BWV 582 — Johann Sebastian Bach, Cameron Carpenter (year unknown)",
-     "Waveform or rhythm-pattern graphic: Bass ostinato, usually 4-8 bars long, repeating."
+     "Listen later: Passacaglia and Fugue in C minor, BWV 582 — Johann Sebastian Bach; Chola Cuencana — Rafael Carpio Abad; Apparatus Musico-Organisticus — Georg Muffat, Jaroslav Tůma (1990)",
+     "Waveform or rhythm-pattern graphic: Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars."
     ],
-    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
-    "needs": [
-     "tempo"
-    ]
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
    },
    {
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Historically performed in court settings in Europe.",
-     "In the Andean context, it is performed in public squares, streets, and during civic festivals, often by municipal bands."
+     "Performed in European courts in formal Baroque attire, in churches during religious ceremonies, and in public streets during civic parades, carnivals, and institutional celebrations in South America and the Basque Country."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -159,9 +157,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Girolamo Frescobaldi, Johann Sebastian Bach, François Couperin, Johannes Brahms, Benjamin Britten, Dmitri Shostakovich, Anton Webern.",
-     "The European passacaglia (solemn, triple meter, variation form) contrasts with the Andean pasacalle (lively, 2/4 march, brass band instrumentation).",
-     "Derived from Spanish street guitar music; influenced the development of the chaconne and later 20th-century orchestral variation forms."
+     "Girolamo Frescobaldi, Johann Sebastian Bach, Dietrich Buxtehude, George Frideric Handel, François Couperin, Heinrich Ignaz Franz Biber, Johannes Brahms, Anton Webern, Benjamin Britten, Dmitri Shostakovich, Rafael Carpio Abad.",
+     "Variants include the European Baroque passacaglia/passacaille, the Basque kalejira (used for street chains), the Chilean pasacalle (instrumental military/police and religious festival band music), the Colombian pasacalle (street band music and parades), the Ecuadorian pasacalle (vocal-instrumental civic anthems like 'El Chulla Quiteño'), and Peruvian festival estampas.",
+     "Directly related to the chaconne (ciaccona), with which it shares historical roots and ostinato principles, and historically influenced by early Spanish guitar interludes and later connected with elements of the paso-doble in South America."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -174,8 +172,8 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "passacaglia is sibling of chaconne: Often confused with the passacaglia; both use ostinato patterns and were historically linked.",
-     "passacaglia is variant of kalejira: A Basque street-based social dance variant of the passacaglia."
+     "passacaglia is sibling of chaconne: Closely related Baroque variation forms sharing ground bass principles, often used interchangeably by historical composers.",
+     "passacaglia is influence of paso-doble: Influenced the lively binary rhythm adopted by the Hispano-American pasacalle in the 19th century."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -186,24 +184,23 @@
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
-    "narration": [
-     "Before we go, one step. Andean march: steady walking step in time with the brass band rhythm.",
-     "Count it: 1-2-3, 2-2-3 (three counts a bar).",
-     "Chapter 1 takes it slowly from here."
-    ],
+    "narration": [],
     "on_screen": [
      "Instructor, front view, slow",
      "Count on screen"
     ],
-    "music": "lesson_slow"
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a simple 17th-century Spanish street guitar strum became the backbone of Bach's greatest organ works and the heartbeat of Andean civic pride.",
-     "Sources: 6 references are listed with the profile."
+     "Trace how a humble 17th-century Spanish street strum transformed into Bach's towering organ fugues and Ecuador's proud civic marches.",
+     "Sources: 7 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -217,17 +214,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn the basic Andean march rhythm.",
-   "level": "Beginner",
+   "goal": "Understand the ostinato principle and historical context",
+   "level": "beginner",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn the basic Andean march rhythm..",
-      "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A musicologist with a background in both Baroque organ performance and Andean folk music."
+      "Chapter 1 — First steps. Today: Understand the ostinato principle and historical context.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A musicologist and ethnomusicologist bridging classical European history with living Latin American street traditions."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -238,60 +235,60 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright and formal (Baroque); relaxed and rhythmic (Andean)."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 (Baroque) or 2/4 (Andean)..",
-      "Rhythm pattern: Bass ostinato, usually 4-8 bars long, repeating..",
+      "Count: 1-2-3-4-5-6-7-8. The meter is Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants.",
+      "Rhythm pattern: Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
+      "Metronome at 74 bpm"
      ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo"
-     ]
+     "music": "lesson_slow (clicks only until the step lands)"
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Andean march: steady walking step in time with the brass band rhythm.",
-      "Drill: Walking in time to a 2/4 brass band track."
+      "Drill: Listen to a 4-bar bass ostinato repeating"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3, 2-2-3 (three counts a bar)",
-     "repetitions": 3
+     "counts": "1-2-3-4-5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Drill: Maintaining a steady pace in a line."
+      "Drill: Identify triple vs binary meter changes across regions"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "counts": "1-2-3-4-5-6-7-8",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -305,7 +302,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Clapping the underlying ostinato pattern."
+      "Drill: Walk in time to a processional march beat"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -320,12 +317,12 @@
      "narration": [],
      "on_screen": [
       "Correction withheld until evidence is available",
-      "Options card: Seated or supported option: Marching in place while seated, focusing on rhythmic arm swings. · For children: Follow-the-leader parade game in a line."
+      "Options card: Seated or supported option: Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march. · For children: A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: Marching in place while seated, focusing on rhythmic arm swings.",
-      "For children: Follow-the-leader parade game in a line."
+      "Seated or supported option: Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march.",
+      "For children: A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
      ],
      "derived_note": "options are derived teaching suggestions, not facts from the sources",
      "needs": [
@@ -337,12 +334,12 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Count-in: 1-2-3-4-5-6-7-8.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
+      "Track: lesson_full at 106 bpm"
      ],
      "music": "lesson_full"
     },
@@ -351,8 +348,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn the basic Andean march rhythm..",
-      "Used for religious processions and theatrical interludes in the 17th century.",
+      "You can now: Understand the ostinato principle and historical context.",
+      "Originally used as a transition between theatrical numbers or religious processions.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -366,17 +363,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "the building the dance of passacaglia",
-   "level": null,
+   "goal": "Recognize structural variations",
+   "level": "intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: the building the dance of passacaglia.",
-      "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A musicologist with a background in both Baroque organ performance and Andean folk music."
+      "Chapter 2 — Building the dance. Today: Recognize structural variations.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A musicologist and ethnomusicologist bridging classical European history with living Latin American street traditions."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -387,61 +384,64 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright and formal (Baroque); relaxed and rhythmic (Andean)."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 (Baroque) or 2/4 (Andean)..",
-      "Rhythm pattern: Bass ostinato, usually 4-8 bars long, repeating..",
+      "Count: 1-2-3-4-5-6-7-8. The meter is Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants.",
+      "Rhythm pattern: Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
+      "Metronome at 74 bpm"
      ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo"
-     ]
+     "music": "lesson_slow (clicks only until the step lands)"
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Andean march: steady walking step in time with the brass band rhythm."
+      "Drill: Track upper-voice variations over a ground bass"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3, 2-2-3 (three counts a bar)",
-     "repetitions": 3
+     "counts": "1-2-3-4-5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Processional March: Steady, rhythmic walking movement through public spaces."
+      "Drill: Compare Baroque passacaglia with South American pasacalle"
      ],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3, 2-2-3 (three counts a bar)",
-     "repetitions": 3
+     "counts": "1-2-3-4-5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -465,12 +465,12 @@
      "narration": [],
      "on_screen": [
       "Correction withheld until evidence is available",
-      "Options card: Seated or supported option: Marching in place while seated, focusing on rhythmic arm swings. · For children: Follow-the-leader parade game in a line."
+      "Options card: Seated or supported option: Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march. · For children: A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: Marching in place while seated, focusing on rhythmic arm swings.",
-      "For children: Follow-the-leader parade game in a line."
+      "Seated or supported option: Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march.",
+      "For children: A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
      ],
      "derived_note": "options are derived teaching suggestions, not facts from the sources",
      "needs": [
@@ -482,12 +482,12 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
-      "Full tempo, the whole sequence, twice. Formation: Street processions or human chains (Andean)."
+      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Walking in street chains (kalejira), processional lines, or stationary court formations."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
+      "Track: lesson_full at 106 bpm"
      ],
      "music": "lesson_full"
     },
@@ -496,8 +496,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the building the dance of passacaglia.",
-      "Girolamo Frescobaldi, Johann Sebastian Bach, François Couperin, Johannes Brahms, Benjamin Britten, Dmitri Shostakovich, Anton Webern.",
+      "You can now: Recognize structural variations.",
+      "Girolamo Frescobaldi, Johann Sebastian Bach, Dietrich Buxtehude, George Frideric Handel, François Couperin, Heinrich Ignaz Franz Biber, Johannes Brahms, Anton Webern, Benjamin Britten, Dmitri Shostakovich, Rafael Carpio Abad.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -511,17 +511,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "the dancing it fully of passacaglia",
-   "level": null,
+   "goal": "Analyze polyphonic integration",
+   "level": "advanced",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: the dancing it fully of passacaglia.",
-      "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A musicologist with a background in both Baroque organ performance and Andean folk music."
+      "Chapter 3 — Dancing it fully. Today: Analyze polyphonic integration.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A musicologist and ethnomusicologist bridging classical European history with living Latin American street traditions."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -532,61 +532,64 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright and formal (Baroque); relaxed and rhythmic (Andean)."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 (Baroque) or 2/4 (Andean)..",
-      "Rhythm pattern: Bass ostinato, usually 4-8 bars long, repeating..",
+      "Count: 1-2-3-4-5-6-7-8. The meter is Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants.",
+      "Rhythm pattern: Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
+      "Metronome at 74 bpm"
      ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo"
-     ]
+     "music": "lesson_slow (clicks only until the step lands)"
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Andean march: steady walking step in time with the brass band rhythm."
+      "Drill: Examine Bach's BWV 582 structural framework"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3, 2-2-3 (three counts a bar)",
-     "repetitions": 3
+     "counts": "1-2-3-4-5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Processional March: Steady, rhythmic walking movement through public spaces."
+      "Drill: Study modal shifts in Andean adaptations"
      ],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3, 2-2-3 (three counts a bar)",
-     "repetitions": 3
+     "counts": "1-2-3-4-5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -610,12 +613,12 @@
      "narration": [],
      "on_screen": [
       "Correction withheld until evidence is available",
-      "Options card: Seated or supported option: Marching in place while seated, focusing on rhythmic arm swings. · For children: Follow-the-leader parade game in a line."
+      "Options card: Seated or supported option: Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march. · For children: A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: Marching in place while seated, focusing on rhythmic arm swings.",
-      "For children: Follow-the-leader parade game in a line."
+      "Seated or supported option: Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march.",
+      "For children: A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
      ],
      "derived_note": "options are derived teaching suggestions, not facts from the sources",
      "needs": [
@@ -627,12 +630,12 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
-      "Full tempo, the whole sequence, twice. Formation: Street processions or human chains (Andean)."
+      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Walking in street chains (kalejira), processional lines, or stationary court formations."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
+      "Track: lesson_full at 106 bpm"
      ],
      "music": "lesson_full"
     },
@@ -641,8 +644,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the dancing it fully of passacaglia.",
-      "Derived from Spanish street guitar music; influenced the development of the chaconne and later 20th-century orchestral variation forms.",
+      "You can now: Analyze polyphonic integration.",
+      "Directly related to the chaconne (ciaccona), with which it shares historical roots and ostinato principles, and historically influenced by early Spanish guitar interludes and later connected with elements of the paso-doble in South America.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -658,31 +661,35 @@
   "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
-  "tempo_bpm": null,
-  "meter": "3/4 (Baroque) or 2/4 (Andean).",
-  "rhythm_pattern": "Bass ostinato, usually 4-8 bars long, repeating.",
+  "tempo_bpm": 106,
+  "meter": "Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants",
+  "rhythm_pattern": "Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars.",
   "instruments": [
-   "Guitar",
-   "Organ",
-   "Brass band",
-   "Accordion",
-   "Percussion"
+   "organ",
+   "harpsichord",
+   "lute",
+   "baroque guitar",
+   "violin",
+   "viola",
+   "bombos",
+   "cajas chicas"
   ],
-  "vocal_style": "Instrumental focus; Andean versions may have vocal accompaniments.",
-  "musical_form": "Continuous variations over a ground bass.",
+  "vocal_style": "Instrumental predominantly, with occasional vocal settings in opera or popular South American songs (e.g., Ecuadorian pasacalles).",
+  "musical_form": "Continuous variation over ground bass, sometimes incorporating rondeau elements.",
   "mood": [
-   "solemn",
+   "serious",
    "melancholic",
-   "lively",
-   "celebratory"
+   "grave",
+   "tender",
+   "lively"
   ],
-  "sound_description": "A repeating, foundational bass line provides the harmonic anchor for increasingly complex melodic variations or brass-led march themes.",
+  "sound_description": "A repeating, weighty four- or eight-note bassline anchors the texture, while upper voices weave continuous, solemn or animated counterpoint and melodic variations in a steady meter.",
   "listen_before_composing": [
    "Passacaglia and Fugue in C minor, BWV 582 — Johann Sebastian Bach",
-   "El Chulla Quiteño — Traditional",
-   "Passacaglia and Fugue in C minor, BWV 582 — Johann Sebastian Bach, Cameron Carpenter (year unknown)"
+   "Chola Cuencana — Rafael Carpio Abad",
+   "Apparatus Musico-Organisticus — Georg Muffat, Jaroslav Tůma (1990)"
   ],
-  "prompt": "Original instrumental composition in the musical world of passacaglia (Spain, Italy, France, Germany, Ecuador, Chile, Peru, Colombia). Meter 3/4 (Baroque) or 2/4 (Andean).. Rhythm pattern: Bass ostinato, usually 4-8 bars long, repeating.. Instruments: Guitar, Organ, Brass band, Accordion, Percussion. Vocal style: Instrumental focus; Andean versions may have vocal accompaniments.. Form: Continuous variations over a ground bass.. Mood: solemn, melancholic, lively, celebratory. It should sound like this: A repeating, foundational bass line provides the harmonic anchor for increasingly complex melodic variations or brass-led march themes. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of passacaglia (Spain, Italy, France, Germany, Ecuador, Chile, Peru, Colombia). Meter Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants. Tempo about 106 bpm. Rhythm pattern: Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars.. Instruments: organ, harpsichord, lute, baroque guitar, violin, viola, bombos, cajas chicas. Vocal style: Instrumental predominantly, with occasional vocal settings in opera or popular South American songs (e.g., Ecuadorian pasacalles).. Form: Continuous variation over ground bass, sometimes incorporating rondeau elements.. Mood: serious, melancholic, grave, tender, lively. It should sound like this: A repeating, weighty four- or eight-note bassline anchors the texture, while upper voices weave continuous, solemn or animated counterpoint and melodic variations in a steady meter. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -698,13 +705,13 @@
     "id": "lesson_slow",
     "use": "chapters: step practice",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 74
    },
    {
     "id": "lesson_full",
     "use": "chapters: dance it to the music",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 106
    }
   ],
   "rules": [
@@ -721,10 +728,10 @@
    "title": "Passacaglia"
   },
   "wardrobe": {
-   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
-   "dress_the_narrator": true,
-   "restricted_attire": false,
-   "from_sources": "Historically performed in court settings in Europe. In the Andean context, it is performed in public squares, streets, and during civic festivals, often by municipal bands.",
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performed in European courts in formal Baroque attire, in churches during religious ceremonies, and in public streets during civic parades, carnivals, and institutional celebrations in South America and the Basque Country.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -764,6 +771,13 @@
     "attribution": "Internet Archive"
    },
    {
+    "title": "File:Zalduondoko inauteria - Kalejira.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Zalduondoko_inauteria_-_Kalejira.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Iñaki LL / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
     "title": "File:Entrevista en pasacalle de San Borja.webm",
     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Entrevista_en_pasacalle_de_San_Borja.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "year": null,
@@ -783,22 +797,15 @@
     "year": null,
     "license": "CC0",
     "attribution": "Dieguiño 01 / Wikimedia Commons / CC0"
-   },
-   {
-    "title": "File:Pasacalle comisión fallera.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pasacalle_comisi%C3%B3n_fallera.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "19Tarrestnom65 / Wikimedia Commons / CC BY-SA 4.0"
    }
   ],
   "motifs": [
-   "Close-up of a Baroque guitar fretboard.",
-   "Architectural shots of a 17th-century Spanish street.",
-   "Wide shots of a brass band marching in an Ecuadorian plaza."
+   "17th-century Spanish street musicians with baroque guitars",
+   "Baroque pipe organ keyboards and sheet music",
+   "Andean brass bands marching through a public square"
   ],
-  "costume_notes": "Historically performed in court settings in Europe. In the Andean context, it is performed in public squares, streets, and during civic festivals, often by municipal bands.",
-  "setting_notes": "Used for religious processions and theatrical interludes in the 17th century. In modern Ecuador and Peru, it serves as a civic anthem and a celebratory marker of regional identity during anniversaries and carnivals.",
+  "costume_notes": "Performed in European courts in formal Baroque attire, in churches during religious ceremonies, and in public streets during civic parades, carnivals, and institutional celebrations in South America and the Basque Country.",
+  "setting_notes": "Originally used as a transition between theatrical numbers or religious processions. In Europe, it became a pillar of sacred and secular art music. In South America and the Basque Country, it serves a strong social and civic function, organizing public space during desfilados, patron saint festivals, anniversaries, and national holidays.",
   "map": {
    "country": "Spain, Italy, France, Germany, Ecuador, Chile, Peru, Colombia",
    "region": "Global",
@@ -811,45 +818,48 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
-  "counting": "1-2-3, 2-2-3 (three counts a bar)",
-  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-2-3-4-5-6-7-8",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "1-2-3-4",
-   "5-6-7-8",
-   "un dos tres",
-   "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "uno dos tres cuatro",
+   "sin parar",
+   "y ahora de regreso"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
-   "warmup",
-   "full_demo",
    "breakdown",
-   "slow_practice",
-   "music_practice",
-   "recap"
+   "music_practice"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Paso básico",
+    "counts": "8",
+    "description": "Marching in place with hip movement moving right and left."
+   },
+   {
+    "name": "Paseíllo",
+    "counts": "8",
+    "description": "Moving in a small circle to the right and left using basic steps."
+   },
+   {
+    "name": "Trenzado",
+    "counts": "3",
+    "description": "Crossing legs alternately behind and to the side."
+   }
+  ]
  },
  "gaps": [
-  "tempo (bpm)",
   "licensed images (3 needed)",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
   "teaching steps written out",
   "what to avoid / common mistakes"
  ],
@@ -859,11 +869,12 @@
   "https://es.wikipedia.org/wiki/Pasacalle",
   "https://fr.wikipedia.org/wiki/Passacaille",
   "https://de.wikipedia.org/wiki/Passacaglia",
+  "https://it.wikipedia.org/wiki/Passacaglia",
   "https://archive.org/details/31761034841437"
  ],
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "dd4d7c382b6f9b4e6196d49c07d632ad648f3f25c899b4f54a7122e08e9b2daa",
+ "input_fingerprint": "fc8e2fa43134c3a172487e928716cfcc7337879409efb30f80f5e9865d32b8f0",
  "hero_checked": "pass"
 }

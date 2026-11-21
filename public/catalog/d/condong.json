@@ -528,9 +528,123 @@
   ],
   "via": {
    "posture": "performance",
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "5jCdvzDVP2s",
+   "url": "https://www.youtube.com/watch?v=5jCdvzDVP2s",
+   "title": "Belajar Tari Condong Legong Keraton - Tutorial Tari Bali Bagian 1",
+   "channel": "Hana Syankhara",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "Indonesian",
+   "counting_scheme": "1-2-3-4-5-6",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "intro",
+     "note": "Teacher introduces herself and the dance part being taught."
+    },
+    {
+     "t": "0:25",
+     "seconds": 25,
+     "segment": "context",
+     "note": "List of 8 movement sections of Tari Condong Bagian 1 displayed on screen."
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "segment": "intro",
+     "note": "Teacher introduces assistant Emi."
+    },
+    {
+     "t": "1:01",
+     "seconds": 61,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates the first movement section alone with counts."
+    },
+    {
+     "t": "2:33",
+     "seconds": 153,
+     "segment": "breakdown",
+     "note": "Teacher has assistant Emi perform while she guides and corrects her."
+    },
+    {
+     "t": "4:15",
+     "seconds": 255,
+     "segment": "music_practice",
+     "note": "Assistant Emi practices the dance to music."
+    },
+    {
+     "t": "6:25",
+     "seconds": 385,
+     "segment": "recap",
+     "note": "Closing remarks and sign off."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Berjalan memegang lamak",
+     "counts": "1-6",
+     "description": "Walking while holding the lamak."
+    }
+   ],
+   "cues": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "teacher_style": "The teacher introduces the lesson and breaks down each movement step-by-step with numbering and verbal prompts. She then brings in a second dancer to demonstrate alongside her while providing physical adjustments.",
+   "distinctive_method": "Having the instructor demonstrate the sequence solo first, then coaching a student dancer live on camera with physical adjustments before music practice.",
+   "what_works": [
+    "Showing the list of movements at the start gives clear structure.",
+    "Demonstrating solo first and then with a student helps learners see both execution and correction."
+   ],
+   "what_hinders": [
+    "Lack of slow breakdown with verbal counts during the partner demonstration."
+   ],
+   "evidence": [
+    {
+     "start_s": 4,
+     "end_s": 22,
+     "topic": "teaching",
+     "observation": "Teacher stands in front of camera speaking to introduce the lesson.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 101,
+     "end_s": 130,
+     "topic": "movement",
+     "observation": "Teacher demonstrates footwork and hand positions while counting aloud.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "weight transfer precision",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 236,
+     "end_s": 260,
+     "topic": "teaching",
+     "observation": "Teacher physically adjusts student's arm position during practice.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact pressure of adjustment",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "5mwmS5MciJk",
@@ -587,6 +701,6 @@
   "polished": false,
   "file": "episodes/condong.json"
  },
- "fingerprint": "3b5f00fcb9980dec",
+ "fingerprint": "dac3ba3d359c54f7",
  "updated": "2026-11-21"
 }

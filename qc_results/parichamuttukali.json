@@ -1,0 +1,119 @@
+{
+ "slug": "parichamuttukali",
+ "qc_at": "2026-11-21T19:18:34Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Parichamuttukali"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "67"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "183"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Tracing its roots to 11th-century 'suicide squads', this dance transforms lethal"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "509"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3294"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ceremon', 'deities', 'god', 'religious', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-researched. The mention of the 'Harijan community' in the notable_figures section is not supported by the provided evidence claims and contradicts the primary association with Syrian Christian/Latin Catholic communities; this should be removed for total accuracy."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.5",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-21T18:26:24Z"
+}

@@ -1,8 +1,8 @@
 # Goseong ogwangdae — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the origins & history section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the origins & history section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** The National Human Treasure, a grounded and wise farmer-dancer
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dancing Farmer of Goseong
 NARRATION: This is Goseong ogwangdae. Early 20th century (revived 1964).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (vTEJNq6F-yo)
 ON SCREEN: Title card: Goseong ogwangdae · South Korea · Early 20th century (revived 1964)
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dance is characterized by the Youngnam province style, featuring 
 NARRATION: It consists of five stories or acts.
 NARRATION: The movement is described as natural and fluid, often performed by men who are also farmers, blending agricultural rhythms with dramatic storytelling.
 NARRATION: Watch for Youngnam Style.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (vTEJNq6F-yo)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular or open-front dramatic stage
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -304,7 +304,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'vTEJNq6F-yo', 'checked_by_vision_model': False, 'title': '[4k] 탈, 춤으로 잇다ㅣ고성오광대x김설진'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The weathered hands of a farmer, Exaggerated wooden masks, The dusty outdoor performance circle, Brightly colored traditional hanbok
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
+Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
+Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
 
 Sources (2): https://en.wikipedia.org/wiki/Goseong_ogwangdae; https://www.wikidata.org/wiki/Q5587169

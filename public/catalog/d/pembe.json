@@ -63,7 +63,20 @@
   "profile_long": "Pembe is a traditional Macedonian circle dance, known as an oro, which originates from the Veles region of North Macedonia. As a cultural expression, it belongs to the broader category of Macedonian folk dances, which are typically performed in social or community settings. The dance is characterized by its specific spatial arrangement and the physical engagement of the participants. Dancers form a half-circle, a common configuration in regional oro traditions, which allows for a cohesive movement of the group while maintaining a connection between all participants. The dancers hold their hands up at the level of their shoulders, creating a unified line that moves in coordination with the rhythm of the music. The fundamental movement of Pembe involves steady, grounded steps performed on the whole foot. This provides a stable base for the dancers, which is then accented by a characteristic movement of the heels. This heel motion serves as a rhythmic and visual marker of the dance, distinguishing it from other regional oro variations. The structure of the dance is dynamic, defined by a progressive change in tempo. It begins at a slow, measured pace, allowing the dancers to establish the rhythm and the connection within the half-circle. As the dance progresses, the tempo gradually increases, leading to a faster, more energetic conclusion. This acceleration requires the dancers to maintain their coordination and the integrity of the half-circle formation while adapting to the changing speed of the music. The rhythm of the dance is set to a 2/4 meter, which provides the underlying pulse for the steps and the heel movements. Because the dance is a mixed-gender performance, it serves as a social activity that brings together different members of the community. The reliance on the whole foot for the basic steps ensures that the dance remains grounded, while the upward position of the arms adds a vertical dimension to the performance. The transition from slow to fast is a key element of the dance's narrative arc, requiring the dancers to be attentive to the music and to each other. While specific details regarding costumes, historical occasions, or notable figures are not described in the sources, the dance remains a recognized part of the Macedonian folk repertoire. It is a living tradition that reflects the regional characteristics of Veles, emphasizing both the technical precision of the heel movements and the communal nature of the circle dance. The simplicity of the 2/4 rhythm combined with the gradual increase in speed makes Pembe a distinct example of the Macedonian oro, requiring both stamina and rhythmic sensitivity from those who participate in the circle.",
   "publish_gate": "publish",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "tutorials": [
+   {
+    "youtube_id": "KplW8jRx8Nw",
+    "title": "MANİFEST - TOZPEMBE Dansını Öğrettim! 💖 Yeni Koreografiyi Birlikte Öğreniyoruz!",
+    "channel": "Edayon",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ]
  },
  "profile": {
   "sections": {
@@ -372,6 +385,82 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "UNrO7JxGdKU",
+   "url": "https://www.youtube.com/watch?v=UNrO7JxGdKU",
+   "title": "Manifest - Toz Pembe | Dance Tutorial Explained Step by Step",
+   "channel": "Dilara Cengiz",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "Turkish",
+   "counting_scheme": "7-8 / 1-2-3-4",
+   "parts": [
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "intro",
+     "note": "Introduction to the song Toz Pembe and the choreography."
+    },
+    {
+     "t": "1:05",
+     "seconds": 65,
+     "segment": "breakdown",
+     "note": "Step-by-step breakdown of the first movement phrase."
+    }
+   ],
+   "steps": [
+    {
+     "name": "bakıyorsun step",
+     "counts": "7-8",
+     "description": "Step to the side with arm positioning and hip drop."
+    }
+   ],
+   "cues": [
+    "bakıyorsun",
+    "eğil",
+    "aç",
+    "üfle",
+    "çapraz"
+   ],
+   "images": [
+    "toz varmış gibi düşünün",
+    "elini dolandır"
+   ],
+   "teacher_style": "The teacher explains the choreography step by step with cheerful encouragement and personal commentary. She frequently links movements to song lyrics and breaks down complex counts into simple directional cues.",
+   "distinctive_method": "Integrating song lyrics directly into the physical timing and verbal explanations.",
+   "what_works": [
+    "breaking down lyrics alongside physical movement",
+    "repetition of steps from the beginning"
+   ],
+   "what_hinders": [
+    "the instructor faces away from the camera for most of the explanation"
+   ],
+   "evidence": [
+    {
+     "start_s": 13,
+     "end_s": 35,
+     "topic": "teaching",
+     "observation": "Instructor stands in front of a mirror talking to the camera.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 114,
+     "end_s": 140,
+     "topic": "movement",
+     "observation": "Instructor demonstrates foot step and arm placement facing away towards the mirror.",
+     "viewpoint": "back, mirrored",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
@@ -383,6 +472,6 @@
   "polished": false,
   "file": "episodes/pembe.json"
  },
- "fingerprint": "3ea3fff5e14a44d8",
+ "fingerprint": "1f7be8785f1e3850",
  "updated": "2026-11-21"
 }

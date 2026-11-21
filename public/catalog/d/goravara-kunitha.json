@@ -30,6 +30,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Goravara_Kunitha",
   "wikidata_qid": "Q5584533",
   "unesco": false,
+  "hero_video_youtube_id": "iA3gr_NkqxI",
+  "video_stack": [
+   {
+    "youtube_id": "iA3gr_NkqxI",
+    "role": "hero",
+    "title": "Goravara Kunitha Karnataka",
+    "channel": "DakshinaChitra Museum",
+    "hd": false
+   },
+   {
+    "youtube_id": "uXGKkjraWYQ",
+    "role": "rendition",
+    "title": "Karnataka Folk Dance (Goravara Kunitha) | Karnataka Tableau | Indian Republic Day 2017",
+    "channel": "Sagara Yana - Ocean Trail - ಸಾಗರ ಯಾನ",
+    "hd": true
+   },
+   {
+    "youtube_id": "YB0ZhF_8Fho",
+    "role": "rendition",
+    "title": "Goravara Kunitha",
+    "channel": "Spoorthi Dhama Bangalore",
+    "hd": true
+   },
+   {
+    "youtube_id": "8ZH6aXZlrmA",
+    "role": "rendition",
+    "title": "Aralumallige goravara tanda",
+    "channel": "Nagesh m mylari",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -45,6 +76,14 @@
   "sacred_note": "Goravara Kunitha is a religious initiation rite; dancers are sworn devotees who have taken an oath (Deekshe). Outsiders should respect the 'Mane Seve' as a private religious service and avoid interfering with the ritual offerings or the bear-skin headgear which is considered sacred.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:10Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "dollu-kunitha"
   ]
@@ -156,13 +195,9 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 5,
   "of": 6,
   "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
@@ -174,11 +209,11 @@
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/goravara-kunitha.json"
  },
- "fingerprint": "4c8d9324a2da89d9",
+ "fingerprint": "7425379d3518737f",
  "updated": "2026-11-21"
 }

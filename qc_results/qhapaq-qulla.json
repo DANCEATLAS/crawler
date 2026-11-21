@@ -1,0 +1,120 @@
+{
+ "slug": "qhapaq-qulla",
+ "qc_at": "2026-11-21T19:16:28Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.15,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Qhapaq Qulla"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "56"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "163"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Associated with festival traditions in the Cusco Region of Peru, Qhapaq Qulla is"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "421"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1991"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Peru"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile accurately reflects the sparse evidence provided, noting that choreography, music, and costume details are undocumented. However, due to the extreme lack of actionable data, its teaching value is very low."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "judge_score=7.15",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-21T16:52:14Z"
+}

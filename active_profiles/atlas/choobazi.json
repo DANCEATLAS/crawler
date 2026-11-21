@@ -2,18 +2,26 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "duration_minutes": "not derivable yet",
-        "game_version": "not derivable yet"
+        "avoid": [
+          "full contact",
+          "heavy wooden sticks",
+          "screaming aggression"
+        ],
+        "counts": "not described in sources",
+        "duration_minutes": "3",
+        "game_version": "game version using soft foam sticks without striking"
       },
       "derived": true,
       "seniors": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "seated_version": "not derivable yet",
-        "standing_version": "not derivable yet",
-        "tempo_and_range": "not derivable yet"
+        "avoid": [
+          "sudden acceleration",
+          "striking force",
+          "spinning"
+        ],
+        "counts": "not described in sources",
+        "seated_version": "seated version not derivable safely due to stick combat dynamics",
+        "standing_version": "standing version with reduced range and no spins",
+        "tempo_and_range": "reduced tempo, zero jump or striking force"
       }
     },
     "interaction_profile": {
@@ -23,22 +31,22 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Attacker holds the stick in front of their face during the approach.",
+      "arms_and_hands": "swinging the bat holding long derak stick for defense holding short tarkeh stick for attack",
       "difficulty": "advanced",
-      "footwork": "not described in sources",
-      "formation_and_space": "Two players in a playing field; can be a circle in the Baluchi variant.",
+      "footwork": "dancing a few laps around the playing field before entering the stick attack and spinning",
+      "formation_and_space": "two players facing each other in a rotating playing field",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "Attack and defense interaction between two players.",
-      "posture": "not described in sources",
+      "partnering": "adversarial attack and defense between two participants",
+      "posture": "holding the stick in front of the face during attack",
       "signature_moves": [
         {
-          "description": "A skillful player who rotates the playing field for several rounds without fatigue.",
-          "name": "Shirin kar"
+          "description": "Attacking with a short stick below the knees after spinning and beating the opponent's stick.",
+          "name": "Tarkeh Strike"
         }
       ],
-      "tempo_feel": "not described in sources",
-      "what_to_avoid": "Do not strike the opponent; only swing the bat and threaten."
+      "tempo_feel": "rapid and violent",
+      "what_to_avoid": "delivering actual full blows to the opponent's body instead of the permitted single tap"
     },
     "music_profile": {
       "instruments": [
@@ -48,30 +56,30 @@
       "meter": "not described in sources",
       "mood_keywords": [
         "competitive",
-        "rhythmic",
-        "intense"
+        "festive",
+        "vigorous"
       ],
-      "musical_form": "Tochmal music",
+      "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "Traditional tochmal music featuring the percussive dohol drum and the melodic karnay horn.",
+      "sound_description": "Traditional tochmāl music featuring the booming pulse of a dohol drum and the piercing call of a karnay wind instrument, driving a vigorous tempo for stick combat.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Attacker screams loudly to undermine opponent's morale."
+      "vocal_style": "loud screaming, yelling, and threatening by the attacker to undermine opponent's morale"
     },
     "teaching": {
       "basic_steps": [
-        "Dance laps around the playing area before engaging.",
-        "Attacker swings the short stick while yelling.",
-        "Defender uses the long stick to block the strike to the legs.",
-        "Players switch sticks and roles after each attack."
+        "Dance a few laps around the playing field",
+        "Swing the short tarkeh stick while yelling and threatening",
+        "Hold the stick in front of the face and execute a spin",
+        "Deliver a single targeted strike toward the opponent's legs"
       ],
-      "formation": "Two players face-to-face or a circle formation in the Baluchi variant.",
-      "level_notes": "Reserved for experienced players due to the speed and intensity of the Lori variant.",
-      "rhythm": "Follows the rhythm of the dohol drum."
+      "formation": "Two participants facing each other in a playing field",
+      "level_notes": "Reserved for experienced players due to the speed and violence of the blows.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "263d8f54cc77dbe7cb54244201ce4f4bc869a4c1c8bf3da869bc73e69d6e4c17",
+  "fingerprint": "9912d4f394fd7c1f40b97fcb8c2d7a6e3ba5ab503029cef17f908a15b2dfb9a2",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -79,9 +87,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture",
       "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the precise rhythmic meters or tempo ranges used by the tochmāl ensemble during Choobazi? Evidence needed: Ethnomusicological field recordings or scores of Lori and Bakhtiari tochmāl music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -108,7 +116,17 @@
   ],
   "music_options": [],
   "name": "Choobazi",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c6e49dee1ac48da8",
+      "next_evidence": "Ethnomusicological field recordings or scores of Lori and Bakhtiari tochmāl music.",
+      "question": "What are the precise rhythmic meters or tempo ranges used by the tochmāl ensemble during Choobazi?",
+      "source": "https://fr.wikipedia.org/wiki/Chub_bazi",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable exact musical recreation for teaching and interactive platforms."
+    }
+  ],
   "research_file": "research_results/choobazi.json",
   "runtime_active": false,
   "scope": {

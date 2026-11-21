@@ -30,6 +30,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gay_Gordons_(dance)",
   "wikidata_qid": "Q5528586",
   "unesco": false,
+  "hero_video_youtube_id": "7YIqMg8jnpE",
+  "video_stack": [
+   {
+    "youtube_id": "7YIqMg8jnpE",
+    "role": "hero",
+    "title": "Learning the Gay Gordons",
+    "channel": "USCN",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -51,6 +61,12 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:20:53Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "chapelloise"
   ]
@@ -249,7 +265,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -257,36 +273,74 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "7YIqMg8jnpE",
+   "url": "https://www.youtube.com/watch?v=7YIqMg8jnpE",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "A spacious community hall with a wooden floor, chairs lined up against the wall, a stage with a band in the background.",
+    "dancers": "Two female dancers of different heights, in a teacher-student arrangement.",
+    "formation_and_space": "Couples formation, dancing side-by-side facing forward, traveling in a small circle around the floor.",
+    "posture": "Upright torso, relaxed knees, weight evenly distributed with bouncy steps.",
+    "footwork": "Walking and stepping in time with the music; 3 steps forward, turn, 3 steps back, repeat.",
+    "arms_and_hands": "Initially holding hands with one arm over the shoulder, later transitioning to ballroom hold and side-by-side hand holding.",
+    "hips_and_torso": "Minimal torso movement, gentle turning of the upper body during steps.",
+    "partnering": "Paired dancing with alternating shoulder hold, hand-in-hand hold, and ballroom hold.",
+    "levels_jumps_turns": "Standing level, turning in place and twirling under arms.",
+    "costume_and_props": "Tartan skirts, dark stockings, black shoes, short-sleeved dark t-shirts.",
+    "cannot_infer": "Low resolution makes exact foot positions and weight shifts difficult to distinguish at high speeds.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "drums"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 105,
+      "end_s": 115,
+      "what": "Three steps forward followed by a turn in place, then three steps back."
+     },
+     {
+      "start_s": 224,
+      "end_s": 230,
+      "what": "One dancer twirling underneath the raised arms of the other."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/gay-gordons.json"
  },
- "fingerprint": "c0a1fc1d59d6141d",
+ "fingerprint": "45bad9ad3eedc21c",
  "updated": "2026-11-21"
 }

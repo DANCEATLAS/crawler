@@ -2,7 +2,7 @@
  "slug": "grida-dance",
  "name": "Grida Dance",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T19:18:11Z",
  "qc_score": 9.6,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Grida Dance. Contemporary/Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (_w8IwIen9IQ)",
      "Title card: Grida Dance · India · Contemporary/Traditional"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Sela, Selalarki, Selabhadoni."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (_w8IwIen9IQ)",
      "Captions name each signature move as it appears",
      "Formation: Communal gathering; dancers from different villages converge in a shared space."
     ],
@@ -711,7 +711,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "_w8IwIen9IQ",
+   "checked_by_vision_model": true,
+   "title": "Folk Dance: Grida Dance"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -758,8 +762,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -769,24 +773,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -799,7 +803,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the origins & history section",
@@ -815,6 +818,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "afd8c06c0170f16dfaa6868521c6df79904a6042ec538688281dbce30803fe33",
- "hero_checked": null
+ "input_fingerprint": "1d786d2a34627ac22d057dc18a64cf8ebc9d0200cf8d4d7952919e0af4488814",
+ "hero_checked": "pass"
 }

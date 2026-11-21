@@ -1,6 +1,6 @@
 # Panyembrama — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
+Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
+Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
 
 Sources (3): https://en.wikipedia.org/wiki/Panyembrama; https://www.wikidata.org/wiki/Q18559952; https://fr.wikipedia.org/wiki/Panyembrama

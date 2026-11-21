@@ -1,0 +1,820 @@
+{
+ "slug": "lurish-dances",
+ "name": "Lurish dances",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T17:38:57Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic cultural historian and traditional Lurish lead dancer who emphasizes rhythmic coordination and historical pride.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Lurish dances",
+   "Luri dances",
+   "Danse lori",
+   "Lurischer Tanz",
+   "Baile luro"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Lurish dances",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Ancient Scarves and Dancing Duels of Luristan",
+     "This is Lurish dances. Pre-1st millennium BC to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Lurish dances · Iran · Pre-1st millennium BC to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Archeological excavations in Lurish-inhabited areas—including Kozagaran, Tepe Giyan, Tepe Musiyan, CheghaMish, and Kul-e Farah—demonstrate that Lurish dance predates Aryan migrations into the Iranian plateau.",
+     "Pottery motifs depicting three dancing figures and bronze flags from Luristan dating to the first millennium BC provide physical evidence of ancient dance traditions.",
+     "Musicians and instruments depicted on petroglyphs in Kul-e Farah and CheghaMish further confirm the antiquity of dance across these regions."
+    ],
+    "on_screen": [
+     "Map: Iran · Middle East",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Dances are performed for life-cycle events, seasonal work, and ritual commemorations.",
+     "Čupi and scarf dances feature prominently at weddings and festive gatherings.",
+     "Čubâzi serves as a celebratory martial spectacle, often presented as a prelude to weddings.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Lurish dances include circular group styles (Čupi), scarf dances (Dasmâl-bâzi), and martial stick duels (Čubâzi).",
+     "In Čupi, dancers join hands or fingers shoulder-to-shoulder, guided by a lead dancer called the Sarčupi (or Čupikeš).",
+     "Watch for Sangin-Samâ step, Sepâ step, Čubâzi leap."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular chain lead by a Sarčupi, moving counter-clockwise or in place; or paired central dueling space."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Lurish dance relies heavily on traditional wind and percussion instruments, such as the karnâ horn, drums, strike instruments, and fiddles (often referred to as tochmal music).",
+     "The drum and horn accompaniment regulates the progressive speed of Čupi dances, accelerating from the slow tempo of Sangin-Samâ into the rapid beat of Dopâ.",
+     "Listen for the karnâ, sorna, drum, fiddle.",
+     "The pulse is 4/4 or 2/4 at about 105 beats a minute.",
+     "A driving combination of resonant outdoor horn calls (karnâ), melodic fiddle lines, and heavy drum strikes that steadily build in speed to propel circle dancers."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Slow steady pulse accelerating into rapid driving drum strikes."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear brightly colored folk garments.",
+     "In scarf dances, men and women carry vibrant handkerchiefs (dastmâl) in both hands.",
+     "Performances typically take place in outdoor open-air spaces or during community celebrations, surrounded by rings of spectating audiences."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Dasmâl-bâzi and Čubâzi are widely practiced among the Bakhtiari and Southern Lur communities.",
+     "Lurish dances represent an unbroken tradition passed down through generations across Lur-inhabited regions, with iconographic roots traceable to first-millennium BC Luristan bronzes and prehistoric Iranian plateau petroglyphs."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Lurish dances is variant of Chubazi: Martial stick dance duel variant performed by Bakhtiari and Southern Lurs.",
+     "Lurish dances is variant of Dasmâl-bâzi: Handkerchief scarf circle dance style common in Lur communities."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Cross the right foot over the left foot.",
+     "Take two steps forward.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how thousand-year-old bronze motifs live on in the vibrant circle dances and stick duels of Iran's Lur communities.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the Sangin-Samâ footwork pattern.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the Sangin-Samâ footwork pattern..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic cultural historian and traditional Lurish lead dancer who emphasizes rhythmic coordination and historical pride."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, shoulder-to-shoulder contact in circular lines with elbows bent.",
+      "Pinky fingers linked at shoulder height, or waving colorful scarves held in both hands.",
+      "Controlled torso following directional step movements."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.",
+      "Rhythm pattern: Slow steady pulse accelerating into rapid driving drum strikes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Cross the right foot over the left foot.",
+      "Step 2: Take two steps forward.",
+      "Footwork from the sources: Right foot crosses left, two steps forward, left toe touch to side, stepping forward right-left-right with knee flexion.",
+      "Drill: Practice right-across-left cross steps in place."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Touch the tip of the left toe to the ground.",
+      "Step 4: Bring the left foot beside the right foot.",
+      "Drill: Add two steps forward and the left toe touch."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Hold arms bent at elbow with pinky finger engagement."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the locked hand-holding line in Čupi; in Čubâzi, strikes must never target above the knee."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm bends and hand/scarf waving movements while seated in a chair, executing simplified forward toe taps. · For children: Play a leader-follower game led by a designated 'Sarčupi' who changes scarf movement patterns on drum cues."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm bends and hand/scarf waving movements while seated in a chair, executing simplified forward toe taps.",
+      "For children: Play a leader-follower game led by a designated 'Sarčupi' who changes scarf movement patterns on drum cues."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the Sangin-Samâ footwork pattern..",
+      "Dances are performed for life-cycle events, seasonal work, and ritual commemorations.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute tempo transitions from Sepâ to Dopâ.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute tempo transitions from Sepâ to Dopâ..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic cultural historian and traditional Lurish lead dancer who emphasizes rhythmic coordination and historical pride."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, shoulder-to-shoulder contact in circular lines with elbows bent.",
+      "Pinky fingers linked at shoulder height, or waving colorful scarves held in both hands.",
+      "Controlled torso following directional step movements."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.",
+      "Rhythm pattern: Slow steady pulse accelerating into rapid driving drum strikes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Transition into three forward steps starting with the right foot (Sepâ phase).",
+      "Drill: Three-step acceleration forward starting right foot."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Sangin-Samâ step: Cross right foot over left, step forward twice, touch left toe to ground, and align feet.",
+      "Sepâ step: Three forward steps starting on the right foot followed by knee flexion.",
+      "Drill: Knee flex synchronization with a partner."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Waving scarves rhythmically in both hands."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the locked hand-holding line in Čupi; in Čubâzi, strikes must never target above the knee."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm bends and hand/scarf waving movements while seated in a chair, executing simplified forward toe taps. · For children: Play a leader-follower game led by a designated 'Sarčupi' who changes scarf movement patterns on drum cues."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm bends and hand/scarf waving movements while seated in a chair, executing simplified forward toe taps.",
+      "For children: Play a leader-follower game led by a designated 'Sarčupi' who changes scarf movement patterns on drum cues."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Circular chain lead by a Sarčupi, moving counter-clockwise or in place; or paired central dueling space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute tempo transitions from Sepâ to Dopâ..",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform the Čubâzi defense leap.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform the Čubâzi defense leap..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic cultural historian and traditional Lurish lead dancer who emphasizes rhythmic coordination and historical pride."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, shoulder-to-shoulder contact in circular lines with elbows bent.",
+      "Pinky fingers linked at shoulder height, or waving colorful scarves held in both hands.",
+      "Controlled torso following directional step movements."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.",
+      "Rhythm pattern: Slow steady pulse accelerating into rapid driving drum strikes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Bring the left foot beside the right foot.",
+      "Step 2: Transition into three forward steps starting with the right foot (Sepâ phase).",
+      "Drill: Timed vertical leaps to dodge low horizontal stick sweeps."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Čubâzi leap: High vertical jump performed by a defender to dodge a stick strike aimed below the knees.",
+      "Drill: Maintaining stance and balance upon landing."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the locked hand-holding line in Čupi; in Čubâzi, strikes must never target above the knee."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm bends and hand/scarf waving movements while seated in a chair, executing simplified forward toe taps. · For children: Play a leader-follower game led by a designated 'Sarčupi' who changes scarf movement patterns on drum cues."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm bends and hand/scarf waving movements while seated in a chair, executing simplified forward toe taps.",
+      "For children: Play a leader-follower game led by a designated 'Sarčupi' who changes scarf movement patterns on drum cues."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Circular chain lead by a Sarčupi, moving counter-clockwise or in place; or paired central dueling space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform the Čubâzi defense leap..",
+      "Lurish dances represent an unbroken tradition passed down through generations across Lur-inhabited regions, with iconographic roots traceable to first-millennium BC Luristan bronzes and prehistoric Iranian plateau petroglyphs.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 105,
+  "meter": "4/4 or 2/4",
+  "rhythm_pattern": "Slow steady pulse accelerating into rapid driving drum strikes.",
+  "instruments": [
+   "karnâ",
+   "sorna",
+   "drum",
+   "fiddle"
+  ],
+  "vocal_style": "Audience cheering, screaming, and whistling accompanying instrumental music.",
+  "musical_form": "Sectional acceleration continuum transitioning from Sangin-Samâ to Sepâ, Dopâ, and returning to Sangin-Samâ.",
+  "mood": [
+   "festive",
+   "vibrant",
+   "energetic",
+   "heroic"
+  ],
+  "sound_description": "A driving combination of resonant outdoor horn calls (karnâ), melodic fiddle lines, and heavy drum strikes that steadily build in speed to propel circle dancers.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Lurish dances (Iran). Meter 4/4 or 2/4. Tempo about 105 bpm. Rhythm pattern: Slow steady pulse accelerating into rapid driving drum strikes.. Instruments: karnâ, sorna, drum, fiddle. Vocal style: Audience cheering, screaming, and whistling accompanying instrumental music.. Form: Sectional acceleration continuum transitioning from Sangin-Samâ to Sepâ, Dopâ, and returning to Sangin-Samâ.. Mood: festive, vibrant, energetic, heroic. It should sound like this: A driving combination of resonant outdoor horn calls (karnâ), melodic fiddle lines, and heavy drum strikes that steadily build in speed to propel circle dancers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 73
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 105
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear brightly colored folk garments. In scarf dances, men and women carry vibrant handkerchiefs (dastmâl) in both hands. Performances typically take place in outdoor open-air spaces or during community celebrations, surrounded by rings of spectating audiences.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALur_handkerchief_dancer%2C_Mamasani%2C_Iran.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Lur_handkerchief_dancer%2C_Mamasani%2C_Iran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Lur_handkerchief_dancer%2C_Mamasani%2C_Iran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Shadegan / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALur_handkerchief_dancer%2C_Mamasani%2C_Iran.jpg",
+    "description": "Lurish handkerchief dance, Mamasani, Iran"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Colorful flowing scarves against green hillside backgrounds.",
+   "Intertwined pinky fingers holding shoulder height alignment.",
+   "Close-up of traditional drums and karnâ horns being played."
+  ],
+  "costume_notes": "Performers wear brightly colored folk garments. In scarf dances, men and women carry vibrant handkerchiefs (dastmâl) in both hands. Performances typically take place in outdoor open-air spaces or during community celebrations, surrounded by rings of spectating audiences.",
+  "setting_notes": "Dances are performed for life-cycle events, seasonal work, and ritual commemorations. Čupi and scarf dances feature prominently at weddings and festive gatherings. Čubâzi serves as a celebratory martial spectacle, often presented as a prelude to weddings. Other specialized forms include harvesting ceremony dances, PaPoshtePa dances, Suwaruna, and solemn mourning dances such as Chamariuna performed for deceased loved ones among Feylis and Southern Lur tribes.",
+  "map": {
+   "country": "Iran",
+   "region": "Middle East",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Luri_dances",
+  "https://www.wikidata.org/wiki/Q30166378",
+  "https://es.wikipedia.org/wiki/Baile_luro",
+  "https://fr.wikipedia.org/wiki/Danse_lori",
+  "https://de.wikipedia.org/wiki/Lurischer_Tanz",
+  "https://it.wikipedia.org/wiki/Danza_luro"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "7d0c3ada8eba641e174ac6a167139e5aedcd395d15a7cd80bd277a9ff945597b",
+ "hero_checked": null
+}

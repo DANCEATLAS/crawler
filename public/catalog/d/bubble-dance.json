@@ -253,32 +253,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -287,13 +267,68 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "XM1BX5ka5Zg",
+   "url": "https://www.youtube.com/watch?v=XM1BX5ka5Zg",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Stage set with dark background, decorative trellis panels and large potted plants.",
+    "dancers": "Solo female dancer",
+    "formation_and_space": "Solo performer moving around a large transparent sphere prop across the center stage.",
+    "posture": "Upright, graceful posture with extended torso and expressive head tilts.",
+    "footwork": "Balletic steps and tiptoe walking in heels; precise foot placements are partially obscured by long costume drapery and low resolution.",
+    "arms_and_hands": "Arms extended gracefully, gesturing around, pushing, and interacting with the large bubble prop.",
+    "hips_and_torso": "Fluid torso bends, arches, and turns, with gentle hip sways coordinating with arm movements.",
+    "partnering": "None, solo performance interacting with a large prop balloon.",
+    "levels_jumps_turns": "Transitions from standing to floor work lying on the back, arching into backbends, and slow turns.",
+    "costume_and_props": "Light, draped, pale, short greek-style tunic dress; large translucent illuminated bubble ball prop.",
+    "cannot_infer": "Exact footwork details and subtle weight shifts are obscured by low resolution and shadows.",
+    "music_heard": {
+     "instruments": [
+      "strings",
+      "piano"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 32,
+      "end_s": 35,
+      "what": "Dancer stands on one leg with the other leg extended high beside the giant sphere."
+     },
+     {
+      "start_s": 133,
+      "end_s": 137,
+      "what": "Dancer lies on her back on the floor lifting one leg straight up in the air near the rolling bubble."
+     },
+     {
+      "start_s": 198,
+      "end_s": 204,
+      "what": "Dancer executes a deep backward spine arch over the top of the large sphere prop."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -303,6 +338,6 @@
   "polished": false,
   "file": "episodes/bubble-dance.json"
  },
- "fingerprint": "fae952740e4ade6b",
+ "fingerprint": "c2847ed388830daf",
  "updated": "2026-11-21"
 }

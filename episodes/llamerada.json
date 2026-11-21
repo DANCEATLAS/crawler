@@ -2,7 +2,7 @@
  "slug": "llamerada",
  "name": "Llamerada",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T17:53:48Z",
  "qc_score": 10.0,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Llamerada. 20th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (eJz29itxzHU)",
      "Title card: Llamerada · Bolivia · 20th century to present"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Khorawa rotation."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (eJz29itxzHU)",
      "Captions name each signature move as it appears",
      "Formation: Two long parallel lines (men and women separated) performing synchronized group turns and figures."
     ],
@@ -266,7 +266,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "eJz29itxzHU",
+   "checked_by_vision_model": true,
+   "title": "INTERPRETACIÓN DE LA DANZA LLAMERADA"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -320,8 +324,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -331,24 +335,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -358,7 +362,6 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "two or more connections"
  ],
@@ -371,6 +374,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "cd6c35c0f38405778b189f484d153c127ffe6263713ef292d5b8de0f4df9daa0",
- "hero_checked": null
+ "input_fingerprint": "7222a9a36f552071734d41c0ee55dd43af76a3bea301a39cec28621e595ef77d",
+ "hero_checked": "pass"
 }

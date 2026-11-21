@@ -1,8 +1,8 @@
 # J-Setting — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A former J-Sette Captain: disciplined, commanding, and deeply proud of the lineage.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Thrill of a Thousand Eyes
 NARRATION: This is J-Setting. Late 1970s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Z7X3Jqu0x5Y)
 ON SCREEN: Title card: J-Setting · United States · Late 1970s to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance uses a lead-and-follow format where a captain initiates mov
 NARRATION: Key techniques include 'bucking' (powerful body and arm thrusts) and the 'Salt and Pepper' (a high-knee prance lifting the foot to the opposite knee's height).
 NARRATION: Dancers perform in rows based on height: 'Short & Sassy', 'Magnificent Middle', and 'Tall & Tough'.
 NARRATION: Watch for Bucking, Salt and Pepper.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Z7X3Jqu0x5Y)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Linear rows that shift into complex geometric patterns similar to marching band drills.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -323,7 +323,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers typically wear one or two-piece bodysuits or form-fitting garments that cover the torso, paired with hosiery and knee-high boots. While traditionally performed on football fields and in parades, the style is also prominent in gay nightclubs and competitive dance stages.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Z7X3Jqu0x5Y', 'checked_by_vision_model': True, 'title': 'The Dance Troupe Inspiring Beyoncé'}
 Images: 2 licensed — self / Wikimedia Commons / Public domain (Public domain); 2C2K Photography / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: The blue and white of Jackson State University., Knee-high boots hitting the turf in unison., The massive brass bells of the Sonic Boom band., Sweat and focus in a high-intensity rehearsal room.
@@ -333,9 +333,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the african-diaspora family studied · videos studied: 14
+Source: 13 tutorial(s) of the african-diaspora family studied · videos studied: 13
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: make sure that you are wearing comfortable shoes; stand properly; don't do that; and out and out and in and in; double double; and cross and cross; right slap left slap; left foot; right foot; step; touch; stomp off
+Cues: out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
 
 Sources (2): https://en.wikipedia.org/wiki/J-Setting; https://www.wikidata.org/wiki/Q16973422

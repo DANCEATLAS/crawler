@@ -2,7 +2,7 @@
  "slug": "gay-gordons",
  "name": "Gay Gordons",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T17:59:19Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Gay Gordons. c. 1890."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (7YIqMg8jnpE)",
      "Title card: Gay Gordons · Scotland · c. 1890"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Allemande hold march, Progressive shift."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (7YIqMg8jnpE)",
      "Captions name each signature move as it appears",
      "Formation: Couples in a circle around the room facing anti-clockwise, ladies on the right"
     ],
@@ -717,7 +717,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "7YIqMg8jnpE",
+   "checked_by_vision_model": true,
+   "title": "Learning the Gay Gordons"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -752,8 +756,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -763,24 +767,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -791,7 +795,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "what to avoid / common mistakes"
@@ -803,6 +806,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "996b58a81c3f2e517134043c737e1eefc14f52bbcdc95707ed5f8feabb9349c0",
- "hero_checked": null
+ "input_fingerprint": "e42961765e8facebe591dfb0e3cc2ba5ddecd1e68810f22a8cfeaa27d271153f",
+ "hero_checked": "pass"
 }

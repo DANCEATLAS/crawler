@@ -89,6 +89,19 @@
    "checked_at": "2026-11-15T18:00:42Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "icttHOiKwys",
+    "title": "Kizomba Fusion - All Rules for Foot Slides - Intermediate Tutorial [The Rules You Need to Know]",
+    "channel": "Kristofer Mencák",
+    "level": "intermediate",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "kizomba",
    "tango",
@@ -183,24 +196,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
    {
     "key": "status",
     "label": "known to be living, revived or historical"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "picture",
@@ -209,13 +210,93 @@
   ],
   "via": {
    "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
    "signature_moves": "lesson",
    "rhythm": "lesson",
+   "sound": "performance",
    "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "Jj5B4Uzd6ok",
+   "url": "https://www.youtube.com/watch?v=Jj5B4Uzd6ok",
+   "title": "Kizomba UrbanKiz TRICKS Tutorial - Fred-Nelson & Morgane 🎓",
+   "channel": "Online Kizomba School",
+   "analysed_on": "2026-11-21",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8 and 1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:07",
+     "seconds": 7,
+     "segment": "intro",
+     "note": "Fred-Nelson and Morgane introduce themselves and their style"
+    },
+    {
+     "t": "0:33",
+     "seconds": 33,
+     "segment": "other",
+     "note": "Full demonstration of the trick sequence with music"
+    },
+    {
+     "t": "1:14",
+     "seconds": 74,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of the leader's and follower's parts"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Urban Kiz Trick Sequence",
+     "counts": "1-8",
+     "description": "A partnered trick incorporating opening, blocking, contact search, and pivot rotation."
+    }
+   ],
+   "cues": [
+    "You opening your partner",
+    "You block your partner",
+    "Search the contact",
+    "Push for doing the pivot"
+   ],
+   "teacher_style": "The instructors present the material in a friendly, conversational manner, alternating between demonstrating together and breaking down specific counts. They provide detailed guidance on partner connection, weight placement, and body positioning during the lead-and-follow sequence.",
+   "distinctive_method": "Instructors alternate separate explanations for leaders and followers using identical count structures.",
+   "what_works": [
+    "Demonstrating from multiple angles",
+    "Breaking down the steps separately for leaders and followers"
+   ],
+   "what_hinders": [
+    "Fast transitions during full demonstration without initial slow counts"
+   ],
+   "evidence": [
+    {
+     "start_s": 33,
+     "end_s": 50,
+     "topic": "movement",
+     "observation": "Instructors dance the full trick sequence together facing front and turning.",
+     "viewpoint": "front",
+     "cannot_infer": "exact foot weight distribution due to wide angle",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 118,
+     "end_s": 151,
+     "topic": "teaching",
+     "observation": "Male instructor explains the leader's counts and hand placement while holding frame.",
+     "viewpoint": "back",
+     "cannot_infer": "follower's internal muscular engagement",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "icttHOiKwys",
    "url": "https://www.youtube.com/watch?v=icttHOiKwys",
@@ -347,6 +428,63 @@
    }
   }
  ],
+ "performances": [
+  {
+   "youtube_id": "GTttjkcUfbc",
+   "url": "https://www.youtube.com/watch?v=GTttjkcUfbc",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "spacious hall with chandeliers and people sitting on the floor watching around the perimeter",
+    "dancers": "one woman and two men, mixed group, performing as a couple and with solo interludes",
+    "formation_and_space": "couple dancing in the center of a circle formed by spectators",
+    "posture": "upright torso with flexible knees, close embrace shifting to open frames",
+    "footwork": "weight shifts on the beat with stylized steps, syncopated touches and leg sweeps",
+    "arms_and_hands": "closed partner hold transitioning to one-handed turns and stylistic arm styling",
+    "hips_and_torso": "fluid hip movement and torso rolls, especially prominent in the female dancer",
+    "partnering": "close embrace hold with lead and follow dynamics, alternating with solo movement",
+    "levels_jumps_turns": "spins and turns, occasional drops and dips towards the floor",
+    "costume_and_props": "woman in black crop top and leggings with heels; men in dark cargo pants, vests and sneakers",
+    "cannot_infer": "exact foot placement details and micro-weight shifts are partially obscured by camera cuts and resolution",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "electronic percussion",
+      "bass"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 20,
+      "end_s": 25,
+      "what": "close embrace pivot turn with hip articulation on the beat"
+     },
+     {
+      "start_s": 100,
+      "end_s": 105,
+      "what": "syncopated footwork sequence with sharp weight transfer in close hold"
+     },
+     {
+      "start_s": 150,
+      "end_s": 156,
+      "what": "synchronized solo footwork breaks before returning to partner hold"
+     },
+     {
+      "start_s": 220,
+      "end_s": 227,
+      "what": "lead spins follower into a sharp dip ending in close embrace"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -356,6 +494,6 @@
   "polished": false,
   "file": "episodes/urban-kiz.json"
  },
- "fingerprint": "2bbc67ddd7ef69e5",
+ "fingerprint": "65fb2bfdd06317dc",
  "updated": "2026-11-21"
 }

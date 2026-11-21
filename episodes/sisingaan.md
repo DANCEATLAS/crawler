@@ -1,6 +1,6 @@
 # Sisingaan — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; posture, arms and hands; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -114,7 +114,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Carrying the palanquin in a group of two or four
 NARRATION: Step 2: Coordinating movement with the rhythm of the kendang and gong
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -176,7 +176,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Carrying the palanquin in a group of two or four
 NARRATION: Step 2: Coordinating movement with the rhythm of the kendang and gong
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -239,7 +239,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Coordinating movement with the rhythm of the kendang and gong
 NARRATION: Step 2: Performing acrobatic movements while supporting the effigy
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -300,9 +300,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Sisingaan; https://www.wikidata.org/wiki/Q12515442

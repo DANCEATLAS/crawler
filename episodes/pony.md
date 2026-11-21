@@ -1,8 +1,8 @@
 # Pony — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Upbeat, energetic documentary dance historian and instructor.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Riding the 1960s Beat: The Pony Craze
 NARRATION: This is Pony. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FPSJfIioFKU)
 ON SCREEN: Title card: Pony · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dancer attempts to look as if riding a horse.
 NARRATION: The beat is 1&2, 3&4.
 NARRATION: Dancers keep their feet comfortably together while executing arm and hand motions.
 NARRATION: Watch for Horse-riding bounce.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FPSJfIioFKU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -74,7 +74,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Keep feet comfortably together.
 NARRATION: Step or hop in place to the rhythmic count of 1&2, 3&4.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 6-7-8 and 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 6-7-8 and 1-2-3-4. The meter is 4/4.
 NARRATION: Rhythm pattern: 1&2, 3&4 subdivided rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -115,10 +115,10 @@ NARRATION: Step 1: Keep feet comfortably together.
 NARRATION: Step 2: Step or hop in place to the rhythmic count of 1&2, 3&4.
 NARRATION: Footwork from the sources: Feet kept comfortably together, moving on counts 1&2, 3&4.
 NARRATION: Drill: Count 1&2, 3&4 aloud while bouncing softly on both feet.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Imitate riding a horse using optional hand and arm motions.
@@ -126,7 +126,7 @@ NARRATION: Step 4: Maintain a position facing your partner without physical cont
 NARRATION: Drill: Keep feet comfortably close together while maintaining rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,7 +144,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 6-7-8 and 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 122 bpm
@@ -175,7 +175,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 6-7-8 and 1-2-3-4. The meter is 4/4.
 NARRATION: Rhythm pattern: 1&2, 3&4 subdivided rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -185,10 +185,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Optionally add turns or chase movements around the dance space.
 NARRATION: Drill: Add hand motions simulating holding reins.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Horse-riding bounce: Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.
@@ -196,7 +196,7 @@ NARRATION: Drill: Face a partner without touching while staying on beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,7 +214,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 6-7-8 and 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 122 bpm
@@ -245,7 +245,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 6-7-8 and 1-2-3-4. The meter is 4/4.
 NARRATION: Rhythm pattern: 1&2, 3&4 subdivided rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -256,10 +256,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Maintain a position facing your partner without physical contact.
 NARRATION: Step 2: Optionally add turns or chase movements around the dance space.
 NARRATION: Drill: Perform full turns while keeping the 1&2, 3&4 bounce.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Horse-riding bounce: Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.
@@ -267,7 +267,7 @@ NARRATION: Drill: Move around partner in a chase formation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -285,7 +285,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 6-7-8 and 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 122 bpm
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Social dance halls and party settings. Later television and stage performances featured mid-century early 1960s outfits and hairstyles.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FPSJfIioFKU', 'checked_by_vision_model': True, 'title': 'My Little Pony - Cafeteria Song dance (Helping Twilight Win the Crown)'}
 Images: 0 licensed
 Footage: File:02016 Regional Pony Rally in Rudawka Rymanowska.webm — https://upload.wikimedia.org/wikipedia/commons/4/40/02016_Regional_Pony_Rally_in_Rudawka_Rymanowska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Exmoor pony at Šlovický vrch, Dobřany, 2019-03-02.webm — https://upload.wikimedia.org/wikipedia/commons/c/cf/Exmoor_pony_at_%C5%A0lovick%C3%BD_vrch%2C_Dob%C5%99any%2C_2019-03-02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Vermin Supreme's Pony Protest in Concord, NH.webm — https://upload.wikimedia.org/wikipedia/commons/0/08/Vermin_Supreme%27s_Pony_Protest_in_Concord%2C_NH.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Pony ride - kanagawa - 2023 3 12.webm — https://upload.wikimedia.org/wikipedia/commons/d/d9/Pony_ride_-_kanagawa_-_2023_3_12.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:My Little Pony Mane Ponies.webm — https://upload.wikimedia.org/wikipedia/commons/9/93/My_Little_Pony_Mane_Ponies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; "The old american barn dance" (1953) — https://archive.org/details/theOldAmericanBarnDance1953; Getvid Gggg 1 — https://archive.org/details/20220320_20220320_1734; The Backyardigans It's Great To Be A Ghost 2005 Fanmade VHS — https://archive.org/details/the-backyardigans-its-great-to-be-a-ghost-2005-fanmade-vhs
 Motifs: Early 1960s outfits and hairstyles, Bouncing silhouettes mimicking horse riding, Couples facing each other on a dance floor without touching
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 46 tutorial(s) of the street-urban family studied · videos studied: 46
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: one and two; step touch; vamos a comenzar; marcamos; repetimos; y marco; make sure you touch all the way back; down back out back up back out back; pick up the groove; don't forget this is a popular dance; your butt should be free; don't forget knee flex
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 6-7-8 and 1-2-3-4
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: grab onto your tie; part ner; some one who knows how to ride; heel toe
 
 Sources (5): https://en.wikipedia.org/wiki/Pony_Time; https://www.wikidata.org/wiki/Q17000192; https://archive.org/details/childrensliterat0000curr; https://archive.org/details/rockymountainwon00mill; https://archive.org/details/folkstoriesfable0000unse

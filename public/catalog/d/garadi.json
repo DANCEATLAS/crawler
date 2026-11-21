@@ -30,6 +30,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Garadi",
   "wikidata_qid": "Q5521851",
   "unesco": false,
+  "hero_video_youtube_id": "1qPR4cZSzVk",
+  "video_stack": [
+   {
+    "youtube_id": "1qPR4cZSzVk",
+    "role": "hero",
+    "title": "Gaarady- an art form",
+    "channel": "Naveen humpi",
+    "hd": true
+   },
+   {
+    "youtube_id": "PAkFpYPssbE",
+    "role": "rendition",
+    "title": "Kittu Yadav Bonalu | Garadi Dance | Marredpally Bonalu 2023 | Secunderabad Bonalu",
+    "channel": "vinod akividu",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -44,7 +61,13 @@
   "needs_eyes_on": true,
   "sacred_note": "While performed at religious festivals and based on sacred epics, the source categorizes it as a 'Ceremonial Dance' rather than a restricted ritual or trance dance.",
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:20:46Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -225,7 +248,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -249,10 +272,6 @@
     "label": "tempo, meter or the teacher's count"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    },
@@ -267,11 +286,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/garadi.json"
  },
- "fingerprint": "9335fda34e3056e6",
+ "fingerprint": "17495183c3462eb3",
  "updated": "2026-11-21"
 }

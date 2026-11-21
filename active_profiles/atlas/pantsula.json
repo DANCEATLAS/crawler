@@ -1,13 +1,95 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex robotic isolations"
+        ],
+        "counts": "Simplified 4-count patterns.",
+        "duration_minutes": "15",
+        "game_version": "Simplified footwork game focusing on rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Fast shuffling",
+          "Balance-heavy movements"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Focus on arm and torso movements while seated.",
+        "standing_version": "Reduced tempo and range of motion.",
+        "tempo_and_range": "Slowed to a steady, manageable beat."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms remain wrapped around an upright torso in Western style; stationary in Slow poison.",
+      "difficulty": "intermediate",
+      "footwork": "Quick-stepping, flat-footed, shuffling, and jumping.",
+      "formation_and_space": "Groups move in and out of geometric formations.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Low to the ground with jumping movements.",
+      "partnering": "not described in sources",
+      "posture": "Upright torso (Western style), stationary arms.",
+      "signature_moves": [
+        {
+          "description": "A knock-kneed manoeuvre from American jazz.",
+          "name": "Charleston"
+        },
+        {
+          "description": "Disjointed, sometimes fluid, robotic motion.",
+          "name": "Popping and locking"
+        }
+      ],
+      "tempo_feel": "Varies from fast and rigorous to slow and steady.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Vocals",
+        "Electronic production (in kwaito)"
+      ],
+      "meter": "",
+      "mood_keywords": [
+        "streetwise",
+        "strong",
+        "sharp"
+      ],
+      "musical_form": "Kwaito, jazz, pop.",
+      "reference_recordings": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "All the Stars"
+        },
+        {
+          "artist": "Jaine",
+          "title": "Makeba"
+        }
+      ],
+      "rhythm_pattern": "Strong, sharp, and syncopated.",
+      "sound_description": "A streetwise, sharp, and strong sound that blends multilingual vocals with electronic beats, reflecting the myriad cultures of South Africa.",
+      "tempo_bpm": "",
+      "vocal_style": "Multilingual (seSotho, isiZulu, English, Afrikaans)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Fast shuffling footwork",
+        "Jumping movements",
+        "Popping and locking motions"
+      ],
+      "formation": "Groups of dancers moving in and out of geometric formations.",
+      "level_notes": "Requires good physical command of the body.",
+      "rhythm": "Syncopated, uneven rhythmic quality."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ea8aa29a064dd150a9390f6616657f1e9a48b483f3c1c5502d0d3da998b0ee05",
+  "fingerprint": "b64ae90677fbb1cd90bd62315c8b0da1e0047f29e8e58aee6b6cafcad2160e7d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +97,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific sartorial traditions associated with pantsula, such as the use of bucket hats or specific brands? Evidence needed: Ethnographic studies or interviews with contemporary pantsula crews."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +115,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,8 +126,18 @@
   ],
   "music_options": [],
   "name": "Pantsula",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "daeeeeb1787951bb",
+      "next_evidence": "Ethnographic studies or interviews with contemporary pantsula crews.",
+      "question": "What are the specific sartorial traditions associated with pantsula, such as the use of bucket hats or specific brands?",
+      "source": "https://en.wikipedia.org/wiki/Pantsula",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source material lacks detail on the visual identity of the dancers, which is a key component of the tradition."
+    }
+  ],
+  "research_file": "research_results/pantsula.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +148,15 @@
   },
   "slug": "pantsula",
   "sources": [
-    "https://en.wikipedia.org/wiki/Pantsula"
+    "https://en.wikipedia.org/wiki/Pantsula",
+    "https://www.wikidata.org/wiki/Q13035732"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/r408kWSr1qU.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=r408kWSr1qU"
+    }
+  ]
 }

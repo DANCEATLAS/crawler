@@ -1,0 +1,125 @@
+{
+ "slug": "floorwork",
+ "qc_at": "2026-11-21T19:19:00Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Floorwork"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "78"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1911, Isadora Duncan broke Western concert tradition by bringing the body to "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "510"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2547"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/7 rate=0.857"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile describes 'Floorwork' as a dance tradition, but it is a technical category or movement modality shared across multiple distinct dance forms.",
+   "The claim that 'power-footwork' was promoted by The Next One is not supported by the provided evidence (the evidence quote is in Portuguese and not verified as a standard English source)."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "Floorwork is a movement category, not a specific dance tradition. The profile treats it as a singular dance, which is conceptually inaccurate. While the historical claims are generally well-researched, the classification error requires correction to distinguish between a technique used in many dances and a dance itself."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "banned_phrasing",
+  "judge_score=8.1",
+  "doubts=2",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
+ },
+ "researched_at": "2026-11-21T18:37:05Z"
+}

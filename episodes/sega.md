@@ -1,6 +1,6 @@
 # Sega — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
@@ -344,10 +344,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
-Cues: kick; inside; out; keep it down; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: kick; inside; out; keep it down; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; move your hips side to side; scrape it along the floor; remember to breathe
 Common mistakes the studied teachers name: confusion while using the left leg; putting too much weight on the front leg; keeping the top part of the body still
 
 Sources (8): https://en.wikipedia.org/wiki/Sega_(genre); https://www.wikidata.org/wiki/Q1781796; https://fr.wikipedia.org/wiki/Séga; https://es.wikipedia.org/wiki/Segá; https://pt.wikipedia.org/wiki/Sega_(música); https://de.wikipedia.org/wiki/Sega_(Musik); https://archive.org/details/book_game-maestro_vol2; https://archive.org/details/cantilenepopolar00oddo

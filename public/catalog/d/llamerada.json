@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "llamerada",
  "name": "Llamerada",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "BO"
@@ -35,6 +35,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Llamerada",
   "wikidata_qid": "Q3835724",
   "unesco": false,
+  "hero_video_youtube_id": "eJz29itxzHU",
+  "video_stack": [
+   {
+    "youtube_id": "eJz29itxzHU",
+    "role": "hero",
+    "title": "INTERPRETACIÓN DE LA DANZA LLAMERADA",
+    "channel": "YUPANKI",
+    "hd": true
+   },
+   {
+    "youtube_id": "VzFiSYb3VVg",
+    "role": "rendition",
+    "title": "YANAPAKUNA 16 7 2008 - danza Llamerada - serata Mariano di Dalmine",
+    "channel": "mary24286",
+    "hd": false
+   },
+   {
+    "youtube_id": "VD2VqTzrDPw",
+    "role": "rendition",
+    "title": "llamerada - bafopaz",
+    "channel": "danza folkloricas ",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -63,6 +87,12 @@
   "sacred_note": "Includes ritual elements dedicated to Pachamama and livestock blessings; performed as a devotion during major patronal festivals.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:41Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "diablada",
    "morenada"
@@ -193,25 +223,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Includes ritual elements dedicated to Pachamama and livestock blessings; performed as a devotion during major patronal festivals.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/llamerada.json"
  },
- "fingerprint": "d895e091a673cb15",
+ "fingerprint": "03fe51de560c5b59",
  "updated": "2026-11-21"
 }

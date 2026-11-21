@@ -1,6 +1,6 @@
 # Western swing — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; what to avoid / common mistakes
 
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ballroom-partner family studied · videos studied: 8
+Source: 11 tutorial(s) of the ballroom-partner family studied · videos studied: 11
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot; guys step forward turning the girl; guys step back right ladies back right; guys pulling the right hand towards you; hit; swing; pop; cross; swag; step to side on 4-1
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; back break; triple step; ball flat flat; small step; pull together; guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot
 
 Sources (6): https://en.wikipedia.org/wiki/Western_swing; https://www.wikidata.org/wiki/Q1730388; https://es.wikipedia.org/wiki/Western_swing; https://fr.wikipedia.org/wiki/Western_swing; https://pt.wikipedia.org/wiki/Western_swing; https://archive.org/details/festivalofameric00fe

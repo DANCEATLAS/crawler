@@ -1,6 +1,6 @@
 # Kailao — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -111,7 +111,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Grip the pate kailao (stylized club) firmly
 NARRATION: Step 2: Listen for the lead dancer to call the sequence name
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -173,7 +173,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Perform mock combat maneuvers against a partner if signaled
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -235,7 +235,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Shift formation in synchronization with the group
 NARRATION: Step 2: Perform mock combat maneuvers against a partner if signaled
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -295,9 +295,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (4): https://en.wikipedia.org/wiki/Kailao; https://www.wikidata.org/wiki/Q2540967; https://es.wikipedia.org/wiki/Kailao; https://fr.wikipedia.org/wiki/Kailao

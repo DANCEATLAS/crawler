@@ -2,7 +2,7 @@
  "slug": "gombey",
  "name": "Gombey",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T18:46:03Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Gombey. 17th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (czmDldlBL3w)",
      "Title card: Gombey · Bermuda · 17th century to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Cockfight, Scouting."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (czmDldlBL3w)",
      "Captions name each signature move as it appears",
      "Formation: Processional marching; circular or face-to-face formations for 'cockfights'."
     ],
@@ -733,7 +733,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "czmDldlBL3w",
+   "checked_by_vision_model": true,
+   "title": "BERMUDA GOMBEY"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -784,8 +788,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -795,24 +799,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -824,7 +828,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -834,6 +837,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "9fd37b0ce716fe97035b5b9036c6cae1a39055f9a357c30d79d6e39020d97685",
- "hero_checked": null
+ "input_fingerprint": "8f5e594e4804c1b264e9d28f72ce74231154fdc6df7ef23c7c24bda90aa16cb1",
+ "hero_checked": "pass"
 }

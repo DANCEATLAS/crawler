@@ -1,0 +1,153 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex fast steps"
+        ],
+        "counts": "1-2 sway count.",
+        "duration_minutes": "3",
+        "game_version": "Partner mirror game where children match the Holy Trinity finger gesture and arm sways."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Single-leg weight shifts without balance support",
+          "Sudden waist turns"
+        ],
+        "counts": "Simple 1-2 sway count.",
+        "seated_version": "Perform the arm rhythms and Holy Trinity three-finger gesture while seated, gently swaying the waist left and right.",
+        "standing_version": "Perform paired hand gestures and waist swings while keeping both feet planted for stability.",
+        "tempo_and_range": "Maintain a comfortable arm range and gentle tempo."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Holy Trinity hand gesture and arm rhythm execution in pairs",
+          "source": "https://en.wikipedia.org/wiki/Isos_Sinasos"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Danced by women in pairs with audience vocal and clapping interaction",
+          "source": "https://en.wikipedia.org/wiki/Isos_Sinasos"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms move to the beat; three fingers joined together representing the Holy Trinity.",
+      "difficulty": "beginner",
+      "footwork": "Identical steps to the Varasos handkerchief and spoon dance.",
+      "formation_and_space": "Executed by women in pairs.",
+      "hips_and_torso": "Waist swings allowed to the left and right.",
+      "levels_and_jumps": "Upright posture with weight shifts; jumps not described in sources.",
+      "partnering": "Paired women dancing in coordination.",
+      "posture": "Weight emphasis held on one leg with fluid waist swings left and right.",
+      "signature_moves": [
+        {
+          "description": "Joining three fingers together while moving arms to the beat.",
+          "name": "Holy Trinity gesture"
+        }
+      ],
+      "tempo_feel": "Rhythmic and expressive through upper body.",
+      "what_to_avoid": "Avoid losing the three-finger gesture or breaking the paired spatial arrangement."
+    },
+    "music_profile": {
+      "instruments": [
+        "Hand-clapping",
+        "Vocals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "communal",
+        "lively",
+        "devotional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic arm beat reinforced by hand-clapping",
+      "sound_description": "Communal vocal singing accompanied by rhythmic audience hand-clapping and vocal calls.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Community singing and vocal participation"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step into paired formation facing partner",
+        "Shift weight onto one primary leg",
+        "Join three fingers together on each hand to represent the Holy Trinity",
+        "Swing waist gently left and right while expressing beat through hands and arms"
+      ],
+      "formation": "Women dancing in pairs.",
+      "level_notes": "Beginner-friendly basic steps matching the Varasos spoon dance, focusing on arm balance and hand gesture precision.",
+      "rhythm": "Rhythmic beat expressed through arm movements, supported by hand-clapping and community singing."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "fd7f5e26b24aa283176c01e9a164196a553ea8abf5ccfbb9487effc5a8fba571",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What are the specific musical scores and lyrics associated with Isos Sinasos in Vlasiadis's field research? Evidence needed: Analysis of the PDF paper 'Tragoudia kai Choroi apo ti Sinaso tis Kappadokias' by Kyriakos Vlasiadis."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:isos-sinasos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Isos Sinasos",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e8c30c932fc0c895",
+      "next_evidence": "Analysis of the PDF paper 'Tragoudia kai Choroi apo ti Sinaso tis Kappadokias' by Kyriakos Vlasiadis.",
+      "question": "What are the specific musical scores and lyrics associated with Isos Sinasos in Vlasiadis's field research?",
+      "source": "https://en.wikipedia.org/wiki/Isos_Sinasos",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to provide specific musical recordings and exact rhythmic meters for interactive training."
+    }
+  ],
+  "research_file": "research_results/isos-sinasos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "isos-sinasos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Isos_Sinasos",
+    "https://www.wikidata.org/wiki/Q16887488"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

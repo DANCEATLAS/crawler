@@ -2,7 +2,7 @@
  "slug": "greek-dance",
  "name": "Greek dance",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T19:00:46Z",
  "qc_score": 9.3,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Greek dance. Antiquity to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (t6-89Y1G56Q)",
      "Title card: Greek dance · Greece · Antiquity to present"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Regional movement styles vary widely: Aegean and Cretan dances feature fast, light, and jumpy steps; Epirus and Thessaly utilize slow, heavy movements requiring strong balance; and Peloponnesian dances allow the line leader to improvise freely."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (t6-89Y1G56Q)",
      "Signature moves — MISSING",
      "Formation: Open circles, lines, couples, or solo improvisations by the leader."
     ],
@@ -716,7 +716,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "t6-89Y1G56Q",
+   "checked_by_vision_model": true,
+   "title": "greek dance zorba in Canada"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -878,8 +882,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -889,24 +893,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -918,7 +922,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "signature moves",
   "two or more connections",
   "what to avoid / common mistakes"
@@ -933,6 +936,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "a7fb06c1f44ccccc42e85ae283660692c54be0e0b0e84f2caecfa85e5e5b8df8",
- "hero_checked": null
+ "input_fingerprint": "ca560829b910629f190117f101247bd11bd646c4d739fb03f0b79da1b2035cd0",
+ "hero_checked": "pass"
 }

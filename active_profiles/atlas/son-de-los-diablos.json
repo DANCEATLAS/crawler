@@ -1,0 +1,165 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "acrobatic jumps",
+          "complex footwork",
+          "heavy props"
+        ],
+        "counts": "Simplified 4-count steps",
+        "duration_minutes": "15",
+        "game_version": "A playful processional game mimicking devil characters with safe foam tridents and simple marching rhythms."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "balance",
+          "knees",
+          "spine",
+          "jumps"
+        ],
+        "counts": "Simplified 4/4 or steady pulse counts",
+        "seated_version": "Seated rhythmic tapping using feet and hands to simulate zapateo and cajita patterns.",
+        "standing_version": "Supported standing balance march without acrobatic leaps or sudden lunges.",
+        "tempo_and_range": "Reduced tempo and minimized spatial range"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Wielding tridents and gesturing expressively",
+      "difficulty": "advanced",
+      "footwork": "Pasadas de zapateo",
+      "formation_and_space": "Street procession (comparsa) led by a caporal",
+      "hips_and_torso": "Dynamic and agile movement to accommodate acrobatics",
+      "levels_and_jumps": "Includes acrobatic movements and low-to-high level shifts",
+      "partnering": "Group ensemble interaction rather than couples partnering",
+      "posture": "Upright and theatrical, adapted for parading and sudden lunges",
+      "signature_moves": [
+        {
+          "description": "Rhythmic percussive foot-tapping sequence",
+          "name": "Zapateo pasada"
+        },
+        {
+          "description": "Theatrical movement using a trident to startle onlookers",
+          "name": "Devil lunge"
+        }
+      ],
+      "tempo_feel": "Fast and driving",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Guitar",
+        "Cajita",
+        "Quijada"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "energetic",
+        "theatrical",
+        "boisterous"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A lively street sound driven by strummed guitars, the crisp percussion of the wooden cajita, and the sharp, raspy rattle of the horse or donkey jawbone (quijada).",
+      "tempo_bpm": "0",
+      "vocal_style": "Shouts and street singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Comparsa marching formation step led by the caporal",
+        "Pasadas de zapateo (percussive foot-tapping)",
+        "Acrobatic movement bursts",
+        "Theatrical lunges and shouting gestures"
+      ],
+      "formation": "Comparsa (street procession) led by a caporal",
+      "level_notes": "Requires physical stamina for zapateo and acrobatic elements.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "38215e55cb10e7640c697d9d17f42bfd2579d2879fe7fb71933fb1312b26fd3e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific rhythmic patterns or musical meters govern the accompaniment of the cajita and quijada in traditional performance? Evidence needed: Ethnomusicological field recordings or scores documenting Son de los Diablos accompaniments."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How are the acrobatic movements and pasadas de zapateo physically structured in contemporary revivals? Evidence needed: Detailed instructional video breakdown from the Movimiento Negro Francisco Congo or affiliated practitioners."
+    ]
+  },
+  "id": "atlas:son-de-los-diablos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Son de los Diablos",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8b18945143f48f7f",
+      "next_evidence": "Ethnomusicological field recordings or scores documenting Son de los Diablos accompaniments.",
+      "question": "What specific rhythmic patterns or musical meters govern the accompaniment of the cajita and quijada in traditional performance?",
+      "source": "https://en.wikipedia.org/wiki/Son_de_los_Diablos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical transcription and composition profiles without relying on external guesswork."
+    },
+    {
+      "domain": "video",
+      "id": "ede10c2527b98ff8",
+      "next_evidence": "Detailed instructional video breakdown from the Movimiento Negro Francisco Congo or affiliated practitioners.",
+      "question": "How are the acrobatic movements and pasadas de zapateo physically structured in contemporary revivals?",
+      "source": "https://es.wikipedia.org/wiki/Son_de_los_diablos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To build reliable interactive learning units and safety guidelines for choreography execution."
+    }
+  ],
+  "research_file": "research_results/son-de-los-diablos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "son-de-los-diablos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Son_de_los_Diablos",
+    "https://www.wikidata.org/wiki/Q7560621",
+    "https://es.wikipedia.org/wiki/Son_de_los_diablos"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

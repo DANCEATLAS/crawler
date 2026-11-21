@@ -1,0 +1,127 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Temple and court staging, designed for single-day performance of each of the eight episodic sections.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Dramatic character interaction depicting figures from the epic Ramayana.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "epic",
+        "dramatic",
+        "devotional",
+        "sacred"
+      ],
+      "musical_form": "Eight-part serial composition designed for eight sequential single-day theatrical enactments.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "Poetic narrative recitation in Manipravalam style (a blend of Malayalam and Sanskrit)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Dramatized storytelling performance, historically presented over eight sequential days.",
+      "level_notes": "Requires traditional dramatic training in expressive acting and epic narrative interpretation as preserved in Keralite dance drama.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "22e9abb473c573d791429e8d27ee2b5313606955f41fd475bed3148f85abc1a1",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical instrumentation and rhythmic patterns (talas) accompanied the eight daily Ramanattam plays? Evidence needed: Musicological literature detailing 17th-century Keralite temple performance accompaniment."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific mudras (hand gestures) and facial expression (Abhinaya) techniques were used in historical Ramanattam performances? Evidence needed: Archival video documentation or scholarly performance analysis of traditional Ramanattam/early Kathakali mudra codifications."
+    ]
+  },
+  "id": "atlas:ramanattam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Ramanattam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "5cba15a809c62c78",
+      "next_evidence": "Archival video documentation or scholarly performance analysis of traditional Ramanattam/early Kathakali mudra codifications.",
+      "question": "What specific mudras (hand gestures) and facial expression (Abhinaya) techniques were used in historical Ramanattam performances?",
+      "source": "https://en.wikipedia.org/wiki/Ramanattam",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement and gesture details are entirely absent in text sources, preventing interactive teaching movement profiles."
+    },
+    {
+      "domain": "research",
+      "id": "9ee89a5b60e7f039",
+      "next_evidence": "Musicological literature detailing 17th-century Keralite temple performance accompaniment.",
+      "question": "What specific musical instrumentation and rhythmic patterns (talas) accompanied the eight daily Ramanattam plays?",
+      "source": "https://en.wikipedia.org/wiki/Ramanattam",
+      "status": "candidate_unreviewed",
+      "why_needed": "Music profile parameters (bpm, meter, instruments) are missing from current evidence."
+    }
+  ],
+  "research_file": "research_results/ramanattam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "ramanattam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ramanattam",
+    "https://www.wikidata.org/wiki/Q7288942"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

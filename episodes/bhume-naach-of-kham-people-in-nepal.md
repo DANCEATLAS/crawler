@@ -1,8 +1,8 @@
 # Bhume Naach of Kham people in Nepal — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful, grounded cultural guide emphasizing community connection, nature veneration, and spatial harmony.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dancing for the Living Earth
 NARRATION: This is Bhume Naach of Kham people in Nepal. Traditional / Continuous.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (y7UsECju_Os)
 ON SCREEN: Title card: Bhume Naach of Kham people in Nepal · Nepal · Traditional / Continuous
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: During the festival, dancers assemble in concentric rings on the vill
 NARRATION: Male dancers perform within the inner circle while female dancers form the outer circle, acting symbolically as the protective barrier for the community.
 NARRATION: Performers bow to the land before beginning their steps to express reverence for nature.
 NARRATION: Watch for Earth Reverence Bow, Twenty-Two Steps.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (y7UsECju_Os)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Concentric circle formation; men inside, women outside, moving around central musicians and fire
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'y7UsECju_Os', 'checked_by_vision_model': False, 'title': 'Bhume Puja. Worshiping a Bhumithan by giving flower, which is bring by youths from buki(Himalayan).'}
 Images: 1 licensed — Rozinad / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Flags of red, yellow, green, and white fluttering on timber poles, Concentric circles of dancers framed by the Nepalese mountain landscape, Bamboo Nanglo trays filled with grain, ash, and colorful fabrics, Central fire surrounded by traditional wind and percussion players
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Bhume_Naach; https://www.wikidata.org/wiki/Q16971516

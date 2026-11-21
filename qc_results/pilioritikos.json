@@ -1,0 +1,122 @@
+{
+ "slug": "pilioritikos",
+ "qc_at": "2026-11-21T19:17:57Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 5.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pilioritikos"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "69"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "166"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Pilioritikos is a distinct Greek folk dance that takes its name from the mou"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "280"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1029"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/2 rate=0.5"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 2,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "The profile is honest about the lack of available information, which is commendable, but it lacks sufficient content to be useful as a dance guide. It functions more as a placeholder than a functional entry. Further research into regional Pelion dance archives is required to provide any teaching value."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=5.95"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 1,
+  "rate": 0.5
+ },
+ "researched_at": "2026-11-21T18:10:43Z"
+}

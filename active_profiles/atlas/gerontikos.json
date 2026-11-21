@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Extended standing periods during slow sections"
+        ],
+        "counts": "Count 1 to 7 then 1 to 5.",
+        "duration_minutes": "3",
+        "game_version": "A rhythm game stepping to the count of 7 and 5, practicing slow controlled movements before speeding up."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid accelerations during the Leventikos transition",
+          "Sudden weight shifts"
+        ],
+        "counts": "Count along with the 12/8 rhythm (7 + 5).",
+        "seated_version": "Perform the slow deliberate stepping gestures with foot taps while seated.",
+        "standing_version": "Execute slow deliberate steps with stationary support if needed, maintaining focus on rhythmic timing.",
+        "tempo_and_range": "Keep movements strictly within the slow opening section; avoid rapid tempo acceleration."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Practice the slow, deliberate opening steps matching the 12/8 meter (7+5 count pattern).",
+          "source": "https://en.wikipedia.org/wiki/Gerontikos"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Traditional men's dance performed in a line or group formation on stage.",
+          "source": "https://en.wikipedia.org/wiki/Gerontikos"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Begins with very slow, deliberate steps; structurally related to Berance.",
+      "formation_and_space": "Stage performance line or circle by dance groups",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Measured, slow stepping at the opening of the dance.",
+          "name": "Slow deliberate steps"
+        },
+        {
+          "description": "Segue into the faster, up-tempo movement of Leventikos/Pusteno.",
+          "name": "Leventikos transition"
+        }
+      ],
+      "tempo_feel": "Starts very slow and deliberate, later segues into up-tempo Leventikos/Pusteno",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "12/8 (alternating measures of 7 and 5)",
+      "mood_keywords": [
+        "deliberate",
+        "slow",
+        "historical",
+        "up-tempo transition"
+      ],
+      "musical_form": "Instrumental arrangement of traditional ballads, starting slow and segueing into up-tempo Leventikos",
+      "reference_recordings": [],
+      "rhythm_pattern": "Alternating measures of 7 and 5",
+      "sound_description": "Instrumental performances of traditional Ottoman-era bandit ballads 'Ibraim Odza' and 'Dafino Vino Crveno' set in an unusual 12/8 meter alternating measures of 7 and 5.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Instrumental performance of ballads ('Ibraim Odza' and 'Dafino Vino Crveno')"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Begin with slow, deliberate walking steps.",
+        "Maintain the structural step pattern related to Berance.",
+        "Transition into the faster tempo of Leventikos (Pusteno) as the music accelerates."
+      ],
+      "formation": "Men's group line or circle",
+      "level_notes": "Starts slowly with deliberate footwork before building into up-tempo movement.",
+      "rhythm": "12/8 meter alternating measures of 7 and 5"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "d002a9c0da7e56c111a3e816bd89bf21affc7f9d97e337a97bbbf35021cfa3bc",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What exact arm holds and posture are used by Florina dance groups during the slow opening section of Gerontikos? Evidence needed: Video recordings or ethnochoreological documentation of Florina dance group performances."
+    ]
+  },
+  "id": "atlas:gerontikos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gerontikos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "dcaf0145bcf17448",
+      "next_evidence": "Video recordings or ethnochoreological documentation of Florina dance group performances.",
+      "question": "What exact arm holds and posture are used by Florina dance groups during the slow opening section of Gerontikos?",
+      "source": "https://en.wikipedia.org/wiki/Gerontikos",
+      "status": "candidate_unreviewed",
+      "why_needed": "Arm positions and posture details are missing from the text sources, preventing complete instructional modeling."
+    }
+  ],
+  "research_file": "research_results/gerontikos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gerontikos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gerontikos",
+    "https://www.wikidata.org/wiki/Q5552449"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

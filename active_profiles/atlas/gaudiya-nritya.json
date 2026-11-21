@@ -1,0 +1,120 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Gestural visual storytelling reflecting Sanskrit dramaturgy",
+      "difficulty": "advanced",
+      "footwork": "Rhythmically structured steps aligned with varṇakāla measures",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Sculptural poses inspired by ancient Bengali temple relief art",
+      "signature_moves": [],
+      "tempo_feel": "Structured and deliberate rhythmic cadence",
+      "what_to_avoid": "Avoid treating sacred iconographic poses without appropriate devotional context."
+    },
+    "music_profile": {
+      "instruments": [
+        "Pakhavaj",
+        "Shrikhol"
+      ],
+      "meter": "Variable multi-meter cycles determined by varṇakāla (4 to 68 units)",
+      "mood_keywords": [
+        "devotional",
+        "sacred",
+        "classical",
+        "expressive"
+      ],
+      "musical_form": "Prabandha-giti (comprising up to 6 angas: svara, viruda, pada, tenaka, pata, tala)",
+      "reference_recordings": [],
+      "rhythm_pattern": "Varṇakāla cycles such as Aditala (4), Lopha (6 or 12), and Canchuputa/Karpha (8)",
+      "sound_description": "The soundscape of Gaudiya Nritya is characterized by resonant, complex drumming from the Pakhavaj and Shrikhol supporting classical devotional singing. Verses follow classical ragas and structured Prabandha-giti forms like Kirtana, built over precise rhythmic metric cycles.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Devotional classical singing including Kirtana and Bhavasangita"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Execution of footwork adhering to fundamental varṇakāla timing",
+        "Rhythmic stepping pattern set to Aditala (4-varṇakāla cycle)"
+      ],
+      "formation": "Solo or narrative group presentation",
+      "level_notes": "Beginners focus on understanding varṇakāla rhythm patterns and basic devotional expression before progressing to multi-anga Prabandha-giti compositions.",
+      "rhythm": "Measured by varṇakāla (ranging from 4 to 68 timing units per tala cycle)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6338b9f7c8b4118d1101f4a4e7985660e16f7df6c22201f20cbef43ba71ee7b0",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: formation_and_space",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise footwork mechanics and hand gesture (mudra) repertoires used in contemporary performances of Gaudiya Nritya? Evidence needed: High-resolution performance footage or instructional syllabus from Mahua Mukherjee or Rabindra Bharati University."
+    ]
+  },
+  "id": "atlas:gaudiya-nritya",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gaudiya Nritya",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "189b35115d0770d2",
+      "next_evidence": "High-resolution performance footage or instructional syllabus from Mahua Mukherjee or Rabindra Bharati University.",
+      "question": "What are the precise footwork mechanics and hand gesture (mudra) repertoires used in contemporary performances of Gaudiya Nritya?",
+      "source": "https://en.wikipedia.org/wiki/Gaudiya_Nritya",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile details like posture and signature moves are not described in current text sources, preventing interactive teaching module development."
+    }
+  ],
+  "research_file": "research_results/gaudiya-nritya.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gaudiya-nritya",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gaudiya_Nritya",
+    "https://www.wikidata.org/wiki/Q5527615"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

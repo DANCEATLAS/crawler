@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex interlocking that might cause frustration",
+          "Over-straining small finger joints"
+        ],
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "10",
+        "game_version": "Shadow puppets: create shapes and have others guess the object."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid snapping",
+          "Extreme joint hyper-extension"
+        ],
+        "counts": "Slow 4-count transitions.",
+        "seated_version": "Inherently performed seated; excellent for fine motor skill maintenance.",
+        "standing_version": "Standard performance.",
+        "tempo_and_range": "Reduce tempo to 60 BPM; focus on gentle joint mobility rather than sharp snaps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms are often held in fixed 'tut' positions (90-degree angles at elbows and wrists) to provide a frame for the fingers.",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Small, localized space directly in front of the dancer's body.",
+      "hips_and_torso": "Stationary and stable.",
+      "levels_and_jumps": "None; focus is entirely on the upper body and hands.",
+      "partnering": "Primarily solo, though synchronized group routines exist.",
+      "posture": "Usually seated or standing with the torso still to frame the hands.",
+      "signature_moves": [
+        {
+          "description": "Creating a perfect square using the thumbs and index fingers.",
+          "name": "The King Tut Box"
+        },
+        {
+          "description": "A sequential rippling movement through the fingers from pinky to thumb.",
+          "name": "Digital Waves"
+        }
+      ],
+      "tempo_feel": "Staccato and robotic.",
+      "what_to_avoid": "Avoid rounded or soft angles; the style requires 'hard' 90-degree corners to maintain the illusion."
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizers",
+        "Drum machines",
+        "Electronic percussion"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "Mechanical",
+        "Digital",
+        "Precise",
+        "Hypnotic"
+      ],
+      "musical_form": "Repetitive, beat-driven loops.",
+      "reference_recordings": [
+        {
+          "artist": "Red Velvet - Irene & Seulgi",
+          "title": "Naughty"
+        },
+        {
+          "artist": "Taylor Swift",
+          "title": "Shake It Off"
+        }
+      ],
+      "rhythm_pattern": "Sharp, percussive hits with occasional glitchy or rapid subdivisions.",
+      "sound_description": "The music is characterized by crisp, clean electronic beats that provide clear 'points' for the dancer to hit. It often features a heavy emphasis on the snare or 'click' sounds to mirror the snapping movements of the finger joints.",
+      "tempo_bpm": "80-120 BPM",
+      "vocal_style": "Often instrumental or with rhythmic vocal samples."
+    },
+    "teaching": {
+      "basic_steps": [
+        "The Box: Create a square shape using the index fingers and thumbs of both hands.",
+        "The Staircase: Stack fingers horizontally one above the other in a stepped pattern.",
+        "The Pivot: Rotate one hand 90 degrees while keeping a finger joint connected to the other hand.",
+        "Finger Isolation: Lift or fold one finger at a time while keeping the others perfectly still."
+      ],
+      "formation": "Solo, usually facing a camera or audience at chest height.",
+      "level_notes": "Beginners should focus on hand flexibility and basic 90-degree boxes before attempting rapid transitions.",
+      "rhythm": "Syncopated, hitting sharp accents in the music."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "963581439b3d758e2036633b740591045bc472cea5d0faff477f4eae4796ce64",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there specific 'standard' finger tutting patterns used in the Doctor Strange choreography that differ from street style? Evidence needed: https://en.wikipedia.org/wiki/Finger-tutting"
+    ]
+  },
+  "id": "atlas:finger-tutting",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Finger Tutting",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f6dacbe20d5e8c24",
+      "next_evidence": "https://en.wikipedia.org/wiki/Finger-tutting",
+      "question": "Are there specific 'standard' finger tutting patterns used in the Doctor Strange choreography that differ from street style?",
+      "source": "https://en.wikipedia.org/wiki/Finger-tutting",
+      "status": "candidate_unreviewed",
+      "why_needed": "To distinguish between cinematic 'spell' tutting and competitive street tutting for learners."
+    }
+  ],
+  "research_file": "research_results/finger-tutting.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "finger-tutting",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Finger-tutting",
+    "https://www.wikidata.org/wiki/Q25041058"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

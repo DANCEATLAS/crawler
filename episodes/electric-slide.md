@@ -1,6 +1,6 @@
 # Electric Slide — episode pack
 
-*Status: draft · built 2026-11-20 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; signature moves; the costume & setting section; lineage; two or more connections; teaching steps written out
 
@@ -92,7 +92,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: right-behind-right-touch.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -103,13 +103,13 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: right-behind-right-touch · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: right-behind-right-touch · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -126,7 +126,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: right-behind-right-touch.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -154,7 +154,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: right-behind-right-touch.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -165,13 +165,13 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: right-behind-right-touch · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: right-behind-right-touch · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -188,7 +188,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: right-behind-right-touch.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Four-wall line dance; original choreography performed in two lines facing each other.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -217,7 +217,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: right-behind-right-touch.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -228,13 +228,13 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: right-behind-right-touch · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: right-behind-right-touch · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -251,7 +251,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: right-behind-right-touch.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Four-wall line dance; original choreography performed in two lines facing each other.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -290,9 +290,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2-3-4
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: four steps to the right; take four steps back; step touch; step and kick; right behind right touch; left behind left touch; back together back touch; step and turn
+Counting: right-behind-right-touch
+Demonstration: views used by most teachers: back, front, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: right behind right touch; left behind left touch; back together back touch; step and turn; four steps to the right; take four steps back; step touch; step and kick
 Common mistakes the studied teachers name: struggling with the turn when facing a different wall
 
 Sources (2): https://en.wikipedia.org/wiki/Electric_Slide; https://www.wikidata.org/wiki/Q5357499

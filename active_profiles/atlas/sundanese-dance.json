@@ -1,0 +1,157 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "flowing movements",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "performed solo, in groups of female dancers, or between male and female couples",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "performed between male and female couple, or professional dancers inviting audience members",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Movements inspired by the peafowl and its feathers blended with classical Sundanese dance.",
+          "name": "Merak peafowl mimicry"
+        },
+        {
+          "description": "Spontaneous interaction where dancers respond enthusiastically to drum beats and a woman's voice.",
+          "name": "Ngibing social dance"
+        }
+      ],
+      "tempo_feel": "dynamic and in-sync with drum beat",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Gamelan degung",
+        "kendang",
+        "angklung",
+        "kacapi suling"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "cheerful",
+        "dynamic",
+        "expressive"
+      ],
+      "musical_form": "Gong degung ensembles and contemporary pop dangdut",
+      "reference_recordings": [],
+      "rhythm_pattern": "kendang drum beat driven",
+      "sound_description": "Cheerful, dynamic music driven by the beat of the kendang drum, accompanied by the Gamelan degung ensemble, traditional angklung, or contemporary dangdut pop.",
+      "tempo_bpm": "",
+      "vocal_style": "woman's voice"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Flowing arm and hand gestures in sync with the kendang beat",
+        "Ngibing couple stepping responding to drum rhythms"
+      ],
+      "formation": "Solo, group of female dancers, or male and female couple",
+      "level_notes": "Accessible for beginners through social dancing, with advanced techniques found in classical and stylized forms like Merak or Jaipongan.",
+      "rhythm": "In sync with the beat of kendang"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f3ea728aa1538e7efea01b151d7b12cb8076905fa0c434c586a89f6b496e2c8c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific regional variations exist between Banten Sundanese dance and Priangan aristocratic dance styles? Evidence needed: Ethnographic monographs detailing Banten folk dance traditions."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact visual posture and footwork counts for traditional Sundanese ngibing? Evidence needed: Instructional field footage of Sundanese dance masters in West Java."
+    ]
+  },
+  "id": "atlas:sundanese-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Sundanese dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f56d050de26b95e3",
+      "next_evidence": "Instructional field footage of Sundanese dance masters in West Java.",
+      "question": "What are the exact visual posture and footwork counts for traditional Sundanese ngibing?",
+      "source": "https://en.wikipedia.org/wiki/Sundanese_dances",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources note flowing movements and drum synchronization without detailing exact counts or postural alignment."
+    },
+    {
+      "domain": "research",
+      "id": "a64e1d1bd3294625",
+      "next_evidence": "Ethnographic monographs detailing Banten folk dance traditions.",
+      "question": "What specific regional variations exist between Banten Sundanese dance and Priangan aristocratic dance styles?",
+      "source": "https://en.wikipedia.org/wiki/Sundanese_dances",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources mention Banten and Priangan generally but lack comparative technical breakdowns."
+    }
+  ],
+  "research_file": "research_results/sundanese-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "sundanese-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sundanese_dances",
+    "https://www.wikidata.org/wiki/Q7639201"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

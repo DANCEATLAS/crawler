@@ -1,0 +1,798 @@
+{
+ "slug": "er-ren-zhuan",
+ "name": "Er ren zhuan",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T17:29:34Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic Northeastern Chinese folk performer skilled in prop twirling and quyi comedy timing.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Er ren zhuan",
+   "Èrrénzhuàn",
+   "Errenzhuan",
+   "Double play",
+   "Bengbeng"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Er ren zhuan",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Spinning Red Handkerchiefs of Liaoning",
+     "This is Er ren zhuan. 18th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Er ren zhuan · China · 18th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Er ren zhuan originated over 300 years ago in the three northeastern provinces of China: Liaoning, Jilin, and Heilongjiang.",
+     "Initially performed by rural farmers during the agricultural off-season, it grew into a professional art form.",
+     "On April 27, 1934, the name 'Erren Zhuan' appeared in the Taidong Daily published in Kant (Manchuria), describing tea house duet performers called 'lotuses'."
+    ],
+    "on_screen": [
+     "Map: China · East Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally created as off-season entertainment by farmers, Er ren zhuan serves as a community storytelling and comedic performance art closely tied to daily rural life in Northeast China.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Handkerchief twirling, Fan twirling."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Duet performance by two actors on stage interacting with each other and the audience."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical component relies on vocal singing based on northeastern folk songs and quyi storytelling traditions.",
+     "Performances feature sung narrative numbers and vocal music adapted from regional genres, including drum commentary and local operas.",
+     "Listen for the Northeastern drum.",
+     "Vocal music built on local northeastern Chinese folk songs, accompanied by regional percussion such as the northeast drum, supporting comedic dialogue and dramatic story-singing."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers utilize specific hand props, primarily square-shaped red handkerchiefs and folding fans.",
+     "Historically performed in rural off-season settings and urban teahouses, modern performances take place on theatrical stages, art troupe venues, and cultural congresses."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Zhao Benshan is a well-known comedian and performer in China who initiated the 'Green Er ren zhuan' movement to promote performance content free of controversial language or sexual innuendo.",
+     "Four major regional factions developed from the countryside at the end of the Qing Dynasty and early Republic of China: the Eastern School, Western School, Southern School, and Northern School.",
+     "Er ren zhuan developed out of regional Northeastern folk traditions including small yangko, bengbeng, double play, fengliu, and Spring Song."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Er ren zhuan is influence of Yangko: Er ren zhuan historically incorporates elements of small yangko dance.",
+     "Er ren zhuan is parent of Quyi: Er ren zhuan is classified as a regional form of quyi melodious storytelling art."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Walking while singing and maintaining duo spatial orientation.",
+     "Twirling square red handkerchiefs in continuous rotation.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how Northeastern Chinese farmers turned winter off-season downtime into an explosive duet tradition of prop manipulation, folk song, and razor-sharp comedy.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master basic prop manipulation.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master basic prop manipulation..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Northeastern Chinese folk performer skilled in prop twirling and quyi comedy timing."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Active prop manipulation involving continuous twirling of square red handkerchiefs or folding fans."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Walking while singing and maintaining duo spatial orientation.",
+      "Step 2: Twirling square red handkerchiefs in continuous rotation.",
+      "Drill: Handkerchief wrist-rotation practice."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Opening, snapping, and manipulating folding fans in synchronization with comedic dialogue.",
+      "Drill: Basic fan opening and closing dynamic."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master basic prop manipulation..",
+      "Originally created as off-season entertainment by farmers, Er ren zhuan serves as a community storytelling and comedic performance art closely tied to daily rural life in Northeast China.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Er ren zhuan",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Er ren zhuan.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Northeastern Chinese folk performer skilled in prop twirling and quyi comedy timing."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Active prop manipulation involving continuous twirling of square red handkerchiefs or folding fans."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Walking while singing and maintaining duo spatial orientation.",
+      "Step 2: Twirling square red handkerchiefs in continuous rotation."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Opening, snapping, and manipulating folding fans in synchronization with comedic dialogue.",
+      "Handkerchief twirling: Continuous rotation and manipulation of a square red handkerchief while singing or speaking.",
+      "Fan twirling: Manipulating and spinning folding fans during character transitions."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Duet performance by two actors on stage interacting with each other and the audience."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Er ren zhuan.",
+      "Zhao Benshan is a well-known comedian and performer in China who initiated the 'Green Er ren zhuan' movement to promote performance content free of controversial language or sexual innuendo.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Er ren zhuan",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Er ren zhuan.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Northeastern Chinese folk performer skilled in prop twirling and quyi comedy timing."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Active prop manipulation involving continuous twirling of square red handkerchiefs or folding fans."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Twirling square red handkerchiefs in continuous rotation.",
+      "Step 2: Opening, snapping, and manipulating folding fans in synchronization with comedic dialogue."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Handkerchief twirling: Continuous rotation and manipulation of a square red handkerchief while singing or speaking.",
+      "Fan twirling: Manipulating and spinning folding fans during character transitions."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Duet performance by two actors on stage interacting with each other and the audience."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Er ren zhuan.",
+      "Er ren zhuan developed out of regional Northeastern folk traditions including small yangko, bengbeng, double play, fengliu, and Spring Song.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling.",
+  "instruments": [
+   "Northeastern drum"
+  ],
+  "vocal_style": "Storytelling quyi singing in easy-to-understand, humorous local dialect.",
+  "musical_form": "Vocal duet with alternating sung narrative, dialogue, and comedic sketches.",
+  "mood": [
+   "humorous",
+   "lively",
+   "grassroots",
+   "flavorful"
+  ],
+  "sound_description": "Vocal music built on local northeastern Chinese folk songs, accompanied by regional percussion such as the northeast drum, supporting comedic dialogue and dramatic story-singing.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Er ren zhuan (China). Rhythm pattern: Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling.. Instruments: Northeastern drum. Vocal style: Storytelling quyi singing in easy-to-understand, humorous local dialect.. Form: Vocal duet with alternating sung narrative, dialogue, and comedic sketches.. Mood: humorous, lively, grassroots, flavorful. It should sound like this: Vocal music built on local northeastern Chinese folk songs, accompanied by regional percussion such as the northeast drum, supporting comedic dialogue and dramatic story-singing. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Performers utilize specific hand props, primarily square-shaped red handkerchiefs and folding fans. Historically performed in rural off-season settings and urban teahouses, modern performances take place on theatrical stages, art troupe venues, and cultural congresses.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Square red handkerchiefs spinning mid-air.",
+   "Folding fans snapping open.",
+   "Expressive duo facial interactions."
+  ],
+  "costume_notes": "Performers utilize specific hand props, primarily square-shaped red handkerchiefs and folding fans. Historically performed in rural off-season settings and urban teahouses, modern performances take place on theatrical stages, art troupe venues, and cultural congresses.",
+  "setting_notes": "Originally created as off-season entertainment by farmers, Er ren zhuan serves as a community storytelling and comedic performance art closely tied to daily rural life in Northeast China.",
+  "map": {
+   "country": "China",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "un dos tres",
+   "1-2-3",
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Errenzhuan",
+  "https://www.wikidata.org/wiki/Q5384765",
+  "https://fr.wikipedia.org/wiki/Errenzhuan"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "8bad61b7c61e4c771cbef0ba3968a08a0c904edcc6c1d9b5b3b45acedda6c412",
+ "hero_checked": null
+}

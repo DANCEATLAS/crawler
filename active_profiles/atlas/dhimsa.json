@@ -1,0 +1,145 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Linked in a chain; gestures mimic agricultural tasks like picking leaves.",
+      "difficulty": "beginner",
+      "footwork": "Heavy, rhythmic steps designed to create audible sound; includes forward and backward stepping.",
+      "formation_and_space": "Chain formation moving in expanding and contracting circles.",
+      "hips_and_torso": "Swinging motion used in the Goddi Beta variation.",
+      "levels_and_jumps": "Primarily ground-level footwork; no jumps described.",
+      "partnering": "Collective chain; no individual partners.",
+      "posture": "Upright but grounded, with a slight swing in the torso during specific variations.",
+      "signature_moves": [
+        {
+          "description": "Dancer moves both backward and forward with the swinging of the body.",
+          "name": "Goddi Beta"
+        },
+        {
+          "description": "A ritual movement sequence involving the worship of village deities.",
+          "name": "Boda Dhimsa"
+        }
+      ],
+      "tempo_feel": "Steady and driving, synchronized with drum beats.",
+      "what_to_avoid": "Breaking the chain or losing synchronization with the group's collective footfall."
+    },
+    "music_profile": {
+      "instruments": [
+        "Dappu",
+        "Tudumu",
+        "Mori",
+        "Kiridi",
+        "Jodukommulu"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "earthy",
+        "rhythmic",
+        "communal",
+        "vibrant"
+      ],
+      "musical_form": "Cyclical and repetitive to support continuous group dancing.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Heavy rhythmic beats emphasizing the sound of footsteps.",
+      "sound_description": "The sound is dominated by the sharp, percussive strike of the Dappu drum and the high-pitched, melodic wail of the Mori reed instrument, creating a loud and energetic atmosphere.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a chain by linking arms or holding hands with 15-20 participants.",
+        "Step in synchronization with the Dappu drum beat, emphasizing the sound of the footfall.",
+        "Execute the 'Goddi Beta' move by stepping forward and backward while swinging the torso.",
+        "Transition the chain from a large outer circle into smaller concentric circles.",
+        "Incorporate mimetic gestures such as the 'leaf-picking' hand motion."
+      ],
+      "formation": "A chain of 15-20 people forming concentric circles.",
+      "level_notes": "Beginners start by joining the chain and following the basic circular walk; advanced dancers lead the transitions between the twelve variations.",
+      "rhythm": "Driven by the Dappu drum; rhythmic and steady with heavy accents on the footfalls."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "392674debf7a037db6f767ad19ab86efb2bad107aeaab9404e52654fe5a0fed5",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns (counts) for each of the twelve variations? Evidence needed: https://en.wikipedia.org/wiki/Dhimsa"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand-linking techniques used to maintain the chain during the 'smaller to larger circle' transitions? Evidence needed: https://en.wikipedia.org/wiki/Dhimsa"
+    ]
+  },
+  "id": "atlas:dhimsa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dhimsa",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d9f7e31921aeb053",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dhimsa",
+      "question": "What are the specific hand-linking techniques used to maintain the chain during the 'smaller to larger circle' transitions?",
+      "source": "https://en.wikipedia.org/wiki/Dhimsa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the formation correctly without the chain breaking during movement."
+    },
+    {
+      "domain": "research",
+      "id": "248824ea4216066b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Dhimsa",
+      "question": "What are the specific rhythmic patterns (counts) for each of the twelve variations?",
+      "source": "https://en.wikipedia.org/wiki/Dhimsa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources list names but not the distinct footwork patterns for variations like 'Bhag Dhimisa' or 'Natikari Dhimsa'."
+    }
+  ],
+  "research_file": "research_results/dhimsa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dhimsa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dhimsa",
+    "https://www.wikidata.org/wiki/Q24930364"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

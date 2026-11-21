@@ -1,75 +1,79 @@
 # Khiamniungan folk dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-20 · judge 8.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-21 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A community elder or cultural practitioner from the Khiamniungan tribe.
+**Instructor:** A cultural custodian of the Khiamniungan community
 **Say it:** Khiamniungan folk dance
 
 ## Episode 1 · Meet Khiamniungan folk dance · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Warriors of the Morung
+NARRATION: The Warrior Vows of Nagaland
 NARRATION: This is Khiamniungan folk dance. Contemporary.
 ON SCREEN: Hero video, first 10 seconds (2L62Xv-9gRU)
 ON SCREEN: Title card: Khiamniungan folk dance · India · Contemporary
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The dances are rooted in the traditional Naga culture of the Khiamniungan tribe in Nagaland, evolving alongside agricultural cycles, warfare, and social rituals.
+NARRATION: The folk dances of the Khiamniungan Naga tribe originate from Nagaland in northeast India.
+NARRATION: They are deeply rooted in the cultural identity of the people, traditionally marking historical practices such as headhunting raids, peace treaties, agricultural cycles, and communal feasts of merit.
 ON SCREEN: Map: India · South Asia
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Dances are performed for festivals (Miu, Tsoukum, Khāutsāuhsîe), feasts of merit (Jamhang), war rituals (Kheulak, Shikuoh, Tsouchong, I-li-tsuihang), peace treaties (Noknap-ie-tsuikuap), and social welcomes (Shapautaithiu).
+NARRATION: Dances are performed during major festivals like Miu, Tsoukum, and Khaozaosie-Hok-Ah, as well as during feasts of merit, peace treaty receptions, pre-war preparations, and post-victory returns.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: File:Patsho Khiamniungan folk dance (Ahang).webm (https://upload.wikimedia.org/wikipedia/commons/3/3a/Patsho_Khiamniungan_folk_dance_%28Ahang%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Watch for Kheulak jump, Shapautaithiu backward movement.
+NARRATION: Performances vary by context, ranging from the backward-moving steps of the Shapautaithiu welcome dance to the vigorous combat leaps of the Kheulak ritual where warriors jump over grounded Dao swords.
+NARRATION: Pre-war dances involve men mimicking wild animals with high-pitched shouts, while festival dances incorporate communal singing.
+NARRATION: Watch for Kheulak Jump.
 ON SCREEN: Hero video full screen, 30–45 s (2L62Xv-9gRU)
 ON SCREEN: Captions name each signature move as it appears
+ON SCREEN: Formation: moving backward in welcome dances or performing at the anterior of the main Morung in warrior rituals
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
+NARRATION: Musical accompaniment relies primarily on vocal chants, songs, and high-pitched battle cries, reflecting the ceremonial and martial heritage of the community.
+NARRATION: Listen for the vocal chants, battle cries.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
-NEEDS: music_and_instruments, tempo, meter
+NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Dancers wear traditional clothing including the Ahangküha and carry weapons such as spears, shields, and the Dao.
-NARRATION: Performances often take place at the Morung.
+NARRATION: Dancers appear fully dressed in traditional attire including the Ahangküha, combat armor, and traditional weapons such as spears, shields, and Dao swords.
+NARRATION: Settings include the anterior of the main Morung and festival grounds during community celebrations.
 ON SCREEN: Images — MISSING
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Part of the broader Naga folk dance tradition.
+NARRATION: Part of the traditional folk dances of the Khiamniungan Naga tribe within northeastern India.
 ON SCREEN: Names on screen as they are spoken
 MUSIC: underscore
 NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Khiamniungan folk dance is parent of Naga folk dances: Khiamniungan dances are a specific subset of the broader Naga cultural dance tradition.
-ON SCREEN: Graph: the connections with their relation labels
+ON SCREEN: Connections — MISSING
 MUSIC: underscore
 NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: The dances are deeply rooted in cultural identity and traditional rituals; outsiders should observe with respect and follow local protocols regarding participation.
+NARRATION: Certain dances like Kheulak and Khāutsāuhsîe involve sacred wartime rituals and expressions of gratitude to the Almighty God (Kōuh-ô) conducted at the Morung.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore the Tsuikuap, the traditional dances of the Khiamniungan Naga tribe that bridge the gap between harvest celebration and the intensity of war.
+NARRATION: Explore the ritual and celebratory dances of the Khiamniungan Naga tribe.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -78,7 +82,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Khiamniungan folk dance (India). Vocal style: High-pitched shouts, yells, and traditional singing.. Mood: fierce, celebratory, solemn, courageous. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Khiamniungan folk dance (India). Instruments: vocal chants, battle cries. Vocal style: vocal chants and high-pitched battle cries. Mood: festive, warlike, reverent. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -92,16 +96,16 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: {'youtube_id': '2L62Xv-9gRU', 'checked_by_vision_model': True, 'title': 'Khiamniungan folk dance at wui village (hua sanso)   NNC'}
 Images: 0 licensed
 Footage: File:Patsho Khiamniungan folk dance (Ahang).webm — https://upload.wikimedia.org/wikipedia/commons/3/3a/Patsho_Khiamniungan_folk_dance_%28Ahang%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-Motifs: The Morung architecture, Traditional Ahangküha textiles, The Dao sword, Mountain landscapes of Nagaland
-Costume notes: Dancers wear traditional clothing including the Ahangküha and carry weapons such as spears, shields, and the Dao. Performances often take place at the Morung.
+Motifs: Dao swords, spears, combat armour, Ahangküha clothing
+Costume notes: Dancers appear fully dressed in traditional attire including the Ahangküha, combat armor, and traditional weapons such as spears, shields, and Dao swords. Settings include the anterior of the main Morung and festival grounds during community celebrations.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Khiamniungan_folk_dances; https://www.wikidata.org/wiki/Q121718360

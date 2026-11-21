@@ -1,0 +1,147 @@
+{
+ "youtube_id": "gMnfk3dnNjM",
+ "slug": "pogonishte",
+ "dance": "Pogonishte",
+ "title": "Valle Pogonishte, Albania, tutorial di Juancarlos Battilani",
+ "channel": "Juan Carlos Battilani",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-21T19:32:18Z",
+ "url": "https://www.youtube.com/watch?v=gMnfk3dnNjM",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the dance structure systematically by musical parts and explains the footwork step by step. He demonstrates movements from the front and then guides through the counts while dancing.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:31",
+    "segment": "intro",
+    "note": "Introduction to the dance Valle Pogonishte from Albania"
+   },
+   {
+    "t": "0:54",
+    "segment": "context",
+    "note": "Explanation of the musical structure into parts A, B, and C"
+   },
+   {
+    "t": "1:10",
+    "segment": "breakdown",
+    "note": "Breakdown and counting of part A (pogonissio)"
+   },
+   {
+    "t": "1:52",
+    "segment": "breakdown",
+    "note": "Breakdown and counting of part B with grapevines and kicks"
+   },
+   {
+    "t": "2:41",
+    "segment": "breakdown",
+    "note": "Breakdown and counting of part C"
+   },
+   {
+    "t": "3:30",
+    "segment": "music_practice",
+    "note": "Full demonstration and practice of parts A, B, and C with music"
+   },
+   {
+    "t": "6:59",
+    "segment": "recap",
+    "note": "Final sign-off and closing"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "pogonissio",
+   "parte A",
+   "parte B",
+   "parte C"
+  ],
+  "metaphors": [
+   "il pogonisio è identico al sirtos"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back",
+    "overhead"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "pogonissio (part A)",
+    "counts": "1-2-3-4-5-6",
+    "description": "Opens right, crosses left behind, and crosses left in front twice"
+   },
+   {
+    "name": "part B",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Step sequence with grapevine and right foot hook toward the center"
+   },
+   {
+    "name": "part C",
+    "counts": "1-2-3-4-5-6",
+    "description": "Grapevine with a step in the air on 5 and landing on 6"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Dividing the song and dance into clear structural parts A, B, and C",
+    "Counting out loud during demonstrations"
+   ],
+   "what_hinders": [
+    "Camera angle is overhead and distant, making precise foot placement harder to see clearly"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:36",
+    "text": "La danza che vorrei presentarvi oggi viene da Albania e si chiama valle pogonishte."
+   },
+   {
+    "t": "1:13",
+    "text": "La figura A è un pogonisio."
+   },
+   {
+    "t": "1:27",
+    "text": "Tutta la metrica del brano è un sette ottavi."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 31,
+    "end_s": 53,
+    "topic": "teaching",
+    "observation": "Teacher stands facing the camera and introduces the dance name and starting foot position.",
+    "viewpoint": "overhead",
+    "cannot_infer": "exact foot details due to high camera angle",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 110,
+    "end_s": 126,
+    "topic": "movement",
+    "observation": "Teacher turns around to demonstrate footwork facing away from the camera for mirror learning.",
+    "viewpoint": "overhead",
+    "cannot_infer": "subtle weight shifts",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Structuring the entire lesson around musical parts (A, B, C) matching a 7/8 rhythm."
+ },
+ "attempts": 1
+}

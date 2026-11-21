@@ -1,6 +1,6 @@
 # Bubble dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -289,6 +289,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 12 tutorial(s) of the stage-contemporary family studied · videos studied: 12
 Counting: 
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: lean down; knees up; legs straighten; engage your core; feet inside silks; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (3): https://en.wikipedia.org/wiki/Bubble_dance; https://www.wikidata.org/wiki/Q4982223; https://archive.org/details/SBS_1926042801

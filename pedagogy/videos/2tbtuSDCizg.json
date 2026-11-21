@@ -1,0 +1,118 @@
+{
+ "youtube_id": "2tbtuSDCizg",
+ "slug": "kebyar-duduk",
+ "dance": "Kebyar duduk",
+ "title": "BELAJAR TARI KEBYAR DUDUK",
+ "channel": "Sanggar Seni Kebo Iwa",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-21T19:22:34Z",
+ "url": "https://www.youtube.com/watch?v=2tbtuSDCizg",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor demonstrates technique alongside another dancer while giving verbal instructions and counts. They break down movement details, posture, and positioning directly to the students.",
+  "language": "Indonesian",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "full_demo",
+    "note": "Demonstration of Kebyar Duduk with fan and traditional cloth"
+   },
+   {
+    "t": "0:29",
+    "segment": "breakdown",
+    "note": "Detailed instruction and demonstration of seated movements"
+   },
+   {
+    "t": "5:47",
+    "segment": "follow_along",
+    "note": "Group practice with multiple students learning choreography"
+   }
+  ],
+  "counting_scheme": "jeng-jeng-ereng-ereng-pak-pak",
+  "cues": [
+   "jeng",
+   "pak",
+   "ser"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "mirror"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "asal banting tumit"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Kebyar Duduk sequence",
+    "counts": "jeng-jeng-pak",
+    "description": "Seated traditional Balinese dance movement using a fan and cloth"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear visual demonstration from multiple angles",
+    "Direct verbal counts matching the movements"
+   ],
+   "what_hinders": [
+    "Fast initial tempo without a slow breakdown first"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "Teknik tari Kebyar Duduk"
+   },
+   {
+    "t": "1:32",
+    "text": "Coba, duduknya ke depan"
+   },
+   {
+    "t": "4:01",
+    "text": "Asal banting tumit"
+   },
+   {
+    "t": "5:01",
+    "text": "Pasti jatuh"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 29,
+    "topic": "movement",
+    "observation": "Dancer demonstrates seated fan movements with traditional cloth on a brick-wall studio floor.",
+    "viewpoint": "front view, unknown mirror presence",
+    "cannot_infer": "exact foot placement under the cloth",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 29,
+    "end_s": 130,
+    "topic": "teaching",
+    "observation": "Instructor stands supervising while a dancer practices specific fan and arm postures.",
+    "viewpoint": "front view",
+    "cannot_infer": "verbal instructions content without audio",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining vocalization of gamelan sounds and rhythm directly with physical posture corrections during seated choreography."
+ },
+ "attempts": 1
+}

@@ -2,9 +2,9 @@
  "slug": "makossa",
  "name": "makossa",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
- "researched_at": "2026-11-05T17:53:16Z",
- "qc_score": 8.7,
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T18:44:59Z",
+ "qc_score": 9.0,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,11 +45,12 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A Cameroonian music historian or dance practitioner",
+   "persona": "A Cameroonian music historian or dance practitioner with expertise in Sawa culture.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
-   "makossa"
+   "makossa",
+   "makassi"
   ]
  },
  "episode_1": {
@@ -60,7 +61,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Beat That Conquered the World",
+     "The Beat That Conquered the World: The Story of Makossa",
      "This is makossa. 20th century."
     ],
     "on_screen": [
@@ -74,8 +75,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Makossa originated in Douala in the 1950s, evolving from the traditional 'kossa' dance.",
-     "It was shaped by the confluence of local rhythms like ambasse bey and assiko with international genres such as highlife, merengue, and Congolese rumba."
+     "Makossa originated in the 1950s in Douala, Cameroon, coined by Nelle Eyoum.",
+     "It developed from the confluence of traditional Sawa rhythms like assiko and ambasse bey with international influences including highlife, Congolese rumba, and funk."
     ],
     "on_screen": [
      "Map: Cameroon · Africa",
@@ -88,7 +89,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Originally a social dance to stimulate energy and joy, it became a symbol of cultural sovereignty during the independence era.",
+     "Makossa serves as a form of social expression and celebration.",
+     "The term 'kossa' functions as a stimulus to increase the fervency of the dance, reflecting a desire for cultural sovereignty and modern urban identity.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -101,8 +103,9 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance involves energetic and suggestive hip movements, particularly during the high-intensity 'secousse' section of the music.",
-     "Watch for Secousse."
+     "The dance is characterized by energetic, suggestive hip movements and contortions.",
+     "It is performed to stimulate high energy on the dance floor, particularly during the frenzied 'secousse' parts of a song.",
+     "Watch for secousse."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (-NyJDecUdSE)",
@@ -115,16 +118,16 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music features a strong electric bass, prominent brass sections, guitars, and bottle percussion.",
-     "It is typically in 4/4 time with a tempo of 130-170 BPM.",
-     "Listen for the electric bass, guitar, brass section, bottle (idiophone).",
+     "The music features a strong electric bass rhythm, prominent brass sections, and syncopated guitar work.",
+     "Percussion often includes the bottle as an idiophone.",
+     "Listen for the electric bass, brass section, guitar, bottle (idiophone).",
      "The pulse is 4/4 at about 150 beats a minute.",
-     "A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion."
+     "A driving, bass-heavy sound characterized by syncopated guitar picking, prominent brass stabs, and a rhythmic, percussive use of the bottle."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Soul Makossa — Manu Dibango; Zamina mina (Zangalewa) — Golden Sounds; Soul Makossa — Manu Dibango (1994)",
-     "Waveform or rhythm-pattern graphic: Syncopated and jerky, influenced by assiko and rumba"
+     "Listen later: Soul Makossa — Manu Dibango; Zamina mina (Zangalewa) — Golden Sounds; Soul Makossa — Manu Dibango (1993)",
+     "Waveform or rhythm-pattern graphic: syncopated bass-driven groove"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
    },
@@ -133,7 +136,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala."
+     "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.",
+     "It evolved in settings where electricity and modern musical equipment became available to local musicians."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -149,9 +153,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Manu Dibango, Emmanuel Nelle Eyoum, Eboa Lotin, François Missé Ngoh, Ekambi Brillant, Sam Fan Thomas.",
-     "Makassi is a lighter, more commercial variation of makossa popularized in the 1980s.",
-     "Derived from the Duala dance 'kossa'; influenced by ambasse bey, assiko, highlife, Congolese rumba, funk, and disco."
+     "Key figures include Nelle Eyoum, Manu Dibango, Eboa Lotin, François Missé Ngoh, Sam Fan Thomas, and Toto Guillaume.",
+     "Makassi is a lighter, more commercial variant of makossa popularized by Sam Fan Thomas in the 1980s.",
+     "Makossa is an evolutionary offshoot of traditional Sawa rhythms (assiko, ambasse bey, essewe) influenced by Congolese rumba, Ghanaian highlife, and American funk/disco."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -164,8 +168,9 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "makossa is parent of assiko: Makossa is considered a slowed-down version of assiko.",
-     "makossa is sibling of soukous: Both genres share strong bass and brass elements."
+     "makossa is parent of assiko: Makossa is considered a slowed-down, modernized version of assiko.",
+     "makossa is parent of ambasse bey: A traditional Sawa rhythm that influenced the development of makossa.",
+     "makossa is sibling of soukous: Similar musical structure, though makossa is distinguished by its specific bass and brass focus."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -191,8 +196,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a simple shout in a Douala neighborhood became the most sampled rhythm in music history.",
-     "Sources: 5 references are listed with the profile."
+     "Discover how a simple shout in a Douala street grew into a global musical phenomenon.",
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -206,17 +211,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Understand the 4/4 rhythm",
-   "level": "Beginner",
+   "goal": "the first steps of makossa",
+   "level": "beginner",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Understand the 4/4 rhythm.",
-      "Level: Beginner. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A Cameroonian music historian or dance practitioner"
+      "Chapter 1 — First steps. Today: the first steps of makossa.",
+      "Level: beginner. ",
+      "Your instructor: A Cameroonian music historian or dance practitioner with expertise in Sawa culture."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -228,7 +233,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Suggestive hip movements"
+      "suggestive hip movements and contortions"
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -241,7 +246,7 @@
      "duration_s": 60,
      "narration": [
       "Count: 5-6-7-8 / 1-2-3-4. The meter is 4/4.",
-      "Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.",
+      "Rhythm pattern: syncopated bass-driven groove.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -254,9 +259,7 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Drill: Clapping to the 4/4 beat"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
@@ -272,9 +275,7 @@
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Drill: Identifying the bass groove"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
@@ -334,8 +335,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Understand the 4/4 rhythm.",
-      "Originally a social dance to stimulate energy and joy, it became a symbol of cultural sovereignty during the independence era.",
+      "You can now: the first steps of makossa.",
+      "Makossa serves as a form of social expression and celebration.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -358,8 +359,8 @@
      "duration_s": 45,
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of makossa.",
-      "Level: intermediate. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A Cameroonian music historian or dance practitioner"
+      "Level: intermediate. ",
+      "Your instructor: A Cameroonian music historian or dance practitioner with expertise in Sawa culture."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -371,7 +372,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Suggestive hip movements"
+      "suggestive hip movements and contortions"
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -384,7 +385,7 @@
      "duration_s": 60,
      "narration": [
       "Count: 5-6-7-8 / 1-2-3-4. The meter is 4/4.",
-      "Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.",
+      "Rhythm pattern: syncopated bass-driven groove.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -414,7 +415,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Secousse: A frenzied part of the composition where dancers increase their fervency."
+      "secousse: A frenzied, high-energy section of the dance intended to increase the fervency of the movement."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -474,7 +475,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the building the dance of makossa.",
-      "Manu Dibango, Emmanuel Nelle Eyoum, Eboa Lotin, François Missé Ngoh, Ekambi Brillant, Sam Fan Thomas.",
+      "Key figures include Nelle Eyoum, Manu Dibango, Eboa Lotin, François Missé Ngoh, Sam Fan Thomas, and Toto Guillaume.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -497,8 +498,8 @@
      "duration_s": 45,
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of makossa.",
-      "Level: advanced. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A Cameroonian music historian or dance practitioner"
+      "Level: advanced. ",
+      "Your instructor: A Cameroonian music historian or dance practitioner with expertise in Sawa culture."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -510,7 +511,7 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Suggestive hip movements"
+      "suggestive hip movements and contortions"
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -523,7 +524,7 @@
      "duration_s": 60,
      "narration": [
       "Count: 5-6-7-8 / 1-2-3-4. The meter is 4/4.",
-      "Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.",
+      "Rhythm pattern: syncopated bass-driven groove.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -553,7 +554,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Secousse: A frenzied part of the composition where dancers increase their fervency."
+      "secousse: A frenzied, high-energy section of the dance intended to increase the fervency of the movement."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -613,7 +614,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the dancing it fully of makossa.",
-      "Derived from the Duala dance 'kossa'; influenced by ambasse bey, assiko, highlife, Congolese rumba, funk, and disco.",
+      "Makossa is an evolutionary offshoot of traditional Sawa rhythms (assiko, ambasse bey, essewe) influenced by Congolese rumba, Ghanaian highlife, and American funk/disco.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -631,30 +632,28 @@
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": 150,
   "meter": "4/4",
-  "rhythm_pattern": "Syncopated and jerky, influenced by assiko and rumba",
+  "rhythm_pattern": "syncopated bass-driven groove",
   "instruments": [
    "electric bass",
-   "guitar",
    "brass section",
+   "guitar",
    "bottle (idiophone)",
-   "drum set",
-   "synthesizers"
+   "drum set"
   ],
-  "vocal_style": "Lead vocalist with a choir of backup singers",
-  "musical_form": "Verse-chorus with instrumental breaks (sebene)",
+  "vocal_style": "lead vocalist with backup choir",
+  "musical_form": null,
   "mood": [
    "energetic",
    "frenzied",
-   "syncopated",
-   "joyful"
+   "rhythmic"
   ],
-  "sound_description": "A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion.",
+  "sound_description": "A driving, bass-heavy sound characterized by syncopated guitar picking, prominent brass stabs, and a rhythmic, percussive use of the bottle.",
   "listen_before_composing": [
    "Soul Makossa — Manu Dibango",
    "Zamina mina (Zangalewa) — Golden Sounds",
-   "Soul Makossa — Manu Dibango (1994)"
+   "Soul Makossa — Manu Dibango (1993)"
   ],
-  "prompt": "Original instrumental composition in the musical world of makossa (Cameroon). Meter 4/4. Tempo about 150 bpm. Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba. Instruments: electric bass, guitar, brass section, bottle (idiophone), drum set, synthesizers. Vocal style: Lead vocalist with a choir of backup singers. Form: Verse-chorus with instrumental breaks (sebene). Mood: energetic, frenzied, syncopated, joyful. It should sound like this: A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of makossa (Cameroon). Meter 4/4. Tempo about 150 bpm. Rhythm pattern: syncopated bass-driven groove. Instruments: electric bass, brass section, guitar, bottle (idiophone), drum set. Vocal style: lead vocalist with backup choir. Mood: energetic, frenzied, rhythmic. It should sound like this: A driving, bass-heavy sound characterized by syncopated guitar picking, prominent brass stabs, and a rhythmic, percussive use of the bottle. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -696,7 +695,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.",
+   "from_sources": "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala. It evolved in settings where electricity and modern musical equipment became available to local musicians.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AFemale_Makossa_Dancer_-_Enugu_State_-_Nigeria_-_01.jpg"
    ],
@@ -748,12 +747,13 @@
    }
   ],
   "motifs": [
-   "Urban Douala streets",
-   "Vintage guitar equipment",
-   "Bottle percussion"
+   "Douala street scenes",
+   "Vintage vinyl records",
+   "Electric bass guitars",
+   "Archival footage of 1970s dance halls"
   ],
-  "costume_notes": "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.",
-  "setting_notes": "Originally a social dance to stimulate energy and joy, it became a symbol of cultural sovereignty during the independence era.",
+  "costume_notes": "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala. It evolved in settings where electricity and modern musical equipment became available to local musicians.",
+  "setting_notes": "Makossa serves as a form of social expression and celebration. The term 'kossa' functions as a stimulus to increase the fervency of the dance, reflecting a desire for cultural sovereignty and modern urban identity.",
   "map": {
    "country": "Cameroon",
    "region": "Africa",
@@ -812,13 +812,14 @@
  "sources": [
   "https://en.wikipedia.org/wiki/Makossa",
   "https://www.wikidata.org/wiki/Q1815364",
-  "https://es.wikipedia.org/wiki/Makossa",
   "https://fr.wikipedia.org/wiki/Makossa",
-  "https://pt.wikipedia.org/wiki/Makossa"
+  "https://es.wikipedia.org/wiki/Makossa",
+  "https://pt.wikipedia.org/wiki/Makossa",
+  "https://de.wikipedia.org/wiki/Makossa"
  ],
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "31652064c61e2fdb88e17df96c4c50aa11a756a23c2cb155671f61195b040453",
+ "input_fingerprint": "6cbe08384fb40ce877f58743f00bb4ecca60ac971541daf5341de353d8248fa4",
  "hero_checked": "pass"
 }

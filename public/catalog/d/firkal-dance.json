@@ -254,32 +254,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -288,13 +268,63 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "qsAp7bwMA-E",
+   "url": "https://www.youtube.com/watch?v=qsAp7bwMA-E",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Open-air dirt ground at night under a decorated canopy with fabric drapes and lights, with an audience seated in the background.",
+    "dancers": "A group of around 10-12 adult men, performing as a synchronized ensemble.",
+    "formation_and_space": "Initially formed in a straight horizontal line facing the audience/musicians, later spreading out into small groups, moving in circular paths and dynamic formations across the performance area.",
+    "posture": "Athletic and upright with slightly bent knees and weight shifting dynamically between feet.",
+    "footwork": "Rhythmic stepping, high knee-lifts (marching in place or while travelling), and hopping on one foot synchronized to the percussion beats.",
+    "arms_and_hands": "Arms move actively; dancers hold a small round shield in one hand and a curved sword or stick in the other, raising and brandishing them.",
+    "hips_and_torso": "Torso remains relatively stable and upright with occasional slight leans or twists during turns and lunges.",
+    "partnering": "None; dancers perform coordinated group choreography with occasional mock-combat gestures facing each other.",
+    "levels_jumps_turns": "Includes high knee raises, low squatting/lunging motions, and agile turns.",
+    "costume_and_props": "Sleeveless patterned vests featuring a sun emblem, white pants with colored drapes/sashes, green headbands, and anklets. Holding round shields and swords/sticks as props.",
+    "cannot_infer": "Exact foot-to-ground contact details are obscured by darkness and low-resolution video sampling.",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 5,
+      "end_s": 12,
+      "what": "Dancers enter the stage running in a line while high-stepping and holding up swords and shields."
+     },
+     {
+      "start_s": 112,
+      "end_s": 125,
+      "what": "Dancers stand in a line doing rhythmic high knee lifts while brandishing swords and shields overhead."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -304,6 +334,6 @@
   "polished": false,
   "file": "episodes/firkal-dance.json"
  },
- "fingerprint": "1aa0502d22316a59",
+ "fingerprint": "e667301244ee4e4d",
  "updated": "2026-11-21"
 }

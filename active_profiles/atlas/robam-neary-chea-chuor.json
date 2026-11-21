@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex hand positions that disrupt flow"
+        ],
+        "counts": "4-count steps",
+        "duration_minutes": "15",
+        "game_version": "Line-following game where children match hand gestures while staying in straight rows"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid directional changes",
+          "Sudden twisting movements"
+        ],
+        "counts": "Simple 4-count or 8-count phrases",
+        "seated_version": "Perform hand and arm gestures while seated in a line",
+        "standing_version": "Perform stationary hand movements with simplified foot stepping",
+        "tempo_and_range": "Slightly reduced tempo to accommodate range of motion"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Group line formation consisting of female dancers performing synchronized steps.",
+          "source": "https://en.wikipedia.org/wiki/Dance_in_Cambodia"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Elegant gestures coordinated across the line",
+      "difficulty": "beginner",
+      "footwork": "Fast-paced folk steps executed in line formation",
+      "formation_and_space": "Line formation (chea chuor)",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group line formation without individual pairing",
+      "posture": "Upright, graceful stance typical of Khmer folk dance",
+      "signature_moves": [],
+      "tempo_feel": "Fast-paced compared to classical dance",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "mahori orchestra"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "joyous",
+        "elegant"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Fast-paced folk rhythm",
+      "sound_description": "Lively Cambodian folk music played by a traditional mahori ensemble, characterized by upbeat melodic patterns suitable for group folk dancing.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form parallel lines facing front",
+        "Step forward in synchronized rhythm with fast-paced folk cadence",
+        "Execute subtle hand gestures matching line movement"
+      ],
+      "formation": "Line formation (chea chuor)",
+      "level_notes": "Accessible folk choreography requiring group timing and alignment.",
+      "rhythm": "Fast-paced folk rhythm played by traditional orchestra"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "2ae0ffb7c14a66f334b2d75e942e5902b9e2424204b8871787a841e7838b91d5",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific step counts, hand mudras, and line-switching patterns in Robam Neary Chea Chuor? Evidence needed: Video analysis or manual from the Royal University of Fine Arts in Phnom Penh."
+    ]
+  },
+  "id": "atlas:robam-neary-chea-chuor",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Robam Neary Chea Chuor",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1e2f3f2bcd9ee5e6",
+      "next_evidence": "Video analysis or manual from the Royal University of Fine Arts in Phnom Penh.",
+      "question": "What are the specific step counts, hand mudras, and line-switching patterns in Robam Neary Chea Chuor?",
+      "source": "https://en.wikipedia.org/wiki/Dance_in_Cambodia",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to build precise step-by-step interactive video lessons."
+    }
+  ],
+  "research_file": "research_results/robam-neary-chea-chuor.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "robam-neary-chea-chuor",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dance_in_Cambodia",
+    "https://www.wikidata.org/wiki/Q7340702"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

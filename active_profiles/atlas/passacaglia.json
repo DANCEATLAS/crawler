@@ -3,22 +3,24 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "complex choreography"
+          "complex polyphonic analysis",
+          "fast running in crowded formations"
         ],
-        "counts": "Simple 1-2 march counts.",
-        "duration_minutes": "3",
-        "game_version": "Follow-the-leader parade game in a line."
+        "counts": "Simple 4-count walking rhythm.",
+        "duration_minutes": "5",
+        "game_version": "A human chain walking game (like the Basque kalejira) moving through space and stopping on cue."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "high-impact steps",
-          "rapid turns"
+          "rapid turns",
+          "sudden balance shifts",
+          "strenuous marching"
         ],
-        "counts": "Standard 2/4 march counts.",
-        "seated_version": "Marching in place while seated, focusing on rhythmic arm swings.",
-        "standing_version": "Supported walking march with reduced tempo.",
-        "tempo_and_range": "Reduced tempo to ensure stability."
+        "counts": "Standard 4-bar or 8-bar phrasing counts.",
+        "seated_version": "Seated rhythmic tapping and upper-body sway following the steady beat of the ostinato or march.",
+        "standing_version": "Gentle weight shifts and stepping in place matching the moderate processional tempo.",
+        "tempo_and_range": "Reduced tempo and eliminated high-impact movements."
       }
     },
     "interaction_profile": {
@@ -28,66 +30,68 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Andean: natural swing for marching; Baroque: not described in sources.",
-      "difficulty": "beginner",
-      "footwork": "Andean: walking march steps; Baroque: not described in sources.",
-      "formation_and_space": "Street processions or human chains (Andean).",
-      "hips_and_torso": "Andean: stable for walking; Baroque: not described in sources.",
-      "levels_and_jumps": "None described.",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Walking in street chains (kalejira), processional lines, or stationary court formations.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Upright and formal (Baroque); relaxed and rhythmic (Andean).",
-      "signature_moves": [
-        {
-          "description": "Steady, rhythmic walking movement through public spaces.",
-          "name": "Processional March"
-        }
-      ],
-      "tempo_feel": "Steady, driving pulse.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Grave or slow in European Baroque (around 106 BPM); lively, marching, or spirited in South American and Basque street contexts.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Guitar",
-        "Organ",
-        "Brass band",
-        "Accordion",
-        "Percussion"
+        "organ",
+        "harpsichord",
+        "lute",
+        "baroque guitar",
+        "violin",
+        "viola",
+        "bombos",
+        "cajas chicas",
+        "redoblantes",
+        "quijadas",
+        "accordion",
+        "brass band"
       ],
-      "meter": "3/4 (Baroque) or 2/4 (Andean).",
+      "meter": "Triple metre (3/4) for Baroque; binary (2/4) for Hispano-American march/dance variants",
       "mood_keywords": [
-        "solemn",
+        "serious",
         "melancholic",
-        "lively",
-        "celebratory"
+        "grave",
+        "tender",
+        "lively"
       ],
-      "musical_form": "Continuous variations over a ground bass.",
+      "musical_form": "Continuous variation over ground bass, sometimes incorporating rondeau elements.",
       "reference_recordings": [
         {
           "artist": "Johann Sebastian Bach",
           "title": "Passacaglia and Fugue in C minor, BWV 582"
         },
         {
-          "artist": "Traditional",
-          "title": "El Chulla Quiteño"
+          "artist": "Rafael Carpio Abad",
+          "title": "Chola Cuencana"
         }
       ],
-      "rhythm_pattern": "Bass ostinato, usually 4-8 bars long, repeating.",
-      "sound_description": "A repeating, foundational bass line provides the harmonic anchor for increasingly complex melodic variations or brass-led march themes.",
-      "tempo_bpm": "Varies; Andean march is lively, Baroque is often 'grave' or 'lentement'.",
-      "vocal_style": "Instrumental focus; Andean versions may have vocal accompaniments."
+      "rhythm_pattern": "Continuous variations over a repeating bass ostinato (basso ostinato) of four, six, or eight bars.",
+      "sound_description": "A repeating, weighty four- or eight-note bassline anchors the texture, while upper voices weave continuous, solemn or animated counterpoint and melodic variations in a steady meter.",
+      "tempo_bpm": "106",
+      "vocal_style": "Instrumental predominantly, with occasional vocal settings in opera or popular South American songs (e.g., Ecuadorian pasacalles)."
     },
     "teaching": {
       "basic_steps": [
-        "Andean march: steady walking step in time with the brass band rhythm.",
-        "Baroque: formal, measured steps in triple meter (not described in sources)."
+        "not described in sources"
       ],
-      "formation": "Andean: street processions or human chains; Baroque: courtly dance (not described in sources).",
-      "level_notes": "Andean style is accessible for public participation; Baroque style requires advanced historical dance training.",
-      "rhythm": "Andean: 2/4 march rhythm; Baroque: 3/4 triple meter."
+      "formation": "Street processions, human chains (kalejira), or formal concert/court settings.",
+      "level_notes": "not described in sources",
+      "rhythm": "Triple metre (3/4) in Baroque art music; binary meter (2/4) or march rhythm in Hispano-American traditions."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f70ede50fac62ea8aeeaf30c60f08b174c02a90e2fece095ccff1bb3416aef37",
+  "fingerprint": "b14391e434dd19c0edcc61b7aee2440c8572aa6a16155384b659a342d51b1dd3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -95,7 +99,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -111,8 +115,8 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact spatial formations and step footwork used by local community dancers during Andean pasacalle parades? Evidence needed: Field recordings and ethnomusicological documentation of contemporary Andean civic dance troupes."
     ]
   },
   "id": "atlas:passacaglia",
@@ -123,7 +127,17 @@
   ],
   "music_options": [],
   "name": "passacaglia",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "b10bbe41fc1d3473",
+      "next_evidence": "Field recordings and ethnomusicological documentation of contemporary Andean civic dance troupes.",
+      "question": "What are the exact spatial formations and step footwork used by local community dancers during Andean pasacalle parades?",
+      "source": "https://es.wikipedia.org/wiki/Pasacalle",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources describe the musical structure and general processional context, but detailed physical choreography for teaching is absent."
+    }
+  ],
   "research_file": "research_results/passacaglia.json",
   "runtime_active": false,
   "scope": {
@@ -140,8 +154,15 @@
     "https://es.wikipedia.org/wiki/Pasacalle",
     "https://fr.wikipedia.org/wiki/Passacaille",
     "https://de.wikipedia.org/wiki/Passacaglia",
+    "https://it.wikipedia.org/wiki/Passacaglia",
     "https://archive.org/details/31761034841437"
   ],
-  "state": "researching",
-  "video_evidence": []
+  "state": "teaching_withheld",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/FbubGYlXgtM.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=FbubGYlXgtM"
+    }
+  ]
 }

@@ -68,7 +68,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -80,27 +80,182 @@
     "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
    },
    {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "rhythm": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "1124416c23f04600",
+ "lessons": [
+  {
+   "youtube_id": "SgN-LUtnwJk",
+   "url": "https://www.youtube.com/watch?v=SgN-LUtnwJk",
+   "title": "Do One Airflare in Only 5 Minutes | Learn Breakdance ASAP",
+   "channel": "pigmie",
+   "analysed_on": "2026-11-21",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "time-based drills / step callouts",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Instructor introduces the video objective: learning an airflare in 5 minutes."
+    },
+    {
+     "t": "0:08",
+     "seconds": 8,
+     "segment": "context",
+     "note": "Explains prerequisites including upper body strength, leg flexibility, and hand hops."
+    },
+    {
+     "t": "1:09",
+     "seconds": 69,
+     "segment": "breakdown",
+     "note": "First minute drill: setting up the stance, turning, pivoting, and kicking."
+    },
+    {
+     "t": "1:46",
+     "seconds": 106,
+     "segment": "breakdown",
+     "note": "Adding hand switches and weight transitions while hanging on the supporting arm."
+    },
+    {
+     "t": "2:19",
+     "seconds": 139,
+     "segment": "breakdown",
+     "note": "Practicing hip elevation and body alignment at a 45-degree angle in handstand positioning."
+    },
+    {
+     "t": "3:01",
+     "seconds": 181,
+     "segment": "breakdown",
+     "note": "Drilling the side-plank arm throw and hand catch mechanics."
+    },
+    {
+     "t": "3:37",
+     "seconds": 217,
+     "segment": "breakdown",
+     "note": "Using a hip-height rail for leg swooping and rotational balance practice."
+    },
+    {
+     "t": "5:08",
+     "seconds": 308,
+     "segment": "full_demo",
+     "note": "Demonstrating the full airflare execution with key positioning tips."
+    },
+    {
+     "t": "5:27",
+     "seconds": 327,
+     "segment": "recap",
+     "note": "Closing remarks and channel promotion."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Airflare Setup & Pivot Drill",
+     "counts": "time-based",
+     "description": "Standing in a wide stance, place the lead hand down, turn, pivot on the lead foot, and kick the opposite leg high."
+    },
+    {
+     "name": "Arm Throw & Catch Drill",
+     "counts": "time-based",
+     "description": "From a side plank position, jump off the supporting arm while throwing the non-supporting arm over to catch the ground."
+    },
+    {
+     "name": "Rail Swoop Drill",
+     "counts": "time-based",
+     "description": "Elevate feet on a waist-high rail to simulate hip height while practice swooping the lower leg under and up."
+    }
+   ],
+   "cues": [
+    "turn pivot kick",
+    "switch hands",
+    "under and up",
+    "throw over"
+   ],
+   "images": [
+    "swooping leg"
+   ],
+   "common_mistakes": [
+    "Letting the lower body get away from the upper body",
+    "Shooting the top leg down instead of keeping it elevated over the head"
+   ],
+   "safety": [
+    "Ensure proper upper body strength (e.g., 25 decline push-ups) to support joint load during arm switches."
+   ],
+   "teacher_style": "The instructor breaks down the airflare using a timed, 5-minute progression program designed around specific drills and prerequisites. He maintains an energetic, encouraging tone, offering physical cues and structural advice to help students master the move incrementally.",
+   "distinctive_method": "Using a hip-height outdoor railing as an assistive prop to isolate and practice the leg swooping trajectory and single-arm weight bearing of an airflare.",
+   "what_works": [
+    "Clear, timed drill-by-drill structure broken into actionable 30-second intervals.",
+    "Use of external props (bench/rail) to isolate weight distribution and leg trajectory."
+   ],
+   "what_hinders": [
+    "Fast-paced format may leave insufficient time for beginners to internalize complex weight transfers without pausing."
+   ],
+   "evidence": [
+    {
+     "start_s": 3,
+     "end_s": 8,
+     "topic": "movement",
+     "observation": "Instructor performs a continuous airflare from a front-facing perspective.",
+     "viewpoint": "front",
+     "cannot_infer": "Exact leg rotation angles during rapid spin.",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 55,
+     "end_s": 101,
+     "topic": "movement",
+     "observation": "Instructor demonstrates single-hand hops on right and left arms.",
+     "viewpoint": "front",
+     "cannot_infer": "Wrist pressure and ground reaction forces.",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 121,
+     "end_s": 144,
+     "topic": "teaching",
+     "observation": "Instructor breaks down stance setup, showing hand placement, turn, and leg kick while narrating movement components.",
+     "viewpoint": "front",
+     "cannot_infer": "Internal hip rotation engagement level.",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 305,
+     "end_s": 331,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates side-plank arm throw and jump off supporting arm on the ground.",
+     "viewpoint": "side",
+     "cannot_infer": "Exact shoulder strain or joint load during the hop.",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 343,
+     "end_s": 406,
+     "topic": "teaching",
+     "observation": "Instructor uses an outdoor railing to support feet while practicing single-arm swooping motions.",
+     "viewpoint": "side",
+     "cannot_infer": "Precise muscle activation in the core during rail rotation.",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "c2bbf8fd8b0417af",
  "updated": "2026-11-21"
 }

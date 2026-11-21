@@ -16,42 +16,45 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "intermediate",
+      "difficulty": "not described in sources",
       "footwork": "not described in sources",
       "formation_and_space": "not described in sources",
-      "hips_and_torso": "Suggestive hip movements",
+      "hips_and_torso": "suggestive hip movements and contortions",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "A frenzied part of the composition where dancers increase their fervency.",
-          "name": "Secousse"
+          "description": "A frenzied, high-energy section of the dance intended to increase the fervency of the movement.",
+          "name": "secousse"
         }
       ],
-      "tempo_feel": "Energetic and fast-paced",
+      "tempo_feel": "energetic and fast-paced",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
         "electric bass",
-        "guitar",
         "brass section",
+        "guitar",
         "bottle (idiophone)",
-        "drum set",
-        "synthesizers"
+        "drum set"
       ],
       "meter": "4/4",
       "mood_keywords": [
         "energetic",
         "frenzied",
-        "syncopated",
-        "joyful"
+        "rhythmic"
       ],
-      "musical_form": "Verse-chorus with instrumental breaks (sebene)",
+      "musical_form": "call and response",
       "reference_recordings": [
         {
           "artist": "Manu Dibango",
@@ -62,10 +65,10 @@
           "title": "Zamina mina (Zangalewa)"
         }
       ],
-      "rhythm_pattern": "Syncopated and jerky, influenced by assiko and rumba",
-      "sound_description": "A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion.",
+      "rhythm_pattern": "syncopated bass-driven groove",
+      "sound_description": "A driving, bass-heavy sound characterized by syncopated guitar picking, prominent brass stabs, and a rhythmic, percussive use of the bottle.",
       "tempo_bpm": "130-170",
-      "vocal_style": "Lead vocalist with a choir of backup singers"
+      "vocal_style": "lead vocalist with backup choir"
     },
     "teaching": {
       "basic_steps": [
@@ -73,11 +76,11 @@
       ],
       "formation": "not described in sources",
       "level_notes": "not described in sources",
-      "rhythm": "4/4 time"
+      "rhythm": "4/4 time, 130-170 BPM"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "31c0d2ae427a3c7d360cc697d62f99268bd88341a51819b9585d66ff7a9d524e",
+  "fingerprint": "47b7c9bdaa07bfbdfa1be3e9909b33228ed50553dc3700d7787771d095e6f1c3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -86,7 +89,8 @@
     ],
     "research": [
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns associated with the 'secousse' section of the dance? Evidence needed: Ethnographic video documentation of traditional makossa performances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -113,7 +117,17 @@
   ],
   "music_options": [],
   "name": "makossa",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "dcd5db8989009aff",
+      "next_evidence": "Ethnographic video documentation of traditional makossa performances.",
+      "question": "What are the specific footwork patterns associated with the 'secousse' section of the dance?",
+      "source": "https://en.wikipedia.org/wiki/Makossa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention the section but do not describe the physical movement, which is essential for teaching."
+    }
+  ],
   "research_file": "research_results/makossa.json",
   "runtime_active": false,
   "scope": {
@@ -127,9 +141,10 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Makossa",
     "https://www.wikidata.org/wiki/Q1815364",
-    "https://es.wikipedia.org/wiki/Makossa",
     "https://fr.wikipedia.org/wiki/Makossa",
-    "https://pt.wikipedia.org/wiki/Makossa"
+    "https://es.wikipedia.org/wiki/Makossa",
+    "https://pt.wikipedia.org/wiki/Makossa",
+    "https://de.wikipedia.org/wiki/Makossa"
   ],
   "state": "researching",
   "video_evidence": [

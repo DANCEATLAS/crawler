@@ -1,0 +1,118 @@
+{
+ "slug": "renaissance-dance",
+ "qc_at": "2026-11-21T19:20:18Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Renaissance dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "91"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "146"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 16th-century 'volta', a form of galliard, the woman was lifted into the a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "522"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2114"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Italy"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 5,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-sourced. It provides a strong historical overview. The teaching value is limited because the profile correctly identifies that specific technical instructions (steps, rhythm, posture) are not provided in the source material, maintaining high academic integrity."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.0"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-21T19:15:13Z"
+}

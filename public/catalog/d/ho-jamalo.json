@@ -253,32 +253,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 12,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -287,13 +267,72 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "R60InQF-R3I",
+   "url": "https://www.youtube.com/watch?v=R60InQF-R3I",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Global public locations and landmarks (city squares, parks, beaches, tourist sites)",
+    "dancers": "Mixed groups of adults and children; solo, pairs and groups dancing together",
+    "formation_and_space": "Informal circles, clusters, or lines moving together in public spaces",
+    "posture": "Upright torso, relaxed knees with bouncy weight shifts",
+    "footwork": "Bouncing steps on the beat, side-to-side steps, hops and occasional turning in place",
+    "arms_and_hands": "Arms raised overhead or waving side to side; holding patterned ajrak shawls or wrapping them around shoulders",
+    "hips_and_torso": "Bouncing torso, slight side-to-side movement",
+    "partnering": "Independent movement in a group, occasional shoulder holds or draping shawls over partners",
+    "levels_jumps_turns": "Upright level, small hops on the spot, occasional spins",
+    "costume_and_props": "Casual modern clothing combined with patterned red-and-white ajrak shawls or scarves; some wear traditional Sindhi caps",
+    "cannot_infer": "Exact foot placement and weight transfer details due to varied camera angles, wide shots, and quick cuts between global locations.",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 26,
+      "end_s": 30,
+      "what": "Group dancing in a line with arms raised overhead, waving hands and ajrak shawls to the beat"
+     },
+     {
+      "start_s": 33,
+      "end_s": 36,
+      "what": "Dancers swinging red ajrak shawls in circles overhead while stepping side to side"
+     },
+     {
+      "start_s": 49,
+      "end_s": 54,
+      "what": "Dancers bouncing up and down with knees bent, holding arms up and waving shawls near historical monuments"
+     },
+     {
+      "start_s": 66,
+      "end_s": 70,
+      "what": "Group skipping sideways in a loose circle holding shawls and waving hands"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -303,6 +342,6 @@
   "polished": false,
   "file": "episodes/ho-jamalo.json"
  },
- "fingerprint": "7f5cb14091405b28",
+ "fingerprint": "249416a706cb775b",
  "updated": "2026-11-21"
 }

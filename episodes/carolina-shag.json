@@ -2,7 +2,7 @@
  "slug": "carolina-shag",
  "name": "Carolina shag",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-16T20:01:34Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -310,7 +310,8 @@
      "duration_s": 60,
      "narration": [
       "Teachers of this dance warn against: bouncing hands up and down",
-      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns"
+      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns",
+      "Teachers of this dance warn against: not maintaining tension"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -455,7 +456,8 @@
      "duration_s": 60,
      "narration": [
       "Teachers of this dance warn against: bouncing hands up and down",
-      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns"
+      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns",
+      "Teachers of this dance warn against: not maintaining tension"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -599,7 +601,8 @@
      "duration_s": 60,
      "narration": [
       "Teachers of this dance warn against: bouncing hands up and down",
-      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns"
+      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns",
+      "Teachers of this dance warn against: not maintaining tension"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -749,8 +752,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of this dance studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of this dance studied",
+  "videos_studied": 3,
   "counting": "1-and-2-3-and-4-5-6",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -759,27 +762,45 @@
    "repetitions per step: about 2"
   ],
   "cues": [
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1",
    "one and two",
    "three and four",
    "rock step",
    "step touch",
-   "keep your knees flexible not stiff",
-   "weight forward on the balls of your feet",
-   "start a new step on count 1"
+   "left-right-left",
+   "right-left-right",
+   "rock-step",
+   "forward-forward-back",
+   "back-stay-stay"
   ],
   "common_mistakes": [
    "bouncing hands up and down",
-   "getting the partner out of alignment and balance during turns"
+   "getting the partner out of alignment and balance during turns",
+   "not maintaining tension",
+   "hand placement too low"
   ],
   "segment_order": [
    "intro",
-   "recap",
    "context",
+   "recap",
    "full_demo",
    "slow_practice",
-   "breakdown"
+   "breakdown",
+   "music_practice"
   ],
   "steps_as_taught": [
+   {
+    "name": "The Basic",
+    "counts": "1 & 2, 3 & 4, 5 6",
+    "description": "Triple step, triple step, rock step in a slot"
+   },
+   {
+    "name": "Female Under Arm Turn",
+    "counts": "1 & 2, 3 & 4, 5 6",
+    "description": "Basic step with the female turning under the raised lead hand"
+   },
    {
     "name": "basic footwork",
     "counts": "1-and-2, 3-and-4, 5-6",
@@ -796,14 +817,24 @@
     "description": "Prep step from closed formation into basic pattern"
    },
    {
-    "name": "The Basic",
-    "counts": "1 & 2, 3 & 4, 5 6",
-    "description": "Triple step, triple step, rock step in a slot"
+    "name": "basic",
+    "counts": "1-and-2-3-and-4-5-6",
+    "description": "Forward forward back, back stay stay, rock step"
    },
    {
-    "name": "Female Under Arm Turn",
-    "counts": "1 & 2, 3 & 4, 5 6",
-    "description": "Basic step with the female turning under the raised lead hand"
+    "name": "male turn",
+    "counts": "1-and-2-3-and-4-5-6",
+    "description": "Leader turns under connection in slot"
+   },
+   {
+    "name": "female turn",
+    "counts": "1-and-2-3-and-4-5-6",
+    "description": "Follower turns under connection in slot"
+   },
+   {
+    "name": "start step",
+    "counts": "1-and-2-3-and-4-5-6",
+    "description": "V-position step touch and rock step"
    }
   ]
  },
@@ -820,6 +851,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "09153a2d3854c4efa884c955a871078e903791be4ee37bab25542bc44cf65b5a",
+ "input_fingerprint": "79c81eece3e6064d5a2f77d23dc4a40d3075b7e479196670dd9aae455a9b34e4",
  "hero_checked": "pass"
 }

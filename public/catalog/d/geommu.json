@@ -39,6 +39,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Geommu",
   "wikidata_qid": "Q5371834",
   "unesco": false,
+  "hero_video_youtube_id": "d11H2pJc7lQ",
+  "video_stack": [
+   {
+    "youtube_id": "d11H2pJc7lQ",
+    "role": "hero",
+    "title": "Geommu, korean sword dance by Ajna",
+    "channel": "Ajna Kenning / Kenning Productions",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -87,6 +97,12 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:20:58Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "seungjeonmu"
   ]
@@ -337,32 +353,78 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "d11H2pJc7lQ",
+   "url": "https://www.youtube.com/watch?v=d11H2pJc7lQ",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "stage performance in a dark theatre with spotlight",
+    "dancers": "one female solo dancer",
+    "formation_and_space": "solo dancer moving across the center stage area",
+    "posture": "upright torso, erect posture, soft knees",
+    "footwork": "gliding steps and turns, lower body mostly covered by long skirt",
+    "arms_and_hands": "arms extended and moving fluidly, holding a prop sword in one hand",
+    "hips_and_torso": "minimal hip movement, torso remains upright and centered",
+    "partnering": "none",
+    "levels_jumps_turns": "spinning turns, occasional level changes to lower postures",
+    "costume_and_props": "long traditional-style Korean dress with pink top and long skirt, holding a sword",
+    "cannot_infer": "exact footwork details are obscured by the long skirt and stage lighting",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "traditional string instruments"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 8,
+      "end_s": 15,
+      "what": "spinning turn while extending arms outward"
+     },
+     {
+      "start_s": 32,
+      "end_s": 39,
+      "what": "pivoting movement with the sword held horizontally"
+     },
+     {
+      "start_s": 133,
+      "end_s": 145,
+      "what": "standing still holding the sword vertically upward in front of the face"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/geommu.json"
  },
- "fingerprint": "b49e120c35ed167b",
+ "fingerprint": "96859209d9bb1d7d",
  "updated": "2026-11-21"
 }

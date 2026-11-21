@@ -38,6 +38,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Grotesque_dance",
   "wikidata_qid": "Q5610714",
   "unesco": false,
+  "hero_video_youtube_id": "sEjOQ7IInTY",
+  "video_stack": [
+   {
+    "youtube_id": "sEjOQ7IInTY",
+    "role": "hero",
+    "title": "BRAGOLIN - THIS GROTESQUE DANCE",
+    "channel": "MonsieurLunatique",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -72,6 +82,15 @@
   ],
   "movie_ready": true,
   "tradition_status": "historical",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-21T19:21:31Z",
+   "soft_fail": [
+    "not_vertical",
+    "camera_ok"
+   ]
+  },
   "related_slugs": [
    "ballet"
   ]
@@ -291,36 +310,80 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "sEjOQ7IInTY",
+   "url": "https://www.youtube.com/watch?v=sEjOQ7IInTY",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "A minimalist studio with plain white walls and a white floor, resembling a performance or art video backdrop.",
+    "dancers": "A group of multiple dancers, appearing mixed or indeterminate due to full-body costumes.",
+    "formation_and_space": "Dancers start in static standing lines and individual positions across the space, later scattering, moving across the floor in groups, and re-forming lines or paired poses.",
+    "posture": "Upright standing postures alternating with deeply bent torsos, arched backs, and inverted or handstand positions.",
+    "footwork": "Cannot be seen in detail due to full-body costumes, but steps involve walking, running, skipping, and turning across the floor.",
+    "arms_and_hands": "Arms held rigidly overhead, extended to the sides, or dropped by the sides; sometimes bent at the elbows with hands framing the head or body.",
+    "hips_and_torso": "Strong torso arching, bending forward and backward, and undulating isolations.",
+    "partnering": "Independent solo movement mostly, with occasional overlapping group choreography and supporting poses such as one dancer holding another in an inversion.",
+    "levels_jumps_turns": "Features floor-level handstands, backbends, cartwheels, and standing turns.",
+    "costume_and_props": "Tight-fitting full-body black or dark bodysuits with matching hats or headwear, creating silhouetted shapes against light backgrounds.",
+    "cannot_infer": "Exact footwork and subtle weight transfers are obscured by the dark, form-fitting costumes against varied lighting and video edits.",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "electronic percussion",
+      "bass guitar"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 15,
+      "end_s": 27,
+      "what": "Three dancers stand in a line, with the outer two in upside-down handstand poses and the center dancer upright holding arms overhead."
+     },
+     {
+      "start_s": 105,
+      "end_s": 113,
+      "what": "Dancers in a line perform deep backward arching bends of their torsos while keeping legs extended."
+     },
+     {
+      "start_s": 150,
+      "end_s": 160,
+      "what": "Dancers scatter across the floor from static standing poses into dynamic running and turning movements."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/grotesque-dance.json"
  },
- "fingerprint": "0c7ee9c373111926",
+ "fingerprint": "e37dcbb3ac67573f",
  "updated": "2026-11-21"
 }

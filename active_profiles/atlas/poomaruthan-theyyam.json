@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "One hand holds a sword; the other holds a wooden shield used for twirling and striking.",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performs in the courtyard of Poomala shrines, interacting with a surrounding crowd.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Interactive 'knocking' of ritual assistants (valyakars) with the shield.",
+      "posture": "Martial and upright, supporting a large wooden crown (Mudi).",
+      "signature_moves": [
+        {
+          "description": "The deity strikes ritual assistants or onlookers with the wooden shield.",
+          "name": "Shield Knock"
+        },
+        {
+          "description": "Rapid circular rotation of the shield while swinging the sword.",
+          "name": "Shield Twirl"
+        }
+      ],
+      "tempo_feel": "Lively and vigorous.",
+      "what_to_avoid": "Do not interfere with the deity's path; the shield strikes are ritualistic and should not be resisted by those participating."
+    },
+    "music_profile": {
+      "instruments": [
+        "Chenda (implied by tradition)",
+        "Elathalam (implied by tradition)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "martial",
+        "divine",
+        "energetic"
+      ],
+      "musical_form": "Progressive intensity from night (Vellattam) to day performance.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The soundscape is dominated by the rhythmic clashing of the wooden shield and sword, punctuated by the high-energy shouts of the valyakars who gather to provoke and excite the deity.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Shouts from ritual assistants (valyakars) to excite the deity."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Shield twirl: Rotating the wooden shield in a circular motion while advancing.",
+        "Sword swing: Rhythmic diagonal cuts with the sword synchronized with footwork.",
+        "Ritual charge: Moving toward the valyakars to deliver a ritual shield knock.",
+        "Mudi balance: Maintaining upright posture to support the heavy wooden crown during turns."
+      ],
+      "formation": "Solo performance within a circle of ritual assistants (valyakars) and onlookers.",
+      "level_notes": "Requires high physical stamina and the ability to balance a heavy wooden headdress while performing martial maneuvers.",
+      "rhythm": "Lively and accelerating, driven by the shouts of ritual assistants."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "eaf19a881e442de12d60a1386591c8e0bf96bf28c2f416a7189ddfb8b9fe6e54",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic cycles (talas) played on the Chenda for Poomaruthan? Evidence needed: https://en.wikipedia.org/wiki/Poomaruthan_Theyyam"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns used during the shield-twirling sequence? Evidence needed: https://en.wikipedia.org/wiki/Poomaruthan_Theyyam"
+    ]
+  },
+  "id": "atlas:poomaruthan-theyyam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Poomaruthan Theyyam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "a363ea0d7e517717",
+      "next_evidence": "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
+      "question": "What are the specific footwork patterns used during the shield-twirling sequence?",
+      "source": "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source describes 'lively movements' but lacks the technical footwork necessary for accurate teaching."
+    },
+    {
+      "domain": "research",
+      "id": "b91379c403adbecb",
+      "next_evidence": "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
+      "question": "What are the specific rhythmic cycles (talas) played on the Chenda for Poomaruthan?",
+      "source": "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the sound profile accurately for a composer or student."
+    }
+  ],
+  "research_file": "research_results/poomaruthan-theyyam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "poomaruthan-theyyam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
+    "https://www.wikidata.org/wiki/Q20581714"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

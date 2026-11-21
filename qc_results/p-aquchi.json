@@ -1,0 +1,126 @@
+{
+ "slug": "p-aquchi",
+ "qc_at": "2026-11-21T19:17:36Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 3.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "P'aquchi"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "57"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "189"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Categorized in global registries as a Bolivian indigenous dance, P'aquchi repres"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "339"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1458"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/3 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Bolivia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 2,
+  "respect": 8,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "P'aquchi is identified in archival and genealogical data repositories as a Bolivian dance tradition.",
+   "Listed in international cataloguing databases as a distinct dance form."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 2,
+  "verdict": "reject",
+  "notes": "The profile lacks any verifiable evidence. The claims about it being in 'archival and genealogical data repositories' or 'international cataloguing databases' are unsupported by the provided evidence. It is essentially a placeholder entry with no actual cultural or technical information."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sources",
+  "sections_filled",
+  "judge_score=3.1",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-21T17:52:26Z"
+}

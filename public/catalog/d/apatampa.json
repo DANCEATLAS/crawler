@@ -240,47 +240,82 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 12,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "gxnSDuuK7-I",
+   "url": "https://www.youtube.com/watch?v=gxnSDuuK7-I",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "outdoor courtyard of a school building with seated audience children in red and white uniforms watching from chairs and balconies",
+    "dancers": "group of children and one adult male leader, mixed gender, children are young girls and boys",
+    "formation_and_space": "starts in a single file line entering from the side, then disperses into a scattered group formation covering the courtyard floor",
+    "posture": "torso leaned slightly forward, knees bent in a squatting or lowered stance, weight shifted dynamically between feet",
+    "footwork": "fast stepping, stamping, and shuffling in place and while traveling, keeping close to the ground on the beat",
+    "arms_and_hands": "arms bent at elbows, hands moving in coordination with body rhythm, expressive gestures near torso and hips",
+    "hips_and_torso": "bouncing and undulating torso movements aligned with knee bends and foot stomps",
+    "partnering": "none",
+    "levels_jumps_turns": "frequent deep knee bends/squats bringing the body to low levels, occasional quick turns and small jumps",
+    "costume_and_props": "traditional Ghanaian wrap skirts and cloths (kente/print fabrics), headbands, bare feet",
+    "cannot_infer": "exact acoustic details of individual percussion instruments due to ambient outdoor recording quality",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "rattles",
+      "keyboard"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 20,
+      "end_s": 35,
+      "what": "single file line of children stepping in unison behind the adult leader, bending knees and stamping feet to the beat"
+     },
+     {
+      "start_s": 104,
+      "end_s": 120,
+      "what": "dancers spreading out across the courtyard floor, lowering into deep squat positions while maintaining rhythmic arm and foot movements"
+     },
+     {
+      "start_s": 200,
+      "end_s": 215,
+      "what": "group performing synchronized low squats and dramatic upward rises while singing and drumming intensify"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -290,6 +325,6 @@
   "polished": false,
   "file": "episodes/apatampa.json"
  },
- "fingerprint": "544353cb52179eff",
+ "fingerprint": "b5491a1aa74563ce",
  "updated": "2026-11-21"
 }

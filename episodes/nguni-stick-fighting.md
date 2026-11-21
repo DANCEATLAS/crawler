@@ -1,6 +1,6 @@
 # Nguni stick fighting — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections; what to avoid / common mistakes
 
@@ -110,7 +110,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Holding the defensive stick or shield to protect the body
 NARRATION: Step 2: Advancing with the attacking stick to strike a target area
 NARRATION: Drill: Holding the sticks correctly
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -173,7 +173,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Holding the defensive stick or shield to protect the body
 NARRATION: Step 2: Advancing with the attacking stick to strike a target area
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -237,7 +237,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Advancing with the attacking stick to strike a target area
 NARRATION: Step 2: Alternating between offensive and defensive stances
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -298,9 +298,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (3): https://en.wikipedia.org/wiki/Nguni_stick-fighting; https://www.wikidata.org/wiki/Q3112905; https://fr.wikipedia.org/wiki/Lutte_Nguni

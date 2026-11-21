@@ -1,8 +1,8 @@
 # Grizzly Bear — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A sharp-witted 1910s dance hall regular who values expression over etiquette.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance That Scandalized a Nation
 NARRATION: This is Grizzly Bear. Early 20th century (c. 1910-1914).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (0nXsCGyFuz8)
 ON SCREEN: Title card: Grizzly Bear · United States · Early 20th century (c. 1910-1914)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers perform a swaying gait with feet turned outward, mimicking a 
 NARRATION: The posture involves a close, chest-to-chest embrace with arms resting on the partner's shoulders and fingers curled like claws.
 NARRATION: It features lateral hip oscillations, forward rocking of the torso, and syncopated walking steps that allow for improvisation.
 NARRATION: Watch for Bear-like embrace, Swaying gait, The Spiel.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (0nXsCGyFuz8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Closed couple; moving in small circles (pivoting) or progressing along the floor.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -330,7 +330,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Originally practiced in urban dance halls and 'rackets' associated with nightlife and popular entertainment. In high society settings, it was performed in formal attire but with a parodic, 'loufoque' tone. In France, it was featured in music halls and films.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '0nXsCGyFuz8', 'checked_by_vision_model': True, 'title': 'Laura Grizzlypaws BEAR DANCE @ Umatilla PW 2015'}
 Images: 1 licensed — Walker for the American source, unknown for the French source / Wikimedia Commons / Public domain (Public domain)
 Footage: File:Grizzly bear (Ursus arctos horribilis) in Woodland Park Zoo.webm — https://upload.wikimedia.org/wikipedia/commons/1/14/Grizzly_bear_%28Ursus_arctos_horribilis%29_in_Woodland_Park_Zoo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grizzly bear (Ursus arctos horribilis) in Yellowstone National Park.webm — https://upload.wikimedia.org/wikipedia/commons/c/c8/Grizzly_bear_%28Ursus_arctos_horribilis%29_in_Yellowstone_National_Park.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grizzly bears (Ursus arctos) in Alaska.webm — https://upload.wikimedia.org/wikipedia/commons/8/83/Grizzly_bears_%28Ursus_arctos%29_in_Alaska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grizzly bear and her cubs eating grass.webm — https://upload.wikimedia.org/wikipedia/commons/f/f2/Grizzly_bear_and_her_cubs_eating_grass.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:The Grizzly Bear Dance (1913).webm — https://upload.wikimedia.org/wikipedia/commons/5/55/The_Grizzly_Bear_Dance_%281913%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grizzly Bear Mayhew.webm — https://upload.wikimedia.org/wikipedia/commons/5/5a/Grizzly_Bear_Mayhew.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Native American Culture Comes Alive at the Harvest Pow Wow — https://archive.org/details/npctv-Native_American_Culture_Comes_Alive_at_the_Harvest_Pow_Wow; Beauty and the Grizzly Bear (1992 VHS) — https://archive.org/details/beauty-and-the-grizzly-bear-part-01-prologue
 Motifs: Clawed hands, Swaying hips, Ragtime sheet music, Crowded, smoky dance halls, Bear-like silhouettes
@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 46 tutorial(s) of the street-urban family studied · videos studied: 46
+Source: 58 tutorial(s) of the street-urban family studied · videos studied: 58
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: one and two; step touch; vamos a comenzar; marcamos; repetimos; y marco; make sure you touch all the way back; down back out back up back out back; pick up the groove; don't forget this is a popular dance; your butt should be free; don't forget knee flex
+Cues: heel toe; one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; 5-6-7-8; here we go
 
 Sources (6): https://en.wikipedia.org/wiki/Grizzly_Bear_(dance); https://www.wikidata.org/wiki/Q5609781; https://fr.wikipedia.org/wiki/Pas_de_l'ours; https://archive.org/details/cu31924030998680; https://archive.org/details/rockymountainwo02millgoog; https://archive.org/details/rockymountainwo00unkngoog

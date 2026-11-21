@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heels of any kind",
+          "Complex floor work",
+          "Highly sensual body language"
+        ],
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "20",
+        "game_version": "Focus on 'statue' isolations (moving only one body part at a time) to pop music."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Floor work",
+          "Stiletto heels",
+          "Rapid weight shifts",
+          "Deep knee bends"
+        ],
+        "counts": "Standard 4/4 counts, focusing on one movement per two beats.",
+        "seated_version": "Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels.",
+        "standing_version": "Use a ballet barre or sturdy chair for balance; perform footwork in flat shoes or low, wide heels.",
+        "tempo_and_range": "Reduce tempo by 50%; limit the range of torso movements to avoid strain."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Fluid and expressive, drawing from exotic and contemporary dance styles.",
+      "difficulty": "advanced",
+      "footwork": "Dynamic steps based on jazz and ballroom; requires constant awareness of the heel's placement.",
+      "formation_and_space": "Solo performance; utilizes both vertical space and floor levels.",
+      "hips_and_torso": "Heavy use of isolations borrowed from belly dance and hip-hop.",
+      "levels_and_jumps": "Frequent level changes from standing to floor; jumps are rare due to heel stability risks.",
+      "partnering": "None (solo genre)",
+      "posture": "Upright with an engaged core to manage the forward shift in center of gravity caused by heels.",
+      "signature_moves": [
+        {
+          "description": "Independent movement of the chest or hips while the rest of the body remains still.",
+          "name": "Torso Isolation"
+        },
+        {
+          "description": "Athletic movements performed on the ground, transitioning from standing to floor and back.",
+          "name": "Floor work"
+        }
+      ],
+      "tempo_feel": "Sharp and punctuated during isolations; fluid during transitions.",
+      "what_to_avoid": "Avoid locking knees; avoid placing full weight on the heel during rapid lateral movements to prevent ankle injury."
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizers",
+        "Drum machines",
+        "Electronic bass",
+        "Vocals"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "sensual",
+        "powerful",
+        "commercial"
+      ],
+      "musical_form": "Verse-chorus structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop.",
+      "sound_description": "The sound is defined by modern commercial production, featuring heavy basslines and sharp percussive elements that facilitate the 'hits' and isolations in the choreography.",
+      "tempo_bpm": "90-128",
+      "vocal_style": "Pop and hip-hop vocals"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Weight distribution adjustment for high heels",
+        "Jazz-based dynamic footwork",
+        "Torso isolations (hip-hop and belly dance style)",
+        "Fluid arm extensions",
+        "Floor work transitions"
+      ],
+      "formation": "Solo",
+      "level_notes": "Requires prior experience in balance and core stability due to the footwear.",
+      "rhythm": "Syncopated and beat-driven, following pop or hip-hop structures"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6873fd86b25e41c803df9407cdbadc6717793c8164f13dd43b48ac1fcf17320f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Which specific pop music videos from the late 20th century are credited with first popularizing this style? Evidence needed: https://en.wikipedia.org/wiki/Stiletto_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific safety protocols for ankle stabilization taught in professional stiletto dance classes? Evidence needed: https://en.wikipedia.org/wiki/Stiletto_dance"
+    ]
+  },
+  "id": "atlas:stiletto-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Stiletto dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "00428d7a0dd33e3e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Stiletto_dance",
+      "question": "What are the specific safety protocols for ankle stabilization taught in professional stiletto dance classes?",
+      "source": "https://en.wikipedia.org/wiki/Stiletto_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide safe instructional content for an interactive platform, as dancing in stilettos carries high injury risk."
+    },
+    {
+      "domain": "research",
+      "id": "a547b28091b57c38",
+      "next_evidence": "https://en.wikipedia.org/wiki/Stiletto_dance",
+      "question": "Which specific pop music videos from the late 20th century are credited with first popularizing this style?",
+      "source": "https://en.wikipedia.org/wiki/Stiletto_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To establish a concrete historical timeline and visual reference for the 'origins' section."
+    }
+  ],
+  "research_file": "research_results/stiletto-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "stiletto-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Stiletto_dance",
+    "https://www.wikidata.org/wiki/Q25042625"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -165,6 +165,111 @@
    "sardana"
   ]
  },
- "fingerprint": "d8ee8808c9c1fa36",
+ "lessons": [
+  {
+   "youtube_id": "iF60SihuJqk",
+   "url": "https://www.youtube.com/watch?v=iF60SihuJqk",
+   "title": "Complete Intro to Flamenco Dance Class",
+   "channel": "Rina Orellana Flamenco",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "intro",
+     "note": "Teacher introduces herself and welcomes beginners to the workshop."
+    },
+    {
+     "t": "0:36",
+     "seconds": 36,
+     "segment": "context",
+     "note": "Teacher explains what flamenco is, its origins with the Romani people, and its cultural evolution."
+    },
+    {
+     "t": "2:10",
+     "seconds": 130,
+     "segment": "context",
+     "note": "Teacher explains flamenco rhythms (palos) and specifically tangos."
+    },
+    {
+     "t": "3:02",
+     "seconds": 182,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the four-count compas and hand clapping (palmas)."
+    },
+    {
+     "t": "4:45",
+     "seconds": 285,
+     "segment": "music_practice",
+     "note": "Teacher practices palmas along with guitar music."
+    },
+    {
+     "t": "6:03",
+     "seconds": 363,
+     "segment": "breakdown",
+     "note": "Teacher explains arm and upper body posture and wrist movement."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hand clapping rhythm in compas",
+     "counts": "1-2-3-4",
+     "description": "Hand clapping in a four-count compas rhythm for tangos."
+    }
+   ],
+   "cues": [
+    "Stay in compas",
+    "Rounded arms",
+    "Keep your arms up",
+    "Start off with the pinky"
+   ],
+   "images": [
+    "Holding a beach ball",
+    "Like your favorite song"
+   ],
+   "common_mistakes": [
+    "Keeping arms straight instead of rounded",
+    "Moving arms along with the hands"
+   ],
+   "teacher_style": "The instructor provides detailed cultural background and structure before guiding students step by step. She breaks down complex movements into counts and rhythms using clear demonstrations and verbal counting.",
+   "distinctive_method": "Explaining the cultural and musical definition of compas and palos extensively before applying them to physical practice.",
+   "what_works": [
+    "Clear verbal explanations of rhythm and structure",
+    "Step-by-step breakdown of counts before adding music"
+   ],
+   "what_hinders": [
+    "Long periods of talking before physical demonstration"
+   ],
+   "evidence": [
+    {
+     "start_s": 4,
+     "end_s": 35,
+     "topic": "teaching",
+     "observation": "Teacher stands facing the camera in a dance studio speaking to the audience.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "any dance steps",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 342,
+     "end_s": 352,
+     "topic": "movement",
+     "observation": "Teacher demonstrates counting with hand gestures.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "full body weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "ad6ba0cfeddcc6c4",
  "updated": "2026-11-21"
 }

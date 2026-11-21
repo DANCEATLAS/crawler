@@ -2,7 +2,7 @@
  "slug": "garudan-thookkam",
  "name": "Garudan Thookkam",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T19:19:29Z",
  "qc_score": 9.7,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Garudan Thookkam. Ancient/Living Tradition."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (a1d1G-Mj9JU)",
      "Title card: Garudan Thookkam · India · Ancient/Living Tradition"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Choondakuthal, Eagle Flight."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (a1d1G-Mj9JU)",
      "Captions name each signature move as it appears",
      "Formation: Processions on bullock carts, boats, or hand-pulled carts; three circuits around the temple"
     ],
@@ -265,7 +265,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "a1d1G-Mj9JU",
+   "checked_by_vision_model": true,
+   "title": "Garudan thookkam"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -320,16 +324,19 @@
   ]
  },
  "teaching_formula": {
-  "source": "8 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 8,
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, mirror, back",
+   "views used by most teachers: front, back, mirror",
    "tempo progression: slow → full",
-   "repetitions per step: about 5"
+   "repetitions per step: about 4"
   ],
   "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
@@ -337,20 +344,18 @@
    "inside",
    "out",
    "keep it down",
-   "one two",
-   "over and spin",
    "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "connect with the earth"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "warmup",
    "context",
    "breakdown",
    "full_demo",
-   "music_practice",
-   "slow_practice"
+   "slow_practice",
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -358,7 +363,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -368,6 +372,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "742950a5b1f635d94e7d276e9ab2a83f6f8d8e7c38d95570ab612eb75c1a1a6e",
- "hero_checked": null
+ "input_fingerprint": "5a05cfce885a245b055255b0afa463d3de2577c6e708ac6f3597f2c6f4228518",
+ "hero_checked": "pass"
 }

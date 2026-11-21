@@ -280,28 +280,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -310,13 +294,62 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "xpIq95KEm5E",
+   "url": "https://www.youtube.com/watch?v=xpIq95KEm5E",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor hall or gymnasium with light walls, basketball hoops, banners, and spectators seated on chairs to the side",
+    "dancers": "group of mixed men and women in casual attire",
+    "formation_and_space": "a large single circle of dancers holding hands, moving counter-clockwise and stepping inward/outward",
+    "posture": "upright torso with soft, slightly bent knees",
+    "footwork": "side-to-side stepping and weight shifts moving in a circle, accompanied by small hops or lifts on the beat",
+    "arms_and_hands": "hands held in a chain around the circle, arms swinging gently up and down in coordination with the steps",
+    "hips_and_torso": "minimal torso movement, upper body moves in unison with the arm swing and stepping pattern",
+    "partnering": "hand-in-hand chain hold among all participants in the circle",
+    "levels_jumps_turns": "low-level bouncing and small vertical lifts on the feet; no high jumps or floor work",
+    "costume_and_props": "casual everyday clothing including jeans, t-shirts, shirts, skirts, and dresses; no props",
+    "cannot_infer": "exact foot placement and weight distribution are partially obscured by long trousers and skirts, and camera distance.",
+    "music_heard": {
+     "instruments": [
+      "bombarde",
+      "binioù"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 14,
+      "end_s": 25,
+      "what": "The circle moves sideways with linked hands while arms swing rhythmically up and down."
+     },
+     {
+      "start_s": 100,
+      "end_s": 115,
+      "what": "Dancers step side-to-side with coordinated bounces while traveling around the circle."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -326,6 +359,6 @@
   "polished": false,
   "file": "episodes/laride.json"
  },
- "fingerprint": "ba35700d8a747b9f",
+ "fingerprint": "3e9e4ddead155525",
  "updated": "2026-11-21"
 }

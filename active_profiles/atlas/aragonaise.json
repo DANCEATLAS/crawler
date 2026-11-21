@@ -1,13 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "driving",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "guitars",
+        "castanets"
+      ],
+      "meter": "triple metre",
+      "mood_keywords": [
+        "driving",
+        "assai vivo"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Jules Massenet",
+          "title": "Aragonaise from Le Cid"
+        },
+        {
+          "artist": "Georges Bizet",
+          "title": "Aragonaise from Carmen"
+        }
+      ],
+      "rhythm_pattern": "driving triple metre",
+      "sound_description": "A driving triple metre sound traditionally accompanied by guitars, castanets and hand clapping, exemplified by Massenet's Assai vivo composition from Le Cid.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "driving triple metre"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e88c27e92d30dfdb4a59e7954a9ef0105597beb2ea9d936ac13ed5cb086ebec0",
+  "fingerprint": "b8eda99b241070358b905787d868b0b298aaf4807853440a1011f613e2dd54a1",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +83,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific regional footwork distinguishes an Aragonaise from the broader Jota tradition in Aragon? Evidence needed: Ethnomusicological field recordings or regional dance manuals from Aragon."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +112,18 @@
   ],
   "music_options": [],
   "name": "Aragonaise",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "07a93b9beaa3a270",
+      "next_evidence": "Ethnomusicological field recordings or regional dance manuals from Aragon.",
+      "question": "What specific regional footwork distinguishes an Aragonaise from the broader Jota tradition in Aragon?",
+      "source": "https://en.wikipedia.org/wiki/Aragonaise",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources lack technical movement descriptions."
+    }
+  ],
+  "research_file": "research_results/aragonaise.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +135,8 @@
   "slug": "aragonaise",
   "sources": [
     "https://en.wikipedia.org/wiki/Aragonaise",
-    "Source: Aragonaise on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Aragonaise"
+    "https://www.wikidata.org/wiki/Q4783730",
+    "https://archive.org/details/modernfrenchpian00behr"
   ],
   "state": "researching",
   "video_evidence": []

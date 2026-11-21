@@ -1,6 +1,6 @@
 # Tambourin — episode pack
 
-*Status: draft · built 2026-11-20 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -96,7 +96,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the duple meter bar out loud, then in pairs of bars. The meter is duple meter.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is duple meter.
 NARRATION: Rhythm pattern: repetitive, non-melodic bass figure.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -105,16 +105,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the duple meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the duple meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -131,7 +131,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the duple meter bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,7 +160,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the duple meter bar out loud, then in pairs of bars. The meter is duple meter.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is duple meter.
 NARRATION: Rhythm pattern: repetitive, non-melodic bass figure.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -169,16 +169,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the duple meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the duple meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -195,7 +195,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the duple meter bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -224,7 +224,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the duple meter bar out loud, then in pairs of bars. The meter is duple meter.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is duple meter.
 NARRATION: Rhythm pattern: repetitive, non-melodic bass figure.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -233,16 +233,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the duple meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the duple meter bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -259,7 +259,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the duple meter bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -298,9 +298,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the folk-circle family studied · videos studied: 58
-Counting: count the duple meter bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; un dos tres; 1-2-3; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; drop your seat; meerkat position; preload; lunge forwards
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: 1-2-3 go
 
 Sources (6): https://en.wikipedia.org/wiki/Tambourin; https://www.wikidata.org/wiki/Q19754610; https://fr.wikipedia.org/wiki/Tambourin_provençal; https://archive.org/details/b10024086; https://archive.org/details/birch_122up; https://archive.org/details/classicromanticp01unse

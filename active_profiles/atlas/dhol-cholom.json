@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a44fc17ab08000a06d39c0ce97ab2202276cf42a9b7189000d8be387610fac7d",
+  "fingerprint": "a963dbe528dbdc2a5409fdb2eee2beaa83ef856d4875bed0ab174f990ace44a9",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the historical origins and cultural significance of Dhol Cholom in Manipur? Evidence needed: Ethnographic documentation or cultural records of Manipur."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Dhol Cholom",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f0634576764e374f",
+      "next_evidence": "Ethnographic documentation or cultural records of Manipur.",
+      "question": "What are the historical origins and cultural significance of Dhol Cholom in Manipur?",
+      "source": "https://en.wikipedia.org/wiki/2nd_Eikhoigi_Imphal_International_Film_Festival",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source only identifies the dance as a performance item at a film festival without providing descriptive context."
+    }
+  ],
+  "research_file": "research_results/dhol-cholom.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +114,8 @@
   },
   "slug": "dhol-cholom",
   "sources": [
-    "https://en.wikipedia.org/wiki/Manipuri_dance",
-    "https://www.ezcc-india.org/manipur.php"
+    "https://en.wikipedia.org/wiki/2nd_Eikhoigi_Imphal_International_Film_Festival",
+    "https://www.wikidata.org/wiki/Q132352960"
   ],
   "state": "researching",
   "video_evidence": []

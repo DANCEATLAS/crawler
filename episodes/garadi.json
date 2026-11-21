@@ -2,7 +2,7 @@
  "slug": "garadi",
  "name": "Garadi",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T19:19:09Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Garadi. Ancient (mythological origin); documented in 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (1qPR4cZSzVk)",
      "Title card: Garadi · India · Ancient (mythological origin); documented in 20th century"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Anjali striking."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (1qPR4cZSzVk)",
      "Captions name each signature move as it appears",
      "Formation: Processional or temple-based; performed during car festivals"
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "1qPR4cZSzVk",
+   "checked_by_vision_model": true,
+   "title": "Gaarady- an art form"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -755,8 +759,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 58,
+  "source": "65 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 65,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -766,24 +770,24 @@
   ],
   "cues": [
    "1-2-3-4",
-   "5-6-7-8",
    "un dos tres",
    "1-2-3",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "drop your seat",
-   "meerkat position",
-   "preload",
-   "lunge forwards"
+   "5-6-7-8",
+   "1-2-left",
+   "2-2-right",
+   "step in front",
+   "step behind",
+   "levanto los talones hasta atrs",
+   "doble golpe con mi pie",
+   "pisada con toda la planta del pie",
+   "sin elevarme tanto"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -795,7 +799,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -808,6 +811,6 @@
  "claims_verified": 6,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "a65555fb5d5e46e41bc4c019bc3e0bfe942fbb4c88a948718dafb5999282b62e",
- "hero_checked": null
+ "input_fingerprint": "84e5da9c1dbf3edde8978a1e3aa575e643129aa47547f81757d877a582e9d9d3",
+ "hero_checked": "pass"
 }

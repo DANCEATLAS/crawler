@@ -1,8 +1,8 @@
 # Geommu — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authoritative master dancer from a Korean intangible cultural heritage preservation center, blending historical precision with graceful demonstration.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Blades of the Royal Court: The Legacy of Geommu
 NARRATION: This is Geommu. 7th century AD to Joseon Dynasty (1392–1910).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (d11H2pJc7lQ)
 ON SCREEN: Title card: Geommu · South Korea · 7th century AD to Joseon Dynasty (1392–1910)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ MUSIC: underscore
 NARRATION: Geommu is performed by a group of 6 to 8 female dancers working through chum-sawi (dance movements) and changdan (rhythmic cycles).
 NARRATION: Performance centers on three primary movement patterns: Ipchum-sawi (dancers standing in two facing rows), Anjeon-sawi (dancers executing floorwork while kneeling in the two-row formation), and Yeonpungdae (dancers forming a circular pattern and spinning in rotation).
 NARRATION: Watch for Ipchum-sawi, Anjeon-sawi, Yeonpungdae.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (d11H2pJc7lQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Transitions between two facing parallel lines (Ipchum-sawi, Anjeon-sawi) and a revolving group circle (Yeonpungdae).
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -321,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'd11H2pJc7lQ', 'checked_by_vision_model': True, 'title': 'Geommu, korean sword dance by Ajna'}
 Images: 3 licensed — SJ Yang / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); SJ Yang / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Korea.net / Korean Culture and Information Service / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
 Footage: MISSING
 Motifs: Red-tasselled military caps and bead chin straps., Ringing nickel-brass sword rings in close-up motion., Cascading rainbow-striped sleeve silk (saektonghansam)., Juxtaposition of blue and red hanbok skirts against wooden courtyard floors.
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the classical-court family studied · videos studied: 9
+Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
 Counting: count the Varied changdan meters bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno y dos; el sombrero nunca para; que sea siempre continuado; kanna; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; stand like a soldier; close your ribcage; high high pass; squeeze your deep outward rotators
+Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
 
 Sources (4): https://en.wikipedia.org/wiki/Geommu; https://www.wikidata.org/wiki/Q5371834; https://fr.wikipedia.org/wiki/Geommu; https://it.wikipedia.org/wiki/Geommu

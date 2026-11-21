@@ -1,13 +1,66 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Lead actress performs on stage with comedians who enter and exit during costume changes.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Interaction between the minthami and comedians involving improvised jokes and verbal rebuttals.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "pattala (xylophone)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "light",
+        "theatrical",
+        "comedic"
+      ],
+      "musical_form": "Sequence of solo and group dances accompanied by instrumental music.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A small all-male orchestra led by the xylophone, accompanying a lead singer/dancer with rhythmic instrumental music and vocal segments.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Singing interspersed with comedic dialogue."
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "Solo dancer (minthami) with supporting comedians on stage.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "dfb0dcb632ef81f604dcb76080db8c6247d33253563421dbd471dc363aaf3914",
+  "fingerprint": "e0119bbd41ef2e70a8852448c4508798ed1ee73e6d8967db1f29d49cb93a0a91",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +68,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns and hand gestures associated with the anyeint minthami? Evidence needed: Instructional manuals or dance notation from Burmese performing arts archives."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +98,18 @@
   ],
   "music_options": [],
   "name": "Anyeint",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5e82dd94d95ad2ed",
+      "next_evidence": "Instructional manuals or dance notation from Burmese performing arts archives.",
+      "question": "What are the specific footwork patterns and hand gestures associated with the anyeint minthami?",
+      "source": "https://en.wikipedia.org/wiki/Anyeint",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the performance structure but lack the technical movement vocabulary required for instruction."
+    }
+  ],
+  "research_file": "research_results/anyeint.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +121,7 @@
   "slug": "anyeint",
   "sources": [
     "https://en.wikipedia.org/wiki/Anyeint",
-    "Source: Anyeint on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Anyeint"
+    "https://www.wikidata.org/wiki/Q4778246"
   ],
   "state": "researching",
   "video_evidence": []

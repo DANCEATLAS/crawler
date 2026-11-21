@@ -13,18 +13,20 @@
   "country": "South Korea",
   "country_code": "KR",
   "region": "East Asia",
-  "family": "ritual-sacred",
+  "family": "classical-court",
   "flag_emoji": "🇰🇷",
   "era": "Unified Silla period to present",
   "tagline": "A majestic five-person court dance from Korea designed to dispel evil spirits.",
-  "profile": "Cheoyongmu is the oldest surviving Korean court dance, originating from the Unified Silla period. It features five dancers wearing distinct colored costumes representing the cardinal directions and the center. The dance serves both as a ritual to drive away evil spirits and a majestic display of traditional Korean court artistry.",
-  "insight": "Danced by five men in masks of light wine-color, Cheoyongmu uses the philosophy of the Five Elements to transform a mythic exorcism of a smallpox spirit into a stately, vigorous performance of royal protection.",
+  "profile": "Cheoyongmu is the oldest surviving Korean court dance, originating from the Unified Silla period. It features five dancers wearing distinct colored costumes representing the cardinal directions and the center. The dance serves both as a ritual to drive away evil spirits and a majestic display of traditional Korean court artistry, recognized globally by UNESCO.",
+  "insight": "Danced by five men in wine-colored masks with white teeth, Cheoyongmu applies the Theory of the Five Elements to ward off smallpox and invite good fortune.",
   "aliases": [
-   "처용무",
-   "Obang Cheoyongmu"
+   "Obang Cheoyongmu",
+   "처용무"
   ],
   "related": [
-   "Korean dance"
+   "Korean dance",
+   "Korean mask",
+   "Korean mythology"
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Cheoyongmu",
@@ -50,13 +52,13 @@
   "publish_gate": "publish",
   "_is_sacred": true,
   "is_sacred": true,
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-21",
   "origin": "pipeline",
   "research_gate": "publish",
-  "qc_score": 9.55,
-  "last_researched_at": "2026-11-01T17:18:27Z",
+  "qc_score": 9.3,
+  "last_researched_at": "2026-11-21T18:47:22Z",
   "pipeline_version": "v3.3",
-  "profile_long": "Cheoyongmu is a storied Korean court dance rooted in the legend of Cheoyong, the son of the Dragon King Yongwang. According to tradition, Cheoyong saved his wife from a smallpox spirit by using dance and music to drive the entity away. This narrative evolved into a formal court performance, historically used during New Year’s Eve exorcism rites and royal banquets to ensure tranquility and good fortune. From the Silla period through the Goryeo dynasty, the dance was performed by a single dancer, but it eventually transitioned into a five-person performance during the Joseon era. The dancers are clad in white, blue, black, red, and yellow, symbolizing the four cardinal directions and the center, reflecting the Confucian theory of the Five Elements. Their attire is highly specific: they wear light wine-colored masks with white teeth, tin earrings, necklaces of lead beads, and black hats adorned with two peony blossoms and seven peaches—items believed to ward off malevolent forces. The movement style is characterized by majesty and vigor, shifting through various tempos and styles of music, which are punctuated by lyrical song recitations. Beyond the dance itself, the tradition encompasses the craftsmanship of mask-making and the folk belief that placing an image of Cheoyong on a house gate could repel disease. Though the dance faced a temporary disappearance following the 1910 annexation treaty, it was revived in the 1920s and remains a vital part of Korean cultural heritage, recognized by UNESCO in 2009.",
+  "profile_long": "Cheoyongmu stands as the oldest surviving Korean court dance, tracing its origins back to the Unified Silla period. Rooted deeply in historical legend, the dance draws from the story of Cheoyong, a son of the dragon king Yongwang who assumed human form and courageously protected his wife from the smallpox spirit through song and movement. Historically, the dance carried a profound ritualistic weight, performed to drive off malevolent forces, ensure tranquility, and invite good fortune during New Year's Eve exorcism rites and royal banquets. While initially performed by a single dancer from the Silla period through the Goryeo dynasty, the tradition evolved into a magnificent five-person performance during the Joseon era, structured around the Confucian Theory of the Five Elements.\n\nThe performance is characterized by its visual splendor and rigorous symbolism. The five dancers are clad in distinct costumes representing the four cardinal directions and the center, utilizing the colors blue, white, black, red, and yellow. Their attire is complemented by light wine-colored masks of the man-god featuring white teeth, tin earrings paired with necklaces of lead beads, and black hats decorated distinctively with two peony blossoms and seven peaches—each element carefully chosen to ward off evil and welcome auspicious energy. The movement vocabulary is executed with stateliness and vigor, reacting to styles and tempos of music that are continually punctuated by lyrical song recitations.\n\nBeyond the choreography itself, the tradition encompasses a vast web of folk mythology and traditional craftsmanship, including the creation of the iconic Cheoyong masks and the historical belief that carving Cheoyong's image on a house gate would repel smallpox and other ills. Though briefly interrupted by the annexation of 1910, the tradition was revived in the 1920s and has since transitioned from royal courts to contemporary stages. Today, Cheoyongmu is preserved not only as a pinnacle of South Korean Intangible Cultural Property, inscribed since 1971, but also as a masterpiece on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity since 2009. Through its enduring custodians, the dance continues to embody ancient cosmological philosophies, offering a window into Korea's rich heritage of royal protection and ritualistic artistry.",
   "images": [
    {
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Fugong_Temple_Wooden_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -72,8 +74,9 @@
   ],
   "ich_ref": "189",
   "needs_eyes_on": true,
-  "sacred_note": "Historically an exorcism rite; the mask and dance are intended to ward off evil and smallpox.",
+  "sacred_note": "Originally performed as a ritual exorcism to drive off evil spirits and protect against smallpox, embodying sacred mythological and Confucian cosmological beliefs.",
   "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -83,36 +86,44 @@
  },
  "profile": {
   "sections": {
-   "origins_and_history": "Originating in the Unified Silla period, Cheoyongmu is the oldest surviving Korean court dance. It evolved from a solo performance into a five-person dance by the Joseon era. It was historically used for exorcism rites and royal banquets.",
-   "how_it_is_danced": "The dance is performed by five men who move with stateliness and vigor. The performance is punctuated by lyrical song recitations and varies in tempo and style.",
-   "music_and_instruments": "The music includes lyrical song recitations and varies in style and tempo to accompany the dancers' movements.",
-   "costume_and_setting": "Dancers wear costumes in yellow, red, blue, white, and black. They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
-   "occasions_and_meaning": "Originally a ritual to drive off evil spirits and smallpox, it was performed at royal banquets and New Year's Eve exorcisms to promote good fortune and tranquility.",
-   "notable_figures": "not described in sources",
-   "regional_variants": "not described in sources",
-   "lineage": "Derived from the legend of Cheoyong, son of the Dragon King Yongwang."
+   "origins_and_history": "Cheoyongmu originated during the Unified Silla period, making it the oldest surviving Korean court dance. It is based on the legend of Cheoyong, son of the dragon king Yongwang, who saved his wife from the smallpox spirit. From the Silla period to the late Goryeo dynasty, the dance was performed by a single dancer, after which it expanded to five dancers, incorporating the Confucian Theory of the Five Elements during the Joseon era.",
+   "how_it_is_danced": "The dance is always performed by five dancers who move with stateliness and vigor. Specific footwork and arm movements are not described in sources. The performance is punctuated by various lyrical song recitations and adapts to the style and tempo of the accompanying music.",
+   "music_and_instruments": "The music accompanying Cheoyongmu features style and tempo variations punctuated by lyrical song recitations. Specific musical instruments are not named in the sources.",
+   "costume_and_setting": "Dancers wear costumes in yellow, red, blue, white, and black, representing the four cardinal directions and the center. They wear light wine-colored masks depicting a man-god with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
+   "occasions_and_meaning": "Cheoyongmu was formerly performed during royal banquets, New Year's Eve exorcism rites to dispel evil spirits, and to pray for tranquility and good fortune. It embodies Korean folk mythology and the Confucian Theory of the Five Elements, including the belief that Cheoyong's image on a gate repels smallpox.",
+   "notable_figures": "Cheoyong, the mythological son of the Dragon King Yongwang.",
+   "regional_variants": "The dance transitioned from a single-dancer format in the Silla and Goryeo periods to a five-dancer format (Obang Cheoyongmu) during the Joseon era.",
+   "lineage": "Derived from Korean court dance traditions and shamanistic exorcism rituals of the Unified Silla period."
   },
   "claims": [
    {
-    "text": "Cheoyongmu is the oldest surviving Korean court dance, created during the Unified Silla period.",
+    "text": "Cheoyongmu is a Korean mask dance based on the legend of Cheoyong.",
     "source": "https://en.wikipedia.org/wiki/Cheoyongmu"
    },
    {
-    "text": "The dance is performed by five men wearing costumes of yellow, red, blue, white, and black.",
+    "text": "It is the oldest surviving Korean court dance created during the Unified Silla period.",
+    "source": "https://en.wikipedia.org/wiki/Cheoyongmu"
+   },
+   {
+    "text": "The dance is always performed by five dancers, with noteworthy costumes and masks.",
+    "source": "https://en.wikipedia.org/wiki/Cheoyongmu"
+   },
+   {
+    "text": "Le cheoyongmu is a court dance that is represented on stage during contemporary times.",
+    "source": "https://fr.wikipedia.org/wiki/Cheoyongmu"
+   },
+   {
+    "text": "Cheoyongmu is a court dance today performed on stage but formerly used to dispel evil spirits.",
     "source": "https://ich.unesco.org/en/RL/00189"
    },
    {
-    "text": "Dancers wear light wine-colored masks with white teeth and hats decorated with peonies and peaches.",
-    "source": "https://ich.unesco.org/en/RL/00189"
-   },
-   {
-    "text": "The dance was historically used to dispel evil spirits and pray for tranquility.",
+    "text": "Dancers wear light wine-colored masks with white teeth, tin earrings, and lead bead necklaces.",
     "source": "https://ich.unesco.org/en/RL/00189"
    }
   ],
   "citation": {
-   "claims": 4,
-   "supported": 4,
+   "claims": 6,
+   "supported": 6,
    "rate": 1.0
   },
   "images": [
@@ -131,18 +142,15 @@
    }
   ],
   "gaps": [
-   "Specific footwork and arm movements are not described in the provided sources.",
-   "Specific musical instruments are not named.",
-   "The exact tempo and meter are not provided."
+   "Specific footwork, arm movements, and spatial pathways are not described in sources.",
+   "Specific musical instruments, exact tempos, and meter are not detailed in sources."
   ],
-  "confidence": 1.0,
+  "confidence": 0.95,
   "music_profile": {
    "tempo_bpm": "not described in sources",
    "meter": "not described in sources",
    "rhythm_pattern": "not described in sources",
-   "instruments": [
-    "not described in sources"
-   ],
+   "instruments": [],
    "vocal_style": "lyrical song recitations",
    "musical_form": "not described in sources",
    "mood_keywords": [
@@ -150,31 +158,30 @@
     "vigorous"
    ],
    "reference_recordings": [],
-   "sound_description": "Music is punctuated by various lyrical song recitations and varies in style and tempo."
+   "sound_description": "Music featuring varying styles and tempos, punctuated by lyrical song recitations."
   },
   "episode_brief": {
-   "title_hook": "The Dragon King's Son: A Dance Against Disease",
-   "logline": "Five dancers in masks of wine and gold perform an ancient ritual to banish the spirit of smallpox.",
+   "title_hook": "The Dragon King's Son Who Banished Smallpox",
+   "logline": "Five dancers in wine-colored masks execute majestic court choreography to ward off evil.",
    "beats": [
-    "The legend of Cheoyong and the Dragon King.",
-    "The transition from solo ritual to five-person court dance.",
-    "The symbolism of the five colors and the Five Elements.",
-    "The craftsmanship of the Cheoyong mask.",
-    "The performance at a royal banquet.",
-    "The modern preservation of the dance as UNESCO heritage."
+    "Introduction to the legend of Cheoyong and the Dragon King",
+    "Unveiling the five-color costumes representing cardinal directions",
+    "Examining the wine-colored masks with white teeth and peach-adorned hats",
+    "Demonstrating the stately and vigorous court movements",
+    "Exploring the UNESCO intangible cultural heritage legacy"
    ],
    "visual_motifs": [
-    "Light wine-colored masks with white teeth",
-    "Five-colored costumes",
-    "Peony blossoms and peaches on black hats",
-    "The image of Cheoyong on a wooden gate"
+    "Wine-colored masks",
+    "Five colored costumes",
+    "Black hat with peony and peaches"
    ],
-   "music_cue": "Lyrical song recitations accompanying court instrumentation."
+   "music_cue": "Traditional court music punctuated by lyrical song recitations"
   },
   "movie_ready": false,
-  "schema": 4,
-  "researched_at": "2026-11-01T17:18:27Z",
-  "qc_score": 9.55
+  "schema": 5,
+  "tradition_status": "living",
+  "researched_at": "2026-11-21T18:47:22Z",
+  "qc_score": 9.3
  },
  "readiness": {
   "standard": "AR-1",
@@ -182,8 +189,8 @@
   "of": 6,
   "missing": [
    {
-    "key": "status",
-    "label": "known to be living, revived or historical"
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "hero_video",
@@ -191,7 +198,7 @@
    }
   ]
  },
- "teaching_withheld": "Historically an exorcism rite; the mask and dance are intended to ward off evil and smallpox.",
+ "teaching_withheld": "Originally performed as a ritual exorcism to drive off evil spirits and protect against smallpox, embodying sacred mythological and Confucian cosmological beliefs.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
@@ -201,6 +208,6 @@
   "polished": false,
   "file": "episodes/cheoyongmu.json"
  },
- "fingerprint": "b775cd00e5a0ee7c",
+ "fingerprint": "64e44503b4b29846",
  "updated": "2026-11-21"
 }

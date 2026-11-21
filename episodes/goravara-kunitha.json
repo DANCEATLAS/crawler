@@ -2,7 +2,7 @@
  "slug": "goravara-kunitha",
  "name": "Goravara Kunitha",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-21T19:39:47Z",
  "researched_at": "2026-11-20T19:06:52Z",
  "qc_score": 10.0,
  "status": "withheld-chapters",
@@ -64,7 +64,7 @@
      "This is Goravara Kunitha. Ancient/Living tradition."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (iA3gr_NkqxI)",
      "Title card: Goravara Kunitha · India · Ancient/Living tradition"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Ogu Seve Eating, Scary Gaze."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (iA3gr_NkqxI)",
      "Captions name each signature move as it appears",
      "Formation: Straight lines for 10-12 people, transitioning into circular paths."
     ],
@@ -270,7 +270,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "iA3gr_NkqxI",
+   "checked_by_vision_model": true,
+   "title": "Goravara Kunitha Karnataka"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -306,16 +310,19 @@
   ]
  },
  "teaching_formula": {
-  "source": "8 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 8,
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, mirror, back",
+   "views used by most teachers: front, back, mirror",
    "tempo progression: slow → full",
-   "repetitions per step: about 5"
+   "repetitions per step: about 4"
   ],
   "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
@@ -323,20 +330,18 @@
    "inside",
    "out",
    "keep it down",
-   "one two",
-   "over and spin",
    "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "connect with the earth"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "warmup",
    "context",
    "breakdown",
    "full_demo",
-   "music_practice",
-   "slow_practice"
+   "slow_practice",
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -344,7 +349,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections"
@@ -356,6 +360,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "32aa65ca1f12d0a86e83d40a02a433e1ca486b5c7c0c41aa0426ab458442100f",
- "hero_checked": null
+ "input_fingerprint": "570a87a6c3c5410745c1e4284ca91e9bd2939da1a4da53356aef158023fc3db5",
+ "hero_checked": "pass"
 }

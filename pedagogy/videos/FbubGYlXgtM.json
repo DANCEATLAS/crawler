@@ -1,0 +1,144 @@
+{
+ "youtube_id": "FbubGYlXgtM",
+ "slug": "passacaglia",
+ "dance": "passacaglia",
+ "title": "Aprende a bailar con 4 pasos básicos el PASACALLE",
+ "channel": "Iliana Córdova #missilianaedufis",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-21T19:23:09Z",
+ "url": "https://www.youtube.com/watch?v=FbubGYlXgtM",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher methodically breaks down basic folk dance steps by counting aloud and explaining directional movement step-by-step. She demonstrates exercises both stationary and with music while reminding participants of correct posture and hand placement.",
+  "language": "Spanish",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:05",
+    "segment": "intro",
+    "note": "Welcome and overview of the pasacalle basic steps"
+   },
+   {
+    "t": "0:33",
+    "segment": "breakdown",
+    "note": "Breakdown of the first basic step with march and hip movement"
+   },
+   {
+    "t": "2:04",
+    "segment": "music_practice",
+    "note": "Practicing the first step with music"
+   },
+   {
+    "t": "2:49",
+    "segment": "breakdown",
+    "note": "Breakdown of the second step called paseíllo"
+   },
+   {
+    "t": "4:05",
+    "segment": "music_practice",
+    "note": "Practicing the first and second steps with music"
+   },
+   {
+    "t": "4:50",
+    "segment": "breakdown",
+    "note": "Breakdown of the third step called trenzado"
+   },
+   {
+    "t": "6:05",
+    "segment": "music_practice",
+    "note": "Practicing all three steps combined with music"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "Uno, dos, tres, cuatro",
+   "Sin parar",
+   "Y ahora de regreso"
+  ],
+  "metaphors": [
+   "Hacer un círculo en tu mismo puesto"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Paso básico",
+    "counts": "8",
+    "description": "Marching in place with hip movement moving right and left."
+   },
+   {
+    "name": "Paseíllo",
+    "counts": "8",
+    "description": "Moving in a small circle to the right and left using basic steps."
+   },
+   {
+    "name": "Trenzado",
+    "counts": "3",
+    "description": "Crossing legs alternately behind and to the side."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal counting and repetition without stopping",
+    "Step-by-step progression before adding music"
+   ],
+   "what_hinders": [
+    "No back or side angle demonstration for intricate footwork"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "en este video vamos a aprender los pasos básicos del pasacalle"
+   },
+   {
+    "t": "2:52",
+    "text": "el tercer paso básico que se llama el paseíllo"
+   },
+   {
+    "t": "5:00",
+    "text": "un pasito que se llama trenzado"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 33,
+    "end_s": 40,
+    "topic": "movement",
+    "observation": "Teacher marches in place counting from 1 to 8 facing forward",
+    "viewpoint": "front",
+    "cannot_infer": "exact weight distribution on feet",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 216,
+    "end_s": 224,
+    "topic": "teaching",
+    "observation": "Teacher instructs hand placement on waist for women and behind for men",
+    "viewpoint": "front",
+    "cannot_infer": "if viewers followed posture advice",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explicitly instructing different hand placements for men and women during practice."
+ },
+ "attempts": 1
+}

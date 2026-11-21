@@ -1,0 +1,139 @@
+{
+ "youtube_id": "9bVn3o_Q_Ow",
+ "slug": "sega",
+ "dance": "Sega",
+ "title": "Mauritian Sega Tutorial- Basic steps with Angel",
+ "channel": "Angel E",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-21T19:22:49Z",
+ "url": "https://www.youtube.com/watch?v=9bVn3o_Q_Ow",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher explains basic movements step by step with clear verbal descriptions. She demonstrates the techniques calmly while speaking directly to the camera.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to Mauritian Sega and basic steps"
+   },
+   {
+    "t": "0:27",
+    "segment": "breakdown",
+    "note": "Hip movements breakdown"
+   },
+   {
+    "t": "1:05",
+    "segment": "breakdown",
+    "note": "Feet movements breakdown"
+   },
+   {
+    "t": "1:47",
+    "segment": "breakdown",
+    "note": "One step count"
+   },
+   {
+    "t": "2:05",
+    "segment": "breakdown",
+    "note": "Two step count"
+   },
+   {
+    "t": "3:09",
+    "segment": "breakdown",
+    "note": "Hand movements integration"
+   }
+  ],
+  "counting_scheme": "1-2-1-2",
+  "cues": [
+   "Move your hips side to side",
+   "Scrape it along the floor",
+   "Remember to breathe"
+  ],
+  "metaphors": [
+   "As though you're kicking off sand",
+   "Or trying to wipe something off your foot"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [
+   "Remember to breathe because if you're doing it right you'll probably be tired afterwards"
+  ],
+  "steps_taught": [
+   {
+    "name": "Hip movements",
+    "counts": "1-2",
+    "description": "Moving hips side to side or in a circular motion."
+   },
+   {
+    "name": "Feet movements",
+    "counts": "1-2",
+    "description": "Scraping the back foot along the floor like kicking off sand."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Breaking down body parts separately before combining them",
+    "Showing movements from multiple angles"
+   ],
+   "what_hinders": [
+    "Music overlays can make verbal instructions harder to hear at times"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:28",
+    "text": "Start by moving your hips side to side."
+   },
+   {
+    "t": "1:11",
+    "text": "Scrape it along the floor as though you're kicking off sand."
+   },
+   {
+    "t": "2:53",
+    "text": "Just remember to breathe."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 27,
+    "end_s": 42,
+    "topic": "movement",
+    "observation": "Teacher demonstrates hip movement side to side and circular motion facing front and back.",
+    "viewpoint": "front and back, unmirrored",
+    "cannot_infer": "exact weight distribution between feet",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 105,
+    "end_s": 120,
+    "topic": "movement",
+    "observation": "Teacher demonstrates scraping foot motion with ball of foot on the floor.",
+    "viewpoint": "side and back, unmirrored",
+    "cannot_infer": "exact friction or pressure on the floor",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down the dance strictly by body isolations (hips first, then feet, then hands) before putting everything together."
+ },
+ "attempts": 1
+}

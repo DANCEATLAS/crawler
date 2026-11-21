@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "jacking",
  "name": "Jacking",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -331,45 +331,18 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   }
-  ],
   "via": {
+   "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
    "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "sound": "performance",
    "lesson_plan": "lesson",
+   "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
@@ -487,17 +460,198 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "ooriYYT2aAQ",
+   "url": "https://www.youtube.com/watch?v=ooriYYT2aAQ",
+   "title": "House Dance Basic steps & Grooves Tutorial for Beginners | Jacking",
+   "channel": "BANRI Jackin",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Boot camp day 5 introduction to jacking."
+    },
+    {
+     "t": "0:10",
+     "seconds": 10,
+     "segment": "breakdown",
+     "note": "Standard jacking basics explained."
+    },
+    {
+     "t": "0:28",
+     "seconds": 28,
+     "segment": "breakdown",
+     "note": "Open and close jacking variation."
+    },
+    {
+     "t": "1:03",
+     "seconds": 63,
+     "segment": "breakdown",
+     "note": "Jacking walk variation."
+    },
+    {
+     "t": "1:37",
+     "seconds": 97,
+     "segment": "breakdown",
+     "note": "Jacking drop variation."
+    },
+    {
+     "t": "2:21",
+     "seconds": 141,
+     "segment": "breakdown",
+     "note": "Jacking mix variation with height differences."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Standard Jacking",
+     "counts": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8",
+     "description": "Shake body back and forth to music with knee bends and upper body pulls."
+    },
+    {
+     "name": "Open & Close Jacking",
+     "counts": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8",
+     "description": "Open legs sideways while jacking."
+    },
+    {
+     "name": "Jacking Walk",
+     "counts": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8",
+     "description": "Walk while maintaining the jacking groove."
+    },
+    {
+     "name": "Jacking Drop",
+     "counts": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8",
+     "description": "Jacking with lower knee drops and hip shifts."
+    },
+    {
+     "name": "Jacking Mix",
+     "counts": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8",
+     "description": "Jacking with height differences and upper body control."
+    }
+   ],
+   "cues": [
+    "Bend your knees with Count EN.",
+    "Open your legs sideways while jacking.",
+    "Walk while jacking.",
+    "Jacking to drop knees.",
+    "Jacking with height difference."
+   ],
+   "common_mistakes": [
+    "Don't open your legs too much.",
+    "Do not bend your knees deeply.",
+    "Do not tilt your upper body forward too much."
+   ],
+   "teacher_style": "The teacher breaks down house dance jacking variations with clear on-screen counts and point annotations. He demonstrates each groove from the side and front to show body levels and weight shifts.",
+   "distinctive_method": "Silent tutorial relying exclusively on on-screen text instructions, step names, and animated counts combined with front and side demonstrations.",
+   "what_works": [
+    "On-screen text guides and count numbers keep the viewer oriented.",
+    "Side view angles clearly show knee bend and hip position."
+   ],
+   "what_hinders": [
+    "No spoken audio instruction; depends entirely on text overlays."
+   ],
+   "evidence": [
+    {
+     "start_s": 10,
+     "end_s": 18,
+     "topic": "movement",
+     "observation": "Teacher stands facing front demonstrating standard jacking with subtle knee bounce.",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "exact weight distribution between feet",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 19,
+     "end_s": 27,
+     "topic": "teaching",
+     "observation": "Teacher turns to side profile with numbered count overlays on screen.",
+     "viewpoint": "side, unknown if mirrored",
+     "cannot_infer": "exact muscle engagement in core",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 28,
+     "end_s": 36,
+     "topic": "movement",
+     "observation": "Teacher demonstrates open and close legs while maintaining jacking groove.",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "foot pressure points on floor",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "TNwsQgRsr3o",
+   "url": "https://www.youtube.com/watch?v=TNwsQgRsr3o",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Indoor room with a wooden floor, a treadmill, a couch, and a doorway visible in the background",
+    "dancers": "1 male solo dancer",
+    "formation_and_space": "Solo dancer centered in the room, facing the camera",
+    "posture": "Upright torso with slightly bent knees and relaxed, grounded weight",
+    "footwork": "Rhythmic stepping and hopping patterns matching the beat; details of subtle weight shifts are occluded",
+    "arms_and_hands": "Arms swing naturally, elbows bent, hands loose, moving in coordination with the lower body",
+    "hips_and_torso": "Natural bounce and slight torso engagement following the footwork",
+    "partnering": "None",
+    "levels_jumps_turns": "Low-level bouncing, occasional small hops and light foot lifts",
+    "costume_and_props": "Grey hoodie, dark sweatpants, and sneakers; no props",
+    "cannot_infer": "Low resolution makes precise foot placement and micro-weight shifts difficult to verify.",
+    "music_heard": {
+     "instruments": [
+      "electronic drum machine",
+      "synthesizer bass"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 37,
+      "end_s": 44,
+      "what": "Basic jacking footwork with rhythmic knee bounces and side-to-side stepping"
+     },
+     {
+      "start_s": 48,
+      "end_s": 56,
+      "what": "Heel-step footwork variation with alternating heel touches and hops"
+     },
+     {
+      "start_s": 103,
+      "end_s": 110,
+      "what": "Low-level floor touch and stance transition (lofting style)"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/jacking.json"
  },
- "fingerprint": "3cc8cecbb60e6dd3",
+ "fingerprint": "69f19525498a21dc",
  "updated": "2026-11-21"
 }

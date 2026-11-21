@@ -1,6 +1,6 @@
 # Eccentric dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
@@ -332,6 +332,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 12 tutorial(s) of the stage-contemporary family studied · videos studied: 12
 Counting: 
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: lean down; knees up; legs straighten; engage your core; feet inside silks; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space
+Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
 
 Sources (2): https://en.wikipedia.org/wiki/Eccentric_dance; https://www.wikidata.org/wiki/Q19571554

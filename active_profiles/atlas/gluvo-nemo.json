@@ -1,0 +1,167 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Pulling too hard on belts",
+          "Heavy metal coins (use plastic or bells for safety)"
+        ],
+        "counts": "1, 2",
+        "duration_minutes": "3",
+        "game_version": "The 'Follow the Sound' game: one child leads the rhythm with their 'coins' (bells) and others must match it exactly in silence."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid weight shifts",
+          "Long periods of standing without support"
+        ],
+        "counts": "1, 2, 1, 2",
+        "seated_version": "Perform the belt-hold while seated in a semi-circle, using rhythmic torso sways and heel taps to create the coin sound.",
+        "standing_version": "Reduce the travel of the steps, focusing on the rhythmic weight shift while holding a stable support or neighboring belts.",
+        "tempo_and_range": "Slow the 2/4 pulse; limit torso rotation to protect the spine."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "The Belt-Hold Connection",
+          "source": "https://en.wikipedia.org/wiki/Gluvo-nemo"
+        },
+        {
+          "description": "Rhythmic Coin Percussion",
+          "source": "https://en.wikipedia.org/wiki/Gluvo-nemo"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Half-circle formation for women.",
+          "source": "https://en.wikipedia.org/wiki/Gluvo-nemo"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding belts with the left arm over the right arm",
+      "difficulty": "intermediate",
+      "footwork": "Rhythmic steps in a 2/4 meter",
+      "formation_and_space": "Half-circle",
+      "hips_and_torso": "Steady, providing the impulse to shake the chest coins",
+      "levels_and_jumps": "Grounded",
+      "partnering": "Connected via belt-hold in a chain",
+      "posture": "Upright and disciplined",
+      "signature_moves": [
+        {
+          "description": "Dancers link by gripping the belts of those beside them, left arm over right.",
+          "name": "Belt-hold chain"
+        }
+      ],
+      "tempo_feel": "Deliberate and synchronized",
+      "what_to_avoid": "Breaking the silence with vocalization or losing the rhythmic pulse of the coins."
+    },
+    "music_profile": {
+      "instruments": [
+        "Silver coins (costume element)"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "solemn",
+        "rhythmic",
+        "austere",
+        "metallic"
+      ],
+      "musical_form": "Repetitive rhythmic cycles",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady percussive strikes on the beat",
+      "sound_description": "The sound is characterized by the absence of melody or drums, replaced by the sharp, metallic clinking of silver coins striking each other in a 2/4 meter.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "None (silent)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a half-circle with other dancers",
+        "Reach for the belts of neighbors, crossing left arm over the right",
+        "Listen for the collective rhythm of the chest coins",
+        "Step in a 2/4 meter, ensuring the coins strike on the beat"
+      ],
+      "formation": "Half-circle",
+      "level_notes": "Requires high rhythmic synchronization as there is no external music to follow.",
+      "rhythm": "2/4"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "708f485757fe2635ff3fb4015446e7902edbaaae53c4ff2d8380a04df6154c08",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: Are there specific variations in the coin-rhythm between the Small Reka and Galičnik villages? Evidence needed: https://en.wikipedia.org/wiki/Gluvo-nemo"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the specific sequence of footwork steps that accompanies the 2/4 coin rhythm? Evidence needed: https://en.wikipedia.org/wiki/Gluvo-nemo"
+    ]
+  },
+  "id": "atlas:gluvo-nemo",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gluvo-nemo",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "b9f458171baf86fc",
+      "next_evidence": "https://en.wikipedia.org/wiki/Gluvo-nemo",
+      "question": "What is the specific sequence of footwork steps that accompanies the 2/4 coin rhythm?",
+      "source": "https://en.wikipedia.org/wiki/Gluvo-nemo",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention the rhythm and formation but do not detail the actual steps (e.g., lifts, crosses, or travels)."
+    },
+    {
+      "domain": "research",
+      "id": "bd7995283ea4e689",
+      "next_evidence": "https://en.wikipedia.org/wiki/Gluvo-nemo",
+      "question": "Are there specific variations in the coin-rhythm between the Small Reka and Galičnik villages?",
+      "source": "https://en.wikipedia.org/wiki/Gluvo-nemo",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate regional instruction if the 'music' of the coins differs by locale."
+    }
+  ],
+  "research_file": "research_results/gluvo-nemo.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gluvo-nemo",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gluvo-nemo",
+    "https://www.wikidata.org/wiki/Q24469739"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

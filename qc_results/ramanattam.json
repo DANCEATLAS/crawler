@@ -1,0 +1,119 @@
+{
+ "slug": "ramanattam",
+ "qc_at": "2026-11-21T19:17:40Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ramanattam"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1657 AD, after being told his court lacked the sophistication to appreciate K"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "662"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2311"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'god', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched, maintaining high academic standards while respecting the sacred nature of the art form. It correctly identifies the historical lineage and the distinction between Ramanattam and its successor, Kathakali, without overstepping into speculative technical descriptions."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-21T17:53:06Z"
+}

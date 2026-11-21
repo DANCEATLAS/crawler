@@ -1,6 +1,6 @@
 # Najdi Ardah — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -116,7 +116,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand in a row facing another row of participants.
 NARRATION: Step 2: Sway the body rhythmically from front to back.
 NARRATION: Drill: Practice standing in a line.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -184,7 +184,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a row facing another row of participants.
 NARRATION: Step 2: Sway the body rhythmically from front to back.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -252,7 +252,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Lift the sword from top to bottom in time with the rhythm.
 NARRATION: Step 2: Repeat the chanted verses as a refrain.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -315,9 +315,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (5): https://en.wikipedia.org/wiki/Ardah; https://www.wikidata.org/wiki/Q3447507; https://es.wikipedia.org/wiki/Ardah; https://fr.wikipedia.org/wiki/Alardah_Alnajdiyah; https://pt.wikipedia.org/wiki/Ardah

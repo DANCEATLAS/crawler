@@ -3,74 +3,77 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "None."
+          "not derivable yet"
         ],
-        "counts": "Simplified counts.",
-        "duration_minutes": "5 minutes.",
-        "game_version": "Simplified gesture sequences."
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "None (already seated)."
+          "not derivable yet"
         ],
-        "counts": "Standard counts.",
-        "seated_version": "The dance is already performed seated.",
-        "standing_version": "Not applicable.",
-        "tempo_and_range": "Maintain standard tempo; reduce range of arm movements if necessary."
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Haka (gestures) performed close to the body (haka nounou).",
+      "arms_and_hands": "haka nounou (short armed), performed close to the body, though Vavaʻu tradition allows wilder and wider arm movements",
       "difficulty": "intermediate",
-      "footwork": "Not applicable (seated dance).",
-      "formation_and_space": "Rows, often tiered by height.",
+      "footwork": "not described in sources",
+      "formation_and_space": "tiered rows with front row on the ground, subsequent rows on low and high benches, and back rows standing or on tables",
       "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "Tiered levels based on seating (ground, benches, tables).",
-      "partnering": "Group-based, no individual partnering.",
-      "posture": "Seated cross-legged, right leg over left.",
+      "levels_and_jumps": "tiered levels from ground sitting to standing on benches and tables; no jumps",
+      "partnering": "not applicable / collaborative group seated formation",
+      "posture": "seated crosslegged on the ground, usually the right leg over the left, with upper body upright",
       "signature_moves": [
         {
-          "description": "Symbolic hand gestures that relate to the words of the song.",
-          "name": "haka"
+          "description": "Short-armed symbolic hand and arm gestures performed close to the body during the silent tafua and sung sections.",
+          "name": "Haka Nounou"
         }
       ],
-      "tempo_feel": "Starts steady, increases feverishly toward the end.",
+      "tempo_feel": "increases feverishly as the performance progresses",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "nafa (200-liter iron fuel drum)",
-        "human voice"
+        "nafa"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "praise",
         "excited",
-        "rhythmic"
+        "māfana",
+        "praising"
       ],
-      "musical_form": "Alternating silent (tafua) and sung sections.",
+      "musical_form": "drawn from a limited repertoire of about 10 different tunes",
       "reference_recordings": [],
-      "rhythm_pattern": "Continuous beating of the nafa drums.",
-      "sound_description": "The music is defined by the deep, resonant thud of iron fuel drums covered in leather, providing a steady rhythmic foundation for vocal melodies that praise the event or person being honored.",
+      "rhythm_pattern": "continuous beating of the nafa drum",
+      "sound_description": "The music opens with the heavy, resonant booming of iron-drum nafa percussion played with decorated sticks, transitioning into a sparse choral singing style using a limited set of traditional melodies that sound alike to the untrained ear.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Sung lyrics composed for the specific occasion."
+      "vocal_style": "sung lyrics praising the occasion, performed by the langituʻa singers"
     },
     "teaching": {
       "basic_steps": [
-        "Sit cross-legged on the ground, right leg over left.",
-        "Execute haka (hand gestures) close to the body.",
-        "Follow the rhythm set by the nafa drum.",
-        "Transition between silent tafua and sung sections."
+        "Sit crosslegged on the ground with the right leg over the left.",
+        "Execute close-armed hand gestures (haka nounou) synchronized with the upper body.",
+        "Transition from the silent tafua gestural sequence to the sung portion of the performance."
       ],
-      "formation": "Rows, tiered by social status (ground, benches, tables).",
-      "level_notes": "Requires 2-3 months of memorization.",
-      "rhythm": "Set by the nafa drum; tempo increases toward the end of the 15-minute performance."
+      "formation": "Staggered rows ranging from seated on the ground in the front to standing on benches and tables in the back.",
+      "level_notes": "Front row reserved for highest status or best dancers; children occupy the ends of rows.",
+      "rhythm": "Continuous beating of the nafa drum maintaining the ensemble tempo."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "184f8892918e2c41a7a17cc8b366282869280d4507fef899b566c15dac8e287a",
+  "fingerprint": "d0d6ee0e1012e21ef006d6e77a76bb0e0dbd828be8a53242ca637db548eb2a1e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -78,7 +81,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
+      "movement: footwork, what_to_avoid",
       "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],

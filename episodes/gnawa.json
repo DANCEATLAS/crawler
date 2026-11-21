@@ -1,0 +1,463 @@
+{
+ "slug": "gnawa",
+ "name": "Gnawa",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:47Z",
+ "researched_at": "2026-11-21T19:12:29Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable cultural researcher and practitioner grounded in Moroccan musical history.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Gnawa",
+   "Gnaoua",
+   "Gnawa Lila",
+   "Moroccan Sufi music",
+   "كناوة"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Gnawa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Iron Castanets and the Night of Trance",
+     "This is Gnawa. 16th-17th century emergence."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (_Hp5SCDUMlA)",
+     "Title card: Gnawa · Morocco · 16th-17th century emergence"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Gnawa music emerged in Morocco from traditions of enslaved West Africans displaced through the trans-Saharan slave trade between the 11th and 17th centuries.",
+     "The population originates from a broad region extending from Senegal to Chad and from Mali to Southern Nigeria, maintaining historical links with the royal Black Guard of Morocco."
+    ],
+    "on_screen": [
+     "Map: Morocco · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performances occur during lila or derdeba, all-night communal ceremonies of prayer, sacrifice, and healing held from late evening until sunrise.",
+     "The ritual aims to reintegrate and balance the main powers of the human body through engagement with spiritual entities.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Gnawa Marrakesh London - Street Performers - Moroccan Music.webm (https://upload.wikimedia.org/wikipedia/commons/3/35/Gnawa_Marrakesh_London_-_Street_Performers_-_Moroccan_Music.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The ceremony begins with an opening consecration known as the aâda, where musicians perform a swirling acrobatic dance while playing the krakeb castanets.",
+     "During the lila, participants enter an ecstatic trance state called jedba, performing specialized dances corresponding to the seven families of mluk spirits.",
+     "Watch for Aâda opening dance."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (_Hp5SCDUMlA)",
+     "Captions name each signature move as it appears",
+     "Formation: zriba group formation around maâlem and moqadma"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Central instruments include the hajhuj (also called guembri or sentir), a three-stringed lute played with a drop-thumb frailing technique, and the qraqab (krakeb), heavy iron castanets.",
+     "Rural settings also utilize large tbel drums, while melodies emphasize the tonic and fifth with pitch-flattening around the third and seventh degrees.",
+     "Listen for the qraqab, krakeb, hajhuj, guembri.",
+     "The pulse is interplay between triple and duple meters.",
+     "Throbbing bass drone from the guembri's freely vibrating string combined with the metallic, telegraphic percussive patterns of iron krakeb castanets and repeating vocal chants."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: The Splendid Master Gnawa Musicians of Morocco — Abdellah El Gourd and Randy Weston",
+     "Waveform or rhythm-pattern graphic: seven musical patterns, seven melodic and rhythmic cells"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Urban ceremonies feature colourful, embroidered costumes, and dancers are covered by veils of seven different colours corresponding to the specific mluk spirits being invoked.",
+     "Rural practices are characterized by white attire with specific accessories."
+    ],
+    "on_screen": [
+     "Image gallery: 5 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Prominent maâlems include Mahmoud Gania ('the King'), Hamid El Kasri, H'mida Boussou, Chérif Regragui, Allal Soudani, Abdellah El Gourd, and Abdeslam Alikkane, many of whom have bridged traditional rituals with international jazz and world music collaborations.",
+     "Maâlems often blend regional styles, such as Gharbaoui from Rabat, Marsaoui from Essaouira, and Soussi or Berber styles from southern Morocco, combining local musical flavors into their repertoire.",
+     "Gnawa maintains spiritual and musical ties to West African traditions such as the Hausa halam lute, while existing as a distinct Moroccan Sufi brotherhood tradition recognized by UNESCO."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Gnawa is same region of Taskiwin: Traditional Moroccan ritual dance from the Atlas Mountains."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Gnawa features sacred possession rituals (jedba and lila) involving spiritual entities (mluk) and animal sacrifice; outsiders must respect the spiritual boundaries of these healing ceremonies."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the UNESCO-listed Gnawa tradition of Morocco through its hypnotic lila ceremonies, master musicians, and ancestral West African roots.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "interplay between triple and duple meters",
+  "rhythm_pattern": "seven musical patterns, seven melodic and rhythmic cells",
+  "instruments": [
+   "qraqab",
+   "krakeb",
+   "hajhuj",
+   "guembri",
+   "gimbri",
+   "sentir",
+   "tbel",
+   "gogo"
+  ],
+  "vocal_style": "short call-response refrains, repeating phrases",
+  "musical_form": "suites for specific mluk spirits",
+  "mood": [
+   "trance",
+   "healing",
+   "ecstatic",
+   "hypnotic"
+  ],
+  "sound_description": "Throbbing bass drone from the guembri's freely vibrating string combined with the metallic, telegraphic percussive patterns of iron krakeb castanets and repeating vocal chants.",
+  "listen_before_composing": [
+   "The Splendid Master Gnawa Musicians of Morocco — Abdellah El Gourd and Randy Weston"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Gnawa (Morocco). Meter interplay between triple and duple meters. Rhythm pattern: seven musical patterns, seven melodic and rhythmic cells. Instruments: qraqab, krakeb, hajhuj, guembri, gimbri, sentir, tbel, gogo. Vocal style: short call-response refrains, repeating phrases. Form: suites for specific mluk spirits. Mood: trance, healing, ecstatic, hypnotic. It should sound like this: Throbbing bass drone from the guembri's freely vibrating string combined with the metallic, telegraphic percussive patterns of iron krakeb castanets and repeating vocal chants. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "_Hp5SCDUMlA",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Urban ceremonies feature colourful, embroidered costumes, and dancers are covered by veils of seven different colours corresponding to the specific mluk spirits being invoked. Rural practices are characterized by white attire with specific accessories.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGnaoua_in_a_North_African_Interior.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B9%D9%84%D9%85_%D8%A7%D9%84%DA%AF%D9%86%D8%A7%D9%88%D8%A9.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A%D9%81%D9%86%D8%A7%D9%86_%D9%83%D9%8B%D9%86%D8%A7%D9%88%D9%8A_%D9%81_%D8%B3%D9%88%D8%B1_%D8%B3%D9%84%D8%A7.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Gnaoua_in_a_North_African_Interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Gnaoua_in_a_North_African_Interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Rudolf Ernst / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGnaoua_in_a_North_African_Interior.jpg",
+    "description": "Gnaoua in a North African Interior"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%D9%85%D8%B9%D9%84%D9%85_%D8%A7%D9%84%DA%AF%D9%86%D8%A7%D9%88%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D9%85%D8%B9%D9%84%D9%85_%D8%A7%D9%84%DA%AF%D9%86%D8%A7%D9%88%D8%A9.jpg/1280px-%D9%85%D8%B9%D9%84%D9%85_%D8%A7%D9%84%DA%AF%D9%86%D8%A7%D9%88%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Sambasoccer27 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B9%D9%84%D9%85_%D8%A7%D9%84%DA%AF%D9%86%D8%A7%D9%88%D8%A9.jpg",
+    "description": "A gnawa performer dressed in traditional gnawa"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/%D9%81%D9%86%D8%A7%D9%86_%D9%83%D9%8B%D9%86%D8%A7%D9%88%D9%8A_%D9%81_%D8%B3%D9%88%D8%B1_%D8%B3%D9%84%D8%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%D9%81%D9%86%D8%A7%D9%86_%D9%83%D9%8B%D9%86%D8%A7%D9%88%D9%8A_%D9%81_%D8%B3%D9%88%D8%B1_%D8%B3%D9%84%D8%A7.jpg/1280px-%D9%81%D9%86%D8%A7%D9%86_%D9%83%D9%8B%D9%86%D8%A7%D9%88%D9%8A_%D9%81_%D8%B3%D9%88%D8%B1_%D8%B3%D9%84%D8%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Anass Sedrati / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%D9%81%D9%86%D8%A7%D9%86_%D9%83%D9%8B%D9%86%D8%A7%D9%88%D9%8A_%D9%81_%D8%B3%D9%88%D8%B1_%D8%B3%D9%84%D8%A7.jpg",
+    "description": "Man playing a guembri in Salé, Morocco."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mehdi_Qamoum_at_the_Gnaoua_festival_of_Berlin_2019_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mehdi_Qamoum_at_the_Gnaoua_festival_of_Berlin_2019_01.jpg/1280px-Mehdi_Qamoum_at_the_Gnaoua_festival_of_Berlin_2019_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Daniela Incoronato / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMehdi_Qamoum_at_the_Gnaoua_festival_of_Berlin_2019_01.jpg",
+    "description": "The traditional Gnawa musician Mehdi Qamoum (aka Medicament/The cure) playing the folk instrument Guembri (Gnawa bas slute), live on stage during the Gnawa festival of Berlin 2019."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ancient_Gnawa_amazigh.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ancient_Gnawa_amazigh.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9 / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAncient_Gnawa_amazigh.png",
+    "description": "Maroc Ancient Gnawa amazigh"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Gnawa Marrakesh London - Street Performers - Moroccan Music.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Gnawa_Marrakesh_London_-_Street_Performers_-_Moroccan_Music.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Street Performers / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Gnawa music of Algeria 01.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Gnawa_music_of_Algeria_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Muhammed amine benloulou / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gnawa music of Algeria 02.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Gnawa_music_of_Algeria_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Muhammed amine benloulou / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gnawa music of Algeria 03.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Gnawa_music_of_Algeria_03.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Muhammed amine benloulou / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gnawa celebrates the Amazigh New Year.mpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gnawa_celebrates_the_Amazigh_New_Year.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "مصطفى ملو / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Diwane Zraoula.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Diwane_Zraoula.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Dezedien / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Busso Ganga. Musica e danze delle confraternite Gnawa del Marocco: 4 dicembre 1992 - Multisala via dello Scalo",
+    "url": "https://archive.org/details/19921204.sm121.busso.ganga",
+    "year": 1992,
+    "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Heavy iron qraqab castanets striking together",
+   "Colourful ceremonial veils and embroidered costumes",
+   "The box-shaped guembri lute"
+  ],
+  "costume_notes": "Urban ceremonies feature colourful, embroidered costumes, and dancers are covered by veils of seven different colours corresponding to the specific mluk spirits being invoked. Rural practices are characterized by white attire with specific accessories.",
+  "setting_notes": "Performances occur during lila or derdeba, all-night communal ceremonies of prayer, sacrifice, and healing held from late evening until sunrise. The ritual aims to reintegrate and balance the main powers of the human body through engagement with spiritual entities.",
+  "map": {
+   "country": "Morocco",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
+  "counting": "count the interplay between triple and duple meters bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "loosen those hips",
+   "connect with the earth"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gnawa_music",
+  "https://www.wikidata.org/wiki/Q2000173",
+  "https://es.wikipedia.org/wiki/Música_gnawa",
+  "https://fr.wikipedia.org/wiki/Musique_gnaoua",
+  "https://it.wikipedia.org/wiki/Musica_gnawa",
+  "https://ich.unesco.org/en/RL/01170"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "22cbabff2a6edebf201848ca378a8eb20ee01ee4d648d7f4efb98497089e5410",
+ "hero_checked": "pass"
+}

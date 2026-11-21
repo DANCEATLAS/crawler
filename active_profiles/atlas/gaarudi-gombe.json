@@ -1,0 +1,134 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "technique not described in sources",
+      "difficulty": "advanced",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "Linear street procession or open festival square navigation.",
+      "hips_and_torso": "Torso stabilizes and sways a 40 kg wooden-and-bamboo frame extending 10 to 12 feet high.",
+      "levels_and_jumps": "Strictly grounded movement due to carrying heavy 40 kg load.",
+      "partnering": "Solo dancer inside frame; structural rotation among multiple male dancers over long durations.",
+      "posture": "Upright load-bearing posture inside a vertical frame supported on shoulders.",
+      "signature_moves": [
+        {
+          "description": "Swaying the 10 to 12 foot bamboo giant frame from side to side while balancing it on shoulders.",
+          "name": "Frame Sway"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid losing balance or sudden head tilts that could destabilize the heavy upper frame structure."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "humorous",
+        "processional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Position body underneath the central frame opening and raise the frame onto both shoulders.",
+        "Align eyes with the viewing portal in the lower section of the frame structure.",
+        "Execute basic forward procession steps while stabilizing the 40 kg frame load with upper body balance.",
+        "Rotate frame left and right using upper torso sway to animate the giant doll face for public spectators."
+      ],
+      "formation": "Street procession carrying giant framework individual doll-suits.",
+      "level_notes": "Requires significant physical endurance and upper-body load-bearing capability to balance structures up to 40 kg over long duration.",
+      "rhythm": "technique not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "332754538dcd9aafea463536e18aea6a850ea8bcc6c31c4a7319a4c70acd2127",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific step patterns or footwork sequences executed by dancers balancing the 40 kg frame? Evidence needed: Field documentation or instructional breakdown of Karnataka folk dance procession techniques."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific percussion instruments and rhythmic tempos accompany the Gaarudi Gombe procession during Mysore Dasara? Evidence needed: Video recordings or musicological studies of Mysore Dasara folk processions featuring Gaarudi Gombe performances."
+    ]
+  },
+  "id": "atlas:gaarudi-gombe",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gaarudi Gombe",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f8793686ebb5ce40",
+      "next_evidence": "Video recordings or musicological studies of Mysore Dasara folk processions featuring Gaarudi Gombe performances.",
+      "question": "What specific percussion instruments and rhythmic tempos accompany the Gaarudi Gombe procession during Mysore Dasara?",
+      "source": "https://en.wikipedia.org/wiki/Gaarudi_Gombe",
+      "status": "candidate_unreviewed",
+      "why_needed": "Musical profile parameters (tempo, instruments, rhythm) are completely absent from the current text source."
+    },
+    {
+      "domain": "research",
+      "id": "67ab14268f33b2f6",
+      "next_evidence": "Field documentation or instructional breakdown of Karnataka folk dance procession techniques.",
+      "question": "What are the specific step patterns or footwork sequences executed by dancers balancing the 40 kg frame?",
+      "source": "https://en.wikipedia.org/wiki/Gaarudi_Gombe",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile details like footwork and tempo feel are missing, preventing the creation of adaptation ladders and interactive drills."
+    }
+  ],
+  "research_file": "research_results/gaarudi-gombe.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gaarudi-gombe",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gaarudi_Gombe",
+    "https://www.wikidata.org/wiki/Q5515224"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

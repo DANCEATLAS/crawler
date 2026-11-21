@@ -54,16 +54,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    },
    {
     "key": "arms",
@@ -72,17 +68,166 @@
    {
     "key": "formation",
     "label": "formation and use of space"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "036f1b9c9e88c919",
+ "lessons": [
+  {
+   "youtube_id": "nL8g1yUgmO8",
+   "url": "https://www.youtube.com/watch?v=nL8g1yUgmO8",
+   "title": "How to Crip Walk in 2022 | Dance Tutorial",
+   "channel": "Lord Hec",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces himself and the dance."
+    },
+    {
+     "t": "0:32",
+     "seconds": 32,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the first step, the 'scoopty'."
+    },
+    {
+     "t": "1:10",
+     "seconds": 70,
+     "segment": "slow_practice",
+     "note": "The teacher practices the first step in slow motion."
+    },
+    {
+     "t": "1:51",
+     "seconds": 111,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the second step, the 'shifty'."
+    },
+    {
+     "t": "3:54",
+     "seconds": 234,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the third step, the 'key and lock'."
+    },
+    {
+     "t": "7:12",
+     "seconds": 432,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the final step, a reverse movement."
+    },
+    {
+     "t": "7:42",
+     "seconds": 462,
+     "segment": "recap",
+     "note": "The teacher reviews all the steps together."
+    }
+   ],
+   "steps": [
+    {
+     "name": "scoopty",
+     "counts": "1-2",
+     "description": "A step where the left leg goes behind the right leg."
+    },
+    {
+     "name": "shifty",
+     "counts": "1-2",
+     "description": "A step involving a shifting motion with the upper body."
+    },
+    {
+     "name": "key and lock",
+     "counts": "1-2",
+     "description": "A step where the right leg goes behind the left leg and pivots on the heel."
+    },
+    {
+     "name": "reverse",
+     "counts": "1-2",
+     "description": "A step where the feet move in a reverse pattern."
+    }
+   ],
+   "cues": [
+    "left right",
+    "heel toe",
+    "up down"
+   ],
+   "images": [
+    "sauce",
+    "key and lock"
+   ],
+   "common_mistakes": [
+    "sitting down while dancing",
+    "watching the video while on the toilet"
+   ],
+   "teacher_style": "The teacher is energetic and uses a casual, conversational tone to keep the lesson engaging. He frequently encourages viewers to practice and emphasizes the importance of mastering the basics.",
+   "distinctive_method": "The teacher uses a 'sauce' metaphor to describe adding personal flair to the dance.",
+   "what_works": [
+    "The teacher breaks down each step into simple, manageable parts.",
+    "The teacher uses clear, repetitive cues."
+   ],
+   "what_hinders": [
+    "The teacher's fast-paced, energetic style might be overwhelming for some learners."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher introduces the dance with a demonstration.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 32,
+     "end_s": 40,
+     "topic": "teaching",
+     "observation": "The teacher breaks down the first step.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 110,
+     "end_s": 120,
+     "topic": "teaching",
+     "observation": "The teacher practices the first step in slow motion.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 151,
+     "end_s": 160,
+     "topic": "teaching",
+     "observation": "The teacher breaks down the second step.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 394,
+     "end_s": 400,
+     "topic": "teaching",
+     "observation": "The teacher breaks down the third step.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "a40706d9d51e292f",
  "updated": "2026-11-21"
 }

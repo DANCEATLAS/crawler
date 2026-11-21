@@ -96,6 +96,19 @@
    "checked_at": "2026-11-15T17:59:11Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "1FPzXOC7gsY",
+    "title": "Learn Bhangra Dance Online Tutorial For Intermediate Dancers | Sammi Step By Step | Lesson 13",
+    "channel": "Learn Bhangra",
+    "level": "intermediate",
+    "pos": 1,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "khattak-dance",
    "bharatanatyam",
@@ -247,7 +260,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -259,28 +272,16 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    }
   ],
   "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
    "rhythm": "lesson",
+   "sound": "performance",
    "mistakes": "lesson",
    "study_video": "lesson"
   }
@@ -368,6 +369,153 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "cWRp7GglFVY",
+   "url": "https://www.youtube.com/watch?v=cWRp7GglFVY",
+   "title": "Learn Sammi Step | Bhangra tutorial | Easy bhangra step | Gurkirat saggu | Learn bhangra",
+   "channel": "Gurkirat Saggu",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "Punjabi",
+   "counting_scheme": "1-2-3-and-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Demonstration of the Sammi step"
+    },
+    {
+     "t": "0:09",
+     "seconds": 9,
+     "segment": "intro",
+     "note": "Greeting and introduction of the tutorial"
+    },
+    {
+     "t": "1:44",
+     "seconds": 104,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of footwork and upper body for the Sammi step"
+    },
+    {
+     "t": "4:36",
+     "seconds": 276,
+     "segment": "music_practice",
+     "note": "Practicing the step to Bhangra music with beat"
+    },
+    {
+     "t": "6:51",
+     "seconds": 411,
+     "segment": "recap",
+     "note": "Final advice and wrap-up"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Sammi",
+     "counts": "1-2-3-4",
+     "description": "Left leg starts, knee lifts with alternating clapping and body movement"
+    }
+   ],
+   "cues": [
+    "1 2 3 and 4"
+   ],
+   "teacher_style": "The teacher breaks down Bhangra steps step-by-step with patient explanation and demonstrations. He encourages viewers to practice and leave comments for help.",
+   "distinctive_method": "Combines detailed footwork breakdown with upper body posture adjustments and facial expressions specifically for Bhangra.",
+   "what_works": [
+    "Clear counts and step-by-step breakdown of leg and hand movements"
+   ],
+   "what_hinders": [
+    "No mirror view shown"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 9,
+     "topic": "movement",
+     "observation": "Full demonstration of Sammi step facing front",
+     "viewpoint": "front, unknown mirror",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 211,
+     "end_s": 218,
+     "topic": "teaching",
+     "observation": "Demonstrating leg movement counts 1 to 4 slowly",
+     "viewpoint": "front, unknown mirror",
+     "cannot_infer": "full foot pressure",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "xP6hSPLVvQc",
+   "url": "https://www.youtube.com/watch?v=xP6hSPLVvQc",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "Indoor stage with wooden flooring, backdrop screen, and theatrical lighting in front of a seated audience.",
+    "dancers": "Group of 8 female dancers.",
+    "formation_and_space": "Horizontal line across the stage shifting into a circular formation and back.",
+    "posture": "Upright torso with slightly bent knees and weight shifting dynamically.",
+    "footwork": "Rhythmic stepping and pivoting on the beat in time with the music.",
+    "arms_and_hands": "Arms raised and gesturing while holding small clay pots (matkas).",
+    "hips_and_torso": "Subtle hip movement and torso turns accompanying the stepping and arm gestures.",
+    "partnering": "None, performed in a group formation.",
+    "levels_jumps_turns": "Frequent spins and occasional low dips toward the floor.",
+    "costume_and_props": "Colorful traditional long skirts, matching tops, and dupattas (scarves) covering the head; holding small clay pots.",
+    "cannot_infer": "Exact foot placements and subtle weight shifts are obscured by wide stage shots and fast skirt movement.",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "dholak",
+      "synthesizer"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 27,
+      "end_s": 33,
+      "what": "Dancers spin in a circle while holding clay pots and gesturing with one hand."
+     },
+     {
+      "start_s": 103,
+      "end_s": 110,
+      "what": "Dancers pivot in a circle holding clay pots and raising one arm high."
+     },
+     {
+      "start_s": 131,
+      "end_s": 137,
+      "what": "Dancers balance clay pots on their heads while walking in a circle."
+     },
+     {
+      "start_s": 198,
+      "end_s": 204,
+      "what": "Dancers weave in a circle holding clay pots out to the side."
+     },
+     {
+      "start_s": 232,
+      "end_s": 239,
+      "what": "Dancers line up across the stage, stepping rhythmically with arms raised."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
@@ -379,6 +527,6 @@
   "polished": false,
   "file": "episodes/sammi.json"
  },
- "fingerprint": "911e4357e243a7fd",
+ "fingerprint": "1f39a06b1ce9cc57",
  "updated": "2026-11-21"
 }

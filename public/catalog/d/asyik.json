@@ -181,28 +181,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 11,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -213,15 +197,69 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "oXDH4EMiRHY",
+   "url": "https://www.youtube.com/watch?v=oXDH4EMiRHY",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor traditional wooden room with mats on the floor, accompanied by seated male musicians",
+    "dancers": "six female dancers performing together in a group",
+    "formation_and_space": "group sits on the floor in a semi-circle or curved arrangement around the musicians; upper body and arm movements are synchronized",
+    "posture": "kneeling or sitting on the floor with upright torso and poised, graceful carriage",
+    "footwork": "sitting on the floor; footwork is not visible or used",
+    "arms_and_hands": "expressive and fluid arm gestures, with hands flexing at the wrists, delicate finger movements, and graceful sweeps around the head and shoulders",
+    "hips_and_torso": "torso remains relatively upright with subtle shifts and bends, hips stationary while seated",
+    "partnering": "none; solo movements performed in unison as a group",
+    "levels_jumps_turns": "low level only; seated on the floor throughout with no jumps or turns",
+    "costume_and_props": "ornate traditional Asian court dance attire including elaborate golden crowns or headdresses, patterned sarongs, decorative vests, and jewelry",
+    "cannot_infer": "footwork and lower body weight transfer cannot be seen as dancers remain seated on the floor throughout",
+    "music_heard": {
+     "instruments": [
+      "flute",
+      "drums",
+      "gong"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 16,
+      "end_s": 25,
+      "what": "dancers enter and move with gliding steps before kneeling in formation"
+     },
+     {
+      "start_s": 138,
+      "end_s": 150,
+      "what": "seated dancers sweep their arms fluidly past their faces with expressive hand gestures"
+     },
+     {
+      "start_s": 221,
+      "end_s": 230,
+      "what": "seated upper body sway with synchronized wrist and finger articulation"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -231,6 +269,6 @@
   "polished": false,
   "file": "episodes/asyik.json"
  },
- "fingerprint": "04a88d00f2e19412",
+ "fingerprint": "05ae748dafd6c064",
  "updated": "2026-11-21"
 }

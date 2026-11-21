@@ -1,13 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "playing krakeb castanets in continuous rhythmic patterns",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "zriba group formation around maâlem and moqadma",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "acrobatic swirling during the opening aâda",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Swirling acrobatic dance performed by musicians while playing the krakeb during the opening consecration.",
+          "name": "Aâda opening dance"
+        }
+      ],
+      "tempo_feel": "gradual build to ecstatic trance",
+      "what_to_avoid": "outsiders must not disrupt the sacred healing space or imitate trance possession casually."
+    },
+    "music_profile": {
+      "instruments": [
+        "qraqab",
+        "krakeb",
+        "hajhuj",
+        "guembri",
+        "gimbri",
+        "sentir",
+        "tbel",
+        "gogo"
+      ],
+      "meter": "interplay between triple and duple meters",
+      "mood_keywords": [
+        "trance",
+        "healing",
+        "ecstatic",
+        "hypnotic"
+      ],
+      "musical_form": "suites for specific mluk spirits",
+      "reference_recordings": [
+        {
+          "artist": "Abdellah El Gourd and Randy Weston",
+          "title": "The Splendid Master Gnawa Musicians of Morocco"
+        }
+      ],
+      "rhythm_pattern": "seven musical patterns, seven melodic and rhythmic cells",
+      "sound_description": "Throbbing bass drone from the guembri's freely vibrating string combined with the metallic, telegraphic percussive patterns of iron krakeb castanets and repeating vocal chants.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "short call-response refrains, repeating phrases"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Continuous rhythmic krakeb castanet striking",
+        "Aâda opening acrobatic swirling movement",
+        "Jedba ecstatic trance footwork and body motion"
+      ],
+      "formation": "Zriba group circle gathered around the maâlem and moqadma",
+      "level_notes": "not described in sources",
+      "rhythm": "Interplay between triple and duple meters with seven distinct rhythmic cells"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "8a94a34de9c1c0a63688e0093312d32290804d42d5913ea0b23e7c36c7ac81c9",
+  "fingerprint": "7ceebf64fab0b7685ab9d56dd2cb6720c610144b4655fadc8f4a0499a33970f3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +78,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How do distinct regional Moroccan variants (such as Marsaoui from Essaouira, Gharbaoui from Rabat, and Marrakchi) differentiate their movement vocabularies during the lila? Evidence needed: Field recordings and anthropological studies documenting local zriba spatial configurations and step variations."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +107,18 @@
   ],
   "music_options": [],
   "name": "Gnawa",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "31d91b1818bcd3fc",
+      "next_evidence": "Field recordings and anthropological studies documenting local zriba spatial configurations and step variations.",
+      "question": "How do distinct regional Moroccan variants (such as Marsaoui from Essaouira, Gharbaoui from Rabat, and Marrakchi) differentiate their movement vocabularies during the lila?",
+      "source": "https://en.wikipedia.org/wiki/Gnawa_music",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources note different stylistic origins of maâlems but lack granular breakdowns of specific footwork or body configurations per region."
+    }
+  ],
+  "research_file": "research_results/gnawa.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +129,13 @@
   },
   "slug": "gnawa",
   "sources": [
-    "https://en.wikipedia.org/wiki/Gnawa_music"
+    "https://en.wikipedia.org/wiki/Gnawa_music",
+    "https://www.wikidata.org/wiki/Q2000173",
+    "https://es.wikipedia.org/wiki/Música_gnawa",
+    "https://fr.wikipedia.org/wiki/Musique_gnaoua",
+    "https://it.wikipedia.org/wiki/Musica_gnawa",
+    "https://ich.unesco.org/en/RL/01170"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

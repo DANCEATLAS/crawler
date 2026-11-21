@@ -1,6 +1,6 @@
 # Harlem shake — episode pack
 
-*Status: draft · built 2026-11-20 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; two or more connections; teaching steps written out
 
@@ -125,8 +125,8 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Teachers of this dance warn against: confusing the order of the boom-boom-ba
 NARRATION: Teachers of this dance warn against: being too stiff and trying to lock up instead of staying loose
+NARRATION: Teachers of this dance warn against: confusing the order of the boom-boom-ba
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -190,8 +190,8 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Teachers of this dance warn against: confusing the order of the boom-boom-ba
 NARRATION: Teachers of this dance warn against: being too stiff and trying to lock up instead of staying loose
+NARRATION: Teachers of this dance warn against: confusing the order of the boom-boom-ba
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -255,8 +255,8 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Teachers of this dance warn against: confusing the order of the boom-boom-ba
 NARRATION: Teachers of this dance warn against: being too stiff and trying to lock up instead of staying loose
+NARRATION: Teachers of this dance warn against: confusing the order of the boom-boom-ba
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -301,7 +301,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8
 Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full
-Cues: boom-boom-ba; get used to that; pay attention to those technical terms; keep it loose; throw that shoulder down; switch
-Common mistakes the studied teachers name: confusing the order of the boom-boom-ba; being too stiff and trying to lock up instead of staying loose
+Cues: keep it loose; throw that shoulder down; switch; boom-boom-ba; get used to that; pay attention to those technical terms
+Common mistakes the studied teachers name: being too stiff and trying to lock up instead of staying loose; confusing the order of the boom-boom-ba
 
 Sources (5): https://en.wikipedia.org/wiki/Harlem_shake_(dance); https://www.wikidata.org/wiki/Q5169794; https://es.wikipedia.org/wiki/Harlem_shake_(baile); https://fr.wikipedia.org/wiki/Harlem_shake_(danse); https://it.wikipedia.org/wiki/Harlem_shake_(danza)

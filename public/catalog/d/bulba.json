@@ -203,36 +203,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 11,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -243,15 +219,74 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "ocFrDqy0zSE",
+   "url": "https://www.youtube.com/watch?v=ocFrDqy0zSE",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "theatrical stage with a painted backdrop of a rural landscape",
+    "dancers": "one male solo dancer",
+    "formation_and_space": "solo dancer moving across the stage",
+    "posture": "upright torso, knees bent in deep squats, weight shifts rapidly",
+    "footwork": "fast, intricate steps including hops, kicks, and rapid weight changes on the beat; exact footwork is difficult to see due to camera distance",
+    "arms_and_hands": "arms extended to the sides, overhead, or crossed at the chest; hands are open",
+    "hips_and_torso": "torso remains relatively upright while the legs perform deep squats and jumps",
+    "partnering": "none",
+    "levels_jumps_turns": "frequent jumps, deep squats, and turns",
+    "costume_and_props": "traditional-style costume with a white embroidered shirt, wide red trousers, and a sash",
+    "cannot_infer": "low resolution and camera distance make it impossible to see specific footwork details or precise weight transfer",
+    "music_heard": {
+     "instruments": [
+      "orchestra"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 13,
+      "end_s": 15,
+      "what": "a deep squat with arms crossed at the chest, followed by a jump with legs extended"
+     },
+     {
+      "start_s": 24,
+      "end_s": 26,
+      "what": "a high jump with legs tucked, landing in a deep squat"
+     },
+     {
+      "start_s": 41,
+      "end_s": 43,
+      "what": "a high jump with legs extended to the sides"
+     },
+     {
+      "start_s": 102,
+      "end_s": 104,
+      "what": "a high jump with legs tucked, followed by a series of rapid kicks"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -261,6 +296,6 @@
   "polished": false,
   "file": "episodes/bulba.json"
  },
- "fingerprint": "258235608e95dcff",
+ "fingerprint": "be5db35aecf03b18",
  "updated": "2026-11-21"
 }

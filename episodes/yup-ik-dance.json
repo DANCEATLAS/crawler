@@ -1,0 +1,399 @@
+{
+ "slug": "yup-ik-dance",
+ "name": "Yup'ik dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-21T19:39:48Z",
+ "researched_at": "2026-11-21T18:19:10Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A respected elder or lead dancer from a village group, speaking with quiet authority and deep cultural pride.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Yup'ik dance",
+   "Yuraq",
+   "Yuraqing",
+   "Cup'ik dance",
+   "Cup'ig dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Yup'ik dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "After a century-long ban by missionaries who labeled it 'devil's frolic,' Yup'ik dance was revived in the 1980s, restoring the drum as the central pulse of the community.",
+     "This is Yup'ik dance. Ancient to present (revived 1980s)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Yup'ik dance · United States (Alaska) · Ancient to present (revived 1980s)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated as a communal activity in the qasgiq (community center) for ceremonies and festivals.",
+     "In the late 19th century, Christian missionaries banned the practice, labeling it 'heathen idol worship' and 'black art.' Russian Orthodox priests forbade village dance feasts as late as 1933.",
+     "The tradition saw a major revival starting in 1982 at St. Mary's to ensure the survival of cultural heritage."
+    ],
+    "on_screen": [
+     "Map: United States (Alaska) · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Dance is the heart of spiritual life, used to request survival needs, tell stories, or ridicule individuals through affectionate teasing.",
+     "Specific festivals include the Messenger Feast (kevgiq) and the Bladder Festival (nakaciuq).",
+     "It embodies the Yup'ik conception of the world and the connection between animals and spirits.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: College Gate Yup'ik Immersion Yuraq Dancers 2024 Education Center Holiday Performance (https://archive.org/details/asdk12ak-College_Gate_Yup_ik_Immersion_Yuraq_Dancers_2024_Education_Center_Holiday_Performance)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance follows a specific cultural format: men are typically in the front kneeling, while women stand in the back.",
+     "Dancers use hand-held fans (tegumiaq) made of woven grass or wooden hoops with feathers to accentuate fluid arm movements.",
+     "Rhythmic gestures are combined with storytelling and song.",
+     "Watch for Cauyarialnguq, Pamyua."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Linear rows with men in front and women behind; drummers at the very back."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The drum (cauyaq) is the only instrument used.",
+     "It consists of a round bentwood frame with a handle, traditionally covered with mammal stomach lining.",
+     "Listen for the Cauyaq (bentwood frame drum), Cauyaun (drum stick).",
+     "The sound is dominated by the resonant, sharp strike of a single or multiple frame drums hit from above, accompanying unison or melodic chanting in the Yup'ik language."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Drums of Winter (Uksuum Cauyai) — not described in sources",
+     "Waveform or rhythm-pattern graphic: Rhythmic beating of a frame drum from above."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Regalia includes the qaspeq (calico pullover), qaliq (fancy fur parka), nasqurrun (beaded headdress), and piluguuk (decorated boots).",
+     "Men use wooden fans with waterfowl or owl feathers, while women use woven grass or caribou fans.",
+     "Historically performed in the qasgiq, it is now performed at festivals and community centers."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Shamans (angalkut) were the primary leaders and mask-carvers who mediated with the spirit world.",
+     "Contemporary revival efforts were led by artists and elders in Negeqliq (St. Mary's) in 1982 to pass traditions to the youth.",
+     "Variants include Cup'ik dance (Chevak dialect) and Cup'ig dance (Nunivak Island).",
+     "The tradition is passed down through family lines, especially 'yurapiaq' (real dance) sequences which may be owned by individuals."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Yup'ik dance is sibling of Iñupiaq dance: Differs in drum technique (struck from below) and male posture (standing)."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Masked dances (nepcetat) represent powerful spirits and were historically mediated by shamans; some rituals are restricted or no longer practiced due to their high spiritual content."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness the rebirth of a forbidden tradition as the Yup'ik people reclaim their spiritual heritage through the pulse of the cauyaq.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic beating of a frame drum from above.",
+  "instruments": [
+   "Cauyaq (bentwood frame drum)",
+   "Cauyaun (drum stick)"
+  ],
+  "vocal_style": "Songs in Yup'ik language with specific verse and chorus structures.",
+  "musical_form": "Warm-up chorus, chorus, first verse, voiceless motion, second verse, encore (pamyua).",
+  "mood": [
+   "spiritual",
+   "communal",
+   "storytelling",
+   "rhythmic"
+  ],
+  "sound_description": "The sound is dominated by the resonant, sharp strike of a single or multiple frame drums hit from above, accompanying unison or melodic chanting in the Yup'ik language.",
+  "listen_before_composing": [
+   "Drums of Winter (Uksuum Cauyai) — not described in sources"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Yup'ik dance (United States (Alaska)). Rhythm pattern: Rhythmic beating of a frame drum from above.. Instruments: Cauyaq (bentwood frame drum), Cauyaun (drum stick). Vocal style: Songs in Yup'ik language with specific verse and chorus structures.. Form: Warm-up chorus, chorus, first verse, voiceless motion, second verse, encore (pamyua).. Mood: spiritual, communal, storytelling, rhythmic. It should sound like this: The sound is dominated by the resonant, sharp strike of a single or multiple frame drums hit from above, accompanying unison or melodic chanting in the Yup'ik language. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Regalia includes the qaspeq (calico pullover), qaliq (fancy fur parka), nasqurrun (beaded headdress), and piluguuk (decorated boots). Men use wooden fans with waterfowl or owl feathers, while women use woven grass or caribou fans. Historically performed in the qasgiq, it is now performed at festivals and community centers.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACeremonial_mask_wearer_Nunivak_Curtis_LOC.JPG",
+    "https://commons.wikimedia.org/wiki/File%3ADrummer_Nunivak_Curtis_LOC.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AAlaska_Native_dancer_wearing_kuspuk.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ceremonial_mask_wearer_Nunivak_Curtis_LOC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ceremonial_mask_wearer_Nunivak_Curtis_LOC.JPG/1280px-Ceremonial_mask_wearer_Nunivak_Curtis_LOC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Edward S. Curtis / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACeremonial_mask_wearer_Nunivak_Curtis_LOC.JPG",
+    "description": "Ceremonial mask -- Nunivak.  A man wearing a ceremonial mask of the Nunivak style."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Drummer_Nunivak_Curtis_LOC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Drummer_Nunivak_Curtis_LOC.JPG/1280px-Drummer_Nunivak_Curtis_LOC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Edward S. Curtis / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADrummer_Nunivak_Curtis_LOC.JPG",
+    "description": "The drummer--Nunivak.  Nunivak native playing a very large drum."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Alaska_Native_dancer_wearing_kuspuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Alaska_Native_dancer_wearing_kuspuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Public Affairs Office Fort Wainwright from USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAlaska_Native_dancer_wearing_kuspuk.jpg",
+    "description": "Bernadine Keyes from Kotlik, dancing with the University of Alaska, Fairbanks Inu-Yupiaq dance group performing at Fort Wainwright on November 26th, 2013 during Alaska Native Heritage Month"
+   }
+  ],
+  "footage": [
+   {
+    "title": "College Gate Yup'ik Immersion Yuraq Dancers 2024 Education Center Holiday Performance",
+    "url": "https://archive.org/details/asdk12ak-College_Gate_Yup_ik_Immersion_Yuraq_Dancers_2024_Education_Center_Holiday_Performance",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "The circular frame drum",
+   "Feathered fans blurring in motion",
+   "Beaded nasqurrun headdresses",
+   "The contrast of calico fabric against snow"
+  ],
+  "costume_notes": "Regalia includes the qaspeq (calico pullover), qaliq (fancy fur parka), nasqurrun (beaded headdress), and piluguuk (decorated boots). Men use wooden fans with waterfowl or owl feathers, while women use woven grass or caribou fans. Historically performed in the qasgiq, it is now performed at festivals and community centers.",
+  "setting_notes": "Dance is the heart of spiritual life, used to request survival needs, tell stories, or ridicule individuals through affectionate teasing. Specific festivals include the Messenger Feast (kevgiq) and the Bladder Festival (nakaciuq). It embodies the Yup'ik conception of the world and the connection between animals and spirits.",
+  "map": {
+   "country": "United States (Alaska)",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 12,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "kick",
+   "inside",
+   "out",
+   "keep it down",
+   "loosen those hips",
+   "connect with the earth"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yup%CA%BCik_dance",
+  "https://www.wikidata.org/wiki/Q20712759"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "ed898092cfd30fba228dc752aba6c6e852fa177731160aa5d89dcfe124b2f6c5",
+ "hero_checked": null
+}

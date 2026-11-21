@@ -2,19 +2,24 @@
  "contract": "da_dance_v1",
  "slug": "ballos",
  "name": "Ballos",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
+  "GR",
   "IT"
  ],
  "card": {
   "slug": "ballos",
   "name": "Ballos",
   "country": "Italy",
+  "country_code": "GR",
+  "flag_emoji": "🇬🇷",
   "region": "Europe",
-  "tagline": "Italy — Greek folk dance and a form of sirtos",
-  "profile": "The Ballos (Greek: Μπάλος) is a Greek folk dance and a form of sirtos. There are also different versions in other Balkan countries. The Ballos is of Greek origin, with ancient Greek elements. The name originates in the Italian ballo via Latin \"ballo\" which derives from the Greek verb \"βαλλίζω\" ballizo, \"to dance, to jump\"). The melody of a ballos is generally joyous and lyrical which is typical of the music of the Aegean Islands.",
-  "insight": "The Ballos (Greek: Μπάλος) is a Greek folk dance and a form of sirtos.",
+  "family": "folk-circle",
+  "era": "Traditional",
+  "tagline": "A Greek island courtship dance characterized by flirtation and lyrical melodies.",
+  "profile": "The Ballos is a traditional Greek couples' dance deeply rooted in the island culture of the Aegean. It functions as a choreographed courtship ritual, incorporating themes of attraction, pursuit, and eventual surrender. While it manifests in various forms across the islands, it is fundamentally a social dance that allows for both individual expression and collective participation.",
+  "insight": "On the Greek islands, the Ballos emerged as a courtship ritual where men, unable to approach women directly, used the dance to display prowess and pursue partners through a series of flirtatious figures.",
   "related": [
    "ballet",
    "tarantella",
@@ -24,14 +29,31 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ballos",
-   "Source: Ballos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballos"
+   "Source: Ballos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballos",
+   "https://www.wikidata.org/wiki/Q3561149"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ballos",
   "wikidata_qid": "Q3561149",
   "unesco": false,
   "hero_video_youtube_id": "YuaxA8EsFvI",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 8.4,
+  "last_researched_at": "2026-11-21T19:10:33Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The Ballos is a quintessential expression of Greek island culture, serving as a structured medium for courtship and social interaction. Its name is etymologically linked to the Greek verb 'ballizo', meaning 'to dance' or 'to jump', tracing a path through the Latin and Italian 'ballo'. Historically, the dance emerged from the social constraints of island life, where direct interaction between men and women was limited. The Ballos provided a culturally sanctioned space for men to approach women, allowing for the display of masculine prowess and the demonstration of feminine virtue through a series of stylized movements. The dance is inherently a couples' performance, though its execution varies significantly across different regions. In its simplest form, a single couple performs a sequence of spontaneous figures, while in more complex iterations, multiple couples may dance simultaneously, creating an atmosphere of shared social engagement. Some versions of the Ballos are introduced by a Sirtos, a common Greek dance form, while others incorporate intricate figures that have been compared to the European minuet. The emotional tone of the dance is highly dependent on the regional context. In the Aegean islands, the music is typically joyous and lyrical, reflecting the vibrant character of the local island music. In contrast, the Cypriot variant of the Ballos is distinct; it is performed primarily by men and is deeply interwoven with 'amane' type songs, which are based on the Byzantine scale. These Cypriot songs are characterized by their melancholy and require a highly skilled vocalist to execute properly. The dance serves as a narrative of courtship, moving through distinct phases of attraction, flirtation, pursuit, and rejection, before culminating in a symbolic capture and surrender. This progression is not merely a sequence of steps but a social performance that reflects the values and interpersonal dynamics of the community. Because the dance is so deeply embedded in the social fabric of the islands, it remains a popular tradition with a vast repertoire of songs. The Ballos continues to be a living tradition, maintained by the communities that value its role in preserving the history of island courtship and the lyrical heritage of the Aegean and beyond. Whether performed as a simple, spontaneous interaction or a complex, multi-couple display, the Ballos remains a vital link to the historical and cultural identity of the Greek islands.",
+  "album_candidates": [
+   {
+    "title": "Ti se mellei esenane",
+    "artist": "Muammer Ketencioglu",
+    "source": "https://en.wikipedia.org/wiki/Ballos",
+    "verified": false
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -60,6 +82,341 @@
    "bacchu-ber"
   ]
  },
- "fingerprint": "e570947029c9b47a",
+ "profile": {
+  "sections": {
+   "origins_and_history": "The dance originated in the island culture of Greece. The name derives from the Greek verb 'ballizo' (to dance or jump), passing through the Latin and Italian 'ballo'. It was developed as a way for men to flirt with women in a society where direct approach was restricted.",
+   "how_it_is_danced": "The dance is performed by couples. It can be danced by a single couple with spontaneous figures, by many couples simultaneously, or in a complex form with figures reminiscent of a minuet. In Cyprus, it is specifically a men's dance.",
+   "music_and_instruments": "Aegean music for the Ballos is generally joyous and lyrical. In Cyprus, the music is based on the Byzantine scale and features 'amane' type songs, which are described as sad and requiring a talented singer.",
+   "costume_and_setting": "not described in sources",
+   "occasions_and_meaning": "The dance is a courtship ritual. It represents attraction, flirtation, the display of masculine prowess and feminine virtue, pursuit, rejection, and eventual capture and surrender.",
+   "notable_figures": "not described in sources",
+   "regional_variants": "There are various forms across the Greek islands. The Cypriot version is a men's dance featuring amane songs, while Aegean versions are more joyous and lyrical.",
+   "lineage": "The Ballos is a form of Sirtos and is a subclass of Nisiotika."
+  },
+  "teaching": {
+   "basic_steps": [
+    "not described in sources"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "Couples (single or multiple)",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "The Ballos (Greek: Μπάλος) is a Greek folk dance and a form of sirtos.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   },
+   {
+    "text": "The name originates in the Italian ballo via Latin 'ballo' which derives from the Greek verb 'βαλλίζω' ballizo, 'to dance, to jump'.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   },
+   {
+    "text": "This couples' dance incorporates all the elements of courtship: attraction, flirtation, display of masculine prowess and feminine virtue, pursuit, and rejection followed by eventual capture and surrender.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   },
+   {
+    "text": "Its origin is in the island culture of Greece.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   },
+   {
+    "text": "The simplest is one in which a single couple goes through a series of spontaneous figures.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   },
+   {
+    "text": "In Cyprus the ballos is a men's dance and is interwoven with an amane type song based on the byzantine scale.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   },
+   {
+    "text": "The melody of a ballos is generally joyous and lyrical which is typical of the music of the Aegean Islands.",
+    "source": "https://en.wikipedia.org/wiki/Ballos"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Specific footwork and movement technique",
+   "Costume details",
+   "Specific musical instruments used in the Aegean vs Cyprus",
+   "Historical timeline of the dance's development"
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [],
+   "vocal_style": "Joyous and lyrical in the Aegean; sad and requiring a talented singer in Cyprus (amane style).",
+   "musical_form": "Songs based on the Byzantine scale in Cyprus.",
+   "mood_keywords": [
+    "joyous",
+    "lyrical",
+    "sad"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Ti se mellei esenane",
+     "artist": "Muammer Ketencioglu"
+    }
+   ],
+   "sound_description": "The music varies from joyous and lyrical Aegean island melodies to melancholic, vocal-heavy amane songs based on the Byzantine scale."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Couples, either single or multiple, moving in spontaneous or structured figures.",
+   "partnering": "Courtship-based interaction involving pursuit and surrender.",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "beginner",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Dance of Courtship: Unlocking the Ballos",
+   "logline": "Explore the flirtatious and storied tradition of the Ballos, a dance that turned island social constraints into a performance of pursuit and surrender.",
+   "beats": [
+    "Introduction to the island origins of the Ballos.",
+    "The etymology of the dance from 'ballizo'.",
+    "The courtship narrative: from attraction to capture.",
+    "Comparing the joyous Aegean style with the melancholic Cypriot amane.",
+    "The various forms: from single couples to minuet-like complexity.",
+    "The role of the singer in the Cypriot tradition."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Aegean island landscapes",
+    "Couples dancing in a social setting",
+    "Traditional musical instruments"
+   ],
+   "instructor_persona": "A cultural historian or traditional dance practitioner.",
+   "music_cue": "Ti se mellei esenane"
+  },
+  "connections": [
+   {
+    "name": "Sirtos",
+    "relation": "parent",
+    "note": "The Ballos is a form of Sirtos and is sometimes introduced by it."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Not derivable yet",
+    "standing_version": "Not derivable yet",
+    "tempo_and_range": "Not derivable yet",
+    "counts": "Not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "Not derivable yet",
+    "duration_minutes": "",
+    "counts": "Not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-21T19:10:33Z",
+  "qc_score": 8.4
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "UXN_eew90ho",
+   "url": "https://www.youtube.com/watch?v=UXN_eew90ho",
+   "title": "Su Passu Torrau - Video tutorial di ballo sardo | Ballamus nois ca sos ballos sunt sos nostros",
+   "channel": "Bye Sardegna",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "Italian",
+   "counting_scheme": "6 movimenti per battuta / 1-2-3-4-5-6",
+   "parts": [
+    {
+     "t": "0:22",
+     "seconds": 22,
+     "segment": "intro",
+     "note": "The host introduces the traditional Sardinian dance Su Passu Torrau of Mamoiada."
+    },
+    {
+     "t": "0:35",
+     "seconds": 35,
+     "segment": "context",
+     "note": "Explanation of what 'passu torrau' means in Sardinian dances."
+    },
+    {
+     "t": "1:35",
+     "seconds": 95,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of the 6 movements per musical bar for the male step."
+    },
+    {
+     "t": "3:58",
+     "seconds": 238,
+     "segment": "breakdown",
+     "note": "Demonstration and breakdown of the male steps with close-up footwork."
+    },
+    {
+     "t": "4:47",
+     "seconds": 287,
+     "segment": "breakdown",
+     "note": "Demonstration and breakdown of the female steps with close-up footwork."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Passo base maschile",
+     "counts": "6 movimenti",
+     "description": "Six-count step starting with weight on left, moving right then left with constant trembling."
+    },
+    {
+     "name": "Passo base femminile",
+     "counts": "6 movimenti",
+     "description": "Microscopic steps forward and backward following the same 6-count structure."
+    }
+   ],
+   "cues": [
+    "Destro destro sinistro destro sinistro sinistro"
+   ],
+   "images": [
+    "tremolio ritmico costante",
+    "passi microscopici"
+   ],
+   "teacher_style": "The teacher introduces and explains the historical context and characteristics of the dance while demonstrating couples in traditional costumes. He verbally breaks down the counts and footwork structure while close-up camera angles show the precise foot movements.",
+   "distinctive_method": "Combining cultural history and folklore explanations with microscopic footwork breakdowns in split-screen format.",
+   "what_works": [
+    "Use of close-up shots focusing entirely on the feet",
+    "Clear verbal counting synchronized with foot placement"
+   ],
+   "what_hinders": [
+    "The host talks over the demonstration without real-time voiceover matching the exact foot counts"
+   ],
+   "evidence": [
+    {
+     "start_s": 35,
+     "end_s": 41,
+     "topic": "movement",
+     "observation": "Dancer's feet standing together in traditional shoes.",
+     "viewpoint": "front close-up, unknown mirror",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 136,
+     "end_s": 155,
+     "topic": "movement",
+     "observation": "Dancer stepping right and left with close-up on footwear.",
+     "viewpoint": "back close-up, unknown mirror",
+     "cannot_infer": "full body posture",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 400,
+     "end_s": 435,
+     "topic": "movement",
+     "observation": "Male dancer performing solo steps with split screen showing upper body and foot close-up.",
+     "viewpoint": "front, unknown mirror",
+     "cannot_infer": "exact floor friction",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "YuaxA8EsFvI",
+   "url": "https://www.youtube.com/watch?v=YuaxA8EsFvI",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "indoor studio set with painted backdrop of a beach and sea",
+    "dancers": "four dancers: two men and two women in mixed pairs",
+    "formation_and_space": "couples dancing facing each other or side by side, moving in a small open space",
+    "posture": "upright torso, soft knees, weight shifts between feet",
+    "footwork": "step-touches, light hops, and low kicks or extensions on the beat; cannot see exact foot positions due to low resolution",
+    "arms_and_hands": "arms held open at shoulder height, holding hands with partner or placing hands on hips",
+    "hips_and_torso": "torso upright with occasional gentle turns and sways",
+    "partnering": "partners dance opposite each other, occasionally holding hands or embracing in close dance holds with lead and follow",
+    "levels_jumps_turns": "upright dancing with occasional deep knee bends (squats) by the men and turns under raised arms",
+    "costume_and_props": "women wear long red dresses with white aprons and head coverings; men wear white shirts, dark vests or jackets, red caps, and dark trousers or breeches",
+    "cannot_infer": "exact foot placement, precise weight distribution, and subtle upper body nuances due to video resolution and camera cuts",
+    "music_heard": {
+     "instruments": [
+      "violin",
+      "accordion",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 7,
+      "end_s": 15,
+      "what": "couples circling around each other with arms extended, stepping lightly to the music"
+     },
+     {
+      "start_s": 25,
+      "end_s": 28,
+      "what": "male dancer squatting low while facing his female partner"
+     },
+     {
+      "start_s": 49,
+      "end_s": 53,
+      "what": "partners in close embrace turning together smoothly"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 13,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/ballos.json"
+ },
+ "fingerprint": "4c02b034b7cb5d81",
  "updated": "2026-11-21"
 }

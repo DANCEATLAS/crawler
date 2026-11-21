@@ -205,32 +205,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 11,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -241,15 +221,71 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "5wEsNTvSJ_I",
+   "url": "https://www.youtube.com/watch?v=5wEsNTvSJ_I",
+   "analysed_on": "2026-11-21",
+   "observation": {
+    "setting": "an outdoor grassy lawn with a large castle-like building and trees in the background during daytime",
+    "dancers": "a group of young dancers including both male and female youths",
+    "formation_and_space": "groups shifting between lines, scattered formations, and circling patterns on the lawn",
+    "posture": "upright and erect torso, straight or slightly bent knees, weight distributed dynamically across feet",
+    "footwork": "quick stepping, heel-toe accents, and springy leg extensions synchronized to the music; exact subtle foot transitions obscured by camera angles",
+    "arms_and_hands": "arms held out to sides at shoulder height or curved gracefully with soft wrists; hands open or balled into loose fists; occasional partnering holds",
+    "hips_and_torso": "torso remains upright and largely still with controlled grace, minimal hip isolations",
+    "partnering": "intermittent partner contact, holding hands in circles and brief individual pairings",
+    "levels_jumps_turns": "upright standing levels with occasional small leaps, spirited turns, and spinning formations",
+    "costume_and_props": "boys wear grey patterned tunics, dark trousers, boots, and tall dark hats; girls wear long red dresses with gold embroidery, white veils/headscarves, and red caps",
+    "cannot_infer": "exact weight transfer details and subtle footwork articulation are obscured by distance and frequent camera cuts",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "violin",
+      "percussion",
+      "wind instruments"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 12,
+      "end_s": 17,
+      "what": "boys jump lightly in place while extending arms upward and outward with loose fists"
+     },
+     {
+      "start_s": 45,
+      "end_s": 52,
+      "what": "girls perform graceful arm extensions while stepping in a line with flowing long dresses"
+     },
+     {
+      "start_s": 147,
+      "end_s": 155,
+      "what": "dancers circle around each other with arms extended, skirts flaring dynamically"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -259,6 +295,6 @@
   "polished": false,
   "file": "episodes/qaytarma.json"
  },
- "fingerprint": "4b9fce42243ec48d",
+ "fingerprint": "63d403577c8d1a27",
  "updated": "2026-11-21"
 }

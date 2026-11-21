@@ -1,6 +1,6 @@
 # electric boogaloo — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -327,7 +327,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 3-2-1-go
 Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full
-Cues: chin to the shoulders; head on the ball; bring another shoulder around; put the energy in on the arms; stop on it; tap tap; shake shake; fist fist; california
+Cues: tap tap; shake shake; fist fist; california; chin to the shoulders; head on the ball; bring another shoulder around; put the energy in on the arms; stop on it
 Common mistakes the studied teachers name: forgetting the sequence of steps; getting the timing wrong
 
 Sources (3): https://en.wikipedia.org/wiki/Electric_boogaloo_(dance); https://www.wikidata.org/wiki/Q354363; https://de.wikipedia.org/wiki/Electric_Boogie

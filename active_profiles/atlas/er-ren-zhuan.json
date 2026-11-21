@@ -1,0 +1,153 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active prop manipulation involving continuous twirling of square red handkerchiefs or folding fans.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Duet performance by two actors on stage interacting with each other and the audience.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Interactive duo performance between a male and female actor switching roles and sharing comedic timing.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Continuous rotation and manipulation of a square red handkerchief while singing or speaking.",
+          "name": "Handkerchief twirling"
+        },
+        {
+          "description": "Manipulating and spinning folding fans during character transitions.",
+          "name": "Fan twirling"
+        }
+      ],
+      "tempo_feel": "Lively, energetic, and theatrical.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Northeastern drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "humorous",
+        "lively",
+        "grassroots",
+        "flavorful"
+      ],
+      "musical_form": "Vocal duet with alternating sung narrative, dialogue, and comedic sketches.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Vocal melodies grounded in Northeast Chinese folk songs and quyi storytelling.",
+      "sound_description": "Vocal music built on local northeastern Chinese folk songs, accompanied by regional percussion such as the northeast drum, supporting comedic dialogue and dramatic story-singing.",
+      "tempo_bpm": "",
+      "vocal_style": "Storytelling quyi singing in easy-to-understand, humorous local dialect."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Walking while singing and maintaining duo spatial orientation.",
+        "Twirling square red handkerchiefs in continuous rotation.",
+        "Opening, snapping, and manipulating folding fans in synchronization with comedic dialogue."
+      ],
+      "formation": "Duet (one male and one female performer facing each other or the audience).",
+      "level_notes": "Requires coordination of vocal storytelling, stage comedy, and continuous prop manipulation (handkerchief/fan twirling).",
+      "rhythm": "Northeastern folk musical rhythms and quyi song meters."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "ad513b0fca85eba2d8ac4fa42cb8192c05512f4a5feb25bde6fae3979a8cb0c6",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the precise footwork patterns and step counts accompanying the walking-singing performance? Evidence needed: Ethnochoreological analysis of Er ren zhuan dance footwork."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact hand techniques and wrist mechanics used to twirl the square red handkerchiefs continuously? Evidence needed: Video documentation of traditional Northeast Er ren zhuan handkerchief spinning technique."
+    ]
+  },
+  "id": "atlas:er-ren-zhuan",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Er ren zhuan",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "a4bfbe97a62980e2",
+      "next_evidence": "Video documentation of traditional Northeast Er ren zhuan handkerchief spinning technique.",
+      "question": "What are the exact hand techniques and wrist mechanics used to twirl the square red handkerchiefs continuously?",
+      "source": "https://en.wikipedia.org/wiki/Errenzhuan",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to build actionable instructional steps for prop manipulation in the learning unit."
+    },
+    {
+      "domain": "research",
+      "id": "4b0e5c5658f0d49b",
+      "next_evidence": "Ethnochoreological analysis of Er ren zhuan dance footwork.",
+      "question": "What are the precise footwork patterns and step counts accompanying the walking-singing performance?",
+      "source": "https://en.wikipedia.org/wiki/Errenzhuan",
+      "status": "candidate_unreviewed",
+      "why_needed": "Necessary to complete the movement profile and derive safe adaptations for seniors and children."
+    }
+  ],
+  "research_file": "research_results/er-ren-zhuan.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "er-ren-zhuan",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Errenzhuan",
+    "https://www.wikidata.org/wiki/Q5384765",
+    "https://fr.wikipedia.org/wiki/Errenzhuan"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

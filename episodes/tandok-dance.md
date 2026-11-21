@@ -1,6 +1,6 @@
 # Tandok dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-21 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -110,7 +110,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Hand movements mimicking the gathering of rice into a container
 NARRATION: Step 2: Formation changes with the tandok placed in the center
 NARRATION: Drill: Mimic the scooping motion of gathering rice.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -176,7 +176,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hand movements mimicking the gathering of rice into a container
 NARRATION: Step 2: Formation changes with the tandok placed in the center
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -242,7 +242,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Formation changes with the tandok placed in the center
 NARRATION: Step 2: Tor Tor style movements
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the ritual-sacred family studied · videos studied: 8
+Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
 Counting: 
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; one two; over and spin; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
 
 Sources (2): https://en.wikipedia.org/wiki/Tandok_dance; https://www.wikidata.org/wiki/Q111167927

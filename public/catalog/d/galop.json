@@ -497,6 +497,105 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "ey8sorwT9Ko",
+   "url": "https://www.youtube.com/watch?v=ey8sorwT9Ko",
+   "title": "Historic Victorian Galop Dance Tutorial | Learn This Nutcracker Classic",
+   "channel": "Adventures In Dance",
+   "analysed_on": "2026-11-21",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "full_demo",
+     "note": "Demonstration of the Victorian Galop"
+    },
+    {
+     "t": "0:36",
+     "seconds": 36,
+     "segment": "intro",
+     "note": "Welcome and historical introduction to the Galop"
+    },
+    {
+     "t": "1:39",
+     "seconds": 99,
+     "segment": "breakdown",
+     "note": "Demonstration and counting of variation one (eight-count galop)"
+    },
+    {
+     "t": "2:06",
+     "seconds": 126,
+     "segment": "breakdown",
+     "note": "Demonstration and counting of variation two (four-count galop)"
+    },
+    {
+     "t": "2:26",
+     "seconds": 146,
+     "segment": "breakdown",
+     "note": "Demonstration and counting of variation three (two-count galop)"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Eight Count Galop",
+     "counts": "1-8",
+     "description": "An eight-count variation of the Victorian Galop"
+    },
+    {
+     "name": "Four Count Galop",
+     "counts": "1-8",
+     "description": "A four-count variation of the galop"
+    },
+    {
+     "name": "Two Count Galop",
+     "counts": "1-8",
+     "description": "A two-count variation that looks like a polka"
+    }
+   ],
+   "cues": [
+    "1 and 2 and 3 and 4 and 5 and 6 and 7 and 8"
+   ],
+   "images": [
+    "Our polka"
+   ],
+   "teacher_style": "The instructor presents historical context for the dance before demonstrating variations with partnered dancers. She explains each variation clearly while other dancers perform the steps in the background.",
+   "distinctive_method": "Presenting multiple rhythmic variations of the same historical dance mapped to Tchaikovsky's Nutcracker music.",
+   "what_works": [
+    "Clear visual demonstrations by couples in period attire",
+    "Step-by-step variation breakdown with counts"
+   ],
+   "what_hinders": [
+    "Lacks slow practice or follow-along breakdowns for the students"
+   ],
+   "evidence": [
+    {
+     "start_s": 36,
+     "end_s": 50,
+     "topic": "teaching",
+     "observation": "Instructor speaking to camera while two dancers stand still in the background.",
+     "viewpoint": "front",
+     "cannot_infer": "any dance steps or footwork",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 139,
+     "end_s": 150,
+     "topic": "movement",
+     "observation": "A couple dancing the eight-count galop across the floor from right to left.",
+     "viewpoint": "side",
+     "cannot_infer": "precise weight transfer details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -563,6 +662,6 @@
   "polished": false,
   "file": "episodes/galop.json"
  },
- "fingerprint": "9ef119850ccb614e",
+ "fingerprint": "92e70be7462d2ea2",
  "updated": "2026-11-21"
 }
