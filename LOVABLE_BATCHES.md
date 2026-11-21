@@ -120,6 +120,13 @@ All of it is GitHub work, tested, merged by pull request, no model calls, no cos
 | Date | Batch | Credits used | Rollover left | Checked | Published |
 |---|---|---:|---:|---|---|
 | 21 Nov | (start) | | 90.9 | | |
+| 21 Nov | 1 Payment and accounts erased | 7.90 | 88.0 | In the preview: the old addresses (`/membership`, `/c/…`, `/auth/callback`, `/terms`) redirect; the Saved page and the privacy text come from `site.json`; a heart saves at once with no prompt; Viral 154; Atlas 1,244; no payment or sign-in wording left in the interface code | yes |
+| 21 Nov | 3 The mentor page (`/mentor`, "BDF" in the navigation) | 7.30 | 80.7 | In the preview against the data file: 23 of 23 rules, 8 cards, 6 moments, the six numbers equal, 87 outside links all open in a new tab, nothing stored in the browser, the proof panels open | yes |
+| 21 Nov | 2 Loading that cannot break | 15.7 | 65.0 | In the preview: only `index.json` is loaded at start (0.6 MB in place of 5.2 MB), a dance page fetches its own file and the next one, the two large session-store entries are gone, the browser database `da_library_v1` holds the last good copy, a retired address redirects, `/health` reads "Health: OK" for six files, Atlas 1,244, Viral 154, saved hearts kept, a dance page identical to the live one before | yes |
+
+### How a message is sent (learned on 21 November)
+
+The chat field of Lovable is a rich-text editor. Put the text in with `document.execCommand('insertText', false, text)` on the focused field: the page can fetch the text of a batch straight from this file on main. A synthetic paste event turns the text into an attachment, and typing it key by key would send it at the first line break. Check that the field holds the whole message and that the mode is Build, then press Send. The cost is in the menu "More options" under the answer (it opens on the second click). Of the free 5 build credits of the day, the first batch uses them all.
 
 ## Batch 1 — the message
 
@@ -255,3 +262,47 @@ WHEN DONE
 Report, from the preview: (1) the requests made on first load of the home page and their sizes; (2) the requests made when a dance page opens; (3) that sessionStorage no longer holds da_catalogue_session_v1 or hero_overrides_v1; (4) that with the network switched off a reload still shows the atlas, with the muted "as of" line; (5) that a dance whose file fails shows the calm line and not an error; (6) what /health shows; (7) the number of dances on the Atlas page and that it equals index.count; (8) any console error.
 ```
 
+## Batch 4 — the message
+
+Send only after batch 2 is published and the words of `pages.dance` are in `site.json` on main.
+
+```
+BATCH 4 — THE WHOLE PROFILE ON THE DANCE PAGE. Read the Project instructions first. Build exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHAT IT IS
+The dance page (/style/<slug>) already loads d/<slug>.json (batch 2) and shows the parts that come from "card". This batch shows the rest of that same file below the existing ABOUT section and above TUTORIALS: knowledge on display, read-only. It is not a class: no player, no speed or loop controls, no step-by-step mode. No new request, no new dependency. All words go through t(path, fallback) with the fallbacks written here. Change nothing else.
+
+THE FILE (already in memory for the page)
+state: "active_ready" | "building" | "story_ready_teaching_withheld" | "teaching_withheld" | "not_published" | "listed".
+profile? { sections {origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}; teaching? {basic_steps[], rhythm, formation, level_notes}; music_profile {tempo_bpm, meter, rhythm_pattern, instruments[], vocal_style, musical_form, mood_keywords[], sound_description, reference_recordings[] {title, artist}}; movement_profile? {posture, footwork, arms_and_hands, hips_and_torso, formation_and_space, partnering, tempo_feel, levels_and_jumps, difficulty, signature_moves[] {name, description}, what_to_avoid}; adaptations? {derived, seniors {seated_version, standing_version, tempo_and_range, counts, avoid[]}, children {game_version, duration_minutes, counts, avoid[]}}; connections[] {name, relation, note}; footage[] {title, url, year, license, attribution}; images[] {url, thumb, attribution, license, source_page}; albums[] {title, artist, year, musicbrainz_url}; claims[] {text, source}; citation {claims, supported}; tradition_status }.
+readiness? { have, of, missing[] {key, label}, via {<item>: "lesson" | "performance"}, ritual_context? }.
+lessons?[] { url, title, channel, level, language, counting_scheme, parts[] {t, seconds, segment, note}, steps[] {name, counts, description}, cues[], images[], common_mistakes[], safety[], teacher_style, distinctive_method, what_works[], what_hinders[], seen {from_s, to_s, checked_by_a_person} }.
+performances?[] { url, observation {<key>: text or list}, seen {…} }.
+teaching_withheld? (a sentence). fingerprint, updated.
+Every part may be absent. A value that is empty, "not described in sources", "Not described in sources.", "not in sources", "not derivable yet", "unknown" or "null" is not shown: no label, no heading, no empty card; a section whose values are all like that is not rendered.
+
+THE SECTIONS, in this order (each a titled section in the page's present style; a key such as "origins_and_history" is shown with underscores replaced by spaces and the first letter capitalised)
+A. Under the name: one chip from state. "active_ready" → t("pages.dance.state.active_ready","Ready to activate"); "building" → t("pages.dance.state.building","In the making") followed by "<have> of <of>"; the two withheld states → t("pages.dance.state.story_only","Story only"); nothing for "not_published" and "listed". A second chip for profile.tradition_status when it is living, revived or historical.
+B. t("pages.dance.story.title","The story"): the profile.sections, each under its own small heading.
+C. t("pages.dance.music.title","Music"): the music_profile as labelled lines, instruments and mood_keywords as chips, sound_description as a paragraph, reference_recordings as "title — artist", then albums with a link to musicbrainz_url.
+D. t("pages.dance.movement.title","Movement"): the movement_profile as labelled lines, difficulty as a chip, signature_moves as "name — description", what_to_avoid on its own line.
+E. t("pages.dance.teaching.title","What has been gathered for teaching") with the lead t("pages.dance.teaching.lead","Gathered by a machine from the sources and from lessons it studied. Not yet checked by a person."):
+   E1 from profile.teaching: basic_steps as a numbered list, then rhythm, formation and level_notes as labelled lines.
+   E2 t("pages.dance.teaching.from_lessons","From lessons the machine studied"): one closed panel per lesson, titled "<title> — <channel>". Inside: level · language · counting_scheme; the parts as lines "<t> · <segment> — <note>", each a link to the lesson's url with "&t=<seconds>s" added, opening in a new tab; the steps as "name — counts — description"; cues and images as chips; common_mistakes, safety, what_works and what_hinders as short lists; teacher_style and distinctive_method as labelled lines; then the muted line t("pages.dance.teaching.seen","Seen by a machine in this video, not checked by a person.").
+   E3 t("pages.dance.teaching.from_performance","From the performance the machine watched"): one closed panel per performance with its observation as labelled lines, a link to its url, and the same muted line.
+F. t("pages.dance.ready.title","Ready to activate?"): a simple bar "<have> of <of>". When state is "active_ready": t("pages.dance.ready.complete","Everything a teaching service needs for this dance has been gathered and source-checked. Not yet reviewed by a person."). Otherwise t("pages.dance.ready.missing","Still missing") and the labels of readiness.missing as a list. When ritual_context is true: t("pages.dance.ready.ritual","This dance has a ritual context. Carry its cultural note whenever it is taught.").
+G. When teaching_withheld is present: sections D, E and H are not rendered at all; in their place one calm block titled t("pages.dance.withheld.title","Story only") with the teaching_withheld sentence.
+H. t("pages.dance.adaptations.title","For seniors and for children"), closed by default, only when adaptations.derived is true: the two groups as labelled lines, then the muted line t("pages.dance.adaptations.note","Derived suggestions, not facts from the sources.").
+I. t("pages.dance.connections.title","Connected dances"): "relation · name — note"; the name links to that dance when the index has a dance with that name or alias (compare in lower case).
+J. t("pages.dance.footage.title","Reference footage"): links only (title, year, attribution, license), opening in a new tab. Do not embed.
+K. Pictures from profile.images that the existing gallery does not already show are added to that gallery, with attribution and license.
+K2. The existing TUTORIALS block shows "Tutorials coming soon" for every dance. Replace that: when card.tutorials has entries, list them as links (title — channel · level, to https://www.youtube.com/watch?v=<youtube_id>, opening in a new tab); when it has none, or when teaching_withheld is present, do not render the TUTORIALS block at all.
+L. t("pages.dance.checks.title","Sources and checks"): "<citation.supported> of <citation.claims> " + t("pages.dance.checks.claims","claims checked against their sources"), then a closed panel t("pages.dance.checks.show","Show the claims") with each claim and a link to its source. The existing source links stay.
+M. Last, one muted line: a link t("pages.dance.agent.link","The file an agent receives for this dance") to https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/d/<slug>.json, and t("pages.dance.agent.changed","Last changed") with the file's "updated" date.
+
+RULES
+Read-only. Panels are real buttons with aria-expanded, closed panels render lazily. Links to other sites open in a new tab with rel="noopener noreferrer". No number is typed into the code. When the dance file could not be loaded, none of these sections appears and the page shows what it shows today, with the calm line from batch 2.
+
+WHEN DONE
+In the preview open /style/hustle (ready to activate, with a studied lesson), /style/ahwash (story only) and /style/salsa (listed, with a lesson). Report for each which of the sections A to M are shown, and any console error.
+```

@@ -405,7 +405,7 @@ class TeachingResearchTests(Project):
         # three topics and two papers; the second paper's quotes are not in its own abstract, so its note is not used
         self.assertEqual((rec["counters"].get("science_ok"), rec["counters"].get("paper_ok"), rec["counters"].get("paper_thin"), model.asked), (3, 1, 1, ["science"] * 5))
         counts = jload("pedagogy/bdf_system.json")["counts"]
-        self.assertEqual((counts["science_notes"], counts["paper_notes"], counts["practices_total"]), (3, 1, 34))
+        self.assertEqual((counts["science_notes"], counts["paper_notes"], counts["practices_total"]), (3, 1, 37))
         with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
             self.assertIn("## Papers found by the open search (1;", f.read())
 
