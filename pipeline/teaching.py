@@ -84,14 +84,19 @@ PRACTICE = {
     "long_road": ("the road ahead: what this leads to, how long it honestly takes, patience", "Show the road ahead and how long it honestly takes."),
     "checks_in": ("the learner is asked to notice: how did that feel, where is your weight, what changed", "Ask the learner to notice how it felt."),
     "rest_and_kindness": ("permission to pause, breathe or stop for today; kindness to oneself", "Give permission to pause and to come back tomorrow."),
+    # owner, 21 November 2026: learning that feels at ease and inspiring, and learners who learn to teach others and take that into life
+    "moment_of_presence": ("a moment to arrive before or after dancing: breath, stillness, listening to the music, giving thanks", "Open or close with a moment to arrive: breath, music, thanks."),
+    "teach_back": ("the learner is asked to show, explain or teach the step to another person: a partner, a friend, the camera", "Ask the learner to show the step to another person."),
+    "method_made_visible": ("the teacher says why it is taught this way, so the learner can do the same for others", "Say why you teach it this way, so the learner can pass it on."),
 }
 PRACTICES = {k: v[0] for k, v in PRACTICE.items()}
 THEMES = [("See it", ["mirror_view", "split_screen", "on_screen_counts", "demo_first"]),
           ("Build it", ["chunking", "layering", "tempo_ramp", "counts_and_rhythm", "music_early", "repetition", "recap_and_practice_plan"]),
-          ("Feel it", ["imagery", "feel_and_groove", "culture_and_meaning", "play_and_variation"]),
+          ("Feel it", ["imagery", "feel_and_groove", "culture_and_meaning", "play_and_variation", "moment_of_presence"]),
           ("Stay with it", ["quick_win", "praise_and_expectancy", "normalise_mistakes", "fun_and_energy", "autonomy", "social_connection", "reason_to_return"]),
           ("Fit the person", ["error_correction", "regression", "progression", "body_adaptation", "self_check"]),
-          ("Be a mentor", ["names_the_feeling", "own_story", "dance_is_for_everyone", "learner_as_dancer", "long_road", "checks_in", "rest_and_kindness"])]
+          ("Be a mentor", ["names_the_feeling", "own_story", "dance_is_for_everyone", "learner_as_dancer", "long_road", "checks_in", "rest_and_kindness"]),
+          ("Pass it on", ["teach_back", "method_made_visible"])]
 VIEWS = ("front", "back", "mirror", "side", "overhead", "feet_closeup", "split_screen", "picture_in_picture")
 ON_SCREEN = ("counts", "step_names", "arrows_or_diagrams", "captions", "timer_or_progress")
 EDITING = ("slow_motion", "loop_replay", "freeze_frame", "speed_labels")
@@ -107,7 +112,7 @@ TAG_LIST = "\n".join(f"- {k}: {v}" for k, v in PRACTICES.items())
 MOMENTS = {"opening": "How they open", "before_hard_part": "Before a hard part", "after_mistake": "After a mistake",
            "after_success": "After a success", "check_in": "Checking in", "closing": "How they close"}
 ABOUT = {"who_can_dance": "Who can dance", "what_dancing_is_for": "What dancing is for", "how_people_learn": "How people learn", "what_a_teacher_is_for": "What a teacher is for"}
-MENTOR_TAGS = [k for name, keys in THEMES if name in ("Stay with it", "Fit the person", "Be a mentor") for k in keys] + ["recap_and_practice_plan"]
+MENTOR_TAGS = [k for name, keys in THEMES if name in ("Stay with it", "Fit the person", "Be a mentor", "Pass it on") for k in keys] + ["recap_and_practice_plan", "moment_of_presence"]
 
 METHOD_SYSTEM = """You are studying HOW an online dance class teaches, for the design of an AI dance teacher. Two sources, kept apart:
 (A) the VIDEO: report only what is seen or heard in it. (B) the LEARNER COMMENTS written under it: report only what the comments say.
@@ -246,6 +251,22 @@ SCIENCE = [
     ("deliberate_practice", "Practice (learning method)", 'ABSTRACT:"deliberate practice" AND ABSTRACT:expertise', ["long_road", "repetition"]),
     ("adult_learners", "Andragogy", 'ABSTRACT:"adult learners" AND ABSTRACT:motivation AND ABSTRACT:"physical activity"', ["long_road", "autonomy"]),
     ("dance_for_everyone", "", 'ABSTRACT:dance AND ABSTRACT:inclusive AND ABSTRACT:disability', ["dance_is_for_everyone", "body_adaptation"]),
+    # owner, 21 November 2026: ease and openness; an experience that inspires; learning joined with movement, knowledge and other people;
+    # and people who learn to teach, and take the foundations of mentoring into life
+    ("psychological_safety", "Psychological safety", 'ABSTRACT:"psychological safety" AND ABSTRACT:learning', ["normalise_mistakes", "names_the_feeling"]),
+    ("learning_climate", "", 'ABSTRACT:"motivational climate" AND ABSTRACT:dance', ["normalise_mistakes", "praise_and_expectancy", "fun_and_energy"]),
+    ("mindful_movement", "Mindfulness", 'ABSTRACT:mindfulness AND ABSTRACT:"motor learning"', ["moment_of_presence", "checks_in"]),
+    ("awe_and_transcendence", "Awe", 'ABSTRACT:awe AND ABSTRACT:"self-transcendence"', ["moment_of_presence", "culture_and_meaning"]),
+    ("spirituality_and_dance", "", 'ABSTRACT:dance AND ABSTRACT:spirituality', ["moment_of_presence", "culture_and_meaning"]),
+    ("ritual_and_belonging", "Collective effervescence", 'ABSTRACT:ritual AND ABSTRACT:synchrony AND ABSTRACT:cooperation', ["social_connection", "moment_of_presence"]),
+    ("meaning_and_staying", "", 'ABSTRACT:"meaning in life" AND ABSTRACT:"physical activity"', ["culture_and_meaning", "reason_to_return"]),
+    ("embodied_learning", "Kinesthetic learning", 'ABSTRACT:"embodied learning" AND ABSTRACT:education', ["culture_and_meaning", "feel_and_groove"]),
+    ("learning_by_teaching", "Learning by teaching", 'ABSTRACT:"learning by teaching"', ["teach_back"]),
+    ("peer_teaching", "Peer learning", 'ABSTRACT:"peer teaching" AND ABSTRACT:"physical education"', ["teach_back", "social_connection"]),
+    ("peer_tutoring_of_movement", "Reciprocal teaching", 'ABSTRACT:"peer tutoring" AND ABSTRACT:"motor skill"', ["teach_back", "error_correction"]),
+    ("peer_mentoring", "Peer mentoring", 'ABSTRACT:"peer mentoring" AND ABSTRACT:"self-efficacy"', ["teach_back", "own_story"]),
+    ("life_skills_that_transfer", "", 'ABSTRACT:"life skills" AND ABSTRACT:transfer AND ABSTRACT:sport', ["method_made_visible", "long_road"]),
+    ("how_teachers_learn_to_teach", "", 'ABSTRACT:"dance teachers" AND ABSTRACT:training AND ABSTRACT:pedagogy', ["method_made_visible"]),
 ]
 # The open search: one of these a night, in turn; the most cited papers not yet read get a note each. It never ends.
 PAPER_QUERIES = [
@@ -263,6 +284,9 @@ PAPER_QUERIES = [
     'ABSTRACT:"virtual coach" AND ABSTRACT:"physical activity"', 'ABSTRACT:"intelligent tutoring systems" AND ABSTRACT:motor', 'ABSTRACT:dance AND ABSTRACT:"body image"',
     'ABSTRACT:dance AND ABSTRACT:teacher AND ABSTRACT:relationship', 'ABSTRACT:dance AND ABSTRACT:lifelong', 'ABSTRACT:"motor learning" AND ABSTRACT:emotion',
     'ABSTRACT:mentoring AND ABSTRACT:motivation AND ABSTRACT:"skill"', 'ABSTRACT:"self-compassion" AND ABSTRACT:"physical activity"',
+    'ABSTRACT:"learning by teaching"', 'ABSTRACT:"peer teaching" AND ABSTRACT:motor', 'ABSTRACT:"peer mentoring" AND ABSTRACT:youth', 'ABSTRACT:"life skills" AND ABSTRACT:sport AND ABSTRACT:transfer',
+    'ABSTRACT:dance AND ABSTRACT:spirituality', 'ABSTRACT:dance AND ABSTRACT:mindfulness', 'ABSTRACT:dance AND ABSTRACT:meaning AND ABSTRACT:experience',
+    'ABSTRACT:dance AND ABSTRACT:community AND ABSTRACT:belonging', 'ABSTRACT:"psychological safety" AND ABSTRACT:students', 'ABSTRACT:dance AND ABSTRACT:transcendence',
 ]
 # What every dance shares. Lessons for people who believe they cannot dance: slug, title, searches (free, yt-dlp).
 FOUNDATIONS = [
@@ -284,6 +308,8 @@ FOUNDATIONS = [
     ("children", "Teaching children", ["dance lesson for kids beginners follow along", "creative movement dance class for kids"]),
     ("older-beginners", "Older beginners", ["dance lesson for seniors beginners", "chair dance for seniors beginners follow along"]),
     ("party", "Dancing at a party", ["how to dance at a party for beginners", "simple dance moves for weddings beginners"]),
+    ("arriving", "Arriving and being at ease", ["guided dance warm up to relax and let go for beginners", "mindful movement dance for beginners guided", "conscious dance for beginners guided session"]),
+    ("teaching-others", "Teaching someone else", ["how to teach a friend to dance who has never danced", "how to teach your partner to dance beginner tips", "teach someone a dance move step by step tips"]),
     # teachers explaining HOW they teach and how to learn: talks, not lessons; the mentor's own words
     ("how-teachers-teach", "How teachers teach", ["how to teach dance to adult beginners tips for teachers", "how to teach rhythm to someone with no rhythm", "what makes a great dance teacher",
                                                    "dance teaching philosophy master teacher interview", "how to teach dance to shy beginners", "how to learn dance faster advice from a teacher",
