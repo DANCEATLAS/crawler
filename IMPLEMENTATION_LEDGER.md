@@ -384,3 +384,25 @@ Lovable removed `AuthModal.tsx`, `EmailCapturePopup.tsx`, `TrialPill.tsx`, `auth
 Tests: 22 for the teaching study, 15 for the door; the whole suite passes.
 
 **Batch 4 published the same afternoon** (the whole profile on the dance page; 7.30 credits, 4 min 32 s; 57.7 expiring credits left). Checked in the preview on four dances against their files and on the old pages, then on the live site; the record is in `LOVABLE_BATCHES.md`. Two things were wrong and go to Lovable with batch 5: (1) the browser database kept trimmed copies of the files (batch 2 stored only the card of a dance; batch 4 stores the parts it shows), so a dance opened before batch 4 showed no profile on the live site until its stored copy was removed; the store is to keep every file whole under a new name. (2) My message described the signature moments of a performance as texts; they are objects with a time, so the label shows without values. Every other field of the message was checked against the types in all 1,244 files afterwards and matches.
+
+## 21 November 2026 (evening) — the pace corrected; batches 5, 6 and 7 live; the Viral list and the countries as open data
+
+**The owner, 17:24:** the main thing is that the Lovable credits are used, within the coming week, with the most meaningful effect on the project's future.
+
+**The pace was wrong and is corrected.** Two hours earlier I had planned one batch a day so that each would use the day's 5 free credits first, and had told him so. A batch of about 8 credits then takes only about 3 from the expiring ones: about 40 would have expired unused. The free credits are extra capacity, not a reason to wait. Now: two batches a day, at least one every day, front-loaded while Chrome is open. The day plan and the items added to the plan (what an agent receives, the mentor in Hebrew, the research library, search, working without a connection) are in `LOVABLE_BATCHES.md`, section 6.
+
+**Three batches published that evening**, each checked in the preview against the data and on the old pages, then on the live site (the record is in `LOVABLE_BATCHES.md`):
+
+| Batch | Credits | Time |
+|---|---:|---|
+| 5 The starting line (`/starting-line`, a strip on Home), with the two repairs: the browser database keeps whole files (`da_library_v2`), signature moments link to their time | 7.20 | 6 min 47 s |
+| 6 The machine room in Hebrew (`/machine`): the last night, the pace, the mentor's study with what is read next, what holds pages back | 5.70 | 3 min 28 s |
+| 7 The direction in the founder's words (`/vision`) | 3.10 | 1 min 56 s |
+
+Lovable's balance page then showed 40.3 expiring credits (43.0 in all): 50.6 of the 90.9 used in the day, 1.2 more than the "Credits used" figures of the evening add up to.
+
+**The Viral list, measured through the live page.** The database view `viral_chart` returns 462 rows: the same 154 challenges three times (month, year, all), with a `rank` that is the order of the origin year and no views, previous rank or weeks; of its columns only the name, the category, the hero video, the story, the originator, the year (109 of 154) and the song are filled. The repository's own `viral_challenges_verified.json` has the same 154 slugs with more: a date for 151, the timeline, the peak, sources for 144. Only the category lived in the database alone; it is now `viral_categories.json` (copied through the page that evening: 47 dance challenge, 62 song dance, 17 pre-internet craze, 10 meme dance, 8 regional wave, 6 dance trend, 4 K-pop challenge).
+
+**`pipeline/door.py`** (18 tests, no model calls): `viral.json` (`da_viral_v1`, 154 challenges, 0.3 MB) is built from the repository alone, in order of date, without rank or view counts, and rewritten only when it changes. The head of `index.json` gains `regions`, `places` (153 ISO countries with their region and number of dances; a dance counts under every country it belongs to), `no_place` (33), `families` (eight, with names and numbers) and `no_family` (774).
+
+**Website batches 8 and 9 written** (`LOVABLE_BATCHES.md`, words in `site.json`): the Viral page reads the open file, loses its three identical charts and every rank, and the database client leaves the app; Atlas and Flags count real countries (153, not 213), the tree shows 774 dances as "Family not yet known" instead of inside "Folk & circle", Home stops promising a map, an address that does not exist says so.

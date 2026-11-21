@@ -22,7 +22,7 @@ import re
 from collections import Counter
 from .common import norm, now_iso
 from .readiness import LABEL, STANDARD, _by_slug, _given, _load
-from .taxonomy import COUNTRIES_N
+from .taxonomy import COUNTRIES_N, FAMILIES, ISO_TO_REGION, REGIONS
 
 BASE = "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/"
 LIGHT = ("slug", "name", "aliases", "tagline", "country", "country_code", "flag_emoji", "region", "family", "era", "hero_video_youtube_id",
@@ -50,6 +50,7 @@ FILES = (("manifest.json", "da_manifest_v1", "where to start: every file, its co
          ("active_ready.json", "da_active_ready_v1", "the starting line: which dances have everything a teaching service needs"),
          ("machine.json", "da_machine_v1", "how the machine is doing: the last nights, the pace, what holds pages back"),
          ("site.json", "da_site_v1", "the words of the website's newer screens"),
+         ("viral.json", "da_viral_v1", "the viral dance challenges: who made each, when, the song and the sources; in order of date, not a ranking"),
          ("retired.json", "", "entries that were removed or merged, and where they went"),
          ("episodes.json", "dw_episodes_v1", "draft scripts per dance (a presentation asset, not proof of readiness)"),
          ("dances.app.json", "dw_app_v1", "the older single file the website loaded before the index; kept for compatibility"),
@@ -216,6 +217,22 @@ def dance(slug, style, deep, ready, lessons, shows, pack):
     return out
 
 
+def facets(index):
+    """What a list page needs to count, so that no page has to guess: the dances of each country (a dance counts under every
+    country it belongs to), the regions that hold them, each family, and how many dances have no place or no family yet."""
+    places, fam = {}, Counter()
+    for e in index.values():
+        for code in e.get("countries") or []:
+            places.setdefault(code, {"region": ISO_TO_REGION.get(code) or "Other", "dances": 0})["dances"] += 1
+        fam[e.get("family") if e.get("family") in FAMILIES else ""] += 1
+    held = {p["region"] for p in places.values()}
+    return {"regions": [r for r in REGIONS + ["Other"] if r in held],
+            "places": {k: places[k] for k in sorted(places)},
+            "no_place": sum(1 for e in index.values() if not e.get("countries")),
+            "families": {k: {"name": name, "dances": fam[k]} for k, name in FAMILIES.items() if fam.get(k)},
+            "no_family": fam.get("", 0)}
+
+
 def fingerprint(obj):
     return hashlib.sha1(json.dumps(obj, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:16]
 
@@ -314,6 +331,41 @@ def study(root, today=None, budget=None):
                   "practices": c.get("practices_total"), "practices_in_dna": c.get("practices_with_two_or_more_kinds")})
 
 
+VIRAL_ORDER = "by when each challenge began, newest first. This is not a ranking: no popularity is known or claimed."
+
+
+def viral(root):
+    """The viral dance challenges as one open file, built from this repository alone: the verified facts, the category, the
+    videos found. No rank and no view counts: none is known, and the list is in order of date. None when the list is missing."""
+    P = lambda *a: os.path.join(root, *a)
+    facts = _load(P("viral_challenges_verified.json"), None)
+    if not isinstance(facts, list) or not facts:
+        return None
+    found = _load(P("viral_results.json"), {})
+    found = found if isinstance(found, dict) else {}
+    cats = (_load(P("viral_categories.json"), {}) or {}).get("categories") or {}
+    rows = []
+    for f in facts:
+        if not isinstance(f, dict) or not f.get("slug"):
+            continue
+        r = found.get(f["slug"]) if isinstance(found.get(f["slug"]), dict) else {}
+        date = str(f.get("origin_date") or "").strip()
+        year = re.match(r"\d{4}", date) or re.match(r"\d{4}", str(r.get("origin_year") or ""))
+        stack = [_full({k: v.get(k) for k in ("youtube_id", "role", "title", "channel")}) for v in r.get("video_stack") or [] if isinstance(v, dict) and v.get("youtube_id")]
+        rows.append(_full({"slug": f["slug"], "name": f.get("name"), "category": cats.get(f["slug"]), "song": f.get("song"),
+                           "origin_date": date, "origin_year": int(year.group(0)) if year else None,
+                           "originator": f.get("originator"), "originator_story": f.get("originator_story"), "timeline": f.get("timeline"), "peak_period": f.get("peak_period"),
+                           "fun_facts": f.get("fun_facts"),
+                           "celebrity_performances": [c for c in (_full(x) for x in f.get("celebrity_performances") or [] if isinstance(x, dict)) if c],
+                           "platform": r.get("platform"), "hero_video_youtube_id": r.get("hero_video_youtube_id"), "hero_title": r.get("hero_brief"), "hero_channel": r.get("channel"),
+                           "video_stack": stack, "original_video_url": f.get("original_video_url") if str(f.get("original_video_url") or "").startswith("http") else None,
+                           "sources": [u for u in f.get("sources") or [] if isinstance(u, str) and u.startswith("http")]}))
+    rows.sort(key=lambda x: str(x.get("name") or "").lower())
+    rows.sort(key=lambda x: (x.get("origin_year") or 0, x.get("origin_date") or ""), reverse=True)      # stable: names stay in order within a date
+    return {"contract": "da_viral_v1", "count": len(rows), "order": VIRAL_ORDER,
+            "categories": dict(sorted(Counter(x["category"] for x in rows if x.get("category")).items())), "challenges": rows}
+
+
 def machine(runs, hist, state, names, owner, gen, study=None):
     """How the machine is doing, for one page in large type."""
     whole = [n for n in nights(runs) if n["whole"]]
@@ -369,11 +421,14 @@ def run(root=".", today=None):
             os.remove(f)
             removed += 1
     states = Counter(e["state"] for e in index.values())
-    _save_index(C("index.json"), {"contract": "da_index_v1", "generated_at": gen, "count": len(index), "states": dict(sorted(states.items())), "file": "d/{slug}.json"},
+    _save_index(C("index.json"), {"contract": "da_index_v1", "generated_at": gen, "count": len(index), "states": dict(sorted(states.items())), "file": "d/{slug}.json", **facets(index)},
                 index, {k: retired[k] for k in sorted(retired)})
     owner = (_load(P("pipeline_state", "vision_status.json"), {}) or {}).get("owner_action")
     _save(C("machine.json"), machine(_load(P("pipeline_state", "runs.json"), []), _load(P("pipeline_state", "active_ready_history.json"), []), state, names, owner, gen,
                                      study(root, today)))
+    chart = viral(root)
+    if chart:
+        write_dance(C("viral.json"), chart, today)        # like a dance file: no clock inside, rewritten only when it changed
     files, total = [], 0
     for name, contract, holds in FILES:
         if name != "manifest.json" and not os.path.exists(C(name)):
@@ -395,4 +450,5 @@ def run(root=".", today=None):
                                                  "note": "Small enough to keep on a phone or to load into an agent that works without a connection."},
                                "read_more": {"vision": "https://github.com/DANCEATLAS/crawler/blob/main/PRODUCT_VISION.md", "state": "https://github.com/DANCEATLAS/crawler/blob/main/LEDGER.md",
                                              "starting_line": "https://github.com/DANCEATLAS/crawler/blob/main/ACTIVE_READY.md"}})
-    return {"counters": {"dances": len(index), "written": written, "removed": removed, "bytes": d_bytes, **{"state_" + k: v for k, v in states.items()}}}
+    return {"counters": {"dances": len(index), "written": written, "removed": removed, "bytes": d_bytes, "viral": (chart or {}).get("count", 0),
+                         **{"state_" + k: v for k, v in states.items()}}}

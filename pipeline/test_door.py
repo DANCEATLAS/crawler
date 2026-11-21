@@ -95,6 +95,11 @@ class Door(unittest.TestCase):
         self.assertEqual((idx["contract"], idx["count"], sorted(idx["dances"])), ("da_index_v1", 3, ["holy", "newcomer", "salsa"]))
         self.assertEqual(idx["retired"], {"gone": "salsa"})
         self.assertEqual(idx["states"], {"building": 1, "listed": 1, "story_ready_teaching_withheld": 1})
+        # the counts a list page needs: a dance under every country it belongs to, no joined name as a country of its own
+        self.assertEqual(idx["places"], {"CU": {"region": "Caribbean", "dances": 1}, "FR": {"region": "Europe", "dances": 1},
+                                         "IT": {"region": "Europe", "dances": 1}, "US": {"region": "North America", "dances": 1}})
+        self.assertEqual((idx["regions"], idx["no_place"]), (["Europe", "Caribbean", "North America"], 1))
+        self.assertEqual((idx["families"], idx["no_family"]), ({"latin-caribbean": {"name": "Latin & Caribbean", "dances": 1}}, 2))
         s = idx["dances"]["salsa"]
         self.assertEqual((s["countries"], s["state"], s["have"], s["of"], s["lessons"], s["hero_ok"]), (["US", "CU"], "building", 14, 15, 1, True))
         self.assertNotIn("profile", s)                      # the long text is in the dance's own file, not in the list
@@ -227,6 +232,47 @@ class Door(unittest.TestCase):
         self.assertEqual(s["next"], list(teaching.FIRST_TOPICS[2:5]))
         self.assertEqual((s["lessons_studied"], s["practices"], s["practices_in_dna"]), (51, 37, 23))
         self.assertEqual(door.study(self.root, DAY2, budget=0)["next"] if "next" in door.study(self.root, DAY2, budget=0) else [], [])
+
+    def test_the_viral_list_is_an_open_file_in_order_of_date_and_claims_no_popularity(self):
+        library(self.root)
+        def put(name, obj):
+            with open(os.path.join(self.root, name), "w", encoding="utf-8") as f:
+                json.dump(obj, f)
+        put("viral_challenges_verified.json", [
+            {"slug": "old-craze", "name": "Old Craze", "originator": "Unknown", "origin_date": "1920s", "song": "A rag", "sources": ["https://example.org/a", "not a link"],
+             "celebrity_performances": [{"performer": "A Star", "platform": "TV", "url": ""}, {}], "fun_facts": "", "original_video_url": ""},
+            {"slug": "new-b", "name": "B challenge", "originator": "Somebody", "originator_story": "Made it at home.", "origin_date": "2024-03-01", "song": "Song B", "sources": []},
+            {"slug": "new-a", "name": "A challenge", "originator": "Somebody else", "origin_date": "2024-03-01", "song": "Song A", "sources": []},
+            {"slug": "undated", "name": "Undated", "originator": "?", "origin_date": "", "song": "?", "sources": []},
+            {"name": "no slug"}])
+        put("viral_results.json", {"new-b": {"platform": "TikTok", "hero_video_youtube_id": "HERO1", "hero_brief": "The official video", "channel": "A channel", "views": 41550957,
+                                             "video_stack": [{"youtube_id": "HERO1", "role": "hero", "title": "The official video", "channel": "A channel", "views": 41550957}, {"role": "x"}]},
+                                   "undated": {"origin_year": "2019"}})
+        put("viral_categories.json", {"about": "x", "categories": {"old-craze": "pre_internet_craze", "new-b": "dance_challenge", "new-a": "dance_challenge"}})
+        out = door.run(self.root, DAY1)
+        v = read(self.root, "viral.json")
+        self.assertEqual((v["contract"], v["count"], out["counters"]["viral"], v["updated"]), ("da_viral_v1", 4, 4, "2026-11-21"))
+        # newest first; the same date in order of name; a year known only from the search counts; an entry without a slug is left out
+        self.assertEqual([c["slug"] for c in v["challenges"]], ["new-a", "new-b", "undated", "old-craze"])
+        self.assertEqual(v["categories"], {"dance_challenge": 2, "pre_internet_craze": 1})
+        self.assertIn("not a ranking", v["order"])
+        text = json.dumps(v)
+        self.assertTrue(all(word not in text for word in ('"rank"', '"views"', '"prev_rank"', '"weeks_on"', "41550957")))        # no popularity is claimed
+        b, old = v["challenges"][1], v["challenges"][3]
+        self.assertEqual((b["hero_video_youtube_id"], b["hero_title"], b["platform"], b["video_stack"]),
+                         ("HERO1", "The official video", "TikTok", [{"youtube_id": "HERO1", "role": "hero", "title": "The official video", "channel": "A channel"}]))
+        self.assertEqual((old["origin_year"], old["sources"], old["celebrity_performances"]), (1920, ["https://example.org/a"], [{"performer": "A Star", "platform": "TV"}]))
+        self.assertTrue(all(k not in old for k in ("fun_facts", "original_video_url", "hero_video_youtube_id")))                    # nothing empty is carried
+        self.assertEqual(v["challenges"][2]["origin_year"], 2019)
+        self.assertIn("viral.json", [f["file"] for f in read(self.root, "manifest.json")["files"]])
+        # the next night does not rewrite an unchanged list
+        door.run(self.root, DAY2)
+        self.assertEqual(read(self.root, "viral.json")["updated"], "2026-11-21")
+
+    def test_without_the_viral_list_nothing_is_written(self):
+        library(self.root)
+        door.run(self.root, DAY1)
+        self.assertFalse(os.path.exists(os.path.join(self.root, "public", "catalog", "viral.json")))
 
     def test_the_words_file_names_every_readiness_item_and_research_topic_in_hebrew(self):
         from . import readiness, teaching

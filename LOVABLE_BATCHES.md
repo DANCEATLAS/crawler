@@ -61,8 +61,8 @@ Also measured: the whole catalogue (5.2 MB, growing 0.16 MB a night) is loaded f
 | 5 | **The starting line** (`/starting-line`, and on Home) | How many profiles are ready to be activated, the ladder from listed to ready, the closest ones with what each needs, what holds pages back, growth over time | "overnight activate all the profiles"; mission 1 | `active_ready.json` (live), `machine.json` (to make) | 6 |
 | 6 | **The machine room** (`/machine`), in Hebrew | For the owner, large type, right to left: did last night work, how fast it grows, how far the mentor's study has come (topics read, what is read next, his topics of 21 November), what needs him | V16, V17; he reads Hebrew faster; "endless research … embedded" | `machine.json` (with `study`), `site.json` (`pages.machine`, `he.items`, `he.topics`) | 5 |
 | 7 | **The direction, in the owner's words** (`/vision`, and on Home) | What Dance Atlas prepares: BDF as an agent in conversation and virtual reality; now, next (a beta for people of dance culture and music), later; why a mentor; the two missions; why there is no course and no price; the door for any AI (the link to the manifest and to `/health`) | owner, 21 November, morning and afternoon; gate 10 | `site.json` (`pages.vision`) | 5 |
-| 8 | **Truth repairs** | Viral: read from GitHub like everything else (no database at run time), the order named for what it is, no rank that looks like popularity, credits by role. Atlas: a dance listed under every country it belongs to; a dance without a family shown as such; unknown shown as unknown | V02, V08, V09 | `index.json`; `viral.json` (to make) | 7 |
-| 9 | ~~The door for a future agent (`/library`)~~ | Folded into batches 4 and 7 on 21 November: each dance page links to the file an agent receives, and the direction page links to the manifest and to `/health`. The manifest itself is the page an agent reads. Its credits go to the reserve | "be ready for the breakthrough" | `manifest.json` | 0 |
+| 8 | **Truth repairs: the Viral list** | Read from `viral.json` on GitHub; the database client leaves the app, which then has no backend at all; the three identical "charts", every rank number and "How ranking works" go; the order is named for what it is; who made each, how it spread and the sources are shown | V02, V08; "extreme robust app" | `viral.json` (the stage `door`, from the repository's verified list, `viral_categories.json`) | 7 |
+| 9 | **Truth repairs: countries and families** | Atlas and Flags by ISO country from the index (a dance under every country it belongs to; no joined name as a country; 153 countries, not 213); the tree shows dances without a family as "Family not yet known" (774), not inside "Folk & circle"; Home no longer promises a map; an address that does not exist says so. (The door page that had this number was folded into batches 4 and 7) | V02, V09 | `index.json` head: `regions`, `places`, `no_place`, `families`, `no_family` | 6 |
 | 10 | **Speed and access** | A smaller first load (pages on demand; the old bundled catalogue goes once the browser keeps its own copy), lazy pictures, keyboard and screen-reader use, reduced motion, text size | robust; V03, gate 4 | none | 7 |
 | | Fixes found in the checks | | | | 9 |
 | | **Planned** | | | | **75** |
@@ -89,6 +89,20 @@ The reserve is longer than the budget on purpose: estimates can be wrong in both
 - More than 10 behind a target: the next two batches go in one working session, or a reserve item is moved up. A batch far over its estimate: the last reserve items fall away.
 - The last credits go to small finishing items until the rollover line reads 0. The 2.70 top-up credits are left alone.
 - A message that passes 20 credits pauses with a card: continue only when the work shown is on the batch.
+
+**The pace, corrected on 21 November at 17:30.** That afternoon I planned one batch a day so that each would use the day's 5 free credits first, and told the owner so. The arithmetic was wrong for the goal: a batch of about 8 credits then takes only about 3 from the expiring ones, and about 40 would have expired unused. The free credits are extra capacity, not a reason to slow down. The owner the same evening: the main thing is that the Lovable credits are used, within the coming week, with the most meaningful effect on the project's future. So: **two batches a day**, at least one every day (to take that day's free 5), front-loaded when Chrome is open. With 57.5 expiring credits and five free credits on each of five days, about 82 credits of building remain, which is the six planned batches and the reserve.
+
+| Day (Japan) | Batches | For the project's future | Expiring left after |
+|---|---|---|---:|
+| Sat 21 Nov, evening (done) | 5 The starting line, with the two repairs · 6 The machine room in Hebrew · 7 The direction | mission 1 visible; the browser store keeps whole files; the founder sees the machine and the study in Hebrew; the direction in his words | 40.3 |
+| Sun 22 Nov | 8 Truth repairs: the Viral list · 9 Truth repairs: countries and families | a truthful window with no backend at all | about 30 |
+| Mon 23 Nov | A What an agent receives, on every dance page · B The mentor in Hebrew | the bridge to BDF made visible; the founder reads the teaching DNA | about 20 |
+| Tue 24 Nov | C The research library · D Search that knows other names | he steers the research; the material is easy to find | about 12 |
+| Wed 25 Nov | 10 Speed and access · E The window works without a connection | ready for a beta; robust | about 2 |
+| Thu 26 Nov | finishing items | the expiring line at zero | 0 |
+| Fri 27 Nov | spare day | | |
+
+Batch 8 was split in two when it was written: 8 is the Viral list (read from GitHub, the database client removed, no rank), and the number 9, free since the door page was folded away, is countries and families. A, B, C, D and E are prepared in that order (messages below as they are written). A: the episode and the activation dossier of a dance, shown as what a teaching agent would be handed (`d/<slug>.json`, `active_profiles.json`). B: the teaching DNA, the themes and the six moments in Hebrew, translated by the machine and marked as such (a new block in `bdf_teaching_system.json`), with a language switch on `/mentor`. C: the research notes and papers by the founder's three strands, what is read and what waits (R2). D: R4. E: R5. The teachers' hall (R1), how the atlas is made (R3) and the episode scripts (R6) follow if credits remain.
 
 ## 7. Free work on the machine side: the door
 
@@ -125,7 +139,10 @@ All of it is GitHub work, tested, merged by pull request, no model calls, no cos
 | 21 Nov | 1 Payment and accounts erased | 7.90 | 88.0 | In the preview: the old addresses (`/membership`, `/c/…`, `/auth/callback`, `/terms`) redirect; the Saved page and the privacy text come from `site.json`; a heart saves at once with no prompt; Viral 154; Atlas 1,244; no payment or sign-in wording left in the interface code | yes |
 | 21 Nov | 3 The mentor page (`/mentor`, "BDF" in the navigation) | 7.30 | 80.7 | In the preview against the data file: 23 of 23 rules, 8 cards, 6 moments, the six numbers equal, 87 outside links all open in a new tab, nothing stored in the browser, the proof panels open | yes |
 | 21 Nov | 2 Loading that cannot break | 15.7 | 65.0 | In the preview: only `index.json` is loaded at start (0.6 MB in place of 5.2 MB), a dance page fetches its own file and the next one, the two large session-store entries are gone, the browser database `da_library_v1` holds the last good copy, a retired address redirects, `/health` reads "Health: OK" for six files, Atlas 1,244, Viral 154, saved hearts kept, a dance page identical to the live one before | yes |
-| 21 Nov | 4 The whole profile on the dance page | 7.30 | 57.7 | In the preview against the dance files: `/style/hustle` (chips "Ready to activate" and "Living"; the story in eight parts; music with three album links; movement; six basic steps; two lesson panels and one performance panel, closed, 11 links to the moment in the video; "15 of 15"; adaptations closed; five connections, four of them linked; three footage links, no embed; three lesson links in place of "Tutorials coming soon"; "8 of 8 claims checked"; the link to the dance's own file; all 16 outside links open in a new tab), `/style/ahwash` (story only: no movement, teaching, adaptations or lesson links; the reason; "6 of 6" under "How complete is the story?"), `/style/salsa` (listed: one lesson panel, lesson links, no chip), `/style/country-swing-dance` ("In the making · 13 of 15", two items missing). Old pages: home 1,244, atlas, viral 154, `/style/rumba` to `/style/cuban-rumba`, `/health` OK, `/mentor`. **Two repairs found**, sent with batch 5: the browser database keeps trimmed copies of files, so a dance opened before this batch showed no profile until its copy was removed; and signature moments of a performance are objects, which my message described as texts, so their label shows without values | yes |
+| 21 Nov | 4 The whole profile on the dance page | 7.30 | 57.5 (balance page, 15:55) | In the preview against the dance files: `/style/hustle` (chips "Ready to activate" and "Living"; the story in eight parts; music with three album links; movement; six basic steps; two lesson panels and one performance panel, closed, 11 links to the moment in the video; "15 of 15"; adaptations closed; five connections, four of them linked; three footage links, no embed; three lesson links in place of "Tutorials coming soon"; "8 of 8 claims checked"; the link to the dance's own file; all 16 outside links open in a new tab), `/style/ahwash` (story only: no movement, teaching, adaptations or lesson links; the reason; "6 of 6" under "How complete is the story?"), `/style/salsa` (listed: one lesson panel, lesson links, no chip), `/style/country-swing-dance` ("In the making · 13 of 15", two items missing). Old pages: home 1,244, atlas, viral 154, `/style/rumba` to `/style/cuban-rumba`, `/health` OK, `/mentor`. **Two repairs found**, sent with batch 5: the browser database keeps trimmed copies of files, so a dance opened before this batch showed no profile until its copy was removed; and signature moments of a performance are objects, which my message described as texts, so their label shows without values | yes |
+| 21 Nov | 5 The starting line, with two repairs | 7.20 | 50.3 | 6 min 47 s. In the preview against `machine.json` and the index: 32 ready, "+6.8 a night, measured over the last 4 days", the ladder 1,244 / 589 / 476 / 87 / 39 / 41 / 32, 32 cards, 12 closest rows, 14 bars with their numbers, three charts (5 to 32, 359 to 476, 91 to 170), one new request (`machine.json`); Home strip "32 dances ready to activate · The starting line →" with no new request. Repairs: only the database `da_library_v2` exists and the stored Hustle file is whole (14 keys); the signature moments of the Hustle performance show at 0:23, 0:36 and 1:53 with links to the moment. Old pages: home 1,244, atlas, viral 154, the retired address, `/health` OK with the new database, `/mentor`, a saved heart kept. Live: the page, the strip, a dance that had a trimmed copy | yes |
+| 21 Nov | 6 The machine room, in Hebrew | 5.70 | 44.6 | 3 min 28 s. In the preview against `machine.json`: the page reads right to left (`lang="he"`, body 20 px, titles 28 px), dance names and English notes left to right; "לא צריך ממך כלום…" in the green card; the last night 20.11.2026 "הלילה עבד", 141 minutes, 242 questions, 0 unanswered, 13 stages; the library numbers; the pace +6.8 / +29.2 / +22.2 over 4 days; the study: 24 of 80 topics, 0 of the owner's 14, 9 papers, 51 lessons, 45 teachers, 106 findings, 23 of 34 practices, and the six topics read next under their Hebrew names; 14 bars and the closest dances with Hebrew item names; 14 nights; the links to `/starting-line`, `/mentor`, `/health`, and the link to `/machine` at the end of `/starting-line` and `/health`. Old pages unchanged. Live: the page opens in Hebrew | yes |
+| 21 Nov | 7 The direction, in the founder's words | 3.10 | 40.3 (balance page, 17:50; 1.2 less than the three "Credits used" figures of the evening add up to) | 1 min 56 s. In the preview: `/vision` with the title, two pull quotes (the second marked as translated from Hebrew), Now / Next / Later, why a mentor, what is not here, sacred dances, open to any AI with the link to the manifest (new tab) and to `/health`, "32 / 1,244" after Mission 1, the honesty line; no new request. Home strip: "32 dances ready to activate · The starting line → · Where this is going →". Old pages unchanged. Live: the page opens | yes |
 
 ### How a message is sent (learned on 21 November)
 
@@ -436,4 +453,82 @@ Read-only. Nothing is rendered for an empty value: a card or section whose words
 
 WHEN DONE
 Open /vision in the preview and report: the H1, the number of pull quotes, the three card titles, the numbers shown after Mission 1, and any console error. Then open Home and report the strip's text.
+```
+
+## Batch 8 — the message
+
+Send when `viral.json` is live in `public/catalog/` and `pages.viral` is in `site.json` on main. After it is published, change the sentence about the Viral list in `pages.privacy.body` of `site.json` (the list is then read from GitHub, not from Supabase).
+
+```
+BATCH 8 — TRUTH REPAIRS: THE VIRAL LIST (the page /viral). Read the Project instructions first. Do exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHY
+The Viral page reads a database view whose three "charts" (this month, this year, all time) are the same list in order of date, with rank numbers that look like popularity. No popularity is known. The same list, with more verified facts and its sources, is now an open file on GitHub. After this batch the page tells the truth and the app has no backend at all.
+
+DATA
+https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/viral.json — contract "da_viral_v1", about 300 KB, rebuilt when it changes. Fields: count; order (a sentence); categories {<key>: number}; fingerprint; updated; challenges[] in the order to show them, each { slug, name, category?, song?, origin_date?, origin_year?, originator?, originator_story?, timeline?, peak_period?, fun_facts?, celebrity_performances?[] {performer, platform?, url?}, platform?, hero_video_youtube_id?, hero_title?, hero_channel?, video_stack?[] {youtube_id, role, title?, channel?}, original_video_url?, sources?[] (urls) }. Every field after name may be missing: then nothing is rendered for it.
+Load it with the loader the dance files use: fetched when /viral opens (or when Home has saved viral items to show), 10-second timeout, one retry, stored whole in the browser database da_library_v2 under "viral.json"; a stored copy is shown at once and replaced in the background when the file's fingerprint differs. If it cannot be loaded and no copy is stored: the page header and one calm line t("pages.viral.unavailable","The Viral list could not be loaded just now. Please try again in a moment."). Add viral.json to the files /health checks.
+
+REMOVE
+1. Supabase, completely: the client, its npm package, the project address and the key in the code, the request to viral_chart and every other call. If anything other than the Viral list still reads from Supabase, do not remove that one call: name it in your report. After this batch the app's only data requests go to raw.githubusercontent.com.
+2. The three tabs THIS MONTH / THIS YEAR / ALL TIME.
+3. Every rank: the "#1" numbers on cards and in the details, the "NEW" badge, rank arrows, weeks on a chart, view counts, and the "How ranking works" block. Nothing on this page may suggest popularity.
+4. In the details: the "Tutorials coming soon…" block.
+5. The word "Top" in the page title: it becomes "Viral dance challenges — Dancing Atlas".
+
+SHOW
+A. Under the page title t("pages.viral.title","Viral dance challenges") one muted line t("pages.viral.order","In order of when each began, newest first. This is not a ranking.").
+B. Category chips as today: t("pages.viral.all","All") with count, then one chip per key of categories with its number, in the order the page uses today for the keys it knows. A key the page does not know is shown with underscores as spaces and capitals as the others. A category with no entries is not shown (today "Flashmob IRL 0" is shown).
+C. The cards in the file's order, with the same look and video behaviour as today: category · origin_year; name; then t("pages.viral.made_by","Made by") + " " + originator; Save, Share and Details as today. The video is hero_video_youtube_id; a challenge without one shows its card without a video.
+D. The details sheet: category · origin_year; name; t("pages.viral.made_by","Made by") + originator; then, each only when present: originator_story under t("pages.viral.story","Who made it"); timeline under t("pages.viral.timeline","How it spread"); peak_period under t("pages.viral.peak","At its height"); fun_facts under t("pages.viral.fact","Worth knowing"); celebrity_performances as lines "performer · platform" under t("pages.viral.also","Also danced by"); song under t("pages.viral.song","The song") as today; the Watch button t("pages.viral.watch","Watch") as today; the other videos of video_stack as the page shows more videos today; sources as numbered links (new tab, rel="noopener noreferrer") under t("pages.viral.sources","Sources").
+E. Saved viral challenges keep working with the same slugs: the hearts, "Fav viral" on Home and the Saved page take names and pictures from viral.json.
+
+RULES
+Read-only. No number is typed into the code. Nothing is rendered for an empty value. Change no other page.
+
+WHEN DONE
+Open /viral in the preview and report: the number on "All", every category chip with its number, the first three names, the title of the page, what the details of the first card show, the list of hosts the page requested data from, whether the Supabase package is gone from package.json, and the rows of /health. Then save one viral challenge, open Home and Saved, and report that it shows there.
+```
+
+
+## Batch 9 — the message
+
+Send when the index on main carries `places` and `families` (the stage `door` after the change of 21 November, evening) and the words `pages.atlas`, `pages.tree`, `pages.home`, `pages.notfound` are in `site.json`.
+
+```
+BATCH 9 — TRUTH REPAIRS: COUNTRIES AND FAMILIES (the pages /atlas, /flags and /tree, one sentence on Home, unknown addresses). Read the Project instructions first. Do exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHY
+The Atlas counts 213 "countries" because a joined name such as "France and Italy" or "Albania/Kosovo" counts as a country of its own; the Flags page shows the same flag several times for the same reason; the tree puts every dance without a family into "Folk & Circle" (977, of which 774 have no family); Home promises a map that does not exist; an address that does not exist shows a loading-error message. The index now carries the real counts.
+
+DATA (already loaded: index.json, contract "da_index_v1")
+Head: count; regions[] (names, in the order to show them); places {<ISO code>: {region, dances}}; no_place (number); families {<key>: {name, dances}}; no_family (number).
+Per dance: countries?[] (ISO codes: a dance belongs to EVERY code in this list), family? (a key of families), name, era, region, slug and the fields used today.
+A country's name is new Intl.DisplayNames(["en"], {type: "region"}).of(code); its flag is the emoji made from the two letters of the code. Do not use the dance's free-text "country" field for grouping or counting any more; it may still be shown as text on a dance page.
+
+ATLAS (/atlas)
+1. Header: "<count> DANCES · <number of keys in places> COUNTRIES".
+2. One section per name in regions, in that order; under it the countries whose places[code].region is that name, sorted by name, each a chip as today: flag, name, places[code].dances.
+3. After the regions, when no_place is above zero, one chip without a flag: t("pages.atlas.no_place","Place not yet known") with the number no_place; it lists the dances that have no countries.
+4. The sheet a chip opens stays as it is, with the heading "<name>", "<n> DANCES · <region>", listing every dance whose countries include that code, sorted by name.
+
+FLAGS (/flags)
+One tile per key of places: no flag appears twice. Sorted by country name. A tile opens what it opens today, for the dances whose countries include that code.
+
+TREE (/tree)
+1. The families are the keys of families, each with its name and its number from the file; a dance sits in the family named by its own family field.
+2. Dances without a family field are shown as one separate group t("pages.tree.no_family","Family not yet known") with the number no_family. They are never placed inside "Folk & circle" or any other family.
+3. Everything else on the page (zoom, layout, flags) stays as it is.
+
+HOME
+The sentence under the hero ("<count> traditions still danced today — wander by flag, map, or family tree.") becomes "<count> " + t("pages.home.lead","traditions still danced today.") followed by three text links: t("pages.home.by_country","By country") to /atlas, t("pages.home.by_flag","By flag") to /flags, t("pages.home.by_family","By family") to /tree. There is no map: the word goes. The "Start exploring" button and the strip under it stay.
+
+AN ADDRESS THAT DOES NOT EXIST
+An address that matches no route (for example /map) shows t("pages.notfound.title","This page does not exist") and a link t("pages.notfound.back","Back to the atlas") to /atlas. The "could not be loaded" message stays for real loading failures only. A retired dance address keeps redirecting as today.
+
+RULES
+Read-only. No number is typed into the code: every number comes from the index. No new request, no new npm dependency. Change no other page.
+
+WHEN DONE
+Report from the preview: the Atlas header; the regions shown, in order, with the number of countries under each; the number on the "Place not yet known" chip; the number of dances in the sheet of France and of Japan; the number of tiles on /flags; every family on /tree with its number, and the number of the group without a family; the Home sentence with its three links; the text shown at /map.
 ```
