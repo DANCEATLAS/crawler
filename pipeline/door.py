@@ -292,7 +292,29 @@ def _rate(hist, key, days=14):
     return None if span < 1 else round((hist[-1].get(key, 0) - first.get(key, 0)) / span, 1)
 
 
-def machine(runs, hist, state, names, owner, gen):
+def study(root, today=None, budget=None):
+    """The mentor's study in a few numbers, for the owner's page: how much of the reading list is read, what is read next,
+    and how far the topics of the owner's direction of 21 November have come. No model, no network."""
+    from . import teaching as T
+    notes = {}
+    for f in glob.glob(os.path.join(root, "pedagogy", "science", "*.json")):
+        r = _load(f, {})
+        if isinstance(r, dict) and r.get("key"):
+            notes[r["key"]] = r
+    keys = [item[0] for item in T.SCIENCE]
+    read = lambda k: (notes.get(k) or {}).get("status") == "ok"
+    n = int(os.environ.get("SCIENCE_BUDGET", "3")) if budget is None else budget
+    c = (_load(os.path.join(root, "public", "catalog", "bdf_teaching_system.json"), {}) or {}).get("counts") or {}
+    return _full({"topics": len(keys), "topics_read": sum(1 for k in keys if read(k)),
+                  "first": {"topics": len(T.FIRST_TOPICS), "read": sum(1 for k in T.FIRST_TOPICS if read(k))},
+                  "next": [item[0] for item in T.pick_science(notes, n, today)],
+                  "papers_read": sum(1 for k, r in notes.items() if k.startswith("paper-") and r.get("status") == "ok"),
+                  "lessons_studied": c.get("lessons_studied_for_method"), "teachers_studied": c.get("teachers_studied"),
+                  "findings_checked": c.get("science_findings_checked"),
+                  "practices": c.get("practices_total"), "practices_in_dna": c.get("practices_with_two_or_more_kinds")})
+
+
+def machine(runs, hist, state, names, owner, gen, study=None):
     """How the machine is doing, for one page in large type."""
     whole = [n for n in nights(runs) if n["whole"]]
     brief = lambda n: {k: n[k] for k in ("date", "started", "finished", "minutes", "questions", "unanswered")} | {"stages": len(n["stages"]), "errors": n["errors"][:10], "trouble": n["trouble"][:10]}
@@ -301,7 +323,7 @@ def machine(runs, hist, state, names, owner, gen):
     blockers = Counter(k for v in building.values() for k in v.get("missing") or [])
     close = sorted((len(v["missing"]), s) for s, v in building.items() if v.get("missing"))[:40]
     hist = sorted((h for h in hist or [] if isinstance(h, dict) and h.get("date")), key=lambda h: h["date"])
-    return {"contract": "da_machine_v1", "generated_at": gen,
+    out = {"contract": "da_machine_v1", "generated_at": gen,
             "last_night": brief(whole[-1]) if whole else None,
             "nights": [{k: n[k] for k in ("date", "minutes", "questions", "unanswered")} | {"errors": len(n["errors"])} for n in whole[-30:]],
             "counts": (state or {}).get("counts") or {},
@@ -309,8 +331,11 @@ def machine(runs, hist, state, names, owner, gen):
             "pace": {"days": min(14, (dt.date.fromisoformat(hist[-1]["date"]) - dt.date.fromisoformat(hist[0]["date"])).days) if len(hist) > 1 else 0,
                      "per_night": {k: _rate(hist, k) for k in ("listed", "published", "active_ready")}},
             "blockers": [{"key": k, "label": LABEL.get(k, k), "profiles": n} for k, n in blockers.most_common()],
-            "closest": [{"slug": s, "name": names.get(s, s), "needs": [LABEL.get(k, k) for k in building[s]["missing"]]} for _, s in close],
+            "closest": [{"slug": s, "name": names.get(s, s), "needs": [LABEL.get(k, k) for k in building[s]["missing"]], "need_keys": list(building[s]["missing"])} for _, s in close],
             "owner": _full({"status": (owner or {}).get("status"), "text": (owner or {}).get("reason"), "verified_at": (owner or {}).get("verified_at")})}
+    if study:
+        out["study"] = study
+    return out
 
 
 def run(root=".", today=None):
@@ -347,7 +372,8 @@ def run(root=".", today=None):
     _save_index(C("index.json"), {"contract": "da_index_v1", "generated_at": gen, "count": len(index), "states": dict(sorted(states.items())), "file": "d/{slug}.json"},
                 index, {k: retired[k] for k in sorted(retired)})
     owner = (_load(P("pipeline_state", "vision_status.json"), {}) or {}).get("owner_action")
-    _save(C("machine.json"), machine(_load(P("pipeline_state", "runs.json"), []), _load(P("pipeline_state", "active_ready_history.json"), []), state, names, owner, gen))
+    _save(C("machine.json"), machine(_load(P("pipeline_state", "runs.json"), []), _load(P("pipeline_state", "active_ready_history.json"), []), state, names, owner, gen,
+                                     study(root, today)))
     files, total = [], 0
     for name, contract, holds in FILES:
         if name != "manifest.json" and not os.path.exists(C(name)):

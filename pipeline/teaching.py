@@ -255,18 +255,18 @@ SCIENCE = [
     # and people who learn to teach, and take the foundations of mentoring into life
     ("psychological_safety", "Psychological safety", 'ABSTRACT:"psychological safety" AND ABSTRACT:learning', ["normalise_mistakes", "names_the_feeling"]),
     ("learning_climate", "", 'ABSTRACT:"motivational climate" AND ABSTRACT:dance', ["normalise_mistakes", "praise_and_expectancy", "fun_and_energy"]),
-    ("mindful_movement", "Mindfulness", 'ABSTRACT:mindfulness AND ABSTRACT:"motor learning"', ["moment_of_presence", "checks_in"]),
+    ("mindful_movement", "Mindfulness", 'ABSTRACT:mindfulness AND (ABSTRACT:"motor learning" OR ABSTRACT:"motor skill" OR ABSTRACT:"motor performance")', ["moment_of_presence", "checks_in"]),
     ("awe_and_transcendence", "Awe", 'ABSTRACT:awe AND ABSTRACT:"self-transcendence"', ["moment_of_presence", "culture_and_meaning"]),
-    ("spirituality_and_dance", "", 'ABSTRACT:dance AND ABSTRACT:spirituality', ["moment_of_presence", "culture_and_meaning"]),
-    ("ritual_and_belonging", "Collective effervescence", 'ABSTRACT:ritual AND ABSTRACT:synchrony AND ABSTRACT:cooperation', ["social_connection", "moment_of_presence"]),
+    ("spirituality_and_dance", "", 'ABSTRACT:dance AND (ABSTRACT:spirituality OR ABSTRACT:spiritual OR ABSTRACT:transcendence)', ["moment_of_presence", "culture_and_meaning"]),
+    ("ritual_and_belonging", "Collective effervescence", 'ABSTRACT:synchrony AND (ABSTRACT:"social bonding" OR ABSTRACT:cooperation OR ABSTRACT:affiliation)', ["social_connection", "moment_of_presence"]),
     ("meaning_and_staying", "", 'ABSTRACT:"meaning in life" AND ABSTRACT:"physical activity"', ["culture_and_meaning", "reason_to_return"]),
     ("embodied_learning", "Kinesthetic learning", 'ABSTRACT:"embodied learning" AND ABSTRACT:education', ["culture_and_meaning", "feel_and_groove"]),
     ("learning_by_teaching", "Learning by teaching", 'ABSTRACT:"learning by teaching"', ["teach_back"]),
     ("peer_teaching", "Peer learning", 'ABSTRACT:"peer teaching" AND ABSTRACT:"physical education"', ["teach_back", "social_connection"]),
-    ("peer_tutoring_of_movement", "Reciprocal teaching", 'ABSTRACT:"peer tutoring" AND ABSTRACT:"motor skill"', ["teach_back", "error_correction"]),
+    ("peer_tutoring_of_movement", "Reciprocal teaching", 'ABSTRACT:"peer tutoring" AND ABSTRACT:"physical education"', ["teach_back", "error_correction"]),
     ("peer_mentoring", "Peer mentoring", 'ABSTRACT:"peer mentoring" AND ABSTRACT:"self-efficacy"', ["teach_back", "own_story"]),
     ("life_skills_that_transfer", "", 'ABSTRACT:"life skills" AND ABSTRACT:transfer AND ABSTRACT:sport', ["method_made_visible", "long_road"]),
-    ("how_teachers_learn_to_teach", "", 'ABSTRACT:"dance teachers" AND ABSTRACT:training AND ABSTRACT:pedagogy', ["method_made_visible"]),
+    ("how_teachers_learn_to_teach", "", 'ABSTRACT:"dance teachers" AND (ABSTRACT:teaching OR ABSTRACT:pedagogy OR ABSTRACT:education)', ["method_made_visible"]),
 ]
 # The open search: one of these a night, in turn; the most cited papers not yet read get a note each. It never ends.
 PAPER_QUERIES = [
@@ -284,10 +284,33 @@ PAPER_QUERIES = [
     'ABSTRACT:"virtual coach" AND ABSTRACT:"physical activity"', 'ABSTRACT:"intelligent tutoring systems" AND ABSTRACT:motor', 'ABSTRACT:dance AND ABSTRACT:"body image"',
     'ABSTRACT:dance AND ABSTRACT:teacher AND ABSTRACT:relationship', 'ABSTRACT:dance AND ABSTRACT:lifelong', 'ABSTRACT:"motor learning" AND ABSTRACT:emotion',
     'ABSTRACT:mentoring AND ABSTRACT:motivation AND ABSTRACT:"skill"', 'ABSTRACT:"self-compassion" AND ABSTRACT:"physical activity"',
-    'ABSTRACT:"learning by teaching"', 'ABSTRACT:"peer teaching" AND ABSTRACT:motor', 'ABSTRACT:"peer mentoring" AND ABSTRACT:youth', 'ABSTRACT:"life skills" AND ABSTRACT:sport AND ABSTRACT:transfer',
-    'ABSTRACT:dance AND ABSTRACT:spirituality', 'ABSTRACT:dance AND ABSTRACT:mindfulness', 'ABSTRACT:dance AND ABSTRACT:meaning AND ABSTRACT:experience',
-    'ABSTRACT:dance AND ABSTRACT:community AND ABSTRACT:belonging', 'ABSTRACT:"psychological safety" AND ABSTRACT:students', 'ABSTRACT:dance AND ABSTRACT:transcendence',
 ]
+# The owner's direction of 21 November 2026 (PRODUCT_VISION.md, points 8 and 9): ease and openness, an experience that inspires,
+# and learners who learn to teach. What follows is read FIRST, ahead of everything that was already waiting, one strand after
+# another each night; when it has been read once it takes its ordinary turn with the rest.
+FIRST_QUERIES = [
+    'ABSTRACT:"psychological safety" AND ABSTRACT:students', 'ABSTRACT:"learning by teaching"', 'ABSTRACT:dance AND (ABSTRACT:spirituality OR ABSTRACT:spiritual)',
+    'ABSTRACT:dance AND ABSTRACT:mindfulness', 'ABSTRACT:"peer teaching" AND ABSTRACT:motor', 'ABSTRACT:dance AND ABSTRACT:meaning AND ABSTRACT:experience',
+    'ABSTRACT:dance AND ABSTRACT:community AND ABSTRACT:belonging', 'ABSTRACT:"peer mentoring" AND ABSTRACT:youth', 'ABSTRACT:dance AND ABSTRACT:transcendence',
+    'ABSTRACT:"life skills" AND ABSTRACT:sport AND ABSTRACT:transfer',
+]
+PAPER_QUERIES += FIRST_QUERIES
+FIRST_TOPICS = ("psychological_safety", "learning_by_teaching", "awe_and_transcendence", "learning_climate", "peer_teaching", "spirituality_and_dance",
+                "mindful_movement", "peer_mentoring", "meaning_and_staying", "embodied_learning", "life_skills_that_transfer", "ritual_and_belonging",
+                "peer_tutoring_of_movement", "how_teachers_learn_to_teach")
+FIRST_FOUNDATIONS = ("arriving", "teaching-others")
+# A second, wider search for a topic whose own search finds fewer than two papers. The searches of the owner's topics were
+# asked of the paper database on 21 November: two found nothing at all and four found fewer than five papers; those were
+# rewritten (hits now: 3 to 1,856), and the narrower ones keep this net. A topic left without sources waits for its next turn.
+WIDER = {
+    "peer_tutoring_of_movement": 'ABSTRACT:"peer tutoring"',
+    "how_teachers_learn_to_teach": 'ABSTRACT:"teacher education" AND ABSTRACT:"physical education"',
+    "ritual_and_belonging": 'ABSTRACT:ritual AND (ABSTRACT:"social cohesion" OR ABSTRACT:belonging OR ABSTRACT:bonding)',
+    "learning_climate": 'ABSTRACT:"motivational climate" AND ABSTRACT:"physical education"',
+    "mindful_movement": 'ABSTRACT:"mindful movement"',
+    "peer_teaching": 'ABSTRACT:"peer teaching" AND ABSTRACT:skills',
+    "life_skills_that_transfer": 'ABSTRACT:"life skills" AND ABSTRACT:sport',
+}
 # What every dance shares. Lessons for people who believe they cannot dance: slug, title, searches (free, yt-dlp).
 FOUNDATIONS = [
     ("first-steps", "First steps", [   # for people who believe they cannot dance
@@ -405,15 +428,20 @@ def video_facts(ids):
 def discover_foundations(store, state, searches, per_search=4, today=None):
     """A few searches a night, in turn through FOUNDATIONS. A video becomes a lesson only when learners praise it."""
     flat = [(slug, q) for slug, _, qs in FOUNDATIONS for q in qs if slug != TALKS]
+    first = [(slug, q) for slug, q in flat if slug in FIRST_FOUNDATIONS]
     talks = [(slug, q) for slug, _, qs in FOUNDATIONS for q in qs if slug == TALKS]
     seen, added = set(state.get("videos_seen") or []), 0
     topics = store.setdefault("topics", {})
     for n in range(max(0, searches)):
         # the night's last search looks for a teacher explaining how they teach: the mentor's own words must not wait their turn
         pool, counter = (talks, "talk_search") if (talks and searches >= 2 and n == searches - 1) else (flat, "foundation_search")
-        i = int(state.get(counter) or 0)
-        slug, q = pool[i % len(pool)]
-        state[counter] = i + 1
+        used = int(state.get("foundation_first") or 0)
+        if pool is flat and used < len(first):      # the owner's topics of 21 November, once each, before the turn goes on
+            (slug, q), state["foundation_first"] = first[used], used + 1
+        else:
+            i = int(state.get(counter) or 0)
+            slug, q = pool[i % len(pool)]
+            state[counter] = i + 1
         new = [x for x in ytdlp_search(q) if x not in seen]
         seen.update(new)
         if not new:
@@ -486,11 +514,14 @@ def pick_methods(teachers, methods, budget, per_teacher=3, today=None, want=None
     return picked
 
 def tonight(teachers, methods, n, per=3, basics_share=3, talk_share=1, today=None):
-    """Tonight's lessons: first a teacher explaining how they teach, when one is waiting (the mentor's own words), then the basics, then the dances."""
+    """Tonight's lessons: first a teacher explaining how they teach, when one is waiting (the mentor's own words), then one waiting
+    lesson on arriving at ease or on teaching someone else (the owner's direction of 21 November), then the basics, then the dances."""
+    ids = lambda picked: {l["youtube_id"] for _, l in picked}
     talk = pick_methods(teachers, methods, min(n, talk_share), per, today=today, want=lambda l: l["slug"] == BASICS + TALKS and bool(TALK_TITLE.search(l["title"])))
-    basics = talk + pick_methods(teachers, methods, max(0, min(n, basics_share) - len(talk)), per, today=today,
-                                 want=lambda l: l["slug"].startswith(BASICS), skip={l["youtube_id"] for _, l in talk})
-    rest = pick_methods(teachers, methods, n - len(basics), per, today=today, skip={l["youtube_id"] for _, l in basics})
+    room = max(0, min(n, basics_share) - len(talk))
+    lead = talk + pick_methods(teachers, methods, min(room, 1), per, today=today, want=lambda l: l["slug"] in {BASICS + x for x in FIRST_FOUNDATIONS}, skip=ids(talk))
+    basics = lead + pick_methods(teachers, methods, max(0, min(n, basics_share) - len(lead)), per, today=today, want=lambda l: l["slug"].startswith(BASICS), skip=ids(lead))
+    rest = pick_methods(teachers, methods, n - len(basics), per, today=today, skip=ids(basics))
     return basics + rest, len(basics), len(talk)
 
 def _voice(v):
@@ -673,7 +704,11 @@ def science_sources(item):
         except Exception as e:
             warn("science wiki", key, type(e).__name__)
     try:
-        src += europe_pmc(query)
+        papers = europe_pmc(query)
+        if len(papers) < 2 and WIDER.get(key):      # the first search found too little to stand on: one wider search
+            seen = {p["url"] for p in papers}
+            papers += [p for p in europe_pmc(WIDER[key]) if p["url"] not in seen]
+        src += papers[:4]
     except Exception as e:
         warn("science europe pmc", key, type(e).__name__)
     return src
@@ -710,13 +745,14 @@ def science_note(item, llm, sources=None, topic=None):
     return rec
 
 def pick_science(notes, n, today=None):
-    due = []
-    for item in SCIENCE:
+    """Tonight's topics: those never read first (the owner's topics of 21 November ahead of the rest), then the notes due for a fresh reading."""
+    first, due = {k: i for i, k in enumerate(FIRST_TOPICS)}, []
+    for pos, item in enumerate(SCIENCE):
         rec = notes.get(item[0])
         if not rec:
-            due.append((0, item))
-        elif _days_since(rec.get("written_at"), today) >= (SCIENCE_REFRESH_DAYS if rec.get("status") == "ok" else RETRY_DAYS):
-            due.append((1, item))
+            due.append(((0, first.get(item[0], len(first)), pos), item))
+        elif _days_since(rec.get("written_at"), today) >= {"ok": SCIENCE_REFRESH_DAYS, "no_sources": 7}.get(rec.get("status"), RETRY_DAYS):
+            due.append(((1, 0, pos), item))        # no source found cost no question: searched again after a week, not a month
     due.sort(key=lambda x: x[0])
     return [item for _, item in due[:max(0, n)]]
 
@@ -727,10 +763,14 @@ def discover_papers(state, notes, n, search=None):
     """The open search: tonight's query, its most cited papers that have no note yet."""
     if n <= 0:
         return []
-    i = int(state.get("paper_search") or 0)
-    state["paper_search"] = i + 1
+    used = int(state.get("paper_first") or 0)
+    if used < len(FIRST_QUERIES):                    # the owner's searches of 21 November, once each, before the turn goes on
+        query, state["paper_first"] = FIRST_QUERIES[used], used + 1
+    else:
+        i = int(state.get("paper_search") or 0)
+        query, state["paper_search"] = PAPER_QUERIES[i % len(PAPER_QUERIES)], i + 1
     seen = set(state.get("papers_seen") or [])
-    fresh = [p for p in (search or europe_pmc)(PAPER_QUERIES[i % len(PAPER_QUERIES)], n=20) if paper_key(p) not in seen and paper_key(p) not in notes][:n]
+    fresh = [p for p in (search or europe_pmc)(query, n=20) if paper_key(p) not in seen and paper_key(p) not in notes][:n]
     state["papers_seen"] = sorted(seen | {paper_key(p) for p in fresh})[-8000:]
     return fresh
 

@@ -348,7 +348,7 @@ class TeachingResearchTests(Project):
         self.assertEqual(jload("pedagogy/bdf_system.json")["counts"]["lessons_studied_for_method"], 2)
 
     def test_basics_lessons_come_from_a_free_search_and_stay_only_when_learners_praise_them(self):
-        store, state = {}, {}
+        store, state = {}, {"foundation_first": 99}        # the owner's topics of 21 November have had their first searches: the ordinary turn
         facts = [{"youtube_id": "F1", "title": "How to find the beat", "channel": "Beat Coach", "comments": 90}, {"youtube_id": "F2", "title": "Rhythm", "channel": "Other", "comments": 50}]
         said = {"F1": ["This finally clicked for me", "Best teacher ever, so clear"], "F2": ["too fast", "confusing"]}
         with patch.object(teaching, "ytdlp_search", return_value=["F1", "F2"]), patch.object(teaching, "video_facts", return_value=facts), \
@@ -364,7 +364,7 @@ class TeachingResearchTests(Project):
         self.assertEqual(teaching.basics_name("basics-first-steps"), "First steps (basics)")
         self.assertEqual(teaching.praise(["Muchas gracias, easy to follow", "trop vite"]), (2, 1))
         # with two or more searches a night, the last one looks for a teacher explaining how they teach
-        asked, state2 = [], {}
+        asked, state2 = [], {"foundation_first": 99}
         with patch.object(teaching, "ytdlp_search", side_effect=lambda q, n=15: asked.append(q) or []):
             teaching.discover_foundations({}, state2, 3)
         talk_phrases = [q for slug, _, qs in teaching.FOUNDATIONS if slug == teaching.TALKS for q in qs]
@@ -378,9 +378,66 @@ class TeachingResearchTests(Project):
             teaching.discover_foundations(store3, {}, 2)
         self.assertEqual([l["youtube_id"] for l in store3["topics"][teaching.TALKS]["lessons"]], ["T2"])
 
+    def test_the_owners_direction_is_read_before_everything_that_was_waiting(self):
+        today = dt.date(2026, 11, 21)
+        keys = [item[0] for item in teaching.SCIENCE]
+        self.assertTrue(all(k in keys for k in teaching.FIRST_TOPICS) and len(set(teaching.FIRST_TOPICS)) == len(teaching.FIRST_TOPICS))
+        self.assertTrue(all(q in teaching.PAPER_QUERIES for q in teaching.FIRST_QUERIES))
+        self.assertTrue(all(any(slug == x for slug, _, _ in teaching.FOUNDATIONS) for x in teaching.FIRST_FOUNDATIONS))
+        # research topics: the owner's first, in the order given; then the list as it stood; a note due for a fresh reading comes last
+        self.assertEqual([i[0] for i in teaching.pick_science({}, 3, today)], list(teaching.FIRST_TOPICS[:3]))
+        read = {k: {"status": "ok", "written_at": "2026-11-21T20:00:00Z"} for k in teaching.FIRST_TOPICS}
+        self.assertEqual([i[0] for i in teaching.pick_science(read, 2, today)], [k for k in keys if k not in read][:2])
+        old = {k: {"status": "ok", "written_at": "2025-01-01T00:00:00Z"} for k in keys}
+        old.pop(teaching.FIRST_TOPICS[5]); old.pop(keys[0])
+        self.assertEqual([i[0] for i in teaching.pick_science(old, 3, today)], [teaching.FIRST_TOPICS[5], keys[0], keys[1]])
+        # a topic for which no source was found is searched again after a week (no question was spent); a thin note waits its month
+        waiting = dict(read, **{k: {"status": "ok", "written_at": "2026-11-21T20:00:00Z"} for k in keys})
+        waiting[keys[3]] = {"status": "no_sources", "written_at": "2026-11-12T20:00:00Z"}
+        waiting[keys[4]] = {"status": "thin", "written_at": "2026-11-12T20:00:00Z"}
+        self.assertEqual([i[0] for i in teaching.pick_science(waiting, 5, today)], [keys[3]])
+        # a topic whose own search finds fewer than two papers gets one wider search; a topic that finds enough is not searched twice
+        self.assertTrue(all(k in keys for k in teaching.WIDER))
+        narrow = next(item for item in teaching.SCIENCE if item[0] == "peer_tutoring_of_movement")
+        calls = []
+        found = lambda q, n=4: calls.append(q) or ([] if q == narrow[2] else [dict(PAPER, url="https://europepmc.org/article/MED/%d" % i) for i in (7, 8)])
+        with patch.object(teaching, "europe_pmc", side_effect=found), patch("pipeline.sources.wiki_page", return_value=None):
+            got = teaching.science_sources(narrow)
+            self.assertEqual((len(got), calls), (2, [narrow[2], teaching.WIDER[narrow[0]]]))
+            calls.clear()
+            plain = next(item for item in teaching.SCIENCE if item[0] not in teaching.WIDER)
+            teaching.science_sources(plain)
+            self.assertEqual(calls, [plain[2]])
+        # the open paper search: the owner's searches once each, then the turn goes on exactly where it stood
+        asked, state = [], {"paper_search": 8}
+        search = lambda q, n=20: asked.append(q) or []
+        for _ in range(len(teaching.FIRST_QUERIES) + 2):
+            teaching.discover_papers(state, {}, 2, search=search)
+        self.assertEqual(asked, teaching.FIRST_QUERIES + teaching.PAPER_QUERIES[8:10])
+        self.assertEqual((state["paper_first"], state["paper_search"]), (len(teaching.FIRST_QUERIES), 10))
+        # the basics searches: the owner's two topics first, then the turn goes on where it stood; the talk search keeps its place
+        first = [q for slug, _, qs in teaching.FOUNDATIONS if slug in teaching.FIRST_FOUNDATIONS for q in qs]
+        flat = [q for slug, _, qs in teaching.FOUNDATIONS if slug != teaching.TALKS for q in qs]
+        talks = [q for slug, _, qs in teaching.FOUNDATIONS if slug == teaching.TALKS for q in qs]
+        asked2, state2 = [], {"foundation_search": 18, "talk_search": 6}
+        with patch.object(teaching, "ytdlp_search", side_effect=lambda q, n=15: asked2.append(q) or []):
+            for _ in range(len(first) // 2 + 1):
+                teaching.discover_foundations({}, state2, 3)
+        nights = [asked2[i:i + 3] for i in range(0, len(asked2), 3)]
+        self.assertEqual([q for night in nights for q in night[:2]], first + [flat[18 % len(flat)], flat[19 % len(flat)]])
+        self.assertEqual([night[2] for night in nights], [talks[(6 + i) % len(talks)] for i in range(len(nights))])
+        self.assertEqual((state2["foundation_first"], state2["foundation_search"]), (len(first), 20))
+        # tonight's lessons: after a teacher's talk, one waiting lesson on arriving at ease or on teaching someone else, then the other basics
+        lessons = dict(LESSONS, **{teaching.BASICS + "first-steps": {"lessons": [{"youtube_id": "F1", "channel": "Ana Dance", "title": "Your first steps", "pos": 20, "neg": 0}]},
+                                   teaching.BASICS + "teaching-others": {"lessons": [{"youtube_id": "P1", "channel": "Quiet Teacher", "title": "Show a friend their first step", "pos": 2, "neg": 0},
+                                                                                     {"youtube_id": "P2", "channel": "Slow Steps", "title": "Teach your partner to turn", "pos": 2, "neg": 0}]},
+                                   teaching.BASICS + teaching.TALKS: {"lessons": [{"youtube_id": "T1", "channel": "Talker", "title": "How I teach adults", "pos": 2, "neg": 0}]}})
+        got = teaching.tonight(teaching.build_teachers(lessons, {}, {}), {}, 5, today=today)
+        self.assertEqual(([l["youtube_id"] for _, l in got[0]][:3], got[1], got[2]), (["T1", "P1", "F1"], 3, 1))
+
     def test_the_open_search_never_reads_a_paper_twice_and_the_model_proposes_its_tags(self):
         papers = [dict(PAPER, url="https://europepmc.org/article/MED/%d" % i, title="Paper %d" % i) for i in (1, 2, 3)]
-        state, search = {}, (lambda q, n=20: papers)
+        state, search = {"paper_first": len(teaching.FIRST_QUERIES)}, (lambda q, n=20: papers)       # the owner's searches are done: the ordinary turn
         self.assertEqual([teaching.paper_key(p) for p in teaching.discover_papers(state, {}, 2, search=search)], ["paper-med-1", "paper-med-2"])
         self.assertEqual([teaching.paper_key(p) for p in teaching.discover_papers(state, {}, 2, search=search)], ["paper-med-3"])
         self.assertEqual((teaching.discover_papers(state, {}, 2, search=search), state["paper_search"]), ([], 3))
