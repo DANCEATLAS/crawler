@@ -77,6 +77,7 @@ COUNTRIES = {
  "bavaria":("DE","Europe"),"tyrol":("AT","Europe"),"transylvania":("RO","Europe"),"crete":("GR","Europe"),"pontus":("TR","Middle East"),"zanzibar":("TZ","Africa"),
  "okinawa":("JP","East Asia"),"bali":("ID","Southeast Asia"),"java":("ID","Southeast Asia"),"sumatra":("ID","Southeast Asia"),"borneo":("ID","Southeast Asia"),
  "mindanao":("PH","Southeast Asia"),"kashmir":("IN","South Asia"),"rajasthan":("IN","South Asia"),"kerala":("IN","South Asia"),"tamil nadu":("IN","South Asia"),
+ "uae":("AE","Middle East"),"niue":("NU","Oceania"),
  "england and scotland":("GB","Europe"),"britain":("GB","Europe"),"great britain":("GB","Europe"),"ireland and scotland":("IE","Europe"),"north america":("US","North America"),
 }
 

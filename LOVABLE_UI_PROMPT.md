@@ -1,3 +1,5 @@
+**Superseded on 21 November 2026 by `LOVABLE_BATCHES.md`.** Kept for the record; do not send this prompt.
+
 # The one Lovable prompt — making the website show everything the machine produces
 
 *For the owner, and for any AI he brings into Lovable.*

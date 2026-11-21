@@ -1,33 +1,37 @@
 DANCE ATLAS — INSTRUCTIONS FOR ANY AI IN THIS PROJECT
-Revision 17 November 2026. Kept short on purpose: every word here is read on every prompt.
+Revision 21 November 2026. Kept short on purpose: every word here is read on every prompt.
 
 READ FIRST
 Current state, rules and open work: https://github.com/DANCEATLAS/crawler/blob/main/LEDGER.md
+Website batches, their order and cost: https://github.com/DANCEATLAS/crawler/blob/main/LOVABLE_BATCHES.md
 Whole vision (V01–V18): https://github.com/DANCEATLAS/crawler/blob/main/PRODUCT_VISION.md
 Dated record of changes: https://github.com/DANCEATLAS/crawler/blob/main/IMPLEMENTATION_LEDGER.md
 
 WHAT THIS PROJECT IS
-Lovable is the website shell only. All content is made and filtered in the GitHub repository DANCEATLAS/crawler by scheduled jobs and reaches the site by itself every day, with no credits. Never create, fix or edit content here. Never ask the AI here to "look into" data.
+Lovable is the window only. All content is made and filtered in the GitHub repository DANCEATLAS/crawler by scheduled jobs and reaches the site by itself every day, with no credits. Never create, fix or edit content here. Never ask the AI here to "look into" data.
 
-THE MISSION NOW (owner, 16 November 2026)
-Reach the starting line: many thousands of active-ready profiles, built by the machine while the owner is away. Active-ready means everything an AI teaching service needs to write the lesson for a dance has been gathered and source-checked. It is not human-reviewed, rights-cleared or launched.
-The destination is BDF (Best Dance Friend): a personal AI dance mentor that teaches by voice and movement in the learner's language and level, leads people to consenting human dance friends, and supports solo, pair, group, shared-screen, split-screen and future AR dancing. Atlas (traditions) and Viral (challenges and dance culture) are both first-class and stay separate. These are requirements, not built features.
+THE DIRECTION (owner, 16, 17 and 21 November 2026)
+The product is not a phone app of profiles that people click through. The destination is BDF (Best Dance Friend): an agent that holds a consistent virtual-reality interaction with a person, a full conversation, drawing on the whole dance library and on the education of how to teach it. Until that technology arrives the work is knowledge: (1) the starting line, many thousands of active-ready profiles (everything a teaching service needs for a dance, gathered and source-checked by the machine); (2) the DNA of BDF, the mentor: how to teach anyone to dance, built from evidence every night. Everything is kept ready so that all profiles can be activated overnight. These are requirements, not built features.
+This website is the window on that library and the proof that a machine can read it. It must be extremely robust. Do not build click-to-learn experiences (guided lessons, practice players, course flows).
 
-THE DNA OF BDF: THE MENTOR (owner, 17 November 2026)
-BDF's core is a mentor with the deepest understanding of how to teach anyone to dance: rewarding at once, important to the learner, exciting to return to, a lifelong partner who fits each person better the longer they stay. That understanding is built from evidence in GitHub, free and growing every night: what the teachers learners praise most do and say, what learners say, what research says. Read the summary at the top of https://github.com/DANCEATLAS/crawler/blob/main/BDF_TEACHING_SYSTEM.md before designing any teaching or mentor screen. Never write teaching rules here: they come from that research.
+NO PAYMENT, NO ACCOUNTS (owner, 21 November 2026)
+The concept of payment is erased. Never add or restore prices, memberships, trials, checkout, referral or influencer features, sign-in, or any form that asks for an e-mail address. Every screen is open to everyone. Saved items stay on the device.
 
 CREDITS AND SPENDING
-Lovable credits are precious. Use them only for one prepared, complete UI batch the owner has approved: collect the whole specification, confirm the data is already published, send one prompt, check the preview, publish. No small iterations. Saving these instructions must not start a build.
-No purchases, subscriptions, billing, paid AI models, launch or promotion without the owner's explicit yes. Never connect Lovable to GitHub (two-way sync) without it.
+The owner ordered the credits that expire on 28 November 2026 used through the prepared batches in LOVABLE_BATCHES.md. One prepared, complete batch per message: the data is already published, build exactly the batch, check the preview, report. No small iterations; if something is unclear take the simplest reading and say what you chose. Saving these instructions must not start a build.
+Nothing that costs money to run: no Lovable Cloud, no AI gateway, no backend, no paid service. No purchases, subscriptions, launch or promotion. Never connect Lovable to GitHub (two-way sync) without the owner's explicit yes.
+
+RULES OF EVERY SCREEN
+Read-only. Words come from public/catalog/site.json through the shared helper t(path, fallback). Machine keys are shown with underscores replaced by spaces and the first letter capitalised; never keep a list of known keys. An empty value, "not described in sources", "unknown" or "null" is not rendered: no heading, no empty card. No number is typed into the code. Machine readings are labelled as such and link to their source. Large readable type; everything reachable by keyboard; links to other sites open in a new tab. Every data request has a timeout and a calm fallback; no screen may go blank.
 
 THE DATA CONTRACT — DO NOT BREAK
-At start the app fetches https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/dances.app.json (contract dw_app_v1; "styles" is an OBJECT keyed by slug) and retired.json from the same folder, with a session cache and the bundled file as fallback. Keep the raw URLs, the contract check, hero-video precedence, hiding of retired slugs, redirects to merged entries and the silent fallback. Counts on screen come from the loaded catalogue, never a literal.
-Also published there, ready when the UI wants them: active_ready.json (which profiles are at the starting line), bdf_teaching_system.json (the mentor's DNA: dna, adjustments, mentor, learner_model), active_profiles.json, episodes.json.
-Supabase project maojpsywvbksrwkrxmjx holds Viral, accounts and a catalogue mirror. Inspect schema and policies before any change. The Viral chart orders by date, not measured popularity: never label it as popularity. Sunfeld is a different project: leave it alone.
+At start the app fetches https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/dances.app.json (contract dw_app_v1; "styles" is an OBJECT keyed by slug) and retired.json from the same folder, with a session cache and the bundled file as fallback. Keep the raw URLs, the contract check, hero-video precedence, hiding of retired slugs, redirects to merged entries and the silent fallback, until a batch in LOVABLE_BATCHES.md replaces them. Counts on screen come from the loaded catalogue, never a literal.
+Also published there: site.json (words), active_ready.json (the starting line), bdf_teaching_system.json (the mentor's DNA), active_profiles.json, episodes.json.
+Supabase project maojpsywvbksrwkrxmjx holds the Viral list (viral_chart) and a catalogue mirror. The Viral chart orders by date, not measured popularity: never label it as popularity. Sunfeld is a different project: leave it alone.
 
 RESPECT AND TRUTH
-Sacred or restricted dances: story only, never teaching links. Show only what the catalogue marks as published. Never invent steps, counts, origins, credits or rankings to fill a screen. Tutorials shown are the ones the catalogue provides.
+Sacred or restricted dances: story only, never teaching material. Show only what the catalogue marks as published. Never invent steps, counts, origins, credits or rankings to fill a screen.
 
 THE OWNER
-Not a developer. Do everything possible yourself. Ask only for what truly needs him: one simple action, large plain words. Never ask for passwords or keys. In reports, a verified owner-only request starts ACTION NEEDED and necessary awareness starts PLEASE NOTE.
-After substantive UI work, add a dated entry to IMPLEMENTATION_LEDGER.md in GitHub and keep this text in step with LEDGER.md.
+Not a developer. Do everything possible yourself. Ask only for what truly needs him: one simple action, large plain words, in Hebrew. Never ask for passwords or keys. In reports, a verified owner-only request starts ACTION NEEDED and necessary awareness starts PLEASE NOTE.
+After substantive UI work, add the batch and its cost to LOVABLE_BATCHES.md and a dated entry to IMPLEMENTATION_LEDGER.md in GitHub, and keep this text in step with LEDGER.md.
