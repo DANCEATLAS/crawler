@@ -1,14 +1,14 @@
 {
  "slug": "malaysian-dance",
- "name": "Malaysian dance",
+ "name": "Malaysian Lion Dance",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
- "researched_at": "2026-11-13T17:16:56Z",
- "qc_score": 10.0,
- "status": "draft",
+ "built_at": "2026-11-22T20:20:48Z",
+ "researched_at": "2026-11-22T19:37:27Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
  "release_status": "not_validated",
- "sacred": false,
- "chapters_note": null,
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
   "episode_1": [
    "hook",
@@ -45,29 +45,31 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "Experienced lion dance master from a Malaysian kung fu school, passionate about cultural heritage",
+   "persona": "A disciplined Sifu (master) from a traditional Malaysian kung fu school.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
-   "Malaysian dance",
+   "Malaysian Lion Dance",
+   "Wǔshī",
    "Southern Lion dance",
-   "Chinese lion dance in Malaysia"
+   "Nán shī",
+   "Nian dance"
   ]
  },
  "episode_1": {
-  "title": "Meet Malaysian dance",
+  "title": "Meet Malaysian Lion Dance",
   "scenes": [
    {
     "code": "hook",
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Roaring Spirit: Malaysia's Southern Lion Dance",
-     "This is Malaysian dance. Tang dynasty to present."
+     "The Cat Who Became a King",
+     "This is Malaysian Lion Dance. Tang dynasty to present."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (N3LR_nx4Nj4)",
-     "Title card: Malaysian dance · Malaysia · Tang dynasty to present"
+     "Title card: Malaysian Lion Dance · Malaysia · Tang dynasty to present"
     ],
     "music": "theme (30 s)"
    },
@@ -76,9 +78,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The lion dance originated outside China, likely from India or Persia, and was introduced to China via Central Asia.",
-     "The earliest Chinese references date back to the Han dynasty, with detailed descriptions appearing in the Tang dynasty.",
-     "The Southern Lion dance, which predominates in Malaysia, developed later in Guangdong province and is linked to myths such as the monster Nian."
+     "The lion is not native to China; the dance likely originated in Persia or India and reached China via Central Asia during the Han dynasty.",
+     "Detailed descriptions appeared in the Tang dynasty, where it was known as 'Great Peace Music.' The Southern Lion style, which prevails in Malaysia, developed later in Guangdong, possibly during the Ming dynasty, as an adaptation of Northern styles to local myths like the Nian monster.",
+     "It was brought to Southeast Asia by the Southern Chinese diaspora."
     ],
     "on_screen": [
      "Map: Malaysia · Southeast Asia",
@@ -91,13 +93,12 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The lion dance is performed to bring good luck, fortune, and to ward off evil spirits.",
-     "It is a central feature of Lunar New Year celebrations and is also performed at weddings, business openings, and to honor special guests.",
-     "The dance symbolizes strength, courage, and auspiciousness, rooted in local myths such as the defeat of the monster Nian.",
+     "It is performed during 'Lunar New Year and other traditional, cultural and religious festivals' to 'bring good luck and fortune and to ward off evil.' It is a staple of business openings and weddings.",
+     "The dance is a 'ceremony to exorcise spirits' and is often performed to 'honor special guests.' In a village setting, the lion pays respects to the local temple and ancestors before dancing through the streets.",
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage — MISSING (use images)"
+     "Footage: Nadun in Wushi Valley with Puba Village, Guanting Town, Minhe Hui and Tu Autonomous County (https://archive.org/details/NadunInWushiValleyWithPubaVillageGuantingTownMinheHuiAndTu)"
     ],
     "music": "underscore"
    },
@@ -106,15 +107,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The Southern Lion dance is performed by two dancers: one manipulating the head and the other the tail of the lion costume.",
-     "The dance involves acrobatic movements, mimicking the lion's expressions and gestures, often synchronized with vigorous drumbeats, gongs, and cymbals.",
-     "The dance includes playful and martial elements, with movements inspired by kung fu.",
-     "Watch for Lion's blink, Lion's roar, Acrobatic leap."
+     "The dance is performed by two people: one manipulates the head and the other the tail.",
+     "It involves 'kung fu moves and postures' to maintain stances.",
+     "The Hok San style specifically mimics the 'natural movements of a real animal—particularly a cat.' Performers use a 'martial style' for acrobatics and a 'civil style' for character-driven movements like blinking and ear-twitching.",
+     "Watch for Choy Chang, Jong jumping."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (N3LR_nx4Nj4)",
      "Captions name each signature move as it appears",
-     "Formation: Two dancers per lion, performing in open spaces or on platforms"
+     "Formation: Linear or circular paths through streets or across elevated platforms."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -123,30 +124,27 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The lion dance is traditionally accompanied by a percussion ensemble consisting of drums, gongs, and cymbals.",
-     "The music features vigorous, rhythmic beats that guide the dancers' movements and accentuate the lion's expressions.",
-     "Listen for the drums, gongs, cymbals.",
-     "The music features a vigorous drumbeat with sharp cymbal crashes and resonant gong strikes, creating a lively and auspicious atmosphere that guides the lion's movements."
+     "Performances are accompanied by a 'vigorous drumbeat with gongs and cymbals.' The primary instrument is the 'chinesischen Fasstrommel Shigu' (lion drum).",
+     "In the Hok San style, specific drum patterns are synchronized with the lion's movements to enhance the feline quality of the dance.",
+     "Listen for the Shigu (lion drum), Gongs, Cymbals.",
+     "The pulse is 4/4 or irregular based on movement at about 120 beats a minute.",
+     "A loud, percussive wall of sound dominated by a large barrel drum, punctuated by the metallic crash of cymbals and gongs that mirror the lion's every blink and pounce."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes"
+     "Waveform or rhythm-pattern graphic: Syncopated drum strikes following the lion's blinks and jumps"
     ],
-    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
-    "needs": [
-     "tempo",
-     "meter"
-    ]
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
    },
    {
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "The Southern Lion costume features a large head made of papier-mâché over a bamboo frame, decorated with fur and painted designs, including a single horn.",
-     "The body is a durable cloth trimmed with fur, often with a long tail attached.",
-     "Performances typically occur during Lunar New Year, weddings, business openings, and cultural festivals, often outdoors or in community halls."
+     "The Southern Lion has a 'single horn' and a head made of papier-mâché over bamboo or aluminum.",
+     "It features 'pop-up teeth, tongue, and eyes that swivel.' The body is made of layered cloth trimmed with fur.",
+     "Colors are symbolic: yellow for Liu Bei (wisdom), red for Guan Gong (courage), and black for Zhang Fei (aggression)."
     ],
     "on_screen": [
      "Image gallery: 8 licensed images with attribution",
@@ -159,10 +157,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Feng Gengzhang founded the Hok San style of Southern Lion dance, refining the lion's movements to resemble a cat and redesigning the lion head.",
-     "Li Yi Sheng introduced Hok San style to Singapore and Malaysia in the 1920s, founding the Singapore Hok San Association Lion Dance Troupe.",
-     "The Southern Lion dance in Malaysia is mainly derived from the Guangdong styles, including Fut San and Hok San.",
-     "The Malaysian Southern Lion dance traces its lineage to the Guangdong province of China, brought by Chinese immigrants."
+     "Feng Gengzhang (馮庚長) is the founder of the Hok San style, which is highly popular in Malaysia.",
+     "Li Yi Sheng (李怡生), a disciple of Feng, introduced the Hok San style to Singapore and Malaysia in the 1920s, founding the Singapore Hok San Association Lion Dance Troupe which influenced the wider region.",
+     "The two main types are Northern and Southern.",
+     "The dance is a subclass of Chinese dance and is closely linked to Chinese martial arts."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -175,10 +173,8 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Malaysian dance is parent of Chinese lion dance: Malaysian Southern Lion dance derives directly from Chinese Southern Lion traditions.",
-     "Malaysian dance is sibling of Northern Lion dance: Northern Lion is a distinct Chinese style less common in Malaysia.",
-     "Malaysian dance is shares music of Vietnamese lion dance: Vietnamese lion dance shares Chinese origins and percussion styles.",
-     "Malaysian dance is shares music of Japanese shishi-mai: Japanese lion dance shares cultural roots but differs in style and instrumentation."
+     "Malaysian Lion Dance is parent of Kung Fu: Lion dance movements are fundamentally derived from Chinese martial arts stances.",
+     "Malaysian Lion Dance is sibling of Shishi-mai: The Japanese variant of the lion dance, also used for New Year luck."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -187,27 +183,23 @@
    },
    {
     "code": "first_step",
-    "title": "Try one step",
-    "duration_s": 60,
+    "title": "A respectful note",
+    "duration_s": 30,
     "narration": [
-     "Before we go, one step. One dancer controls the lion head, coordinating eye, mouth, and ear movements",
-     "Second dancer controls the tail, maintaining rhythm and balance",
-     "Count it: .",
-     "Chapter 1 takes it slowly from here."
+     "The dance is a ritual for exorcising evil spirits and honoring deities; performers often pay respects at temples before beginning."
     ],
     "on_screen": [
-     "Instructor, front view, slow",
-     "Count on screen"
+     "Calm wide shot, no demonstration"
     ],
-    "music": "lesson_slow"
+    "music": "underscore"
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the vibrant Southern Lion dance in Malaysia, a living tradition of acrobatics, myth, and community celebration.",
-     "Sources: 5 references are listed with the profile."
+     "Discover how Malaysian masters transformed a heavy martial ritual into a gravity-defying feline ballet.",
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -215,474 +207,32 @@
     "music": "theme (20 s)"
    }
   ],
-  "runtime_s": 555
+  "runtime_s": 525
  },
- "chapters": [
-  {
-   "chapter": 1,
-   "title": "First steps",
-   "goal": "Learn basic lion dance steps and coordination",
-   "level": "Beginner",
-   "scenes": [
-    {
-     "code": "welcome",
-     "title": "Welcome",
-     "duration_s": 45,
-     "narration": [
-      "Chapter 1 — First steps. Today: Learn basic lion dance steps and coordination.",
-      "Level: Beginner. Difficulty of the dance overall: intermediate to advanced.",
-      "Your instructor: Experienced lion dance master from a Malaysian kung fu school, passionate about cultural heritage"
-     ],
-     "on_screen": [
-      "Instructor front view, name of the chapter, the three things you will learn"
-     ],
-     "music": "theme (10 s) then silence"
-    },
-    {
-     "code": "body",
-     "title": "Body and posture",
-     "duration_s": 60,
-     "narration": [
-      "Dynamic, with dancers crouching and leaping to mimic lion movements",
-      "Head dancer manipulates lion head features; tail dancer controls tail movements",
-      "Flexible and expressive to simulate lion's body language"
-     ],
-     "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
-     ],
-     "music": "silence"
-    },
-    {
-     "code": "count",
-     "title": "Count and rhythm",
-     "duration_s": 60,
-     "narration": [
-      "Count: .",
-      "Rhythm pattern: Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes.",
-      "Clap it first, then step it in place."
-     ],
-     "on_screen": [
-      "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
-     ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo",
-      "meter"
-     ]
-    },
-    {
-     "code": "step_a",
-     "title": "Step A — slowly",
-     "duration_s": 150,
-     "narration": [
-      "Step 1: One dancer controls the lion head, coordinating eye, mouth, and ear movements",
-      "Step 2: Second dancer controls the tail, maintaining rhythm and balance",
-      "Footwork from the sources: Coordinated stepping, lifting, and balancing; acrobatic stunts in advanced performances",
-      "Drill: Footwork synchronization"
-     ],
-     "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
-      "Counts on screen"
-     ],
-     "music": "lesson_slow",
-     "counts": "",
-     "repetitions": 3
-    },
-    {
-     "code": "step_b",
-     "title": "Step B — the next layer",
-     "duration_s": 150,
-     "narration": [
-      "Step 3: Perform basic lion steps: stepping forward, backward, side to side with synchronized footwork",
-      "Step 4: Practice lifting and lowering the lion to mimic natural movements",
-      "Drill: Head and tail movement practice"
-     ],
-     "on_screen": [
-      "Instructor front and back view; slow, then half tempo"
-     ],
-     "music": "lesson_slow",
-     "counts": "",
-     "repetitions": 3
-    },
-    {
-     "code": "combine",
-     "title": "Put it together",
-     "duration_s": 120,
-     "narration": [
-      "Step A, then Step B, without stopping. Slow first.",
-      "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Basic rhythm matching"
-     ],
-     "on_screen": [
-      "Split screen: front view / back view",
-      "Tempo label changes: slow → half → full"
-     ],
-     "music": "lesson_slow then lesson_full"
-    },
-    {
-     "code": "mistakes",
-     "title": "Common mistakes and what to avoid",
-     "duration_s": 60,
-     "narration": [
-      "Disrespecting the ritual significance Improper handling of the lion head Unsafe acrobatic stunts without training"
-     ],
-     "on_screen": [
-      "Side-by-side: source-supported correction"
-     ],
-     "music": "silence",
-     "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
-    },
-    {
-     "code": "music_run",
-     "title": "Dance it to the music",
-     "duration_s": 120,
-     "narration": [
-      "Count-in: .",
-      "Full tempo, the whole sequence, twice."
-     ],
-     "on_screen": [
-      "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
-     ],
-     "music": "lesson_full"
-    },
-    {
-     "code": "close",
-     "title": "Recap",
-     "duration_s": 40,
-     "narration": [
-      "You can now: Learn basic lion dance steps and coordination.",
-      "The lion dance is performed to bring good luck, fortune, and to ward off evil spirits.",
-      "Next: Chapter 2."
-     ],
-     "on_screen": [
-      "Recap card with the counts",
-      "Next chapter card"
-     ],
-     "music": "theme (10 s)"
-    }
-   ]
-  },
-  {
-   "chapter": 2,
-   "title": "Building the dance",
-   "goal": "Incorporate expressive gestures and simple acrobatics",
-   "level": "Intermediate",
-   "scenes": [
-    {
-     "code": "welcome",
-     "title": "Welcome",
-     "duration_s": 45,
-     "narration": [
-      "Chapter 2 — Building the dance. Today: Incorporate expressive gestures and simple acrobatics.",
-      "Level: Intermediate. Difficulty of the dance overall: intermediate to advanced.",
-      "Your instructor: Experienced lion dance master from a Malaysian kung fu school, passionate about cultural heritage"
-     ],
-     "on_screen": [
-      "Instructor front view, name of the chapter, the three things you will learn"
-     ],
-     "music": "theme (10 s) then silence"
-    },
-    {
-     "code": "body",
-     "title": "Body and posture",
-     "duration_s": 60,
-     "narration": [
-      "Dynamic, with dancers crouching and leaping to mimic lion movements",
-      "Head dancer manipulates lion head features; tail dancer controls tail movements",
-      "Flexible and expressive to simulate lion's body language"
-     ],
-     "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
-     ],
-     "music": "silence"
-    },
-    {
-     "code": "count",
-     "title": "Count and rhythm",
-     "duration_s": 60,
-     "narration": [
-      "Count: .",
-      "Rhythm pattern: Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes.",
-      "Clap it first, then step it in place."
-     ],
-     "on_screen": [
-      "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
-     ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo",
-      "meter"
-     ]
-    },
-    {
-     "code": "step_a",
-     "title": "Step A — slowly",
-     "duration_s": 150,
-     "narration": [
-      "Step 1: Coordinate with drum beats for timing and expression",
-      "Drill: Eye and mouth manipulation"
-     ],
-     "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
-      "Counts on screen"
-     ],
-     "music": "lesson_slow",
-     "counts": "",
-     "repetitions": 3
-    },
-    {
-     "code": "step_b",
-     "title": "Step B — the next layer",
-     "duration_s": 150,
-     "narration": [
-      "Lion's blink: Head dancer blinks lion's eyes to express emotion",
-      "Lion's roar: Mouth opens and closes to simulate roaring",
-      "Drill: Balancing exercises"
-     ],
-     "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
-     ],
-     "music": "lesson_slow",
-     "counts": "",
-     "repetitions": 3
-    },
-    {
-     "code": "combine",
-     "title": "Put it together",
-     "duration_s": 120,
-     "narration": [
-      "Step A, then Step B, without stopping. Slow first.",
-      "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Drum pattern timing"
-     ],
-     "on_screen": [
-      "Split screen: front view / back view",
-      "Tempo label changes: slow → half → full"
-     ],
-     "music": "lesson_slow then lesson_full"
-    },
-    {
-     "code": "mistakes",
-     "title": "Common mistakes and what to avoid",
-     "duration_s": 60,
-     "narration": [
-      "Disrespecting the ritual significance Improper handling of the lion head Unsafe acrobatic stunts without training"
-     ],
-     "on_screen": [
-      "Side-by-side: source-supported correction"
-     ],
-     "music": "silence",
-     "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
-    },
-    {
-     "code": "music_run",
-     "title": "Dance it to the music",
-     "duration_s": 120,
-     "narration": [
-      "Count-in: .",
-      "Full tempo, the whole sequence, twice. Formation: Two dancers per lion, performing in open spaces or on platforms"
-     ],
-     "on_screen": [
-      "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
-     ],
-     "music": "lesson_full"
-    },
-    {
-     "code": "close",
-     "title": "Recap",
-     "duration_s": 40,
-     "narration": [
-      "You can now: Incorporate expressive gestures and simple acrobatics.",
-      "Feng Gengzhang founded the Hok San style of Southern Lion dance, refining the lion's movements to resemble a cat and redesigning the lion head.",
-      "Next: Chapter 3."
-     ],
-     "on_screen": [
-      "Recap card with the counts",
-      "Next chapter card"
-     ],
-     "music": "theme (10 s)"
-    }
-   ]
-  },
-  {
-   "chapter": 3,
-   "title": "Dancing it fully",
-   "goal": "Perform full routine with acrobatics and musical interaction",
-   "level": "Advanced",
-   "scenes": [
-    {
-     "code": "welcome",
-     "title": "Welcome",
-     "duration_s": 45,
-     "narration": [
-      "Chapter 3 — Dancing it fully. Today: Perform full routine with acrobatics and musical interaction.",
-      "Level: Advanced. Difficulty of the dance overall: intermediate to advanced.",
-      "Your instructor: Experienced lion dance master from a Malaysian kung fu school, passionate about cultural heritage"
-     ],
-     "on_screen": [
-      "Instructor front view, name of the chapter, the three things you will learn"
-     ],
-     "music": "theme (10 s) then silence"
-    },
-    {
-     "code": "body",
-     "title": "Body and posture",
-     "duration_s": 60,
-     "narration": [
-      "Dynamic, with dancers crouching and leaping to mimic lion movements",
-      "Head dancer manipulates lion head features; tail dancer controls tail movements",
-      "Flexible and expressive to simulate lion's body language"
-     ],
-     "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
-     ],
-     "music": "silence"
-    },
-    {
-     "code": "count",
-     "title": "Count and rhythm",
-     "duration_s": 60,
-     "narration": [
-      "Count: .",
-      "Rhythm pattern: Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes.",
-      "Clap it first, then step it in place."
-     ],
-     "on_screen": [
-      "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
-     ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo",
-      "meter"
-     ]
-    },
-    {
-     "code": "step_a",
-     "title": "Step A — slowly",
-     "duration_s": 150,
-     "narration": [
-      "Step 1: Practice lifting and lowering the lion to mimic natural movements",
-      "Step 2: Coordinate with drum beats for timing and expression",
-      "Drill: Complex stunts"
-     ],
-     "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
-      "Counts on screen"
-     ],
-     "music": "lesson_slow",
-     "counts": "",
-     "repetitions": 3
-    },
-    {
-     "code": "step_b",
-     "title": "Step B — the next layer",
-     "duration_s": 150,
-     "narration": [
-      "Acrobatic leap: Dancers perform jumps and balancing acts on platforms",
-      "Drill: Partner coordination"
-     ],
-     "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
-     ],
-     "music": "lesson_slow",
-     "counts": "",
-     "repetitions": 3
-    },
-    {
-     "code": "combine",
-     "title": "Put it together",
-     "duration_s": 120,
-     "narration": [
-      "Step A, then Step B, without stopping. Slow first.",
-      "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Dynamic rhythm changes"
-     ],
-     "on_screen": [
-      "Split screen: front view / back view",
-      "Tempo label changes: slow → half → full"
-     ],
-     "music": "lesson_slow then lesson_full"
-    },
-    {
-     "code": "mistakes",
-     "title": "Common mistakes and what to avoid",
-     "duration_s": 60,
-     "narration": [
-      "Disrespecting the ritual significance Improper handling of the lion head Unsafe acrobatic stunts without training"
-     ],
-     "on_screen": [
-      "Side-by-side: source-supported correction"
-     ],
-     "music": "silence",
-     "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
-    },
-    {
-     "code": "music_run",
-     "title": "Dance it to the music",
-     "duration_s": 120,
-     "narration": [
-      "Count-in: .",
-      "Full tempo, the whole sequence, twice. Formation: Two dancers per lion, performing in open spaces or on platforms"
-     ],
-     "on_screen": [
-      "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
-     ],
-     "music": "lesson_full"
-    },
-    {
-     "code": "close",
-     "title": "Recap",
-     "duration_s": 40,
-     "narration": [
-      "You can now: Perform full routine with acrobatics and musical interaction.",
-      "The Malaysian Southern Lion dance traces its lineage to the Guangdong province of China, brought by Chinese immigrants.",
-      "You know the dance. Go and dance it with people."
-     ],
-     "on_screen": [
-      "Recap card with the counts",
-      "Next chapter card"
-     ],
-     "music": "theme (10 s)"
-    }
-   ]
-  }
- ],
+ "chapters": [],
  "music_brief": {
   "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
-  "tempo_bpm": null,
-  "meter": null,
-  "rhythm_pattern": "Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes",
+  "tempo_bpm": 120,
+  "meter": "4/4 or irregular based on movement",
+  "rhythm_pattern": "Syncopated drum strikes following the lion's blinks and jumps",
   "instruments": [
-   "drums",
-   "gongs",
-   "cymbals"
+   "Shigu (lion drum)",
+   "Gongs",
+   "Cymbals"
   ],
   "vocal_style": null,
-  "musical_form": "call-and-response patterns between drums and cymbals",
+  "musical_form": "Sectional, following the narrative of the lion's journey",
   "mood": [
-   "energetic",
-   "festive",
-   "auspicious"
+   "Vigorous",
+   "Auspicious",
+   "Energetic",
+   "Protective"
   ],
-  "sound_description": "The music features a vigorous drumbeat with sharp cymbal crashes and resonant gong strikes, creating a lively and auspicious atmosphere that guides the lion's movements.",
+  "sound_description": "A loud, percussive wall of sound dominated by a large barrel drum, punctuated by the metallic crash of cymbals and gongs that mirror the lion's every blink and pounce.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Malaysian dance (Malaysia). Rhythm pattern: Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes. Instruments: drums, gongs, cymbals. Form: call-and-response patterns between drums and cymbals. Mood: energetic, festive, auspicious. It should sound like this: The music features a vigorous drumbeat with sharp cymbal crashes and resonant gong strikes, creating a lively and auspicious atmosphere that guides the lion's movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Malaysian Lion Dance (Malaysia). Meter 4/4 or irregular based on movement. Tempo about 120 bpm. Rhythm pattern: Syncopated drum strikes following the lion's blinks and jumps. Instruments: Shigu (lion drum), Gongs, Cymbals. Form: Sectional, following the narrative of the lion's journey. Mood: Vigorous, Auspicious, Energetic, Protective. It should sound like this: A loud, percussive wall of sound dominated by a large barrel drum, punctuated by the metallic crash of cymbals and gongs that mirror the lion's every blink and pounce. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -698,13 +248,13 @@
     "id": "lesson_slow",
     "use": "chapters: step practice",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 84
    },
    {
     "id": "lesson_full",
     "use": "chapters: dance it to the music",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 120
    }
   ],
   "rules": [
@@ -721,10 +271,10 @@
    "title": "Traditional Malaysian Dance - Penang Airport"
   },
   "wardrobe": {
-   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
-   "dress_the_narrator": true,
-   "restricted_attire": false,
-   "from_sources": "The Southern Lion costume features a large head made of papier-mâché over a bamboo frame, decorated with fur and painted designs, including a single horn. The body is a durable cloth trimmed with fur, often with a long tail attached. Performances typically occur during Lunar New Year, weddings, business openings, and cultural festivals, often outdoors or in community halls.",
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The Southern Lion has a 'single horn' and a head made of papier-mâché over bamboo or aluminum. It features 'pop-up teeth, tongue, and eyes that swivel.' The body is made of layered cloth trimmed with fur. Colors are symbolic: yellow for Liu Bei (wisdom), red for Guan Gong (courage), and black for Zhang Fei (aggression). Performances occur in streets, at business entrances, or on 'jong' (high poles).",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AKorean_dance-Bukcheong_Saja_Noreum-01.jpg",
     "https://commons.wikimedia.org/wiki/File%3AKorean_mask_dance-Eunyul_talchum-07.jpg",
@@ -803,15 +353,22 @@
     "description": "2018 Asian Games opening ceremony"
    }
   ],
-  "footage": [],
-  "motifs": [
-   "Lion head close-ups",
-   "Drummers in action",
-   "Colorful festival scenes",
-   "Acrobatic leaps"
+  "footage": [
+   {
+    "title": "Nadun in Wushi Valley with Puba Village, Guanting Town, Minhe Hui and Tu Autonomous County",
+    "url": "https://archive.org/details/NadunInWushiValleyWithPubaVillageGuantingTownMinheHuiAndTu",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
   ],
-  "costume_notes": "The Southern Lion costume features a large head made of papier-mâché over a bamboo frame, decorated with fur and painted designs, including a single horn. The body is a durable cloth trimmed with fur, often with a long tail attached. Performances typically occur during Lunar New Year, weddings, business openings, and cultural festivals, often outdoors or in community halls.",
-  "setting_notes": "The lion dance is performed to bring good luck, fortune, and to ward off evil spirits. It is a central feature of Lunar New Year celebrations and is also performed at weddings, business openings, and to honor special guests. The dance symbolizes strength, courage, and auspiciousness, rooted in local myths such as the defeat of the monster Nian.",
+  "motifs": [
+   "Exploding red firecrackers",
+   "The single horn of the Southern Lion",
+   "Vibrant silk tails rippling in the wind"
+  ],
+  "costume_notes": "The Southern Lion has a 'single horn' and a head made of papier-mâché over bamboo or aluminum. It features 'pop-up teeth, tongue, and eyes that swivel.' The body is made of layered cloth trimmed with fur. Colors are symbolic: yellow for Liu Bei (wisdom), red for Guan Gong (courage), and black for Zhang Fei (aggression). Performances occur in streets, at business entrances, or on 'jong' (high poles).",
+  "setting_notes": "It is performed during 'Lunar New Year and other traditional, cultural and religious festivals' to 'bring good luck and fortune and to ward off evil.' It is a staple of business openings and weddings. The dance is a 'ceremony to exorcise spirits' and is often performed to 'honor special guests.' In a village setting, the lion pays respects to the local temple and ancestors before dancing through the streets.",
   "map": {
    "country": "Malaysia",
    "region": "Southeast Asia",
@@ -824,10 +381,10 @@
   ]
  },
  "teaching_formula": {
-  "source": "65 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 65,
-  "counting": "",
-  "counting_basis": "missing",
+  "source": "67 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 67,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
@@ -835,17 +392,17 @@
   ],
   "cues": [
    "1-2-3-4",
-   "un dos tres",
    "1-2-3",
    "5-6-7-8",
-   "1-2-left",
-   "2-2-right",
-   "step in front",
-   "step behind",
-   "levanto los talones hasta atrs",
-   "doble golpe con mi pie",
-   "pisada con toda la planta del pie",
-   "sin elevarme tanto"
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -861,21 +418,19 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "tempo (bpm)",
-  "meter",
-  "a verified recording to listen to",
-  "licensed reference footage"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Lion_dance",
   "https://www.wikidata.org/wiki/Q713866",
   "https://es.wikipedia.org/wiki/Danza_del_león",
   "https://fr.wikipedia.org/wiki/Danse_du_lion",
-  "https://pt.wikipedia.org/wiki/Dança_do_leão"
+  "https://pt.wikipedia.org/wiki/Dança_do_leão",
+  "https://de.wikipedia.org/wiki/Löwentanz"
  ],
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2d4c4db2edd5d1342371c4c85bcd8aa33b10939765cf94d8dd34301cb680ead5",
+ "input_fingerprint": "f659f236b2ff311c28d9b8f4c666a6e8a16170a89de7f21626894438cdccf333",
  "hero_checked": "pass"
 }

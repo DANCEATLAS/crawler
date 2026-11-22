@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Normally the dance is done in a circle, with the Lady in the center, though solemn troupes deviate from this.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Three pairs of dancers defend the Lady from a demon.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "Normally a circle with the Lady in the center, though solemn troupes deviate from this formation.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "6d57149e2ab8d520bc0db6a613e9d10a4bfbac3e127aa7cdfdf821c490f78ae4",
+  "fingerprint": "e0c8fb6fa56d49f20f96f3dc2da87277152f88c64368973727491164006548de",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical instruments and rhythmic meters accompany the Ball dels Cossiers during festival performances? Evidence needed: Ethnomusicological field recordings or local Majorcan municipal folklore archives."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +81,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step counts and footwork patterns executed by the cossiers in different municipal troupes? Evidence needed: Video recordings of live performances in Algaida, Montuïri, or Manacor."
     ]
   },
   "id": "atlas:ball-dels-cossiers",
@@ -45,8 +93,27 @@
   ],
   "music_options": [],
   "name": "Ball dels Cossiers",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "234364c70cccc83e",
+      "next_evidence": "Ethnomusicological field recordings or local Majorcan municipal folklore archives.",
+      "question": "What specific musical instruments and rhythmic meters accompany the Ball dels Cossiers during festival performances?",
+      "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current documentation lacks sound profiles or instrument lists required to build a complete music profile."
+    },
+    {
+      "domain": "video",
+      "id": "fb45919945fd759c",
+      "next_evidence": "Video recordings of live performances in Algaida, Montuïri, or Manacor.",
+      "question": "What are the exact step counts and footwork patterns executed by the cossiers in different municipal troupes?",
+      "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources do not detail physical movement or footwork, preventing the creation of teaching drills or movement profiles."
+    }
+  ],
+  "research_file": "research_results/ball-dels-cossiers.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +125,9 @@
   "slug": "ball-dels-cossiers",
   "sources": [
     "https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
-    "Source: Ball dels Cossiers on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+    "https://www.wikidata.org/wiki/Q108658210",
+    "https://es.wikipedia.org/wiki/Baile_de_los_cossiers"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

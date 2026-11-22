@@ -60,7 +60,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -76,43 +76,75 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "e41714d3089e18cd",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "HLpcusm3TWA",
+   "url": "https://www.youtube.com/watch?v=HLpcusm3TWA",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "St George's Square, Valletta, in an outdoor public square during daytime with spectators watching",
+    "dancers": "a group of female dancers, appearing to be young women or teenagers, dancing in formation",
+    "formation_and_space": "dancers begin in a dispersed line or grid arrangement across the stone-paved square and move around the space",
+    "posture": "upright torso, erect posture, knees slightly bent during steps, weight shifts between feet",
+    "footwork": "light stepping and tapping patterns with quick changes of weight, pivoting and travelling steps on the beat; exact foot placement and rapid weight transfers cannot be clearly seen due to camera angle and distance",
+    "arms_and_hands": "arms alternate between hands on hips and raising overhead or extending gracefully to the sides",
+    "hips_and_torso": "minimal hip movement, torso remains relatively upright with slight upper body sway and turns",
+    "partnering": "none visible in this segment",
+    "levels_jumps_turns": "standing level throughout, minor turns and pivots, no jumps or floor work",
+    "costume_and_props": "matching long black skirts, white long-sleeved blouses with ruffled collars, hair tied back neatly, black shoes",
+    "cannot_infer": "exact weight transfer, intricate footwork details, and individual dancer nuances are obscured by camera distance and resolution",
+    "music_heard": {
+     "instruments": [
+      "keyboard",
+      "electronic synthesizer"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 25,
+      "end_s": 28,
+      "what": "dancers raise arms overhead in a curved position while stepping in place"
+     },
+     {
+      "start_s": 47,
+      "end_s": 50,
+      "what": "dancers sweep one arm high while pivoting with hands on hips"
+     },
+     {
+      "start_s": 111,
+      "end_s": 115,
+      "what": "quick extension of the leg outward with skirt movement while maintaining upper body poise"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "0ba0e233db775423",
+ "updated": "2026-11-22"
 }

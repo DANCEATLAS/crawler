@@ -1,6 +1,6 @@
 # Ahidous — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; the origins & history section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (5): https://en.wikipedia.org/wiki/Ahidus; https://www.wikidata.org/wiki/Q2635155; https://fr.wikipedia.org/wiki/Ahidous; https://pt.wikipedia.org/wiki/Ahidous; https://de.wikipedia.org/wiki/Ahidous

@@ -1,6 +1,6 @@
 # Skank — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); teaching steps written out
 
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Running-man leg motion to the beat.
 NARRATION: Alternating bent-elbow fist-punches, left and right.
-NARRATION: Count it: the teacher does not use a formal counting scheme.
+NARRATION: Count it: 1-2-3-4-5.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -104,7 +104,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: the teacher does not use a formal counting scheme. The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5. The meter is 4/4.
 NARRATION: Rhythm pattern: Prominent backbeat on beats two and four..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,13 +120,13 @@ NARRATION: Drill: Practice the running-man leg motion in place.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: the teacher does not use a formal counting scheme · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Add alternating arm punches to the leg motion.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: the teacher does not use a formal counting scheme · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -147,7 +147,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm punches and side-to-side swaying while seated. · For children: Follow-the-leader circle dance using the 'stroll' variation. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: the teacher does not use a formal counting scheme.
+NARRATION: Count-in: 1-2-3-4-5.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -176,7 +176,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: the teacher does not use a formal counting scheme. The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5. The meter is 4/4.
 NARRATION: Rhythm pattern: Prominent backbeat on beats two and four..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,7 +191,7 @@ NARRATION: Drill: Form a circle with others.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: the teacher does not use a formal counting scheme · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Stroll: Dancers move in a circle, swaying side to side with bent arms and marching in sync.
@@ -200,7 +200,7 @@ NARRATION: Drill: Practice side-to-side swaying with bent arms.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: the teacher does not use a formal counting scheme · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -220,7 +220,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm punches and side-to-side swaying while seated. · For children: Follow-the-leader circle dance using the 'stroll' variation. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: the teacher does not use a formal counting scheme.
+NARRATION: Count-in: 1-2-3-4-5.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers often form a circle or a 'pit'.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -249,7 +249,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: the teacher does not use a formal counting scheme. The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5. The meter is 4/4.
 NARRATION: Rhythm pattern: Prominent backbeat on beats two and four..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -264,7 +264,7 @@ NARRATION: Drill: Increase speed to match drum and bass tracks.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: the teacher does not use a formal counting scheme · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Stroll: Dancers move in a circle, swaying side to side with bent arms and marching in sync.
@@ -273,7 +273,7 @@ NARRATION: Drill: Focus on technical footwork precision.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: the teacher does not use a formal counting scheme · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -292,7 +292,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm punches and side-to-side swaying while seated. · For children: Follow-the-leader circle dance using the 'stroll' variation. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: the teacher does not use a formal counting scheme.
+NARRATION: Count-in: 1-2-3-4-5.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers often form a circle or a 'pit'.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -330,7 +330,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: the teacher does not use a formal counting scheme
+Counting: 1-2-3-4-5
 Demonstration: views used by most teachers: front, side; tempo progression: full
 Cues: bob your arms up and down; move your legs while moving your arms; kick your legs
 Common mistakes the studied teachers name: wearing casual clothes instead of appropriate attire

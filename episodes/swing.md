@@ -1,6 +1,6 @@
 # Swing — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; teaching steps written out
 
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the african-diaspora family studied · videos studied: 13
+Source: 14 tutorial(s) of the african-diaspora family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Cues: 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; bend your knees; one and two and; put all your weight on your right leg; and out and out and in and in; double double
 
 Sources (8): https://en.wikipedia.org/wiki/Swing_(dance); https://www.wikidata.org/wiki/Q123704; https://es.wikipedia.org/wiki/Swing_(baile); https://fr.wikipedia.org/wiki/Swing_(danse); https://pt.wikipedia.org/wiki/Swing_(dança); https://de.wikipedia.org/wiki/Swing_(Tanz); https://archive.org/details/childrensliterat0000curr; https://archive.org/details/smash-hits-1981-03-19

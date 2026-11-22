@@ -4,7 +4,7 @@
       "children": {
         "avoid": [],
         "counts": "not derivable yet",
-        "duration_minutes": "",
+        "duration_minutes": "not derivable yet",
         "game_version": "not derivable yet"
       },
       "derived": true,
@@ -16,7 +16,12 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
@@ -28,21 +33,18 @@
       "posture": "not described in sources",
       "signature_moves": [],
       "tempo_feel": "not described in sources",
-      "what_to_avoid": ""
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [],
-      "meter": "",
-      "mood_keywords": [
-        "melancholic",
-        "lyrical"
-      ],
-      "musical_form": "",
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "",
-      "sound_description": "Not described in sources; associated with Uzbek folk music and traditional instruments.",
-      "tempo_bpm": "",
-      "vocal_style": ""
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [],
@@ -52,7 +54,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "eb81cfadfcf0c138a3d96fc2d6c1bcbff620ee42dcd8d73d7353d4dbb8c92c5b",
+  "fingerprint": "338c9f7cc7785779e59362ca9fe5febcf5a9d783065d250f5a90aebf80e0f530",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -62,7 +64,8 @@
     "research": [
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific technical movements and footwork patterns associated with the Tanovar dance as performed by the Bahor Ensemble? Evidence needed: Instructional manuals or video archives from the Bahor Ensemble."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -89,7 +92,17 @@
   ],
   "music_options": [],
   "name": "Tanovar",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c0c2bdd7f78d0120",
+      "next_evidence": "Instructional manuals or video archives from the Bahor Ensemble.",
+      "question": "What are the specific technical movements and footwork patterns associated with the Tanovar dance as performed by the Bahor Ensemble?",
+      "source": "https://en.wikipedia.org/wiki/Mukarram_Turgunbaeva",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only identify the choreographer and the historical context, lacking the movement data required for an interactive platform."
+    }
+  ],
   "research_file": "research_results/tanovar.json",
   "runtime_active": false,
   "scope": {

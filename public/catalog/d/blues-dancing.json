@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "blues-dancing",
  "name": "Blues dancing",
- "state": "listed",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -11,10 +11,19 @@
   "slug": "blues-dancing",
   "name": "Blues dancing",
   "country": "United States",
+  "country_code": "US",
+  "flag_emoji": "🇺🇸",
   "region": "North America",
-  "tagline": "United States — family of historical dances that developed alongside and were danced to blues music, or the contemporary dance",
-  "profile": "Blues dancing is a family of historical dances that developed alongside and were danced to blues music, or the contemporary dances that are danced in that aesthetic. It has its roots in African-American dance, which itself is rooted in sub-Saharan African music traditions and the historical dances brought to the United States by European immigrants. Mura Dehn used the term \"The Blues\" in her documentary The Spirit Moves, Part 1, as the sub-section title of Chapter II, referencing different dance styles.",
-  "insight": "In 1914, he played the song \"Saint Louis Blues\" for the first time.",
+  "family": "african-diaspora",
+  "era": "19th century to present",
+  "tagline": "A family of historical and contemporary African-American partner dances grounded in blues music.",
+  "profile": "Blues dancing is a family of historical and contemporary dances rooted in African-American traditions and sub-Saharan African music. It developed alongside blues music, evolving from early slave dances into secular partner styles characterized by a grounded posture and rhythmic improvisation. European immigrants and postwar soldiers also shaped its trajectory, leading to localized styles like slow dragging and ballroom blues.",
+  "insight": "In 1914, W. C. Handy played the song \"Saint Louis Blues\" for the first time, using a tango-style introduction before transitioning suddenly into a blues style.",
+  "aliases": [
+   "Stehblues",
+   "Tanzblues",
+   "blues-idiom dance"
+  ],
   "related": [
    "salsa",
    "charleston",
@@ -24,14 +33,54 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Blues_dance",
-   "Source: Blues dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Blues_dance"
+   "Source: Blues dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Blues_dance",
+   "https://www.wikidata.org/wiki/Q886025",
+   "https://de.wikipedia.org/wiki/Blues_(Tanz)"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Blues_dance",
   "wikidata_qid": "Q886025",
   "unesco": false,
   "hero_video_youtube_id": "QTvK7a-OQHQ",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.0,
+  "last_researched_at": "2026-11-22T19:57:05Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Blues dancing encompasses a rich family of historical and contemporary dances that developed alongside blues music, drawing deep roots from African-American dance traditions, sub-Saharan African music customs, and European immigrant influences. Enslaved Africans brought diverse cultural practices to America, where their traditions blended into a creolized dance style that was more energetic and formal than its African predecessors while retaining an earthy, grounded dynamic. During the post-Reconstruction period between 1875 and 1900, as Jim Crow laws took hold in the American South, these dances lost their religious and spiritual associations, shifting toward secular expressions of pleasure and partner connection while de-emphasizing large communal group formations. As blues music gained prominence through figures like W. C. Handy—who documented crowds going wild for haunting blues tunes in Mississippi around 1905 and premiered 'Saint Louis Blues' in 1914—the accompanying dance vocabulary expanded significantly. Dancers engaged in 'slow dragging' in Chicago through the 1940s, and later terms like 'belly-rubbing' and simple slow dancing captured the intimacy and varying proficiencies of couples. The dance aesthetic is marked by an athletic, grounded posture with weight on the balls of the feet, bent knees, and pushed-back hips, alongside polycentric and asymmetric body movements. Specific historical steps such as the Fish Tail, Snake Hips, Slow Drag, and the Ballroom at the Savoy showcased fluid, rhythmic hip rotations and figure eights that initially shocked outsiders accustomed to rigid European postures. Following World War II, American soldiers brought blues dancing to Europe, where dance schools classified it as a slow, progressive partner dance in 4/4 time. Despite its widespread cultural impact and influence on jazz dances like the Lindy Hop, blues dancing maintained a distinct identity focused on subtle improvisation, musical interpretation, and profound connection between partners.",
+  "album_candidates": [
+   {
+    "title": "Saint Louis Blues",
+    "artist": "W. C. Handy",
+    "source": "https://en.wikipedia.org/wiki/Blues_dance",
+    "verified": false
+   },
+   {
+    "title": "Slow Drag Blues",
+    "artist": "Dabney's Band",
+    "source": "https://en.wikipedia.org/wiki/Blues_dance",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Bon_Bon_Buddy_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Bon_Bon_Buddy_cover.jpg/1280px-Bon_Bon_Buddy_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3283,
+    "height": 4168,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "André De Takacs / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABon_Bon_Buddy_cover.jpg",
+    "description": "Cover of the song \"Bon Bon Buddy\" that closed Act 2 of the 1908 musical \"Bandanna Land\""
+   }
+  ],
+  "publish_gate": "publish",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "not described in sources",
+  "movie_ready": true,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -46,6 +95,343 @@
    "breaking"
   ]
  },
- "fingerprint": "cd6c8faf10e46ff9",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Blues dancing originated from dances brought to America by enslaved Africans, combining sub-Saharan traditions with European immigrant elements. Following the post-Reconstruction era, dance steps became secularized and focused on partner connection. W. C. Handy documented early blues performances around 1905, and by 1914 premiered 'Saint Louis Blues'. In the 1920s, a slowed-down version of Lindy Hop was danced to blues music. After World War II, American soldiers introduced the dance to Europe.",
+   "how_it_is_danced": "The dance features an athletic, grounded posture with weight held on the balls of the feet, knees bent, hips pushed back, and chest forward. Movement is polycentric and asymmetric, utilizing multiple rhythms and articulated torso isolations. Signature movements include the Fish Tail (figure-eight hip rotations), Snake Hips (alternating forward and back knee movements keeping feet together), and Slow Drag.",
+   "music_and_instruments": "Blues dancing is danced to blues music in a 4/4 meter, with a tempo typically ranging between 20 and 25 measures per minute (80 to 100 BPM). Early instrumentation featured battered string instruments and guitars. W. C. Handy also incorporated habanera elements to encourage more enthusiastic dancing.",
+   "costume_and_setting": "Historical settings included southern juke joints, Chicago venues where slow dragging took place through the 1940s, and New York's Savoy Ballroom, where specific rules governed close embraces and lascivious movements.",
+   "occasions_and_meaning": "Originally tied to spiritual and religious expressions among enslaved Africans, the dances shifted after Reconstruction to express secular pleasure, affection, and sexuality between partners in close physical contact.",
+   "notable_figures": "Key figures include W. C. Handy, Mura Dehn (documentarian of 'The Spirit Moves'), Albert Murray (essayist who coined 'blues-idiom dance'), Sugar Sullivan, Snowden, Earl Snakehips Tucker, and Ken 'Snakehips' Johnson.",
+   "regional_variants": "Regional styles include southern plantation and juke joint dances, Chicago slow dragging through the 1940s, and the European modal interpretation of 'Stehblues' or 'Tanzblues' taught in dance schools after World War II.",
+   "lineage": "Rooted in sub-Saharan African dance traditions and influenced by European-British immigration, blues dancing shares a lineage with jazz dances, influencing and being influenced by the Lindy Hop and Charleston."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Simple one-step or two-step",
+    "Slow dragging",
+    "Snake Hips",
+    "Fish Tail"
+   ],
+   "rhythm": "4/4-takt",
+   "formation": "Partnered (one-on-one) close or open embrace",
+   "level_notes": "Beginners start with simple one-steps or two-steps and grounded posture; advanced dancers utilize complex torso articulation, hip rotations, and improvisation."
+  },
+  "claims": [
+   {
+    "text": "Blues dancing originated in the dances brought to America by enslaved Africans following sub-Saharan traditions.",
+    "source": "https://en.wikipedia.org/wiki/Blues_dance"
+   },
+   {
+    "text": "In 1914, W.C. Handy played the song Saint Louis Blues for the first time.",
+    "source": "https://en.wikipedia.org/wiki/Blues_dance"
+   },
+   {
+    "text": "An athletic and grounded body posture is characterized by weight held on the balls of the feet.",
+    "source": "https://en.wikipedia.org/wiki/Blues_dance"
+   },
+   {
+    "text": "In private settings late at night, a heavily slowed-down version was danced to slow blues music.",
+    "source": "https://de.wikipedia.org/wiki/Blues_(Tanz)"
+   },
+   {
+    "text": "The speed of the dance music lies between 20 and 25 measures per minute, or 80 to 100 beats per minute.",
+    "source": "https://de.wikipedia.org/wiki/Blues_(Tanz)"
+   },
+   {
+    "text": "In the Fish Tail, the movement of the buttocks forms a variety of figure eights.",
+    "source": "https://en.wikipedia.org/wiki/Blues_dance"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Bon Bon Buddy cover.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Bon_Bon_Buddy_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Bon_Bon_Buddy_cover.jpg/1280px-Bon_Bon_Buddy_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3283,
+    "height": 4168,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "André De Takacs",
+    "description": "Cover of the song \"Bon Bon Buddy\" that closed Act 2 of the 1908 musical \"Bandanna Land\"",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABon_Bon_Buddy_cover.jpg",
+    "attribution": "André De Takacs / Wikimedia Commons / Public domain"
+   }
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "80 to 100 Beats per minute (20 to 25 Takte pro minute)",
+   "meter": "4/4",
+   "rhythm_pattern": "Multiple meters or rhythms, drawing of the beats, habanera elements",
+   "instruments": [
+    "Battered string instruments",
+    "Guitars"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "Blues songs, ballads",
+   "mood_keywords": [
+    "haunting",
+    "slow",
+    "romantic",
+    "sensual"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Saint Louis Blues",
+     "artist": "W. C. Handy"
+    },
+    {
+     "title": "Slow Drag Blues",
+     "artist": "Dabney's Band"
+    }
+   ],
+   "sound_description": "A haunting or slow melodic structure featuring battered string instruments and rhythmic tension, sometimes incorporating a tango-style introduction before transitioning into a blues style."
+  },
+  "movement_profile": {
+   "posture": "Athletic and grounded body posture, weight held on the balls of the feet, knees bent, hips pushed back, and chest forward.",
+   "footwork": "Simple one-step or two-step, varying levels of proficiency and styles of footwork, dancing on a dime (not moving far from the spot).",
+   "arms_and_hands": "Partner connection, holding partner closely or in open/closed embrace.",
+   "hips_and_torso": "Articulated movement in the torso (chest, rib cage, pelvis, buttocks) identifying and emphasizing different rhythms, figure eights in the Fish Tail.",
+   "formation_and_space": "Paartanz (partner dance), close or open embrace, sometimes staying in one spot ('Dance on a Dime').",
+   "partnering": "One-on-one mixed-gender partnered dancing, varying degrees of closeness based on affection.",
+   "tempo_feel": "Weiche Bewegungen (soft movements), drawing of the beats, pushing and pulling creating tension.",
+   "signature_moves": [
+    {
+     "name": "Fish Tail",
+     "description": "Movement of the buttocks forms a variety of figure eights."
+    },
+    {
+     "name": "Snake Hips",
+     "description": "Knees are moved forward and back one by one while keeping feet together, resulting in hip rotation."
+    },
+    {
+     "name": "Slow Drag",
+     "description": "A slow, close-contact partner dance style."
+    }
+   ],
+   "levels_and_jumps": "Low levels, grounded movements, spins, lifts, and dips in the Ballroom variant.",
+   "difficulty": "beginner",
+   "what_to_avoid": "A loss of coolness and control places one squarely outside the tradition; in the Savoy Ballroom, laszive movements and enge Haltung (close posture) were not tolerated."
+  },
+  "episode_brief": {
+   "title_hook": "Dancing on a Dime: The Grounded Rhythms of Blues",
+   "logline": "Explore the African-American roots, grounded postures, and subtle partner connections of blues dancing.",
+   "beats": [
+    "Introduction of enslaved African traditions and European influences",
+    "W.C. Handy performing 'Saint Louis Blues' in 1914",
+    "The slow-dragging culture of Chicago in the 1940s",
+    "The Savoy Ballroom and the evolution of the Ballroom style",
+    "Postwar European adoption of Stehblues"
+   ],
+   "lesson_ladder": [
+    {
+     "level": "beginner",
+     "goal": "Master the grounded posture and basic one-two step",
+     "drills": [
+      "Hold weight on balls of feet with bent knees",
+      "Practice simple one-step or two-step",
+      "Connect with partner in a relaxed embrace"
+     ]
+    },
+    {
+     "level": "intermediate",
+     "goal": "Incorporate torso articulation and basic moves",
+     "drills": [
+      "Isolate chest and pelvis to different rhythms",
+      "Practice Snake Hips with feet together",
+      "Maintain tension through pushing and pulling"
+     ]
+    },
+    {
+     "level": "advanced",
+     "goal": "Execute close-contact stylistic variations and improvisation",
+     "drills": [
+      "Perform the Fish Tail figure-eight hip movements",
+      "Dance 'on a dime' with minimal spatial travel",
+      "Improvise to the rhythm section of a live band"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Battered string instruments in a juke joint",
+    "Dancers moving closely 'on a dime' in 1920s clubs",
+    "Grounded posture with knees bent and hips back"
+   ],
+   "instructor_persona": "A knowledgeable social dance historian grounded in African-American vernacular dance traditions.",
+   "music_cue": "A haunting 4/4 blues tune with a slow tempo between 80 and 100 BPM."
+  },
+  "connections": [
+   {
+    "name": "Lindy Hop",
+    "relation": "sibling",
+    "note": "Shared roots in African-American jazz dances; Lindy Hoppers danced slow versions to blues music."
+   },
+   {
+    "name": "Charleston",
+    "relation": "sibling",
+    "note": "Popular African-American vernacular dance from a similar historical era."
+   },
+   {
+    "name": "Foxtrot",
+    "relation": "precursor",
+    "note": "Slow versions of the foxtrot influenced early 20th-century slow drag and blues dancing styles."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Perform upper body weight shifts and torso isolations while seated in a stable chair.",
+    "standing_version": "Stand with feet hip-width apart, holding a stable support, focusing on upper body movement without deep knee bends.",
+    "tempo_and_range": "Reduced tempo and smaller range of motion in hips and knees.",
+    "counts": "4/4 counts at a slower tempo.",
+    "avoid": [
+     "Deep knee bends",
+     "Rapid weight transfers",
+     "Close balance-challenging partner embraces"
+    ]
+   },
+   "children": {
+    "game_version": "A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space.",
+    "duration_minutes": "5",
+    "counts": "Simple 1-2 counts.",
+    "avoid": [
+     "Close partner grinding",
+     "Exaggerated hip movements",
+     "Extended physical contact"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-22T19:57:05Z",
+  "qc_score": 9.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 15,
+  "of": 15,
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  },
+  "ritual_context": true
+ },
+ "lessons": [
+  {
+   "youtube_id": "pnRIZPhJ138",
+   "url": "https://www.youtube.com/watch?v=pnRIZPhJ138",
+   "title": "Blues dancing: Basic up and down pulse for beginners",
+   "channel": "Storbydans",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-and-2-and-3-and-4",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "intro",
+     "note": "Teacher introduces the topic of basic blues pulse for beginners."
+    },
+    {
+     "t": "0:29",
+     "seconds": 29,
+     "segment": "full_demo",
+     "note": "Demonstrates up and down pulses briefly."
+    },
+    {
+     "t": "1:31",
+     "seconds": 91,
+     "segment": "breakdown",
+     "note": "Explains knee bending mechanism and posture."
+    },
+    {
+     "t": "3:30",
+     "seconds": 210,
+     "segment": "breakdown",
+     "note": "Integrates pulse with side-to-side weight transfer."
+    },
+    {
+     "t": "5:40",
+     "seconds": 340,
+     "segment": "slow_practice",
+     "note": "Counts out 16 beats of down pulse practice."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Down pulse",
+     "counts": "1-2-3-4",
+     "description": "Bending knees forward on the beat."
+    },
+    {
+     "name": "Up pulse",
+     "counts": "1-2-3-4",
+     "description": "Straightening knees on the beat."
+    },
+    {
+     "name": "Side to side basic step",
+     "counts": "1 and 2 and",
+     "description": "Stepping side to side while pulsing."
+    }
+   ],
+   "cues": [
+    "Bend your knees",
+    "One and two and",
+    "Put all your weight on your right leg"
+   ],
+   "images": [
+    "Tapping a drum with your knees in front of you",
+    "Imagining a drum behind your knees"
+   ],
+   "common_mistakes": [
+    "Doing the drum hit too hard and hurting your knees"
+   ],
+   "safety": [
+    "Don't do this too hard because then you'll hurt your knees"
+   ],
+   "teacher_style": "The instructor patiently explains foundational concepts using descriptive metaphors and physical demonstrations. He breaks down movements systematically from basic pulses to side-to-side steps.",
+   "distinctive_method": "Using the imagery of hitting a virtual drum with the front and back of the knees to teach pulsing dynamics.",
+   "what_works": [
+    "Clear visual imagery like hitting a drum",
+    "Breaking down movements step by step from stationary to moving"
+   ],
+   "what_hinders": [
+    "Pacing can be a bit repetitive during long counts"
+   ],
+   "evidence": [
+    {
+     "start_s": 136,
+     "end_s": 149,
+     "topic": "movement",
+     "observation": "Teacher demonstrates knee bending sideways to camera from profile angle.",
+     "viewpoint": "side, unknown mirror",
+     "cannot_infer": "exact muscle activation",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 3,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/blues-dancing.json"
+ },
+ "fingerprint": "8e501977a3d8ddd3",
+ "updated": "2026-11-22"
 }

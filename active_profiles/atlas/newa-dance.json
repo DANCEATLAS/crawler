@@ -1,0 +1,129 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "technique not described in sources",
+      "difficulty": "advanced",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "street processional for Lakhey dance; sacred temple/ritual space for Charya dance",
+      "hips_and_torso": "technique not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "solo dancer with attendants in street contexts; solo or group deity embodiment",
+      "posture": "vigorous posture for street masked dances; deity-embodying poses for Charya ritual dances",
+      "signature_moves": [
+        {
+          "description": "Vigorous movement performed through city streets to set festival tone.",
+          "name": "Majipa Lakhey processional move"
+        }
+      ],
+      "tempo_feel": "vigorous and loud for street forms; meditative for ritual forms",
+      "what_to_avoid": "Do not attempt sacred Charya Nritya ritual movements outside proper cultural or initiated context."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vigorous",
+        "sacred",
+        "esoteric",
+        "festive",
+        "devotional"
+      ],
+      "musical_form": "Invocation salutation followed by descriptive strophes.",
+      "reference_recordings": [
+        {
+          "artist": "Stenopeica / Martino Nicoletti",
+          "title": "Charya: The Tantric Musical Tradition of the Kathmandu Valley"
+        }
+      ],
+      "rhythm_pattern": "Loud percussive accompaniment for street masked dances; vocal chant structure for Charya ritual dances.",
+      "sound_description": "Vibrant street music with loud percussive energy drives public masked dances, while Charya ritual music consists of solemn vocal chants detailing divine attributes.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Salutation chant followed by descriptive ritual verse detailing deity characteristics."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Vigorous street processional step (Lakhey style)",
+        "Deity invocation and salutation stance (Charya style)"
+      ],
+      "formation": "Solo street processional with attendants for Lakhey dance; solo or ritual group formations for Charya and masked theater.",
+      "level_notes": "Beginners study general public folk forms; tantric Charya dances require formal ritual initiation and religious training.",
+      "rhythm": "Loud, energetic percussive rhythms for street masked dances; vocal chant-driven timing for Charya ritual dances."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a6648b6febce5ec2135fcbbc59a9d19af0b62b1a2c7ad8d4f9eac55cbdb0a9d7",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific movement mechanics, footwork counts, and hand mudras used in Charya Nritya and Lakhey dance? Evidence needed: Video analysis and field notation of authentic performances by Bajracharya and Ranjitkar practitioners."
+    ]
+  },
+  "id": "atlas:newa-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Newa dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "6ce96ac965c97f6c",
+      "next_evidence": "Video analysis and field notation of authentic performances by Bajracharya and Ranjitkar practitioners.",
+      "question": "What are the specific movement mechanics, footwork counts, and hand mudras used in Charya Nritya and Lakhey dance?",
+      "source": "https://en.wikipedia.org/wiki/Newar_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Detailed footwork and mudras are required to build interactive teaching modules and automated movement feedback."
+    }
+  ],
+  "research_file": "research_results/newa-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "newa-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Newar_dance",
+    "https://www.wikidata.org/wiki/Q17012479"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

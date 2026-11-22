@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-21T19:42:50Z",
+ "generated_at": "2026-11-22T20:26:21Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -19,31 +19,31 @@
    "file": "manifest.json",
    "contract": "da_manifest_v1",
    "holds": "where to start: every file, its contract and the standing rules",
-   "bytes": 6242
+   "bytes": 6243
   },
   {
    "file": "index.json",
    "contract": "da_index_v1",
    "holds": "every dance in a few fields, with the address and fingerprint of its own file",
-   "bytes": 650941
+   "bytes": 666153
   },
   {
    "file": "bdf_teaching_system.json",
    "contract": "da_bdf_teaching_v1",
    "holds": "how to teach anyone to dance: the teaching DNA, how to adjust, the mentor, what to remember about a learner, with the evidence",
-   "bytes": 336067
+   "bytes": 386050
   },
   {
    "file": "active_ready.json",
    "contract": "da_active_ready_v1",
    "holds": "the starting line: which dances have everything a teaching service needs",
-   "bytes": 1908
+   "bytes": 2048
   },
   {
    "file": "machine.json",
    "contract": "da_machine_v1",
    "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
-   "bytes": 13515
+   "bytes": 13855
   },
   {
    "file": "site.json",
@@ -66,26 +66,26 @@
    "file": "episodes.json",
    "contract": "dw_episodes_v1",
    "holds": "draft scripts per dance (a presentation asset, not proof of readiness)",
-   "bytes": 144077
+   "bytes": 151822
   },
   {
    "file": "dances.app.json",
    "contract": "dw_app_v1",
    "holds": "the older single file the website loaded before the index; kept for compatibility",
-   "bytes": 5464468
+   "bytes": 5656513
   },
   {
    "file": "profiles_v2.json",
    "contract": "dw_profiles_v2",
    "holds": "the older single file of deep profiles; the same content is in d/<slug>.json",
-   "bytes": 5613665
+   "bytes": 5948985
   }
  ],
  "dance_file": {
   "pattern": "d/{slug}.json",
   "contract": "da_dance_v1",
-  "count": 1272,
-  "bytes": 12296039,
+  "count": 1295,
+  "bytes": 13005983,
   "sections": {
    "card": "identity and the short story: names, places, era, family, hero video, pictures, sources",
    "profile": "the deep profile of a published dance: story sections, music, movement, connections, footage, checked claims",
@@ -98,17 +98,17 @@
   "changes": "A dance file carries no clock. Compare the fingerprint in index.json (fp) with the one you kept and fetch only what moved."
  },
  "counts": {
-  "listed": 1272,
-  "researched": 630,
-  "published": 512,
-  "active_ready": 37,
-  "one_short": 45,
-  "two_short": 46,
-  "three_to_five_short": 119,
-  "story_ready_teaching_withheld": 46,
-  "lessons_studied": 203,
-  "performances_observed": 171,
-  "in_the_door": 1272
+  "listed": 1295,
+  "researched": 665,
+  "published": 540,
+  "active_ready": 40,
+  "one_short": 47,
+  "two_short": 51,
+  "three_to_five_short": 122,
+  "story_ready_teaching_withheld": 51,
+  "lessons_studied": 237,
+  "performances_observed": 220,
+  "in_the_door": 1295
  },
  "teaching": {
   "file": "bdf_teaching_system.json",
@@ -121,7 +121,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 24867798,
+  "bytes_behind_this_door": 26178528,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },

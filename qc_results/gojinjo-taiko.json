@@ -1,6 +1,6 @@
 {
  "slug": "gojinjo-taiko",
- "qc_at": "2026-11-08T17:11:32Z",
+ "qc_at": "2026-11-22T19:58:59Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
@@ -34,17 +34,17 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1822"
+   "detail": "2436"
   },
   {
    "gate": "sections_filled",
    "ok": false,
-   "detail": "origins_and_history"
+   "detail": "origins_and_history,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "6/6 rate=1.0"
+   "detail": "5/5 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,7 +84,7 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=[]"
+   "detail": "sacred=True cues=['ritual']"
   }
  ],
  "judge": {
@@ -101,7 +101,7 @@
   "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is highly accurate and respects the sacred, restricted nature of the tradition by acknowledging the lack of public teaching material. It provides a clear historical context while maintaining appropriate boundaries regarding the exclusivity of the practice."
+  "notes": "The profile is highly accurate and respects the restricted nature of the tradition by explicitly stating that technical details are unavailable. It correctly identifies the practice as a closed, community-held ritual. The teaching value is low by necessity, which is the correct approach for a restricted cultural heritage."
  },
  "judge_reused": false,
  "duplicate_of": null,
@@ -112,9 +112,9 @@
   "sacred"
  ],
  "citation": {
-  "claims": 6,
-  "supported": 6,
+  "claims": 5,
+  "supported": 5,
   "rate": 1.0
  },
- "researched_at": "2026-11-08T16:47:37Z"
+ "researched_at": "2026-11-22T19:37:53Z"
 }

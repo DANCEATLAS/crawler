@@ -1,6 +1,6 @@
 # Baksa Kembang — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; the music & instruments section; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
@@ -289,9 +289,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
+Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
+Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (2): https://en.wikipedia.org/wiki/Baksa_kembang; https://www.wikidata.org/wiki/Q97240284

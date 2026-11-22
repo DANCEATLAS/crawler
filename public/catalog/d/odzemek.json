@@ -2,19 +2,24 @@
  "contract": "da_dance_v1",
  "slug": "odzemek",
  "name": "Odzemek",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
+  "SK",
   "UA"
  ],
  "card": {
   "slug": "odzemek",
   "name": "Odzemek",
   "country": "Ukraine",
+  "country_code": "SK",
+  "flag_emoji": "🇸🇰",
   "region": "Europe",
-  "tagline": "Ukraine — Slovak solo traditional dance for men, which always has an improvised character",
-  "profile": "The Odzemek (Slovak: Odzemok) is a Slovak solo traditional dance for men, which always has an improvised character. The dance starts out slow and gets faster as the dance goes on, and is traditionally danced in Slovakia and Moravian Wallachia. The name Odzemok comes from the words 'od zeme,' which means 'from the ground.' It is danced with the Valaška in most regions, but in some Eastern Slovak regions a long stick is often also used. It can be danced either solo or with a group of dancers together.",
-  "insight": "The first dance from the Slavonic Dances Op.",
+  "family": "folk-circle",
+  "era": "traditional",
+  "tagline": "A Slovak men's solo dance erupting from slow footwork into a fiery shepherd's axe duel.",
+  "profile": "The odzemok is a traditional Slovak and Moravian Wallachian solo dance for men characterized by improvisation, a gradual acceleration, and the use of a shepherd's axe called a valaška. Dancers begin with subtle footwork close to the ground, reflecting the name derived from 'od zeme,' before escalating into dramatic leaps, squat movements, and mock duels. It is accompanied by strings, cimbalom, fujara, and koncovka, inspiring classical works such as Dvořák's Slavonic Dances.",
+  "insight": "In 1886, Antonín Dvořák immortalized the accelerating rhythms of the odzemek as the opening piece of his Slavonic Dances Op. 72.",
   "related": [
    "hopak",
    "arkan",
@@ -24,7 +29,8 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Odzemek",
-   "Source: Odzemek on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Odzemek"
+   "Source: Odzemek on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Odzemek",
+   "https://www.wikidata.org/wiki/Q7078447"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Odzemek",
   "wikidata_qid": "Q7078447",
@@ -39,7 +45,7 @@
     "hd": false
    }
   ],
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_albums": [
    {
     "title": "Soukromý odzemek",
@@ -47,6 +53,14 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.1,
+  "last_researched_at": "2026-11-22T19:56:20Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The odzemok is a traditional solo dance for men originating in Slovakia and Moravian Wallachia. Its name derives from the phrase 'od zeme,' translating directly to 'from the ground,' which describes the intimate relationship between the dancer's feet and the earth during the opening moments of the performance. Historically practised as an improvised male dance, it has also served as inspiration for classical European art music, most notably when Antonín Dvořák composed the opening piece of his Slavonic Dances Op. 72 based on its distinct energetic arc.\n\nThe dance begins with subtle foot movements close to the floor that gradually become more dramatic and fast-paced. Dancers maintain an improvised character throughout, sometimes incorporating elements reminiscent of eastern squat dances or the Ukrainian hopak. When performed in a large group setting, two dancers will separate from the ensemble and come together to execute a dynamic mock duel. This confrontation features athletic jumping and ducking maneuvers, where one participant directs movements toward the head while the other targets the lower legs. In most regions, performers handle a traditional shepherd's axe known as a valaška, though certain Eastern Slovak localities substitute a long wooden stick.\n\nMusical accompaniment is provided by background ensembles typical of traditional Moravian and Slovak configurations. These groups prominently feature string instruments paired with the cimbalom, creating a rhythmic and harmonic foundation that matches the dance's acceleration. In addition to strings and cimbalom, musicians frequently utilize traditional wind instruments such as the fujara and the koncovka to enrich the acoustic landscape.\n\nThe dance serves as a vibrant expression of traditional male bravado and physical agility, historically anchored in the cultural practices of Slovakia and Moravian Wallachia through both solo improvisation and structured group mock duels. Composer Antonín Dvořák stands out as a notable figure who engaged with the tradition, utilizing the odzemek form to shape the first piece of his renowned Slavonic Dances Op. 72. Regional variations span across Slovakia and Moravian Wallachia, with specific distinctions noted in prop usage: while the valaška shepherd's axe is standard in most regions, Eastern Slovak areas frequently employ a long stick instead. The dance shares stylistic kinships and comparative elements with eastern squat dances and the Ukrainian hopak, while its musical lineage extends into 19th-century classical compositions.",
+  "publish_gate": "publish",
+  "movie_ready": true,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -63,6 +77,295 @@
    "flamenco"
   ]
  },
- "fingerprint": "18b1664c160eee26",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The odzemok is a traditional solo dance for men originating in Slovakia and Moravian Wallachia. Its name derives from the phrase 'od zeme,' translating directly to 'from the ground,' which describes the intimate relationship between the dancer's feet and the earth during the opening moments of the performance. Historically practised as an improvised male dance, it has also served as inspiration for classical European art music, most notably when Antonín Dvořák composed the opening piece of his Slavonic Dances Op. 72 based on its distinct energetic arc.",
+   "how_it_is_danced": "The dance begins with subtle foot movements close to the floor that gradually become more dramatic and fast-paced. Dancers maintain an improvised character throughout, sometimes incorporating elements reminiscent of eastern squat dances or the Ukrainian hopak. When performed in a large group setting, two dancers will separate from the ensemble and come together to execute a dynamic mock duel. This confrontation features athletic jumping and ducking maneuvers, where one participant directs movements toward the head while the other targets the lower legs. In most regions, performers handle a traditional shepherd's axe known as a valaška, though certain Eastern Slovak localities substitute a long wooden stick.",
+   "music_and_instruments": "Musical accompaniment is provided by background ensembles typical of traditional Moravian and Slovak configurations. These groups prominently feature string instruments paired with the cimbalom, creating a rhythmic and harmonic foundation that matches the dance's acceleration. In addition to strings and cimbalom, musicians frequently utilize traditional wind instruments such as the fujara and the koncovka to enrich the acoustic landscape.",
+   "costume_and_setting": "Costume details and specific settings beyond the use of the valaška shepherd's axe and traditional musical formations are not elaborated upon in the sources.",
+   "occasions_and_meaning": "The dance serves as a vibrant expression of traditional male bravado and physical agility, historically anchored in the cultural practices of Slovakia and Moravian Wallachia through both solo improvisation and structured group mock duels.",
+   "notable_figures": "Composer Antonín Dvořák stands out as a notable figure who engaged with the tradition, utilizing the odzemek form to shape the first piece of his renowned Slavonic Dances Op. 72.",
+   "regional_variants": "Regional variations span across Slovakia and Moravian Wallachia, with specific distinctions noted in prop usage: while the valaška shepherd's axe is standard in most regions, Eastern Slovak areas frequently employ a long stick instead.",
+   "lineage": "The dance shares stylistic kinships and comparative elements with eastern squat dances and the Ukrainian hopak, while its musical lineage extends into 19th-century classical compositions."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Subtle foot movements close to the ground",
+    "Accelerating dramatic and fast-paced steps",
+    "Eastern-style squat dance elements",
+    "Mock duel jumping and ducking"
+   ],
+   "rhythm": "accelerating tempo",
+   "formation": "Solo or group of dancers together, with two dancers separating for a mock duel",
+   "level_notes": "Begins slow and gets faster as the dance goes on"
+  },
+  "claims": [
+   {
+    "text": "The Odzemok is a Slovak solo traditional dance for men, which always has an improvised character.",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   },
+   {
+    "text": "The dance starts out slow and gets faster as the dance goes on, and is traditionally danced in Slovakia and Moravian Wallachia.",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   },
+   {
+    "text": "The name Odzemok comes from the words 'od zeme,' which means 'from the ground.'",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   },
+   {
+    "text": "It is danced with the Valaška in most regions, but in some Eastern Slovak regions a long stick is often also used.",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   },
+   {
+    "text": "If danced in a large group, two dancers will separate and come together to perform a mock duel, featuring jumping and ducking movements where one dancer aims for the head and the other aims for the lower legs.",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   },
+   {
+    "text": "Background musicians are very common and mostly played with string instruments and the Cimbalom in a traditional Moravian or Slovak style formation.",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   },
+   {
+    "text": "The first dance from the Slavonic Dances Op. 72 is an odzemek.",
+    "source": "https://en.wikipedia.org/wiki/Odzemek"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Exact tempo markings and rhythmic meters are not described in sources.",
+   "Detailed footwork counts and posture specifics are not documented beyond general acceleration and ground-level references."
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "starts out slow and gets faster as the dance goes on",
+   "instruments": [
+    "string instruments",
+    "Cimbalom",
+    "Fujara",
+    "Koncovka"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "traditional",
+    "accelerating",
+    "dramatic"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Slavonic Dances Op. 72, No. 1",
+     "artist": "Antonín Dvořák"
+    }
+   ],
+   "sound_description": "Played in a traditional Moravian or Slovak style formation featuring string instruments and the cimbalom, accompanied frequently by the distinctive breathy tones of the fujara and koncovka."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "begins with subtle foot movements that become more dramatic and fast paced",
+   "arms_and_hands": "danced with the Valaška in most regions, or a long stick in some Eastern Slovak regions",
+   "hips_and_torso": "features some elements of dancing that is slightly similar to more eastern squat dances",
+   "formation_and_space": "solo or with a group of dancers together, where two dancers will separate and come together to perform a mock duel",
+   "partnering": "mock duel featuring jumping and ducking movements where one dancer aims for the head and the other aims for the lower legs",
+   "tempo_feel": "starts out slow and gets faster as the dance goes on",
+   "signature_moves": [
+    {
+     "name": "Valaška mock duel",
+     "description": "Two dancers separate and come together to perform a mock duel featuring jumping and ducking with one aiming for the head and the other for the lower legs."
+    }
+   ],
+   "levels_and_jumps": "jumping and ducking movements, squat dances",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "From the Ground Up: The Fiery Valaška Duels of Odzemek",
+   "logline": "Explore the Slovak traditional men's dance that erupts from subtle ground-level steps into high-flying axe duels.",
+   "beats": [
+    "Introduction to the etymology and regional roots in Slovakia and Moravian Wallachia",
+    "Demonstration of the opening subtle foot movements close to the ground",
+    "The acceleration of tempo and integration of eastern squat elements",
+    "The high-energy group mock duel with the valaška shepherd's axe",
+    "Acoustic exploration of strings, cimbalom, fujara, and koncovka",
+    "Dvořák's classical adaptation in the Slavonic Dances Op. 72"
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Execute subtle ground-level foot movements",
+     "drills": [
+      "Practice slow baseline steps",
+      "Focus on grounded posture"
+     ]
+    },
+    {
+     "level": "Intermediate",
+     "goal": "Build tempo and integrate squat elements",
+     "drills": [
+      "Gradually increase footwork speed",
+      "Practice eastern-style squat transitions"
+     ]
+    },
+    {
+     "level": "Advanced",
+     "goal": "Perform the valaška mock duel",
+     "drills": [
+      "Safe jumping and ducking mechanics",
+      "Paired spatial coordination for head and lower leg targeting"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Carved wooden valaška axe",
+    "Cimbalom strings vibrating",
+    "A pair of dancers leaping in a mock duel",
+    "Fujara flute resting against a wooden wall"
+   ],
+   "instructor_persona": "A grounded Slovak folk dance tradition bearer with deep knowledge of Moravian Wallachia regional styles.",
+   "music_cue": "Traditional string and cimbalom ensemble starting at a slow meditative pace and sharply accelerating."
+  },
+  "connections": [
+   {
+    "name": "Hopak",
+    "relation": "influence",
+    "note": "Features elements of dancing slightly similar to eastern squat dances or the Ukrainian hopak."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated foot-tapping maintaining the accelerating tempo concept",
+    "standing_version": "Supported standing balance drill without jumps or axes",
+    "tempo_and_range": "Reduced tempo and eliminated low squatting and jumping ranges",
+    "counts": "Basic slow-to-fast counts based on source acceleration",
+    "avoid": [
+     "jumping movements",
+     "ducking",
+     "valaska axe handling",
+     "squat dances"
+    ]
+   },
+   "children": {
+    "game_version": "A safe tag-style game mimicking the separation and meeting of dancers without weapons",
+    "duration_minutes": "3",
+    "counts": "Simplified 4-count slow build",
+    "avoid": [
+     "real valaska axes",
+     "deep squats",
+     "high leaps"
+    ]
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "2005 Houston International Folk Dancers Czech TX Spring Fest",
+    "url": "https://archive.org/details/2005HoustonInternationalFolkDancersTxSpringFest",
+    "year": 2005,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive",
+    "description": "This is a Czech and Slovak performance the Houston International Folk Dancers (HIFD) did at the 2005 Spring Fest. HIFD is a non profit community group dedicated to recreational dancing from around the world. HIFD is open to anyone who wishes to watch or dance and has been in existence since 1947. Th",
+    "source": "archive"
+   },
+   {
+    "title": "Antonín Dvořák, DANZE SLAVE - Duo Kasik",
+    "url": "https://archive.org/details/a.-dvorak-slavonic-dances-op.-46-op.-72-duo-kasik",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Antonín Dvořák, Danze slave - Duo Kasik ( Martin Kasík, Kristina Kasíková) Qui riuniti due video di Slavic Spoon : (00:00) - A. Dvořák – Slavonic Dances, First Series, Op. 46 (Duo Kasík), 10 ott 2020, https://www.youtube.com/watch?v=JZUMqiGQh78&t=247s \"Upload authorized by Martin Kasík. The sheet mu",
+    "source": "archive"
+   }
+  ],
+  "researched_at": "2026-11-22T19:56:20Z",
+  "qc_score": 9.1
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "FnYUe1vVDZg",
+   "url": "https://www.youtube.com/watch?v=FnYUe1vVDZg",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Indoor stage or hall with wooden flooring, a wooden barrel prop in the center, and a live band on an elevated platform in the background.",
+    "dancers": "A group of approximately 10 men, all dressed in traditional folk attire.",
+    "formation_and_space": "Dancers initially form a loose circle around a barrel, moving individually or in small groups while remaining spread across the stage.",
+    "posture": "Torso is upright or leaning slightly forward during dynamic footwork; knees are frequently bent in deep squats or high leg lifts.",
+    "footwork": "Lively stepping, stomping, quick heel-toe clicks, and leaps in place or traveling across the floor.",
+    "arms_and_hands": "Arms are held wide, raised overhead, or extended to the sides; dancers hold wooden walking sticks or traditional axes in one hand.",
+    "hips_and_torso": "Torso shifts with leaps and deep squats; hips remain relatively stable except when twisting during turns or jumps.",
+    "partnering": "None; all dancers perform solo or in unison group choreography without physical contact between partners.",
+    "levels_jumps_turns": "High vertical jumps, deep low-level squatting movements close to the floor, and occasional turns.",
+    "costume_and_props": "White long-sleeved shirts, dark trousers or light breeches, wide embroidered belts, patterned socks, and leather shoes; dancers hold long wooden sticks (valachian axes or shepherd's axes).",
+    "cannot_infer": "Low camera frame rate and rapid movement obscure exact heel-toe weight shifts and foot articulation.",
+    "music_heard": {
+     "instruments": [
+      "violin",
+      "accordion",
+      "bass",
+      "vocals"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 150,
+      "end_s": 156,
+      "what": "Dancers leap high into the air with legs tucked while others squat low in unison around them."
+     },
+     {
+      "start_s": 249,
+      "end_s": 258,
+      "what": "A dancer crouches low to the floor in a deep squat while spinning around, supported by a wooden stick."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 6,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/odzemek.json"
+ },
+ "fingerprint": "6e5eba8151b678f2",
+ "updated": "2026-11-22"
 }

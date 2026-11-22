@@ -2,7 +2,7 @@
  "slug": "son-de-los-diablos",
  "name": "Son de los Diablos",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:49Z",
  "researched_at": "2026-11-21T18:18:52Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Son de los Diablos. Colonial to Modern era (19th-20th century)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (H1W16Vzjrus)",
      "Title card: Son de los Diablos · Peru · Colonial to Modern era (19th-20th century)"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Zapateo pasada, Devil lunge."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (H1W16Vzjrus)",
      "Captions name each signature move as it appears",
      "Formation: Street procession (comparsa) led by a caporal"
     ],
@@ -722,7 +722,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "H1W16Vzjrus",
+   "checked_by_vision_model": true,
+   "title": "Son de los Diablos: Perú; Danza Afroperuana- América Baila"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -770,8 +774,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the african-diaspora family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -780,18 +784,18 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "out in out half circle back close",
-   "one two tap accent with left shoulder",
-   "one and two and three",
-   "contract the pelvis it will pull you forward",
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
+   "5-6-7-8-hold",
+   "lets build it up",
+   "now put them together",
+   "bend the knees",
+   "change the weight",
+   "turn on the heels",
+   "keep it small",
+   "bend your knees",
+   "one and two and",
+   "put all your weight on your right leg",
    "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees"
+   "double double"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -801,8 +805,7 @@
    "full_demo",
    "breakdown",
    "slow_practice",
-   "music_practice",
-   "layering"
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -810,7 +813,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "what to avoid / common mistakes"
@@ -823,6 +825,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "f302d5dfbd733bfa6e45e22271aa7ef924fdc516b079b09b5cc536df2e24841a",
- "hero_checked": null
+ "input_fingerprint": "8d2bfe73cde0738d27e1c63ae7725cbe2e06f250fc46fd130a4e97b271359888",
+ "hero_checked": "pass"
 }

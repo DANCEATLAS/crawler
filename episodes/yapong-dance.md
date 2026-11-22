@@ -1,8 +1,8 @@
 # Yapong dance — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; posture, arms and hands; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A vibrant cultural historian from Jakarta
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sound of the City: Yapong
 NARRATION: This is Yapong dance. 1977.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (9oB6110x55w)
 ON SCREEN: Title card: Yapong dance · Indonesia · 1977
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance features dynamic and exotic movements intended to show a ha
 NARRATION: It is a blend of Betawi folk dance, pop dance elements, and Sumatran dance influences.
 NARRATION: The movements were originally designed to depict the welcoming of Prince Jayakarta.
 NARRATION: Watch for Yapong Step.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (9oB6110x55w)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Mass dance performance patterns
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -304,7 +304,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '9oB6110x55w', 'checked_by_vision_model': True, 'title': 'Tari Kreasi Baru - Tari Yapong - PLT Bagong Kussudiardja'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); ARIEF RAHARDJO / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); ARIEF RAHARDJO / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Bright red fabric, Dragon motifs, Rebana drums, Mass groups of dancers in synchronization
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (2): https://en.wikipedia.org/wiki/Yapong_dance; https://www.wikidata.org/wiki/Q20427625

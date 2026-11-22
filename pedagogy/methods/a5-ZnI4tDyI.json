@@ -127,10 +127,44 @@
    "voice": [
     "warm",
     "patient",
-    "precise"
+    "precise",
+    "playful"
    ],
-   "beliefs": [],
-   "feelings": []
+   "beliefs": [
+    {
+     "t": "0:21",
+     "belief": "Learners can adjust video playback speeds to match their learning pace.",
+     "about": "how_people_learn"
+    }
+   ],
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:06",
+     "moment": "opening",
+     "says": "The teacher greets the learner and welcomes them to the dance tutorial channel.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:21",
+     "moment": "before_hard_part",
+     "says": "The teacher advises adjusting the video speed in YouTube settings if the choreography feels too fast.",
+     "tag": "autonomy"
+    },
+    {
+     "t": "7:18",
+     "moment": "after_success",
+     "says": "The teacher recaps the steps after practicing them all together.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "9:16",
+     "moment": "closing",
+     "says": "The teacher concludes the video, hopes the learner learned something, and invites them to subscribe and check out other tutorials.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling encouraged and equipped to master the choreography at their own pace."
   },
   "learner_voice": {
    "struggles": [
@@ -196,5 +230,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-22T20:24:10Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 4,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

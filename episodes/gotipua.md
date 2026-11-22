@@ -1,8 +1,8 @@
 # Gotipua — episode pack
 
-*Status: withheld-chapters · built 2026-11-21 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful, seasoned Odissi and Gotipua guru from Raghurajpur emphasizing devotional intent, rigorous physical discipline, and lineage preservation.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Boy Dancers of Jagannath
 NARRATION: This is Gotipua. 16th-17th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (k2XTmY9MDL0)
 ON SCREEN: Title card: Gotipua · India · 16th-17th century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Gotipua performance features classical Odissi postures combined with 
 NARRATION: It relies on two basic postures: tribhangi (where the body is held with bends at the head, torso, and knees) and chouka (a square-like stance symbolizing Jagannath), characterized by a fluid upper torso.
 NARRATION: Performance items begin with a vandana (invocation) featuring a three-step salutation above the head, in front of the face, and at the chest.
 NARRATION: Watch for Chouka, Tribhangi, Bandha Nrutya.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (k2XTmY9MDL0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group formations transitioning into intricate sculptural human arrangements for acrobatic bandha figures.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'k2XTmY9MDL0', 'checked_by_vision_model': True, 'title': 'Gotipua Dance performance | Orissa Dance Academy | TEDxXIMB'}
 Images: 4 licensed — G41rn8 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Prachites / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Rangan Datta Wiki / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); TAPAS KUMAR HALDER / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Dola jata 1.webm — https://upload.wikimedia.org/wikipedia/commons/8/8d/Dola_jata_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Dola jata.webm — https://upload.wikimedia.org/wikipedia/commons/6/6a/Dola_jata.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Dola jatra.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Dola_jatra.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Village procession during Kali Puja, Puri, Odisha, India.webm — https://upload.wikimedia.org/wikipedia/commons/9/90/Village_procession_during_Kali_Puja%2C_Puri%2C_Odisha%2C_India.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Odissi: Dedicated to Jagannatha, Volume 1 — https://archive.org/details/dli.pb.odissi.1; Bandha Nritya (Odisha) — https://archive.org/details/pli.ccrt.Bandha; NM0401 : Sakhi Pila ( Boy Odissi Dancer ) — https://archive.org/details/dli.MoI.NM401_SakhiPila_BoyOdissidancers_Eng; Gopitpua — https://archive.org/details/dli.Gotipua
 Motifs: Sandalwood powder patterns drawn around facial bindi, Red alta liquid painted on hands and feet, Bas-relief dancer sculptures on temple walls in Puri and Konark, Intricate human chariot and animal poses in Bandha Nrutya
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
+Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
 Counting: 
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (4): https://en.wikipedia.org/wiki/Gotipua; https://www.wikidata.org/wiki/Q5587904; https://fr.wikipedia.org/wiki/Gotipua; https://archive.org/details/celebrationoflif0000pani

@@ -1,6 +1,6 @@
 # Fusion Dance — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -297,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8
 Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: down down baby; hit hit; squeeze your butt
+Cues: down down baby; hit hit; squeeze your butt; rock those hips; let it feel good; pick it up; double time; drop it down; keep it working
 
 Sources (3): https://en.wikipedia.org/wiki/Fusion_dance; https://www.wikidata.org/wiki/Q17081177; https://es.wikipedia.org/wiki/Baile_fusión

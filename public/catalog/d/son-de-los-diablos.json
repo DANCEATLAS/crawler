@@ -31,6 +31,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Son_de_los_Diablos",
   "wikidata_qid": "Q7560621",
   "unesco": false,
+  "hero_video_youtube_id": "H1W16Vzjrus",
+  "video_stack": [
+   {
+    "youtube_id": "H1W16Vzjrus",
+    "role": "hero",
+    "title": "Son de los Diablos: Perú; Danza Afroperuana- América Baila",
+    "channel": "América Baila dance company",
+    "hd": true
+   },
+   {
+    "youtube_id": "gGrwQiBrpOY",
+    "role": "rendition",
+    "title": "Son de los Diablos (Lima - Callao) - Son del Perú - Concurso Baila Despertar 2013 - TIKARY PRODUC.",
+    "channel": "Tikary Producciones JC",
+    "hd": true
+   },
+   {
+    "youtube_id": "egUj8hGplaY",
+    "role": "rendition",
+    "title": "SON DE LOS DIABLOS",
+    "channel": "INSTITUTO DE CULTURA RAÍCES DEL PERÚ OFICIAL",
+    "hd": true
+   },
+   {
+    "youtube_id": "YgxLR3lpTAM",
+    "role": "rendition",
+    "title": "LAS ORIHUELA - SON DE LOS DIABLOS",
+    "channel": "Las Orihuela",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -59,6 +90,12 @@
   "sacred_note": "While initially tied to Catholic Corpus Christi celebrations before being banned by the Church in 1817, the dance functions primarily as a secular carnival and theatrical performance tradition rather than a restricted sacred ritual.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:05:00Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "diablada"
   ]
@@ -273,7 +310,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -283,10 +320,6 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    },
    {
     "key": "study_video",
@@ -299,11 +332,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/son-de-los-diablos.json"
  },
- "fingerprint": "2d16205f26c27016",
- "updated": "2026-11-21"
+ "fingerprint": "a9e3b7aa2471306b",
+ "updated": "2026-11-22"
 }

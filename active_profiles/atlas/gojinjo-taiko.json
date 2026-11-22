@@ -4,7 +4,12 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
@@ -31,7 +36,7 @@
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The sound is defined by low-frequency drum beats intended to mimic the rumbling of the earth.",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
@@ -43,7 +48,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f339cddd6082b06fa081f77625c5f84602b69c03d1c173482b57a4c0647d1f1c",
+  "fingerprint": "fd9f80ab67b52cad675d62f42291e6683319ad8b7028dfaf2fe4725a80334792",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -52,8 +57,10 @@
     ],
     "research": [
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns used in Gojinjo Taiko? Evidence needed: Field recordings or ethnographic studies of the Nafune community.",
+      "Investigate: Are there specific physical movements or postures associated with the drumming? Evidence needed: Documentary footage or expert testimony from the Nafune preservation society."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -80,7 +87,26 @@
   ],
   "music_options": [],
   "name": "Gojinjo Taiko",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "bb3ca7f11c5bb022",
+      "next_evidence": "Field recordings or ethnographic studies of the Nafune community.",
+      "question": "What are the specific rhythmic patterns used in Gojinjo Taiko?",
+      "source": "https://en.wikipedia.org/wiki/Gojinjo-daiko",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the sound as 'low' and 'earth-rumbling' but provide no musical notation or rhythm structure for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "63cef3a3ffb8bacf",
+      "next_evidence": "Documentary footage or expert testimony from the Nafune preservation society.",
+      "question": "Are there specific physical movements or postures associated with the drumming?",
+      "source": "https://en.wikipedia.org/wiki/Gojinjo-daiko",
+      "status": "candidate_unreviewed",
+      "why_needed": "The movement profile is currently empty, preventing any instructional application."
+    }
+  ],
   "research_file": "research_results/gojinjo-taiko.json",
   "runtime_active": false,
   "scope": {

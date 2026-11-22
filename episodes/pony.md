@@ -1,6 +1,6 @@
 # Pony — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); two or more connections
 
@@ -74,7 +74,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Keep feet comfortably together.
 NARRATION: Step or hop in place to the rhythmic count of 1&2, 3&4.
-NARRATION: Count it: 6-7-8 and 1-2-3-4.
+NARRATION: Count it: 1-2-3.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 6-7-8 and 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: 1&2, 3&4 subdivided rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -115,10 +115,10 @@ NARRATION: Step 1: Keep feet comfortably together.
 NARRATION: Step 2: Step or hop in place to the rhythmic count of 1&2, 3&4.
 NARRATION: Footwork from the sources: Feet kept comfortably together, moving on counts 1&2, 3&4.
 NARRATION: Drill: Count 1&2, 3&4 aloud while bouncing softly on both feet.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Imitate riding a horse using optional hand and arm motions.
@@ -126,7 +126,7 @@ NARRATION: Step 4: Maintain a position facing your partner without physical cont
 NARRATION: Drill: Keep feet comfortably close together while maintaining rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,7 +144,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 6-7-8 and 1-2-3-4.
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 122 bpm
@@ -175,7 +175,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 6-7-8 and 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: 1&2, 3&4 subdivided rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -185,10 +185,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Optionally add turns or chase movements around the dance space.
 NARRATION: Drill: Add hand motions simulating holding reins.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Horse-riding bounce: Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.
@@ -196,7 +196,7 @@ NARRATION: Drill: Face a partner without touching while staying on beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,7 +214,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 6-7-8 and 1-2-3-4.
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 122 bpm
@@ -245,7 +245,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 6-7-8 and 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: 1&2, 3&4 subdivided rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -256,10 +256,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Maintain a position facing your partner without physical contact.
 NARRATION: Step 2: Optionally add turns or chase movements around the dance space.
 NARRATION: Drill: Perform full turns while keeping the 1&2, 3&4 bounce.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Horse-riding bounce: Rhythmic bounce keeping feet together to look as if riding a horse on beat 1&2, 3&4.
@@ -267,7 +267,7 @@ NARRATION: Drill: Move around partner in a chase formation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 6-7-8 and 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -285,7 +285,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 1&2, 3&4 rhythm seated in a chair, tapping feet comfortably together while moving arms gently. · For children: Pretend to be galloping ponies around an arena, keeping time with the 1&2, 3&4 beat. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 6-7-8 and 1-2-3-4.
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples generally face each other without touching; open floor with no line-of-dance; turns and chase positions allowed.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 122 bpm
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 6-7-8 and 1-2-3-4
-Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: grab onto your tie; part ner; some one who knows how to ride; heel toe
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-2-3
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 3
+Cues: 1-2-3; bending the knees and dropping centre of gravity; grab onto your tie; part ner; some one who knows how to ride; heel toe
 
 Sources (5): https://en.wikipedia.org/wiki/Pony_Time; https://www.wikidata.org/wiki/Q17000192; https://archive.org/details/childrensliterat0000curr; https://archive.org/details/rockymountainwon00mill; https://archive.org/details/folkstoriesfable0000unse

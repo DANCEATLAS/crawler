@@ -1,13 +1,77 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular formation with vertical tower structures",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes vertical levels created by human towers.",
+      "partnering": "Collaborative weight-bearing for tower formation",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dancers climb onto the shoulders of others to create vertical columns.",
+          "name": "Live Towers"
+        }
+      ],
+      "tempo_feel": "Fast",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "doli",
+        "panduri",
+        "chiboni"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "energetic",
+        "fast"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circular movement in a group formation",
+        "Rapid footwork to maintain high tempo",
+        "Formation of vertical towers by climbing onto shoulders"
+      ],
+      "formation": "Round dance (circle)",
+      "level_notes": "Advanced due to the requirement for acrobatic tower formation and high-speed footwork.",
+      "rhythm": "Fast-paced, rhythmic"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "24d2e73aab4c090568aa8bb1e887d9e815f1b3554e221b288b389becc533dc79",
+  "fingerprint": "d4fcbdc2037539221b183ec34a801616b86b22ce960ec387053de55da9440836",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +79,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the specific musical meter (e.g., 3+2 or 6/8) used for Partsa? Evidence needed: Musicological studies of Gurian folk music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +109,18 @@
   ],
   "music_options": [],
   "name": "Partsa",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "62905a940f0ec782",
+      "next_evidence": "Musicological studies of Gurian folk music.",
+      "question": "What is the specific musical meter (e.g., 3+2 or 6/8) used for Partsa?",
+      "source": "https://en.wikipedia.org/wiki/Georgian_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the music profile for teaching."
+    }
+  ],
+  "research_file": "research_results/partsa.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +132,8 @@
   "slug": "partsa",
   "sources": [
     "https://en.wikipedia.org/wiki/Georgian_dance",
-    "https://georgia.travel/why-georgia-georgian-dance"
+    "https://www.wikidata.org/wiki/Q3647082",
+    "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
   ],
   "state": "researching",
   "video_evidence": []

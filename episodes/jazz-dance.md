@@ -1,6 +1,6 @@
 # Jazz dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
@@ -348,8 +348,8 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, side; tempo progression: full
-Cues: step together step; brush the foot; arms open close in a circle; don't forget to breathe; drop your shoulders; keep a flat back; straight down; straight back up; find length in your spine; squeeze through your glute muscles
+Demonstration: views used by most teachers: front, side, back; tempo progression: full
+Cues: don't forget to breathe; drop your shoulders; keep a flat back; step together step; brush the foot; arms open close in a circle; straight down; straight back up; find length in your spine; squeeze through your glute muscles
 Common mistakes the studied teachers name: rounding over instead of keeping a flat back during stretches; pitching forward during a sumo squat; leaning back during a sumo squat; crunched up back during a pyramid stretch
 
 Sources (5): https://en.wikipedia.org/wiki/Jazz_dance; https://www.wikidata.org/wiki/Q936055; https://es.wikipedia.org/wiki/Jazz_(baile); https://fr.wikipedia.org/wiki/Danse_jazz; https://pt.wikipedia.org/wiki/Jazz_dance

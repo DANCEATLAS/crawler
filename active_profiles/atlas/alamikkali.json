@@ -1,0 +1,135 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Itinerant group procession of 5 to 6 performers dancing in front of village homes.",
+          "source": "https://en.wikipedia.org/wiki/Alamikkali"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Striking sticks together while holding alms vessels and wallets",
+      "difficulty": "intermediate",
+      "footwork": "Barefoot stepping and freeform energetic movement without strict rhythmic alignment",
+      "formation_and_space": "Small itinerant group procession of 5-6 members moving through village pathways to house fronts",
+      "hips_and_torso": "Unconstrained folk movement accompanying stick striking",
+      "levels_and_jumps": "Low ground movement during flame rolling; mid-level freeform standing dance.",
+      "partnering": "Group syncopation and collective freeform interaction",
+      "posture": "Upright, dynamic, and expansive with energetic upper-body movement",
+      "signature_moves": [
+        {
+          "description": "Boisterous barefoot advancing accompanied by bell shaking and stick striking.",
+          "name": "Alami Processional Step"
+        },
+        {
+          "description": "Ritual rolling in the burnt flame floor during the final sacred ceremony.",
+          "name": "Flame Rolling"
+        }
+      ],
+      "tempo_feel": "Inflated, energetic, boisterous",
+      "what_to_avoid": "Wearing footwear during ritual performance; disrupting sacred flame space."
+    },
+    "music_profile": {
+      "instruments": [
+        "Sticks",
+        "Bells"
+      ],
+      "meter": "Unstructured / freeform vocal meter",
+      "mood_keywords": [
+        "devotional",
+        "energetic",
+        "commemorative",
+        "solemn"
+      ],
+      "musical_form": "Strophic chant framed by opening and closing refrain 'lassolayma... lasso... layma... layma... laymalo...'",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic stick-striking punctuated by bell ringing",
+      "sound_description": "A resonant acoustic blend of barefoot stepping, metallic bell ringing, wooden stick strikes, and group vocal chanting featuring the characteristic 'lassolayma' refrain.",
+      "tempo_bpm": "",
+      "vocal_style": "Call-and-response vocal chanting with unique tonal structure"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Processional march while striking sticks and sounding bells",
+        "Setting down the alms vessel in front of the threshold",
+        "Energetic barefoot freeform dancing and rhythmic stepping",
+        "Vocal chanting of the 'lassolayma' refrain"
+      ],
+      "formation": "Group of 5 to 6 dancers moving house-to-house",
+      "level_notes": "Accessible to community folk participants; movement emphasizes energy and devotional intent over formal step precision.",
+      "rhythm": "Freeform / unstructured rhythm driven by stick striking and vocal refrains"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "333b27ece33b90bf924a51512c18b9ff067dfaa715def7ce5b206391e58ab20f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step mechanics and body gestures during house-front performances? Evidence needed: Field video recordings of living Alamikkali house visits in Kasargod."
+    ]
+  },
+  "id": "atlas:alamikkali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Alamikkali",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "4d103e64d44cb4d7",
+      "next_evidence": "Field video recordings of living Alamikkali house visits in Kasargod.",
+      "question": "What are the exact step mechanics and body gestures during house-front performances?",
+      "source": "https://en.wikipedia.org/wiki/Alamikkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources state that dancers move 'without giving priority to rhythm', requiring visual documentation to structure interactive motion analysis."
+    }
+  ],
+  "research_file": "research_results/alamikkali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "alamikkali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Alamikkali",
+    "https://www.wikidata.org/wiki/Q28403897"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

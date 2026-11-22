@@ -1,0 +1,120 @@
+{
+ "slug": "nicaraguan-dance",
+ "qc_at": "2026-11-22T19:59:41Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Nicaraguan dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "206"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Diriamba's Saint Sebastian feast, dancers wear peacock-feathered hats and fai"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "579"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2100"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nicaragua"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Central America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "rich tapestry,tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-researched. It correctly identifies that 'Nicaraguan dance' is a category rather than a single dance, which is why is_a_dance is false. The descriptions of specific traditions like Toro Huaco and El Güegüense are excellent and culturally sensitive."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=9.85",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T17:34:19Z"
+}

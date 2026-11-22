@@ -1,6 +1,6 @@
 # robot — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed)
 
@@ -82,7 +82,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand upright with a rigid posture.
 NARRATION: Isolate one arm and move it slowly in a segmented motion.
-NARRATION: Count it: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count it: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -111,7 +111,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Rhythm pattern: Steady, distinct beats to synchronize mechanical stops and starts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -126,7 +126,7 @@ NARRATION: Drill: Practice slow arm movements with abrupt stops.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8- · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform a dimestop by abruptly halting the arm movement.
@@ -134,7 +134,7 @@ NARRATION: Step 4: Repeat with the other arm and legs, maintaining mechanical st
 NARRATION: Drill: Isolate leg movements with clear starts and stops.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8- · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,16 +147,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Loose or fluid movements that break the mechanical illusion.
-NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
 NARRATION: Teachers of this dance warn against: not maintaining enough tension in the movements
 NARRATION: Teachers of this dance warn against: not coordinating the head and body movements
+NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -187,7 +187,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Rhythm pattern: Steady, distinct beats to synchronize mechanical stops and starts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -201,7 +201,7 @@ NARRATION: Drill: Practice transitioning between limbs with dimestops.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8- · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Dimestop: Abrupt halt of movement simulating a motor starting or stopping.
@@ -209,7 +209,7 @@ NARRATION: Drill: Add subtle torso isolation without losing stiffness.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8- · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -222,16 +222,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Loose or fluid movements that break the mechanical illusion.
-NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
 NARRATION: Teachers of this dance warn against: not maintaining enough tension in the movements
 NARRATION: Teachers of this dance warn against: not coordinating the head and body movements
+NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed solo, socially in couples, or in small groups; spatial paths are linear or angular to simulate mechanical motion.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -262,7 +262,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Rhythm pattern: Steady, distinct beats to synchronize mechanical stops and starts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -277,7 +277,7 @@ NARRATION: Drill: Practice muscle control to simulate joints moving.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8- · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Dimestop: Abrupt halt of movement simulating a motor starting or stopping.
@@ -285,7 +285,7 @@ NARRATION: Drill: Incorporate beatboxing or mechanical sound effects.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8- · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -298,16 +298,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Loose or fluid movements that break the mechanical illusion.
-NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
 NARRATION: Teachers of this dance warn against: not maintaining enough tension in the movements
 NARRATION: Teachers of this dance warn against: not coordinating the head and body movements
+NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed solo, socially in couples, or in small groups; spatial paths are linear or angular to simulate mechanical motion.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -347,9 +347,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
-Counting: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-
+Counting: 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4
 Demonstration: views used by most teachers: front, mirror, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: swing stop; lean forward; arm up; elbow up; tick each part; lock your arms; twist your wrist; keep your arm tense; pivot your feet; turn your torso
-Common mistakes the studied teachers name: moving everything below the elbow instead of including the elbow; not maintaining enough tension in the movements; not coordinating the head and body movements
+Cues: twist your wrist; keep your arm tense; pivot your feet; turn your torso; swing stop; lean forward; arm up; elbow up; tick each part; lock your arms
+Common mistakes the studied teachers name: not maintaining enough tension in the movements; not coordinating the head and body movements; moving everything below the elbow instead of including the elbow
 
 Sources (5): https://en.wikipedia.org/wiki/Robot_(dance); https://www.wikidata.org/wiki/Q2725666; https://pt.wikipedia.org/wiki/Robô_(dança); https://it.wikipedia.org/wiki/Robot_(danza); https://archive.org/details/smash-hits-1979-12-13

@@ -1,6 +1,6 @@
 # Canary dance — episode pack
 
-*Status: draft · built 2026-11-21 · judge 8.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 8.85 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
+Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
 Counting: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
+Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (4): https://en.wikipedia.org/wiki/Canary_dance; https://www.wikidata.org/wiki/Q130919; https://fr.wikipedia.org/wiki/Canarie_(danse); https://de.wikipedia.org/wiki/Canarie

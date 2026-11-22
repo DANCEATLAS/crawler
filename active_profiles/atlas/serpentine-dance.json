@@ -3,79 +3,100 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Heavy fabric",
-          "Complex rod handling"
+          "Long rods (safety hazard)",
+          "Tripping hazards from oversized skirts",
+          "Darkened rooms (may be frightening)"
         ],
-        "counts": "Simplified 2- or 4-count arm waves.",
-        "duration_minutes": "5",
-        "game_version": "Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+        "counts": "Free-form movement to music rather than strict counts.",
+        "duration_minutes": "15",
+        "game_version": "The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Rapid arm swings",
-          "Extended arm holds causing fatigue"
+          "Rapid pivots",
+          "Heavy fabric loads",
+          "Overhead extensions that strain the neck"
         ],
-        "counts": "Simplify to 4-count waves and arcs.",
-        "seated_version": "Practice arm and fabric waving motions while seated to reduce balance demands.",
-        "standing_version": "Use lighter fabric and smaller arm arcs to reduce strain; avoid rapid movements.",
-        "tempo_and_range": "Slow tempo with limited arm range; focus on smooth, controlled motions."
+        "counts": "Simple 1-2-3-4 swaying counts.",
+        "seated_version": "Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight.",
+        "standing_version": "Focus on slow, rhythmic arm swaying without pivots to maintain balance.",
+        "tempo_and_range": "Reduce tempo to 60-70 BPM; limit arm extensions to shoulder height."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.",
-      "difficulty": "Beginner to intermediate",
-      "footwork": "not described in sources",
-      "formation_and_space": "Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric.",
-      "hips_and_torso": "Minimal hip movement; torso remains mostly stable to emphasize fabric motion.",
-      "levels_and_jumps": "None",
-      "partnering": "None",
-      "posture": "Upright with arms extended, shoulders relaxed.",
+      "arms_and_hands": "The primary engine of the dance; arms are extended by rods to manipulate massive fabric volumes.",
+      "difficulty": "intermediate",
+      "footwork": "Minimal; primarily used for stabilization and slow rotations or pivots.",
+      "formation_and_space": "Stationary or circular path; requires a large clearance for the silk's radius.",
+      "hips_and_torso": "Used to generate the initial momentum for the fabric's waves.",
+      "levels_and_jumps": "Low to medium levels; no significant jumps.",
+      "partnering": "None (solo)",
+      "posture": "Upright but flexible torso, allowing for deep leans and rotations.",
       "signature_moves": [
         {
-          "description": "Arms move in spirals causing the silk to swirl around the dancer.",
-          "name": "Spiral wave"
+          "description": "Rapidly flapping the silk wings at shoulder height.",
+          "name": "The Butterfly"
         },
         {
-          "description": "Wide sweeping arm movements create large arcs of fabric.",
-          "name": "Billowing arcs"
+          "description": "Raising the fabric overhead and allowing it to spiral down around the body.",
+          "name": "The Lily"
+        },
+        {
+          "description": "Low, undulating waves created by horizontal arm movements.",
+          "name": "The Serpent"
         }
       ],
-      "tempo_feel": "Moderate to slow, fluid and continuous.",
-      "what_to_avoid": "Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing"
+      "tempo_feel": "Sweeping and atmospheric, prioritizing the 'flight' of the fabric over sharp beats.",
+      "what_to_avoid": "Avoid jerky movements that collapse the fabric; do not step on the hem of the oversized skirt."
     },
     "music_profile": {
-      "instruments": [],
-      "meter": "not described in sources",
-      "mood_keywords": [
-        "ethereal",
-        "fluid",
-        "luminous",
-        "graceful"
+      "instruments": [
+        "Strings",
+        "Brass",
+        "Woodwinds",
+        "Percussion"
       ],
-      "musical_form": "not described in sources",
-      "reference_recordings": [],
-      "rhythm_pattern": "not described in sources",
-      "sound_description": "not described in sources",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "not described in sources"
+      "meter": "Often 3/4 (waltz) or 4/4 (march/orchestral)",
+      "mood_keywords": [
+        "Ethereal",
+        "Spectacular",
+        "Luminous",
+        "Fluid"
+      ],
+      "musical_form": "Sectional orchestral pieces or popular theater music.",
+      "reference_recordings": [
+        {
+          "artist": "Maurice Ravel",
+          "title": "Boléro"
+        }
+      ],
+      "rhythm_pattern": "Continuous and sweeping, matching the undulation of the fabric.",
+      "sound_description": "The sound is typically that of a late 19th-century theater orchestra or brass band, providing a grand, rhythmic backdrop that supports the visual scale of the billowing silk.",
+      "tempo_bpm": "Variable (typically 70-120 BPM)",
+      "vocal_style": "None (instrumental)"
     },
     "teaching": {
       "basic_steps": [
-        "Hold the silk fabric rods firmly in both hands.",
-        "Begin with arms extended to the sides at shoulder height.",
-        "Slowly wave the arms upward and inward to create spirals.",
-        "Sweep the fabric in wide arcs around the body.",
-        "Use continuous, flowing arm movements to maintain fabric motion."
+        "Grasp the concealed wands (baguettes) firmly to extend the reach of the arms.",
+        "Initiate a rhythmic swaying of the torso to begin the fabric's momentum.",
+        "Execute large, circular arm movements to create 'volutes' or spirals in the silk.",
+        "Alternate between high and low arm positions to suggest shapes like 'flowers' or 'clouds'.",
+        "Incorporate small pivots or turns to keep the fabric billowing in a continuous flow."
       ],
-      "formation": "Solo performance",
-      "level_notes": "Beginner dancers should focus on smooth arm control and fabric manipulation before attempting complex patterns.",
-      "rhythm": "not described in sources"
+      "formation": "Solo performance, typically centered on a stage to allow for 360-degree fabric movement.",
+      "level_notes": "Requires significant upper body strength and coordination to manage the weight and wind resistance of the silk.",
+      "rhythm": "Fluid and continuous, following the orchestral tempo without rigid step-counts."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a001f8fd529b18f5b5aec50c5f9cc93d242e0cafdf2f7a29e2c7d62fecca3dc2",
+  "fingerprint": "ad6d989f83788c1059c268681a4f652d6256281456c5ac06eef551a434463f41",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -83,9 +104,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What were the specific chemical dyes Fuller patented for her silk, and how did they interact with the stage lighting of the 1890s? Evidence needed: https://fr.wikipedia.org/wiki/Danse_serpentine"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -101,7 +121,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there modern reconstructions that demonstrate the specific 'baguette' grip and wrist rotation needed to maintain fabric loft? Evidence needed: https://de.wikipedia.org/wiki/Serpentinentanz"
     ]
   },
   "id": "atlas:serpentine-dance",
@@ -112,7 +133,26 @@
   ],
   "music_options": [],
   "name": "Serpentine dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d6ab1420cd456fad",
+      "next_evidence": "https://de.wikipedia.org/wiki/Serpentinentanz",
+      "question": "Are there modern reconstructions that demonstrate the specific 'baguette' grip and wrist rotation needed to maintain fabric loft?",
+      "source": "https://de.wikipedia.org/wiki/Serpentinentanz",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention rods but not the mechanical technique required to prevent the fabric from tangling during complex volutes."
+    },
+    {
+      "domain": "research",
+      "id": "faf602df5d61e571",
+      "next_evidence": "https://fr.wikipedia.org/wiki/Danse_serpentine",
+      "question": "What were the specific chemical dyes Fuller patented for her silk, and how did they interact with the stage lighting of the 1890s?",
+      "source": "https://fr.wikipedia.org/wiki/Danse_serpentine",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the visual profile accurately, the reflective properties of the original materials must be understood."
+    }
+  ],
   "research_file": "research_results/serpentine-dance.json",
   "runtime_active": false,
   "scope": {

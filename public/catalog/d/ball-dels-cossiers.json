@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "ball-dels-cossiers",
  "name": "Ball dels Cossiers",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "ES"
@@ -11,10 +11,18 @@
   "slug": "ball-dels-cossiers",
   "name": "Ball dels Cossiers",
   "country": "Spain",
+  "country_code": "ES",
+  "flag_emoji": "🇪🇸",
   "region": "Europe",
-  "tagline": "Spain — most popular traditional dance on the island of Majorca, in the Spanish Balearic Islands",
-  "profile": "The Ball dels Cossiers (Catalan for \"Dance of the Cossiers\") is the most popular traditional dance on the island of Majorca, in the Spanish Balearic Islands. In the dance, three pairs of dancers, who are typically male, defend a representation of good, the \"Lady,\" who is played by a man or a woman, from a demon. Normally the dance is done in a circle, with the Lady in the center, although some more solemn dance troupes (such as La Oferta, the Mocadors, the Bandanas, or the Mercançó) deviate from this tradition.",
-  "insight": "The Ball dels Cossiers (Catalan for \"Dance of the Cossiers\") is the most popular traditional dance on the island of Majorca, in the Spanish Balearic Islands.",
+  "family": "folk-circle",
+  "era": "14th century",
+  "tagline": "Majorcan folk dance where six dancers and a Lady defend good against a demon.",
+  "profile": "The Ball dels Cossiers is the most popular traditional dance on the island of Majorca in the Spanish Balearic Islands. The performance features six dancers typically arranged in three pairs who defend a figure representing good, known as the Lady, from a demon. Brought to the island from Catalonia following the 14th-century Aragonian conquest, the dance nearly vanished under 20th-century political repression before a 1962 revival. Today, it is practiced exclusively in Palma and five surrounding towns.",
+  "insight": "In 1962, film director José María Oliveira revived the banned Ball dels Cossiers at his hotel in Palma after decades of Franco's cultural repression.",
+  "aliases": [
+   "dance of the cossiers",
+   "baile de los cossiers"
+  ],
   "related": [
    "flamenco",
    "sevillanas",
@@ -24,13 +32,39 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
-   "Source: Ball dels Cossiers on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   "Source: Ball dels Cossiers on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
+   "https://www.wikidata.org/wiki/Q108658210",
+   "https://es.wikipedia.org/wiki/Baile_de_los_cossiers"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
   "wikidata_qid": "Q108658210",
   "unesco": false,
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.0,
+  "last_researched_at": "2026-11-22T19:56:45Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Origins and History: The Ball dels Cossiers traces its recorded presence on Majorca back to the 14th century, arriving from Catalonia following the Aragonian conquest under King Jaime I. The earliest documented evidence of the dance appears in a 1544 manuscript originating in Sóller. Scholars debate its deeper roots, with some arguing the tradition stems from ancient pagan nature spirit worshipping rituals native to the island, subsequently fusing with incoming Catalan customs and Corpus Christi processions. During the 20th century, the dance all but disappeared due to Francisco Franco's strict repression of Majorcan and Catalan culture. The turning point arrived in 1962 when Spanish film director José María Oliveira initiated performances at his hotel in Palma, rallying local troupes to resurrect the tradition.\n\nHow It Is Danced: The performance features six dancers—known as cossiers, though the precise number can vary—alongside a central figure called the Lady, who may be portrayed by either a man or a woman. In many locations, a demon character interacts with the group. Normally, the dance is executed in a circle with the Lady positioned directly in the center. However, certain solemn traditional troupes—specifically named as La Oferta, els Mocadors, the Bandanas, and the Mercançó—deviate from this standard circular formation.\n\nMusic and Instruments: Specific musical scores, instrumental configurations, and rhythmic meters are not described in sources.\n\nCostume and Setting: Specific costume designs, textiles, and performance settings beyond public festivals and fiestas are not described in sources.\n\nOccasions and Meaning: The dance is performed during festivals, fiestas, and public events, historically linking to Corpus Christi processions and seasonal celebrations where dancers symbolically defend goodness represented by the Lady against the disruptive presence of a demon.\n\nNotable Figures: Spanish film director José María Oliveira stands out as a pivotal figure who catalyzed the modern revival of the dance in 1962 by hosting performances at his Palma hotel and supporting local troupes.\n\nRegional Variants: While once widespread across the island, the contemporary practice of the Ball dels Cossiers is restricted to Palma and five specific towns and villages on Majorca: Manacor, Alaró, Algaida, Montuïri, and Inca. Particular troupes such as La Oferta, els Mocadors, the Bandanas, and the Mercançó maintain distinct, more solemn spatial formations that depart from the standard circle.\n\nLineage: The dance operates as a subclass of Catalan folk dance, originating via Catalan repopulators and settlers during the medieval era.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Cossiersmont1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/Cossiersmont1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1024,
+    "height": 683,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "GMA / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACossiersmont1.JPG",
+    "description": "Els cossiers de Montuïri ballant als quatre cantons el dia de Sant Bartomeu 2008."
+   }
+  ],
+  "publish_gate": "publish",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "not described in sources",
+  "movie_ready": false,
+  "tradition_status": "revived",
   "related_slugs": [
    "flamenco",
    "sevillanas",
@@ -39,6 +73,204 @@
    "cachucha"
   ]
  },
- "fingerprint": "febba672c4c7567b",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The Ball dels Cossiers arrived on Majorca from Catalonia in the 14th century during the Aragonian conquest under King Jaime I, with the earliest manuscript evidence recorded in Sóller in 1544. While some scholars trace its roots to indigenous pagan nature spirit rituals, the form became integrated into Catholic festivals like Corpus Christi. Franco's 20th-century political repression nearly extinguished the tradition until film director José María Oliveira spearheaded its revival in 1962 at a Palma hotel.",
+   "how_it_is_danced": "The performance centers on six cossiers and a Lady—played by a man or woman—who is defended from a demon. The troupe typically dances in a circle with the Lady in the center, though solemn groups like La Oferta, els Mocadors, the Bandanas, and the Mercançó depart from this circular formation.",
+   "music_and_instruments": "not described in sources",
+   "costume_and_setting": "Performed during public festivals, fiestas, and events in Majorca. Costume details are not described in sources.",
+   "occasions_and_meaning": "Traditionally staged at public festivals and fiestas, the performance dramatizes a symbolic struggle where dancers defend goodness (the Lady) from a demon.",
+   "notable_figures": "Spanish film director José María Oliveira, who began hosting performances and supporting local troupes at his Palma hotel in 1962.",
+   "regional_variants": "Practiced exclusively in Palma and five Majorcan towns: Manacor, Alaró, Algaida, Montuïri, and Inca. Distinct solemn troupes include La Oferta, els Mocadors, the Bandanas, and the Mercançó.",
+   "lineage": "Derived from medieval Catalan folk traditions brought to Majorca following the Aragonian conquest."
+  },
+  "teaching": {
+   "basic_steps": [],
+   "rhythm": "not described in sources",
+   "formation": "Normally a circle with the Lady in the center, though solemn troupes deviate from this formation.",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "The Ball dels Cossiers is the most popular traditional dance on the island of Majorca in the Spanish Balearic Islands.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   },
+   {
+    "text": "Three pairs of dancers defend the Lady from a demon in the performance.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   },
+   {
+    "text": "The dance was brought to Majorca from Catalonia in the 14th century following the Aragonian conquest.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   },
+   {
+    "text": "Francisco Franco's cultural repression caused the dance to all but disappear during the 20th century.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   },
+   {
+    "text": "Spanish film director José María Oliveira began a revival of the dance in 1962 at his hotel in Palma.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   },
+   {
+    "text": "The dance is currently practiced only in Palma and five other towns on Majorca.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   },
+   {
+    "text": "The dance is normally performed in a circle with the Lady in the center, though solemn troupes deviate from this norm.",
+    "source": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Cossiersmont1.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Cossiersmont1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/Cossiersmont1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1024,
+    "height": 683,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "GMA",
+    "description": "Els cossiers de Montuïri ballant als quatre cantons el dia de Sant Bartomeu 2008.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACossiersmont1.JPG",
+    "attribution": "GMA / Wikimedia Commons / CC BY-SA 3.0"
+   }
+  ],
+  "gaps": [
+   "Musical instruments, exact tempos, and audio recordings are not described in sources.",
+   "Detailed footwork, arm movements, costume descriptions, and specific teaching steps are absent from current sources."
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [],
+   "reference_recordings": [],
+   "sound_description": "not described in sources"
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Normally the dance is done in a circle, with the Lady in the center, though solemn troupes deviate from this.",
+   "partnering": "Three pairs of dancers defend the Lady from a demon.",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Resurrected Circle of Majorca",
+   "logline": "Discover the medieval Majorcan folk dance that survived political suppression to be reborn in Palma.",
+   "beats": [
+    "Scene 1: View the modern streetscape of Palma where the dance survives in six towns.",
+    "Scene 2: Examine the 1544 Sóller manuscript reference establishing early history.",
+    "Scene 3: Understand the symbolic roles of the six cossiers, the Lady, and the demon.",
+    "Scene 4: Explore the 1962 revival sparked by filmmaker José María Oliveira.",
+    "Scene 5: Contrast standard circular formations with solemn variants like La Oferta and els Mocadors."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Circular formations in town plazas",
+    "The central Lady figure flanked by dancers",
+    "Historic manuscript pages from Sóller"
+   ],
+   "instructor_persona": "A local Majorcan cultural historian specializing in Balearic folklore and post-war revivals.",
+   "music_cue": "Traditional outdoor festival atmosphere with acoustic instrumentation."
+  },
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "revived",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-22T19:56:45Z",
+  "qc_score": 9.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 4,
+  "of": 15,
+  "missing": [
+   {
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "arms",
+    "label": "arms and hands"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ],
+  "ritual_context": true
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 14,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/ball-dels-cossiers.json"
+ },
+ "fingerprint": "579204bf0330eb5b",
+ "updated": "2026-11-22"
 }

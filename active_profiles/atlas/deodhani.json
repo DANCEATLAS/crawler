@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Dancers take a sword and shield",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Solo or in a group, generally consisting of three or four women",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dancers take a sword and shield and present a virile war dance.",
+          "name": "Virile war dance with sword and shield"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Kamrupi Bor-Dhol"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "shamanic",
+        "virile"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by traditional chorus songs called Xuknoni sung by an Ojha or Kamrupi Bor-Dhol drums.",
+      "tempo_bpm": "",
+      "vocal_style": "Songs sung by an Ojha (traditional chorus leader) / Ojapali known as Xuknoni"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Wield sword and shield in a virile war dance"
+      ],
+      "formation": "Solo or group performance generally consisting of three or four women",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a0ebe13e06bed3bbadbbf4b73d189b5937d01bdac82144e7fddbf05d7986ba38",
+  "fingerprint": "e62f82cc0112f8a1201a02079c49edc120378e52c6926e11c83d7affda46a8fa",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns and bodily postures associated with Deodhani possession dances? Evidence needed: Fieldwork monographs or ethnomusicological studies on Assamese ritual dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Deodhani",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "fb212c5240c4068f",
+      "next_evidence": "Fieldwork monographs or ethnomusicological studies on Assamese ritual dance.",
+      "question": "What are the specific footwork patterns and bodily postures associated with Deodhani possession dances?",
+      "source": "https://en.wikipedia.org/wiki/Deodhani_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile lacks technical granularity for dance instruction."
+    }
+  ],
+  "research_file": "research_results/deodhani.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +114,9 @@
   },
   "slug": "deodhani",
   "sources": [
-    "https://www.assaminfo.com/culture/deodhani-dance-the-mystical-folk-dance-of-divine-possession-and-ritual-power",
-    "https://eprints.whiterose.ac.uk/id/eprint/135532/"
+    "https://en.wikipedia.org/wiki/Deodhani_dance",
+    "https://www.wikidata.org/wiki/Q13423910"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

@@ -74,7 +74,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 7,
   "of": 15,
   "missing": [
    {
@@ -94,24 +94,8 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
     "key": "signature_moves",
     "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -122,15 +106,59 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "19196662e3d34dc7",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "j2iE8lS7Kyk",
+   "url": "https://www.youtube.com/watch?v=j2iE8lS7Kyk",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Street side in New York City on a sidewalk next to a building, as part of a cultural gathering or parade",
+    "dancers": "A group of women",
+    "formation_and_space": "Semi-circle around musicians, with individual dancers taking turns in the center and moving in a line formation holding hands",
+    "posture": "Upright torso, slightly bent knees, natural body weight",
+    "footwork": "Bouncy stepping pattern keeping time with the drums, alternating feet, cannot see exact heel-toe rolls due to long skirts and camera distance",
+    "arms_and_hands": "Arms held wide or holding the sides of long skirts to sway them, hands raised or holding hands in a line",
+    "hips_and_torso": "Active hip movements and side-to-side torso shifts",
+    "partnering": "None",
+    "levels_jumps_turns": "Full rotations and spins, occasional level changes to lower the body while maintaining skirt movement",
+    "costume_and_props": "Full-length skirts in bright blue and white, matching headbands/wraps, sleeveless or halter tops",
+    "cannot_infer": "Exact foot placement and precise weight shifts are obscured by long skirt hems and low-resolution video recording",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "shaker"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 24,
+      "end_s": 35,
+      "what": "Dancers spinning rapidly while holding and swirling wide skirts"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "ea88492c577068fb",
+ "updated": "2026-11-22"
 }

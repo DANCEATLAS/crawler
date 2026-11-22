@@ -52,7 +52,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -64,23 +64,77 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "ce48495f26f1e852",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "XZX8KYZcfL8",
+   "url": "https://www.youtube.com/watch?v=XZX8KYZcfL8",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "A restaurant or bar with tables and patrons in the background, decorated with string lights and plants.",
+    "dancers": "A couple, one man and one woman.",
+    "formation_and_space": "The dancers move in a circular or oval path around each other, often changing positions.",
+    "posture": "Upright torso, with knees slightly bent and flexible, maintaining a grounded stance.",
+    "footwork": "Small, rhythmic steps, often involving tapping or sliding, with the weight shifting between feet; the exact footwork is difficult to see due to the camera angle and distance.",
+    "arms_and_hands": "The woman holds a shawl, moving it gracefully; the man holds a hat, using it as a prop in his movements.",
+    "hips_and_torso": "Subtle hip movements and torso swaying, consistent with the rhythm of the music.",
+    "partnering": "The dancers interact through eye contact, circling each other, and coordinating their movements, but there is no physical contact.",
+    "levels_jumps_turns": "The dancers maintain a relatively low level, with occasional small jumps and turns.",
+    "costume_and_props": "The woman wears a traditional dress with a shawl; the man wears a light-colored shirt and pants, with a hat.",
+    "cannot_infer": "The exact footwork and weight transfer are difficult to determine due to the camera angle and distance.",
+    "music_heard": {
+     "instruments": [
+      "guitar",
+      "percussion"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "The woman dances with a shawl, moving it in a fluid, circular motion."
+     },
+     {
+      "start_s": 42,
+      "end_s": 45,
+      "what": "The woman dances around a small bowl placed on the floor."
+     },
+     {
+      "start_s": 57,
+      "end_s": 60,
+      "what": "The man and woman dance in close proximity, circling each other with rhythmic steps."
+     },
+     {
+      "start_s": 126,
+      "end_s": 130,
+      "what": "The man and woman exchange positions, with the man using his hat as a prop."
+     },
+     {
+      "start_s": 243,
+      "end_s": 247,
+      "what": "The man and woman dance in a tight circle, with the man using his hat to gesture."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "49079f7ae4938c79",
+ "updated": "2026-11-22"
 }

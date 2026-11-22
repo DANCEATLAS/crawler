@@ -1,0 +1,120 @@
+{
+ "slug": "sagayan",
+ "qc_at": "2026-11-22T20:02:47Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sagayan"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "241"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Sagayan is a Philippine war dance performed by Maguindanao, Maranao, and Iranun "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "539"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3114"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Philippines"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,testament to,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ancestor', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. It accurately reflects the cultural significance of the Sagayan. While the teaching section is sparse due to a lack of documented technical choreography, the descriptive content provides a strong foundation for understanding the dance's narrative and visual elements."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=8.25",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T19:44:30Z"
+}

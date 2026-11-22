@@ -50,16 +50,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
     "key": "status",
@@ -70,26 +66,6 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
@@ -98,15 +74,65 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "7dd76ccbe514318b",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "K7ujKT1DI-U",
+   "url": "https://www.youtube.com/watch?v=K7ujKT1DI-U",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Indoor event hall or restaurant with tables and seated audience, brightly lit stage area with tiled floor and stage lighting.",
+    "dancers": "A group of children/youth in mixed gender pairs or lines, approximately 12 dancers.",
+    "formation_and_space": "Starts in a straight line facing forward, later forms a circle, squats in place, and moves in a single file procession walking in a circle and forming lines.",
+    "posture": "Upright torso, upright standing or bending knees into squats while maintaining upper body stability.",
+    "footwork": "Stepping in a line, walking in a circle, and dropping into deep knee bends (squats) while keeping feet planted.",
+    "arms_and_hands": "Both hands hold small lit candles/trays at chest level while walking and dancing; arms raise higher or extend during squats.",
+    "hips_and_torso": "Torso remains upright and relatively still with bending at the knees.",
+    "partnering": "Dancers move in coordination in a group formation without physical partner contact.",
+    "levels_jumps_turns": "Transitions between standing upright and squatting low to the floor in unison.",
+    "costume_and_props": "Traditional regional folkloric costumes consisting of embroidered vests, patterned trousers or skirts, headwear/hats, and holding lit candles in small plates or holders.",
+    "cannot_infer": "Precise footwork details beneath long garments and exact weight transfers are obscured by camera angle and distance.",
+    "music_heard": {
+     "instruments": [
+      "string instruments",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 52,
+      "end_s": 64,
+      "what": "Dancers form a circle and squat down together while holding lit candles aloft"
+     },
+     {
+      "start_s": 213,
+      "end_s": 222,
+      "what": "Group drops into unison squats in a long line facing the audience with candles glowing on the floor"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "3d9e8a9916049537",
+ "updated": "2026-11-22"
 }

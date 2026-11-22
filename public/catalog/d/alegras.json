@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "alegras",
  "name": "Alegrías",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "ES"
@@ -11,10 +11,14 @@
   "slug": "alegras",
   "name": "Alegrías",
   "country": "Spain",
+  "country_code": "ES",
+  "flag_emoji": "🇪🇸",
   "region": "Europe",
-  "tagline": "Spain — Alegrías (Spanish pronunciation: [aleˈɣɾi",
-  "profile": "Alegrías (Spanish pronunciation: [aleˈɣɾi.as]) is a flamenco palo or musical form, which has a rhythm consisting of 12 beats. It is similar to Soleares. Its beat emphasis is as follows: 1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12]. Alegrías originated in Cádiz. Alegrías belongs to the group of palos called Cantiñas and it is usually played in a lively rhythm (120-170 beats per minute). The livelier speeds are chosen for dancing, while quieter rhythms are preferred for the song alone.",
-  "insight": "\"\n\n\n== Sources ==\nÁLVAREZ CABALLERO, Ángel: La discoteca ideal del flamenco, Editorial Planeta, Barcelona, 1995 ISBN 84-08-01602-4\n\n\n== External links ==\nFlamenco Institute Flora Albaicín.",
+  "family": "classical-court",
+  "era": "19th century",
+  "tagline": "A festive flamenco dance from Cádiz, Spain, characterized by a 12-beat rhythmic cycle.",
+  "profile": "Alegrías is a foundational flamenco palo originating in Cádiz, Spain, known for its festive character and rigorous structural requirements. It belongs to the cantiñas family, defined by a 12-beat rhythmic cycle that emphasizes beats 3, 6, 8, 10, and 12. Traditionally performed with a blend of grace and technical precision, the dance follows a specific sequence including a salida, paseo, silencio, castellana, zapateado, and bulerías.",
+  "insight": "Emerging from the 19th-century occupation of Cádiz, this dance preserves the rhythmic ghost of the Aragonese jota within the strict, high-speed architecture of the flamenco palo.",
   "related": [
    "flamenco",
    "sevillanas",
@@ -24,14 +28,38 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Alegr%C3%ADas",
-   "Source: Alegrías on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   "Source: Alegrías on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Alegr%C3%ADas",
+   "https://www.wikidata.org/wiki/Q2164055",
+   "https://es.wikipedia.org/wiki/Alegría_(flamenco)",
+   "https://de.wikipedia.org/wiki/Alegría_(Flamenco)",
+   "https://it.wikipedia.org/wiki/Alegrías"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alegr%C3%ADas",
   "wikidata_qid": "Q2164055",
   "unesco": false,
   "hero_video_youtube_id": "gvnf-Kor754",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 10.0,
+  "last_researched_at": "2026-11-22T19:44:10Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The Alegrías is a cornerstone of the flamenco tradition, originating in the coastal city of Cádiz during the French occupation and the era of the Cortes de Cádiz. It is classified as a cante chico, a category of flamenco known for its festive and lighthearted nature. The dance is believed to have evolved from the Aragonese jota, which took root in Cádiz and was later adapted into the flamenco style by the singer Enrique Butrón. The characteristic vocal refrain, 'tiriti, tran, tran...', was introduced by Ignacio Espeleta, becoming a hallmark of the form. Historically, the Alegrías served as a primary festive dance in the 19th-century cafés cantantes, though its popularity shifted in the 20th century with the rise of other forms like the tango flamenco and bulería.\n\nMusically, the Alegrías is structured around a 12-beat cycle, sharing a rhythmic foundation with the soleá but performed at a significantly faster tempo, typically between 120 and 170 beats per minute. The emphasis falls on beats 3, 6, 8, 10, and 12. While the song can be performed alone, the traditional dance is one of the most structurally rigid forms in flamenco. A complete performance must include a specific sequence of sections: the salida (entrance), the paseo (walkaround), the silencio (a slower, adagio-like section), the castellana (an upbeat transition), the zapateado (intricate footwork), and a concluding bulerías. This structure ensures a narrative arc that moves from an initial entrance to complex rhythmic displays.\n\nTechnically, the dance is demanding, requiring a high degree of coordination between the upper and lower body. Dancers must exhibit fluid arm movements and graceful carriage while executing precise, soft footwork. The aesthetic is traditionally feminine, though it is performed by all genders. Dancers typically wear ankle-length dresses adorned with ruffles, lace, and ribbons, often accompanied by a bata de cola (a dress with a long train). Accessories such as mantillas, flowers, combs, and coral earrings complete the look. Today, the tradition is maintained through performance and competition, most notably the annual National Competition of Alegrías held in Cádiz. The form remains a living tradition, with its evolution documented through the work of historical figures like Enrique el Mellizo and modern practitioners who continue to refine its technical and expressive boundaries.",
+  "albums": [
+   {
+    "title": "Mi cante y un poema",
+    "artist": "Estrella Morente",
+    "year": "2001",
+    "mbid": "802c8d4f-ff81-3650-962a-6a6c2f6a77cd",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/802c8d4f-ff81-3650-962a-6a6c2f6a77cd",
+    "type": "Album",
+    "source": "https://es.wikipedia.org/wiki/Alegría_(flamenco)",
+    "verified": true
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": true,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -48,6 +76,410 @@
    "cachucha"
   ]
  },
- "fingerprint": "9700294946df9ebf",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The Alegrías originated in Cádiz, likely derived from the Aragonese jota during the French occupation. Enrique Butrón is credited with fixing the current flamenco style, while Ignacio Espeleta introduced the signature 'tiriti, tran, tran' refrain.",
+   "how_it_is_danced": "The dance follows a 12-beat cycle with emphasis on beats 3, 6, 8, 10, and 12. It requires a sequence of specific sections: salida, paseo, silencio, castellana, zapateado, and bulerías. Technique involves fluid arm movements, soft footwork, and precise zapateado.",
+   "music_and_instruments": "Alegrías belongs to the cantiñas group, characterized by a festive, major-key melody. It is played at 120-170 bpm. Instrumentation traditionally centers on the flamenco guitar and voice.",
+   "costume_and_setting": "Dancers wear ankle-length dresses with ruffles, often with a bata de cola. Accessories include mantillas, flowers, combs, and coral earrings. High-heeled shoes are essential for the zapateado.",
+   "occasions_and_meaning": "Traditionally a festive dance, it is now performed in professional settings and at the annual National Competition of Alegrías in Cádiz.",
+   "notable_figures": "Enrique el Mellizo, La Perla de Cádiz, Chano Lobato, Aurelio Sellés, and Enrique Butrón.",
+   "regional_variants": "Alegrías de Córdoba, which features shifts between major and minor keys.",
+   "lineage": "Part of the cantiñas family of flamenco, sharing rhythmic roots with the soleá."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Salida (entrance)",
+    "Paseo (walkaround)",
+    "Silencio (adagio section)",
+    "Castellana (upbeat section)",
+    "Zapateado (footwork)",
+    "Bulerías (concluding section)"
+   ],
+   "rhythm": "12-beat cycle with emphasis on 3, 6, 8, 10, 12",
+   "formation": "Solo or group performance",
+   "level_notes": "Technically demanding; requires mastery of arm carriage and footwork."
+  },
+  "claims": [
+   {
+    "text": "The Alegrías originated in Cádiz and are part of the cantiñas group.",
+    "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   },
+   {
+    "text": "The dance follows a 12-beat rhythmic cycle.",
+    "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   },
+   {
+    "text": "The dance must contain specific sections including a salida, paseo, silencio, castellana, zapateado, and bulerías.",
+    "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   },
+   {
+    "text": "The Alegrías likely derives from the Aragonese jota.",
+    "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   },
+   {
+    "text": "Enrique Butrón fixed the style and Ignacio Espeleta introduced the 'tiriti, tran, tran' refrain.",
+    "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   },
+   {
+    "text": "Dancers wear ankle-length dresses with ruffles and accessories like mantillas and flowers.",
+    "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "albums": [
+   {
+    "title": "Mi cante y un poema",
+    "artist": "Estrella Morente",
+    "year": "2001",
+    "mbid": "802c8d4f-ff81-3650-962a-6a6c2f6a77cd",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/802c8d4f-ff81-3650-962a-6a6c2f6a77cd",
+    "type": "Album",
+    "source": "https://es.wikipedia.org/wiki/Alegría_(flamenco)",
+    "verified": true
+   }
+  ],
+  "gaps": [
+   "Specific hip and torso movement descriptions",
+   "Detailed partnering techniques",
+   "Specific safety guidelines for advanced footwork"
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "120-170",
+   "meter": "12-beat cycle",
+   "rhythm_pattern": "1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12]",
+   "instruments": [
+    "Flamenco guitar",
+    "Voice"
+   ],
+   "vocal_style": "Festive, often including 'tiriti, tran, tran' refrains",
+   "musical_form": "Cantiñas",
+   "mood_keywords": [
+    "festive",
+    "optimistic",
+    "graceful",
+    "humorous"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Coquinas",
+     "artist": "Estrella Morente"
+    },
+    {
+     "title": "Mar Amargo",
+     "artist": "Camarón"
+    }
+   ],
+   "sound_description": "A lively, major-key flamenco form characterized by rapid rhythmic cycles and expressive, elaborate vocal lines."
+  },
+  "movement_profile": {
+   "posture": "Upright with graceful carriage",
+   "footwork": "Soft footwork and intricate zapateado (tap)",
+   "arms_and_hands": "Harmonious and fluid arm movements",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Solo performance space",
+   "partnering": "not described in sources",
+   "tempo_feel": "Lively and festive",
+   "signature_moves": [
+    {
+     "name": "Zapateado",
+     "description": "Intricate, rhythmic foot tapping"
+    },
+    {
+     "name": "Silencio",
+     "description": "A slow, adagio-like movement section"
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "advanced",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Joy of Cádiz: Unlocking the Alegrías",
+   "logline": "Discover the festive heart of flamenco through the rhythmic precision of the Alegrías.",
+   "beats": [
+    "Introduction to the history of Cádiz and the Aragonese jota influence.",
+    "Demonstration of the 12-beat rhythmic cycle.",
+    "Breakdown of the six essential sections of the dance.",
+    "Focus on arm carriage and fluid movement.",
+    "Introduction to the zapateado footwork technique.",
+    "Performance of a traditional Alegrías sequence."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Understand the 12-beat rhythm",
+     "drills": [
+      "Clapping the 12-beat cycle",
+      "Walking to the beat"
+     ]
+    },
+    {
+     "level": "Intermediate",
+     "goal": "Master the paseo and arm carriage",
+     "drills": [
+      "Coordinating arms with the walk",
+      "Practicing the paseo sequence"
+     ]
+    },
+    {
+     "level": "Advanced",
+     "goal": "Execute the zapateado",
+     "drills": [
+      "Basic tap patterns",
+      "Syncing footwork to the 12-beat cycle"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Ruffled dresses",
+    "Mantillas",
+    "High-heeled shoes",
+    "Cádiz coastal scenery"
+   ],
+   "instructor_persona": "Professional flamenco dancer with expertise in the Cádiz school.",
+   "music_cue": "Lively guitar accompaniment in major key."
+  },
+  "connections": [
+   {
+    "name": "Soleares",
+    "relation": "shares_music",
+    "note": "Shares the 12-beat rhythmic cycle but at a much slower tempo."
+   },
+   {
+    "name": "Cantiñas",
+    "relation": "parent",
+    "note": "Alegrías is a primary form within the cantiñas family."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Arm and hand movements performed while seated",
+    "standing_version": "Simplified footwork without high-impact zapateado",
+    "tempo_and_range": "Reduced tempo and limited range of motion",
+    "counts": "Simplified 12-beat cycle",
+    "avoid": [
+     "High-impact jumps",
+     "Complex balance movements"
+    ]
+   },
+   "children": {
+    "game_version": "Rhythmic clapping game based on the 12-beat cycle",
+    "duration_minutes": "2",
+    "counts": "Simplified 12-beat count",
+    "avoid": [
+     "Complex zapateado",
+     "Heavy footwear"
+    ]
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "File:La Argentinita - Alegrias (ca. 1935).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/La_Argentinita_-_Alegrias_%28ca._1935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "AnonymousUnknown author / Wikimedia Commons / Public domain",
+    "description": "La Argentinita bailando alegrías (ca. 1935).",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALa_Argentinita_-_Alegrias_%28ca._1935%29.webm",
+    "source": "commons"
+   },
+   {
+    "title": "43rd Annual International Folk Dance Festival at the Dorothy Chandler Pavilion",
+    "url": "https://archive.org/details/calauem_000211",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Narration spoken by Mr. Lew Ayres. Cuica Calli Ballet Folklorico -- Folclorico Troupes Fiesta Mexicana & Tonantzin -- Balaton Folk Dance Ensemble -- Magana Baptiste Dancers of San Francisco -- The Midnight Sun -- Krakusy Folk Dance Ensemble -- Alegrias -- Sevan Dance Ensemble -- Scats Gymnastics Tea",
+    "source": "archive"
+   },
+   {
+    "title": "Montalvo Cuadro Flamenco à Culture en ligne",
+    "url": "https://archive.org/details/tcftv1qc-Montalvo_Cuadro_Flamenco_a_Culture_en_ligne",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Montalvo Cuadro Flamenco est un groupe de musique qui explore les rythmes traditionnels de la musique flamenco. Formé par le guitariste Jheinsen Montalvo, on y retrouve aussi la voix d’Alvaro Echanove et sa guitare, de Marino Vazquez et son cajon, de Natacha Torres ainsi que les pas de danse de Roci",
+    "source": "archive"
+   },
+   {
+    "title": "Montalvo Cuadro Flamenco - Alegrías (extrait)",
+    "url": "https://archive.org/details/tcftv1qc-Montalvo_Cuadro_Flamenco_Alegrias_extrait",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Vendredi dernier, nous avons eu la chance d’apercevoir Montalvo Cuadro Flamenco sur la scène de Culture en ligne. Pour revoir l’émission, rendez-vous sur http://tcftv.ca/! ------------------------------ INVITÉS Jheinsen Montalvo - Guitare flamenca Facebook : https://www.facebook.com/pachuco.mtl YouT",
+    "source": "archive"
+   }
+  ],
+  "researched_at": "2026-11-22T19:44:10Z",
+  "qc_score": 10.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 14,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   }
+  ],
+  "via": {
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "ooI9KQU-eTo",
+   "url": "https://www.youtube.com/watch?v=ooI9KQU-eTo",
+   "title": "How to Dance Flamenco dancing Alegrías For Beginners Footwork and Arm movements | #Series 2",
+   "channel": "ASAMI",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "12-1-2-3-4-5-6-7-8-9-10",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces Alegrías marcaje steps"
+    },
+    {
+     "t": "0:41",
+     "seconds": 41,
+     "segment": "breakdown",
+     "note": "Explains compas counting up to 12"
+    },
+    {
+     "t": "2:05",
+     "seconds": 125,
+     "segment": "breakdown",
+     "note": "Demonstrates footwork breakdown"
+    },
+    {
+     "t": "2:59",
+     "seconds": 179,
+     "segment": "breakdown",
+     "note": "Demonstrates arm movements breakdown"
+    },
+    {
+     "t": "3:24",
+     "seconds": 204,
+     "segment": "slow_practice",
+     "note": "Practices footwork and arms combined slowly"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Marcaje (marking steps)",
+     "counts": "12 counts",
+     "description": "Compas and footwork combination with arm styling"
+    }
+   ],
+   "cues": [
+    "accent it goes",
+    "keep the skirts here",
+    "change direction"
+   ],
+   "common_mistakes": [
+    "letting the skirt drop or holding it incorrectly"
+   ],
+   "teacher_style": "The teacher breaks down flamenco marker steps and arm movements clearly by combining them systematically. She explains compas counts and demonstrates practice sequences step by step on an outdoor terrace.",
+   "distinctive_method": "Separating compas rhythm counting, footwork, and arm placement entirely before merging them together",
+   "what_works": [
+    "breaking down compas and footwork separately before combining"
+   ],
+   "what_hinders": [
+    "none noted"
+   ],
+   "evidence": [
+    {
+     "start_s": 42,
+     "end_s": 57,
+     "topic": "teaching",
+     "observation": "Teacher stands clapping hands to demonstrate compas rhythm counts",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "exact foot weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "gvnf-Kor754",
+   "url": "https://www.youtube.com/watch?v=gvnf-Kor754",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Indoor stage with dark backdrop and wooden floor, performance/class setting",
+    "dancers": "Group of women, approximately five, dancing together with one central leader visible at the front",
+    "formation_and_space": "Spread across the stage in a loose staggered line, moving individually while maintaining space",
+    "posture": "Upright erect torso, slightly arched back, knees flexible, weight shifting between feet with heels and toes articulating",
+    "footwork": "Rhythmic heel and toe stamping (zapateado) synchronized with the guitar and clapping, intricate foot patterns difficult to detail precisely due to low resolution",
+    "arms_and_hands": "Arms raised gracefully overhead with curved elbows, wrists rotating outward, hands fluttering and snapping fingers",
+    "hips_and_torso": "Torso bends side-to-side and arches, hips shifting subtly with weight changes, occasional sharp turns of the body",
+    "partnering": "None, solo dancing in a group formation",
+    "levels_jumps_turns": "Full turns on the spot, occasional short weight transfers lifting feet slightly, no high jumps",
+    "costume_and_props": "Matching dark brown ruffled flamenco skirts, sleeveless tops with decorative embroidery on the chest, hair in buns with floral accessories",
+    "cannot_infer": "Exact foot articulation, speed of fast zapateado, and intricate finger placement are obscured by low video resolution and camera distance.",
+    "music_heard": {
+     "instruments": [
+      "guitar",
+      "palmas (handclaps)"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "Dancers spin with arms overhead and wrists rolling while stepping in a circle"
+     },
+     {
+      "start_s": 24,
+      "end_s": 29,
+      "what": "Dancer shifts weight rapidly while performing sharp rhythmic footwork and holding skirt edges"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 1,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/alegras.json"
+ },
+ "fingerprint": "4ee8a94975ee79c7",
+ "updated": "2026-11-22"
 }

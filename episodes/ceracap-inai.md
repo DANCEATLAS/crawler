@@ -1,8 +1,8 @@
 # Ceracap Inai — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.35 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.35 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A graceful cultural guardian from Muar who emphasizes the spiritual weight of every gesture.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sultan’s Candle Dance
 NARRATION: This is Ceracap Inai. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (W213NQC7iCg)
 ON SCREEN: Title card: Ceracap Inai · Malaysia · 16th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers perform with 'Golden Flowers' and lit candles.
 NARRATION: It is performed by an odd number of dancers (usually 5–8) or in male-female pairs.
 NARRATION: The movements incorporate 'worship duli' (homage) and gestures of humility.
 NARRATION: Watch for Worship Duli.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (W213NQC7iCg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced in front of dignitaries or a wedding couple; 5-8 dancers.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -305,7 +305,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'W213NQC7iCg', 'checked_by_vision_model': True, 'title': 'TARIAN CERACAP INAI'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Flickering candle flames, Gilded Bunga Mas (Golden Flowers), Traditional Johor Malay textiles, The Muar riverbank
@@ -315,9 +315,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (2): https://en.wikipedia.org/wiki/Ceracap_Inai_(dance); https://www.wikidata.org/wiki/Q20457750

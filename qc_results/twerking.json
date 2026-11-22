@@ -1,0 +1,123 @@
+{
+ "slug": "twerking",
+ "qc_at": "2026-11-22T20:02:17Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "twerking"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "156"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1993, DJ Jubilee recorded the first known use of the word 'twerk' on the trac"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "482"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2062"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"sandungueo\", \"score\": 1.0, \"via_alias\": \"perreo\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched, providing a balanced view that acknowledges both the New Orleans bounce roots and the broader Afro-diasporic lineage. It successfully navigates the tension between mainstream stigmatization and cultural significance. The teaching and adaptation sections are practical and safe."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "sandungueo",
+  "score": 1.0,
+  "via_alias": "perreo"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "judge_score=8.85"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T19:17:32Z"
+}

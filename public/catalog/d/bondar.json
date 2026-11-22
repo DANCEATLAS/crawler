@@ -50,7 +50,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -66,22 +66,6 @@
     "label": "known to be living, revived or historical"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
@@ -92,8 +76,12 @@
   ],
   "via": {
    "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
    "signature_moves": "lesson",
    "rhythm": "lesson",
+   "sound": "performance",
    "lesson_plan": "lesson",
    "study_video": "lesson"
   }
@@ -195,6 +183,56 @@
    }
   }
  ],
- "fingerprint": "41d2fd7cfb38b87d",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "w-h0FiKyv_E",
+   "url": "https://www.youtube.com/watch?v=w-h0FiKyv_E",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "indoor stage with a large blue backdrop showing 'PRIX DE LAUSANNE'",
+    "dancers": "one male solo dancer",
+    "formation_and_space": "solo dancer moving across the center stage",
+    "posture": "erect classical ballet posture, upright torso, bent knees during leaps and preparations",
+    "footwork": "classical ballet footwork including extensions, beats, turns, and soft landings on demi-pointe",
+    "arms_and_hands": "expressive classical ballet port de bras, framing the torso or extended outward",
+    "hips_and_torso": "upright with controlled core stability, occasional slight upper-body tilts and bends",
+    "partnering": "none",
+    "levels_jumps_turns": "frequent high leaps, grand allegro jumps, turns in attitude and arabesque, low kneeling floor finish",
+    "costume_and_props": "brown tunic-style costume with strap across the chest and arm bands",
+    "cannot_infer": "exact foot friction and micro-adjustments of weight transfer due to video compression and camera distance",
+    "music_heard": {
+     "instruments": [
+      "orchestra"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 19,
+      "end_s": 22,
+      "what": "high grand jeté leap across the stage with extended legs and arms"
+     },
+     {
+      "start_s": 53,
+      "end_s": 55,
+      "what": "powerful leap landing in a lunge on one knee"
+     },
+     {
+      "start_s": 110,
+      "end_s": 113,
+      "what": "pirouette ending in a low lunge floor pose with one arm extended upward"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "6f1aad63b32b2055",
+ "updated": "2026-11-22"
 }

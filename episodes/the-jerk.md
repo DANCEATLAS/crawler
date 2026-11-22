@@ -1,6 +1,6 @@
 # The Jerk — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; licensed images (3 needed); the costume & setting section
 
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Cross wrists in front of the chest.
 NARRATION: Sweep arms outward on count 1.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 5-6-7-8 / and-1-and-2.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -105,7 +105,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 / and-1-and-2. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,7 +119,7 @@ NARRATION: Drill: Practice crossing wrists at chest level.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / and-1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Snap fingers on the first and third counts of the hand motion.
@@ -127,7 +127,7 @@ NARRATION: Step 4: Move hips and legs in rhythm with the arm sweeps.
 NARRATION: Drill: Time the outward push to the beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / and-1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,7 +147,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 / and-1-and-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,7 +178,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 / and-1-and-2. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -191,7 +191,7 @@ NARRATION: Step 2: Sweep arms outward on count 1.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / and-1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Snap fingers on the first and third counts of the hand motion.
@@ -200,7 +200,7 @@ NARRATION: The Jerk Sweep: Crossing wrists at the chest and pushing them outward
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / and-1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +219,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 / and-1-and-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Individual, non-partnered.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -250,7 +250,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 / and-1-and-2. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -263,14 +263,14 @@ NARRATION: Step 2: Move hips and legs in rhythm with the arm sweeps.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / and-1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Jerk Sweep: Crossing wrists at the chest and pushing them outward on the first count.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 / and-1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -289,7 +289,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 / and-1-and-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Individual, non-partnered.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: mirror, front, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; and-1; swap; around town; spin up; rock with me
+Counting: 5-6-7-8 / and-1-and-2
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: and-1; swap; around town; spin up; rock with me; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
 Common mistakes the studied teachers name: leaning forward or diagonal during the pin drop instead of to the side; landing flat on the foot during the pin drop before building ankle strength
 
 Sources (3): https://en.wikipedia.org/wiki/Jerk_(dance); https://www.wikidata.org/wiki/Q3177374; https://fr.wikipedia.org/wiki/Jerk_(danse)

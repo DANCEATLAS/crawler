@@ -1,0 +1,122 @@
+{
+ "slug": "glacier",
+ "qc_at": "2026-11-22T20:00:37Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Glacier"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "201"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "While archives document the post-hardcore supergroup Isles & Glaciers formed in "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "440"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1858"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['god']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "The Hearts of Lonely People"
+  ],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The subject is a post-hardcore band and geological features, not a dance tradition. Reject profile."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.65",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-22T18:39:04Z"
+}

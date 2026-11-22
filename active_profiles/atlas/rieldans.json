@@ -1,0 +1,145 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex high-speed balance slaps"
+        ],
+        "counts": "4-count animal trotting steps.",
+        "duration_minutes": "15",
+        "game_version": "Animal imitation game where children take turns portraying ostriches, meerkats, or horses to the drumbeat."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping ('bokspring')",
+          "Rapid high-knee balancing"
+        ],
+        "counts": "Simple 1-2-3-4 rhythmic counts.",
+        "seated_version": "Perform hand-slapping askoek movements and hat-sweeping vlerksleep courtship gestures while seated.",
+        "standing_version": "Perform trotting footwork and hat gestures at a reduced tempo near a support rail without jumps.",
+        "tempo_and_range": "Slower pace with moderate arm motions."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Mimicry of wings ('vlerksleep'), hat-holding, and hand-slapping the leg above the knee.",
+      "difficulty": "advanced",
+      "footwork": "Ingenious and frantic footwork designed to kick up dust ('Dans lat die stof so staan'), including trotting, strutting, and cross-knee leg positioning.",
+      "formation_and_space": "Group performed in a circle around a campfire or dusty performance space.",
+      "hips_and_torso": "Dynamic movement imitating gamboling ('bokspring') and animal courtship poses.",
+      "levels_and_jumps": "Includes gamboling jumps ('bokspring') and crouched animal imitations.",
+      "partnering": "Male and female courtship pair interaction using hat or coat props.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Courtship gesture using a coat panel, arm, or hat to invite a lady to dance.",
+          "name": "vlerksleep"
+        },
+        {
+          "description": "Placing one foot securely above the opposite knee and slapping it to imitate dusting ash off bread.",
+          "name": "askoek slap"
+        },
+        {
+          "description": "Gamboling and hopping moves mimicking energetic animal leaps.",
+          "name": "bokspring"
+        }
+      ],
+      "tempo_feel": "Energetic and rapid",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "ramkie (tin oil-can guitar)",
+        "handmade violin",
+        "accordion",
+        "mouth organ",
+        "banjo"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "energetic",
+        "celebratory",
+        "festive"
+      ],
+      "musical_form": "Lively folk melody structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "Fast boeremusiek and folk beat",
+      "sound_description": "Lively boeremusiek featuring fast acoustic accompaniment led by the distinctive metallic resonance of the tin-can ramkie, accordion, and mouth organ.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Frantic dust-kicking footwork at an energetic pace",
+        "Bokspring (gamboling) and horse-like trotting or strutting",
+        "Vlerksleep courtship gesture using coat panel, arm, or hat to invite partner",
+        "Askoek slap placing right foot above left knee and slapping to dust off ash"
+      ],
+      "formation": "Group circle",
+      "level_notes": "Requires high cardiovascular endurance, rapid foot agility, and expressive mimicry.",
+      "rhythm": "Fast-paced lively beat derived from boeremusiek and folk tunes"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "286f1e0ff4cadd8627f79c56dd3ffdeae8bbf0475d82b3910d6bb454ee3fd380",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:rieldans",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Rieldans",
+  "open_questions": [],
+  "research_file": "research_results/rieldans.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "rieldans",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rieldans",
+    "https://www.wikidata.org/wiki/Q28223150"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

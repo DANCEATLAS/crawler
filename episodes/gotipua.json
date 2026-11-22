@@ -2,7 +2,7 @@
  "slug": "gotipua",
  "name": "Gotipua",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:48Z",
  "researched_at": "2026-11-21T17:34:54Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Gotipua. 16th-17th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (k2XTmY9MDL0)",
      "Title card: Gotipua · India · 16th-17th century"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Chouka, Tribhangi, Bandha Nrutya."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (k2XTmY9MDL0)",
      "Captions name each signature move as it appears",
      "Formation: Group formations transitioning into intricate sculptural human arrangements for acrobatic bandha figures."
     ],
@@ -269,7 +269,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "k2XTmY9MDL0",
+   "checked_by_vision_model": true,
+   "title": "Gotipua Dance performance | Orissa Dance Academy | TEDxXIMB"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -399,8 +403,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "12 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 12,
+  "source": "13 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 13,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -410,25 +414,25 @@
   ],
   "cues": [
    "uno dos",
-   "let's do this",
-   "praise freestyle",
-   "hold your knife out",
-   "every time the blade faces down",
-   "two thumbs are facing up",
-   "kick",
-   "inside",
-   "out",
-   "keep it down",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "y tac tac",
+   "el segundo",
    "loosen those hips",
-   "connect with the earth"
+   "connect with the earth",
+   "knees have to be bent"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
    "context",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice"
   ],
@@ -437,8 +441,7 @@
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "a verified recording to listen to",
-  "a hero video"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Gotipua",
@@ -449,6 +452,6 @@
  "claims_verified": 10,
  "claims": 10,
  "polished": false,
- "input_fingerprint": "3b7b74de666a593afbe7186caa9b39286bfe2a1cd74bc068de319d1f2d6410b9",
- "hero_checked": null
+ "input_fingerprint": "1ea7a2796880b3d05b3df14cfe2f1c4d9b9948aa720bf3aa7046d5300379d2e1",
+ "hero_checked": "pass"
 }

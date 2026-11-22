@@ -2,8 +2,8 @@
  "slug": "gojinjo-taiko",
  "name": "Gojinjo Taiko",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
- "researched_at": "2026-11-08T16:47:37Z",
+ "built_at": "2026-11-22T20:20:48Z",
+ "researched_at": "2026-11-22T19:37:53Z",
  "qc_score": 9.25,
  "status": "withheld-chapters",
  "release_status": "not_validated",
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A local resident of Nafune village",
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -61,7 +61,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Devil's Drum of Nafune",
+     "The Drums That Scared an Army",
      "This is Gojinjo Taiko. 16th century."
     ],
     "on_screen": [
@@ -75,8 +75,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The tradition dates to 1577, when the warlord Uesugi Kenshin invaded Noto Province.",
-     "Unarmed villagers used war drums and devil masks made of seaweed and bark to scare off the invaders."
+     "The tradition originated in 1577 when the warlord Uesugi Kenshin invaded Noto Province.",
+     "Unarmed villagers in Nafune used drums and masks to simulate an earthquake and scare off the invading army."
     ],
     "on_screen": [
      "Map: Japan · East Asia",
@@ -89,7 +89,7 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance serves as a commemorative cultural heritage practice, reflecting the historical defense of Nafune village.",
+     "The tradition is a protected cultural heritage of Wajima City and Ishikawa Prefecture, serving as a ritualized commemoration of the village's historical defense.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -117,9 +117,8 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music is characterized by the low sound of drums, which is associated with the rumbling of the earth.",
-     "Listen for the drums.",
-     "The sound is defined by low-frequency drum beats intended to mimic the rumbling of the earth."
+     "The primary instrument is the drum, which produces a low, earth-rumbling sound.",
+     "Listen for the drums."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -137,7 +136,7 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Performers wear ferocious-looking devil masks adorned with seaweed and bark."
+     "Performers wear ferocious-looking devil masks decorated with seaweed and bark."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -153,7 +152,7 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Uesugi Kenshin, a warlord who invaded Noto Province in 1577."
+     "Uesugi Kenshin (invading warlord)."
     ],
     "on_screen": [
      "Names on screen as they are spoken"
@@ -181,7 +180,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Playing gojinjo-daiko is strictly restricted to residents of Nafune."
+     "Performance is strictly restricted to the residents of Nafune village."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -193,7 +192,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "In a village of 250, a 16th-century war tactic survives as a rare, protected drum ritual.",
+     "Discover the 16th-century defense ritual of Nafune village, where drums and masks turned the tide of war.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -222,9 +221,9 @@
    "low",
    "resonant"
   ],
-  "sound_description": "The sound is defined by low-frequency drum beats intended to mimic the rumbling of the earth.",
+  "sound_description": null,
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Gojinjo Taiko (Japan). Instruments: drums. Mood: ferocious, low, resonant. It should sound like this: The sound is defined by low-frequency drum beats intended to mimic the rumbling of the earth. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Gojinjo Taiko (Japan). Instruments: drums. Mood: ferocious, low, resonant. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -262,7 +261,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Performers wear ferocious-looking devil masks adorned with seaweed and bark.",
+   "from_sources": "Performers wear ferocious-looking devil masks decorated with seaweed and bark.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -274,12 +273,12 @@
   "images": [],
   "footage": [],
   "motifs": [
-   "Seaweed and bark devil masks",
-   "Taiko drums",
-   "Nafune village landscape"
+   "devil masks",
+   "seaweed and bark",
+   "war drums"
   ],
-  "costume_notes": "Performers wear ferocious-looking devil masks adorned with seaweed and bark.",
-  "setting_notes": "The dance serves as a commemorative cultural heritage practice, reflecting the historical defense of Nafune village.",
+  "costume_notes": "Performers wear ferocious-looking devil masks decorated with seaweed and bark.",
+  "setting_notes": "The tradition is a protected cultural heritage of Wajima City and Ishikawa Prefecture, serving as a ritualized commemoration of the village's historical defense.",
   "map": {
    "country": "Japan",
    "region": "East Asia",
@@ -292,8 +291,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "12 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 12,
+  "source": "13 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 13,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -303,25 +302,25 @@
   ],
   "cues": [
    "uno dos",
-   "let's do this",
-   "praise freestyle",
-   "hold your knife out",
-   "every time the blade faces down",
-   "two thumbs are facing up",
-   "kick",
-   "inside",
-   "out",
-   "keep it down",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "y tac tac",
+   "el segundo",
    "loosen those hips",
-   "connect with the earth"
+   "connect with the earth",
+   "knees have to be bent"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "warmup",
    "context",
-   "breakdown",
    "full_demo",
+   "breakdown",
    "slow_practice",
    "music_practice"
   ],
@@ -343,9 +342,9 @@
   "https://en.wikipedia.org/wiki/Gojinjo-daiko",
   "https://www.wikidata.org/wiki/Q126021047"
  ],
- "claims_verified": 6,
- "claims": 6,
+ "claims_verified": 5,
+ "claims": 5,
  "polished": false,
- "input_fingerprint": "e3b2e3c89c84440326b0e26395fd7a9f078af2d00895ae0c45d6f549686f9143",
+ "input_fingerprint": "6547daa609e56c3ec9c6a4722d820f0c34bd9fc730adaff24d6de1fd59dd353f",
  "hero_checked": null
 }

@@ -33,7 +33,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -41,31 +41,71 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "f27b3b8936c5d90e",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "648uqxvYcjc",
+   "url": "https://www.youtube.com/watch?v=648uqxvYcjc",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "outdoor, grassy field, public festival",
+    "dancers": "mixed group of men and women, approximately 20-30 dancers",
+    "formation_and_space": "a long line that curves into a circle, moving in a counter-clockwise direction",
+    "posture": "upright torso, knees slightly bent, weight shifts from foot to foot",
+    "footwork": "rhythmic stepping, often involving a hop or a lift on the beat, with a consistent, repetitive pattern",
+    "arms_and_hands": "dancers hold hands or link arms, some hold white handkerchiefs in their hands, arms are often raised or swung in rhythm",
+    "hips_and_torso": "minimal torso movement, focus is on the leg and footwork",
+    "partnering": "none, the group moves as a single unit",
+    "levels_jumps_turns": "occasional small jumps and hops, no complex floor work or turns",
+    "costume_and_props": "traditional Assyrian clothing, including long, patterned robes for men and women, some with headpieces, some holding white handkerchiefs",
+    "cannot_infer": "the exact footwork is difficult to see due to the distance and the camera angle, and the speed of the dance makes it hard to distinguish individual steps",
+    "music_heard": {
+     "instruments": [
+      "drum",
+      "zurna"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 28,
+      "end_s": 32,
+      "what": "a synchronized hop on one foot while the other leg is lifted, followed by a step"
+     },
+     {
+      "start_s": 104,
+      "end_s": 108,
+      "what": "a deep, synchronized bend of the knees while the line continues to move"
+     },
+     {
+      "start_s": 201,
+      "end_s": 205,
+      "what": "a synchronized, low-level movement where the dancers bend their knees and lean forward"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "9df08f95f77765d9",
+ "updated": "2026-11-22"
 }

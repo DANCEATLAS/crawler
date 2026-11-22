@@ -1,6 +1,6 @@
 # Duranguense — episode pack
 
-*Status: draft · built 2026-11-19 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -96,7 +96,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: derecha-izquierda / derecha-izquierda. The meter is 2/4.
+NARRATION: Count: 7-and / 1-2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -107,13 +107,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: derecha-izquierda / derecha-izquierda · repetitions: 3
+COUNTS: 7-and / 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: derecha-izquierda / derecha-izquierda · repetitions: 3
+COUNTS: 7-and / 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -130,7 +130,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: derecha-izquierda / derecha-izquierda.
+NARRATION: Count-in: 7-and / 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -159,7 +159,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: derecha-izquierda / derecha-izquierda. The meter is 2/4.
+NARRATION: Count: 7-and / 1-2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -170,13 +170,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: derecha-izquierda / derecha-izquierda · repetitions: 3
+COUNTS: 7-and / 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: derecha-izquierda / derecha-izquierda · repetitions: 3
+COUNTS: 7-and / 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -193,7 +193,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: derecha-izquierda / derecha-izquierda.
+NARRATION: Count-in: 7-and / 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -222,7 +222,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: derecha-izquierda / derecha-izquierda. The meter is 2/4.
+NARRATION: Count: 7-and / 1-2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -233,13 +233,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: derecha-izquierda / derecha-izquierda · repetitions: 3
+COUNTS: 7-and / 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: derecha-izquierda / derecha-izquierda · repetitions: 3
+COUNTS: 7-and / 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -256,7 +256,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: derecha-izquierda / derecha-izquierda.
+NARRATION: Count-in: 7-and / 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -294,8 +294,8 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: derecha-izquierda / derecha-izquierda
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full
-Cues: derecha izquierda derecha izquierda; adelante y atrs movidito; eso muy bien; posicin de t-rex; lado a lado
+Counting: 7-and / 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full
+Cues: posicin de t-rex; lado a lado; derecha izquierda derecha izquierda; adelante y atrs movidito; eso muy bien
 
 Sources (5): https://en.wikipedia.org/wiki/Duranguense; https://www.wikidata.org/wiki/Q907799; https://es.wikipedia.org/wiki/Duranguense; https://fr.wikipedia.org/wiki/Pasito_duranguense; https://de.wikipedia.org/wiki/Duranguense

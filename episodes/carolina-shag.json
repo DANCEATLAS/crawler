@@ -2,7 +2,7 @@
  "slug": "carolina-shag",
  "name": "Carolina shag",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:48Z",
  "researched_at": "2026-11-16T20:01:34Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -309,9 +309,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: bouncing hands up and down",
-      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns",
-      "Teachers of this dance warn against: not maintaining tension"
+      "Teachers of this dance warn against: not maintaining tension",
+      "Teachers of this dance warn against: hand placement too low",
+      "Teachers of this dance warn against: bouncing hands up and down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -455,9 +455,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: bouncing hands up and down",
-      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns",
-      "Teachers of this dance warn against: not maintaining tension"
+      "Teachers of this dance warn against: not maintaining tension",
+      "Teachers of this dance warn against: hand placement too low",
+      "Teachers of this dance warn against: bouncing hands up and down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -600,9 +600,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: bouncing hands up and down",
-      "Teachers of this dance warn against: getting the partner out of alignment and balance during turns",
-      "Teachers of this dance warn against: not maintaining tension"
+      "Teachers of this dance warn against: not maintaining tension",
+      "Teachers of this dance warn against: hand placement too low",
+      "Teachers of this dance warn against: bouncing hands up and down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -762,60 +762,35 @@
    "repetitions per step: about 2"
   ],
   "cues": [
-   "keep your knees flexible not stiff",
-   "weight forward on the balls of your feet",
-   "start a new step on count 1",
-   "one and two",
-   "three and four",
-   "rock step",
-   "step touch",
    "left-right-left",
    "right-left-right",
    "rock-step",
    "forward-forward-back",
-   "back-stay-stay"
+   "back-stay-stay",
+   "one and two",
+   "three and four",
+   "rock step",
+   "step touch",
+   "keep your knees flexible not stiff",
+   "weight forward on the balls of your feet",
+   "start a new step on count 1"
   ],
   "common_mistakes": [
-   "bouncing hands up and down",
-   "getting the partner out of alignment and balance during turns",
    "not maintaining tension",
-   "hand placement too low"
+   "hand placement too low",
+   "bouncing hands up and down",
+   "getting the partner out of alignment and balance during turns"
   ],
   "segment_order": [
    "intro",
    "context",
    "recap",
    "full_demo",
-   "slow_practice",
    "breakdown",
+   "slow_practice",
    "music_practice"
   ],
   "steps_as_taught": [
-   {
-    "name": "The Basic",
-    "counts": "1 & 2, 3 & 4, 5 6",
-    "description": "Triple step, triple step, rock step in a slot"
-   },
-   {
-    "name": "Female Under Arm Turn",
-    "counts": "1 & 2, 3 & 4, 5 6",
-    "description": "Basic step with the female turning under the raised lead hand"
-   },
-   {
-    "name": "basic footwork",
-    "counts": "1-and-2, 3-and-4, 5-6",
-    "description": "Forward forward back, back stay stay, rock step"
-   },
-   {
-    "name": "female turn",
-    "counts": "1-and-2, 3-and-4, 5-6",
-    "description": "Turning the follower while changing position with partner"
-   },
-   {
-    "name": "start step",
-    "counts": "1-2, 3-and-4, 5-6",
-    "description": "Prep step from closed formation into basic pattern"
-   },
    {
     "name": "basic",
     "counts": "1-and-2-3-and-4-5-6",
@@ -835,6 +810,31 @@
     "name": "start step",
     "counts": "1-and-2-3-and-4-5-6",
     "description": "V-position step touch and rock step"
+   },
+   {
+    "name": "basic footwork",
+    "counts": "1-and-2, 3-and-4, 5-6",
+    "description": "Forward forward back, back stay stay, rock step"
+   },
+   {
+    "name": "female turn",
+    "counts": "1-and-2, 3-and-4, 5-6",
+    "description": "Turning the follower while changing position with partner"
+   },
+   {
+    "name": "start step",
+    "counts": "1-2, 3-and-4, 5-6",
+    "description": "Prep step from closed formation into basic pattern"
+   },
+   {
+    "name": "The Basic",
+    "counts": "1 & 2, 3 & 4, 5 6",
+    "description": "Triple step, triple step, rock step in a slot"
+   },
+   {
+    "name": "Female Under Arm Turn",
+    "counts": "1 & 2, 3 & 4, 5 6",
+    "description": "Basic step with the female turning under the raised lead hand"
    }
   ]
  },
@@ -851,6 +851,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "79c81eece3e6064d5a2f77d23dc4a40d3075b7e479196670dd9aae455a9b34e4",
+ "input_fingerprint": "31d1cd2613c4518c293b0f471900c63b00f2f31e442135f39be81fa259b20a0d",
  "hero_checked": "pass"
 }

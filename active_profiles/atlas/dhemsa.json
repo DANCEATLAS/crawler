@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Group formation where dancers hold each other by the shoulder and waist while dancing to dhol, tamak', changu, and mahuri.",
+          "source": "https://en.wikipedia.org/wiki/Dhemsa"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms reaching across adjacent dancers to grip the shoulder and waist",
+      "difficulty": "beginner",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "Group lines or circular formations moving in connected contact",
+      "hips_and_torso": "technique not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group physical connection where dancers hold each other continuous at shoulder and waist",
+      "posture": "Upright group posture with arms interlocked at the shoulder and waist of neighbouring dancers",
+      "signature_moves": [
+        {
+          "description": "Dancers interlock by holding adjacent participants firmly by the shoulder and waist while stepping to the drum rhythm.",
+          "name": "Shoulder-Waist Hold"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Breaking the continuous group grip at the shoulder and waist during movement"
+    },
+    "music_profile": {
+      "instruments": [
+        "dhol",
+        "tamak'",
+        "changu",
+        "mahuri"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "nocturnal",
+        "rhythmic",
+        "communal"
+      ],
+      "musical_form": "Mohuria leads on the mahuri while accompanying drummers follow",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic drum patterns played on dhol, tamak', and changu following the mahuri lead line",
+      "sound_description": "The music features high-register melodic phrases from the mahuri wind instrument played by the Mohuria, anchored by steady, repetitive tribal drumming on the dhol, tamak', and changu.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Interlock arms by holding adjacent dancers by the shoulder and waist",
+        "Step in group synchronization following the lead beat of the dhol, tamak', changu, and mahuri"
+      ],
+      "formation": "Group formation with physical contact held at shoulder and waist",
+      "level_notes": "Beginner groups focus on maintaining continuous physical contact by shoulder and waist while matching the drummer's tempo.",
+      "rhythm": "Rhythms set by dhol, tamak', and changu drums following the melodic cues of the Mohuria playing the mahuri"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a6ee588e03928da995959229bb206e9425e0bcc5be6934d7dda5df5786288e84",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific musical meters and rhythmic structures played by the Mohuria and drummers during Chait Parab? Evidence needed: Audio field recordings or musical notation studies of traditional mahuri and dhol arrangements in Desia communities."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific footwork patterns, step counts, and body movements are executed by Desia and Gond dancers during Dhemsa? Evidence needed: Video recordings or ethnochoreological field studies documenting Dhemsa performances in Odisha or Maharashtra."
+    ]
+  },
+  "id": "atlas:dhemsa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dhemsa",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "768a8a6f37677def",
+      "next_evidence": "Video recordings or ethnochoreological field studies documenting Dhemsa performances in Odisha or Maharashtra.",
+      "question": "What specific footwork patterns, step counts, and body movements are executed by Desia and Gond dancers during Dhemsa?",
+      "source": "https://en.wikipedia.org/wiki/Dhemsa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided text sources state that dancers hold each other by the shoulder and waist but do not describe specific leg or foot mechanics required for interactive motion teaching."
+    },
+    {
+      "domain": "research",
+      "id": "7a02654b0d990b6b",
+      "next_evidence": "Audio field recordings or musical notation studies of traditional mahuri and dhol arrangements in Desia communities.",
+      "question": "What are the specific musical meters and rhythmic structures played by the Mohuria and drummers during Chait Parab?",
+      "source": "https://en.wikipedia.org/wiki/Dhemsa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To construct an accurate synthetic audio cue or sound profile for interactive practice, precise meter and musical tempo data are required."
+    }
+  ],
+  "research_file": "research_results/dhemsa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dhemsa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dhemsa",
+    "https://www.wikidata.org/wiki/Q24949108"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

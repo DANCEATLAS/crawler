@@ -2,7 +2,7 @@
  "slug": "tambourin",
  "name": "Tambourin",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:49Z",
  "researched_at": "2026-11-20T19:32:14Z",
  "qc_score": 8.7,
  "status": "draft",
@@ -248,7 +248,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4-5-6-7-8. The meter is duple meter.",
+      "Count: 1-2-3-go and 8-7-6-5-4-3-2-1. The meter is duple meter.",
       "Rhythm pattern: repetitive, non-melodic bass figure.",
       "Clap it first, then step it in place."
      ],
@@ -271,7 +271,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "1-2-3-go and 8-7-6-5-4-3-2-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -286,7 +286,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "1-2-3-go and 8-7-6-5-4-3-2-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -327,7 +327,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Count-in: 1-2-3-go and 8-7-6-5-4-3-2-1.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -391,7 +391,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4-5-6-7-8. The meter is duple meter.",
+      "Count: 1-2-3-go and 8-7-6-5-4-3-2-1. The meter is duple meter.",
       "Rhythm pattern: repetitive, non-melodic bass figure.",
       "Clap it first, then step it in place."
      ],
@@ -414,7 +414,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "1-2-3-go and 8-7-6-5-4-3-2-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -429,7 +429,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "1-2-3-go and 8-7-6-5-4-3-2-1",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -470,7 +470,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Count-in: 1-2-3-go and 8-7-6-5-4-3-2-1.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -534,7 +534,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4-5-6-7-8. The meter is duple meter.",
+      "Count: 1-2-3-go and 8-7-6-5-4-3-2-1. The meter is duple meter.",
       "Rhythm pattern: repetitive, non-melodic bass figure.",
       "Clap it first, then step it in place."
      ],
@@ -557,7 +557,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "1-2-3-go and 8-7-6-5-4-3-2-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -572,7 +572,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "1-2-3-go and 8-7-6-5-4-3-2-1",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -613,7 +613,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Count-in: 1-2-3-go and 8-7-6-5-4-3-2-1.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -779,15 +779,17 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
-  "counting": "1-2-3-4-5-6-7-8",
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
+  "counting": "1-2-3-go and 8-7-6-5-4-3-2-1",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front",
+   "views used by most teachers: front, back",
    "tempo progression: slow → full"
   ],
   "cues": [
+   "1-2-3-go",
+   "first in a slow demonstration",
    "1-2-3 go"
   ],
   "common_mistakes": [],
@@ -796,23 +798,59 @@
    "full_demo",
    "count_in",
    "context",
-   "slow_practice"
+   "slow_practice",
+   "recap"
   ],
   "steps_as_taught": [
    {
-    "name": "Blessed",
-    "counts": "1-8",
-    "description": "Tambourine pattern with arm movements and ribbon flourishes."
+    "name": "Trinity A",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "First tambourine pattern set to 1 Corinthians 8:6"
    },
    {
-    "name": "Zion",
-    "counts": "1-8",
-    "description": "Circle pattern with tambourine swings and steps."
+    "name": "Romans",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Second tambourine pattern"
    },
    {
-    "name": "Gospel",
-    "counts": "1-8",
-    "description": "Praise pattern with overhead and side tambourine gestures."
+    "name": "Triumph B",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Third tambourine pattern set to Psalm 20:5"
+   },
+   {
+    "name": "Obey",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Fourth tambourine pattern set to Deuteronomy 5:33"
+   },
+   {
+    "name": "Loyalty",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Fifth tambourine pattern set to 1 Corinthians 4:2"
+   },
+   {
+    "name": "Victory",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Sixth tambourine pattern set to 1 Corinthians 15:57"
+   },
+   {
+    "name": "Warfare",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Seventh tambourine pattern set to Ephesians 6:11"
+   },
+   {
+    "name": "Everlasting",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Eighth tambourine pattern set to John 3:16"
+   },
+   {
+    "name": "Walking",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Ninth tambourine pattern set to Ephesians 5:8"
+   },
+   {
+    "name": "Trumpet",
+    "counts": "8-7-6-5-4-3-2-1",
+    "description": "Tenth tambourine pattern set to Revelation 8:6"
    }
   ]
  },
@@ -838,6 +876,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "3abdcea920a13960122754cb0cbb7446e21e2ef21adc665bb0c5541aa4ac2508",
+ "input_fingerprint": "4bf0b1c90e84f0351d92a484895acf919b392a6fcb4c188b48fabd2343273953",
  "hero_checked": "fail"
 }

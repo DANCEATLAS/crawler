@@ -2,9 +2,9 @@
  "slug": "serpentine-dance",
  "name": "Serpentine dance",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
- "researched_at": "2026-11-04T17:54:42Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-22T20:20:49Z",
+ "researched_at": "2026-11-22T19:33:00Z",
+ "qc_score": 10.0,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,11 +45,14 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A dance historian and performer specializing in early modern dance and theatrical lighting.",
+   "persona": "A visionary stage historian and movement specialist who emphasizes the intersection of technology and art.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
-   "Serpentine dance"
+   "Serpentine dance",
+   "Serpentinentanz",
+   "Danse serpentine",
+   "Dança serpentina"
   ]
  },
  "episode_1": {
@@ -60,7 +63,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Loïe Fuller’s Serpentine Dance: Silk, Light, and the Birth of Modern Stage Magic",
+     "The Woman Who Danced with Light",
      "This is Serpentine dance. 1890s."
     ],
     "on_screen": [
@@ -74,12 +77,12 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The Serpentine dance was created by Loïe Fuller in 1892 at the Park Theatre in Brooklyn, New York.",
-     "It evolved from the skirt dance, a burlesque form reacting against classical ballet, incorporating folk and popular dance elements.",
-     "Fuller discovered the dance's visual potential accidentally when stage lights illuminated her large silk costume, inspiring her to develop the choreography around fabric movement and light effects."
+     "The dance was created by Loïe Fuller at the Park Theatre in Brooklyn on February 15, 1892.",
+     "It evolved from the 'skirt dance,' a burlesque form from England that reacted against academic ballet.",
+     "Fuller took the dance to Paris in 1892, performing at the Folies Bergère, where she became an icon of the Belle Époque and Art Nouveau."
     ],
     "on_screen": [
-     "Map: United States · Europe",
+     "Map: United States · North America",
      "Image 1 with attribution"
     ],
     "music": "underscore"
@@ -89,10 +92,10 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The Serpentine dance was primarily a stage performance intended to showcase the interplay of light, fabric, and movement.",
-     "It symbolized natural elements like wind, water, flowers, and animals, aligning with Art Nouveau aesthetics.",
-     "It marked a break from classical ballet’s focus on footwork, emphasizing 'dance libre' and abstraction.",
-     "Today it is a living tradition."
+     "Originally a theatrical entr'acte, the dance became a symbol of technological progress and artistic abstraction.",
+     "It evokes the natural world—flowers, birds, and butterflies—through the lens of Art Nouveau.",
+     "It represented a shift toward 'total art' where movement, light, and costume are inseparable.",
+     "Today it is a revived tradition."
     ],
     "on_screen": [
      "Footage: File:Serpentine Dance (1895) - yt.webm (https://upload.wikimedia.org/wikipedia/commons/d/d0/Serpentine_Dance_%281895%29_-_yt.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
@@ -104,43 +107,44 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Spiral wave, Billowing arcs."
+     "The dancer manipulates a vast silk skirt using arms and concealed wands to create continuous, flowing shapes.",
+     "Movement is characterized by 'dance libre,' focusing on arm extensions and torso rotations rather than complex footwork.",
+     "The dancer creates curves, volutes, and arabesques, often standing in one place or moving in small circles while the fabric billows around them.",
+     "Watch for The Butterfly, The Lily, The Serpent."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (5yx3xhz_svg)",
      "Captions name each signature move as it appears",
-     "Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric."
+     "Formation: Stationary or circular path; requires a large clearance for the silk's radius."
     ],
-    "music": "diegetic (the video's own sound), underscore under narration",
-    "needs": [
-     "how_it_is_danced"
-    ]
+    "music": "diegetic (the video's own sound), underscore under narration"
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
-    "narration": [],
+    "narration": [
+     "Performances were typically accompanied by orchestral or band music.",
+     "Historical records mention the use of string bands, such as the String Band of the Shropshire Light Infantry during an 1894 performance.",
+     "Listen for the Strings, Brass, Woodwinds, Percussion.",
+     "The pulse is Often 3/4 (waltz) or 4/4 (march/orchestral) at about 95 beats a minute.",
+     "The sound is typically that of a late 19th-century theater orchestra or brass band, providing a grand, rhythmic backdrop that supports the visual scale of the billowing silk."
+    ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: "
+     "Listen later: Boléro — Maurice Ravel; Boléro — Maurice Ravel (year unknown)",
+     "Waveform or rhythm-pattern graphic: Continuous and sweeping, matching the undulation of the fabric."
     ],
-    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
-    "needs": [
-     "music_and_instruments",
-     "tempo",
-     "meter"
-    ]
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
    },
    {
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "The costume consists of hundreds of yards of lightweight China silk sewn into a large conical skirt, attached to the dancer’s shoulders or head.",
-     "Aluminum rods sewn invisibly into the fabric extend the dancer’s arms, allowing her to manipulate the silk expansively.",
-     "The dance is performed on stage with multi-colored lighting designed by Fuller to project onto the silk, creating shifting patterns and illusions of fire, flowers, and butterflies."
+     "The costume consists of hundreds of yards of lightweight China silk, sometimes arranged in a circular pattern of tapered strips.",
+     "It is often fastened at the shoulders or head rather than the waist.",
+     "Aluminum or wooden rods are sewn into the fabric to serve as arm extensions."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -156,12 +160,14 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Loïe Fuller, the creator and principal performer of the Serpentine dance, is the central figure.",
-     "Other notable performers include Annabelle Moore, who popularized the dance in early films produced by Edison Studios.",
-     "The Serpentine dance evolved from the skirt dance, itself a reaction against academic ballet and influenced by folk and popular dances like the can-can."
+     "Loïe Fuller is the creator and primary innovator.",
+     "Notable imitators and early film performers include Annabelle Whitford Moore (Edison's 'Annabelle Serpentine Dance'), Minnie 'Renwood' Bemis, and Cinira Polónio.",
+     "While originating in the US, it became a Parisian sensation.",
+     "The Serpentine dance is a direct descendant of the English skirt dance and a precursor to modern 'dance libre.' It influenced the development of early modern dance (Isadora Duncan) and performance art."
     ],
     "on_screen": [
-     "Names on screen as they are spoken"
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
     ],
     "music": "underscore"
    },
@@ -170,8 +176,9 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Serpentine dance is parent of skirt dance: The Serpentine dance evolved from the skirt dance, incorporating fabric manipulation and light effects.",
-     "Serpentine dance is influence of Isis wings dance: The Serpentine dance costume inspired the large silk veil wings used in belly dance and other traditions."
+     "Serpentine dance is parent of Skirt dance: The Serpentine dance is described as an evolution of the skirt dance.",
+     "Serpentine dance is influence of Modern dance: Fuller's 'dance libre' broke classical rules and influenced pioneers like Isadora Duncan.",
+     "Serpentine dance is influence of Belly dance (Isis Wings): The large pleated wings used in modern Raqs Sharqi were likely inspired by Fuller's costume."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -183,9 +190,9 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Hold the silk fabric rods firmly in both hands.",
-     "Begin with arms extended to the sides at shoulder height.",
-     "Count it: .",
+     "Before we go, one step. Grasp the concealed wands (baguettes) firmly to extend the reach of the arms.",
+     "Initiate a rhythmic swaying of the torso to begin the fabric's momentum.",
+     "Count it: 1-2-3, 2-2-3 (three counts a bar).",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -199,7 +206,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a Brooklyn actress’s accidental silk dance in 1892 transformed theatrical performance and early cinema with light and motion.",
+     "Discover how a Brooklyn actress used hundreds of yards of silk and the dawn of electricity to invent the modern stage spectacle.",
      "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
@@ -214,7 +221,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn basic arm and fabric manipulation.",
+   "goal": "Mastering fabric momentum",
    "level": "Beginner",
    "scenes": [
     {
@@ -222,9 +229,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn basic arm and fabric manipulation..",
-      "Level: Beginner. Difficulty of the dance overall: Beginner to intermediate.",
-      "Your instructor: A dance historian and performer specializing in early modern dance and theatrical lighting."
+      "Chapter 1 — First steps. Today: Mastering fabric momentum.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A visionary stage historian and movement specialist who emphasizes the intersection of technology and art."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -236,9 +243,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright with arms extended, shoulders relaxed.",
-      "Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.",
-      "Minimal hip movement; torso remains mostly stable to emphasize fabric motion."
+      "Upright but flexible torso, allowing for deep leans and rotations.",
+      "The primary engine of the dance; arms are extended by rods to manipulate massive fabric volumes.",
+      "Used to generate the initial momentum for the fabric's waves."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -250,34 +257,32 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is Often 3/4 (waltz) or 4/4 (march/orchestral).",
+      "Rhythm pattern: Continuous and sweeping, matching the undulation of the fabric..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
+      "Metronome at 66 bpm"
      ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo",
-      "meter"
-     ]
+     "music": "lesson_slow (clicks only until the step lands)"
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Hold the silk fabric rods firmly in both hands.",
-      "Step 2: Begin with arms extended to the sides at shoulder height.",
-      "Drill: Practice holding rods and extending arms smoothly."
+      "Step 1: Grasp the concealed wands (baguettes) firmly to extend the reach of the arms.",
+      "Step 2: Initiate a rhythmic swaying of the torso to begin the fabric's momentum.",
+      "Footwork from the sources: Minimal; primarily used for stabilization and slow rotations or pivots.",
+      "Drill: Basic torso sway to initiate fabric movement"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
      "repetitions": 3
     },
     {
@@ -285,15 +290,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Slowly wave the arms upward and inward to create spirals.",
-      "Step 4: Sweep the fabric in wide arcs around the body.",
-      "Drill: Create simple waves with fabric."
+      "Step 3: Execute large, circular arm movements to create 'volutes' or spirals in the silk.",
+      "Step 4: Alternate between high and low arm positions to suggest shapes like 'flowers' or 'clouds'.",
+      "Drill: Horizontal figure-eight arm patterns"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
      "repetitions": 3
     },
     {
@@ -304,7 +309,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Coordinate arm movements to maintain fabric flow."
+      "Drill: Vertical 'wave' motions with handheld silk"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -317,16 +322,16 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing"
+      "Avoid jerky movements that collapse the fabric; do not step on the hem of the oversized skirt."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+      "Options card: Seated or supported option: Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight. · For children: The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands.",
-      "For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+      "Seated or supported option: Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight.",
+      "For children: The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
      ],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
@@ -335,12 +340,12 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
+      "Track: lesson_full at 95 bpm"
      ],
      "music": "lesson_full"
     },
@@ -349,8 +354,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn basic arm and fabric manipulation..",
-      "The Serpentine dance was primarily a stage performance intended to showcase the interplay of light, fabric, and movement.",
+      "You can now: Mastering fabric momentum.",
+      "Originally a theatrical entr'acte, the dance became a symbol of technological progress and artistic abstraction.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -364,7 +369,7 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Develop continuous spirals and arcs.",
+   "goal": "Using the wands (baguettes)",
    "level": "Intermediate",
    "scenes": [
     {
@@ -372,9 +377,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Develop continuous spirals and arcs..",
-      "Level: Intermediate. Difficulty of the dance overall: Beginner to intermediate.",
-      "Your instructor: A dance historian and performer specializing in early modern dance and theatrical lighting."
+      "Chapter 2 — Building the dance. Today: Using the wands (baguettes).",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A visionary stage historian and movement specialist who emphasizes the intersection of technology and art."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -386,9 +391,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright with arms extended, shoulders relaxed.",
-      "Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.",
-      "Minimal hip movement; torso remains mostly stable to emphasize fabric motion."
+      "Upright but flexible torso, allowing for deep leans and rotations.",
+      "The primary engine of the dance; arms are extended by rods to manipulate massive fabric volumes.",
+      "Used to generate the initial momentum for the fabric's waves."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -400,33 +405,30 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is Often 3/4 (waltz) or 4/4 (march/orchestral).",
+      "Rhythm pattern: Continuous and sweeping, matching the undulation of the fabric..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
+      "Metronome at 66 bpm"
      ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo",
-      "meter"
-     ]
+     "music": "lesson_slow (clicks only until the step lands)"
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Use continuous, flowing arm movements to maintain fabric motion.",
-      "Drill: Combine upward and inward arm spirals."
+      "Step 1: Incorporate small pivots or turns to keep the fabric billowing in a continuous flow.",
+      "Drill: Coordinating arm extensions with the rods"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
      "repetitions": 3
     },
     {
@@ -434,16 +436,16 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Spiral wave: Arms move in spirals causing the silk to swirl around the dancer.",
-      "Billowing arcs: Wide sweeping arm movements create large arcs of fabric.",
-      "Drill: Practice wide sweeping arcs with fabric."
+      "The Butterfly: Rapidly flapping the silk wings at shoulder height.",
+      "The Lily: Raising the fabric overhead and allowing it to spiral down around the body.",
+      "Drill: Creating the 'Butterfly' flap without tangling"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
      "repetitions": 3
     },
     {
@@ -454,7 +456,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Control tempo to enhance fabric billowing."
+      "Drill: Executing a 360-degree pivot while maintaining fabric loft"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -467,16 +469,16 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing"
+      "Avoid jerky movements that collapse the fabric; do not step on the hem of the oversized skirt."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+      "Options card: Seated or supported option: Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight. · For children: The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands.",
-      "For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+      "Seated or supported option: Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight.",
+      "For children: The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
      ],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
@@ -485,12 +487,12 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
-      "Full tempo, the whole sequence, twice. Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric."
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Stationary or circular path; requires a large clearance for the silk's radius."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
+      "Track: lesson_full at 95 bpm"
      ],
      "music": "lesson_full"
     },
@@ -499,8 +501,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Develop continuous spirals and arcs..",
-      "Loïe Fuller, the creator and principal performer of the Serpentine dance, is the central figure.",
+      "You can now: Using the wands (baguettes).",
+      "Loïe Fuller is the creator and primary innovator.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -514,7 +516,7 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Perform fluid sequences with lighting effects.",
+   "goal": "Shape creation and lighting timing",
    "level": "Advanced",
    "scenes": [
     {
@@ -522,9 +524,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Perform fluid sequences with lighting effects..",
-      "Level: Advanced. Difficulty of the dance overall: Beginner to intermediate.",
-      "Your instructor: A dance historian and performer specializing in early modern dance and theatrical lighting."
+      "Chapter 3 — Dancing it fully. Today: Shape creation and lighting timing.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A visionary stage historian and movement specialist who emphasizes the intersection of technology and art."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -536,9 +538,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright with arms extended, shoulders relaxed.",
-      "Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.",
-      "Minimal hip movement; torso remains mostly stable to emphasize fabric motion."
+      "Upright but flexible torso, allowing for deep leans and rotations.",
+      "The primary engine of the dance; arms are extended by rods to manipulate massive fabric volumes.",
+      "Used to generate the initial momentum for the fabric's waves."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -550,34 +552,31 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is Often 3/4 (waltz) or 4/4 (march/orchestral).",
+      "Rhythm pattern: Continuous and sweeping, matching the undulation of the fabric..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome — tempo MISSING, use a slow comfortable pulse"
+      "Metronome at 66 bpm"
      ],
-     "music": "lesson_slow (clicks only until the step lands)",
-     "needs": [
-      "tempo",
-      "meter"
-     ]
+     "music": "lesson_slow (clicks only until the step lands)"
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Sweep the fabric in wide arcs around the body.",
-      "Step 2: Use continuous, flowing arm movements to maintain fabric motion.",
-      "Drill: Synchronize arm movements with colored light cues."
+      "Step 1: Alternate between high and low arm positions to suggest shapes like 'flowers' or 'clouds'.",
+      "Step 2: Incorporate small pivots or turns to keep the fabric billowing in a continuous flow.",
+      "Drill: Transitioning between 'The Lily' and 'The Serpent'"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
      "repetitions": 3
     },
     {
@@ -585,16 +584,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Spiral wave: Arms move in spirals causing the silk to swirl around the dancer.",
-      "Billowing arcs: Wide sweeping arm movements create large arcs of fabric.",
-      "Drill: Create complex shapes and transitions."
+      "The Serpent: Low, undulating waves created by horizontal arm movements.",
+      "Drill: Sustaining fabric height for extended periods"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
      "repetitions": 3
     },
     {
@@ -605,7 +603,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Maintain graceful posture throughout."
+      "Drill: Coordinating movement peaks with lighting color shifts"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -618,16 +616,16 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing"
+      "Avoid jerky movements that collapse the fabric; do not step on the hem of the oversized skirt."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+      "Options card: Seated or supported option: Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight. · For children: The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands.",
-      "For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements."
+      "Seated or supported option: Perform arm and wand movements while seated, using lighter, shorter silk veils to reduce weight.",
+      "For children: The 'Butterfly Game': children use colorful scarves to mimic different animals described by the instructor."
      ],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
@@ -636,12 +634,12 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
-      "Full tempo, the whole sequence, twice. Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric."
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Stationary or circular path; requires a large clearance for the silk's radius."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full (tempo MISSING)"
+      "Track: lesson_full at 95 bpm"
      ],
      "music": "lesson_full"
     },
@@ -650,8 +648,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Perform fluid sequences with lighting effects..",
-      "The Serpentine dance evolved from the skirt dance, itself a reaction against academic ballet and influenced by folk and popular dances like the can-can.",
+      "You can now: Shape creation and lighting timing.",
+      "The Serpentine dance is a direct descendant of the English skirt dance and a precursor to modern 'dance libre.' It influenced the development of early modern dance (Isadora Duncan) and performance art.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -667,21 +665,29 @@
   "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
-  "tempo_bpm": null,
-  "meter": null,
-  "rhythm_pattern": null,
-  "instruments": [],
-  "vocal_style": null,
-  "musical_form": null,
-  "mood": [
-   "ethereal",
-   "fluid",
-   "luminous",
-   "graceful"
+  "tempo_bpm": 95,
+  "meter": "Often 3/4 (waltz) or 4/4 (march/orchestral)",
+  "rhythm_pattern": "Continuous and sweeping, matching the undulation of the fabric.",
+  "instruments": [
+   "Strings",
+   "Brass",
+   "Woodwinds",
+   "Percussion"
   ],
-  "sound_description": null,
-  "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Serpentine dance (United States). Mood: ethereal, fluid, luminous, graceful. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "vocal_style": null,
+  "musical_form": "Sectional orchestral pieces or popular theater music.",
+  "mood": [
+   "Ethereal",
+   "Spectacular",
+   "Luminous",
+   "Fluid"
+  ],
+  "sound_description": "The sound is typically that of a late 19th-century theater orchestra or brass band, providing a grand, rhythmic backdrop that supports the visual scale of the billowing silk.",
+  "listen_before_composing": [
+   "Boléro — Maurice Ravel",
+   "Boléro — Maurice Ravel (year unknown)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Serpentine dance (United States). Meter Often 3/4 (waltz) or 4/4 (march/orchestral). Tempo about 95 bpm. Rhythm pattern: Continuous and sweeping, matching the undulation of the fabric.. Instruments: Strings, Brass, Woodwinds, Percussion. Form: Sectional orchestral pieces or popular theater music.. Mood: Ethereal, Spectacular, Luminous, Fluid. It should sound like this: The sound is typically that of a late 19th-century theater orchestra or brass band, providing a grand, rhythmic backdrop that supports the visual scale of the billowing silk. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -697,13 +703,13 @@
     "id": "lesson_slow",
     "use": "chapters: step practice",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 66
    },
    {
     "id": "lesson_full",
     "use": "chapters: dance it to the music",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 95
    }
   ],
   "rules": [
@@ -723,7 +729,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "The costume consists of hundreds of yards of lightweight China silk sewn into a large conical skirt, attached to the dancer’s shoulders or head. Aluminum rods sewn invisibly into the fabric extend the dancer’s arms, allowing her to manipulate the silk expansively. The dance is performed on stage with multi-colored lighting designed by Fuller to project onto the silk, creating shifting patterns and illusions of fire, flowers, and butterflies. The setting is theatrical, often in vaudeville or variety theaters and early film studios.",
+   "from_sources": "The costume consists of hundreds of yards of lightweight China silk, sometimes arranged in a circular pattern of tapered strips. It is often fastened at the shoulders or head rather than the waist. Aluminum or wooden rods are sewn into the fabric to serve as arm extensions. The setting is a darkened stage equipped with complex multi-colored electric lighting and sometimes mirrors or glass floors for under-lighting.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ALoie_Fuller.jpg"
    ],
@@ -803,17 +809,16 @@
    }
   ],
   "motifs": [
-   "Flowing silk fabric",
-   "Colored stage lights",
-   "Spiral and wave shapes",
-   "Belle Époque costumes",
-   "Early film footage"
+   "Swirling multi-colored silk against a black background",
+   "Close-ups of the wooden/aluminum wands inside the fabric",
+   "Hand-tinted archival film footage",
+   "Art Nouveau posters of Fuller"
   ],
-  "costume_notes": "The costume consists of hundreds of yards of lightweight China silk sewn into a large conical skirt, attached to the dancer’s shoulders or head. Aluminum rods sewn invisibly into the fabric extend the dancer’s arms, allowing her to manipulate the silk expansively. The dance is performed on stage with multi-colored lighting designed by Fuller to project onto the silk, creating shifting patterns and illusions of fire, flowers, and butterflies. The setting is theatrical, often in vaudeville or variety theaters and early film studios.",
-  "setting_notes": "The Serpentine dance was primarily a stage performance intended to showcase the interplay of light, fabric, and movement. It symbolized natural elements like wind, water, flowers, and animals, aligning with Art Nouveau aesthetics. It marked a break from classical ballet’s focus on footwork, emphasizing 'dance libre' and abstraction. The dance was a popular entertainment form in the 1890s and early 1900s, performed in theaters and early cinema, reflecting contemporary fascination with technological progress and artistic innovation.",
+  "costume_notes": "The costume consists of hundreds of yards of lightweight China silk, sometimes arranged in a circular pattern of tapered strips. It is often fastened at the shoulders or head rather than the waist. Aluminum or wooden rods are sewn into the fabric to serve as arm extensions. The setting is a darkened stage equipped with complex multi-colored electric lighting and sometimes mirrors or glass floors for under-lighting.",
+  "setting_notes": "Originally a theatrical entr'acte, the dance became a symbol of technological progress and artistic abstraction. It evokes the natural world—flowers, birds, and butterflies—through the lens of Art Nouveau. It represented a shift toward 'total art' where movement, light, and costume are inseparable. In its time, it also reflected the 'Fairy of Electricity' persona, celebrating the novelty of the electric age.",
   "map": {
    "country": "United States",
-   "region": "Europe",
+   "region": "North America",
    "coords": null
   },
   "generation_rules": [
@@ -825,26 +830,26 @@
  "teaching_formula": {
   "source": "12 tutorial(s) of the stage-contemporary family studied",
   "videos_studied": 12,
-  "counting": "",
-  "counting_basis": "missing",
+  "counting": "1-2-3, 2-2-3 (three counts a bar)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
   "cues": [
+   "reach out",
+   "through the pli",
+   "relax the chest",
+   "push three and four",
+   "up seven down eight",
+   "roll six up seven",
    "keep your feet pointed",
    "use your core",
    "lean your body back",
-   "tight core",
-   "strong arms",
-   "push to the ceiling",
-   "split your legs",
-   "be completely present",
-   "share weight",
-   "reach into the negative space",
    "pick up one foot",
-   "weight is going to transfer"
+   "weight is going to transfer",
+   "slide back"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -860,13 +865,7 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "tempo (bpm)",
-  "meter",
-  "instruments",
-  "a verified recording to listen to",
-  "licensed images (3 needed)",
-  "the how-it-is-danced section",
-  "the music & instruments section"
+  "licensed images (3 needed)"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Serpentine_dance",
@@ -876,9 +875,9 @@
   "https://de.wikipedia.org/wiki/Serpentinentanz",
   "https://archive.org/details/NPTG18941018"
  ],
- "claims_verified": 8,
- "claims": 8,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "c19602cee5fa8ecfd093ee748a9b916158051f37229eeb37df773821a4a3f4d5",
+ "input_fingerprint": "62e5e9348b68744ba3986e946efe9af641ec6986ba0cd1b68ce26b663226c3cc",
  "hero_checked": "pass"
 }

@@ -1,8 +1,8 @@
 # Stiletto dance — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); notable figures
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional commercial choreographer with a background in both jazz and hip-hop.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Architecture of the Heel
 NARRATION: This is Stiletto dance. Late 20th to early 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (8nRyRNUtNhA)
 ON SCREEN: Title card: Stiletto dance · United States; Europe · Late 20th to early 21st century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: It is a solo dance characterized by dynamic footwork and torso isolat
 NARRATION: Dancers perform a mix of jazz-based steps, ballroom-influenced movements, and hip-hop isolations.
 NARRATION: The technique includes significant floor work and fluid arm movements, all executed while wearing stiletto heels.
 NARRATION: Watch for Torso Isolation, Floor work.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (8nRyRNUtNhA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance; utilizes both vertical space and floor levels.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Weight distribution adjustment for high heels
 NARRATION: Jazz-based dynamic footwork
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,10 +119,10 @@ NARRATION: Step 1: Weight distribution adjustment for high heels
 NARRATION: Step 2: Jazz-based dynamic footwork
 NARRATION: Footwork from the sources: Dynamic steps based on jazz and ballroom; requires constant awareness of the heel's placement.
 NARRATION: Drill: Static balance holds in heels
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Torso isolations (hip-hop and belly dance style)
@@ -130,7 +130,7 @@ NARRATION: Step 4: Fluid arm extensions
 NARRATION: Drill: Slow-motion walking to find the center of gravity
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -149,7 +149,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels. · For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 109 bpm
@@ -180,7 +180,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,10 +190,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Floor work transitions
 NARRATION: Drill: Hip circles while maintaining a fixed head position
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Torso Isolation: Independent movement of the chest or hips while the rest of the body remains still.
@@ -202,7 +202,7 @@ NARRATION: Drill: Chest pops and slides
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -221,7 +221,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels. · For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance; utilizes both vertical space and floor levels.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 109 bpm
@@ -251,7 +251,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong backbeat with electronic or synthesized percussion typical of pop and hip-hop..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,10 +262,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Fluid arm extensions
 NARRATION: Step 2: Floor work transitions
 NARRATION: Drill: Standing to floor transitions
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Torso Isolation: Independent movement of the chest or hips while the rest of the body remains still.
@@ -274,7 +274,7 @@ NARRATION: Drill: Rapid footwork sequences
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -293,7 +293,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform torso and arm isolations while seated in a stable chair; wear flat, supportive shoes instead of heels. · For children: Focus on 'statue' isolations (moving only one body part at a time) to pop music. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance; utilizes both vertical space and floor levels.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 109 bpm
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The defining costume element is the stiletto heel shoe. Settings range from professional stages and cruise ships to music video sets and dance studios or gyms for fitness-based practice.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '8nRyRNUtNhA', 'checked_by_vision_model': True, 'title': 'Sam Sparro - Black&Gold | Žydrė High Heels Dance'}
 Images: 0 licensed
 Footage: unaputita_315 — https://archive.org/details/unaputita_315; High Heels Dance By D 3t — https://archive.org/details/high-heels-dance-by-d-3t; Pee Wees Playhouse - High Heels Dance 480p — https://archive.org/details/y-2mate.com-pee-wees-playhouse-high-heels-dance-480p; Frisco Features – High Tops & High Heels Dance — https://archive.org/details/ftvntx-Frisco_Features_High_Tops_High_Heels_Dance
 Motifs: Close-ups of stiletto heels striking a wooden floor, Slow-motion captures of torso isolations, The contrast between the industrial gym setting and the glamour of the stage
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the street-urban family studied · videos studied: 58
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: heel toe; one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; 5-6-7-8; here we go
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 3
+Cues: shoulders back; hips back; core lifted up; switch hips; ankles together
 
 Sources (2): https://en.wikipedia.org/wiki/Stiletto_dance; https://www.wikidata.org/wiki/Q25042625

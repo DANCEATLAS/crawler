@@ -1,0 +1,366 @@
+{
+ "slug": "vattakkali",
+ "name": "Vattakkali",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:49Z",
+ "researched_at": "2026-11-22T19:06:07Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior Vattuvar practitioner who emphasizes the spiritual connection between the feet and the temple floor.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Vattakkali",
+   "Chuvadukali",
+   "Chavittukali"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Vattakkali",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Twelve Steps of Palakkad",
+     "This is Vattakkali. Contemporary/Living Tradition."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Vattakkali · India · Contemporary/Living Tradition"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Vattakkali is an ancestral tradition of the Vattuvar community, a group indigenous to the state of Kerala.",
+     "Historically, it has been preserved as a part of the Kanyarkali (or Kanniyar Kali) tradition, which is a fast-moving dance-drama performed in the temples of the Palakkad district.",
+     "The dance serves as a communal expression of identity and devotion, particularly during the post-harvest season of Onam."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Vattakkali is performed during the Onam festival season and as a vital component of the Kanyarkali Mahotsavam.",
+     "It carries ritual significance, particularly when performed in temples, where it may be accompanied by offerings of flowers.",
+     "The dance represents communal harmony and the celebration of the harvest, serving as a ritualistic folk expression for the Vattuvar people.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a circular formation where participants move in 'vigorous ring patterns.' The core of the technique consists of twelve different types of steps, which are executed with increasing speed.",
+     "Dancers use rhythmic hand clapping to maintain the beat while their feet perform intricate patterns.",
+     "Watch for Twelve Chuvadu, Whirling Ring."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: A tight circular ring that moves vigorously as a unit"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music for Vattakkali is primarily vocal, consisting of songs sung by the group of dancers themselves.",
+     "The rhythmic accompaniment is generated internally by the performers through hand clapping and the use of 'tinkling anklets and bells' worn on the feet.",
+     "Listen for the Anklets, Bells, Hand claps.",
+     "The pulse is Typically 4/4 or 8-beat cycles common in Kerala folk music at about 85 beats a minute.",
+     "The sound is dominated by the collective voices of the men singing in unison, punctuated by the sharp, metallic 'tinkling' of bells and the percussive 'thud' of rhythmic stamping on the ground."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Steady stamping and clapping that doubles in speed during the climax"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance is traditionally performed in the temples of Palakkad during the Kanyarkali Mahotsavam.",
+     "Dancers typically wear traditional Kerala attire, which usually consists of a mundu (waist cloth).",
+     "The most significant functional element of the costume is the set of bells or anklets."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The sources do not name specific individual dancers or choreographers, as the dance is a communal folk tradition practiced by the Vattuvar community.",
+     "The dance is specific to the Palakkad region of Kerala.",
+     "Vattakkali is a subclass of Indian folk and ritual dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Vattakkali is parent of Kanyarkali: Vattakkali is a component of the larger Kanyarkali festival and dance-drama tradition.",
+     "Vattakkali is sibling of Kolkali: Both are rhythmic, circular folk dances from Kerala, though Kolkali uses sticks."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Vattakkali is a ritualist folk dance performed in temples during the Kanyarkali Mahotsavam; it involves rituals such as offering flowers and is performed in a sacred festival context."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the temple courtyards of Kerala, the Vattuvar men transform a simple circle into a high-speed rhythmic machine.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 85,
+  "meter": "Typically 4/4 or 8-beat cycles common in Kerala folk music",
+  "rhythm_pattern": "Steady stamping and clapping that doubles in speed during the climax",
+  "instruments": [
+   "Anklets",
+   "Bells",
+   "Hand claps"
+  ],
+  "vocal_style": "Group singing/chanting by the dancers",
+  "musical_form": "Call and response or unison singing that follows the twelve-step structure",
+  "mood": [
+   "Vigorous",
+   "Rhythmic",
+   "Intense",
+   "Devotional"
+  ],
+  "sound_description": "The sound is dominated by the collective voices of the men singing in unison, punctuated by the sharp, metallic 'tinkling' of bells and the percussive 'thud' of rhythmic stamping on the ground.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Vattakkali (India). Meter Typically 4/4 or 8-beat cycles common in Kerala folk music. Tempo about 85 bpm. Rhythm pattern: Steady stamping and clapping that doubles in speed during the climax. Instruments: Anklets, Bells, Hand claps. Vocal style: Group singing/chanting by the dancers. Form: Call and response or unison singing that follows the twelve-step structure. Mood: Vigorous, Rhythmic, Intense, Devotional. It should sound like this: The sound is dominated by the collective voices of the men singing in unison, punctuated by the sharp, metallic 'tinkling' of bells and the percussive 'thud' of rhythmic stamping on the ground. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 59
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 85
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The dance is traditionally performed in the temples of Palakkad during the Kanyarkali Mahotsavam. Dancers typically wear traditional Kerala attire, which usually consists of a mundu (waist cloth). The most significant functional element of the costume is the set of bells or anklets. The setting is often a decorated temple courtyard or a communal space during the Onam festival.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Close-ups of metal bells vibrating on ankles",
+   "The overhead view of the perfect human circle expanding and contracting",
+   "Dust rising from the temple floor under the force of the stamps",
+   "The rhythmic motion of hands clapping in unison"
+  ],
+  "costume_notes": "The dance is traditionally performed in the temples of Palakkad during the Kanyarkali Mahotsavam. Dancers typically wear traditional Kerala attire, which usually consists of a mundu (waist cloth). The most significant functional element of the costume is the set of bells or anklets. The setting is often a decorated temple courtyard or a communal space during the Onam festival.",
+  "setting_notes": "Vattakkali is performed during the Onam festival season and as a vital component of the Kanyarkali Mahotsavam. It carries ritual significance, particularly when performed in temples, where it may be accompanied by offerings of flowers. The dance represents communal harmony and the celebration of the harvest, serving as a ritualistic folk expression for the Vattuvar people.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "67 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 67,
+  "counting": "count the Typically 4/4 or 8-beat cycles common in Kerala folk music bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vattakkali",
+  "https://www.wikidata.org/wiki/Q7917186"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "ba55aea496647a43956f174a8a4e03bd37065603912e4c1b8e55806baf282a7c",
+ "hero_checked": null
+}

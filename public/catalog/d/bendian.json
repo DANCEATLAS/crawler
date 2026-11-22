@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -56,36 +56,8 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -94,13 +66,69 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "a268dafdefee7b45",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "iNYM7I1HMWU",
+   "url": "https://www.youtube.com/watch?v=iNYM7I1HMWU",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Outdoor paved area with steps and trees in the background, daytime",
+    "dancers": "Group of adult women and a few seated musicians",
+    "formation_and_space": "Circle formation moving in a counterclockwise direction",
+    "posture": "Upright torso, slightly bent knees, natural weight shifts",
+    "footwork": "Stepping and light hopping/skipping on the beat",
+    "arms_and_hands": "Arms held up overhead with bent elbows and hands waving, or extended outward at waist height with palms up",
+    "hips_and_torso": "Natural movement with walking and stepping, slight body sway",
+    "partnering": "None",
+    "levels_jumps_turns": "Low level, light hops on alternate feet, no jumps or floor work",
+    "costume_and_props": "Matching striped patterned ethnic jackets and skirts with beaded necklaces and headbands",
+    "cannot_infer": "Exact foot placement and weight distribution are partially obscured by long skirts and low video resolution.",
+    "music_heard": {
+     "instruments": [
+      "gong",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 23,
+      "end_s": 38,
+      "what": "Dancers form a circle holding arms raised overhead with wrists flexing"
+     },
+     {
+      "start_s": 42,
+      "end_s": 58,
+      "what": "Dancers lower arms to waist height, palms upward while stepping in a circle"
+     },
+     {
+      "start_s": 143,
+      "end_s": 156,
+      "what": "Dancers extend arms sideways at shoulder height while stepping in a circle"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "f5e9b96c4686b3d5",
+ "updated": "2026-11-22"
 }

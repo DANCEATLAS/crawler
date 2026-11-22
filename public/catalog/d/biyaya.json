@@ -33,7 +33,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -45,35 +45,74 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "d7d0a4f171c83c00",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "sYfU9jtrXfY",
+   "url": "https://www.youtube.com/watch?v=sYfU9jtrXfY",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Indoor room with a raised stage featuring a cross and television screens, decorated with balloons, likely an informal worship or church event.",
+    "dancers": "A group of mixed male and female dancers, teenagers and young adults, numbering around 8 people performing together.",
+    "formation_and_space": "Dancers stand in two rows across the floor and stage, mostly facing forward while executing synchronized choreography.",
+    "posture": "Upright posture with relaxed, slightly bent knees and weight shifting dynamically on the beats.",
+    "footwork": "Bouncing steps, side-to-side steps, and occasional small hops or turns synchronized to the beat; exact individual foot placement is occluded.",
+    "arms_and_hands": "Arms move in synchronized choreography, pointing, waving, raising arms upward, and gesturing in praise or worship.",
+    "hips_and_torso": "Subtle hip bounces and torso sways accompanying the stepping and arm movements.",
+    "partnering": "None, dancers perform solo choreography side by side.",
+    "levels_jumps_turns": "Standing level throughout with small hops and jumps on specific beats, and occasional turning movements.",
+    "costume_and_props": "Casual everyday clothing including denim jackets, patterned shirts, t-shirts, jeans, and trousers; balloons are scattered on the floor.",
+    "cannot_infer": "Exact individual footwork details are obscured by wide camera angles and low video resolution.",
+    "music_heard": {
+     "instruments": [
+      "electric guitar",
+      "keyboard",
+      "drums"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 47,
+      "end_s": 52,
+      "what": "Dancers raise both arms overhead and sway side to side in unison."
+     },
+     {
+      "start_s": 118,
+      "end_s": 123,
+      "what": "Dancers extend arms outward to the sides while stepping side to side."
+     },
+     {
+      "start_s": 198,
+      "end_s": 204,
+      "what": "Dancers point one arm forward diagonally while stepping in place."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "3a0d50a915e28cef",
+ "updated": "2026-11-22"
 }

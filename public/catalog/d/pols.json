@@ -50,7 +50,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -66,23 +66,82 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "9de1f1613df813d9",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "1e-Pz9gTmxI",
+   "url": "https://www.youtube.com/watch?v=1e-Pz9gTmxI",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "stage with a painted backdrop, likely a folk dance performance",
+    "dancers": "one couple, a man and a woman",
+    "formation_and_space": "the couple moves in a circular path around the stage",
+    "posture": "upright torso, knees slightly bent, weight shifts with the steps",
+    "footwork": "a rhythmic, walking-based step, with a slight bounce on each beat; the steps are even and follow the music's pulse",
+    "arms_and_hands": "the couple holds each other in a close, ballroom-style embrace, with one hand joined and the other on the partner's back or shoulder",
+    "hips_and_torso": "the torso remains relatively still, with the rotation coming from the couple's turning movement",
+    "partnering": "close hold, with the man leading the woman in a continuous, smooth rotation",
+    "levels_jumps_turns": "the couple performs continuous, smooth turns while moving around the stage",
+    "costume_and_props": "the woman wears a long, white, patterned dress; the man wears a brown jacket, yellow breeches, and blue stockings",
+    "cannot_infer": "the exact footwork is difficult to see due to the low resolution and the long, flowing dress worn by the woman",
+    "music_heard": {
+     "instruments": [
+      "violin",
+      "cello"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "the couple begins in a close hold, moving in a circular path with a rhythmic, walking-based step"
+     },
+     {
+      "start_s": 20,
+      "end_s": 30,
+      "what": "the couple continues to turn smoothly while moving around the stage"
+     },
+     {
+      "start_s": 40,
+      "end_s": 50,
+      "what": "the man leads the woman in a continuous, smooth rotation"
+     },
+     {
+      "start_s": 60,
+      "end_s": 70,
+      "what": "the couple maintains their close hold and rhythmic, walking-based step"
+     },
+     {
+      "start_s": 80,
+      "end_s": 90,
+      "what": "the couple continues to move in a circular path, with the man leading the woman in a continuous, smooth rotation"
+     },
+     {
+      "start_s": 100,
+      "end_s": 110,
+      "what": "the couple finishes their performance with a final, smooth turn"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "7e3a8dd2d7499e14",
+ "updated": "2026-11-22"
 }

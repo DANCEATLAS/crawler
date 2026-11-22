@@ -1,48 +1,53 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Slapping and patting arms, chest, and cheeks",
+      "arms_and_hands": "Slapping and patting the arms, chest, and other limbs",
       "difficulty": "intermediate",
-      "footwork": "Stomping",
-      "formation_and_space": "Circle or solo",
+      "footwork": "Stomping and specific steps like 'Yaller Cat' and 'Pigeon Wing'",
+      "formation_and_space": "Circle formation simulating the circle of life; used in walkarounds",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "not described in sources",
+      "partnering": "none",
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "A specific step used in Juba performance.",
-          "name": "Yaller Cat"
-        },
-        {
-          "description": "A specific step used in Juba performance.",
-          "name": "Pigeon Wing"
-        },
-        {
-          "description": "A specific step used in Juba performance.",
-          "name": "Blow That Candle Out"
-        },
-        {
-          "description": "The traditional concluding step of the dance.",
+          "description": "The traditional concluding step of a Juba performance",
           "name": "Long Dog Scratch"
+        },
+        {
+          "description": "A specific rhythmic step mentioned in historical accounts",
+          "name": "Blow That Candle Out"
         }
       ],
-      "tempo_feel": "not described in sources",
+      "tempo_feel": "Driving and rhythmic",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Body (hands, feet, chest, cheeks)"
+        "Body percussion",
+        "Feet",
+        "Hands",
+        "Chest",
+        "Cheeks"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "Resilient",
-        "Rhythmic",
-        "Communicative"
+        "percussive",
+        "resilient",
+        "rhythmic",
+        "communicative"
       ],
-      "musical_form": "Rhythmic body percussion",
+      "musical_form": "AABB or repetitive rhythmic cycles with vocal rhymes",
       "reference_recordings": [
         {
           "artist": "Bo Diddley",
@@ -53,25 +58,26 @@
           "title": "Juba"
         }
       ],
-      "rhythm_pattern": "Bo Diddley beat",
-      "sound_description": "A percussive soundscape created by the human body, characterized by stomping, clapping, and slapping that mimics the function of talking drums.",
+      "rhythm_pattern": "Bo Diddley beat (syncopated 3-2 pattern)",
+      "sound_description": "A layered percussive soundscape created entirely by the human body, featuring deep thuds from chest-patting, sharp cracks from hand-claps, and rhythmic shuffling or stomping of the feet, often overlaid with rhythmic chanting.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "Call and response chants"
     },
     "teaching": {
       "basic_steps": [
-        "Stomp feet to establish the primary pulse.",
-        "Slap thighs to create a secondary rhythmic layer.",
-        "Clap hands and strike the chest to add syncopated accents.",
-        "Execute the 'Long Dog Scratch' to conclude the sequence."
+        "Stomp the feet to establish a base pulse",
+        "Slap the thighs with alternating hands",
+        "Pat the chest to create a deeper percussive tone",
+        "Clap the hands in syncopated patterns",
+        "Slap the cheeks for higher-pitched accents"
       ],
-      "formation": "Often performed in a circle or as a solo performance.",
-      "level_notes": "Requires coordination of body percussion and rhythmic timing.",
-      "rhythm": "Polyrhythmic, often utilizing call-and-response patterns."
+      "formation": "Often performed in a circle or as part of a walkaround",
+      "level_notes": "Beginners should focus on the coordination between foot stomps and hand slaps before attempting the 'Long Dog Scratch'.",
+      "rhythm": "Complex syncopated patterns, often following a call-and-response structure"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "891e2ae3cbd411919a3ef1e737494171ce2b403f262a4bf2cebc1bdd9eb0b46f",
+  "fingerprint": "d2247270e3032914299d4eae6524d99c6ebf2e370c776a59ecd9f3972569bb8d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -81,7 +87,8 @@
     "research": [
       "movement: posture, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts for the 'Pattin' Juba' sequences used in walkarounds? Evidence needed: https://en.wikipedia.org/wiki/Juba_dance"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -97,7 +104,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there archival recordings of the 'Long Dog Scratch' or 'Yaller Cat' steps being performed by traditional practitioners? Evidence needed: https://en.wikipedia.org/wiki/Juba_dance"
     ]
   },
   "id": "atlas:juba-dance",
@@ -108,7 +116,26 @@
   ],
   "music_options": [],
   "name": "Juba dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1e29044066ca518e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Juba_dance",
+      "question": "Are there archival recordings of the 'Long Dog Scratch' or 'Yaller Cat' steps being performed by traditional practitioners?",
+      "source": "https://en.wikipedia.org/wiki/Juba_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately reconstruct the signature moves for the movement profile."
+    },
+    {
+      "domain": "research",
+      "id": "c8de0d605faa8114",
+      "next_evidence": "https://en.wikipedia.org/wiki/Juba_dance",
+      "question": "What are the specific rhythmic counts for the 'Pattin' Juba' sequences used in walkarounds?",
+      "source": "https://en.wikipedia.org/wiki/Juba_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a structured lesson ladder for interactive teaching."
+    }
+  ],
   "research_file": "research_results/juba-dance.json",
   "runtime_active": false,
   "scope": {

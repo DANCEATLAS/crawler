@@ -1,13 +1,103 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Close partner grinding",
+          "Exaggerated hip movements",
+          "Extended physical contact"
+        ],
+        "counts": "Simple 1-2 counts.",
+        "duration_minutes": "5",
+        "game_version": "A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep knee bends",
+          "Rapid weight transfers",
+          "Close balance-challenging partner embraces"
+        ],
+        "counts": "4/4 counts at a slower tempo.",
+        "seated_version": "Perform upper body weight shifts and torso isolations while seated in a stable chair.",
+        "standing_version": "Stand with feet hip-width apart, holding a stable support, focusing on upper body movement without deep knee bends.",
+        "tempo_and_range": "Reduced tempo and smaller range of motion in hips and knees."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Partner connection, holding partner closely or in open/closed embrace.",
+      "difficulty": "beginner",
+      "footwork": "Simple one-step or two-step, varying levels of proficiency and styles of footwork, dancing on a dime (not moving far from the spot).",
+      "formation_and_space": "Paartanz (partner dance), close or open embrace, sometimes staying in one spot ('Dance on a Dime').",
+      "hips_and_torso": "Articulated movement in the torso (chest, rib cage, pelvis, buttocks) identifying and emphasizing different rhythms, figure eights in the Fish Tail.",
+      "levels_and_jumps": "Low levels, grounded movements, spins, lifts, and dips in the Ballroom variant.",
+      "partnering": "One-on-one mixed-gender partnered dancing, varying degrees of closeness based on affection.",
+      "posture": "Athletic and grounded body posture, weight held on the balls of the feet, knees bent, hips pushed back, and chest forward.",
+      "signature_moves": [
+        {
+          "description": "Movement of the buttocks forms a variety of figure eights.",
+          "name": "Fish Tail"
+        },
+        {
+          "description": "Knees are moved forward and back one by one while keeping feet together, resulting in hip rotation.",
+          "name": "Snake Hips"
+        },
+        {
+          "description": "A slow, close-contact partner dance style.",
+          "name": "Slow Drag"
+        }
+      ],
+      "tempo_feel": "Weiche Bewegungen (soft movements), drawing of the beats, pushing and pulling creating tension.",
+      "what_to_avoid": "A loss of coolness and control places one squarely outside the tradition; in the Savoy Ballroom, laszive movements and enge Haltung (close posture) were not tolerated."
+    },
+    "music_profile": {
+      "instruments": [
+        "Battered string instruments",
+        "Guitars"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "haunting",
+        "slow",
+        "romantic",
+        "sensual"
+      ],
+      "musical_form": "Blues songs, ballads",
+      "reference_recordings": [
+        {
+          "artist": "W. C. Handy",
+          "title": "Saint Louis Blues"
+        },
+        {
+          "artist": "Dabney's Band",
+          "title": "Slow Drag Blues"
+        }
+      ],
+      "rhythm_pattern": "Multiple meters or rhythms, drawing of the beats, habanera elements",
+      "sound_description": "A haunting or slow melodic structure featuring battered string instruments and rhythmic tension, sometimes incorporating a tango-style introduction before transitioning into a blues style.",
+      "tempo_bpm": "80 to 100 Beats per minute (20 to 25 Takte pro minute)",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Simple one-step or two-step",
+        "Slow dragging",
+        "Snake Hips",
+        "Fish Tail"
+      ],
+      "formation": "Partnered (one-on-one) close or open embrace",
+      "level_notes": "Beginners start with simple one-steps or two-steps and grounded posture; advanced dancers utilize complex torso articulation, hip rotations, and improvisation.",
+      "rhythm": "4/4-takt"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "fd470893c3c699e3be1c73dd8d0cd2f9ad14761f542b0aa6baf48bfe588d23aa",
+  "fingerprint": "91e10320be63fd341b3696c42be6974e837426b0e94d26c3e96a76d68b077598",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +105,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How did regional variants in the American South versus northern urban centers like Chicago specifically alter footwork mechanics? Evidence needed: Oral histories and early 20th-century vernacular dance manuals from Chicago and southern juke joints."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +133,18 @@
   ],
   "music_options": [],
   "name": "Blues dancing",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "875b893441bf88e7",
+      "next_evidence": "Oral histories and early 20th-century vernacular dance manuals from Chicago and southern juke joints.",
+      "question": "How did regional variants in the American South versus northern urban centers like Chicago specifically alter footwork mechanics?",
+      "source": "https://en.wikipedia.org/wiki/Blues_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources note the tradition survived across regions, but detailed regional footwork mechanics remain partially unelaborated."
+    }
+  ],
+  "research_file": "research_results/blues-dancing.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +156,15 @@
   "slug": "blues-dancing",
   "sources": [
     "https://en.wikipedia.org/wiki/Blues_dance",
-    "Source: Blues dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Blues_dance"
+    "https://www.wikidata.org/wiki/Q886025",
+    "https://de.wikipedia.org/wiki/Blues_(Tanz)"
   ],
-  "state": "researching",
-  "video_evidence": []
+  "state": "teaching_withheld",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/pnRIZPhJ138.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=pnRIZPhJ138"
+    }
+  ]
 }

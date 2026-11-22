@@ -37,7 +37,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -53,23 +53,67 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "f4610cb0f058c27a",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "C1bIp_W_4LM",
+   "url": "https://www.youtube.com/watch?v=C1bIp_W_4LM",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "outdoor, grassy field with trees and hills in the background, likely a cultural performance or festival",
+    "dancers": "group of men, all male",
+    "formation_and_space": "initially a line, then moving in a loose group, traveling across the field",
+    "posture": "torso upright, knees bent, weight shifted frequently",
+    "footwork": "rhythmic stomping and jumping, landing on the beat; precise footwork is difficult to see due to camera distance and motion",
+    "arms_and_hands": "arms extended, holding spears and small shields, moving dynamically with the torso",
+    "hips_and_torso": "torso moves with the rhythm, some slight swaying and twisting",
+    "partnering": "none, individual performance within a group",
+    "levels_jumps_turns": "frequent jumping, low-level crouches, no floor work or complex turns",
+    "costume_and_props": "traditional attire including skirts, beaded necklaces, and large, flowing white headpieces; holding spears and shields",
+    "cannot_infer": "exact footwork details due to camera distance and motion blur; specific cultural context or meaning of the dance",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "rattles"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "group jumping in unison while holding spears and shields"
+     },
+     {
+      "start_s": 13,
+      "end_s": 16,
+      "what": "crouching low while maintaining rhythmic movement"
+     },
+     {
+      "start_s": 25,
+      "end_s": 30,
+      "what": "dynamic arm extensions while jumping and moving across the field"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "59df8dec93fc4d4d",
+ "updated": "2026-11-22"
 }

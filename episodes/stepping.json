@@ -2,7 +2,7 @@
  "slug": "stepping",
  "name": "stepping",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:49Z",
  "researched_at": "2026-11-21T18:04:21Z",
  "qc_score": 9.5,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is stepping. 18th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (bNUjnqqZfBY)",
      "Title card: stepping · United States · 18th century to present"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for The Alpha Train, The Q Hop, The Nut Cracker."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (bNUjnqqZfBY)",
      "Captions name each signature move as it appears",
      "Formation: Linear rows, grids, or circles executed in tight close-order military formations."
     ],
@@ -729,7 +729,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "bNUjnqqZfBY",
+   "checked_by_vision_model": false,
+   "title": "NiziU 『Step and a step』 Dance Performance Video"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -834,8 +838,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the street-urban family studied",
-  "videos_studied": 58,
+  "source": "67 tutorial(s) of the street-urban family studied",
+  "videos_studied": 67,
   "counting": "count the Polyrhythmic acapella meter bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -844,18 +848,18 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "heel toe",
-   "one and two",
+   "down and up",
    "step touch",
-   "keep your knees flexible not stiff",
-   "weight forward on the balls of your feet",
-   "start a new step on count 1",
-   "right leg out front",
-   "jump split your legs",
-   "the back foot goes up",
-   "lift the left leg up",
+   "one and two",
    "5-6-7-8",
-   "here we go"
+   "heel toe",
+   "twist your wrist",
+   "keep your arm tense",
+   "pivot your feet",
+   "turn your torso",
+   "heel step",
+   "stomp",
+   "farmer"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -873,7 +877,7 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -885,6 +889,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "bd4cd0d90dbec20ea58ad6498f1798ddeda2af468f82ded8b37d04ed5ae6bf8d",
- "hero_checked": null
+ "input_fingerprint": "138ee1df60c86303f64e3fcf9bb0e270516f085573924c2d6a4e251e3e6c66e5",
+ "hero_checked": "fail"
 }

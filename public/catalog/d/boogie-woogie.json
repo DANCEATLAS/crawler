@@ -63,7 +63,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -71,23 +71,78 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "eaa993db9d2a4d79",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "krlwzuCQvM4",
+   "url": "https://www.youtube.com/watch?v=krlwzuCQvM4",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "A stage at a dance festival, with an audience in the background.",
+    "dancers": "One couple, an older man and woman.",
+    "formation_and_space": "Couples, moving across the stage.",
+    "posture": "Upright torso, knees slightly bent, weight shifts between feet.",
+    "footwork": "Fast, rhythmic stepping, including kicks, swivels, and weight changes on the beat.",
+    "arms_and_hands": "Arms are used for leading and following, with various holds and turns.",
+    "hips_and_torso": "Natural movement, with some hip motion during turns and steps.",
+    "partnering": "Close contact, with lead and follow, and various hand holds.",
+    "levels_jumps_turns": "Includes turns, spins, and some floor work.",
+    "costume_and_props": "The man wears a brown suit, the woman wears a patterned dress.",
+    "cannot_infer": "The video is low resolution, making it difficult to see the exact footwork.",
+    "music_heard": {
+     "instruments": [
+      "piano",
+      "drums",
+      "bass",
+      "brass"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0.22,
+      "end_s": 0.25,
+      "what": "The man leads the woman into a turn."
+     },
+     {
+      "start_s": 0.42,
+      "end_s": 0.45,
+      "what": "The man performs a high kick."
+     },
+     {
+      "start_s": 1.02,
+      "end_s": 1.05,
+      "what": "The man dips the woman."
+     },
+     {
+      "start_s": 1.3,
+      "end_s": 1.33,
+      "what": "The woman performs a floor slide."
+     },
+     {
+      "start_s": 1.57,
+      "end_s": 2.0,
+      "what": "The man and woman perform a synchronized step."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "938e8ccf321261fb",
+ "updated": "2026-11-22"
 }

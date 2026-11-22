@@ -1,6 +1,6 @@
 # Tribal Fusion Belly Dance — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; signature moves; two or more connections
 
@@ -313,7 +313,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: the teacher does not use a formal counting scheme, instead f
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
-Cues: make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up
+Cues: make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine
 Common mistakes the studied teachers name: trying to copy the teacher exactly instead of feeling the movement; <mistake the teacher names and corrects>
 
 Sources (4): https://en.wikipedia.org/wiki/Tribal_Fusion; https://www.wikidata.org/wiki/Q2743437; https://es.wikipedia.org/wiki/Danza_del_vientre_tribal; https://fr.wikipedia.org/wiki/Tribal_fusion

@@ -51,7 +51,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -61,13 +61,10 @@
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
    }
   ],
   "via": {
+   "signature_moves": "performance",
    "mistakes": "lesson",
    "study_video": "lesson"
   }
@@ -213,6 +210,52 @@
    }
   }
  ],
- "fingerprint": "c1fcf9109e8b761c",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "c8cgtn3HcHw",
+   "url": "https://www.youtube.com/watch?v=c8cgtn3HcHw",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "banquet hall with dining tables and guests seated around the dance floor, festive occasion",
+    "dancers": "group of men in suits, forming a line and holding hands or linked arms",
+    "formation_and_space": "semi-circle or open line formation, moving slightly in place with stepping motions",
+    "posture": "upright torso with a slight forward lean, knees slightly bent",
+    "footwork": "step-touch or side-to-side stepping pattern on the beat, low to the ground",
+    "arms_and_hands": "dancers hold hands or link arms in a line, with the leader at the end waving a white handkerchief",
+    "hips_and_torso": "minimal torso movement, slight bouncing matching the rhythm",
+    "partnering": "holding hands in a line formation, no individual couple partnering",
+    "levels_jumps_turns": "low level, no jumps or turns visible in the line",
+    "costume_and_props": "men wearing modern suits and dress shoes; one man holds a white handkerchief",
+    "cannot_infer": "exact foot placement details and precise weight distribution are difficult to determine due to camera angle and video resolution",
+    "music_heard": {
+     "instruments": [
+      "keyboard",
+      "electronic percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 12,
+      "what": "Dancers in a line step side to side while holding hands, with the leader at the end waving a white handkerchief above his head."
+     },
+     {
+      "start_s": 47,
+      "end_s": 60,
+      "what": "The line bounces in unison with subtle knee bends on every beat while maintaining hand-to-hand contact."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "a92407c37a23ef96",
+ "updated": "2026-11-22"
 }

@@ -35,6 +35,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dance_in_Cambodia",
   "wikidata_qid": "Q7340702",
   "unesco": false,
+  "hero_video_youtube_id": "iABw4hV6AEI",
+  "video_stack": [
+   {
+    "youtube_id": "iABw4hV6AEI",
+    "role": "hero",
+    "title": "Khmer Arts Academy - Neary Chea Chuor",
+    "channel": "KHMERTREE -",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -138,6 +148,12 @@
   ],
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:54Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "chhayam"
   ]
@@ -405,7 +421,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -413,36 +429,85 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "iABw4hV6AEI",
+   "url": "https://www.youtube.com/watch?v=iABw4hV6AEI",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "A studio with a plain floor and a large abstract painting on the wall.",
+    "dancers": "Two women.",
+    "formation_and_space": "The dancers are positioned one behind the other, facing the same direction, and perform in place.",
+    "posture": "The torso is held upright with a slight arch in the back. The knees are bent, and the weight is shifted between legs.",
+    "footwork": "The dancers perform slow, deliberate steps, often lifting one foot and placing it down with precision. The footwork is synchronized with the music's rhythm.",
+    "arms_and_hands": "The arms are held in graceful, fluid positions, with the hands often flexed backward at the wrists. The fingers are extended and sometimes curled.",
+    "hips_and_torso": "The torso remains relatively still, with subtle shifts in weight and posture.",
+    "partnering": "None.",
+    "levels_jumps_turns": "The dancers move between kneeling and standing positions, with slow, controlled movements.",
+    "costume_and_props": "The dancers wear traditional Cambodian dance costumes, including a fitted, embellished top and a sarong-style skirt.",
+    "cannot_infer": "The low-resolution video makes it difficult to see the fine details of the footwork and the exact weight transfer.",
+    "music_heard": {
+     "instruments": [
+      "traditional Cambodian instruments, including a xylophone-lik"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "slow",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 20,
+      "end_s": 25,
+      "what": "The dancers raise their arms above their heads with their hands flexed backward, creating a graceful, arched shape."
+     },
+     {
+      "start_s": 40,
+      "end_s": 45,
+      "what": "The dancers stand on one leg with the other leg bent at the knee, their arms extended in a fluid, expressive gesture."
+     },
+     {
+      "start_s": 118,
+      "end_s": 123,
+      "what": "The dancers perform a slow, controlled turn while maintaining their posture and arm positions."
+     },
+     {
+      "start_s": 138,
+      "end_s": 143,
+      "what": "The dancers move from a standing position to a kneeling position with grace and precision."
+     },
+     {
+      "start_s": 218,
+      "end_s": 223,
+      "what": "The dancers repeat the arm and hand movements from the beginning, showcasing the fluidity and precision of the dance."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/robam-neary-chea-chuor.json"
  },
- "fingerprint": "0374644d538e1a1a",
- "updated": "2026-11-21"
+ "fingerprint": "2c45d4df6f818a12",
+ "updated": "2026-11-22"
 }

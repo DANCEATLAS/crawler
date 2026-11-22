@@ -1,0 +1,125 @@
+{
+ "slug": "titi-torea",
+ "qc_at": "2026-11-22T20:00:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Tītī tōrea"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "163"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Played to a beat of three, tītī tōrea challenges players to throw wooden sticks "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "487"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1726"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "New Zealand"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile repeatedly labels Tītī tōrea as a 'Polynesian dance' and claims it is performed 'across Polynesia', which risks pan-Polynesian erasure of its specific Māori origins."
+  ],
+  "harm_or_disrespect": [
+   "The profile generalizes a specific Māori cultural practice as a 'Polynesian dance', which is an act of cultural homogenization."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is factually sound regarding the mechanics of the game but suffers from pan-Polynesian framing. Tītī tōrea is distinctly Māori; describing it as a 'Polynesian dance' is imprecise and culturally reductive. The teaching value is good, but the cultural context should be strictly limited to Aotearoa/Māori tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=8.1",
+  "doubts=1",
+  "harm"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-22T17:57:42Z"
+}

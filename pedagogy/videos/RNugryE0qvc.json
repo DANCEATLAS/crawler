@@ -1,0 +1,132 @@
+{
+ "youtube_id": "RNugryE0qvc",
+ "slug": "black-bottom",
+ "dance": "Black Bottom",
+ "title": "20s Charleston Dance Tutorial - Full Choreography to the Song \"Black Bottom\"",
+ "channel": "JazzyFeet",
+ "viewer_ratio": 7.0,
+ "analysed_at": "2026-11-22T20:13:35Z",
+ "url": "https://www.youtube.com/watch?v=RNugryE0qvc",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down choreography step by step while facing the camera or turning away for demonstration. She uses verbal counting and explains musicality concepts like off-beat rhythms.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to the Black Bottom choreography tutorial"
+   },
+   {
+    "t": "1:17",
+    "segment": "context",
+    "note": "Explaining the structure of the song into three parts: AABA, solo part, and AABA"
+   },
+   {
+    "t": "2:01",
+    "segment": "breakdown",
+    "note": "Breaking down Part 1 - AABA, starting with the first A section"
+   }
+  ],
+  "counting_scheme": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4-5-6-7-8"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 2
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Charleston basic steps",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Basic Charleston step moving backward"
+   },
+   {
+    "name": "Mess around",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Hip movement supporting the beat"
+   },
+   {
+    "name": "Slapping move / Slaps",
+    "counts": "8-1-2-3-4-5-6-7",
+    "description": "Off-beat slap movements with arms and legs"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear division of the song structure",
+    "Demonstrating from the back so students can follow along easily"
+   ],
+   "what_hinders": [
+    "Long explanations before dancing"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:06",
+    "text": "I'm going to show you the breakdown to my Charleston twenties choreography"
+   },
+   {
+    "t": "1:21",
+    "text": "We will divide the song into three different parts"
+   },
+   {
+    "t": "3:51",
+    "text": "What is that? It's called the offbeat."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 224,
+    "end_s": 250,
+    "topic": "movement",
+    "observation": "Teacher demonstrates Charleston basic steps facing away from the camera",
+    "viewpoint": "back, unknown mirror",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 303,
+    "end_s": 327,
+    "topic": "movement",
+    "observation": "Teacher demonstrates hip bounces facing away from camera",
+    "viewpoint": "back, unknown mirror",
+    "cannot_infer": "muscle engagement",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 333,
+    "end_s": 351,
+    "topic": "movement",
+    "observation": "Teacher shows side view of slap movements",
+    "viewpoint": "side, unknown mirror",
+    "cannot_infer": "balance control",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Structuring the dance practice around musical phrasing (AABA) and explicitly teaching off-beat clapping/slapping."
+ },
+ "attempts": 1
+}

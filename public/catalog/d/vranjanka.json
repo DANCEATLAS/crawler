@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -56,43 +56,69 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "07f274122af135fc",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "D7e0NLXLcsw",
+   "url": "https://www.youtube.com/watch?v=D7e0NLXLcsw",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "indoor hall with a wooden floor, light blue curtain background, and a banner reading 'DUNAV'",
+    "dancers": "5 dancers: 1 man and 4 women, mixed group in a line",
+    "formation_and_space": "a single line of dancers holding hands in 'W' or 'V' position, curving into a semi-circle/circle as they travel counter-clockwise",
+    "posture": "upright torso, relaxed knees, weight shifting from foot to foot",
+    "footwork": "stepping side-to-side, stamps, and small lifts or hops on the beat; exact foot placement details are obscured by long skirts and low resolution",
+    "arms_and_hands": "held together in a handhold at shoulder or waist height, swaying slightly with the steps",
+    "hips_and_torso": "minimal torso movement, natural sway accompanying the steps",
+    "partnering": "none, line dance formation with handholds",
+    "levels_jumps_turns": "standing level, no jumps or floor work, circular travel",
+    "costume_and_props": "matching black t-shirts with 'DUNAV', black skirts or trousers with dark sashes/belts, black shoes",
+    "cannot_infer": "exact foot placement and weight distribution are occluded by skirts and video resolution",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "clarinet or flute"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 16,
+      "end_s": 22,
+      "what": "dancers step side-to-side in a line holding hands while singing starts"
+     },
+     {
+      "start_s": 42,
+      "end_s": 52,
+      "what": "the line curves into a semi-circle as dancers continue side steps with leg lifts"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "63b8b5850ebf082c",
+ "updated": "2026-11-22"
 }

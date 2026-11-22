@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "poomaruthan-theyyam",
  "name": "Poomaruthan Theyyam",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -34,6 +34,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
   "wikidata_qid": "Q20581714",
   "unesco": false,
+  "hero_video_youtube_id": "Vi2ybrpmTnQ",
+  "video_stack": [
+   {
+    "youtube_id": "Vi2ybrpmTnQ",
+    "role": "hero",
+    "title": "ആരും പ്രതീക്ഷിക്കാത്ത  തിറ വീഡിയോ #trending ഭദ്രകാളി #theyyam #trending #vairal #latestnews..",
+    "channel": "AJ CREATION",
+    "hd": true
+   },
+   {
+    "youtube_id": "2IElbqHUoMc",
+    "role": "rendition",
+    "title": "ഒരേ ഒരു ചുവന്ന ഗുളികൻ അപൂർവ്വമായി മാത്രം കാണാൻ കഴിയുന്ന തെയ്യം #theyyam chuvanna gulikan #trending",
+    "channel": "AJ CREATION",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -83,7 +100,15 @@
   "needs_eyes_on": true,
   "sacred_note": "Poomaruthan Theyyam is a sacred ritual where the performer is believed to be the living embodiment of the deity. Respectful distance should be maintained unless the deity initiates contact. Photography may be restricted in certain inner sanctums of the Poomala shrines.",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:43Z",
+   "soft_fail": [
+    "named"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -236,25 +261,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Poomaruthan Theyyam is a sacred ritual where the performer is believed to be the living embodiment of the deity. Respectful distance should be maintained unless the deity initiates contact. Photography may be restricted in certain inner sanctums of the Poomala shrines.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/poomaruthan-theyyam.json"
  },
- "fingerprint": "2a0ec42cd0fcb41b",
- "updated": "2026-11-21"
+ "fingerprint": "ec1deca4cd1c70e5",
+ "updated": "2026-11-22"
 }

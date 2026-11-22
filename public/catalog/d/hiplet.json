@@ -31,6 +31,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hiplet_(dance_style)",
   "wikidata_qid": "Q28457579",
   "unesco": false,
+  "hero_video_youtube_id": "lxvUfgAKZi8",
+  "video_stack": [
+   {
+    "youtube_id": "lxvUfgAKZi8",
+    "role": "hero",
+    "title": "Hip-Hop En Pointe: The Rhythm and Beat of Hiplet",
+    "channel": "Great Big Story",
+    "hd": true
+   },
+   {
+    "youtube_id": "VJqmS2nmYos",
+    "role": "rendition",
+    "title": "Chicago's Hiplet Ballerinas perform",
+    "channel": "ABC 7 Chicago",
+    "hd": true
+   },
+   {
+    "youtube_id": "6auAfHSE4UM",
+    "role": "rendition",
+    "title": "They Changed Ballet Forever | Hiplet Ballerinas | AGT",
+    "channel": "America's Got Talent",
+    "hd": true
+   },
+   {
+    "youtube_id": "creFTOsKD2c",
+    "role": "rendition",
+    "title": "Performance | The Hiplet Ballerinas | TEDxSanFrancisco",
+    "channel": "TEDx Talks",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -44,6 +75,12 @@
   "profile_long": "### Origins and History\nHiplet is a dance style created by Homer Hans Bryant at the Chicago Multi-Cultural Dance Center (CMDC). Its origins trace back to Bryant's earlier fusion experiments, notably his 1992 work \"Rap Ballet\" (also referenced as originating in 1994). The term \"Hiplet\" was explicitly coined in 2009 to describe this specific integration of classical ballet pointe technique and hip-hop movement. The style builds on a broader historical continuum of artists attempting to bridge classical Eurocentric ballet with urban dance forms rooted in African traditions, breaking past long-standing racialized and gendered barriers in classical dance.\n\nIn May 2016, Hiplet achieved widespread public attention after videos of CMDC dancers performing the style went viral on Instagram, gathering thousands of views worldwide. This digital exposure led to invitations for television broadcasts, including performances on ABC News and *Good Morning America*, as well as presentations on TEDx platforms. The rapid dissemination via digital media highlighted the role of social archives and online platforms in introducing contemporary dance innovations to global audiences.\n\n### How It Is Danced\nBallet serves as the technical core of Hiplet. Dancers require years of formal ballet training to build the ankle strength and alignment necessary to perform safely on pointe. Rather than strictly adhering to traditional classical ballet's vertical posture and turn-out, Hiplet incorporates sharper angles, off-center isolations, and relaxed, fluid torso dynamics drawn from hip-hop and African dance traditions. \n\nExecution involves rising to full pointe while executing hip-hop grooving, rhythmic foot taps, lower body dips, and sharp directional accents. Dancers must maintain classical control and balance while breaking away from classical alignment, demanding rigorous core stability to prevent injury during sudden rhythm changes and non-traditional weight transfers.\n\n### Music and Instruments\nUnlike traditional ballet, which is accompanied by classical orchestral scores, Hiplet is choreographed to urban music, hip-hop tracks, and contemporary pop beats. The musical rhythm features heavy basslines, syncopated drum patterns, and sharp accents. The choreography directly interacts with these urban musical meters, using the hard box of the pointe shoe to strike rhythmic accents against the floor.\n\n### Costume and Setting\nPerformance attire in Hiplet retains traditional ballet elements while adapting to the identity of its dancers. Performers typically wear traditional ballet leotards, tights, and buns. Crucially, dancers of color frequently dye their pointe shoes and tights to match their natural skin tones, challenging the historical standard of pink ballet apparel and emphasizing cultural representation. Hiplet is trained within studio environments like the CMDC and performed on theatrical stages, television sets, and digital video formats.\n\n### Occasions and Meaning\nHiplet provides young, predominantly Black dancers and dancers of color—typically between the ages of 12 and 16 during initial training—an avenue for self-expression and cultural representation within a discipline that has historically excluded them. By blending ballet with urban cultural heritage, the style offers a contemporary art form that reflects the lived experiences of its performers, redefining who can participate in high-level pointe work and expanding the aesthetic boundaries of classical dance.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:32Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "ballet"
   ]
@@ -277,32 +314,93 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "lxvUfgAKZi8",
+   "url": "https://www.youtube.com/watch?v=lxvUfgAKZi8",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "outdoor urban plaza and indoor dance studio",
+    "dancers": "group of 6 young women",
+    "formation_and_space": "lines and staggered formation, moving across the space",
+    "posture": "upright torso, knees bent in plié, weight centered over pointe shoes",
+    "footwork": "ballet-based steps on pointe, including jumps, glissades, and turns, performed to a hip-hop rhythm",
+    "arms_and_hands": "varied, including ballet port de bras and hip-hop inspired arm movements",
+    "hips_and_torso": "torso isolations and rhythmic hip movements",
+    "partnering": "none",
+    "levels_jumps_turns": "jumps, turns, and pliés on pointe",
+    "costume_and_props": "casual street clothes (jeans, jackets, t-shirts) and pointe shoes",
+    "cannot_infer": "the exact weight distribution on the pointe shoes is difficult to determine due to camera angles and video compression",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "drum machine"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 2,
+      "what": "a series of jumps on pointe with arms extended in a hip-hop style"
+     },
+     {
+      "start_s": 10,
+      "end_s": 12,
+      "what": "a synchronized jump on pointe with arms raised overhead"
+     },
+     {
+      "start_s": 104,
+      "end_s": 106,
+      "what": "a solo dancer performing a jump on pointe with a hip-hop arm gesture"
+     },
+     {
+      "start_s": 108,
+      "end_s": 110,
+      "what": "a close-up of footwork showing the transition between pointe positions"
+     },
+     {
+      "start_s": 112,
+      "end_s": 114,
+      "what": "a dancer performing a jump on pointe with a sharp arm movement"
+     },
+     {
+      "start_s": 124,
+      "end_s": 126,
+      "what": "a dancer performing a turn on pointe with a hip-hop torso isolation"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/hiplet.json"
  },
- "fingerprint": "3b462cc65be0f731",
- "updated": "2026-11-21"
+ "fingerprint": "ce0c76bb7f379c5b",
+ "updated": "2026-11-22"
 }

@@ -1064,13 +1064,14 @@
   ]
  },
  "juba-dance": {
-  "qc_at": "2026-11-02T14:49:09Z",
+  "qc_at": "2026-11-22T19:58:41Z",
   "publish_gate": "publish",
-  "qc_score": 9.85,
-  "researched_at": "2026-10-30T17:12:27Z",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:36:41Z",
   "version": "v3.3",
   "reasons": [
-   "judge_score=9.85",
+   "banned_phrasing",
+   "judge_score=10.0",
    "sacred"
   ]
  },
@@ -2943,13 +2944,14 @@
   ]
  },
  "ote-a": {
-  "qc_at": "2026-11-03T18:20:54Z",
+  "qc_at": "2026-11-22T19:58:45Z",
   "publish_gate": "publish",
-  "qc_score": 9.6,
-  "researched_at": "2026-11-03T18:16:13Z",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:38:10Z",
   "version": "v3.3",
   "reasons": [
-   "judge_score=9.6"
+   "banned_phrasing",
+   "judge_score=10.0"
   ]
  },
  "sandae-noli": {
@@ -3068,13 +3070,13 @@
   ]
  },
  "serpentine-dance": {
-  "qc_at": "2026-11-04T18:40:58Z",
+  "qc_at": "2026-11-22T19:58:49Z",
   "publish_gate": "publish",
-  "qc_score": 9.85,
-  "researched_at": "2026-11-04T17:54:42Z",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:33:00Z",
   "version": "v3.3",
   "reasons": [
-   "judge_score=9.85"
+   "judge_score=10.0"
   ]
  },
  "sigalegale": {
@@ -3344,13 +3346,14 @@
   ]
  },
  "tanovar": {
-  "qc_at": "2026-11-04T18:44:51Z",
-  "publish_gate": "publish",
-  "qc_score": 9.0,
-  "researched_at": "2026-11-04T18:29:56Z",
+  "qc_at": "2026-11-22T19:58:55Z",
+  "publish_gate": "review",
+  "qc_score": 8.3,
+  "researched_at": "2026-11-22T19:38:37Z",
   "version": "v3.3",
   "reasons": [
-   "judge_score=9.0"
+   "sections_filled",
+   "judge_score=8.3"
   ]
  },
  "corri-corri": {
@@ -4874,10 +4877,10 @@
   ]
  },
  "gojinjo-taiko": {
-  "qc_at": "2026-11-08T17:11:32Z",
+  "qc_at": "2026-11-22T19:58:59Z",
   "publish_gate": "publish",
   "qc_score": 9.25,
-  "researched_at": "2026-11-08T16:47:37Z",
+  "researched_at": "2026-11-22T19:37:53Z",
   "version": "v3.3",
   "reasons": [
    "sections_filled",
@@ -6459,14 +6462,13 @@
   ]
  },
  "malaysian-dance": {
-  "qc_at": "2026-11-13T18:15:44Z",
+  "qc_at": "2026-11-22T19:59:03Z",
   "publish_gate": "publish",
-  "qc_score": 10.0,
-  "researched_at": "2026-11-13T17:16:56Z",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T19:37:27Z",
   "version": "v3.3",
   "reasons": [
-   "sacred_handled",
-   "judge_score=10.0",
+   "judge_score=9.85",
    "sacred"
   ]
  },
@@ -7144,13 +7146,16 @@
   ]
  },
  "kerala-natanam": {
-  "qc_at": "2026-11-14T17:27:12Z",
-  "publish_gate": "publish",
-  "qc_score": 9.7,
-  "researched_at": "2026-11-14T16:28:38Z",
+  "qc_at": "2026-11-22T19:59:07Z",
+  "publish_gate": "review",
+  "qc_score": 9.5,
+  "researched_at": "2026-11-22T19:29:49Z",
   "version": "v3.3",
   "reasons": [
-   "judge_score=9.7"
+   "banned_phrasing",
+   "sacred_handled",
+   "judge_score=9.5",
+   "sacred"
   ]
  },
  "rasanritya": {
@@ -7267,13 +7272,16 @@
   ]
  },
  "bele": {
-  "qc_at": "2026-11-14T17:28:04Z",
-  "publish_gate": "publish",
-  "qc_score": 9.45,
-  "researched_at": "2026-11-14T17:20:10Z",
+  "qc_at": "2026-11-22T19:59:14Z",
+  "publish_gate": "review",
+  "qc_score": 9.25,
+  "researched_at": "2026-11-22T19:29:16Z",
   "version": "v3.3",
   "reasons": [
-   "judge_score=9.45"
+   "banned_phrasing",
+   "sacred_handled",
+   "judge_score=9.25",
+   "sacred"
   ]
  },
  "trojak": {
@@ -10942,6 +10950,590 @@
   "version": "v3.3",
   "reasons": [
    "judge_score=9.0"
+  ]
+ },
+ "temple-dance": {
+  "qc_at": "2026-11-22T19:59:18Z",
+  "publish_gate": "reject",
+  "qc_score": 8.25,
+  "researched_at": "2026-11-22T17:21:02Z",
+  "version": "v3.3",
+  "reasons": [
+   "not_duplicate",
+   "banned_phrasing",
+   "judge_score=8.25",
+   "not_a_dance",
+   "sacred"
+  ]
+ },
+ "oleg": {
+  "qc_at": "2026-11-22T19:59:20Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T17:27:33Z",
+  "version": "v3.3",
+  "reasons": [
+   "sacred_handled",
+   "judge_score=9.85",
+   "sacred"
+  ]
+ },
+ "newa-dance": {
+  "qc_at": "2026-11-22T19:59:26Z",
+  "publish_gate": "publish",
+  "qc_score": 9.7,
+  "researched_at": "2026-11-22T17:31:00Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.7",
+   "sacred"
+  ]
+ },
+ "dhemsa": {
+  "qc_at": "2026-11-22T19:59:28Z",
+  "publish_gate": "publish",
+  "qc_score": 8.95,
+  "researched_at": "2026-11-22T17:31:55Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=8.95",
+   "sacred"
+  ]
+ },
+ "tripuri-dance": {
+  "qc_at": "2026-11-22T19:59:35Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T17:32:53Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.85",
+   "sacred"
+  ]
+ },
+ "sourashtra-folk-dance": {
+  "qc_at": "2026-11-22T19:59:38Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T17:33:18Z",
+  "version": "v3.3",
+  "reasons": [
+   "banned_phrasing",
+   "judge_score=9.85",
+   "sacred"
+  ]
+ },
+ "nicaraguan-dance": {
+  "qc_at": "2026-11-22T19:59:41Z",
+  "publish_gate": "reject",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T17:34:19Z",
+  "version": "v3.3",
+  "reasons": [
+   "banned_phrasing",
+   "judge_score=9.85",
+   "not_a_dance"
+  ]
+ },
+ "q-axilu": {
+  "qc_at": "2026-11-22T19:59:46Z",
+  "publish_gate": "reject",
+  "qc_score": 6.4,
+  "researched_at": "2026-11-22T17:34:45Z",
+  "version": "v3.3",
+  "reasons": [
+   "citations",
+   "sources",
+   "judge_score=6.4"
+  ]
+ },
+ "adai-adai": {
+  "qc_at": "2026-11-22T19:59:48Z",
+  "publish_gate": "review",
+  "qc_score": 9.15,
+  "researched_at": "2026-11-22T17:35:09Z",
+  "version": "v3.3",
+  "reasons": [
+   "country",
+   "judge_score=9.15"
+  ]
+ },
+ "nos-lowen": {
+  "qc_at": "2026-11-22T19:59:54Z",
+  "publish_gate": "publish",
+  "qc_score": 9.7,
+  "researched_at": "2026-11-22T17:38:58Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.7"
+  ]
+ },
+ "snow-dance": {
+  "qc_at": "2026-11-22T20:00:00Z",
+  "publish_gate": "reject",
+  "qc_score": 8.65,
+  "researched_at": "2026-11-22T17:52:08Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=8.65",
+   "not_a_dance",
+   "sacred"
+  ]
+ },
+ "padhar-dance": {
+  "qc_at": "2026-11-22T20:00:03Z",
+  "publish_gate": "review",
+  "qc_score": 8.15,
+  "researched_at": "2026-11-22T17:55:21Z",
+  "version": "v3.3",
+  "reasons": [
+   "sacred_handled",
+   "judge_score=8.15",
+   "sacred"
+  ]
+ },
+ "the-shake": {
+  "qc_at": "2026-11-22T20:00:07Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T17:57:04Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.85"
+  ]
+ },
+ "titi-torea": {
+  "qc_at": "2026-11-22T20:00:11Z",
+  "publish_gate": "reject",
+  "qc_score": 8.1,
+  "researched_at": "2026-11-22T17:57:42Z",
+  "version": "v3.3",
+  "reasons": [
+   "insight_concrete",
+   "judge_score=8.1",
+   "doubts=1",
+   "harm"
+  ]
+ },
+ "european-dance": {
+  "qc_at": "2026-11-22T20:00:16Z",
+  "publish_gate": "reject",
+  "qc_score": 8.7,
+  "researched_at": "2026-11-22T18:05:52Z",
+  "version": "v3.3",
+  "reasons": [
+   "country",
+   "banned_phrasing",
+   "judge_score=8.7",
+   "doubts=1",
+   "not_a_dance",
+   "sacred"
+  ]
+ },
+ "grinding": {
+  "qc_at": "2026-11-22T20:00:19Z",
+  "publish_gate": "review",
+  "qc_score": 8.45,
+  "researched_at": "2026-11-22T18:19:33Z",
+  "version": "v3.3",
+  "reasons": [
+   "banned_phrasing",
+   "judge_score=8.45"
+  ]
+ },
+ "horos": {
+  "qc_at": "2026-11-22T20:00:25Z",
+  "publish_gate": "review",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T18:22:18Z",
+  "version": "v3.3",
+  "reasons": [
+   "not_duplicate",
+   "sacred_handled",
+   "judge_score=10.0",
+   "sacred"
+  ]
+ },
+ "petrunino-horo": {
+  "qc_at": "2026-11-22T20:00:28Z",
+  "publish_gate": "publish",
+  "qc_score": 9.3,
+  "researched_at": "2026-11-22T18:32:04Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.3"
+  ]
+ },
+ "akdagmadeni-halay": {
+  "qc_at": "2026-11-22T20:00:31Z",
+  "publish_gate": "publish",
+  "qc_score": 8.65,
+  "researched_at": "2026-11-22T18:33:21Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=8.65",
+   "doubts=1"
+  ]
+ },
+ "chukchu": {
+  "qc_at": "2026-11-22T20:00:34Z",
+  "publish_gate": "publish",
+  "qc_score": 9.7,
+  "researched_at": "2026-11-22T18:34:06Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.7"
+  ]
+ },
+ "glacier": {
+  "qc_at": "2026-11-22T20:00:37Z",
+  "publish_gate": "reject",
+  "qc_score": 8.65,
+  "researched_at": "2026-11-22T18:39:04Z",
+  "version": "v3.3",
+  "reasons": [
+   "sections_filled",
+   "judge_score=8.65",
+   "not_a_dance"
+  ]
+ },
+ "muchilot-bhagavathi-theyyam": {
+  "qc_at": "2026-11-22T20:00:41Z",
+  "publish_gate": "publish",
+  "qc_score": 8.7,
+  "researched_at": "2026-11-22T18:39:45Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=8.7",
+   "sacred"
+  ]
+ },
+ "chestnut": {
+  "qc_at": "2026-11-22T20:00:45Z",
+  "publish_gate": "publish",
+  "qc_score": 9.3,
+  "researched_at": "2026-11-22T18:47:09Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.3"
+  ]
+ },
+ "parai-attam": {
+  "qc_at": "2026-11-22T20:00:49Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T18:48:36Z",
+  "version": "v3.3",
+  "reasons": [
+   "sacred_handled",
+   "judge_score=10.0",
+   "sacred"
+  ]
+ },
+ "alamikkali": {
+  "qc_at": "2026-11-22T20:00:53Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T18:49:35Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.85",
+   "sacred"
+  ]
+ },
+ "bigwala": {
+  "qc_at": "2026-11-22T20:00:59Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T18:50:38Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.85",
+   "sacred"
+  ]
+ },
+ "rieldans": {
+  "qc_at": "2026-11-22T20:01:44Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T18:53:21Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=10.0",
+   "sacred"
+  ]
+ },
+ "wuju": {
+  "qc_at": "2026-11-22T20:01:48Z",
+  "publish_gate": "publish",
+  "qc_score": 9.55,
+  "researched_at": "2026-11-22T18:53:59Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.55"
+  ]
+ },
+ "tranos-choros": {
+  "qc_at": "2026-11-22T20:01:53Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T19:05:46Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.85"
+  ]
+ },
+ "vattakkali": {
+  "qc_at": "2026-11-22T20:01:57Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:06:07Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=10.0",
+   "sacred"
+  ]
+ },
+ "veeragase": {
+  "qc_at": "2026-11-22T20:02:05Z",
+  "publish_gate": "publish",
+  "qc_score": 9.85,
+  "researched_at": "2026-11-22T19:06:30Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.85",
+   "sacred"
+  ]
+ },
+ "veeranatyam": {
+  "qc_at": "2026-11-22T20:02:11Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:06:51Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=10.0",
+   "sacred"
+  ]
+ },
+ "the-stroll": {
+  "qc_at": "2026-11-22T20:02:14Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:08:17Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=10.0"
+  ]
+ },
+ "twerking": {
+  "qc_at": "2026-11-22T20:02:17Z",
+  "publish_gate": "review",
+  "qc_score": 8.85,
+  "researched_at": "2026-11-22T19:17:32Z",
+  "version": "v3.3",
+  "reasons": [
+   "not_duplicate",
+   "judge_score=8.85"
+  ]
+ },
+ "tapeinos-horo": {
+  "qc_at": "2026-11-22T20:02:24Z",
+  "publish_gate": "review",
+  "qc_score": 9.0,
+  "researched_at": "2026-11-22T19:18:20Z",
+  "version": "v3.3",
+  "reasons": [
+   "banned_phrasing",
+   "sacred_handled",
+   "judge_score=9.0",
+   "sacred"
+  ]
+ },
+ "the-chicken": {
+  "qc_at": "2026-11-22T20:02:27Z",
+  "publish_gate": "publish",
+  "qc_score": 9.25,
+  "researched_at": "2026-11-22T19:26:30Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.25"
+  ]
+ },
+ "zar-egypt": {
+  "qc_at": "2026-11-22T20:02:31Z",
+  "publish_gate": "reject",
+  "qc_score": 8.4,
+  "researched_at": "2026-11-22T19:38:59Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=8.4",
+   "not_a_dance",
+   "sacred"
+  ]
+ },
+ "cornish-dance": {
+  "qc_at": "2026-11-22T20:02:35Z",
+  "publish_gate": "publish",
+  "qc_score": 8.35,
+  "researched_at": "2026-11-22T19:40:21Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=8.35",
+   "doubts=1"
+  ]
+ },
+ "cabbage-patch": {
+  "qc_at": "2026-11-22T20:02:40Z",
+  "publish_gate": "reject",
+  "qc_score": 8.85,
+  "researched_at": "2026-11-22T19:42:10Z",
+  "version": "v3.3",
+  "reasons": [
+   "sections_filled",
+   "judge_score=8.85",
+   "doubts=1",
+   "not_a_dance"
+  ]
+ },
+ "alegras": {
+  "qc_at": "2026-11-22T20:02:44Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:44:10Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=10.0"
+  ]
+ },
+ "sagayan": {
+  "qc_at": "2026-11-22T20:02:47Z",
+  "publish_gate": "review",
+  "qc_score": 8.25,
+  "researched_at": "2026-11-22T19:44:30Z",
+  "version": "v3.3",
+  "reasons": [
+   "banned_phrasing",
+   "judge_score=8.25",
+   "sacred"
+  ]
+ },
+ "mtiuluri": {
+  "qc_at": "2026-11-22T20:02:59Z",
+  "publish_gate": "publish",
+  "qc_score": 9.45,
+  "researched_at": "2026-11-22T19:44:46Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.45"
+  ]
+ },
+ "partsa": {
+  "qc_at": "2026-11-22T20:03:00Z",
+  "publish_gate": "review",
+  "qc_score": 7.95,
+  "researched_at": "2026-11-22T19:44:59Z",
+  "version": "v3.3",
+  "reasons": [
+   "citations",
+   "judge_score=7.95",
+   "doubts=1"
+  ]
+ },
+ "saidi": {
+  "qc_at": "2026-11-22T20:03:04Z",
+  "publish_gate": "reject",
+  "qc_score": 6.4,
+  "researched_at": "2026-11-22T19:46:24Z",
+  "version": "v3.3",
+  "reasons": [
+   "citations",
+   "profile_len",
+   "profile_long_len",
+   "sections_filled",
+   "region",
+   "judge_score=6.4",
+   "not_a_dance"
+  ]
+ },
+ "dama-mali": {
+  "qc_at": "2026-11-22T20:03:17Z",
+  "publish_gate": "reject",
+  "qc_score": 7.05,
+  "researched_at": "2026-11-22T19:56:07Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=7.05",
+   "not_a_dance"
+  ]
+ },
+ "odzemek": {
+  "qc_at": "2026-11-22T20:03:18Z",
+  "publish_gate": "publish",
+  "qc_score": 9.1,
+  "researched_at": "2026-11-22T19:56:20Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.1"
+  ]
+ },
+ "ball-dels-cossiers": {
+  "qc_at": "2026-11-22T20:03:22Z",
+  "publish_gate": "publish",
+  "qc_score": 9.0,
+  "researched_at": "2026-11-22T19:56:45Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.0",
+   "sacred"
+  ]
+ },
+ "blues-dancing": {
+  "qc_at": "2026-11-22T20:03:28Z",
+  "publish_gate": "publish",
+  "qc_score": 9.0,
+  "researched_at": "2026-11-22T19:57:05Z",
+  "version": "v3.3",
+  "reasons": [
+   "judge_score=9.0",
+   "sacred"
+  ]
+ },
+ "deodhani": {
+  "qc_at": "2026-11-22T20:03:31Z",
+  "publish_gate": "publish",
+  "qc_score": 8.85,
+  "researched_at": "2026-11-22T19:57:35Z",
+  "version": "v3.3",
+  "reasons": [
+   "profile_long_len",
+   "judge_score=8.85",
+   "sacred"
+  ]
+ },
+ "sorsornet": {
+  "qc_at": "2026-11-22T20:03:35Z",
+  "publish_gate": "reject",
+  "qc_score": 8.65,
+  "researched_at": "2026-11-22T19:58:02Z",
+  "version": "v3.3",
+  "reasons": [
+   "citations",
+   "profile_long_len",
+   "sections_filled",
+   "judge_score=8.65",
+   "not_a_dance"
+  ]
+ },
+ "uzicko-kolo": {
+  "qc_at": "2026-11-22T20:03:47Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-11-22T19:58:17Z",
+  "version": "v3.3",
+  "reasons": [
+   "sections_filled",
+   "judge_score=10.0"
   ]
  }
 }

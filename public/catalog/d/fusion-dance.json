@@ -365,33 +365,167 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
-   },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    }
   ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "arms": "performance",
    "formation": "performance",
-   "signature_moves": "performance",
+   "signature_moves": "lesson",
    "rhythm": "lesson",
    "sound": "performance",
+   "lesson_plan": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "0-zNYiHo8TE",
+   "url": "https://www.youtube.com/watch?v=0-zNYiHo8TE",
+   "title": "10-Minute Salsa Pop Fusion Dance Workout With Luis Cervantes | POPSUGAR FITNESS",
+   "channel": "PS Fit ",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces himself and his two assistants."
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the first salsa-inspired steps."
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "segment": "slow_practice",
+     "note": "The teacher leads the class through the steps at a slower tempo."
+    },
+    {
+     "t": "1:01",
+     "seconds": 61,
+     "segment": "music_practice",
+     "note": "The class practices the steps with music."
+    },
+    {
+     "t": "3:13",
+     "seconds": 193,
+     "segment": "breakdown",
+     "note": "The teacher introduces and breaks down a new step, the grapevine."
+    },
+    {
+     "t": "7:27",
+     "seconds": 447,
+     "segment": "breakdown",
+     "note": "The teacher introduces the final step, a 'party' arm movement."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Salsa basic",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "A basic step involving rocking the hips and stepping side to side."
+    },
+    {
+     "name": "Grapevine",
+     "counts": "1-2-3-4",
+     "description": "A step involving stepping back and popping the leg."
+    },
+    {
+     "name": "Party arms",
+     "counts": "1-2-3-4",
+     "description": "An arm movement involving pumping the arms in a party-like motion."
+    }
+   ],
+   "cues": [
+    "Rock those hips",
+    "Let it feel good",
+    "Pick it up",
+    "Double time",
+    "Drop it down",
+    "Keep it working"
+   ],
+   "images": [
+    "Sometimes I think I'm a rapper or something"
+   ],
+   "teacher_style": "The teacher is high-energy and encouraging, frequently praising his students and emphasizing the importance of having fun. He uses a mix of verbal cues and physical demonstrations to guide the class through the choreography.",
+   "distinctive_method": "The teacher frequently uses the phrase 'make it yours' to encourage students to add their own personal flair to the movements.",
+   "what_works": [
+    "The teacher breaks down the steps clearly and uses simple, repetitive movements.",
+    "The teacher's high energy and positive attitude make the lesson engaging and easy to follow."
+   ],
+   "what_hinders": [
+    "The fast pace of the music and the quick transitions between steps might be challenging for some beginners."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher introduces himself and his assistants, setting a welcoming tone.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 16,
+     "end_s": 26,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the basic salsa step, emphasizing hip movement.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 34,
+     "end_s": 44,
+     "topic": "teaching",
+     "observation": "The teacher leads the class through the steps at a slower tempo, providing verbal cues.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 101,
+     "end_s": 111,
+     "topic": "movement",
+     "observation": "The class practices the steps with music, showing the full choreography.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 193,
+     "end_s": 203,
+     "topic": "teaching",
+     "observation": "The teacher breaks down a new step, the grapevine, and demonstrates it.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 447,
+     "end_s": 457,
+     "topic": "teaching",
+     "observation": "The teacher introduces the final step, a 'party' arm movement, and demonstrates it.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "4hB5m2ErOTo",
    "url": "https://www.youtube.com/watch?v=4hB5m2ErOTo",
@@ -515,6 +649,6 @@
   "polished": false,
   "file": "episodes/fusion-dance.json"
  },
- "fingerprint": "236b58bb1e74f8dc",
- "updated": "2026-11-21"
+ "fingerprint": "de2e829d11ade601",
+ "updated": "2026-11-22"
 }

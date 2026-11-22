@@ -1,21 +1,20 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-21T19:42:50Z",
+ "generated_at": "2026-11-22T20:26:21Z",
  "last_night": {
-  "date": "2026-11-20",
-  "started": "2026-11-20T17:52:43Z",
-  "finished": "2026-11-20T20:13:43Z",
-  "minutes": 141,
-  "questions": 242,
-  "unanswered": 0,
+  "date": "2026-11-21",
+  "started": "2026-11-21T16:50:57Z",
+  "finished": "2026-11-21T19:44:03Z",
+  "minutes": 173,
+  "questions": 256,
+  "unanswered": 1,
   "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: overloaded 25, day_quota_used_up 5, timeout_or_network 4, model_gone 1",
-   "pedagogy: model trouble: unusable_answer 1",
-   "episodes: model trouble: overloaded 1",
-   "translate: model trouble: overloaded 1",
-   "teaching: model trouble: overloaded 2"
+   "research: model trouble: overloaded 24, timeout_or_network 7, day_quota_used_up 5, unusable_answer 3, model_gone 1",
+   "qc: model trouble: day_quota_used_up 1",
+   "pedagogy: model trouble: unusable_answer 3, overloaded 2, timeout_or_network 2, model_gone 1",
+   "teaching: model trouble: unusable_answer 3, day_quota_used_up 1, model_gone 1"
   ]
  },
  "nights": [
@@ -200,19 +199,26 @@
    "questions": 242,
    "unanswered": 0,
    "errors": 0
+  },
+  {
+   "date": "2026-11-21",
+   "minutes": 173,
+   "questions": 256,
+   "unanswered": 1,
+   "errors": 0
   }
  ],
  "counts": {
-  "listed": 1272,
-  "researched": 630,
-  "published": 512,
-  "active_ready": 37,
-  "one_short": 45,
-  "two_short": 46,
-  "three_to_five_short": 119,
-  "story_ready_teaching_withheld": 46,
-  "lessons_studied": 203,
-  "performances_observed": 171
+  "listed": 1295,
+  "researched": 665,
+  "published": 540,
+  "active_ready": 40,
+  "one_short": 47,
+  "two_short": 51,
+  "three_to_five_short": 122,
+  "story_ready_teaching_withheld": 51,
+  "lessons_studied": 237,
+  "performances_observed": 220
  },
  "line": [
   {
@@ -268,81 +274,90 @@
    "active_ready": 37,
    "lessons_studied": 203,
    "performances_observed": 171
+  },
+  {
+   "date": "2026-11-22",
+   "listed": 1295,
+   "researched": 665,
+   "published": 540,
+   "active_ready": 40,
+   "lessons_studied": 237,
+   "performances_observed": 220
   }
  ],
  "pace": {
-  "days": 5,
+  "days": 6,
   "per_night": {
-   "listed": 23.4,
-   "published": 30.6,
-   "active_ready": 6.4
+   "listed": 23.3,
+   "published": 30.2,
+   "active_ready": 5.8
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 297
+   "profiles": 309
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 193
+   "profiles": 200
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 188
+   "profiles": 193
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 147
+   "profiles": 152
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 127
+   "profiles": 134
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 121
+   "profiles": 126
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 113
+   "profiles": 118
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 111
+   "profiles": 113
   },
   {
    "key": "arms",
    "label": "arms and hands",
-   "profiles": 89
+   "profiles": 92
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 82
+   "profiles": 85
   },
   {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 76
+   "profiles": 81
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 66
+   "profiles": 69
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 45
+   "profiles": 46
   },
   {
    "key": "status",
@@ -372,8 +387,8 @@
    ]
   },
   {
-   "slug": "bele",
-   "name": "Bele",
+   "slug": "alegras",
+   "name": "Alegrías",
    "needs": [
     "the steps with their counts"
    ],
@@ -492,6 +507,16 @@
    ]
   },
   {
+   "slug": "dutty-wine",
+   "name": "Dutty Wine",
+   "needs": [
+    "a licensed picture or licensed footage"
+   ],
+   "need_keys": [
+    "picture"
+   ]
+  },
+  {
    "slug": "eccentric-dance",
    "name": "Eccentric dance",
    "needs": [
@@ -532,6 +557,16 @@
    ]
   },
   {
+   "slug": "finger-tutting",
+   "name": "Finger Tutting",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
    "slug": "fouette",
    "name": "Fouetté",
    "needs": [
@@ -539,6 +574,16 @@
    ],
    "need_keys": [
     "sound"
+   ]
+  },
+  {
+   "slug": "fusion-dance",
+   "name": "Fusion Dance",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
    ]
   },
   {
@@ -564,6 +609,16 @@
   {
    "slug": "grotesque-dance",
    "name": "Grotesque dance",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
+   "slug": "hiplet",
+   "name": "Hiplet",
    "needs": [
     "the steps with their counts"
    ],
@@ -622,16 +677,6 @@
    ]
   },
   {
-   "slug": "kerala-natanam",
-   "name": "Kerala Natanam",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
-  },
-  {
    "slug": "makossa",
    "name": "makossa",
    "needs": [
@@ -669,16 +714,6 @@
    ],
    "need_keys": [
     "footwork_counts"
-   ]
-  },
-  {
-   "slug": "pantsula",
-   "name": "Pantsula",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
    ]
   },
   {
@@ -730,26 +765,6 @@
    "need_keys": [
     "footwork_counts"
    ]
-  },
-  {
-   "slug": "rebolation",
-   "name": "Rebolation",
-   "needs": [
-    "a licensed picture or licensed footage"
-   ],
-   "need_keys": [
-    "picture"
-   ]
-  },
-  {
-   "slug": "sequence-dance",
-   "name": "Sequence dance",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
   }
  ],
  "owner": {
@@ -759,24 +774,24 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 24,
+  "topics_read": 30,
   "first": {
    "topics": 14,
-   "read": 0
+   "read": 6
   },
   "next": [
-   "psychological_safety",
-   "learning_by_teaching",
-   "awe_and_transcendence",
-   "learning_climate",
-   "peer_teaching",
-   "spirituality_and_dance"
+   "mindful_movement",
+   "peer_mentoring",
+   "meaning_and_staying",
+   "embodied_learning",
+   "life_skills_that_transfer",
+   "ritual_and_belonging"
   ],
-  "papers_read": 9,
-  "lessons_studied": 60,
-  "teachers_studied": 53,
-  "findings_checked": 106,
+  "papers_read": 12,
+  "lessons_studied": 68,
+  "teachers_studied": 60,
+  "findings_checked": 131,
   "practices": 37,
-  "practices_in_dna": 24
+  "practices_in_dna": 28
  }
 }

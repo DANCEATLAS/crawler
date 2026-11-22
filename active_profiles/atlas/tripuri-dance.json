@@ -1,0 +1,132 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Tokka clapper beat coordination with step movement.",
+          "source": "https://en.wikipedia.org/wiki/Dances_of_Tripura"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand mudras mimicking natural elements; waving colorful scarves; balancing lamps on hands; striking bamboo clappers.",
+      "difficulty": "intermediate",
+      "footwork": "Progressive village-to-village walking steps that build in tempo; localized lower-body swaying and stepping.",
+      "formation_and_space": "Processions moving across village terrain; small group floor patterns of 4 to 6 members.",
+      "hips_and_torso": "Isolated lower-body motion in Hojagiri while torso remains stationary to support head props; fluid natural torso sways in Lebang Boomani.",
+      "levels_and_jumps": "Primarily grounded stepping and swaying; minimal high jumping.",
+      "partnering": "Complementary gender roles where men manage rhythm instruments/clappers and women perform prop/scarf movement.",
+      "posture": "Varies from erect torso holding balance with lower-body isolation (Hojagiri) to fluid, bending stances mimicking agricultural acts and nature (Lebang Boomani, Mosak sulmani).",
+      "signature_moves": [
+        {
+          "description": "Men striking bamboo clappers rhythmically to attract insects.",
+          "name": "Tokka Clapping"
+        },
+        {
+          "description": "Women waving bright scarves through the air to catch flying insects.",
+          "name": "Lebang Scarf Catch"
+        },
+        {
+          "description": "Reang women swaying hips and moving lower body while balancing bottles, pitchers, or lamps.",
+          "name": "Prop Balancing Lower Isolation"
+        }
+      ],
+      "tempo_feel": "Accelerating from a steady initial tempo to a fast peak.",
+      "what_to_avoid": "Avoid sudden head movements during balancing routines; do not disassociate upper and lower body isolations during prop balancing."
+    },
+    "music_profile": {
+      "instruments": [
+        "Khamb drum",
+        "Pung",
+        "Flute",
+        "Sarinda",
+        "Tokka (bamboo clapper)"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "festive",
+        "devotional",
+        "agrarian",
+        "rhythmic",
+        "lively"
+      ],
+      "musical_form": "Strophic rhythmic framework that gradually accelerates in tempo.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic bamboo clapper striking (tokka) coupled with steady khamb and pung percussion beats that accelerate progressively.",
+      "sound_description": "A vibrant acoustic blend dominated by the sharp, repetitive crack of bamboo tokka clappers, deep resonant thuds of khamb and pung percussion, melismatically floating bamboo flute melodies, and high-pitched sarinda strings.",
+      "tempo_bpm": "80-140",
+      "vocal_style": "Group unison singing by team members accompanying performance."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Gradual tempo shift from slow step-touch to rapid rhythmic footwork (Goria)",
+        "Tokka bamboo clapper striking pattern by male dancers (Lebang Boomani)",
+        "Scarf waving in rhythmic sweeping paths to capture imaginary insects (Lebang Boomani)",
+        "Lower-body isolated hip and sway movements while keeping the upper torso rigid and balancing head props (Hojagiri)"
+      ],
+      "formation": "Mixed-gender lines or processional groups moving village to village (Goria); teams of 4 to 6 women (Hojagiri); paired gender groups (Lebang Boomani).",
+      "level_notes": "Beginners start with basic step patterns and clapper rhythms of Lebang Boomani or Goria before attempting lower-body isolation and object balancing in Hojagiri.",
+      "rhythm": "Varies by form; driven by khamb drums, pung percussion, bamboo clappers, and flutes with gradually increasing tempo."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "c505110c7ed9167d02ece57f0f049a36a69f1cb3f3246476abce8b289404572e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:tripuri-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tripuri dance",
+  "open_questions": [],
+  "research_file": "research_results/tripuri-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tripuri-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dances_of_Tripura",
+    "https://www.wikidata.org/wiki/Q17071491"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

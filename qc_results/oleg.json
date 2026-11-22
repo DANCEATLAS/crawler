@@ -1,0 +1,120 @@
+{
+ "slug": "oleg",
+ "qc_at": "2026-11-22T19:59:20Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Oleg"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "190"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Choreographed in Tabanan in 1952 by I Ketut Marya for producer John Coast, Oleg "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "574"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "4148"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched, accurate, and respectful. It correctly identifies the dance's origins as a 1952 fusion project while acknowledging its status as a modern classic. The teaching and adaptation sections are safe and well-structured."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T17:27:33Z"
+}

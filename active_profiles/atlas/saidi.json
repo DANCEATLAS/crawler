@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "7bd5074aac73349154b34c2227e3ef901cbee80df024815497e289697cc849cb",
+  "fingerprint": "64c8f7a193d2221e7bfb1074f133acbaeedf1977d148c0dd3d493764c8d7dde8",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the primary sources for the dance tradition of Saidi? Evidence needed: Ethnographic or dance history documentation regarding Upper Egyptian folk dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Saidi",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "192cf240515c0852",
+      "next_evidence": "Ethnographic or dance history documentation regarding Upper Egyptian folk dance.",
+      "question": "What are the primary sources for the dance tradition of Saidi?",
+      "source": "https://en.wikipedia.org/wiki/Rym_Breidy",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided sources are exclusively about a model named Rym Saidi and do not contain information on the dance."
+    }
+  ],
+  "research_file": "research_results/saidi.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +114,10 @@
   },
   "slug": "saidi",
   "sources": [
-    "https://nyfolklore.org/egyptian-saidi-dance/",
-    "https://en.wikipedia.org/wiki/Belly_dance"
+    "https://en.wikipedia.org/wiki/Rym_Breidy",
+    "https://www.wikidata.org/wiki/Q12214097",
+    "https://es.wikipedia.org/wiki/Rym_Breidy",
+    "https://fr.wikipedia.org/wiki/Rym_Saïdi"
   ],
   "state": "researching",
   "video_evidence": []

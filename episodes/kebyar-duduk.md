@@ -1,6 +1,6 @@
 # Kebyar duduk — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to
 
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Assume a low cross-legged or half-seated squat position on the ground
 NARRATION: Hold the fan in the right hand and execute sharp wrist flicks
-NARRATION: Count it: jeng-jeng-ereng-ereng-pak-pak.
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -110,7 +110,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: jeng-jeng-ereng-ereng-pak-pak. The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Rapid percussive interlocking patterns punctuated by sudden explosive breaks (kebyar) and sudden shifts in volume.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -125,7 +125,7 @@ NARRATION: Drill: Practice holding a steady cross-legged squat with upright spin
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: jeng-jeng-ereng-ereng-pak-pak · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Isolate active eye movements to shift expressions across distinct emotional registers
@@ -133,7 +133,7 @@ NARRATION: Step 4: Execute seated turns on folded legs without elevating the tor
 NARRATION: Drill: Perform wrist-flick snaps with the fan in the right hand
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: jeng-jeng-ereng-ereng-pak-pak · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -152,7 +152,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the torso isolations, fan flicks, and active eye movements while sitting upright in a standard chair rather than squatting on the floor. · For children: A interactive game where children freeze in low squatting postures and flash dramatic eyes or fan snaps whenever the drum stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: jeng-jeng-ereng-ereng-pak-pak.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 240 bpm
@@ -183,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: jeng-jeng-ereng-ereng-pak-pak. The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Rapid percussive interlocking patterns punctuated by sudden explosive breaks (kebyar) and sudden shifts in volume.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -196,7 +196,7 @@ NARRATION: Drill: Execute rapid lateral eye darting drills to accent percussive 
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: jeng-jeng-ereng-ereng-pak-pak · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Angsel: Sudden sharp movement accent or flourish that cues the lead drummer to shift the orchestra's rhythm or volume.
@@ -205,7 +205,7 @@ NARRATION: Drill: Practice 180-degree floor turns while maintaining a low squat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: jeng-jeng-ereng-ereng-pak-pak · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -224,7 +224,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the torso isolations, fan flicks, and active eye movements while sitting upright in a standard chair rather than squatting on the floor. · For children: A interactive game where children freeze in low squatting postures and flash dramatic eyes or fan snaps whenever the drum stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: jeng-jeng-ereng-ereng-pak-pak.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo dancer remaining within a localized central floor footprint, performing 360-degree seated spins
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 240 bpm
@@ -255,7 +255,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: jeng-jeng-ereng-ereng-pak-pak. The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Rapid percussive interlocking patterns punctuated by sudden explosive breaks (kebyar) and sudden shifts in volume.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -269,7 +269,7 @@ NARRATION: Drill: Initiate sharp accent flourishes (angsel) precisely on four-be
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: jeng-jeng-ereng-ereng-pak-pak · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Angsel: Sudden sharp movement accent or flourish that cues the lead drummer to shift the orchestra's rhythm or volume.
@@ -278,7 +278,7 @@ NARRATION: Drill: Execute full 360-degree seated turns in continuous sequence wh
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: jeng-jeng-ereng-ereng-pak-pak · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -297,7 +297,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the torso isolations, fan flicks, and active eye movements while sitting upright in a standard chair rather than squatting on the floor. · For children: A interactive game where children freeze in low squatting postures and flash dramatic eyes or fan snaps whenever the drum stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: jeng-jeng-ereng-ereng-pak-pak.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo dancer remaining within a localized central floor footprint, performing 360-degree seated spins
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 240 bpm
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: jeng-jeng-ereng-ereng-pak-pak
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
-Cues: jeng; pak; ser; kanan; kiri; mundur; depan
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: kanan; kiri; mundur; depan; jeng; pak; ser
 Common mistakes the studied teachers name: asal banting tumit
 
 Sources (3): https://en.wikipedia.org/wiki/Kebyar_duduk; https://www.wikidata.org/wiki/Q18572835; https://it.wikipedia.org/wiki/Kebyar_duduk

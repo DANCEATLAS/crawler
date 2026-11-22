@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -64,43 +64,74 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "0d2c5c77068259d7",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "CoFrm_kaRIw",
+   "url": "https://www.youtube.com/watch?v=CoFrm_kaRIw",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "outdoor desert setting during daylight, with a sandy ground and spectators gathered around",
+    "dancers": "mixed group of women and men; women dance solo or in pairs in the center while men and other women sit or stand around clapping and singing",
+    "formation_and_space": "concentric semi-circle of seated or kneeling spectators surrounding one or two dancers in the center",
+    "posture": "dancers are kneeling or sitting low on the ground with upright torsos, heads covered with veils",
+    "footwork": "kneeling on the ground; foot stepping and weight transfer cannot be seen",
+    "arms_and_hands": "arms extended forward or raised at shoulder height, hands performing intricate finger fluttering and articulation",
+    "hips_and_torso": "subtle upper body movements and torso sway",
+    "partnering": "none; solo or independent dancers sharing the central space",
+    "levels_jumps_turns": "low level only, staying on knees throughout; no jumps or turns visible",
+    "costume_and_props": "women wear long dresses, headbands with coins or beads, and dark veils covering parts of the head/face; men wear traditional blue and white tunics and head wraps",
+    "cannot_infer": "footwork and lower body weight shifts are entirely occluded by long dresses and kneeling position; exact acoustic details of instruments other than percussion drums are uncertain.",
+    "music_heard": {
+     "instruments": [
+      "drum"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 2,
+      "end_s": 15,
+      "what": "Dancer kneeling on the ground with arms outstretched, rhythmically fluttering fingers and hands."
+     },
+     {
+      "start_s": 41,
+      "end_s": 58,
+      "what": "Dancer kneeling in the center under a black veil, moving hands expressively while surrounding group claps."
+     },
+     {
+      "start_s": 133,
+      "end_s": 146,
+      "what": "Two women kneeling facing each other, mirroring hand gestures and finger fluttering."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "aaa3ba73cecc35b0",
+ "updated": "2026-11-22"
 }

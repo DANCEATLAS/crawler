@@ -33,7 +33,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -41,51 +41,151 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
    },
    {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "13a9a0ffc19fed1a",
- "updated": "2026-11-21"
+ "lessons": [
+  {
+   "youtube_id": "gu6SBY1M_ac",
+   "url": "https://www.youtube.com/watch?v=gu6SBY1M_ac",
+   "title": "How to Takalo",
+   "channel": "TheCoconetTV",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "line-by-line",
+   "parts": [
+    {
+     "t": "0:22",
+     "seconds": 22,
+     "segment": "intro",
+     "note": "Introduction to the Takalo dance and its background"
+    },
+    {
+     "t": "1:35",
+     "seconds": 95,
+     "segment": "context",
+     "note": "Explanation of the lyrics and meaning of the chant"
+    },
+    {
+     "t": "2:30",
+     "seconds": 150,
+     "segment": "breakdown",
+     "note": "Step-by-step breakdown of actions for each line of the chant"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Ko mau tolu nei, koe tau tangata",
+     "counts": "line 1",
+     "description": "Throw arms wide and chant"
+    },
+    {
+     "name": "Si kai tangata, si kai tangata",
+     "counts": "line 2",
+     "description": "Crouch stance with alternating chest taps"
+    },
+    {
+     "name": "To mau e au a koe mongo nei",
+     "counts": "line 3",
+     "description": "Punch forward with fist"
+    },
+    {
+     "name": "Si he he he",
+     "counts": "line 4",
+     "description": "Cross arms over chest and lean side to side"
+    }
+   ],
+   "cues": [
+    "Line 1",
+    "Line 2",
+    "Line 3",
+    "Line 4"
+   ],
+   "images": [
+    "We will rip you apart into tiny little pieces"
+   ],
+   "teacher_style": "The instructor uses an energetic, humorous approach, combining cultural context with line-by-line lyric breakdowns. He guides students through the performance by breaking down each phrase of the Niuean chant alongside its literal action.",
+   "distinctive_method": "Teaching the dance choreography directly tied to the translation and dramatic intent of each line of the Niuean war chant lyrics.",
+   "what_works": [
+    "Clear on-screen lyrics with translation",
+    "Breaking down the dance line by line"
+   ],
+   "what_hinders": [
+    "Fast transitions between historical footage and instruction"
+   ],
+   "evidence": [
+    {
+     "start_s": 141,
+     "end_s": 153,
+     "topic": "teaching",
+     "observation": "Instructor points to lyric text displayed on screen while explaining meaning.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact foot placement",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "7bYW9I_mDlY",
+   "url": "https://www.youtube.com/watch?v=7bYW9I_mDlY",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Outdoor grassy field near trees and water, overcast day, with documentary-style cutaways to an indoor community room where costumes are being prepared.",
+    "dancers": "A group of adult men, shirtless with painted faces and leaf skirts, performing the dance together; some women and children appear in the documentary footage.",
+    "formation_and_space": "Group arranged in staggered rows facing forward in an open field, performing synchronized movements and marching in line outdoors.",
+    "posture": "Low athletic stance with knees bent wide, torso leaning slightly forward, weight held low in the legs.",
+    "footwork": "Stamping and stepping dynamically on the beat, low lunges, quick weight shifts, and rapid crouching and springing motions.",
+    "arms_and_hands": "Arms wielding wooden weapons (spears or paddles), thrusting, waving, holding objects aloft, and gesturing forcefully.",
+    "hips_and_torso": "Torso twisting and crouching with powerful, aggressive isolations and expressive upper body contractions.",
+    "partnering": "None",
+    "levels_jumps_turns": "Low level deep knee bends and crouched lunges, sharp postural changes, occasional turns.",
+    "costume_and_props": "Men wear leaf skirts (fala) and leaf shoulder garlands, black face paint, and hold wooden weapons; documentary segments show people making the leaf skirts.",
+    "cannot_infer": "Exact acoustic properties of instrumental accompaniment due to dominant vocals and chanting; fine details of footwork obscured by grass.",
+    "music_heard": {
+     "instruments": [],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 2,
+      "end_s": 5,
+      "what": "Group lunges low with bent knees while thrusting wooden weapons forward in unison."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "5468a2e416dd198e",
+ "updated": "2026-11-22"
 }

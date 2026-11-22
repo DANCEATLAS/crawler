@@ -59,10 +59,26 @@
    "voice": [
     "warm",
     "calm",
-    "patient"
+    "patient",
+    "precise"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:00",
+     "moment": "opening",
+     "says": "The teacher introduces herself and the content of the video, which is a series of ten basic aerial hammock tricks.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "0:28",
+     "moment": "closing",
+     "says": "The teacher encourages the learner to watch until the end to learn her practice method and invites them to subscribe for more content.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling that they can easily combine basic tricks into a flow."
   },
   "learner_voice": {
    "struggles": [
@@ -118,5 +134,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-22T20:24:24Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 2,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

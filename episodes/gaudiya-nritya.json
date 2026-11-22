@@ -2,7 +2,7 @@
  "slug": "gaudiya-nritya",
  "name": "Gaudiya Nritya",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:48Z",
  "researched_at": "2026-11-21T17:11:57Z",
  "qc_score": 9.7,
  "status": "withheld-chapters",
@@ -66,7 +66,7 @@
      "This is Gaudiya Nritya. Ancient origin; reconstructed 1980s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (PO8zQAh6iEA)",
      "Title card: Gaudiya Nritya · India · Ancient origin; reconstructed 1980s"
     ],
     "music": "theme (30 s)"
@@ -106,7 +106,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (PO8zQAh6iEA)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -259,7 +259,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "PO8zQAh6iEA",
+   "checked_by_vision_model": true,
+   "title": "Saraswati Vandana | Gaudiya Nritya | Classical Dance of Bengal"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -391,8 +395,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "12 tutorial(s) of the classical-court family studied",
-  "videos_studied": 12,
+  "source": "13 tutorial(s) of the classical-court family studied",
+  "videos_studied": 13,
   "counting": "count the Variable multi-meter cycles determined by varṇakāla (4 to 68 units) bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -401,18 +405,18 @@
    "repetitions per step: about 10"
   ],
   "cues": [
-   "uno dos tres cuatro",
-   "sin parar",
-   "y ahora de regreso",
-   "tha-ka-di-ki-ta",
-   "tha-the-hi-tha",
    "1",
    "2",
    "3",
    "4",
    "5",
    "6",
-   "kick kick kick kick step"
+   "neutralize your pelvis",
+   "shoulders are dropped",
+   "squeeze your abs",
+   "keep your eyes locked",
+   "kick kick kick kick step",
+   "curtsy and bow"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -429,7 +433,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "the how-it-is-danced section",
   "signature moves",
   "the costume & setting section",
@@ -442,6 +445,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "9aefd61a218fc615f1c7ef86276455a0a80376e9d08dfc6be6d22cbd859383e2",
- "hero_checked": null
+ "input_fingerprint": "2a06617bccefabd3022c4cc5521c2ebfbb5fc388c85febd888865c708ad4a617",
+ "hero_checked": "pass"
 }

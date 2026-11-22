@@ -1,24 +1,124 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "real valaska axes",
+          "deep squats",
+          "high leaps"
+        ],
+        "counts": "Simplified 4-count slow build",
+        "duration_minutes": "3",
+        "game_version": "A safe tag-style game mimicking the separation and meeting of dancers without weapons"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "jumping movements",
+          "ducking",
+          "valaska axe handling",
+          "squat dances"
+        ],
+        "counts": "Basic slow-to-fast counts based on source acceleration",
+        "seated_version": "Seated foot-tapping maintaining the accelerating tempo concept",
+        "standing_version": "Supported standing balance drill without jumps or axes",
+        "tempo_and_range": "Reduced tempo and eliminated low squatting and jumping ranges"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Distinguish between the slow initial footwork phase and the rapid acceleration phase",
+          "source": "https://en.wikipedia.org/wiki/Odzemek"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Execute the opening subtle ground-level foot movements",
+          "source": "https://en.wikipedia.org/wiki/Odzemek"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Basic lower body agility for squatting and jumping motions",
+          "source": "https://en.wikipedia.org/wiki/Odzemek"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Solo performance or group formation with paired mock duels using a valaška or long stick",
+          "source": "https://en.wikipedia.org/wiki/Odzemek"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "danced with the Valaška in most regions, or a long stick in some Eastern Slovak regions",
+      "difficulty": "intermediate",
+      "footwork": "begins with subtle foot movements that become more dramatic and fast paced",
+      "formation_and_space": "solo or with a group of dancers together, where two dancers will separate and come together to perform a mock duel",
+      "hips_and_torso": "features some elements of dancing that is slightly similar to more eastern squat dances",
+      "levels_and_jumps": "jumping and ducking movements, squat dances",
+      "partnering": "mock duel featuring jumping and ducking movements where one dancer aims for the head and the other aims for the lower legs",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Two dancers separate and come together to perform a mock duel featuring jumping and ducking with one aiming for the head and the other for the lower legs.",
+          "name": "Valaška mock duel"
+        }
+      ],
+      "tempo_feel": "starts out slow and gets faster as the dance goes on",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "string instruments",
+        "Cimbalom",
+        "Fujara",
+        "Koncovka"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "traditional",
+        "accelerating",
+        "dramatic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Antonín Dvořák",
+          "title": "Slavonic Dances Op. 72, No. 1"
+        }
+      ],
+      "rhythm_pattern": "starts out slow and gets faster as the dance goes on",
+      "sound_description": "Played in a traditional Moravian or Slovak style formation featuring string instruments and the cimbalom, accompanied frequently by the distinctive breathy tones of the fujara and koncovka.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Subtle foot movements close to the ground",
+        "Accelerating dramatic and fast-paced steps",
+        "Eastern-style squat dance elements",
+        "Mock duel jumping and ducking"
+      ],
+      "formation": "Solo or group of dancers together, with two dancers separating for a mock duel",
+      "level_notes": "Begins slow and gets faster as the dance goes on",
+      "rhythm": "accelerating tempo"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "6b4b07a57af6296758fb70c116068848a60c749dcbe135bca5756d033e93a68e",
+  "fingerprint": "b16f1e5d9ff5971ef7ae58e5253bd0886c69efd51449f2f7e3a42ba87ab01e2c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
       "Human BDF consent/matching, moderation and measured session synchronization",
-      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+      "Tested camera/split-screen delivery; AR remains an optional future adapter",
+      "Investigate: How can safety parameters be coded for digital motion-tracking of the mock duel and valaška axe elements? Evidence needed: Safety guidelines for martial arts and weapon-based folk dance instruction."
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter",
+      "Investigate: What are the exact musical meters and tempo ranges used by traditional Moravian and Slovak string and cimbalom ensembles for the odzemek? Evidence needed: Ethnomusicological field recordings and regional dance manuals from Slovakia."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +145,27 @@
   ],
   "music_options": [],
   "name": "Odzemek",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c6158128cbdc2763",
+      "next_evidence": "Ethnomusicological field recordings and regional dance manuals from Slovakia.",
+      "question": "What are the exact musical meters and tempo ranges used by traditional Moravian and Slovak string and cimbalom ensembles for the odzemek?",
+      "source": "https://en.wikipedia.org/wiki/Odzemek",
+      "status": "candidate_unreviewed",
+      "why_needed": "Needed to design precise digital rhythm tracks for interactive learning."
+    },
+    {
+      "domain": "platform",
+      "id": "58f8dc411224639d",
+      "next_evidence": "Safety guidelines for martial arts and weapon-based folk dance instruction.",
+      "question": "How can safety parameters be coded for digital motion-tracking of the mock duel and valaška axe elements?",
+      "source": "https://en.wikipedia.org/wiki/Odzemek",
+      "status": "candidate_unreviewed",
+      "why_needed": "To prevent injury when learners simulate jumping and ducking attacks targeting the head and lower legs."
+    }
+  ],
+  "research_file": "research_results/odzemek.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +177,7 @@
   "slug": "odzemek",
   "sources": [
     "https://en.wikipedia.org/wiki/Odzemek",
-    "Source: Odzemek on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Odzemek"
+    "https://www.wikidata.org/wiki/Q7078447"
   ],
   "state": "researching",
   "video_evidence": []

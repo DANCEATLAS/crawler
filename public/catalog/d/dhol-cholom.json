@@ -56,7 +56,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -76,43 +76,74 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "aa70b5551d30a5de",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "4Q6Ot-fJ-lI",
+   "url": "https://www.youtube.com/watch?v=4Q6Ot-fJ-lI",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "A large, covered, outdoor performance space with a concrete floor, decorated with fabric and lights, with an audience seated on the floor around the perimeter.",
+    "dancers": "A group of about 10-12 men and boys.",
+    "formation_and_space": "The dancers move in a circle, sometimes breaking into smaller groups or pairs, and frequently changing direction.",
+    "posture": "The torso is generally upright but often leans forward or sideways during turns and jumps; knees are bent, and the weight is shifted dynamically.",
+    "footwork": "The stepping pattern is energetic, involving quick, rhythmic steps, leaps, and hops that align with the drum beats. The exact footwork is difficult to see due to the camera angle and distance.",
+    "arms_and_hands": "The arms are used expressively, often held out to the sides or above the head, sometimes holding a cloth or the drum itself. The hands are active, sometimes striking the drum.",
+    "hips_and_torso": "The torso and hips are used for balance and to facilitate the turns and jumps, with some subtle swaying and twisting.",
+    "partnering": "There is no direct physical contact between the dancers, but they coordinate their movements as a group.",
+    "levels_jumps_turns": "The dance involves frequent jumps, leaps, and turns, with some dancers occasionally dropping to a lower level or performing a squat.",
+    "costume_and_props": "The dancers wear traditional attire, including a dhoti-like garment, and each carries a large, cylindrical drum (dhol) strapped to their chest.",
+    "cannot_infer": "The low resolution and camera distance make it difficult to see the precise footwork and weight transfer. The rapid movement and camera cuts also make it difficult to follow individual dancers.",
+    "music_heard": {
+     "instruments": [
+      "dhol (cylindrical drum)"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 1,
+      "end_s": 10,
+      "what": "The dancers enter the space in a line, playing their drums and performing a rhythmic, hopping step."
+     },
+     {
+      "start_s": 100,
+      "end_s": 110,
+      "what": "The dancers perform a series of quick, coordinated turns while playing their drums."
+     },
+     {
+      "start_s": 200,
+      "end_s": 210,
+      "what": "The dancers perform a series of jumps and leaps, with some dancers dropping to a lower level."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "47dc2d92df4b6690",
+ "updated": "2026-11-22"
 }

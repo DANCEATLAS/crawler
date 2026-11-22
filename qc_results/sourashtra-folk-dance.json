@@ -1,0 +1,120 @@
+{
+ "slug": "sourashtra-folk-dance",
+ "qc_at": "2026-11-22T19:59:38Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sourashtra folk dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "90"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "201"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "During Rama Navami, male dancers perform the Konangi jester dance, re-enacting a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "685"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3212"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "vibrant tapestry,tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'deities', 'god', 'goddess', 'worship', 'spirit', 'religious', 'devotional']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched and adheres strictly to the provided evidence. It correctly identifies the sacred nature of the Gebbi dance and provides clear, actionable descriptions for a beginner while maintaining cultural sensitivity."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T17:33:18Z"
+}

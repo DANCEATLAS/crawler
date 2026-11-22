@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "gotipua",
  "name": "Gotipua",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -35,6 +35,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gotipua",
   "wikidata_qid": "Q5587904",
   "unesco": false,
+  "hero_video_youtube_id": "k2XTmY9MDL0",
+  "video_stack": [
+   {
+    "youtube_id": "k2XTmY9MDL0",
+    "role": "hero",
+    "title": "Gotipua Dance performance | Orissa Dance Academy | TEDxXIMB",
+    "channel": "TEDx Talks",
+    "hd": true
+   },
+   {
+    "youtube_id": "cea3bzjSRks",
+    "role": "rendition",
+    "title": "Gotipua Dance Performance by Nakshyatra Gurukul | Culture of Odisha |",
+    "channel": "SOULFUL ODISHA",
+    "hd": true
+   },
+   {
+    "youtube_id": "nZ6VqWqOyaY",
+    "role": "rendition",
+    "title": "Gotipua performer in entertainment ke liye kuch bhi karega.mp4",
+    "channel": "skm0adp",
+    "hd": false
+   },
+   {
+    "youtube_id": "PUS2QRxoYOA",
+    "role": "rendition",
+    "title": "Gotipua Dance (Odissi Folk Dance for Lord Jagannath) - Raghurajpur, Odisha, India.",
+    "channel": "Tally Talwar",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -96,6 +127,12 @@
   "sacred_note": "The costume, jewellery, and ankle bells worn by Gotipua dancers are considered sacred. Outsiders and observers should respect the religious devotional nature of the performance, which praises Jagannath and Krishna.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:22Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "odissi"
   ]
@@ -360,25 +397,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "The costume, jewellery, and ankle bells worn by Gotipua dancers are considered sacred. Outsiders and observers should respect the religious devotional nature of the performance, which praises Jagannath and Krishna.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/gotipua.json"
  },
- "fingerprint": "4940a9b4e63999da",
- "updated": "2026-11-21"
+ "fingerprint": "71f0e39e6f4acf4b",
+ "updated": "2026-11-22"
 }

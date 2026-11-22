@@ -1,6 +1,6 @@
 # Interpretive dance — episode pack
 
-*Status: draft · built 2026-11-21 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); what to avoid / common mistakes
 
@@ -336,6 +336,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 12 tutorial(s) of the stage-contemporary family studied · videos studied: 12
 Counting: count the Variable bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: keep your feet pointed; use your core; lean your body back; tight core; strong arms; push to the ceiling; split your legs; be completely present; share weight; reach into the negative space; pick up one foot; weight is going to transfer
+Cues: reach out; through the pli; relax the chest; push three and four; up seven down eight; roll six up seven; keep your feet pointed; use your core; lean your body back; pick up one foot; weight is going to transfer; slide back
 
 Sources (4): https://en.wikipedia.org/wiki/Interpretive_dance; https://www.wikidata.org/wiki/Q17081731; https://it.wikipedia.org/wiki/Danza_interpretativa; https://archive.org/details/ERIC_ED175547

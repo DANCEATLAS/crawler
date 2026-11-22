@@ -1,6 +1,6 @@
 # carnavalito — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
+Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (5): https://en.wikipedia.org/wiki/Carnavalito; https://www.wikidata.org/wiki/Q1154911; https://es.wikipedia.org/wiki/Carnavalito; https://fr.wikipedia.org/wiki/Carnavalito; https://it.wikipedia.org/wiki/Carnavalito

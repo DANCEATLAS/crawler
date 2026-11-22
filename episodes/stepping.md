@@ -1,8 +1,8 @@
 # stepping — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, disciplined step master with deep roots in collegiate Greek life and percussive performance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: When the Body Becomes the Drum
 NARRATION: This is stepping. 18th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (bNUjnqqZfBY)
 ON SCREEN: Title card: stepping · United States · 18th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: Stepping is primarily a ensemble percussive tradition performed by groups of three or more dancers arranged in geometric, military-style close-order drill formations.
 NARRATION: Dancers maintain a sharp, grounded posture, executing rapid foot stomps, hand claps, chest pats, and thigh slaps to produce complex polyrhythmic patterns without instrumental accompaniment.
 NARRATION: Watch for The Alpha Train, The Q Hop, The Nut Cracker.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (bNUjnqqZfBY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Linear rows, grids, or circles executed in tight close-order military formations.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -329,7 +329,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'bNUjnqqZfBY', 'checked_by_vision_model': False, 'title': 'NiziU 『Step and a step』 Dance Performance Video'}
 Images: 2 licensed — David Shankbone / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); William H. Johnson / Wikimedia Commons / Public domain (Public domain)
 Footage: Vista Stock Shots: Entertainment — https://archive.org/details/0565_Vista_Stock_Shots_Entertainment; 1990s VHS • Wedding Day Dancing 60 FPS — https://archive.org/details/TheVistaGroup-WeddingDayDancing1990s_TVG_; Irish Dancing in Naperville — https://archive.org/details/Irish_Dancing_in_Naperville; Collecting Traditional Dance — https://archive.org/details/CollectingTraditionalDance; PCN Kingston Resident in World Irish Dancing Championship — https://archive.org/details/PCN_Kingston_Resident_in_World_Irish_Dancing_Championship; Tap With Ginger--90 Minutes Beginner Level (1994) — https://archive.org/details/tap-with-ginger-90-minutes-beginner; Aman Folk Ensemble presents The Immigrants — https://archive.org/details/calauem_000460
 Motifs: Close-up shots of heavy footwear striking hardwood floors in perfect synchronization., Wide overhead views of military-style grid formations shifting in unison., Detail angles of hand claps, chest slaps, and cane work creating layered percussive sounds.
@@ -341,9 +341,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the street-urban family studied · videos studied: 58
+Source: 67 tutorial(s) of the street-urban family studied · videos studied: 67
 Counting: count the Polyrhythmic acapella meter bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: heel toe; one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; 5-6-7-8; here we go
+Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
 
 Sources (4): https://en.wikipedia.org/wiki/Stepping_(African-American); https://www.wikidata.org/wiki/Q7611114; https://fr.wikipedia.org/wiki/Stepping_(danse); https://archive.org/details/smash-hits-1980-06-12

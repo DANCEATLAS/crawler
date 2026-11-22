@@ -1,8 +1,8 @@
 # Poomaruthan Theyyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-21 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-22 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Thiyya community ritualist who emphasizes the deity's protective but fierce nature.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Wind in the Flower
 NARRATION: This is Poomaruthan Theyyam. Ancient/Living Tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Vi2ybrpmTnQ)
 ON SCREEN: Title card: Poomaruthan Theyyam · India · Ancient/Living Tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is characterized by 'lively movements' that emphasize marti
 NARRATION: The performer holds a sword and a wooden shield, which are the primary tools of the choreography.
 NARRATION: The movement involves 'twirling the shield and swinging the sword' in rhythmic patterns.
 NARRATION: Watch for Shield Knock, Shield Twirl.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Vi2ybrpmTnQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performs in the courtyard of Poomala shrines, interacting with a surrounding crowd.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Vi2ybrpmTnQ', 'checked_by_vision_model': True, 'title': 'ആരും പ്രതീക്ഷിക്കാത്ത  തിറ വീഡിയോ #trending ഭദ്രകാളി #theyyam #trending #vairal #latestnews..'}
 Images: 3 licensed — Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The black mustache and beard against intricate face paint, The massive wooden Mudi crown, The wooden shield striking the crowd, Tender coconut water being offered
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
+Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
 Counting: 
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (2): https://en.wikipedia.org/wiki/Poomaruthan_Theyyam; https://www.wikidata.org/wiki/Q20581714

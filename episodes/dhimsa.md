@@ -1,8 +1,8 @@
 # Dhimsa — episode pack
 
-*Status: withheld-chapters · built 2026-11-21 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A village elder from the Porja community, emphasizing rhythm as a form of collective relief and identity.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sound of Footsteps
 NARRATION: This is Dhimsa. Ancient/Living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mMiUEf8mOxc)
 ON SCREEN: Title card: Dhimsa · India · Ancient/Living tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is performed in a chain formation, typically consisting of 
 NARRATION: The movement is dominated by synchronized footwork and hand gestures.
 NARRATION: Dancers move in patterns that create smaller and larger circles.
 NARRATION: Watch for Goddi Beta, Boda Dhimsa.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mMiUEf8mOxc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Chain formation moving in expanding and contracting circles.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mMiUEf8mOxc', 'checked_by_vision_model': True, 'title': '13,000 tribal artists welcome PM Modi with a SPECTACULAR Dhimsa Dance in Andhra Pradesh'}
 Images: 1 licensed — No machine-readable author provided. Robbygrine assumed (based on copyright claims). / Wikimedia Commons / Public domain (Public domain)
 Footage: Folk and Tribal Dance Performance by Folk and Tribal Dance Academy — https://archive.org/details/dni.ncaa.ICCR-2578-VHS
 Motifs: Concentric circles, Earthy tones of sarees (green, red, yellow), The Mori reed instrument, The rugged landscape of the Araku Valley
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (2): https://en.wikipedia.org/wiki/Dhimsa; https://www.wikidata.org/wiki/Q24930364

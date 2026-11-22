@@ -49,16 +49,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 10,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
     "key": "status",
@@ -69,39 +65,69 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "30c2cf21a27c9cad",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "ncIAdeQGxoo",
+   "url": "https://www.youtube.com/watch?v=ncIAdeQGxoo",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "outdoor paved courtyard or playground surrounded by trees, with seated spectators on the left and musicians on the right",
+    "dancers": "large group of children and youths, mixed boys and girls in white outfits",
+    "formation_and_space": "large circle formation around a central maypole, weaving in and out around the pole and each other",
+    "posture": "upright torso, slight knee bend during running/skipping steps",
+    "footwork": "running or skipping steps on the beat in a circle around the pole",
+    "arms_and_hands": "holding long colored ribbons attached to the top of the maypole, arms extended upward and outward while weaving",
+    "hips_and_torso": "minimal torso isolation, upper body moves naturally with the travel and arm extension",
+    "partnering": "weaving around each other while holding ribbons, occasional hand-to-hand holds in small pairs",
+    "levels_jumps_turns": "upright level, no jumps or floor work, circular turning patterns around the pole",
+    "costume_and_props": "matching white dresses and skirts for girls, white shirts and shorts for boys; holding colored maypole ribbons",
+    "cannot_infer": "exact footwork details obstructed by camera angle and distance; precise rhythm of footfalls relative to music is partially obscured by acoustic overlap with crowd noise",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 10,
+      "end_s": 25,
+      "what": "dancers skip in a large circle around the maypole holding ribbons"
+     },
+     {
+      "start_s": 100,
+      "end_s": 135,
+      "what": "dancers weave in and out in opposite directions to braid the ribbons around the pole"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "4e259b9064b9ffb5",
+ "updated": "2026-11-22"
 }

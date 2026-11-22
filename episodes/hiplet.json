@@ -2,7 +2,7 @@
  "slug": "hiplet",
  "name": "Hiplet",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-22T20:20:48Z",
  "researched_at": "2026-11-21T17:38:28Z",
  "qc_score": 9.5,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Hiplet. 21st century (coined 2009)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (lxvUfgAKZi8)",
      "Title card: Hiplet · United States · 21st century (coined 2009)"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Pointe hip isolation, Off-center relevé."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (lxvUfgAKZi8)",
      "Captions name each signature move as it appears",
      "Formation: Flexible, including studio formations, ensemble stage arrangements, and camera-facing broadcast framing"
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "lxvUfgAKZi8",
+   "checked_by_vision_model": true,
+   "title": "Hip-Hop En Pointe: The Rhythm and Beat of Hiplet"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -776,8 +780,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "58 tutorial(s) of the street-urban family studied",
-  "videos_studied": 58,
+  "source": "67 tutorial(s) of the street-urban family studied",
+  "videos_studied": 67,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -786,18 +790,18 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "heel toe",
-   "one and two",
+   "down and up",
    "step touch",
-   "keep your knees flexible not stiff",
-   "weight forward on the balls of your feet",
-   "start a new step on count 1",
-   "right leg out front",
-   "jump split your legs",
-   "the back foot goes up",
-   "lift the left leg up",
+   "one and two",
    "5-6-7-8",
-   "here we go"
+   "heel toe",
+   "twist your wrist",
+   "keep your arm tense",
+   "pivot your feet",
+   "turn your torso",
+   "heel step",
+   "stomp",
+   "farmer"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -815,7 +819,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -826,6 +829,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "2a92cfcf17405bb3de509cc7a8ff67e3cec6d155f2624e985e433291312860de",
- "hero_checked": null
+ "input_fingerprint": "8511aed4f4a16312964a7e80de00a949463d5e909abfd55057dc71f3bfdd5111",
+ "hero_checked": "pass"
 }

@@ -1,0 +1,125 @@
+{
+ "slug": "european-dance",
+ "qc_at": "2026-11-22T20:00:16Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "European dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "194"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1030 AD, a monk at Bavaria's Tegernsee Abbey penned the earliest record of th"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "736"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3573"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "9/9 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Pan-European"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "codified,crystallized"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'worship', 'religious', 'monk']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile claims the polka was invented around 1830, while the evidence claim cites 1822."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. It correctly identifies 'European dance' as a broad category rather than a single dance, which is why is_a_dance is false. The minor discrepancy regarding the polka's invention date (1822 vs 1830) is noted but does not undermine the overall quality."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "country",
+  "banned_phrasing",
+  "judge_score=8.7",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 9,
+  "supported": 9,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T18:05:52Z"
+}

@@ -1,8 +1,8 @@
 # Karabinye — episode pack
 
-*Status: draft · built 2026-11-21 · judge 8.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 8.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; the costume & setting section; notable figures; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; the costume & setting section; notable figures; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian with a focus on Haitian military and social history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Born from the 1804 Revolution, this dance transformed the rigid European contredanse into a Haitian expression named after the elite Carabinier rifle regiments of the new army.
 NARRATION: This is Karabinye. Early 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (tytB6vck7B0)
 ON SCREEN: Title card: Karabinye · Haiti · Early 19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: The Karabinye is a couples dance that utilizes 'figures' derived from European social dances like the quadrille and lancers.
 NARRATION: While specific step-by-step technical descriptions are not detailed in the sources, it is characterized by its evolution from a collective figure dance into a more localized partner form.
 NARRATION: It incorporates the rhythmic and physical influences of the Kongo-Haitian traditions, likely involving more fluid torso movement than its European counterparts.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (tytB6vck7B0)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Couples dance based on European figure dances
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -283,7 +283,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'tytB6vck7B0', 'checked_by_vision_model': True, 'title': 'Carabinier   (Haitian🇭🇹 dance)'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Military uniforms of the 1804 era, The contrast between formal ballroom attire and African percussion, The Carabiniers' rifles leaned against a wall during a dance
@@ -293,9 +293,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (2): https://en.wikipedia.org/wiki/Carabinier_(dance); https://www.wikidata.org/wiki/Q17067092

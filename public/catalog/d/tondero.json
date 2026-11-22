@@ -83,7 +83,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -101,13 +101,69 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
- "fingerprint": "9ce996eefee4bbef",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "eKx3At7mV0s",
+   "url": "https://www.youtube.com/watch?v=eKx3At7mV0s",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "A stage with a banner reading 'Ballet Folclorico Peru de Mis Amores' and a live band in the background.",
+    "dancers": "A couple, one man and one woman.",
+    "formation_and_space": "The dancers move around the stage, often circling each other or moving in parallel paths.",
+    "posture": "The dancers maintain an upright posture with a slight forward lean, especially when engaging with their partner.",
+    "footwork": "The dancers perform intricate, rhythmic steps, often involving quick, light movements on the balls of their feet. The exact footwork is difficult to see due to the low resolution and camera distance.",
+    "arms_and_hands": "The dancers use their arms and hands to hold and manipulate props, such as a handkerchief and a hat, which are integral to the dance.",
+    "hips_and_torso": "The dancers exhibit subtle torso movements and occasional hip shifts, which are coordinated with their footwork and partner interactions.",
+    "partnering": "The dancers engage in a flirtatious, non-contact interaction, using their props to create a sense of playfulness and connection.",
+    "levels_jumps_turns": "The dancers perform various levels, including standing, kneeling, and occasional small jumps or turns.",
+    "costume_and_props": "The man wears a light-colored shirt, pants, and a hat. The woman wears a traditional skirt, a blouse, and a shawl. Both use handkerchiefs as props.",
+    "cannot_infer": "The exact footwork and weight transfer are difficult to determine due to the low resolution and camera distance.",
+    "music_heard": {
+     "instruments": [
+      "guitar",
+      "cajon",
+      "percussion"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 2,
+      "end_s": 10,
+      "what": "The man performs a series of rhythmic steps while holding a handkerchief and a hat."
+     },
+     {
+      "start_s": 53,
+      "end_s": 60,
+      "what": "The woman performs a series of graceful steps while holding a shawl."
+     },
+     {
+      "start_s": 217,
+      "end_s": 225,
+      "what": "The couple interacts playfully, with the man using his hat to tease the woman."
+     },
+     {
+      "start_s": 250,
+      "end_s": 255,
+      "what": "The couple performs a close, flirtatious movement while holding their props."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "3d357bac1d6fd17f",
+ "updated": "2026-11-22"
 }

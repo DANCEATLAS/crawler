@@ -1,13 +1,99 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex zapateado",
+          "Heavy footwear"
+        ],
+        "counts": "Simplified 12-beat count",
+        "duration_minutes": "2",
+        "game_version": "Rhythmic clapping game based on the 12-beat cycle"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "High-impact jumps",
+          "Complex balance movements"
+        ],
+        "counts": "Simplified 12-beat cycle",
+        "seated_version": "Arm and hand movements performed while seated",
+        "standing_version": "Simplified footwork without high-impact zapateado",
+        "tempo_and_range": "Reduced tempo and limited range of motion"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Harmonious and fluid arm movements",
+      "difficulty": "advanced",
+      "footwork": "Soft footwork and intricate zapateado (tap)",
+      "formation_and_space": "Solo performance space",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright with graceful carriage",
+      "signature_moves": [
+        {
+          "description": "Intricate, rhythmic foot tapping",
+          "name": "Zapateado"
+        },
+        {
+          "description": "A slow, adagio-like movement section",
+          "name": "Silencio"
+        }
+      ],
+      "tempo_feel": "Lively and festive",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Flamenco guitar",
+        "Voice"
+      ],
+      "meter": "12-beat cycle",
+      "mood_keywords": [
+        "festive",
+        "optimistic",
+        "graceful",
+        "humorous"
+      ],
+      "musical_form": "Cantiñas",
+      "reference_recordings": [
+        {
+          "artist": "Estrella Morente",
+          "title": "Coquinas"
+        },
+        {
+          "artist": "Camarón",
+          "title": "Mar Amargo"
+        }
+      ],
+      "rhythm_pattern": "1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12]",
+      "sound_description": "A lively, major-key flamenco form characterized by rapid rhythmic cycles and expressive, elaborate vocal lines.",
+      "tempo_bpm": "120-170",
+      "vocal_style": "Festive, often including 'tiriti, tran, tran' refrains"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Salida (entrance)",
+        "Paseo (walkaround)",
+        "Silencio (adagio section)",
+        "Castellana (upbeat section)",
+        "Zapateado (footwork)",
+        "Bulerías (concluding section)"
+      ],
+      "formation": "Solo or group performance",
+      "level_notes": "Technically demanding; requires mastery of arm carriage and footwork.",
+      "rhythm": "12-beat cycle with emphasis on 3, 6, 8, 10, 12"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "dac3f88d01789d8f9f4201e777a5c7c63747782c23cf9ae9aeedd414ffb5fcd3",
+  "fingerprint": "5cb2b01612b521eaf3f7b9acd26b33640160bcc1d4c6b79172ad8d1b73f89598",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +101,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific regional variations in the zapateado technique beyond the general description? Evidence needed: Video analysis of regional competitions."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +130,18 @@
   ],
   "music_options": [],
   "name": "Alegrías",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4ccfc8b22704e931",
+      "next_evidence": "Video analysis of regional competitions.",
+      "question": "Are there specific regional variations in the zapateado technique beyond the general description?",
+      "source": "https://en.wikipedia.org/wiki/Alegr%C3%ADas",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for different regional styles."
+    }
+  ],
+  "research_file": "research_results/alegras.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +153,17 @@
   "slug": "alegras",
   "sources": [
     "https://en.wikipedia.org/wiki/Alegr%C3%ADas",
-    "Source: Alegrías on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Alegr%C3%ADas"
+    "https://www.wikidata.org/wiki/Q2164055",
+    "https://es.wikipedia.org/wiki/Alegría_(flamenco)",
+    "https://de.wikipedia.org/wiki/Alegría_(Flamenco)",
+    "https://it.wikipedia.org/wiki/Alegrías"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/ooI9KQU-eTo.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=ooI9KQU-eTo"
+    }
+  ]
 }

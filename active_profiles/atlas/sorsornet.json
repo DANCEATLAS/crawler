@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "35591de7c82e382c7ae3cfc1bd4957cc31b6a27f9e87652a2b4ca5d1a3314029",
+  "fingerprint": "0ab1d39989812aaa1b89ee4acb9f72f7baf5f33af1b6929cfcc0f925389af803",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the cultural and historical origin of the Sorsornet dance? Evidence needed: Ethnographic studies of Baga dance traditions."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Sorsornet",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "a797866bf9c8d555",
+      "next_evidence": "Ethnographic studies of Baga dance traditions.",
+      "question": "What is the cultural and historical origin of the Sorsornet dance?",
+      "source": "https://en.wikipedia.org/wiki/Alpha_Yaya_Diallo",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided sources only mention a band of the same name, leaving the dance itself undocumented."
+    }
+  ],
+  "research_file": "research_results/sorsornet.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +114,9 @@
   },
   "slug": "sorsornet",
   "sources": [
-    "https://tontinkan.net/wp/sorsornet/",
-    "https://www.mandebala.net/references/sorsorne.php"
+    "https://en.wikipedia.org/wiki/Alpha_Yaya_Diallo",
+    "https://www.wikidata.org/wiki/Q4735145",
+    "https://fr.wikipedia.org/wiki/Alpha_Yaya_Diallo_(musicien)"
   ],
   "state": "researching",
   "video_evidence": []

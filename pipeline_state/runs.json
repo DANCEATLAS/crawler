@@ -5923,5 +5923,255 @@
   "notes": [],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "health",
+  "started": "2026-11-22T17:13:07Z",
+  "finished": "2026-11-22T17:13:07Z",
+  "counters": {
+   "scale_pct": 100
+  },
+  "notes": [
+   "tuning: models healthy (1 of 498 questions unanswered); budgets at 100%",
+   "lessons: 940 QC records in 30 days; top gate failures [('sections_filled', 210), ('citations', 114), ('profile_long_len', 89)]; top script gaps [('tempo (bpm)', 468), ('a verified recording to listen to', 466), ('licensed images (3 needed)', 378)]"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "audit",
+  "started": "2026-11-22T17:13:07Z",
+  "finished": "2026-11-22T17:13:07Z",
+  "counters": {
+   "retired_or_merged_total": 137
+  },
+  "notes": [
+   "audit: 137 entries retired/merged of 1014; judged so far 919"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-11-22T17:13:07Z",
+  "finished": "2026-11-22T17:14:19Z",
+  "counters": {
+   "harvested": 3708,
+   "already_known": 1794,
+   "dup_qid": 117,
+   "dup_name": 130,
+   "not_dance_like": 10,
+   "deferred": 619,
+   "queued_new": 60
+  },
+  "notes": [
+   "candidate queue: 539 queued, 1265 tracked"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "research",
+  "started": "2026-11-22T17:14:19Z",
+  "finished": "2026-11-22T19:58:32Z",
+  "counters": {
+   "screened_out_move": 1,
+   "researched_researched": 59,
+   "researched_llm_failed": 4,
+   "kept_existing": 2,
+   "researched_no_sources": 5,
+   "llm_calls": 93,
+   "llm_failures": 28,
+   "llm_requests": 65,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "targets: 70 (llm enabled=True)",
+   "model trouble: overloaded 21, day_quota_used_up 5, timeout_or_network 1, model_gone 1"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-11-22T19:58:32Z",
+  "finished": "2026-11-22T20:03:47Z",
+  "counters": {
+   "gate_publish": 36,
+   "gate_review": 11,
+   "gate_reject": 12,
+   "llm_calls": 73,
+   "llm_failures": 13,
+   "llm_requests": 59,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "qc targets: 59 (judge enabled=True)",
+   "model trouble: waited_seconds 24, overloaded 7, day_quota_used_up 4, model_gone 2"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-11-22T20:03:47Z",
+  "finished": "2026-11-22T20:05:24Z",
+  "counters": {
+   "videos_fetched": 43,
+   "verdict_pass": 16,
+   "verdict_fail": 1,
+   "evicted_for_recrawl": 1,
+   "llm_calls": 22,
+   "llm_failures": 1,
+   "llm_requests": 20,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "hero qc targets: 17 of 1392 heroes (vision=True)",
+   "model trouble: overloaded 1"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "build",
+  "started": "2026-11-22T20:05:24Z",
+  "finished": "2026-11-22T20:05:48Z",
+  "counters": {
+   "retired_by_audit": 122,
+   "new_rejected_hidden": 177,
+   "new_publish": 403,
+   "new_review_hidden": 121,
+   "existing_research_rejected": 53,
+   "existing_reject": 53,
+   "existing_publish": 137,
+   "existing_review": 79
+  },
+  "notes": [
+   "catalogue built: {'generated_at': '2026-11-22T20:05:48Z', 'count': 1295, 'with_hero': 1081, 'hero_qc_pass': 816, 'deep_profiles': 540, 'movie_ready': 149, 'with_albums': 47, 'with_images': 323, 'with_tutorials': 217, 'content_ready': 983, 'new_from_pipeline': 403, 'retired': 122, 'counters': {'retired_by_audit': 122, 'new_rejected_hidden': 177, 'new_publish': 403, 'new_review_hidden': 121, 'existing_research_rejected': 53, 'existing_reject': 53, 'existing_publish': 137, 'existing_review': 79}, 'pipeline': 'v3.3', 'research_gates': {'unreviewed': 623, 'publish': 540, 'review': 79, 'reject': 53}}"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "pedagogy",
+  "started": "2026-11-22T20:05:48Z",
+  "finished": "2026-11-22T20:20:21Z",
+  "counters": {
+   "video_ok": 37,
+   "video_not_a_lesson": 1,
+   "video_failed": 2,
+   "performance_ok": 50,
+   "llm_calls": 106,
+   "llm_failures": 17,
+   "llm_requests": 90,
+   "llm_unanswered": 2
+  },
+  "notes": [
+   "lessons to study: 40 (budget 40)",
+   "performances to observe: 50",
+   "model trouble: unusable_answer 8, overloaded 5, day_quota_used_up 3, model_gone 1",
+   "playbook: 237 lessons across 153 dances"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "episodes",
+  "started": "2026-11-22T20:20:21Z",
+  "finished": "2026-11-22T20:20:49Z",
+  "counters": {
+   "unchanged": 55,
+   "status_draft": 402,
+   "built": 493,
+   "polished": 4,
+   "status_withheld-chapters": 145,
+   "status_complete": 1,
+   "llm_calls": 6,
+   "llm_failures": 1,
+   "llm_requests": 4,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "model trouble: overloaded 1",
+   "episode packs: 548 (1 complete, 6 polished); gaps for 546 packs"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "translate",
+  "started": "2026-11-22T20:20:49Z",
+  "finished": "2026-11-22T20:21:44Z",
+  "counters": {
+   "translated": 6,
+   "scenes_translated": 211,
+   "scenes_master_kept": 11,
+   "llm_calls": 7,
+   "llm_failures": 0,
+   "llm_requests": 6,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "languages: es,fr,de,pt,it,ja,zh,ko,ar,hi,ru,id · translations to make: 6 (budget 6)",
+   "translations on file for the current masters: 6 across 12 languages"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "teaching",
+  "started": "2026-11-22T20:21:45Z",
+  "finished": "2026-11-22T20:26:21Z",
+  "counters": {
+   "basics_lessons_found": 6,
+   "method_not_a_lesson": 1,
+   "method_ok": 8,
+   "method_failed": 1,
+   "mentor_look_ok": 12,
+   "science_ok": 6,
+   "paper_ok": 3,
+   "paper_thin": 1,
+   "llm_calls": 36,
+   "llm_failures": 4,
+   "llm_requests": 32,
+   "llm_unanswered": 1
+  },
+  "notes": [
+   "teachers ranked: 562; lessons to study for method: 10 (budget 10, 3 on the basics, 1 of them a teacher's talk); engine on",
+   "model trouble: unusable_answer 2, overloaded 1, day_quota_used_up 1",
+   "teaching research: 68 lessons of 60 teachers studied (63 with the mentor look), 30 topic notes and 12 paper notes, 28 practices with two or more kinds of evidence"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-11-22T20:26:22Z",
+  "finished": "2026-11-22T20:27:27Z",
+  "counters": {
+   "patched": 9,
+   "patch_nomatch": 2,
+   "skipped_reject_new": 10,
+   "inserted_publish": 30,
+   "inserted_review": 8
+  },
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 59"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "report",
+  "started": "2026-11-22T20:27:27Z",
+  "finished": "2026-11-22T20:27:29Z",
+  "counters": {
+   "review_items": 440
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.3"
  }
 ]

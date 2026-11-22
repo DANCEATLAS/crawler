@@ -1,6 +1,6 @@
 # Changa tuki — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -294,9 +294,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the street-urban family studied · videos studied: 58
+Source: 67 tutorial(s) of the street-urban family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: heel toe; one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; 5-6-7-8; here we go
+Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
 
 Sources (4): https://en.wikipedia.org/wiki/Raptor_house; https://www.wikidata.org/wiki/Q5071702; https://es.wikipedia.org/wiki/Raptor_house; https://fr.wikipedia.org/wiki/Raptor_house

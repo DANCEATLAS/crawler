@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "cornish-dance",
  "name": "Cornish dance",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GB"
@@ -11,10 +11,17 @@
   "slug": "cornish-dance",
   "name": "Cornish dance",
   "country": "UK",
+  "country_code": "GB",
+  "flag_emoji": "🇬🇧",
   "region": "Europe",
-  "tagline": "Cornish dance (Cornish: Donsyow kernewek) originates from Cornwall, UK",
-  "profile": "Cornish dance (Cornish: Donsyow kernewek) originates from Cornwall, UK. It has largely been shaped by the Cornish people and the industries they worked in. In most cases, particularly with the step dancing, the dances were still being performed across the region when they were collected. Cornish dance can roughly be divided into 3 areas: 'Scoot' or step dancing, 'Furry' or Feast Day dances and dance which you will often find in a 'Troyl', the Cornish equivalent of a céilidh.",
-  "insight": "Community or Furry Dances are hinted at from 1700 when Edward Lluyd noted that 'Elygen' (Illogan) held its 'feast or furri day the first Sunday before or after St.",
+  "family": "folk-circle",
+  "era": "13th century to present",
+  "tagline": "Donsyow kernewek: A tradition of step, feast, and social dance from Cornwall, UK.",
+  "profile": "Cornish dance (Donsyow kernewek) encompasses a diverse range of regional traditions including 'Scoot' step dancing, 'Furry' feast-day processions, and social 'Troyl' gatherings. These forms have been shaped by local industry, community celebrations, and historical religious feasts. While some forms like the Furry dance have centuries-old roots, the tradition remains a living practice, with modern 'Nos Lowen' events continuing to evolve the social dance repertoire.",
+  "insight": "In 1896, the Newlyn riots were accompanied by a brass band playing the 'Helston Furry' tune, demonstrating the deep integration of traditional dance into the social and political fabric of Cornish life.",
+  "aliases": [
+   "Donsyow kernewek"
+  ],
   "related": [
    "xs-latin",
    "flamenco",
@@ -24,13 +31,22 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Cornish_dance",
-   "Source: Cornish dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Cornish_dance"
+   "Source: Cornish dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Cornish_dance",
+   "https://www.wikidata.org/wiki/Q5171846"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Cornish_dance",
   "wikidata_qid": "Q5171846",
   "unesco": false,
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 8.35,
+  "last_researched_at": "2026-11-22T19:40:21Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Cornish dance, known in the Cornish language as 'Donsyow kernewek', is a multifaceted tradition that has evolved alongside the social and industrial history of Cornwall. The tradition is broadly categorized into three distinct areas: 'Scoot' or step dancing, 'Furry' or Feast Day dances, and the 'Troyl', which serves as the Cornish equivalent of a céilidh. These dances are deeply embedded in the landscape, with historical references suggesting that ancient stone circles and rows, often called 'maidens', may have inspired circular and linear dance patterns in the medieval period. The earliest documentary evidence of dance in the region dates back to 1287, when Bishop Peter Quinel of Exeter issued a statute banning round dances in churchyards. By the 14th century, the Cornish-language Ordinalia included specific invocations to dance, marking the art form's presence in early verse dramas. Throughout the 18th and 19th centuries, the repertoire expanded to include minuets, rigadons, hornpipes, and eventually quadrilles, waltzes, and polkas, as documented in various manuscripts such as those of John Giddy and John Old of Par. The 'Furry' or Feast Day dances are perhaps the most iconic, with the Helston Furry Dance being famously noted in a 1608 madrigal and later reported in the 1790 Gentleman’s Magazine. These community dances were widespread, often marking religious feasts or significant local events, such as the 1814 peace rejoicings following the defeat of Napoleon. In fishing communities, the 'Troyl' provided a vital social outlet, typically held at the end of the pilchard season in the lofts of fish cellars. These events featured fiddlers providing music for three-hand reels, jigs, and ballads. Alongside these, 'geese dancing'—a form of mumming involving disguise, cross-dressing, and performance—was a staple of the twelve days of Christmas in west Cornwall. While some forms of dance have faded, the tradition has shown resilience; as late as 1997, set, linear, and step dances were still within living memory. Today, the 'Nos Lowen' (Happy Night) movement has revitalized interest in the tradition, encouraging a simpler, more spontaneous form of social dancing to traditional tunes, ensuring that the legacy of Cornish dance continues to adapt to contemporary settings.",
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "related_slugs": [
    "flamenco",
    "waltz",
@@ -38,6 +54,250 @@
    "ballet"
   ]
  },
- "fingerprint": "5e555ef6c195f43a",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Cornish dance has roots in medieval rondes and farandoles, potentially influenced by the geography of stone circles. Documentary evidence spans from 1287 church statutes to 19th-century reports of Furry dances and Troils in fishing communities.",
+   "how_it_is_danced": "The dance is divided into Scoot (step dancing), Furry (processional), and Troyl (social). Scoot involves intricate footwork, while Furry dances are often processional and communal. Troyls feature reels, jigs, and waltzes in a social, informal setting.",
+   "music_and_instruments": "Music is central to the tradition, historically provided by fiddlers. Tunes include jigs, hornpipes, waltzes, and reels. The Helston Furry tune is a notable historical melody, and brass bands have also been documented accompanying these dances.",
+   "costume_and_setting": "Historically, dances occurred in churchyards, fish cellars, and town streets during feast days. Geese dancers used tattered paper headgear and disguises, while social dances were held in lofts or at harvest home celebrations.",
+   "occasions_and_meaning": "Dances marked religious feasts, the end of fishing seasons, and significant political or community events. They served as a mechanism for social cohesion and celebration within Cornish communities.",
+   "notable_figures": "Edward Lluyd (noted early Furry day), Christopher Wallis (Helston Attorney), William Bottrell (documented Troils), Merv Davey (Gorseth Kernow piper), and Robert Morton Nance (collected mummers' plays).",
+   "regional_variants": "Variants include the Helston Furry, the Padstow May Day revel, and the specific 'guise dancing' or 'geese dancing' tradition found in west Cornwall.",
+   "lineage": "The tradition descends from medieval European dance forms, incorporating local adaptations of country dances, minuets, and regional folk steps."
+  },
+  "teaching": {
+   "basic_steps": [
+    "not described in sources"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "not described in sources",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "The earliest documentary account which may refer to dancing in Cornwall is the statute banning round dances in churchyards issued in 1287.",
+    "source": "https://en.wikipedia.org/wiki/Cornish_dance"
+   },
+   {
+    "text": "Community or Furry Dances are hinted at from 1700 when Edward Lluyd noted that 'Elygen' (Illogan) held its 'feast or furri day'.",
+    "source": "https://en.wikipedia.org/wiki/Cornish_dance"
+   },
+   {
+    "text": "In fishing communities, a dance or ‘troil’ always terminated the pilchard season.",
+    "source": "https://en.wikipedia.org/wiki/Cornish_dance"
+   },
+   {
+    "text": "As late as 1997, set, linear, and step dances were still in living memory.",
+    "source": "https://en.wikipedia.org/wiki/Cornish_dance"
+   },
+   {
+    "text": "The Helston Furry Dance was reported in The Gentleman’s Magazine of 1790.",
+    "source": "https://en.wikipedia.org/wiki/Cornish_dance"
+   },
+   {
+    "text": "Geese dancing was a form of mumming that could include dance, music, singing, processions, games, cross-dressing and disguise.",
+    "source": "https://en.wikipedia.org/wiki/Cornish_dance"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Specific technical descriptions of footwork, posture, and arm movements for Scoot or Furry dances are absent from the sources.",
+   "Detailed musical notation or tempo specifications for traditional tunes are not provided.",
+   "Instructional sequences for beginners are not described in the sources."
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "Fiddle",
+    "Brass band"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "Jigs, hornpipes, waltzes, reels",
+   "mood_keywords": [
+    "Celebratory",
+    "Social"
+   ],
+   "reference_recordings": [],
+   "sound_description": "not described in sources"
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Circular and linear patterns are mentioned as historical influences.",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "beginner",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Stones that Dance",
+   "logline": "Explore the living history of Cornwall through its ancient processional dances and vibrant social gatherings.",
+   "beats": [
+    "Introduction to the landscape of Cornwall and its stone circles.",
+    "The medieval origins of Cornish dance and early church bans.",
+    "The Furry dance: A community tradition from Helston to the Lizard.",
+    "The Troyl: Life in the fish cellars and the music of the fiddle.",
+    "Geese dancing and the tradition of disguise.",
+    "The modern revival through Nos Lowen events."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Stone circles",
+    "Coastal fishing villages",
+    "Fiddle players",
+    "Processional lines"
+   ],
+   "instructor_persona": "not described in sources",
+   "music_cue": "Traditional Cornish jig or hornpipe"
+  },
+  "connections": [
+   {
+    "name": "Morris dance",
+    "relation": "sibling",
+    "note": "Both are traditional dance forms documented in Cornish manuscripts, though Morris is not evidenced in 19th-century Cornwall."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "Homesteading and the Building's Falling [Part 1 of 2]",
+    "url": "https://archive.org/details/SSG10A",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Title: Homesteading and the Building's Falling [Part 1 of 2] Item I.D.: SSG_10A Original Format: VHS Description: Footage of the piece, \"Homesteading and the Building's Falling\" created by Sally Sykes and performed by Cornish Dance Theater for the project, Dances for Downtown: A Festival of Site-Spe",
+    "source": "archive"
+   },
+   {
+    "title": "Homesteading and the Building's Falling [Part 2 of 2]",
+    "url": "https://archive.org/details/SSG10B",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Footage of the piece, \"Homesteading and the Building's Falling\" created by Sally Sykes and performed by Cornish Dance Theater for the project, Dances for Downtown: A Festival of Site-Specific Works . The piece was performed at the Rainier Tower (the Atrium and outdoor dining area) on April 7th at 2:",
+    "source": "archive"
+   },
+   {
+    "title": "Cornish dance students perform “An Exploration of Movement & Energy”",
+    "url": "https://archive.org/details/sc21wa-Cornish_dance_students_perform_An_Exploration_of_Movement_Energy",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Cornish College of the Arts has been graduating accomplished dancers since its founding in 1914. In this behind-the-scenes visit to a recent rehearsal, Cornish faculty and choreographers Tonya Lockyer and Heather Kravas work with students on their upcoming world premiere of “An Exploration of Moveme",
+    "source": "archive"
+   },
+   {
+    "title": "From paint to percussion, Art Zone with Nancy Guppy celebrates Seattle's creative scene",
+    "url": "https://archive.org/details/sc21wa-From_paint_to_percussion_Art_Zone_with_Nancy_Guppy_celebrates_Seattle_s_creative_scene",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Painter and muralist Joe Nix; a world premiere from Cornish Dance Theater students; the hot drumming chops of Ehssan Karimi; an original song from K Van Petten; and the Wing Luke Museum celebrates three local artists. View the City of Seattle's commenting policy: seattle.gov/online-comment-policy",
+    "source": "archive"
+   },
+   {
+    "title": "Classic-Banjo - Video: Zither Banjo: Cammeyer: Cornish Dance No 1 - Rob MacKillop",
+    "url": "https://archive.org/details/classic-banjo-videos-8e8f0af76414af999ec55517f4a06fb1cf809047",
+    "year": 2019,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Browse the archive: Classic-Banjo Archive | Videos Zither Banjo: Cammeyer: Cornish Dance No 1 - Rob MacKillop [https://robmackillop.net/banjo/] https://robmackillop.net/banjo/ Shared by: Rob MacKillop Posted on Classic-Banjo: 2019-05-09T09:51:39.873Z | Original Ning page Original video: https://www.",
+    "source": "archive"
+   }
+  ],
+  "researched_at": "2026-11-22T19:40:21Z",
+  "qc_score": 8.35
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 5,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "arms",
+    "label": "arms and hands"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 10,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/cornish-dance.json"
+ },
+ "fingerprint": "148907113b9cc33c",
+ "updated": "2026-11-22"
 }

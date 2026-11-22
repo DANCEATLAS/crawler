@@ -1,6 +1,6 @@
 # Tobas — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
@@ -72,7 +72,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Bolivar: Fast regular jumps.
 NARRATION: Camba: High jumps reaching up to one meter.
-NARRATION: Count it: 1-2-3-4-5-6-7-8.
+NARRATION: Count it: 1-2 / 3-2-1.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -99,7 +99,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8.
+NARRATION: Count: 1-2 / 3-2-1.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -114,7 +114,7 @@ NARRATION: Drill: Tiptoe rhythm practice
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 1-2 / 3-2-1 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Chucu-chucu: Rapid rhythm performed on tiptoes.
@@ -122,7 +122,7 @@ NARRATION: Step 4: Paso de la flecha: War-themed step representing courage.
 NARRATION: Drill: Basic jump coordination
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 1-2 / 3-2-1 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,7 +138,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 1-2 / 3-2-1.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -167,7 +167,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8.
+NARRATION: Count: 1-2 / 3-2-1.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -180,7 +180,7 @@ NARRATION: Step 2: Camba: High jumps reaching up to one meter.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 1-2 / 3-2-1 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Chucu-chucu: Rapid rhythm performed on tiptoes.
@@ -190,7 +190,7 @@ NARRATION: Bolivar: Fast regular jumps.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 1-2 / 3-2-1 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -206,7 +206,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 1-2 / 3-2-1.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -235,7 +235,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8.
+NARRATION: Count: 1-2 / 3-2-1.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -248,7 +248,7 @@ NARRATION: Step 2: Paso de la flecha: War-themed step representing courage.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 1-2 / 3-2-1 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Cambá: High jumps reaching up to one meter.
@@ -256,7 +256,7 @@ NARRATION: Bolivar: Fast regular jumps.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 1-2 / 3-2-1 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -272,7 +272,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 1-2 / 3-2-1.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -310,8 +310,8 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2-3-4-5-6-7-8
+Counting: 1-2 / 3-2-1
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; paso uno; paso dos; paso tres; saltos; repito; tres dos uno; sigamos; vamos chicos
+Cues: uno dos; tres dos uno; sigamos; vamos chicos; paso uno; paso dos; paso tres; saltos; repito
 
 Sources (3): https://en.wikipedia.org/wiki/Tobas; https://www.wikidata.org/wiki/Q951315; https://es.wikipedia.org/wiki/Tobas_(danza)

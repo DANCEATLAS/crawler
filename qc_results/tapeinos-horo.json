@@ -1,0 +1,121 @@
+{
+ "slug": "tapeinos-horo",
+ "qc_at": "2026-11-22T20:02:24Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Tapeinos horo"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "45"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "190"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the villages of Thrace, the bride leads her first dance after the wedding cer"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "387"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2825"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "testament to,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. It correctly identifies the dance as a ceremonial, gendered tradition within Thracian wedding customs. The teaching and adaptation sections are safe and align with the dance's aesthetic of restraint and humility."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "sacred_handled",
+  "judge_score=9.0",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T19:18:20Z"
+}

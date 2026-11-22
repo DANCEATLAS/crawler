@@ -1,0 +1,853 @@
+{
+ "slug": "tranos-choros",
+ "name": "Tranos Choros",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:49Z",
+ "researched_at": "2026-11-22T19:05:46Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A village elder or cultural guardian who emphasizes community over individual flair.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tranos Choros",
+   "Grand Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tranos Choros",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Voice of the Mountains",
+     "This is Tranos Choros. Modern (with ancient pastoral roots)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Tranos Choros · Greece · Modern (with ancient pastoral roots)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in the highland pastoral communities of Northern Greece, specifically Vlasti.",
+     "It served as a ritual reunion for sheep and cattle farmers before they moved to winter pastures.",
+     "Historically, it is tied to the August 15th festivities of the Dormition of the Virgin Mary."
+    ],
+    "on_screen": [
+     "Map: Greece · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The primary occasion is the August 15th (Dekapentavgoustos) festival.",
+     "It signifies the reunion of the community, both historically for shepherds and currently for urban migrants returning to their ancestral village.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Lucario And The Mystery Of Mew (Subtitled) (https://archive.org/details/lucario-and-the-mystery-of-mew-subbed)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers of all ages form a large open circle.",
+     "They hold hands and move in a slow, imposing rhythm.",
+     "The movement is synchronized with a cappella singing performed by the dancers themselves, rather than instrumental accompaniment.",
+     "Watch for The Grand Circle."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Large open circle in a village square"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "In Vlasti, the dance is performed strictly a cappella.",
+     "There are no musical instruments; the dancers sing traditional songs to provide the rhythm and melody.",
+     "Listen for the None (a cappella).",
+     "The sound is defined entirely by the human voice. A large group of dancers sings in unison or harmony without any instrumental backing, creating a raw, resonant acoustic effect that fills the mountain air."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance takes place in the highland village of Vlasti, typically in a central communal space or church square.",
+     "While traditional highland Greek dress is historically associated with the event, the focus is on the communal formation of the circle."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Individual figures are not highlighted in the sources; the dance is a collective communal expression involving 'dancers of all ages'.",
+     "A major variant exists in Syrrako, where the dance is accompanied by a band and singers, and serves as an opportunity to speak the Vlach language.",
+     "The dance is a subclass of Greek folk dance and is part of the broader tradition of ritualistic circle dances found in the Balkan highlands."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tranos Choros is sibling of Syrrako Festival dance: Both are celebrated on August 15th as pastoral reunions, but Syrrako uses instrumental accompaniment.",
+     "Tranos Choros is parent of Greek folk dance: Tranos Choros is a specific ritualistic type of Greek folk dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Join the open circle by holding hands with neighbors",
+     "Listen to the lead singers to establish the vocal pulse",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In a remote Greek village, hundreds of people form a giant circle to sing their history into existence without a single instrument.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the physical connection of the circle",
+   "level": "The Grip",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the physical connection of the circle.",
+      "Level: The Grip. Difficulty of the dance overall: beginner.",
+      "Your instructor: A village elder or cultural guardian who emphasizes community over individual flair."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and communal",
+      "Holding hands to form a continuous chain",
+      "Steady and unified with the circle's rotation"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Join the open circle by holding hands with neighbors",
+      "Step 2: Listen to the lead singers to establish the vocal pulse",
+      "Footwork from the sources: Slow, deliberate steps synchronized with the song",
+      "Drill: Forming a chain"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step in synchronization with the slow, imposing rhythm",
+      "Step 4: Maintain the circular formation as it rotates through the space",
+      "Drill: Maintaining tension without pulling"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Walking in a curve"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking the hand-hold or moving out of sync with the vocal rhythm."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Participants can sit in a circle and hold hands, performing the upper body sway and singing the traditional verses. · For children: A 'follow the leader' circle where children learn to keep the chain unbroken while singing simple refrains."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Participants can sit in a circle and hold hands, performing the upper body sway and singing the traditional verses.",
+      "For children: A 'follow the leader' circle where children learn to keep the chain unbroken while singing simple refrains."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the physical connection of the circle.",
+      "The primary occasion is the August 15th (Dekapentavgoustos) festival.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Match movement to the vocal rhythm",
+   "level": "The Pulse",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Match movement to the vocal rhythm.",
+      "Level: The Pulse. Difficulty of the dance overall: beginner.",
+      "Your instructor: A village elder or cultural guardian who emphasizes community over individual flair."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and communal",
+      "Holding hands to form a continuous chain",
+      "Steady and unified with the circle's rotation"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Join the open circle by holding hands with neighbors",
+      "Step 2: Listen to the lead singers to establish the vocal pulse",
+      "Drill: Stepping on the beat of a song"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step in synchronization with the slow, imposing rhythm",
+      "Step 4: Maintain the circular formation as it rotates through the space",
+      "The Grand Circle: The massive, slow-moving chain of dancers that defines the ritual's scale.",
+      "Drill: Slowing down the gait to an 'imposing' pace"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Synchronized stops"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking the hand-hold or moving out of sync with the vocal rhythm."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Participants can sit in a circle and hold hands, performing the upper body sway and singing the traditional verses. · For children: A 'follow the leader' circle where children learn to keep the chain unbroken while singing simple refrains."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Participants can sit in a circle and hold hands, performing the upper body sway and singing the traditional verses.",
+      "For children: A 'follow the leader' circle where children learn to keep the chain unbroken while singing simple refrains."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Large open circle in a village square"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Match movement to the vocal rhythm.",
+      "Individual figures are not highlighted in the sources; the dance is a collective communal expression involving 'dancers of all ages'.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Tranos Choros",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Tranos Choros.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A village elder or cultural guardian who emphasizes community over individual flair."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and communal",
+      "Holding hands to form a continuous chain",
+      "Steady and unified with the circle's rotation"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step in synchronization with the slow, imposing rhythm",
+      "Step 2: Maintain the circular formation as it rotates through the space"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Grand Circle: The massive, slow-moving chain of dancers that defines the ritual's scale."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking the hand-hold or moving out of sync with the vocal rhythm."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Participants can sit in a circle and hold hands, performing the upper body sway and singing the traditional verses. · For children: A 'follow the leader' circle where children learn to keep the chain unbroken while singing simple refrains."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Participants can sit in a circle and hold hands, performing the upper body sway and singing the traditional verses.",
+      "For children: A 'follow the leader' circle where children learn to keep the chain unbroken while singing simple refrains."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Large open circle in a village square"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Tranos Choros.",
+      "The dance is a subclass of Greek folk dance and is part of the broader tradition of ritualistic circle dances found in the Balkan highlands.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "None (a cappella)"
+  ],
+  "vocal_style": "Group singing by the dancers",
+  "musical_form": "Antiphonal or collective singing",
+  "mood": [
+   "imposing",
+   "ritualistic",
+   "communal",
+   "solemn"
+  ],
+  "sound_description": "The sound is defined entirely by the human voice. A large group of dancers sings in unison or harmony without any instrumental backing, creating a raw, resonant acoustic effect that fills the mountain air.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Tranos Choros (Greece). Instruments: None (a cappella). Vocal style: Group singing by the dancers. Form: Antiphonal or collective singing. Mood: imposing, ritualistic, communal, solemn. It should sound like this: The sound is defined entirely by the human voice. A large group of dancers sings in unison or harmony without any instrumental backing, creating a raw, resonant acoustic effect that fills the mountain air. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance takes place in the highland village of Vlasti, typically in a central communal space or church square. While traditional highland Greek dress is historically associated with the event, the focus is on the communal formation of the circle.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Lucario And The Mystery Of Mew (Subtitled)",
+    "url": "https://archive.org/details/lucario-and-the-mystery-of-mew-subbed",
+    "year": 2006,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Red Poppies «塵埃落定 (英文版)»",
+    "url": "https://archive.org/details/red-poppies",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Series 7 The Tree Of Wisdom's Grand Dance Contest",
+    "url": "https://archive.org/details/series-7-the-tree-of-wisdoms-grand-dance-contest-",
+    "year": 2026,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "tdstr - 7 Grand Dance [Full Album Stream]",
+    "url": "https://archive.org/details/youtube-Vqt3If6ujEE",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "#TheGlobalGame : Guess who Dropped a Bombshell on NATO's 2% Target",
+    "url": "https://archive.org/details/youtube-rU14QOv0aX0",
+    "year": 2023,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "7 Grand Dance (Trailer)",
+    "url": "https://archive.org/details/youtube-gkWcIOm3Yzw",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Interlocked hands",
+   "Stone village square",
+   "Mountain horizon",
+   "Open circle formation"
+  ],
+  "costume_notes": "The dance takes place in the highland village of Vlasti, typically in a central communal space or church square. While traditional highland Greek dress is historically associated with the event, the focus is on the communal formation of the circle.",
+  "setting_notes": "The primary occasion is the August 15th (Dekapentavgoustos) festival. It signifies the reunion of the community, both historically for shepherds and currently for urban migrants returning to their ancestral village.",
+  "map": {
+   "country": "Greece",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "67 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 67,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://www.wikidata.org/wiki/Q7833445",
+  "https://ich.unesco.org/en/RL/01726"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "4379ea1bdfbdf906a6d5af1dc65930b8f1428e93e5b428e5069d0c283f2ebd10",
+ "hero_checked": null
+}

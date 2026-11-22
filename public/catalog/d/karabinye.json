@@ -37,6 +37,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carabinier_(dance)",
   "wikidata_qid": "Q17067092",
   "unesco": false,
+  "hero_video_youtube_id": "tytB6vck7B0",
+  "video_stack": [
+   {
+    "youtube_id": "tytB6vck7B0",
+    "role": "hero",
+    "title": "Carabinier   (Haitian🇭🇹 dance)",
+    "channel": "Nu Haitian _ TV",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -50,6 +60,15 @@
   "profile_long": "The Karabinye, also known as the Carabinier, stands as a rhythmic monument to the birth of the Haitian nation. Its origins are inextricably linked to the period following the 1804 Revolution, a time when the newly independent citizens sought to redefine European social structures through a Caribbean lens. The dance takes its name from the Carabiniers, the elite rifle regiments of the Haitian army, who were among the first to practice these specific movements. It emerged as a section of the kontradans (Haitian contredanse), eventually evolving into a distinct form that would later give rise to the national méringue. This evolution reflects the broader social transformation of Haiti, where the formal geometry of the French court was infused with the syncopated energy of African traditions.\n\nHistorically, the Karabinye is a product of intense cultural hybridization. It took the structured 'figure' dances of Europe—specifically the contredanse, lancers, and quadrille—and merged them with the powerful influences of the Kongo people. These influences included the chica, banboula, and kalenda, which provided a rhythmic complexity and a focus on hip and torso movement that the original European forms lacked. This synthesis created a couples dance that was both elegant and grounded, suitable for the celebratory atmosphere of a new republic. The dance was not merely entertainment; it was an assertion of presence and a reclamation of the ballroom space by those who had previously been excluded from it.\n\nIn terms of movement, the Karabinye is characterized as a couples dance that retains the 'figure' elements of its ancestors. While the specific footwork and technical nuances are not detailed in the available historical summaries, its lineage suggests a transition from the collective patterns of the quadrille to the more intimate partnering of the méringue. The rhythm is the defining feature, moving away from the strict 2/4 or 6/8 of the French contredanse toward the more fluid, syncopated patterns that define Haitian music. This rhythmic shift is what allowed the Karabinye to serve as the bridge to the mereng, which would eventually become the dominant social dance of the island.\n\nThe setting for the Karabinye was typically the social gatherings and official celebrations of the post-revolutionary period. It was performed in both rural and urban contexts, though its association with the military regiments gave it a particular prestige in the early 19th century. The music was provided by ensembles that combined European melodic instruments with African-derived percussion, creating a soundscape that was uniquely Haitian. Today, while the Karabinye is less frequently seen in its original form than the méringue, it remains a vital part of Haiti's cultural heritage and a key subject for folkloric preservation groups who seek to document the roots of Haitian movement.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:34Z",
+   "soft_fail": [
+    "not_vertical",
+    "camera_ok"
+   ]
+  },
   "related_slugs": [
    "quadrille",
    "calinda"
@@ -211,36 +230,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 11,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -251,28 +246,75 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "tytB6vck7B0",
+   "url": "https://www.youtube.com/watch?v=tytB6vck7B0",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "outdoor public gathering area on packed dirt, with seated onlookers and musicians in the background",
+    "dancers": "mixed group of adult men and women dancing in couples",
+    "formation_and_space": "couples dancing in a small informal circle or cluster in an open space",
+    "posture": "upright torso, slight knee bend, weight shifting between feet",
+    "footwork": "step-touch or rhythmic stepping in place on the beat, feet stay close to the ground",
+    "arms_and_hands": "closed dance hold with arms framing the partner, one hand on partner's waist/shoulder and free hand held",
+    "hips_and_torso": "subtle hip movement and weight shifts synchronized with the partner",
+    "partnering": "closed couple dance with continuous contact, lead and follow in framing",
+    "levels_jumps_turns": "grounded steps, occasional light turns without jumps",
+    "costume_and_props": "casual everyday clothing: shirts, trousers, skirts, caps",
+    "cannot_infer": "low video resolution and frequent camera framing changes obscure precise weight transfer mechanics and individual foot placement",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "drum",
+      "maraca"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 12,
+      "end_s": 26,
+      "what": "couples dancing in closed hold with rhythmic side-to-side stepping and hip movement"
+     },
+     {
+      "start_s": 137,
+      "end_s": 156,
+      "what": "partner turning smoothly while maintaining closed hold"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 12,
+  "gaps": 11,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/karabinye.json"
  },
- "fingerprint": "46ab380ce32a8e60",
- "updated": "2026-11-21"
+ "fingerprint": "6cac78b40aee0934",
+ "updated": "2026-11-22"
 }

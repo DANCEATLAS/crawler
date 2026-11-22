@@ -1,0 +1,891 @@
+{
+ "slug": "oleg",
+ "name": "Oleg",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:48Z",
+ "researched_at": "2026-11-22T17:27:33Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An expressive, precise Balinese master dancer emphasizing posture agility, dramatic eye gaze, and playful storytelling.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Oleg",
+   "Oleg Tamulilingan",
+   "Oleg Tambulilingan",
+   "Balinese bumblebee dance",
+   "Danza delle api"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Oleg",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Bumblebee's Courtship: Bali's 1952 Kebyar Revolution",
+     "This is Oleg. 1952."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Oleg · Indonesia · 1952"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "In 1952, American music presenter John Coast sought to bring a Balinese dance troupe to Europe and the United States.",
+     "He approached master choreographer I Ketut Marya (I Mario) of Tabanan, Bali, who had previously created the kebyar duduk dance in 1925.",
+     "Working alongside Coast, dancer I Wayan Sampih, and local musicians, I Mario drew upon images of Western ballet to craft a fusion dance."
+    ],
+    "on_screen": [
+     "Map: Indonesia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Oleg is a balih-balihan (secular entertainment) dance.",
+     "Beyond its romantic plot, writer Kartika Suardana notes the garden symbolism conveys that both sexes naturally need each other.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: GunungSari | PuriAgungPliatan | OLEG TAMULILINGAN (https://archive.org/details/20150822GunungSariPuriPliatanOlegTamulilinganDayuAloHD720p)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance dramatises a garden encounter between two bumblebees.",
+     "The female dancer enters first, executing complex, agile movements to depict fluttering around flowers and gathering nectar.",
+     "The male dancer enters with a fan and pursues her with insistent flirtation.",
+     "Watch for Wing Flight Scarf Motion, Fan Pursuit."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Duet dynamic; male dancer pursues female dancer across an open performance floor"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Listen for the Gamelan instruments.",
+     "Shimmering, explosive gamelan kebyar music featuring swift rhythmic turns and layered metallic resonance that mimics the buzzing energy of garden wildlife."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Dynamic gamelan kebyar rhythms with dramatic tempo changes"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The female dancer wears traditional prada fabric embellished with gold paint, a long sheer scarf serving as bee wings, and a large bouquet of flowers on her head.",
+     "The male dancer wears prada fabric wrapped to trail behind him like a tail, an udeng headpiece, and carries a fan throughout the performance."
+    ],
+    "on_screen": [
+     "Image gallery: 7 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Choreographer I Ketut Marya (I Mario); presenter John Coast; original dancers I Gusti Rasmin Raka, I Wayan Sampih (1926–1954), and Raka Rasmi; ethnomusicologist Andrew McGraw.",
+     "Originating in Tabanan, Oleg is performed throughout Bali.",
+     "Evolved from 1920s gamelan gong kebyar dance developments (kebyar duduk) and 1950s cross-cultural dialogue between Balinese masters and Western presenters."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Oleg is parent of Kebyar duduk: Also choreographed by I Ketut Marya (I Mario) in 1925, establishing the kebyar dance style.",
+     "Oleg is sibling of Cendrawasih: Shares the Balinese genre of animal-themed theatrical dances.",
+     "Oleg is influence of Legong: Young Balinese dancers often trained in legong before learning oleg."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Oscillating torso tilt with sheer scarf lift simulating bee flight",
+     "Agile female garden nectar gathering movement sequence",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how master choreographer I Mario blended Balinese gamelan kebyar with Western ballet concepts to create Oleg Tamulilingan, the vivacious bumblebee dance.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the core Balinese swaying posture (oleg).",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the core Balinese swaying posture (oleg)..",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: An expressive, precise Balinese master dancer emphasizing posture agility, dramatic eye gaze, and playful storytelling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Swaying, oscillating Balinese posture with raised arms holding wing-like scarf",
+      "Female dancer extends arms with sheer scarf for wings; male dancer manipulates a hand fan",
+      "Fluid torso oscillations ('oleg' in Balinese means swaying movement)"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Dynamic gamelan kebyar rhythms with dramatic tempo changes.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Oscillating torso tilt with sheer scarf lift simulating bee flight",
+      "Step 2: Agile female garden nectar gathering movement sequence",
+      "Drill: Practice rhythmic side-to-side torso swaying in a low Balinese stance."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Flirtatious male pursuit step with hand-fan gestures",
+      "Drill: Hold arms at shoulder height while keeping shoulders grounded."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff upper body posture or static arm positions, as continuous swaying ('oleg') and fluid wing motion are vital."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the upper-body 'oleg' torso swaying and arm scarf movements while seated securely on a chair. · For children: Play the 'Bumblebee Garden' game where one child flutters scarf wings while another plays the fan-bearing pursuer."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the upper-body 'oleg' torso swaying and arm scarf movements while seated securely on a chair.",
+      "For children: Play the 'Bumblebee Garden' game where one child flutters scarf wings while another plays the fan-bearing pursuer."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the core Balinese swaying posture (oleg)..",
+      "Oleg is a balih-balihan (secular entertainment) dance.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate wing scarf motion and head turns.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate wing scarf motion and head turns..",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: An expressive, precise Balinese master dancer emphasizing posture agility, dramatic eye gaze, and playful storytelling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Swaying, oscillating Balinese posture with raised arms holding wing-like scarf",
+      "Female dancer extends arms with sheer scarf for wings; male dancer manipulates a hand fan",
+      "Fluid torso oscillations ('oleg' in Balinese means swaying movement)"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Dynamic gamelan kebyar rhythms with dramatic tempo changes.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Oscillating torso tilt with sheer scarf lift simulating bee flight",
+      "Step 2: Agile female garden nectar gathering movement sequence",
+      "Drill: Flick wrists to wave a lightweight scarf rhythmically."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Flirtatious male pursuit step with hand-fan gestures",
+      "Wing Flight Scarf Motion: Female dancer raises arms high to expand a sheer scarf, creating a buzzing flight illusion.",
+      "Fan Pursuit: Male dancer pursues the female across the floor using rhythmic fan movements.",
+      "Drill: Coordinate fast eye-gaze shifts with torso oscillations."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff upper body posture or static arm positions, as continuous swaying ('oleg') and fluid wing motion are vital."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the upper-body 'oleg' torso swaying and arm scarf movements while seated securely on a chair. · For children: Play the 'Bumblebee Garden' game where one child flutters scarf wings while another plays the fan-bearing pursuer."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the upper-body 'oleg' torso swaying and arm scarf movements while seated securely on a chair.",
+      "For children: Play the 'Bumblebee Garden' game where one child flutters scarf wings while another plays the fan-bearing pursuer."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Duet dynamic; male dancer pursues female dancer across an open performance floor"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate wing scarf motion and head turns..",
+      "Choreographer I Ketut Marya (I Mario); presenter John Coast; original dancers I Gusti Rasmin Raka, I Wayan Sampih (1926–1954), and Raka Rasmi; ethnomusicologist Andrew McGraw.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform the full duet pursuit narrative with partner coordination.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform the full duet pursuit narrative with partner coordination..",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: An expressive, precise Balinese master dancer emphasizing posture agility, dramatic eye gaze, and playful storytelling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Swaying, oscillating Balinese posture with raised arms holding wing-like scarf",
+      "Female dancer extends arms with sheer scarf for wings; male dancer manipulates a hand fan",
+      "Fluid torso oscillations ('oleg' in Balinese means swaying movement)"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Dynamic gamelan kebyar rhythms with dramatic tempo changes.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Agile female garden nectar gathering movement sequence",
+      "Step 2: Flirtatious male pursuit step with hand-fan gestures",
+      "Drill: Practice female coy avoidance footwork paired with male fan chase patterns."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Wing Flight Scarf Motion: Female dancer raises arms high to expand a sheer scarf, creating a buzzing flight illusion.",
+      "Fan Pursuit: Male dancer pursues the female across the floor using rhythmic fan movements.",
+      "Drill: Execute dynamic gamelan kebyar tempo transitions in sync."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff upper body posture or static arm positions, as continuous swaying ('oleg') and fluid wing motion are vital."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the upper-body 'oleg' torso swaying and arm scarf movements while seated securely on a chair. · For children: Play the 'Bumblebee Garden' game where one child flutters scarf wings while another plays the fan-bearing pursuer."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the upper-body 'oleg' torso swaying and arm scarf movements while seated securely on a chair.",
+      "For children: Play the 'Bumblebee Garden' game where one child flutters scarf wings while another plays the fan-bearing pursuer."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Duet dynamic; male dancer pursues female dancer across an open performance floor"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform the full duet pursuit narrative with partner coordination..",
+      "Evolved from 1920s gamelan gong kebyar dance developments (kebyar duduk) and 1950s cross-cultural dialogue between Balinese masters and Western presenters.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Dynamic gamelan kebyar rhythms with dramatic tempo changes",
+  "instruments": [
+   "Gamelan instruments"
+  ],
+  "vocal_style": null,
+  "musical_form": "Balinese gamelan gong kebyar composition",
+  "mood": [
+   "vivacious",
+   "humorous",
+   "engaging",
+   "flirtatious",
+   "lively"
+  ],
+  "sound_description": "Shimmering, explosive gamelan kebyar music featuring swift rhythmic turns and layered metallic resonance that mimics the buzzing energy of garden wildlife.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Oleg (Indonesia). Rhythm pattern: Dynamic gamelan kebyar rhythms with dramatic tempo changes. Instruments: Gamelan instruments. Form: Balinese gamelan gong kebyar composition. Mood: vivacious, humorous, engaging, flirtatious, lively. It should sound like this: Shimmering, explosive gamelan kebyar music featuring swift rhythmic turns and layered metallic resonance that mimics the buzzing energy of garden wildlife. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The female dancer wears traditional prada fabric embellished with gold paint, a long sheer scarf serving as bee wings, and a large bouquet of flowers on her head. The male dancer wears prada fabric wrapped to trail behind him like a tail, an udeng headpiece, and carries a fan throughout the performance.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A17_Years_of_Sekar_Jepun_2014-11-01_01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A17_Years_of_Sekar_Jepun_2014-11-01_32.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "description": "bali ubud danseur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/17_Years_of_Sekar_Jepun_2014-11-01_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/17_Years_of_Sekar_Jepun_2014-11-01_01.jpg/1280px-17_Years_of_Sekar_Jepun_2014-11-01_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A17_Years_of_Sekar_Jepun_2014-11-01_01.jpg",
+    "description": "Sanata Dharma University's Sekar Jepun, a Balinese dance troupe, celebrates its 17th anniversary. Shown here is poet Monika N. Arundhati, who danced the Legong Bapang Saba."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/17_Years_of_Sekar_Jepun_2014-11-01_32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/17_Years_of_Sekar_Jepun_2014-11-01_32.jpg/1280px-17_Years_of_Sekar_Jepun_2014-11-01_32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A17_Years_of_Sekar_Jepun_2014-11-01_32.jpg",
+    "description": "Sanata Dharma University's Sekar Jepun, a Balinese dance troupe, celebrates its 17th anniversary. Here the Oleg dance is performed."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+    "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+    "description": "Seni Tari Piring"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+    "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+    "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+   }
+  ],
+  "footage": [
+   {
+    "title": "GunungSari | PuriAgungPliatan | OLEG TAMULILINGAN",
+    "url": "https://archive.org/details/20150822GunungSariPuriPliatanOlegTamulilinganDayuAloHD720p",
+    "year": 2015,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Dance all You Can - WOW That's in OC",
+    "url": "https://archive.org/details/fvpctca-Dance_all_You_Can_-_WOW_That_s_in_OC",
+    "year": 2018,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Gold prada fabric glistening under stage lights",
+   "Sheer scarf fluttering like insect wings",
+   "Male fan opening and closing during courtship chase",
+   "Head bouquet of fresh flowers"
+  ],
+  "costume_notes": "The female dancer wears traditional prada fabric embellished with gold paint, a long sheer scarf serving as bee wings, and a large bouquet of flowers on her head. The male dancer wears prada fabric wrapped to trail behind him like a tail, an udeng headpiece, and carries a fan throughout the performance.",
+  "setting_notes": "Oleg is a balih-balihan (secular entertainment) dance. Beyond its romantic plot, writer Kartika Suardana notes the garden symbolism conveys that both sexes naturally need each other.",
+  "map": {
+   "country": "Indonesia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "12 tutorial(s) of the stage-contemporary family studied",
+  "videos_studied": 12,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "reach out",
+   "through the pli",
+   "relax the chest",
+   "push three and four",
+   "up seven down eight",
+   "roll six up seven",
+   "keep your feet pointed",
+   "use your core",
+   "lean your body back",
+   "pick up one foot",
+   "weight is going to transfer",
+   "slide back"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "full_demo",
+   "context",
+   "slow_practice",
+   "breakdown",
+   "music_practice",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "the music & instruments section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Oleg_dance",
+  "https://www.wikidata.org/wiki/Q25240800",
+  "https://it.wikipedia.org/wiki/Oleg_(danza)",
+  "https://archive.org/details/AHeritageOfOpenAirSquareTempleDiscoveredInRussia"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "299e2642d0661c8c1039cc4b4d308283f27be921c0d79b7e07a6bfd5495c274e",
+ "hero_checked": null
+}

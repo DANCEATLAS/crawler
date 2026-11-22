@@ -297,6 +297,19 @@
   "is_sacred": false
  },
  {
+  "slug": "akdagmadeni-halay",
+  "name": "Akdağmadeni halay",
+  "aliases": [
+   "Khalái",
+   "Χαλάι"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Halay",
+  "country": "Turkey",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "al-ardha",
   "name": "Al-Ardha",
   "aliases": [
@@ -333,6 +346,16 @@
   "publish": true,
   "has_hero": false,
   "is_sacred": false
+ },
+ {
+  "slug": "alamikkali",
+  "name": "Alamikkali",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Alamikkali",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "alanta-dance",
@@ -1255,12 +1278,15 @@
  {
   "slug": "ball-dels-cossiers",
   "name": "Ball dels Cossiers",
-  "aliases": [],
+  "aliases": [
+   "dance of the cossiers",
+   "baile de los cossiers"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Ball_dels_Cossiers",
   "country": "Spain",
   "publish": true,
   "has_hero": false,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "ballet",
@@ -1685,16 +1711,13 @@
   "slug": "bele",
   "name": "Bele",
   "aliases": [
-   "Bele",
-   "bel-air",
-   "belair",
-   "fine-air"
+   "Bele"
   ],
-  "wikipedia": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9",
+  "wikipedia": "",
   "country": "Martinique/Trinidad",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "bele-lino",
@@ -1952,6 +1975,16 @@
   "is_sacred": false
  },
  {
+  "slug": "bigwala",
+  "name": "Bigwala",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Bigwala",
+  "country": "Uganda",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "bihu-dance",
   "name": "Bihu",
   "aliases": [
@@ -2081,12 +2114,16 @@
  {
   "slug": "blues-dancing",
   "name": "Blues dancing",
-  "aliases": [],
+  "aliases": [
+   "Stehblues",
+   "Tanzblues",
+   "blues-idiom dance"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Blues_dance",
   "country": "United States",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "bobaraba",
@@ -3225,7 +3262,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Ceracap_Inai_(dance)",
   "country": "Malaysia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -3532,6 +3569,19 @@
   "is_sacred": false
  },
  {
+  "slug": "chestnut",
+  "name": "Chestnut",
+  "aliases": [
+   "Dove's Figary",
+   "Doves Figary"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Chestnut_(dance)",
+  "country": "England",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "chhau",
   "name": "Chhau",
   "aliases": [
@@ -3710,6 +3760,16 @@
   "country": "India",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "chukchu",
+  "name": "Chukchu",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Chukchu",
+  "country": "Peru",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -4019,7 +4079,9 @@
  {
   "slug": "cornish-dance",
   "name": "Cornish dance",
-  "aliases": [],
+  "aliases": [
+   "Donsyow kernewek"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Cornish_dance",
   "country": "UK",
   "publish": true,
@@ -4693,11 +4755,11 @@
    "Deodha Nach",
    "Deodhani-nac"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Deodhani_dance",
   "country": "India",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "deodhani-dance",
@@ -4780,13 +4842,23 @@
   "is_sacred": false
  },
  {
+  "slug": "dhemsa",
+  "name": "Dhemsa",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Dhemsa",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "dhimsa",
   "name": "Dhimsa",
   "aliases": [],
   "wikipedia": "https://en.wikipedia.org/wiki/Dhimsa",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -5177,7 +5249,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Dutty_Wine",
   "country": "Jamaica",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -5615,7 +5687,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Finger-tutting",
   "country": "United States",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -6166,7 +6238,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Gaudiya_Nritya",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -6481,7 +6553,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Gotipua",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -7055,7 +7127,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Hiplet_(dance_style)",
   "country": "United States",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -8110,10 +8182,10 @@
   "slug": "juba-dance",
   "name": "Juba dance",
   "aliases": [
-   "Hambone",
-   "Pattin' Juba",
+   "Djouba",
    "Giouba",
-   "Djouba"
+   "Hambone",
+   "Pattin' Juba"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Juba_dance",
   "country": "United States",
@@ -8408,7 +8480,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Carabinier_(dance)",
   "country": "Haiti",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -8636,16 +8708,6 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": true
- },
- {
-  "slug": "kerala-natanam",
-  "name": "Kerala Natanam",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Kerala_Natanam",
-  "country": "India",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
  },
  {
   "slug": "kete-akan",
@@ -10010,10 +10072,12 @@
  },
  {
   "slug": "malaysian-dance",
-  "name": "Malaysian dance",
+  "name": "Malaysian Lion Dance",
   "aliases": [
+   "Wǔshī",
    "Southern Lion dance",
-   "Chinese lion dance in Malaysia"
+   "Nán shī",
+   "Nian dance"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Lion_dance",
   "country": "Malaysia",
@@ -10910,11 +10974,24 @@
    "Mthiuluri",
    "Mtiuluri"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Georgian_dance",
   "country": "Georgia",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "muchilot-bhagavathi-theyyam",
+  "name": "Muchilot Bhagavathi Theyyam",
+  "aliases": [
+   "Muchilottu Bhagavathi",
+   "Muchilottu Bhagavathi Theyyam"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Muchilot_Bhagavathi",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "muchongoyo",
@@ -11216,6 +11293,20 @@
   "is_sacred": false
  },
  {
+  "slug": "newa-dance",
+  "name": "Newa dance",
+  "aliases": [
+   "Newar dance",
+   "Pyakhan",
+   "𑐥𑑂𑐫𑐵𑐏𑑃"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Newar_dance",
+  "country": "Nepal",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "ngajat",
   "name": "Ngajat",
   "aliases": [
@@ -11329,6 +11420,19 @@
   "country": "India",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "nos-lowen",
+  "name": "Nos Lowen",
+  "aliases": [
+   "noze looan",
+   "nsl"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Nos_lowen",
+  "country": "United Kingdom",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -11446,6 +11550,22 @@
   "is_sacred": true
  },
  {
+  "slug": "oleg",
+  "name": "Oleg",
+  "aliases": [
+   "Oleg Tamulilingan",
+   "Oleg Tambulilingan",
+   "Balinese bumblebee dance",
+   "Danza delle api",
+   "Danza balinese dei bombi"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Oleg_dance",
+  "country": "Indonesia",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "one-step",
   "name": "One-Step",
   "aliases": [],
@@ -11504,6 +11624,7 @@
    "Ōte'a",
    "Ote'a",
    "ote a",
+   "otea",
    "Tahitian drum dance"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/%27ote%27a",
@@ -11758,6 +11879,19 @@
   "is_sacred": true
  },
  {
+  "slug": "parai-attam",
+  "name": "Parai Attam",
+  "aliases": [
+   "Thappattam",
+   "Paraiyattam"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Parai",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "parayan-thullal",
   "name": "Parayan Thullal",
   "aliases": [],
@@ -11776,7 +11910,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Parichamuttukali",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -12041,6 +12175,16 @@
   "country": "Peru",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "petrunino-horo",
+  "name": "Petrunino Horo",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Petrunino_horo",
+  "country": "Bulgaria",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -12345,7 +12489,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Poomaruthan_Theyyam",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -12745,7 +12889,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Rake-and-scrape",
   "country": "The Bahamas",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -12770,7 +12914,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Ramanattam",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -13006,6 +13150,19 @@
   "is_sacred": false
  },
  {
+  "slug": "rieldans",
+  "name": "Rieldans",
+  "aliases": [
+   "Riel",
+   "Ikhapara"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Rieldans",
+  "country": "South Africa",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "rigaudon",
   "name": "Rigaudon",
   "aliases": [
@@ -13055,7 +13212,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Dance_in_Cambodia",
   "country": "Cambodia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -13223,7 +13380,7 @@
   "country": "Philippines",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "saidi",
@@ -13794,7 +13951,11 @@
  {
   "slug": "serpentine-dance",
   "name": "Serpentine dance",
-  "aliases": [],
+  "aliases": [
+   "Serpentinentanz",
+   "Danse serpentine",
+   "Dança serpentina"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Serpentine_dance",
   "country": "United States",
   "publish": true,
@@ -14429,7 +14590,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Son_de_los_Diablos",
   "country": "Peru",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -14499,6 +14660,23 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "sourashtra-folk-dance",
+  "name": "Sourashtra folk dance",
+  "aliases": [
+   "Folk dances of Sourashtra",
+   "Gebbi",
+   "Gebbel",
+   "Dandi natana",
+   "Kolane",
+   "Konangi"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Folk_dances_of_Sourashtra",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "sousta",
@@ -14601,7 +14779,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Stepping_(African-American)",
   "country": "United States",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -14613,7 +14791,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Stiletto_dance",
   "country": "United States; Europe",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -14985,7 +15163,7 @@
   "aliases": [
    "Tanovar"
   ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Mukarram_Turgunbaeva",
+  "wikipedia": "",
   "country": "Uzbekistan",
   "publish": true,
   "has_hero": true,
@@ -15203,6 +15381,19 @@
   "is_sacred": false
  },
  {
+  "slug": "the-chicken",
+  "name": "The Chicken",
+  "aliases": [
+   "Funky Chicken",
+   "The Funky Chicken"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Chicken_(dance)",
+  "country": "United States",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "the-freddie",
   "name": "The Freddie",
   "aliases": [
@@ -15224,6 +15415,28 @@
   "country": "United States",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "the-shake",
+  "name": "The Shake",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Shake_(dance)",
+  "country": "United Kingdom",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
+  "slug": "the-stroll",
+  "name": "The Stroll",
+  "aliases": [
+   "Soul Train Line"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Stroll",
+  "country": "United States",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -15445,6 +15658,18 @@
   "is_sacred": false
  },
  {
+  "slug": "tranos-choros",
+  "name": "Tranos Choros",
+  "aliases": [
+   "Grand Dance"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Tranos_Choros",
+  "country": "Greece",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "trasukha",
   "name": "Trasukha",
   "aliases": [
@@ -15496,6 +15721,19 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "tripuri-dance",
+  "name": "Tripuri dance",
+  "aliases": [
+   "Tripuri dances",
+   "Dances of Tripura"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Dances_of_Tripura",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "troika",
@@ -15809,6 +16047,19 @@
   "is_sacred": false
  },
  {
+  "slug": "uzicko-kolo",
+  "name": "Uzicko Kolo",
+  "aliases": [
+   "U sest",
+   "Uzicanka"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Serbian_dances",
+  "country": "Serbia",
+  "publish": true,
+  "has_hero": true,
+  "is_sacred": false
+ },
+ {
   "slug": "uzundara",
   "name": "Uzundara",
   "aliases": [
@@ -15863,6 +16114,19 @@
   "is_sacred": true
  },
  {
+  "slug": "vattakkali",
+  "name": "Vattakkali",
+  "aliases": [
+   "Chuvadukali",
+   "Chavittukali"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Vattakkali",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "vayia-strose-kai-louloudia",
   "name": "Vayia Strose kai Louloudia",
   "aliases": [
@@ -15884,6 +16148,31 @@
   "country": "India",
   "publish": true,
   "has_hero": true,
+  "is_sacred": true
+ },
+ {
+  "slug": "veeragase",
+  "name": "Veeragase",
+  "aliases": [
+   "Guggla"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Veeragase",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
+  "slug": "veeranatyam",
+  "name": "Veeranatyam",
+  "aliases": [
+   "Veerabhadra Natyam",
+   "Dance of the Brave"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Veeranatyam",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": true
  },
  {
@@ -16194,6 +16483,19 @@
   "is_sacred": false
  },
  {
+  "slug": "wuju",
+  "name": "Wuju",
+  "aliases": [
+   "dance drama",
+   "wùjù"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Wuju",
+  "country": "China",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "xianzi",
   "name": "Xianzi",
   "aliases": [
@@ -16340,7 +16642,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Yapong_dance",
   "country": "Indonesia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {

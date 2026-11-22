@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "15",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Caller-free group dancing featuring simpler and older dances such as snake dances and furry dances to maximize participation in community settings.",
+          "source": "https://en.wikipedia.org/wiki/Nos_lowen"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Open winding chains and lines (snake dances, furry dances) travelling through the hall",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Caller-free communal chain and line formats",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A winding chain dance where participants link and follow the leader through the space without a caller.",
+          "name": "Snake dance"
+        },
+        {
+          "description": "An ancient Cornish processional dance form adapted into the caller-free nos lowen repertoire.",
+          "name": "Furry dance"
+        }
+      ],
+      "tempo_feel": "Repetitive, immersive, and trance-inducing",
+      "what_to_avoid": "Avoid relying on a caller or interrupting the continuous flow of the chain."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "driving",
+        "trance-like",
+        "communal",
+        "energetic",
+        "progressive"
+      ],
+      "musical_form": "Longer, progressive song arrangements with driving repetition",
+      "reference_recordings": [],
+      "rhythm_pattern": "Repetitive, driving rhythms designed to induce a trance-like state",
+      "sound_description": "The music of nos lowen is defined by an energetic, progressive folk style tailored for social dancing. It emphasizes strong, hypnotic rhythms and long, extended pieces rather than brief tunes. The repetitive rhythmic drive is structured to lock the entire room into a sustained, collective trance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Extended songs, vocal details not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "Snake dances and furry dance chains; winding lines without a caller",
+      "level_notes": "Designed for maximum accessibility, allowing complete beginners to join moving chains without verbal calling or prior rehearsal.",
+      "rhythm": "Heavy rhythmic emphasis supporting extended dancing, specific counts not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f3431e1f39607abc399e16acda0b48479886ba26c27fa4ce920df2680eb5e160",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What specific step patterns and footwork counts define the snake dances and furry dances performed at a nos lowen? Evidence needed: Cornish dance instruction manuals, field recordings, or ethnographic studies detailing nos lowen dance choreographies."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How do participants initiate, navigate, and hold lines in snake dances without a caller in live nos lowen events? Evidence needed: Multi-angle video documentation of social nos lowen evenings in Cornwall showing line transitions and participant joining mechanics."
+    ]
+  },
+  "id": "atlas:nos-lowen",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Nos Lowen",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "ae68772ffcc1792b",
+      "next_evidence": "Cornish dance instruction manuals, field recordings, or ethnographic studies detailing nos lowen dance choreographies.",
+      "question": "What specific step patterns and footwork counts define the snake dances and furry dances performed at a nos lowen?",
+      "source": "https://en.wikipedia.org/wiki/Nos_lowen",
+      "status": "candidate_unreviewed",
+      "why_needed": "Interactive teaching requires unambiguous movement rules, which are entirely omitted from general historical descriptions."
+    },
+    {
+      "domain": "video",
+      "id": "115b24c0f50b5574",
+      "next_evidence": "Multi-angle video documentation of social nos lowen evenings in Cornwall showing line transitions and participant joining mechanics.",
+      "question": "How do participants initiate, navigate, and hold lines in snake dances without a caller in live nos lowen events?",
+      "source": "https://en.wikipedia.org/wiki/Nos_lowen",
+      "status": "candidate_unreviewed",
+      "why_needed": "Computer vision models and learners need to observe chain spacing, turns, and how novice dancers join moving formations organically."
+    }
+  ],
+  "research_file": "research_results/nos-lowen.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "nos-lowen",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nos_lowen",
+    "https://www.wikidata.org/wiki/Q17017392"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

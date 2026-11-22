@@ -1,8 +1,8 @@
 # Robam Neary Chea Chuor — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; signature moves; notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; signature moves; notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An encouraging cultural practitioner sharing the joy and history of Khmer folk traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Lines of Grace: The Folk Heritage of Cambodia
 NARRATION: This is Robam Neary Chea Chuor. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (iABw4hV6AEI)
 ON SCREEN: Title card: Robam Neary Chea Chuor · Cambodia · 20th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The dance is performed by young women dancing in line formations ('chea chuor').
 NARRATION: Compared to classical Khmer court dance, it features a more fast-paced tempo and less stylized gestures.
 NARRATION: Dancers execute coordinated step patterns and hand movements in synchronized alignments.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (iABw4hV6AEI)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Line formation (chea chuor)
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -297,7 +297,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear colorful and elegant traditional Khmer costumes, often made of silk, reflecting the regional and historic dress styles of Cambodian women.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'iABw4hV6AEI', 'checked_by_vision_model': True, 'title': 'Khmer Arts Academy - Neary Chea Chuor'}
 Images: 8 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Derived from the United States Information Agency / Wikimedia Commons / Public domain (Public domain); 'dalbera' (Flickr user, no real name given) / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Jadamta / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Rdghalayini / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Vibrant silk fabrics, Synchronized rows of female dancers, Mahori instruments
@@ -307,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Cambodia; https://www.wikidata.org/wiki/Q7340702

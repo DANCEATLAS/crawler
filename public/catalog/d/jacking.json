@@ -106,6 +106,17 @@
      "My friend I must thank you for all your videos. I'm from Purto Rico and housing is almost unexisting here.  thanks to you and your videos I'm finally learning t"
     ],
     "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "ooriYYT2aAQ",
+    "title": "House Dance Basic steps & Grooves Tutorial for Beginners | Jacking",
+    "channel": "BANRI Jackin",
+    "level": "beginner",
+    "pos": 1,
+    "neg": 1,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
    }
   ],
   "related_slugs": [
@@ -462,6 +473,110 @@
    }
   },
   {
+   "youtube_id": "_6ksBUSzQLE",
+   "url": "https://www.youtube.com/watch?v=_6ksBUSzQLE",
+   "title": "House Dance For Beginners- The Jack and Reverse Jack",
+   "channel": "Versa-Style Street Dance Company",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction of instructor and topic"
+    },
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "segment": "full_demo",
+     "note": "Performance clips of house dance"
+    },
+    {
+     "t": "0:28",
+     "seconds": 28,
+     "segment": "context",
+     "note": "Explanation of what the jack is"
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "segment": "breakdown",
+     "note": "Breakdown of the foundational jack step"
+    },
+    {
+     "t": "2:13",
+     "seconds": 133,
+     "segment": "music_practice",
+     "note": "Practicing the jack with music at various tempos"
+    },
+    {
+     "t": "3:06",
+     "seconds": 186,
+     "segment": "breakdown",
+     "note": "Breakdown of the reverse jack step"
+    },
+    {
+     "t": "4:26",
+     "seconds": 266,
+     "segment": "music_practice",
+     "note": "Practicing the reverse jack with music at various tempos"
+    },
+    {
+     "t": "5:39",
+     "seconds": 339,
+     "segment": "recap",
+     "note": "Review of both jack and reverse jack"
+    }
+   ],
+   "steps": [
+    {
+     "name": "The Jack",
+     "counts": "5-6-7-8",
+     "description": "Foundational house groove starting with loose knees moving in a circular rhythm."
+    },
+    {
+     "name": "The Reverse Jack",
+     "counts": "5-6-7-8",
+     "description": "House groove starting by dropping knees down and rolling the body up."
+    }
+   ],
+   "cues": [
+    "Keep your knees loose",
+    "Find that beat",
+    "Down and up"
+   ],
+   "images": [
+    "dig down into the earth",
+    "knees are waving with the music"
+   ],
+   "teacher_style": "The instructor uses an encouraging, step-by-step breakdown approach starting from basic movements to practicing with music. She explains body mechanics clearly and demonstrates variations from different angles.",
+   "distinctive_method": "Breaking down groove foundations by isolating knee and torso movement directions before adding music.",
+   "what_works": [
+    "Clear breakdown of movements",
+    "Demonstrations from front and side angles",
+    "Gradual tempo increase with music"
+   ],
+   "evidence": [
+    {
+     "start_s": 51,
+     "end_s": 70,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates the jack step while explaining knee movement facing the camera",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "ooriYYT2aAQ",
    "url": "https://www.youtube.com/watch?v=ooriYYT2aAQ",
    "title": "House Dance Basic steps & Grooves Tutorial for Beginners | Jacking",
@@ -652,6 +767,6 @@
   "polished": false,
   "file": "episodes/jacking.json"
  },
- "fingerprint": "69f19525498a21dc",
- "updated": "2026-11-21"
+ "fingerprint": "fed1ee90a2d55d30",
+ "updated": "2026-11-22"
 }

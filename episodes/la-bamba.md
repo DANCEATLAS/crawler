@@ -1,6 +1,6 @@
 # La Bamba — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand erect with straight posture
 NARRATION: Perform zapateado footwork emphasizing right heel
-NARRATION: Count it: 1-2-3-4-5-6-7.
+NARRATION: Count it: 1-2-3-and-4-5-6-7-and-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -105,7 +105,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7. The meter is binary (2/4 or similar).
+NARRATION: Count: 1-2-3-and-4-5-6-7-and-8. The meter is binary (2/4 or similar).
 NARRATION: Rhythm pattern: Ostinato pattern with arpeggiated bass and rhythmic strumming.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -121,7 +121,7 @@ NARRATION: Drill: Practice right heel taps to 2/4 rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-and-4-5-6-7-and-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Practice tying a large ribbon into a knot using feet
@@ -129,7 +129,7 @@ NARRATION: Step 4: Maintain fast, binary rhythm foot taps
 NARRATION: Drill: Maintain erect posture while stepping
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-and-4-5-6-7-and-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -148,7 +148,7 @@ MUSIC: silence
 OPTIONS: For children: simplified foot tapping game with ribbon passing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7.
+NARRATION: Count-in: 1-2-3-and-4-5-6-7-and-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,7 +177,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7. The meter is binary (2/4 or similar).
+NARRATION: Count: 1-2-3-and-4-5-6-7-and-8. The meter is binary (2/4 or similar).
 NARRATION: Rhythm pattern: Ostinato pattern with arpeggiated bass and rhythmic strumming.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,7 +191,7 @@ NARRATION: Drill: Practice foot coordination to tie ribbon knot
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-and-4-5-6-7-and-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ribbon knot tying: Dancers use their feet to tie a large red ribbon into a lover's knot on the floor
@@ -200,7 +200,7 @@ NARRATION: Drill: Synchronize movements with partner
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-and-4-5-6-7-and-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +219,7 @@ MUSIC: silence
 OPTIONS: For children: simplified foot tapping game with ribbon passing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7.
+NARRATION: Count-in: 1-2-3-and-4-5-6-7-and-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in couples, sometimes multiple couples; space used for footwork and ribbon tying
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -248,7 +248,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7. The meter is binary (2/4 or similar).
+NARRATION: Count: 1-2-3-and-4-5-6-7-and-8. The meter is binary (2/4 or similar).
 NARRATION: Rhythm pattern: Ostinato pattern with arpeggiated bass and rhythmic strumming.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -263,7 +263,7 @@ NARRATION: Drill: Compose improvised verses respecting tradition
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-and-4-5-6-7-and-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ribbon knot tying: Dancers use their feet to tie a large red ribbon into a lover's knot on the floor
@@ -272,7 +272,7 @@ NARRATION: Drill: Lead partner in complex footwork sequences
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-and-4-5-6-7-and-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -291,7 +291,7 @@ MUSIC: silence
 OPTIONS: For children: simplified foot tapping game with ribbon passing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7.
+NARRATION: Count-in: 1-2-3-and-4-5-6-7-and-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in couples, sometimes multiple couples; space used for footwork and ribbon tying
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -331,8 +331,8 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2-3-4-5-6-7
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full
-Cues: viene y; preparacin; descanso; one two three and four
+Counting: 1-2-3-and-4-5-6-7-and-8
+Demonstration: views used by most teachers: back, front; tempo progression: slow → full
+Cues: one two three and four; viene y; preparacin; descanso
 
 Sources (6): https://en.wikipedia.org/wiki/La_Bamba_(song); https://www.wikidata.org/wiki/Q641677; https://es.wikipedia.org/wiki/La_bamba; https://fr.wikipedia.org/wiki/La_bamba; https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958); https://archive.org/details/ERIC_ED342705

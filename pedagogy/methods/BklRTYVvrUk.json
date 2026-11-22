@@ -103,12 +103,56 @@
      "about": "who_can_dance"
     },
     {
-     "t": "1:03",
-     "belief": "You are a dancer before you are a partner dancer.",
+     "t": "0:55",
+     "belief": "The teacher believes that everyone is a dancer before they are a partner dancer.",
      "about": "who_can_dance"
+    },
+    {
+     "t": "1:03",
+     "belief": "The teacher believes that dancing is for personal expression and exploring what the body wants to do to the music.",
+     "about": "what_dancing_is_for"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "5:16",
+     "feeling": "awkward",
+     "response": "The teacher shows the learner how to focus on rhythm and bouncing to make their movement feel more natural and less forced."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:29",
+     "moment": "opening",
+     "says": "The teacher introduces the Shim Sham as a way to connect with jazz-loving people all over the world.",
+     "tag": "social_connection"
+    },
+    {
+     "t": "1:39",
+     "moment": "before_hard_part",
+     "says": "The teacher invites the learner to clap out the rhythm of the steps together to prepare for the dance.",
+     "tag": "self_check"
+    },
+    {
+     "t": "5:09",
+     "moment": "after_mistake",
+     "says": "The teacher demonstrates a common mistake of taking big steps and contrasts it with the correct, smaller, more rhythmic steps.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "6:33",
+     "moment": "check_in",
+     "says": "The teacher encourages the learner to follow along, reassuring them that they already know the parts.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "9:32",
+     "moment": "before_hard_part",
+     "says": "The teacher slows down the transition between two steps to help the learner master the tricky part.",
+     "tag": "progression"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling like a capable dancer who is part of a global community."
   },
   "learner_voice": {
    "struggles": [
@@ -194,5 +238,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-22T20:24:37Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 2,
+  "feelings": 1
+ }
 }

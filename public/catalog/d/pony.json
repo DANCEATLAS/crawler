@@ -102,6 +102,19 @@
    "checked_at": "2026-11-21T19:21:44Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "VuQnlSQiXDE",
+    "title": "Jake Kodish - PONY - Dance Tutorial [Preview] - #TMillyTV: Learn Choreography",
+    "channel": "Tim Milgram",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "twist"
   ]
@@ -394,7 +407,7 @@
   "have": 15,
   "of": 15,
   "via": {
-   "signature_moves": "performance",
+   "signature_moves": "lesson",
    "study_video": "lesson"
   }
  },
@@ -455,6 +468,163 @@
      "observation": "Teacher demonstrates footwork counts facing forward in a mirror-flipped studio",
      "viewpoint": "front, mirrored",
      "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "z0ZrSBTcz_A",
+   "url": "https://www.youtube.com/watch?v=z0ZrSBTcz_A",
+   "title": "Magic Mike \"Pony\" Dance Analysis (How To Dance Like Magic Mike)",
+   "channel": "Adonis Dance Academy",
+   "analysed_on": "2026-11-22",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "1-2-3",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Clip from Magic Mike dancing to Pony"
+    },
+    {
+     "t": "0:07",
+     "seconds": 7,
+     "segment": "intro",
+     "note": "Instructor introduces the Magic Mike Pony routine breakdown"
+    },
+    {
+     "t": "0:51",
+     "seconds": 51,
+     "segment": "breakdown",
+     "note": "Analysis of the routine starting with standing and jacket removal"
+    },
+    {
+     "t": "1:21",
+     "seconds": 81,
+     "segment": "breakdown",
+     "note": "Hip thrusts breakdown with replay"
+    },
+    {
+     "t": "1:44",
+     "seconds": 104,
+     "segment": "breakdown",
+     "note": "Body height variations and body roll analysis"
+    },
+    {
+     "t": "2:30",
+     "seconds": 150,
+     "segment": "breakdown",
+     "note": "Knee slide and floor movement breakdown"
+    },
+    {
+     "t": "3:13",
+     "seconds": 193,
+     "segment": "breakdown",
+     "note": "Chest pops and dolphin dive breakdown"
+    },
+    {
+     "t": "4:08",
+     "seconds": 248,
+     "segment": "breakdown",
+     "note": "Stage progression and crowd interaction analysis"
+    },
+    {
+     "t": "5:08",
+     "seconds": 308,
+     "segment": "recap",
+     "note": "Summary of movements shown in the routine"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hip thrusts",
+     "counts": "1-2-3",
+     "description": "Three hip thrusts timed with the beat of the music"
+    },
+    {
+     "name": "Body roll",
+     "counts": "1-2-3",
+     "description": "Classic male stripper body roll movement"
+    },
+    {
+     "name": "Knee slide",
+     "counts": "1-2-3",
+     "description": "Transition from body roll into a knee slide on the floor"
+    },
+    {
+     "name": "Monkey flip",
+     "counts": "1-2-3",
+     "description": "A neat transition flip to get back to standing"
+    },
+    {
+     "name": "Chest pops",
+     "counts": "1-2-3",
+     "description": "Chest isolations showing alpha maleness"
+    },
+    {
+     "name": "Dolphin dive",
+     "counts": "1-2-3",
+     "description": "An acrobatic crowd-pleasing move using upper body momentum"
+    }
+   ],
+   "cues": [
+    "1-2-3",
+    "bending the knees and dropping centre of gravity"
+   ],
+   "safety": [
+    "Wouldn't recommend doing this into the crowd in real life"
+   ],
+   "teacher_style": "The instructor analyzes a movie dance performance scene by scene, breaking down movement elements with voiceover commentary. He speaks directly to the camera in front of a red curtain between analysis clips.",
+   "distinctive_method": "Analyzing a commercial film performance scene by scene as a proxy for live dance instruction.",
+   "what_works": [
+    "Replaying clips in slow motion to highlight specific movement details",
+    "Dividing the routine into distinct key elements like timing and body height"
+   ],
+   "what_hinders": [
+    "Relying entirely on movie clips rather than demonstrating steps in person"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 6,
+     "topic": "movement",
+     "observation": "A male dancer performs on a stage in a club setting, moving from floor work to a handstand.",
+     "viewpoint": "front",
+     "cannot_infer": "exact counts or teacher instruction",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 7,
+     "end_s": 45,
+     "topic": "teaching",
+     "observation": "A man in a white polo shirt speaks directly to the camera in front of a red curtain backdrop.",
+     "viewpoint": "front",
+     "cannot_infer": "dance technique details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 120,
+     "end_s": 130,
+     "topic": "movement",
+     "observation": "A dancer on stage performs repeated hip thrust movements.",
+     "viewpoint": "front",
+     "cannot_infer": "exact foot placement due to dark lighting",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 328,
+     "end_s": 338,
+     "topic": "movement",
+     "observation": "A shirtless dancer performs an acrobatic dive motion across the stage floor in slow motion.",
+     "viewpoint": "front",
+     "cannot_infer": "full weight distribution during the landing",
      "verification": "model_candidate"
     }
    ],
@@ -526,6 +696,6 @@
   "polished": false,
   "file": "episodes/pony.json"
  },
- "fingerprint": "a2c49085819a9766",
- "updated": "2026-11-21"
+ "fingerprint": "d12286b99ba42248",
+ "updated": "2026-11-22"
 }

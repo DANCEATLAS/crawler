@@ -1,6 +1,6 @@
 # Kapa haka — episode pack
 
-*Status: withheld-chapters · built 2026-11-21 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; two or more connections
 
@@ -110,9 +110,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
+Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
 Counting: count the Triple meter (haka) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (6): https://en.wikipedia.org/wiki/Kapa_haka; https://www.wikidata.org/wiki/Q3192842; https://es.wikipedia.org/wiki/Kapa_haka; https://fr.wikipedia.org/wiki/Kapa_haka; https://pt.wikipedia.org/wiki/Kapa_Haka; https://de.wikipedia.org/wiki/Kapa_Haka

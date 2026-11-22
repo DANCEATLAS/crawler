@@ -30,6 +30,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dutty_Wine",
   "wikidata_qid": "Q5317565",
   "unesco": false,
+  "hero_video_youtube_id": "k6pNkwFVIgE",
+  "video_stack": [
+   {
+    "youtube_id": "k6pNkwFVIgE",
+    "role": "hero",
+    "title": "RIHANNA Showing British TV Chat Show Host How To Dutty Wine & Bogle!",
+    "channel": "RnBandHIPHOPworld",
+    "hd": true
+   },
+   {
+    "youtube_id": "IIofDqJuU3s",
+    "role": "rendition",
+    "title": "DUTTY WINE DANCEHALL CHOREO - AYA & MAYLEE - QUEEN'STONN",
+    "channel": "AYA LEVEL",
+    "hd": true
+   },
+   {
+    "youtube_id": "jdFsu_CLNN0",
+    "role": "rendition",
+    "title": "Dutty wine dance challenge   ...Dc @chilubatheone ",
+    "channel": "KENYAN TIKTOKERS",
+    "hd": false
+   },
+   {
+    "youtube_id": "TPODM-b_suc",
+    "role": "rendition",
+    "title": "Tony Matterhorn | Dutty Wine | Choreography by Phopho The Dancer",
+    "channel": "The Underground Dance Centre",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -50,7 +81,13 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:04Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -260,36 +297,192 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 14,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "rfW-EqHTjP0",
+   "url": "https://www.youtube.com/watch?v=rfW-EqHTjP0",
+   "title": "How to Do the Dutty Wine | Reggae Dancehall | Chriss Choreo | How To Dance Jamaican",
+   "channel": "Chriss Choreo",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "Host introduces herself and the channel"
+    },
+    {
+     "t": "0:17",
+     "seconds": 17,
+     "segment": "context",
+     "note": "Explanation of the term Dutty Wine and its meaning in Jamaica"
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "segment": "full_demo",
+     "note": "Demonstration of the dance movement with music"
+    },
+    {
+     "t": "1:21",
+     "seconds": 81,
+     "segment": "other",
+     "note": "Physiotherapy safety tips and neck warm-up advice"
+    },
+    {
+     "t": "1:57",
+     "seconds": 117,
+     "segment": "warmup",
+     "note": "Neck and shoulder warm-up exercises"
+    },
+    {
+     "t": "5:22",
+     "seconds": 322,
+     "segment": "breakdown",
+     "note": "Breakdown of half rotation and full rotation head movements"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Dutty Wine Warm-up",
+     "counts": "1-8",
+     "description": "Neck and shoulder rolls to prepare for the dance"
+    },
+    {
+     "name": "Half Rotation",
+     "counts": "1-8",
+     "description": "Swinging head and hair half way across sides"
+    },
+    {
+     "name": "Full Rotation",
+     "counts": "1-8",
+     "description": "Full head and body rotation incorporating shoulders and hips"
+    }
+   ],
+   "cues": [
+    "Three, two, one",
+    "Side to side"
+   ],
+   "common_mistakes": [
+    "Starting in heels when doing it for the first time",
+    "Wearing long earrings that could injure your neck or hair"
+   ],
+   "safety": [
+    "Warm up your neck",
+    "Ensure stable base of support",
+    "Stop if you feel dizzy"
+   ],
+   "teacher_style": "The instructor provides detailed, step-by-step guidance combined with professional physiotherapy and safety insights. She breaks down movements clearly, emphasizing proper posture, warm-up exercises, and personal body awareness.",
+   "distinctive_method": "Integrating physiotherapy safety guidelines and personal body warnings before teaching head-heavy dancehall movements.",
+   "what_works": [
+    "Clear safety warnings",
+    "Gradual breakdown from warm-up to full movement"
+   ],
+   "what_hinders": [
+    "Fast movements with long hair can obstruct visibility"
+   ],
+   "evidence": [
+    {
+     "start_s": 5,
+     "end_s": 15,
+     "topic": "teaching",
+     "observation": "Instructor stands in front of the camera in a bright room introducing the lesson.",
+     "viewpoint": "front, non-mirrored",
+     "cannot_infer": "exact footwork details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 65,
+     "topic": "movement",
+     "observation": "Performs full body drops and dynamic head rolls to music.",
+     "viewpoint": "front, non-mirrored",
+     "cannot_infer": "weight distribution on floor work",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 197,
+     "end_s": 220,
+     "topic": "teaching",
+     "observation": "Demonstrates neck turns and head tilts slowly from side to side.",
+     "viewpoint": "side, non-mirrored",
+     "cannot_infer": "neck muscle tension",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "k6pNkwFVIgE",
+   "url": "https://www.youtube.com/watch?v=k6pNkwFVIgE",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "television studio talk show set",
+    "dancers": "two; one woman and one man; couple",
+    "formation_and_space": "the woman stands in front of the man, who is behind her",
+    "posture": "torso upright, knees bent, weight shifted to the balls of the feet",
+    "footwork": "small, rhythmic steps in place, shifting weight from side to side",
+    "arms_and_hands": "arms are held out to the sides, hands are open, sometimes gesturing",
+    "hips_and_torso": "the woman performs rapid, circular hip rotations, while the man mimics her movements",
+    "partnering": "the man stands behind the woman, holding her shoulders or waist, following her lead",
+    "levels_jumps_turns": "the dancers maintain a low level with bent knees, no jumps or turns",
+    "costume_and_props": "the woman wears a patterned bodysuit and high heels, the man wears a suit",
+    "cannot_infer": "the video is low-resolution, making it difficult to see the exact footwork and weight transfer",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 117,
+      "end_s": 128,
+      "what": "the woman performs rapid, circular hip rotations while the man stands behind her and mimics her movements"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/dutty-wine.json"
  },
- "fingerprint": "e0e282422cd98441",
- "updated": "2026-11-21"
+ "fingerprint": "7027ae97f6d5d1fc",
+ "updated": "2026-11-22"
 }

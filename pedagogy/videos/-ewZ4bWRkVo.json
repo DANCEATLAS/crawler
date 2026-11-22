@@ -1,0 +1,173 @@
+{
+ "youtube_id": "-ewZ4bWRkVo",
+ "slug": "waltz",
+ "dance": "Waltz",
+ "title": "The 7 Best Beginner Waltz Dance Steps!",
+ "channel": "Social Dance Online",
+ "viewer_ratio": 9.0,
+ "analysed_at": "2026-11-22T20:09:19Z",
+ "url": "https://www.youtube.com/watch?v=-ewZ4bWRkVo",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The male teacher leads the explanation while the female partner demonstrates alongside him or with him. They break down steps into leader and follower roles with clear verbal cues.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to the 7 best beginner waltz steps"
+   },
+   {
+    "t": "0:29",
+    "segment": "context",
+    "note": "Overview of the 7 steps being taught in the video"
+   },
+   {
+    "t": "1:19",
+    "segment": "breakdown",
+    "note": "Teaching step 1: The Box"
+   },
+   {
+    "t": "2:54",
+    "segment": "other",
+    "note": "Teaching frame and alignment details"
+   },
+   {
+    "t": "5:24",
+    "segment": "breakdown",
+    "note": "Teaching step 2: The Progressive"
+   },
+   {
+    "t": "7:45",
+    "segment": "breakdown",
+    "note": "Teaching step 3: The Hesitation"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6",
+  "cues": [
+   "1-2-3-4-5-6",
+   "forward-side-together",
+   "back-side-together"
+  ],
+  "metaphors": [
+   "imagine a box on the floor",
+   "shoe sale going on over this shoulder",
+   "three-legged race",
+   "towel on a towel bar"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "pulling on the frame instead of keeping it constant"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "The Box",
+    "counts": "1-2-3-4-5-6",
+    "description": "Fundamental waltz pattern moving forward and backward in a box shape."
+   },
+   {
+    "name": "The Progressive",
+    "counts": "1-2-3-4-5-6",
+    "description": "Progressing down the floor counter-clockwise."
+   },
+   {
+    "name": "The Hesitation",
+    "counts": "1-2-3-4",
+    "description": "A balance step that breaks up the monotony of standard waltz counts."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "separating leader and follower footwork explanations",
+    "using visual diagrams and floor references"
+   ],
+   "what_hinders": [
+    "switching between couple demonstration and solo footwork quickly"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "The waltz is a timeless dance, but you're going to need a few moves"
+   },
+   {
+    "t": "1:20",
+    "text": "Let's learn our box. This is the most fundamental pattern of American waltz."
+   },
+   {
+    "t": "5:25",
+    "text": "Step number two is the progressive because ultimately waltz works... counter-clockwise"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 4,
+    "topic": "teaching",
+    "observation": "Instructors standing side by side introducing the video topic",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "footwork details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 4,
+    "end_s": 10,
+    "topic": "movement",
+    "observation": "Couple dancing the waltz in hold demonstrating full movement",
+    "viewpoint": "side, unmirrored",
+    "cannot_infer": "weight distribution nuances",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 121,
+    "end_s": 129,
+    "topic": "movement",
+    "observation": "Couple demonstrating the box step in closed dance hold",
+    "viewpoint": "side, unmirrored",
+    "cannot_infer": "exact foot pressure",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 132,
+    "end_s": 154,
+    "topic": "movement",
+    "observation": "Male instructor demonstrating leader solo footwork facing away",
+    "viewpoint": "back, unmirrored",
+    "cannot_infer": "partner connection",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 298,
+    "end_s": 305,
+    "topic": "movement",
+    "observation": "Couple showing the waltz frame from the side angle",
+    "viewpoint": "side, unmirrored",
+    "cannot_infer": "muscle tension",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down every step into separate solo demonstrations for leaders and followers before putting them together in hold."
+ },
+ "attempts": 1
+}

@@ -1,0 +1,147 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex cross-steps"
+        ],
+        "counts": "Simplified 4-count side-step pattern.",
+        "duration_minutes": "2-3 minutes.",
+        "game_version": "A 'follow the leader' circle game where children mimic the kolovodja's steps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Hopping",
+          "Rapid changes in direction"
+        ],
+        "counts": "Maintain the 8-measure count structure.",
+        "seated_version": "Perform the lateral arm movements and torso swaying while seated, focusing on the 8-measure rhythm.",
+        "standing_version": "Perform the side-steps with a support chair, removing the hops and jumps.",
+        "tempo_and_range": "Reduced tempo to allow for steady movement."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands connected in V or W formation, hanging by the body or under the arms.",
+      "difficulty": "beginner",
+      "footwork": "3 or 6 steps to the right, followed by 3 or 6 steps to the left, including hopping and bouncing.",
+      "formation_and_space": "Closed or open circle, moving laterally.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes hopping and a constant bouncing motion.",
+      "partnering": "Collective dance in a chain or union.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A basic step motif used within the Kolo structure.",
+          "name": "Triple step"
+        },
+        {
+          "description": "A step motif involving crossing the feet.",
+          "name": "Cross step"
+        }
+      ],
+      "tempo_feel": "Lively and energetic.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Accordion"
+      ],
+      "meter": "2/4 or 3/4",
+      "mood_keywords": [
+        "lively",
+        "energetic"
+      ],
+      "musical_form": "Lively melody in major scale",
+      "reference_recordings": [],
+      "rhythm_pattern": "8 measures (4 to the right, 4 to the left)",
+      "sound_description": "A lively, major-scale melody, typically driven by the accordion, structured in 8-measure phrases that align with the dance's lateral movement.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Move to the right in 3 or 6 steps.",
+        "Perform a hopping motion in the same spot.",
+        "Move to the left in 3 or 6 steps.",
+        "Perform a hopping motion in the same spot."
+      ],
+      "formation": "Closed or open circle, hands connected in V or W formation.",
+      "level_notes": "The dance is laterally symmetrical; whatever is performed to the right is repeated to the left.",
+      "rhythm": "2/4 or 3/4 time signature"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bdf9cabf657ea894b9ca2e34be52668dd54b4ecd2c6c210dbe466475e587208f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific regional variations in the footwork of Uzicko Kolo as performed in the Uzice region compared to KUD stage performances? Evidence needed: Ethnographic field notes from the Uzice region."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:uzicko-kolo",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Uzicko Kolo",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "fc73fd6858b48413",
+      "next_evidence": "Ethnographic field notes from the Uzice region.",
+      "question": "Are there specific regional variations in the footwork of Uzicko Kolo as performed in the Uzice region compared to KUD stage performances?",
+      "source": "https://en.wikipedia.org/wiki/Serbian_dances",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction that distinguishes between social and performance styles."
+    }
+  ],
+  "research_file": "research_results/uzicko-kolo.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "uzicko-kolo",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Serbian_dances",
+    "https://www.wikidata.org/wiki/Q108438031",
+    "https://it.wikipedia.org/wiki/Danza_serba"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

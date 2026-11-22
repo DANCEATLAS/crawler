@@ -1,0 +1,828 @@
+{
+ "slug": "blues-dancing",
+ "name": "Blues dancing",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:48Z",
+ "researched_at": "2026-11-22T19:57:05Z",
+ "qc_score": 9.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable social dance historian grounded in African-American vernacular dance traditions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Blues dancing",
+   "Stehblues",
+   "Tanzblues",
+   "blues-idiom dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Blues dancing",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Dancing on a Dime: The Grounded Rhythms of Blues",
+     "This is Blues dancing. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (QTvK7a-OQHQ)",
+     "Title card: Blues dancing · United States · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Blues dancing originated from dances brought to America by enslaved Africans, combining sub-Saharan traditions with European immigrant elements.",
+     "Following the post-Reconstruction era, dance steps became secularized and focused on partner connection.",
+     "W. C. Handy documented early blues performances around 1905, and by 1914 premiered 'Saint Louis Blues'."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally tied to spiritual and religious expressions among enslaved Africans, the dances shifted after Reconstruction to express secular pleasure, affection, and sexuality between partners in close physical contact.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance features an athletic, grounded posture with weight held on the balls of the feet, knees bent, hips pushed back, and chest forward.",
+     "Movement is polycentric and asymmetric, utilizing multiple rhythms and articulated torso isolations.",
+     "Signature movements include the Fish Tail (figure-eight hip rotations), Snake Hips (alternating forward and back knee movements keeping feet together), and Slow Drag.",
+     "Watch for Fish Tail, Snake Hips, Slow Drag."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (QTvK7a-OQHQ)",
+     "Captions name each signature move as it appears",
+     "Formation: Paartanz (partner dance), close or open embrace, sometimes staying in one spot ('Dance on a Dime')."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Blues dancing is danced to blues music in a 4/4 meter, with a tempo typically ranging between 20 and 25 measures per minute (80 to 100 BPM).",
+     "Early instrumentation featured battered string instruments and guitars.",
+     "Listen for the Battered string instruments, Guitars.",
+     "The pulse is 4/4 at about 80 beats a minute.",
+     "A haunting or slow melodic structure featuring battered string instruments and rhythmic tension, sometimes incorporating a tango-style introduction before transitioning into a blues style."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Saint Louis Blues — W. C. Handy; Slow Drag Blues — Dabney's Band",
+     "Waveform or rhythm-pattern graphic: Multiple meters or rhythms, drawing of the beats, habanera elements"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historical settings included southern juke joints, Chicago venues where slow dragging took place through the 1940s, and New York's Savoy Ballroom, where specific rules governed close embraces and lascivious movements."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include W. C. Handy, Mura Dehn (documentarian of 'The Spirit Moves'), Albert Murray (essayist who coined 'blues-idiom dance'), Sugar Sullivan, Snowden, Earl Snakehips Tucker, and Ken 'Snakehips' Johnson.",
+     "Regional styles include southern plantation and juke joint dances, Chicago slow dragging through the 1940s, and the European modal interpretation of 'Stehblues' or 'Tanzblues' taught in dance schools after World War II.",
+     "Rooted in sub-Saharan African dance traditions and influenced by European-British immigration, blues dancing shares a lineage with jazz dances, influencing and being influenced by the Lindy Hop and Charleston."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Blues dancing is sibling of Lindy Hop: Shared roots in African-American jazz dances; Lindy Hoppers danced slow versions to blues music.",
+     "Blues dancing is sibling of Charleston: Popular African-American vernacular dance from a similar historical era.",
+     "Blues dancing is precursor of Foxtrot: Slow versions of the foxtrot influenced early 20th-century slow drag and blues dancing styles."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Simple one-step or two-step",
+     "Slow dragging",
+     "Count it: 1-and-2-and-3-and-4.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the African-American roots, grounded postures, and subtle partner connections of blues dancing.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the grounded posture and basic one-two step",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the grounded posture and basic one-two step.",
+      "Level: beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A knowledgeable social dance historian grounded in African-American vernacular dance traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Athletic and grounded body posture, weight held on the balls of the feet, knees bent, hips pushed back, and chest forward.",
+      "Partner connection, holding partner closely or in open/closed embrace.",
+      "Articulated movement in the torso (chest, rib cage, pelvis, buttocks) identifying and emphasizing different rhythms, figure eights in the Fish Tail."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-and-2-and-3-and-4. The meter is 4/4.",
+      "Rhythm pattern: Multiple meters or rhythms, drawing of the beats, habanera elements.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 56 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Simple one-step or two-step",
+      "Step 2: Slow dragging",
+      "Footwork from the sources: Simple one-step or two-step, varying levels of proficiency and styles of footwork, dancing on a dime (not moving far from the spot).",
+      "Drill: Hold weight on balls of feet with bent knees"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-and-2-and-3-and-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Snake Hips",
+      "Step 4: Fish Tail",
+      "Drill: Practice simple one-step or two-step"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-and-2-and-3-and-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Connect with partner in a relaxed embrace"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "A loss of coolness and control places one squarely outside the tradition; in the Savoy Ballroom, laszive movements and enge Haltung (close posture) were not tolerated.",
+      "Teachers of this dance warn against: doing the drum hit too hard and hurting your knees"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform upper body weight shifts and torso isolations while seated in a stable chair. · For children: A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform upper body weight shifts and torso isolations while seated in a stable chair.",
+      "For children: A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-and-2-and-3-and-4.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 80 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the grounded posture and basic one-two step.",
+      "Originally tied to spiritual and religious expressions among enslaved Africans, the dances shifted after Reconstruction to express secular pleasure, affection, and sexuality between partners in close physical contact.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate torso articulation and basic moves",
+   "level": "intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate torso articulation and basic moves.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A knowledgeable social dance historian grounded in African-American vernacular dance traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Athletic and grounded body posture, weight held on the balls of the feet, knees bent, hips pushed back, and chest forward.",
+      "Partner connection, holding partner closely or in open/closed embrace.",
+      "Articulated movement in the torso (chest, rib cage, pelvis, buttocks) identifying and emphasizing different rhythms, figure eights in the Fish Tail."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-and-2-and-3-and-4. The meter is 4/4.",
+      "Rhythm pattern: Multiple meters or rhythms, drawing of the beats, habanera elements.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 56 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Simple one-step or two-step",
+      "Step 2: Slow dragging",
+      "Drill: Isolate chest and pelvis to different rhythms"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-and-2-and-3-and-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Snake Hips",
+      "Step 4: Fish Tail",
+      "Fish Tail: Movement of the buttocks forms a variety of figure eights.",
+      "Snake Hips: Knees are moved forward and back one by one while keeping feet together, resulting in hip rotation.",
+      "Drill: Practice Snake Hips with feet together"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-and-2-and-3-and-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintain tension through pushing and pulling"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "A loss of coolness and control places one squarely outside the tradition; in the Savoy Ballroom, laszive movements and enge Haltung (close posture) were not tolerated.",
+      "Teachers of this dance warn against: doing the drum hit too hard and hurting your knees"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform upper body weight shifts and torso isolations while seated in a stable chair. · For children: A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform upper body weight shifts and torso isolations while seated in a stable chair.",
+      "For children: A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-and-2-and-3-and-4.",
+      "Full tempo, the whole sequence, twice. Formation: Paartanz (partner dance), close or open embrace, sometimes staying in one spot ('Dance on a Dime')."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 80 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate torso articulation and basic moves.",
+      "Key figures include W. C. Handy, Mura Dehn (documentarian of 'The Spirit Moves'), Albert Murray (essayist who coined 'blues-idiom dance'), Sugar Sullivan, Snowden, Earl Snakehips Tucker, and Ken 'Snakehips' Johnson.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute close-contact stylistic variations and improvisation",
+   "level": "advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute close-contact stylistic variations and improvisation.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A knowledgeable social dance historian grounded in African-American vernacular dance traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Athletic and grounded body posture, weight held on the balls of the feet, knees bent, hips pushed back, and chest forward.",
+      "Partner connection, holding partner closely or in open/closed embrace.",
+      "Articulated movement in the torso (chest, rib cage, pelvis, buttocks) identifying and emphasizing different rhythms, figure eights in the Fish Tail."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-and-2-and-3-and-4. The meter is 4/4.",
+      "Rhythm pattern: Multiple meters or rhythms, drawing of the beats, habanera elements.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 56 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Snake Hips",
+      "Step 2: Fish Tail",
+      "Drill: Perform the Fish Tail figure-eight hip movements"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-and-2-and-3-and-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Slow Drag: A slow, close-contact partner dance style.",
+      "Drill: Dance 'on a dime' with minimal spatial travel"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-and-2-and-3-and-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Improvise to the rhythm section of a live band"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "A loss of coolness and control places one squarely outside the tradition; in the Savoy Ballroom, laszive movements and enge Haltung (close posture) were not tolerated.",
+      "Teachers of this dance warn against: doing the drum hit too hard and hurting your knees"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform upper body weight shifts and torso isolations while seated in a stable chair. · For children: A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform upper body weight shifts and torso isolations while seated in a stable chair.",
+      "For children: A rhythm-matching game where children step to a slow 4/4 beat while maintaining personal space."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-and-2-and-3-and-4.",
+      "Full tempo, the whole sequence, twice. Formation: Paartanz (partner dance), close or open embrace, sometimes staying in one spot ('Dance on a Dime')."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 80 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute close-contact stylistic variations and improvisation.",
+      "Rooted in sub-Saharan African dance traditions and influenced by European-British immigration, blues dancing shares a lineage with jazz dances, influencing and being influenced by the Lindy Hop and Charleston.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 80,
+  "meter": "4/4",
+  "rhythm_pattern": "Multiple meters or rhythms, drawing of the beats, habanera elements",
+  "instruments": [
+   "Battered string instruments",
+   "Guitars"
+  ],
+  "vocal_style": null,
+  "musical_form": "Blues songs, ballads",
+  "mood": [
+   "haunting",
+   "slow",
+   "romantic",
+   "sensual"
+  ],
+  "sound_description": "A haunting or slow melodic structure featuring battered string instruments and rhythmic tension, sometimes incorporating a tango-style introduction before transitioning into a blues style.",
+  "listen_before_composing": [
+   "Saint Louis Blues — W. C. Handy",
+   "Slow Drag Blues — Dabney's Band"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Blues dancing (United States). Meter 4/4. Tempo about 80 bpm. Rhythm pattern: Multiple meters or rhythms, drawing of the beats, habanera elements. Instruments: Battered string instruments, Guitars. Form: Blues songs, ballads. Mood: haunting, slow, romantic, sensual. It should sound like this: A haunting or slow melodic structure featuring battered string instruments and rhythmic tension, sometimes incorporating a tango-style introduction before transitioning into a blues style. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 56
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 80
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "QTvK7a-OQHQ",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Historical settings included southern juke joints, Chicago venues where slow dragging took place through the 1940s, and New York's Savoy Ballroom, where specific rules governed close embraces and lascivious movements.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABon_Bon_Buddy_cover.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Bon_Bon_Buddy_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Bon_Bon_Buddy_cover.jpg/1280px-Bon_Bon_Buddy_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "André De Takacs / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABon_Bon_Buddy_cover.jpg",
+    "description": "Cover of the song \"Bon Bon Buddy\" that closed Act 2 of the 1908 musical \"Bandanna Land\""
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Battered string instruments in a juke joint",
+   "Dancers moving closely 'on a dime' in 1920s clubs",
+   "Grounded posture with knees bent and hips back"
+  ],
+  "costume_notes": "Historical settings included southern juke joints, Chicago venues where slow dragging took place through the 1940s, and New York's Savoy Ballroom, where specific rules governed close embraces and lascivious movements.",
+  "setting_notes": "Originally tied to spiritual and religious expressions among enslaved Africans, the dances shifted after Reconstruction to express secular pleasure, affection, and sexuality between partners in close physical contact.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-and-2-and-3-and-4",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 8"
+  ],
+  "cues": [
+   "bend your knees",
+   "one and two and",
+   "put all your weight on your right leg"
+  ],
+  "common_mistakes": [
+   "doing the drum hit too hard and hurting your knees"
+  ],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Down pulse",
+    "counts": "1-2-3-4",
+    "description": "Bending knees forward on the beat."
+   },
+   {
+    "name": "Up pulse",
+    "counts": "1-2-3-4",
+    "description": "Straightening knees on the beat."
+   },
+   {
+    "name": "Side to side basic step",
+    "counts": "1 and 2 and",
+    "description": "Stepping side to side while pulsing."
+   }
+  ]
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Blues_dance",
+  "https://www.wikidata.org/wiki/Q886025",
+  "https://de.wikipedia.org/wiki/Blues_(Tanz)"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "dc281cecf387f29dcdaf134d055a59b5151778b0b329b5668f05d26a991a7520",
+ "hero_checked": "pass"
+}

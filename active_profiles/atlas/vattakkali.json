@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "A group circular formation where dancers move in unison to their own singing and clapping.",
+          "source": "https://en.wikipedia.org/wiki/Vattakkali"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Rhythmic clapping of hands to maintain the tempo",
+      "difficulty": "advanced",
+      "footwork": "Twelve different types of steps involving intricate patterns and heavy stamping",
+      "formation_and_space": "A tight circular ring that moves vigorously as a unit",
+      "hips_and_torso": "Whirling movements of the entire body during the fast-paced climax",
+      "levels_and_jumps": "Primarily grounded stamping; no significant jumps described",
+      "partnering": "None; group-based circular synchronization",
+      "posture": "Upright but dynamic, ready for rapid weight shifts",
+      "signature_moves": [
+        {
+          "description": "A sequence of twelve distinct footwork patterns that form the technical core of the dance.",
+          "name": "Twelve Chuvadu"
+        },
+        {
+          "description": "The high-speed circular rotation of the entire group during the climax.",
+          "name": "Whirling Ring"
+        }
+      ],
+      "tempo_feel": "A constant build-up of energy and speed",
+      "what_to_avoid": "Breaking the circle during high-speed whirling; losing the rhythm of the bells."
+    },
+    "music_profile": {
+      "instruments": [
+        "Anklets",
+        "Bells",
+        "Hand claps"
+      ],
+      "meter": "Typically 4/4 or 8-beat cycles common in Kerala folk music",
+      "mood_keywords": [
+        "Vigorous",
+        "Rhythmic",
+        "Intense",
+        "Devotional"
+      ],
+      "musical_form": "Call and response or unison singing that follows the twelve-step structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady stamping and clapping that doubles in speed during the climax",
+      "sound_description": "The sound is dominated by the collective voices of the men singing in unison, punctuated by the sharp, metallic 'tinkling' of bells and the percussive 'thud' of rhythmic stamping on the ground.",
+      "tempo_bpm": "Starts at 80-90 BPM and accelerates to 160+ BPM",
+      "vocal_style": "Group singing/chanting by the dancers"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circular ring with other participants",
+        "Begin the rhythmic vocal chant/song",
+        "Execute the first of the twelve traditional chuvadu (steps)",
+        "Incorporate synchronized hand clapping on the off-beat",
+        "Increase the tempo of the footwork while maintaining the ring formation",
+        "Transition into whirling movements for the climax"
+      ],
+      "formation": "Vigorous ring patterns (circular)",
+      "level_notes": "Requires high cardiovascular endurance for the climax and precise foot-eye coordination for the twelve steps.",
+      "rhythm": "Accelerando; starts moderate and reaches an extremely fast climax."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "fe3dc9a5ff7a9b0e54a21980bce56fd9b7c967de209a200a77d6862099476e49",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific songs or chants used during the Vattakkali performance? Evidence needed: https://en.wikipedia.org/wiki/Vattakkali"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns for each of the twelve 'chuvadu'? Evidence needed: https://en.wikipedia.org/wiki/Vattakkali"
+    ]
+  },
+  "id": "atlas:vattakkali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Vattakkali",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "27257025be4f0bda",
+      "next_evidence": "https://en.wikipedia.org/wiki/Vattakkali",
+      "question": "What are the specific footwork patterns for each of the twelve 'chuvadu'?",
+      "source": "https://en.wikipedia.org/wiki/Vattakkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the dance accurately, the specific mechanics of each of the twelve traditional steps must be documented."
+    },
+    {
+      "domain": "research",
+      "id": "0b0adf6fc1cad413",
+      "next_evidence": "https://en.wikipedia.org/wiki/Vattakkali",
+      "question": "What are the specific songs or chants used during the Vattakkali performance?",
+      "source": "https://en.wikipedia.org/wiki/Vattakkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "The dance is performed 'in tune with the music or song sung by the group,' so the specific repertoire is essential for a complete profile."
+    }
+  ],
+  "research_file": "research_results/vattakkali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "vattakkali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vattakkali",
+    "https://www.wikidata.org/wiki/Q7917186"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

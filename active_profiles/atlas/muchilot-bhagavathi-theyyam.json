@@ -1,0 +1,125 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "none",
+      "posture": "Swatika Bhava (gentle stance/expression)",
+      "signature_moves": [],
+      "tempo_feel": "gentle and peaceful",
+      "what_to_avoid": "Avoid disrespectful conduct; sacred ritual dance reserved for consecrated traditional practitioners."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "peaceful",
+        "gentle",
+        "sacred",
+        "devotional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "technique not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "819c22f70f36096a98d99ea2a8df571cf05e548f9e07969cf5cdd1909ac39aad",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, formation_and_space",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What traditional musical instruments and rhythmic patterns (taalas) accompany the Muchilot Bhagavathi Theyyam ritual? Evidence needed: Ethnomusicological recordings and scholarly documentation of North Malabar Theyyam music."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific choreography, step sequences, and ritual hand gestures are executed during the Swatika Bhava movement of Muchilot Bhagavathi Theyyam? Evidence needed: Field video recordings and direct observational analysis of Kaliyattam performances in Kannur District temples."
+    ]
+  },
+  "id": "atlas:muchilot-bhagavathi-theyyam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Muchilot Bhagavathi Theyyam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "0ec2c901cea38bad",
+      "next_evidence": "Field video recordings and direct observational analysis of Kaliyattam performances in Kannur District temples.",
+      "question": "What specific choreography, step sequences, and ritual hand gestures are executed during the Swatika Bhava movement of Muchilot Bhagavathi Theyyam?",
+      "source": "https://en.wikipedia.org/wiki/Muchilot_Bhagavathi",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement technique details are absent from current textual sources, preventing accurate movement modeling."
+    },
+    {
+      "domain": "research",
+      "id": "4809f237d61b4d25",
+      "next_evidence": "Ethnomusicological recordings and scholarly documentation of North Malabar Theyyam music.",
+      "question": "What traditional musical instruments and rhythmic patterns (taalas) accompany the Muchilot Bhagavathi Theyyam ritual?",
+      "source": "https://en.wikipedia.org/wiki/Muchilot_Bhagavathi",
+      "status": "candidate_unreviewed",
+      "why_needed": "Music profile attributes currently lack instrument and rhythm descriptions in available sources."
+    }
+  ],
+  "research_file": "research_results/muchilot-bhagavathi-theyyam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "muchilot-bhagavathi-theyyam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Muchilot_Bhagavathi",
+    "https://www.wikidata.org/wiki/Q17004497"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

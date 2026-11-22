@@ -1,0 +1,155 @@
+{
+ "youtube_id": "YnRqNmuaa_s",
+ "slug": "landler",
+ "dance": "landler",
+ "title": "That Brazilian Couple Teaches The Sound of Music’s Laendler Dance - Tutorial",
+ "channel": "That Brazilian Couple",
+ "viewer_ratio": 7.0,
+ "analysed_at": "2026-11-22T20:12:47Z",
+ "url": "https://www.youtube.com/watch?v=YnRqNmuaa_s",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructors present a cheerful and encouraging teaching style, taking turns explaining and demonstrating steps. They break down the choreography into distinct numbered steps while providing verbal counts and body positioning tips.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:07",
+    "segment": "intro",
+    "note": "The teachers introduce themselves as That Brazilian Couple."
+   },
+   {
+    "t": "0:45",
+    "segment": "context",
+    "note": "The teachers give background on the Laendler dance from The Sound of Music."
+   },
+   {
+    "t": "1:11",
+    "segment": "breakdown",
+    "note": "Teaching The Basic step solo style."
+   },
+   {
+    "t": "2:04",
+    "segment": "breakdown",
+    "note": "Teaching Step 1: Step & stop in partner position."
+   },
+   {
+    "t": "2:29",
+    "segment": "breakdown",
+    "note": "Teaching Step 2: Down, step, hop solo style."
+   },
+   {
+    "t": "3:36",
+    "segment": "breakdown",
+    "note": "Teaching Step 3: Under Turn in partner position."
+   },
+   {
+    "t": "3:56",
+    "segment": "breakdown",
+    "note": "Teaching Step 4: Finger Turn in partner position."
+   }
+  ],
+  "counting_scheme": "down-up-up",
+  "cues": [
+   "down, up, up",
+   "step and stop",
+   "face each other",
+   "down, step, hop"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 4
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "The Basic step",
+    "counts": "down-up-up",
+    "description": "Bend knee down on the first count and straighten feet on up up."
+   },
+   {
+    "name": "Step 1: Step & stop",
+    "counts": "1-2-3",
+    "description": "Stepping and stopping facing each other in partner hold."
+   },
+   {
+    "name": "Step 2: Down, step, hop",
+    "counts": "down-step-hop",
+    "description": "Step down, step out, and hop."
+   },
+   {
+    "name": "Step 3: Under Turn",
+    "counts": "1-2-3-4",
+    "description": "Going under arms while maintaining hand connection."
+   },
+   {
+    "name": "Step 4: Finger Turn",
+    "counts": "1-2-3-4",
+    "description": "Turning under a finger grip hold with skirt movement."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear step-by-step numbering on screen",
+    "Demonstrating solo before partner work"
+   ],
+   "what_hinders": []
+  },
+  "quotes": [
+   {
+    "t": "1:07",
+    "text": "We're going to start the video by teaching you guys the basic step."
+   },
+   {
+    "t": "1:55",
+    "text": "You're going to offer the right hand and you accept with your left hand."
+   },
+   {
+    "t": "3:37",
+    "text": "And now we're going to go under ourselves."
+   },
+   {
+    "t": "6:16",
+    "text": "You switch a little bit, but never lose the connection."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 112,
+    "end_s": 127,
+    "topic": "movement",
+    "observation": "Female instructor demonstrates solo basic footwork with bent knee on down and straight legs on up up",
+    "viewpoint": "front view, mirror visible behind",
+    "cannot_infer": "exact weight distribution nuances",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 204,
+    "end_s": 217,
+    "topic": "movement",
+    "observation": "Couple demonstrates partner step and stop with alternating left and right lead",
+    "viewpoint": "front view, full body",
+    "cannot_infer": "hand pressure details",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down every footwork pattern into solo practice first before adding the partner connection."
+ },
+ "attempts": 1
+}

@@ -34,6 +34,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ramanattam",
   "wikidata_qid": "Q7288942",
   "unesco": false,
+  "hero_video_youtube_id": "l-oHnd8lRrw",
+  "video_stack": [
+   {
+    "youtube_id": "l-oHnd8lRrw",
+    "role": "hero",
+    "title": "| Kathakali | | Indian Classical Dance | | Feats on Beats | | God Gifted Cameras |",
+    "channel": "God Gifted Cameras",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -73,6 +83,14 @@
   "sacred_note": "Ramanattam is a sacred temple art depicting the divine incarnation and life of Lord Rama from the epic Ramayana; sacred performance boundaries and temple traditions must be respected by observers.",
   "movie_ready": false,
   "tradition_status": "historical",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:50Z",
+   "soft_fail": [
+    "named"
+   ]
+  },
   "related_slugs": [
    "kathakali"
   ]
@@ -206,7 +224,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 4,
   "of": 6,
   "missing": [
    {
@@ -216,10 +234,6 @@
    {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    }
   ]
  },
@@ -228,11 +242,11 @@
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 11,
+  "gaps": 10,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/ramanattam.json"
  },
- "fingerprint": "c02b8109a43c2414",
- "updated": "2026-11-21"
+ "fingerprint": "45f255d24db80909",
+ "updated": "2026-11-22"
 }

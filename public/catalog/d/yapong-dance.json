@@ -31,6 +31,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Yapong_dance",
   "wikidata_qid": "Q20427625",
   "unesco": false,
+  "hero_video_youtube_id": "9oB6110x55w",
+  "video_stack": [
+   {
+    "youtube_id": "9oB6110x55w",
+    "role": "hero",
+    "title": "Tari Kreasi Baru - Tari Yapong - PLT Bagong Kussudiardja",
+    "channel": "Puputdhe",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -133,7 +143,15 @@
    }
   ],
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:05:24Z",
+   "soft_fail": [
+    "named"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -407,7 +425,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -415,44 +433,82 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "9oB6110x55w",
+   "url": "https://www.youtube.com/watch?v=9oB6110x55w",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "indoor, studio with brick walls and wooden pillars",
+    "dancers": "one woman, solo",
+    "formation_and_space": "solo dancer moving in a small area, turning and stepping in place",
+    "posture": "upright torso, knees bent, weight shifted from side to side",
+    "footwork": "small, rhythmic steps, often on the balls of the feet, keeping time with the music",
+    "arms_and_hands": "arms held at shoulder height, hands making fluid, graceful gestures, fingers extended",
+    "hips_and_torso": "subtle hip movements and torso sways, maintaining a graceful, controlled posture",
+    "partnering": "none",
+    "levels_jumps_turns": "no jumps, no floor work, frequent small turns and pivots",
+    "costume_and_props": "black long-sleeved top, patterned sarong, hair tied back",
+    "cannot_infer": "the exact weight transfer and speed of footwork due to camera angle and resolution",
+    "music_heard": {
+     "instruments": [
+      "gamelan-style percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 10,
+      "end_s": 15,
+      "what": "graceful arm extensions with fluid hand movements while stepping in place"
+     },
+     {
+      "start_s": 45,
+      "end_s": 50,
+      "what": "a controlled turn while maintaining arm and hand gestures"
+     },
+     {
+      "start_s": 120,
+      "end_s": 125,
+      "what": "a low, bent-knee stance with rhythmic, small steps"
+     },
+     {
+      "start_s": 200,
+      "end_s": 205,
+      "what": "one arm raised above the head with a delicate hand gesture while the other remains at shoulder level"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/yapong-dance.json"
  },
- "fingerprint": "9d77370ccdc0f8db",
- "updated": "2026-11-21"
+ "fingerprint": "bc6749998fef796e",
+ "updated": "2026-11-22"
 }

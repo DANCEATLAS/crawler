@@ -1,6 +1,6 @@
 # pachanga — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the costume & setting section
 
@@ -75,7 +75,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Double-bend and straighten knees to establish the bounce.
 NARRATION: Shift weight from one foot to the other while maintaining the knee bend.
-NARRATION: Count it: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
+NARRATION: Count it: 1-and-3-and-5-and-7.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is 4/4.
+NARRATION: Count: 1-and-3-and-5-and-7. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong down-beat emphasis.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,14 +119,14 @@ NARRATION: Drill: Rhythmic knee bending in place
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
+COUNTS: 1-and-3-and-5-and-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute a glide on the weight transfer to mimic a moonwalk.
 NARRATION: Drill: Maintaining a constant bend
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
+COUNTS: 1-and-3-and-5-and-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,16 +138,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Fully straightening the knees.
-NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
-NARRATION: Teachers of this dance warn against: making big upper body movements
-NARRATION: Teachers of this dance warn against: bringing upper body too much back
+NARRATION: Teachers of this dance warn against: bending both ankles
+NARRATION: Teachers of this dance warn against: turning on the toes instead of the heels
+NARRATION: Teachers of this dance warn against: putting the leg too far behind
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the knee-bounce and upper body rock while seated. · For children: Follow-the-leader game focusing on the knee-bounce.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the knee-bounce and upper body rock while seated. · For children: Follow-the-leader game focusing on the knee-bounce. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
+NARRATION: Count-in: 1-and-3-and-5-and-7.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,7 +177,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is 4/4.
+NARRATION: Count: 1-and-3-and-5-and-7. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong down-beat emphasis.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,7 +192,7 @@ NARRATION: Drill: Weight shift with knee bounce
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
+COUNTS: 1-and-3-and-5-and-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute a glide on the weight transfer to mimic a moonwalk.
@@ -201,7 +201,7 @@ NARRATION: Drill: Gliding step transition
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
+COUNTS: 1-and-3-and-5-and-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -213,16 +213,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Fully straightening the knees.
-NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
-NARRATION: Teachers of this dance warn against: making big upper body movements
-NARRATION: Teachers of this dance warn against: bringing upper body too much back
+NARRATION: Teachers of this dance warn against: bending both ankles
+NARRATION: Teachers of this dance warn against: turning on the toes instead of the heels
+NARRATION: Teachers of this dance warn against: putting the leg too far behind
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the knee-bounce and upper body rock while seated. · For children: Follow-the-leader game focusing on the knee-bounce.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the knee-bounce and upper body rock while seated. · For children: Follow-the-leader game focusing on the knee-bounce. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
+NARRATION: Count-in: 1-and-3-and-5-and-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo shines or partnerwork.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -252,7 +252,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is 4/4.
+NARRATION: Count: 1-and-3-and-5-and-7. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong down-beat emphasis.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -266,14 +266,14 @@ NARRATION: Step 2: Execute a glide on the weight transfer to mimic a moonwalk.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
+COUNTS: 1-and-3-and-5-and-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Bronx Hop: An improvised move created by Johnny Pacheco at the Triton Club.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
+COUNTS: 1-and-3-and-5-and-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -285,16 +285,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Fully straightening the knees.
-NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
-NARRATION: Teachers of this dance warn against: making big upper body movements
-NARRATION: Teachers of this dance warn against: bringing upper body too much back
+NARRATION: Teachers of this dance warn against: bending both ankles
+NARRATION: Teachers of this dance warn against: turning on the toes instead of the heels
+NARRATION: Teachers of this dance warn against: putting the leg too far behind
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the knee-bounce and upper body rock while seated. · For children: Follow-the-leader game focusing on the knee-bounce.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the knee-bounce and upper body rock while seated. · For children: Follow-the-leader game focusing on the knee-bounce. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
+NARRATION: Count-in: 1-and-3-and-5-and-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo shines or partnerwork.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
-Counting: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7)
+Counting: 1-and-3-and-5-and-7
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; bend the knees; change the weight; turn on the heels; keep it small; 1-2-3-5-6-7-8; back and forward
-Common mistakes the studied teachers name: doing squats instead of small forward and back movements; making big upper body movements; bringing upper body too much back; bending both ankles; turning on the toes instead of the heels; putting the leg too far behind; having two heels on the ground at the same time
+Cues: bend the knees; change the weight; turn on the heels; keep it small; and one and three and five and seven; keep your feet together; relax your knees; 1-2-3-5-6-7-8; back and forward
+Common mistakes the studied teachers name: bending both ankles; turning on the toes instead of the heels; putting the leg too far behind; doing squats instead of small forward and back movements; making big upper body movements; bringing upper body too much back; having two heels on the ground at the same time
 
 Sources (6): https://en.wikipedia.org/wiki/Pachanga; https://www.wikidata.org/wiki/Q367751; https://es.wikipedia.org/wiki/Pachanga_(música); https://fr.wikipedia.org/wiki/Pachanga; https://de.wikipedia.org/wiki/Pachanga_(Genre); https://it.wikipedia.org/wiki/Pachanga

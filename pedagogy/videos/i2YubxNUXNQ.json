@@ -1,0 +1,147 @@
+{
+ "youtube_id": "i2YubxNUXNQ",
+ "slug": "pantsula",
+ "dance": "Pantsula",
+ "title": "Pantsula Dance Lesson.",
+ "channel": "Tebza Diphehlo",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-22T20:06:04Z",
+ "url": "https://www.youtube.com/watch?v=i2YubxNUXNQ",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor teaches Pantsula dance fundamentals in a structured manner, breaking down each step while demonstrating with backup dancers. He uses a mix of verbal explanations, counts, and practice counts to guide learners through combinations.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:24",
+    "segment": "intro",
+    "note": "Teacher introduces himself and the class topic"
+   },
+   {
+    "t": "0:57",
+    "segment": "warmup",
+    "note": "Teacher leads a warmup with backup dancers"
+   },
+   {
+    "t": "4:16",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the first move called Spharaphara"
+   },
+   {
+    "t": "5:36",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the second move called Shuffle"
+   },
+   {
+    "t": "6:53",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the Pantsula proof move"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "5-6-7-8",
+   "Kick bend release",
+   "One two three four"
+  ],
+  "metaphors": [
+   "It is a connection between one move and another"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Not hearing the sound of the step harder on the floor"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Spharaphara",
+    "counts": "5-6-7-8",
+    "description": "A connection move involving kicks, knee bends, and footwork"
+   },
+   {
+    "name": "Shuffle",
+    "counts": "1-2-3-4",
+    "description": "Stepping forward, back, and returning to shuffle position"
+   },
+   {
+    "name": "Pantsula Proof",
+    "counts": "5-6-7-8",
+    "description": "A combination of kicks and twists with arm and wrist movements"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Demonstrating with backup dancers provides clear visual reference"
+   ],
+   "what_hinders": [
+    "Lack of slow-tempo breakdown or back-facing view makes footwork harder to follow"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:25",
+    "text": "My name is Tebza Diphehlo, I'm a Pantsula specialist"
+   },
+   {
+    "t": "3:22",
+    "text": "Hit the teacher"
+   },
+   {
+    "t": "4:19",
+    "text": "It's called Spharaphara"
+   },
+   {
+    "t": "5:12",
+    "text": "Did you hear that the sound of it, you have to step"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 23,
+    "topic": "movement",
+    "observation": "Instructor demonstrating Pantsula footwork solo with three backup dancers standing still in the background.",
+    "viewpoint": "front, mirror",
+    "cannot_infer": "exact foot placement details due to distance and lighting",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 101,
+    "end_s": 119,
+    "topic": "movement",
+    "observation": "Group warmup marching in place with high knees and arm swings.",
+    "viewpoint": "front, mirror",
+    "cannot_infer": "weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 427,
+    "end_s": 455,
+    "topic": "teaching",
+    "observation": "Teacher breaking down Spharaphara step with counting and slow demonstration.",
+    "viewpoint": "front, mirror",
+    "cannot_infer": "precise ankle rotation details",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Naming traditional transitional movements like 'Spharaphara' as connecting glue between core steps."
+ },
+ "attempts": 1
+}

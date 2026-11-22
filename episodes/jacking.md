@@ -1,6 +1,6 @@
 # Jacking — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); the costume & setting section; two or more connections; teaching steps written out
 
@@ -65,7 +65,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Undulate the torso back and forth in a rhythmic motion
 NARRATION: Move the body up and down in time with the beat
-NARRATION: Count it: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -92,7 +92,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -106,13 +106,13 @@ NARRATION: Drill: Isolate the chest and ribcage
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Practice forward and backward torso pulses
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -132,7 +132,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -161,7 +161,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -174,14 +174,14 @@ NARRATION: Step 2: Move the body up and down in time with the beat
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Jack: Rippling the torso back and forth in an undulating motion.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -199,7 +199,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -228,7 +228,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -241,14 +241,14 @@ NARRATION: Step 2: Move the body up and down in time with the beat
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Jack: Rippling the torso back and forth in an undulating motion.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -266,7 +266,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -305,10 +305,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and
-Demonstration: views used by most teachers: front, side; tempo progression: full; repetitions per step: about 8
-Cues: bend your knees with count en; open your legs sideways while jacking; walk while jacking; jacking to drop knees; jacking with height difference; heel step; stomp; farmer; basic jack
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 8
+Cues: heel step; stomp; farmer; basic jack; keep your knees loose; find that beat; down and up; bend your knees with count en; open your legs sideways while jacking; walk while jacking; jacking to drop knees; jacking with height difference
 Common mistakes the studied teachers name: don't open your legs too much; do not bend your knees deeply; do not tilt your upper body forward too much
 
 Sources (5): https://en.wikipedia.org/wiki/Jacking_(dance); https://www.wikidata.org/wiki/Q6116746; https://fr.wikipedia.org/wiki/Jacking_(danse); https://pt.wikipedia.org/wiki/Jacking; https://archive.org/details/GAT_1949011801

@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed in troupes of two, four, or six members.",
+          "source": "https://en.wikipedia.org/wiki/Veeragase"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Expressive gestures following the narrative of the Daksha Yajna",
+      "difficulty": "advanced",
+      "footwork": "Intense, energy-sapping rhythmic steps",
+      "formation_and_space": "Troupe of 2, 4, or 6 members; involves a decorative pole (Nandikolu)",
+      "hips_and_torso": "Strong, stable core to support high-energy movements",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; synchronized group movement",
+      "posture": "Vigorous, upright but grounded warrior-like posture",
+      "signature_moves": [
+        {
+          "description": "The ritualistic piercing of a needle across the mouth during the performance.",
+          "name": "Shastra Dharane"
+        }
+      ],
+      "tempo_feel": "Intense and high-energy",
+      "what_to_avoid": "Non-Jangama community members should not attempt to perform this ritual dance."
+    },
+    "music_profile": {
+      "instruments": [
+        "Sambal",
+        "Dimmu",
+        "Cymbals",
+        "Shehnai",
+        "Karadi",
+        "Chamala"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Vigorous",
+        "Intense",
+        "Fierce",
+        "Devotional",
+        "Energetic"
+      ],
+      "musical_form": "Narrative-driven with percussive interludes",
+      "reference_recordings": [],
+      "rhythm_pattern": "Intense, driving percussion patterns",
+      "sound_description": "The sound is dominated by the thunderous, heavy beats of the sambal and dimmu drums, punctuated by the sharp metallic clash of cymbals. A lead singer chants the epic of Daksha Yajna in a powerful, narrative style, often accompanied by the high-pitched, wailing melody of the shehnai.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Narrative lead singing (storytelling)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume a wide, grounded warrior stance",
+        "Execute rhythmic, high-energy stepping in time with the sambal drum",
+        "Coordinate arm movements to reflect the narration of the Daksha Yajna",
+        "Maintain synchronized movement with the troupe (2, 4, or 6 members)",
+        "Incorporate the movement of the Nandikolu pole if assigned"
+      ],
+      "formation": "Small groups (2, 4, or 6 members) often in lines or circles around a central pole",
+      "level_notes": "Requires extreme physical stamina and is traditionally restricted to specific clan members.",
+      "rhythm": "Fast-paced, driving percussive rhythm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "dd480ca3417324fc8a4bded1f456cc6fb65d8d27e311fa2da2e6bfd2e2ef4c89",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: Are there specific restrictions on filming or documenting the 'shastra dharane' (mouth piercing) ritual for educational purposes? Evidence needed: https://en.wikipedia.org/wiki/Veeragase"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic counts and footwork patterns used by the dancers during the high-energy sections? Evidence needed: https://en.wikipedia.org/wiki/Veeragase"
+    ]
+  },
+  "id": "atlas:veeragase",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Veeragase",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "0f0400065d5ab595",
+      "next_evidence": "https://en.wikipedia.org/wiki/Veeragase",
+      "question": "What are the specific rhythmic counts and footwork patterns used by the dancers during the high-energy sections?",
+      "source": "https://en.wikipedia.org/wiki/Veeragase",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the dance as 'vigorous' but do not provide the technical breakdown required for interactive teaching."
+    },
+    {
+      "domain": "research",
+      "id": "28aecfe231aa757d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Veeragase",
+      "question": "Are there specific restrictions on filming or documenting the 'shastra dharane' (mouth piercing) ritual for educational purposes?",
+      "source": "https://en.wikipedia.org/wiki/Veeragase",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure cultural sensitivity and respect for the sacred nature of the ritual in a digital platform."
+    }
+  ],
+  "research_file": "research_results/veeragase.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "veeragase",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Veeragase",
+    "https://www.wikidata.org/wiki/Q7918149"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

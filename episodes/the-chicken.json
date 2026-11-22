@@ -1,0 +1,848 @@
+{
+ "slug": "the-chicken",
+ "name": "The Chicken",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:49Z",
+ "researched_at": "2026-11-22T19:26:30Z",
+ "qc_score": 9.25,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A high-energy R&B historian who emphasizes the 'groove' over technical perfection.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "The Chicken",
+   "Funky Chicken",
+   "The Funky Chicken"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet The Chicken",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Bird that Built the Frug",
+     "This is The Chicken. 1950s-1970s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: The Chicken · United States · 1950s-1970s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance emerged in the United States during the 1950s within the rhythm and blues community.",
+     "It was initially a novelty step used to vary the movement of the Twist.",
+     "It gained significant commercial traction in 1970 following the release of the song 'Do the Funky Chicken' by Rufus Thomas."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Chicken is a secular social dance intended for entertainment and rhythmic expression.",
+     "It serves as a lighthearted 'novelty' dance, often used to engage a crowd or provide a rhythmic break in a longer dance set.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Meet Bear, the chicken rescued from Long Shadow Farms.webm (https://upload.wikimedia.org/wikipedia/commons/4/44/Meet_Bear%2C_the_chicken_rescued_from_Long_Shadow_Farms.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers perform lateral body movements while flapping their arms to imitate a chicken's wings.",
+     "Simultaneously, the feet are kicked back in a rhythmic fashion.",
+     "It was traditionally used as a change-of-pace step during other dances like the Twist.",
+     "Watch for The Wing Flap, The Scratch Kick."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is primarily performed to rhythm and blues and funk music.",
+     "Key instruments include the electric guitar, bass, drums, and brass sections typical of the Stax Records sound.",
+     "Listen for the Electric guitar, Electric bass, Drums, Saxophone.",
+     "The pulse is 4/4 at about 110 beats a minute.",
+     "A driving funk or R&B sound characterized by a prominent brass section, a syncopated 'popping' bass line, and a steady drum beat that encourages repetitive, rhythmic movement."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Do the Funky Chicken — Rufus Thomas; Do the Funky Chicken — Rufus Thomas (1970)",
+     "Waveform or rhythm-pattern graphic: Strong backbeat on 2 and 4 with syncopated bass lines"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "There is no specific traditional costume, as it is a social novelty dance.",
+     "It was typically performed in dance halls, clubs, and on televised music programs like Soul Train during its 1970s peak."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Rufus Thomas is the most significant figure associated with the dance's 1970s revival.",
+     "Bob Fosse is noted for incorporating elements of the Chicken into the Frug.",
+     "While originating in the US R&B scene, the 'Funky Chicken' variant of 1970 is the most distinct evolution, adding funk-era syncopation to the original 1950s R&B step.",
+     "The Chicken is a subclass of novelty dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "The Chicken is variant of The Twist: The Chicken was used as a change of pace step while doing the Twist.",
+     "The Chicken is parent of The Frug: The Chicken gave rise to the Frug in the 1960s."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand with feet shoulder-width apart",
+     "Flap both arms at the elbows in imitation of wings",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a simple 1950s novelty step became a funk anthem and a secret ingredient in Bob Fosse's legendary choreography.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the arm flapping rhythm",
+   "level": "The Basic Wing",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the arm flapping rhythm.",
+      "Level: The Basic Wing. Difficulty of the dance overall: beginner.",
+      "Your instructor: A high-energy R&B historian who emphasizes the 'groove' over technical perfection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Slightly crouched or forward-leaning torso to facilitate the bird-like aesthetic.",
+      "Arms are bent at the elbows and flapped up and down at the sides like wings.",
+      "Lateral (side-to-side) body movements are integrated with the arm and leg motions."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with feet shoulder-width apart",
+      "Step 2: Flap both arms at the elbows in imitation of wings",
+      "Footwork from the sources: Rhythmic backward kicks of the feet, alternating left and right, often described as 'kicking back their feet'.",
+      "Drill: Isolate elbows and flap in 4/4 time"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Kick one foot back toward the glutes",
+      "Step 4: Alternate feet while maintaining lateral body movement",
+      "Drill: Add a slight torso lean"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Match the flap to the snare hit"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid overly stiff posture; the movement should be fluid and lateral rather than strictly vertical."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance. · For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance.",
+      "For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the arm flapping rhythm.",
+      "The Chicken is a secular social dance intended for entertainment and rhythmic expression.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate the backward kicks",
+   "level": "The Scratch Step",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate the backward kicks.",
+      "Level: The Scratch Step. Difficulty of the dance overall: beginner.",
+      "Your instructor: A high-energy R&B historian who emphasizes the 'groove' over technical perfection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Slightly crouched or forward-leaning torso to facilitate the bird-like aesthetic.",
+      "Arms are bent at the elbows and flapped up and down at the sides like wings.",
+      "Lateral (side-to-side) body movements are integrated with the arm and leg motions."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Incorporate a slight forward lean of the torso",
+      "Drill: Practice alternating backward kicks in place"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Wing Flap: Bending elbows and moving them vertically to mimic a chicken's wings.",
+      "The Scratch Kick: Kicking the feet backward in time with the beat.",
+      "Drill: Combine kicks with the lateral body sway"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sync kicks with the bass line"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid overly stiff posture; the movement should be fluid and lateral rather than strictly vertical."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance. · For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance.",
+      "For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate the backward kicks.",
+      "Rufus Thomas is the most significant figure associated with the dance's 1970s revival.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Combine all elements with funk styling",
+   "level": "The Full Funky Chicken",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Combine all elements with funk styling.",
+      "Level: The Full Funky Chicken. Difficulty of the dance overall: beginner.",
+      "Your instructor: A high-energy R&B historian who emphasizes the 'groove' over technical perfection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Slightly crouched or forward-leaning torso to facilitate the bird-like aesthetic.",
+      "Arms are bent at the elbows and flapped up and down at the sides like wings.",
+      "Lateral (side-to-side) body movements are integrated with the arm and leg motions."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Alternate feet while maintaining lateral body movement",
+      "Step 2: Incorporate a slight forward lean of the torso",
+      "Drill: Combine wings and kicks simultaneously"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Wing Flap: Bending elbows and moving them vertically to mimic a chicken's wings.",
+      "The Scratch Kick: Kicking the feet backward in time with the beat.",
+      "Drill: Add the 'change of pace' transition from a basic Twist"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Increase energy for the Rufus Thomas style"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid overly stiff posture; the movement should be fluid and lateral rather than strictly vertical."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance. · For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance.",
+      "For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine all elements with funk styling.",
+      "The Chicken is a subclass of novelty dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 110,
+  "meter": "4/4",
+  "rhythm_pattern": "Strong backbeat on 2 and 4 with syncopated bass lines",
+  "instruments": [
+   "Electric guitar",
+   "Electric bass",
+   "Drums",
+   "Saxophone",
+   "Trumpet"
+  ],
+  "vocal_style": "Soulful, rhythmic, often including call-and-response or spoken instructions",
+  "musical_form": "Verse-chorus structure with rhythmic vamps",
+  "mood": [
+   "energetic",
+   "humorous",
+   "funky",
+   "rhythmic"
+  ],
+  "sound_description": "A driving funk or R&B sound characterized by a prominent brass section, a syncopated 'popping' bass line, and a steady drum beat that encourages repetitive, rhythmic movement.",
+  "listen_before_composing": [
+   "Do the Funky Chicken — Rufus Thomas",
+   "Do the Funky Chicken — Rufus Thomas (1970)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of The Chicken (United States). Meter 4/4. Tempo about 110 bpm. Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines. Instruments: Electric guitar, Electric bass, Drums, Saxophone, Trumpet. Vocal style: Soulful, rhythmic, often including call-and-response or spoken instructions. Form: Verse-chorus structure with rhythmic vamps. Mood: energetic, humorous, funky, rhythmic. It should sound like this: A driving funk or R&B sound characterized by a prominent brass section, a syncopated 'popping' bass line, and a steady drum beat that encourages repetitive, rhythmic movement. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 77
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 110
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "There is no specific traditional costume, as it is a social novelty dance. It was typically performed in dance halls, clubs, and on televised music programs like Soul Train during its 1970s peak.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Meet Bear, the chicken rescued from Long Shadow Farms.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Meet_Bear%2C_the_chicken_rescued_from_Long_Shadow_Farms.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Direct Action Everywhere / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Police Academy Recruits Must Try Not to Laugh to Pass the Chicken Test .webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Police_Academy_Recruits_Must_Try_Not_to_Laugh_to_Pass_the_Chicken_Test_.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "VOA / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "CHICKEN DANCE",
+    "url": "https://archive.org/details/CHICKEN_DANCE",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "2019 Father Daughter Dance Promo",
+    "url": "https://archive.org/details/2019_Father_Daughter_Dance_Promo",
+    "year": 2019,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "g4tv.com-video15426: Around The Net - 03.05.07",
+    "url": "https://archive.org/details/g4tv.com-video15426",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Hi-5 | S1 EP2 | Kidz’ TV Dream Team",
+    "url": "https://archive.org/details/img-7495_202309",
+    "year": 2023,
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Feather-like textures in motion",
+   "Split-screen comparisons of the Chicken and the Frug",
+   "Vintage Stax Records aesthetic"
+  ],
+  "costume_notes": "There is no specific traditional costume, as it is a social novelty dance. It was typically performed in dance halls, clubs, and on televised music programs like Soul Train during its 1970s peak.",
+  "setting_notes": "The Chicken is a secular social dance intended for entertainment and rhythmic expression. It serves as a lighthearted 'novelty' dance, often used to engage a crowd or provide a rhythmic break in a longer dance set.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "67 tutorial(s) of the street-urban family studied",
+  "videos_studied": 67,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "down and up",
+   "step touch",
+   "one and two",
+   "5-6-7-8",
+   "heel toe",
+   "twist your wrist",
+   "keep your arm tense",
+   "pivot your feet",
+   "turn your torso",
+   "heel step",
+   "stomp",
+   "farmer"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Chicken_(dance)",
+  "https://www.wikidata.org/wiki/Q7722408"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "0cbba25e7d45ae954f3bd74e63316af4d75b89107dd5a9eafafe571f1c2e6343",
+ "hero_checked": null
+}

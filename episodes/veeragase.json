@@ -1,0 +1,381 @@
+{
+ "slug": "veeragase",
+ "name": "Veeragase",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:49Z",
+ "researched_at": "2026-11-22T19:06:30Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior Maheshwara elder who emphasizes the spiritual weight and ancestral lineage of every step.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Veeragase",
+   "Guggla"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Veeragase",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Fury of the Jangama",
+     "This is Veeragase. Ancient/Medieval origin; living tradition."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Veeragase · India · Ancient/Medieval origin; living tradition"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Veeragase originates from the Hindu mythological traditions of Karnataka, specifically tied to the Veerashaiva/Lingayat faith.",
+     "It centers on the story of Veerabhadra, the warrior deity born from a lock of Shiva's hair following the death of Sati at the Daksha Yajna.",
+     "Historically, the dance has been the exclusive preserve of the Jangama or Maheshwara clan."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Veeragase is performed during significant Hindu festivals and Veerashaiva religious ceremonies.",
+     "It is a ritualistic reenactment of divine justice and fury, intended to honor Shiva and Veerabhadra.",
+     "The act of mouth-piercing signifies deep devotion and the suppression of the ego.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Folk Dances of Karnataka (https://archive.org/details/dni.ncaa.ICCR-93-VHS)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by intense, energy-sapping movements performed in groups of two, four, or six.",
+     "Dancers maintain a high level of vigor throughout the performance, often involving wide stances and rhythmic stepping that synchronizes with the percussion.",
+     "A lead singer provides the narrative structure while dancers embody the warrior spirit.",
+     "Watch for Shastra Dharane."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Troupe of 2, 4, or 6 members; involves a decorative pole (Nandikolu)"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical accompaniment is loud and percussive, dominated by the sambal and dimmu drums.",
+     "Cymbals provide sharp rhythmic accents, while the shehnai adds a melodic layer.",
+     "Listen for the Sambal, Dimmu, Cymbals, Shehnai.",
+     "The sound is dominated by the thunderous, heavy beats of the sambal and dimmu drums, punctuated by the sharp metallic clash of cymbals. A lead singer chants the epic of Daksha Yajna in a powerful, narrative style, often accompanied by the high-pitched, wailing melody of the shehnai."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Intense, driving percussion patterns"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear traditional warrior-like attire, often including elaborate headgear and ornaments.",
+     "A key ritualistic element involves the piercing of a needle through the mouth.",
+     "The performance often takes place in temple courtyards or during religious processions, centered around the Nandikolu pole."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The performers are collectively known as Lingadevaru or Maheshwaras, belonging to the Jangama clan; specific individual historical names are not provided in the sources.",
+     "While prevalent across Karnataka, it is also known by the name Guggla in certain contexts or regions.",
+     "The dance is passed down through the Jangama (Maheshwara) clan of the Veerashaiva/Lingayat community."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Veeragase is sibling of Dollu Kunitha: Another prominent drum-based dance form from Karnataka.",
+     "Veeragase is sibling of Yakshagana: A traditional theater form from Karnataka that shares mythological themes."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Veeragase is a sacred ritual of the Veerashaiva/Lingayat community and must only be performed by members of the Jangama (Maheshwara) clan. It involves ritualistic mouth piercing; observers should maintain respect for the religious sanctity of the act."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness the intense, needle-piercing ritual dance of Karnataka's celestial warriors as they reenact the destruction of a god's sacrifice.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Intense, driving percussion patterns",
+  "instruments": [
+   "Sambal",
+   "Dimmu",
+   "Cymbals",
+   "Shehnai",
+   "Karadi",
+   "Chamala"
+  ],
+  "vocal_style": "Narrative lead singing (storytelling)",
+  "musical_form": "Narrative-driven with percussive interludes",
+  "mood": [
+   "Vigorous",
+   "Intense",
+   "Fierce",
+   "Devotional",
+   "Energetic"
+  ],
+  "sound_description": "The sound is dominated by the thunderous, heavy beats of the sambal and dimmu drums, punctuated by the sharp metallic clash of cymbals. A lead singer chants the epic of Daksha Yajna in a powerful, narrative style, often accompanied by the high-pitched, wailing melody of the shehnai.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Veeragase (India). Rhythm pattern: Intense, driving percussion patterns. Instruments: Sambal, Dimmu, Cymbals, Shehnai, Karadi, Chamala. Vocal style: Narrative lead singing (storytelling). Form: Narrative-driven with percussive interludes. Mood: Vigorous, Intense, Fierce, Devotional, Energetic. It should sound like this: The sound is dominated by the thunderous, heavy beats of the sambal and dimmu drums, punctuated by the sharp metallic clash of cymbals. A lead singer chants the epic of Daksha Yajna in a powerful, narrative style, often accompanied by the high-pitched, wailing melody of the shehnai. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear traditional warrior-like attire, often including elaborate headgear and ornaments. A key ritualistic element involves the piercing of a needle through the mouth. The performance often takes place in temple courtyards or during religious processions, centered around the Nandikolu pole.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALORD_VEERABHADRA.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/LORD_VEERABHADRA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/LORD_VEERABHADRA.jpg/1280px-LORD_VEERABHADRA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Nikhilmhatre294 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALORD_VEERABHADRA.jpg",
+    "description": "Lord Veerabhadra at Shree Kshretra Veerabhadra Devasthan.\nAddress- At post Vadhav,Taluka-Pen, District-Raigad,State-Maharashtra, India.\n\nPin code- 402107."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Folk Dances of Karnataka",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-93-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "The orange flag atop the Nandikolu pole",
+   "The silver needles used for ritual piercing",
+   "Vibrant, warrior-style costumes",
+   "Sweat-streaked faces of the dancers during intense movement"
+  ],
+  "costume_notes": "Performers wear traditional warrior-like attire, often including elaborate headgear and ornaments. A key ritualistic element involves the piercing of a needle through the mouth. The performance often takes place in temple courtyards or during religious processions, centered around the Nandikolu pole.",
+  "setting_notes": "Veeragase is performed during significant Hindu festivals and Veerashaiva religious ceremonies. It is a ritualistic reenactment of divine justice and fury, intended to honor Shiva and Veerabhadra. The act of mouth-piercing signifies deep devotion and the suppression of the ego.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "13 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 13,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "y tac tac",
+   "el segundo",
+   "loosen those hips",
+   "connect with the earth",
+   "knees have to be bent"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Veeragase",
+  "https://www.wikidata.org/wiki/Q7918149"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "80ea2e35f5b137b6b855935a618e4606374199128c41fbad12e072f1ea66c31d",
+ "hero_checked": null
+}

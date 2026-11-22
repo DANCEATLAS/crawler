@@ -1,0 +1,141 @@
+{
+ "youtube_id": "5--FhqV15PI",
+ "slug": "pogonishte",
+ "dance": "Pogonishte",
+ "title": "Valle Pogonishte Albanian dance tutorial 🇦🇱 #dancewithelvana #albaniandancevalle #genapogonishte",
+ "channel": "Dance with Elvana",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-22T20:08:19Z",
+ "url": "https://www.youtube.com/watch?v=5--FhqV15PI",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down traditional Albanian dance steps step-by-step with clear verbal guidance and demonstration. She encourages learners with a friendly and supportive tone throughout the tutorial.",
+  "language": "en",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Greets the viewer and introduces the Pogonishte valle tutorial"
+   },
+   {
+    "t": "0:14",
+    "segment": "breakdown",
+    "note": "Breaks down footwork: left foot leads and crosses over right"
+   },
+   {
+    "t": "0:47",
+    "segment": "breakdown",
+    "note": "Adds hip movements for women, shifting weight right to left"
+   },
+   {
+    "t": "1:17",
+    "segment": "layering",
+    "note": "Adds leg kicks to make the dance a bit fancy"
+   },
+   {
+    "t": "2:10",
+    "segment": "full_demo",
+    "note": "Demonstrates the dance sequence with music practice"
+   }
+  ],
+  "counting_scheme": "left-right-left-right",
+  "cues": [
+   "Follow my footsteps girl",
+   "Shift your weight",
+   "Kicking left"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Pogonishte basic step",
+    "counts": "left-right-left",
+    "description": "Left foot leads crossing right, followed by alternating steps"
+   },
+   {
+    "name": "Pogonishte with kicks",
+    "counts": "left-right-left and kick",
+    "description": "Basic footwork layered with leg kicks"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear breakdown of footwork before adding styling or kicks",
+    "Repetition of steps with counts"
+   ],
+   "what_hinders": [
+    "Camera angle switches between front and back views without much warning"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:11",
+    "text": "This valle is so easy."
+   },
+   {
+    "t": "0:48",
+    "text": "This is for the ladies only."
+   },
+   {
+    "t": "1:17",
+    "text": "Now we're going to add some kicks."
+   },
+   {
+    "t": "2:10",
+    "text": "If you are left alone on the dance floor..."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 14,
+    "end_s": 47,
+    "topic": "movement",
+    "observation": "Instructor demonstrates footwork starting with left foot crossing right in front",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight transfer speed",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 48,
+    "end_s": 59,
+    "topic": "movement",
+    "observation": "Demonstrates hip movement shifting from right to left",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "hip isolation technique",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 117,
+    "end_s": 145,
+    "topic": "movement",
+    "observation": "Adds kicks to the footwork sequence while moving",
+    "viewpoint": "front and back, unmirrored",
+    "cannot_infer": "exact height of the kick",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining traditional folk footwork with upper body hip movements and optional performance flourishes like leg kicks tailored for solo dancing."
+ },
+ "attempts": 1
+}

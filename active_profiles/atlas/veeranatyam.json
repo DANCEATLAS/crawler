@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used for balancing the fire plate (palms to elbows) or brandishing swords and poles",
+      "difficulty": "advanced",
+      "footwork": "Vigorous stepping that maintains tempo even under the weight of ritual objects",
+      "formation_and_space": "Typically performed in temple precincts; movement is centered around the ritual objects",
+      "hips_and_torso": "Stable and strong to support the weight of the Dhwaja Sthamba",
+      "levels_and_jumps": "Primarily grounded but high energy",
+      "partnering": "None; individual ritual expression",
+      "posture": "Upright and powerful, transitioning into trance-like states",
+      "signature_moves": [
+        {
+          "description": "Balancing a large plate of camphor fire on the forearms while dancing.",
+          "name": "Veerabhadra Pallem"
+        },
+        {
+          "description": "Dancing with spears and tridents pierced through the tongue, hands, and ankles.",
+          "name": "Narasam"
+        }
+      ],
+      "tempo_feel": "Vigorous and driving",
+      "what_to_avoid": "Avoid any casual imitation of the piercing or fire-bearing elements; these are sacred and dangerous."
+    },
+    "music_profile": {
+      "instruments": [
+        "Veeranam (war-drum)",
+        "Percussion instruments",
+        "Bells (attached to the pole)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fierce",
+        "devotional",
+        "martial",
+        "intense"
+      ],
+      "musical_form": "Escalating intensity following the three stages of the ritual",
+      "reference_recordings": [],
+      "rhythm_pattern": "Relentless, driving war-drum patterns",
+      "sound_description": "The sound is dominated by the thunderous, resonant boom of the Veeranam war-drum. It is a dense percussive landscape punctuated by the rhythmic clanging of bells from the sacred pole and the vocal intensity of the Khadgalu sword recitals.",
+      "tempo_bpm": "120-160",
+      "vocal_style": "Khadgalu recital (spoken or chanted invocations)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Vigorous rhythmic stepping in coordination with the Veeranam drum",
+        "Balancing the Veerabhadra Pallem (plate) from palms to elbows",
+        "Rhythmic brandishing of the sword during Khadgalu recitals",
+        "Manipulating the consecrated Dhwaja Sthamba pole while moving",
+        "Maintaining rhythmic movement while pierced with Narasam (advanced ritual stage)"
+      ],
+      "formation": "Solo or small groups of men performing in temple courtyards",
+      "level_notes": "The dance requires extreme physical conditioning and religious initiation for the advanced stages.",
+      "rhythm": "High-tempo, driving percussion based on the Veeranam war-drum"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f25832c0a33709b8111768c5c252a5ebcdd10185472d661e737a53b2955e3648",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific 'Khadgalu' verses that must be recited, and do they dictate the movement timing? Evidence needed: https://en.wikipedia.org/wiki/Veeranatyam"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic patterns played on the Veeranam drum during each of the three stages? Evidence needed: https://en.wikipedia.org/wiki/Veeranatyam"
+    ]
+  },
+  "id": "atlas:veeranatyam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Veeranatyam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "0357f67dc454d987",
+      "next_evidence": "https://en.wikipedia.org/wiki/Veeranatyam",
+      "question": "What are the specific rhythmic patterns played on the Veeranam drum during each of the three stages?",
+      "source": "https://en.wikipedia.org/wiki/Veeranatyam",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately sync the interactive teaching modules with the correct traditional tempo and meter."
+    },
+    {
+      "domain": "research",
+      "id": "3bee08ea537cc5f3",
+      "next_evidence": "https://en.wikipedia.org/wiki/Veeranatyam",
+      "question": "Are there specific 'Khadgalu' verses that must be recited, and do they dictate the movement timing?",
+      "source": "https://en.wikipedia.org/wiki/Veeranatyam",
+      "status": "candidate_unreviewed",
+      "why_needed": "The recital is a core part of the first stage and likely provides the rhythmic structure for the sword brandishing."
+    }
+  ],
+  "research_file": "research_results/veeranatyam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "veeranatyam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Veeranatyam",
+    "https://www.wikidata.org/wiki/Q7918173"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

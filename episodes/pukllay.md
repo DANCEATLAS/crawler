@@ -1,6 +1,6 @@
 # Pukllay — episode pack
 
-*Status: withheld-chapters · built 2026-11-21 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; notable figures; two or more connections
 
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the ritual-sacred family studied · videos studied: 12
+Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
 Counting: 
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; kick; inside; out; keep it down; loosen those hips; connect with the earth
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
 
 Sources (4): https://en.wikipedia.org/wiki/Pukllay; https://www.wikidata.org/wiki/Q115203595; https://es.wikipedia.org/wiki/Pujllay_(danza); https://fr.wikipedia.org/wiki/Pujllay_Ayarichi

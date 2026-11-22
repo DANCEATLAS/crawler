@@ -1,8 +1,8 @@
 # Dutty Wine — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic Jamaican dancehall dancer emphasizing technical precision, athletic stamina, and safety when executing neck isolations.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rhythm, Rotation, and Risk: The Story of the Dutty Wine
 NARRATION: This is Dutty Wine. 2000s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (k6pNkwFVIgE)
 ON SCREEN: Title card: Dutty Wine · Jamaica · 2000s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The core kinetic component of the Dutty Wine involves continuous, flu
 NARRATION: The dancer initiates a rapid rotating movement of the neck, swinging their head in rhythm with the music.
 NARRATION: Simultaneously, the dancer coordinates bird-like leg movements alongside continuous rotations of the wrists, neck, and posterior.
 NARRATION: Watch for Neck Rotation, Dutty Wine Splits.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (k6pNkwFVIgE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo centered, small group line, or circle showcase in dancehall settings.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Isolate waist and execute fluid circular posterior gyration ('wine')
 NARRATION: Rotate wrists simultaneously in rhythm with hip movement
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated electronic dancehall riddim featuring heavy bass and sharp snare hits on offbeats..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,10 +120,10 @@ NARRATION: Step 1: Isolate waist and execute fluid circular posterior gyration (
 NARRATION: Step 2: Rotate wrists simultaneously in rhythm with hip movement
 NARRATION: Footwork from the sources: Rhythmic, bird-like leg movements shifting weight dynamically across the feet.
 NARRATION: Drill: Isolate hips in slow continuous 360-degree circles
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step feet in rhythmic bird-like leg movements
@@ -131,7 +131,7 @@ NARRATION: Step 4: Incorporate controlled continuous circular rotation of the ne
 NARRATION: Drill: Practice wrist rotations in time with 4/4 dancehall beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,13 +144,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncontrolled or jerky neck twisting; medical professionals warn of potential muscle trauma and ligament damage to the neck.
+NARRATION: Teachers of this dance warn against: starting in heels when doing it for the first time
+NARRATION: Teachers of this dance warn against: wearing long earrings that could injure your neck or hair
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform gentle waist and wrist rotations while seated firmly in a chair, omitting all neck circular movements. · For children: Rhythmic wrist and hip turning freeze game to dancehall beats without head spinning.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform gentle waist and wrist rotations while seated firmly in a chair, omitting all neck circular movements. · For children: Rhythmic wrist and hip turning freeze game to dancehall beats without head spinning. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 107 bpm
@@ -181,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated electronic dancehall riddim featuring heavy bass and sharp snare hits on offbeats..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,10 +193,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Advanced option: drop down into splits while maintaining neck and posterior rotations
 NARRATION: Drill: Practice bird-like leg weight shifts while maintaining waist gyration
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Neck Rotation: Continuous circular motion of the neck and head in rhythm with the music.
@@ -203,7 +205,7 @@ NARRATION: Drill: Execute slow, controlled neck circles without straining should
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,13 +218,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncontrolled or jerky neck twisting; medical professionals warn of potential muscle trauma and ligament damage to the neck.
+NARRATION: Teachers of this dance warn against: starting in heels when doing it for the first time
+NARRATION: Teachers of this dance warn against: wearing long earrings that could injure your neck or hair
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform gentle waist and wrist rotations while seated firmly in a chair, omitting all neck circular movements. · For children: Rhythmic wrist and hip turning freeze game to dancehall beats without head spinning.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform gentle waist and wrist rotations while seated firmly in a chair, omitting all neck circular movements. · For children: Rhythmic wrist and hip turning freeze game to dancehall beats without head spinning. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo centered, small group line, or circle showcase in dancehall settings.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 107 bpm
@@ -253,7 +257,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated electronic dancehall riddim featuring heavy bass and sharp snare hits on offbeats..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -264,10 +268,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Incorporate controlled continuous circular rotation of the neck
 NARRATION: Step 2: Advanced option: drop down into splits while maintaining neck and posterior rotations
 NARRATION: Drill: Increase neck and hip rotation speed to match 105 BPM dancehall riddim
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Neck Rotation: Continuous circular motion of the neck and head in rhythm with the music.
@@ -276,7 +280,7 @@ NARRATION: Drill: Transition from standing stance into low squat while maintaini
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -289,13 +293,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncontrolled or jerky neck twisting; medical professionals warn of potential muscle trauma and ligament damage to the neck.
+NARRATION: Teachers of this dance warn against: starting in heels when doing it for the first time
+NARRATION: Teachers of this dance warn against: wearing long earrings that could injure your neck or hair
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform gentle waist and wrist rotations while seated firmly in a chair, omitting all neck circular movements. · For children: Rhythmic wrist and hip turning freeze game to dancehall beats without head spinning.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform gentle waist and wrist rotations while seated firmly in a chair, omitting all neck circular movements. · For children: Rhythmic wrist and hip turning freeze game to dancehall beats without head spinning. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo centered, small group line, or circle showcase in dancehall settings.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 107 bpm
@@ -324,7 +330,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The Dutty Wine is rooted in Jamaican dancehall spaces, night sessions, stage competitions, and global urban club culture. Dancers traditionally perform in vibrant dancehall fashion, often choosing outfits that highlight fluid body isolations, waist dynamics, and expressive physical performance during high-energy dancehall sessions.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'k6pNkwFVIgE', 'checked_by_vision_model': True, 'title': 'RIHANNA Showing British TV Chat Show Host How To Dutty Wine & Bogle!'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Close-ups of circular head motion and neck flexibility, Dynamic waist and wrist isolations in sync, Vibrant dancehall fashion and dance floor crowds, Sound system speaker stacks vibrating to bass heavy riddims
@@ -334,9 +340,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the street-urban family studied · videos studied: 58
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: heel toe; one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; 5-6-7-8; here we go
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 8
+Cues: three two one; side to side
+Common mistakes the studied teachers name: starting in heels when doing it for the first time; wearing long earrings that could injure your neck or hair
 
 Sources (2): https://en.wikipedia.org/wiki/Dutty_Wine; https://www.wikidata.org/wiki/Q5317565

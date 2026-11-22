@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -58,18 +58,6 @@
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
    },
    {
     "key": "signature_moves",
@@ -82,13 +70,56 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "d88ec4562813eb0e",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "DMKEtYR6kQk",
+   "url": "https://www.youtube.com/watch?v=DMKEtYR6kQk",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "indoor studio or stage with a plain pink wall background and light grey floor",
+    "dancers": "large mixed group of men and women, adults and teenagers",
+    "formation_and_space": "men in an outer circle and women forming inner V and circle formations, traveling in circular patterns",
+    "posture": "upright torso, erect posture, knees slightly bent with weight shifting",
+    "footwork": "step-touch and stepping patterns timed to the beat with heels and toes",
+    "arms_and_hands": "men with hands behind back, women holding and manipulating full skirts; some women holding props",
+    "hips_and_torso": "torso upright and stable, subtle hip movement from stepping",
+    "partnering": "none, group formation dancing without physical contact between partners",
+    "levels_jumps_turns": "standing upright, low step turns, no jumps or floor work",
+    "costume_and_props": "men in white shirts, white trousers, red sashes, and red sombreros; women in colourful embroidered floral dresses with white ruffles, some with floral headdresses or shoulder shawls",
+    "cannot_infer": "exact footwork details and weight transfers are obscured by video sample rate and resolution",
+    "music_heard": {
+     "instruments": [
+      "brass band",
+      "wind instruments"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 222,
+      "end_s": 236,
+      "what": "men and women moving in circular paths while stepping in unison with skirts flared outward"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "3791089f55620596",
+ "updated": "2026-11-22"
 }

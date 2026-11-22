@@ -1,0 +1,119 @@
+{
+ "slug": "dama-mali",
+ "qc_at": "2026-11-22T20:03:17Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.05,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Chinese Dama"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "130"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2013, middle-aged Chinese women dubbed damas caused a global gold price spike"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "337"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2074"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "China"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 8,
+  "specificity": 7,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Guangchangwu (Square Dancing)",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "reject",
+  "notes": "The subject is a social demographic (middle-aged women), not a dance. The actual dance practice associated with this group is 'Guangchangwu' (Square Dancing). This profile conflates a sociological term with a dance tradition, making it unsuitable for a dance atlas."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=7.05",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T19:56:07Z"
+}

@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -60,26 +60,6 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
@@ -88,15 +68,70 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "11e6a097f1de0964",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "JtnYV6VljMA",
+   "url": "https://www.youtube.com/watch?v=JtnYV6VljMA",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "indoor stage performance with a lit backdrop and theatrical lighting",
+    "dancers": "mixed group of children and adults, roughly a dozen dancers",
+    "formation_and_space": "group spread across the stage, shifting between lines, pairs, and scattered formations",
+    "posture": "upright with upright torso, soft knees, and upright weight placement",
+    "footwork": "energetic stepping on the beat with kicks, hops, and fast weight shifts; exact foot placement cannot be seen",
+    "arms_and_hands": "arms move actively with expressive gestures, sometimes extended or holding hands in pairs",
+    "hips_and_torso": "bounces and side-to-side movements with torso engagement",
+    "partnering": "intermittent pairing and hand-holding without continuous close contact",
+    "levels_jumps_turns": "frequent high kicks, occasional jumps, and turns on the spot",
+    "costume_and_props": "silver shiny tops, shorts or pants, and white boots; no hand props",
+    "cannot_infer": "exact foot placement and rapid weight transfers are obscured by camera angles and distance",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "drums"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 12,
+      "end_s": 19,
+      "what": "dancers step side to side with synchronized arm and leg movements"
+     },
+     {
+      "start_s": 102,
+      "end_s": 107,
+      "what": "dancers perform synchronized high kicks while extending arms to the side"
+     },
+     {
+      "start_s": 136,
+      "end_s": 142,
+      "what": "group drops into a low stance while bouncing shoulders and arms"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "a7bc36bab2c541c3",
+ "updated": "2026-11-22"
 }

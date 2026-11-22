@@ -68,9 +68,15 @@
     "warm",
     "calm",
     "gentle",
-    "patient"
+    "patient",
+    "passionate"
    ],
    "beliefs": [
+    {
+     "t": "0:42",
+     "belief": "You do not need to be a dancer of any sort to do this practice; you only need your body and a space to move.",
+     "about": "who_can_dance"
+    },
     {
      "t": "0:57",
      "belief": "You do not need to be any sort of dancer to do this practice; only your body and space are needed.",
@@ -82,6 +88,26 @@
      "t": "7:59",
      "feeling": "frustrated",
      "response": "If you are becoming emotional, that is okay; notice which emotion is asking to be released."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:01",
+     "moment": "opening",
+     "says": "The teacher introduces a guided dance meditation for emotional release and invites the learner to join her.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "1:45",
+     "moment": "before_hard_part",
+     "says": "The teacher instructs the learner to slowly come into their body, move around the space, stretch, and focus on the music.",
+     "tag": "moment_of_presence"
+    },
+    {
+     "t": "4:15",
+     "moment": "check_in",
+     "says": "The teacher asks the learner what is hard to let go of and what is holding them back, encouraging them to express it.",
+     "tag": "checks_in"
     }
    ]
   },
@@ -139,5 +165,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-22T20:24:03Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

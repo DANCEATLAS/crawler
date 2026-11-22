@@ -1,8 +1,8 @@
 # Gaudiya Nritya — episode pack
 
-*Status: withheld-chapters · built 2026-11-21 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-22 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authoritative dance historian and practitioner focused on classical reconstruction and sacred narrative.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Resurrecting Bengal's Lost Temple Stances
 NARRATION: This is Gaudiya Nritya. Ancient origin; reconstructed 1980s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (PO8zQAh6iEA)
 ON SCREEN: Title card: Gaudiya Nritya · India · Ancient origin; reconstructed 1980s
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage: Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. V) (https://arch
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (PO8zQAh6iEA)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -93,7 +93,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'PO8zQAh6iEA', 'checked_by_vision_model': True, 'title': 'Saraswati Vandana | Gaudiya Nritya | Classical Dance of Bengal'}
 Images: 7 licensed — Jan Kraus / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Dr. Mahua Mukherjee / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ami.bangali / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. V) — https://archive.org/details/dni.ncaa.IGNCA-1045-UM; Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. II) — https://archive.org/details/dni.ncaa.IGNCA-1042-UM; Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. IV) — https://archive.org/details/dni.ncaa.IGNCA-1044-UM; Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. I) — https://archive.org/details/dni.ncaa.IGNCA-1041-UM; Gaudiya Nritya by Dr. Mahua Mukherjee (Vol. III) — https://archive.org/details/dni.ncaa.IGNCA-1043-UM
 Motifs: Temple stone carvings depicting classical dancers, Hands striking the dual heads of a Shrikhol drum, Sculptural arm and body posture alignments
@@ -103,9 +103,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
+Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
 Counting: count the Variable multi-meter cycles determined by varṇakāla (4 to 68 units) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
+Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (2): https://en.wikipedia.org/wiki/Gaudiya_Nritya; https://www.wikidata.org/wiki/Q5527615

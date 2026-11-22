@@ -1,6 +1,6 @@
 # Marinera Norteña — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
 
@@ -345,8 +345,8 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 8
-Cues: barriguita metida; levanto mi mentn; siempre sonriendo; pie en punta; taco taco; punta y taco; vuelta y contravuelta; hago el ocho; media luna; hombro con hombro; crculo grande; fuga principal
+Demonstration: views used by most teachers: front, mirror, side; tempo progression: slow → full; repetitions per step: about 8
+Cues: vuelta y contravuelta; hago el ocho; media luna; hombro con hombro; crculo grande; fuga principal; cepillo; remate; barriguita metida; levanto mi mentn; siempre sonriendo; pie en punta
 Common mistakes the studied teachers name: not keeping the support leg straight during hip movements
 
 Sources (6): https://en.wikipedia.org/wiki/Marinera; https://www.wikidata.org/wiki/Q222445; https://es.wikipedia.org/wiki/Marinera; https://fr.wikipedia.org/wiki/Marinera; https://pt.wikipedia.org/wiki/Marinera; https://de.wikipedia.org/wiki/Marinera

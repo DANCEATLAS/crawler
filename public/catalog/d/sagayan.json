@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "sagayan",
  "name": "Sagayan",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "PH"
@@ -32,6 +32,13 @@
   "hero_video_youtube_id": "NHyQc-GjA_Y",
   "tier": "needs_curation",
   "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 8.25,
+  "last_researched_at": "2026-11-22T19:44:30Z",
+  "pipeline_version": "v3.3",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "Not described in sources as sacred, though it is deeply connected to the epic Darangen.",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -45,6 +52,55 @@
    "apsara-dance"
   ]
  },
- "fingerprint": "0082cc686a499edb",
- "updated": "2026-11-21"
+ "readiness": {
+  "standard": "AR-1",
+  "have": 5,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "formation",
+    "label": "formation and use of space"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ],
+  "ritual_context": true
+ },
+ "teaching_withheld": "Not described in sources as sacred, though it is deeply connected to the epic Darangen.",
+ "fingerprint": "a2ca1570eb351995",
+ "updated": "2026-11-22"
 }

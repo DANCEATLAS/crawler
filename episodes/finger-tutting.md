@@ -1,8 +1,8 @@
 # Finger Tutting — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A technical 'architect' of movement who emphasizes precision and geometry.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Architecture of the Hands
 NARRATION: This is Finger Tutting. 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (yJwPydpJHyA)
 ON SCREEN: Title card: Finger Tutting · United States · 21st century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is performed by articulating the fingers and thumbs to crea
 NARRATION: It relies on 90-degree angles and the isolation of finger joints.
 NARRATION: Practitioners often use their palms as a base or 'floor' for the fingers to move across.
 NARRATION: Watch for The King Tut Box, Digital Waves.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (yJwPydpJHyA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Small, localized space directly in front of the dancer's body.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. The Box: Create a square shape using the index fingers and thumbs of both hands.
 NARRATION: The Staircase: Stack fingers horizontally one above the other in a stepped pattern.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -109,7 +109,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Sharp, percussive hits with occasional glitchy or rapid subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,10 +120,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Box: Create a square shape using the index fingers and thumbs of both hands.
 NARRATION: Step 2: The Staircase: Stack fingers horizontally one above the other in a stepped pattern.
 NARRATION: Drill: Thumb-to-thumb connection
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: The Pivot: Rotate one hand 90 degrees while keeping a finger joint connected to the other hand.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Finger Isolation: Lift or fold one finger at a time while kee
 NARRATION: Drill: Index-to-index connection
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -150,7 +150,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Inherently performed seated; excellent for fine motor skill maintenance. · For children: Shadow puppets: create shapes and have others guess the object. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 100 bpm
@@ -181,7 +181,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Sharp, percussive hits with occasional glitchy or rapid subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,10 +192,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Box: Create a square shape using the index fingers and thumbs of both hands.
 NARRATION: Step 2: The Staircase: Stack fingers horizontally one above the other in a stepped pattern.
 NARRATION: Drill: The 'Finger Walk' across a flat palm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: The Pivot: Rotate one hand 90 degrees while keeping a finger joint connected to the other hand.
@@ -206,7 +206,7 @@ NARRATION: Drill: Folding individual fingers while keeping others extended
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -225,7 +225,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Inherently performed seated; excellent for fine motor skill maintenance. · For children: Shadow puppets: create shapes and have others guess the object. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Small, localized space directly in front of the dancer's body.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 100 bpm
@@ -256,7 +256,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Sharp, percussive hits with occasional glitchy or rapid subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -267,10 +267,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Pivot: Rotate one hand 90 degrees while keeping a finger joint connected to the other hand.
 NARRATION: Step 2: Finger Isolation: Lift or fold one finger at a time while keeping the others perfectly still.
 NARRATION: Drill: Transitioning from a box to a staircase
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The King Tut Box: Creating a perfect square using the thumbs and index fingers.
@@ -279,7 +279,7 @@ NARRATION: Drill: The 'Mirror' drill (both hands mimicking each other)
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -298,7 +298,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Inherently performed seated; excellent for fine motor skill maintenance. · For children: Shadow puppets: create shapes and have others guess the object. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Small, localized space directly in front of the dancer's body.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 100 bpm
@@ -327,7 +327,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: There is no specific traditional costume, though practitioners often wear clothing that does not obstruct the view of the hands. In some contexts, such as 'gloving,' dancers may wear LED-lit gloves to enhance the visual effect of the movements. The setting is often urban or digital, frequently filmed in close-up to capture the small-scale detail of the fingers.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'yJwPydpJHyA', 'checked_by_vision_model': True, 'title': '"DUBSTEP FINGERS" | Finger Tutting Hand Dance | PNUT | Skrillex Kill everybody'}
 Images: 0 licensed
 Footage: Kanye west - Paranoid "Finger Tutting". — https://archive.org/details/y-2mate.com-kanye-west-paranoid-tutting-480p; King Tut | Best Tutting Combination! — https://archive.org/details/king-tut-best-tutting-combination; Tutting + Finger Tutting routine. Song: 'Kraddy - Android Porn'. — https://archive.org/details/tutting-finger-tutting-routine-song-kraddy-android-porn; Artistic Finger Tutting Pt 1. How to dance sitting down. — https://archive.org/details/artistic-finger-tutting-pt-1.-how-to-dance-sitting-down; Finger Tutting! — https://archive.org/details/freestyle-tutting; Tutting: Disclaimer Explicit Lyrics... — https://archive.org/details/tutting-disclaimer-explicit-lyrics
 Motifs: Neon geometric overlays, Extreme close-ups of finger joints, Slow-motion transitions between shapes
@@ -337,9 +337,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 58 tutorial(s) of the street-urban family studied · videos studied: 58
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: heel toe; one and two; step touch; keep your knees flexible not stiff; weight forward on the balls of your feet; start a new step on count 1; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; 5-6-7-8; here we go
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: make it nice make it neat; make sure you keep your thumbs connected
 
 Sources (2): https://en.wikipedia.org/wiki/Finger-tutting; https://www.wikidata.org/wiki/Q25041058

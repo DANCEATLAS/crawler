@@ -1,0 +1,824 @@
+{
+ "slug": "alegras",
+ "name": "Alegrías",
+ "pack_version": "e2",
+ "built_at": "2026-11-22T20:20:48Z",
+ "researched_at": "2026-11-22T19:44:10Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Professional flamenco dancer with expertise in the Cádiz school.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Alegrías",
+   "Alegrias"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Alegrías",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Joy of Cádiz: Unlocking the Alegrías",
+     "This is Alegrías. 19th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (gvnf-Kor754)",
+     "Title card: Alegrías · Spain · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Alegrías originated in Cádiz, likely derived from the Aragonese jota during the French occupation.",
+     "Enrique Butrón is credited with fixing the current flamenco style, while Ignacio Espeleta introduced the signature 'tiriti, tran, tran' refrain."
+    ],
+    "on_screen": [
+     "Map: Spain · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally a festive dance, it is now performed in professional settings and at the annual National Competition of Alegrías in Cádiz.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:La Argentinita - Alegrias (ca. 1935).webm (https://upload.wikimedia.org/wikipedia/commons/8/8b/La_Argentinita_-_Alegrias_%28ca._1935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance follows a 12-beat cycle with emphasis on beats 3, 6, 8, 10, and 12.",
+     "It requires a sequence of specific sections: salida, paseo, silencio, castellana, zapateado, and bulerías.",
+     "Technique involves fluid arm movements, soft footwork, and precise zapateado.",
+     "Watch for Zapateado, Silencio."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (gvnf-Kor754)",
+     "Captions name each signature move as it appears",
+     "Formation: Solo performance space"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Alegrías belongs to the cantiñas group, characterized by a festive, major-key melody.",
+     "It is played at 120-170 bpm.",
+     "Listen for the Flamenco guitar, Voice.",
+     "The pulse is 12-beat cycle at about 145 beats a minute.",
+     "A lively, major-key flamenco form characterized by rapid rhythmic cycles and expressive, elaborate vocal lines."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Coquinas — Estrella Morente; Mar Amargo — Camarón; Mi cante y un poema — Estrella Morente (2001)",
+     "Waveform or rhythm-pattern graphic: 1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12]"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear ankle-length dresses with ruffles, often with a bata de cola.",
+     "Accessories include mantillas, flowers, combs, and coral earrings.",
+     "High-heeled shoes are essential for the zapateado."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Enrique el Mellizo, La Perla de Cádiz, Chano Lobato, Aurelio Sellés, and Enrique Butrón.",
+     "Alegrías de Córdoba, which features shifts between major and minor keys.",
+     "Part of the cantiñas family of flamenco, sharing rhythmic roots with the soleá."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Alegrías is shares music of Soleares: Shares the 12-beat rhythmic cycle but at a much slower tempo.",
+     "Alegrías is parent of Cantiñas: Alegrías is a primary form within the cantiñas family."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Salida (entrance)",
+     "Paseo (walkaround)",
+     "Count it: 12-1-2-3-4-5-6-7-8-9-10.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the festive heart of flamenco through the rhythmic precision of the Alegrías.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the 12-beat rhythm",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the 12-beat rhythm.",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: Professional flamenco dancer with expertise in the Cádiz school."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with graceful carriage",
+      "Harmonious and fluid arm movements"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 12-1-2-3-4-5-6-7-8-9-10. The meter is 12-beat cycle.",
+      "Rhythm pattern: 1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12].",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 101 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Salida (entrance)",
+      "Step 2: Paseo (walkaround)",
+      "Footwork from the sources: Soft footwork and intricate zapateado (tap)",
+      "Drill: Clapping the 12-beat cycle"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "12-1-2-3-4-5-6-7-8-9-10",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Silencio (adagio section)",
+      "Step 4: Castellana (upbeat section)",
+      "Drill: Walking to the beat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "12-1-2-3-4-5-6-7-8-9-10",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: letting the skirt drop or holding it incorrectly"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Arm and hand movements performed while seated · For children: Rhythmic clapping game based on the 12-beat cycle"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Arm and hand movements performed while seated",
+      "For children: Rhythmic clapping game based on the 12-beat cycle"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 12-1-2-3-4-5-6-7-8-9-10.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 145 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the 12-beat rhythm.",
+      "Traditionally a festive dance, it is now performed in professional settings and at the annual National Competition of Alegrías in Cádiz.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Master the paseo and arm carriage",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Master the paseo and arm carriage.",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: Professional flamenco dancer with expertise in the Cádiz school."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with graceful carriage",
+      "Harmonious and fluid arm movements"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 12-1-2-3-4-5-6-7-8-9-10. The meter is 12-beat cycle.",
+      "Rhythm pattern: 1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12].",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 101 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Zapateado (footwork)",
+      "Step 2: Bulerías (concluding section)",
+      "Drill: Coordinating arms with the walk"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "12-1-2-3-4-5-6-7-8-9-10",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Zapateado: Intricate, rhythmic foot tapping",
+      "Silencio: A slow, adagio-like movement section",
+      "Drill: Practicing the paseo sequence"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "12-1-2-3-4-5-6-7-8-9-10",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: letting the skirt drop or holding it incorrectly"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Arm and hand movements performed while seated · For children: Rhythmic clapping game based on the 12-beat cycle"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Arm and hand movements performed while seated",
+      "For children: Rhythmic clapping game based on the 12-beat cycle"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 12-1-2-3-4-5-6-7-8-9-10.",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance space"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 145 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the paseo and arm carriage.",
+      "Enrique el Mellizo, La Perla de Cádiz, Chano Lobato, Aurelio Sellés, and Enrique Butrón.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the zapateado",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the zapateado.",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: Professional flamenco dancer with expertise in the Cádiz school."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with graceful carriage",
+      "Harmonious and fluid arm movements"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 12-1-2-3-4-5-6-7-8-9-10. The meter is 12-beat cycle.",
+      "Rhythm pattern: 1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12].",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 101 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Zapateado (footwork)",
+      "Step 2: Bulerías (concluding section)",
+      "Drill: Basic tap patterns"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "12-1-2-3-4-5-6-7-8-9-10",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Zapateado: Intricate, rhythmic foot tapping",
+      "Silencio: A slow, adagio-like movement section",
+      "Drill: Syncing footwork to the 12-beat cycle"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "12-1-2-3-4-5-6-7-8-9-10",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: letting the skirt drop or holding it incorrectly"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Arm and hand movements performed while seated · For children: Rhythmic clapping game based on the 12-beat cycle"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Arm and hand movements performed while seated",
+      "For children: Rhythmic clapping game based on the 12-beat cycle"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 12-1-2-3-4-5-6-7-8-9-10.",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance space"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 145 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the zapateado.",
+      "Part of the cantiñas family of flamenco, sharing rhythmic roots with the soleá.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 145,
+  "meter": "12-beat cycle",
+  "rhythm_pattern": "1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12]",
+  "instruments": [
+   "Flamenco guitar",
+   "Voice"
+  ],
+  "vocal_style": "Festive, often including 'tiriti, tran, tran' refrains",
+  "musical_form": null,
+  "mood": [
+   "festive",
+   "optimistic",
+   "graceful",
+   "humorous"
+  ],
+  "sound_description": "A lively, major-key flamenco form characterized by rapid rhythmic cycles and expressive, elaborate vocal lines.",
+  "listen_before_composing": [
+   "Coquinas — Estrella Morente",
+   "Mar Amargo — Camarón",
+   "Mi cante y un poema — Estrella Morente (2001)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Alegrías (Spain). Meter 12-beat cycle. Tempo about 145 bpm. Rhythm pattern: 1 2 [3] 4 5 [6] 7 [8] 9 [10] 11 [12]. Instruments: Flamenco guitar, Voice. Vocal style: Festive, often including 'tiriti, tran, tran' refrains. Mood: festive, optimistic, graceful, humorous. It should sound like this: A lively, major-key flamenco form characterized by rapid rhythmic cycles and expressive, elaborate vocal lines. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 101
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 145
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "gvnf-Kor754",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear ankle-length dresses with ruffles, often with a bata de cola. Accessories include mantillas, flowers, combs, and coral earrings. High-heeled shoes are essential for the zapateado.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:La Argentinita - Alegrias (ca. 1935).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/La_Argentinita_-_Alegrias_%28ca._1935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "AnonymousUnknown author / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "43rd Annual International Folk Dance Festival at the Dorothy Chandler Pavilion",
+    "url": "https://archive.org/details/calauem_000211",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Montalvo Cuadro Flamenco à Culture en ligne",
+    "url": "https://archive.org/details/tcftv1qc-Montalvo_Cuadro_Flamenco_a_Culture_en_ligne",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Montalvo Cuadro Flamenco - Alegrías (extrait)",
+    "url": "https://archive.org/details/tcftv1qc-Montalvo_Cuadro_Flamenco_Alegrias_extrait",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Ruffled dresses",
+   "Mantillas",
+   "High-heeled shoes",
+   "Cádiz coastal scenery"
+  ],
+  "costume_notes": "Dancers wear ankle-length dresses with ruffles, often with a bata de cola. Accessories include mantillas, flowers, combs, and coral earrings. High-heeled shoes are essential for the zapateado.",
+  "setting_notes": "Traditionally a festive dance, it is now performed in professional settings and at the annual National Competition of Alegrías in Cádiz.",
+  "map": {
+   "country": "Spain",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "12-1-2-3-4-5-6-7-8-9-10",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "accent it goes",
+   "keep the skirts here",
+   "change direction"
+  ],
+  "common_mistakes": [
+   "letting the skirt drop or holding it incorrectly"
+  ],
+  "segment_order": [
+   "intro",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Marcaje (marking steps)",
+    "counts": "12 counts",
+    "description": "Compas and footwork combination with arm styling"
+   }
+  ]
+ },
+ "gaps": [
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Alegr%C3%ADas",
+  "https://www.wikidata.org/wiki/Q2164055",
+  "https://es.wikipedia.org/wiki/Alegría_(flamenco)",
+  "https://de.wikipedia.org/wiki/Alegría_(Flamenco)",
+  "https://it.wikipedia.org/wiki/Alegrías"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "2ceae9db64b688bfe55c390d6e7ab52ca333c36f7d86ebf28389f12b3bd82767",
+ "hero_checked": "pass"
+}

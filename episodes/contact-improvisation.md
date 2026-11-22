@@ -1,6 +1,6 @@
 # Contact Improvisation — episode pack
 
-*Status: draft · built 2026-11-19 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage
 
@@ -322,6 +322,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 
 Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: be completely present; share weight; reach into the negative space; maintain the kind of pressure that we like; roll the point; replace the point; slide
+Cues: maintain the kind of pressure that we like; roll the point; replace the point; slide; be completely present; share weight; reach into the negative space
 
 Sources (5): https://en.wikipedia.org/wiki/Contact_improvisation; https://www.wikidata.org/wiki/Q1128456; https://es.wikipedia.org/wiki/Contact_improvisación; https://fr.wikipedia.org/wiki/Contact_Improvisation; https://pt.wikipedia.org/wiki/Contato_improvisação

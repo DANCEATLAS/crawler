@@ -1,6 +1,6 @@
 # Lipsi — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the ballroom-partner family studied · videos studied: 11
+Source: 12 tutorial(s) of the ballroom-partner family studied · videos studied: 12
 Counting: count the 6/4 bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: side close side; step and point; turn turn turn; replace; back break; triple step; ball flat flat; small step; pull together; guys back right ladies back left; guys step into the side of the girl; guys step back left ladies pivot
+Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; side with the left; bring it in; switch weight; change weight onto the left; side close side; step and point; turn turn turn; replace; side replace close
 
 Sources (3): https://en.wikipedia.org/wiki/Lipsi_(dance); https://www.wikidata.org/wiki/Q1411395; https://de.wikipedia.org/wiki/Lipsi_(Tanz)

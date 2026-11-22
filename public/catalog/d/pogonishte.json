@@ -42,6 +42,19 @@
    "checked_at": "2026-10-30T18:12:52Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "gMnfk3dnNjM",
+    "title": "Valle Pogonishte, Albania, tutorial di Juancarlos Battilani",
+    "channel": "Juan Carlos Battilani",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "sirtaki",
    "syrtos",
@@ -51,7 +64,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -67,22 +80,6 @@
     "label": "known to be living, revived or historical"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
@@ -93,13 +90,119 @@
   ],
   "via": {
    "footwork_counts": "lesson",
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
    "signature_moves": "lesson",
    "rhythm": "lesson",
+   "sound": "performance",
    "lesson_plan": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "5--FhqV15PI",
+   "url": "https://www.youtube.com/watch?v=5--FhqV15PI",
+   "title": "Valle Pogonishte Albanian dance tutorial 🇦🇱 #dancewithelvana #albaniandancevalle #genapogonishte",
+   "channel": "Dance with Elvana",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "en",
+   "counting_scheme": "left-right-left-right",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "Greets the viewer and introduces the Pogonishte valle tutorial"
+    },
+    {
+     "t": "0:14",
+     "seconds": 14,
+     "segment": "breakdown",
+     "note": "Breaks down footwork: left foot leads and crosses over right"
+    },
+    {
+     "t": "0:47",
+     "seconds": 47,
+     "segment": "breakdown",
+     "note": "Adds hip movements for women, shifting weight right to left"
+    },
+    {
+     "t": "1:17",
+     "seconds": 77,
+     "segment": "layering",
+     "note": "Adds leg kicks to make the dance a bit fancy"
+    },
+    {
+     "t": "2:10",
+     "seconds": 130,
+     "segment": "full_demo",
+     "note": "Demonstrates the dance sequence with music practice"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Pogonishte basic step",
+     "counts": "left-right-left",
+     "description": "Left foot leads crossing right, followed by alternating steps"
+    },
+    {
+     "name": "Pogonishte with kicks",
+     "counts": "left-right-left and kick",
+     "description": "Basic footwork layered with leg kicks"
+    }
+   ],
+   "cues": [
+    "Follow my footsteps girl",
+    "Shift your weight",
+    "Kicking left"
+   ],
+   "teacher_style": "The teacher breaks down traditional Albanian dance steps step-by-step with clear verbal guidance and demonstration. She encourages learners with a friendly and supportive tone throughout the tutorial.",
+   "distinctive_method": "Combining traditional folk footwork with upper body hip movements and optional performance flourishes like leg kicks tailored for solo dancing.",
+   "what_works": [
+    "Clear breakdown of footwork before adding styling or kicks",
+    "Repetition of steps with counts"
+   ],
+   "what_hinders": [
+    "Camera angle switches between front and back views without much warning"
+   ],
+   "evidence": [
+    {
+     "start_s": 14,
+     "end_s": 47,
+     "topic": "movement",
+     "observation": "Instructor demonstrates footwork starting with left foot crossing right in front",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight transfer speed",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 48,
+     "end_s": 59,
+     "topic": "movement",
+     "observation": "Demonstrates hip movement shifting from right to left",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "hip isolation technique",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 117,
+     "end_s": 145,
+     "topic": "movement",
+     "observation": "Adds kicks to the footwork sequence while moving",
+     "viewpoint": "front and back, unmirrored",
+     "cannot_infer": "exact height of the kick",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "gMnfk3dnNjM",
    "url": "https://www.youtube.com/watch?v=gMnfk3dnNjM",
@@ -215,6 +318,47 @@
    }
   }
  ],
- "fingerprint": "3b56214ed677da44",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "Pzvs1bkBUTc",
+   "url": "https://www.youtube.com/watch?v=Pzvs1bkBUTc",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "A bright dance studio with a wooden floor and white walls, during a dance class or workshop.",
+    "dancers": "A mixed group of about 10-12 adults (both men and women of various ages).",
+    "formation_and_space": "A single open circle formation, holding hands and moving sideways in a line along the circumference.",
+    "posture": "Upright torso, relaxed posture with slight knee flexion as they step.",
+    "footwork": "Side-steps along the circle, crossing steps, and occasional lifts or taps, moving continuously on the beat.",
+    "arms_and_hands": "Hands joined in a W-position (elbows bent, hands roughly at shoulder height), swaying or moving slightly with the steps.",
+    "hips_and_torso": "Minimal torso movement, maintaining upright posture with gentle side-to-side travel.",
+    "partnering": "None; held in a circle by hand-holds.",
+    "levels_jumps_turns": "No major jumps or turns; performed at standing level with occasional slight lifts of the knees.",
+    "costume_and_props": "Casual everyday clothing (t-shirts, trousers, skirts, casual dresses).",
+    "cannot_infer": "Exact foot placement on fast steps is obscured by low-resolution video and distance.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 30,
+      "end_s": 45,
+      "what": "The circle moves fluidly sideways with a grapevine-like stepping pattern while holding hands in a W-position."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "59c416685244fd4a",
+ "updated": "2026-11-22"
 }

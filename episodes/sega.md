@@ -1,6 +1,6 @@
 # Sega — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
@@ -82,7 +82,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Keep feet in contact with the floor at all times.
 NARRATION: Shift weight from side to side to initiate hip movement.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-1-2.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -111,7 +111,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 6/8.
+NARRATION: Count: 1-2-1-2. The meter is 6/8.
 NARRATION: Rhythm pattern: Driving, percussive pulse.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -127,7 +127,7 @@ NARRATION: Drill: Weight shifting without lifting heels
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rotate hips in a fluid, circular motion.
@@ -135,7 +135,7 @@ NARRATION: Step 4: Maintain a playful, improvisational connection with a partner
 NARRATION: Drill: Basic side-to-side shuffle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -148,16 +148,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lifting the feet off the ground.
-NARRATION: Teachers of this dance warn against: confusion while using the left leg
 NARRATION: Teachers of this dance warn against: putting too much weight on the front leg
 NARRATION: Teachers of this dance warn against: keeping the top part of the body still
+NARRATION: Teachers of this dance warn against: confusion while using the left leg
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-1-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -188,7 +188,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 6/8.
+NARRATION: Count: 1-2-1-2. The meter is 6/8.
 NARRATION: Rhythm pattern: Driving, percussive pulse.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -202,7 +202,7 @@ NARRATION: Step 2: Shift weight from side to side to initiate hip movement.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rotate hips in a fluid, circular motion.
@@ -211,7 +211,7 @@ NARRATION: Hip Rotation: Fluid, rhythmic circular movement of the hips while fee
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -223,16 +223,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lifting the feet off the ground.
-NARRATION: Teachers of this dance warn against: confusion while using the left leg
 NARRATION: Teachers of this dance warn against: putting too much weight on the front leg
 NARRATION: Teachers of this dance warn against: keeping the top part of the body still
+NARRATION: Teachers of this dance warn against: confusion while using the left leg
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-1-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples or groups moving in circular paths.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -263,7 +263,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 6/8.
+NARRATION: Count: 1-2-1-2. The meter is 6/8.
 NARRATION: Rhythm pattern: Driving, percussive pulse.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -277,14 +277,14 @@ NARRATION: Step 2: Maintain a playful, improvisational connection with a partner
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Hip Rotation: Fluid, rhythmic circular movement of the hips while feet remain grounded.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-1-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -296,16 +296,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lifting the feet off the ground.
-NARRATION: Teachers of this dance warn against: confusion while using the left leg
 NARRATION: Teachers of this dance warn against: putting too much weight on the front leg
 NARRATION: Teachers of this dance warn against: keeping the top part of the body still
+NARRATION: Teachers of this dance warn against: confusion while using the left leg
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip rotations and arm movements while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the hip movements of the instructor. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-1-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples or groups moving in circular paths.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -345,9 +345,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: kick; inside; out; keep it down; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; move your hips side to side; scrape it along the floor; remember to breathe
-Common mistakes the studied teachers name: confusion while using the left leg; putting too much weight on the front leg; keeping the top part of the body still
+Counting: 1-2-1-2
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full
+Cues: move your hips side to side; scrape it along the floor; remember to breathe; loosen those hips; connect with the earth; knees have to be bent; arms and your hands are free; kick; inside; out; keep it down
+Common mistakes the studied teachers name: putting too much weight on the front leg; keeping the top part of the body still; confusion while using the left leg
 
 Sources (8): https://en.wikipedia.org/wiki/Sega_(genre); https://www.wikidata.org/wiki/Q1781796; https://fr.wikipedia.org/wiki/Séga; https://es.wikipedia.org/wiki/Segá; https://pt.wikipedia.org/wiki/Sega_(música); https://de.wikipedia.org/wiki/Sega_(Musik); https://archive.org/details/book_game-maestro_vol2; https://archive.org/details/cantilenepopolar00oddo

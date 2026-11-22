@@ -30,6 +30,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gaudiya_Nritya",
   "wikidata_qid": "Q5527615",
   "unesco": false,
+  "hero_video_youtube_id": "PO8zQAh6iEA",
+  "video_stack": [
+   {
+    "youtube_id": "PO8zQAh6iEA",
+    "role": "hero",
+    "title": "Saraswati Vandana | Gaudiya Nritya | Classical Dance of Bengal",
+    "channel": "Hrishika Biswas",
+    "hd": true
+   },
+   {
+    "youtube_id": "SLuKeG8SbMw",
+    "role": "rendition",
+    "title": "Chandi Vandana || Gaudiya Nritya || Dr. Satabdi Acharyya",
+    "channel": "Mitrayan",
+    "hd": true
+   },
+   {
+    "youtube_id": "GSkFvCxx-5o",
+    "role": "rendition",
+    "title": "Ganesh Vandana| Gaudiya Nritya | #classicaldance | Performed by Sudatta Goswami",
+    "channel": "Peer Sisters",
+    "hd": true
+   },
+   {
+    "youtube_id": "UIbTHtypuSw",
+    "role": "rendition",
+    "title": "Gaudiya nritya (aalapchari)",
+    "channel": "Soumya Bhowmick",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -123,7 +154,13 @@
   "needs_eyes_on": true,
   "sacred_note": "Gaudiya Nritya is a sacred devotional dance form centered on Hindu religious traditions, Vaishnavism, Shakta concepts, and veneration of deities Shiva and Ganesha.",
   "movie_ready": false,
-  "tradition_status": "revived"
+  "tradition_status": "revived",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:04:19Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -370,16 +407,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 5,
   "of": 6,
   "missing": [
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    }
   ]
  },
@@ -388,11 +421,11 @@
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/gaudiya-nritya.json"
  },
- "fingerprint": "e6dac81732b1af23",
- "updated": "2026-11-21"
+ "fingerprint": "faffd0d24747dc46",
+ "updated": "2026-11-22"
 }

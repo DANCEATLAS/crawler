@@ -3,43 +3,53 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Complex hip-shaking techniques"
+          "Complex 23-step lexicon",
+          "High-intensity endurance movements"
         ],
-        "counts": "Simplified 4-count rhythm.",
-        "duration_minutes": "3-5 minutes",
-        "game_version": "Focus on mimicking nature-themed gestures like butterflies."
+        "counts": "Simplified 4-count rhythm",
+        "duration_minutes": "2-3 minutes",
+        "game_version": "Rhythmic hip-shaking game mimicking nature"
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Jumping",
-          "Rapid balance shifts",
-          "Deep knee bends"
+          "Rapid hip-shaking",
+          "Scissor leg movements",
+          "High-impact jumps"
         ],
-        "counts": "Simplified counts to match a slower drum beat.",
-        "seated_version": "Perform hip and arm movements while seated in a sturdy chair.",
-        "standing_version": "Perform movements with support from a barre or chair.",
-        "tempo_and_range": "Reduced tempo and smaller range of motion for hips."
+        "counts": "Simplified 4-count rhythm",
+        "seated_version": "Seated hip-swaying and arm gestures",
+        "standing_version": "Supported standing hip movements with reduced tempo",
+        "tempo_and_range": "Reduced tempo and limited range of motion"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Gestural movements that are abstract but thematic",
+      "arms_and_hands": "Gestural, synchronized across the group, abstract but thematic",
       "difficulty": "advanced",
-      "footwork": "Scissor-like leg movements (pa'oti) for men",
+      "footwork": "Scissor-like leg movements for men, hip-swaying for women",
       "formation_and_space": "Dancers in several rows",
-      "hips_and_torso": "Rapid hip-shaking (fa'arapu) for women",
+      "hips_and_torso": "Rapid, rhythmic hip-shaking",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Upright, with knees slightly bent",
+      "posture": "Standing, upright posture",
       "signature_moves": [
         {
-          "description": "Rapid hip-shaking motion performed by women.",
-          "name": "fa'arapu"
+          "description": "A hip-shaking figure",
+          "name": "tamau"
         },
         {
-          "description": "Scissor-like leg movement performed by men.",
-          "name": "pa'oti"
+          "description": "A hip-shaking figure",
+          "name": "varu"
+        },
+        {
+          "description": "A hip-shaking figure",
+          "name": "fa'arapu"
         }
       ],
       "tempo_feel": "Fast",
@@ -53,32 +63,32 @@
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "high-energy",
-        "driving",
-        "rhythmic"
+        "energetic",
+        "rhythmic",
+        "dynamic"
       ],
-      "musical_form": "Percussion ensemble only",
+      "musical_form": "Percussion ensemble",
       "reference_recordings": [],
-      "rhythm_pattern": "Fast, percussive, synchronized with hip movements",
-      "sound_description": "A rapid, driving sound produced by wooden slit drums and skin-covered drums, characterized by complex, interlocking rhythmic patterns without melodic accompaniment.",
+      "rhythm_pattern": "Rapid, percussive, drum-based",
+      "sound_description": "The music is defined by the sharp, hollow resonance of the tōʻere slit drums, the deeper thud of the pahu, and the rapid, driving beat of the faʻatētē, creating a complex, purely percussive soundscape.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "None"
     },
     "teaching": {
       "basic_steps": [
-        "fa'arapu (hip-shaking for women)",
-        "pa'oti (scissor-like leg movement for men)",
-        "varu (hip movement)",
-        "ami (hip movement)",
-        "otamu (hip movement)"
+        "tamau",
+        "varu",
+        "otamu",
+        "ami",
+        "fa'arapu"
       ],
       "formation": "Dancers standing in several rows",
-      "level_notes": "Requires high physical stamina for rapid hip-shaking and leg coordination.",
+      "level_notes": "Requires high physical stamina and coordination of hip and leg movements.",
       "rhythm": "Fast, percussion-driven rhythm"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0a90ad6635bbbf0c3e1642dcb8c0a9851d9f6f31e496e1c6a9e0e7a0ac27d037",
+  "fingerprint": "2de656bad4d61cd7a4c0a22a49d8683100889078826a6925ad14fd1c37915677",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -88,7 +98,8 @@
     "research": [
       "movement: what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific counts for the 23 steps used in the Heiva competition? Evidence needed: Heiva i Tahiti competition rulebooks or technical manuals."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -115,7 +126,17 @@
   ],
   "music_options": [],
   "name": "Ōte'a",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e1fbbe9f22ce424c",
+      "next_evidence": "Heiva i Tahiti competition rulebooks or technical manuals.",
+      "question": "What are the specific counts for the 23 steps used in the Heiva competition?",
+      "source": "https://fr.wikipedia.org/wiki/Otea",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for the 'advanced' level."
+    }
+  ],
   "research_file": "research_results/ote-a.json",
   "runtime_active": false,
   "scope": {

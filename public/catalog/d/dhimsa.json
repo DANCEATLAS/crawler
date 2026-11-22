@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "dhimsa",
  "name": "Dhimsa",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -30,6 +30,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dhimsa",
   "wikidata_qid": "Q24930364",
   "unesco": false,
+  "hero_video_youtube_id": "mMiUEf8mOxc",
+  "video_stack": [
+   {
+    "youtube_id": "mMiUEf8mOxc",
+    "role": "hero",
+    "title": "13,000 tribal artists welcome PM Modi with a SPECTACULAR Dhimsa Dance in Andhra Pradesh",
+    "channel": "Narendra Modi",
+    "hd": true
+   },
+   {
+    "youtube_id": "p8laSR1TwNQ",
+    "role": "rendition",
+    "title": "Araku Tribal Dhimsa | Tribal Dhimsa Dance | Tribes traditional Dance In India",
+    "channel": "Araku Tribal Culture",
+    "hd": true
+   },
+   {
+    "youtube_id": "Jh9mYGcYVjA",
+    "role": "rendition",
+    "title": "Dhimsa DJ Dance | State Winning Dance | Tribal Dance | GTWAGHS Peddamadi",
+    "channel": "Ravi Gomango",
+    "hd": true
+   },
+   {
+    "youtube_id": "raEFqZR33P4",
+    "role": "rendition",
+    "title": "Village dhimsa dance song | araku dhimsa dance video | Koraputia dhimsa style |",
+    "channel": "Village dhimsa",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -58,6 +89,12 @@
   "sacred_note": "The Boda Dhimsa variation involves the worship of village gods and goddesses; outsiders should observe with respect and follow local guidance regarding participation in ritual sequences.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:03:58Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "chhau"
   ]
@@ -206,25 +243,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "The Boda Dhimsa variation involves the worship of village gods and goddesses; outsiders should observe with respect and follow local guidance regarding participation in ritual sequences.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/dhimsa.json"
  },
- "fingerprint": "8b1e480629259957",
- "updated": "2026-11-21"
+ "fingerprint": "05ad56a278727574",
+ "updated": "2026-11-22"
 }

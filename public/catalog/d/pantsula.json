@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "pantsula",
  "name": "Pantsula",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "ZA"
@@ -364,21 +364,128 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   }
-  ],
   "via": {
    "footwork_counts": "lesson",
    "rhythm": "lesson",
+   "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "i2YubxNUXNQ",
+   "url": "https://www.youtube.com/watch?v=i2YubxNUXNQ",
+   "title": "Pantsula Dance Lesson.",
+   "channel": "Tebza Diphehlo",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:24",
+     "seconds": 24,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the class topic"
+    },
+    {
+     "t": "0:57",
+     "seconds": 57,
+     "segment": "warmup",
+     "note": "Teacher leads a warmup with backup dancers"
+    },
+    {
+     "t": "4:16",
+     "seconds": 256,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the first move called Spharaphara"
+    },
+    {
+     "t": "5:36",
+     "seconds": 336,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the second move called Shuffle"
+    },
+    {
+     "t": "6:53",
+     "seconds": 413,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the Pantsula proof move"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Spharaphara",
+     "counts": "5-6-7-8",
+     "description": "A connection move involving kicks, knee bends, and footwork"
+    },
+    {
+     "name": "Shuffle",
+     "counts": "1-2-3-4",
+     "description": "Stepping forward, back, and returning to shuffle position"
+    },
+    {
+     "name": "Pantsula Proof",
+     "counts": "5-6-7-8",
+     "description": "A combination of kicks and twists with arm and wrist movements"
+    }
+   ],
+   "cues": [
+    "5-6-7-8",
+    "Kick bend release",
+    "One two three four"
+   ],
+   "images": [
+    "It is a connection between one move and another"
+   ],
+   "common_mistakes": [
+    "Not hearing the sound of the step harder on the floor"
+   ],
+   "teacher_style": "The instructor teaches Pantsula dance fundamentals in a structured manner, breaking down each step while demonstrating with backup dancers. He uses a mix of verbal explanations, counts, and practice counts to guide learners through combinations.",
+   "distinctive_method": "Naming traditional transitional movements like 'Spharaphara' as connecting glue between core steps.",
+   "what_works": [
+    "Demonstrating with backup dancers provides clear visual reference"
+   ],
+   "what_hinders": [
+    "Lack of slow-tempo breakdown or back-facing view makes footwork harder to follow"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 23,
+     "topic": "movement",
+     "observation": "Instructor demonstrating Pantsula footwork solo with three backup dancers standing still in the background.",
+     "viewpoint": "front, mirror",
+     "cannot_infer": "exact foot placement details due to distance and lighting",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 101,
+     "end_s": 119,
+     "topic": "movement",
+     "observation": "Group warmup marching in place with high knees and arm swings.",
+     "viewpoint": "front, mirror",
+     "cannot_infer": "weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 427,
+     "end_s": 455,
+     "topic": "teaching",
+     "observation": "Teacher breaking down Spharaphara step with counting and slow demonstration.",
+     "viewpoint": "front, mirror",
+     "cannot_infer": "precise ankle rotation details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "r408kWSr1qU",
    "url": "https://www.youtube.com/watch?v=r408kWSr1qU",
@@ -543,11 +650,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/pantsula.json"
  },
- "fingerprint": "af20cfedeb2f84bf",
- "updated": "2026-11-21"
+ "fingerprint": "d7a24d32fe1d6741",
+ "updated": "2026-11-22"
 }

@@ -1,8 +1,8 @@
 # Parichamuttukali — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.5 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.5 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A stern but rhythmic Asan who emphasizes discipline, martial precision, and the spiritual weight of the songs.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Saints of the Sword
 NARRATION: This is Parichamuttukali. 16th century (differentiated form).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (3w9emLiXJlw)
 ON SCREEN: Title card: Parichamuttukali · India · 16th century (differentiated form)
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Dancers move in a circle around a central point, usually a Nilavilakk
 NARRATION: They carry wooden swords and shields, clashing them together in rhythm.
 NARRATION: The footwork and body mechanics are derived from Kalarippayattu, featuring low-gravity stances and radial symmetry.
 NARRATION: Watch for Paricha Muttuka, Kalari Steps.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (3w9emLiXJlw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Strict radial symmetry around a central lamp; dancers process in a circle.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -321,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear a traditional white loincloth (dhoti/mundu) and red wristbands, a garb that evokes the historical attire of Kalari warriors. The setting is typically a church courtyard or a festival stage. A brass oil lamp (Nilavilakku) is placed in the center of the performance space to provide a focal point for the circular formation.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '3w9emLiXJlw', 'checked_by_vision_model': True, 'title': 'Parichamuttu Kali - 07'}
 Images: 3 licensed — Jogytmathew / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Abhijith Sheheer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Abhijith Sheheer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The flickering flame of the Nilavilakku., The texture of worn wooden shields., Sweat on red wristbands., The geometric precision of the circle from an overhead view.
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 65 tutorial(s) of the folk-circle family studied · videos studied: 65
+Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; un dos tres; 1-2-3; 5-6-7-8; 1-2-left; 2-2-right; step in front; step behind; levanto los talones hasta atrs; doble golpe con mi pie; pisada con toda la planta del pie; sin elevarme tanto
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
 
 Sources (2): https://en.wikipedia.org/wiki/Parichamuttukali; https://www.wikidata.org/wiki/Q16137576

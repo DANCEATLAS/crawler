@@ -1,6 +1,6 @@
 # Ballet de cour — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; teaching steps written out; what to avoid / common mistakes
 
@@ -304,9 +304,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the classical-court family studied · videos studied: 12
+Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: uno dos tres cuatro; sin parar; y ahora de regreso; tha-ka-di-ki-ta; tha-the-hi-tha; 1; 2; 3; 4; 5; 6; kick kick kick kick step
+Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (5): https://en.wikipedia.org/wiki/Ballet_de_cour; https://www.wikidata.org/wiki/Q2881262; https://es.wikipedia.org/wiki/Ballet_cortesano; https://fr.wikipedia.org/wiki/Ballet_de_cour; https://de.wikipedia.org/wiki/Ballet_de_cour

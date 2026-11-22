@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "mtiuluri",
  "name": "Mtiuluri",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GE"
@@ -12,7 +12,9 @@
   "name": "Mtiuluri",
   "country": "Georgia",
   "country_code": "GE",
+  "flag_emoji": "🇬🇪",
   "region": "Mtiuleti",
+  "family": "folk-circle",
   "era": "Traditional highland dance",
   "tagline": "Highland dance of competing tricks and toe-work",
   "profile": "Mtiuluri is a mountain dance from the Mtiuleti region, based, like Khevsuruli, on competition - but here the rivalry is between two groups of young men celebrating skill and artistry rather than enacting armed combat (Wikipedia). Groups first compete in complicated movements; a women's dance follows, then an individual dancer performs astonishing 'tricks' on knees and toes, before everyone joins a beautiful finale evoking a mountain festival. It is danced to polyphonic singing and percussion.",
@@ -30,8 +32,12 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Georgian_dance",
-   "https://georgia.travel/why-georgia-georgian-dance"
+   "https://georgia.travel/why-georgia-georgian-dance",
+   "https://www.wikidata.org/wiki/Q3647082",
+   "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
   ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Georgian_dance",
+  "wikidata_qid": "Q3647082",
   "unesco": false,
   "hero_video_youtube_id": "hcaqed_usIo",
   "image_significance": "Mountain men's competition dance. A representative image shows upright carriage, sweeping arm lines and embroidered dress — Mtiuleti, Georgia.",
@@ -41,6 +47,103 @@
   "updated_at": "2026-06-08",
   "_is_sacred": false,
   "publish_gate": "publish",
+  "research_gate": "publish",
+  "qc_score": 9.45,
+  "last_researched_at": "2026-11-22T19:44:46Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Mtiuluri is a quintessential mountain dance from the Mtiuleti region of Georgia, deeply rooted in the cultural traditions of the Caucasus highlands. Unlike the martial-focused Khevsuruli, which enacts a specific narrative of combat and courtship, Mtiuluri is primarily a celebration of artistic skill and physical prowess. The dance is structured into distinct segments that highlight different facets of the community's festive life. It begins with a competitive display between two groups of young men, who challenge one another through complex, rapid movements. This is followed by a segment dedicated to the women, which provides a graceful contrast to the preceding intensity. The performance then shifts to an individual male dancer who executes a series of 'tricks'—highly technical movements performed on the knees and toes that demonstrate the dancer's endurance and mastery of the form. The dance concludes with a grand, communal finale that brings all participants together, capturing the joyous and spirited essence of a traditional mountain festival. The dance is performed to the accompaniment of polyphonic singing and percussion, reflecting the broader musical traditions of the Georgian highlands. The costumes typically worn by the men in such highland dances include the chokha, a traditional wool coat, often paired with boots that facilitate the demanding footwork required for the 'tricks' on the toes and knees. Mtiuluri remains a living tradition, preserved through the efforts of professional ensembles and local community practice. It serves as a vital expression of the regional identity of Mtiuleti, emphasizing the values of agility, competition, and collective celebration that define the mountain folk culture of Georgia.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 952,
+    "height": 432,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "George Kvizhinadze from Tbilisi, Georgia / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_dance_7.jpg",
+    "description": "Georgian folk dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Georgian_Folk_Dance_1.JPG/1280px-Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3153,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Folk_Dance_1.JPG",
+    "description": "Georgian national folk dance, performed by Sukhihsvili Ensemble in New York during their US tour, Fall 2007."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Georgian_folk_dance_Simdi.JPG/1280px-Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3296,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_folk_dance_Simdi.JPG",
+    "description": "Georgian Folk dance \"Simdi\" (Ossetian Folk dance \"Simd\"), performed by Sukhishvili Ensemble"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 873,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMtiuluri.jpg",
+    "description": "Georgian Folk Dance, mtiuluri, mountain dance of Georgia."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 767,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQartuli.jpg",
+    "description": "Georgian Folk Dance, Qartuli or kartuli"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Sukhishvili_dancers_1.jpg/1280px-Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3945,
+    "height": 2634,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Rob Hurson / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASukhishvili_dancers_1.jpg",
+    "description": "Unfortunately I couldn't really stop to watch these guys. We were accompanied by a 1½ year old, so I could only fire off a couple of shots as we walked past."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg/1280px-Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1745,
+    "height": 1313,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "tomislav medak / Wikimedia Commons / CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABatumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg",
+    "description": "Batumi - Georgian Folklore Dance - Adjaruli"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Georgian_Dancers_%2814632845282%29.jpg/1280px-Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4080,
+    "height": 3264,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Jesse Gudí / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Dancers_%2814632845282%29.jpg",
+    "description": "Georgian Dancers"
+   }
+  ],
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -55,6 +158,340 @@
    "khanjluri"
   ]
  },
- "fingerprint": "31652300dd859af0",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Mtiuluri originates from the Mtiuleti region in the Caucasus Mountains. It is a traditional folk dance that has evolved into a performance piece, often featured in the repertoires of professional Georgian dance ensembles.",
+   "how_it_is_danced": "The dance involves two groups of men competing in complex movements, a segment for women, and a solo male performance featuring acrobatic tricks on the knees and toes. It concludes with a group finale.",
+   "music_and_instruments": "The dance is accompanied by traditional Georgian polyphonic singing and percussion instruments, including the doli (double-sided drum).",
+   "costume_and_setting": "Men typically wear the chokha (traditional coat) and boots suitable for high-impact footwork. The setting is often a stage performance that recreates the atmosphere of a mountain festival.",
+   "occasions_and_meaning": "Mtiuluri is a celebratory dance that reflects the spirit of mountain festivals, emphasizing competition, skill, and communal joy.",
+   "notable_figures": "not described in sources",
+   "regional_variants": "It is closely related to other mountain dances like Khevsuruli and Kazbeguri.",
+   "lineage": "It belongs to the family of Georgian mountain folk dances."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Competitive group movement sequences",
+    "Women's dance segment",
+    "Individual male acrobatic tricks on knees and toes"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "Group competition followed by a communal finale.",
+   "level_notes": "Requires high technical skill for the male solo tricks."
+  },
+  "claims": [
+   {
+    "text": "Mtiuluri is a mountain dance from the Mtiuleti region based on competition between two groups of young men.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "The dance features a segment for women followed by a solo male performance of acrobatic tricks.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "The dance concludes with a finale that resembles a mountain festival.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "The dance names are often derived from the regions where they originated.",
+    "source": "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
+   },
+   {
+    "text": "Georgian dances have an ancient history with roots in pre-Christian rituals.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "Traditional Georgian dance is accompanied by instruments like the doli.",
+    "source": "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Georgian dance 7.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 952,
+    "height": 432,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "George Kvizhinadze from Tbilisi, Georgia",
+    "description": "Georgian folk dance",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_dance_7.jpg",
+    "attribution": "George Kvizhinadze from Tbilisi, Georgia / Wikimedia Commons / CC BY-SA 2.0"
+   },
+   {
+    "title": "File:Georgian Folk Dance 1.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Georgian_Folk_Dance_1.JPG/1280px-Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3153,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Alsandro",
+    "description": "Georgian national folk dance, performed by Sukhihsvili Ensemble in New York during their US tour, Fall 2007.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Folk_Dance_1.JPG",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Georgian folk dance Simdi.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Georgian_folk_dance_Simdi.JPG/1280px-Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3296,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Alsandro",
+    "description": "Georgian Folk dance \"Simdi\" (Ossetian Folk dance \"Simd\"), performed by Sukhishvili Ensemble",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_folk_dance_Simdi.JPG",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Mtiuluri.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 873,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "GeorgianFolk",
+    "description": "Georgian Folk Dance, mtiuluri, mountain dance of Georgia.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMtiuluri.jpg",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Qartuli.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 767,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "GeorgianFolk",
+    "description": "Georgian Folk Dance, Qartuli or kartuli",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQartuli.jpg",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Sukhishvili dancers 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Sukhishvili_dancers_1.jpg/1280px-Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3945,
+    "height": 2634,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Rob Hurson",
+    "description": "Unfortunately I couldn't really stop to watch these guys. We were accompanied by a 1½ year old, so I could only fire off a couple of shots as we walked past.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASukhishvili_dancers_1.jpg",
+    "attribution": "Rob Hurson / Wikimedia Commons / CC BY-SA 2.0"
+   },
+   {
+    "title": "File:Batumi - Georgian Folklore Dance - Adjaruli (5024683805).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg/1280px-Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1745,
+    "height": 1313,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "tomislav medak",
+    "description": "Batumi - Georgian Folklore Dance - Adjaruli",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABatumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg",
+    "attribution": "tomislav medak / Wikimedia Commons / CC BY 2.0"
+   },
+   {
+    "title": "File:Georgian Dancers (14632845282).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Georgian_Dancers_%2814632845282%29.jpg/1280px-Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4080,
+    "height": 3264,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Jesse Gudí",
+    "description": "Georgian Dancers",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Dancers_%2814632845282%29.jpg",
+    "attribution": "Jesse Gudí / Wikimedia Commons / CC BY-SA 2.0"
+   }
+  ],
+  "gaps": [
+   "Specific tempo and meter information",
+   "Detailed breakdown of arm and hand movements",
+   "Names of specific musical recordings",
+   "Biographical details of notable figures in Mtiuluri"
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "Doli (drum)",
+    "Polyphonic vocal ensemble"
+   ],
+   "vocal_style": "Polyphonic singing",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "festive",
+    "energetic",
+    "competitive"
+   ],
+   "reference_recordings": [],
+   "sound_description": "The music is characterized by traditional Georgian polyphonic singing combined with rhythmic percussion, creating a festive and energetic atmosphere."
+  },
+  "movement_profile": {
+   "posture": "Upright and vigorous for men.",
+   "footwork": "Includes complex movements and acrobatic tricks on the knees and toes.",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Groups of men competing, followed by a communal finale.",
+   "partnering": "not described in sources",
+   "tempo_feel": "Energetic and competitive.",
+   "signature_moves": [
+    {
+     "name": "Knee and toe tricks",
+     "description": "Acrobatic movements performed on the knees and toes by a solo male dancer."
+    }
+   ],
+   "levels_and_jumps": "Includes floor-level work on knees.",
+   "difficulty": "advanced",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Mountain Challenge: Mtiuluri",
+   "logline": "Discover the high-altitude competitive dance of Georgia's Mtiuleti region.",
+   "beats": [
+    "Introduction to the Mtiuleti region and its mountain culture.",
+    "The concept of competition in Georgian dance.",
+    "Breakdown of the male group competitive segment.",
+    "The role of the women's dance as a bridge.",
+    "The technical mastery of the solo male 'tricks'.",
+    "The communal finale as a festival celebration."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Understand the rhythm and group formation.",
+     "drills": [
+      "Basic rhythmic stepping",
+      "Group spatial awareness",
+      "Posture alignment"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Mountain landscapes",
+    "Chokha costumes",
+    "Dynamic group formations"
+   ],
+   "instructor_persona": "A professional Georgian folk dancer with experience in mountain styles.",
+   "music_cue": "Traditional polyphonic song with doli percussion."
+  },
+  "connections": [
+   {
+    "name": "Khevsuruli",
+    "relation": "sibling",
+    "note": "Both are competitive mountain dances from Georgia."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Not derivable yet",
+    "standing_version": "Not derivable yet",
+    "tempo_and_range": "Not derivable yet",
+    "counts": "Not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "Not derivable yet",
+    "duration_minutes": "Not derivable yet",
+    "counts": "Not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-22T19:44:46Z",
+  "qc_score": 9.45
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 12,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   }
+  ],
+  "via": {
+   "arms": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "hcaqed_usIo",
+   "url": "https://www.youtube.com/watch?v=hcaqed_usIo",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "indoor stage with dark background, performance lighting",
+    "dancers": "mixed group of men and women, several couples",
+    "formation_and_space": "group arranged in a staggered formation across the stage",
+    "posture": "upright and proud torso, knees slightly bent, weight centered or shifting dynamically",
+    "footwork": "rapid steps, shuffling or bounding patterns synchronized with the heavy rhythm; exact foot placement occluded by long garments",
+    "arms_and_hands": "arms held out to the sides at shoulder height with elbows bent, hands posed with fingers slightly curved; men have arms extended or framing the torso",
+    "hips_and_torso": "torso held upright and still with slight upper body turns and expressive framing",
+    "partnering": "none in physical contact, dancers perform in proximity as an ensemble",
+    "levels_jumps_turns": "upright standing level with dynamic turns and leaps executed by individual dancers",
+    "costume_and_props": "traditional Georgian long red coats with cartridge loops (chokha) for men and women, head coverings for women, belts at the waist",
+    "cannot_infer": "exact footwork details and weight transfers are obscured by long traditional costumes and fast camera action",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "drum"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "dancers hold poses with arms extended sideways and heads turned sharply, holding striking postures while the music drives the rhythm"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 7,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/mtiuluri.json"
+ },
+ "fingerprint": "60d32b9f5c1b2d9f",
+ "updated": "2026-11-22"
 }

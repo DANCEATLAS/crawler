@@ -1,6 +1,6 @@
 # Ballos — episode pack
 
-*Status: draft · built 2026-11-21 · judge 8.4 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 8.4 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; the costume & setting section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 

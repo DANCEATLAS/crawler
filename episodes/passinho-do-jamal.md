@@ -1,6 +1,6 @@
 # Passinho do Jamal — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections
 
@@ -69,7 +69,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step to one side
 NARRATION: Step to the other side
-NARRATION: Count it: 1-2-3-4-5-6-7-8.
+NARRATION: Count it: pisa-pisa-pisa-marcha.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -95,7 +95,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8.
+NARRATION: Count: pisa-pisa-pisa-marcha.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -108,13 +108,13 @@ NARRATION: Step 2: Step to the other side
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: pisa-pisa-pisa-marcha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Take three steps back with coordinated arm movements
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: pisa-pisa-pisa-marcha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -125,13 +125,13 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
 NARRATION: Teachers of this dance warn against: moving same arm and leg instead of opposite
+NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: pisa-pisa-pisa-marcha.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,7 +160,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8.
+NARRATION: Count: pisa-pisa-pisa-marcha.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -173,13 +173,13 @@ NARRATION: Step 2: Step to the other side
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: pisa-pisa-pisa-marcha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Take three steps back with coordinated arm movements
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: pisa-pisa-pisa-marcha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -190,13 +190,13 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
 NARRATION: Teachers of this dance warn against: moving same arm and leg instead of opposite
+NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: pisa-pisa-pisa-marcha.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -225,7 +225,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8.
+NARRATION: Count: pisa-pisa-pisa-marcha.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -238,12 +238,12 @@ NARRATION: Step 2: Take three steps back with coordinated arm movements
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: pisa-pisa-pisa-marcha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: pisa-pisa-pisa-marcha · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -255,13 +255,13 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
 NARRATION: Teachers of this dance warn against: moving same arm and leg instead of opposite
+NARRATION: Teachers of this dance warn against: andar com braço esquerdo e perna esquerda separados em vez de juntos
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: pisa-pisa-pisa-marcha.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -299,9 +299,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 1-2-3-4-5-6-7-8
+Counting: pisa-pisa-pisa-marcha
 Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 8
-Cues: pisa; marca; troca; marcha soldado cabea de papel; pisa e marcha; subiu perna direita
-Common mistakes the studied teachers name: andar com braço esquerdo e perna esquerda separados em vez de juntos; moving same arm and leg instead of opposite
+Cues: marcha soldado cabea de papel; pisa e marcha; subiu perna direita; pisa; marca; troca
+Common mistakes the studied teachers name: moving same arm and leg instead of opposite; andar com braço esquerdo e perna esquerda separados em vez de juntos
 
 Sources (3): https://en.wikipedia.org/wiki/Passinho_do_Jamal; https://www.wikidata.org/wiki/Q140274899; https://pt.wikipedia.org/wiki/Passinho_do_Jamal

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "stiletto-dance",
  "name": "Stiletto dance",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -36,6 +36,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stiletto_dance",
   "wikidata_qid": "Q25042625",
   "unesco": false,
+  "hero_video_youtube_id": "8nRyRNUtNhA",
+  "video_stack": [
+   {
+    "youtube_id": "8nRyRNUtNhA",
+    "role": "hero",
+    "title": "Sam Sparro - Black&Gold | Žydrė High Heels Dance",
+    "channel": "Žydrė Heels Academy",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -49,6 +59,29 @@
   "profile_long": "Stiletto dance emerged and evolved in the United States and Europe during the late 20th and early 21st centuries as a distinct performance medium. The genre is inextricably linked to the stiletto heel, a shoe style that dictates the dancer's posture and center of gravity. Unlike social dances, stiletto dance is designed for the stage, specifically for the high-production environments of cruise ship entertainment, professional music videos, and backup routines for pop artists. Its development was influenced by the historical 'showgirl' tradition, which was the first technical dance style to incorporate heels into performance choreography.\n\nThe movement vocabulary of stiletto dance is a complex hybrid of several established disciplines. It draws its foundational footwork from jazz dance, ballroom, and Latin styles, which provide the necessary structure for navigating the stage in heels. These elements are layered with torso isolations derived from belly dance and hip-hop, creating a contrast between the rigid requirements of the footwear and the fluid movement of the upper body. Additionally, the style incorporates floor work and body language influenced by exotic and contemporary dance, requiring significant core strength and flexibility to execute transitions safely and aesthetically.\n\nIn the modern era, stiletto dance has expanded beyond the professional stage into the realm of physical fitness and leisure. It is frequently taught in dance studios and gyms as a specialized movement discipline for women, focusing on empowerment, balance, and coordination. Despite this shift toward fitness, the core techniques remain rooted in professional choreography. The dance is characterized by its adaptability, often appearing in pop and hip-hop music videos where the visual impact of the heels complements the rhythmic intensity of the music. The evolution of the style continues to be driven by the commercial entertainment industry, where it remains a staple of modern choreography.\n\nTechnically, the dance requires a mastery of weight distribution. Because the stiletto heel provides a very small surface area for contact with the floor, dancers must maintain a high level of engagement in the ankles and core. The use of 'showgirl' techniques provides the historical basis for this, teaching dancers how to maintain lines and extensions while elevated. The inclusion of go-go dancing styles adds a layer of rhythmic bounce and energy, while the contemporary and exotic dance influences introduce a level of floor-based athleticism that challenges the traditional limitations of high-heeled footwear. This synthesis makes stiletto dance one of the most physically demanding commercial dance forms practiced today.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-22T20:05:19Z",
+   "soft_fail": []
+  },
+  "tutorials": [
+   {
+    "youtube_id": "3gBbvQ_mgjw",
+    "title": "Learn How to Dance High Heels in 15 min | Tutorial for Beginners",
+    "channel": "High Heels Tutorials",
+    "level": "beginner",
+    "pos": 16,
+    "neg": 1,
+    "ratio": 8.0,
+    "evidence": [
+     "You are so very informative with each movement, you are a great teacher!\nThank you for the videos!\nPlease don’t stop!!\n❤❤❤❤",
+     "Love this tutorial, very clear explanation and easy to follow. Thank you ❤",
+     "Thank you so much for this tutorial, the best dancing tutorial ever, easy to follow ❤"
+    ],
+    "lesson_status": "in_review"
+   }
+  ],
   "related_slugs": [
    "jazz-dance",
    "ballroom-dance",
@@ -302,32 +335,181 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   }
-  ]
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "3gBbvQ_mgjw",
+   "url": "https://www.youtube.com/watch?v=3gBbvQ_mgjw",
+   "title": "Learn How to Dance High Heels in 15 min | Tutorial for Beginners",
+   "channel": "High Heels Tutorials",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3",
+   "parts": [
+    {
+     "t": "0:07",
+     "seconds": 7,
+     "segment": "intro",
+     "note": "Introduction to the high heels tutorial and overview of five easy moves."
+    },
+    {
+     "t": "0:48",
+     "seconds": 48,
+     "segment": "breakdown",
+     "note": "Detailed instruction of the first move: The Walk."
+    },
+    {
+     "t": "2:50",
+     "seconds": 170,
+     "segment": "breakdown",
+     "note": "Detailed instruction of the second move: Hip Slide."
+    },
+    {
+     "t": "3:24",
+     "seconds": 204,
+     "segment": "breakdown",
+     "note": "Detailed instruction of the third move: Hip Deep Slide."
+    },
+    {
+     "t": "5:16",
+     "seconds": 316,
+     "segment": "breakdown",
+     "note": "Detailed instruction of the fourth move: Hair Wipe."
+    }
+   ],
+   "steps": [
+    {
+     "name": "The Walk",
+     "counts": "1-2-3",
+     "description": "Stepping with weight shifts and ankle coordination."
+    },
+    {
+     "name": "Hip Slide",
+     "counts": "1-2-3-4",
+     "description": "Isolating and sliding hips side to side with bent knees."
+    },
+    {
+     "name": "Hip Deep Slide",
+     "counts": "1-2-3",
+     "description": "Deeper hip slide with feet wider than shoulder-width."
+    },
+    {
+     "name": "Hair Wipe",
+     "counts": "1-2-3",
+     "description": "Upper body circles and hair whip combined with hip slides."
+    }
+   ],
+   "cues": [
+    "Shoulders back",
+    "Hips back",
+    "Core lifted up",
+    "Switch hips",
+    "Ankles together"
+   ],
+   "images": [
+    "The cherry on the cake is our head"
+   ],
+   "safety": [
+    "If you don't feel comfortable in the high heels for now, you can start with any shoes."
+   ],
+   "teacher_style": "The instructor breaks down each movement into precise physical components like posture and weight distribution. She demonstrates step-by-step with continuous verbal guidance and counts.",
+   "distinctive_method": "Emphasizing internal feeling and comfort over strict technical perfection before teaching any footwork.",
+   "what_works": [
+    "Breaking down complex movements into numbered parts",
+    "Showing both front and side posture views"
+   ],
+   "what_hinders": [
+    "Rapid transitions between detailed steps"
+   ],
+   "evidence": [
+    {
+     "start_s": 52,
+     "end_s": 60,
+     "topic": "teaching",
+     "observation": "Teacher stands facing front and verbally instructs starting position with posture adjustments.",
+     "viewpoint": "front, not mirrored",
+     "cannot_infer": "exact muscle activation",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 100,
+     "end_s": 106,
+     "topic": "movement",
+     "observation": "Teacher turns to the side to demonstrate posture from a lateral angle.",
+     "viewpoint": "side, not mirrored",
+     "cannot_infer": "weight distribution details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "8nRyRNUtNhA",
+   "url": "https://www.youtube.com/watch?v=8nRyRNUtNhA",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "dance studio with yellow walls",
+    "dancers": "5 women, group",
+    "formation_and_space": "single line, facing forward",
+    "posture": "upright, knees bent, weight shifted side to side",
+    "footwork": "stepping side to side, weight shifts, cannot see feet clearly due to low resolution",
+    "arms_and_hands": "arms move in sync, hands on hips, reaching overhead, or touching torso",
+    "hips_and_torso": "hip sways, torso isolations, rhythmic movement",
+    "partnering": "none",
+    "levels_jumps_turns": "squats, no jumps or turns",
+    "costume_and_props": "black leotards, black tights, black high-heeled boots",
+    "cannot_infer": "low resolution makes it impossible to see exact footwork or weight transfer",
+    "music_heard": {
+     "instruments": [
+      "synthesizer",
+      "drums"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 8,
+      "end_s": 12,
+      "what": "arms reach overhead and then sweep down to the sides while hips sway"
+     },
+     {
+      "start_s": 36,
+      "end_s": 39,
+      "what": "deep squat with arms moving in a circular motion in front of the chest"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/stiletto-dance.json"
  },
- "fingerprint": "5847bbee8c594e14",
- "updated": "2026-11-21"
+ "fingerprint": "b5eacd66b3b4ba86",
+ "updated": "2026-11-22"
 }

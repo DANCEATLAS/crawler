@@ -1,0 +1,126 @@
+{
+ "slug": "temple-dance",
+ "qc_at": "2026-11-22T19:59:18Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Temple dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "69"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "158"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Prescribed by ancient Agamas scripts, temple dance saw devadasis and Mahari danc"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "444"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1536"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"bharatanatyam-india\", \"score\": 1.0, \"via_alias\": \"Sadir\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'deity', 'deities', 'worship', 'spirit', 'religious', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Sadir",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is accurate and respectful, correctly identifying 'Temple dance' as a category rather than a single dance style. It appropriately handles the sacred nature of the traditions. The teaching value is low due to the historical/ritual nature of the subject, which is correctly identified as non-instructional."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "bharatanatyam-india",
+  "score": 1.0,
+  "via_alias": "Sadir"
+ },
+ "is_sacred": true,
+ "reasons": [
+  "not_duplicate",
+  "banned_phrasing",
+  "judge_score=8.25",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-22T17:21:02Z"
+}

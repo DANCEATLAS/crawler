@@ -2,7 +2,7 @@
  "slug": "yapong-dance",
  "name": "Yapong dance",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:48Z",
+ "built_at": "2026-11-22T20:20:49Z",
  "researched_at": "2026-11-21T18:25:19Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Yapong dance. 1977."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (9oB6110x55w)",
      "Title card: Yapong dance · Indonesia · 1977"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Yapong Step."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (9oB6110x55w)",
      "Captions name each signature move as it appears",
      "Formation: Mass dance performance patterns"
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "9oB6110x55w",
+   "checked_by_vision_model": true,
+   "title": "Tari Kreasi Baru - Tari Yapong - PLT Bagong Kussudiardja"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -824,8 +828,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "65 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 65,
+  "source": "67 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 67,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -835,17 +839,17 @@
   ],
   "cues": [
    "1-2-3-4",
-   "un dos tres",
    "1-2-3",
    "5-6-7-8",
-   "1-2-left",
-   "2-2-right",
-   "step in front",
-   "step behind",
-   "levanto los talones hasta atrs",
-   "doble golpe con mi pie",
-   "pisada con toda la planta del pie",
-   "sin elevarme tanto"
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -864,7 +868,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage",
   "posture, arms and hands",
   "two or more connections",
@@ -877,6 +880,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "c22a111bd7e045065f700f4e2f09deee52948c3b47f5aaec3d09515ebe9f9c04",
- "hero_checked": null
+ "input_fingerprint": "dbe0bc1086853c8c453fba8db5ac0841c405af9c2f248cf5affd7cf5a177f080",
+ "hero_checked": "pass"
 }

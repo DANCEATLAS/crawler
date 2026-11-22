@@ -1,13 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "Includes complex movements and acrobatic tricks on the knees and toes.",
+      "formation_and_space": "Groups of men competing, followed by a communal finale.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes floor-level work on knees.",
+      "partnering": "not described in sources",
+      "posture": "Upright and vigorous for men.",
+      "signature_moves": [
+        {
+          "description": "Acrobatic movements performed on the knees and toes by a solo male dancer.",
+          "name": "Knee and toe tricks"
+        }
+      ],
+      "tempo_feel": "Energetic and competitive.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Doli (drum)",
+        "Polyphonic vocal ensemble"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "energetic",
+        "competitive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by traditional Georgian polyphonic singing combined with rhythmic percussion, creating a festive and energetic atmosphere.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Polyphonic singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Competitive group movement sequences",
+        "Women's dance segment",
+        "Individual male acrobatic tricks on knees and toes"
+      ],
+      "formation": "Group competition followed by a communal finale.",
+      "level_notes": "Requires high technical skill for the male solo tricks.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "29f50440bae305a1012970497567a96d1ad4731d8b974fd020573cdc6407cee5",
+  "fingerprint": "ec14e94563f74acc187ee37b00f46255663ba3ea1c28c675eb873a428e6706c2",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +78,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific musical compositions or traditional songs exclusively used for Mtiuluri? Evidence needed: Musicological studies of Georgian highland folk music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +108,18 @@
   ],
   "music_options": [],
   "name": "Mtiuluri",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1169d11569acc4f4",
+      "next_evidence": "Musicological studies of Georgian highland folk music.",
+      "question": "Are there specific musical compositions or traditional songs exclusively used for Mtiuluri?",
+      "source": "https://en.wikipedia.org/wiki/Georgian_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a more accurate music_profile for practitioners."
+    }
+  ],
+  "research_file": "research_results/mtiuluri.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +131,8 @@
   "slug": "mtiuluri",
   "sources": [
     "https://en.wikipedia.org/wiki/Georgian_dance",
-    "https://georgia.travel/why-georgia-georgian-dance"
+    "https://www.wikidata.org/wiki/Q3647082",
+    "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
   ],
   "state": "researching",
   "video_evidence": []

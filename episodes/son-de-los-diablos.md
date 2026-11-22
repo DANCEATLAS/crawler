@@ -1,8 +1,8 @@
 # Son de los Diablos — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic Afro-Peruvian dance custodian grounded in cultural history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Banned by the Catholic Church in 1817 and disappearing mid-20th century, this devil comparsa was dramatically revived from 19th-century watercolors by Pancho Fierro.
 NARRATION: This is Son de los Diablos. Colonial to Modern era (19th-20th century).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (H1W16Vzjrus)
 ON SCREEN: Title card: Son de los Diablos · Peru · Colonial to Modern era (19th-20th century)
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: Danced as a street comparsa led by a caporal.
 NARRATION: The choreography features dynamic pasadas de zapateo, acrobatic movements, and startling shouts to engage or frighten passersby.
 NARRATION: Watch for Zapateo pasada, Devil lunge.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (H1W16Vzjrus)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Street procession (comparsa) led by a caporal
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -312,7 +312,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'H1W16Vzjrus', 'checked_by_vision_model': True, 'title': 'Son de los Diablos: Perú; Danza Afroperuana- América Baila'}
 Images: 1 licensed — Pancho Fierro / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Horned devil masks, Wooden cajita box, Horse jawbone quijada, Tridents, Street processions
@@ -322,9 +322,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the african-diaspora family studied · videos studied: 13
+Source: 14 tutorial(s) of the african-diaspora family studied · videos studied: 14
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Cues: 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; bend your knees; one and two and; put all your weight on your right leg; and out and out and in and in; double double
 
 Sources (3): https://en.wikipedia.org/wiki/Son_de_los_Diablos; https://www.wikidata.org/wiki/Q7560621; https://es.wikipedia.org/wiki/Son_de_los_diablos

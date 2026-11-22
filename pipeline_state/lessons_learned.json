@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-21T16:50:57Z",
- "qc_records_considered": 888,
+ "updated_at": "2026-11-22T17:13:07Z",
+ "qc_records_considered": 940,
  "gate_failures": [
   [
    "sections_filled",
-   201
+   210
   ],
   [
    "citations",
-   108
-  ],
-  [
-   "sacred_handled",
-   85
+   114
   ],
   [
    "profile_long_len",
-   83
+   89
+  ],
+  [
+   "sacred_handled",
+   89
   ],
   [
    "country",
-   83
+   86
   ],
   [
    "insight_concrete",
-   82
+   85
   ],
   [
    "banned_phrasing",
-   74
+   80
+  ],
+  [
+   "sources",
+   36
   ],
   [
    "not_duplicate",
    36
-  ],
-  [
-   "sources",
-   32
   ],
   [
    "region",
@@ -46,49 +46,49 @@
  "reasons": [
   [
    "sacred",
-   357
+   380
   ],
   [
    "sections_filled",
-   201
+   210
   ],
   [
    "not_a_dance",
-   174
+   179
   ],
   [
    "citations",
-   108
-  ],
-  [
-   "sacred_handled",
-   85
+   114
   ],
   [
    "profile_long_len",
-   83
+   89
+  ],
+  [
+   "sacred_handled",
+   89
   ],
   [
    "country",
-   83
+   86
   ],
   [
    "insight_concrete",
-   82
+   85
   ],
   [
    "banned_phrasing",
-   74
+   80
   ],
   [
    "doubts=1",
-   64
+   67
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'unsupported'",
-   32
+   33
   ],
   [
    "judge notes mention 'missing'",
@@ -104,115 +104,115 @@
   ],
   [
    "judge notes mention 'inaccura'",
-   8
+   9
   ],
   [
    "judge notes mention 'placeholder'",
-   2
+   4
   ],
   [
-   "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
+   "doubt: The claim that the 'Harlem Shuffle' is a 25-step line dance originating in the Harlem Renaissance is historically unsubs",
    1
   ],
   [
-   "doubt: The claim that it was 'last reported in 1951' is factually dubious as the term 'Pilou' continues to be used in contempor",
+   "doubt: There is no evidence of a standardized '25-step line dance' known as the Harlem Shuffle.",
    1
   ],
   [
-   "doubt: The claim that 6th-century figurines from the Martin's treasure are the 'oldest known depictions' of the hopak is a hist",
+   "doubt: P'aquchi is identified in archival and genealogical data repositories as a Bolivian dance tradition.",
    1
   ],
   [
-   "doubt: The profile treats 'Hopak-Kolom' as a distinct, established dance tradition, whereas 'kolom' (circle) is a descriptive t",
+   "doubt: Listed in international cataloguing databases as a distinct dance form.",
    1
   ]
  ],
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   440
+   468
   ],
   [
    "a verified recording to listen to",
-   430
+   466
   ],
   [
    "licensed images (3 needed)",
-   354
+   378
   ],
   [
    "meter",
-   328
+   350
   ],
   [
    "licensed reference footage",
-   280
+   302
   ],
   [
    "two or more connections",
-   258
+   277
   ],
   [
    "what to avoid / common mistakes",
-   184
+   196
   ],
   [
    "instruments",
-   155
-  ],
-  [
-   "signature moves",
-   142
+   161
   ],
   [
    "notable figures",
-   141
+   150
+  ],
+  [
+   "signature moves",
+   150
   ],
   [
    "a hero video",
-   134
+   144
   ],
   [
    "the how-it-is-danced section",
-   130
+   134
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (201 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (108 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (85 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (83 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (82 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (210 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (114 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (89 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (89 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (85 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 440,
+   "pages": 468,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 430,
+   "pages": 466,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 354,
+   "pages": 378,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "meter",
-   "pages": 328,
+   "pages": 350,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 280,
+   "pages": 302,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "two or more connections",
-   "pages": 258,
+   "pages": 277,
    "what_helps": "sources that relate the dance to its relatives"
   }
  ]

@@ -41,6 +41,19 @@
    "checked_at": "2026-10-31T16:39:46Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "uSHS7Q7RetY",
+    "title": "Baton Twirling Lesson (Learning Fishtails)",
+    "channel": "LuceroLIFE",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "ballroom-dance",
    "hooping"
@@ -65,6 +78,98 @@
   }
  },
  "lessons": [
+  {
+   "youtube_id": "U2cH3E7fWRQ",
+   "url": "https://www.youtube.com/watch?v=U2cH3E7fWRQ",
+   "title": "How to do a Baton Twirling Fan for Novice/Beginners | Starting Baton Twirling Tutorial #1",
+   "channel": "Chrissy",
+   "analysed_on": "2026-11-22",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces herself and the tutorial"
+    },
+    {
+     "t": "0:11",
+     "seconds": 11,
+     "segment": "context",
+     "note": "Explaining the ball and tip of the baton"
+    },
+    {
+     "t": "0:24",
+     "seconds": 24,
+     "segment": "breakdown",
+     "note": "Starting position and large circle motion"
+    },
+    {
+     "t": "0:49",
+     "seconds": 49,
+     "segment": "breakdown",
+     "note": "Detailed wrist motion for the fan"
+    },
+    {
+     "t": "1:20",
+     "seconds": 80,
+     "segment": "breakdown",
+     "note": "Using the other hand to guide and practice the motion"
+    },
+    {
+     "t": "1:40",
+     "seconds": 100,
+     "segment": "recap",
+     "note": "Combining all steps"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Fan motion",
+     "description": "Taking the ball of the baton down past your elbow and back up using wrist motion"
+    }
+   ],
+   "cues": [
+    "form a large circle",
+    "focus on doing the motion with your wrist",
+    "keep the baton in pattern"
+   ],
+   "teacher_style": "The teacher breaks down the baton twirling move into component parts and demonstrates form clearly. She uses close-up shots of hands and wrist movement to illustrate technique.",
+   "distinctive_method": "Using the opposite hand to physically guide the twirling arm through the correct motion pathway",
+   "what_works": [
+    "close-up views of hand positioning",
+    "breaking down the motion step by step"
+   ],
+   "what_hinders": [
+    "lack of counting or tempo breakdown"
+   ],
+   "evidence": [
+    {
+     "start_s": 12,
+     "end_s": 21,
+     "topic": "teaching",
+     "observation": "Teacher shows close-up of baton ends labeling ball and tip",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 53,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "Demonstrating wrist and arm motion for the fan pattern",
+     "viewpoint": "side",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "uSHS7Q7RetY",
    "url": "https://www.youtube.com/watch?v=uSHS7Q7RetY",
@@ -159,6 +264,52 @@
    }
   }
  ],
- "fingerprint": "ffabe53cebcee4b3",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "Xq06iZMIpms",
+   "url": "https://www.youtube.com/watch?v=Xq06iZMIpms",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Stage of a talent show with judges at a desk and a large audience in a theater",
+    "dancers": "One adult male soloist",
+    "formation_and_space": "Soloist moving across the stage floor and performing center stage",
+    "posture": "Erect torso, flexible knees, shifts weight dynamically with dance steps and leaps",
+    "footwork": "Traveling steps, leaps, and turning steps on beat with the music",
+    "hips_and_torso": "Torso twists and bends, expressive arm and torso movements matching the choreography",
+    "partnering": "None",
+    "levels_jumps_turns": "Leaps, high jumps, floor kneel, and turns",
+    "costume_and_props": "Black long-sleeved shirt with sequined shoulder panel and back cutout, black trousers; later wearing a pink sequined vest over the black shirt; holding batons",
+    "cannot_infer": "Precise footwork details are occluded during fast spinning sequences and wide stage shots.",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "keyboard",
+      "bass"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 156,
+      "end_s": 159,
+      "what": "A high split leap in the air while twirling batons"
+     },
+     {
+      "start_s": 215,
+      "end_s": 218,
+      "what": "A high jump in mid-air with extended legs and arms while twirling batons"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "753a59eab3dde795",
+ "updated": "2026-11-22"
 }

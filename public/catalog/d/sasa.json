@@ -58,7 +58,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -66,35 +66,72 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "96e3226efade12bf",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "joAKDTan46o",
+   "url": "https://www.youtube.com/watch?v=joAKDTan46o",
+   "analysed_on": "2026-11-22",
+   "observation": {
+    "setting": "Outdoor stage performance at a festival, with a large seated audience and a decorated backdrop.",
+    "dancers": "A large group of young men and a few young boys, shirtless and bare-chested with necklaces and purple and white waist wraps.",
+    "formation_and_space": "A wide horizontal line across the stage, transitioning between seated, kneeling, and standing positions.",
+    "posture": "Upright when standing, but mostly performing seated or kneeling with straight backs and engaged torsos.",
+    "footwork": "Seated leg positions with crossed ankles or extended legs; standing feet apart with weight shifts on beats; footwork details partially occluded while seated.",
+    "arms_and_hands": "Energetic hand clapping, precise arm extensions, and slaps against the chest, thighs, and arms synchronized to the rhythm.",
+    "hips_and_torso": "Torsos lean back or twist while seated; occasional chest slaps and forward bows.",
+    "partnering": "None; group choreography with independent unison movement.",
+    "levels_jumps_turns": "Transitions between sitting cross-legged on the floor, kneeling on one or both knees, and standing upright.",
+    "costume_and_props": "Matching purple and white fabric wraps around the waist, white shell or seed necklaces; some wear headbands; no handheld props.",
+    "cannot_infer": "Exact footwork details for seated members are occluded by their placement and low camera angles.",
+    "music_heard": {
+     "instruments": [
+      "guitar",
+      "drum"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 26,
+      "end_s": 32,
+      "what": "Dancers lean back onto their elbows while seated and clap in unison to the beat."
+     },
+     {
+      "start_s": 116,
+      "end_s": 124,
+      "what": "Small boy dances through the seated line while performers clap and shout."
+     },
+     {
+      "start_s": 218,
+      "end_s": 224,
+      "what": "Dancers rise to kneeling positions with arms outstretched and clapping."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "67dd89c5614f0516",
+ "updated": "2026-11-22"
 }
