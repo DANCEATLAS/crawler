@@ -51,6 +51,11 @@
    ],
    "beliefs": [
     {
+     "t": "0:01",
+     "belief": "The body belongs entirely to the individual, not to media, society, or anyone else.",
+     "about": "who_can_dance"
+    },
+    {
      "t": "1:01",
      "belief": "Your body is yours, not society's, and you live in it 24/7.",
      "about": "who_can_dance"
@@ -62,7 +67,28 @@
      "feeling": "awkward",
      "response": "Acknowledge the feeling of numbness or being a stranger in your own skin as a common disconnect."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "1:27",
+     "moment": "opening",
+     "says": "The teacher welcomes the learner to guided dance meditation and introduces himself as Moon.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "1:33",
+     "moment": "before_hard_part",
+     "says": "The teacher invites the learner to find a comfortable position and take three deep breaths.",
+     "tag": "moment_of_presence"
+    },
+    {
+     "t": "2:20",
+     "moment": "check_in",
+     "says": "The teacher asks the learner to feel the surface beneath them and notice their body touching the ground.",
+     "tag": "checks_in"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling deeply reconnected to their own body, rhythm, and inherent sense of ownership."
   },
   "learner_voice": {
    "struggles": [
@@ -113,5 +139,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-23T03:01:11Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

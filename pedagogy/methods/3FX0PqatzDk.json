@@ -93,12 +93,43 @@
    ],
    "beliefs": [
     {
-     "t": "1:44",
-     "belief": "This is not a school and not about perfection; it is about fun and playful fitness and vibes.",
+     "t": "0:40",
+     "belief": "This dancing is designed for adults who have not danced for many years and feel stuck.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "1:45",
+     "belief": "This is not a school or a perfectionist show, but fun and playful fitness centered on good vibes.",
+     "about": "what_dancing_is_for"
+    },
+    {
+     "t": "7:00",
+     "belief": "Learners should prioritize making their movement size as big as possible over speed, even if it takes time.",
      "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:02",
+     "moment": "opening",
+     "says": "The teacher welcomes the learner with a cheerful greeting and introduces the session as fun and playful fitness.",
+     "tag": "fun_and_energy"
+    },
+    {
+     "t": "1:33",
+     "moment": "before_hard_part",
+     "says": "The teacher warns that the movement will be challenging and encourages the learner to just do their best and have fun.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "7:44",
+     "moment": "check_in",
+     "says": "The teacher advises the learner to take breaks as needed and drink only small sips of water.",
+     "tag": "checks_in"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling encouraged, capable, and excited to embrace fun fitness without pressure for perfection."
   },
   "learner_voice": {
    "struggles": [
@@ -134,5 +165,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-23T03:01:16Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 3,
+  "feelings": 0
+ }
 }

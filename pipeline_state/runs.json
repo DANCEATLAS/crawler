@@ -6199,5 +6199,31 @@
   ],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "teaching",
+  "started": "2026-11-23T02:56:14Z",
+  "finished": "2026-11-23T03:02:28Z",
+  "counters": {
+   "basics_lessons_found": 7,
+   "science_thin": 1,
+   "science_ok": 5,
+   "paper_ok": 3,
+   "paper_thin": 1,
+   "method_ok": 12,
+   "mentor_look_ok": 12,
+   "llm_calls": 38,
+   "llm_failures": 0,
+   "llm_requests": 34,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "teachers ranked: 568; lessons to study for method: 12 (budget 12, 3 on the basics, 0 of them a teacher's talk); engine on",
+   "model trouble: waited_seconds 131",
+   "refused for quota: gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 45s, on a video question); gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 47s, on a video question); gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 33s, on a video question)",
+   "teaching research: 91 lessons of 82 teachers studied (87 with the mentor look), 40 topic notes and 15 paper notes, 29 practices with two or more kinds of evidence"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]
