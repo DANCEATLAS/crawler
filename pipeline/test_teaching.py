@@ -521,6 +521,16 @@ class TeachingResearchTests(Project):
         self.assertEqual([teaching.paper_key(p) for p in teaching.discover_papers(state, {}, 2, search=search)], ["paper-med-1", "paper-med-2"])
         self.assertEqual([teaching.paper_key(p) for p in teaching.discover_papers(state, {}, 2, search=search)], ["paper-med-3"])
         self.assertEqual((teaching.discover_papers(state, {}, 2, search=search), state["paper_search"]), ([], 3))
+        # the research does not end: the second turn through the queries looks 20 papers further down, the cap is years away
+        asked, deep = [], (lambda q, n=20: asked.append(n) or [])
+        for turn in (0, 1, 2, 40):
+            state["paper_search"] = turn * len(teaching.PAPER_QUERIES)
+            teaching.discover_papers(state, {}, 2, search=deep)
+        self.assertEqual(asked, [20, 40, 60, teaching.PAPER_DEPTH_MAX])
+        urls = []
+        with patch.object(teaching, "get_json", side_effect=lambda u, **kw: urls.append(u) or {}):
+            teaching.europe_pmc('ABSTRACT:"external focus"', n=teaching.PAPER_DEPTH_MAX)
+        self.assertIn("pageSize=%d" % (3 * teaching.PAPER_DEPTH_MAX), urls[0])
         item = (teaching.paper_key(papers[0]), "", "", [])
         note = teaching.science_note(item, Model(note=dict(NOTE, tags=["imagery", "nonsense", "quick_win"])), sources=[papers[0]], topic=papers[0]["title"])
         self.assertEqual((note["status"], note["tags"], note["topic"]), ("ok", ["imagery", "quick_win"], "Paper 1"))
