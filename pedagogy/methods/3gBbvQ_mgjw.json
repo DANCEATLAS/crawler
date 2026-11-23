@@ -84,16 +84,76 @@
    "voice": [
     "warm",
     "gentle",
-    "precise"
+    "precise",
+    "playful",
+    "calm",
+    "energetic"
    ],
    "beliefs": [
     {
-     "t": "0:38",
-     "belief": "The most important thing in high heels is how you feel yourself, so be sure you feel comfortable.",
-     "about": "what_dancing_is_for"
+     "t": "0:39",
+     "belief": "The most important thing in high heels is how you feel yourself, not the shoes you wear.",
+     "about": "who_can_dance"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "0:33",
+     "feeling": "awkward",
+     "response": "The teacher tells the learner they can start with any shoes if they do not feel comfortable in high heels."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:08",
+     "moment": "opening",
+     "says": "The teacher welcomes the learner and explains that this video is for beginners who want to improve their basics in high heels.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:32",
+     "moment": "before_hard_part",
+     "says": "The teacher reassures the learner that they can wear any shoes if they do not feel comfortable in high heels yet.",
+     "tag": "body_adaptation"
+    },
+    {
+     "t": "2:16",
+     "moment": "after_success",
+     "says": "The teacher praises the learner for their effort after completing the first move.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "3:23",
+     "moment": "after_success",
+     "says": "The teacher congratulates the learner for their performance of the second move.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:21",
+     "moment": "after_success",
+     "says": "The teacher encourages the learner by saying they are doing great.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "5:15",
+     "moment": "after_success",
+     "says": "The teacher acknowledges the learner's progress after the third move.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "8:13",
+     "moment": "after_success",
+     "says": "The teacher confirms the learner is doing well after the fourth move.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "9:24",
+     "moment": "after_success",
+     "says": "The teacher commends the learner for their hard work before the final combo.",
+     "tag": "praise_and_expectancy"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling empowered and capable of dancing in high heels regardless of their experience or footwear."
   },
   "learner_voice": {
    "struggles": [
@@ -144,5 +204,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-23T02:38:34Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 8,
+  "beliefs": 1,
+  "feelings": 1
+ }
 }

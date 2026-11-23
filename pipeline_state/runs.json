@@ -6173,5 +6173,31 @@
   "notes": [],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "teaching",
+  "started": "2026-11-23T02:33:53Z",
+  "finished": "2026-11-23T02:42:29Z",
+  "counters": {
+   "basics_lessons_found": 5,
+   "science_ok": 5,
+   "science_thin": 1,
+   "paper_thin": 4,
+   "method_ok": 11,
+   "method_not_a_lesson": 1,
+   "mentor_look_ok": 12,
+   "llm_calls": 47,
+   "llm_failures": 12,
+   "llm_requests": 34,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "teachers ranked: 564; lessons to study for method: 12 (budget 12, 3 on the basics, 1 of them a teacher's talk); engine on",
+   "model trouble: waited_seconds 10, overloaded 6, day_quota_used_up 4, model_gone 2",
+   "refused for quota: gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 11s, on a video question); gemini-3.8-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 19153s, on a video question); gemini-3.6-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 19127s, on a video question); gemini-3.5-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 19114s, on a video question)",
+   "teaching research: 79 lessons of 71 teachers studied (75 with the mentor look), 35 topic notes and 12 paper notes, 29 practices with two or more kinds of evidence"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]

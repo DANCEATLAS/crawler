@@ -85,22 +85,74 @@
   "mentor": {
    "voice": [
     "precise",
-    "patient"
+    "patient",
+    "warm",
+    "calm",
+    "direct"
    ],
    "beliefs": [
     {
+     "t": "0:19",
+     "belief": "The time step is a crucial and useful addition to any tap dancer's toolbox.",
+     "about": "what_dancing_is_for"
+    },
+    {
      "t": "5:00",
-     "belief": "Learning takes time and will not happen immediately; it requires patience and practice.",
+     "belief": "Learning to dance takes time and will not happen straight away.",
      "about": "how_people_learn"
     }
    ],
    "feelings": [
     {
-     "t": "5:36",
+     "t": "1:52",
      "feeling": "frustrated",
-     "response": "The teacher normalizes the confusion between shuffle and flap, stating it happens to the best of us."
+     "response": "The teacher acknowledges that it is easy to get the shuffle and flap confused when starting out."
+    },
+    {
+     "t": "5:35",
+     "feeling": "frustrated",
+     "response": "The teacher reassures the learner that mixing up the shuffle and the flap happens to most people when they first learn it."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:33",
+     "moment": "before_hard_part",
+     "says": "The teacher warns the learner that there are many variations of the time step, but he will show the most useful base pattern.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "1:17",
+     "moment": "after_mistake",
+     "says": "The teacher advises the learner to keep their ankle relaxed and focus on the vertical movement rather than forward and back.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "1:56",
+     "moment": "after_mistake",
+     "says": "The teacher explains the crucial difference between the shuffle and the flap to help the learner avoid confusion.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "4:22",
+     "moment": "before_hard_part",
+     "says": "The teacher reminds the learner to keep their heels off the ground and suggests using a chair for support.",
+     "tag": "body_adaptation"
+    },
+    {
+     "t": "5:35",
+     "moment": "after_mistake",
+     "says": "The teacher normalizes the confusion between the shuffle and the flap, stating it happens to the best of us.",
+     "tag": "normalise_mistakes"
+    },
+    {
+     "t": "9:45",
+     "moment": "closing",
+     "says": "The teacher encourages the learner, emphasizing that this is just the beginning and that learning takes time.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling that they are on a manageable, step-by-step journey where mistakes are a normal part of the process."
   },
   "learner_voice": {
    "struggles": [
@@ -146,5 +198,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-23T02:38:26Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 6,
+  "beliefs": 2,
+  "feelings": 2
+ }
 }
