@@ -82,11 +82,36 @@ def save_state(name, obj):
 
 # ----------------------------------------------------------------- HTTP
 class HttpError(Exception):
-    def __init__(self, code, body, url):
+    def __init__(self, code, body, url, full=None):
         short = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body or "")).strip()[:160]
         safe_url = urllib.parse.urlsplit(url)._replace(query="", fragment="").geturl()
         super().__init__(f"HTTP {code} {safe_url} :: {short}")
         self.code, self.body, self.url = code, body, url
+        self.full = body if full is None else full   # a longer copy of the answer, for the run record only (see quota_said)
+
+def quota_said(text):
+    """What a 429 says about itself, for the run record: the name and limit of each quota it names, and the wait it asks for.
+    Only names, digits and a duration leave this function: nothing else of the provider's answer is written anywhere."""
+    names, wait = [], ""
+    try:
+        for d in (json.loads(text).get("error") or {}).get("details") or []:
+            for v in d.get("violations") or []:
+                name = re.sub(r"[^\w.\-]", "", str(v.get("quotaId") or str(v.get("quotaMetric") or "").rsplit("/", 1)[-1]))[:80]
+                limit = re.sub(r"\D", "", str(v.get("quotaValue") or ""))[:12]
+                if name:
+                    names.append(name + (f" limit {limit}" if limit else ""))
+            wait = wait or str(d.get("retryDelay") or "")
+    except Exception:
+        pass   # an answer cut short is not JSON: read it as text
+    if not names:
+        names = re.findall(r'"quotaId":\s*"([\w.\-]{1,80})"', text, re.I)
+    if not names:
+        names = [f"{m.rsplit('/', 1)[-1][:80]} limit {n}" for m, n in re.findall(r"metric:\s*([\w./\-]+),\s*limit:\s*(\d{1,12})", text, re.I)]
+    if not wait:
+        m = re.search(r'"retryDelay":\s*"([\d.]+s?)', text, re.I) or re.search(r"retry in ([\d.]+\s*s)", text, re.I)
+        wait = m.group(1) if m else ""
+    wait = re.sub(r"[^\d.s]", "", wait)[:8]
+    return ", ".join(dict.fromkeys(names))[:200] + (f"{', ' if names else ''}retry in {wait}" if wait else "")
 
 def http(url, method="GET", data=None, headers=None, timeout=60, retries=3, json_body=None, ok=(200, 201, 202, 204, 206)):
     """Minimal HTTP client with retries on 429/5xx. Returns (status, body_text, headers)."""
@@ -116,7 +141,7 @@ def http(url, method="GET", data=None, headers=None, timeout=60, retries=3, json
                 txt = e.read().decode("utf-8", "replace")
             except Exception:
                 pass
-            last = HttpError(e.code, txt[:400], url)
+            last = HttpError(e.code, txt[:400], url, txt[:6000])
             if e.code in (429, 500, 502, 503, 504) and attempt < retries:
                 ra = e.headers.get("Retry-After") if e.headers else None
                 wait = float(ra) if (ra and ra.isdigit()) else ((5.0 * (2 ** attempt)) if wikimedia else 2.0 * (attempt + 1))
@@ -272,6 +297,7 @@ class LLM:
         self.strikes = {}          # model -> consecutive timeouts / dropped connections; MAX_STRIKES in a row rest the model
         self._busy, self._unusable = {}, {}   # model -> consecutive "overloaded" answers / consecutive unusable answers
         self.why = {}              # what went wrong this stage, by kind — written into the run record (no log reading needed)
+        self.spent = []            # (model, what the 429 said, was it a video question) for every question refused for quota this stage
         self.MAX_STRIKES = int(os.environ.get("LLM_MAX_STRIKES", "2"))
         self.timeout_fast = int(os.environ.get("LLM_TIMEOUT_FAST", "120"))
         self.timeout_strong = int(os.environ.get("LLM_TIMEOUT_STRONG", "420"))
@@ -533,6 +559,12 @@ class LLM:
                             delay = int(m.group(1)) if m else 0
                             qid = re.search(r'"quotaid":\s*"([\w.\-]+)', low)
                             per_minute = "perminute" in low or "per_minute" in low
+                            # For the run record: what this 429 said (the quota's own name and limit, the wait it asked for), read from
+                            # a longer copy of the answer. The rules below still read the first 400 characters, which end before those
+                            # details: so far every Gemini 429 has been taken for a spent day and the model retired for the stage, yet
+                            # on 21 and 22 November 2026 a model retired in one stage answered in the next. The rule changes when the
+                            # record shows what these refusals are.
+                            self.spent.append((model, quota_said(getattr(e, "full", None) or e.body or ""), bool(video_url)))
                             if "perday" in low or "per_day" in low or "insufficient_quota" in low or ("billing" in low and not delay and not per_minute):
                                 self.dead.add(model); self.failures += 1; self._why("day_quota_used_up")
                                 if prov == "openai":   # one account-wide balance; a Gemini free-tier day quota belongs to ONE model
@@ -593,6 +625,12 @@ class LLM:
         rep.inc("llm_requests", self.requests); rep.inc("llm_unanswered", self.unanswered)
         if self.why:
             rep.note("model trouble: " + ", ".join(f"{k} {v}" for k, v in sorted(self.why.items(), key=lambda kv: -kv[1])))
+        if self.spent:   # which model, which quota, what kind of question: the night of 21 November 2026 could not be read without the log
+            seen = {}
+            for key in self.spent:
+                seen[key] = seen.get(key, 0) + 1
+            rep.note("refused for quota: " + "; ".join(f"{m} ({q or 'no quota named'}{', on a video question' if v else ''}){f' x{n}' if n > 1 else ''}"
+                                                       for (m, q, v), n in list(seen.items())[:10]))
 
 # ----------------------------------------------------------------- run report
 class Report:

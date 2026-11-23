@@ -2,8 +2,10 @@
 import datetime as dt
 import json
 import os
+import re
 import tempfile
 import unittest
+from unittest.mock import patch
 from . import door
 
 DAY1, DAY2 = dt.date(2026, 11, 21), dt.date(2026, 11, 22)
@@ -204,6 +206,12 @@ class Door(unittest.TestCase):
                          [("2026-11-19", True, 61, 60, 1), ("2026-11-20", False, 10, 5, 0), ("2026-11-20", True, 122, 70, 0)])
         self.assertEqual(n[2]["errors"], ["research: one profile failed"])
         self.assertEqual(n[0]["trouble"], ["research: model trouble: overloaded 3"])
+        # the door is built before the night's last two stages: a run that has reached both video stages is tonight's run.
+        # On 22 November 2026 the machine page still showed the night of the 20th as the last one.
+        running = RUNS + [{"stage": s, "started": "2026-11-21T%s:00Z" % t, "finished": "2026-11-21T%s:00Z" % u, "counters": {"llm_requests": q}, "notes": [], "errors": []}
+                          for s, t, u, q in (("research", "17:00", "19:00", 64), ("teaching", "19:00", "19:10", 30), ("pedagogy", "19:10", "19:40", 70))]
+        self.assertEqual([(x["date"], x["whole"], x["minutes"], x["questions"]) for x in door.nights(running)][-1], ("2026-11-21", True, 160, 164))
+        self.assertEqual(door.nights(running[:-1])[-1]["whole"], False)   # research and one more stage tried by hand are not a night
 
     def test_the_machine_page_shows_the_last_whole_night_and_the_pace(self):
         door.run(self.root, DAY1)
@@ -228,10 +236,78 @@ class Door(unittest.TestCase):
         door.run(self.root, DAY2)
         s = read(self.root, "machine.json")["study"]
         self.assertEqual((s["topics"], s["topics_read"], s["first"], s["papers_read"]), (len(teaching.SCIENCE), 2, {"topics": len(teaching.FIRST_TOPICS), "read": 1}, 1))
-        # what is read next: the owner's unread topics, in their order; a topic that failed today waits its month
+        # what is read next: the owner's unread topics, in their order; a topic the model did not answer about yesterday waits two days
         self.assertEqual(s["next"], list(teaching.FIRST_TOPICS[2:5]))
         self.assertEqual((s["lessons_studied"], s["practices"], s["practices_in_dna"]), (51, 37, 23))
         self.assertEqual(door.study(self.root, DAY2, budget=0)["next"] if "next" in door.study(self.root, DAY2, budget=0) else [], [])
+
+    def test_the_reading_list_is_an_open_file_by_the_owners_strands_and_shows_only_checked_findings(self):
+        from . import teaching
+        door.run(self.root, DAY2)
+        self.assertFalse(os.path.exists(os.path.join(self.root, "public", "catalog", "research.json")))   # nothing read yet: no file
+        ease = teaching.STRANDS[0][2]
+        paper, wiki = "https://europepmc.org/article/MED/1", "https://en.wikipedia.org/wiki/Psychological_safety"
+        note = {"status": "ok", "written_at": "2026-11-21T20:00:00Z", "principle": "People learn when a mistake costs nothing.", "for_the_teacher": ["Say that mistakes are welcome."],
+                "when_it_does_not_apply": "", "findings": [{"finding": "Teams that feel safe learn more.", "quote": "psychological safety was associated with learning behaviour", "source": paper}],
+                "sources": [{"url": paper, "kind": "paper", "title": "Safety and learning", "authors": "E", "year": "1999", "journal": "ASQ", "cited_by": 9},
+                            {"url": wiki, "kind": "encyclopedia", "title": "Psychological safety", "authors": "Wikipedia contributors", "year": "", "journal": "Wikipedia", "cited_by": 0}]}
+        for key, rec in ((ease[0], note), (ease[1], {"status": "failed", "written_at": "2026-11-21T20:00:00Z"}),
+                         ("paper-med-1", dict(note, topic="A paper", tags=["chunking", "nonsense"])), ("paper-med-2", {"status": "thin", "written_at": "2026-11-21T20:00:00Z", "topic": "Thin"})):
+            path = os.path.join(self.root, "pedagogy", "science", key + ".json")
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(dict(rec, key=key), f)
+        with patch.dict("os.environ", {"SCIENCE_BUDGET": "3", "PAPER_BUDGET": "2"}):
+            door.run(self.root, DAY2)
+            r = read(self.root, "research.json")
+            door.run(self.root, DAY2 + dt.timedelta(days=1))   # nothing was read in between
+        self.assertEqual(r["contract"], "da_research_v1")
+        c = r["counts"]
+        self.assertEqual((c["topics"], c["read"], c["unanswered"], c["next"], c["owner_topics"], c["owner_read"], c["papers"], c["findings_checked"]), (len(teaching.SCIENCE), 1, 1, 3, 14, 1, 1, 2))
+        # the owner's three strands first, in his order, then the themes of the vocabulary; every topic stands in one place
+        self.assertEqual([(g["key"], g["owner"]) for g in r["groups"][:3]], [("ease", True), ("inspires", True), ("teach", True)])
+        keys = [t["key"] for g in r["groups"] for t in g["topics"]]
+        self.assertEqual((sorted(keys), {k for g in r["groups"] if g["owner"] for k in [t["key"] for t in g["topics"]]}), (sorted(i[0] for i in teaching.SCIENCE), set(teaching.FIRST_TOPICS)))
+        read_one, unanswered = r["groups"][0]["topics"][0], r["groups"][0]["topics"][1]
+        # a reading shows its principle, what it means for the teacher, and each finding with the quote that was checked; only a source that a finding quotes is listed
+        self.assertEqual((read_one["key"], read_one["state"], read_one["on"], read_one["principle"], [s["url"] for s in read_one["sources"]], read_one["findings"][0]["quote"]),
+                         (ease[0], "read", "2026-11-21", "People learn when a mistake costs nothing.", [paper], "psychological safety was associated with learning behaviour"))
+        # a topic the model did not answer about says so and shows nothing as found
+        self.assertEqual((unanswered["key"], unanswered["state"], "principle" in unanswered), (ease[1], "unanswered", False))
+        # what is read next is marked on the topics themselves
+        self.assertEqual((r["next"], sorted(t["key"] for g in r["groups"] for t in g["topics"] if t["state"] == "next")), (list(teaching.FIRST_TOPICS[1:3]) + [teaching.FIRST_TOPICS[4]], sorted(list(teaching.FIRST_TOPICS[1:3]) + [teaching.FIRST_TOPICS[4]])))
+        # the open search: only papers whose note stands; a tag outside the vocabulary is dropped
+        self.assertEqual([(p["key"], p["title"], p["tags"], p["url"], p["year"]) for p in r["papers"]], [("paper-med-1", "A paper", ["chunking"], paper, "1999")])
+        # like a dance file it carries no clock: an unchanged list is not written again
+        self.assertEqual(read(self.root, "research.json")["updated"], r["updated"])
+        self.assertIn("research.json", [f["file"] for f in read(self.root, "manifest.json")["files"]])
+
+    def test_the_mentor_in_a_few_thousand_words_says_only_what_the_study_wrote(self):
+        door.run(self.root, DAY2)
+        self.assertFalse(os.path.exists(os.path.join(self.root, "public", "catalog", "mentor_brief.json")))   # no teaching DNA yet: no brief
+        system = {"contract": "da_bdf_teaching_v1", "counts": {"teachers_studied": 53, "lessons_studied_for_method": 60, "comments_read": 3503},
+                  "dna": [{"theme": "See it", "tag": "mirror_view", "do": "Show the step from behind.", "evidence_kinds": 3, "teachers": 7}, {"theme": "Build it", "tag": "chunking", "do": "", "evidence_kinds": 2}],
+                  "adjustments": [{"tag": "counts_and_rhythm", "comments": 5, "learners_say": ["the count is confusing", "too fast", "a third"],
+                                   "teachers_offer": [{"difficulty": "", "adjustment": "Clap it first.", "teacher": "Ana", "dance": "Salsa", "url": "u"}, {"adjustment": ""}], "research": ["Loud music helps."]}],
+                  "mentor": {"voice": [["warm", 40], ["patient", 30]],
+                             "moments": [{"moment": "opening", "title": "How they open", "seen": 47, "teachers": 30,
+                                          "examples": [{"says": "Welcomes the learner.", "teacher": "Ana"}, {"says": "Promises one step.", "teacher": "Bo"}, {"says": "Third.", "teacher": "Cy"}, {"says": "Fourth.", "teacher": "Di"}]}],
+                             "creed": [{"about": "who_can_dance", "title": "Who can dance", "teachers": 17, "beliefs": [{"belief": "Anyone who can walk can dance.", "teacher": "Ana"}]}],
+                             "feelings": [{"feeling": "awkward", "seen": 9, "responses": [{"response": "Says she felt silly too.", "teacher": "Ana"}]}]},
+                  "learner_model": [{"remember": "what this learner finds hard", "seen_most": [["counts_and_rhythm", 5]]}]}
+        with open(os.path.join(self.root, "public", "catalog", "bdf_teaching_system.json"), "w", encoding="utf-8") as f:
+            json.dump(system, f)
+        door.run(self.root, DAY2)
+        b = read(self.root, "mentor_brief.json")
+        self.assertEqual((b["contract"], b["stands_on"], b["how_they_sound"], b["remember"]), ("da_mentor_brief_v1", {"teachers_studied": 53, "lessons_studied_for_method": 60, "comments_read": 3503}, ["warm", "patient"], ["what this learner finds hard"]))
+        # the default behaviour is the DNA as the study wrote it; a rule without words is not a rule
+        self.assertEqual(b["default"], [{"theme": "See it", "do": "Show the step from behind.", "kinds_of_evidence": 3}])
+        # a few of each, in the study's own order, and no names of teachers: an agent needs the practice, not the person
+        self.assertEqual(b["moments"], [{"moment": "opening", "title": "How they open", "seen": 47, "teachers_do": ["Welcomes the learner.", "Promises one step.", "Third."]}])
+        self.assertEqual(b["when_it_is_hard"], [{"about": "counts_and_rhythm", "learners_say": ["the count is confusing", "too fast"], "teachers_offer": ["Clap it first."], "research_adds": ["Loud music helps."]}])
+        self.assertEqual((b["when_a_feeling_shows"], b["what_teachers_believe"]), ([{"feeling": "awkward", "seen": 9, "teachers_answer": ["Says she felt silly too."]}], [{"about": "Who can dance", "teachers": 17, "in_their_words": ["Anyone who can walk can dance."]}]))
+        self.assertNotIn("Ana", json.dumps(b))
+        self.assertIn("mentor_brief.json", [f["file"] for f in read(self.root, "manifest.json")["files"]])
 
     def test_the_viral_list_is_an_open_file_in_order_of_date_and_claims_no_popularity(self):
         library(self.root)
@@ -285,6 +361,19 @@ class Door(unittest.TestCase):
         he = site.get("he") or {}
         self.assertEqual(sorted(set(k for k, _ in readiness.ITEMS) - set(he.get("items") or {})), [])        # the owner reads Hebrew: add the name with the item
         self.assertEqual(sorted(set(item[0] for item in teaching.SCIENCE) - set(he.get("topics") or {})), [])
+        # the groups of the reading list: the owner's three strands and the seven themes of the vocabulary
+        groups = [key for key, _, _ in teaching.STRANDS] + [re.sub(r"[^a-z]+", "-", name.lower()).strip("-") for name, _ in teaching.THEMES]
+        self.assertEqual(sorted(set(groups) - set(he.get("strands") or {})), [])
+        # the mentor's vocabulary, for the Hebrew reading of the mentor page: add the Hebrew with the word
+        missing = [tag for tag in teaching.PRACTICE if not all((he.get("practices") or {}).get(tag, {}).get(k) for k in ("name", "do", "meaning"))]
+        self.assertEqual(missing, [])
+        for block, keys in (("moments", teaching.MOMENTS), ("creed", teaching.ABOUT), ("voice", teaching.VOICE), ("feelings", teaching.FEELINGS), ("entry", teaching.ENTRY)):
+            self.assertEqual(sorted(set(keys) - set(he.get(block) or {})), [], block)
+        system = os.path.join(os.path.dirname(path), "bdf_teaching_system.json")
+        if os.path.exists(system):
+            with open(system, encoding="utf-8") as f:
+                remember = [x.get("remember") for x in json.load(f).get("learner_model") or []]
+            self.assertEqual(sorted(set(remember) - set(he.get("learner") or {})), [])
 
     def test_the_manifest_names_only_files_that_exist(self):
         door.run(self.root, DAY1)

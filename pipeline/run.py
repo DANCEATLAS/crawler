@@ -15,7 +15,7 @@
   python -m pipeline.run readiness    # active-ready: every profile against the starting line (ACTIVE_READY.md); offline
   python -m pipeline.run door         # the door: manifest, index, one file per dance, machine.json in public/catalog/ (offline; for the site and for any agent)
   python -m pipeline.run health       # self-tuning (pipeline_state/tuning.json) and lessons learned from QC (pipeline_state/lessons_learned.json)
-  python -m pipeline.run daily        # bootstrap → health → audit → discover → research → qc → hero_qc → build → pedagogy → episodes → translate → activation → teaching → readiness → door → sync → report
+  python -m pipeline.run daily        # bootstrap → health → audit → discover → research → qc → hero_qc → build → teaching → pedagogy → episodes → translate → activation → readiness → door → sync → report
   python -m pipeline.run selftest     # offline checks, no network
 """
 import sys, os, argparse, json, traceback
@@ -38,7 +38,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     only = [s.strip() for s in a.only.split(",") if s.strip()] or None
     results = {}
-    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "pedagogy", "episodes", "translate", "activation", "teaching", "readiness", "door", "sync", "report"] if a.stage == "daily" else [a.stage]
+    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "teaching", "pedagogy", "episodes", "translate", "activation", "readiness", "door", "sync", "report"] if a.stage == "daily" else [a.stage]
     daily = a.stage == "daily"
     def budget(name, value):
         """In the daily run the budgets follow pipeline_state/tuning.json (health stage): less when the models were failing, never more than set."""

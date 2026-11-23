@@ -39,7 +39,7 @@ RULES = [
     "A dance with teaching_withheld is sacred or restricted. Tell its story with care. Never teach it, and never rebuild its steps from other sources.",
     "Never invent steps, counts, origins, credits or rankings. What is missing is missing: readiness.missing names it.",
     "What a machine saw in a video is a candidate, not a verified fact (verification: model_candidate). A performance never supplies counts.",
-    "Teach from bdf_teaching_system.json: dna is the default behaviour, adjustments and mentor.feelings answer a difficulty or a feeling, learner_model is what to keep in mind about one person. It is evidence, not a verdict.",
+    "Teach from bdf_teaching_system.json: dna is the default behaviour, adjustments and mentor.feelings answer a difficulty or a feeling, learner_model is what to keep in mind about one person. It is evidence, not a verdict. mentor_brief.json holds the same in a few thousand words, sized to sit beside one dance in a conversation.",
     "Atlas (traditions) and Viral (challenges and dance culture) are separate collections.",
     "Videos, pictures and music are linked, never copied. A link is not a licence to reuse.",
     "The state active_ready means the machine has gathered everything a teaching service needs for that dance. Activation still needs human review, music rights and platform tests (ACTIVE_PROFILE_STANDARD.md).",
@@ -51,6 +51,8 @@ FILES = (("manifest.json", "da_manifest_v1", "where to start: every file, its co
          ("machine.json", "da_machine_v1", "how the machine is doing: the last nights, the pace, what holds pages back"),
          ("site.json", "da_site_v1", "the words of the website's newer screens"),
          ("viral.json", "da_viral_v1", "the viral dance challenges: who made each, when, the song and the sources; in order of date, not a ranking"),
+         ("research.json", "da_research_v1", "the mentor's reading list: every research topic and where it stands, what was found with its checked quotes, the papers of the open search"),
+         ("mentor_brief.json", "da_mentor_brief_v1", "the mentor in a few thousand words, sized for an agent's context: the default behaviour, the six moments, what to do when it is hard"),
          ("retired.json", "", "entries that were removed or merged, and where they went"),
          ("episodes.json", "dw_episodes_v1", "draft scripts per dance (a presentation asset, not proof of readiness)"),
          ("dances.app.json", "dw_app_v1", "the older single file the website loaded before the index; kept for compatibility"),
@@ -295,7 +297,9 @@ def nights(runs, gap_hours=6):
     for n in out:
         a, b = _time(n["started"]), _time(n["finished"])
         n["minutes"] = round((b - a).total_seconds() / 60) if a and b else None
-        n["whole"] = "research" in n["stages"] and "report" in n["stages"]     # a nightly run, not one stage tried by hand
+        # a nightly run, not one stage tried by hand. The door is built before the night's last two stages (sync, report):
+        # a run that has reached both video stages is tonight's run, or the page would always show the night before.
+        n["whole"] = "research" in n["stages"] and ("report" in n["stages"] or {"pedagogy", "teaching"} <= set(n["stages"]))
     return out
 
 
@@ -329,6 +333,104 @@ def study(root, today=None, budget=None):
                   "lessons_studied": c.get("lessons_studied_for_method"), "teachers_studied": c.get("teachers_studied"),
                   "findings_checked": c.get("science_findings_checked"),
                   "practices": c.get("practices_total"), "practices_in_dna": c.get("practices_with_two_or_more_kinds")})
+
+
+def mentor_brief(system):
+    """The mentor in a few thousand words, for an agent that is about to teach: the same lines as bdf_teaching_system.json,
+    the strongest first and a few of each, so that it fits beside one dance in a conversation. Nothing is written here that
+    the study did not write. None when the study has no teaching DNA yet."""
+    if not isinstance(system, dict) or not system.get("dna"):
+        return None
+    words = lambda rows, key, n: [str(r[key]).strip() for r in (rows or []) if isinstance(r, dict) and str(r.get(key) or "").strip()][:n]
+    mentor, c = system.get("mentor") or {}, system.get("counts") or {}
+    return _full({
+        "contract": "da_mentor_brief_v1",
+        "what_this_is": "How to teach anyone to dance, as far as the nightly study has come. Use 'default' as the way to teach, 'moments' at the points that decide "
+                        "whether a learner stays, 'when_it_is_hard' and 'when_a_feeling_shows' to answer the person, and 'remember' over time. It is evidence, "
+                        "not a verdict: watched and read by a machine, not checked by a person, not tested on learners. The whole study with its proof is in bdf_teaching_system.json.",
+        "stands_on": _full({k: c.get(k) for k in ("teachers_studied", "lessons_studied_for_method", "comments_read", "science_findings_checked", "practices_with_two_or_more_kinds", "practices_total")}),
+        "default": [_full({"theme": r.get("theme"), "do": r.get("do"), "kinds_of_evidence": r.get("evidence_kinds")}) for r in system["dna"] if isinstance(r, dict) and r.get("do")],
+        "moments": [_full({"moment": m.get("moment"), "title": m.get("title"), "seen": m.get("seen"), "teachers_do": words(m.get("examples"), "says", 3)})
+                    for m in mentor.get("moments") or [] if isinstance(m, dict)],
+        "when_it_is_hard": [_full({"about": a.get("tag"), "learners_say": [str(x) for x in (a.get("learners_say") or [])[:2]],
+                                   "teachers_offer": words(a.get("teachers_offer"), "adjustment", 3), "research_adds": [str(x) for x in (a.get("research") or [])[:2]]})
+                            for a in system.get("adjustments") or [] if isinstance(a, dict)],
+        "when_a_feeling_shows": [_full({"feeling": f.get("feeling"), "seen": f.get("seen"), "teachers_answer": words(f.get("responses"), "response", 2)})
+                                 for f in mentor.get("feelings") or [] if isinstance(f, dict)],
+        "what_teachers_believe": [_full({"about": b.get("title"), "teachers": b.get("teachers"), "in_their_words": words(b.get("beliefs"), "belief", 2)})
+                                  for b in mentor.get("creed") or [] if isinstance(b, dict)],
+        "how_they_sound": [v[0] for v in (mentor.get("voice") or [])[:5] if isinstance(v, (list, tuple)) and v],
+        "remember": [str(x["remember"]) for x in system.get("learner_model") or [] if isinstance(x, dict) and x.get("remember")]})
+
+
+PAPERS_SHOWN = 120   # the newest papers in research.json; all of them stay in pedagogy/science/ and in bdf_teaching_system.json
+
+
+def library(root, today=None, budget=None):
+    """The mentor's reading list as one open file, for the owner and for any agent: every research topic and where it stands
+    (read, read next, waiting, or tried without a usable result), first by the three strands of the owner's direction of
+    21 November 2026 and then by the themes of the teaching vocabulary; what each reading found, with the quotes that were
+    checked against the source; and the papers of the open search. No model, no network. None when no note exists yet."""
+    from . import teaching as T
+    notes = {}
+    for f in glob.glob(os.path.join(root, "pedagogy", "science", "*.json")):
+        r = _load(f, {})
+        if isinstance(r, dict) and r.get("key"):
+            notes[r["key"]] = r
+    if not notes:
+        return None
+    n = int(os.environ.get("SCIENCE_BUDGET", "3")) if budget is None else budget
+    nxt = [item[0] for item in T.pick_science(notes, n, today)]
+    STATE = {"ok": "read", "thin": "thin", "no_sources": "no_sources", "failed": "unanswered"}
+
+    def found(r):
+        """What a reading found. Only a note that stands on two or more checked quotes is used; nothing else is shown as a finding."""
+        srcs = {s.get("url"): s for s in r.get("sources") or [] if isinstance(s, dict)}
+        cited = [u for u in dict.fromkeys(f.get("source") for f in r.get("findings") or []) if u in srcs]
+        return _full({"principle": r.get("principle"), "for_the_teacher": r.get("for_the_teacher"), "when_it_does_not_apply": r.get("when_it_does_not_apply"),
+                      "findings": [_full({k: f.get(k) for k in ("finding", "quote", "source")}) for f in r.get("findings") or []],
+                      "sources": [_full({k: srcs[u].get(k) for k in ("url", "title", "authors", "year", "journal")}) for u in cited]})
+
+    def topic(item):
+        key, _, _, tags = item
+        r = notes.get(key) or {}
+        state = STATE.get(r.get("status"), "waiting")
+        if state != "read" and key in nxt:
+            state = "next"
+        out = {"key": key, "name": key.replace("_", " "), "state": state, "tags": [t for t in tags if t in T.PRACTICES],
+               "on": str(r.get("written_at") or "")[:10]}
+        return _full(dict(out, **found(r)) if state == "read" else out)
+
+    by_key = {item[0]: item for item in T.SCIENCE}
+    theme_of = {t: name for name, tags in T.THEMES for t in tags}
+    mine = {k for _, _, keys in T.STRANDS for k in keys}
+    groups = [{"key": key, "name": name, "owner": True, "topics": [topic(by_key[k]) for k in keys if k in by_key]} for key, name, keys in T.STRANDS]
+    for name, _ in T.THEMES:
+        rows = [topic(item) for item in T.SCIENCE if item[0] not in mine and theme_of.get((item[3] or [""])[0]) == name]
+        if rows:
+            groups.append({"key": re.sub(r"[^a-z]+", "-", name.lower()).strip("-"), "name": name, "owner": False, "topics": rows})
+    placed = {t["key"] for g in groups for t in g["topics"]}
+    rest = [topic(item) for item in T.SCIENCE if item[0] not in placed]
+    if rest:
+        groups.append({"key": "other", "name": "Other", "owner": False, "topics": rest})
+    papers = sorted((r for k, r in notes.items() if k.startswith("paper-") and r.get("status") == "ok"), key=lambda r: str(r.get("written_at") or ""), reverse=True)
+    shown = []
+    for r in papers[:PAPERS_SHOWN]:
+        src = (r.get("sources") or [{}])[0]
+        shown.append(_full(dict({"key": r["key"], "title": r.get("topic"), "on": str(r.get("written_at") or "")[:10], "tags": [t for t in r.get("tags") or [] if t in T.PRACTICES],
+                                  "authors": src.get("authors"), "year": src.get("year"), "journal": src.get("journal"), "url": src.get("url"), "cited_by": src.get("cited_by")}, **found(r))))
+    topics = [t for g in groups for t in g["topics"]]
+    states = Counter(t["state"] for t in topics)
+    search = _load(os.path.join(root, "pedagogy", "research_state.json"), {}) or {}
+    return {"contract": "da_research_v1",
+            "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
+            "counts": {"topics": len(topics), **{k: states.get(k, 0) for k in ("read", "next", "waiting", "thin", "no_sources", "unanswered")},
+                       "owner_topics": len(mine), "owner_read": sum(1 for t in topics if t["key"] in mine and t["state"] == "read"),
+                       "papers": len(papers), "papers_shown": len(shown),
+                       "findings_checked": sum(len(r.get("findings") or []) for r in notes.values() if r.get("status") == "ok"),
+                       "searches": len(T.PAPER_QUERIES), "searches_asked": min(len(T.PAPER_QUERIES), int(search.get("paper_first") or 0) + int(search.get("paper_search") or 0))},
+            "a_night": {"topics": n, "papers": int(os.environ.get("PAPER_BUDGET", "2"))},
+            "next": nxt, "groups": groups, "papers": shown}
 
 
 VIRAL_ORDER = "by when each challenge began, newest first. This is not a ranking: no popularity is known or claimed."
@@ -429,6 +531,12 @@ def run(root=".", today=None):
     chart = viral(root)
     if chart:
         write_dance(C("viral.json"), chart, today)        # like a dance file: no clock inside, rewritten only when it changed
+    shelf = library(root, today)
+    if shelf:
+        write_dance(C("research.json"), shelf, today)
+    brief = mentor_brief(_load(C("bdf_teaching_system.json"), {}) or {})
+    if brief:
+        write_dance(C("mentor_brief.json"), brief, today)
     files, total = [], 0
     for name, contract, holds in FILES:
         if name != "manifest.json" and not os.path.exists(C(name)):
@@ -450,5 +558,5 @@ def run(root=".", today=None):
                                                  "note": "Small enough to keep on a phone or to load into an agent that works without a connection."},
                                "read_more": {"vision": "https://github.com/DANCEATLAS/crawler/blob/main/PRODUCT_VISION.md", "state": "https://github.com/DANCEATLAS/crawler/blob/main/LEDGER.md",
                                              "starting_line": "https://github.com/DANCEATLAS/crawler/blob/main/ACTIVE_READY.md"}})
-    return {"counters": {"dances": len(index), "written": written, "removed": removed, "bytes": d_bytes, "viral": (chart or {}).get("count", 0),
+    return {"counters": {"dances": len(index), "written": written, "removed": removed, "bytes": d_bytes, "viral": (chart or {}).get("count", 0), "research_topics": ((shelf or {}).get("counts") or {}).get("topics", 0),
                          **{"state_" + k: v for k, v in states.items()}}}
