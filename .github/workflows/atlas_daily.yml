@@ -61,7 +61,12 @@ jobs:
           # the movie phase (MOVIE_PHASE.md): tutorial videos studied per day (Gemini watches the public YouTube URL, free tier),
           # and episode packs whose narration the model may polish per day (0 = assembled text only; polished text is verified)
           # raised 21 Nov 2026 (24 to 40 lessons, 30 to 50 performances): the hero check had caught up, the free day had room
-          # (about 240 questions a night of the 400 and more it has carried), and 326 lessons and 501 performances were waiting
+          # (about 240 questions a night of the 400 and more it has carried), and 326 lessons and 501 performances were waiting.
+          # 23 Nov 2026: they stay. The night of 21 Nov looked as if this study had used up the day's quota (the mentor's study
+          # stopped at its tenth lesson, without its looks and its reading). The log said otherwise: one model answered 429 on a
+          # question whose video the next model refused, and the mentor stage's stop rule read that as "nobody can be asked".
+          # The night of 22 Nov ran these same budgets whole (88 video answers here, 20 in the mentor's study, 6 topics and
+          # 4 papers read). The rule is repaired, the mentor's study now runs before this one and reads its research first.
           PEDAGOGY_BUDGET: "40"
           # performances observed per day: what a dance looks and sounds like in its own hero video (dances without a lesson on the web)
           PERFORMANCE_BUDGET: "50"
