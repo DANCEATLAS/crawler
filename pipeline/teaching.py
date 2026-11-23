@@ -38,6 +38,7 @@ DOC = "BDF_TEACHING_SYSTEM.md"
 LESSONS = "tutorial_results.json"
 METHOD_SECONDS = 600
 RETRY_DAYS, SCIENCE_REFRESH_DAYS = 30, 180
+PAPER_DEPTH_MAX = 120   # how far down a query's most-cited list the open search may look (20 more with every turn through the queries)
 BASICS = "basics-"   # slug prefix of the lessons that teach what every dance shares
 TALKS = "how-teachers-teach"   # the basics topic that holds talks, not lessons
 # A search for talks also returns ordinary step lessons: a talk is kept only when its title speaks of teaching or learning
@@ -692,7 +693,7 @@ def europe_pmc(query, n=4):
     if not query:
         return []
     u = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?" + urllib.parse.urlencode(
-        {"query": query + (PEOPLE if "ABSTRACT:dance" in query else "") + " AND HAS_ABSTRACT:y", "format": "json", "resultType": "core", "pageSize": str(max(12, min(60, 3 * n))), "sort": "CITED desc"})
+        {"query": query + (PEOPLE if "ABSTRACT:dance" in query else "") + " AND HAS_ABSTRACT:y", "format": "json", "resultType": "core", "pageSize": str(max(12, min(3 * PAPER_DEPTH_MAX, 3 * n))), "sort": "CITED desc"})
     out = []
     for r in ((get_json(u, timeout=60, retries=2) or {}).get("resultList") or {}).get("result") or []:
         ab = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", r.get("abstractText") or "")).strip()
@@ -777,14 +778,17 @@ def discover_papers(state, notes, n, search=None):
     """The open search: tonight's query, its most cited papers that have no note yet."""
     if n <= 0:
         return []
-    used = int(state.get("paper_first") or 0)
+    used, depth = int(state.get("paper_first") or 0), 20
     if used < len(FIRST_QUERIES):                    # the owner's searches of 21 November, once each, before the turn goes on
         query, state["paper_first"] = FIRST_QUERIES[used], used + 1
     else:
         i = int(state.get("paper_search") or 0)
         query, state["paper_search"] = PAPER_QUERIES[i % len(PAPER_QUERIES)], i + 1
+        # The research does not end: every turn through the queries looks 20 papers further down the list of the most cited,
+        # so a query never runs out of papers that have not been read (a night reads a few of them; the cap is years away).
+        depth = min(PAPER_DEPTH_MAX, 20 * (1 + i // len(PAPER_QUERIES)))
     seen = set(state.get("papers_seen") or [])
-    fresh = [p for p in (search or europe_pmc)(query, n=20) if paper_key(p) not in seen and paper_key(p) not in notes][:n]
+    fresh = [p for p in (search or europe_pmc)(query, n=depth) if paper_key(p) not in seen and paper_key(p) not in notes][:n]
     state["papers_seen"] = sorted(seen | {paper_key(p) for p in fresh})[-8000:]
     return fresh
 
