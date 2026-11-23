@@ -87,7 +87,7 @@ The reserve is longer than the budget on purpose: estimates can be wrong in both
 ## 6. The meter: how every credit gets used
 
 - After each batch: read "Credits used" under the answer and the rollover line in the balance window; write both into the record below.
-- Targets for the rollover credits spent (Japan time): Sat 21 Nov 8 · Sun 22 Nov 30 · Mon 23 Nov 52 · Tue 24 Nov 72 · Wed 25 Nov 85 · Thu 26 Nov 90.9. Friday 27 November is a spare day. Expiry is Saturday 28 November.
+- Targets for the rollover credits spent (Japan time), as replanned on 23 November: Sat 21 Nov 71.7 (done) · Mon 23 Nov about 81 · Tue 24 Nov about 90 · Wed 25 Nov 90.9. Thursday 26 and Friday 27 November are spare days. Expiry is Saturday 28 November.
 - More than 10 behind a target: the next two batches go in one working session, or a reserve item is moved up. A batch far over its estimate: the last reserve items fall away.
 - The last credits go to small finishing items until the rollover line reads 0. The 2.70 top-up credits are left alone.
 - A message that passes 20 credits pauses with a card: continue only when the work shown is on the batch.
@@ -97,10 +97,11 @@ The reserve is longer than the budget on purpose: estimates can be wrong in both
 | Day (Japan) | Batches | For the project's future | Expiring left after |
 |---|---|---|---:|
 | Sat 21 Nov (done) | 1, 3, 2, 4 · 5 The starting line · 6 The machine room in Hebrew · 7 The direction · 8 The Viral list, with three repairs · 9 Countries and families | no payment; a window that cannot break; the whole profile; mission 1 visible; the founder sees the machine and the study in Hebrew; the direction in his words; a truthful window with no backend at all | 19.2 |
-| Sun 22 Nov | A What an agent receives, on every dance page (with: no family chip where the family is not known) · B The mentor in Hebrew | the bridge to BDF made visible; the founder reads the teaching DNA | about 11 |
-| Mon 23 Nov | C The research library · 10 Speed and access (with: no flash of the old grouping, an unknown dance address says so) | he steers the research; ready for a beta | about 3 |
-| Tue 24 Nov | D Search that knows other names · E The window works without a connection | the material is easy to find; robust | 0 |
-| Wed 25 to Fri 27 Nov | spare days: finishing items with what is left and the day's free credits | the expiring line at zero | 0 |
+| Sun 22 Nov | none: no browser was connected that day, and its 5 free credits were not used | | 19.2 |
+| Mon 23 Nov | C The research library, in Hebrew, the owner's three strands first · B The mentor in Hebrew | he sees the research he asked for being read, and reads the teaching DNA in his own language | about 10 |
+| Tue 24 Nov | A What an agent receives, on every dance page (with: no family chip where the family is not known) · 10 Speed and access (with: no flash of the old grouping, an unknown dance address says so) | the bridge to BDF made visible; ready for a beta | about 1 |
+| Wed 25 Nov | D Search that knows other names, sized to what is left plus the day's free 5 | the material is easy to find | 0 |
+| Thu 26 and Fri 27 Nov | spare days: E (the window works without a connection) only as far as the free credits of the day carry it | the expiring line at zero; the 2.70 top-up credits untouched | 0 |
 
 **Found while checking batch 9, for the next batches.** (1) The dance page shows the chip "Folk" for a dance that has no family: 372 published pages say so untruly; batch A removes the chip where `family` is missing. (2) On a first visit, until the index arrives, the Atlas pages show the old grouping from the copy bundled with the site (Lovable's choice, so that no screen is blank): batch 10 shows a calm loading line instead. (3) An address of a dance that does not exist shows only "Back to Atlas": batch 10 says that the dance is not in the atlas. (4) Machine side: one card (`american-smooth`) carries a one-line description that belongs to a list, not to the dance.
 
@@ -596,4 +597,44 @@ Read-only. No number is typed into the code: every number comes from the index. 
 
 WHEN DONE
 Report from the preview: the Atlas header; the regions shown, in order, with the number of countries under each; the number on the "Place not yet known" chip; the number of dances in the sheet of France and of Japan; the number of tiles on /flags; every family on /tree with its number, and the number of the group without a family; the Home sentence with its three links; the text shown at /map; where /saved leads.
+```
+
+## Batch C — the message
+
+Send when `research.json` is live in `public/catalog/` (the stage `door` after the change of 23 November) and `pages.research` and `he.strands` are in `site.json` on main. The page is in Hebrew, like `/machine`: it is the owner's own view of the reading list. What it should show is counted from `research.json` at the time (on 23 November: 30 of 80 topics read, 6 of the owner's 14, 12 papers, 131 findings).
+
+```
+BATCH C — THE RESEARCH LIBRARY (new route /research, in Hebrew, for the owner). Read the Project instructions first. Build exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHAT IT IS
+One read-only page in Hebrew, right to left, in large type: the reading list of the mentor's study. The owner sees which research topics have been read, what each reading found, and what waits, with his own three strands first. It follows the page /machine in layout and type. Every Hebrew word comes from site.json through t(path, fallback); the fallbacks below are the same Hebrew. No backend, no Lovable Cloud, no AI calls, no analytics, no new npm dependency, no new font file. Change no existing page except the two links named at the end.
+
+DATA
+One request when /research opens: https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/research.json — contract "da_research_v1", about 130 KB today and growing with every reading, rewritten only when it changes. Load it the way the other files of the library are loaded: 10-second timeout, one retry, kept whole in the browser database da_library_v2 under "research.json"; a stored copy is shown at once and replaced in the background when its fingerprint differs. If it cannot be loaded and no copy is stored: the header and one calm line t("pages.research.unavailable","לא הצלחתי לטעון את רשימת הקריאה כרגע. נסה שוב בעוד רגע."). Add research.json to the files /health checks.
+Fields: updated (a date); counts {topics, read, owner_topics, owner_read, papers, findings_checked}; a_night {topics, papers}; groups[] {key, name, owner (true or false), topics[]}; a topic {key, name, state ("read", "next", "waiting", "thin", "no_sources" or "unanswered"), on? (a date), and only when state is "read": principle?, for_the_teacher?[], when_it_does_not_apply?, findings?[] {finding, quote, source (an address)}, sources?[] {url, title, authors?, year?, journal?}}; papers[] {key, title, on?, authors?, year?, journal?, url?, cited_by?, principle?, for_the_teacher?[], when_it_does_not_apply?, findings?[], sources?[]}. A field marked ? may be missing: then nothing is rendered for it, and no label either.
+Hebrew names: a topic is shown as t("he.topics.<key>", <name>), with its English name (the name field, first letter capitalised) beside it in small muted type; a group as t("he.strands.<key>", <name>).
+
+LAYOUT
+As on /machine: the page container has dir="rtl" and lang="he"; font family for this page only: system-ui, "Arial Hebrew", "Noto Sans Hebrew", sans-serif; body text at least 20px, section titles at least 28px, the big numbers at least 44px; one column; cards in the site's present colours (accent #CC785C). Everything the file gives in English (names, principles, findings, quotes, titles of sources and papers) sits in dir="ltr" blocks or spans, aligned left, so it reads correctly. Dates are shown as day.month.year.
+
+THE PAGE, top to bottom
+A. Eyebrow t("pages.research.eyebrow","המחקר של המנטור"). H1 t("pages.research.title","ספריית המחקר"). Lead t("pages.research.lead","כל לילה המכונה קוראת מחקרים על איך אנשים לומדים ואיך מלמדים אותם. כאן רואים מה כבר נקרא, מה נמצא, ומה מחכה בתור."). Muted: t("pages.research.updated","עודכן") + " <updated>".
+B. Four big numbers, each with its label: "<counts.read> " + t("pages.research.of","מתוך") + " <counts.topics>" — t("pages.research.counts.read","נושאים נקראו"); "<counts.owner_read> " + t("pages.research.of","מתוך") + " <counts.owner_topics>" — t("pages.research.counts.owner","מהנושאים שביקשת נקראו") (accent colour); counts.papers — t("pages.research.counts.papers","מאמרים מהחיפוש הפתוח"); counts.findings_checked — t("pages.research.counts.findings","ממצאים עם ציטוט שנבדק מול המקור"). Under them one muted line: t("pages.research.counts.tonight","בכל לילה נקראים") + " <a_night.topics> " + t("pages.research.counts.tonight_topics","נושאים") + " · <a_night.papers> " + t("pages.research.counts.tonight_papers","מאמרים").
+C. Section (id "yours") t("pages.research.yours.title","הנושאים שביקשת") with the lead t("pages.research.yours.lead","שלושת הכיוונים שנתת ב-21 בנובמבר. הם נקראים לפני כל השאר."). The groups whose owner is true, in the file's order, all open: the group's Hebrew name as a sub-title (its id is the group key), beside it "<number of its topics whose state is read> " + t("pages.research.of","מתוך") + " <number of its topics>"; then its topics in the file's order.
+D. Section (id "rest") t("pages.research.rest.title","שאר רשימת הקריאה") with the lead t("pages.research.rest.lead","לפי הנושאים של אוצר המילים של המנטור."). The groups whose owner is false, in the file's order, each a panel with the same sub-title line, closed by default (a real button with aria-expanded).
+E. A topic row, the same in C and D: the Hebrew name in large type, the English name small and ltr, and one state chip: "read" — t("pages.research.state.read","נקרא") + " <on>" (calm green); "next" — t("pages.research.state.next","ייקרא הלילה") (accent); "waiting" — t("pages.research.state.waiting","מחכה בתור") (muted); "thin" — t("pages.research.state.thin","נקרא, ולא נמצאו שני ציטוטים שאפשר לבדוק"); "no_sources" — t("pages.research.state.no_sources","לא נמצא מקור. ייחפש שוב"); "unanswered" — t("pages.research.state.unanswered","המודל לא ענה. יישאל שוב") (the last three in muted amber). A topic whose state is "read" is a button (aria-expanded) that opens what was found, in this order, each part only when present: one small muted Hebrew line t("pages.research.found.english","הטקסט באנגלית, כפי שהמכונה כתבה אותו מתוך המקור."); t("pages.research.found.principle","העיקרון") and principle; t("pages.research.found.teacher","מה זה אומר למורה") and the for_the_teacher lines as bullets; t("pages.research.found.findings","הממצאים, עם הציטוט שנבדק"): each finding, under it its quote in a muted block, and a link showing the host name of its source address (new tab, rel="noopener noreferrer"); t("pages.research.found.limits","מתי זה לא חל") and when_it_does_not_apply; t("pages.research.found.sources","המקורות"): sources as links (title; then authors, year, journal in muted type). A topic in any other state opens nothing.
+F. Section (id "papers") t("pages.research.papers.title","מאמרים מהחיפוש הפתוח") with the lead t("pages.research.papers.lead","כל לילה חיפוש אחד במאגר המאמרים. המצוטטים ביותר נקראים ראשונים."). The papers in the file's order, the first 10 visible and a button t("pages.research.papers.all","הצג הכול") for the rest. Each paper: its title (ltr; a link to url in a new tab), a muted ltr line "journal · year · <cited_by> " + t("pages.research.papers.cited","ציטוטים"), and it opens the same blocks as a read topic.
+G. One line, always visible: t("pages.research.honesty","נקרא על ידי מכונה, ועדיין לא נבדק על ידי אדם. ממצא מוצג רק כשהמילים שצוטטו נמצאו במקור. רוב המחקרים עוסקים בלמידת תנועה באופן כללי, לא בריקוד."). Then two links in one row: t("pages.research.links.mentor","המנטור: מה נכנס ל-DNA") to /mentor, t("pages.research.links.machine","חדר המכונות") to /machine.
+Page title "ספריית המחקר — Dancing Atlas".
+
+THE TWO LINKS ELSEWHERE
+1. On /machine, at the end of the block "המחקר של המנטור": a link t("pages.research.link","ספריית המחקר") to /research.
+2. On /mentor, at the top of the section "The research": one link t("pages.mentor.research.library","The whole reading list, strand by strand (in Hebrew)") to /research.
+No item in the top bar or the bottom bar.
+
+RULES
+Read-only. No number is typed into the code: every number comes from the file or is counted from it. Nothing is rendered for an empty value. Panels and buttons are real buttons, usable with the keyboard. Render closed panels lazily. Keep the present components of /machine and /mentor: add the links, change nothing else in them. Check the result on the built preview (https://preview--dancingatlas.lovable.app), not only on the dev server.
+
+WHEN DONE
+Open /research on the built preview and report: the four numbers of B and the line under them; the three groups of C with their "<read> מתוך <number>"; the number of panels in D; the text of the state chip of the first topic of C; the labels shown when the first read topic is opened; the number of papers visible before "הצג הכול"; the rows of /health; and confirm that the page reads right to left and that English text reads left to right.
 ```
