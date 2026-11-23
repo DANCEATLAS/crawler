@@ -459,3 +459,23 @@ Three rules follow, now in `LOVABLE_BATCHES.md` (rules 9 and 10, and the note on
 **The owner's reading in Hebrew.** `public/catalog/site.json` gains the Hebrew of the research page (`pages.research`), of the mentor page (`pages.mentor_he`) and of the vocabulary itself (`he.strands`, `he.practices`, `he.moments`, `he.creed`, `he.voice`, `he.feelings`, `he.entry`, `he.learner`), and the words of the section that hands a dance to an AI teacher (`pages.dance.agent`). A test fails when a practice, a theme or a moment has no Hebrew.
 
 28 tests of the teaching stage and the engine and 20 of the door pass; the selftest reports 0 failures.
+
+## 23 November 2026 (11:10 to 12:30 Japan time) — the record says what the refusals are; the rule is set by it
+
+**Published.** Pull request 27 (merge `5a8823c`) carried the entry above; all 11 files on main were compared with the tested copy and matched, and the selftest passed on an export of the branch.
+
+**The mentor's study, run once by hand with the new order** (`atlas_daily` run 52, stage `teaching`, 02:33 to 02:42 UTC, 34 questions, none unanswered). The reading came first: 5 topics read and 1 that gave no two quotes that could be checked; 4 papers, none of which gave two quotes that could be checked. Then 11 lessons and 1 found not to be a lesson, and 12 mentor looks. **11 of the owner's 14 topics are now read.** The study holds 79 lessons of 71 teachers, 356 mentor moments, 35 topics and 12 papers with 146 checked findings, and 29 of 37 practices with two or more kinds of evidence (14 with all three). Four models were refused during that run and the stage went on, as the repair intended.
+
+**What the refusals are** (the new note in `pipeline_state/runs.json`, first written by that run):
+
+- `gemini-3.5-flash-lite`: `GenerateContentInputTokensPerModelPerMinute-FreeTier`, limit 250000, retry in 11 s, on a video question. A limit by the minute.
+- `gemini-3.8-flash`, `gemini-3.6-flash`, `gemini-3.5-flash`: `GenerateRequestsPerDayPerProjectPerModel-FreeTier`, limit 20, retry in about 19,150 s (the reset at 08:00 UTC). A limit by the day: the night before had used their 20.
+
+So the free day is: 20 requests a day for each flash model (five are listed: about 100 strong answers a day, which the research stage uses up, as its five retirements on each night indicate), and 250,000 input tokens a minute for each flash-lite model, with no limit by the day met so far.
+
+**The rule, changed on that evidence** (`pipeline/common.py`). The 429 rule now reads the longer copy of the answer. A limit by the day retires the model for the run, as before. A limit by the minute is waited out for as long as the provider asks plus two seconds, once, and the same model is asked again; if it is refused again the model rests and the question moves to the next one. These waits draw on the same budget as the wait for resting models (`LLM_WAIT_BUDGET_SECONDS`, 1,800 seconds for a whole night); when it is used up there is no waiting, only the rest and the next model. `pipeline/teaching.py` counts a question lost during such a rest as the engine's trouble, like the other two kinds. Until now a flash-lite model that met its minute limit was retired for the rest of the stage and the weaker or scarcer models answered in its place.
+
+**The Lovable messages B and A** are in `LOVABLE_BATCHES.md` as they will be sent: the mentor page read in Hebrew (`/mentor?lang=he`; its 55 fixed words and its vocabulary from `site.json`, the evidence left in English), and what an AI teacher receives for a dance (one text to copy: the library's rules, `mentor_brief.json`, the dance file), with the repair of the family chip. `site.json` gains `pages.mentor.lang`, `he.adapt` and `he.kinds`; the test guards them.
+
+31 tests of the teaching stage and the engine and 20 of the door pass; the selftest reports 0 failures.
+
