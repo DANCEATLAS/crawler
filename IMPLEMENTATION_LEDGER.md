@@ -479,3 +479,19 @@ So the free day is: 20 requests a day for each flash model (five are listed: abo
 
 31 tests of the teaching stage and the engine and 20 of the door pass; the selftest reports 0 failures.
 
+## 23 November 2026 (12:30 to 13:30 Japan time) — the new rule on a live run; two more screens published; the research made endless
+
+**Published.** Pull request 28 (merge `63c6162`) carried the entry above. The door was then built once by hand (run 53, 17 seconds): `research.json` (142 KB) and `mentor_brief.json` (17 KB) are on main, and the machine page shows the last whole night.
+
+**The new 429 rule on a live run** (run 54, stage `teaching`, 02:56 to 03:02 UTC). 34 questions, none unanswered, **no failed call**; `model trouble: waited_seconds 131`; the note reads three times `gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 45s / 47s / 33s, on a video question)`. Each was waited out and the same model answered. The same stage an hour earlier under the old rule (run 52) had 12 failed calls and retired four models. Read in that run: 5 topics with checked findings and 1 without, 3 papers with checked findings and 1 without; 12 lessons, 12 mentor looks. **All 14 of the owner's topics have now been read** (12 with checked findings). The study holds 91 lessons of 82 teachers, 395 mentor moments, 40 topics and 15 papers with 171 checked findings.
+
+**The research does not end** (`pipeline/teaching.py`). The open search asked for a query's 20 most cited papers and read 4 of them a visit: after five turns through the 50 queries a query would have had nothing new. Every turn now looks 20 papers further down (`PAPER_DEPTH_MAX` 120, some four years of nights). Topics already had their refresh after 180 days.
+
+**Lovable, 23 November** (the record is in `LOVABLE_BATCHES.md`). Published and checked on the built preview and live: the research library in Hebrew (`/research`, batch C, 9.10 credits) and what an AI teacher receives on every dance page, with the family chip shown only where the index has a family (batch A, 5.40 credits). The text of the briefing was compared character by character with what `manifest.json`, `mentor_brief.json` and the dance file give (52,806 characters for Hustle). Batch B (the mentor page read in Hebrew) was begun and paused by Lovable's low-credit notice after 4.19 credits; it is not published. 2.91 of the 90.9 expiring credits were left at 12:55. A small batch 10 (an unknown dance address says so; no old grouping on a first visit) is written, with its words in `site.json`.
+
+**Why the expiring line fell with nothing sent.** Another project in the owner's Lovable workspace was charged about 1.3 "Run" credits a day by scheduled jobs. On the owner's instruction its ten jobs were paused (none deleted). Dance Atlas has no running cost.
+
+**Found and not repaired:** `profile.footage` is a keyword match that nobody checks (Hustle lists clips about the film "Kung Fu Hustle"); it is item 11 of the ledger's open list.
+
+31 tests of the teaching stage and the engine and 20 of the door pass; the selftest reports 0 failures.
+
