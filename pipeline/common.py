@@ -553,30 +553,34 @@ class LLM:
                         low = (e.body or "").lower()
                         short = re.sub(r"\s+", " ", e.body or "")[:200]
                         if e.code == 429:
-                            # Free-tier quotas: a per-DAY quota is gone for the run (retire the model, the next one has its own quota);
-                            # a per-MINUTE limit is transient (wait for the advertised retryDelay once, then retry the same model).
-                            m = re.search(r'"retrydelay":\s*"(\d+)', low)
+                            # A quota refused the question. Which kind is read from the longer copy of the answer: Gemini's message
+                            # runs past 400 characters before it names the quota and the wait, so until 23 November 2026 this rule
+                            # never saw either and took every 429 for a spent day. The run record of that day showed two kinds:
+                            #   a limit by the DAY ("GenerateRequestsPerDayPerProjectPerModel-FreeTier", 20 requests for each flash
+                            #   model, retry in five hours): gone for the run, the model is retired and the next has its own quota;
+                            #   a limit by the MINUTE ("GenerateContentInputTokensPerModelPerMinute-FreeTier", 250,000 tokens for
+                            #   flash-lite, retry in 11 seconds): wait as long as it asks, once, and ask the same model again.
+                            low = (getattr(e, "full", None) or e.body or "").lower()
+                            m = re.search(r'"retrydelay":\s*"(\d+)', low) or re.search(r"retry in (\d+)", low)
                             delay = int(m.group(1)) if m else 0
-                            qid = re.search(r'"quotaid":\s*"([\w.\-]+)', low)
+                            said = quota_said(getattr(e, "full", None) or e.body or "")
                             per_minute = "perminute" in low or "per_minute" in low
-                            # For the run record: what this 429 said (the quota's own name and limit, the wait it asked for), read from
-                            # a longer copy of the answer. The rules below still read the first 400 characters, which end before those
-                            # details: so far every Gemini 429 has been taken for a spent day and the model retired for the stage, yet
-                            # on 21 and 22 November 2026 a model retired in one stage answered in the next. The rule changes when the
-                            # record shows what these refusals are.
-                            self.spent.append((model, quota_said(getattr(e, "full", None) or e.body or ""), bool(video_url)))
+                            self.spent.append((model, said, bool(video_url)))   # for the run record: which model, which quota, what kind of question
                             if "perday" in low or "per_day" in low or "insufficient_quota" in low or ("billing" in low and not delay and not per_minute):
                                 self.dead.add(model); self.failures += 1; self._why("day_quota_used_up")
                                 if prov == "openai":   # one account-wide balance; a Gemini free-tier day quota belongs to ONE model
                                     self.allowance.stopped.add(prov)
-                                warn(f"llm {prov}/{model}: quota exhausted, retired for this run ({qid.group(1) if qid else 'no quota id'}): {short[:120]}")
+                                warn(f"llm {prov}/{model}: quota exhausted, retired for this run ({said or 'no quota named'}): {short[:120]}")
                                 break
-                            if attempt == 0:
-                                wait = min(max(delay, 20), 60)
-                                warn(f"llm {prov}/{model}: rate limited, waiting {wait}s and retrying once")
+                            wait = min(delay + 2, 60) if delay else 20
+                            if attempt == 0 and LLM.WAITED + wait <= float(os.environ.get("LLM_WAIT_BUDGET_SECONDS", "1800")):
+                                # the same budget as the wait for resting models: all the waiting of a night stays under half an hour
+                                LLM.WAITED += wait
+                                self._why("waited_seconds", int(wait))
+                                warn(f"llm {prov}/{model}: limited by the minute ({said or 'no quota named'}), waiting {wait}s and asking once more")
                                 time.sleep(wait)
                                 continue
-                            # still limited after the advertised wait: a short rest, the question moves to the next model
+                            # still limited after the wait, or the night's waiting is used up: a short rest, the question moves to the next model
                             self._rest[model] = time.time() + min(max(delay, 30), 120)
                             self.failures += 1; self._why("rate_limited")
                         elif e.code in (500, 502, 503, 504):

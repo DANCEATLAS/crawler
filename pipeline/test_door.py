@@ -367,7 +367,8 @@ class Door(unittest.TestCase):
         # the mentor's vocabulary, for the Hebrew reading of the mentor page: add the Hebrew with the word
         missing = [tag for tag in teaching.PRACTICE if not all((he.get("practices") or {}).get(tag, {}).get(k) for k in ("name", "do", "meaning"))]
         self.assertEqual(missing, [])
-        for block, keys in (("moments", teaching.MOMENTS), ("creed", teaching.ABOUT), ("voice", teaching.VOICE), ("feelings", teaching.FEELINGS), ("entry", teaching.ENTRY)):
+        for block, keys in (("moments", teaching.MOMENTS), ("creed", teaching.ABOUT), ("voice", teaching.VOICE), ("feelings", teaching.FEELINGS), ("entry", teaching.ENTRY),
+                            ("adapt", teaching.ADAPT_KINDS), ("kinds", ("struggles", "clicked", "requests"))):
             self.assertEqual(sorted(set(keys) - set(he.get(block) or {})), [], block)
         system = os.path.join(os.path.dirname(path), "bdf_teaching_system.json")
         if os.path.exists(system):
