@@ -3,31 +3,31 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 35,
+  "read": 40,
   "next": 6,
-  "waiting": 35,
-  "thin": 1,
+  "waiting": 29,
+  "thin": 2,
   "no_sources": 0,
   "unanswered": 3,
   "owner_topics": 14,
-  "owner_read": 11,
-  "papers": 12,
-  "papers_shown": 12,
-  "findings_checked": 146,
+  "owner_read": 12,
+  "papers": 15,
+  "papers_shown": 15,
+  "findings_checked": 171,
   "searches": 50,
-  "searches_asked": 10
+  "searches_asked": 11
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "peer_tutoring_of_movement",
-  "how_teachers_learn_to_teach",
-  "infants_move_to_rhythm",
-  "speed_and_accuracy",
-  "cognitive_load",
-  "words_and_pictures"
+  "mirrors_in_dance",
+  "online_dance_learning",
+  "dance_pedagogy",
+  "beginners",
+  "scaffolding",
+  "zone_of_proximal_development"
  ],
  "groups": [
   {
@@ -560,11 +560,12 @@
     {
      "key": "peer_tutoring_of_movement",
      "name": "peer tutoring of movement",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "teach_back",
       "error_correction"
-     ]
+     ],
+     "on": "2026-11-23"
     },
     {
      "key": "peer_mentoring",
@@ -633,9 +634,54 @@
     {
      "key": "how_teachers_learn_to_teach",
      "name": "how teachers learn to teach",
-     "state": "next",
+     "state": "read",
      "tags": [
       "method_made_visible"
+     ],
+     "on": "2026-11-23",
+     "principle": "Training dance teachers and equipping them with specific study-based instruction manuals and co-designed online classes improves feasibility, delivery, and their teaching self-efficacy.",
+     "for_the_teacher": [
+      "Participate in specialized training programs and review structured instruction manuals to boost your instructional self-efficacy."
+     ],
+     "findings": [
+      {
+       "finding": "Online dance classes can be successfully co-produced using evidence synthesis, expert advice, and stakeholder recommendations.",
+       "quote": "co-design of online classes, based on a research evidence synthesis, expert advice, and stakeholder recommendations",
+       "source": "https://europepmc.org/article/MED/36833138"
+      },
+      {
+       "finding": "Dance teachers reported enhanced self-efficacy for teaching after attending study-specific training days.",
+       "quote": "Teachers reported improved self-efficacy for teaching dance to children with motor impairment after attending the training day.",
+       "source": "https://europepmc.org/article/MED/34649192"
+      },
+      {
+       "finding": "Professional dance teachers experience high physical and mental workloads during their units.",
+       "quote": "The majority of dance teachers estimated their level of physical and mental workload to be almost as high as that of their students",
+       "source": "https://europepmc.org/article/MED/25743607"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/36833138",
+       "title": "Dancing for Parkinson's Disease Online: Clinical Trial Process Evaluation",
+       "authors": "Morris ME, McConvey V, Wittwer JE, Slade SC, Blackberry I, Hackney ME, Haines S, Brown L, Collin E.",
+       "year": "2023",
+       "journal": "Healthcare (Basel, Switzerland)"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/34649192",
+       "title": "Feasibility of a Dance PaRticipation intervention for Extremely prEterm children with Motor Impairment at prEschool age (Dance PREEMIE)",
+       "authors": "Cameron KL, Allison K, McGinley JL, Fini NA, Cheong JLY, Spittle AJ.",
+       "year": "2021",
+       "journal": "Early human development"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25743607",
+       "title": "Physical and mental workloads in professional dance teachers",
+       "authors": "Wanke EM, Schmidt M, Leslie-Spinks J, Fischer A, Groneberg DA.",
+       "year": "2015",
+       "journal": "Medical problems of performing artists"
+      }
      ]
     }
    ]
@@ -757,16 +803,47 @@
     {
      "key": "words_and_pictures",
      "name": "words and pictures",
-     "state": "next",
+     "state": "read",
      "tags": [
       "on_screen_counts",
       "split_screen"
+     ],
+     "on": "2026-11-23",
+     "principle": "Information is processed and remembered better when it uses both verbal and visual channels, combining words and images.",
+     "for_the_teacher": [
+      "Pair spoken instructions and step names with visual demonstrations or mental images."
+     ],
+     "when_it_does_not_apply": "Dual coding theory does not take into account the possibility of cognition being mediated by something other than words and images, and is only valid for tests on which people are asked to focus on identifying how concepts are related.",
+     "findings": [
+      {
+       "finding": "Memory for verbal information is improved when a relevant visual is presented alongside it.",
+       "quote": "memory for some verbal information is enhanced if a relevant visual is also presented",
+       "source": "https://en.wikipedia.org/wiki/Dual-coding_theory"
+      },
+      {
+       "finding": "Visual information can be enhanced when paired with relevant verbal information.",
+       "quote": "visual information can often be enhanced when paired with relevant verbal information",
+       "source": "https://en.wikipedia.org/wiki/Dual-coding_theory"
+      },
+      {
+       "finding": "Spoken words and sentences lead to improved memory when they are paired with a real or imagined image.",
+       "quote": "participants had improved memory for spoken words and sentences when paired with an image, imagined or real",
+       "source": "https://en.wikipedia.org/wiki/Dual-coding_theory"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Dual-coding_theory",
+       "title": "Dual-coding theory",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "mirrors_in_dance",
      "name": "mirrors in dance",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "mirror_view",
       "self_check"
@@ -775,7 +852,7 @@
     {
      "key": "online_dance_learning",
      "name": "online dance learning",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "split_screen",
       "mirror_view",
@@ -1021,19 +1098,122 @@
     {
      "key": "speed_and_accuracy",
      "name": "speed and accuracy",
-     "state": "next",
+     "state": "read",
      "tags": [
       "tempo_ramp"
+     ],
+     "on": "2026-11-23",
+     "principle": "Learners adjust movement speed and accuracy to find a safe and effective zone, and this learning process can be primed by prior physical activity or mental practice.",
+     "for_the_teacher": [
+      "Invite learners to try a short bout of aerobic movement or a warm-up before tackling a new motor skill to prime acquisition."
+     ],
+     "findings": [
+      {
+       "finding": "Performers adjust their aiming behavior between trials to find a safe yet fast execution zone.",
+       "quote": "how performers adjust their trial-to-trial aiming behavior to find a safe, but fast, zone for movement execution.",
+       "source": "https://europepmc.org/article/MED/20822209"
+      },
+      {
+       "finding": "Mental practice improves motor performance and transfers partially to other workspaces.",
+       "quote": "mental training facilitates motor learning and allows its partial transfer to nearby workspaces.",
+       "source": "https://europepmc.org/article/MED/16338093"
+      },
+      {
+       "finding": "A single bout of moderate aerobic exercise immediately before learning improves motor skill acquisition and accuracy.",
+       "quote": "moderate intensity running led to an immediate improvement in motor acquisition for both a single session and on multiple sessions across subsequent days",
+       "source": "https://europepmc.org/article/MED/26506413"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/20822209",
+       "title": "Goal-directed aiming: two components but multiple processes",
+       "authors": "Elliott D, Hansen S, Grierson LE, Lyons J, Bennett SJ, Hayes SJ.",
+       "year": "2010",
+       "journal": "Psychological bulletin"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/16338093",
+       "title": "Improvement and generalization of arm motor performance through motor imagery practice",
+       "authors": "Gentili R, Papaxanthis C, Pozzo T.",
+       "year": "2006",
+       "journal": "Neuroscience"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/26506413",
+       "title": "A Single Bout of Moderate Aerobic Exercise Improves Motor Skill Acquisition",
+       "authors": "Statton MA, Encarnacion M, Celnik P, Bastian AJ.",
+       "year": "2015",
+       "journal": "PloS one"
+      }
      ]
     },
     {
      "key": "cognitive_load",
      "name": "cognitive load",
-     "state": "next",
+     "state": "read",
      "tags": [
       "chunking",
       "on_screen_counts",
       "split_screen"
+     ],
+     "on": "2026-11-23",
+     "principle": "Reducing extraneous cognitive load and keeping working memory demands low during instruction helps learners acquire motor skills and form long-term memory.",
+     "for_the_teacher": [
+      "Keep instructions clear and uncluttered to avoid overloading the learner's working memory.",
+      "Constrain the environment early in practice to minimize errors and reduce the need for explicit hypothesis testing."
+     ],
+     "when_it_does_not_apply": "The experience of cognitive load is not the same in everyone; the elderly, students, and children experience different and often higher amounts of cognitive load.",
+     "findings": [
+      {
+       "finding": "Limiting performance errors early in learning prevents hypothesis testing and reduces working memory dependence.",
+       "quote": "It was predicted that in the absence of explicit instruction, reducing error would prevent hypothesis testing strategies and the concomitant accrual of declarative (explicit) knowledge, thereby reducing dependence on working memory resources.",
+       "source": "https://europepmc.org/article/MED/16087262"
+      },
+      {
+       "finding": "Action observation is less demanding in terms of cognitive load compared to motor imagery.",
+       "quote": "The mirror neuron system appears to function more efficiently through AO training than MI, and AO is less demanding in terms of cognitive load than MI.",
+       "source": "https://europepmc.org/article/MED/31906593"
+      },
+      {
+       "finding": "Heavy cognitive load in complex virtual environments is associated with decreased long-term motor memory formation.",
+       "quote": "Moreover, increased cognitive load was also related to decreased long-term motor memory formation.",
+       "source": "https://europepmc.org/article/MED/36199101"
+      },
+      {
+       "finding": "Complex instructional formats impose unnecessary cognitive load which can limit learning.",
+       "quote": "They proposed that differences in performance were due to higher levels of the cognitive load imposed by the format of instruction.",
+       "source": "https://en.wikipedia.org/wiki/Cognitive_load"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/16087262",
+       "title": "The relationship between initial errorless learning conditions and subsequent performance",
+       "authors": "Poolton JM, Masters RS, Maxwell JP.",
+       "year": "2005",
+       "journal": "Human movement science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/31906593",
+       "title": "The Role of Movement Representation Techniques in the Motor Learning Process: A Neurophysiological Hypothesis and a Narrative Review",
+       "authors": "Cuenca-Martínez F, Suso-Martí L, León-Hernández JV, La Touche R.",
+       "year": "2020",
+       "journal": "Brain sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/36199101",
+       "title": "Increased cognitive load in immersive virtual reality during visuomotor adaptation is associated with decreased long-term retention and context transfer",
+       "authors": "Juliano JM, Schweighofer N, Liew SL.",
+       "year": "2022",
+       "journal": "Journal of neuroengineering and rehabilitation"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Cognitive_load",
+       "title": "Cognitive load",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
@@ -1340,16 +1520,66 @@
     {
      "key": "infants_move_to_rhythm",
      "name": "infants move to rhythm",
-     "state": "next",
+     "state": "read",
      "tags": [
       "feel_and_groove",
       "counts_and_rhythm"
+     ],
+     "on": "2026-11-23",
+     "principle": "Infants exhibit an innate predisposition for rhythmic movement and motor coordination in response to music, which is strongly linked to positive affect and physical motion.",
+     "for_the_teacher": [
+      "Incorporate full-body bouncing or vestibular motion early in the lesson to help learners physically feel and interpret the musical beat."
+     ],
+     "findings": [
+      {
+       "finding": "Infants engage in significantly more rhythmic movement when exposed to music and rhythmically regular sounds compared to speech.",
+       "quote": "infants engage in significantly more rhythmic movement to music and other rhythmically regular sounds than to speech",
+       "source": "https://europepmc.org/article/MED/20231438"
+      },
+      {
+       "finding": "The degree of rhythmic coordination with music is positively related to how much positive affect infants display.",
+       "quote": "the degree of rhythmic coordination with music is positively related to displays of positive affect",
+       "source": "https://europepmc.org/article/MED/20231438"
+      },
+      {
+       "finding": "Moving the body in time with a rhythm can bias and shape how auditory meters are perceived and interpreted.",
+       "quote": "moving the body on a certain beat--adults, by actively bouncing themselves in synchrony with the experimenter, and babies, by being bounced passively in the experimenter's arms--can bias their auditory metrical representation",
+       "source": "https://europepmc.org/article/MED/18234407"
+      },
+      {
+       "finding": "Synchronous bouncing with another person acts as a direct social cue that encourages helpfulness and prosocial behavior.",
+       "quote": "Infants were significantly more likely to display helpfulness towards an adult experimenter following synchronous bouncing compared with asynchronous bouncing to music.",
+       "source": "https://europepmc.org/article/MED/25385778"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/20231438",
+       "title": "Rhythmic engagement with music in infancy",
+       "authors": "Zentner M, Eerola T.",
+       "year": "2010",
+       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/18234407",
+       "title": "Vestibular influence on auditory metrical interpretation",
+       "authors": "Phillips-Silver J, Trainor LJ.",
+       "year": "2008",
+       "journal": "Brain and cognition"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25385778",
+       "title": "Fourteen-month-old infants use interpersonal synchrony as a cue to direct helpfulness",
+       "authors": "Cirelli LK, Wan SJ, Trainor LJ.",
+       "year": "2014",
+       "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences"
+      }
      ]
     },
     {
      "key": "dance_pedagogy",
      "name": "dance pedagogy",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "culture_and_meaning",
       "play_and_variation"
@@ -1817,7 +2047,7 @@
     {
      "key": "beginners",
      "name": "beginners",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "quick_win",
       "chunking"
@@ -2255,7 +2485,7 @@
     {
      "key": "scaffolding",
      "name": "scaffolding",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "regression",
       "progression",
@@ -2265,7 +2495,7 @@
     {
      "key": "zone_of_proximal_development",
      "name": "zone of proximal development",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "regression",
       "progression"
@@ -2455,6 +2685,135 @@
   }
  ],
  "papers": [
+  {
+   "key": "paper-med-9893002",
+   "title": "Dance/Movement therapy for children and adolescents with cancer",
+   "on": "2026-11-23",
+   "tags": [
+    "feel_and_groove",
+    "autonomy"
+   ],
+   "authors": "Cohen SO, Walco GA.",
+   "year": "1999",
+   "journal": "Cancer practice",
+   "url": "https://europepmc.org/article/MED/9893002",
+   "cited_by": 14,
+   "principle": "Dance and movement interventions integrate cognitive, emotional, and social processes to support coping and holistic care in pediatric populations.",
+   "for_the_teacher": [
+    "Incorporate nonverbal communication cues to support emotional expression and holistic wellbeing during movement exercises."
+   ],
+   "findings": [
+    {
+     "finding": "Dance and movement therapy serves as an innovative approach addressing comprehensive health and psychosocial issues.",
+     "quote": "Dance/movement therapy is introduced as a holistic approach to children's health issues, incorporating an array of medical, psychological, social, and spiritual issues.",
+     "source": "https://europepmc.org/article/MED/9893002"
+    },
+    {
+     "finding": "The modality utilizes nonverbal communication within assessment and treatment strategies.",
+     "quote": "Dance/movement therapy, with its unique emphasis on nonverbal communication in assessment and treatment, is presented as an innovative therapeutic approach to address the comprehensive needs of children and adolescents with cancer.",
+     "source": "https://europepmc.org/article/MED/9893002"
+    },
+    {
+     "finding": "Interventions are connected to developmental processes and psychological adjustment models.",
+     "quote": "Dance/movement therapy assessment and intervention strategies are discussed in the context of cognitive, emotional, and social developmental processes, as well as models of stress and psychological adjustment in pediatric cancer.",
+     "source": "https://europepmc.org/article/MED/9893002"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/9893002",
+     "title": "Dance/Movement therapy for children and adolescents with cancer",
+     "authors": "Cohen SO, Walco GA.",
+     "year": "1999",
+     "journal": "Cancer practice"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-35069306",
+   "title": "Effectiveness of Dance-Based Interventions on Depression for Persons With MCI and Dementia: A Systematic Review and Meta-Analysis",
+   "on": "2026-11-23",
+   "tags": [
+    "fun_and_energy",
+    "reason_to_return"
+   ],
+   "authors": "Wang Y, Liu M, Tan Y, Dong Z, Wu J, Cui H, Shen D, Chi I.",
+   "year": "2021",
+   "journal": "Frontiers in psychology",
+   "url": "https://europepmc.org/article/MED/35069306",
+   "cited_by": 20,
+   "principle": "Dance-based interventions effectively alleviate depression in persons with mild cognitive impairment and dementia, with greater effectiveness observed in dementia compared to MCI.",
+   "for_the_teacher": [
+    "Design lessons that run for one hour, scheduled twice a week for optimal mood benefits.",
+    "Provide regular, ongoing dance sessions to help prevent the diminishing of positive emotional effects over time."
+   ],
+   "when_it_does_not_apply": "One included study showed no significant benefit on anxiety rating scores.",
+   "findings": [
+    {
+     "finding": "Dance-based interventions significantly decrease depression compared to control groups.",
+     "quote": "There were significant differences in decreasing depression in favor of dance-based interventions compared with controls [SMD = -0.42, 95% CI (-0.60, -0.23), p < 0.00001].",
+     "source": "https://europepmc.org/article/MED/35069306"
+    },
+    {
+     "finding": "Effects diminish during follow-up data post-intervention.",
+     "quote": "Compared with the post-intervention data, the follow-up data indicated diminishing effects (Cohen's d = 0.1355).",
+     "source": "https://europepmc.org/article/MED/35069306"
+    },
+    {
+     "finding": "Dance-based interventions show varying effectiveness depending on the condition and frequency.",
+     "quote": "Dance-based interventions were more effective in reducing depression for persons with dementia than with those having MCI, and were more effective with the delivery frequency of 1 h twice a week than 35 min 2-3 times a week.",
+     "source": "https://europepmc.org/article/MED/35069306"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/35069306",
+     "title": "Effectiveness of Dance-Based Interventions on Depression for Persons With MCI and Dementia: A Systematic Review and Meta-Analysis",
+     "authors": "Wang Y, Liu M, Tan Y, Dong Z, Wu J, Cui H, Shen D, Chi I.",
+     "year": "2021",
+     "journal": "Frontiers in psychology"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-24677383",
+   "title": "Patient perspectives on the Hula Empowering Lifestyle Adaptation Study: benefits of dancing hula for cardiac rehabilitation",
+   "on": "2026-11-23",
+   "tags": [
+    "culture_and_meaning",
+    "reason_to_return"
+   ],
+   "authors": "Maskarinec GG, Look M, Tolentino K, Trask-Batti M, Seto T, de Silva M, Kaholokula JK.",
+   "year": "2015",
+   "journal": "Health promotion practice",
+   "url": "https://europepmc.org/article/MED/24677383",
+   "cited_by": 22,
+   "principle": "Dancing hula as a cardiac rehabilitation exercise offers sociocultural and spiritual benefits that enhance the therapy's value and encourage lifestyle adaptation.",
+   "for_the_teacher": [
+    "Incorporate the cultural background and meaning of the dances into lessons to enhance the learner's connection and appreciation."
+   ],
+   "findings": [
+    {
+     "finding": "Participants appreciated how hula engaged the body, mind, and spirit together while fostering connections to Hawaiian culture.",
+     "quote": "Participants recognized that hula's coordination of body, mind, and spirit as a group activity deepened their appreciation of and connections to Hawaiian culture.",
+     "source": "https://europepmc.org/article/MED/24677383"
+    },
+    {
+     "finding": "Learning song words acted as practical memory cues that promoted ownership of the therapy and reminded participants of lifestyle moderation.",
+     "quote": "Learning the words of well-known Hawaiian songs provided additional long-term cues that encouraged \"ownership\" of the therapy and acted as practical reminders of the importance of exercise and lifestyle moderation",
+     "source": "https://europepmc.org/article/MED/24677383"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/24677383",
+     "title": "Patient perspectives on the Hula Empowering Lifestyle Adaptation Study: benefits of dancing hula for cardiac rehabilitation",
+     "authors": "Maskarinec GG, Look M, Tolentino K, Trask-Batti M, Seto T, de Silva M, Kaholokula JK.",
+     "year": "2015",
+     "journal": "Health promotion practice"
+    }
+   ]
+  },
   {
    "key": "paper-med-36443730",
    "title": "Key tips to providing a psychologically safe learning environment in the clinical setting",
@@ -2981,6 +3340,6 @@
    ]
   }
  ],
- "fingerprint": "b96697236e850586",
+ "fingerprint": "cdd06912d3008fae",
  "updated": "2026-11-23"
 }

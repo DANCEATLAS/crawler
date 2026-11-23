@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-23T02:49:56Z",
+ "generated_at": "2026-11-23T03:32:29Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -19,7 +19,7 @@
    "file": "manifest.json",
    "contract": "da_manifest_v1",
    "holds": "where to start: every file, its contract and the standing rules",
-   "bytes": 6243
+   "bytes": 6837
   },
   {
    "file": "index.json",
@@ -31,7 +31,7 @@
    "file": "bdf_teaching_system.json",
    "contract": "da_bdf_teaching_v1",
    "holds": "how to teach anyone to dance: the teaching DNA, how to adjust, the mentor, what to remember about a learner, with the evidence",
-   "bytes": 421250
+   "bytes": 460603
   },
   {
    "file": "active_ready.json",
@@ -43,13 +43,13 @@
    "file": "machine.json",
    "contract": "da_machine_v1",
    "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
-   "bytes": 14092
+   "bytes": 14067
   },
   {
    "file": "site.json",
    "contract": "da_site_v1",
    "holds": "the words of the website's newer screens",
-   "bytes": 42904
+   "bytes": 43216
   },
   {
    "file": "viral.json",
@@ -61,13 +61,13 @@
    "file": "research.json",
    "contract": "da_research_v1",
    "holds": "the mentor's reading list: every research topic and where it stands, what was found with its checked quotes, the papers of the open search",
-   "bytes": 141964
+   "bytes": 161957
   },
   {
    "file": "mentor_brief.json",
    "contract": "da_mentor_brief_v1",
    "holds": "the mentor in a few thousand words, sized for an agent's context: the default behaviour, the six moments, what to do when it is hard",
-   "bytes": 17095
+   "bytes": 17356
   },
   {
    "file": "retired.json",
@@ -133,7 +133,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 26395281,
+  "bytes_behind_this_door": 26455769,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },
