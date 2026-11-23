@@ -95,6 +95,51 @@ class PatientClientTests(unittest.TestCase):
             llm.record(rep)
         self.assertEqual(rep.notes, ["model trouble: overloaded 1"])
 
+    def test_the_run_record_says_which_quota_refused_which_model_and_on_what_kind_of_question(self):
+        # the night of 21 November 2026 said only "day_quota_used_up 1": which model, which quota and what kind of question were in the log alone
+        llm = self.llm()
+        day = common.HttpError(429, '{"error": {"message": "You exceeded your current quota.", "details": [{"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"}]}}', "https://example.org")
+        a, b, c, d, e = self.running(LISTED, [day, ANSWER])
+        with a, b, c, d, e, patch.object(common, "warn"):
+            self.assertEqual(llm.json("system", "user", video_url="https://www.youtube.com/watch?v=x"), {"ok": True})
+        rep = common.Report("fixture")
+        with patch.object(common, "log"):
+            llm.record(rep)
+        self.assertEqual(rep.notes, ["model trouble: day_quota_used_up 1", "refused for quota: gemini-3.5-flash-lite (GenerateRequestsPerDayPerProjectPerModel-FreeTier, on a video question)"])
+
+    def test_the_record_reads_the_quota_from_the_whole_answer_while_the_rules_still_read_its_first_400_characters(self):
+        # What Gemini's free tier sends: a long message, then the quota's name, its limit and the wait, all past the 400th character.
+        whole = json.dumps({"error": {"code": 429, "status": "RESOURCE_EXHAUSTED",
+                 "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 250000, model: gemini-3.5-flash-lite\nPlease retry in 39.6s.",
+                 "details": [{"@type": "type.googleapis.com/google.rpc.QuotaFailure", "violations": [{"quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count", "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier", "quotaDimensions": {"location": "global", "model": "gemini-3.5-flash-lite"}, "quotaValue": "250000"}]},
+                             {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "39s"}]}}, indent=2)
+        self.assertNotIn("quotaId", whole[:400])
+        self.assertEqual(common.quota_said(whole), "GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 39s")
+        self.assertEqual(common.quota_said(whole[:400]), "")                       # what the rules have seen until now: no name, no wait
+        self.assertEqual(common.quota_said(whole[:700]), "generate_content_free_tier_input_token_count limit 250000, retry in 39.6s")   # cut short: read as text
+        self.assertEqual(common.quota_said('{"error": {"details": [{"violations": [{"quotaId": "<script>x</script> y"}]}]}}'), "scriptxscripty")
+        llm = self.llm()
+        refused = common.HttpError(429, whole[:400], "https://example.org", whole)
+        a, b, c, d, e = self.running(LISTED, [refused, ANSWER, refused, ANSWER])
+        with a, b, c, d, e, patch.object(common, "warn"):
+            self.assertEqual(llm.json("system", "user", video_url="https://www.youtube.com/watch?v=x"), {"ok": True})
+        self.assertEqual((llm.dead, llm.why), ({"gemini-3.5-flash-lite"}, {"day_quota_used_up": 1}))   # the rule itself is as it was
+        rep = common.Report("fixture")
+        with patch.object(common, "log"):
+            llm.record(rep)
+        self.assertEqual(rep.notes[1], "refused for quota: gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 39s, on a video question)")
+
+    def test_the_helper_that_fetches_keeps_a_longer_copy_of_a_refused_answer_for_the_record(self):
+        import io, urllib.error
+        body = ("x" * 500 + '"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"').encode()
+        refused = urllib.error.HTTPError("https://example.org?key=private-key", 429, "Too Many Requests", {}, io.BytesIO(body))
+        with patch.object(common.urllib.request, "urlopen", side_effect=refused):
+            with self.assertRaises(common.HttpError) as caught:
+                common.http("https://example.org?key=private-key", retries=0)
+        e = caught.exception
+        self.assertEqual((len(e.body), "quotaId" in e.body, common.quota_said(e.full)), (400, False, "GenerateRequestsPerDayPerProjectPerModel-FreeTier"))
+        self.assertNotIn("private-key", str(e))
+
 
 LESSONS = {"salsa": {"lessons": [{"youtube_id": "A1", "channel": "Ana Dance", "title": "Salsa basics", "pos": 30, "neg": 1},
                                  {"youtube_id": "B1", "channel": "Bo", "title": "Salsa in ten minutes", "pos": 3, "neg": 0}]},
@@ -194,8 +239,14 @@ class TeachingResearchTests(Project):
         self.assertEqual((got[2], "Star Fans" in [t["teacher"] for t in teaching.build_teachers(fans, out, {"S1": {"status": "not_a_lesson"}})]), (0, False))
         for title, kept in (("Why Counting Rhythms Doesn't Teach Rhythm", True), ("How to teach rhythm to someone with no rhythm", True), ("What makes a great dance teacher", True),
                             ("Teaching dance to shy beginners", True), ("Viral Kid Dancer and Her Teacher Show Off Their Moves", False), ("Dance Teacher Mode On", False),
-                            ("TAP DANCE BASICS - 5 Steps EVERY Beginner should Master", False)):
-            self.assertEqual(bool(teaching.TALK_TITLE.search(title)), kept, title)
+                            ("TAP DANCE BASICS - 5 Steps EVERY Beginner should Master", False),
+                            # the night of 21 November 2026 kept two step lessons as talks: "improve" and "secrets" are not enough
+                            ("Dancing With Your Feet (Improve Your Footwork!) | STEEZY.CO", False), ("Pirouette Tutorial: Ballet Beginner Secrets", False),
+                            ("How To Choreograph a Dance Routine | Dance Tips | STEEZY.CO", False), ("How To Find the Beat and Dance on Rhythm (Follow Along!)", False),
+                            ("How To Improve Dance Execution More Effectively | Back To Basics", True), ("learning how to dance as an adult | dance progress vlog + advice", True),
+                            ("How to Quickly Improve Kpop Dance Skills | Top 5 Tips for Beginners/Self-taught", True), ("How I teach adults who think they cannot dance", True),
+                            ("Tips for dance teachers: the first class", True), ("Why adults struggle to learn to dance", True)):
+            self.assertEqual(teaching.is_talk(title), kept, title)
         # a lesson read before beliefs were kept apart from step technique is read once more
         self.assertTrue(teaching._due(dict(done["T1"], schema=2), today))
 
@@ -330,9 +381,9 @@ class TeachingResearchTests(Project):
         with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", return_value=["the back view finally made it click"]), \
                 patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(teaching, "ytdlp_search", return_value=[]), patch.object(common, "log"):
             rec = teaching.run(budget=2, science=1)
-        # two lessons studied, then the mentor look at both, then the research note
+        # the research note first (the owner's order of 21 November), then two lessons studied, then the mentor look at both
         self.assertEqual((rec["counters"].get("method_ok"), rec["counters"].get("mentor_look_ok"), rec["counters"].get("science_ok"), model.asked),
-                         (2, 2, 1, ["method", "method", "look", "look", "science"]))
+                         (2, 2, 1, ["science", "method", "method", "look", "look"]))
         self.assertEqual([jload("pedagogy/methods/A1.json")[k] for k in ("comments_read", "schema", "kind")], [1, teaching.SCHEMA, "lesson"])
         self.assertEqual(jload("public/catalog/bdf_teaching_system.json")["contract"], "da_bdf_teaching_v1")
         with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
@@ -343,8 +394,8 @@ class TeachingResearchTests(Project):
                 patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
             rec = teaching.run(budget=5, science=2)
         self.assertEqual(jload("pedagogy/methods/A1.json")["status"], "ok")
-        # three unreadable videos in a row: the stage stops asking (no research note is attempted either) and keeps what it has
-        self.assertEqual((rec["counters"].get("method_failed"), broken.asked), (3, ["method"] * 3))
+        # two topics without an answer are marked for another try; three unreadable videos in a row stop the videos; what was studied is kept
+        self.assertEqual((rec["counters"].get("science_unanswered"), rec["counters"].get("method_failed"), broken.asked), (2, 3, ["science"] * 2 + ["method"] * 3))
         self.assertEqual(jload("pedagogy/bdf_system.json")["counts"]["lessons_studied_for_method"], 2)
 
     def test_basics_lessons_come_from_a_free_search_and_stay_only_when_learners_praise_them(self):
@@ -481,11 +532,67 @@ class TeachingResearchTests(Project):
         with patch.object(teaching, "LLM", return_value=spent), patch.object(teaching, "fetch_comments", return_value=[]), patch.object(teaching, "ytdlp_search", return_value=[]), \
                 patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
             rec = teaching.run(budget=5, science=2)
-        # one question shows that no model can be asked: nothing is written against the lesson, no look and no note is tried
+        # one question shows that no model can be asked: nothing is written against the topic or a lesson, and nothing else is asked
         self.assertEqual((spent.asked, rec["counters"].get("method_failed"), rec["counters"].get("stopped_early"), os.path.exists("pedagogy/methods/A1.json")), (["asked"], None, 1, False))
-        self.assertEqual(rec["errors"], [])
+        self.assertEqual((os.listdir("pedagogy/science"), rec["errors"]), ([], []))
         # the mentor's own words are described, never kept: a sentence in the first person is dropped
         self.assertEqual((teaching._described("The teacher laughs at her own slip."), teaching._described("I will mirror this for you."), teaching._described("Let's try it once more.")), (True, False, False))
+
+    def test_when_a_models_day_quota_ends_the_research_is_read_and_no_lesson_is_blamed(self):
+        """The night of 21 November 2026: one model's day quota ended during the tenth lesson, the next models gave nothing usable for
+        that video, and the stage read it as "nobody can be asked": no mentor look, and not one research topic read."""
+        jsave("tutorial_results.json", LESSONS)
+
+        class NoVideo(Model):   # every video question meets a spent day quota and comes back without an answer
+            why = {}
+
+            def json(self, system, user, **kw):
+                if kw.get("video_url"):
+                    self.asked.append("video")
+                    self.why = {"day_quota_used_up": self.why.get("day_quota_used_up", 0) + 1}
+                    return None
+                return super().json(system, user, **kw)
+
+        model = NoVideo()
+        with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", return_value=[]), patch.object(teaching, "ytdlp_search", return_value=[]), \
+                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
+            rec = teaching.run(budget=5, science=2)
+        # the research is read first; then three videos in a row without a reading stop the videos, and nothing is written against a lesson
+        c = rec["counters"]
+        self.assertEqual((model.asked, c.get("science_ok"), c.get("method_unanswered"), c.get("method_failed"), c.get("stopped_early")), (["science", "science", "video", "video", "video"], 2, 3, None, 1))
+        self.assertEqual((os.listdir("pedagogy/methods") if os.path.isdir("pedagogy/methods") else [], jload("pedagogy/bdf_system.json")["counts"]["science_notes"]), ([], 2))
+
+    def test_one_question_lost_to_a_spent_quota_does_not_end_the_night(self):
+        """The night of 22 November 2026 did the same work whole: when one model's quota ends, the next models answer the next question."""
+        jsave("tutorial_results.json", LESSONS)
+
+        class OneLost(Model):
+            why, lost = {}, False
+
+            def json(self, system, user, **kw):
+                if kw.get("video_url") and not self.lost:
+                    self.lost = True
+                    self.asked.append("lost")
+                    self.why = {"day_quota_used_up": 1}
+                    return None
+                return super().json(system, user, **kw)
+
+        model = OneLost()
+        with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", return_value=[]), patch.object(teaching, "ytdlp_search", return_value=[]), \
+                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
+            rec = teaching.run(budget=3, looks=2, science=1)
+        c = rec["counters"]
+        self.assertEqual((model.asked, c.get("method_unanswered"), c.get("method_ok"), c.get("mentor_look_ok"), c.get("stopped_early")), (["science", "lost", "method", "method", "look", "look"], 1, 2, 2, None))
+        self.assertEqual(len(os.listdir("pedagogy/methods")), 2)   # the lesson that met the spent quota has no record: it is studied another night
+
+    def test_a_topic_the_model_did_not_answer_about_is_asked_again_after_two_days_not_a_month(self):
+        today = dt.date(2026, 11, 23)
+        read = {item[0]: {"status": "ok", "written_at": "2026-11-22T19:00:00Z"} for item in teaching.SCIENCE}
+        key = teaching.SCIENCE[0][0]
+        waits = dict(read, **{key: {"status": "failed", "written_at": "2026-11-22T19:00:00Z"}})
+        again = dict(read, **{key: {"status": "failed", "written_at": "2026-11-21T19:00:00Z"}})
+        thin = dict(read, **{key: {"status": "thin", "written_at": "2026-11-21T19:00:00Z"}})
+        self.assertEqual(([i[0] for i in teaching.pick_science(waits, 3, today)], [i[0] for i in teaching.pick_science(again, 3, today)], [i[0] for i in teaching.pick_science(thin, 3, today)]), ([], [key], []))
 
     def test_with_the_engine_off_nothing_is_asked_and_the_tables_are_still_rebuilt(self):
         jsave("tutorial_results.json", LESSONS)

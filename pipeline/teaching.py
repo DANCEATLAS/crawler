@@ -40,11 +40,20 @@ METHOD_SECONDS = 600
 RETRY_DAYS, SCIENCE_REFRESH_DAYS = 30, 180
 BASICS = "basics-"   # slug prefix of the lessons that teach what every dance shares
 TALKS = "how-teachers-teach"   # the basics topic that holds talks, not lessons
-# A search for talks also returns ordinary step lessons: a talk is kept only when its title speaks of teaching or learning.
-# The word "teacher" alone is not enough: fan videos about a star who is "a dance teacher" carry it too.
+# A search for talks also returns ordinary step lessons: a talk is kept only when its title speaks of teaching or learning
+# and does not announce a lesson. The word "teacher" alone is not enough: fan videos about a star who is "a dance teacher"
+# carry it too. Nor are "improve", "secrets" or "tips": the night of 21 November 2026 kept "Improve Your Footwork!" and
+# "Pirouette Tutorial: Ballet Beginner Secrets" as talks.
 TALK_TITLE = re.compile(r"how (?:i|to|we|do you) teach|teaching (?:danc|beginner|adult|kid|child|tip|method|philosoph|people|someone|student)"
                         r"|(?:tips|advice|lessons?) for (?:dance )?teachers|what makes a (?:great|good) (?:dance )?teacher"
-                        r"|\blearning\b|how to learn|mistake|\btips\b|advice|\bwhy\b|philosoph|pedagog|mindset|confiden|motivat|practi[cs]|improv|struggl|secret", re.I)
+                        r"|\blearning (?:to|how|danc)|how to (?:\w+ )?(?:learn|improve|get better|practi[cs]e)\b|mistake|advice|\bwhy\b"
+                        r"|philosoph|pedagog|mindset|confiden|motivat|struggl", re.I)
+NOT_A_TALK = re.compile(r"tutorial|follow[- ]along|step[- ]by[- ]step|\broutine|choreograph|footwork|pirouette|\bsteps?\b|warm[- ]?up|work[- ]?out"
+                        r"|\b(?:class|lesson|part|day) \d|beginner (?:class|lesson)|how to do\b", re.I)
+
+def is_talk(title):
+    t = str(title or "")
+    return bool(TALK_TITLE.search(t)) and not NOT_A_TALK.search(t)
 
 # One vocabulary for all three kinds of evidence (teachers, learners, research): the join is on these keys.
 # key: (what it is, what a teacher does about it)
@@ -299,6 +308,10 @@ FIRST_TOPICS = ("psychological_safety", "learning_by_teaching", "awe_and_transce
                 "mindful_movement", "peer_mentoring", "meaning_and_staying", "embodied_learning", "life_skills_that_transfer", "ritual_and_belonging",
                 "peer_tutoring_of_movement", "how_teachers_learn_to_teach")
 FIRST_FOUNDATIONS = ("arriving", "teaching-others")
+# The same topics by the three strands of his words (PRODUCT_VISION.md, point 8), for the reading list shown to him.
+STRANDS = [("ease", "Ease and openness", ("psychological_safety", "learning_climate", "mindful_movement")),
+           ("inspires", "An experience that inspires", ("awe_and_transcendence", "spirituality_and_dance", "ritual_and_belonging", "meaning_and_staying", "embodied_learning")),
+           ("teach", "People who learn to teach", ("learning_by_teaching", "peer_teaching", "peer_tutoring_of_movement", "peer_mentoring", "life_skills_that_transfer", "how_teachers_learn_to_teach"))]
 # A second, wider search for a topic whose own search finds fewer than two papers. The searches of the owner's topics were
 # asked of the paper database on 21 November: two found nothing at all and four found fewer than five papers; those were
 # rewritten (hits now: 3 to 1,856), and the narrower ones keep this net. A topic left without sources waits for its next turn.
@@ -447,7 +460,7 @@ def discover_foundations(store, state, searches, per_search=4, today=None):
         if not new:
             continue
         have = topics.setdefault(slug, {"lessons": []})["lessons"]
-        facts = [c for c in video_facts(new) if slug != TALKS or TALK_TITLE.search(str(c.get("title") or ""))]
+        facts = [c for c in video_facts(new) if slug != TALKS or is_talk(c.get("title"))]
         for c in facts[:per_search]:
             pos, neg = praise(fetch_comments(c["youtube_id"], n=100))
             if pos >= 2 and pos > neg and len(have) < 40:
@@ -517,7 +530,7 @@ def tonight(teachers, methods, n, per=3, basics_share=3, talk_share=1, today=Non
     """Tonight's lessons: first a teacher explaining how they teach, when one is waiting (the mentor's own words), then one waiting
     lesson on arriving at ease or on teaching someone else (the owner's direction of 21 November), then the basics, then the dances."""
     ids = lambda picked: {l["youtube_id"] for _, l in picked}
-    talk = pick_methods(teachers, methods, min(n, talk_share), per, today=today, want=lambda l: l["slug"] == BASICS + TALKS and bool(TALK_TITLE.search(l["title"])))
+    talk = pick_methods(teachers, methods, min(n, talk_share), per, today=today, want=lambda l: l["slug"] == BASICS + TALKS and is_talk(l["title"]))
     room = max(0, min(n, basics_share) - len(talk))
     lead = talk + pick_methods(teachers, methods, min(room, 1), per, today=today, want=lambda l: l["slug"] in {BASICS + x for x in FIRST_FOUNDATIONS}, skip=ids(talk))
     basics = lead + pick_methods(teachers, methods, max(0, min(n, basics_share) - len(lead)), per, today=today, want=lambda l: l["slug"].startswith(BASICS), skip=ids(lead))
@@ -751,8 +764,9 @@ def pick_science(notes, n, today=None):
         rec = notes.get(item[0])
         if not rec:
             due.append(((0, first.get(item[0], len(first)), pos), item))
-        elif _days_since(rec.get("written_at"), today) >= {"ok": SCIENCE_REFRESH_DAYS, "no_sources": 7}.get(rec.get("status"), RETRY_DAYS):
-            due.append(((1, 0, pos), item))        # no source found cost no question: searched again after a week, not a month
+        elif _days_since(rec.get("written_at"), today) >= {"ok": SCIENCE_REFRESH_DAYS, "no_sources": 7, "failed": 2}.get(rec.get("status"), RETRY_DAYS):
+            due.append(((1, 0, pos), item))        # no source found cost no question: searched again after a week, not a month;
+                                                   # no answer from the model is not the topic's fault: asked again after two days
     due.sort(key=lambda x: x[0])
     return [item for _, item in due[:max(0, n)]]
 
@@ -1084,54 +1098,20 @@ def run(budget=8, science=None, only=None, looks=None):
     cat = (jload(os.path.join("public", "catalog", "dances.app.json"), {}) or {}).get("styles") or {}
     deadline = time.time() + 60 * env("TEACHING_MAX_MINUTES", "40")
     live = bool(llm.enabled and llm.gemini_key)
-    gone = lambda: sum((getattr(llm, "why", None) or {}).get(k, 0) for k in ("no_model_available", "day_quota_used_up"))   # the engine's trouble, not a video's
+    why = lambda *kinds: sum((getattr(llm, "why", None) or {}).get(k, 0) for k in kinds)
+    nobody = lambda: why("no_model_available")                      # no model could be asked at all
+    gone = lambda: why("no_model_available", "day_quota_used_up")   # a model was refused its quota during the question: the engine's trouble, not the lesson's
     if live and not only:
         try:
             rep.inc("basics_lessons_found", discover_foundations(store, state, env("FOUNDATION_SEARCHES", "3")))
             jsave(FOUNDATION_LESSONS, store); jsave(STATE, state)
         except Exception as e:
             rep.error(f"foundation search: {e}")
-    lessons = all_lessons(jload(LESSONS, {}) or {}, store)
-    teachers = build_teachers(lessons, studied, methods)
-    per, n = env("METHOD_PER_TEACHER", "3"), (budget if live else 0)
-    targets, n_basics, n_talks = tonight(teachers, methods, n, per, env("BASICS_SHARE", "3"), env("TALK_SHARE", "1"))
-    if only:
-        targets = [(t, l) for t, l in targets if l["slug"] in only or l["youtube_id"] in only]
-    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}, {n_basics} on the basics, {n_talks} of them a teacher's talk); engine {'on' if live else 'off: tables only'}")
-    misses = 0
-    for t, l in targets:
-        if time.time() > deadline or misses >= 3:   # three unreadable videos in a row: the model or the day's quota is gone
-            rep.inc("stopped_early"); break
-        try:
-            name = basics_name(l["slug"]) if l["slug"].startswith(BASICS) else ((cat.get(l["slug"]) or {}).get("name") or l["slug"].replace("-", " "))
-            before = gone()
-            rec = study(t, l, name, llm, fetch_comments(l["youtube_id"]))
-            if rec["status"] == "failed" and gone() > before:   # no model could be asked: the lesson is not to blame, and asking on is pointless
-                rep.inc("stopped_early"); misses = 3; break
-            rep.inc("method_" + save_method(rec))
-            misses = misses + 1 if rec["status"] == "failed" else 0
-            log(f"TEACHING {t['teacher']} / {l['slug']} {l['youtube_id']}: {rec['status']}" + (f" practices={len(rec['method']['practices'])} adaptations={len(rec['method']['adaptations'])}" if rec["status"] == "ok" else ""))
-        except Exception as e:
-            rep.error(f"teaching {l.get('youtube_id')}: {e}")
-    if live and misses < 3:   # the mentor look, best-ranked teachers first
-        methods = _records(METHODS_DIR)
-        due = pick_looks(teachers, methods, env("MENTOR_LOOK_BUDGET", "12") if looks is None else looks)
-        for m in [m for m in due if not only or m.get("slug") in only or m["youtube_id"] in only]:
-            if time.time() > deadline or misses >= 3:
-                rep.inc("stopped_early"); break
-            try:
-                before = gone()
-                st = look(m, llm)
-                if st == "failed" and gone() > before:
-                    rep.inc("stopped_early"); misses = 3; break
-                jsave(os.path.join(METHODS_DIR, m["youtube_id"] + ".json"), m)
-                rep.inc("mentor_look_" + st)
-                misses = misses + 1 if st == "failed" else 0
-                log(f"MENTOR LOOK {m.get('teacher')} / {m.get('slug')} {m['youtube_id']}: {st}" + (f" moments={m['mentor_look']['moments']} beliefs={m['mentor_look']['beliefs']} feelings={m['mentor_look']['feelings']}" if st == "ok" else ""))
-            except Exception as e:
-                rep.error(f"mentor look {m.get('youtube_id')}: {e}")
-    todo = []
-    if live and misses < 3:
+    # The reading of research comes first. These are text questions that any free model answers, and they are what the owner
+    # asked for first (21 November 2026). That night they came last and were never asked: on the tenth lesson one model answered
+    # 429 and the next refused the video, the stage read that as "nobody can be asked", and it stopped before reading one topic.
+    todo, unread, dead = [], 0, False
+    if live:
         todo = [(item, None, None) for item in pick_science(notes, env("SCIENCE_BUDGET", "3") if science is None else science)]
         try:
             todo += [((paper_key(p), "", "", []), [p], p["title"]) for p in discover_papers(state, notes, env("PAPER_BUDGET", "2") if science is None else 0)]
@@ -1139,21 +1119,77 @@ def run(budget=8, science=None, only=None, looks=None):
         except Exception as e:
             rep.error(f"open paper search: {e}")
     for item, sources, topic in todo:
-        if time.time() > deadline:
+        if time.time() > deadline or unread >= 3:   # three questions in a row without an answer: the models are away, the topics are not to blame
             rep.inc("stopped_early"); break
         try:
-            before = gone()
+            before = nobody()
             note = science_note(item, llm, sources=sources, topic=topic)
-            if note["status"] == "failed" and gone() > before:
-                rep.inc("stopped_early"); break
+            if note["status"] == "failed":
+                unread += 1
+                if sources:   # a paper nobody answered about is free to be found again by its search
+                    state["papers_seen"] = [k for k in state.get("papers_seen") or [] if k != item[0]]
+                    jsave(STATE, state)
+                if nobody() > before:   # no model could be asked at all: nothing is written against the topic, and nothing else is asked tonight
+                    rep.inc("stopped_early"); dead = True; break
+                if sources:
+                    rep.inc("paper_unanswered"); continue
+            else:
+                unread = 0
             prev = notes.get(item[0]) or {}
             if note["status"] != "ok" and prev.get("status") == "ok":   # a failed refresh never replaces a good note
                 rep.inc("science_kept"); continue
             jsave(os.path.join(SCIENCE_DIR, item[0] + ".json"), note)
-            rep.inc(("paper_" if sources else "science_") + note["status"])
+            rep.inc(("paper_" if sources else "science_") + ("unanswered" if note["status"] == "failed" else note["status"]))
             log(f"SCIENCE {item[0]}: {note['status']} ({len(note.get('findings') or [])} checked of {note.get('quotes_offered', 0)} quotes)")
         except Exception as e:
             rep.error(f"science {item[0]}: {e}")
+    lessons = all_lessons(jload(LESSONS, {}) or {}, store)
+    teachers = build_teachers(lessons, studied, methods)
+    per, n = env("METHOD_PER_TEACHER", "3"), (budget if live and not dead else 0)
+    targets, n_basics, n_talks = tonight(teachers, methods, n, per, env("BASICS_SHARE", "3"), env("TALK_SHARE", "1"))
+    if only:
+        targets = [(t, l) for t, l in targets if l["slug"] in only or l["youtube_id"] in only]
+    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}, {n_basics} on the basics, {n_talks} of them a teacher's talk); engine {'on' if live else 'off: tables only'}")
+    misses = 0
+    for t, l in targets:
+        if time.time() > deadline or misses >= 3:   # three videos in a row without a reading: the models are away, the lessons are not to blame
+            rep.inc("stopped_early"); break
+        try:
+            name = basics_name(l["slug"]) if l["slug"].startswith(BASICS) else ((cat.get(l["slug"]) or {}).get("name") or l["slug"].replace("-", " "))
+            before, asked = gone(), nobody()
+            rec = study(t, l, name, llm, fetch_comments(l["youtube_id"]))
+            if rec["status"] == "failed" and nobody() > asked:   # no model could be asked at all: the lesson is not to blame, and asking on is pointless
+                rep.inc("stopped_early"); misses = 3; break
+            if rec["status"] == "failed" and gone() > before:
+                # A model was refused its quota during this question and the others gave nothing usable. The lesson is not to
+                # blame and nothing is written against it, and the next lesson may well be answered: on 21 November 2026 this
+                # was read as "nobody can be asked" and the stage stopped before its looks and its reading; on 22 November the
+                # same work ran whole.
+                rep.inc("method_unanswered"); misses += 1; continue
+            rep.inc("method_" + save_method(rec))
+            misses = misses + 1 if rec["status"] == "failed" else 0
+            log(f"TEACHING {t['teacher']} / {l['slug']} {l['youtube_id']}: {rec['status']}" + (f" practices={len(rec['method']['practices'])} adaptations={len(rec['method']['adaptations'])}" if rec["status"] == "ok" else ""))
+        except Exception as e:
+            rep.error(f"teaching {l.get('youtube_id')}: {e}")
+    if live and not dead and misses < 3:   # the mentor look, best-ranked teachers first
+        methods = _records(METHODS_DIR)
+        due = pick_looks(teachers, methods, env("MENTOR_LOOK_BUDGET", "12") if looks is None else looks)
+        for m in [m for m in due if not only or m.get("slug") in only or m["youtube_id"] in only]:
+            if time.time() > deadline or misses >= 3:
+                rep.inc("stopped_early"); break
+            try:
+                before, asked = gone(), nobody()
+                st = look(m, llm)
+                if st == "failed" and nobody() > asked:
+                    rep.inc("stopped_early"); misses = 3; break
+                if st == "failed" and gone() > before:   # as above: a model was refused during this look; nothing is written against the lesson
+                    rep.inc("mentor_look_unanswered"); misses += 1; continue
+                jsave(os.path.join(METHODS_DIR, m["youtube_id"] + ".json"), m)
+                rep.inc("mentor_look_" + st)
+                misses = misses + 1 if st == "failed" else 0
+                log(f"MENTOR LOOK {m.get('teacher')} / {m.get('slug')} {m['youtube_id']}: {st}" + (f" moments={m['mentor_look']['moments']} beliefs={m['mentor_look']['beliefs']} feelings={m['mentor_look']['feelings']}" if st == "ok" else ""))
+            except Exception as e:
+                rep.error(f"mentor look {m.get('youtube_id')}: {e}")
     methods, notes = _records(METHODS_DIR), _records(SCIENCE_DIR)
     teachers = build_teachers(lessons, studied, methods)
     jsave(TEACHERS, {"generated_at": now_iso(), "ranked_by": "learners' comments under the lessons (praise and complaints counted in the comments)", "teachers": teachers[:400]})
