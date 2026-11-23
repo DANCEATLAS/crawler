@@ -1,6 +1,6 @@
 {
   "contract": "da_site_v1",
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "about": "Every word on the newer screens of the website. Change a word here and the site shows it within minutes: no Lovable build, no credits. A missing key falls back to the wording built into the screen.",
   "nav": {
     "bdf": "BDF",
@@ -59,6 +59,12 @@
       }
     },
     "dance": {
+      "unknown": {
+        "title": "This dance is not in the atlas",
+        "lead": "The address may be mistyped, or the dance has not been gathered yet. The atlas grows every night.",
+        "atlas": "Back to the Atlas",
+        "search": "Search the atlas"
+      },
       "state": {
         "active_ready": "Ready to activate",
         "building": "In the making",
@@ -328,7 +334,8 @@
       "unavailable": "The Viral list could not be loaded just now. Please try again in a moment."
     },
     "atlas": {
-      "no_place": "Place not yet known"
+      "no_place": "Place not yet known",
+      "loading": "Reading the atlas…"
     },
     "tree": {
       "no_family": "Family not yet known"
