@@ -105,7 +105,7 @@ The reserve is longer than the budget on purpose: estimates can be wrong in both
 
 **Found while checking batch 9, for the next batches.** (1) The dance page shows the chip "Folk" for a dance that has no family: 372 published pages say so untruly; batch A removes the chip where `family` is missing. (2) On a first visit, until the index arrives, the Atlas pages show the old grouping from the copy bundled with the site (Lovable's choice, so that no screen is blank): batch 10 shows a calm loading line instead. (3) An address of a dance that does not exist shows only "Back to Atlas": batch 10 says that the dance is not in the atlas. (4) Machine side: one card (`american-smooth`) carries a one-line description that belongs to a list, not to the dance.
 
-Batch 8 was split in two when it was written: 8 is the Viral list (read from GitHub, the database client removed, no rank), and the number 9, free since the door page was folded away, is countries and families. A, B, C, D and E are prepared in that order (messages below as they are written). A: the episode and the activation dossier of a dance, shown as what a teaching agent would be handed (`d/<slug>.json`, `active_profiles.json`). B: the teaching DNA, the themes and the six moments in Hebrew, translated by the machine and marked as such (a new block in `bdf_teaching_system.json`), with a language switch on `/mentor`. C: the research notes and papers by the founder's three strands, what is read and what waits (R2). D: R4. E: R5. The teachers' hall (R1), how the atlas is made (R3) and the episode scripts (R6) follow if credits remain.
+Batch 8 was split in two when it was written: 8 is the Viral list (read from GitHub, the database client removed, no rank), and the number 9, free since the door page was folded away, is countries and families. A, B, C, D and E are prepared in that order (messages below as they are written). A: the episode and the activation dossier of a dance, shown as what a teaching agent would be handed (`d/<slug>.json`, `active_profiles.json`). B: the mentor page read in Hebrew (`/mentor?lang=he`): its fixed words and its vocabulary from `site.json`, the evidence left in English and marked as such. C: the research notes and papers by the founder's three strands, what is read and what waits (R2). D: R4. E: R5. The teachers' hall (R1), how the atlas is made (R3) and the episode scripts (R6) follow if credits remain.
 
 ## 7. Free work on the machine side: the door
 
@@ -638,3 +638,98 @@ Read-only. No number is typed into the code: every number comes from the file or
 WHEN DONE
 Open /research on the built preview and report: the four numbers of B and the line under them; the three groups of C with their "<read> מתוך <number>"; the number of panels in D; the text of the state chip of the first topic of C; the labels shown when the first read topic is opened; the number of papers visible before "הצג הכול"; the rows of /health; and confirm that the page reads right to left and that English text reads left to right.
 ```
+
+## Batch B — the message
+
+Send after batch C (it names the link to `/research` that C puts on `/mentor`). Everything Hebrew is already in `site.json`: the page's 55 fixed words (`pages.mentor_he`), and the vocabulary (`he.strands`, `he.practices` with a name, a sentence and a meaning for each of the 37 practices, `he.moments`, `he.creed`, `he.voice`, `he.feelings`, `he.entry`, `he.adapt`, `he.kinds`, `he.learner`). The Hebrew of the vocabulary is a translation of the fixed list in `pipeline/teaching.py`, kept beside the site's other words and guarded by a test; what the machine wrote from the videos and the sources stays in English on the page, and the page says so. The language lives in the address (`/mentor?lang=he`) and is stored nowhere.
+
+```
+BATCH B — THE MENTOR IN HEBREW (the page /mentor, a second reading). Read the Project instructions first. Do exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHAT IT IS
+The owner reads Hebrew. /mentor gets a second reading: the same page, the same components and the same data, with its fixed words and its vocabulary in Hebrew, right to left. The site translates nothing and calls no AI: every Hebrew word is already in site.json and is read through t(path, fallback). What the machine wrote from the videos and the sources (examples, beliefs, findings, quotes, names) stays in English. Keep every component of /mentor as it is built: this batch changes which words the components show, not what they are made of. No backend, no Lovable Cloud, no analytics, no new npm dependency, no new font file. No other page changes, except the links named near the end.
+
+THE SWITCH
+The language lives in the address and is stored nowhere: /mentor is the English reading, exactly as today; /mentor?lang=he is the Hebrew reading. Any other value of lang is read as English. Under the lead, two small real links side by side: t("pages.mentor.lang.he","עברית") to /mentor?lang=he and t("pages.mentor.lang.en","English") to /mentor; the current one has aria-current="true" and the accent colour. The chips of the in-page index and every other link inside the page keep the current reading.
+
+THE HEBREW READING (only when lang=he)
+The page container gets dir="rtl" and lang="he"; font family for this reading: system-ui, "Arial Hebrew", "Noto Sans Hebrew", sans-serif; body text at least 18px. Dates are shown as day.month.year. Every text that stays in English (see ENGLISH STAYS) sits in a dir="ltr" block or span, aligned left, so it reads correctly. The top bar and the bottom bar do not change.
+
+1. THE FIXED WORDS. Each fixed word of the page is read from pages.mentor_he in site.json. The fallback of each t() is the English shown today, so nothing can come out empty. The paths below are all under pages.mentor_he.
+Header: eyebrow, title (the H1), lead. The muted line under them becomes: t(rebuilt) + " <date> · " + t(new) + " <lessons> " + t(lessons) + ", <research notes> " + t(research_notes). Under it one more muted line: t(english_note).
+Where the study stands: stands.title; the six labels, in today's order: stands.teachers_ranked, stands.teachers_studied, stands.lessons, stands.comments, stands.findings, stands.practices; the sixth number reads "<two or more> " + t(of) + " <total>".
+The teaching DNA: dna.title, dna.lead; the aria-labels of the dots: dna.three and dna.two; the small line of a rule: "<teachers> " + t(teachers) + " · <learner comments> " + t(learner_comments) + " · <research notes> " + t(research_notes); the title of the proof: dna.proof; "seen in <n>% of the lessons studied" becomes "<n>% " + t(dna.seen_in); "watch the moment" becomes t(dna.watch).
+When a learner struggles: adjust.title, adjust.lead; the three labels: adjust.learners_say, adjust.teacher_answer, adjust.research_adds.
+The mentor: mentor.title, mentor.lead; the six sub-titles: mentor.sound, mentor.moments, mentor.believe, mentor.feeling, mentor.stays, mentor.meant; "seen <n> times with <m> teachers" becomes t(mentor.seen) + " <n> " + t(mentor.times_with) + " <m> " + t(teachers); "<m> teachers" becomes "<m> " + t(teachers); "met <n> times" becomes t(mentor.met) + " <n> " + t(mentor.times).
+What BDF keeps in mind about a person: learner.title, learner.lead.
+The teachers it learns from: the_teachers.title, the_teachers.lead; "<n> praising comments" becomes "<n> " + t(the_teachers.praise); "Show all <n>" becomes t(the_teachers.show_all) + " (<n>)".
+The research: research.title, research.lead; "For the teacher" becomes t(research.for_teacher); "When it does not apply" becomes t(research.not_apply); the link to /research becomes t(research.library).
+The closing line: honesty. The line shown when the file cannot be loaded: unavailable. The chips of the in-page index: the seven section titles above.
+
+2. THE VOCABULARY. A key of the file gets its Hebrew from site.json; where a key has none, the page shows what it shows today.
+A theme of the DNA: t("he.strands.<the theme in lower case, spaces replaced by hyphens>", <theme>); "See it" is he.strands.see-it.
+The sentence of a rule: t("he.practices.<tag>.do", <do>). The meaning inside its proof: t("he.practices.<tag>.meaning", <meaning>).
+The title of a card under "When a learner struggles": t("he.practices.<tag>.name", <the title shown today>).
+A word of "How they sound": t("he.voice.<word>", <word>).
+A moment: t("he.moments.<moment>", <title>). A heading of belief: t("he.creed.<about>", <title>). A feeling: t("he.feelings.<feeling>", <the name shown today>).
+The title of a card under "What BDF keeps in mind about a person": the value in site.json he.learner whose key equals the "remember" text of the file (look it up in that object itself: its keys are whole sentences).
+A chip on such a card: the first that exists of he.practices.<key>.name, he.feelings.<key>, he.entry.<key>, he.adapt.<key>.
+The kind of a learner theme inside a proof: t("he.kinds.<kind>", <the label shown today>).
+
+ENGLISH STAYS
+Everything else that comes from the file: the examples and what a teacher says or does, the adjustments, what learners say, the beliefs, the responses to a feeling, what stays with the learner, what it meant to learners, the principles, findings, quotes and sources of the research, the names of teachers and dances, a teacher's system and signature. Shown exactly as today, left to right.
+
+LINKS ELSEWHERE
+Every link to /mentor on the Hebrew pages /machine, /research and /vision now leads to /mentor?lang=he. Nothing else changes on those pages.
+
+RULES
+Read-only. No Hebrew word is typed into the code except the two fallbacks given above. The English reading (/mentor without lang) must come out exactly as it is today. Check the result on the built preview (https://preview--dancingatlas.lovable.app), not only on the dev server.
+
+WHEN DONE
+On the built preview open /mentor?lang=he and report: the H1; the seven section titles; the six labels of "Where the study stands"; the first rule of the DNA with its small line; the title of the first card under "When a learner struggles"; the six titles of the moments; the first three words of "How they sound"; the titles of the cards under "What BDF keeps in mind about a person"; and confirm that an example line reads left to right. Then open /mentor and report its H1 and the first rule of the DNA.
+```
+
+## Batch A — the message
+
+Send when `mentor_brief.json` is live in `public/catalog/` (the stage `door` after the change of 23 November); the words are in `site.json` (`pages.dance.agent`). On the data of 23 November the text for one dance is about 7,100 words for `hustle` (active-ready) and 3,700 for `ahwash` (story only): the library's 8 rules, the mentor's brief (17 KB) and the dance file without its pictures, video lists and claim list. The message also carries the repair found while checking batch 9: no family chip where the index has no family (762 dances; the page shows "Folk" for each of them today).
+
+```
+BATCH A — WHAT AN AI TEACHER RECEIVES (the dance page /style/<slug>). Read the Project instructions first. Do exactly this and nothing else. If something is unclear, take the simplest reading and tell me what you chose; do not ask.
+
+WHY
+The destination of this library is a mentor that teaches in conversation: an agent, not this website. The last line of the dance page (the link "The file an agent receives for this dance") becomes a small section that shows what such an agent is handed for the dance and lets a person copy it as one text, to paste into any AI assistant. It is material for an agent, not a lesson: no player, no steps to click through, and no AI call from the site.
+
+DATA
+1. The dance file d/<slug>.json: already in memory for the page.
+2. https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/manifest.json — contract "da_manifest_v1", about 6 KB. Fields used: base (an address), rules[] (texts).
+3. https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/mentor_brief.json — contract "da_mentor_brief_v1", about 17 KB, rewritten only when it changes. Fields: what_this_is, stands_on {…}, default[] {theme, do, kinds_of_evidence}, moments[], when_it_is_hard[], when_a_feeling_shows[], what_teachers_believe[], how_they_sound[], remember[]; also contract, fingerprint, updated.
+Files 2 and 3 are fetched only when the section's panel is opened or its button is pressed, the way the other files of the library are loaded (10-second timeout, one retry, kept whole in the browser database da_library_v2; a stored copy is used at once and replaced in the background when it differs). Add mentor_brief.json to the files /health checks.
+
+THE SECTION (the last section of the details; it takes the place of the present last line)
+Title t("pages.dance.agent.title","What an AI teacher receives"). Lead t("pages.dance.agent.lead","Dance Atlas is preparing for a mentor that teaches in conversation. This is what such an agent is handed for this dance: the rules of the library, how good teachers teach, and everything gathered about the dance. It is material, not a lesson.").
+1. Three short lines, each with a tick: t("pages.dance.agent.rules","The rules of the library"); t("pages.dance.agent.mentor","How to teach, from the mentor's study"); t("pages.dance.agent.dance","Everything gathered about this dance").
+2. When the dance file has teaching_withheld: the calm line t("pages.dance.agent.withheld","This dance is story only. An agent receives its story and nothing that teaches it.").
+3. A button t("pages.dance.agent.copy","Copy for an AI"). It loads files 2 and 3 if needed, builds THE TEXT below and puts it on the clipboard with navigator.clipboard.writeText. When the clipboard is refused, it opens the panel of point 5 with the text selected and shows t("pages.dance.agent.manual","Select the text and copy it."). After a successful copy the button reads t("pages.dance.agent.copied","Copied. Paste it into any AI assistant and start talking.") for five seconds; the same sentence is announced in an aria-live="polite" region. When file 2 or 3 cannot be loaded: one calm line t("pages.dance.agent.unavailable","The briefing could not be put together just now. Please try again in a moment."), and nothing is copied.
+4. Under the button, once the text has been built: one muted line "<number of words in the text> " + t("pages.dance.agent.words","words").
+5. A closed panel t("pages.dance.agent.show","Show the text") (a real button with aria-expanded; opening it loads files 2 and 3 if needed): THE TEXT in a read-only, scrollable box, at most 60vh high, left to right, in the page's ordinary font.
+6. Under the section, as today: the link t("pages.dance.agent.link","The file an agent receives for this dance") with t("pages.dance.agent.changed","Last changed") and the file's updated date; and beside it one more link t("pages.dance.agent.brief","The mentor's brief") to the address of file 3 (new tab, rel="noopener noreferrer").
+
+THE TEXT (plain text, in exactly this order; a blank line between blocks)
+Line: t("pages.dance.agent.text.heading","BRIEFING FOR AN AI DANCE MENTOR") + " — " + <the dance's name>
+Line: t("pages.dance.agent.text.from","From the Dance Atlas open library:") + " " + <manifest.base>
+Block: t("pages.dance.agent.text.frame","You are about to talk with one person about this dance, as their mentor. Follow the rules in part 1. Teach the way part 2 describes. Use only what part 3 holds about the dance, and say plainly what is not known.")
+Block: t("pages.dance.agent.text.part1","PART 1 — THE RULES OF THE LIBRARY"), then the texts of manifest.rules, numbered "1. ", "2. " and so on, one per line.
+Block: t("pages.dance.agent.text.part2","PART 2 — HOW TO TEACH (THE MENTOR'S STUDY)"), then JSON.stringify(<file 3 without its keys contract, fingerprint and updated>, null, 1).
+Block: t("pages.dance.agent.text.part3","PART 3 — THE DANCE"), then JSON.stringify(<a copy of the dance file without these keys: fingerprint; card.images, card.video_stack, card.albums, card.album_candidates, card.hero_qc; profile.images, profile.albums, profile.claims, profile.citation>, null, 1).
+Nothing else is added to the text and nothing in the two files is reworded.
+
+ALSO ON THE DANCE PAGE: NO FAMILY IS CLAIMED WHERE NONE IS KNOWN
+In the line under the dance's name (country · era · family), the family chip (the span with the class fam-chip) is shown only when the dance's entry in index.json has a family. Its text stays as it is today. A dance whose entry has no family shows no chip and no separator before it; this holds for every slide of the page. Today such a dance shows "Folk", which nobody has established (762 dances).
+
+RULES
+Read-only. No AI call, no new npm dependency, no analytics. No number is typed into the code. Keep the present components of the dance page: add this section and the rule for the chip, change nothing else on the page. Check the result on the built preview (https://preview--dancingatlas.lovable.app), not only on the dev server.
+
+WHEN DONE
+On the built preview open /style/hustle and /style/ahwash, open the details and report for each: the texts of the section; after pressing the button, the number of words shown, the first two lines of the text, the number of rules in part 1, whether part 3 of /style/ahwash holds a key "lessons" or a key "teaching" (it must hold neither), and the requests made when the button was pressed. Then open /style/bugg and report the line under the name (it must show no family chip), and the same line on /style/hustle (its chip as today). Report the rows of /health.
+```
+
