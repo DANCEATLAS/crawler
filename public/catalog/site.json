@@ -50,7 +50,8 @@
       },
       "research": {
         "title": "The research",
-        "lead": "Findings with a quote checked against the source."
+        "lead": "Findings with a quote checked against the source.",
+        "library": "The whole reading list, strand by strand (in Hebrew)"
       }
     },
     "dance": {
@@ -103,7 +104,28 @@
       },
       "agent": {
         "link": "The file an agent receives for this dance",
-        "changed": "Last changed"
+        "changed": "Last changed",
+        "title": "What an AI teacher receives",
+        "lead": "Dance Atlas is preparing for a mentor that teaches in conversation. This is what such an agent is handed for this dance: the rules of the library, how good teachers teach, and everything gathered about the dance. It is material, not a lesson.",
+        "rules": "The rules of the library",
+        "mentor": "How to teach, from the mentor's study",
+        "dance": "Everything gathered about this dance",
+        "withheld": "This dance is story only. An agent receives its story and nothing that teaches it.",
+        "copy": "Copy for an AI",
+        "manual": "Select the text and copy it.",
+        "copied": "Copied. Paste it into any AI assistant and start talking.",
+        "unavailable": "The briefing could not be put together just now. Please try again in a moment.",
+        "words": "words",
+        "show": "Show the text",
+        "brief": "The mentor's brief",
+        "text": {
+          "heading": "BRIEFING FOR AN AI DANCE MENTOR",
+          "from": "From the Dance Atlas open library:",
+          "frame": "You are about to talk with one person about this dance, as their mentor. Follow the rules in part 1. Teach the way part 2 describes. Use only what part 3 holds about the dance, and say plainly what is not known.",
+          "part1": "PART 1 — THE RULES OF THE LIBRARY",
+          "part2": "PART 2 — HOW TO TEACH (THE MENTOR'S STUDY)",
+          "part3": "PART 3 — THE DANCE"
+        }
       },
       "unavailable": "The details of this dance could not be loaded just now."
     },
@@ -316,6 +338,130 @@
     "notfound": {
       "title": "This page does not exist",
       "back": "Back to the atlas"
+    },
+    "research": {
+      "eyebrow": "המחקר של המנטור",
+      "title": "ספריית המחקר",
+      "lead": "כל לילה המכונה קוראת מחקרים על איך אנשים לומדים ואיך מלמדים אותם. כאן רואים מה כבר נקרא, מה נמצא, ומה מחכה בתור.",
+      "updated": "עודכן",
+      "unavailable": "לא הצלחתי לטעון את רשימת הקריאה כרגע. נסה שוב בעוד רגע.",
+      "of": "מתוך",
+      "counts": {
+        "read": "נושאים נקראו",
+        "owner": "מהנושאים שביקשת נקראו",
+        "papers": "מאמרים מהחיפוש הפתוח",
+        "findings": "ממצאים עם ציטוט שנבדק מול המקור",
+        "tonight": "בכל לילה נקראים",
+        "tonight_topics": "נושאים",
+        "tonight_papers": "מאמרים"
+      },
+      "yours": {
+        "title": "הנושאים שביקשת",
+        "lead": "שלושת הכיוונים שנתת ב-21 בנובמבר. הם נקראים לפני כל השאר."
+      },
+      "rest": {
+        "title": "שאר רשימת הקריאה",
+        "lead": "לפי הנושאים של אוצר המילים של המנטור."
+      },
+      "papers": {
+        "title": "מאמרים מהחיפוש הפתוח",
+        "lead": "כל לילה חיפוש אחד במאגר המאמרים. המצוטטים ביותר נקראים ראשונים.",
+        "cited": "ציטוטים",
+        "all": "הצג הכול"
+      },
+      "state": {
+        "read": "נקרא",
+        "next": "ייקרא הלילה",
+        "waiting": "מחכה בתור",
+        "thin": "נקרא, ולא נמצאו שני ציטוטים שאפשר לבדוק",
+        "no_sources": "לא נמצא מקור. ייחפש שוב",
+        "unanswered": "המודל לא ענה. יישאל שוב"
+      },
+      "found": {
+        "principle": "העיקרון",
+        "teacher": "מה זה אומר למורה",
+        "findings": "הממצאים, עם הציטוט שנבדק",
+        "limits": "מתי זה לא חל",
+        "sources": "המקורות",
+        "english": "הטקסט באנגלית, כפי שהמכונה כתבה אותו מתוך המקור."
+      },
+      "honesty": "נקרא על ידי מכונה, ועדיין לא נבדק על ידי אדם. ממצא מוצג רק כשהמילים שצוטטו נמצאו במקור. רוב המחקרים עוסקים בלמידת תנועה באופן כללי, לא בריקוד.",
+      "links": {
+        "mentor": "המנטור: מה נכנס ל-DNA",
+        "machine": "חדר המכונות"
+      },
+      "link": "ספריית המחקר"
+    },
+    "mentor_he": {
+      "eyebrow": "החבר הכי טוב לריקוד · BDF",
+      "title": "מנטור שיכול ללמד כל אדם לרקוד",
+      "lead": "BDF עדיין לא נבנה. קודם הוא צריך ללמוד איך המורים הטובים ביותר מלמדים. כל לילה, בלי עלות, מכונה צופה בשיעורים שהלומדים משבחים הכי הרבה, קוראת מה הלומדים כותבים, וקוראת את המחקר. הדף הזה מראה מה היא למדה עד עכשיו.",
+      "unavailable": "לא הצלחתי לטעון את הרשימות של המנטור כרגע. נסה שוב בעוד רגע.",
+      "honesty": "קריאות של מכונה, שעדיין לא נבדקו על ידי אדם. שום דבר כאן לא נבדק על לומדים על ידי Dance Atlas. כל שורה מקושרת לרגע בסרטון או למקור.",
+      "english_note": "הדוגמאות והמחקר באנגלית, כפי שהמכונה כתבה אותם מתוך הסרטונים והמקורות.",
+      "rebuilt": "נבנה מחדש ב-",
+      "new": "חדש בשבעת הימים האחרונים:",
+      "lessons": "שיעורים",
+      "research_notes": "סיכומי מחקר",
+      "of": "מתוך",
+      "teachers": "מורים",
+      "learner_comments": "תגובות של לומדים",
+      "stands": {
+        "title": "איפה המחקר עומד",
+        "teachers_ranked": "מורים שדורגו",
+        "teachers_studied": "מורים שנלמדו",
+        "lessons": "שיעורים שנצפו",
+        "comments": "תגובות של לומדים שנקראו",
+        "findings": "ממצאי מחקר שנבדקו",
+        "practices": "דרכי הוראה עם שני סוגי ראיות או יותר"
+      },
+      "dna": {
+        "title": "ה-DNA של ההוראה",
+        "lead": "מה מורה מצוין עושה. כלל מופיע כאן רק כששני סוגי ראיות או יותר מסכימים: מורים, לומדים, מחקר.",
+        "three": "כל שלושת סוגי הראיות מסכימים",
+        "two": "שני סוגי ראיות מסכימים",
+        "proof": "ההוכחה",
+        "seen_in": "מהשיעורים שנלמדו",
+        "watch": "לצפות ברגע הזה"
+      },
+      "adjust": {
+        "title": "כשלומד מתקשה",
+        "lead": "מה הלומדים אומרים שקשה, מה המורים מציעים, ומה המחקר מוסיף.",
+        "learners_say": "הלומדים אומרים",
+        "teacher_answer": "תשובה של מורה",
+        "research_adds": "המחקר מוסיף"
+      },
+      "mentor": {
+        "title": "המנטור",
+        "lead": "מי מלמד, מעבר למה שמלמדים.",
+        "sound": "איך הם נשמעים",
+        "moments": "שישה רגעים שקובעים אם הלומד נשאר",
+        "seen": "נראה",
+        "times_with": "פעמים, אצל",
+        "believe": "במה הם מאמינים",
+        "feeling": "כשתחושה עולה",
+        "met": "נפגשה",
+        "times": "פעמים",
+        "stays": "מה נשאר עם הלומד",
+        "meant": "מה זה היה בשביל הלומדים"
+      },
+      "learner": {
+        "title": "מה BDF זוכר על אדם",
+        "lead": "כדי שההוראה תתאים לו יותר ככל שהוא נשאר."
+      },
+      "the_teachers": {
+        "title": "המורים שהוא לומד מהם",
+        "lead": "מדורגים לפי מה שלומדים כתבו מתחת לשיעורים שלהם, אף פעם לא לפי צפיות.",
+        "praise": "תגובות משבחות",
+        "show_all": "הצג את כולם"
+      },
+      "research": {
+        "title": "המחקר",
+        "lead": "ממצאים עם ציטוט שנבדק מול המקור.",
+        "for_teacher": "למורה",
+        "not_apply": "מתי זה לא חל",
+        "library": "כל רשימת הקריאה, כיוון אחר כיוון"
+      }
     }
   },
   "tags": {
@@ -422,6 +568,263 @@
       "peer_mentoring": "מנטורינג בין עמיתים",
       "life_skills_that_transfer": "כישורי חיים שעוברים מהשיעור אל החיים",
       "how_teachers_learn_to_teach": "איך מורים לומדים ללמד"
+    },
+    "strands": {
+      "ease": "קלות ופתיחות ללמידה",
+      "inspires": "חוויה שמעוררת השראה",
+      "teach": "אנשים שלומדים ללמד",
+      "see-it": "לראות",
+      "build-it": "לבנות",
+      "feel-it": "להרגיש",
+      "stay-with-it": "להתמיד",
+      "fit-the-person": "להתאים לאדם",
+      "be-a-mentor": "להיות מנטור",
+      "pass-it-on": "להעביר הלאה",
+      "other": "אחר"
+    },
+    "practices": {
+      "mirror_view": {
+        "name": "מבט מראה",
+        "do": "להראות את הצעד מהגב או בתמונת מראה, כדי שאפשר יהיה להעתיק אותו ישירות.",
+        "meaning": "מבט מהגב או בתמונת מראה, כך שהלומד מעתיק בלי להפוך ימין ושמאל"
+      },
+      "split_screen": {
+        "name": "מסך מפוצל",
+        "do": "להראות שני מבטים בו-זמנית כשגם הרגליים וגם הגוף חשובים.",
+        "meaning": "שני מבטים בו-זמנית: רגליים וגוף שלם, חזית וגב, או שתי מהירויות"
+      },
+      "on_screen_counts": {
+        "name": "ספירה על המסך",
+        "do": "לכתוב על המסך את הספירה ואת שמות הצעדים.",
+        "meaning": "ספירה, שמות צעדים או חיצים שכתובים על המסך"
+      },
+      "demo_first": {
+        "name": "קודם להדגים",
+        "do": "להראות פעם אחת את הכול במהירות מלאה, לפני שמפרקים לחלקים.",
+        "meaning": "הצעד או המשפט כולו מוצג פעם אחת במהירות מלאה, לפני הפירוק"
+      },
+      "chunking": {
+        "name": "חלקים קטנים",
+        "do": "ללמד חלק קטן אחד בכל פעם, ולתרגל אותו לפני שמוסיפים את הבא.",
+        "meaning": "חלקים קטנים, שכל אחד מהם מתורגל לפני שמוסיפים את הבא"
+      },
+      "layering": {
+        "name": "שכבה על שכבה",
+        "do": "קודם הרגליים. ידיים, סגנון וסיבובים רק כשהרגליים יציבות.",
+        "meaning": "קודם הרגליים, ועליהן ידיים, סגנון, סיבובים או בן זוג"
+      },
+      "tempo_ramp": {
+        "name": "מלאט למהיר",
+        "do": "להתחיל לאט ולהאיץ בהדרגה עד הקצב המלא.",
+        "meaning": "קודם לאט, אחר כך מהר יותר, ואז במהירות מלאה"
+      },
+      "counts_and_rhythm": {
+        "name": "ספירה וקצב",
+        "do": "לספור בקול, או לומר את הקצב במילים.",
+        "meaning": "ספירה, או קצב שנאמר במילים או במחיאות כפיים (מהר-מהר-לאט, בום-צ'ה)"
+      },
+      "music_early": {
+        "name": "מוזיקה מההתחלה",
+        "do": "להכניס את המוזיקה מוקדם, לא רק בסוף.",
+        "meaning": "תרגול עם המוזיקה מוקדם ולעיתים קרובות"
+      },
+      "repetition": {
+        "name": "חזרות",
+        "do": "לחזור יותר ממה שנראה נחוץ, עם סבבים של ריקוד יחד.",
+        "meaning": "הרבה חזרות, לולאות וסבבים של ריקוד יחד עם המורה"
+      },
+      "recap_and_practice_plan": {
+        "name": "סיכום ותרגול לבית",
+        "do": "לסיים בסיכום ובתרגול קטן אחד לקחת הביתה.",
+        "meaning": "סיכום, שיעורי בית או שגרת תרגול לקחת הביתה"
+      },
+      "imagery": {
+        "name": "דימוי",
+        "do": "לתת דימוי לכוון אליו, במקום שריר לשלוט בו.",
+        "meaning": "דימוי או השוואה במקום אנטומיה (\"לצבוע את הרצפה עם הבוהן\")"
+      },
+      "feel_and_groove": {
+        "name": "תחושה וגרוב",
+        "do": "ללמד את התחושה ואת הבאונס לפני הדיוק.",
+        "meaning": "התחושה, הבאונס, המשקל והמוזיקליות לפני הדיוק"
+      },
+      "culture_and_meaning": {
+        "name": "תרבות ומשמעות",
+        "do": "לספר מאיפה הריקוד בא ומה המשמעות שלו.",
+        "meaning": "מאיפה הריקוד בא ומה הוא אומר, בתוך השיעור עצמו"
+      },
+      "play_and_variation": {
+        "name": "משחק וגיוון",
+        "do": "להזמין את הלומד לגוון ולעשות את זה שלו.",
+        "meaning": "לאלתר, לגוון, לעשות את זה שלך"
+      },
+      "quick_win": {
+        "name": "הצלחה מהירה",
+        "do": "לגרום ללומד לרקוד משהו אמיתי כבר בדקות הראשונות.",
+        "meaning": "הלומד רוקד משהו אמיתי כבר בדקות הראשונות"
+      },
+      "praise_and_expectancy": {
+        "name": "עידוד ואמונה",
+        "do": "לומר ללומדים שהם מסוגלים, ולציין כל הצלחה קטנה.",
+        "meaning": "לומר ללומדים שהם מסוגלים, ולחגוג הצלחות קטנות"
+      },
+      "normalise_mistakes": {
+        "name": "טעויות הן חלק מהדרך",
+        "do": "להתייחס לטעויות כדבר רגיל, ולהראות גם את הטעויות שלך.",
+        "meaning": "טעויות צפויות. המורה מקבל אותן בקלילות או מראה את הטעויות של עצמו"
+      },
+      "fun_and_energy": {
+        "name": "כיף ואנרגיה",
+        "do": "להביא הומור ושמחה שרואים.",
+        "meaning": "הומור, משחק והשמחה הגלויה של המורה עצמו"
+      },
+      "autonomy": {
+        "name": "בחירה",
+        "do": "להציע בחירות: הקצב, הגרסה, מתי לעצור.",
+        "meaning": "הלומד בוחר: לעצור, לבחור קצב, לבחור גרסה, סגנון משלו"
+      },
+      "social_connection": {
+        "name": "חיבור לאחרים",
+        "do": "לחבר את הלומד לאחרים: בן זוג, אתגר, משהו לשתף.",
+        "meaning": "קהילה, אתגרים, ריקוד עם אחרים, שיתוף"
+      },
+      "reason_to_return": {
+        "name": "סיבה לחזור",
+        "do": "לתת סיבה לחזור: הצעד הבא, סדרה, שגרה.",
+        "meaning": "סיבה לחזור: השיעור הבא, סדרה, אתגר, שגרה יומית"
+      },
+      "error_correction": {
+        "name": "תיקון טעויות",
+        "do": "לקרוא לטעות הנפוצה בשמה ולהראות את התיקון.",
+        "meaning": "הטעות הנפוצה נקראת בשמה, והתיקון שלה מוצג"
+      },
+      "regression": {
+        "name": "גרסה קלה יותר",
+        "do": "להציע גרסה קלה יותר ברגע שצעד קשה.",
+        "meaning": "גרסה קלה יותר מוצעת כשהצעד קשה"
+      },
+      "progression": {
+        "name": "גרסה קשה יותר",
+        "do": "להציע גרסה קשה יותר למי שמוכן.",
+        "meaning": "גרסה קשה יותר, סגנון או מהירות למי שמוכן"
+      },
+      "body_adaptation": {
+        "name": "התאמה לגוף",
+        "do": "לתת אפשרויות לגופים שונים, לחדר קטן ולמי שאין לו בן זוג.",
+        "meaning": "אפשרויות לברכיים, לשיווי משקל, לגיל, לחדר קטן או לריקוד בלי בן זוג"
+      },
+      "self_check": {
+        "name": "בדיקה עצמית",
+        "do": "ללמד את הלומדים איך לבדוק את עצמם.",
+        "meaning": "איך לבדוק את עצמך: מראה, צילום, נקודות ציון, שאלות לשאול"
+      },
+      "names_the_feeling": {
+        "name": "לתת שם לתחושה",
+        "do": "לומר מה הלומד אולי מרגיש, ולענות לזה.",
+        "meaning": "המורה אומר בקול מה הלומד אולי מרגיש (מבוכה, אובדן כיוון, תסכול) ועונה לזה"
+      },
+      "own_story": {
+        "name": "הסיפור של המורה",
+        "do": "לשתף בהתחלות ובקשיים שלך.",
+        "meaning": "המורה משתף בהתחלות, בקשיים או בטעויות שלו"
+      },
+      "dance_is_for_everyone": {
+        "name": "ריקוד שייך לכולם",
+        "do": "לומר, ולהראות, שהריקוד שייך לכולם.",
+        "meaning": "כל אחד יכול לרקוד: כל גוף, כל גיל, בלי צורך בכישרון"
+      },
+      "learner_as_dancer": {
+        "name": "הלומד כבר רקדן",
+        "do": "להתייחס ללומד כאל רקדן מהדקה הראשונה.",
+        "meaning": "מתייחסים ללומד כאל רקדן כבר עכשיו: \"אתה רוקד\", \"הסגנון שלך\""
+      },
+      "long_road": {
+        "name": "הדרך הארוכה",
+        "do": "להראות את הדרך שלפנינו, וכמה זמן היא לוקחת באמת.",
+        "meaning": "הדרך שלפנינו: לאן זה מוביל, כמה זמן זה לוקח באמת, סבלנות"
+      },
+      "checks_in": {
+        "name": "לעצור ולשים לב",
+        "do": "לבקש מהלומד לשים לב איך זה הרגיש.",
+        "meaning": "הלומד מתבקש לשים לב: איך זה הרגיש, איפה המשקל, מה השתנה"
+      },
+      "rest_and_kindness": {
+        "name": "מנוחה וטוב לב",
+        "do": "לתת רשות לעצור, ולחזור מחר.",
+        "meaning": "רשות לעצור, לנשום או להפסיק להיום. טוב לב כלפי עצמך"
+      },
+      "moment_of_presence": {
+        "name": "רגע של נוכחות",
+        "do": "לפתוח או לסגור ברגע של הגעה: נשימה, מוזיקה, תודה.",
+        "meaning": "רגע להגיע, לפני הריקוד או אחריו: נשימה, שקט, הקשבה למוזיקה, הכרת תודה"
+      },
+      "teach_back": {
+        "name": "ללמד הלאה",
+        "do": "לבקש מהלומד להראות את הצעד לאדם אחר.",
+        "meaning": "הלומד מתבקש להראות, להסביר או ללמד את הצעד לאדם אחר: בן זוג, חבר, המצלמה"
+      },
+      "method_made_visible": {
+        "name": "השיטה גלויה",
+        "do": "לומר למה מלמדים כך, כדי שהלומד יוכל להעביר את זה הלאה.",
+        "meaning": "המורה אומר למה הוא מלמד כך, כדי שהלומד יוכל לעשות אותו דבר לאחרים"
+      }
+    },
+    "moments": {
+      "opening": "איך פותחים",
+      "before_hard_part": "לפני חלק קשה",
+      "after_mistake": "אחרי טעות",
+      "after_success": "אחרי הצלחה",
+      "check_in": "לעצור ולשאול",
+      "closing": "איך סוגרים"
+    },
+    "creed": {
+      "who_can_dance": "מי יכול לרקוד",
+      "what_dancing_is_for": "בשביל מה רוקדים",
+      "how_people_learn": "איך אנשים לומדים",
+      "what_a_teacher_is_for": "בשביל מה יש מורה"
+    },
+    "voice": {
+      "warm": "חם",
+      "playful": "שובב",
+      "calm": "רגוע",
+      "energetic": "אנרגטי",
+      "precise": "מדויק",
+      "humorous": "מצחיק",
+      "patient": "סבלני",
+      "direct": "ישיר",
+      "gentle": "עדין",
+      "passionate": "נלהב"
+    },
+    "feelings": {
+      "awkward": "מבוכה",
+      "afraid_of_looking_silly": "פחד להיראות מגוחך",
+      "frustrated": "תסכול",
+      "overwhelmed": "הצפה",
+      "bored": "שעמום",
+      "tired": "עייפות",
+      "self_doubt": "ספק עצמי",
+      "impatient": "חוסר סבלנות",
+      "proud": "גאווה",
+      "joyful": "שמחה"
+    },
+    "entry": {
+      "watch_first": "קודם לראות",
+      "count_first": "קודם לספור",
+      "rhythm_first": "קודם הקצב",
+      "feet_first": "קודם הרגליים",
+      "feel_first": "קודם התחושה",
+      "story_first": "קודם הסיפור",
+      "mostly_talk": "בעיקר דיבור",
+      "balanced": "מאוזן",
+      "mostly_move": "בעיקר תנועה"
+    },
+    "learner": {
+      "what this learner finds hard": "מה קשה ללומד הזה",
+      "what made a step click for them": "מה גרם לצעד להתחבר אצלו",
+      "which feeling comes up, and what answered it": "איזו תחושה עולה, ומה ענה לה",
+      "the way into a dance that works for them": "הדרך אל הריקוד שעובדת בשבילו",
+      "how much talk and how much movement they like": "כמה דיבור וכמה תנועה מתאימים לו",
+      "their body, their room and whether they have a partner": "הגוף שלו, החדר שלו, והאם יש לו בן זוג"
     }
   }
 }
