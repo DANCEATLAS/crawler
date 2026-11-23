@@ -1,20 +1,22 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-22T20:26:21Z",
+ "generated_at": "2026-11-23T02:49:56Z",
  "last_night": {
-  "date": "2026-11-21",
-  "started": "2026-11-21T16:50:57Z",
-  "finished": "2026-11-21T19:44:03Z",
-  "minutes": 173,
-  "questions": 256,
-  "unanswered": 1,
+  "date": "2026-11-22",
+  "started": "2026-11-22T17:13:07Z",
+  "finished": "2026-11-22T20:27:29Z",
+  "minutes": 194,
+  "questions": 276,
+  "unanswered": 3,
   "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: overloaded 24, timeout_or_network 7, day_quota_used_up 5, unusable_answer 3, model_gone 1",
-   "qc: model trouble: day_quota_used_up 1",
-   "pedagogy: model trouble: unusable_answer 3, overloaded 2, timeout_or_network 2, model_gone 1",
-   "teaching: model trouble: unusable_answer 3, day_quota_used_up 1, model_gone 1"
+   "research: model trouble: overloaded 21, day_quota_used_up 5, timeout_or_network 1, model_gone 1",
+   "qc: model trouble: waited_seconds 24, overloaded 7, day_quota_used_up 4, model_gone 2",
+   "hero_qc: model trouble: overloaded 1",
+   "pedagogy: model trouble: unusable_answer 8, overloaded 5, day_quota_used_up 3, model_gone 1",
+   "episodes: model trouble: overloaded 1",
+   "teaching: model trouble: unusable_answer 2, overloaded 1, day_quota_used_up 1"
   ]
  },
  "nights": [
@@ -205,6 +207,13 @@
    "minutes": 173,
    "questions": 256,
    "unanswered": 1,
+   "errors": 0
+  },
+  {
+   "date": "2026-11-22",
+   "minutes": 194,
+   "questions": 276,
+   "unanswered": 3,
    "errors": 0
   }
  ],
@@ -774,24 +783,24 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 30,
+  "topics_read": 35,
   "first": {
    "topics": 14,
-   "read": 6
+   "read": 11
   },
   "next": [
-   "mindful_movement",
-   "peer_mentoring",
-   "meaning_and_staying",
-   "embodied_learning",
-   "life_skills_that_transfer",
-   "ritual_and_belonging"
+   "peer_tutoring_of_movement",
+   "how_teachers_learn_to_teach",
+   "infants_move_to_rhythm",
+   "speed_and_accuracy",
+   "cognitive_load",
+   "words_and_pictures"
   ],
   "papers_read": 12,
-  "lessons_studied": 68,
-  "teachers_studied": 60,
-  "findings_checked": 131,
+  "lessons_studied": 79,
+  "teachers_studied": 71,
+  "findings_checked": 146,
   "practices": 37,
-  "practices_in_dna": 28
+  "practices_in_dna": 29
  }
 }

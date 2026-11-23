@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-22T20:26:21Z",
+ "generated_at": "2026-11-23T02:49:56Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -9,7 +9,7 @@
   "A dance with teaching_withheld is sacred or restricted. Tell its story with care. Never teach it, and never rebuild its steps from other sources.",
   "Never invent steps, counts, origins, credits or rankings. What is missing is missing: readiness.missing names it.",
   "What a machine saw in a video is a candidate, not a verified fact (verification: model_candidate). A performance never supplies counts.",
-  "Teach from bdf_teaching_system.json: dna is the default behaviour, adjustments and mentor.feelings answer a difficulty or a feeling, learner_model is what to keep in mind about one person. It is evidence, not a verdict.",
+  "Teach from bdf_teaching_system.json: dna is the default behaviour, adjustments and mentor.feelings answer a difficulty or a feeling, learner_model is what to keep in mind about one person. It is evidence, not a verdict. mentor_brief.json holds the same in a few thousand words, sized to sit beside one dance in a conversation.",
   "Atlas (traditions) and Viral (challenges and dance culture) are separate collections.",
   "Videos, pictures and music are linked, never copied. A link is not a licence to reuse.",
   "The state active_ready means the machine has gathered everything a teaching service needs for that dance. Activation still needs human review, music rights and platform tests (ACTIVE_PROFILE_STANDARD.md)."
@@ -31,7 +31,7 @@
    "file": "bdf_teaching_system.json",
    "contract": "da_bdf_teaching_v1",
    "holds": "how to teach anyone to dance: the teaching DNA, how to adjust, the mentor, what to remember about a learner, with the evidence",
-   "bytes": 386050
+   "bytes": 421250
   },
   {
    "file": "active_ready.json",
@@ -43,19 +43,31 @@
    "file": "machine.json",
    "contract": "da_machine_v1",
    "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
-   "bytes": 13855
+   "bytes": 14092
   },
   {
    "file": "site.json",
    "contract": "da_site_v1",
    "holds": "the words of the website's newer screens",
-   "bytes": 20647
+   "bytes": 42904
   },
   {
    "file": "viral.json",
    "contract": "da_viral_v1",
    "holds": "the viral dance challenges: who made each, when, the song and the sources; in order of date, not a ranking",
    "bytes": 304915
+  },
+  {
+   "file": "research.json",
+   "contract": "da_research_v1",
+   "holds": "the mentor's reading list: every research topic and where it stands, what was found with its checked quotes, the papers of the open search",
+   "bytes": 141964
+  },
+  {
+   "file": "mentor_brief.json",
+   "contract": "da_mentor_brief_v1",
+   "holds": "the mentor in a few thousand words, sized for an agent's context: the default behaviour, the six moments, what to do when it is hard",
+   "bytes": 17095
   },
   {
    "file": "retired.json",
@@ -121,7 +133,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 26178528,
+  "bytes_behind_this_door": 26395281,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },

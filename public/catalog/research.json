@@ -1,0 +1,2986 @@
+{
+ "contract": "da_research_v1",
+ "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
+ "counts": {
+  "topics": 80,
+  "read": 35,
+  "next": 6,
+  "waiting": 35,
+  "thin": 1,
+  "no_sources": 0,
+  "unanswered": 3,
+  "owner_topics": 14,
+  "owner_read": 11,
+  "papers": 12,
+  "papers_shown": 12,
+  "findings_checked": 146,
+  "searches": 50,
+  "searches_asked": 10
+ },
+ "a_night": {
+  "topics": 6,
+  "papers": 4
+ },
+ "next": [
+  "peer_tutoring_of_movement",
+  "how_teachers_learn_to_teach",
+  "infants_move_to_rhythm",
+  "speed_and_accuracy",
+  "cognitive_load",
+  "words_and_pictures"
+ ],
+ "groups": [
+  {
+   "key": "ease",
+   "name": "Ease and openness",
+   "owner": true,
+   "topics": [
+    {
+     "key": "psychological_safety",
+     "name": "psychological safety",
+     "state": "read",
+     "tags": [
+      "normalise_mistakes",
+      "names_the_feeling"
+     ],
+     "on": "2026-11-22",
+     "principle": "Psychological safety creates an environment where learners feel free to take risks and focus on the task at hand without fear of judgment or negative consequences for making mistakes.",
+     "for_the_teacher": [
+      "Explicitly state at the beginning of the lesson that mistakes are a normal and expected part of the learning process.",
+      "Share your own past struggles or mistakes to model that it is safe to be imperfect.",
+      "Use encouraging language that focuses on the effort of trying rather than the perfection of the result."
+     ],
+     "when_it_does_not_apply": "Psychological safety may not facilitate learning in environments where there is an absence of interdependence between team members.",
+     "findings": [
+      {
+       "finding": "Feeling safe allows learners to stop worrying about their image and focus entirely on the learning task.",
+       "quote": "Students' sense of PS appeared to free them to focus on learning in the present moment without considering the consequences for their image in the eyes of others.",
+       "source": "https://europepmc.org/article/MED/31365407"
+      },
+      {
+       "finding": "An environment that encourages provisional attempts and tolerates failure without guilt is essential for learning.",
+       "quote": "thus a climate is built which encourages provisional tries and which tolerates failure without retaliation, renunciation, or guilt",
+       "source": "https://en.wikipedia.org/wiki/Psychological_safety"
+      },
+      {
+       "finding": "Openly discussing mistakes creates a cycle where learners feel more comfortable reporting and learning from errors in the future.",
+       "quote": "members in units with psychological safety discuss errors more, which leads to other members being more willing to report errors in the future as there is less risk associated with reporting mistakes.",
+       "source": "https://en.wikipedia.org/wiki/Psychological_safety"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/31365407",
+       "title": "Exploring the Construct of Psychological Safety in Medical Education",
+       "authors": "Tsuei SH, Lee D, Ho C, Regehr G, Nimmon L.",
+       "year": "2019",
+       "journal": "Academic medicine : journal of the Association of American Medical Colleges"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Psychological_safety",
+       "title": "Psychological safety",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
+     ]
+    },
+    {
+     "key": "learning_climate",
+     "name": "learning climate",
+     "state": "read",
+     "tags": [
+      "normalise_mistakes",
+      "praise_and_expectancy",
+      "fun_and_energy"
+     ],
+     "on": "2026-11-22",
+     "principle": "Creating a task-involving environment that focuses on personal growth and effort rather than ego-driven competition improves dancer well-being and long-term adherence.",
+     "for_the_teacher": [
+      "Focus feedback on the learner's personal progress and effort rather than comparing them to others or an ideal standard.",
+      "Use language that emphasizes learning and mastery to foster a task-involving climate.",
+      "Normalize mistakes as a natural part of the learning process to reduce perfectionistic concerns."
+     ],
+     "findings": [
+      {
+       "finding": "A task-involving climate supports the basic psychological needs of autonomy, competence, and relatedness.",
+       "quote": "Perceptions of a task-involving climate were positively associated with satisfaction of the needs for autonomy, competence, and relatedness.",
+       "source": "https://europepmc.org/article/MED/19416610"
+      },
+      {
+       "finding": "Environments that emphasize ego-involving competition are linked to lower rates of long-term participation.",
+       "quote": "greater ego-involving motivational climate perceptions predicted less likelihood of adherence.",
+       "source": "https://europepmc.org/article/MED/25554823"
+      },
+      {
+       "finding": "A task-involving climate encourages striving for excellence without the negative pressure of perfectionistic concerns.",
+       "quote": "perceptions of a task-involving climate in training/performing environments may encourage striving for excellence and perfection without promoting excessive concerns regarding their attainment.",
+       "source": "https://europepmc.org/article/MED/25226607"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/19416610",
+       "title": "Perceptions of the motivational climate, need satisfaction, and indices of well- and ill-being among hip hop dancers",
+       "authors": "Quested E, Duda JL.",
+       "year": "2009",
+       "journal": "Journal of dance medicine & science : official publication of the International Association for Dance Medicine & Science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25554823",
+       "title": "Multidisciplinary predictors of adherence to contemporary dance training: findings from the UK Centres for Advanced Training",
+       "authors": "Aujla IJ, Nordin-Bates SM, Redding E.",
+       "year": "2015",
+       "journal": "Journal of sports sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25226607",
+       "title": "A longitudinal examination of the relationship between perfectionism and motivational climate in dance",
+       "authors": "Nordin-Bates SM, Hill AP, Cumming J, Aujla IJ, Redding E.",
+       "year": "2014",
+       "journal": "Journal of sport & exercise psychology"
+      }
+     ]
+    },
+    {
+     "key": "mindful_movement",
+     "name": "mindful movement",
+     "state": "read",
+     "tags": [
+      "moment_of_presence",
+      "checks_in"
+     ],
+     "on": "2026-11-23",
+     "principle": "Mindfulness practice supports motor performance and flow by encouraging slower, more deliberate movements that enhance body awareness and trajectory control.",
+     "for_the_teacher": [
+      "Encourage learners to perform movements more slowly at first to increase body state monitoring and trajectory control."
+     ],
+     "findings": [
+      {
+       "finding": "Mindfulness meditation practice is associated with slower body movements which lead to better motor performance.",
+       "quote": "Mindfulness meditation practice is associated with slower body movements which in turn may lead to an increase in monitoring of body states and optimized re-adjustment of movement trajectory, and consequently to better motor performance.",
+       "source": "https://europepmc.org/article/MED/22846109"
+      },
+      {
+       "finding": "Mindfulness training can enhance flow experience, which is associated with automatic and effortless control during challenges.",
+       "quote": "Flow is defined as a cognitive state that is associated with a feeling of automatic and effortless control, enabling peak performance in highly challenging situations. In sports, flow can be enhanced by mindfulness training",
+       "source": "https://europepmc.org/article/MED/35966366"
+      },
+      {
+       "finding": "Mindfulness-based interventions can improve executive function and motor skill performance.",
+       "quote": "Preliminary evidence of efficacy was explored, primarily focusing on perceived stress and executive function and secondarily on burnout, depression, motor skill performance",
+       "source": "https://europepmc.org/article/MED/31125095"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/22846109",
+       "title": "Is it me or not me? Modulation of perceptual-motor awareness and visuomotor performance by mindfulness meditation",
+       "authors": "Naranjo JR, Schmidt S.",
+       "year": "2012",
+       "journal": "BMC neuroscience"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/35966366",
+       "title": "Theta Neurofeedback Training Supports Motor Performance and Flow Experience",
+       "authors": "Eschmann KCJ, Riedel L, Mecklinger A.",
+       "year": "2022",
+       "journal": "Journal of cognitive enhancement : towards the integration of theory and practice"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/31125095",
+       "title": "Efficacy of Mindfulness-Based Cognitive Training in Surgery: Additional Analysis of the Mindful Surgeon Pilot Randomized Clinical Trial",
+       "authors": "Lebares CC, Guvva EV, Olaru M, Sugrue LP, Staffaroni AM, Delucchi KL, Kramer JH, Ascher NL, Harris HW.",
+       "year": "2019",
+       "journal": "JAMA network open"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "inspires",
+   "name": "An experience that inspires",
+   "owner": true,
+   "topics": [
+    {
+     "key": "awe_and_transcendence",
+     "name": "awe and transcendence",
+     "state": "read",
+     "tags": [
+      "moment_of_presence",
+      "culture_and_meaning"
+     ],
+     "on": "2026-11-22",
+     "principle": "Awe is an emotion triggered by vast or complex experiences that challenge our current understanding, leading to a diminished focus on the self and an increased sense of connection to others.",
+     "for_the_teacher": [
+      "Incorporate music or visual elements that evoke a sense of vastness or beauty to help students shift their focus away from day-to-day anxieties.",
+      "Encourage students to reflect on the 'bigger picture' of their movement practice to foster a sense of self-transcendence and connection to the dance community."
+     ],
+     "when_it_does_not_apply": "Awe may not be experienced if the stimulus is easily assimilated into existing knowledge or if the individual is in actual physical danger.",
+     "findings": [
+      {
+       "finding": "Awe arises when we encounter stimuli that exceed our existing mental structures, requiring us to adjust our perspective.",
+       "quote": "the emotion of awe (i.e., challenge that exceeds the scope of one's mental structures, requiring cognitive accommodation) awakens self-transcendence",
+       "source": "https://europepmc.org/article/MED/34855435"
+      },
+      {
+       "finding": "Experiencing awe can help learners feel less focused on their individual concerns and more connected to the world around them.",
+       "quote": "When describing the experience of natural beauty, participants were more likely to report that they felt unaware of day-to-day concerns, felt the presence of something greater",
+       "source": "https://en.wikipedia.org/wiki/Awe"
+      },
+      {
+       "finding": "Awe is linked to improved well-being and a greater sense of meaning, which can foster a more positive learning environment.",
+       "quote": "Awe involves five processes linked to well-being: \"shifts in neurophysiology, a diminished focus on the self, increased prosocial relationality, greater social integration, and a heightened sense of meaning.\"",
+       "source": "https://en.wikipedia.org/wiki/Awe"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/34855435",
+       "title": "Awe motivates authentic-self pursuit via self-transcendence: Implications for prosociality",
+       "authors": "Jiang T, Sedikides C.",
+       "year": "2022",
+       "journal": "Journal of personality and social psychology"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Awe",
+       "title": "Awe",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
+     ]
+    },
+    {
+     "key": "spirituality_and_dance",
+     "name": "spirituality and dance",
+     "state": "read",
+     "tags": [
+      "moment_of_presence",
+      "culture_and_meaning"
+     ],
+     "on": "2026-11-22",
+     "principle": "Dance interventions can improve well-being by addressing the physical, emotional, social, and spiritual aspects of a person's life.",
+     "for_the_teacher": [
+      "Incorporate the cultural context or meaning behind the dance movements to help students connect more deeply with the practice.",
+      "Use song lyrics or music with meaningful themes to provide cues that help students feel a sense of ownership over their practice.",
+      "Design sessions that encourage the coordination of body, mind, and spirit to support holistic well-being."
+     ],
+     "findings": [
+      {
+       "finding": "Dance can help people connect to cultural heritage and traditions, which enhances the meaningfulness of the activity.",
+       "quote": "Participants recognized that hula's coordination of body, mind, and spirit as a group activity deepened their appreciation of and connections to Hawaiian culture.",
+       "source": "https://europepmc.org/article/MED/24677383"
+      },
+      {
+       "finding": "Dance-based interventions are effective at reducing depression in individuals with cognitive impairments.",
+       "quote": "There were significant differences in decreasing depression in favor of dance-based interventions compared with controls",
+       "source": "https://europepmc.org/article/MED/35069306"
+      },
+      {
+       "finding": "Dance therapy is a holistic approach that integrates physical, psychological, social, and spiritual needs.",
+       "quote": "Dance/movement therapy is introduced as a holistic approach to children's health issues, incorporating an array of medical, psychological, social, and spiritual issues.",
+       "source": "https://europepmc.org/article/MED/9893002"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/24677383",
+       "title": "Patient perspectives on the Hula Empowering Lifestyle Adaptation Study: benefits of dancing hula for cardiac rehabilitation",
+       "authors": "Maskarinec GG, Look M, Tolentino K, Trask-Batti M, Seto T, de Silva M, Kaholokula JK.",
+       "year": "2015",
+       "journal": "Health promotion practice"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/35069306",
+       "title": "Effectiveness of Dance-Based Interventions on Depression for Persons With MCI and Dementia: A Systematic Review and Meta-Analysis",
+       "authors": "Wang Y, Liu M, Tan Y, Dong Z, Wu J, Cui H, Shen D, Chi I.",
+       "year": "2021",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/9893002",
+       "title": "Dance/Movement therapy for children and adolescents with cancer",
+       "authors": "Cohen SO, Walco GA.",
+       "year": "1999",
+       "journal": "Cancer practice"
+      }
+     ]
+    },
+    {
+     "key": "ritual_and_belonging",
+     "name": "ritual and belonging",
+     "state": "read",
+     "tags": [
+      "social_connection",
+      "moment_of_presence"
+     ],
+     "on": "2026-11-23",
+     "principle": "Group activities involving synchronous actions strengthen social attachment, cooperation, and bonding among participants.",
+     "for_the_teacher": [
+      "Include group challenges or follow-along rounds where everyone performs the same movement in unison to build social connection."
+     ],
+     "findings": [
+      {
+       "finding": "Rituals that involve synchronous activity can produce positive emotions and reduce psychological barriers between individuals and the group.",
+       "quote": "Anthropologists and sociologists have speculated that rituals involving synchronous activity may produce positive emotions that weaken the psychological boundaries between the self and the group.",
+       "source": "https://europepmc.org/article/MED/19152536"
+      },
+      {
+       "finding": "Engaging in synchronous actions with others increases cooperation by strengthening social attachments.",
+       "quote": "In total, the results suggest that acting in synchrony with others can increase cooperation by strengthening social attachment among group members.",
+       "source": "https://europepmc.org/article/MED/19152536"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/19152536",
+       "title": "Synchrony and cooperation",
+       "authors": "Wiltermuth SS, Heath C.",
+       "year": "2009",
+       "journal": "Psychological science"
+      }
+     ]
+    },
+    {
+     "key": "meaning_and_staying",
+     "name": "meaning and staying",
+     "state": "read",
+     "tags": [
+      "culture_and_meaning",
+      "reason_to_return"
+     ],
+     "on": "2026-11-23",
+     "principle": "Maintaining physical activity and a sense of meaning in life supports cognitive and mental well-being in older adults, while technology can facilitate rewarding activities and social connections.",
+     "for_the_teacher": [
+      "Connect the movement practice to a sense of personal meaning and rewarding activities to encourage continued engagement."
+     ],
+     "findings": [
+      {
+       "finding": "Maintaining an intellectually engaged and physically active lifestyle promotes successful cognitive aging.",
+       "quote": "We conclude that, on balance, the available evidence favors the hypothesis that maintaining an intellectually engaged and physically active lifestyle promotes successful cognitive aging.",
+       "source": "https://europepmc.org/article/MED/26162004"
+      },
+      {
+       "finding": "Poor sense of meaning in life is significantly associated with physical inactivity among older adults.",
+       "quote": "Increasing age, depression, physical limitations, poor sense of meaning in life, social support and memory loss were significant variables associated with physical inactivity.",
+       "source": "https://europepmc.org/article/MED/28181637"
+      },
+      {
+       "finding": "Smart technology can support meaning in life by facilitating rewarding activities and relationships.",
+       "quote": "This study indicated that smart technology during the Health Emergency period was important for the meaning in life of older populations, mostly by facilitating meaningful relations, rewarding activities and spirituality.",
+       "source": "https://europepmc.org/article/MED/33016790"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/26162004",
+       "title": "Enrichment Effects on Adult Cognitive Development: Can the Functional Capacity of Older Adults Be Preserved and Enhanced?",
+       "authors": "Hertzog C, Kramer AF, Wilson RS, Lindenberger U.",
+       "year": "2008",
+       "journal": "Psychological science in the public interest : a journal of the American Psychological Society"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28181637",
+       "title": "Physical inactivity among older adults across Europe based on the SHARE database",
+       "authors": "Gomes M, Figueiredo D, Teixeira L, Poveda V, Paúl C, Santos-Silva A, Costa E.",
+       "year": "2017",
+       "journal": "Age and ageing"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/33016790",
+       "title": "Smart technology and the meaning in life of older adults during the Covid-19 public health emergency period: a cross-cultural qualitative study",
+       "authors": "von Humboldt S, Mendoza-Ruvalcaba NM, Arias-Merino ED, Costa A, Cabras E, Low G, Leal I.",
+       "year": "2020",
+       "journal": "International review of psychiatry (Abingdon, England)"
+      }
+     ]
+    },
+    {
+     "key": "embodied_learning",
+     "name": "embodied learning",
+     "state": "read",
+     "tags": [
+      "culture_and_meaning",
+      "feel_and_groove"
+     ],
+     "on": "2026-11-23",
+     "principle": "Emodied learning relies on physical activity, multisensory experience, and bodily engagement to help learners build new skills and patterns of acting.",
+     "for_the_teacher": [
+      "Use direct physical demonstration paired with multiple repetitions to help learners build skill memories.",
+      "Involve whole-body movements and active bodily engagement to support kinesthetic processing during lessons."
+     ],
+     "when_it_does_not_apply": "Scientific studies do not support the claim that using a kinesthetic modality improves learning specifically in students who merely identify kinesthetic learning as their preferred learning style.",
+     "findings": [
+      {
+       "finding": "Bodily activity and multisensory experience cause embodied changes that become an automatic part of expertise.",
+       "quote": "It illustrates how multisensory experience causes embodied changes that become an automatic part of physician expertise.",
+       "source": "https://europepmc.org/article/MED/31216603"
+      },
+      {
+       "finding": "Kinesthetic learning is defined as the process that results in new knowledge through the involvement of body movement.",
+       "quote": "She defined kinesthetic learning as the process that results in new knowledge (or understanding) with the involvement of the learner's body movement.",
+       "source": "https://en.wikipedia.org/wiki/Kinesthetic_learning"
+      },
+      {
+       "finding": "Skill memories are acquired through direct demonstration and require several repetitions.",
+       "quote": "Skill memories are difficult to convey except by direct demonstration, may be acquired without awareness, and require several repetitions.",
+       "source": "https://en.wikipedia.org/wiki/Kinesthetic_learning"
+      },
+      {
+       "finding": "Interventions that include higher levels of bodily embodiment can significantly increase learner engagement and learning gains.",
+       "quote": "Results demonstrated that the three groups that included embodiment learned significantly more than the symbols and text group on the traditional keyboard post-test.",
+       "source": "https://europepmc.org/article/MED/28603770"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/31216603",
+       "title": "Body pedagogics: embodied learning for the health professions",
+       "authors": "Kelly M, Ellaway R, Scherpbier A, King N, Dornan T.",
+       "year": "2019",
+       "journal": "Medical education"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Kinesthetic_learning",
+       "title": "Kinesthetic learning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28603770",
+       "title": "Embodied science and mixed reality: How gesture and motion capture affect physics education",
+       "authors": "Johnson-Glenberg MC, Megowan-Romanowicz C.",
+       "year": "2017",
+       "journal": "Cognitive research: principles and implications"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "teach",
+   "name": "People who learn to teach",
+   "owner": true,
+   "topics": [
+    {
+     "key": "learning_by_teaching",
+     "name": "learning by teaching",
+     "state": "read",
+     "tags": [
+      "teach_back"
+     ],
+     "on": "2026-11-22",
+     "principle": "The act of teaching material to others or explaining it to an object deepens the learner's own understanding and improves their knowledge retention.",
+     "for_the_teacher": [
+      "Ask the learner to explain the dance step or movement back to the camera as if they were teaching a beginner.",
+      "Encourage the learner to practice by explaining the movement out loud to an inanimate object in their room.",
+      "If a learner struggles to explain a movement, prompt them to re-watch the demonstration video to clarify their understanding."
+     ],
+     "findings": [
+      {
+       "finding": "Teaching others helps learners refine their own understanding and grasp of the material.",
+       "quote": "The educational principle Lernen durch Lehren (LdL), or Learning by Teaching, has long been recognized for its ability to deepen the understanding of students through the act of teaching others.",
+       "source": "https://en.wikipedia.org/wiki/Learning_by_teaching"
+      },
+      {
+       "finding": "Explaining a concept to an inanimate object can help a learner identify gaps in their own knowledge.",
+       "quote": "This technique is based on evidence that show that teaching an inanimate object improves understanding and knowledge retention of a subject.",
+       "source": "https://en.wikipedia.org/wiki/Learning_by_teaching"
+      },
+      {
+       "finding": "When a learner cannot explain a concept clearly, it signals that they need to revisit and research the topic further.",
+       "quote": "When the writer reaches an area which they are unable to comfortably explain, they go back and re-read or research the topic until they are able to do so.",
+       "source": "https://en.wikipedia.org/wiki/Learning_by_teaching"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Learning_by_teaching",
+       "title": "Learning by teaching",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
+     ]
+    },
+    {
+     "key": "peer_teaching",
+     "name": "peer teaching",
+     "state": "read",
+     "tags": [
+      "teach_back",
+      "social_connection"
+     ],
+     "on": "2026-11-22",
+     "principle": "Peer teaching enhances motor skill acquisition and pedagogical understanding by requiring learners to clarify and elaborate on movements while providing structured feedback to one another.",
+     "for_the_teacher": [
+      "Ask the learner to explain a dance step or movement back to the camera as if they were teaching it to a friend.",
+      "Provide the learner with a structured checklist or specific cues to use when they are asked to 'teach' a movement.",
+      "Encourage the use of video recording so the learner can analyze their own movement or a partner's movement during practice."
+     ],
+     "findings": [
+      {
+       "finding": "Explaining concepts to others helps students clarify and refine their understanding of the material.",
+       "quote": "the act of teaching another individual demands that students \"clarify, elaborate on, and otherwise reconceptualize material.\"",
+       "source": "https://en.wikipedia.org/wiki/Peer_learning"
+      },
+      {
+       "finding": "Peer teachers who receive formal training and resources provide better feedback and improve the motor performance of their peers.",
+       "quote": "These findings show that non-reciprocal peer-teachers who receive formalized support through training and tactical games approach-based teaching resources can enhance behavioral, pedagogical, and motor performance outcomes in PE.",
+       "source": "https://europepmc.org/article/MED/25741309"
+      },
+      {
+       "finding": "Combining peer teaching with video analysis leads to faster improvements in motor skills.",
+       "quote": "A single 20-minute session of peer teaching with video analysis feedback during practice led to rapid enhancements in non-dominant hand overarm throwing skills.",
+       "source": "https://europepmc.org/article/MED/37997820"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Peer_learning",
+       "title": "Peer learning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25741309",
+       "title": "The effects of formalized and trained non-reciprocal peer teaching on psychosocial, behavioral, pedagogical, and motor learning outcomes in physical education",
+       "authors": "Whipp PR, Jackson B, Dimmock JA, Soh J.",
+       "year": "2015",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/37997820",
+       "title": "Examining Single Session Peer-Teaching Instructional Approaches on Pre-Service Physical Education Teachers' Throwing Techniques",
+       "authors": "Beseler B, Plumb MS, Spittle M, Johnson NF, Harvey JT, Mesagno C.",
+       "year": "2024",
+       "journal": "Perceptual and motor skills"
+      }
+     ]
+    },
+    {
+     "key": "peer_tutoring_of_movement",
+     "name": "peer tutoring of movement",
+     "state": "next",
+     "tags": [
+      "teach_back",
+      "error_correction"
+     ]
+    },
+    {
+     "key": "peer_mentoring",
+     "name": "peer mentoring",
+     "state": "read",
+     "tags": [
+      "teach_back",
+      "own_story"
+     ],
+     "on": "2026-11-23",
+     "principle": "Structured peer mentoring and support improve self-efficacy, motivation, and skill development through regular connection.",
+     "for_the_teacher": [
+      "Provide regular check-ins and structured peer support opportunities to boost learner confidence and motivation."
+     ],
+     "findings": [
+      {
+       "finding": "Female peer mentors protect women's belonging, self-efficacy, and retention in engineering during college transition.",
+       "quote": "Female (but not male) mentors protected women's belonging in engineering, self-efficacy, motivation, retention in engineering majors, and postcollege engineering aspirations.",
+       "source": "https://europepmc.org/article/MED/28533360"
+      },
+      {
+       "finding": "Intensive peer mentoring during and after rehabilitation leads to greater gains in self-efficacy over time.",
+       "quote": "individuals receiving intensive peer mentoring during and after rehabilitation for SCI/D demonstrate greater gains in self-efficacy over time and have fewer days of unplanned rehospitalization",
+       "source": "https://europepmc.org/article/MED/28342829"
+      },
+      {
+       "finding": "Online peer support programs improve participants' perceived ability to manage chronic conditions and satisfaction.",
+       "quote": "Participants who completed the iPeer2Peer Program demonstrated improvements in their perceived ability to manage JIA",
+       "source": "https://europepmc.org/article/MED/27590668"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/28533360",
+       "title": "Female peer mentors early in college increase women's positive academic experiences and retention in engineering",
+       "authors": "Dennehy TC, Dasgupta N.",
+       "year": "2017",
+       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28342829",
+       "title": "Effects of Peer Mentoring on Self-Efficacy and Hospital Readmission After Inpatient Rehabilitation of Individuals With Spinal Cord Injury: A Randomized Controlled Trial",
+       "authors": "Gassaway J, Jones ML, Sweatman WM, Hong M, Anziano P, DeVault K.",
+       "year": "2017",
+       "journal": "Archives of physical medicine and rehabilitation"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/27590668",
+       "title": "The iPeer2Peer Program: a pilot randomized controlled trial in adolescents with Juvenile Idiopathic Arthritis",
+       "authors": "Stinson J, Ahola Kohut S, Forgeron P, Amaria K, Bell M, Kaufman M, Luca N, Luca S, Harris L, Victor C, Spiegel L.",
+       "year": "2016",
+       "journal": "Pediatric rheumatology online journal"
+      }
+     ]
+    },
+    {
+     "key": "life_skills_that_transfer",
+     "name": "life skills that transfer",
+     "state": "thin",
+     "tags": [
+      "method_made_visible",
+      "long_road"
+     ],
+     "on": "2026-11-23"
+    },
+    {
+     "key": "how_teachers_learn_to_teach",
+     "name": "how teachers learn to teach",
+     "state": "next",
+     "tags": [
+      "method_made_visible"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "see-it",
+   "name": "See it",
+   "owner": false,
+   "topics": [
+    {
+     "key": "observational_learning",
+     "name": "observational learning",
+     "state": "read",
+     "tags": [
+      "demo_first",
+      "mirror_view"
+     ],
+     "on": "2026-11-17",
+     "principle": "Watching a model perform helps learners acquire motor skills, and guiding their visual attention to key features further accelerates this learning.",
+     "for_the_teacher": [
+      "Show the movement demonstration clearly before letting learners practice physically.",
+      "Highlight key parts of the body or setup on screen to guide the learner's gaze during demonstrations."
+     ],
+     "findings": [
+      {
+       "finding": "Observation of a model prior to physical practice facilitates the acquisition of motor skills.",
+       "quote": "Observation of a model prior to physical practice often facilitates the acquisition of motor skills.",
+       "source": "https://europepmc.org/article/MED/1574658"
+      },
+      {
+       "finding": "Visual guidance directing gaze to relevant regions during observation improves motor skill execution and retention.",
+       "quote": "our results suggest that visual guidance to cued areas during observational learning of complex motor skills may accelerate acquisition of the skill.",
+       "source": "https://europepmc.org/article/MED/27224057"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/1574658",
+       "title": "Effects of the model's skill level on observational motor learning",
+       "authors": "Pollock BJ, Lee TD.",
+       "year": "1992",
+       "journal": "Research quarterly for exercise and sport"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/27224057",
+       "title": "Looking to Learn: The Effects of Visual Guidance on Observational Learning of the Golf Swing",
+       "authors": "D'Innocenzo G, Gonzalez CC, Williams AM, Bishop DT.",
+       "year": "2016",
+       "journal": "PloS one"
+      }
+     ]
+    },
+    {
+     "key": "action_observation_in_dance",
+     "name": "action observation in dance",
+     "state": "read",
+     "tags": [
+      "demo_first",
+      "mirror_view"
+     ],
+     "on": "2026-11-17",
+     "principle": "When people observe actions they already know or have seen before, their brain's mirror and motor areas simulate those movements more strongly.",
+     "for_the_teacher": [
+      "Let learners watch dance sequences repeatedly to build visual familiarity and engage their motor simulation networks before they try to execute the movements."
+     ],
+     "findings": [
+      {
+       "finding": "Expert dancers show greater brain activation in premotor and parietal areas when watching movements from their own trained dance style compared to unfamiliar styles.",
+       "quote": "We found greater bilateral activations in premotor cortex and intraparietal sulcus, right superior parietal lobe and left posterior superior temporal sulcus when expert dancers viewed movements that they had been trained to perform compared to movements they had not.",
+       "source": "https://europepmc.org/article/MED/15616133"
+      },
+      {
+       "finding": "Brain activity during action simulation is enhanced when learners have physical experience or practice with the observed movements.",
+       "quote": "Critically, inferior parietal lobule and ventral premotor activity was modulated as a function of dancers' ratings of their own ability to perform the observed movements and their motor experience.",
+       "source": "https://europepmc.org/article/MED/16530429"
+      },
+      {
+       "finding": "Observational learning alone helps build action resonance processes in the brain even without immediate physical practice.",
+       "quote": "These imaging data demonstrate the emergence of action resonance processes in the human brain based on observational learning without physical practice and identify commonalities in the neural substrates for physical and observational learning.",
+       "source": "https://europepmc.org/article/MED/18515297"
+      },
+      {
+       "finding": "Visual familiarity through frequent viewing of a specific dance style can enhance motor simulation and corticospinal excitability even without physical training.",
+       "quote": "We observed that frequent ballet spectators showed larger MEP amplitudes in the arm muscles when watching ballet compared to when they watched other performances.",
+       "source": "https://europepmc.org/article/MED/22457754"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/15616133",
+       "title": "Action observation and acquired motor skills: an FMRI study with expert dancers",
+       "authors": "Calvo-Merino B, Glaser DE, Grèzes J, Passingham RE, Haggard P.",
+       "year": "2005",
+       "journal": "Cerebral cortex (New York, N.Y. : 1991)"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/16530429",
+       "title": "Building a motor simulation de novo: observation of dance by dancers",
+       "authors": "Cross ES, Hamilton AF, Grafton ST.",
+       "year": "2006",
+       "journal": "NeuroImage"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/18515297",
+       "title": "Sensitivity of the action observation network to physical and observational learning",
+       "authors": "Cross ES, Kraemer DJ, Hamilton AF, Kelley WM, Grafton ST.",
+       "year": "2009",
+       "journal": "Cerebral cortex (New York, N.Y. : 1991)"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/22457754",
+       "title": "Motor simulation without motor expertise: enhanced corticospinal excitability in visually experienced dance spectators",
+       "authors": "Jola C, Abedian-Amiri A, Kuppuswamy A, Pollick FE, Grosbras MH.",
+       "year": "2012",
+       "journal": "PloS one"
+      }
+     ]
+    },
+    {
+     "key": "words_and_pictures",
+     "name": "words and pictures",
+     "state": "next",
+     "tags": [
+      "on_screen_counts",
+      "split_screen"
+     ]
+    },
+    {
+     "key": "mirrors_in_dance",
+     "name": "mirrors in dance",
+     "state": "waiting",
+     "tags": [
+      "mirror_view",
+      "self_check"
+     ]
+    },
+    {
+     "key": "online_dance_learning",
+     "name": "online dance learning",
+     "state": "waiting",
+     "tags": [
+      "split_screen",
+      "mirror_view",
+      "social_connection"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "build-it",
+   "name": "Build it",
+   "owner": false,
+   "topics": [
+    {
+     "key": "music_and_reward",
+     "name": "music and reward",
+     "state": "read",
+     "tags": [
+      "music_early",
+      "fun_and_energy",
+      "quick_win"
+     ],
+     "on": "2026-11-17",
+     "principle": "Music acts as a powerful abstract reward that triggers dopamine release, which in turn drives motivation and the pleasure experienced during movement.",
+     "for_the_teacher": [
+      "Incorporate music early in the learning process to leverage its role as a natural reward system.",
+      "Build anticipation for the music or the movement phrase to engage the learner's dopaminergic system before the peak of the activity.",
+      "Use music that the learner finds personally pleasurable to maximize their motivation and hedonic experience."
+     ],
+     "when_it_does_not_apply": "Approximately 5% of the population may experience 'specific music anhedonia,' where they do not derive pleasure from music despite normal perception abilities.",
+     "findings": [
+      {
+       "finding": "Music triggers dopamine release in the brain's reward system, which is essential for experiencing pleasure and motivation.",
+       "quote": "Specifically, the dorsal and ventral striatum release dopamine when listening to pleasurable music, and activity in these structures also codes the reward value of musical excerpts.",
+       "source": "https://europepmc.org/article/MED/25773636"
+      },
+      {
+       "finding": "Dopamine levels directly influence how much pleasure and motivation a person derives from listening to music.",
+       "quote": "we demonstrate that levodopa and risperidone led to opposite effects in measures of musical pleasure and motivation: while the dopamine precursor levodopa, compared with placebo, increased the hedonic experience",
+       "source": "https://europepmc.org/article/MED/30670642"
+      },
+      {
+       "finding": "The brain processes the anticipation of music and the actual experience of music through distinct neural pathways.",
+       "quote": "the caudate was more involved during the anticipation and the nucleus accumbens was more involved during the experience of peak emotional responses to music.",
+       "source": "https://europepmc.org/article/MED/21217764"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/25773636",
+       "title": "Musical pleasure and reward: mechanisms and dysfunction",
+       "authors": "Zatorre RJ.",
+       "year": "2015",
+       "journal": "Annals of the New York Academy of Sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/30670642",
+       "title": "Dopamine modulates the reward experiences elicited by music",
+       "authors": "Ferreri L, Mas-Herrero E, Zatorre RJ, Ripollés P, Gomez-Andres A, Alicart H, Olivé G, Marco-Pallarés J, Antonijoan RM, Valle M, Riba J, Rodriguez-Fornells A.",
+       "year": "2019",
+       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/21217764",
+       "title": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+       "authors": "Salimpoor VN, Benovoy M, Larcher K, Dagher A, Zatorre RJ.",
+       "year": "2011",
+       "journal": "Nature neuroscience"
+      }
+     ]
+    },
+    {
+     "key": "chunking",
+     "name": "chunking",
+     "state": "read",
+     "tags": [
+      "chunking",
+      "layering"
+     ],
+     "on": "2026-11-17",
+     "principle": "When learning a new sequence, breaking movements into smaller clusters or chunks reduces working memory load and improves retention and performance.",
+     "for_the_teacher": [
+      "Break down long movement sequences into smaller groups of three to four elements to match optimal memory chunk sizes."
+     ],
+     "findings": [
+      {
+       "finding": "Working memory is relied on during learning new action sequences for chunking individual action elements together.",
+       "quote": "they suggest that working memory is relied on during learning new action sequences for chunking individual action elements together.",
+       "source": "https://europepmc.org/article/MED/23237467"
+      },
+      {
+       "finding": "Individuals naturally group elementary movements into efficient memory units, or chunks, when learning a motor sequence.",
+       "quote": "human subjects learn a visuomotor sequence by spontaneously chunking the elementary movements, while each chunk acts as a single memory unit.",
+       "source": "https://europepmc.org/article/MED/12879170"
+      },
+      {
+       "finding": "The striatal system plays a critical role in motor chunking and predictive stimulus-response associations.",
+       "quote": "The striatal system learns predictive stimulus-response associations and is critical for motor chunking.",
+       "source": "https://europepmc.org/article/MED/22004979"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/23237467",
+       "title": "Neurocognitive contributions to motor skill learning: the role of working memory",
+       "authors": "Seidler RD, Bo J, Anguera JA.",
+       "year": "2012",
+       "journal": "Journal of motor behavior"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/12879170",
+       "title": "Chunking during human visuomotor sequence learning",
+       "authors": "Sakai K, Kitaguchi K, Hikosaka O.",
+       "year": "2003",
+       "journal": "Experimental brain research"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/22004979",
+       "title": "Parallel contributions of cerebellar, striatal and M1 mechanisms to motor sequence learning",
+       "authors": "Penhune VB, Steele CJ.",
+       "year": "2012",
+       "journal": "Behavioural brain research"
+      }
+     ]
+    },
+    {
+     "key": "part_and_whole_practice",
+     "name": "part and whole practice",
+     "state": "unanswered",
+     "tags": [
+      "chunking",
+      "layering",
+      "demo_first"
+     ],
+     "on": "2026-11-17"
+    },
+    {
+     "key": "spacing",
+     "name": "spacing",
+     "state": "unanswered",
+     "tags": [
+      "recap_and_practice_plan",
+      "repetition"
+     ],
+     "on": "2026-11-17"
+    },
+    {
+     "key": "rhythm_entrainment",
+     "name": "rhythm entrainment",
+     "state": "read",
+     "tags": [
+      "counts_and_rhythm",
+      "music_early",
+      "feel_and_groove"
+     ],
+     "on": "2026-11-20",
+     "principle": "Research shows that humans synchronize their physical movements with external auditory rhythms through cortical and neural mechanisms that link beat perception directly to predictive sensorimotor synchronization.",
+     "for_the_teacher": [
+      "Ensure learners practice physical movements alongside clear musical beats to support sensorimotor synchronization."
+     ],
+     "findings": [
+      {
+       "finding": "Beat induction enables humans to infer a regular pulse from sound patterns and synchronize their physical movements to it.",
+       "quote": "Beat induction is the process in which a regular isochronous pulse is activated while one listens to music",
+       "source": "https://en.wikipedia.org/wiki/Entrainment_(biomusicology)"
+      },
+      {
+       "finding": "Sensorimotor synchronization coordinates rhythmic movements with external auditory rhythms.",
+       "quote": "Sensorimotor synchronization (SMS) is the coordination of rhythmic movement with an external rhythm, ranging from finger tapping in time with a metronome to musical ensemble performance.",
+       "source": "https://europepmc.org/article/MED/23397235"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Entrainment_(biomusicology)",
+       "title": "Entrainment (biomusicology)",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23397235",
+       "title": "Sensorimotor synchronization: a review of recent research (2006-2012)",
+       "authors": "Repp BH, Su YH.",
+       "year": "2013",
+       "journal": "Psychonomic bulletin & review"
+      }
+     ]
+    },
+    {
+     "key": "groove",
+     "name": "groove",
+     "state": "read",
+     "tags": [
+      "music_early",
+      "feel_and_groove"
+     ],
+     "on": "2026-11-20",
+     "principle": "Medium degrees of syncopation and high-groove music engage the motor system and elicit the strongest desire to move and experience pleasure.",
+     "for_the_teacher": [
+      "Use music with medium syncopation and strong groove elements to naturally elicit a desire to move in learners."
+     ],
+     "findings": [
+      {
+       "finding": "Medium levels of syncopation elicit the highest ratings of wanting to move and experience pleasure.",
+       "quote": "the results showed that medium degrees of syncopation elicited the most desire to move and the most pleasure",
+       "source": "https://europepmc.org/article/MED/24740381"
+      },
+      {
+       "finding": "High-groove music modulates and increases activity within the motor system.",
+       "quote": "These results indicate that high-groove music increasingly engages the motor system",
+       "source": "https://europepmc.org/article/MED/23660433"
+      },
+      {
+       "finding": "The temporal qualities of music, including its pulse and rhythmic patterns, drive the universal urge to move.",
+       "quote": "it is usually the temporal qualities of the music-its pulse, tempo, and rhythmic patterns-that put them in this state.",
+       "source": "https://europepmc.org/article/MED/29035690"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/24740381",
+       "title": "Syncopation, body-movement and pleasure in groove music",
+       "authors": "Witek MA, Clarke EF, Wallentin M, Kringelbach ML, Vuust P.",
+       "year": "2014",
+       "journal": "PloS one"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23660433",
+       "title": "Musical groove modulates motor cortex excitability: a TMS investigation",
+       "authors": "Stupacher J, Hove MJ, Novembre G, Schütz-Bosbach S, Keller PE.",
+       "year": "2013",
+       "journal": "Brain and cognition"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/29035690",
+       "title": "The Psychology of Music: Rhythm and Movement",
+       "authors": "Levitin DJ, Grahn JA, London J.",
+       "year": "2018",
+       "journal": "Annual review of psychology"
+      }
+     ]
+    },
+    {
+     "key": "speed_and_accuracy",
+     "name": "speed and accuracy",
+     "state": "next",
+     "tags": [
+      "tempo_ramp"
+     ]
+    },
+    {
+     "key": "cognitive_load",
+     "name": "cognitive load",
+     "state": "next",
+     "tags": [
+      "chunking",
+      "on_screen_counts",
+      "split_screen"
+     ]
+    },
+    {
+     "key": "mastery_learning",
+     "name": "mastery learning",
+     "state": "waiting",
+     "tags": [
+      "repetition",
+      "progression"
+     ]
+    },
+    {
+     "key": "overlearning",
+     "name": "overlearning",
+     "state": "waiting",
+     "tags": [
+      "repetition"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "feel-it",
+   "name": "Feel it",
+   "owner": false,
+   "topics": [
+    {
+     "key": "external_focus",
+     "name": "external focus",
+     "state": "read",
+     "tags": [
+      "imagery"
+     ],
+     "on": "2026-11-17",
+     "principle": "Directing a learner's attention to the external effects of their movements rather than to the body movements themselves enhances motor learning and performance.",
+     "for_the_teacher": [
+      "Instruct users to focus on the external effects of their movements rather than on how their body parts are moving.",
+      "Design feedback cues that direct attention further away from the user's body to promote more effective movement control."
+     ],
+     "findings": [
+      {
+       "finding": "An external focus of attention on the intended movement effect helps establish efficient functional connections across brain networks that support skilled movement.",
+       "quote": "Furthermore, we consider the influence of an external focus for the establishment of efficient functional connections across brain networks that subserve skilled movement.",
+       "source": "https://europepmc.org/article/MED/26833314"
+      },
+      {
+       "finding": "Increasing the physical distance between the body and the external effect of the action can further enhance learning advantages.",
+       "quote": "The purpose of the present study was to test the hypothesis that increasing the distance between the body and the action effects might further enhance the learning advantages associated with an external focus of attention.",
+       "source": "https://europepmc.org/article/MED/12589447"
+      },
+      {
+       "finding": "Instructions or feedback that induce an external focus of attention are generally more effective than those prompting an internal focus.",
+       "quote": "instructions or feedback inducing an external focus may be more effective than those with an internal focus.",
+       "source": "https://europepmc.org/article/MED/16777770"
+      },
+      {
+       "finding": "Providing feedback that emphasizes movement effects leads to greater task accuracy than feedback that focuses on body movements.",
+       "quote": "External-focus feedback resulted in greater accuracy than internal-focus feedback did.",
+       "source": "https://europepmc.org/article/MED/12057890"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/26833314",
+       "title": "Optimizing performance through intrinsic motivation and attention for learning: The OPTIMAL theory of motor learning",
+       "authors": "Wulf G, Lewthwaite R.",
+       "year": "2016",
+       "journal": "Psychonomic bulletin & review"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/12589447",
+       "title": "Increasing the distance of an external focus of attention enhances learning",
+       "authors": "McNevin NH, Shea CH, Wulf G.",
+       "year": "2003",
+       "journal": "Psychological research"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/16777770",
+       "title": "Extrinsic feedback for motor learning after stroke: what is the evidence?",
+       "authors": "van Vliet PM, Wulf G.",
+       "year": "2006",
+       "journal": "Disability and rehabilitation"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/12057890",
+       "title": "Enhancing the learning of sport skills through external-focus feedback",
+       "authors": "Wulf G, McConnel N, Gärtner M, Schwarz A.",
+       "year": "2002",
+       "journal": "Journal of motor behavior"
+      }
+     ]
+    },
+    {
+     "key": "varied_practice",
+     "name": "varied practice",
+     "state": "unanswered",
+     "tags": [
+      "play_and_variation",
+      "repetition"
+     ],
+     "on": "2026-11-17"
+    },
+    {
+     "key": "motor_imagery",
+     "name": "motor imagery",
+     "state": "read",
+     "tags": [
+      "imagery",
+      "recap_and_practice_plan"
+     ],
+     "on": "2026-11-19",
+     "principle": "Mentally simulating movements engages motor circuits in the brain, improving performance when combined with physical practice.",
+     "for_the_teacher": [
+      "Guide students through a brief mental rehearsal of a movement phrase before physically executing it.",
+      "Pair physical movement reps with periods of vivid internal imagery, focusing on muscle sensations and visual steps."
+     ],
+     "when_it_does_not_apply": "The vividness of motor imagery can be weakened by lower limb loss, immobilization, or disuse.",
+     "findings": [
+      {
+       "finding": "Combining mental practice with physical practice improves skill learning equal to or better than physical practice alone.",
+       "quote": "In some medical, musical, and athletic contexts, when paired with physical rehearsal, mental rehearsal can be as effective as pure physical rehearsal (practice) of an action.",
+       "source": "https://en.wikipedia.org/wiki/Motor_imagery"
+      },
+      {
+       "finding": "Mental practice creates a distinct cognitive process that physical movement cannot replicate on its own.",
+       "quote": "Physical practice generates the physical feedback necessary to improve, while mental practice creates a cognitive process physical practice cannot easily replicate.",
+       "source": "https://en.wikipedia.org/wiki/Motor_imagery"
+      },
+      {
+       "finding": "Regular dance practice and motor activities increase an individual's ability to generate vivid mental images of movements.",
+       "quote": "The mental representation of actions is highly modulated by imagery practice and motor activities.",
+       "source": "https://europepmc.org/article/MED/19182047"
+      },
+      {
+       "finding": "Mentally simulating complex dance movements requires greater cognitive resources than simulating simple everyday actions.",
+       "quote": "That KMI of a complex dance sequence relative to everyday, non-dance movements recruits greater cognitive resources suggests it may be a more powerful tool in driving neural plasticity of action networks",
+       "source": "https://europepmc.org/article/MED/28264664"
+      },
+      {
+       "finding": "Dancers make strategic use of both visual and motor imagery in their movement control.",
+       "quote": "how dancers make strategic use of visual and motor imagery;",
+       "source": "https://europepmc.org/article/MED/22305351"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Motor_imagery",
+       "title": "Motor imagery",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/19182047",
+       "title": "Effects of practice, visual loss, limb amputation, and disuse on motor imagery vividness",
+       "authors": "Malouin F, Richards CL, Durand A, Descent M, Poiré D, Frémont P, Pelet S, Gresset J, Doyon J.",
+       "year": "2009",
+       "journal": "Neurorehabilitation and neural repair"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28264664",
+       "title": "Experience-dependent modulation of alpha and beta during action observation and motor imagery",
+       "authors": "Di Nota PM, Chartrand JM, Levkov GR, Montefusco-Siegmund R, DeSouza JFX.",
+       "year": "2017",
+       "journal": "BMC neuroscience"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/22305351",
+       "title": "Neurocognitive control in dance perception and performance",
+       "authors": "Bläsing B, Calvo-Merino B, Cross ES, Jola C, Honisch J, Stevens CJ.",
+       "year": "2012",
+       "journal": "Acta psychologica"
+      }
+     ]
+    },
+    {
+     "key": "analogy_learning",
+     "name": "analogy learning",
+     "state": "read",
+     "tags": [
+      "imagery"
+     ],
+     "on": "2026-11-19",
+     "principle": "Teaching movement through metaphors or analogies allows learners to perform better under stress and multitasking because it reduces the need for conscious rule-following.",
+     "for_the_teacher": [
+      "Replace a list of technical body positions with a single metaphor, such as 'imagine you are a puppet being pulled by a string'.",
+      "Avoid asking students to verbalize the rules of a movement; instead, focus on the 'feeling' or the 'image' of the action.",
+      "Use analogies specifically when teaching complex sequences to prevent the learner from being overwhelmed by too much information.",
+      "Introduce a secondary task, like counting or chatting, to test if the movement has been learned implicitly through the analogy."
+     ],
+     "when_it_does_not_apply": "The sources note that implicit learning may still require a minimal amount of attention and working memory, and some scientists debate the very existence of the concept due to the difficulty of verbalizing the knowledge gained.",
+     "findings": [
+      {
+       "finding": "Analogy learning results in the same level of skill as explicit instruction but with significantly fewer technical rules for the learner to remember.",
+       "quote": "the analogy and implicit learning groups accumulated equivalently fewer explicit rules than the explicit learning group during the learning phase.",
+       "source": "https://europepmc.org/article/MED/11354610"
+      },
+      {
+       "finding": "Learners who use analogies maintain their performance even when distracted by a second task, unlike those taught with technical details.",
+       "quote": "performance deteriorated for both the explicit and control conditions, but not for the analogy condition.",
+       "source": "https://europepmc.org/article/MED/19153868"
+      },
+      {
+       "finding": "Using metaphors for movement helps children learn complex physical skills more effectively than giving them step-by-step instructions.",
+       "quote": "Children in the analogy protocol displayed better rope skip performance than those in the explicit instruction protocol",
+       "source": "https://europepmc.org/article/MED/27685604"
+      },
+      {
+       "finding": "Analogy learning is an effective way to teach balance and stability while keeping the learner's mind free for other tasks.",
+       "quote": "analogy learners reported fewer explicit knowledge and demonstrated better counting backward performance than explicit learners.",
+       "source": "https://europepmc.org/article/MED/32948108"
+      },
+      {
+       "finding": "Implicit learning, which analogies facilitate, creates knowledge that is difficult to explain in words but very effective in practice.",
+       "quote": "The result of implicit learning is implicit knowledge in the form of abstract (but possibly instantiated) representations rather than verbatim or aggregate representations",
+       "source": "https://en.wikipedia.org/wiki/Implicit_learning"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/11354610",
+       "title": "Analogy learning: a means to implicit motor learning",
+       "authors": "Liao CM, Masters RS.",
+       "year": "2001",
+       "journal": "Journal of sports sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/19153868",
+       "title": "Analogy versus explicit learning of a modified basketball shooting task: performance and kinematic outcomes",
+       "authors": "Lam WK, Maxwell JP, Masters RS.",
+       "year": "2009",
+       "journal": "Journal of sports sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/27685604",
+       "title": "Analogy motor learning by young children: a study of rope skipping",
+       "authors": "Tse AC, Fong SS, Wong TW, Masters R.",
+       "year": "2017",
+       "journal": "European journal of sport science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/32948108",
+       "title": "Analogy and explicit motor learning in dynamic balance: Posturography and performance analyses",
+       "authors": "Kim SM, Qu F, Lam WK.",
+       "year": "2021",
+       "journal": "European journal of sport science"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Implicit_learning",
+       "title": "Implicit learning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
+     ]
+    },
+    {
+     "key": "universals_of_music_and_dance",
+     "name": "universals of music and dance",
+     "state": "read",
+     "tags": [
+      "feel_and_groove",
+      "culture_and_meaning",
+      "counts_and_rhythm"
+     ],
+     "on": "2026-11-20",
+     "principle": "Human perception of music shares universal acoustic characteristics, allowing people across diverse cultures to reliably infer the behavioral contexts of songs such as dance music.",
+     "for_the_teacher": [
+      "Use loud and rhythmic music when teaching dance to align with the universal acoustic features of dance songs."
+     ],
+     "when_it_does_not_apply": "Love songs were not reliably inferred by listeners across cultures in the studies.",
+     "findings": [
+      {
+       "finding": "Dance songs tend to possess shared acoustic characteristics like being loud and rhythmic, which help humans perceive their context.",
+       "quote": "For example, dance songs tend to be loud and rhythmic, and lullabies tend to be quiet and melodious.",
+       "source": "https://europepmc.org/article/MED/37676911"
+      },
+      {
+       "finding": "Listeners from both industrialized and smaller-scale societies can accurately infer the behavioral contexts of unfamiliar dance songs across cultures.",
+       "quote": "Listeners in both industrialized and smaller-scale societies inferred the contexts of dance songs, lullabies, and healing songs, but not love songs.",
+       "source": "https://europepmc.org/article/MED/37676911"
+      },
+      {
+       "finding": "Vocal music exhibits recurrent and robust form-function relations that allow listeners globally to accurately detect song functions.",
+       "quote": "Here, we show that vocal music exhibits recurrent, distinct, and cross-culturally robust form-function relations that are detectable by listeners across the globe.",
+       "source": "https://europepmc.org/article/MED/29395919"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/37676911",
+       "title": "Universal interpretations of vocal music",
+       "authors": "Yurdum L, Singh M, Glowacki L, Vardy T, Atkinson QD, Hilton CB, Sauter D, Krasnow MM, Mehr SA.",
+       "year": "2023",
+       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/29395919",
+       "title": "Form and Function in Human Song",
+       "authors": "Mehr SA, Singh M, York H, Glowacki L, Krasnow MM.",
+       "year": "2018",
+       "journal": "Current biology : CB"
+      }
+     ]
+    },
+    {
+     "key": "infants_move_to_rhythm",
+     "name": "infants move to rhythm",
+     "state": "next",
+     "tags": [
+      "feel_and_groove",
+      "counts_and_rhythm"
+     ]
+    },
+    {
+     "key": "dance_pedagogy",
+     "name": "dance pedagogy",
+     "state": "waiting",
+     "tags": [
+      "culture_and_meaning",
+      "play_and_variation"
+     ]
+    },
+    {
+     "key": "flow",
+     "name": "flow",
+     "state": "waiting",
+     "tags": [
+      "feel_and_groove",
+      "progression"
+     ]
+    },
+    {
+     "key": "embodied_cognition",
+     "name": "embodied cognition",
+     "state": "waiting",
+     "tags": [
+      "feel_and_groove",
+      "culture_and_meaning"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "stay-with-it",
+   "name": "Stay with it",
+   "owner": false,
+   "topics": [
+    {
+     "key": "expectancies_and_autonomy",
+     "name": "expectancies and autonomy",
+     "state": "read",
+     "tags": [
+      "praise_and_expectancy",
+      "autonomy"
+     ],
+     "on": "2026-11-17",
+     "principle": "Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined.",
+     "for_the_teacher": [
+      "Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.",
+      "Give positive social-comparative feedback to enhance learners' performance expectancies.",
+      "Combine autonomy support and enhanced expectancies in lessons to maximize learning and retention accuracy."
+     ],
+     "findings": [
+      {
+       "finding": "Expectancy effects may be rooted in dopamine responses to anticipated positive experiences during practice.",
+       "quote": "We describe a plausible mechanism for expectancy effects rooted in responses of dopamine to the anticipation of positive experience and temporally associated with skill practice.",
+       "source": "https://europepmc.org/article/MED/26833314"
+      },
+      {
+       "finding": "Providing autonomy support and enhanced expectancies independently and jointly benefit motor skill learning.",
+       "quote": "Thus, supporting learners' need for autonomy by given them a small choice--even though it was not directly related to task performance--and enhancing their performance expectancies appeared to independently influence learning.",
+       "source": "https://europepmc.org/article/MED/25046402"
+      },
+      {
+       "finding": "The combination of autonomy support and enhanced expectancies yields the greatest accuracy during retention and transfer tests.",
+       "quote": "Autonomy support and enhanced expectancies had additive advantages for learning, with both main effects being significant for retention and transfer. On both tests, the AS/EE group showed the greatest throwing accuracy.",
+       "source": "https://europepmc.org/article/MED/25046402"
+      },
+      {
+       "finding": "Positive affect is heightened by enhanced expectancies and predicts better transfer performance.",
+       "quote": "Positive affect was heightened in the enhanced expectancy and enhanced expectancy groups after practice and predicted transfer performance.",
+       "source": "https://europepmc.org/article/MED/24875153"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/26833314",
+       "title": "Optimizing performance through intrinsic motivation and attention for learning: The OPTIMAL theory of motor learning",
+       "authors": "Wulf G, Lewthwaite R.",
+       "year": "2016",
+       "journal": "Psychonomic bulletin & review"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25046402",
+       "title": "Additive benefits of autonomy support and enhanced expectancies for motor learning",
+       "authors": "Wulf G, Chiviacowsky S, Cardozo PL.",
+       "year": "2014",
+       "journal": "Human movement science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/24875153",
+       "title": "Additive benefits of external focus and enhanced performance expectancy for motor learning",
+       "authors": "Pascua LA, Wulf G, Lewthwaite R.",
+       "year": "2015",
+       "journal": "Journal of sports sciences"
+      }
+     ]
+    },
+    {
+     "key": "autonomy_support",
+     "name": "autonomy support",
+     "state": "read",
+     "tags": [
+      "autonomy"
+     ],
+     "on": "2026-11-17",
+     "principle": "Supporting a learner's autonomy through small choices improves skill acquisition and retention, even when those choices are entirely unrelated to the physical task.",
+     "for_the_teacher": [
+      "Allow learners to make small choices during the lesson, such as selecting the color of a virtual prop or the order of practice routines.",
+      "Combine autonomy support with positive feedback regarding the learner's progress to further enhance motor learning."
+     ],
+     "findings": [
+      {
+       "finding": "Providing learners with a minor choice regarding task conditions improves their performance accuracy on later retention tests.",
+       "quote": "Autonomy support and enhanced expectancies had additive advantages for learning, with both main effects being significant for retention and transfer.",
+       "source": "https://europepmc.org/article/MED/25046402"
+      },
+      {
+       "finding": "Self-controlled practice choices can enhance learning outcomes without needing to provide task-relevant information or strategic advantages.",
+       "quote": "Thus, self-controlled practice conditions can influence motor learning without providing task-relevant information, content, or strategic learning advantages.",
+       "source": "https://europepmc.org/article/MED/25732095"
+      },
+      {
+       "finding": "Offering choices about matters completely unrelated to the core movement task can still result in more effective learning on retention tests.",
+       "quote": "Balance learning was significantly more effective in the choice group on a retention test.",
+       "source": "https://europepmc.org/article/MED/25732095"
+      },
+      {
+       "finding": "Combining autonomy support with enhanced expectancies and an external focus of attention optimizes overall learning outcomes.",
+       "quote": "On a delayed retention test, the AS-EE-EF group outperformed all other groups.",
+       "source": "https://europepmc.org/article/MED/28056637"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/25046402",
+       "title": "Additive benefits of autonomy support and enhanced expectancies for motor learning",
+       "authors": "Wulf G, Chiviacowsky S, Cardozo PL.",
+       "year": "2014",
+       "journal": "Human movement science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25732095",
+       "title": "Choose to move: The motivational impact of autonomy support on motor learning",
+       "authors": "Lewthwaite R, Chiviacowsky S, Drews R, Wulf G.",
+       "year": "2015",
+       "journal": "Psychonomic bulletin & review"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28056637",
+       "title": "Triple play: Additive contributions of enhanced expectancies, autonomy support, and external attentional focus to motor learning",
+       "authors": "Wulf G, Lewthwaite R, Cardozo P, Chiviacowsky S.",
+       "year": "2018",
+       "journal": "Quarterly journal of experimental psychology (2006)"
+      }
+     ]
+    },
+    {
+     "key": "self_efficacy",
+     "name": "self efficacy",
+     "state": "read",
+     "tags": [
+      "praise_and_expectancy",
+      "normalise_mistakes"
+     ],
+     "on": "2026-11-17",
+     "principle": "Belief in one's ability to succeed, supported by choice and positive expectations, directly improves the learning of motor skills.",
+     "for_the_teacher": [
+      "Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy.",
+      "Let learners choose when they want to view video recordings of their own movement."
+     ],
+     "findings": [
+      {
+       "finding": "Giving learners a small choice and positive performance expectations improves their accuracy and increases their self-efficacy.",
+       "quote": "Autonomy support and enhanced expectancies had additive advantages for learning, with both main effects being significant for retention and transfer.",
+       "source": "https://europepmc.org/article/MED/25046402"
+      },
+      {
+       "finding": "External focus instructions combined with enhanced expectancies increase self-efficacy and improve motor skill retention and transfer.",
+       "quote": "Furthermore, self-efficacy was increased by both external focus and enhanced expectancy, and predicted retention and transfer performance.",
+       "source": "https://europepmc.org/article/MED/24875153"
+      },
+      {
+       "finding": "Allowing learners to control when they view video feedback leads to greater increases in self-efficacy and better skill progression.",
+       "quote": "Analysis of the acquisition data showed the LC group had greater increases in self-efficacy as compared to the EC group.",
+       "source": "https://europepmc.org/article/MED/23355826"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/25046402",
+       "title": "Additive benefits of autonomy support and enhanced expectancies for motor learning",
+       "authors": "Wulf G, Chiviacowsky S, Cardozo PL.",
+       "year": "2014",
+       "journal": "Human movement science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/24875153",
+       "title": "Additive benefits of external focus and enhanced performance expectancy for motor learning",
+       "authors": "Pascua LA, Wulf G, Lewthwaite R.",
+       "year": "2015",
+       "journal": "Journal of sports sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23355826",
+       "title": "Learner-Controlled Self-Observation is Advantageous for Motor Skill Acquisition",
+       "authors": "Ste-Marie DM, Vertes KA, Law B, Rymal AM.",
+       "year": "2012",
+       "journal": "Frontiers in psychology"
+      }
+     ]
+    },
+    {
+     "key": "early_success",
+     "name": "early success",
+     "state": "read",
+     "tags": [
+      "quick_win",
+      "praise_and_expectancy"
+     ],
+     "on": "2026-11-17",
+     "principle": "Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning.",
+     "for_the_teacher": [
+      "Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy."
+     ],
+     "findings": [
+      {
+       "finding": "Conditions that enhance expectancies for future performance contribute to motor performance and learning by strengthening goal-action coupling.",
+       "quote": "These include research on (a) conditions that enhance expectancies for future performance",
+       "source": "https://europepmc.org/article/MED/26833314"
+      },
+      {
+       "finding": "Expected success helps consolidate memories and propels the cognitive and motor systems forward.",
+       "quote": "Expected success presumably breeds further success and helps consolidate memories.",
+       "source": "https://europepmc.org/article/MED/26833314"
+      },
+      {
+       "finding": "Groups experiencing higher success rates and enhanced expectancies can make more hits and achieve heightened outcome expectancies.",
+       "quote": "As predicted, the Large-target group made more hits and had heightened outcome expectancies compared to the Small-target group.",
+       "source": "https://europepmc.org/article/MED/31126044"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/26833314",
+       "title": "Optimizing performance through intrinsic motivation and attention for learning: The OPTIMAL theory of motor learning",
+       "authors": "Wulf G, Lewthwaite R.",
+       "year": "2016",
+       "journal": "Psychonomic bulletin & review"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/31126044",
+       "title": "Target Size Manipulations Affect Error-Processing Duration and Success Perceptions but not Behavioural Indices of Learning",
+       "authors": "Ong NT, Hawke J, Hodges NJ.",
+       "year": "2019",
+       "journal": "Brain sciences"
+      }
+     ]
+    },
+    {
+     "key": "enjoyment_and_staying_with_it",
+     "name": "enjoyment and staying with it",
+     "state": "read",
+     "tags": [
+      "fun_and_energy",
+      "reason_to_return"
+     ],
+     "on": "2026-11-17",
+     "principle": "Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics.",
+     "for_the_teacher": [
+      "Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.",
+      "Foster positive social interactions and community elements within the online platform to support engagement and well-being."
+     ],
+     "findings": [
+      {
+       "finding": "Satisfaction with the music used in an exercise setting accounts for the largest share of variance in exercise enjoyment.",
+       "quote": "satisfaction with music (21%) accounted for the most variance in exercise enjoyment",
+       "source": "https://europepmc.org/article/MED/17590968"
+      },
+      {
+       "finding": "Participants experience greater enjoyment and achievement when dancing with partners who share good rapport and compatible approaches.",
+       "quote": "gained greater enjoyment and sense of achievement from dance classes in comparison to couples who did not enjoy dancing together",
+       "source": "https://europepmc.org/article/MED/28482703"
+      },
+      {
+       "finding": "Enjoyment is a significant predictor of out-of-class physical activity levels among participants.",
+       "quote": "Significant effects of gender, group, enjoyment, and intensity on out-of-class weekly aerobic activity were observed",
+       "source": "https://europepmc.org/article/MED/27723781"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/17590968",
+       "title": "Assessment of factors associated with exercise enjoyment",
+       "authors": "Wininger SR, Pargman D.",
+       "year": "2003",
+       "journal": "Journal of music therapy"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28482703",
+       "title": "It takes two: the influence of dance partners on the perceived enjoyment and benefits during participation in partnered ballroom dance classes for people with Parkinson's",
+       "authors": "Kunkel D, Robison J, Fitton C, Hulbert S, Hulbert S, Roberts L, Wiles R, Pickering R, Roberts H, Ashburn A.",
+       "year": "2018",
+       "journal": "Disability and rehabilitation"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/27723781",
+       "title": "Contamination by an Active Control Condition in a Randomized Exercise Trial",
+       "authors": "Ehlers DK, Fanning J, Awick EA, Kramer AF, McAuley E.",
+       "year": "2016",
+       "journal": "PloS one"
+      }
+     ]
+    },
+    {
+     "key": "basic_needs",
+     "name": "basic needs",
+     "state": "read",
+     "tags": [
+      "autonomy",
+      "praise_and_expectancy",
+      "social_connection"
+     ],
+     "on": "2026-11-17",
+     "principle": "Satisfying learners' basic psychological needs for autonomy, competence, and relatedness fosters motivation and sustained participation.",
+     "for_the_teacher": [
+      "Give learners choices in their practice to support their sense of autonomy.",
+      "Build competence by highlighting skill confidence and bodily self-awareness.",
+      "Foster a sense of relatedness and community connection during lessons."
+     ],
+     "findings": [
+      {
+       "finding": "Lindy Hop participation helps satisfy the basic psychological needs required for sustained dance motivation.",
+       "quote": "satisfy the 3 basic psychological needs required for internalized motivation that contributes to sustained dance participation.",
+       "source": "https://europepmc.org/article/MED/43010569"
+      },
+      {
+       "finding": "Older adults experience autonomy through lifelong passion, continuous learning, and self-directed engagement.",
+       "quote": "Participants experienced autonomy through self-directed engagement in dance, including lifelong passion, ongoing learning, and leadership within dance groups.",
+       "source": "https://europepmc.org/article/MED/42480050"
+      },
+      {
+       "finding": "Competence is built through skill confidence and bodily self-awareness, reinforced by peer recognition.",
+       "quote": "Competence was reflected in skill confidence and bodily self-awareness, supported by peer recognition and opportunities to contribute to the group.",
+       "source": "https://europepmc.org/article/MED/42480050"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/43010569",
+       "title": "Basic Psychological Need Satisfaction in Motivating Adults to Dance Lindy Hop",
+       "authors": "Bretting K, Wallhead TL, Wilson M, Zhu Q.",
+       "year": "2026",
+       "journal": "Journal of dance medicine & science : official publication of the International Association for Dance Medicine & Science"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42480050",
+       "title": "Moving with meaning: community line dancing, health-motivated engagement, and belonging among older adults in Texas",
+       "authors": "Li J, Pulos R.",
+       "year": "2026",
+       "journal": "Arts & health"
+      }
+     ]
+    },
+    {
+     "key": "habit_formation",
+     "name": "habit formation",
+     "state": "read",
+     "tags": [
+      "reason_to_return",
+      "recap_and_practice_plan"
+     ],
+     "on": "2026-11-17",
+     "principle": "Behaviors transform into automatic habits through regular repetition within a consistent context, supported by preparation cues and positive rewards.",
+     "for_the_teacher": [
+      "Establish a consistent routine and preparation cue at the start of every session to trigger automatic practice habits."
+     ],
+     "findings": [
+      {
+       "finding": "Behaviors become automatic through the process of regular repetition and practice consistency.",
+       "quote": "New behaviours can become automatic through the process of habit formation.",
+       "source": "https://en.wikipedia.org/wiki/Habit"
+      },
+      {
+       "finding": "Consistent situational contexts strengthen the link between cues and actions.",
+       "quote": "When behaviors are repeated in a consistent context, there is an incremental increase in the link between the context and the action.",
+       "source": "https://en.wikipedia.org/wiki/Habit"
+      },
+      {
+       "finding": "Habit formation relies on four core components: context cues, craving, behavioral repetition, and rewards.",
+       "quote": "There are four main components to habit formation: the context cue, craving, behavioral repetition, and the reward.",
+       "source": "https://en.wikipedia.org/wiki/Habit"
+      },
+      {
+       "finding": "Intrinsically motivated activities that provide inherent satisfaction tend to build stronger habits.",
+       "quote": "Previous work has shown that intrinsically motivated physical activity, underpinned by inherent satisfaction derived from activity, is more likely to be sustained.",
+       "source": "https://europepmc.org/article/MED/22760451"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Habit",
+       "title": "Habit",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/22760451",
+       "title": "Does intrinsic motivation strengthen physical activity habit? Modeling relationships between self-determination, past behaviour, and habit strength",
+       "authors": "Gardner B, Lally P.",
+       "year": "2013",
+       "journal": "Journal of behavioral medicine"
+      }
+     ]
+    },
+    {
+     "key": "self_controlled_practice",
+     "name": "self controlled practice",
+     "state": "read",
+     "tags": [
+      "autonomy",
+      "self_check"
+     ],
+     "on": "2026-11-18",
+     "principle": "Allowing learners to exercise autonomy and make choices during practice enhances motor learning by supporting their psychological needs for competence and control.",
+     "for_the_teacher": [
+      "Allow the learner to choose the order of practice segments or the music track for their session.",
+      "Offer the learner the option to decide when they want to receive feedback or view a demonstration.",
+      "Provide opportunities for the learner to select minor, non-task-related preferences to increase their sense of autonomy."
+     ],
+     "findings": [
+      {
+       "finding": "Self-controlled practice environments improve motor learning by fostering feelings of autonomy and competence in the learner.",
+       "quote": "This review suggests that a self-controlled practice context can facilitate such factors as feelings of autonomy and competence of the learner, thereby supporting the psychological needs of the learner",
+       "source": "https://europepmc.org/article/MED/23430980"
+      },
+      {
+       "finding": "Providing learners with choices, even those unrelated to the specific task, can lead to superior motor learning outcomes.",
+       "quote": "We hypothesized that motor learning could be enhanced by providing learners with choices - even if those choices are unrelated to task performance.",
+       "source": "https://europepmc.org/article/MED/25732095"
+      },
+      {
+       "finding": "Self-controlled learning is a key principle for optimizing rehabilitation and improving functional performance.",
+       "quote": "The following key concepts to enhance rehabilitation and prepare the patient for re-integration to sports after an ACL injury that is as safe as possible are presented: (1) external focus of attention, (2) implicit learning, (3) differential learning, (4) self-controlled learning and contextual interference.",
+       "source": "https://europepmc.org/article/MED/30719683"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/23430980",
+       "title": "Understanding Self-Controlled Motor Learning Protocols through the Self-Determination Theory",
+       "authors": "Sanli EA, Patterson JT, Bray SR, Lee TD.",
+       "year": "2012",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25732095",
+       "title": "Choose to move: The motivational impact of autonomy support on motor learning",
+       "authors": "Lewthwaite R, Chiviacowsky S, Drews R, Wulf G.",
+       "year": "2015",
+       "journal": "Psychonomic bulletin & review"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/30719683",
+       "title": "Principles of Motor Learning to Support Neuroplasticity After ACL Injury: Implications for Optimizing Performance and Reducing Risk of Second ACL Injury",
+       "authors": "Gokeler A, Neuhaus D, Benjaminse A, Grooms DR, Baumeister J.",
+       "year": "2019",
+       "journal": "Sports medicine (Auckland, N.Z.)"
+      }
+     ]
+    },
+    {
+     "key": "beginners",
+     "name": "beginners",
+     "state": "waiting",
+     "tags": [
+      "quick_win",
+      "chunking"
+     ]
+    },
+    {
+     "key": "growth_mindset",
+     "name": "growth mindset",
+     "state": "waiting",
+     "tags": [
+      "normalise_mistakes",
+      "praise_and_expectancy"
+     ]
+    },
+    {
+     "key": "play",
+     "name": "play",
+     "state": "waiting",
+     "tags": [
+      "fun_and_energy",
+      "play_and_variation"
+     ]
+    },
+    {
+     "key": "moving_together",
+     "name": "moving together",
+     "state": "waiting",
+     "tags": [
+      "social_connection"
+     ]
+    },
+    {
+     "key": "gamification",
+     "name": "gamification",
+     "state": "waiting",
+     "tags": [
+      "social_connection",
+      "reason_to_return"
+     ]
+    },
+    {
+     "key": "teacher_enthusiasm",
+     "name": "teacher enthusiasm",
+     "state": "waiting",
+     "tags": [
+      "fun_and_energy"
+     ]
+    },
+    {
+     "key": "need_supportive_teaching",
+     "name": "need supportive teaching",
+     "state": "waiting",
+     "tags": [
+      "autonomy",
+      "learner_as_dancer",
+      "checks_in"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fit-the-person",
+   "name": "Fit the person",
+   "owner": false,
+   "topics": [
+    {
+     "key": "challenge_point",
+     "name": "challenge point",
+     "state": "read",
+     "tags": [
+      "regression",
+      "progression"
+     ],
+     "on": "2026-11-17",
+     "principle": "Learning is most effective when tasks are difficult enough to require effort but still achievable, a concept known as the optimal challenge point.",
+     "for_the_teacher": [
+      "Offer the learner a choice between different difficulty levels for a dance step to increase their engagement and performance.",
+      "Avoid making every practice session feel easy, as the effort required to overcome difficulty is what leads to long-term retention.",
+      "Adapt the complexity of the dance movements based on the learner's current skill level to keep them at their optimal challenge point.",
+      "Use spaced practice by revisiting previously learned steps in later lessons rather than focusing only on new material."
+     ],
+     "when_it_does_not_apply": "Tasks that are too difficult may discourage the learner and hinder the learning process.",
+     "findings": [
+      {
+       "finding": "Tasks that feel difficult and require more effort often lead to better long-term performance than easier tasks that provide only temporary gains.",
+       "quote": "Research suggests that while some approaches to learning may feel slow and difficult, the long-term benefits are greater than with easy tasks.",
+       "source": "https://en.wikipedia.org/wiki/Desirable_difficulty"
+      },
+      {
+       "finding": "Allowing learners to choose their own level of task difficulty can improve their performance and accuracy in retention tests.",
+       "quote": "The self-control condition resulted in better performances and accuracy during immediate and delayed retention tests. These results confirm the advantage of a self-control condition on motor learning.",
+       "source": "https://europepmc.org/article/MED/22428409"
+      },
+      {
+       "finding": "The optimal challenge point is determined by the relationship between the difficulty of the task and the learner's current skill level.",
+       "quote": "A model called the challenge point framework can also be used. It is based on the relationship between task difficulty and the ability or the knowledge and skills of the learner.",
+       "source": "https://en.wikipedia.org/wiki/Desirable_difficulty"
+      },
+      {
+       "finding": "Adapting practice conditions to individual skill levels helps maintain an appropriate level of challenge for the learner.",
+       "quote": "One important take-away is that adaptation of the game conditions can individualize the difficulty of a game to a player's skill level in competitive multiplayer games.",
+       "source": "https://europepmc.org/article/MED/30454009"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Desirable_difficulty",
+       "title": "Desirable difficulty",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/22428409",
+       "title": "Self-control of task difficulty during training enhances motor learning of a complex coincidence-anticipation task",
+       "authors": "Andrieux M, Danna J, Thon B.",
+       "year": "2012",
+       "journal": "Research quarterly for exercise and sport"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/30454009",
+       "title": "Trends in robot-assisted and virtual reality-assisted neuromuscular therapy: a systematic review of health-related multiplayer games",
+       "authors": "Baur K, Schättin A, de Bruin ED, Riener R, Duarte JE, Wolf P.",
+       "year": "2018",
+       "journal": "Journal of neuroengineering and rehabilitation"
+      }
+     ]
+    },
+    {
+     "key": "adaptive_difficulty",
+     "name": "adaptive difficulty",
+     "state": "read",
+     "tags": [
+      "regression",
+      "progression",
+      "autonomy"
+     ],
+     "on": "2026-11-17",
+     "principle": "Adjusting task difficulty dynamically based on performance helps learners improve their movements and generalise their skills.",
+     "for_the_teacher": [
+      "Dynamically adjust the difficulty of the movement practice based on how well the learner is performing in real time."
+     ],
+     "findings": [
+      {
+       "finding": "Motor adaptation is impaired when the executive system is heavily burdened by a difficult secondary task.",
+       "quote": "We find that motor adaptation was specifically impaired on the most difficult to categorize trials.",
+       "source": "https://europepmc.org/article/MED/18560546"
+      },
+      {
+       "finding": "Adjusting task difficulty with an adaptation algorithm improves movement accuracy, velocity, and range of motion.",
+       "quote": "The level of difficulty for the exercise was adjusted by a performance-dependent real-time adaptation algorithm.",
+       "source": "https://europepmc.org/article/MED/27895550"
+      },
+      {
+       "finding": "Adjusting treatment difficulty based on performance criteria helps learners generalise their skills beyond basic levels.",
+       "quote": "Treatment difficulty was adjusted in an adaptive manner following predetermined criteria for advancing, maintaining, or moving back a level",
+       "source": "https://europepmc.org/article/MED/25216375"
+      },
+      {
+       "finding": "Self-adaptive serious games that dynamically adjust to individual performance lead to greater improvements in speed-accuracy trade-offs.",
+       "quote": "Self-adaptive serious games, which dynamically adjust task difficulty, may provide additional benefits by tailoring challenges to individual performance.",
+       "source": "https://europepmc.org/article/MED/40021077"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/18560546",
+       "title": "Motor adaptation scaled by the difficulty of a secondary cognitive task",
+       "authors": "Taylor JA, Thoroughman KA.",
+       "year": "2008",
+       "journal": "PloS one"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/27895550",
+       "title": "Closed-Loop Task Difficulty Adaptation during Virtual Reality Reach-to-Grasp Training Assisted with an Exoskeleton for Stroke Rehabilitation",
+       "authors": "Grimm F, Naros G, Gharabaghi A.",
+       "year": "2016",
+       "journal": "Frontiers in neuroscience"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/25216375",
+       "title": "Enhancing generalisation in biofeedback intervention using the challenge point framework: a case study",
+       "authors": "Hitchcock ER, Byun TM.",
+       "year": "2015",
+       "journal": "Clinical linguistics & phonetics"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/40021077",
+       "title": "Self-adaptive over progressive non-adaptive immersive virtual reality serious game to promote motor learning in older adults - A double blind randomized controlled trial",
+       "authors": "Everard G, Vermette M, Dumas-Longpré E, Hoang T, Robitaille M, Sorrentino G, Edwards MG, Lejeune T, Batcho CS.",
+       "year": "2025",
+       "journal": "Neuroscience"
+      }
+     ]
+    },
+    {
+     "key": "individual_differences",
+     "name": "individual differences",
+     "state": "read",
+     "tags": [
+      "regression",
+      "progression",
+      "body_adaptation"
+     ],
+     "on": "2026-11-17",
+     "principle": "Individual differences in learning rate and success are predicted by factors such as task-relevant motor output variability, spatial working memory capacity, and underlying neural structures and functions.",
+     "for_the_teacher": [
+      "Encourage action exploration and allow learners to test different movement variations, as motor variability can facilitate faster learning.",
+      "Break down movement sequences into smaller pieces using chunking to support learners' working memory capacity."
+     ],
+     "findings": [
+      {
+       "finding": "Higher task-relevant motor variability predicts faster motor learning.",
+       "quote": "higher levels of task-relevant motor variability predicted faster learning both across individuals and across tasks in two different paradigms",
+       "source": "https://europepmc.org/article/MED/24413700"
+      },
+      {
+       "finding": "Spatial working memory capacity predicts the rate of motor learning.",
+       "quote": "individual differences in spatial working memory capacity predict the rate of motor learning for sensorimotor adaptation and motor sequence learning",
+       "source": "https://europepmc.org/article/MED/23237467"
+      },
+      {
+       "finding": "Spatial working memory is used for chunking action elements during new action sequence learning.",
+       "quote": "working memory is relied on during learning new action sequences for chunking individual action elements together",
+       "source": "https://europepmc.org/article/MED/23237467"
+      },
+      {
+       "finding": "Differences in brain structure and function explain individual variations in motor learning ability.",
+       "quote": "variations across the population in the function and structure of specific brain regions for motor control explain some of the individual differences in skill learning",
+       "source": "https://europepmc.org/article/MED/20533562"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/24413700",
+       "title": "Temporal structure of motor variability is dynamically regulated and predicts motor learning ability",
+       "authors": "Wu HG, Miyamoto YR, Gonzalez Castro LN, Ölveczky BP, Smith MA.",
+       "year": "2014",
+       "journal": "Nature neuroscience"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23237467",
+       "title": "Neurocognitive contributions to motor skill learning: the role of working memory",
+       "authors": "Seidler RD, Bo J, Anguera JA.",
+       "year": "2012",
+       "journal": "Journal of motor behavior"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/20533562",
+       "title": "Structural and functional bases for individual differences in motor learning",
+       "authors": "Tomassini V, Jbabdi S, Kincses ZT, Bosnell R, Douaud G, Pozzilli C, Matthews PM, Johansen-Berg H.",
+       "year": "2011",
+       "journal": "Human brain mapping"
+      }
+     ]
+    },
+    {
+     "key": "errorless_learning",
+     "name": "errorless learning",
+     "state": "read",
+     "tags": [
+      "regression",
+      "normalise_mistakes"
+     ],
+     "on": "2026-11-18",
+     "principle": "Structuring practice to minimize mistakes during learning reduces errors, lowers cognitive load, and supports implicit motor acquisition.",
+     "for_the_teacher": [
+      "Start learners very close or at a very slow, manageable version of a movement and gradually increase the distance, speed, or difficulty so they experience virtually no errors."
+     ],
+     "when_it_does_not_apply": "Some evidence suggests that learners given errorless training can be very slow to make a discrimination reversal, and errorless procedures may not always successfully minimize errors in certain perceptual motor tasks.",
+     "findings": [
+      {
+       "finding": "Errorless learning procedures drastically lower the frequency of errors made during training sessions compared to conventional methods.",
+       "quote": "subjects trained with the errorless procedure averaged only 25 S− (errors) responses in the same number of sessions.",
+       "source": "https://en.wikipedia.org/wiki/Errorless_learning"
+      },
+      {
+       "finding": "Practicing through an errorless learning protocol results in reduced verbal-analytical and motor planning region co-activation.",
+       "quote": "participants who practiced a golf putting task implicitly (via an errorless learning protocol) displayed less alpha2 T3-Fz co-activation than those who practiced explicitly",
+       "source": "https://europepmc.org/article/MED/21315795"
+      },
+      {
+       "finding": "Beginning a task very close and moving progressively back reduces initial errors and lowers attention demands during subsequent execution.",
+       "quote": "Reducing errors during initial learning trials may encourage an implicit mode of learning and lower the demand for cognitive resources in subsequent performance.",
+       "source": "https://europepmc.org/article/MED/21049315"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Errorless_learning",
+       "title": "Errorless learning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/21315795",
+       "title": "Neural co-activation as a yardstick of implicit motor learning and the propensity for conscious control of movement",
+       "authors": "Zhu FF, Poolton JM, Wilson MR, Maxwell JP, Masters RS.",
+       "year": "2011",
+       "journal": "Biological psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/21049315",
+       "title": "Probing the allocation of attention in implicit (motor) learning",
+       "authors": "Lam WK, Maxwell JP, Masters RS.",
+       "year": "2010",
+       "journal": "Journal of sports sciences"
+      }
+     ]
+    },
+    {
+     "key": "feedback",
+     "name": "feedback",
+     "state": "read",
+     "tags": [
+      "error_correction",
+      "self_check"
+     ],
+     "on": "2026-11-18",
+     "principle": "Feedback is essential for motor learning, but it must be used carefully because relying too heavily on constant guidance can hinder long-term retention.",
+     "for_the_teacher": [
+      "Provide feedback after the movement is completed rather than during it to encourage independent learning.",
+      "Avoid giving feedback after every single repetition to prevent the learner from becoming overly dependent on your guidance.",
+      "Use a mix of visual, auditory, or haptic feedback to support different learning needs.",
+      "Offer more frequent guidance or sensory cues to learners who struggle with motor control or balance."
+     ],
+     "when_it_does_not_apply": "Findings regarding the negative effects of high-frequency feedback may not apply to individuals with specific neurological conditions, such as Parkinson's disease, who may require more consistent guidance.",
+     "findings": [
+      {
+       "finding": "Providing feedback after an action helps learners improve their performance and understanding.",
+       "quote": "Knowledge of results, or sometimes immediate knowledge of results, can be used for any learning where a student (or an animal) gets information after the action.",
+       "source": "https://en.wikipedia.org/wiki/Knowledge_of_results"
+      },
+      {
+       "finding": "Augmented feedback from experts or technology is generally effective for enhancing motor learning.",
+       "quote": "It is generally accepted that augmented feedback, provided by a human expert or a technical display, effectively enhances motor learning.",
+       "source": "https://europepmc.org/article/MED/23132605"
+      },
+      {
+       "finding": "Frequent feedback can be detrimental to learning if the learner becomes too dependent on it.",
+       "quote": "The guidance hypothesis (Schmidt, 1991) predicts that the guiding properties of augmented feedback are beneficial for motor learning when used to reduce error, but detrimental when relied upon.",
+       "source": "https://europepmc.org/article/MED/7886280"
+      },
+      {
+       "finding": "Some individuals may require additional sensory information or guidance to facilitate motor learning.",
+       "quote": "patients with PD may require more training to achieve and retain motor learning and may require additional sensory information or motor guidance in order to facilitate this learning.",
+       "source": "https://europepmc.org/article/MED/30792688"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Knowledge_of_results",
+       "title": "Knowledge of results",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23132605",
+       "title": "Augmented visual, auditory, haptic, and multimodal feedback in motor learning: a review",
+       "authors": "Sigrist R, Rauter G, Riener R, Wolf P.",
+       "year": "2013",
+       "journal": "Psychonomic bulletin & review"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/7886280",
+       "title": "Effects of physical guidance and knowledge of results on motor learning: support for the guidance hypothesis",
+       "authors": "Winstein CJ, Pohl PS, Lewthwaite R.",
+       "year": "1994",
+       "journal": "Research quarterly for exercise and sport"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/30792688",
+       "title": "Motor Learning Deficits in Parkinson's Disease (PD) and Their Effect on Training Response in Gait and Balance: A Narrative Review",
+       "authors": "Olson M, Lockhart TE, Lieberman A.",
+       "year": "2019",
+       "journal": "Frontiers in neurology"
+      }
+     ]
+    },
+    {
+     "key": "video_feedback",
+     "name": "video feedback",
+     "state": "read",
+     "tags": [
+      "self_check",
+      "split_screen"
+     ],
+     "on": "2026-11-19",
+     "principle": "Learners acquire motor skills better and gain more self-efficacy when they decide for themselves when to review their video feedback and how to inspect it.",
+     "for_the_teacher": [
+      "Let the learner decide when to trigger and watch a recorded video replay of their dancing rather than showing it automatically.",
+      "Provide interactive playback controls—such as pause, slow motion, and rewind—so the learner can inspect their recorded movement at their own pace."
+     ],
+     "when_it_does_not_apply": "In pre-registration physiotherapy education, high fidelity simulation combined with video feedback did not improve motor skill performance and resulted in an increased number of safety fails compared to low fidelity controls.",
+     "findings": [
+      {
+       "finding": "Allowing learners to choose when to watch video feedback of their movement improves movement form even without extra cueing.",
+       "quote": "Importantly, however, the results indicated that SC video feedback conferred a learning benefit without the provision of explicit additional attentional cueing.",
+       "source": "https://europepmc.org/article/MED/22973257"
+      },
+      {
+       "finding": "Learner-controlled video self-observation boosts intrinsic motivation, perceived choice, self-efficacy, and physical skill progression compared to externally scheduled viewing.",
+       "quote": "Results of the retention test showed that the participants in the LC group obtained higher scores on the intrinsic motivation and perceived choice measures and had higher skill progression scores",
+       "source": "https://europepmc.org/article/MED/23355826"
+      },
+      {
+       "finding": "Letting learners control both the timing of video feedback and interactive playback controls yields the strongest and most durable learning gains.",
+       "quote": "These findings suggest that interactive video tools may be most useful when learners can regulate both when feedback is accessed and how it is inspected.",
+       "source": "https://europepmc.org/article/MED/42413171"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/22973257",
+       "title": "The effects of self-controlled video feedback on the learning of the basketball set shot",
+       "authors": "Aiken CA, Fairbrother JT, Post PG.",
+       "year": "2012",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23355826",
+       "title": "Learner-Controlled Self-Observation is Advantageous for Motor Skill Acquisition",
+       "authors": "Ste-Marie DM, Vertes KA, Law B, Rymal AM.",
+       "year": "2012",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42413171",
+       "title": "Not just when, but how: An exploratory dual-control approach to video feedback in motor learning",
+       "authors": "Khacharem A.",
+       "year": "2026",
+       "journal": "Human movement science"
+      }
+     ]
+    },
+    {
+     "key": "scaffolding",
+     "name": "scaffolding",
+     "state": "waiting",
+     "tags": [
+      "regression",
+      "progression",
+      "layering"
+     ]
+    },
+    {
+     "key": "zone_of_proximal_development",
+     "name": "zone of proximal development",
+     "state": "waiting",
+     "tags": [
+      "regression",
+      "progression"
+     ]
+    },
+    {
+     "key": "retrieval_practice",
+     "name": "retrieval practice",
+     "state": "waiting",
+     "tags": [
+      "self_check",
+      "recap_and_practice_plan"
+     ]
+    },
+    {
+     "key": "older_learners",
+     "name": "older learners",
+     "state": "waiting",
+     "tags": [
+      "body_adaptation"
+     ]
+    },
+    {
+     "key": "children",
+     "name": "children",
+     "state": "waiting",
+     "tags": [
+      "body_adaptation",
+      "play_and_variation"
+     ]
+    },
+    {
+     "key": "dance_across_life",
+     "name": "dance across life",
+     "state": "waiting",
+     "tags": [
+      "body_adaptation",
+      "reason_to_return"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "be-a-mentor",
+   "name": "Be a mentor",
+   "owner": false,
+   "topics": [
+    {
+     "key": "coach_and_learner_relationship",
+     "name": "coach and learner relationship",
+     "state": "waiting",
+     "tags": [
+      "checks_in",
+      "own_story",
+      "social_connection"
+     ]
+    },
+    {
+     "key": "working_alliance",
+     "name": "working alliance",
+     "state": "waiting",
+     "tags": [
+      "checks_in",
+      "names_the_feeling"
+     ]
+    },
+    {
+     "key": "teacher_expectations",
+     "name": "teacher expectations",
+     "state": "waiting",
+     "tags": [
+      "learner_as_dancer",
+      "praise_and_expectancy"
+     ]
+    },
+    {
+     "key": "self_compassion",
+     "name": "self compassion",
+     "state": "waiting",
+     "tags": [
+      "rest_and_kindness",
+      "normalise_mistakes"
+     ]
+    },
+    {
+     "key": "embarrassment_and_body_image",
+     "name": "embarrassment and body image",
+     "state": "waiting",
+     "tags": [
+      "names_the_feeling",
+      "dance_is_for_everyone"
+     ]
+    },
+    {
+     "key": "anxiety_and_confidence",
+     "name": "anxiety and confidence",
+     "state": "waiting",
+     "tags": [
+      "names_the_feeling",
+      "rest_and_kindness"
+     ]
+    },
+    {
+     "key": "emotion_and_learning",
+     "name": "emotion and learning",
+     "state": "waiting",
+     "tags": [
+      "names_the_feeling",
+      "fun_and_energy"
+     ]
+    },
+    {
+     "key": "identity_and_staying",
+     "name": "identity and staying",
+     "state": "waiting",
+     "tags": [
+      "learner_as_dancer",
+      "reason_to_return"
+     ]
+    },
+    {
+     "key": "human_tutoring",
+     "name": "human tutoring",
+     "state": "waiting",
+     "tags": [
+      "checks_in",
+      "regression",
+      "progression"
+     ]
+    },
+    {
+     "key": "adaptive_tutors",
+     "name": "adaptive tutors",
+     "state": "waiting",
+     "tags": [
+      "checks_in",
+      "regression",
+      "progression"
+     ]
+    },
+    {
+     "key": "virtual_coaches",
+     "name": "virtual coaches",
+     "state": "waiting",
+     "tags": [
+      "checks_in",
+      "reason_to_return"
+     ]
+    },
+    {
+     "key": "mentoring",
+     "name": "mentoring",
+     "state": "waiting",
+     "tags": [
+      "own_story",
+      "long_road"
+     ]
+    },
+    {
+     "key": "deliberate_practice",
+     "name": "deliberate practice",
+     "state": "waiting",
+     "tags": [
+      "long_road",
+      "repetition"
+     ]
+    },
+    {
+     "key": "adult_learners",
+     "name": "adult learners",
+     "state": "waiting",
+     "tags": [
+      "long_road",
+      "autonomy"
+     ]
+    },
+    {
+     "key": "dance_for_everyone",
+     "name": "dance for everyone",
+     "state": "waiting",
+     "tags": [
+      "dance_is_for_everyone",
+      "body_adaptation"
+     ]
+    }
+   ]
+  }
+ ],
+ "papers": [
+  {
+   "key": "paper-med-36443730",
+   "title": "Key tips to providing a psychologically safe learning environment in the clinical setting",
+   "on": "2026-11-22",
+   "tags": [
+    "praise_and_expectancy",
+    "normalise_mistakes",
+    "names_the_feeling"
+   ],
+   "authors": "Hardie P, O'Donovan R, Jarvis S, Redmond C.",
+   "year": "2022",
+   "journal": "BMC medical education",
+   "url": "https://europepmc.org/article/MED/36443730",
+   "cited_by": 53,
+   "principle": "Creating a psychologically safe environment where learners feel empowered and included fosters better collaboration and more effective learning.",
+   "for_the_teacher": [
+    "Explicitly invite the learner to ask questions or share their thoughts at the start of the session to encourage interpersonal risk-taking.",
+    "Maintain an approachable demeanor throughout the lesson to ensure the learner feels comfortable expressing confusion or difficulty."
+   ],
+   "findings": [
+    {
+     "finding": "Psychological safety allows learners to take interpersonal risks like asking questions or sharing ideas without fear.",
+     "quote": "Psychological safety refers to a student's belief as to whether or not it is safe for them to take interpersonal risks, such as asking questions, sharing an idea for improvement",
+     "source": "https://europepmc.org/article/MED/36443730"
+    },
+    {
+     "finding": "Being an accessible and approachable teacher is essential for cultivating a safe learning space.",
+     "quote": "A crucial attribute to cultivating a psychologically safe environment involves being an accessible and approachable preceptor.",
+     "source": "https://europepmc.org/article/MED/36443730"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/36443730",
+     "title": "Key tips to providing a psychologically safe learning environment in the clinical setting",
+     "authors": "Hardie P, O'Donovan R, Jarvis S, Redmond C.",
+     "year": "2022",
+     "journal": "BMC medical education"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-31902031",
+   "title": "Psychological safety, the hidden curriculum, and ambiguity in medicine",
+   "on": "2026-11-22",
+   "tags": [
+    "normalise_mistakes",
+    "own_story",
+    "learner_as_dancer"
+   ],
+   "authors": "Torralba KD, Jose D, Byrne J.",
+   "year": "2020",
+   "journal": "Clinical rheumatology",
+   "url": "https://europepmc.org/article/MED/31902031",
+   "cited_by": 98,
+   "principle": "Creating an environment where learners feel safe to express themselves and share mistakes without fear of shame is essential for effective learning.",
+   "for_the_teacher": [
+    "Explicitly state that mistakes are a natural and expected part of the learning process to reduce learner anxiety.",
+    "Model vulnerability by sharing your own past struggles or mistakes when learning a new dance move.",
+    "Use encouraging language that validates the learner's effort and identity as a dancer, regardless of their current skill level."
+   ],
+   "findings": [
+    {
+     "finding": "Psychological safety allows learners to share concerns and mistakes without fear of negative consequences.",
+     "quote": "Psychological safety is a feeling that individuals are comfortable expressing and being themselves, as well as comfortable sharing concerns and mistakes without fear of embarrassment, shame, ridicule, or retribution.",
+     "source": "https://europepmc.org/article/MED/31902031"
+    },
+    {
+     "finding": "Teachers influence the learning environment through their own behaviors and values, which learners adopt as part of a hidden curriculum.",
+     "quote": "Learners, whether students or postgraduate trainees, are in a phase of cognitive apprenticeship whereby they learn not only skills and knowledge from teachers as part of an explicit and formal curriculum.",
+     "source": "https://europepmc.org/article/MED/31902031"
+    },
+    {
+     "finding": "Educators must actively foster psychological safety to encourage productive dialogue and learning.",
+     "quote": "Educators who engage in unprofessional behaviors that result in learner humiliation and shame may serve to dampen productive discourse and scientific dialog.",
+     "source": "https://europepmc.org/article/MED/31902031"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/31902031",
+     "title": "Psychological safety, the hidden curriculum, and ambiguity in medicine",
+     "authors": "Torralba KD, Jose D, Byrne J.",
+     "year": "2020",
+     "journal": "Clinical rheumatology"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-31365407",
+   "title": "Exploring the Construct of Psychological Safety in Medical Education",
+   "on": "2026-11-22",
+   "tags": [
+    "normalise_mistakes",
+    "moment_of_presence",
+    "praise_and_expectancy"
+   ],
+   "authors": "Tsuei SH, Lee D, Ho C, Regehr G, Nimmon L.",
+   "year": "2019",
+   "journal": "Academic medicine : journal of the Association of American Medical Colleges",
+   "url": "https://europepmc.org/article/MED/31365407",
+   "cited_by": 188,
+   "principle": "Learners engage more effectively with a task when they feel psychologically safe, as this reduces self-consciousness and allows them to focus on the present moment.",
+   "for_the_teacher": [
+    "Explicitly state that mistakes are a normal part of the learning process to reduce the learner's fear of judgment.",
+    "Use encouraging language to help the learner focus on the physical sensation of the movement rather than how they look on camera.",
+    "Create a supportive environment by acknowledging the learner's progress and effort throughout the session."
+   ],
+   "findings": [
+    {
+     "finding": "Psychological safety allows learners to focus on the task rather than their own image.",
+     "quote": "Students' sense of PS appeared to free them to focus on learning in the present moment without considering the consequences for their image in the eyes of others.",
+     "source": "https://europepmc.org/article/MED/31365407"
+    },
+    {
+     "finding": "A lack of judgment from teachers or peers is central to feeling safe while learning.",
+     "quote": "Students described PS as not feeling judged. Having supportive relationships with peers and mentors improved PS.",
+     "source": "https://europepmc.org/article/MED/31365407"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/31365407",
+     "title": "Exploring the Construct of Psychological Safety in Medical Education",
+     "authors": "Tsuei SH, Lee D, Ho C, Regehr G, Nimmon L.",
+     "year": "2019",
+     "journal": "Academic medicine : journal of the Association of American Medical Colleges"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-26670906",
+   "title": "Sensorimotor integration is enhanced in dancers and musicians",
+   "on": "2026-11-20",
+   "tags": [
+    "repetition",
+    "feel_and_groove"
+   ],
+   "authors": "Karpati FJ, Giacosa C, Foster NE, Penhune VB, Hyde KL.",
+   "year": "2016",
+   "journal": "Experimental brain research",
+   "url": "https://europepmc.org/article/MED/26670906",
+   "cited_by": 45,
+   "principle": "Long-term intensive training in dance or music leads to distinct enhancements in sensorimotor skills tailored to the specific domain.",
+   "for_the_teacher": [
+    "Include whole-body imitation tasks to leverage and develop sensorimotor integration skills in learners."
+   ],
+   "findings": [
+    {
+     "finding": "Dancers outperformed musicians and controls specifically on a whole-body dance imitation task.",
+     "quote": "Dancers performed better than musicians and controls on a dance imitation task (involving whole-body movement)",
+     "source": "https://europepmc.org/article/MED/26670906"
+    },
+    {
+     "finding": "Musicians showed superior performance compared to dancers and controls on melody discrimination and rhythm synchronization tasks.",
+     "quote": "musicians performed better than dancers and controls on a musical melody discrimination task as well as on a rhythm synchronization task (involving finger tapping)",
+     "source": "https://europepmc.org/article/MED/26670906"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/26670906",
+     "title": "Sensorimotor integration is enhanced in dancers and musicians",
+     "authors": "Karpati FJ, Giacosa C, Foster NE, Penhune VB, Hyde KL.",
+     "year": "2016",
+     "journal": "Experimental brain research"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-27303255",
+   "title": "Movement Sonification: Effects on Motor Learning beyond Rhythmic Adjustments",
+   "on": "2026-11-18",
+   "tags": [
+    "counts_and_rhythm",
+    "music_early",
+    "checks_in"
+   ],
+   "authors": "Effenberg AO, Fehse U, Schmitz G, Krueger B, Mechling H.",
+   "year": "2016",
+   "journal": "Frontiers in neuroscience",
+   "url": "https://europepmc.org/article/MED/27303255",
+   "cited_by": 66,
+   "principle": "Providing real-time auditory feedback that maps movement parameters to sound enhances the acquisition and precision of complex motor skills.",
+   "for_the_teacher": [
+    "Integrate real-time sound effects that change based on the speed or intensity of the learner's movement to provide immediate, non-conscious feedback.",
+    "Use auditory cues that map specific kinematic parameters, such as the height or velocity of a limb, to distinct electronic sounds."
+   ],
+   "findings": [
+    {
+     "finding": "Multimodal feedback, specifically integrating auditory information with visual and proprioceptive streams, improves motor learning outcomes.",
+     "quote": "A growing number of studies indicates an enhanced impact of multimodal stimuli on motor perception, motor control and motor learning in terms of better precision and higher reliability",
+     "source": "https://europepmc.org/article/MED/27303255"
+    },
+    {
+     "finding": "Movement sonification can accelerate the development of internal motor models more effectively than standard rhythmic feedback alone.",
+     "quote": "Results indicate that movement sonification enhances motor learning of a complex gross motor skill-even exceeding usually expected acoustic rhythmic effects on motor learning.",
+     "source": "https://europepmc.org/article/MED/27303255"
+    },
+    {
+     "finding": "Synchronous auditory feedback that maps kinematic data to sound helps learners process movement information more efficiently.",
+     "quote": "With ongoing training, synchronously processed auditory information should be initially integrated into the emerging internal models, enhancing the efficacy of motor learning.",
+     "source": "https://europepmc.org/article/MED/27303255"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/27303255",
+     "title": "Movement Sonification: Effects on Motor Learning beyond Rhythmic Adjustments",
+     "authors": "Effenberg AO, Fehse U, Schmitz G, Krueger B, Mechling H.",
+     "year": "2016",
+     "journal": "Frontiers in neuroscience"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-24239853",
+   "title": "EEG-neurofeedback for optimising performance. II: creativity, the performing arts and ecological validity",
+   "on": "2026-11-18",
+   "tags": [
+    "feel_and_groove",
+    "social_connection"
+   ],
+   "authors": "Gruzelier JH.",
+   "year": "2014",
+   "journal": "Neuroscience and biobehavioral reviews",
+   "url": "https://europepmc.org/article/MED/24239853",
+   "cited_by": 76,
+   "principle": "Neurofeedback training, particularly using alpha/theta and sensory-motor rhythm protocols, can enhance creative performance and technical skills in the performing arts.",
+   "for_the_teacher": [
+    "Incorporate heart rate variability awareness or training to help dancers manage their physiological state for better performance.",
+    "Use immersive training contexts to increase the ecological relevance of practice sessions for students.",
+    "Focus on alpha/theta training protocols to support the development of creative expression in dance students."
+   ],
+   "findings": [
+    {
+     "finding": "Alpha/theta training provides reliable benefits for the creative performance of advanced musicians.",
+     "quote": "There is evidence of reliable benefits from A/T training with advanced musicians especially for creative performance",
+     "source": "https://europepmc.org/article/MED/24239853"
+    },
+    {
+     "finding": "Both alpha/theta and sensory-motor rhythm training improve creativity, communication, and technique in novice music students.",
+     "quote": "reliable benefits from both A/T and SMR training for novice music performance in adults and in a school study with children with impact on creativity, communication/presentation and technique.",
+     "source": "https://europepmc.org/article/MED/24239853"
+    },
+    {
+     "finding": "Dancers can experience performance benefits from alpha/theta and heart rate variability training protocols.",
+     "quote": "A/T and HRV training have benefitted dancers.",
+     "source": "https://europepmc.org/article/MED/24239853"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/24239853",
+     "title": "EEG-neurofeedback for optimising performance. II: creativity, the performing arts and ecological validity",
+     "authors": "Gruzelier JH.",
+     "year": "2014",
+     "journal": "Neuroscience and biobehavioral reviews"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-31989956",
+   "title": "Whole-body kinematics and coordination in a complex dance sequence: Differences across skill levels",
+   "on": "2026-11-17",
+   "tags": [
+    "progression",
+    "body_adaptation"
+   ],
+   "authors": "Chang M, O'Dwyer N, Adams R, Cobley S, Lee KY, Halaki M.",
+   "year": "2020",
+   "journal": "Human movement science",
+   "url": "https://europepmc.org/article/MED/31989956",
+   "cited_by": 15,
+   "principle": "As skill progresses from beginner to expert, the body unfreezes degrees of freedom and movement becomes more dynamic and organized.",
+   "for_the_teacher": [
+    "Encourage learners to gradually increase their movement amplitude and speed as they progress from beginner to intermediate stages."
+   ],
+   "findings": [
+    {
+     "finding": "Beginners initially move with more rigidity while experts show increased movement amplitude and speed.",
+     "quote": "Most joints displayed increased amplitude and speed of movement, especially early in skill progression (beginner-intermediate stage), with no evidence of any decreases, showing that unfreezing occurred around the general movement pattern early.",
+     "source": "https://europepmc.org/article/MED/31989956"
+    },
+    {
+     "finding": "Movement organization improves through a reduction in the number of early coordinative structures followed by later integration.",
+     "quote": "Principal component analyses (PCA) showed that the structure of movement became more organised with increased skill.",
+     "source": "https://europepmc.org/article/MED/31989956"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/31989956",
+     "title": "Whole-body kinematics and coordination in a complex dance sequence: Differences across skill levels",
+     "authors": "Chang M, O'Dwyer N, Adams R, Cobley S, Lee KY, Halaki M.",
+     "year": "2020",
+     "journal": "Human movement science"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-26825998",
+   "title": "Culture X: addressing barriers to physical activity in Samoa",
+   "on": "2026-11-17",
+   "tags": [
+    "culture_and_meaning",
+    "social_connection",
+    "fun_and_energy"
+   ],
+   "authors": "Heard EM, Auvaa L, Conway BA.",
+   "year": "2017",
+   "journal": "Health promotion international",
+   "url": "https://europepmc.org/article/MED/26825998",
+   "cited_by": 10,
+   "principle": "Integrating local cultural elements into movement programs significantly improves participant engagement and helps overcome personal and social barriers to physical activity.",
+   "for_the_teacher": [
+    "Incorporate traditional music and movement styles relevant to the learner's cultural background into the lesson.",
+    "Foster a sense of community and family inclusiveness within the digital dance environment to support learner motivation.",
+    "Acknowledge the importance of local cultural practices to help learners overcome personal barriers like lack of confidence."
+   ],
+   "when_it_does_not_apply": "The findings are specific to the Culture X initiative in Samoa and may not generalize to all populations without considering local cultural contexts.",
+   "findings": [
+    {
+     "finding": "Incorporating traditional cultural elements is essential for maintaining long-term participation in physical activity programs.",
+     "quote": "Findings suggest the inclusion of key cultural components (including, traditional dance moves and music, prayer, community orientation and family inclusiveness) were integral for supporting ongoing participation in Culture X.",
+     "source": "https://europepmc.org/article/MED/26825998"
+    },
+    {
+     "finding": "Cultural integration helps participants manage personal challenges like low motivation and lack of confidence.",
+     "quote": "These components further assisted participants in addressing important personal and social barriers to physical activity (including lack of motivation and enjoyment, lack of confidence, time management, family and social commitments and lack of support).",
+     "source": "https://europepmc.org/article/MED/26825998"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/26825998",
+     "title": "Culture X: addressing barriers to physical activity in Samoa",
+     "authors": "Heard EM, Auvaa L, Conway BA.",
+     "year": "2017",
+     "journal": "Health promotion international"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-15260842",
+   "title": "Comparisons of motivation, health behaviors, and functional status among elders in residential homes in Korea",
+   "on": "2026-11-17",
+   "tags": [
+    "reason_to_return",
+    "praise_and_expectancy"
+   ],
+   "authors": "Song R, June KJ, Kim CG, Jeon MY.",
+   "year": "2004",
+   "journal": "Public health nursing (Boston, Mass.)",
+   "url": "https://europepmc.org/article/MED/15260842",
+   "cited_by": 40,
+   "principle": "A motivation enhancement exercise program improves the motivation for health behaviors and enhances the functional status and physical dimensions of older adults over time.",
+   "for_the_teacher": [
+    "Include motivation enhancement strategies and emphasize perceived benefits to help older learners maintain consistent attendance."
+   ],
+   "findings": [
+    {
+     "finding": "The motivation to perform health behaviors, especially regarding perceived benefits, improved significantly for participants compared to dropouts.",
+     "quote": "The motivation to perform health behaviors, especially for perceived benefits, improved significantly for the participants than for the dropouts.",
+     "source": "https://europepmc.org/article/MED/15260842"
+    },
+    {
+     "finding": "Significant differences were found in the performance of overall health behaviors and exercise-related behaviors between participants and dropouts.",
+     "quote": "Significant differences in the performance of overall health behaviors and exercise-related behaviors were found between the participants and the dropouts.",
+     "source": "https://europepmc.org/article/MED/15260842"
+    },
+    {
+     "finding": "The sickness impact profile of participants improved significantly, showing differences in total SIP, physical dimensions, and enjoyment of recreation.",
+     "quote": "The sickness impact profile (SIP) of the participants improved significantly, compared with the dropouts. Significant group differences were found for total SIP, physical dimensions, and enjoyment of recreation and pastimes.",
+     "source": "https://europepmc.org/article/MED/15260842"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/15260842",
+     "title": "Comparisons of motivation, health behaviors, and functional status among elders in residential homes in Korea",
+     "authors": "Song R, June KJ, Kim CG, Jeon MY.",
+     "year": "2004",
+     "journal": "Public health nursing (Boston, Mass.)"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-22571917",
+   "title": "Active video game play in children with cerebral palsy: potential for physical activity promotion and rehabilitation therapies",
+   "on": "2026-11-17",
+   "tags": [
+    "fun_and_energy",
+    "body_adaptation",
+    "social_connection"
+   ],
+   "authors": "Howcroft J, Klejman S, Fehlings D, Wright V, Zabjek K, Andrysek J, Biddiss E.",
+   "year": "2012",
+   "journal": "Archives of physical medicine and rehabilitation",
+   "url": "https://europepmc.org/article/MED/22571917",
+   "cited_by": 90,
+   "principle": "Active video games can provide an enjoyable way for children with cerebral palsy to engage in moderate physical activity and support motor learning goals.",
+   "for_the_teacher": [
+    "Select specific dance movements or games that encourage the use of both limbs to support bilateral coordination.",
+    "Prioritize game-based movement activities to maintain high levels of learner enjoyment and engagement.",
+    "Adapt the choice of movement activities to target specific joints or therapeutic goals for the individual learner."
+   ],
+   "when_it_does_not_apply": "The study notes that individual variability in movement patterns and play styles remains a challenge that requires further research.",
+   "findings": [
+    {
+     "finding": "Active video games are a fun way for children with cerebral palsy to get moderate physical activity.",
+     "quote": "AVG play via a low-cost, commercially available system can offer an enjoyable opportunity for light to moderate physical activity in children with CP.",
+     "source": "https://europepmc.org/article/MED/22571917"
+    },
+    {
+     "finding": "Different games can be chosen to help with specific therapeutic needs like using both arms.",
+     "quote": "While all games may encourage motor learning to some extent, AVGs can be strategically selected to address specific therapeutic goals (eg, targeted joints, bilateral limb use).",
+     "source": "https://europepmc.org/article/MED/22571917"
+    },
+    {
+     "finding": "Children reported high levels of enjoyment while playing these active games.",
+     "quote": "A high level of enjoyment was reported on the PACES (4.5±0.3 out of 5).",
+     "source": "https://europepmc.org/article/MED/22571917"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/22571917",
+     "title": "Active video game play in children with cerebral palsy: potential for physical activity promotion and rehabilitation therapies",
+     "authors": "Howcroft J, Klejman S, Fehlings D, Wright V, Zabjek K, Andrysek J, Biddiss E.",
+     "year": "2012",
+     "journal": "Archives of physical medicine and rehabilitation"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-28352225",
+   "title": "Evolution of Neuroplasticity in Response to Physical Activity in Old Age: The Case for Dancing",
+   "on": "2026-11-17",
+   "tags": [
+    "play_and_variation",
+    "repetition",
+    "reason_to_return"
+   ],
+   "authors": "Müller P, Rehfeld K, Schmicker M, Hökelmann A, Dordevic M, Lessmann V, Brigadski T, Kaufmann J, Müller NG.",
+   "year": "2017",
+   "journal": "Frontiers in aging neuroscience",
+   "url": "https://europepmc.org/article/MED/28352225",
+   "cited_by": 123,
+   "principle": "Dance programs that prioritize the continuous learning of new movement patterns are more effective at promoting brain health in older adults than repetitive physical exercise.",
+   "for_the_teacher": [
+    "Prioritize teaching new, varied movement patterns rather than relying on repetitive drills.",
+    "Incorporate sensory-rich elements into dance lessons to maximize cognitive engagement.",
+    "Design long-term programs that encourage continuous learning to support neuroplasticity in older students."
+   ],
+   "when_it_does_not_apply": "The study focused specifically on healthy seniors aged 63-80 years.",
+   "findings": [
+    {
+     "finding": "Dance training that requires ongoing cognitive and motor learning is more effective for neuroplasticity than repetitive exercise.",
+     "quote": "The results of our study suggest that participating in a long-term dance program that requires constant cognitive and motor learning is superior to engaging in repetitive physical exercises",
+     "source": "https://europepmc.org/article/MED/28352225"
+    },
+    {
+     "finding": "Combining physical activity with sensory enrichment, as seen in dance, provides greater benefits to the brain than physical activity alone.",
+     "quote": "From animal research, it is known that combining physical activity with sensory enrichment has stronger and longer-lasting effects on the brain than either treatment alone.",
+     "source": "https://europepmc.org/article/MED/28352225"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/28352225",
+     "title": "Evolution of Neuroplasticity in Response to Physical Activity in Old Age: The Case for Dancing",
+     "authors": "Müller P, Rehfeld K, Schmicker M, Hökelmann A, Dordevic M, Lessmann V, Brigadski T, Kaufmann J, Müller NG.",
+     "year": "2017",
+     "journal": "Frontiers in aging neuroscience"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-28742426",
+   "title": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+   "on": "2026-11-17",
+   "tags": [
+    "culture_and_meaning",
+    "autonomy",
+    "recap_and_practice_plan"
+   ],
+   "authors": "Ennis CD.",
+   "year": "2017",
+   "journal": "Research quarterly for exercise and sport",
+   "url": "https://europepmc.org/article/MED/28742426",
+   "cited_by": 41,
+   "principle": "To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation.",
+   "for_the_teacher": [
+    "Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.",
+    "Provide suggestions for how students can practice or explore the dance steps in their own time outside of the lesson.",
+    "Use encouraging language that highlights the student's autonomy in making cognitive decisions about their own movement style."
+   ],
+   "findings": [
+    {
+     "finding": "Teachers should prioritize strategies that encourage students to engage in physical activity outside of the classroom setting.",
+     "quote": "It will require teachers and program leaders to focus programmatic attention on strategies to actually increase students' out-of-class physical activity behavior.",
+     "source": "https://europepmc.org/article/MED/28742426"
+    },
+    {
+     "finding": "A supportive and motivating teaching environment is essential for creating transformative learning experiences.",
+     "quote": "Transformative PE provides physical activity content within a nurturing and motivating environment that can change students' lives.",
+     "source": "https://europepmc.org/article/MED/28742426"
+    },
+    {
+     "finding": "Connecting physical activities to personal meaning helps students find relevance and motivation.",
+     "quote": "It focuses on PE students' role in cognitive decision making, self-motivation, and their search for personal meaning that can add connection and relevance to physical activities.",
+     "source": "https://europepmc.org/article/MED/28742426"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/28742426",
+     "title": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+     "authors": "Ennis CD.",
+     "year": "2017",
+     "journal": "Research quarterly for exercise and sport"
+    }
+   ]
+  }
+ ],
+ "fingerprint": "b96697236e850586",
+ "updated": "2026-11-23"
+}
