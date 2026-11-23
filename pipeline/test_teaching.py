@@ -107,27 +107,56 @@ class PatientClientTests(unittest.TestCase):
             llm.record(rep)
         self.assertEqual(rep.notes, ["model trouble: day_quota_used_up 1", "refused for quota: gemini-3.5-flash-lite (GenerateRequestsPerDayPerProjectPerModel-FreeTier, on a video question)"])
 
-    def test_the_record_reads_the_quota_from_the_whole_answer_while_the_rules_still_read_its_first_400_characters(self):
-        # What Gemini's free tier sends: a long message, then the quota's name, its limit and the wait, all past the 400th character.
-        whole = json.dumps({"error": {"code": 429, "status": "RESOURCE_EXHAUSTED",
-                 "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 250000, model: gemini-3.5-flash-lite\nPlease retry in 39.6s.",
-                 "details": [{"@type": "type.googleapis.com/google.rpc.QuotaFailure", "violations": [{"quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count", "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier", "quotaDimensions": {"location": "global", "model": "gemini-3.5-flash-lite"}, "quotaValue": "250000"}]},
-                             {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "39s"}]}}, indent=2)
+    def refusal(self, quota, limit, wait, metric="generate_content_free_tier_requests"):
+        """A 429 as Gemini's free tier sends it: a long message, then the quota's name, its limit and the wait, all past the 400th character."""
+        return json.dumps({"error": {"code": 429, "status": "RESOURCE_EXHAUSTED",
+                 "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/" + metric + ", limit: " + str(limit) + ", model: gemini-3.5-flash-lite\nPlease retry in " + str(wait) + ".6s.",
+                 "details": [{"@type": "type.googleapis.com/google.rpc.QuotaFailure", "violations": [{"quotaMetric": "generativelanguage.googleapis.com/" + metric, "quotaId": quota, "quotaDimensions": {"location": "global", "model": "gemini-3.5-flash-lite"}, "quotaValue": str(limit)}]},
+                             {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": str(wait) + "s"}]}}, indent=2)
+
+    def test_what_a_refusal_says_is_read_from_the_whole_answer(self):
+        whole = self.refusal("GenerateContentInputTokensPerModelPerMinute-FreeTier", 250000, 39, "generate_content_free_tier_input_token_count")
         self.assertNotIn("quotaId", whole[:400])
         self.assertEqual(common.quota_said(whole), "GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 39s")
-        self.assertEqual(common.quota_said(whole[:400]), "")                       # what the rules have seen until now: no name, no wait
+        self.assertEqual(common.quota_said(whole[:400]), "")                       # all the rule saw until 23 November 2026: no name, no wait
         self.assertEqual(common.quota_said(whole[:700]), "generate_content_free_tier_input_token_count limit 250000, retry in 39.6s")   # cut short: read as text
         self.assertEqual(common.quota_said('{"error": {"details": [{"violations": [{"quotaId": "<script>x</script> y"}]}]}}'), "scriptxscripty")
+
+    def test_a_limit_by_the_minute_named_past_the_400th_character_is_waited_out_and_the_same_model_answers(self):
+        # the run of 23 November 2026: flash-lite, 250,000 tokens a minute, "retry in 11s"; until then such a model was retired for the stage
+        whole = self.refusal("GenerateContentInputTokensPerModelPerMinute-FreeTier", 250000, 11, "generate_content_free_tier_input_token_count")
         llm = self.llm()
-        refused = common.HttpError(429, whole[:400], "https://example.org", whole)
-        a, b, c, d, e = self.running(LISTED, [refused, ANSWER, refused, ANSWER])
-        with a, b, c, d, e, patch.object(common, "warn"):
+        a, b, c, d, e = self.running(LISTED, [common.HttpError(429, whole[:400], "https://example.org", whole), ANSWER])
+        with a, b as http, c, d, e, patch.object(common, "warn"):
             self.assertEqual(llm.json("system", "user", video_url="https://www.youtube.com/watch?v=x"), {"ok": True})
-        self.assertEqual((llm.dead, llm.why), ({"gemini-3.5-flash-lite"}, {"day_quota_used_up": 1}))   # the rule itself is as it was
+            self.assertEqual([call.args[0].split("/models/")[1].split(":")[0] for call in http.call_args_list], ["gemini-3.5-flash-lite", "gemini-3.5-flash-lite"])
+        self.assertEqual((llm.dead, llm.why, llm.unanswered, common.LLM.WAITED), (set(), {"waited_seconds": 13}, 0, 13))
         rep = common.Report("fixture")
         with patch.object(common, "log"):
             llm.record(rep)
-        self.assertEqual(rep.notes[1], "refused for quota: gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 39s, on a video question)")
+        self.assertEqual(rep.notes, ["model trouble: waited_seconds 13",
+                                     "refused for quota: gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 11s, on a video question)"])
+
+    def test_a_limit_by_the_day_named_past_the_400th_character_retires_the_model_for_the_run(self):
+        # the same run: each flash model, 20 requests a day, "retry in 19153s"
+        whole = self.refusal("GenerateRequestsPerDayPerProjectPerModel-FreeTier", 20, 19153)
+        llm = self.llm()
+        a, b, c, d, e = self.running(LISTED, [common.HttpError(429, whole[:400], "https://example.org", whole), ANSWER])
+        with a, b as http, c, d, e, patch.object(common, "warn"):
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+            self.assertEqual(http.call_count, 2)
+        self.assertEqual((llm.dead, llm.why, common.LLM.WAITED), ({"gemini-3.5-flash-lite"}, {"day_quota_used_up": 1}, 0))
+
+    def test_when_the_nights_waiting_is_used_up_a_minute_limit_moves_the_question_to_the_next_model(self):
+        whole = self.refusal("GenerateContentInputTokensPerModelPerMinute-FreeTier", 250000, 11, "generate_content_free_tier_input_token_count")
+        llm = self.llm()
+        common.LLM.WAITED = 1795.0
+        a, b, c, d, e = self.running(LISTED, [common.HttpError(429, whole[:400], "https://example.org", whole), ANSWER])
+        with a, b as http, c, d, e, patch.object(common, "warn"):
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+            self.assertEqual([call.args[0].split("/models/")[1].split(":")[0] for call in http.call_args_list], ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"])
+        self.assertEqual((llm.dead, llm.why, common.LLM.WAITED), (set(), {"rate_limited": 1}, 1795.0))
+        self.assertEqual(llm._rest["gemini-3.5-flash-lite"] - self.clock[0], 30)
 
     def test_the_helper_that_fetches_keeps_a_longer_copy_of_a_refused_answer_for_the_record(self):
         import io, urllib.error

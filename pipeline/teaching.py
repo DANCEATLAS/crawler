@@ -1100,7 +1100,7 @@ def run(budget=8, science=None, only=None, looks=None):
     live = bool(llm.enabled and llm.gemini_key)
     why = lambda *kinds: sum((getattr(llm, "why", None) or {}).get(k, 0) for k in kinds)
     nobody = lambda: why("no_model_available")                      # no model could be asked at all
-    gone = lambda: why("no_model_available", "day_quota_used_up")   # a model was refused its quota during the question: the engine's trouble, not the lesson's
+    gone = lambda: why("no_model_available", "day_quota_used_up", "rate_limited")   # a model was refused its quota during the question: the engine's trouble, not the lesson's
     if live and not only:
         try:
             rep.inc("basics_lessons_found", discover_foundations(store, state, env("FOUNDATION_SEARCHES", "3")))
