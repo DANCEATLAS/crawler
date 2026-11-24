@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       stage:
-        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | teaching | footage | episodes | translate | activation | readiness | door | sync | report | selftest"
+        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | teaching | footage | pictures | episodes | translate | activation | readiness | door | sync | report | selftest"
         default: "daily"
       research_new:
         description: "new dances to research this run"
@@ -98,6 +98,8 @@ jobs:
           EPISODE_POLISH: "4"
           # reference-footage lists read a night (one text question a dance: does each clip show this dance?); a run by hand reads the backlog
           FOOTAGE_BUDGET: "150"
+          # profiles without a licensed picture looked for a night (the Commons category, the article in other languages, a search by name; read before kept)
+          PICTURES_BUDGET: "60"
           # one narrator, every language: gap-free packs are translated scene by scene (TRANSLATE_BUDGET calls a day) into these languages
           TRANSLATE_BUDGET: "6"
           TRANSLATE_LANGS: "es,fr,de,pt,it,ja,zh,ko,ar,hi,ru,id"

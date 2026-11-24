@@ -311,7 +311,7 @@ def commons_images_for_page(wiki_title, limit=12):
         warn("commons_images_for_page", wiki_title, e)
         return []
 
-def commons_file_info(file_titles):
+def commons_file_info(file_titles, categories=False, strict=False):
     out = []
     for i in range(0, len(file_titles), 20):
         batch = file_titles[i:i + 20]
@@ -320,6 +320,8 @@ def commons_file_info(file_titles):
         try:
             j = get_json(COMMONS_API + "?" + urllib.parse.urlencode(params))
         except Exception as e:
+            if strict:   # the caller must be able to tell "Commons was down" from "no free picture"
+                raise
             warn("commons_file_info", e)
             continue
         for p in (j.get("query") or {}).get("pages") or []:
@@ -338,7 +340,69 @@ def commons_file_info(file_titles):
                         "artist": artist[:200], "description": desc[:400],
                         "source_page": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote((p.get("title") or "").replace(" ", "_")),
                         "attribution": (artist + " / Wikimedia Commons / " + lic).strip(" /")})
+            if categories:   # for a reader who has to tell what the picture shows (pipeline/pictures.py)
+                out[-1]["categories"] = re.sub(r"\s*\|\s*", "; ", str((em.get("Categories") or {}).get("value") or ""))[:300]
     return out
+
+# ----------------------------------------------------------------- more places a licensed picture of a dance may be (pipeline/pictures.py)
+NOT_A_PICTURE = r"(icon|logo|flag of|map of|wiki|symbol|commons-|edit-|question|ambox|padlock|stub|crystal|nuvola|speaker)"
+
+def picture_titles(titles):
+    """The file titles that can be a picture of a dance: a photograph or a scan (jpg, png, webp), not an interface icon.
+    A title from another language's Wikipedia carries that language's word for "File" and is given Commons' own."""
+    out = []
+    for t in titles or []:
+        t = str(t or "")
+        t = "File:" + t.split(":", 1)[1] if ":" in t else t
+        if re.search(r"\.(jpe?g|png|webp)$", t, re.I) and not re.search(NOT_A_PICTURE, t, re.I) and t not in out:
+            out.append(t)
+    return out
+
+def wiki_images_in(lang, title, limit=10):
+    """Free-licence pictures used on the article about the dance in another language's Wikipedia (those kept on Commons)."""
+    if not (title and re.match(r"^[a-z][a-z\-]{1,11}$", str(lang or ""))):
+        return []
+    def fetch():
+        params = {"action": "query", "prop": "images", "titles": title, "imlimit": "50", "format": "json", "formatversion": "2", "redirects": "1"}
+        j = get_json(f"https://{lang}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params))
+        files = []
+        for pg in (j.get("query") or {}).get("pages") or []:
+            files += [im.get("title") for im in pg.get("images") or []]
+        return commons_file_info(picture_titles(files)[:limit], categories=True, strict=True)
+    return cached(f"wiki-images:{lang}:{title}", fetch) or []   # an unreachable source raises: the caller must not take that for an empty one
+
+def commons_category_images(category, limit=10):
+    """Free-licence pictures in a Commons category (the one a dance's Wikidata item names)."""
+    if not category:
+        return []
+    def fetch():
+        params = {"action": "query", "list": "categorymembers", "cmtitle": "Category:" + str(category), "cmtype": "file", "cmlimit": "50", "format": "json", "formatversion": "2"}
+        j = get_json(COMMONS_API + "?" + urllib.parse.urlencode(params))
+        files = [m.get("title") for m in (j.get("query") or {}).get("categorymembers") or []]
+        return commons_file_info(picture_titles(files)[:limit], categories=True, strict=True)
+    return cached("commons-category:" + str(category), fetch) or []   # an unreachable source raises: the caller must not take that for an empty one
+
+def wikidata_sitelinks(qid):
+    """Every Wikipedia article about the item: {"es": "Rueda de casino", ...} (wikidata_entity keeps six languages)."""
+    if not re.match(r"^Q\d+$", str(qid or "")):
+        return {}
+    def fetch():
+        j = get_json(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
+        links = ((j.get("entities") or {}).get(qid) or {}).get("sitelinks") or {}
+        return {k[:-4].replace("_", "-"): v.get("title") for k, v in links.items()
+                if k.endswith("wiki") and k not in ("commonswiki", "specieswiki", "metawiki", "wikidatawiki", "mediawikiwiki", "sourceswiki", "foundationwiki") and v.get("title")}
+    return cached("wd-sitelinks:" + qid, fetch) or {}   # an unreachable source raises: the caller must not take that for an empty one
+
+def commons_images_search(name, limit=8):
+    """Free-licence pictures on Wikimedia Commons whose page mentions the dance's name. Found by a name: read before use."""
+    if len(norm(name)) < 4:
+        return []
+    def fetch():
+        params = {"action": "query", "list": "search", "srsearch": f'"{name}" filetype:bitmap', "srnamespace": "6", "srlimit": str(limit * 2), "format": "json", "formatversion": "2"}
+        j = get_json(COMMONS_API + "?" + urllib.parse.urlencode(params))
+        files = [m.get("title") for m in (j.get("query") or {}).get("search") or []]
+        return commons_file_info(picture_titles(files)[:limit], categories=True, strict=True)
+    return cached("commons-image-search:" + norm(name), fetch) or []   # an unreachable source raises: the caller must not take that for an empty one
 
 # ----------------------------------------------------------------- reference footage (licensed video, for the future generator)
 def footage_relevant(name, title, desc):
