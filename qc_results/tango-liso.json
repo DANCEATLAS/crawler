@@ -1,10 +1,10 @@
 {
  "slug": "tango-liso",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:43:14Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.25,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,28 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Tango de Salón (often conflated in historical discourse)",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and adheres strictly to the provided evidence. It successfully contextualizes the 'fatigued' style as a historical adaptation to immigrant dance hall conditions. The teaching and adaptation sections are safe, clear, and appropriate for the style's emphasis on accessibility."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "banned_phrasing",
-  "no_judge"
+  "judge_score=9.25"
  ],
  "citation": {
   "claims": 7,

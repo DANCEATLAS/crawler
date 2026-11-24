@@ -1,10 +1,10 @@
 {
  "slug": "mazurka-creole",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:44:53Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.3,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=False cues=['ancestor']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Well-sourced and culturally respectful profile of the Martinican mazouk. High accuracy against evidence."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=9.3"
  ],
  "citation": {
   "claims": 5,

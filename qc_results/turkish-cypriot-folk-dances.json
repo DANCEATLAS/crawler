@@ -1,10 +1,10 @@
 {
  "slug": "turkish-cypriot-folk-dances",
- "qc_at": "2026-11-24T00:19:58Z",
+ "qc_at": "2026-11-24T01:42:53Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 6.85,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,35 @@
    "detail": "sacred=False cues=['ancestor']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 7,
+  "respect": 8,
+  "specificity": 6,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile identifies Zeibekiko as a 'cornerstone' and 'prominent form' of Turkish Cypriot folk dance, whereas it is historically and culturally a Greek-Anatolian dance (Zeybekiko/Zeybek) that is not indigenous to the Turkish Cypriot folk tradition in the same way as local dances like the 'Çiftetelli' or 'Karşılama'.",
+   "The claim that Zeibekiko operates on 9/4 or 11/8 meters is technically imprecise; while Zeybek music is often in 9/8 (not 9/4), the attribution of this specific dance as a primary Turkish Cypriot folk dance is culturally misleading."
+  ],
+  "harm_or_disrespect": [
+   "The profile risks cultural appropriation or misattribution by framing the Zeibekiko (a dance deeply rooted in Greek and Anatolian Zeybek traditions) as a cornerstone of Turkish Cypriot folk dance, potentially conflating distinct regional identities."
+  ],
+  "duplicate_suspicion": "Zeybek",
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile relies heavily on the Zeibekiko, which is not the defining dance of the Turkish Cypriot tradition. It conflates Greek/Anatolian Zeybekiko with Turkish Cypriot folk identity. The historical and cultural framing needs correction to focus on indigenous Cypriot forms like Karşılama or Çiftetelli to be accurate."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "country",
-  "no_judge"
+  "judge_score=6.85",
+  "doubts=2",
+  "harm"
  ],
  "citation": {
   "claims": 6,

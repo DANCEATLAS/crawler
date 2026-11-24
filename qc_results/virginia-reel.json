@@ -1,10 +1,10 @@
 {
  "slug": "virginia-reel",
- "qc_at": "2026-11-24T00:19:58Z",
+ "qc_at": "2026-11-24T01:42:49Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.25,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,31 @@
    "detail": "sacred=False cues=['spirit']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the dance was performed at the governor's inauguration ball in Hartford is not directly supported by the provided evidence quote, which mentions attendance at the ball but does not explicitly state the Virginia Reel was performed there."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Sir Roger de Coverley",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and culturally sensitive. The minor factual doubt regarding the Hartford ball is a nuance of attribution rather than a major error. The teaching material is clear, safe, and highly practical for beginners."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "insight_concrete",
-  "no_judge"
+  "judge_score=9.25",
+  "doubts=1"
  ],
  "citation": {
   "claims": 7,

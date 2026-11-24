@@ -1,10 +1,10 @@
 {
  "slug": "kantu",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:45:07Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.15,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=True cues=['sacred', 'ceremon']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and respects the ceremonial nature of the Kantu. It correctly identifies the lack of technical dance documentation, which is a responsible approach for a sacred tradition. The inclusion of contemporary ensembles is noted as a cultural bridge rather than a definitive source for the traditional dance steps."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "no_judge",
+  "judge_score=9.15",
   "sacred"
  ],
  "citation": {

@@ -1,10 +1,10 @@
 {
  "slug": "vintage-dance",
- "qc_at": "2026-11-24T00:19:57Z",
+ "qc_at": "2026-11-24T01:41:52Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 8.5,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,28 @@
    "detail": "sacred=False cues=['offering']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The profile describes a movement or hobbyist category rather than a single dance tradition. While well-researched and specific regarding organizations and history, it lacks technical teaching value for a beginner, as it explicitly states technique is not described. It functions more as a directory of a subculture than a dance guide."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=8.5",
+  "not_a_dance"
  ],
  "citation": {
   "claims": 7,

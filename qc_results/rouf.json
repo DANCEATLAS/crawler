@@ -1,10 +1,10 @@
 {
  "slug": "rouf",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:45:02Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_score": 9.25,
  "gates": [
   {
    "gate": "has_name",
@@ -87,14 +87,29 @@
    "detail": "sacred=False cues=['religious']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-structured. It correctly identifies the dance's origins and technical execution. The minor discrepancy in the evidence claim (Kabab vs Rubab) is a known transliteration variation, and the profile correctly uses the standard term Rubab."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "insight_concrete",
   "sections_filled",
-  "no_judge"
+  "judge_score=9.25"
  ],
  "citation": {
   "claims": 6,

@@ -6484,5 +6484,25 @@
   "notes": [],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-11-24T01:41:06Z",
+  "finished": "2026-11-24T01:45:16Z",
+  "counters": {
+   "gate_publish": 26,
+   "gate_review": 6,
+   "gate_reject": 7,
+   "llm_calls": 46,
+   "llm_failures": 6,
+   "llm_requests": 39,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "qc targets: 39 (judge enabled=True)",
+   "model trouble: overloaded 5, model_gone 1"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]

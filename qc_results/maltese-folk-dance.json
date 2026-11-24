@@ -1,10 +1,10 @@
 {
  "slug": "maltese-folk-dance",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:44:49Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "reject",
+ "qc_score": 6.65,
  "gates": [
   {
    "gate": "has_name",
@@ -87,7 +87,22 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 2,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "While accurate to the single provided source, this profile lacks substantive information on any actual dance tradition, containing almost entirely 'not described in sources' fields. It is unsuitable for a dance guide."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
@@ -95,7 +110,7 @@
   "citations",
   "profile_long_len",
   "sections_filled",
-  "no_judge"
+  "judge_score=6.65"
  ],
  "citation": {
   "claims": 1,

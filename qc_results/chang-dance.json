@@ -1,10 +1,10 @@
 {
  "slug": "chang-dance",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:43:22Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 8.95,
  "gates": [
   {
    "gate": "has_name",
@@ -78,8 +78,8 @@
   },
   {
    "gate": "not_duplicate",
-   "ok": false,
-   "detail": "{\"slug\": \"dhamal-sufi\", \"score\": 1.0, \"via_alias\": \"Dhamal\"}"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "sacred_handled",
@@ -87,18 +87,28 @@
    "detail": "sacred=True cues=['ritual', 'spirit', 'religious']"
   }
  ],
- "judge": null,
- "judge_reused": false,
- "duplicate_of": {
-  "slug": "dhamal-sufi",
-  "score": 1.0,
-  "via_alias": "Dhamal"
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Dhamal or Dhuff dance",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and adheres strictly to the provided evidence. It captures the cultural context of the Shekhawati region effectively. The teaching section is appropriately cautious given the lack of specific technical footwork in the source material."
  },
+ "judge_reused": false,
+ "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "not_duplicate",
   "sacred_handled",
-  "no_judge",
+  "judge_score=8.95",
   "sacred"
  ],
  "citation": {

@@ -1,10 +1,10 @@
 {
  "slug": "kintauri",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:44:44Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_score": 7.3,
  "gates": [
   {
    "gate": "has_name",
@@ -87,13 +87,29 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "review": "review",
+  "notes": "The profile is factually accurate and well-sourced, but lacks significant concrete choreographic, musical, and teaching details because sources were limited. Teaching value is low due to missing steps and rhythm information.",
+  "verdict": "review"
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "profile_long_len",
-  "no_judge"
+  "judge_score=7.3"
  ],
  "citation": {
   "claims": 6,

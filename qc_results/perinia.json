@@ -1,10 +1,10 @@
 {
  "slug": "perinia",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:43:31Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_score": 8.7,
  "gates": [
   {
    "gate": "has_name",
@@ -87,14 +87,31 @@
    "detail": "sacred=False cues=['ritual']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Raving Rabbids / Rabbids Go Home Soundtrack"
+  ],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurate. The inclusion of the Rabbids soundtrack as a primary musical reference is noted as a pop-culture outlier rather than a traditional source, but the profile correctly identifies it as a contemporary context. The lack of technical dance details is transparently handled."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "insight_concrete",
   "sections_filled",
-  "no_judge"
+  "judge_score=8.7"
  ],
  "citation": {
   "claims": 6,

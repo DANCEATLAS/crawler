@@ -1,10 +1,10 @@
 {
  "slug": "barn-dance",
- "qc_at": "2026-11-24T00:19:59Z",
+ "qc_at": "2026-11-24T01:44:58Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 8.95,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurately distinguishes between the social dance tradition and the radio broadcast format. It correctly identifies the inclusive, caller-led nature of the dance. The teaching section is limited by the lack of specific step descriptions in the source material, which is handled honestly."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=8.95"
  ],
  "citation": {
   "claims": 7,

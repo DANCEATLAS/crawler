@@ -1,10 +1,10 @@
 {
  "slug": "gloving",
- "qc_at": "2026-11-24T00:19:58Z",
+ "qc_at": "2026-11-24T01:43:09Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.25,
  "gates": [
   {
    "gate": "has_name",
@@ -87,12 +87,27 @@
    "detail": "sacred=False cues=['trance']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "A well-researched profile that accurately captures the evolution of gloving from rave subculture to a digital-age performance art. The distinction between the physical practice and its digital/satirical evolution is handled with nuance. The teaching and adaptation sections are practical and safe."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=9.25"
  ],
  "citation": {
   "claims": 7,
