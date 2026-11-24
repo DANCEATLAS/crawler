@@ -123,6 +123,8 @@ def run():
         check("movie phase selftest", False, repr(e))
     import unittest
     from . import test_foundation, test_progress_digest, test_activation, test_readiness_research, test_spending, test_engine, test_teaching, test_door
-    suite = unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromModule(module) for module in (test_foundation, test_progress_digest, test_activation, test_readiness_research, test_spending, test_engine, test_teaching, test_door))
+    from . import test_footage, test_pictures, test_crawler_lessons   # 24 November 2026: what a search by name brings is read first; lesson rule 2
+    suite = unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromModule(module) for module in (test_foundation, test_progress_digest, test_activation, test_readiness_research, test_spending, test_engine, test_teaching, test_door,
+                                                                                                      test_footage, test_pictures, test_crawler_lessons))
     result = unittest.TextTestRunner(verbosity=1).run(suite)
     return {"counters": {"failures": len(fails) + len(result.failures) + len(result.errors)}}
