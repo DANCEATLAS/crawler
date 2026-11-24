@@ -16,7 +16,8 @@
   python -m pipeline.run door         # the door: manifest, index, one file per dance, machine.json in public/catalog/ (offline; for the site and for any agent)
   python -m pipeline.run health       # self-tuning (pipeline_state/tuning.json) and lessons learned from QC (pipeline_state/lessons_learned.json)
   python -m pipeline.run footage      # read the reference-footage lists: a clip found by a dance's name is kept only when it shows that dance (pipeline/footage.py)
-  python -m pipeline.run daily        # bootstrap → health → audit → discover → research → qc → hero_qc → build → teaching → pedagogy → footage → episodes → translate → activation → readiness → door → sync → report
+  python -m pipeline.run pictures     # a licensed picture for the profiles that have none: found near the dance on Wikimedia, read before it is kept (pipeline/pictures.py)
+  python -m pipeline.run daily        # bootstrap → health → audit → discover → research → qc → hero_qc → build → teaching → pedagogy → footage → pictures → episodes → translate → activation → readiness → door → sync → report
   python -m pipeline.run selftest     # offline checks, no network
 """
 import sys, os, argparse, json, traceback
@@ -39,7 +40,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     only = [s.strip() for s in a.only.split(",") if s.strip()] or None
     results = {}
-    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "teaching", "pedagogy", "footage", "episodes", "translate", "activation", "readiness", "door", "sync", "report"] if a.stage == "daily" else [a.stage]
+    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "teaching", "pedagogy", "footage", "pictures", "episodes", "translate", "activation", "readiness", "door", "sync", "report"] if a.stage == "daily" else [a.stage]
     daily = a.stage == "daily"
     def budget(name, value):
         """In the daily run the budgets follow pipeline_state/tuning.json (health stage): less when the models were failing, never more than set."""
@@ -69,6 +70,8 @@ def main(argv=None):
                 from . import pedagogy; results[st] = pedagogy.run(budget=budget("PEDAGOGY_BUDGET", _env_int("PEDAGOGY_BUDGET", 6)) if daily else min(a.budget, 12), only=only, performances=None if daily else min(a.budget, 12))
             elif st == "footage":   # after the lesson study, so on a congested night it takes only the waiting that is left; by hand it reads the whole backlog
                 from . import footage; results[st] = footage.run(budget=_env_int("FOOTAGE_BUDGET", 150) if daily else _env_int("FOOTAGE_BACKLOG", 600), only=only)
+            elif st == "pictures":   # beside the footage check: both read what a search by name brought, and both take only the waiting that is left
+                from . import pictures; results[st] = pictures.run(budget=_env_int("PICTURES_BUDGET", 60) if daily else _env_int("PICTURES_BACKLOG", 400), only=only)
             elif st == "episodes":
                 from . import episodes; results[st] = episodes.run(polish_budget=budget("EPISODE_POLISH", _env_int("EPISODE_POLISH", 0)), only=only)
             elif st == "translate":
