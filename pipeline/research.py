@@ -714,6 +714,11 @@ def run(budget_new=20, budget_enrich=20, only=None):
             rep.note(f"time budget reached: {rep.counters.get('researched_researched', 0)} written, the rest wait for the next run")
             rep.inc("time_budget_reached")
             break
+        if llm.stuck():   # nobody can be asked and the stage's waiting is used up (the night of 23 November 2026): stop, the queue keeps its place
+            rep.note(f"no model can be asked: {rep.counters.get('researched_researched', 0)} written, the rest wait for the next run")
+            rep.inc("stopped_early")
+            break
+        nobody = llm.why.get("no_model_available", 0)
         try:
             KEPT.pop(slug, None)
             rec = research_one(d, llm, sb)
@@ -734,7 +739,9 @@ def run(budget_new=20, budget_enrich=20, only=None):
                     save_state("editor_notes.json", notes)
             if kind == "new" and slug in cands:
                 cands[slug]["status"] = "researched" if rec["status"] == "researched" else ("no_sources" if rec["status"] == "no_sources" else "queued")
-                if rec["status"] == "llm_failed":   # three failed writes and the candidate leaves the queue (listed for a person, not retried daily for ever)
+                # three failed writes and the candidate leaves the queue (listed for a person, not retried daily for ever);
+                # a write that failed because nobody could be asked is the provider's night, not the candidate's, and is not counted
+                if rec["status"] == "llm_failed" and llm.why.get("no_model_available", 0) == nobody:
                     cands[slug]["attempts"] = int(cands[slug].get("attempts") or 0) + 1
                     if cands[slug]["attempts"] >= 3:
                         cands[slug]["status"] = "writer_failed"

@@ -17,6 +17,7 @@ ONE_MODEL = {"models": [{"name": "models/gemini-3.5-flash-lite", "supportedGener
 class PatientClientTests(unittest.TestCase):
     def setUp(self):
         common.LLM.WAITED = 0.0
+        common.LLM.SPENT_UNTIL = {}
         self.clock = [1000.0]
 
     def llm(self):
@@ -47,6 +48,51 @@ class PatientClientTests(unittest.TestCase):
             self.assertIsNone(llm.json("system", "user"))
             self.assertEqual(http.call_count, 1)
         self.assertEqual((llm.unanswered, common.LLM.WAITED), (1, 0.0))
+
+    def test_one_stage_cannot_use_up_the_waiting_of_the_stages_after_it(self):
+        # the night of 23 November 2026: the research stage waited 2,346 of the night's 2,400 seconds; the judge found nobody to ask
+        first = self.llm()
+        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER, BUSY, ANSWER], {"LLM_WAIT_STAGE_SECONDS": "30"})
+        with a, b as http, c, d, e:
+            self.assertIsNone(first.json("system", "user"))          # its own share (30 s) does not cover the 46-second wait
+            self.assertEqual((http.call_count, first.unanswered, first.waited, common.LLM.WAITED), (1, 1, 0.0, 0.0))
+        nxt = self.llm()                                             # the next stage of the same night has its own share
+        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER], {"LLM_WAIT_STAGE_SECONDS": "900"})
+        with a, b, c, d, e:
+            self.assertEqual(nxt.json("system", "user"), {"ok": True})
+        self.assertTrue(40 <= nxt.waited == common.LLM.WAITED <= 60, (nxt.waited, common.LLM.WAITED))
+
+    def test_a_stage_knows_when_nobody_can_be_asked_three_questions_in_a_row(self):
+        llm = self.llm()
+        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER], {"LLM_WAIT_STAGE_SECONDS": "0"})
+        with a, b as http, c, d, e:
+            self.assertIsNone(llm.json("system", "user"))            # asked, overloaded, no waiting: unanswered, yet somebody was asked
+            self.assertFalse(llm.stuck())
+            for _ in range(3):                                       # the only model rests: nobody is asked at all
+                self.assertIsNone(llm.json("system", "user"))
+            self.assertEqual((http.call_count, llm.why.get("no_model_available"), llm.stuck()), (1, 3, True))
+            self.clock[0] += 100                                     # the rest is over: an answer ends the run of misses
+            self.assertEqual(llm.json("system", "user"), {"ok": True})
+            self.assertFalse(llm.stuck())
+
+    def test_a_model_whose_day_is_spent_is_not_asked_again_by_the_later_stages_of_the_night(self):
+        whole = self.refusal("GenerateRequestsPerDayPerProjectPerModel-FreeTier", 20, 19153)
+        spent_day = common.HttpError(429, whole[:400], "https://example.org", whole)
+        first = self.llm()
+        a, b, c, d, e = self.running(LISTED, [spent_day, ANSWER])
+        with a, b, c, d, e, patch.object(common, "warn"):
+            self.assertEqual(first.json("system", "user"), {"ok": True})
+        self.assertEqual(sorted(common.LLM.SPENT_UNTIL), ["gemini-3.5-flash-lite"])
+        nxt = self.llm()                                             # the next stage: a new client, the same night
+        a, b, c, d, e = self.running(LISTED, [ANSWER, ANSWER])
+        with a, b as http, c, d, e, patch.object(common, "warn"):
+            self.assertEqual(nxt.json("system", "user"), {"ok": True})
+            self.assertEqual(http.call_args_list[0].args[0].split("/models/")[1].split(":")[0], "gemini-3.1-flash-lite")
+            self.assertEqual((nxt.failures, nxt.why), (0, {}))       # no refused call, nothing to report
+            self.clock[0] += 20000                                   # the day's quota is back
+            later = self.llm()
+            self.assertEqual(later.json("system", "user"), {"ok": True})
+            self.assertEqual(http.call_args_list[1].args[0].split("/models/")[1].split(":")[0], "gemini-3.5-flash-lite")
 
     def test_a_model_that_stays_overloaded_rests_longer_each_time_up_to_the_cap(self):
         llm = self.llm()

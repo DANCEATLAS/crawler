@@ -185,6 +185,10 @@ def run(budget=80, recheck_days=120, use_vision=True, only=None):
     meta = video_meta(list(dict.fromkeys(i for i in ids if i)))
     rep.inc("videos_fetched", len(meta))
     for s in slugs:
+        if llm.stuck():   # nobody can be asked: a hero video is not passed on its metadata alone for want of a model; the rest wait
+            rep.inc("stopped_early")
+            rep.note("no model can be asked: the hero videos not yet checked wait for the next run")
+            break
         h = heroes[s]
         d = dances.get(s) or {"slug": s, "name": s.replace("-", " ")}
         vid = h["hero_video_youtube_id"]
