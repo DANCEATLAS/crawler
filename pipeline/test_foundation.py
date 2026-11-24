@@ -95,6 +95,30 @@ class ReadinessTests(unittest.TestCase):
         with patch("pipeline.selftest.run", return_value={"counters": {"failures": 1}}):
             self.assertEqual(run.main(["selftest"]), 1)
 
+    def test_one_run_can_carry_several_stages_in_the_order_given(self):
+        self.assertEqual(run.stages_of("door"), ["door"])
+        self.assertEqual(run.stages_of("build, episodes,activation,readiness,door"), ["build", "episodes", "activation", "readiness", "door"])
+        self.assertEqual(run.stages_of("daily")[0], "bootstrap")
+        self.assertEqual(run.stages_of("daily")[-1], "report")
+        for wrong in ("", ",", "biuld", "build,dor", "build,daily", "daily,door"):   # the night is never a part of a chain
+            self.assertIsNone(run.stages_of(wrong), wrong)
+        done = []
+        with patch("pipeline.readiness.run", side_effect=lambda: done.append("readiness") or {"counters": {}}), \
+                patch("pipeline.door.run", side_effect=lambda: done.append("door") or {"counters": {}}):
+            self.assertEqual(run.main(["readiness,door"]), 0)
+            self.assertEqual(done, ["readiness", "door"])
+            self.assertEqual(run.main(["readiness,dor"]), 2)          # a name that is not a stage: nothing is run
+            self.assertEqual(done, ["readiness", "door"])
+
+    def test_a_chain_stops_at_the_first_stage_that_fails(self):
+        done = []
+        def broken():
+            raise RuntimeError("the count could not be made")
+        with patch("pipeline.readiness.run", side_effect=broken), \
+                patch("pipeline.door.run", side_effect=lambda: done.append("door") or {"counters": {}}):
+            self.assertEqual(run.main(["readiness,door"]), 1)
+        self.assertEqual(done, [])                                     # the door is not opened on a count that failed
+
 
 class CompletionTests(TemporaryProject):
     def setup_queue(self):
