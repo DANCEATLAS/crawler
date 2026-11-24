@@ -93,7 +93,9 @@ class StageTests(TemporaryProject):
             return answer
         llm.json.side_effect = one
         look = pictures.candidates                                   # the real search, over the places of this test
-        with patch.object(common, "LLM", return_value=llm), patch.object(pictures, "candidates", side_effect=lambda rec: look(rec, places)):
+        # the stage's clock is the test's day: a search is "remembered for 45 days" from that day, whenever the test itself runs
+        with patch.object(common, "LLM", return_value=llm), patch.object(pictures, "candidates", side_effect=lambda rec: look(rec, places)), \
+                patch.object(common, "now_iso", return_value=today.isoformat() + "T12:00:00Z"):
             result = pictures.run(budget=budget, today=today)
         return result, llm
 
