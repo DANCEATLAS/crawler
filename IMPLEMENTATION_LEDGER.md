@@ -544,3 +544,28 @@ The owner came back at 10:27 Japan time: "fix all issues ... make sure all saved
 
 **Not done, on purpose or for want of a safe way.** Families for the 762 dances without one (a model's guess would be the untruth batch A removed; it needs a source or the judge's reading of the profile, open item 1a). The second opinion on sacred flags (open item 5: it loosens a rule that is absolute, so it is not done in a hurry). The hour of the schedule (one late start in 21). Discovery breadth (the queue holds 528 candidates, ten nights of writing).
 
+## 24 November 2026, midday — the runs of the day read; three faults they showed, repaired; the count told as it is
+
+**Why.** The owner: fix all issues, save everything where it belongs, work every task named. The stages built that morning were then run on the real atlas, and the runs showed what the tests could not.
+
+**The runs (by hand, `runs.json`).**
+- `footage`, the whole backlog (run 59, 45 minutes): 398 lists, with the twelve of the morning all 410. 661 of 1,748 clips kept, 155 lists kept nothing, no question unanswered. Ten lists read by eye: the verdicts are right (a woodpecker "hakkend" went out, and so did all six clips found under the name Pols, a member of parliament among them; Moiseyev's Yablochko stayed).
+- `pictures` on 15 dances (run 60): the search of Wikimedia worked on the first live run (21 pictures for 7 dances), **and the run could not save** (first fault below).
+- `pictures`, the backlog (run 61, 26 minutes): 194 dances searched, **51 given a licensed picture** (122 pictures; nothing near the dance for 55, nothing the reader would keep for 84), then the provider's day ran out and the stage stopped by its own rule; 268 dances wait, 60 a night. The kept pictures look right by their titles (pogo at a festival, Arbeau's tourdion, Punjabi luddi), all under free licences.
+- `build,episodes,activation,readiness,door` in one run (run 62, 2 minutes): 571 published profiles, **31 active-ready**.
+
+**The count, as it is.** The morning's entry said 23 by the corrected count. That was the count with every unread list left out. With all lists read and the first pictures found it is 31: twelve profiles left the line (each lacks only a licensed picture), two joined (chiapanecas, rebolation), and eight of the 31 have their picture from the new search. The starting-line page, the Hebrew machine room and `ACTIVE_READY.md` said "stepped back by 18"; they now say 41 to 31 and why (`site.json`, `readiness.py`).
+
+**First fault: a run that waited could not save (pull request 37).** The crawl, the nightly run and the weekly report share one waiting place. A run that waited was checked out at the commit of the moment it was asked for, worked on the files of before the run ahead of it, and at the end the two saves could not be joined: run 60 failed three times on `pipeline_state/runs.json` and its results were lost. The same would have lost whole nights: the crawl and the night both write `crawler_cache.json` and `hero_results.json`; the crawl used to take 2 to 15 minutes and save 42 to 75 minutes before the night began, and the second look of lesson rule 2 (pull request 33, that morning) allowed it 100 minutes more. The three workflows now check out `main` as it is when the run begins, and the second look is bounded at 40 minutes. Checked live: run 62 was asked for while run 61 ran, began from run 61's save and saved cleanly.
+
+**Second fault: the selftest did not run the new tests, and one of them had a date in it (pull request 35).** The selftest runs a fixed list of suites; the three written that morning were not on it. One picture test compared the real clock with fixed days and would have failed from 2 December 2026. The suites are on the list and the test carries its own day; all tests were run with the calendar moved 30, 120 and 400 days ahead. 167 tests now.
+
+**Third fault: a lesson search that gave nothing at all was written down as "no lesson" (this pull request).** The lesson search asks the video service three plain questions. No video at all for all three means the search did not answer (blocked, timed out, over the day's cap); it was recorded as "this dance has no lesson" for 45 days, and one bad day could have used up the second look for a hundred dances. Now the dance is looked for again the next day, and five such searches in a row end the day's looking (`crawler.py`, one more test).
+
+**Also.**
+- One run by hand can carry several stages in order (pull request 36): `build,episodes,activation,readiness,door`. A name that is not a stage runs nothing; the chain stops at the first stage that fails.
+- **The free day has one more wall:** gemini-3.1-flash-lite answers 500 requests a day (met at 03:17 UTC, in a provider day that held a night and a day of runs by hand: some 900 questions over all models). A night asks about 350 over all models, so it fits.
+- **The search already knows other names.** The ledger had it waiting for Lovable credits. Checked on the live site: "Naniguismo" finds Abakua, "Adjaruli" finds Acharuli. Nothing to send; the last 1.48 expiring credits lapse on 28 November unless a message costing more than a day's free credits is sent, and none is prepared.
+
+**Left open, with the reason.** Families for the dances without one, and the second opinion on sacred flags: both need a reader that quotes the profile and is checked against it, not a guess, and neither is on the path to the starting line. The hour of the schedule: it cannot move to before 08:00 UTC, when the provider's day begins. Tonight's crawl is the first live run of lesson rule 2: its log line `tutorial: +N … looked for again under rule 2: M` is the thing to read first next time.
+
