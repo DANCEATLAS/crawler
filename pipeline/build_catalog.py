@@ -25,6 +25,7 @@ from .taxonomy import country_lookup, FAMILIES
 from .research import RESULTS_DIR
 from .qc import QC_DIR
 from .sync import build_payload
+from .footage import confirmed as footage_confirmed
 
 CATALOG_DIR = os.environ.get("CATALOG_DIR", "public/catalog")
 SACRED_SLUGS = set()
@@ -76,6 +77,7 @@ def run(include_review=False):
     import glob
     studied = {os.path.basename(f)[:-5]: (jload(f, {}) or {}).get("status") for f in glob.glob(os.path.join("pedagogy", "videos", "*.json"))}
     qindex = load_state("qc_index.json", {})
+    fchecks = load_state("footage_checks.json", {}) or {}   # which reference clips were read and found to show the dance (pipeline/footage.py)
     styles = {}
     v2 = {}
     retired = []
@@ -152,7 +154,7 @@ def run(include_review=False):
                         "images": rec.get("images"), "gaps": p.get("gaps"), "confidence": p.get("confidence"),
                         "music_profile": p.get("music_profile"), "movement_profile": p.get("movement_profile"), "episode_brief": p.get("episode_brief"),
                         "connections": p.get("connections"), "movie_ready": bool(rec.get("movie_ready")), "schema": rec.get("schema"),
-                        "tradition_status": p.get("tradition_status"), "adaptations": p.get("adaptations"), "footage": rec.get("footage"),
+                        "tradition_status": p.get("tradition_status"), "adaptations": p.get("adaptations"), "footage": footage_confirmed(slug, rec, fchecks),
                         "researched_at": rec.get("researched_at"), "qc_score": qc.get("qc_score")}
             st["movie_ready"] = bool(rec.get("movie_ready"))
             if p.get("tradition_status"):

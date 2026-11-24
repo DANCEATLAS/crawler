@@ -23,6 +23,7 @@ import json
 import os
 from collections import Counter
 from .research import _said, _said_not, has_count_sequence
+from .footage import confirmed as footage_confirmed, licensed as footage_licensed
 
 STANDARD = "AR-1"
 ITEMS = (("published", "passed every quality gate and the independent judge"),
@@ -132,6 +133,7 @@ def run(root=".", today=None):
     retired = {x.get("slug") for x in (_load(P("public", "catalog", "retired.json"), {}) or {}).get("retired", []) if isinstance(x, dict)}
     qidx = _load(P("pipeline_state", "qc_index.json"), {}) or {}
     ridx = _load(P("pipeline_state", "research_index.json"), {}) or {}
+    fchecks = _load(P("pipeline_state", "footage_checks.json"), {}) or {}
     lessons, shows = _by_slug(P("pedagogy", "videos")), _by_slug(P("pedagogy", "performances"))
     profiles, names = {}, {}
     for slug in sorted(styles):
@@ -140,7 +142,9 @@ def run(root=".", today=None):
         names[slug] = styles[slug].get("name") or slug
         if (ridx.get(slug) or {}).get("status") != "researched":
             continue
-        rec = _load(P("research_results", slug + ".json"), {})
+        rec = _load(P("research_results", slug + ".json"), {}) or {}
+        # footage counts as a licensed picture only when its list was read, the clip shows the dance and it declares a licence
+        rec = dict(rec, footage=footage_licensed(footage_confirmed(slug, rec, fchecks)))
         profiles[slug] = evaluate(styles[slug], rec, qidx.get(slug), lessons.get(slug, ()), shows.get(slug, ()))
     listed = len(names)
     states = Counter(v["state"] for v in profiles.values())
@@ -187,6 +191,8 @@ def render(counts, short, blockers, teachable, names, hist, today):
          f"## {counts['active_ready']:,} profile{' is' if counts['active_ready'] == 1 else 's are'} active-ready", "",
          "Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. "
          "It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).", "",
+         "Since 24 November 2026 a reference clip counts as the licensed picture only when its list was read, the clip shows the dance and it "
+         "declares a licence (`pipeline/footage.py`). On that day 18 profiles that had been counted on an unread list stepped back until a picture is found.", "",
          "| Step | Profiles |", "|---|---:|",
          f"| In the atlas | {counts['listed']:,} |", f"| Researched from sources (in the atlas) | {counts['researched']:,} |", f"| Published (passed every gate) | {counts['published']:,} |",
          f"| **Active-ready** | **{counts['active_ready']:,}** |", f"| One item short | {counts['one_short']:,} |", f"| Two items short | {counts['two_short']:,} |",
