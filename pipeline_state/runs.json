@@ -6526,5 +6526,28 @@
   ],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "footage",
+  "started": "2026-11-24T01:56:21Z",
+  "finished": "2026-11-24T02:41:31Z",
+  "counters": {
+   "lists_read": 398,
+   "clips_kept": 646,
+   "clips_left_out": 1043,
+   "lists_with_nothing_kept": 149,
+   "lists_waiting": 0,
+   "llm_calls": 450,
+   "llm_failures": 48,
+   "llm_requests": 398,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "footage lists: 12 read before, 398 to read, 398 this run",
+   "model trouble: waited_seconds 452, overloaded 41, day_quota_used_up 5, model_gone 2",
+   "refused for quota: gemini-3.8-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 21589s); gemini-3.7-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 21580s); gemini-3.6-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 21526s); gemini-3.5-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 21525s); gemini-3.1-flash-lite (GenerateRequestsPerMinutePerProjectPerModel-FreeTier limit 15, retry in 48s); gemini-3-flash-preview (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 20792s); gemini-3.1-flash-lite (GenerateRequestsPerMinutePerProjectPerModel-FreeTier limit 15, retry in 46s); gemini-3.1-flash-lite (GenerateRequestsPerMinutePerProjectPerModel-FreeTier limit 15, retry in 55s)"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]
