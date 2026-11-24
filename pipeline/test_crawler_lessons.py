@@ -96,6 +96,17 @@ class LookedForAgainTests(TemporaryProject):
         tried, cache, _ = self.crawl(["a", "b"], {}, {}, found={"a": ValueError("the video service answered with an error")})
         self.assertEqual((tried, sorted(cache)), (["a", "b"], ["b"]))                     # "a" is looked for again tomorrow
 
+    def test_searches_that_gave_no_video_at_all_are_not_no_lesson_and_five_in_a_row_stop_the_day(self):
+        with patch.object(crawler, "search_ids", return_value=[]), patch.object(crawler, "_ytdlp_search", return_value=[]), patch.object(crawler, "videos", return_value=[]):
+            with self.assertRaises(LookupError):                                          # blocked, timed out or over the day's cap: nothing was looked at
+                crawler.lesson_eval({"slug": "x", "name": "Xdance"}, ["k"])
+        silent = LookupError("no search gave any video")
+        names = ["d%d" % i for i in range(8)]
+        tried, cache, _ = self.crawl(names, {}, {}, found={n: silent for n in names})
+        self.assertEqual((len(tried), cache), (5, {}))                                    # the day stops after five; nothing is written down, all are looked for again
+        tried, cache, _ = self.crawl(names, {}, {}, found={n: silent for n in names[:4]})
+        self.assertEqual((len(tried), sorted(cache)), (8, names[4:]))                     # four broke, then the search answered: the day goes on
+
 
 if __name__ == "__main__":
     unittest.main()

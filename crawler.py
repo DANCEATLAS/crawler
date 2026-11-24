@@ -174,6 +174,7 @@ def lesson_eval(dance,keys):
     for t in local:   # own-language searches cost no API quota: yt-dlp only
         ids+=_ytdlp_search(t.replace("{n}",name),20)
     ids=list(dict.fromkeys(ids))[:45]
+    if not ids: raise LookupError("no search gave any video")   # three plain searches with nothing at all: the search did not answer (blocked, timed out, the day's cap); that is not "this dance has no lesson"
     cands=[]
     for it in videos(ids,keys):
         sn=it.get("snippet",{}); st=it.get("statistics",{}); cd=it.get("contentDetails",{})
@@ -293,7 +294,7 @@ def main():
     if MODE in ("all","tutorial"):
         tcache=jload("tutorial_cache.json",{}); tout=jload("tutorial_results.json",{}); done=0; wrote=0; skipped=0
         TUT_RETRY=int(os.environ.get("TUT_RETRY_DAYS","45")); tday=time.strftime("%Y-%m-%d")
-        TUT_WAVE=int(os.environ.get("TUT_WAVE","100")); TUT_MINUTES=int(os.environ.get("TUT_MAX_MINUTES","100")); t_start=time.time(); redo=0
+        TUT_WAVE=int(os.environ.get("TUT_WAVE","100")); TUT_MINUTES=int(os.environ.get("TUT_MAX_MINUTES","100")); t_start=time.time(); redo=0; broke=0
         line=(jload(os.path.join("pipeline_state","active_ready.json"),{}) or {}).get("profiles") or {}
         def _old_rule(slug):
             c=tcache.get(slug); return isinstance(c,dict) and not c.get("n") and c.get("v")!=TUT_RULE
@@ -318,9 +319,12 @@ def main():
             if _old_rule(d.get("slug")):
                 if redo>=TUT_WAVE: continue
                 redo+=1
-            try: lessons=lesson_eval(d,keys); done+=1
+            try: lessons=lesson_eval(d,keys); done+=1; broke=0
             except RuntimeError as e: print("tut stop: "+str(e)); break
-            except Exception as e: print("tut err "+d["slug"]+" "+str(e)[:60]); continue   # a search that broke is not "no lesson exists": the dance is looked for again tomorrow
+            except Exception as e:   # a search that broke or gave nothing at all is not "no lesson exists": the dance is looked for again tomorrow
+                print("tut err "+d["slug"]+" "+str(e)[:60]); broke+=1
+                if broke>=5: print("tut stop: five searches in a row broke or gave nothing; the rest wait for tomorrow"); break
+                continue
             tcache[d["slug"]]={"n":len(lessons),"at":tday,"v":TUT_RULE}
             if lessons: tout[d["slug"]]={"lessons":lessons,"status":"in_review"}; wrote+=1; print("TUT ok "+d["slug"]+" lessons="+str(len(lessons)))
             else: print("TUT -- "+d["slug"]+" none")

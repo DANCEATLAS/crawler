@@ -192,7 +192,7 @@ def render(counts, short, blockers, teachable, names, hist, today):
          "Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. "
          "It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).", "",
          "Since 24 November 2026 a reference clip counts as the licensed picture only when its list was read, the clip shows the dance and it "
-         "declares a licence (`pipeline/footage.py`). On that day 18 profiles that had been counted on an unread list stepped back until a picture is found.", "",
+         "declares a licence (`pipeline/footage.py`). On that day the count went from 41 to 31: twelve profiles had been counted on a clip nobody had read, and they wait until a licensed picture is found (`pipeline/pictures.py` looks for one every night).", "",
          "| Step | Profiles |", "|---|---:|",
          f"| In the atlas | {counts['listed']:,} |", f"| Researched from sources (in the atlas) | {counts['researched']:,} |", f"| Published (passed every gate) | {counts['published']:,} |",
          f"| **Active-ready** | **{counts['active_ready']:,}** |", f"| One item short | {counts['one_short']:,} |", f"| Two items short | {counts['two_short']:,} |",
