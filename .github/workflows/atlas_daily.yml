@@ -35,6 +35,13 @@ jobs:
     timeout-minutes: 330
     steps:
       - uses: actions/checkout@v5
+        with:
+          # A run that waited behind another starts from what that run saved, not from the commit of the moment it was asked for.
+          # Without this, a night that waits for a crawl still in progress works on the files of before the crawl, both then save
+          # crawler_cache.json and hero_results.json, and the night's save cannot be joined to the crawl's: the whole night is lost.
+          # Measured on 12 to 23 November 2026: the crawl saved 42 to 75 minutes before the night began; the second look of
+          # lesson rule 2 makes the crawl longer. Same line in crawl.yml and weekly_report.yml (one waiting place for the three).
+          ref: main
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"

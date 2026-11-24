@@ -34,6 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
+          ref: main          # a run that waited starts from what the run before it saved (see atlas_daily.yml)
           fetch-depth: 0     # the comparisons read the tree as it was 7 / 28 days ago and at the start of the year
       - name: One report a week — skip if this week's already went out
         id: guard

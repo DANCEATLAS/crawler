@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 170
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main   # a run that waited starts from what the run before it saved (see atlas_daily.yml)
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
@@ -32,7 +34,8 @@ jobs:
           # Lesson rule 2 (24 November 2026): the dances that found no lesson under the older rule are looked for once more,
           # this many a day and for at most this many minutes, those nearest the starting line first (crawler.py, TUT_RULE)
           TUT_WAVE: "100"
-          TUT_MAX_MINUTES: "100"
+          # 40 minutes, not 100: the night waits for the crawl to end, and a night that begins after about 20:00 UTC meets a busy provider
+          TUT_MAX_MINUTES: "40"
           BUDGET_VIRAL: "300"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
