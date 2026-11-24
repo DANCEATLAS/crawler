@@ -660,6 +660,18 @@ def _days_ago(n):
     from datetime import datetime, timedelta, timezone
     return (datetime.now(timezone.utc) - timedelta(days=n)).strftime("%Y-%m-%d")
 
+LOST_IN_A_ROW = 3   # research stops for the night after this many dances in a row were lost to the provider
+
+def lost_to_provider(status, kept, unserved_before, unserved_after):
+    """True when a dance was not written (or not deepened: the writer failed and the existing profile was kept) while a
+    question of its writing got no answer of any kind from any model: all of them overloaded, limited, spent or
+    unreachable, and the stage's waiting used up (LLM.unserved). That is the provider's night, not the dance's: the
+    failed write is not counted against the candidate, and after LOST_IN_A_ROW such dances the stage stops, so the
+    queue keeps its place and the night's time goes to the stages after it. A writer that answered and whose profile
+    could not be used is the other case, and is counted as before. (On the night of 23 November 2026 the provider was
+    overloaded for hours and seven candidates were charged a failed write that was not theirs.)"""
+    return unserved_after > unserved_before and (bool(kept) or status == "llm_failed")
+
 def run(budget_new=20, budget_enrich=20, only=None):
     rep = Report("research")
     llm = LLM()
@@ -708,15 +720,23 @@ def run(budget_new=20, budget_enrich=20, only=None):
     rep.note(f"targets: {len(targets)} (llm enabled={llm.enabled})")
     import time
     deadline = time.time() + 60 * int(os.environ.get("RESEARCH_MAX_MINUTES", "180"))
+    lost = 0   # dances in a row whose write got no answer from any model
     for kind, d in targets:
         slug = d.get("slug")
         if time.time() > deadline:   # slow models must not eat the run: the judge, the build and the report still have to happen today
             rep.note(f"time budget reached: {rep.counters.get('researched_researched', 0)} written, the rest wait for the next run")
             rep.inc("time_budget_reached")
             break
+        if lost >= LOST_IN_A_ROW:   # the stage's waiting is used up and the models still do not answer: gathering sources for more dances would be thrown away
+            rep.note(f"no model answered for {lost} dances in a row: {rep.counters.get('researched_researched', 0)} written, the rest wait for the next run")
+            rep.inc("stopped_early")
+            break
+        unserved = llm.unserved
         try:
             KEPT.pop(slug, None)
             rec = research_one(d, llm, sb)
+            unasked = lost_to_provider(rec["status"], KEPT.get(slug) == "llm_failed", unserved, llm.unserved)
+            lost = lost + 1 if unasked else 0
             if slug in KEPT:   # the existing profile stands; remember the attempt so the queue moves on
                 index[slug] = dict(index.get(slug) or {}, attempted_at=now_iso(), attempt=KEPT[slug])
                 rep.inc("kept_existing")
@@ -734,7 +754,9 @@ def run(budget_new=20, budget_enrich=20, only=None):
                     save_state("editor_notes.json", notes)
             if kind == "new" and slug in cands:
                 cands[slug]["status"] = "researched" if rec["status"] == "researched" else ("no_sources" if rec["status"] == "no_sources" else "queued")
-                if rec["status"] == "llm_failed":   # three failed writes and the candidate leaves the queue (listed for a person, not retried daily for ever)
+                # three failed writes and the candidate leaves the queue (listed for a person, not retried daily for ever);
+                # a write that failed because no model answered at all is the provider's night, not the candidate's, and is not counted
+                if rec["status"] == "llm_failed" and not unasked:
                     cands[slug]["attempts"] = int(cands[slug].get("attempts") or 0) + 1
                     if cands[slug]["attempts"] >= 3:
                         cands[slug]["status"] = "writer_failed"

@@ -294,6 +294,9 @@ class LLM:
         self._openai_avail = None
         self._list_tries, self._lane_logged, self._last_call, self._rest = 0, False, {}, {}
         self.dead = set()
+        self.waited = 0.0          # seconds THIS stage has waited: its own share of the night's waiting (see _may_wait)
+        self.unserved = 0          # questions that ended with no answer of any kind from any model (overloaded, limited, spent,
+                                   # unreachable, nobody to ask): the provider's side. An unusable answer is the question's side.
         self.strikes = {}          # model -> consecutive timeouts / dropped connections; MAX_STRIKES in a row rest the model
         self._busy, self._unusable = {}, {}   # model -> consecutive "overloaded" answers / consecutive unusable answers
         self.why = {}              # what went wrong this stage, by kind — written into the run record (no log reading needed)
@@ -481,6 +484,22 @@ class LLM:
         return "".join(out)
 
     WAITED = 0.0   # seconds this PROCESS has spent waiting for a resting model, all stages together
+    SPENT_UNTIL = {}   # model -> when its DAY quota comes back, as the provider said: the later stages of a night do not ask it again
+
+    def _may_wait(self, wait):
+        """A wait is taken only while two budgets hold: the night's (LLM_WAIT_BUDGET_SECONDS, all stages together) and this
+        stage's own share of it (LLM_WAIT_STAGE_SECONDS). On the night of 23 November 2026 the provider was overloaded for
+        hours: the research stage alone waited 2,346 of the night's 2,400 seconds, and the judge, both video studies and
+        the mentor's looks then found nobody to ask and no waiting left (59 of 221 questions went unanswered). Five stages ask
+        many questions (research, the judge, the hero check, the mentor's study, the lesson study): twelve minutes each is
+        the night's hour, so the last of them is not left without its share."""
+        return (LLM.WAITED + wait <= float(os.environ.get("LLM_WAIT_BUDGET_SECONDS", "1800"))
+                and self.waited + wait <= float(os.environ.get("LLM_WAIT_STAGE_SECONDS", "720")))
+
+    def _note_wait(self, wait):
+        LLM.WAITED += wait
+        self.waited += wait
+        self._why("waited_seconds", int(wait))
 
     def _why(self, kind, n=1):
         self.why[kind] = self.why.get(kind, 0) + n
@@ -498,18 +517,17 @@ class LLM:
     def _wait_for_rested(self, order):
         """Every usable model is resting (overloaded or rate limited). Wait for the first one to come back instead of
         dropping the question. Bounded twice: one wait is at most LLM_WAIT_MAX_SECONDS, and the whole process waits at
-        most LLM_WAIT_BUDGET_SECONDS, so an outage costs minutes, never the run."""
+        most LLM_WAIT_BUDGET_SECONDS, of which one stage takes at most LLM_WAIT_STAGE_SECONDS, so an outage costs minutes,
+        never the run, and one stage cannot use up the waiting of the stages after it."""
         now = time.time()
         wakes = [self._rest[m] for p, m in order if m not in self.dead and self.allowance.permitted(p) and self._rest.get(m, 0) > now]
         if not wakes:
             return False
         wait = min(wakes) - now + 1
-        budget = float(os.environ.get("LLM_WAIT_BUDGET_SECONDS", "1800"))
-        if wait > float(os.environ.get("LLM_WAIT_MAX_SECONDS", "330")) or LLM.WAITED + wait > budget:
+        if wait > float(os.environ.get("LLM_WAIT_MAX_SECONDS", "330")) or not self._may_wait(wait):
             return False
-        LLM.WAITED += wait
-        self._why("waited_seconds", int(wait))
-        log(f"llm: every usable model is resting; waiting {wait:.0f}s ({LLM.WAITED:.0f}s of {budget:.0f}s used this run)")
+        self._note_wait(wait)
+        log(f"llm: every usable model is resting; waiting {wait:.0f}s ({self.waited:.0f}s this stage, {LLM.WAITED:.0f}s this run)")
         time.sleep(wait)
         return True
 
@@ -529,6 +547,8 @@ class LLM:
             order = [o for o in order if o[0] == "openai"] + [o for o in order if o[0] != "openai"]
         system = system + "\nRespond with a single JSON object only."
         timeout = self.timeout_strong if strong else self.timeout_fast
+        # a model whose day quota an earlier stage of this night found spent is not asked again (it cost one refused call a stage)
+        self.dead.update(m for m, back in LLM.SPENT_UNTIL.items() if back > time.time())
         # The first full night on the free lane (16 Nov 2026) left 71 of 312 questions unanswered: one model carried most
         # of the work, answered "overloaded" now and then, and every question that arrived while it rested was dropped at
         # once; one unreadable video also put a strike on every model in a row. So: a question waits for a resting model
@@ -568,15 +588,16 @@ class LLM:
                             self.spent.append((model, said, bool(video_url)))   # for the run record: which model, which quota, what kind of question
                             if "perday" in low or "per_day" in low or "insufficient_quota" in low or ("billing" in low and not delay and not per_minute):
                                 self.dead.add(model); self.failures += 1; self._why("day_quota_used_up")
+                                if delay:   # the provider said when the day's quota comes back: no later stage of this night asks before then
+                                    LLM.SPENT_UNTIL[model] = time.time() + delay
                                 if prov == "openai":   # one account-wide balance; a Gemini free-tier day quota belongs to ONE model
                                     self.allowance.stopped.add(prov)
                                 warn(f"llm {prov}/{model}: quota exhausted, retired for this run ({said or 'no quota named'}): {short[:120]}")
                                 break
                             wait = min(delay + 2, 60) if delay else 20
-                            if attempt == 0 and LLM.WAITED + wait <= float(os.environ.get("LLM_WAIT_BUDGET_SECONDS", "1800")):
-                                # the same budget as the wait for resting models: all the waiting of a night stays under half an hour
-                                LLM.WAITED += wait
-                                self._why("waited_seconds", int(wait))
+                            if attempt == 0 and self._may_wait(wait):
+                                # the same budgets as the wait for resting models: the night's, and this stage's share of it
+                                self._note_wait(wait)
                                 warn(f"llm {prov}/{model}: limited by the minute ({said or 'no quota named'}), waiting {wait}s and asking once more")
                                 time.sleep(wait)
                                 continue
@@ -620,6 +641,8 @@ class LLM:
                 break
         if not tried:
             self._why("no_model_available")
+        if not bad:   # no model gave any answer at all: what failed is the provider's night, not this question
+            self.unserved += 1
         self.unanswered += 1
         return None
 
@@ -627,6 +650,8 @@ class LLM:
         """Write this LLM's counters into a stage Report (attempts, failed attempts, questions, unanswered questions)."""
         rep.inc("llm_calls", self.calls); rep.inc("llm_failures", self.failures)
         rep.inc("llm_requests", self.requests); rep.inc("llm_unanswered", self.unanswered)
+        if self.unserved:   # of the unanswered: those no model answered at all (the rest got answers nobody could use)
+            rep.inc("llm_unserved", self.unserved)
         if self.why:
             rep.note("model trouble: " + ", ".join(f"{k} {v}" for k, v in sorted(self.why.items(), key=lambda kv: -kv[1])))
         if self.spent:   # which model, which quota, what kind of question: the night of 21 November 2026 could not be read without the log

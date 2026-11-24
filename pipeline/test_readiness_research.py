@@ -91,5 +91,48 @@ class ResearchIntegrationTests(TemporaryProject):
         self.assertEqual(json.loads(Path("research_results/a.json").read_text()), prev)
 
 
+class ResearchNightTests(TemporaryProject):
+    """A night on which the models do not answer (23 November 2026) is the provider's night, not the dances'."""
+
+    def night(self, outcomes):
+        """One queued dance per outcome, oldest first: "ok" (written), "failed" (the writer answered and the profile
+        was not usable), "nobody" (a question got no answer of any kind from any model). Returns the dances tried, the queue
+        and the run record."""
+        cands = {f"d{i}": {"slug": f"d{i}", "name": f"Dance {i}", "status": "queued", "description": "a folk dance of somewhere",
+                           "found_at": f"2026-11-{i + 1:02d}"} for i in range(len(outcomes))}
+        self.save("pipeline_state/candidates.json", cands)
+        llm, tried = Mock(enabled=True, why={}, unserved=0), []
+
+        def one(d, llm_, sb):
+            outcome = outcomes[len(tried)]
+            tried.append(d["slug"])
+            if outcome == "nobody":
+                llm.unserved += 1
+            return {"slug": d["slug"], "researched_at": "2026-11-24T00:00:00Z", "status": "researched" if outcome == "ok" else "llm_failed"}
+
+        with patch.object(research, "LLM", return_value=llm), patch.object(research, "Supabase"), patch.object(research, "load_catalog", return_value=[]), \
+                patch.object(research, "pick_enrichment_targets", return_value=[]), patch.object(research, "research_one", side_effect=one):
+            result = research.run(budget_new=len(outcomes), budget_enrich=0)
+        return tried, json.loads(Path("pipeline_state/candidates.json").read_text()), result
+
+    def test_a_write_that_no_model_answered_is_not_counted_against_the_dance(self):
+        tried, cands, _ = self.night(["nobody", "failed", "ok"])
+        self.assertEqual(tried, ["d0", "d1", "d2"])
+        self.assertEqual([(cands[s]["status"], cands[s].get("attempts")) for s in tried], [("queued", None), ("queued", 1), ("researched", None)])
+
+    def test_research_stops_after_three_dances_in_a_row_were_lost_to_the_provider(self):
+        tried, cands, result = self.night(["ok", "nobody", "nobody", "ok", "nobody", "nobody", "nobody", "ok", "ok"])
+        self.assertEqual(tried, ["d0", "d1", "d2", "d3", "d4", "d5", "d6"])        # two in a row do not stop it; the third in a row does
+        self.assertEqual([cands[s]["status"] for s in ("d7", "d8")], ["queued", "queued"])   # the queue keeps its place
+        self.assertTrue(all(cands[s].get("attempts") is None for s in cands))
+        self.assertEqual(result["counters"].get("stopped_early"), 1)
+
+    def test_a_kept_profile_counts_only_when_no_model_answered(self):
+        self.assertTrue(research.lost_to_provider("researched", True, 2, 3))     # a deepening nobody answered: the existing profile stands
+        self.assertFalse(research.lost_to_provider("researched", True, 2, 2))    # the writer answered and the profile was not usable
+        self.assertFalse(research.lost_to_provider("researched", False, 2, 3))   # written in the end, although one question got no answer
+        self.assertFalse(research.lost_to_provider("llm_failed", False, 2, 2))   # the writer answered and failed: that is counted
+
+
 if __name__ == "__main__":
     unittest.main()
