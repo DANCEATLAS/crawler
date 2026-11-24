@@ -91,8 +91,8 @@ jobs:
           # long a night, and one stage takes at most its share of it. On the night of 23 November 2026 the provider
           # was overloaded for hours, the research stage alone waited 2,346 of 2,400 seconds, and the judge and both video
           # studies found nobody to ask (59 of 221 questions unanswered). A stage now waits 12 minutes at most and the night
-          # an hour: five stages ask many questions, so the last of them (the lesson study) keeps its share. A stage that
-          # finds nobody three questions in a row stops and leaves its queue for the next night.
+          # an hour: five stages ask many questions, so the last of them (the lesson study) keeps its share. Research stops
+          # for the night after three dances in a row got no answer from any model; its queue keeps its place.
           LLM_WAIT_BUDGET_SECONDS: "3600"
           LLM_WAIT_STAGE_SECONDS: "720"
           EPISODE_POLISH: "4"
