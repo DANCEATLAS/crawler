@@ -6549,5 +6549,34 @@
   ],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "pictures",
+  "started": "2026-11-24T02:51:19Z",
+  "finished": "2026-11-24T03:17:40Z",
+  "counters": {
+   "searched": 194,
+   "pictures_kept": 122,
+   "pictures_left_out": 895,
+   "profiles_given_a_picture": 51,
+   "nothing_found": 55,
+   "nothing_kept": 84,
+   "unanswered": 4,
+   "stopped_early": 1,
+   "waiting": 268,
+   "llm_calls": 163,
+   "llm_failures": 27,
+   "llm_requests": 139,
+   "llm_unanswered": 4,
+   "llm_unserved": 4
+  },
+  "notes": [
+   "profiles with a picture: 570; without one and due for a search: 462; this run: 400",
+   "no model answered for 3 dances in a row: the rest wait for the next run",
+   "model trouble: waited_seconds 674, overloaded 18, day_quota_used_up 6, model_gone 2, no_model_available 2, timeout_or_network 1",
+   "refused for quota: gemini-3.1-flash-lite (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 500, retry in 18325s); gemini-3.7-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 18205s); gemini-3.6-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 18138s); gemini-3.8-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 18095s); gemini-3.5-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 18073s); gemini-3-flash-preview (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 18017s)"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]
