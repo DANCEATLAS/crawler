@@ -21,16 +21,23 @@ jobs:
           python-version: "3.11"
       - name: Install yt-dlp
         run: pip install --upgrade yt-dlp
-      - run: python crawler.py
+      - name: Crawl
+        timeout-minutes: 150   # the step may be cut short; the next step still saves what was found (each dance is written as it is done)
+        run: python crawler.py
         env:
           YT_API_KEYS: ${{ secrets.YT_API_KEYS }}
           MODE: all
           BUDGET_HERO: "600"
           BUDGET_TUTORIAL: "150"
+          # Lesson rule 2 (24 November 2026): the dances that found no lesson under the older rule are looked for once more,
+          # this many a day and for at most this many minutes, those nearest the starting line first (crawler.py, TUT_RULE)
+          TUT_WAVE: "100"
+          TUT_MAX_MINUTES: "100"
           BUDGET_VIRAL: "300"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       - name: Save results back to repo
+        if: always()
         run: |
           git config user.name "danceworld-crawler"
           git config user.email "crawler@users.noreply.github.com"
