@@ -6504,5 +6504,27 @@
   ],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "footage",
+  "started": "2026-11-24T01:52:00Z",
+  "finished": "2026-11-24T01:52:55Z",
+  "counters": {
+   "lists_read": 12,
+   "clips_kept": 15,
+   "clips_left_out": 44,
+   "lists_with_nothing_kept": 6,
+   "lists_waiting": 0,
+   "llm_calls": 14,
+   "llm_failures": 1,
+   "llm_requests": 12,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "footage lists: 0 read before, 12 to read, 12 this run",
+   "model trouble: overloaded 1"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]
