@@ -538,6 +538,22 @@ def tonight(teachers, methods, n, per=3, basics_share=3, talk_share=1, today=Non
     rest = pick_methods(teachers, methods, n - len(basics), per, today=today, skip=ids(basics))
     return basics + rest, len(basics), len(talk)
 
+# The practices added on 21 November 2026 (the owner's direction of that day: a moment of presence, ease and openness,
+# learners who pass it on) are looked for only in lessons read since: the 51 lessons read before that day were never
+# asked about them. They are read once more, a few a night BESIDE the night's new lessons. Raising SCHEMA would have had
+# every lesson read again, teacher by teacher, before any new one: eleven nights without a new teacher.
+WIDENED = "2026-11-21"
+REFRESH_A_NIGHT = 3
+
+def refresh(teachers, methods, n, skip=(), today=None):
+    """Lessons whose reading is older than the widening of the practices: the oldest reading first, at most n. A lesson
+    whose second reading failed keeps its first one (save_method) and is tried again after two weeks, not every night."""
+    by_id = {l["youtube_id"]: (t, l) for t in teachers for l in t["lessons"]}
+    old = [m for yid, m in methods.items() if m.get("status") == "ok" and str(m.get("analysed_at") or "9") < WIDENED and yid in by_id and yid not in skip
+           and (not m.get("attempted_at") or _days_since(m.get("attempted_at"), today) >= 14)]
+    old.sort(key=lambda m: (m.get("analysed_at") or "", m.get("youtube_id") or ""))
+    return [by_id[m["youtube_id"]] for m in old[:max(0, n)] if m.get("youtube_id") in by_id]
+
 def _voice(v):
     out = []
     for x in (v or []) if isinstance(v, list) else []:
@@ -1151,9 +1167,13 @@ def run(budget=8, science=None, only=None, looks=None):
     teachers = build_teachers(lessons, studied, methods)
     per, n = env("METHOD_PER_TEACHER", "3"), (budget if live and not dead else 0)
     targets, n_basics, n_talks = tonight(teachers, methods, n, per, env("BASICS_SHARE", "3"), env("TALK_SHARE", "1"))
+    again = refresh(teachers, methods, env("REFRESH_A_NIGHT", str(REFRESH_A_NIGHT)) if n else 0, skip={l["youtube_id"] for _, l in targets})
+    waiting = sum(1 for m in methods.values() if m.get("status") == "ok" and str(m.get("analysed_at") or "9") < WIDENED)
+    targets = targets + again   # after the night's new lessons: a reading once more never takes a new teacher's place
     if only:
         targets = [(t, l) for t, l in targets if l["slug"] in only or l["youtube_id"] in only]
-    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}, {n_basics} on the basics, {n_talks} of them a teacher's talk); engine {'on' if live else 'off: tables only'}")
+    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}, {n_basics} on the basics, {n_talks} of them a teacher's talk; "
+             f"{len(again)} read once more for the practices of 21 November, {waiting} such lessons waiting); engine {'on' if live else 'off: tables only'}")
     misses = 0
     for t, l in targets:
         if time.time() > deadline or misses >= 3:   # three videos in a row without a reading: the models are away, the lessons are not to blame
