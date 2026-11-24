@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "alamikkali",
  "name": "Alamikkali",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -26,6 +26,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alamikkali",
   "wikidata_qid": "Q28403897",
   "unesco": false,
+  "hero_video_youtube_id": "11CLF1T-CEU",
+  "video_stack": [
+   {
+    "youtube_id": "11CLF1T-CEU",
+    "role": "hero",
+    "title": "Alamikali | #CatchTheRhythm | Kerala 365 | Kerala Tourism",
+    "channel": "Kerala Tourism",
+    "hd": true
+   },
+   {
+    "youtube_id": "oF2VeXWI5YU",
+    "role": "rendition",
+    "title": "അലാമിക്കളി | Alamikali | Virtual Onam 2021 | Kerala Tourism",
+    "channel": "Kerala Tourism",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -40,7 +57,13 @@
   "needs_eyes_on": true,
   "sacred_note": "Alamikkali is a sacred memorial festival commemorating the martyrs of Karbala. Outsiders should respect the holy nature of the ritual fire ceremonies, alms collection, and cross-religious sacred spaces.",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:20:11Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -150,25 +173,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Alamikkali is a sacred memorial festival commemorating the martyrs of Karbala. Outsiders should respect the holy nature of the ritual fire ceremonies, alms collection, and cross-religious sacred spaces.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/alamikkali.json"
  },
- "fingerprint": "f5f34085367de345",
- "updated": "2026-11-22"
+ "fingerprint": "4128279d82b03a68",
+ "updated": "2026-11-24"
 }

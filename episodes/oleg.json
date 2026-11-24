@@ -2,7 +2,7 @@
  "slug": "oleg",
  "name": "Oleg",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-22T17:27:33Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Oleg. 1952."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (RUCbV8C9CVE)",
      "Title card: Oleg · Indonesia · 1952"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Wing Flight Scarf Motion, Fan Pursuit."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (RUCbV8C9CVE)",
      "Captions name each signature move as it appears",
      "Formation: Duet dynamic; male dancer pursues female dancer across an open performance floor"
     ],
@@ -722,7 +722,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "RUCbV8C9CVE",
+   "checked_by_vision_model": false,
+   "title": "Beginner's Guide: How To Swing Dance (No Experience Needed)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -874,7 +878,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "the music & instruments section"
  ],
  "sources": [
@@ -886,6 +890,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "299e2642d0661c8c1039cc4b4d308283f27be921c0d79b7e07a6bfd5495c274e",
- "hero_checked": null
+ "input_fingerprint": "df8763e9d445fda8ddbe87b1358ad5f33ca0f78870839be0aa4b4f2d5af3d781",
+ "hero_checked": "fail"
 }

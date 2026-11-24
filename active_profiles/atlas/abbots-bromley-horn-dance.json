@@ -1,13 +1,90 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy 25-pound reindeer antlers",
+          "Full-day parish marching"
+        ],
+        "counts": "Basic 4/4 walking steps.",
+        "duration_minutes": "5",
+        "game_version": "A shorter circular procession game using lightweight cardboard antlers or props."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Heavy reindeer antlers",
+          "Long-duration marching",
+          "Sudden turns"
+        ],
+        "counts": "Steady 4/4 walking counts.",
+        "seated_version": "Perform the upper body turns, arm lifts, and rhythmic steps while seated, using lightweight replica poles.",
+        "standing_version": "Execute the steady walking steps without heavy antlers, maintaining a reduced range of motion.",
+        "tempo_and_range": "Reduced tempo with a short, steady walking range."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding wooden poles mounted with reindeer antlers, bow and arrow, or supporting the hobby horse frame",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular procession followed by two opposing rows that face off, dance together, and cross over",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group interaction in circles and parallel rows",
+      "posture": "Upright, bearing the weight of large mounted reindeer antlers",
+      "signature_moves": [
+        {
+          "description": "Dancers process around in a circle before turning and circling back.",
+          "name": "Horn Circle"
+        },
+        {
+          "description": "Dancers face off in two rows, dancing together and apart before crossing over and turning around.",
+          "name": "Row Cross-Over"
+        }
+      ],
+      "tempo_feel": "Steady rhythmical plod",
+      "what_to_avoid": "According to tradition, the historic horns must not leave the parish."
+    },
+    "music_profile": {
+      "instruments": [
+        "accordion",
+        "triangle",
+        "jaw of hobby horse",
+        "bow and arrow percussion"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "steady",
+        "rhythmical",
+        "solemn",
+        "traditional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A steady country-dance air played on an accordion accompanied by the sharp strike of a triangle and percussion from the hobby horse's jaw, maintaining a measured, plodding pulse.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Steady circular procession walk",
+        "Two-row face-off approach and retreat",
+        "Cross-over and turn sequence"
+      ],
+      "formation": "Circle procession or two opposing rows",
+      "level_notes": "Beginner level focusing on steady endurance and group coordination.",
+      "rhythm": "4/4 steady march meter"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "d61968111c2c8bc5c1836e7df7671ec06b539dd6aaa30b8a40dab271a2b55bd9",
+  "fingerprint": "5665581c26cf7753161a0c0f4a8c4d4ff662923897ce366d9617c66962941587",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +92,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What precise footwork counts accompany the historical Buckley tune recorded by Cecil Sharp? Evidence needed: Detailed dance notations from EFDSS archives or field recordings."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +122,18 @@
   ],
   "music_options": [],
   "name": "Abbots Bromley Horn Dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "aa08af53445b5501",
+      "next_evidence": "Detailed dance notations from EFDSS archives or field recordings.",
+      "question": "What precise footwork counts accompany the historical Buckley tune recorded by Cecil Sharp?",
+      "source": "https://en.wikipedia.org/wiki/Abbots_Bromley_Horn_Dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Footwork is currently generalized as a plod in textual sources, requiring more granular data for instructional breakdown."
+    }
+  ],
+  "research_file": "research_results/abbots-bromley-horn-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +145,8 @@
   "slug": "abbots-bromley-horn-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Abbots_Bromley_Horn_Dance",
-    "Source: Abbots Bromley Horn Dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Abbots_Bromley_Horn_Dance"
+    "https://www.wikidata.org/wiki/Q4664265",
+    "https://fr.wikipedia.org/wiki/Abbots_Bromley_Horn_Dance"
   ],
   "state": "researching",
   "video_evidence": []

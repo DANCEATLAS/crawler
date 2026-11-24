@@ -37,6 +37,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Parai",
   "wikidata_qid": "Q28457169",
   "unesco": false,
+  "hero_video_youtube_id": "OiHsyMfCPPk",
+  "video_stack": [
+   {
+    "youtube_id": "OiHsyMfCPPk",
+    "role": "hero",
+    "title": "பத்மஸ்ரீ Velu Aasaan உயிரோட்டமான பறையாட்டம்  | Folk Art | parai attam | Thappu Melam  @Kattiyakkaran",
+    "channel": "Kattiyakkaran",
+    "hd": true
+   },
+   {
+    "youtube_id": "hwPkTJfP53E",
+    "role": "rendition",
+    "title": "பறை எங்கள் உயிர்மூச்சு #folk#dance #thappattam #9488031835",
+    "channel": "Athirvugal Channel",
+    "hd": true
+   },
+   {
+    "youtube_id": "ZE0e0XesTF0",
+    "role": "rendition",
+    "title": "#மரண அடி மாஸ் #தப்பாட்டம் #thappattam #dance #steps ☎️9443293223 #drums #tamil #culture #paraiyattam",
+    "channel": "Tamilnadu & Puducherry Cultural Academy",
+    "hd": true
+   },
+   {
+    "youtube_id": "pjKxVZf7mLo",
+    "role": "rendition",
+    "title": "Parai Attam | பறை ஆட்டம் | Tamil Folk Dance | KC Dance Team | KC Trichy",
+    "channel": "KC Trichy",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -93,7 +124,13 @@
   ],
   "needs_eyes_on": true,
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:21:57Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -368,7 +405,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -378,10 +415,6 @@
    {
     "key": "rhythm",
     "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    },
    {
     "key": "study_video",
@@ -394,11 +427,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/parai-attam.json"
  },
- "fingerprint": "ec30ba5ebd104872",
- "updated": "2026-11-22"
+ "fingerprint": "32fa4a78189ee4ff",
+ "updated": "2026-11-24"
 }

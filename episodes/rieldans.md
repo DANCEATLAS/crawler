@@ -1,8 +1,8 @@
 # Rieldans — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic cultural preserver and experienced riel dancer grounded in Karoo traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dancing Till the Dust Rises
 NARRATION: This is Rieldans. Ancient origin, formalized in 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ceVCpPNnXvc)
 ON SCREEN: Title card: Rieldans · South Africa · Ancient origin, formalized in 20th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Danced at an energetic, frantic pace, the rieldans relies on intricat
 NARRATION: Performed by groups often in a circle, the choreography consists of cultural gestures that tell stories of wooing, courtship, and daily labor.
 NARRATION: Dancers imitate animal and bird movements—such as the ostrich, butterfly, antelope, baboon, snake, meerkat, and strutting horses—using techniques like 'bokspring' (gamboling), trotting, and 'kapperjol'.
 NARRATION: Watch for vlerksleep, askoek slap, bokspring.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ceVCpPNnXvc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group performed in a circle around a campfire or dusty performance space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ceVCpPNnXvc', 'checked_by_vision_model': True, 'title': 'Die Nuwe Graskoue Trappers'}
 Images: 1 licensed — SanDanceVR / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:The Riel dance.webm — https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Riel_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Clouds of sand rising from energetic footwork, Bright colorful working-class clothing and traditional hats, Handmade tin-can ramkie guitars
@@ -324,7 +324,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

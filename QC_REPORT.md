@@ -1,5 +1,5 @@
 # QC review queue
-_Generated 2026-11-22T20:27:29Z_
+_Generated 2026-11-24T00:47:05Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
@@ -110,6 +110,7 @@ _Generated 2026-11-22T20:27:29Z_
 | snow-dance | reject | 8.65 | judge_score=8.65, not_a_dance, sacred |  |
 | glacier | reject | 8.65 | sections_filled, judge_score=8.65, not_a_dance |  |
 | sorsornet | reject | 8.65 | citations, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
+| bus-stop | reject | 8.65 | sections_filled, judge_score=8.65, not_a_dance |  |
 | vallenato | reject | 8.6 | citations, judge_score=8.6, not_a_dance |  |
 | corroboree | reject | 8.55 | judge_score=8.55, not_a_dance, sacred |  |
 | kadangot-makkam | reject | 8.55 | judge_score=8.55, not_a_dance, sacred |  |
@@ -194,6 +195,7 @@ _Generated 2026-11-22T20:27:29Z_
 | kanella | reject | 6.4 | citations, sources, profile_long_len, sections_filled, judge_score=6.4 |  |
 | q-axilu | reject | 6.4 | citations, sources, judge_score=6.4 |  |
 | saidi | reject | 6.4 | citations, profile_len, profile_long_len, sections_filled, region, judge_score=6.4, not_a_dance |  |
+| tropotianka | reject | 6.4 | citations, sources, profile_len, profile_long_len, sections_filled, judge_score=6.4 |  |
 | rainmaking-rites | reject | 6.15 | country, judge_score=6.15, doubts=3, harm, not_a_dance, sacred |  |
 | headroll-dance | reject | 6.1 | citations, sources, country, insight_concrete, profile_long_len, sections_filled, judge_score=6.1, doubts=1 |  |
 | war-dance | reject | 6.1 | country, insight_concrete, judge_score=6.1, doubts=1, not_a_dance, sacred |  |
@@ -228,6 +230,7 @@ _Generated 2026-11-22T20:27:29Z_
 | sudmalinas | reject | 2.6 | citations, sections_filled, sacred_handled, judge_score=2.6, doubts=1, sacred |  |
 | charikawi | reject | 2.35 | citations, sources, country, profile_len, profile_long_len, sections_filled, judge_score=2.35, doubts=2 |  |
 | zervodexios | reject | 2.0 | citations, sources, profile_long_len, sections_filled, judge_score=2.0, doubts=3 |  |
+| trizalis | reject | 2.0 | citations, sources, country, insight_concrete, profile_len, profile_long_len, sections_filled, judge_score=2.0 |  |
 | dinki-mini | reject | 1.0 | citations, country, insight_len, insight_concrete, profile_len, profile_long_len, sections_filled, region |  |
 | hinde | reject | 1.0 | profile_long_len, sections_filled, judge_score=1.0, doubts=1, not_a_dance |  |
 | kyrgyzstani-dance | reject | 1.0 | insight_len, insight_concrete, profile_len, profile_long_len, sections_filled, judge_score=1.0, doubts=1, harm |  |
@@ -300,9 +303,6 @@ _Generated 2026-11-22T20:27:29Z_
 | pols | review | 9.1 | citations, sections_filled, judge_score=9.1 |  |
 | tondero-peru | review | 9.1 | insight_concrete, banned_phrasing, judge_score=9.1 |  |
 | ballroom-tango | review | 9.1 | country, not_duplicate, judge_score=9.1 | tango |
-| tello | review | 9.05 | insight_concrete, profile_long_len, sections_filled, judge_score=9.05 |  |
-| lyrical-ballet | review | 9.05 | insight_concrete, sections_filled, judge_score=9.05 |  |
-| unyago | review | 9.0 | insight_concrete, sections_filled, judge_score=9.0, sacred |  |
 
 ## Audit: possible duplicates kept live, need a human (1)
 
@@ -452,10 +452,11 @@ _Generated 2026-11-22T20:27:29Z_
 | zimbabwe | retire |  | judge: country — This is a sovereign nation, not a dance. |
 | zuvedra | retire |  | judge: group_or_company — Lithuanian dancesport formation dance team. |
 
-## Screened out before research: dance moves, steps, figures (37) — not Atlas entries; to rescue one, set its status back to "queued" in pipeline_state/candidates.json
+## Screened out before research: dance moves, steps, figures (38) — not Atlas entries; to rescue one, set its status back to "queued" in pipeline_state/candidates.json
 
 | candidate | why |
 |---|---|
+| graham-technique | dance move/step/figure: type of dance |
 | the-thistle | dance move/step/figure: Scottish ladies' solo step dance |
 | gothic-belly-dance | dance move/step/figure: a modern variant of belly dance |
 | bogle-dance | dance move/step/figure: Jamaican dance |
@@ -518,3 +519,4 @@ _Generated 2026-11-22T20:27:29Z_
 | sangraing-dance | sangrai-dance | 0.929 |
 | chalypso | calypso-tt | 0.933 |
 | perini-sivatandavam | perini-shivatandavam | 0.974 |
+| tapeinos-horos | tapeinos-horo | 0.963 |

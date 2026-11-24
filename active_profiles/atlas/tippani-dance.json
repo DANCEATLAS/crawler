@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy mallets",
+          "Striking near feet",
+          "Long poles that are difficult to balance"
+        ],
+        "counts": "4-count rhythmic patterns",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' rhythm game using pool noodles or light bamboo sticks."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Heavy lifting",
+          "Overhead reaching",
+          "Forceful impact that might jar the wrists"
+        ],
+        "counts": "Simple 1-2-1-2 striking pattern.",
+        "seated_version": "Use shorter, lighter sticks while seated to tap the floor in front of the chair.",
+        "standing_version": "Use a lightweight PVC pipe or bamboo to mimic the movement without the heavy weight of the 175cm pole.",
+        "tempo_and_range": "Reduce the height of the lift to waist level and slow the tempo to a comfortable walking pace."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Both hands gripping the long wooden pole, alternating between lifting and forceful downward striking",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two opposite rows facing each other",
+      "hips_and_torso": "Engaged to provide power for the striking motion",
+      "levels_and_jumps": "Primarily ground-level; no jumps described",
+      "partnering": "None, but requires synchronization with the opposite row",
+      "posture": "Upright, braced for the impact of the mallet",
+      "signature_moves": [
+        {
+          "description": "The simultaneous pounding of the wooden mallet onto the floor by all dancers",
+          "name": "Tippani Strike"
+        }
+      ],
+      "tempo_feel": "Steady and industrial, reflecting the pace of manual labor",
+      "what_to_avoid": "Losing grip on the 175cm pole or falling out of sync with the row, which disrupts the percussive rhythm"
+    },
+    "music_profile": {
+      "instruments": [
+        "Turi",
+        "Thali",
+        "Zanz",
+        "Manjira",
+        "Tabla",
+        "Dhol",
+        "Shehnai"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "rhythmic",
+        "laborious",
+        "energetic",
+        "communal"
+      ],
+      "musical_form": "Call and response or unison folk singing accompanied by percussion",
+      "reference_recordings": [],
+      "rhythm_pattern": "Synchronized striking patterns matching folk song cadences",
+      "sound_description": "The sound is dominated by the heavy, dull thud of wooden blocks hitting the earth, layered with the sharp metallic ring of the thali and manjira. The turi and dhol provide a deep rhythmic base, while the shehnai adds a melodic overlay to the dancers' voices.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Folk songs sung by the dancers"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Grip the 175cm wooden pole with both hands",
+        "Stand in one of two facing rows",
+        "Lift the tippani mallet off the floor on the upbeat",
+        "Strike the floor firmly with the garbo block on the downbeat",
+        "Coordinate the strike with the person directly opposite in the other row"
+      ],
+      "formation": "Two opposite rows",
+      "level_notes": "Requires significant upper body strength to manage the 175cm pole and consistent rhythmic timing.",
+      "rhythm": "Steady percussive beat driven by the impact of wood on floor"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cb4f2579f1b72299f94b8a8fa2eeacf28c9c5125c1ac6391f1ea7f0346bc7777",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific rhythmic cycles (talas) used in the music for Tippani? Evidence needed: https://en.wikipedia.org/wiki/Tippani"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns that accompany the striking of the tippani? Evidence needed: https://en.wikipedia.org/wiki/Tippani"
+    ]
+  },
+  "id": "atlas:tippani-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tippani Dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c82062a0e9c53d21",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tippani",
+      "question": "What are the specific footwork patterns that accompany the striking of the tippani?",
+      "source": "https://en.wikipedia.org/wiki/Tippani",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only describe the upper body action of striking the floor; footwork is essential for a complete instructional profile."
+    },
+    {
+      "domain": "research",
+      "id": "33c9f48238325416",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tippani",
+      "question": "Are there specific rhythmic cycles (talas) used in the music for Tippani?",
+      "source": "https://en.wikipedia.org/wiki/Tippani",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the music accurately, the specific meter and rhythmic structure beyond 'folk songs' must be identified."
+    }
+  ],
+  "research_file": "research_results/tippani-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tippani-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tippani",
+    "https://www.wikidata.org/wiki/Q7808860"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

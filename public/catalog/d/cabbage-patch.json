@@ -71,16 +71,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 11,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    },
    {
     "key": "posture",
@@ -91,27 +87,169 @@
     "label": "formation and use of space"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "baad0f7df48d94ac",
- "updated": "2026-11-22"
+ "lessons": [
+  {
+   "youtube_id": "d8OdqTcpuj8",
+   "url": "https://www.youtube.com/watch?v=d8OdqTcpuj8",
+   "title": "Reebok vs Cabbage Patch (Which is Which??) | Hip Hop Dance Steps",
+   "channel": "The Shed",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "6-7-8 and 1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to breaking down two hip hop steps and settling a community debate"
+    },
+    {
+     "t": "0:19",
+     "seconds": 19,
+     "segment": "full_demo",
+     "note": "Demonstration of the dance steps to music"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "context",
+     "note": "Discussion on learning from credible sources and acknowledging Buddha Stretch"
+    },
+    {
+     "t": "1:36",
+     "seconds": 96,
+     "segment": "breakdown",
+     "note": "Introducing Cabbage Patch and Reebok steps and confusion between them"
+    },
+    {
+     "t": "2:10",
+     "seconds": 130,
+     "segment": "breakdown",
+     "note": "Breaking down Cabbage Patch basic variation with arms and upper body opposition"
+    },
+    {
+     "t": "3:30",
+     "seconds": 210,
+     "segment": "layering",
+     "note": "Adding footwork to the basic Cabbage Patch variation"
+    },
+    {
+     "t": "4:40",
+     "seconds": 280,
+     "segment": "slow_practice",
+     "note": "Practicing arm and foot patterns at different tempos"
+    },
+    {
+     "t": "6:15",
+     "seconds": 375,
+     "segment": "breakdown",
+     "note": "Explaining the Around The World variation"
+    },
+    {
+     "t": "6:48",
+     "seconds": 408,
+     "segment": "breakdown",
+     "note": "Explaining the Stir The Pot variation"
+    },
+    {
+     "t": "7:47",
+     "seconds": 467,
+     "segment": "breakdown",
+     "note": "Explaining the Side to Side variation"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Cabbage Patch (Basic)",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "Drawing arm circles while moving the upper body in opposition with optional foot lifts."
+    },
+    {
+     "name": "Around The World",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "Cabbage patch basic variation adding body rotation."
+    },
+    {
+     "name": "Stir The Pot",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "Cabbage patch footwork with arms modified to a stirring motion."
+    },
+    {
+     "name": "Side to Side",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "Cabbage patch variation utilizing single-single-double arm movements side to side."
+    }
+   ],
+   "cues": [
+    "We go one, two, three",
+    "Draw a circle with our arms",
+    "Stir the pot"
+   ],
+   "images": [
+    "drawing a circle with our arms",
+    "stir the pot"
+   ],
+   "common_mistakes": [
+    "Confusing the Cabbage Patch with the Reebok"
+   ],
+   "teacher_style": "The teacher breaks down foundational hip hop steps methodically, addressing common confusions and naming multiple variations. He explains each variation step-by-step with arm and foot patterns.",
+   "distinctive_method": "Structuring the lesson around resolving a specific community debate and naming multiple stylistic variations of a single step.",
+   "what_works": [
+    "Clear verbal separation of arm and foot patterns",
+    "Breaking down variations one by one with descriptive names"
+   ],
+   "what_hinders": [
+    "Rapid transitions between multiple variations without full song practice"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Instructor speaks directly to camera in a wooden room setting with hand gestures.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact footwork placement during intro",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 20,
+     "end_s": 30,
+     "topic": "movement",
+     "observation": "Instructor performs dance moves facing forward with upper body rotation and arm circles.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "weight distribution between feet",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 240,
+     "end_s": 260,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates arm movements counting out loud and showing body opposition.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact muscular engagement in the core",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "fa11c07ac4380093",
+ "updated": "2026-11-24"
 }

@@ -40,6 +40,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Punto_music",
   "wikidata_qid": "Q6093242",
   "unesco": false,
+  "hero_video_youtube_id": "IrsyBbWyLrQ",
+  "video_stack": [
+   {
+    "youtube_id": "IrsyBbWyLrQ",
+    "role": "hero",
+    "title": "El Punto Proyecto Folclore Para El Mundo",
+    "channel": "Big Music Enterprises",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "_is_sacred": false,
   "research_gate": "publish",
@@ -50,6 +60,14 @@
   "publish_gate": "publish",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:24:53Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "flamenco",
    "sevillanas",
@@ -229,7 +247,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -241,10 +259,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -254,11 +268,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/punto-music.json"
  },
- "fingerprint": "c5dd983ab9603dcd",
- "updated": "2026-11-21"
+ "fingerprint": "3c9f867b6a712929",
+ "updated": "2026-11-24"
 }

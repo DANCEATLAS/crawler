@@ -2,9 +2,9 @@
  "slug": "dihosana",
  "name": "Dihosana",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
- "researched_at": "2026-11-05T18:28:51Z",
- "qc_score": 8.95,
+ "built_at": "2026-11-24T00:44:44Z",
+ "researched_at": "2026-11-23T23:35:41Z",
+ "qc_score": 9.55,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A veteran elder from the Makobo community",
+   "persona": "A veteran elder from the Makobo community.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -75,7 +75,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Dihosana is a traditional dance of the Kalanga people that has existed for a long period of time, inherited from their forefathers."
+     "Dihosana is a heritage inherited from the forefathers of the Kalanga people.",
+     "It has existed for a long period and remains a vital part of Kalanga culture, centered in the village of Makobo."
     ],
     "on_screen": [
      "Map: Botswana · Africa",
@@ -88,7 +89,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance is performed to pray for rain during times of drought by inviting ancestors through trance.",
+     "The dance is performed to pray for rain during times of drought.",
+     "It is a sacred ritual triggered by an ancestral calling.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -100,16 +102,17 @@
     "code": "watch",
     "title": "Watch it",
     "duration_s": 75,
-    "narration": [],
+    "narration": [
+     "Dancers perform in groups.",
+     "The ritual begins with the cleaning or sweeping of the ground, known as the Sebata.",
+     "The dance involves the invitation of ancestors through trance.",
+     "Watch for Sebata."
+    ],
     "on_screen": [
      "Hero video full screen, 30–45 s (MD2oGbI_IA0)",
-     "Signature moves — MISSING"
+     "Captions name each signature move as it appears"
     ],
-    "music": "diegetic (the video's own sound), underscore under narration",
-    "needs": [
-     "how_it_is_danced",
-     "signature_moves"
-    ]
+    "music": "diegetic (the video's own sound), underscore under narration"
    },
    {
     "code": "music",
@@ -133,8 +136,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Dancers wear black skirts and long strings of beads around their necks, with beads also worn on the body and waist in red, black, and white colors.",
-     "Rituals occur at a hill called Ka Mwale and on a ground known as the Sebata."
+     "Dancers wear black skirts and long strings of beads around their necks, bodies, and waists.",
+     "The beads are grouped in various colors, including red, black, and white."
     ],
     "on_screen": [
      "Image gallery: 7 licensed images with attribution",
@@ -147,8 +150,8 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Veteran elders of the Hosana dance, particularly those residing in the village of Makobo.",
-     "Inherited from the forefathers of the Kalanga people."
+     "Veteran elders of the Hosana dance are located in the village of Makobo, approximately 20 to 30 km north of Francistown, Botswana.",
+     "The tradition is inherited from the forefathers of the Kalanga people."
     ],
     "on_screen": [
      "Names on screen as they are spoken"
@@ -173,7 +176,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Dihosana is a sacred rain-making dance involving ancestral trance and initiation; it is not a performance for public entertainment and requires an ancestral calling to participate."
+     "Dihosana is a ritual practice involving ancestral possession and trance; it is not a performance for public entertainment and requires specific ancestral calling."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -185,7 +188,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "An exploration of the sacred rain-making rituals of the Kalanga people in Botswana.",
+     "An exploration of the sacred Dihosana ritual, where ancestral spirits are invited to bring rain to the Kalanga people.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -207,13 +210,10 @@
   "instruments": [],
   "vocal_style": null,
   "musical_form": null,
-  "mood": [
-   "spiritual",
-   "solemn"
-  ],
+  "mood": [],
   "sound_description": null,
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Dihosana (Botswana). Mood: spiritual, solemn. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Dihosana (Botswana). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -255,7 +255,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Dancers wear black skirts and long strings of beads around their necks, with beads also worn on the body and waist in red, black, and white colors. Rituals occur at a hill called Ka Mwale and on a ground known as the Sebata.",
+   "from_sources": "Dancers wear black skirts and long strings of beads around their necks, bodies, and waists. The beads are grouped in various colors, including red, black, and white.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ADihosana_dance_1.jpg",
     "https://commons.wikimedia.org/wiki/File%3ADihosana_Dance_troupe_7.jpg",
@@ -329,11 +329,12 @@
   "footage": [],
   "motifs": [
    "Black skirts",
-   "Red, black, and white beadwork",
-   "The landscape of Ka Mwale hill"
+   "Intricate beadwork in red, black, and white",
+   "The landscape of Ka Mwale hill",
+   "Sweeping the Sebata ground"
   ],
-  "costume_notes": "Dancers wear black skirts and long strings of beads around their necks, with beads also worn on the body and waist in red, black, and white colors. Rituals occur at a hill called Ka Mwale and on a ground known as the Sebata.",
-  "setting_notes": "The dance is performed to pray for rain during times of drought by inviting ancestors through trance.",
+  "costume_notes": "Dancers wear black skirts and long strings of beads around their necks, bodies, and waists. The beads are grouped in various colors, including red, black, and white.",
+  "setting_notes": "The dance is performed to pray for rain during times of drought. It is a sacred ritual triggered by an ancestral calling.",
   "map": {
    "country": "Botswana",
    "region": "Africa",
@@ -346,12 +347,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → full",
    "repetitions per step: about 4"
   ],
@@ -363,19 +364,18 @@
    "move your hips side to side",
    "scrape it along the floor",
    "remember to breathe",
-   "y tac tac",
-   "el segundo",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice"
   ],
@@ -387,8 +387,6 @@
   "instruments",
   "a verified recording to listen to",
   "licensed reference footage",
-  "the how-it-is-danced section",
-  "signature moves",
   "the music & instruments section",
   "two or more connections"
  ],
@@ -396,9 +394,9 @@
   "https://en.wikipedia.org/wiki/Dihosana",
   "https://www.wikidata.org/wiki/Q41669136"
  ],
- "claims_verified": 6,
- "claims": 6,
+ "claims_verified": 7,
+ "claims": 7,
  "polished": false,
- "input_fingerprint": "dc9fdf5789526e893c5d12fd88d86e649f89bf1a50a6db89cc6a00812410c1ba",
+ "input_fingerprint": "f374232cd271ac8ec228ab611bcfaea484dbf701139914c7a60ea92bd7ca7504",
  "hero_checked": "pass"
 }

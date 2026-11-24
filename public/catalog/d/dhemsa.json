@@ -29,6 +29,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dhemsa",
   "wikidata_qid": "Q24949108",
   "unesco": false,
+  "hero_video_youtube_id": "rm2uw5nGG0M",
+  "video_stack": [
+   {
+    "youtube_id": "rm2uw5nGG0M",
+    "role": "hero",
+    "title": "Dhemsa dance 2023 //gadhipabli Ganesh Puja visarjan//Maa thakurani band party ph-7008412892",
+    "channel": "Amo Koraput",
+    "hd": true
+   },
+   {
+    "youtube_id": "penIIYk4nik",
+    "role": "rendition",
+    "title": "Bhopal Modhya Pradesh koraputia Dhemsa Dance Odisha",
+    "channel": "Sagar Bisoi ",
+    "hd": true
+   },
+   {
+    "youtube_id": "C9tYss6qIz0",
+    "role": "rendition",
+    "title": "koraputia dhemsa song- Bajigala baja  #IYDP2023 #culture #family #gmu #koraputiademsadance2023",
+    "channel": "Kishore kumar Majhi",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -56,7 +80,13 @@
   "needs_eyes_on": true,
   "sacred_note": "not described in sources",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:21:18Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -263,7 +293,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -283,10 +313,6 @@
     "label": "tempo, meter or the teacher's count"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -297,11 +323,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/dhemsa.json"
  },
- "fingerprint": "e426d89f32891a89",
- "updated": "2026-11-22"
+ "fingerprint": "0d1b657e792faca1",
+ "updated": "2026-11-24"
 }

@@ -1,0 +1,358 @@
+{
+ "slug": "tongyeong-ogwandae",
+ "name": "Tongyeong ogwandae",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T00:44:44Z",
+ "researched_at": "2026-11-23T21:50:28Z",
+ "qc_score": 9.45,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned mask-maker and performer who emphasizes the dual nature of the dance as both a joke and a prayer.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tongyeong ogwandae",
+   "Tongyeong ogwangdae nori"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tongyeong ogwandae",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Five Clowns of Tongyeong",
+     "This is Tongyeong ogwandae. 16th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Tongyeong ogwandae · South Korea · 16th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in the 16th century alongside the establishment of the navy force in Yongyouung.",
+     "It was historically performed by 30 musicians drafted from small islands who practiced for several days before marching in procession from New Year's Eve until the 15th of January.",
+     "In the early 20th century, the tradition was revitalized by groups such as Uiheunggye and Nansagye, with Jang jae-bong restoring the form at age 29."
+    ],
+    "on_screen": [
+     "Map: South Korea · East Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a ceremony to exorcise evil spirits, the performance served as a ritual cleansing for the new year.",
+     "Its themes include the portrayal of ordinary people's lives, the satire of the landed gentry, and the ridiculing of domestic issues.",
+     "It functions as both a spiritual exorcism and a vehicle for social critique.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The primary dance style is known as 'dutbegi.' The character Malttugi performs an active sword dance that gradually becomes more calm.",
+     "The performance is divided into five acts: the lamentation dance of the leper (Mundung-tal), the satirical mockery of noblemen by Malttugi, the predatory movements of the monster Youngno, the monks' dance for jaejagaksi, and the lion dance (sajachum) which concludes with the law of the jungle.",
+     "Watch for Dutbegi, Malttugi's Sword Dance, Sajachum."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Processional marching through districts and houses, followed by localized performance of the five stories."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The performance is accompanied by percussion instruments.",
+     "The accompaniment is noted for having the characteristic style of the Gyeongsangnam-do province, distinguishing it from other regional five-story mask dances.",
+     "Listen for the Percussion instruments.",
+     "The music is characterized by a distinct regional percussion style from the Gyeongsangnam-do province. It features rhythmic accompaniment for the 'dutbegi' dance and includes vocal elements such as Buddhist chants used during the exorcism procession."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Gyeongsangnam-do provincial percussion style"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear specific masks representing the 'five clowns' and other characters like the leper, the monster Youngno, and the lion.",
+     "The setting was traditionally the office districts and private houses of Tongyeong during the lunar New Year period.",
+     "The lion mask is a unique feature of this specific regional tradition."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures in the restoration and transmission include Jang jae-bong, who restored the dance 90 years ago.",
+     "Other designated holders from the 1964 cultural property designation include Oh Jung-du, Kim jin-su, Gu sam-bong, Go young-su, Mun Chang-seob, Kim sam sung, and Yoo ding-ju.",
+     "Tongyeong ogwandae is a yeoongna-style mask performance specific to Gyeongsangnam-do.",
+     "The dance is a subclass of Korean mask dance (talchum)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tongyeong ogwandae is sibling of Pansori: Both are designated as Important Intangible Cultural Properties of Korea.",
+     "Tongyeong ogwandae is variant of Sajachum: Tongyeong ogwandae is the only traditional Korean dance currently featuring this lion dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The performance includes a ceremony to exorcise evil spirits and involves the chanting of Buddhist prayers by the Junggwandae mask to drive away ghosts."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the 16th-century naval mask dance that uses a hungry monster and a dancing lion to mock the elite and exorcise demons.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Gyeongsangnam-do provincial percussion style",
+  "instruments": [
+   "Percussion instruments"
+  ],
+  "vocal_style": "Chanting of Buddhist prayers (by Junggwandae)",
+  "musical_form": "Five-act structure with distinct accompaniment for each story",
+  "mood": [
+   "satirical",
+   "exorcistic",
+   "lamenting",
+   "active"
+  ],
+  "sound_description": "The music is characterized by a distinct regional percussion style from the Gyeongsangnam-do province. It features rhythmic accompaniment for the 'dutbegi' dance and includes vocal elements such as Buddhist chants used during the exorcism procession.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Tongyeong ogwandae (South Korea). Rhythm pattern: Gyeongsangnam-do provincial percussion style. Instruments: Percussion instruments. Vocal style: Chanting of Buddhist prayers (by Junggwandae). Form: Five-act structure with distinct accompaniment for each story. Mood: satirical, exorcistic, lamenting, active. It should sound like this: The music is characterized by a distinct regional percussion style from the Gyeongsangnam-do province. It features rhythmic accompaniment for the 'dutbegi' dance and includes vocal elements such as Buddhist chants used during the exorcism procession. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear specific masks representing the 'five clowns' and other characters like the leper, the monster Youngno, and the lion. The setting was traditionally the office districts and private houses of Tongyeong during the lunar New Year period. The lion mask is a unique feature of this specific regional tradition.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "The grotesque and expressive wooden masks",
+   "The coastal backdrop of Tongyeong",
+   "The vibrant lion costume",
+   "The contrast between the noblemen's fine clothes and the servant's mask"
+  ],
+  "costume_notes": "Performers wear specific masks representing the 'five clowns' and other characters like the leper, the monster Youngno, and the lion. The setting was traditionally the office districts and private houses of Tongyeong during the lunar New Year period. The lion mask is a unique feature of this specific regional tradition.",
+  "setting_notes": "Originally a ceremony to exorcise evil spirits, the performance served as a ritual cleansing for the new year. Its themes include the portrayal of ordinary people's lives, the satire of the landed gentry, and the ridiculing of domestic issues. It functions as both a spiritual exorcism and a vehicle for social critique.",
+  "map": {
+   "country": "South Korea",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "71 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 71,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tongyeong_ogwangdae",
+  "https://www.wikidata.org/wiki/Q7821215"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "0becff9925f652585a4035505408b4b0985d631d2360f2d6af4091e36b0aa5e2",
+ "hero_checked": null
+}

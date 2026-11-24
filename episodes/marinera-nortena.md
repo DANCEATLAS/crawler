@@ -1,8 +1,8 @@
 # Marinera Norteña — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced champion dancer from Trujillo who embodies elegance, coastal pride, and physical resilience.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Barefoot on Burning Ground: Peru's Marinera Norteña
 NARRATION: This is Marinera Norteña. 19th century (renamed 1879).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (3NOVYuCb9ZA)
 ON SCREEN: Title card: Marinera Norteña · Peru · 19th century (renamed 1879)
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Marinera Norteña is a open-partner courtship dance executed with whi
 NARRATION: Dancers maintain distance while swirling around one another in a courtship dialogue.
 NARRATION: The male dancer attempts to conquer his partner through flirtatious sweeps of his straw hat and sharp zapateo footwork that mimics the movement of a Peruvian Paso horse.
 NARRATION: Watch for Zapateo, Floreo de pañuelo.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (3NOVYuCb9ZA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples dance two to three meters apart, circling in circular paths across open indoor floor or outdoor pavement.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -333,7 +333,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Men dress in traditional northern 'chalan' attire, which includes a white cotton poncho, white drill suit or dark trousers, a wide-brimmed straw hat, and black glossy shoes. Women wear broad, flowing skirts adorned with lace based on nineteenth-century northern rural dress, and must dance completely barefoot. Performance spaces range from indoor competition arenas to scorching outdoor concrete pavements during midday festivals.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '3NOVYuCb9ZA', 'checked_by_vision_model': True, 'title': 'Marinera Norteña BARCELONA ARC DE TRIOMF - Exhibición De Los Campeones De Europa 2017'}
 Images: 1 licensed — Tomas Sobek / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Get Ready for The Peru Flag Raising -Spanish — https://archive.org/details/rtvma-Get_Ready_for_The_Peru_Flag_Raising_-Spanish; Peru Independence Day: Peruvian Traditional Dance — https://archive.org/details/umcmb-Peru_Independence_Day_-_Peruvian_Traditional_Dance
 Motifs: Swirling white handkerchiefs against vibrant blue skies, Bare feet stepping precisely on textured pavement, Wide straw hats dipping in dramatic bows

@@ -1,10 +1,10 @@
 {
  "slug": "chaabi",
- "qc_at": "2026-11-15T17:53:35Z",
+ "qc_at": "2026-11-24T00:16:49Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "publish",
- "qc_score": 8.7,
+ "publish_gate": "review",
+ "qc_score": 7.55,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "80"
+   "detail": "83"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "187"
+   "detail": "210"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Born across 20th-century North Africa from Algiers kasbahs to 1970s working-clas"
+   "detail": "Emerging from 20th-century urban centers like Cairo and the kasbahs of the Maghr"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "501"
+   "detail": "421"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2649"
+   "detail": "1336"
   },
   {
    "gate": "sections_filled",
-   "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "ok": false,
+   "detail": "origins_and_history,occasions_and_meaning,notable_figures"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "9/9 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "codified"
+   "detail": "foundational"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "4 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -88,10 +88,10 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 3,
+  "specificity": 7,
+  "teaching_value": 1,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -99,20 +99,21 @@
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 8,
-  "verdict": "publish",
-  "notes": "Strong profile with solid factual grounding. Teaching value is low due to sources lacking codified steps, which is honestly handled."
+  "overall": 6,
+  "verdict": "review",
+  "notes": "Accurate to the broad musical sources provided, but completely lacks movement details for dance execution, giving it minimal teaching value. Needs review to add actual dance movement analysis if available."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=8.7"
+  "sections_filled",
+  "judge_score=7.55"
  ],
  "citation": {
-  "claims": 9,
-  "supported": 9,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-15T17:03:44Z"
+ "researched_at": "2026-11-23T23:35:57Z"
 }

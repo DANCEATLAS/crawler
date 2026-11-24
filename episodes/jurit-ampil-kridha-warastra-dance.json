@@ -2,9 +2,9 @@
  "slug": "jurit-ampil-kridha-warastra-dance",
  "name": "Jurit Ampil Kridha Warastra Dance",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
- "researched_at": "2026-11-15T16:56:24Z",
- "qc_score": 10.0,
+ "built_at": "2026-11-24T00:44:44Z",
+ "researched_at": "2026-11-23T23:16:12Z",
+ "qc_score": 9.0,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A master Central Javanese classical dance choreographer versed in Surakarta palace styles and Salatiga folk traditions.",
+   "persona": "A Javanese dance historian or local Salatiga cultural ambassador.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -62,12 +62,12 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Archers of the Prince's Court",
-     "This is Jurit Ampil Kridha Warastra Dance. 18th century (historical basis)."
+     "The Concubine Archers of Salatiga",
+     "This is Jurit Ampil Kridha Warastra Dance. 18th century."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (vaomwDA1VSE)",
-     "Title card: Jurit Ampil Kridha Warastra Dance · Indonesia · 18th century (historical basis)"
+     "Title card: Jurit Ampil Kridha Warastra Dance · Indonesia · 18th century"
     ],
     "music": "theme (30 s)"
    },
@@ -76,9 +76,7 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The dance commemorates a pivotal historical event in Central Java: the Treaty of Salatiga, enacted on 17 March 1757.",
-     "During the assembly to finalize the treaty, three rulers—Hamengkubuwana I, Pakubuwana III, and Mangkunegara I (Raden Mas Said, also known as Pangeran Samber Nyawa)—exhibited their military strength.",
-     "Mangkunegara I showcased multiple bregada (military units), among which was the Jurit Ampil, a unit composed exclusively of his garwa ampil (concubines) trained as soldiers."
+     "The dance commemorates the 17 March 1757 Treaty of Salatiga, where Mangkunegara I showcased his elite female military unit, the Jurit Ampil, to demonstrate his military strength."
     ],
     "on_screen": [
      "Map: Indonesia · Southeast Asia",
@@ -91,8 +89,7 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The choreography conveys the complex concepts embedded in its title: 'jurit' (soldier), 'garwa ampil' (concubine of Mangkunegara I), and 'warastra' (bow and arrow).",
-     "It stands as a representation of female military discipline and royal sovereignty, reflecting on the historical unity and territorial negotiations established during the Salatiga Treaty of 1757.",
+     "The dance serves to convey the historical military discipline of the concubines of Mangkunegara I during the 18th-century political shifts in Java.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -105,28 +102,28 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Jurit Ampil Kridha Warastra is classified as a free-style dance, meaning it can be performed in groups, pairs, or solo.",
-     "It synthesizes classical Surakarta-style court dance with regional folk dance forms, borrowing extensively from the Prajuritan martial dance tradition.",
-     "Dancers manipulate traditional weaponry including bows and daggers while maintaining classical postures blended with military precision.",
-     "Watch for Jemparing manipulation, Cundrik stance."
+     "The dance is a free-style performance that can be executed by soloists, pairs, or groups.",
+     "It blends classical Surakarta court dance with the movements of the Prajuritan folk martial dance."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (vaomwDA1VSE)",
-     "Captions name each signature move as it appears",
-     "Formation: Can be staged flexibly as a solo, in paired duels/partnerships, or as a synchronized group formation."
+     "Signature moves — MISSING",
+     "Formation: Flexible: solo, pairs, or groups."
     ],
-    "music": "diegetic (the video's own sound), underscore under narration"
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The dance is accompanied by a Javanese gamelan ensemble playing in the pelog scale.",
-     "The instrumental layout includes the gender, kendhang, demung, saron, kenong, kempul, and gong.",
+     "The music uses a Javanese gamelan in the pelog scale, featuring instruments such as the gender, kendhang, demung, saron, kenong, kempul, and gong.",
+     "Compositions include lancaran, srepeg, and palaran.",
      "Listen for the gender, kendhang, demung, saron.",
-     "The pulse is Javanese metric cycles (lancaran, srepeg, palaran).",
-     "A Javanese gamelan ensemble playing in the pelog scale, marked by the resonant punctuations of the gong, kempul, and kenong, balanced by the rhythmic drive of the kendhang barrel drum and melodic metallophones including the gender, demung, and saron, shifting through lancaran, srepeg, and palaran sections."
+     "A Javanese gamelan ensemble playing in the pelog scale, characterised by the percussive interplay of metallophones and drums."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -135,7 +132,8 @@
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
-     "tempo"
+     "tempo",
+     "meter"
     ]
    },
    {
@@ -143,9 +141,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Performers wear female warrior attire.",
-     "The hair is gathered in a small bun adorned with a golden crown.",
-     "The core costume features a short-sleeved blue shirt embellished with gold trim, a belt, and a dodot wrapped over knee-length trousers."
+     "Dancers wear a blue short-sleeved shirt with gold embellishments, a belt, a dodot, and knee-length trousers.",
+     "Accessories include a small bun with a golden crown and weapons: bow, quiver, arrow, and dagger."
     ],
     "on_screen": [
      "Image gallery: 6 licensed images with attribution",
@@ -158,13 +155,11 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "The central historical figure is Raden Mas Said, titularly known as Mangkunegara I and famously referred to as Pangeran Samber Nyawa, who formed and commanded the original Jurit Ampil concubine troops.",
-     "The dance originates in the city of Salatiga in Central Java, drawing choreographic material from both the court styles of Surakarta and local Prajuritan folk martial dancing.",
-     "Beksan Jurit Ampil Kridha Warastra descends genealogically from the martial traditions of the Mangkunegaran court, merging Surakarta-style Javanese classical dance with vernacular Prajuritan soldier dances."
+     "Mangkunegara I (Raden Mas Said/Pangeran Samber Nyawa).",
+     "A blend of classical Surakarta-style court dance and Prajuritan folk martial dance."
     ],
     "on_screen": [
-     "Names on screen as they are spoken",
-     "Variant names as a small list"
+     "Names on screen as they are spoken"
     ],
     "music": "underscore"
    },
@@ -173,36 +168,36 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Jurit Ampil Kridha Warastra Dance is influence of Prajuritan: Jurit Ampil Kridha Warastra incorporates many movements directly from the Prajuritan folk martial dance tradition.",
-     "Jurit Ampil Kridha Warastra Dance is parent of Javanese dance: Jurit Ampil Kridha Warastra is rooted in classical Javanese dance, specifically the Surakarta court style."
+     "Jurit Ampil Kridha Warastra Dance is influence of Prajuritan: The dance incorporates many movements from this folk martial dance tradition."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
    },
    {
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
-    "narration": [
-     "Before we go, one step. Assume a balanced warrior stance carrying the gendewa (bow) and cundrik (dagger).",
-     "Execute Prajuritan-derived martial footwork blended with Surakarta classical body alignment.",
-     "Count it: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars.",
-     "Chapter 1 takes it slowly from here."
-    ],
+    "narration": [],
     "on_screen": [
      "Instructor, front view, slow",
      "Count on screen"
     ],
-    "music": "lesson_slow"
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Step into eighteenth-century Salatiga where the royal concubines of Mangkunegara I take up bows and daggers in a masterwork of Javanese martial elegance.",
+     "Discover the history of the Jurit Ampil, an elite female regiment that served as the personal guard of Prince Mangkunegara I.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -217,17 +212,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master the warrior gaze and upright posture in court dodot attire",
-   "level": "Level 1: Stance and Demeanor",
+   "goal": "the first steps of Jurit Ampil Kridha Warastra Dance",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master the warrior gaze and upright posture in court dodot attire.",
-      "Level: Level 1: Stance and Demeanor. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A master Central Javanese classical dance choreographer versed in Surakarta palace styles and Salatiga folk traditions."
+      "Chapter 1 — First steps. Today: the first steps of Jurit Ampil Kridha Warastra Dance.",
+      "Level: beginner. ",
+      "Your instructor: A Javanese dance historian or local Salatiga cultural ambassador."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -238,22 +233,21 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Disciplined female warrior posture blending refined Surakarta-style court alignment with grounded Prajuritan martial readiness.",
-      "Armed hand gestures handling the jemparing (bow and arrow) and unsheathing or brandishing the cundrik dagger.",
-      "Controlled torso and hip carriage wrapped in a dodot and belt over knee-length trousers."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars. The meter is Javanese metric cycles (lancaran, srepeg, palaran).",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -262,41 +256,40 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Assume a balanced warrior stance carrying the gendewa (bow) and cundrik (dagger).",
-      "Step 2: Execute Prajuritan-derived martial footwork blended with Surakarta classical body alignment.",
-      "Drill: Establish rooted warrior foot placement"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Step 3: Draw the nyenyep (arrow) from the endhong (quiver) and nock to the gendewa.",
-      "Step 4: Manoeuvre through floor pathways transitioning between lancaran and srepeg musical structures.",
-      "Drill: Align head and neck to support the small bun and golden crown aesthetic"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "combine",
@@ -305,8 +298,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Practice disciplined, sharp facial expression reflecting military resolve"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -318,22 +310,23 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Loose modern posturing; casual handling of ceremonial stage weapons (bows, arrows, daggers)."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars.",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -347,8 +340,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the warrior gaze and upright posture in court dodot attire.",
-      "The choreography conveys the complex concepts embedded in its title: 'jurit' (soldier), 'garwa ampil' (concubine of Mangkunegara I), and 'warastra' (bow and arrow).",
+      "You can now: the first steps of Jurit Ampil Kridha Warastra Dance.",
+      "The dance serves to convey the historical military discipline of the concubines of Mangkunegara I during the 18th-century political shifts in Java.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -362,17 +355,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Handle the gendewa and cundrik cleanly during movement transitions",
-   "level": "Level 2: Weaponry Coordination",
+   "goal": "the building the dance of Jurit Ampil Kridha Warastra Dance",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Handle the gendewa and cundrik cleanly during movement transitions.",
-      "Level: Level 2: Weaponry Coordination. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A master Central Javanese classical dance choreographer versed in Surakarta palace styles and Salatiga folk traditions."
+      "Chapter 2 — Building the dance. Today: the building the dance of Jurit Ampil Kridha Warastra Dance.",
+      "Level: intermediate. ",
+      "Your instructor: A Javanese dance historian or local Salatiga cultural ambassador."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -383,22 +376,21 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Disciplined female warrior posture blending refined Surakarta-style court alignment with grounded Prajuritan martial readiness.",
-      "Armed hand gestures handling the jemparing (bow and arrow) and unsheathing or brandishing the cundrik dagger.",
-      "Controlled torso and hip carriage wrapped in a dodot and belt over knee-length trousers."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars. The meter is Javanese metric cycles (lancaran, srepeg, palaran).",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -407,44 +399,40 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Assume a balanced warrior stance carrying the gendewa (bow) and cundrik (dagger).",
-      "Step 2: Execute Prajuritan-derived martial footwork blended with Surakarta classical body alignment.",
-      "Drill: Bow drawing grip and arrow extraction from endhong"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Step 3: Draw the nyenyep (arrow) from the endhong (quiver) and nock to the gendewa.",
-      "Step 4: Manoeuvre through floor pathways transitioning between lancaran and srepeg musical structures.",
-      "Jemparing manipulation: Drawing arrows (nyenyep) from the quiver (endhong) and aiming the bow (gendewa).",
-      "Cundrik stance: Martial posture integrating the short dagger into defensive and offensive stage displays.",
-      "Drill: Dagger hold and guard transitions"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -453,8 +441,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Synchronizing arm pulls with gamelan percussive markers"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -466,23 +453,24 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Loose modern posturing; casual handling of ceremonial stage weapons (bows, arrows, daggers)."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars.",
-      "Full tempo, the whole sequence, twice. Formation: Can be staged flexibly as a solo, in paired duels/partnerships, or as a synchronized group formation."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Flexible: solo, pairs, or groups."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -495,8 +483,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Handle the gendewa and cundrik cleanly during movement transitions.",
-      "The central historical figure is Raden Mas Said, titularly known as Mangkunegara I and famously referred to as Pangeran Samber Nyawa, who formed and commanded the original Jurit Ampil concubine troops.",
+      "You can now: the building the dance of Jurit Ampil Kridha Warastra Dance.",
+      "Mangkunegara I (Raden Mas Said/Pangeran Samber Nyawa).",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -510,17 +498,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Execute the fluid shift between folk martial energy and Surakarta poise",
-   "level": "Level 3: Prajuritan and Court Fusion",
+   "goal": "the dancing it fully of Jurit Ampil Kridha Warastra Dance",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Execute the fluid shift between folk martial energy and Surakarta poise.",
-      "Level: Level 3: Prajuritan and Court Fusion. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A master Central Javanese classical dance choreographer versed in Surakarta palace styles and Salatiga folk traditions."
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Jurit Ampil Kridha Warastra Dance.",
+      "Level: advanced. ",
+      "Your instructor: A Javanese dance historian or local Salatiga cultural ambassador."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -531,22 +519,21 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Disciplined female warrior posture blending refined Surakarta-style court alignment with grounded Prajuritan martial readiness.",
-      "Armed hand gestures handling the jemparing (bow and arrow) and unsheathing or brandishing the cundrik dagger.",
-      "Controlled torso and hip carriage wrapped in a dodot and belt over knee-length trousers."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars. The meter is Javanese metric cycles (lancaran, srepeg, palaran).",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -555,42 +542,40 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Draw the nyenyep (arrow) from the endhong (quiver) and nock to the gendewa.",
-      "Step 2: Manoeuvre through floor pathways transitioning between lancaran and srepeg musical structures.",
-      "Drill: Lancaran slow walking sequence"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 10",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Jemparing manipulation: Drawing arrows (nyenyep) from the quiver (endhong) and aiming the bow (gendewa).",
-      "Cundrik stance: Martial posture integrating the short dagger into defensive and offensive stage displays.",
-      "Drill: Srepeg rapid stepping and turning sequence"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front and back view; slow, then half tempo",
-      "Name of the signature move on screen"
+      "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-     "repetitions": 3
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
     },
     {
      "code": "combine",
@@ -599,8 +584,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Group bregada alignment exercise"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -612,23 +596,24 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Loose modern posturing; casual handling of ceremonial stage weapons (bows, arrows, daggers)."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars.",
-      "Full tempo, the whole sequence, twice. Formation: Can be staged flexibly as a solo, in paired duels/partnerships, or as a synchronized group formation."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Flexible: solo, pairs, or groups."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -641,8 +626,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Execute the fluid shift between folk martial energy and Surakarta poise.",
-      "Beksan Jurit Ampil Kridha Warastra descends genealogically from the martial traditions of the Mangkunegaran court, merging Surakarta-style Javanese classical dance with vernacular Prajuritan soldier dances.",
+      "You can now: the dancing it fully of Jurit Ampil Kridha Warastra Dance.",
+      "A blend of classical Surakarta-style court dance and Prajuritan folk martial dance.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -659,7 +644,7 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "Javanese metric cycles (lancaran, srepeg, palaran)",
+  "meter": null,
   "rhythm_pattern": null,
   "instruments": [
    "gender",
@@ -670,18 +655,16 @@
    "kempul",
    "gong"
   ],
-  "vocal_style": "palaran singing where applicable within the gamelan structure",
-  "musical_form": "Transitions across lancaran, srepeg, and palaran compositions",
+  "vocal_style": null,
+  "musical_form": "lancaran, srepeg, and palaran",
   "mood": [
-   "martial",
-   "courtly",
-   "regal",
+   "military",
    "disciplined",
-   "solemn"
+   "classical"
   ],
-  "sound_description": "A Javanese gamelan ensemble playing in the pelog scale, marked by the resonant punctuations of the gong, kempul, and kenong, balanced by the rhythmic drive of the kendhang barrel drum and melodic metallophones including the gender, demung, and saron, shifting through lancaran, srepeg, and palaran sections.",
+  "sound_description": "A Javanese gamelan ensemble playing in the pelog scale, characterised by the percussive interplay of metallophones and drums.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Jurit Ampil Kridha Warastra Dance (Indonesia). Meter Javanese metric cycles (lancaran, srepeg, palaran). Instruments: gender, kendhang, demung, saron, kenong, kempul, gong. Vocal style: palaran singing where applicable within the gamelan structure. Form: Transitions across lancaran, srepeg, and palaran compositions. Mood: martial, courtly, regal, disciplined, solemn. It should sound like this: A Javanese gamelan ensemble playing in the pelog scale, marked by the resonant punctuations of the gong, kempul, and kenong, balanced by the rhythmic drive of the kendhang barrel drum and melodic metallophones including the gender, demung, and saron, shifting through lancaran, srepeg, and palaran sections. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Jurit Ampil Kridha Warastra Dance (Indonesia). Instruments: gender, kendhang, demung, saron, kenong, kempul, gong. Form: lancaran, srepeg, and palaran. Mood: military, disciplined, classical. It should sound like this: A Javanese gamelan ensemble playing in the pelog scale, characterised by the percussive interplay of metallophones and drums. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -723,7 +706,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Performers wear female warrior attire. The hair is gathered in a small bun adorned with a golden crown. The core costume features a short-sleeved blue shirt embellished with gold trim, a belt, and a dodot wrapped over knee-length trousers. The weaponry kit includes the jemparing (bow and arrow set), composed of the gendewa (bow), nyenyep (arrow), and endhong (quiver), alongside a cundrik (dagger). Theatrical makeup is applied specifically to accentuate the bold expression and disciplined character of a royal soldier.",
+   "from_sources": "Dancers wear a blue short-sleeved shirt with gold embellishments, a belt, a dodot, and knee-length trousers. Accessories include a small bun with a golden crown and weapons: bow, quiver, arrow, and dagger.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
     "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
@@ -788,13 +771,13 @@
   ],
   "footage": [],
   "motifs": [
-   "Close-up of golden crown and small bun hair arrangement",
-   "Glint of gold embellishments on the short-sleeved blue shirt",
-   "Drawing an arrow (nyenyep) from the endhong quiver",
-   "The ensemble striking pelog gongs in unison"
+   "Golden crown",
+   "Traditional bow and quiver",
+   "Gamelan instruments",
+   "Blue warrior attire"
   ],
-  "costume_notes": "Performers wear female warrior attire. The hair is gathered in a small bun adorned with a golden crown. The core costume features a short-sleeved blue shirt embellished with gold trim, a belt, and a dodot wrapped over knee-length trousers. The weaponry kit includes the jemparing (bow and arrow set), composed of the gendewa (bow), nyenyep (arrow), and endhong (quiver), alongside a cundrik (dagger). Theatrical makeup is applied specifically to accentuate the bold expression and disciplined character of a royal soldier.",
-  "setting_notes": "The choreography conveys the complex concepts embedded in its title: 'jurit' (soldier), 'garwa ampil' (concubine of Mangkunegara I), and 'warastra' (bow and arrow). It stands as a representation of female military discipline and royal sovereignty, reflecting on the historical unity and territorial negotiations established during the Salatiga Treaty of 1757.",
+  "costume_notes": "Dancers wear a blue short-sleeved shirt with gold embellishments, a belt, a dodot, and knee-length trousers. Accessories include a small bun with a golden crown and weapons: bow, quiver, arrow, and dagger.",
+  "setting_notes": "The dance serves to convey the historical military discipline of the concubines of Mangkunegara I during the 18th-century political shifts in Java.",
   "map": {
    "country": "Indonesia",
    "region": "Southeast Asia",
@@ -809,8 +792,8 @@
  "teaching_formula": {
   "source": "13 tutorial(s) of the classical-court family studied",
   "videos_studied": 13,
-  "counting": "count the Javanese metric cycles (lancaran, srepeg, palaran) bar out loud, then in pairs of bars",
-  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, side, back",
    "tempo progression: slow → full",
@@ -844,16 +827,22 @@
  },
  "gaps": [
   "tempo (bpm)",
+  "meter",
   "a verified recording to listen to",
-  "licensed reference footage"
+  "licensed reference footage",
+  "posture, arms and hands",
+  "signature moves",
+  "two or more connections",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Jurit_Ampil_Kridha_Warastra",
   "https://www.wikidata.org/wiki/Q97307356"
  ],
- "claims_verified": 7,
- "claims": 7,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "52cab734da1ab1610b3702ce47df1c74a3276256b30253be4a65bcd0cd432363",
+ "input_fingerprint": "98faff6a86e5feccfcbb78a406c560377f93994984daa34269705ce7036b1f43",
  "hero_checked": "pass"
 }

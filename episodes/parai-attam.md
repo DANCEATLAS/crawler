@@ -1,8 +1,8 @@
 # Parai Attam — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, grounded Tamil folk artist and master drummer who teaches with rhythmic vocal syllables, demonstrating sharp stick mechanics and precise footwork with equal command.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Drum That Speaks
 NARRATION: This is Parai Attam. Ancient (Sangam era to present).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (OiHsyMfCPPk)
 ON SCREEN: Title card: Parai Attam · India · Ancient (Sangam era to present)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: In Parai Attam, the musician is simultaneously the dancer.
 NARRATION: The drum is slung across one shoulder using a cloth strap called a nadai, allowing the performer to dance while standing, walking, or seated with the drum on the lap.
 NARRATION: Performers execute rhythmic patterns resembling classical dance movements, swaying their bodies and stamping their feet in tight synchronization with their own drumming.
 NARRATION: Watch for Adi Kucchi Center Strike, Sundu Kuchi Slap, Synchronized Stamping and Sway.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (OiHsyMfCPPk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processional lines, circular group formations, and opposing ranks facing one another.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'OiHsyMfCPPk', 'checked_by_vision_model': True, 'title': 'பத்மஸ்ரீ Velu Aasaan உயிரோட்டமான பறையாட்டம்  | Folk Art | parai attam | Thappu Melam  @Kattiyakkaran'}
 Images: 3 licensed — Joelsuganth / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ravindraboopathi / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Prabhunkl / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Flames of an open bonfire glowing through translucent stretched animal hide., The contrast between the slender, bending bamboo stick and the thick wooden mallet., A long processional line of drummers kicking up dust in unison., Vibrant fabric of the nadai sash cutting across the chest.
@@ -335,7 +335,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

@@ -2,7 +2,7 @@
  "slug": "the-chicken",
  "name": "The Chicken",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:49Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-22T19:26:30Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is The Chicken. 1950s-1970s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (cA28eZCA69Q)",
      "Title card: The Chicken · United States · 1950s-1970s"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for The Wing Flap, The Scratch Kick."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (cA28eZCA69Q)",
      "Captions name each signature move as it appears",
      "Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance."
     ],
@@ -718,7 +718,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "cA28eZCA69Q",
+   "checked_by_vision_model": false,
+   "title": "What Is the 'Chicken Dance' Prank?"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -796,8 +800,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "67 tutorial(s) of the street-urban family studied",
-  "videos_studied": 67,
+  "source": "69 tutorial(s) of the street-urban family studied",
+  "videos_studied": 69,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -833,7 +837,7 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -843,6 +847,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "0cbba25e7d45ae954f3bd74e63316af4d75b89107dd5a9eafafe571f1c2e6343",
- "hero_checked": null
+ "input_fingerprint": "86b4e90db8f9a03a5397fc149e901c985479c2bdb174438b9de327d5a4ecef69",
+ "hero_checked": "fail"
 }

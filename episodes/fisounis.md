@@ -1,6 +1,6 @@
 # Fisounis — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.3 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.3 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -282,7 +282,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

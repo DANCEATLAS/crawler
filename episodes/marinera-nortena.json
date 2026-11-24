@@ -2,7 +2,7 @@
  "slug": "marinera-nortena",
  "name": "Marinera Norteña",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-19T19:40:21Z",
  "qc_score": 9.5,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Marinera Norteña. 19th century (renamed 1879)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (3NOVYuCb9ZA)",
      "Title card: Marinera Norteña · Peru · 19th century (renamed 1879)"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Zapateo, Floreo de pañuelo."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (3NOVYuCb9ZA)",
      "Captions name each signature move as it appears",
      "Formation: Couples dance two to three meters apart, circling in circular paths across open indoor floor or outdoor pavement."
     ],
@@ -735,7 +735,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "3NOVYuCb9ZA",
+   "checked_by_vision_model": true,
+   "title": "Marinera Norteña BARCELONA ARC DE TRIOMF - Exhibición De Los Campeones De Europa 2017"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -885,7 +889,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -899,6 +902,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "799f86d1ac3e5ac575ddd93fe824006f8f5bf9a3a8ef64ab53a9f3f7f086edbc",
- "hero_checked": null
+ "input_fingerprint": "a90952e90d7dfde1c92977ade235ce537aed35557eb40dd2d759e5d017655ee3",
+ "hero_checked": "pass"
 }

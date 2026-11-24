@@ -36,6 +36,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ardah",
   "wikidata_qid": "Q3447507",
   "unesco": true,
+  "hero_video_youtube_id": "lu01R77Pp9k",
+  "video_stack": [
+   {
+    "youtube_id": "lu01R77Pp9k",
+    "role": "hero",
+    "title": "Salayal سلايل - A Saudi Sword Dance (Ardah) Song",
+    "channel": "Zayn Kauthar",
+    "hd": true
+   },
+   {
+    "youtube_id": "LbbNhRabztI",
+    "role": "rendition",
+    "title": "Saudi Ardah |Traditional Saudi Dance| Najdi Ardah |Riyadh classics",
+    "channel": "Muhammad Abbas",
+    "hd": false
+   },
+   {
+    "youtube_id": "VN4CksWQMQM",
+    "role": "rendition",
+    "title": "Saudi Ardah folk dance sets Guinness World Record CLIPS",
+    "channel": "DD Clips",
+    "hd": true
+   }
+  ],
   "image_significance": {
    "schema_version": 1,
    "status": "pending",
@@ -75,7 +99,13 @@
   ],
   "publish_gate": "publish",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:24:22Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -256,7 +286,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -280,10 +310,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -293,11 +319,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/alardah-alnajdiyah.json"
  },
- "fingerprint": "2489944389c46eee",
- "updated": "2026-11-21"
+ "fingerprint": "21193b4726049bbc",
+ "updated": "2026-11-24"
 }

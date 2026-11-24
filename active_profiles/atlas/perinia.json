@@ -1,13 +1,82 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "holding a handkerchief or pillow",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "circle formation with one person in the center",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "selection of a partner by placing a handkerchief around their neck, followed by a kiss on the cheek",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The dancer kneels on a pillow while choosing a partner.",
+          "name": "Kneeling selection"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "brass instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "social"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Fanfare Vagabontu",
+          "title": "Rabbids Go Home soundtrack"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle with other participants.",
+        "One person enters the center holding a pillow or handkerchief.",
+        "The person in the center kneels on the pillow to select a partner.",
+        "Place the handkerchief around the selected partner's neck.",
+        "Exchange a kiss on the cheek.",
+        "The first person joins the circle, and the second person repeats the process."
+      ],
+      "formation": "Circle.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "92b9ed2f0a8b029455bcf77f93f56c5cca3f4c2d569beb46d109c4f83a7b16c9",
+  "fingerprint": "e94dabc78960e2a2b3eac0935f22b5506c7e96f3361bde2f421937d677642195",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,8 +84,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -46,7 +114,7 @@
   "music_options": [],
   "name": "Perinița",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/perinia.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +126,7 @@
   "slug": "perinia",
   "sources": [
     "https://en.wikipedia.org/wiki/Perini%C8%9Ba",
-    "Source: Perinița on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Perini%C8%9Ba"
+    "https://www.wikidata.org/wiki/Q7168605"
   ],
   "state": "researching",
   "video_evidence": []

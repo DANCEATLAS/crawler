@@ -1,8 +1,8 @@
 # Vattakkali — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Vattuvar practitioner who emphasizes the spiritual connection between the feet and the temple floor.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Twelve Steps of Palakkad
 NARRATION: This is Vattakkali. Contemporary/Living Tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FlWS5Oz_6a8)
 ON SCREEN: Title card: Vattakkali · India · Contemporary/Living Tradition
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ MUSIC: underscore
 NARRATION: The dance is performed in a circular formation where participants move in 'vigorous ring patterns.' The core of the technique consists of twelve different types of steps, which are executed with increasing speed.
 NARRATION: Dancers use rhythmic hand clapping to maintain the beat while their feet perform intricate patterns.
 NARRATION: Watch for Twelve Chuvadu, Whirling Ring.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FlWS5Oz_6a8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: A tight circular ring that moves vigorously as a unit
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FlWS5Oz_6a8', 'checked_by_vision_model': True, 'title': 'Chavittukali  folk dance Kerala India Onam Video Greetings'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Close-ups of metal bells vibrating on ankles, The overhead view of the perfect human circle expanding and contracting, Dust rising from the temple floor under the force of the stamps, The rhythmic motion of hands clapping in unison
@@ -112,7 +112,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: count the Typically 4/4 or 8-beat cycles common in Kerala folk music bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

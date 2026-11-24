@@ -1,13 +1,78 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "group formations including square dancing, contra dancing, English country dance, and ceilidhs",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "group and partner social dancing guided by a caller",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "live band",
+        "fiddles"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "family-oriented",
+        "community-oriented",
+        "festive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Theodore Morse",
+          "title": "Morse's New Barn Dance"
+        },
+        {
+          "artist": "Kerry Mills",
+          "title": "Georgia Barn Dance"
+        }
+      ],
+      "rhythm_pattern": "4/4 rhythms",
+      "sound_description": "Traditional folk and old-time music performed by a live band with fiddles, maintaining a steady 4/4 rhythm designed to accompany guided group social dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "old-time fiddling and caller instructions"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "square dancing, contra dancing, English country dance, or ceilidh formations",
+      "level_notes": "Designed for people who do not normally dance, using easy dances introduced by a caller.",
+      "rhythm": "4/4 rhythms"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "07c25aec2d9420ab9e7b5f109a94c38982e17740e3ac59cae042cb79ce6570cc",
+  "fingerprint": "f41d1f279dd129b0196cd3c3ea650c0f80895871cb06c1f2460222944c0c6eba",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +80,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific step variants and footwork patterns were practiced during the peak of Irish barn dancing prior to the 1950s? Evidence needed: Archival field recordings or Irish dance ethnographies detailing mid-20th-century social barn dance steps."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +109,18 @@
   ],
   "music_options": [],
   "name": "Barn dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "6bc4726a5dfb3963",
+      "next_evidence": "Archival field recordings or Irish dance ethnographies detailing mid-20th-century social barn dance steps.",
+      "question": "What specific step variants and footwork patterns were practiced during the peak of Irish barn dancing prior to the 1950s?",
+      "source": "https://en.wikipedia.org/wiki/Barn_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources confirm 4/4 rhythms and community popularity in Ireland but lack granular movement descriptions."
+    }
+  ],
+  "research_file": "research_results/barn-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +132,9 @@
   "slug": "barn-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Barn_dance",
-    "Source: Barn dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Barn_dance"
+    "https://www.wikidata.org/wiki/Q808399",
+    "https://archive.org/details/motorking00frana",
+    "https://archive.org/details/papapleasebuyme00mill"
   ],
   "state": "researching",
   "video_evidence": []

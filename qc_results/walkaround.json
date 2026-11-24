@@ -1,0 +1,110 @@
+{
+ "slug": "walkaround",
+ "qc_at": "2026-11-24T00:19:57Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "walkaround"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Emerging in 1840s minstrelsy, the walkaround converted sacred West African ring "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "450"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3721"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "9/9 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "7 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"cakewalk\", \"score\": 1.0, \"via_alias\": \"walk-around\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'religious']"
+  }
+ ],
+ "judge": null,
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "cakewalk",
+  "score": 1.0,
+  "via_alias": "walk-around"
+ },
+ "is_sacred": true,
+ "reasons": [
+  "not_duplicate",
+  "sacred_handled",
+  "no_judge",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 9,
+  "supported": 9,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-23T21:59:26Z"
+}

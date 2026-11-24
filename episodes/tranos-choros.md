@@ -1,8 +1,8 @@
 # Tranos Choros — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A village elder or cultural guardian who emphasizes community over individual flair.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Voice of the Mountains
 NARRATION: This is Tranos Choros. Modern (with ancient pastoral roots).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (QEuoRyl73aw)
 ON SCREEN: Title card: Tranos Choros · Greece · Modern (with ancient pastoral roots)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers of all ages form a large open circle.
 NARRATION: They hold hands and move in a slow, imposing rhythm.
 NARRATION: The movement is synchronized with a cappella singing performed by the dancers themselves, rather than instrumental accompaniment.
 NARRATION: Watch for The Grand Circle.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (QEuoRyl73aw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Large open circle in a village square
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance takes place in the highland village of Vlasti, typically in a central communal space or church square. While traditional highland Greek dress is historically associated with the event, the focus is on the communal formation of the circle.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'QEuoRyl73aw', 'checked_by_vision_model': True, 'title': 'Ο εορτασμός του δεκαπενταύγουστου στα ορεινά χωριά Βλάστη (Κοζάνης) & Συρράκο (Ιωαννίνων)'}
 Images: 0 licensed
 Footage: Lucario And The Mystery Of Mew (Subtitled) — https://archive.org/details/lucario-and-the-mystery-of-mew-subbed; Red Poppies «塵埃落定 (英文版)» — https://archive.org/details/red-poppies; Series 7 The Tree Of Wisdom's Grand Dance Contest — https://archive.org/details/series-7-the-tree-of-wisdoms-grand-dance-contest-; tdstr - 7 Grand Dance [Full Album Stream] — https://archive.org/details/youtube-Vqt3If6ujEE; #TheGlobalGame : Guess who Dropped a Bombshell on NATO's 2% Target — https://archive.org/details/youtube-rU14QOv0aX0; 7 Grand Dance (Trailer) — https://archive.org/details/youtube-gkWcIOm3Yzw
 Motifs: Interlocked hands, Stone village square, Mountain horizon, Open circle formation
@@ -323,7 +323,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

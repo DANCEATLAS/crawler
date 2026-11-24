@@ -1,13 +1,63 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "swift",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "light-natured",
+        "fun"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c7b379ad877acb0cf08a9ffa9ed04d42b135de6f21305966934af16898ef3bcd",
+  "fingerprint": "d4536844eee9bb23067b265ca07b29537a57b8d90112112d7f96ecd1e626a285",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +65,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical rhythms and instruments accompany the Kintauri dance in archival recordings? Evidence needed: Ethnomusicological field recordings or Georgian dance instruction manuals from Tbilisi."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +84,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the core footwork patterns and physical postures defining the swift character of Kintauri? Evidence needed: Choreographic documentation or video demonstration archives of traditional Georgian urban dances."
     ]
   },
   "id": "atlas:kintauri",
@@ -45,8 +96,27 @@
   ],
   "music_options": [],
   "name": "Kintauri",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "026c0fdaf97e672f",
+      "next_evidence": "Ethnomusicological field recordings or Georgian dance instruction manuals from Tbilisi.",
+      "question": "What specific musical rhythms and instruments accompany the Kintauri dance in archival recordings?",
+      "source": "https://en.wikipedia.org/wiki/Kinto",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources lack musical structure and instrumentation details required for a complete music profile."
+    },
+    {
+      "domain": "video",
+      "id": "45c6bd480832b322",
+      "next_evidence": "Choreographic documentation or video demonstration archives of traditional Georgian urban dances.",
+      "question": "What are the core footwork patterns and physical postures defining the swift character of Kintauri?",
+      "source": "https://en.wikipedia.org/wiki/Kinto",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources describe the character as cunning and swift but provide no technical movement breakdown for instruction."
+    }
+  ],
+  "research_file": "research_results/kintauri.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +127,8 @@
   },
   "slug": "kintauri",
   "sources": [
-    "https://en.wikipedia.org/wiki/Georgian_dance",
-    "https://georgiaabout.com/2012/09/03/about-culture-georgian-dance-part-1/"
+    "https://en.wikipedia.org/wiki/Kinto",
+    "https://www.wikidata.org/wiki/Q2066857"
   ],
   "state": "researching",
   "video_evidence": []

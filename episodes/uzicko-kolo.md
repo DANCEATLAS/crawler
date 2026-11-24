@@ -1,6 +1,6 @@
 # Uzicko Kolo — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; two or more connections; what to avoid / common mistakes
 
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Move to the right in 3 or 6 steps.
 NARRATION: Perform a hopping motion in the same spot.
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 1-2-3-2-2-3-3-2-3-4-2-3.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -102,7 +102,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4.
+NARRATION: Count: 1-2-3-2-2-3-3-2-3-4-2-3. The meter is 2/4 or 3/4.
 NARRATION: Rhythm pattern: 8 measures (4 to the right, 4 to the left).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -115,10 +115,10 @@ NARRATION: Step 1: Move to the right in 3 or 6 steps.
 NARRATION: Step 2: Perform a hopping motion in the same spot.
 NARRATION: Footwork from the sources: 3 or 6 steps to the right, followed by 3 or 6 steps to the left, including hopping and bouncing.
 NARRATION: Drill: Side-stepping to the right for 4 counts.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-2-2-3-3-2-3-4-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Move to the left in 3 or 6 steps.
@@ -126,7 +126,7 @@ NARRATION: Step 4: Perform a hopping motion in the same spot.
 NARRATION: Drill: Side-stepping to the left for 4 counts.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-2-2-3-3-2-3-4-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,7 +145,7 @@ OPTIONS: Seated or supported option: Perform the lateral arm movements and torso
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-2-2-3-3-2-3-4-2-3.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,7 +174,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4.
+NARRATION: Count: 1-2-3-2-2-3-3-2-3-4-2-3. The meter is 2/4 or 3/4.
 NARRATION: Rhythm pattern: 8 measures (4 to the right, 4 to the left).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -185,10 +185,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Move to the right in 3 or 6 steps.
 NARRATION: Step 2: Perform a hopping motion in the same spot.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-2-2-3-3-2-3-4-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Move to the left in 3 or 6 steps.
@@ -198,7 +198,7 @@ NARRATION: Cross step: A step motif involving crossing the feet.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-2-2-3-3-2-3-4-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,7 +216,7 @@ OPTIONS: Seated or supported option: Perform the lateral arm movements and torso
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-2-2-3-3-2-3-4-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Closed or open circle, moving laterally.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -245,7 +245,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4.
+NARRATION: Count: 1-2-3-2-2-3-3-2-3-4-2-3. The meter is 2/4 or 3/4.
 NARRATION: Rhythm pattern: 8 measures (4 to the right, 4 to the left).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -256,10 +256,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Move to the left in 3 or 6 steps.
 NARRATION: Step 2: Perform a hopping motion in the same spot.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-2-2-3-3-2-3-4-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Triple step: A basic step motif used within the Kolo structure.
@@ -267,7 +267,7 @@ NARRATION: Cross step: A step motif involving crossing the feet.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-2-2-3-3-2-3-4-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -285,7 +285,7 @@ OPTIONS: Seated or supported option: Perform the lateral arm movements and torso
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-2-2-3-3-2-3-4-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Closed or open circle, moving laterally.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-2-2-3-3-2-3-4-2-3
+Demonstration: views used by most teachers: back; tempo progression: slow → full
+Cues: three and one two three two two three three two three four two three
 
 Sources (3): https://en.wikipedia.org/wiki/Serbian_dances; https://www.wikidata.org/wiki/Q108438031; https://it.wikipedia.org/wiki/Danza_serba

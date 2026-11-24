@@ -1,13 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "High-impact jumps"
+        ],
+        "counts": "Simplified counts.",
+        "duration_minutes": "10-15 minutes.",
+        "game_version": "A game version of the lemon-tossing courtship ritual."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "High-impact movements"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Perform arm swings while seated to the rhythm of the music.",
+        "standing_version": "Perform the arm swings while standing in place without jumping.",
+        "tempo_and_range": "Reduced tempo."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms swing forward and back in coordination with the legs.",
+      "difficulty": "intermediate",
+      "footwork": "Jumping on alternate legs.",
+      "formation_and_space": "Communal gathering in fields or marketplaces.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumping on alternate legs.",
+      "partnering": "Courtship ritual involving the tossing of a lemon or candy.",
+      "posture": "Athletic and upright.",
+      "signature_moves": [
+        {
+          "description": "Rapid jumping from one leg to the other.",
+          "name": "Alternate leg jump"
+        }
+      ],
+      "tempo_feel": "Fast-paced.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "masenqo",
+        "kebero"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "joyful",
+        "hopeful"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by the bowed string sound of the masenqo and the percussive beat of the kebero, creating a fast-paced environment for dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Traditional singing accompanying the dance."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Rhythmic jumping on alternate legs.",
+        "Coordinated forward and backward arm swings.",
+        "Coordinated forward and backward leg swings."
+      ],
+      "formation": "Communal gathering in fields or marketplaces.",
+      "level_notes": "Requires high physical stamina and coordination.",
+      "rhythm": "Fast-paced, high-energy rhythm."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ed6649a2a7d77b72d998f97bb5e4e4316f5f8a0906d98981b443f0dfe656e40c",
+  "fingerprint": "7cfcf37a1496463644fab12ae4c72db43801b72291e59f1759c66ab757c8ef0f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +83,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific rhythmic variations in the masenqo playing that correlate with different stages of the Adabina courtship dance? Evidence needed: Field recordings or ethnomusicological studies of Gurage music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +113,18 @@
   ],
   "music_options": [],
   "name": "Gurage dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e9d2f4777e7edd65",
+      "next_evidence": "Field recordings or ethnomusicological studies of Gurage music.",
+      "question": "Are there specific rhythmic variations in the masenqo playing that correlate with different stages of the Adabina courtship dance?",
+      "source": "https://en.wikipedia.org/wiki/Adabina",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a more precise musical profile for practitioners."
+    }
+  ],
+  "research_file": "research_results/gurage-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +135,8 @@
   },
   "slug": "gurage-dance",
   "sources": [
-    "http://saba.air-nifty.com/mocha_ethiopia_dance_e/introducing-ethiopian-fol.html",
-    "https://www.universaltongue.com/dance-style-gg"
+    "https://en.wikipedia.org/wiki/Adabina",
+    "https://www.wikidata.org/wiki/Q136697292"
   ],
   "state": "researching",
   "video_evidence": []

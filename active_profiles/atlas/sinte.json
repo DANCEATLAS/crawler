@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "84e1162b071d1895cdc8cd6b3632aa94e60d97dc51e9e82e039c6c5ed423b5f0",
+  "fingerprint": "8bfbc587c1b05b6515dca6b4c63267dac1cb2b6287e35ad70de53232431f5600",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How can the database reconcile the collision between the Guinean dance tradition 'Sinte' and the South Dakota institution 'Sinte Gleska University' retrieved in the sources? Evidence needed: Acquire scholarly or community-verified texts specifically detailing the Guinean Nalu and Landuma Sinte dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Sinte",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1a5748ed4dec0b76",
+      "next_evidence": "Acquire scholarly or community-verified texts specifically detailing the Guinean Nalu and Landuma Sinte dance.",
+      "question": "How can the database reconcile the collision between the Guinean dance tradition 'Sinte' and the South Dakota institution 'Sinte Gleska University' retrieved in the sources?",
+      "source": "https://en.wikipedia.org/wiki/Sinte_Gleska_University",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources only provide information on Sinte Gleska University, leaving the dance profile without primary source support."
+    }
+  ],
+  "research_file": "research_results/sinte.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +114,9 @@
   },
   "slug": "sinte",
   "sources": [
-    "https://www.alpharhythmroots.com/mandinguerhythms",
-    "https://wuladrum.com/products/20-m-playalong-vol-6-sinte"
+    "https://en.wikipedia.org/wiki/Sinte_Gleska_University",
+    "https://www.wikidata.org/wiki/Q7525103"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

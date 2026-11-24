@@ -34,6 +34,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Chicken_(dance)",
   "wikidata_qid": "Q7722408",
   "unesco": false,
+  "hero_video_youtube_id": "cA28eZCA69Q",
+  "video_stack": [
+   {
+    "youtube_id": "cA28eZCA69Q",
+    "role": "hero",
+    "title": "What Is the 'Chicken Dance' Prank?",
+    "channel": "Inside Edition",
+    "hd": true
+   },
+   {
+    "youtube_id": "PtpofI1dqH0",
+    "role": "rendition",
+    "title": "Wurstfest - How to Chicken Dance",
+    "channel": "Wurstfest",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -59,6 +76,14 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-24T00:22:14Z",
+   "soft_fail": [
+    "not_vertical"
+   ]
+  },
   "related_slugs": [
    "twist"
   ]
@@ -365,6 +390,6 @@
   "polished": false,
   "file": "episodes/the-chicken.json"
  },
- "fingerprint": "4df05f0c119b8f2a",
- "updated": "2026-11-22"
+ "fingerprint": "76b6211bae2ec0d2",
+ "updated": "2026-11-24"
 }

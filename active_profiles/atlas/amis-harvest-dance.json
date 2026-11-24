@@ -11,18 +11,18 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "hand in hand",
+      "arms_and_hands": "Participants hold hands in a circle.",
       "difficulty": "beginner",
-      "footwork": "walking, running, and jumping",
-      "formation_and_space": "circle",
+      "footwork": "Walking, running, and jumping steps.",
+      "formation_and_space": "Circular formation with elders in the center.",
       "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "jumping",
-      "partnering": "Young women place betel nuts into the bags of chosen partners.",
+      "levels_and_jumps": "Jumping is a primary movement component.",
+      "partnering": "Young women signal interest by placing betel nuts into the bags of their chosen partners.",
       "posture": "not described in sources",
       "signature_moves": [
         {
           "description": "Participants hold hands in a circle to keep away bad souls.",
-          "name": "Circle dance"
+          "name": "Circular dance"
         }
       ],
       "tempo_feel": "not described in sources",
@@ -34,29 +34,28 @@
       "mood_keywords": [
         "serious",
         "solemn",
-        "celebratory"
+        "communal"
       ],
-      "musical_form": "Call and response",
+      "musical_form": "Call-and-response vocal structure.",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music is defined by a lead vocalist singing traditional, serious songs while a chorus of participants responds, creating a rhythmic vocal foundation for the circle dance.",
+      "sound_description": "The music is characterized by vocal chanting where a lead singer initiates the melody and the group responds, creating a serious and repetitive soundscape intended for communication with the spirit world.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "One person leads a chorus and others follow."
     },
     "teaching": {
       "basic_steps": [
-        "Form a circle with other participants.",
-        "Join hands with neighbors.",
-        "Execute rhythmic walking steps in a circular path.",
-        "Transition into running or jumping movements as led by the soloist."
+        "Form a circle with participants holding hands.",
+        "Follow the lead singer's rhythm.",
+        "Execute walking, running, or jumping steps in a continuous circular path."
       ],
-      "formation": "Circle",
-      "level_notes": "The dance is communal and inclusive of all ages, but requires adherence to the lead singer's cues.",
+      "formation": "Circular formation with elders seated in the center.",
+      "level_notes": "The dance is a communal activity involving all age groups, with specific roles for youth and elders.",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "7674f82c81321bdc5ed4c0f8b24d5c7ab60a491065d6dbab9e95c0f5fd0f1679",
+  "fingerprint": "856b83cac5390990c2608035b2b20ee3a5f3c2ef8973adc780b3a4d4e05da446",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -66,7 +65,8 @@
     "research": [
       "movement: posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns or meters used in Amis harvest songs? Evidence needed: Ethnomusicological field recordings of Amis Ilisin songs."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -93,7 +93,17 @@
   ],
   "music_options": [],
   "name": "Amis harvest dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "01c1ae39957990e5",
+      "next_evidence": "Ethnomusicological field recordings of Amis Ilisin songs.",
+      "question": "What are the specific rhythmic patterns or meters used in Amis harvest songs?",
+      "source": "https://en.wikipedia.org/wiki/Amis_harvest_festivals",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow for accurate musical recreation and teaching."
+    }
+  ],
   "research_file": "research_results/amis-harvest-dance.json",
   "runtime_active": false,
   "scope": {

@@ -30,6 +30,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rieldans",
   "wikidata_qid": "Q28223150",
   "unesco": false,
+  "hero_video_youtube_id": "ceVCpPNnXvc",
+  "video_stack": [
+   {
+    "youtube_id": "ceVCpPNnXvc",
+    "role": "hero",
+    "title": "Die Nuwe Graskoue Trappers",
+    "channel": "Default Name",
+    "hd": true
+   },
+   {
+    "youtube_id": "G_sDd4y71Q8",
+    "role": "rendition",
+    "title": "RIELDANS in Clanwilliam at the beautiful West Coast of South Africa",
+    "channel": "Rudolf Rieger",
+    "hd": true
+   },
+   {
+    "youtube_id": "CeGJVtKbUxA",
+    "role": "rendition",
+    "title": "Riel Dance at Prince Albert Saturday Market",
+    "channel": "Gita Claassen",
+    "hd": true
+   },
+   {
+    "youtube_id": "Bce-VIq6F60",
+    "role": "rendition",
+    "title": "RIEL OLDEST INDIGENOUS DANCE IN SA",
+    "channel": "Ian Landsberg",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -57,7 +88,13 @@
   "needs_eyes_on": true,
   "sacred_note": "not described in sources",
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:22:12Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -269,7 +306,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -289,10 +326,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -303,11 +336,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/rieldans.json"
  },
- "fingerprint": "593c6c8e9c138931",
- "updated": "2026-11-22"
+ "fingerprint": "1282a4efca7c1520",
+ "updated": "2026-11-24"
 }

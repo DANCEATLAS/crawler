@@ -2,7 +2,7 @@
  "slug": "sekete",
  "name": "Sekete",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:49Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-20T19:24:41Z",
  "qc_score": 8.45,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Sekete. Colonial period to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (cUKfGJSIUvI)",
      "Title card: Sekete · Suriname · Colonial period to present"
     ],
     "music": "theme (30 s)"
@@ -107,7 +107,7 @@
      "Dancers shake instruments attached to their ankles to create rhythmic accompaniment while they perform."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (cUKfGJSIUvI)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -260,7 +260,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "cUKfGJSIUvI",
+   "checked_by_vision_model": false,
+   "title": "Rose Muhando_-_MASEKETE (Official Dance Video) @rosemuhandoofficial5676"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -364,12 +368,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → full",
    "repetitions per step: about 4"
   ],
@@ -381,19 +385,18 @@
    "move your hips side to side",
    "scrape it along the floor",
    "remember to breathe",
-   "y tac tac",
-   "el segundo",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice"
   ],
@@ -403,7 +406,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed reference footage",
   "signature moves",
   "the costume & setting section",
@@ -416,6 +419,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "0d605379774a1040c7f3820ac7ec6d4995d7c3f5afbf864cf33e0a265c9d59bc",
- "hero_checked": null
+ "input_fingerprint": "35612703d91adb41f1c47d5b64c8d867342c1129f34d979ce0157e0ae10d820e",
+ "hero_checked": "fail"
 }

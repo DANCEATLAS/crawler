@@ -1,8 +1,8 @@
 # Muchilot Bhagavathi Theyyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Traditional cultural historian or sacred heritage researcher from Kerala
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Deified Scholar of North Malabar
 NARRATION: This is Muchilot Bhagavathi Theyyam. Ancient / Medieval origins.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FCBpTTt_l5E)
 ON SCREEN: Title card: Muchilot Bhagavathi Theyyam · India · Ancient / Medieval origins
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FCBpTTt_l5E)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -89,7 +89,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FCBpTTt_l5E', 'checked_by_vision_model': False, 'title': 'Muchilottu Bhagavathi Theyyam (Travel Kannur Kerala Videos)'}
 Images: 1 licensed — 7ULTD / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: MISSING
 Motifs: Temple courtyards of Kannur District, Anna Dhanam food preparation and distribution, Gentle Swatika Bhava posture
@@ -99,9 +99,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (2): https://en.wikipedia.org/wiki/Muchilot_Bhagavathi; https://www.wikidata.org/wiki/Q17004497

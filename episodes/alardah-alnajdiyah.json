@@ -2,7 +2,7 @@
  "slug": "alardah-alnajdiyah",
  "name": "Alardah Alnajdiyah (Saudi Ardah)",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-18T20:38:02Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Alardah Alnajdiyah (Saudi Ardah). Tribal origin; UNESCO inscribed 2015."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (lu01R77Pp9k)",
      "Title card: Alardah Alnajdiyah (Saudi Ardah) · Saudi Arabia · Tribal origin; UNESCO inscribed 2015"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Dancers may brandish a sword or cane, raising and lowering it while tilting their hand to one side."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (lu01R77Pp9k)",
      "Signature moves — MISSING",
      "Formation: two rows of men facing each other with a central space"
     ],
@@ -702,7 +702,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "lu01R77Pp9k",
+   "checked_by_vision_model": true,
+   "title": "Salayal سلايل - A Saudi Sword Dance (Ardah) Song"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -757,12 +761,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → full",
    "repetitions per step: about 4"
   ],
@@ -774,19 +778,18 @@
    "move your hips side to side",
    "scrape it along the floor",
    "remember to breathe",
-   "y tac tac",
-   "el segundo",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice"
   ],
@@ -796,7 +799,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "signature moves",
@@ -814,6 +816,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "e0cc1e5365ec17f4ab31c27e2ac354a567e80a0901276b8a8f6a5f4dbd5e9e79",
- "hero_checked": null
+ "input_fingerprint": "82fe609612cea11c29502e87f2433d0a0f39ad6520804c8f02464c315eaa849b",
+ "hero_checked": "pass"
 }

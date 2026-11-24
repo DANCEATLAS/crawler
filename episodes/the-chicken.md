@@ -1,8 +1,8 @@
 # The Chicken — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.25 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.25 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A high-energy R&B historian who emphasizes the 'groove' over technical perfection.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Bird that Built the Frug
 NARRATION: This is The Chicken. 1950s-1970s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cA28eZCA69Q)
 ON SCREEN: Title card: The Chicken · United States · 1950s-1970s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers perform lateral body movements while flapping their arms to i
 NARRATION: Simultaneously, the feet are kicked back in a rhythmic fashion.
 NARRATION: It was traditionally used as a change-of-pace step during other dances like the Twist.
 NARRATION: Watch for The Wing Flap, The Scratch Kick.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cA28eZCA69Q)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -324,7 +324,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: There is no specific traditional costume, as it is a social novelty dance. It was typically performed in dance halls, clubs, and on televised music programs like Soul Train during its 1970s peak.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cA28eZCA69Q', 'checked_by_vision_model': False, 'title': "What Is the 'Chicken Dance' Prank?"}
 Images: 0 licensed
 Footage: File:Meet Bear, the chicken rescued from Long Shadow Farms.webm — https://upload.wikimedia.org/wikipedia/commons/4/44/Meet_Bear%2C_the_chicken_rescued_from_Long_Shadow_Farms.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Police Academy Recruits Must Try Not to Laugh to Pass the Chicken Test .webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Police_Academy_Recruits_Must_Try_Not_to_Laugh_to_Pass_the_Chicken_Test_.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; CHICKEN DANCE — https://archive.org/details/CHICKEN_DANCE; 2019 Father Daughter Dance Promo — https://archive.org/details/2019_Father_Daughter_Dance_Promo; g4tv.com-video15426: Around The Net - 03.05.07 — https://archive.org/details/g4tv.com-video15426; Hi-5 | S1 EP2 | Kidz’ TV Dream Team — https://archive.org/details/img-7495_202309
 Motifs: Feather-like textures in motion, Split-screen comparisons of the Chicken and the Frug, Vintage Stax Records aesthetic
@@ -334,7 +334,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the street-urban family studied · videos studied: 67
+Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer

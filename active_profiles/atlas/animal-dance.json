@@ -1,13 +1,93 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not described in sources",
+        "duration_minutes": "",
+        "game_version": "game version not described in sources"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not described in sources",
+        "seated_version": "seated version not described in sources",
+        "standing_version": "standing version not described in sources",
+        "tempo_and_range": "not described in sources"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "variants of the one-step, progressive around the floor",
+      "formation_and_space": "couples moving around the dance floor along the line of dance",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "less strict guidance conventions offering more creative opportunities",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Imitating the movement of a horse",
+          "name": "Horse Trot"
+        },
+        {
+          "description": "Imitating the movement of a kangaroo",
+          "name": "Kangaroo Hop"
+        },
+        {
+          "description": "Imitating the movement of a duck",
+          "name": "Duck Waddle"
+        },
+        {
+          "description": "Imitating the movement of a grizzly bear",
+          "name": "Grizzly Bear"
+        },
+        {
+          "description": "Imitating the movement of a bunny",
+          "name": "Bunny Hug"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vibrant",
+        "modern",
+        "urban",
+        "improvisational"
+      ],
+      "musical_form": "rags",
+      "reference_recordings": [
+        {
+          "artist": "not described in sources",
+          "title": "Alexander's Ragtime Band"
+        }
+      ],
+      "rhythm_pattern": "syncopated beats",
+      "sound_description": "Improvisational melodies with syncopated beats, typified by Scott Joplin's rags.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "dancing couples moving around the dance floor",
+      "level_notes": "not described in sources",
+      "rhythm": "syncopated ragtime beats"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e9d0dd9ab0fe51491e434a12cc94ca6eb8d28ffa3883a1e50bd3bd5a39283f65",
+  "fingerprint": "4e885d42cfd9c675ec02ea4bcdc345207fb78f8ad58076170057ae837bb2e46d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +95,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What exact step variations distinguished each specific animal dance from the standard one-step? Evidence needed: Historical dance manuals from 1912-1914 detailing footwork counts."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +125,18 @@
   ],
   "music_options": [],
   "name": "Animal dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "d0a0dfc2692ebd2d",
+      "next_evidence": "Historical dance manuals from 1912-1914 detailing footwork counts.",
+      "question": "What exact step variations distinguished each specific animal dance from the standard one-step?",
+      "source": "https://en.wikipedia.org/wiki/Animal_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To enable precise physical reconstruction of dances like the Kangaroo Hop or Duck Waddle."
+    }
+  ],
+  "research_file": "research_results/animal-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +148,8 @@
   "slug": "animal-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Animal_dance",
-    "Source: Animal dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Animal_dance"
+    "https://www.wikidata.org/wiki/Q4764789",
+    "https://fr.wikipedia.org/wiki/Danse_animalière"
   ],
   "state": "researching",
   "video_evidence": []

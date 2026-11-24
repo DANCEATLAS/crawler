@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Three rows of performers",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright",
+      "signature_moves": [],
+      "tempo_feel": "cyclical",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Chirimía",
+        "Drum",
+        "Marimba"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "monotonous",
+        "sad",
+        "cyclical"
+      ],
+      "musical_form": "Cyclical sones",
+      "reference_recordings": [],
+      "rhythm_pattern": "Cyclical and repetitive",
+      "sound_description": "The music is characterized by the repetitive, cyclical sound of the chirimía and drum, with specific melodies assigned to different characters and circumstances.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Cyclical, repetitive movement patterns",
+        "Character-specific sones",
+        "Processional movement in three rows"
+      ],
+      "formation": "Three rows: Center (Royalty), First (K'iche' chieftains), Second (Spanish officers)",
+      "level_notes": "Technique not described in sources.",
+      "rhythm": "Cyclical and repetitive"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "80211d0217d0c0fcb810e09aa399d762506afb9d5ec44fe9f2d8b28edea93dee",
+  "fingerprint": "81cc4b3292023c76853792669bb26116307a0cac6d0d55b741ee3bde290ded5f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns of the sones used for each character? Evidence needed: Field recordings or ethnomusicological studies of the dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +92,18 @@
   ],
   "music_options": [],
   "name": "Baile de la Conquista",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "687ac170012194fa",
+      "next_evidence": "Field recordings or ethnomusicological studies of the dance.",
+      "question": "What are the specific rhythmic patterns of the sones used for each character?",
+      "source": "https://es.wikipedia.org/wiki/Baile_de_la_Conquista",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical accompaniment for teaching."
+    }
+  ],
+  "research_file": "research_results/baile-de-la-conquista.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +115,10 @@
   "slug": "baile-de-la-conquista",
   "sources": [
     "https://en.wikipedia.org/wiki/Baile_de_la_Conquista",
-    "Source: Baile de la Conquista on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Baile_de_la_Conquista"
+    "https://www.wikidata.org/wiki/Q2385688",
+    "https://es.wikipedia.org/wiki/Baile_de_la_Conquista",
+    "https://de.wikipedia.org/wiki/Baile_de_la_Conquista"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

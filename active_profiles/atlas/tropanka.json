@@ -1,0 +1,162 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Excessive pulling on partners' hands in the line"
+        ],
+        "counts": "Simple 1-2 stamping count.",
+        "duration_minutes": "10",
+        "game_version": "Follow-the-leader circle game where children take turns leading the line with different heavy stamping patterns and arm pumps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Heavy impact stamping",
+          "Sudden twisting of the torso"
+        ],
+        "counts": "Count in steady 2/4 time: 1-stamp, 2-pause.",
+        "seated_version": "Perform seated in a chair facing forward, tapping and stamping feet alternate-style while performing gentle arm pumping motions.",
+        "standing_version": "Perform in a line holding a stable barre or chair back, executing light heel taps instead of heavy stamps.",
+        "tempo_and_range": "Reduce tempo and moderate force of stamping to protect knee and hip joints."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Learn the foundational hand-held line formation facing inward in 2/4 meter.",
+          "source": "https://en.wikipedia.org/wiki/Tropanka"
+        },
+        {
+          "description": "Execute rhythmic foot stamps with heavy earthy styling.",
+          "source": "https://en.wikipedia.org/wiki/Tropanka"
+        },
+        {
+          "description": "Integrate pumping arm motions while maintaining hand hold in line.",
+          "source": "https://en.wikipedia.org/wiki/Tropanka"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Line or arc formation holding hands facing inward, performed in mixed or single-gender lines.",
+          "source": "https://en.wikipedia.org/wiki/Tropanka"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Pumping arm motions while holding hands in a line or arc",
+      "difficulty": "beginner",
+      "footwork": "Foot stamps with grounded steps",
+      "formation_and_space": "Line or arc formation, facing inward",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Grounded work with heavy stamps; jumps not described in sources",
+      "partnering": "Hand hold in a open line or arc, originally men only, now mixed",
+      "posture": "Heavy, earthy styling",
+      "signature_moves": [
+        {
+          "description": "Rhythmic, forceful stamps against the floor.",
+          "name": "Foot stamps"
+        },
+        {
+          "description": "Dynamic pumping movements of the arms while maintaining joined hands in the line.",
+          "name": "Pumping arm motions"
+        }
+      ],
+      "tempo_feel": "Earthy and heavy",
+      "what_to_avoid": "Avoid light, ungrounded posture that lacks the heavy earthy character."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "heavy",
+        "earthy",
+        "energetic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Music in 2/4 meter supporting a heavy, earthy rhythm suited for stamping and arm pumping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Join hands in a line or arc formation, facing inward.",
+        "Execute steps with heavy, earthy styling and grounded knees.",
+        "Perform deliberate foot stamps into the floor.",
+        "Coordinate footwork with pumping arm motions."
+      ],
+      "formation": "Line or arc, holding hands, facing in",
+      "level_notes": "Beginner friendly basic structure, requiring rhythmic stamping and coordinated pumping arm actions.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "608f7671129fcdb8c997518804b81b75a4e5e92eb40427eb99ccc9bd3e77990f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: rhythm_pattern",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What specific step sequences and musical melodies distinguish the village-specific variants of Tropanka in Dobrudzha? Evidence needed: Field recordings and ethnographic studies of Dobrudzha village folk dances."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:tropanka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tropanka",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0bbd90577e160ec5",
+      "next_evidence": "Field recordings and ethnographic studies of Dobrudzha village folk dances.",
+      "question": "What specific step sequences and musical melodies distinguish the village-specific variants of Tropanka in Dobrudzha?",
+      "source": "https://en.wikipedia.org/wiki/Tropanka",
+      "status": "candidate_unreviewed",
+      "why_needed": "Essential for providing accurate instructional routines for specific regional styles."
+    }
+  ],
+  "research_file": "research_results/tropanka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tropanka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tropanka",
+    "https://www.wikidata.org/wiki/Q7845608"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

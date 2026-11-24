@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "bigwala",
  "name": "Bigwala",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "UG"
@@ -37,6 +37,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bigwala",
   "wikidata_qid": "Q28154356",
   "unesco": true,
+  "hero_video_youtube_id": "t6Y4vJ8xvOc",
+  "video_stack": [
+   {
+    "youtube_id": "t6Y4vJ8xvOc",
+    "role": "hero",
+    "title": "Bigwala , gourd trumpet music and dance of the Busoga Kingdom in Uganda.",
+    "channel": "The Inklusive Press",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -98,6 +108,12 @@
   "sacred_note": "Bigwala is a ceremonial and ritualistic court performance historically associated with royal coronations and the burial rites of Busoga kings and aristocrats.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:20:14Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "agwara"
   ]
@@ -273,25 +289,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Bigwala is a ceremonial and ritualistic court performance historically associated with royal coronations and the burial rites of Busoga kings and aristocrats.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/bigwala.json"
  },
- "fingerprint": "2466b190db9225a3",
- "updated": "2026-11-22"
+ "fingerprint": "2d42acce4390a1fe",
+ "updated": "2026-11-24"
 }

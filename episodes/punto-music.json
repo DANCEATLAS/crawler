@@ -2,7 +2,7 @@
  "slug": "punto-music",
  "name": "Punto music",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:49Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-20T19:45:19Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Punto music. 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (IrsyBbWyLrQ)",
      "Title card: Punto music · Panama · 19th century"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for El Paseo, El Zapateo."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (IrsyBbWyLrQ)",
      "Captions name each signature move as it appears",
      "Formation: Circular; man moves outside the circle in Punto de Mejorana"
     ],
@@ -703,7 +703,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "IrsyBbWyLrQ",
+   "checked_by_vision_model": true,
+   "title": "El Punto Proyecto Folclore Para El Mundo"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -746,8 +750,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "67 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 67,
+  "source": "71 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 71,
   "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -785,7 +789,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "notable figures",
   "lineage",
@@ -800,6 +803,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "7f64f04d7804eb16a4b45f7d08b0f917b4a75056fbef852a806a94f55d08df88",
- "hero_checked": null
+ "input_fingerprint": "2d59cf44274acf6ac4e7c822183f3d550d89baf6d15f3ddacb4204f498fe1368",
+ "hero_checked": "pass"
 }

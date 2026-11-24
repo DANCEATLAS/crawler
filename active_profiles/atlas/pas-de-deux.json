@@ -27,66 +27,62 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "not described in sources",
+      "arms_and_hands": "Classical port de bras.",
       "difficulty": "advanced",
-      "footwork": "Includes pointe work for the ballerina",
-      "formation_and_space": "Duo, center stage",
-      "hips_and_torso": "not described in sources",
+      "footwork": "Includes pointe work for the ballerina.",
+      "formation_and_space": "Duet, center stage.",
+      "hips_and_torso": "Controlled, aligned with the partner.",
       "levels_and_jumps": "Includes acrobatic leaps and turns.",
-      "partnering": "Includes lifts, steadying during turns, and providing support for balances.",
-      "posture": "Classical ballet alignment",
+      "partnering": "Includes lifts, steadying during turns, and support for balances.",
+      "posture": "Upright, classical ballet alignment.",
       "signature_moves": [
         {
-          "description": "Ballerina on pointe while partner walks around her.",
+          "description": "Ballerina stays on pointe while the danseur supports her and walks around her.",
           "name": "Promenade"
         },
         {
-          "description": "Partner lifts the ballerina.",
+          "description": "Ballerina performs turns while the danseur provides impulse and stability.",
+          "name": "Pirouettes"
+        },
+        {
+          "description": "The danseur lifts the ballerina.",
           "name": "Portée"
         }
       ],
-      "tempo_feel": "Varies by section: slow for adagio, fast for coda.",
+      "tempo_feel": "Varies from slow (adagio) to fast (coda).",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
         "Orchestra"
       ],
-      "meter": "not described in sources",
+      "meter": "Entrée is often 3/4 time.",
       "mood_keywords": [
         "romantic",
-        "poetic",
-        "virtuosic"
+        "virtuosic",
+        "expressive"
       ],
-      "musical_form": "Suite (Entrée, Adagio, Variations, Coda)",
-      "reference_recordings": [
-        {
-          "artist": "Piotr Ilich Chaikovski",
-          "title": "Swan Lake (Black Swan Pas de deux)"
-        },
-        {
-          "artist": "Piotr Ilich Chaikovski",
-          "title": "The Nutcracker (Sugar Plum Fairy Pas de deux)"
-        }
-      ],
+      "musical_form": "Suite of five parts: entrée, adagio, two variations, coda.",
+      "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "Orchestral music structured to match the five-part dance, moving from slow, lyrical adagio melodies to fast, high-energy climactic codas.",
+      "sound_description": "Orchestral music structured to support the varying technical demands of the dancers, moving from a stately entrance to a slow, lyrical adagio, and ending in a fast, climactic coda.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Promenade: ballerina balances on pointe while the partner turns her.",
-        "Pirouettes: partner stabilizes and provides impulse for turns.",
-        "Portée: partner lifts the ballerina."
+        "Entrée: Entrance and acknowledgement",
+        "Adagio: Sustained partnering and balances",
+        "Variation: Individual solo of leaps and turns",
+        "Coda: Final virtuosic sequence"
       ],
-      "formation": "Duo (typically male and female)",
-      "level_notes": "Requires advanced muscular strengthening and technique, particularly for the ballerina on pointe.",
-      "rhythm": "not described in sources"
+      "formation": "Duet, typically male and female.",
+      "level_notes": "Requires advanced technical training in classical ballet.",
+      "rhythm": "Varies by section; adagio is slow, coda is fast (presto)."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5d6aec9d989a31ef0acbf33534464826743c9b394b3a9270c574e81f3326517f",
+  "fingerprint": "60fa4ac194bfbe77ca4a8733e2f78e18135ba0593bba5c63d4b1d5a5e999dffe",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -95,8 +91,9 @@
     ],
     "research": [
       "movement: what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical time signatures and typical BPM ranges for the five sections of a grand pas de deux? Evidence needed: Musicological analysis of Petipa-era scores."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -122,7 +119,17 @@
   ],
   "music_options": [],
   "name": "pas de deux",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "ec7f5c5deb65a220",
+      "next_evidence": "Musicological analysis of Petipa-era scores.",
+      "question": "What are the specific musical time signatures and typical BPM ranges for the five sections of a grand pas de deux?",
+      "source": "https://en.wikipedia.org/wiki/Pas_de_deux",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide precise musical guidance for practitioners."
+    }
+  ],
   "research_file": "research_results/pas-de-deux.json",
   "runtime_active": false,
   "scope": {
@@ -136,9 +143,10 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Pas_de_deux",
     "https://www.wikidata.org/wiki/Q909781",
-    "https://es.wikipedia.org/wiki/Pas_de_deux",
     "https://fr.wikipedia.org/wiki/Pas_de_deux",
-    "https://pt.wikipedia.org/wiki/Pas_de_Deux"
+    "https://es.wikipedia.org/wiki/Pas_de_deux",
+    "https://pt.wikipedia.org/wiki/Pas_de_Deux",
+    "https://de.wikipedia.org/wiki/Pas_de_deux"
   ],
   "state": "researching",
   "video_evidence": [

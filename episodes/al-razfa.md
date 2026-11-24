@@ -1,6 +1,6 @@
 # Al-Razfa — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -298,9 +298,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (4): https://en.wikipedia.org/wiki/Yowlah; https://www.wikidata.org/wiki/Q12213610; https://it.wikipedia.org/wiki/Yowlah; https://ich.unesco.org/en/RL/01078

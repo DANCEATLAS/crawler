@@ -1,0 +1,132 @@
+{
+ "youtube_id": "C3t1BbE6B6g",
+ "slug": "mambo",
+ "dance": "Mambo",
+ "title": "Easy To Follow 30 Minute Dance Workout View From The Back (Salsa, Bachata, Merengue, Mambo And More)",
+ "channel": "375 Dance Studio",
+ "viewer_ratio": 7.0,
+ "analysed_at": "2026-11-24T00:36:19Z",
+ "url": "https://www.youtube.com/watch?v=C3t1BbE6B6g",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor teaches in a high-energy dance workout style, facing away from the camera to make following along easier. She continuously calls out steps, counts, and gives encouragement while moving with her backup dancers.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Amanda introduces the 30 minute dance workout and explains they will face away from the camera"
+   },
+   {
+    "t": "0:13",
+    "segment": "breakdown",
+    "note": "Teaches Merengue marching, walking, and side steps"
+   },
+   {
+    "t": "2:57",
+    "segment": "breakdown",
+    "note": "Transitions into Mambo basic steps and side steps"
+   },
+   {
+    "t": "5:59",
+    "segment": "breakdown",
+    "note": "Teaches Cha Cha time steps and Cuban breaks"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6",
+  "cues": [
+   "march on the spot",
+   "walk forward",
+   "do it again",
+   "to the side",
+   "turn"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Merengue March",
+    "counts": "1-6",
+    "description": "Marching in place starting with the left foot"
+   },
+   {
+    "name": "Mambo Basic",
+    "counts": "1-4",
+    "description": "Stepping forward and back with basic mambo rhythm"
+   },
+   {
+    "name": "Cha Cha Time Step",
+    "counts": "1-3",
+    "description": "Time steps and Cuban breaks for cha cha"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Instructor faces away from the camera so students can mirror her movements directly",
+    "Consistent counting and clear verbal cues before transitions"
+   ],
+   "what_hinders": [
+    "Fast transitions between different dance styles without much pause"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:07",
+    "text": "Today we are going to face away from you so it's easier to follow along."
+   },
+   {
+    "t": "0:13",
+    "text": "All righty guys, our first dance is merengue."
+   },
+   {
+    "t": "2:59",
+    "text": "Our next dance is mambo."
+   },
+   {
+    "t": "6:00",
+    "text": "Our next dance is cha-cha."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Instructor stands facing the camera introducing the workout in a studio.",
+    "viewpoint": "front, mirrored unknown",
+    "cannot_infer": "dance footwork",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 11,
+    "end_s": 25,
+    "topic": "movement",
+    "observation": "Instructor and dancers turn around facing away from the camera, marching in place.",
+    "viewpoint": "back, mirrored unknown",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Instructing entirely facing away from the camera for the duration of the workout to eliminate left-right confusion for viewers."
+ },
+ "attempts": 1
+}

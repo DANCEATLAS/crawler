@@ -1,8 +1,8 @@
 # Formation dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced formation dance coach with competition background
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Art of Synchronized Ballroom: Formation Dance Unveiled
 NARRATION: This is Formation dance. 20th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (O3D6zvWHHs8)
 ON SCREEN: Title card: Formation dance · United Kingdom (origin) · 20th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Teams of 6 to 8 couples dance choreographed routines lasting up to si
 NARRATION: Couples perform synchronized steps to the beat, forming patterns such as diamonds, circles, and lines.
 NARRATION: Latin formation includes Cha Cha, Rumba, Jive, Paso Doble, and Samba, while Standard formation includes Waltz, Quickstep, Tango, Viennese Waltz, and Foxtrot.
 NARRATION: Watch for Chain Reaction, Roundabout, Velberter Rose.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (O3D6zvWHHs8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Geometric patterns with clear spacing; transitions between shapes
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Men in Standard formation wear black or midnight blue tailcoats; in Latin formation, men wear uniform colored shirts, often black. Women may wear varied dresses within competition rules. The dance floor is used fully to display patterns, with clear visibility of formations prioritized. Walk-on and walk-off sections allow more freedom in costume and choreography.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'O3D6zvWHHs8', 'checked_by_vision_model': True, 'title': "FORMATION DANCE II JUNIORS 'ANNUAL ATHLETIC MEET 2022 II @GTBDHURI"}
 Images: 1 licensed — Thornard 13:41, 12 June 2007 (UTC) / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Wild Turkey Trio — https://archive.org/details/wild-turkey-trio_202102; Levi Jackson Rose — https://archive.org/details/levi-jackson-rose_202102; Zippity Sicilian Circle — https://archive.org/details/zippity-sicilian-circle_202102; F& D Sicilian Circle Dance — https://archive.org/details/f-d-sicilian-circle-dance; Scones & Tea Sicilain Circle Dance — https://archive.org/details/scones-tea-sicilain-circle-dance; ONS Mescolanza — https://archive.org/details/ons-mescolanza
 Motifs: Geometric floor patterns, Elegant ballroom attire, Gong signal, Team synchronization

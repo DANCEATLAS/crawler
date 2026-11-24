@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Partner ballroom dance executed in social salon settings or regional folk gatherings.",
+          "source": "https://en.wikipedia.org/wiki/Venezuelan_waltz"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "Partner ballroom spacing in traditional context; ballet spatial staging in Nebrada's Nuestros valses",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Paired ballroom hold in social settings",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Brisk, jumping, and elastic syncopated feel",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Piano",
+        "Classical guitar",
+        "Violin",
+        "Bandola",
+        "Cuatro",
+        "Tiple",
+        "Mandolin"
+      ],
+      "meter": "3/4",
+      "mood_keywords": [
+        "Lyrical",
+        "Romantic",
+        "Syncopated",
+        "Playful",
+        "Dramatic"
+      ],
+      "musical_form": "Two-part structure in salon waltzes; three-part structure in popular oral tradition waltzes; 8-bar melodic phrasing",
+      "reference_recordings": [
+        {
+          "artist": "Heraclio Fernández",
+          "title": "El Diablo Suelto"
+        },
+        {
+          "artist": "Antonio Lauro",
+          "title": "Vals Nº 3 -Natalia-"
+        },
+        {
+          "artist": "Francisco de Paula Aguirre",
+          "title": "Dama antañona"
+        },
+        {
+          "artist": "Teresa Carreño",
+          "title": "Teresita"
+        }
+      ],
+      "rhythm_pattern": "Syncopated 3/4 with off-beat silences breaking European metric symmetry",
+      "sound_description": "Characterized by an eight-measure broken melody that plays with silences and off-beat accents over standard three-quarter time. Salon versions feature solo piano or classical guitar, while regional popular versions use bright lead violins or bandolas anchored by rhythmic strumming on the cuatro and guitar.",
+      "tempo_bpm": "",
+      "vocal_style": "Romantic lyric singing in vals-canción and vals pasaje forms"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Technique not described in sources"
+      ],
+      "formation": "Partner dance in salon settings; theatrical ballet formations in stage works",
+      "level_notes": "Technique not described in sources",
+      "rhythm": "3/4 meter with syncopated silences, cross-rhythms, and 8-bar melodic phrasing"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "8d6ef0edbe3d5709576668ce2ce7c9f2bece148477837332bfe254e392089918",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise footwork mechanics and partner holds used in regional popular Venezuelan waltz dance traditions? Evidence needed: Field instructional videos or ethnographic dance movement notations of rural Venezuelan waltz social dancing."
+    ]
+  },
+  "id": "atlas:venezuelan-waltz",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Venezuelan waltz",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c0efab53c1e8730d",
+      "next_evidence": "Field instructional videos or ethnographic dance movement notations of rural Venezuelan waltz social dancing.",
+      "question": "What are the precise footwork mechanics and partner holds used in regional popular Venezuelan waltz dance traditions?",
+      "source": "https://es.wikipedia.org/wiki/Vals_venezolano",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile fields for footwork, posture, and signature steps are currently unsupported by textual sources."
+    }
+  ],
+  "research_file": "research_results/venezuelan-waltz.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "venezuelan-waltz",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Venezuelan_waltz",
+    "https://www.wikidata.org/wiki/Q7919873",
+    "https://es.wikipedia.org/wiki/Vals_venezolano"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "gurage-dance",
  "name": "Gurage dance",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "ET"
@@ -61,6 +61,10 @@
   "updated_at": "2026-06-08",
   "_is_sacred": false,
   "publish_gate": "publish",
+  "research_gate": "review",
+  "qc_score": 0.0,
+  "last_researched_at": "2026-11-23T23:52:06Z",
+  "pipeline_version": "v3.3",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -71,6 +75,45 @@
    "eskista"
   ]
  },
- "fingerprint": "6e5dcee749b96d75",
- "updated": "2026-11-21"
+ "readiness": {
+  "standard": "AR-1",
+  "have": 7,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ]
+ },
+ "fingerprint": "2ecd746e3c729093",
+ "updated": "2026-11-24"
 }

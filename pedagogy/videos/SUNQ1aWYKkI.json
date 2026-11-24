@@ -1,0 +1,229 @@
+{
+ "youtube_id": "SUNQ1aWYKkI",
+ "slug": "pentozali",
+ "dance": "Pentozali",
+ "title": "Greek Dance lesson - Pentozali",
+ "channel": "ProfitisElias",
+ "viewer_ratio": 6.0,
+ "analysed_at": "2026-11-24T00:38:14Z",
+ "url": "https://www.youtube.com/watch?v=SUNQ1aWYKkI",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher provides clear, step-by-step instructions for each movement, emphasizing the importance of mastering the basic step first. He frequently demonstrates the steps from both the back and the side to ensure the viewer can see the footwork clearly.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:02",
+    "segment": "intro",
+    "note": "The teacher introduces the Pentozali dance."
+   },
+   {
+    "t": "0:08",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the basic step."
+   },
+   {
+    "t": "0:30",
+    "segment": "other",
+    "note": "The teacher explains the 'hop' in the basic step."
+   },
+   {
+    "t": "1:18",
+    "segment": "slow_practice",
+    "note": "The teacher practices the basic step with the viewer."
+   },
+   {
+    "t": "2:06",
+    "segment": "context",
+    "note": "The teacher introduces 'figoures' (variations)."
+   },
+   {
+    "t": "2:22",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the 'psalidi' variation."
+   },
+   {
+    "t": "3:02",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the 'pause' variation."
+   },
+   {
+    "t": "3:26",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the 'stamp' variation."
+   },
+   {
+    "t": "3:56",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the 'double stamp' variation."
+   },
+   {
+    "t": "4:30",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the 'curl' variation."
+   },
+   {
+    "t": "5:17",
+    "segment": "music_practice",
+    "note": "The teacher puts all the steps together with music."
+   },
+   {
+    "t": "6:28",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the moving step."
+   },
+   {
+    "t": "7:41",
+    "segment": "recap",
+    "note": "The teacher concludes the lesson and offers encouragement."
+   }
+  ],
+  "counting_scheme": "1-2-3",
+  "cues": [
+   "hop onto one",
+   "the foot goes forward",
+   "bring your heel up towards your shin",
+   "one big stamp"
+  ],
+  "metaphors": [
+   "the foot goes back",
+   "the foot goes forward",
+   "bring your heel up towards your shin"
+  ],
+  "demonstration": {
+   "angles": [
+    "back",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 2
+  },
+  "common_mistakes": [
+   "just going up and down on the toe instead of hopping"
+  ],
+  "safety": [
+   "none"
+  ],
+  "steps_taught": [
+   {
+    "name": "basic step",
+    "counts": "1-2-3",
+    "description": "A hop on the left foot, followed by a step forward and a change of weight."
+   },
+   {
+    "name": "psalidi",
+    "counts": "1-2-3",
+    "description": "A faster version of the basic step."
+   },
+   {
+    "name": "pause",
+    "counts": "1-2-3",
+    "description": "A variation of the basic step that includes a pause."
+   },
+   {
+    "name": "stamp",
+    "counts": "1-2-3",
+    "description": "A variation of the basic step that includes a stamp."
+   },
+   {
+    "name": "double stamp",
+    "counts": "1-2-3",
+    "description": "A variation of the basic step that includes two stamps."
+   },
+   {
+    "name": "curl",
+    "counts": "1-2-3",
+    "description": "A variation of the basic step that includes a curl."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "clear verbal cues",
+    "demonstrations from multiple angles",
+    "repetition of steps"
+   ],
+   "what_hinders": [
+    "the teacher is sometimes out of breath"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:05",
+    "text": "Here's the basic step, follow along if you can."
+   },
+   {
+    "t": "2:13",
+    "text": "If you're struggling at all with the basic step, go back, watch the video again."
+   },
+   {
+    "t": "7:49",
+    "text": "If you make a few mistakes, it doesn't really matter, as long as you enjoy the dance."
+   },
+   {
+    "t": "7:56",
+    "text": "Just stick to the basic step, you should stay in rhythm with everybody else."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher stands in front of a plain wall and introduces the dance.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 10,
+    "end_s": 20,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the basic step, showing the hop and the foot placement.",
+    "viewpoint": "back",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 25,
+    "end_s": 30,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the basic step from the side.",
+    "viewpoint": "side",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 120,
+    "end_s": 130,
+    "topic": "teaching",
+    "observation": "The teacher practices the basic step with the viewer, counting out loud.",
+    "viewpoint": "back",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 235,
+    "end_s": 245,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the 'psalidi' variation, emphasizing the speed.",
+    "viewpoint": "side",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher encourages the viewer to stick to the basic step if they are struggling with the variations, ensuring they can still participate in the dance."
+ },
+ "attempts": 1
+}

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "veeranatyam",
  "name": "Veeranatyam",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -34,6 +34,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Veeranatyam",
   "wikidata_qid": "Q7918173",
   "unesco": false,
+  "hero_video_youtube_id": "ZP-YA3pPMZ8",
+  "video_stack": [
+   {
+    "youtube_id": "ZP-YA3pPMZ8",
+    "role": "hero",
+    "title": "ശ്രീരാമ ലക്ഷ്മണനും സീതയോത്തു വേഗം 🪷 alingalamma perinjanam 🪷 veeranatyam",
+    "channel": "Navya Ajith",
+    "hd": true
+   },
+   {
+    "youtube_id": "LO7fPdlh_zg",
+    "role": "rendition",
+    "title": "മായാ ദേവകിക്ക് | maya dhevakikku | aalingalamma perinjanam | veeranatyam | kaikottikkali",
+    "channel": "Uma Sandeep",
+    "hd": true
+   },
+   {
+    "youtube_id": "Z77qgy0ANAM",
+    "role": "rendition",
+    "title": "കണ്ണോണ്ടങ്ങനെ #aalingalamma #dance #kaikottikkali #ytvideo #trending #veeranatyam #keraladance",
+    "channel": "ESE",
+    "hd": true
+   },
+   {
+    "youtube_id": "Gwpx-rGx21Y",
+    "role": "rendition",
+    "title": "Veeranatyam @Pisharikavu temple ✨",
+    "channel": "Thiruvathira by Ashtami school of dance",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -61,7 +92,13 @@
   "needs_eyes_on": true,
   "sacred_note": "Veeranatyam is a high-stakes religious ritual involving fire and self-piercing (Narasam). It is traditionally performed by initiated men of the Veeramusti community. Outsiders should observe with extreme respect and should not attempt to replicate the piercing or fire-handling elements which are consecrated acts.",
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:24:11Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -181,25 +218,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Veeranatyam is a high-stakes religious ritual involving fire and self-piercing (Narasam). It is traditionally performed by initiated men of the Veeramusti community. Outsiders should observe with extreme respect and should not attempt to replicate the piercing or fire-handling elements which are consecrated acts.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/veeranatyam.json"
  },
- "fingerprint": "ff61b4fadc92a018",
- "updated": "2026-11-22"
+ "fingerprint": "0021589f1cef1e3a",
+ "updated": "2026-11-24"
 }

@@ -1,0 +1,105 @@
+{
+ "slug": "rouf",
+ "qc_at": "2026-11-24T00:19:59Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Rouf"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "47"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "173"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Rouf is a joyous spring dance performed by women in two facing rows, with moveme"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "465"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2252"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['religious']"
+  }
+ ],
+ "judge": null,
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "sections_filled",
+  "no_judge"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-24T00:08:35Z"
+}

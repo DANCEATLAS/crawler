@@ -1,10 +1,10 @@
 {
  "slug": "jurit-ampil-kridha-warastra-dance",
- "qc_at": "2026-11-15T17:53:32Z",
+ "qc_at": "2026-11-24T00:14:32Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.0,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "74"
+   "detail": "76"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "187"
+   "detail": "195"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Marking the 17 March 1757 Treaty of Salatiga, this dance depicts the Jurit Ampil"
+   "detail": "Commemorating the 17 March 1757 Treaty of Salatiga, the dance depicts the Jurit "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "549"
+   "detail": "528"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "3225"
+   "detail": "2976"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "7/7 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "codified"
+   "detail": ""
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "5 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,14 +84,14 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=False cues=['ceremon']"
+   "detail": "sacred=False cues=[]"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 10,
-  "teaching_value": 10,
+  "specificity": 9,
+  "teaching_value": 5,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -99,20 +99,20 @@
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 10,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "Exceptional, highly specific profile with complete adherence to facts, proper cultural context, and clear teaching guidance."
+  "notes": "The profile is highly accurate and well-sourced. It provides a clear historical context for the dance. The teaching value is limited due to the absence of specific movement descriptions, which is expected given the lack of available source material on the technical execution of the steps."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=10.0"
+  "judge_score=9.0"
  ],
  "citation": {
-  "claims": 7,
-  "supported": 7,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-15T16:56:24Z"
+ "researched_at": "2026-11-23T23:16:12Z"
 }

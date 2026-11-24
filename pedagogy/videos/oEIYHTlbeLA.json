@@ -1,0 +1,139 @@
+{
+ "youtube_id": "oEIYHTlbeLA",
+ "slug": "royal-ballet-cambodia",
+ "dance": "royal ballet cambodia",
+ "title": "The magic of Khmer classical dance | Prumsodun Ok",
+ "channel": "TED",
+ "viewer_ratio": 5.0,
+ "analysed_at": "2026-11-24T00:42:50Z",
+ "url": "https://www.youtube.com/watch?v=oEIYHTlbeLA",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The speaker delivers a talk explaining the history and gestures of Khmer classical dance. He demonstrates movements on stage and interacts with the audience.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:13",
+    "segment": "intro",
+    "note": "Introduction to the art of Khmer classical dance."
+   },
+   {
+    "t": "0:56",
+    "segment": "breakdown",
+    "note": "Explaining the physical curves and body posture."
+   },
+   {
+    "t": "2:02",
+    "segment": "breakdown",
+    "note": "Demonstrating four primary hand gestures and the cycle of life."
+   },
+   {
+    "t": "2:54",
+    "segment": "other",
+    "note": "Demonstrating how gestures express words and emotions."
+   }
+  ],
+  "counting_scheme": "",
+  "cues": [
+   "Can we do them together?",
+   "Come here",
+   "Go"
+  ],
+  "metaphors": [
+   "tree will grow",
+   "cycle of life",
+   "flow of water"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Tree gesture",
+    "counts": "",
+    "description": "A hand gesture representing a growing tree."
+   },
+   {
+    "name": "Leaves gesture",
+    "counts": "",
+    "description": "A hand gesture representing tree leaves."
+   },
+   {
+    "name": "Flowers gesture",
+    "counts": "",
+    "description": "A hand gesture representing flowers."
+   },
+   {
+    "name": "Fruit gesture",
+    "counts": "",
+    "description": "A hand gesture representing fruit."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear visual demonstration of hand gestures by the speaker."
+   ],
+   "what_hinders": [
+    "Talk format instead of structured step-by-step dance instruction."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:13",
+    "text": "Robam Boran Khmer, or the art of Khmer classical dance, is more than a thousand years old."
+   },
+   {
+    "t": "1:47",
+    "text": "Khmer classical dance is a transformation of nature."
+   },
+   {
+    "t": "3:52",
+    "text": "The Khmer word for art, selapak, in fact, at its root means magic."
+   },
+   {
+    "t": "7:21",
+    "text": "One student, one gesture, one dance at a time."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 56,
+    "end_s": 65,
+    "topic": "movement",
+    "observation": "Speaker stands sideways on stage demonstrating curved posture, bent knees, and hyper-flexed elbows.",
+    "viewpoint": "side, unknown mirror",
+    "cannot_infer": "exact weight distribution between feet",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 203,
+    "end_s": 236,
+    "topic": "teaching",
+    "observation": "Speaker holds arm out showing four sequential hand gestures representing the cycle of life.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "tension in fingers and wrist",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explaining dance vocabulary through a narrative of life cycles and nature while encouraging audience participation."
+ },
+ "attempts": 1
+}

@@ -453,6 +453,94 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "Ju1YfemWj4s",
+   "url": "https://www.youtube.com/watch?v=Ju1YfemWj4s",
+   "title": "Stiletto Dance For Beginners",
+   "channel": "Hip Shake Fitness",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces herself and background dancers"
+    },
+    {
+     "t": "0:25",
+     "seconds": 25,
+     "segment": "follow_along",
+     "note": "Full follow-along stiletto dance workout routine"
+    },
+    {
+     "t": "4:26",
+     "seconds": 266,
+     "segment": "other",
+     "note": "Closing remarks and sign-off"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Sway and hip up",
+     "counts": "5-6-7-8",
+     "description": "Swaying hips side to side in a low stance"
+    },
+    {
+     "name": "Chest and back squeeze",
+     "counts": "1-2-double",
+     "description": "Squeezing elbows in and out with upper body posture"
+    },
+    {
+     "name": "Step and flick",
+     "counts": "1-2-3-4",
+     "description": "Stepping and flicking legs back while moving arms"
+    }
+   ],
+   "cues": [
+    "Double out",
+    "Sway it hip up",
+    "Work the chest and back",
+    "Step and flick",
+    "Drive with it get low"
+   ],
+   "teacher_style": "The instructor is high energy and encouraging, guiding a group through follow-along movement sequences. She demonstrates continuously with background dancers while offering positive reinforcement and modifications for difficulty.",
+   "distinctive_method": "Continuous high-energy follow-along routine without a slow-motion breakdown phase.",
+   "what_works": [
+    "Having background dancers provides multiple angles of visibility",
+    "Consistent counts and verbal cues keep participants on beat"
+   ],
+   "what_hinders": [
+    "No breakdown or slow practice segment before full tempo"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 13,
+     "topic": "teaching",
+     "observation": "Instructor stands centrally facing camera introducing workout with two background dancers flanking her.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 27,
+     "end_s": 36,
+     "topic": "movement",
+     "observation": "Group performs alternating side steps with arm extensions to the beat.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution on heels",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -510,6 +598,6 @@
   "polished": false,
   "file": "episodes/stiletto-dance.json"
  },
- "fingerprint": "b5eacd66b3b4ba86",
- "updated": "2026-11-22"
+ "fingerprint": "910426d9c4500527",
+ "updated": "2026-11-24"
 }

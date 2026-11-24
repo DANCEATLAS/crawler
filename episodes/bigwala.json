@@ -2,7 +2,7 @@
  "slug": "bigwala",
  "name": "Bigwala",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-22T18:50:38Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -64,7 +64,7 @@
      "This is Bigwala. 18th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (t6Y4vJ8xvOc)",
      "Title card: Bigwala · Uganda · 18th century to present"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Waist Sway, Processional Hop."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (t6Y4vJ8xvOc)",
      "Captions name each signature move as it appears",
      "Formation: Concentric circular processional line rotating around central drummers, gradually widening as participants join."
     ],
@@ -268,7 +268,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "t6Y4vJ8xvOc",
+   "checked_by_vision_model": true,
+   "title": "Bigwala , gourd trumpet music and dance of the Busoga Kingdom in Uganda."
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -340,12 +344,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → full",
    "repetitions per step: about 4"
   ],
@@ -357,19 +361,18 @@
    "move your hips side to side",
    "scrape it along the floor",
    "remember to breathe",
-   "y tac tac",
-   "el segundo",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice"
   ],
@@ -377,7 +380,6 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage"
  ],
  "sources": [
@@ -390,6 +392,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "45f1b01c67c5094f611d49ca462b64e119120f80dc8e20504f789b7fe45720b5",
- "hero_checked": null
+ "input_fingerprint": "79e7415aa384fbef0b85351d247575f98bc36532885d97f21b37d3499d630b9b",
+ "hero_checked": "pass"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "abbots-bromley-horn-dance",
  "name": "Abbots Bromley Horn Dance",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GB"
@@ -32,6 +32,10 @@
   "hero_video_youtube_id": "q5qCfQlipqE",
   "tier": "needs_curation",
   "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 0.0,
+  "last_researched_at": "2026-11-24T00:12:59Z",
+  "pipeline_version": "v3.3",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -46,6 +50,25 @@
    "baladi"
   ]
  },
- "fingerprint": "5c3ce9fe5a4aa4ad",
- "updated": "2026-11-21"
+ "readiness": {
+  "standard": "AR-1",
+  "have": 12,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "fingerprint": "d2873a217993eec5",
+ "updated": "2026-11-24"
 }

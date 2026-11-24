@@ -2,9 +2,9 @@
  "slug": "amis-harvest-dance",
  "name": "Amis harvest dance",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
- "researched_at": "2026-11-15T17:29:13Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-24T00:44:44Z",
+ "researched_at": "2026-11-23T23:36:16Z",
+ "qc_score": 9.7,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A tribal elder or knowledgeable community member.",
+   "persona": "A respectful cultural guide or tribal member.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -63,12 +63,12 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Circle of the Harvest",
-     "This is Amis harvest dance. traditional."
+     "The Circle of the Amis",
+     "This is Amis harvest dance. Traditional."
     ],
     "on_screen": [
      "Hero video — MISSING",
-     "Title card: Amis harvest dance · Taiwan · traditional"
+     "Title card: Amis harvest dance · Taiwan · Traditional"
     ],
     "music": "theme (30 s)"
    },
@@ -77,8 +77,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The festival is held after the rice harvest, though it was historically tied to the reaping of millet.",
-     "It is a time for ancestral worship and the strengthening of tribal bonds."
+     "The harvest festival is held to celebrate the harvest of rice, which replaced millet as the primary crop.",
+     "It is a multi-day event lasting between one and seven days, depending on the specific tribe, and is held during the lunar months of July or August."
     ],
     "on_screen": [
      "Map: Taiwan · East Asia",
@@ -91,8 +91,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance is performed during the Ilisin Harvest Festival.",
-     "It serves to honor ancestors, celebrate the harvest, facilitate partner selection, and allow elders to identify future leaders.",
+     "The dance is part of the Ilisin festival, which serves to pray for agricultural success, population growth, and social cohesion.",
+     "It also functions as a space for partner selection and the evaluation of potential future leaders.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -106,13 +106,14 @@
     "duration_s": 75,
     "narration": [
      "Participants dance hand-in-hand in a circle.",
-     "The primary movements consist of walking, running, and jumping.",
-     "The dance is led by a soloist who initiates the singing, with the rest of the group following in a chorus.",
-     "Watch for Circle dance."
+     "The primary movements are walking, running, and jumping.",
+     "The dance is led by a singer, and the movements vary by region, with coastal areas exhibiting more complex patterns.",
+     "Watch for Circular dance."
     ],
     "on_screen": [
      "Hero video — MISSING",
-     "Captions name each signature move as it appears"
+     "Captions name each signature move as it appears",
+     "Formation: Circular formation with elders in the center."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -121,9 +122,7 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Music is vocal-based, consisting of a lead singer and a chorus.",
-     "The songs are described as serious and unchangeable, serving as a medium for spiritual communication.",
-     "The music is defined by a lead vocalist singing traditional, serious songs while a chorus of participants responds, creating a rhythmic vocal foundation for the circle dance."
+     "The music is characterized by vocal chanting where a lead singer initiates the melody and the group responds, creating a serious and repetitive soundscape intended for communication with the spirit world."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -132,6 +131,7 @@
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
+     "music_and_instruments",
      "tempo",
      "meter"
     ]
@@ -141,8 +141,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Participants wear festival-specific clothing.",
-     "A key element is the hat, which is decorated with rooster feathers; the quantity of feathers denotes the wearer's status within the tribe."
+     "Participants wear festival clothes, including hats decorated with rooster feathers.",
+     "The number of feathers on a hat symbolizes the wearer's status within the tribe."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -158,9 +158,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "The tribal priest, who is a knowledgeable and wise man responsible for instructing agricultural activities and sacrificial rituals.",
-     "Dancing styles vary by location.",
-     "An indigenous tradition of the Amis people in Taiwan, passed down through generations as part of the age-structure-based social system."
+     "The priest of the tribe is the primary figure in charge of the sacrificial rituals, instructing the community on farming activities and maintaining knowledge of the calendar, weather, and tribal history.",
+     "Dancing movements in coastal areas are more complicated and changeable than those in mountainous areas.",
+     "The dance belongs to the indigenous traditions of the Amis people in Taiwan, passed down through generations as part of the Ilisin festival."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -186,7 +186,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "The songs and rituals are serious and unchangeable, serving as a medium for communicating with ancestors and gods; outsiders should observe with respect and follow local guidance regarding participation."
+     "The songs and dances are considered a serious medium for communicating with ancestors and gods; outsiders should respect the solemnity of the rituals and the specific tribal protocols."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -198,7 +198,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover the Ilisin, where the Amis people of Taiwan unite through song, dance, and ancestral ritual.",
+     "Discover the Ilisin festival, where a sacred circle of dance binds a community to its ancestors and its future.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -219,15 +219,15 @@
   "rhythm_pattern": null,
   "instruments": [],
   "vocal_style": "One person leads a chorus and others follow.",
-  "musical_form": null,
+  "musical_form": "Call-and-response vocal structure.",
   "mood": [
    "serious",
    "solemn",
-   "celebratory"
+   "communal"
   ],
-  "sound_description": "The music is defined by a lead vocalist singing traditional, serious songs while a chorus of participants responds, creating a rhythmic vocal foundation for the circle dance.",
+  "sound_description": "The music is characterized by vocal chanting where a lead singer initiates the melody and the group responds, creating a serious and repetitive soundscape intended for communication with the spirit world.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Amis harvest dance (Taiwan). Vocal style: One person leads a chorus and others follow.. Mood: serious, solemn, celebratory. It should sound like this: The music is defined by a lead vocalist singing traditional, serious songs while a chorus of participants responds, creating a rhythmic vocal foundation for the circle dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Amis harvest dance (Taiwan). Vocal style: One person leads a chorus and others follow.. Form: Call-and-response vocal structure.. Mood: serious, solemn, communal. It should sound like this: The music is characterized by vocal chanting where a lead singer initiates the melody and the group responds, creating a serious and repetitive soundscape intended for communication with the spirit world. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -265,7 +265,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Participants wear festival-specific clothing. A key element is the hat, which is decorated with rooster feathers; the quantity of feathers denotes the wearer's status within the tribe.",
+   "from_sources": "Participants wear festival clothes, including hats decorated with rooster feathers. The number of feathers on a hat symbolizes the wearer's status within the tribe.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3A2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg"
    ],
@@ -288,13 +288,13 @@
   ],
   "footage": [],
   "motifs": [
-   "Rooster feather hats",
-   "Hand-in-hand circles",
-   "Campfire light",
-   "Betel nuts"
+   "Rooster-feather hats",
+   "Interlinked hands in a circle",
+   "Betel nut bags",
+   "Campfire light"
   ],
-  "costume_notes": "Participants wear festival-specific clothing. A key element is the hat, which is decorated with rooster feathers; the quantity of feathers denotes the wearer's status within the tribe.",
-  "setting_notes": "The dance is performed during the Ilisin Harvest Festival. It serves to honor ancestors, celebrate the harvest, facilitate partner selection, and allow elders to identify future leaders.",
+  "costume_notes": "Participants wear festival clothes, including hats decorated with rooster feathers. The number of feathers on a hat symbolizes the wearer's status within the tribe.",
+  "setting_notes": "The dance is part of the Ilisin festival, which serves to pray for agricultural success, population growth, and social cohesion. It also functions as a space for partner selection and the evaluation of potential future leaders.",
   "map": {
    "country": "Taiwan",
    "region": "East Asia",
@@ -307,12 +307,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → full",
    "repetitions per step: about 4"
   ],
@@ -324,19 +324,18 @@
    "move your hips side to side",
    "scrape it along the floor",
    "remember to breathe",
-   "y tac tac",
-   "el segundo",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice"
   ],
@@ -350,15 +349,16 @@
   "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
+  "the music & instruments section",
   "two or more connections"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Amis_harvest_festivals",
   "https://www.wikidata.org/wiki/Q21041633"
  ],
- "claims_verified": 7,
- "claims": 7,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "d75750af4d7462d2e4c4d9000e40e24e3798a399ad74d26f0538994fdbb26bde",
+ "input_fingerprint": "896c87eb9bf90d4141801f89d48f9e183152fa4b3d36cf8a057493e944c4bbe5",
  "hero_checked": null
 }

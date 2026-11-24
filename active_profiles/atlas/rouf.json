@@ -1,13 +1,83 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex arm interlocking if too difficult"
+        ],
+        "counts": "Simplified 1-2 counts.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "Rouf line game where children practice the step and sway in a line."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid forward/backward stepping",
+          "Deep torso bends"
+        ],
+        "counts": "Standard counts.",
+        "seated_version": "Perform the torso sway and arm movements while seated in two rows.",
+        "standing_version": "Perform the step with reduced range of motion, holding onto a support if necessary.",
+        "tempo_and_range": "Reduced tempo."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Interlocked behind the backs of the flanking dancers.",
+      "difficulty": "beginner",
+      "footwork": "One step forward on a beat, one step backward on the next.",
+      "formation_and_space": "Two parallel rows facing each other.",
+      "hips_and_torso": "Torso bends forward and backward in consonance with the stepping.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Dancers in a row hold each other by interlocking arms.",
+      "posture": "Upright with torso bending forward and backward.",
+      "signature_moves": [
+        {
+          "description": "Synchronized forward and backward stepping with torso movement.",
+          "name": "Row Sway"
+        }
+      ],
+      "tempo_feel": "Rhythmic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Rubab",
+        "Tumbaknadi"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "joyous",
+        "romantic",
+        "festive"
+      ],
+      "musical_form": "Romantic songs",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by the plucked strings of the Rubab and the rhythmic percussion of the Tumbaknadi, supporting romantic songs sung by the dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Responsorial singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in two parallel rows facing each other.",
+        "Interlock arms behind the backs of the flanking dancers.",
+        "Step forward on one beat.",
+        "Step backward on the next beat.",
+        "Bend torso forward and backward in rhythm with the steps."
+      ],
+      "formation": "Two parallel rows facing each other.",
+      "level_notes": "Beginner level due to simple stepping and repetitive movement.",
+      "rhythm": "Rhythmic beats"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "bb46245a816c781249c41e70f9a6ce105c4f1c9a71beeac70d36168ff0dfe6a7",
+  "fingerprint": "63c22d1464a4e8215ed800607d6bf68d4b99f0be34781a7167c922484cbd46ad",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +85,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific regional variations of Rouf within the Kashmir Valley? Evidence needed: Field studies or ethnographic accounts of specific village practices."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +115,18 @@
   ],
   "music_options": [],
   "name": "Rouf",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "018a18b26763a489",
+      "next_evidence": "Field studies or ethnographic accounts of specific village practices.",
+      "question": "Are there specific regional variations of Rouf within the Kashmir Valley?",
+      "source": "https://en.wikipedia.org/wiki/Music_of_Jammu_and_Kashmir",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a more comprehensive view of the dance's diversity."
+    }
+  ],
+  "research_file": "research_results/rouf.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +137,10 @@
   },
   "slug": "rouf",
   "sources": [
-    "https://www.jktdc.co.in/dances-of-kashmir.aspx",
-    "https://en.wikipedia.org/wiki/Music_of_Jammu_and_Kashmir"
+    "https://en.wikipedia.org/wiki/Music_of_Jammu_and_Kashmir",
+    "https://www.wikidata.org/wiki/Q3328614",
+    "https://fr.wikipedia.org/wiki/Musique_cachemirie",
+    "https://archive.org/details/celebrationoflif0000pani"
   ],
   "state": "researching",
   "video_evidence": []

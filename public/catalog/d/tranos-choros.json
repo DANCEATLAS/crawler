@@ -32,6 +32,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tranos_Choros",
   "wikidata_qid": "Q7833445",
   "unesco": false,
+  "hero_video_youtube_id": "QEuoRyl73aw",
+  "video_stack": [
+   {
+    "youtube_id": "QEuoRyl73aw",
+    "role": "hero",
+    "title": "Ο εορτασμός του δεκαπενταύγουστου στα ορεινά χωριά Βλάστη (Κοζάνης) & Συρράκο (Ιωαννίνων)",
+    "channel": "Άυλη Πολιτιστική Κληρονομιά της Ελλάδας",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -44,7 +54,13 @@
   "pipeline_version": "v3.3",
   "profile_long": "The Tranos Choros, translated as the 'Grand Dance,' is a cornerstone of the cultural identity of Vlasti, a highland community in Northern Greece. Historically, this dance was not merely a celebration but a functional marker of the transhumance calendar. In the rugged terrain of the Pindus mountains, pastoral communities of sheep and cattle farmers would gather in the village for the August 15th festivities (Dekapentavgoustos) before beginning their seasonal descent to the lowland winter pastures. This moment of reunion was essential for maintaining social bonds in a lifestyle defined by seasonal migration and geographic isolation. Today, while the traditional pastoral way of life has changed and many inhabitants have moved to urban centers, the dance remains a powerful magnet, drawing the diaspora back to the village to reaffirm their roots and collective memory.\n\nThe performance of Tranos Choros is characterized by its scale and its austerity. Unlike many Greek folk dances that rely on the clarinet or the violin, the Vlasti version of the Grand Dance is performed a cappella. The dancers themselves provide the music, singing traditional verses that dictate the pace and mood of the event. The formation is a large, open circle that can encompass hundreds of participants of all ages, symbolizing the unbroken continuity of the community. The rhythm is described as slow and imposing, requiring a high degree of collective focus and physical discipline to maintain the steady, solemn pulse of the circle as it rotates through the village square.\n\nIn terms of movement, the dance is a study in communal synchronization. Participants hold hands in a chain, creating a physical bond that reinforces the social message of the gathering. The footwork is deliberate, matching the unhurried tempo of the vocal accompaniment. This slow pace allows for the inclusion of all generations, from the village elders to young children who learn the steps by observing their parents and grandparents. The absence of instrumental accompaniment places the emphasis entirely on the human voice and the rhythmic footfalls of the group, creating a soundscape that is both ancient and deeply resonant within the mountain setting.\n\nThe setting for Tranos Choros is the open-air communal spaces of Vlasti, typically the central square or the grounds of the church during the Dormition of the Virgin Mary. The dancers often wear traditional attire that reflects the village's history, though modern participants may join in contemporary clothing, prioritizing the act of participation over strict costume requirements. The atmosphere is one of 'ritualistic' gravity, yet it is also a celebration of survival and return. It is a moment where the declining population of the highland village is momentarily reversed, filling the square with the sound of voices that have echoed through these mountains for centuries.\n\nTransmission of the Tranos Choros occurs both through informal observation and formal community efforts. In the past, youth learned the customs simply by being present at the preparations and the festivities from an early age. In the modern era, cultural organizations have taken a more active role in ensuring the songs and specific steps are preserved, providing a structured environment for the younger generation to connect with a heritage that might otherwise be lost to urbanization. The dance serves as a living archive of Vlasti’s identity, ensuring that even as the native Vlach language and pastoral traditions face decline, the 'Grand Dance' continues to provide a rhythmic heartbeat for the community.",
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:23:33Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -290,7 +306,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -306,10 +322,6 @@
     "label": "two or more signature moves"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -319,11 +331,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/tranos-choros.json"
  },
- "fingerprint": "d2e11f655e87face",
- "updated": "2026-11-22"
+ "fingerprint": "ba5758a0076e9e0d",
+ "updated": "2026-11-24"
 }

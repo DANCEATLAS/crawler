@@ -1,0 +1,145 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Malttugi performs a sword dance; Mundung-tal uses expressive gestures of sorrow.",
+      "difficulty": "advanced",
+      "footwork": "The primary footwork is called 'dutbegi'.",
+      "formation_and_space": "Processional marching through districts and houses, followed by localized performance of the five stories.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Interaction between characters (e.g., Malttugi and noblemen, Youngno and nobleman).",
+      "posture": "Varies by character; Mundung-tal uses a posture of lamentation, while Malttugi is active and vigorous.",
+      "signature_moves": [
+        {
+          "description": "The foundational dance movement style of the Ogwandae players.",
+          "name": "Dutbegi"
+        },
+        {
+          "description": "An active dance with a sword that transitions into a calmer state.",
+          "name": "Malttugi's Sword Dance"
+        },
+        {
+          "description": "A lion dance where a lion consumes a marten, representing the law of the jungle.",
+          "name": "Sajachum"
+        }
+      ],
+      "tempo_feel": "Starts active (especially the sword dance) and becomes more calm.",
+      "what_to_avoid": "Avoid treating the satirical mockery of noblemen as mere slapstick; it carries historical weight of social class tension."
+    },
+    "music_profile": {
+      "instruments": [
+        "Percussion instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "satirical",
+        "exorcistic",
+        "lamenting",
+        "active"
+      ],
+      "musical_form": "Five-act structure with distinct accompaniment for each story",
+      "reference_recordings": [],
+      "rhythm_pattern": "Gyeongsangnam-do provincial percussion style",
+      "sound_description": "The music is characterized by a distinct regional percussion style from the Gyeongsangnam-do province. It features rhythmic accompaniment for the 'dutbegi' dance and includes vocal elements such as Buddhist chants used during the exorcism procession.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanting of Buddhist prayers (by Junggwandae)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Dutbegi basic step (rhythmic stepping)",
+        "Mundung-tal lamentation gestures",
+        "Malttugi sword dance sequence",
+        "Youngno predatory stalking",
+        "Sajachum (lion) movements"
+      ],
+      "formation": "Processional and open-circle performance",
+      "level_notes": "Requires mastery of specific character masks and the 'dutbegi' rhythmic bounce.",
+      "rhythm": "Gyeongsangnam-do provincial percussion style"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "5592c22f2be727e5150c0fdef3dc24e608d8a1308761b568facea7fd6125424c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific percussion instruments used in the Gyeongsangnam-do style for this dance? Evidence needed: https://en.wikipedia.org/wiki/Tongyeong_ogwangdae"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic counts and weight shifts of the 'dutbegi' step? Evidence needed: https://en.wikipedia.org/wiki/Tongyeong_ogwangdae"
+    ]
+  },
+  "id": "atlas:tongyeong-ogwandae",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tongyeong ogwandae",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "4152ac219544dd37",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tongyeong_ogwangdae",
+      "question": "What are the specific rhythmic counts and weight shifts of the 'dutbegi' step?",
+      "source": "https://en.wikipedia.org/wiki/Tongyeong_ogwangdae",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the foundation of the dance, the exact timing and weight distribution of the 'dutbegi' must be visualized."
+    },
+    {
+      "domain": "research",
+      "id": "459cc0b67e8a3db6",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tongyeong_ogwangdae",
+      "question": "What are the specific percussion instruments used in the Gyeongsangnam-do style for this dance?",
+      "source": "https://en.wikipedia.org/wiki/Tongyeong_ogwangdae",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions 'percussion accompaniment' but does not name the specific drums (e.g., buk, janggu) or gongs (kkwaenggwari) required for an authentic sound profile."
+    }
+  ],
+  "research_file": "research_results/tongyeong-ogwandae.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tongyeong-ogwandae",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tongyeong_ogwangdae",
+    "https://www.wikidata.org/wiki/Q7821215"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

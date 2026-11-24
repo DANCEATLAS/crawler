@@ -1,6 +1,6 @@
 # moshing — episode pack
 
-*Status: complete · built 2026-11-22 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
+*Status: complete · built 2026-11-24 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An aging hardcore veteran with a background in physics, blending street-smarts with crowd dynamics theory.
@@ -333,7 +333,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the street-urban family studied · videos studied: 67
+Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer

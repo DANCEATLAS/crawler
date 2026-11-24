@@ -1,6 +1,6 @@
 # Tambourin — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 

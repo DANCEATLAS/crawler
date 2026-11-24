@@ -1,8 +1,8 @@
 # Bigwala — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A welcoming, authoritative cultural tradition bearer dedicated to preserving African heritage.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Royal Horns of Busoga
 NARRATION: This is Bigwala. 18th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (t6Y4vJ8xvOc)
 ON SCREEN: Title card: Bigwala · Uganda · 18th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The performance is structured as a cumulative procession.
 NARRATION: A solo trumpet opens the piece, followed in succession by four interlocking hocket trumpets, five drummers, singers, and processional dancers.
 NARRATION: Dancers move in a widening circular formation around the central drummers.
 NARRATION: Watch for Waist Sway, Processional Hop.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (t6Y4vJ8xvOc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Concentric circular processional line rotating around central drummers, gradually widening as participants join.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 't6Y4vJ8xvOc', 'checked_by_vision_model': True, 'title': 'Bigwala , gourd trumpet music and dance of the Busoga Kingdom in Uganda.'}
 Images: 4 licensed — Jamie Price / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Irene Fedrigo / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kateregga1 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kateregga1 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Curved Enhendo gourds drying on firewood racks., Interlocking hocket playing of five distinct gourd trumpets., Concentric circular movement surrounding central traditional drummers.
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (5): https://en.wikipedia.org/wiki/Bigwala; https://www.wikidata.org/wiki/Q28154356; https://fr.wikipedia.org/wiki/Bigwala; https://it.wikipedia.org/wiki/Bigwala; https://ich.unesco.org/en/USL/00749

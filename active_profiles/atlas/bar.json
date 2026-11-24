@@ -1,13 +1,68 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Participants link hands, shoulders, or arms.",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Side-by-side group formation in open spaces.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group-based, side-by-side.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "davul",
+        "zurna"
+      ],
+      "meter": "5/8, 9/8, 6/8, 12/8",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "not described in sources",
+          "title": "Atabarı"
+        }
+      ],
+      "rhythm_pattern": "Aksak 9/8",
+      "sound_description": "The music is characterized by the shrill, piercing sound of the zurna paired with the rhythmic pulse of the davul drum, often utilizing the complex, asymmetrical Aksak 9/8 meter.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "Side-by-side group formation",
+      "level_notes": "not described in sources",
+      "rhythm": "5/8, 9/8, 6/8, 12/8"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4a119e613bbaf0e5f5350e54f707936677b27fa977aa6d5b3f8bc6e42441db11",
+  "fingerprint": "26e565effd2eac81a71f3c0696110834aff733df89a01c008c6ff90ef48a5056",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +70,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns associated with the 9/8 Aksak meter in Bar? Evidence needed: Ethnographic field studies or instructional manuals on Turkish folk dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +99,18 @@
   ],
   "music_options": [],
   "name": "Bar",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f3d4041d392bee6f",
+      "next_evidence": "Ethnographic field studies or instructional manuals on Turkish folk dance.",
+      "question": "What are the specific footwork patterns associated with the 9/8 Aksak meter in Bar?",
+      "source": "https://en.wikipedia.org/wiki/Bar_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the formation and music but lack technical details for movement instruction."
+    }
+  ],
+  "research_file": "research_results/bar.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +122,7 @@
   "slug": "bar",
   "sources": [
     "https://en.wikipedia.org/wiki/Bar_(dance)",
-    "Source: Bar (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bar_(dance)"
+    "https://www.wikidata.org/wiki/Q4857863"
   ],
   "state": "researching",
   "video_evidence": []

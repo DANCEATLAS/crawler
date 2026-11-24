@@ -1,8 +1,8 @@
 # Veeragase — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Maheshwara elder who emphasizes the spiritual weight and ancestral lineage of every step.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Fury of the Jangama
 NARRATION: This is Veeragase. Ancient/Medieval origin; living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (PaTicy6gpIk)
 ON SCREEN: Title card: Veeragase · India · Ancient/Medieval origin; living tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is characterized by intense, energy-sapping movements perfo
 NARRATION: Dancers maintain a high level of vigor throughout the performance, often involving wide stances and rhythmic stepping that synchronizes with the percussion.
 NARRATION: A lead singer provides the narrative structure while dancers embody the warrior spirit.
 NARRATION: Watch for Shastra Dharane.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (PaTicy6gpIk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Troupe of 2, 4, or 6 members; involves a decorative pole (Nandikolu)
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'PaTicy6gpIk', 'checked_by_vision_model': True, 'title': 'Veeragase Kunitha - Veerabhadra Dance - Folk Dance of Karnataka'}
 Images: 1 licensed — Nikhilmhatre294 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Folk Dances of Karnataka — https://archive.org/details/dni.ncaa.ICCR-93-VHS
 Motifs: The orange flag atop the Nandikolu pole, The silver needles used for ritual piercing, Vibrant, warrior-style costumes, Sweat-streaked faces of the dancers during intense movement
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (2): https://en.wikipedia.org/wiki/Veeragase; https://www.wikidata.org/wiki/Q7918149

@@ -2,7 +2,7 @@
  "slug": "mongol-biyelgee",
  "name": "Mongol Biyelgee",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-18T20:50:56Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Mongol Biyelgee. Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (qCNlGz-d9mA)",
      "Title card: Mongol Biyelgee · Mongolia · Traditional"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Zakhchin squat, Bayid knee-balance."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (qCNlGz-d9mA)",
      "Captions name each signature move as it appears",
      "Formation: Confined space before a hearth inside a ger"
     ],
@@ -704,7 +704,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "qCNlGz-d9mA",
+   "checked_by_vision_model": true,
+   "title": "Mongolian Traditional Dance| Bii Biyelgee"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -750,12 +754,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 13,
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → full",
    "repetitions per step: about 4"
   ],
@@ -767,19 +771,18 @@
    "move your hips side to side",
    "scrape it along the floor",
    "remember to breathe",
-   "y tac tac",
-   "el segundo",
-   "loosen those hips",
-   "connect with the earth",
-   "knees have to be bent"
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice"
   ],
@@ -789,7 +792,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "notable figures",
@@ -807,6 +809,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "aa8699b7b7567ccd467c023975d694560f2ce6d276641c109b70669ab0020f63",
- "hero_checked": null
+ "input_fingerprint": "f6926910356df01ad456aac5edce0f5f776a67aa202b79c1ed50449bdbfcf891",
+ "hero_checked": "pass"
 }

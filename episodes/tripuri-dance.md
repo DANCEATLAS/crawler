@@ -1,8 +1,8 @@
 # Tripuri dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An engaging documentary presenter visiting village elders and community practitioners in the Tripura hills.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rhythms of the Jhum Hills: The Dances of Tripura
 NARRATION: This is Tripuri dance. Traditional / Continuous.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (CEesl2Rq-_Q)
 ON SCREEN: Title card: Tripuri dance · India · Traditional / Continuous
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The performance structure varies by specific tradition.
 NARRATION: The Goria dance is performed by both men and women moving village to village in a gradually increasing tempo using mudras that mimic natural movements.
 NARRATION: In the Reang clan's Hojagiri dance, teams of four to six young women balance props like bottles or earthen pitchers on their heads and lamps on their hands while moving only the lower half of the body.
 NARRATION: Watch for Tokka Clapping, Lebang Scarf Catch, Prop Balancing Lower Isolation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (CEesl2Rq-_Q)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processions moving across village terrain; small group floor patterns of 4 to 6 members.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'CEesl2Rq-_Q', 'checked_by_vision_model': False, 'title': 'JADU HINWI ANG || KOKBOROK SONG -Kokborok Dance - Tripuri Dance 💃'}
 Images: 1 licensed — Akkkanksha / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Folk and Tribal Dances of Tripura, Karnataka and Uttar Pradesh — https://archive.org/details/dni.ncaa.CCRT-94-UMHB
 Motifs: Bamboo tokka clappers striking, Colorful scarves sweeping through air, Earthen pitchers balanced on heads, Paper boats floating down rivers
@@ -112,7 +112,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

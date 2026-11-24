@@ -1,8 +1,8 @@
 # Petrunino Horo — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Balkan ethnochoreologist and rhythm specialist.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Mastering the 12/16 Pulse of Shopluk
 NARRATION: This is Petrunino Horo. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (C_M_HrnFUSw)
 ON SCREEN: Title card: Petrunino Horo · Bulgaria · 20th century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 NEEDS: occasions_and_meaning
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (C_M_HrnFUSw)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -68,7 +68,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step on count 1 (slow)
 NARRATION: Step on count 2 (quick)
-NARRATION: Count it: count the 12/16 bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-2-3-4-5.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -95,7 +95,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 12/16 bar out loud, then in pairs of bars. The meter is 12/16.
+NARRATION: Count: 1-2-3-4-5. The meter is 12/16.
 NARRATION: Rhythm pattern: slow, quick, quick, quick, medium.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -106,10 +106,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Step on count 1 (slow)
 NARRATION: Step 2: Step on count 2 (quick)
 NARRATION: Drill: Count aloud 'slow, quick, quick, quick, medium' to a steady pulse
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 12/16 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step on count 3 (quick)
@@ -117,7 +117,7 @@ NARRATION: Step 4: Step on count 4 (quick)
 NARRATION: Drill: Clap on the primary beats of the 12/16 meter
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 12/16 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -133,7 +133,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 12/16 bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 130 bpm
@@ -161,7 +161,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 12/16 bar out loud, then in pairs of bars. The meter is 12/16.
+NARRATION: Count: 1-2-3-4-5. The meter is 12/16.
 NARRATION: Rhythm pattern: slow, quick, quick, quick, medium.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -171,16 +171,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step or lift on count 5 (medium)
 NARRATION: Drill: Weight transfer on the slow count followed by rapid steps on the three quick counts
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 12/16 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Pause/hold stability on the medium count
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 12/16 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -197,7 +197,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 12/16 bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 130 bpm
@@ -226,7 +226,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 12/16 bar out loud, then in pairs of bars. The meter is 12/16.
+NARRATION: Count: 1-2-3-4-5. The meter is 12/16.
 NARRATION: Rhythm pattern: slow, quick, quick, quick, medium.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -237,15 +237,15 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Step on count 4 (quick)
 NARRATION: Step 2: Step or lift on count 5 (medium)
 NARRATION: Drill: Full sequence integration at full speed in chain formation
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 12/16 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 12/16 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -262,7 +262,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 12/16 bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 130 bpm
@@ -289,7 +289,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'C_M_HrnFUSw', 'checked_by_vision_model': True, 'title': 'Petrunino horo /Петрунино хоро'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Close-up on rhythmic footwork patterns, Graphic breakdown of the 12/16 meter subdivisions, Line formation in syncopated movement
@@ -299,9 +299,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
-Counting: count the 12/16 bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 2
+Cues: 1-2-3-4-5
 
 Sources (2): https://en.wikipedia.org/wiki/Petrunino_horo; https://www.wikidata.org/wiki/Q24911650

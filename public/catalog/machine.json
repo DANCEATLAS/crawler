@@ -1,22 +1,23 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-23T03:32:29Z",
+ "generated_at": "2026-11-24T00:45:45Z",
  "last_night": {
-  "date": "2026-11-22",
-  "started": "2026-11-22T17:13:07Z",
-  "finished": "2026-11-22T20:27:29Z",
-  "minutes": 194,
-  "questions": 276,
-  "unanswered": 3,
-  "stages": 13,
+  "date": "2026-11-23",
+  "started": "2026-11-23T21:30:31Z",
+  "finished": "2026-11-24T00:45:43Z",
+  "minutes": 195,
+  "questions": 221,
+  "unanswered": 59,
+  "stages": 11,
   "errors": [],
   "trouble": [
-   "research: model trouble: overloaded 21, day_quota_used_up 5, timeout_or_network 1, model_gone 1",
-   "qc: model trouble: waited_seconds 24, overloaded 7, day_quota_used_up 4, model_gone 2",
-   "hero_qc: model trouble: overloaded 1",
-   "pedagogy: model trouble: unusable_answer 8, overloaded 5, day_quota_used_up 3, model_gone 1",
+   "research: model trouble: waited_seconds 2346, overloaded 55, day_quota_used_up 5, model_gone 2, timeout_or_network 1",
+   "qc: model trouble: waited_seconds 43, no_model_available 38, overloaded 11, day_quota_used_up 5, model_gone 2, timeout_or_network 1",
+   "hero_qc: model trouble: overloaded 5, day_quota_used_up 5, model_gone 2",
+   "teaching: model trouble: overloaded 5, day_quota_used_up 5, model_gone 2, unusable_answer 1, no_model_available 1",
+   "pedagogy: model trouble: overloaded 8, unusable_answer 5, day_quota_used_up 4, model_gone 2, timeout_or_network 2, no_model_available 2",
    "episodes: model trouble: overloaded 1",
-   "teaching: model trouble: unusable_answer 2, overloaded 1, day_quota_used_up 1"
+   "translate: model trouble: overloaded 1"
   ]
  },
  "nights": [
@@ -215,18 +216,25 @@
    "questions": 276,
    "unanswered": 3,
    "errors": 0
+  },
+  {
+   "date": "2026-11-23",
+   "minutes": 195,
+   "questions": 221,
+   "unanswered": 59,
+   "errors": 0
   }
  ],
  "counts": {
-  "listed": 1295,
-  "researched": 665,
-  "published": 540,
-  "active_ready": 40,
-  "one_short": 47,
-  "two_short": 51,
-  "three_to_five_short": 122,
-  "story_ready_teaching_withheld": 51,
-  "lessons_studied": 237,
+  "listed": 1300,
+  "researched": 683,
+  "published": 545,
+  "active_ready": 41,
+  "one_short": 45,
+  "two_short": 50,
+  "three_to_five_short": 127,
+  "story_ready_teaching_withheld": 57,
+  "lessons_studied": 262,
   "performances_observed": 220
  },
  "line": [
@@ -292,76 +300,85 @@
    "active_ready": 40,
    "lessons_studied": 237,
    "performances_observed": 220
+  },
+  {
+   "date": "2026-11-24",
+   "listed": 1300,
+   "researched": 683,
+   "published": 545,
+   "active_ready": 41,
+   "lessons_studied": 262,
+   "performances_observed": 220
   }
  ],
  "pace": {
-  "days": 6,
+  "days": 8,
   "per_night": {
-   "listed": 23.3,
-   "published": 30.2,
-   "active_ready": 5.8
+   "listed": 18.1,
+   "published": 23.2,
+   "active_ready": 4.5
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 309
+   "profiles": 312
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 200
+   "profiles": 203
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 193
+   "profiles": 197
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 152
+   "profiles": 145
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 134
+   "profiles": 137
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 126
+   "profiles": 127
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 118
+   "profiles": 121
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 113
+   "profiles": 114
   },
   {
    "key": "arms",
    "label": "arms and hands",
-   "profiles": 92
+   "profiles": 94
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 85
+   "profiles": 88
   },
   {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 81
+   "profiles": 83
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 69
+   "profiles": 71
   },
   {
    "key": "formation",
@@ -576,6 +593,16 @@
    ]
   },
   {
+   "slug": "formation-dance",
+   "name": "Formation dance",
+   "needs": [
+    "the instruments and what the music sounds like"
+   ],
+   "need_keys": [
+    "sound"
+   ]
+  },
+  {
    "slug": "fouette",
    "name": "Fouetté",
    "needs": [
@@ -666,16 +693,6 @@
    ]
   },
   {
-   "slug": "jurit-ampil-kridha-warastra-dance",
-   "name": "Jurit Ampil Kridha Warastra Dance",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
    "slug": "kebyar-duduk",
    "name": "Kebyar duduk",
    "needs": [
@@ -693,16 +710,6 @@
    ],
    "need_keys": [
     "mistakes"
-   ]
-  },
-  {
-   "slug": "marinera-nortena",
-   "name": "Marinera Norteña",
-   "needs": [
-    "a hero video that passed the vision check"
-   ],
-   "need_keys": [
-    "hero_video"
    ]
   },
   {
@@ -766,13 +773,23 @@
    ]
   },
   {
-   "slug": "queer-tango",
-   "name": "Queer Tango",
+   "slug": "rebolation",
+   "name": "Rebolation",
    "needs": [
-    "the steps with their counts"
+    "a licensed picture or licensed footage"
    ],
    "need_keys": [
-    "footwork_counts"
+    "picture"
+   ]
+  },
+  {
+   "slug": "sequence-dance",
+   "name": "Sequence dance",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
    ]
   }
  ],
@@ -783,23 +800,23 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 40,
+  "topics_read": 45,
   "first": {
    "topics": 14,
    "read": 12
   },
   "next": [
-   "mirrors_in_dance",
-   "online_dance_learning",
-   "dance_pedagogy",
-   "beginners",
-   "scaffolding",
-   "zone_of_proximal_development"
+   "mastery_learning",
+   "growth_mindset",
+   "flow",
+   "play",
+   "overlearning",
+   "retrieval_practice"
   ],
-  "papers_read": 15,
-  "lessons_studied": 91,
-  "teachers_studied": 82,
-  "findings_checked": 171,
+  "papers_read": 19,
+  "lessons_studied": 98,
+  "teachers_studied": 88,
+  "findings_checked": 197,
   "practices": 37,
   "practices_in_dna": 29
  }

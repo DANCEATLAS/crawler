@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "egg-dance",
  "name": "Egg dance",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "DE"
@@ -46,6 +46,10 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 0.0,
+  "last_researched_at": "2026-11-23T23:50:59Z",
+  "pipeline_version": "v3.3",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -59,6 +63,45 @@
    "schuhplattler"
   ]
  },
- "fingerprint": "3a6a236b7237da3d",
- "updated": "2026-11-21"
+ "readiness": {
+  "standard": "AR-1",
+  "have": 7,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "fingerprint": "d56a7ee5aa2c1470",
+ "updated": "2026-11-24"
 }

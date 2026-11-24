@@ -33,6 +33,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/The_Stroll",
   "wikidata_qid": "Q7767048",
   "unesco": false,
+  "hero_video_youtube_id": "UrGLNtZ0rEg",
+  "video_stack": [
+   {
+    "youtube_id": "UrGLNtZ0rEg",
+    "role": "hero",
+    "title": "The Original Stroll - February 1958",
+    "channel": "MrMemories",
+    "hd": false
+   },
+   {
+    "youtube_id": "ec_WPieGf98",
+    "role": "rendition",
+    "title": "The Stroll  - The Diamonds - (Strolling) American Graffiti (Blu-ray 1080p)",
+    "channel": "soulgladiator27",
+    "hd": true
+   },
+   {
+    "youtube_id": "SCbbKps6JGk",
+    "role": "rendition",
+    "title": "The Stroll (1958)",
+    "channel": "Library of Dance",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -58,6 +82,14 @@
   ],
   "movie_ready": true,
   "tradition_status": "revived",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:23:31Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "big-apple"
   ]
@@ -364,7 +396,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -376,10 +408,6 @@
     "label": "two or more signature moves"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -389,11 +417,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 2,
+  "gaps": 1,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/the-stroll.json"
  },
- "fingerprint": "7bb0e9c04943ccf5",
- "updated": "2026-11-22"
+ "fingerprint": "8844f7ed690a28ed",
+ "updated": "2026-11-24"
 }

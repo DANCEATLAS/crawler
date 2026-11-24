@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "bar",
  "name": "Bar",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "TR"
@@ -59,6 +59,10 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 0.0,
+  "last_researched_at": "2026-11-23T23:51:51Z",
+  "pipeline_version": "v3.3",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -122,6 +126,49 @@
    "armenian-dance"
   ]
  },
- "fingerprint": "4ba803a16f0a48fb",
- "updated": "2026-11-21"
+ "readiness": {
+  "standard": "AR-1",
+  "have": 6,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "fingerprint": "73eaf9737e54f21b",
+ "updated": "2026-11-24"
 }

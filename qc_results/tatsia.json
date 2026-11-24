@@ -1,0 +1,104 @@
+{
+ "slug": "tatsia",
+ "qc_at": "2026-11-24T00:19:57Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Tatsia"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "172"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "A Cypriot solo challenge dance where men spin a wooden flour sieve—carrying up t"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "641"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2350"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/7 rate=0.857"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Cyprus"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": null,
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "no_judge"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
+ },
+ "researched_at": "2026-11-23T22:07:19Z"
+}

@@ -1,8 +1,8 @@
 # Punto music — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Panamanian folk dancer
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Elegant Intermission: Panama's Punto
 NARRATION: This is Punto music. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (IrsyBbWyLrQ)
 ON SCREEN: Title card: Punto music · Panama · 19th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The dance begins with the man kneeling on his left knee.
 NARRATION: The couple then cycles through four movements: El Paseo (a wide circle), El Zapateo (face-to-face footwork), El Escobillao (a backward-moving separation), and El Seguidilla (close rotation).
 NARRATION: Watch for El Paseo, El Zapateo.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (IrsyBbWyLrQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular; man moves outside the circle in Punto de Mejorana
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -300,7 +300,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is performed as an intermission at parties or social events. Women may perform flourishes with their skirts, particularly in the Punto de Mejorana.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'IrsyBbWyLrQ', 'checked_by_vision_model': True, 'title': 'El Punto Proyecto Folclore Para El Mundo'}
 Images: 0 licensed
 Footage: Blessed We Are — https://archive.org/details/guacamayo-danit-friends-live-2019
 Motifs: The kneeling man, The woman's skirt flourish, The rabel player
@@ -310,7 +310,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

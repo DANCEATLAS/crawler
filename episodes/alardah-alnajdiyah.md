@@ -1,8 +1,8 @@
 # Alardah Alnajdiyah (Saudi Ardah) — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian or traditional dance practitioner.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sword and the Song: The Saudi Ardah
 NARRATION: This is Alardah Alnajdiyah (Saudi Ardah). Tribal origin; UNESCO inscribed 2015.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (lu01R77Pp9k)
 ON SCREEN: Title card: Alardah Alnajdiyah (Saudi Ardah) · Saudi Arabia · Tribal origin; UNESCO inscribed 2015
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: The dance is performed by two rows of men facing each other.
 NARRATION: Participants move their bodies forward and backward in rhythm with the drums and poetry.
 NARRATION: Dancers may brandish a sword or cane, raising and lowering it while tilting their hand to one side.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (lu01R77Pp9k)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: two rows of men facing each other with a central space
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -291,7 +291,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'lu01R77Pp9k', 'checked_by_vision_model': True, 'title': 'Salayal سلايل - A Saudi Sword Dance (Ardah) Song'}
 Images: 2 licensed — Abodi009 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); The White House from Washington, DC / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Two rows of men in traditional dress, Light swords held aloft, The central flag-bearer
@@ -301,9 +301,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (6): https://en.wikipedia.org/wiki/Ardah; https://www.wikidata.org/wiki/Q3447507; https://es.wikipedia.org/wiki/Ardah; https://fr.wikipedia.org/wiki/Alardah_Alnajdiyah; https://pt.wikipedia.org/wiki/Ardah; https://it.wikipedia.org/wiki/Ardah

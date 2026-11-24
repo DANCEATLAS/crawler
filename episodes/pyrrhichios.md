@@ -1,6 +1,6 @@
 # Pyrrhichios — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 8.95 · 5/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 8.95 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (5): https://en.wikipedia.org/wiki/Pyrrhichios; https://www.wikidata.org/wiki/Q3065041; https://es.wikipedia.org/wiki/Danza_pírrica; https://fr.wikipedia.org/wiki/Pyrrhique; https://it.wikipedia.org/wiki/Danza_pirrica

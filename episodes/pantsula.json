@@ -2,7 +2,7 @@
  "slug": "pantsula",
  "name": "Pantsula",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-21T19:12:54Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -186,7 +186,7 @@
     "narration": [
      "Before we go, one step. Fast shuffling footwork",
      "Jumping movements",
-     "Count it: 5-6-7-8.",
+     "Count it: 1-2-3.",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -250,7 +250,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8.",
+      "Count: 1-2-3.",
       "Rhythm pattern: Strong, sharp, and syncopated..",
       "Clap it first, then step it in place."
      ],
@@ -279,7 +279,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3",
      "repetitions": 3
     },
     {
@@ -294,7 +294,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3",
      "repetitions": 3
     },
     {
@@ -335,7 +335,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 5-6-7-8.",
+      "Count-in: 1-2-3.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -399,7 +399,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8.",
+      "Count: 1-2-3.",
       "Rhythm pattern: Strong, sharp, and syncopated..",
       "Clap it first, then step it in place."
      ],
@@ -427,7 +427,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3",
      "repetitions": 3
     },
     {
@@ -445,7 +445,7 @@
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3",
      "repetitions": 3
     },
     {
@@ -486,7 +486,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 5-6-7-8.",
+      "Count-in: 1-2-3.",
       "Full tempo, the whole sequence, twice. Formation: Groups move in and out of geometric formations."
      ],
      "on_screen": [
@@ -550,7 +550,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8.",
+      "Count: 1-2-3.",
       "Rhythm pattern: Strong, sharp, and syncopated..",
       "Clap it first, then step it in place."
      ],
@@ -578,7 +578,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3",
      "repetitions": 3
     },
     {
@@ -595,7 +595,7 @@
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3",
      "repetitions": 3
     },
     {
@@ -636,7 +636,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 5-6-7-8.",
+      "Count-in: 1-2-3.",
       "Full tempo, the whole sequence, twice. Formation: Groups move in and out of geometric formations."
      ],
      "on_screen": [
@@ -801,9 +801,9 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of this dance studied",
-  "videos_studied": 2,
-  "counting": "5-6-7-8",
+  "source": "3 tutorial(s) of this dance studied",
+  "videos_studied": 3,
+  "counting": "1-2-3",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
    "views used by most teachers: front",
@@ -812,6 +812,8 @@
   ],
   "cues": [
    "5-6-7-8",
+   "check it out",
+   "make sure this part of your ankle is facing left diagonal",
    "kick bend release",
    "one two three four",
    "here we go"
@@ -821,12 +823,30 @@
   ],
   "segment_order": [
    "intro",
+   "context",
    "full_demo",
    "warmup",
+   "slow_practice",
    "breakdown",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "Right Outer-lock",
+    "counts": "1-2-3",
+    "description": "Step with toe facing left diagonal, put heel down facing right diagonal, pick up toes facing right diagonal."
+   },
+   {
+    "name": "Left Outer-lock",
+    "counts": "1-2-3",
+    "description": "Step with toe facing right diagonal, put heel down facing left diagonal, pick up toes facing left diagonal."
+   },
+   {
+    "name": "Dual Outer-locks",
+    "counts": "1-2-3",
+    "description": "Performing right and left outer-locks at the same time with right foot in front and left at the back."
+   },
    {
     "name": "Spharaphara",
     "counts": "5-6-7-8",
@@ -873,6 +893,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "ed228b798ad7519d2cf3eba6bd16430975958dbdcd93478f829cb2a1d86ea2b2",
+ "input_fingerprint": "914aeafe4a9a0e44775bd6ac9dc18b458ea6b3da7da523208a4f46fb57ea195b",
  "hero_checked": "pass"
 }

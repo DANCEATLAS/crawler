@@ -1,0 +1,117 @@
+{
+ "youtube_id": "Rn-aWEbHdNE",
+ "slug": "coco-brazil",
+ "dance": "coco brazil",
+ "title": "HIP LIFTS - BELLYDANCE ESSENTIALS 1 - learn how to dance with Coco Berlin",
+ "channel": "COCO BERLIN",
+ "viewer_ratio": 4.5,
+ "analysed_at": "2026-11-24T00:43:56Z",
+ "url": "https://www.youtube.com/watch?v=Rn-aWEbHdNE",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Coco Berlin uses a detailed, breakdown-heavy teaching style focusing on alignment, weight distribution, and body awareness. She encourages students to test different postures and find what feels comfortable.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to the bellydance movement"
+   },
+   {
+    "t": "0:05",
+    "segment": "breakdown",
+    "note": "Detailed instruction on stance, knee bending, and hip lifts"
+   }
+  ],
+  "counting_scheme": "front-and-back",
+  "cues": [
+   "bend your knees front and back",
+   "get centered",
+   "relax your hip"
+  ],
+  "metaphors": [
+   "weight is directed directly into the floor",
+   "hip is really just hanging"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "mirror"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "locking knees",
+   "feet too far apart causing joint torsion",
+   "moving upper body"
+  ],
+  "safety": [
+   "Never locking the knees and placing joints under hip joints to direct weight into the floor."
+  ],
+  "steps_taught": [
+   {
+    "name": "mutual hip lift",
+    "counts": "front-back",
+    "description": "Lifting and lowering hips by bending and straightening knees with weight centered."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear breakdown of knee and foot placement",
+    "rechecking body tension and breathing"
+   ],
+   "what_hinders": [
+    "Long verbal explanations before physical execution"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:06",
+    "text": "We start with placing ourselves nicely on the floor."
+   },
+   {
+    "t": "0:55",
+    "text": "so the weight is directed directly into the floor."
+   },
+   {
+    "t": "1:29",
+    "text": "put your hands here on your hip and find out if you really moving parallel to the mirror"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 5,
+    "end_s": 25,
+    "topic": "movement",
+    "observation": "Teacher stands facing away from camera towards a mirror, demonstrating foot placement and knee bending.",
+    "viewpoint": "back view, mirrored",
+    "cannot_infer": "exact muscle engagement under clothing",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 125,
+    "end_s": 140,
+    "topic": "teaching",
+    "observation": "Teacher places hands on hips to emphasize alignment parallel to the mirror.",
+    "viewpoint": "back view, mirrored",
+    "cannot_infer": "student internal sensation",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Emphasizes self-exploration of posture by testing different foot widths and hand placements on the hips to increase body awareness."
+ },
+ "attempts": 1
+}

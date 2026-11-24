@@ -1,8 +1,8 @@
 # Dhemsa — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful, grounded documentary host focused on collective movement mechanics and indigenous instrumental music.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rhythms of the Tribal Night: Dhemsa of Southern and Central India
 NARRATION: This is Dhemsa. Ancient / Contemporary living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (rm2uw5nGG0M)
 ON SCREEN: Title card: Dhemsa · India · Ancient / Contemporary living tradition
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Shoulder-Waist Hold.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (rm2uw5nGG0M)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group lines or circular formations moving in connected contact
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -297,7 +297,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'rm2uw5nGG0M', 'checked_by_vision_model': True, 'title': 'Dhemsa dance 2023 //gadhipabli Ganesh Puja visarjan//Maa thakurani band party ph-7008412892'}
 Images: 1 licensed — Government of Odisha / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: Tribal and Folk Dances of Maharashtra — https://archive.org/details/dni.ncaa.ICCR-80-VHS
 Motifs: Interlocked hands gripping waists and shoulders in continuous lines, Close-ups of the mahuri wind instrument played by the Mohuria, Traditional drums: dhol, tamak', and changu being struck in night light
@@ -307,7 +307,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

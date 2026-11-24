@@ -1,8 +1,8 @@
 # Alamikkali — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful regional documentary narrator guiding viewers through Kasargod's sacred communal heritage.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Black Ash Unity: Sacred Flames of Kasargod
 NARRATION: This is Alamikkali. Historical origin / modern living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (11CLF1T-CEU)
 ON SCREEN: Title card: Alamikkali · India · Historical origin / modern living tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Dancers move in small itinerant groups of five to six members, visiti
 NARRATION: They process barefoot with inflated energy, creating noise using hand-held sticks and attached bells.
 NARRATION: Before each residence, they lay down their alms collection vessels and execute an energetic, unstructured dance in front of the house without giving strict priority to rhythmic precision.
 NARRATION: Watch for Alami Processional Step, Flame Rolling.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (11CLF1T-CEU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Small itinerant group procession of 5-6 members moving through village pathways to house fronts
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '11CLF1T-CEU', 'checked_by_vision_model': True, 'title': 'Alamikali | #CatchTheRhythm | Kerala 365 | Kerala Tourism'}
 Images: 0 licensed
 Footage: File:Alamikkali Folk dance.webm — https://upload.wikimedia.org/wikipedia/commons/a/af/Alamikkali_Folk_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Charcoal-painted skin with white spots, Areca spathe caps decorated with bright red Ixora flowers, Flame-shaped rock-lined floor at Alamippalli, Barefoot dancers holding sticks and deep-bottomed vessels
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: count the Unstructured / freeform vocal meter bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (2): https://en.wikipedia.org/wiki/Alamikkali; https://www.wikidata.org/wiki/Q28403897

@@ -2,9 +2,9 @@
  "slug": "pas-de-deux",
  "name": "pas de deux",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
- "researched_at": "2026-11-11T18:11:18Z",
- "qc_score": 9.1,
+ "built_at": "2026-11-24T00:44:44Z",
+ "researched_at": "2026-11-23T23:35:23Z",
+ "qc_score": 10.0,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "Classical ballet historian or principal dancer",
+   "persona": "A ballet historian or principal dancer.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -63,12 +63,12 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Art of Two: Unlocking the Pas de Deux",
+     "The Art of Two: Decoding the Pas de Deux",
      "This is pas de deux. 18th century to present."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (qy6dlGpC3Ns)",
-     "Title card: pas de deux · France (term origin), Russia (19th-century codification) · 18th century to present"
+     "Title card: pas de deux · France (origin), Russia (codification) · 18th century to present"
     ],
     "music": "theme (30 s)"
    },
@@ -77,12 +77,12 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The pas de deux originated in the early 18th century as an opening act for operas and ballets.",
-     "It evolved through the Baroque period, with ballets like 'The Loves of Mars and Venus' (1717) focusing on dramatic characterization.",
-     "Marius Petipa formalized the five-part structure in the 19th century, which remains the standard for the grand pas de deux."
+     "The pas de deux emerged in the mid-18th century within the 'ballet d'action' and reached its formal peak during the 19th-century Romantic era.",
+     "Marius Petipa is credited with codifying the five-part structure that remains the standard for the grand pas de deux.",
+     "While early versions focused on synchronized steps, the form evolved to emphasize the romantic partnership and the distinct technical capabilities of the ballerina and the danseur."
     ],
     "on_screen": [
-     "Map: France (term origin), Russia (19th-century codification) · Europe",
+     "Map: France (origin), Russia (codification) · Europe",
      "Image 1 with attribution"
     ],
     "music": "underscore"
@@ -92,7 +92,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The pas de deux is typically the climax of a scene or an entire ballet, symbolizing romantic love, affection, and the partnership between two characters.",
+     "The pas de deux is often the pièce de résistance of a ballet, frequently symbolizing a love story or the emotional connection between two characters.",
+     "It is used to illustrate the most poetic moments of a narrative.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -105,10 +106,10 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance is performed as a suite.",
-     "The adagio features supported balances, turns, and lifts (portés).",
-     "The variations showcase individual athleticism, including pirouettes and leaps.",
-     "Watch for Promenade, Portée."
+     "The dance is performed by a pair, typically a male and female.",
+     "The ballerina often dances on pointe, requiring advanced strength.",
+     "The danseur provides support, acting as a 'third leg' to balance, lift, and turn the ballerina.",
+     "Watch for Promenade, Pirouettes, Portée."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (qy6dlGpC3Ns)",
@@ -121,45 +122,44 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Music is typically orchestral, composed to support the specific emotional and technical requirements of each section.",
-     "The adagio is slow and melodic, while variations and the coda are faster and more rhythmic to accommodate acrobatic movement.",
+     "Music for the pas de deux is typically orchestral and composed to match the specific mood and technical requirements of each section.",
+     "The entrée is often an allegro, the adagio is slow and expressive, and the coda is a fast-paced, virtuosic finale.",
      "Listen for the Orchestra.",
-     "Orchestral music structured to match the five-part dance, moving from slow, lyrical adagio melodies to fast, high-energy climactic codas."
+     "The pulse is Entrée is often 3/4 time..",
+     "Orchestral music structured to support the varying technical demands of the dancers, moving from a stately entrance to a slow, lyrical adagio, and ending in a fast, climactic coda."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Swan Lake (Black Swan Pas de deux) — Piotr Ilich Chaikovski; The Nutcracker (Sugar Plum Fairy Pas de deux) — Piotr Ilich Chaikovski",
+     "Verified recording — MISSING",
      "Waveform or rhythm-pattern graphic: "
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
-     "tempo",
-     "meter"
+     "tempo"
     ]
    },
    {
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
-    "narration": [],
+    "narration": [
+     "Costumes vary based on the specific ballet, but generally follow classical ballet conventions, such as tutus for the ballerina and fitted tunics or tights for the danseur, allowing for a full range of motion and clear visibility of the dancers' lines."
+    ],
     "on_screen": [
      "Image gallery: 6 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "costume_and_setting"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Marius Petipa is the primary figure associated with the codification of the grand pas de deux.",
-     "Famous performers include Mikhail Baryshnikov, Gregory Hines, Tamara Rojo, Julio Bocca, Uliana Lopátkina, and Ígor Zelenski.",
-     "While the structure is standard in classical ballet, contemporary choreographers like Maurice Béjart, George Balanchine, and Akram Khan have adapted the form for same-sex duos and more acrobatic, non-traditional movements.",
-     "Inheritor of the 18th-century 'entrée à deux' and developed through the Romantic ballet of the 19th century."
+     "Marius Petipa is the primary figure in the codification of the form.",
+     "Contemporary choreographers like Maurice Béjart, George Balanchine, Akram Khan, and Sidi Larbi Cherkaoui have adapted the form for modern contexts.",
+     "While the grand pas de deux is a global standard in classical ballet, contemporary choreographers often refer to their works as 'duos' rather than 'pas de deux' to reflect a shift away from traditional structures.",
+     "The form is a direct descendant of the 18th-century 'entrée de ballet' and evolved through the Romantic ballet period into the 19th-century classical standard."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -185,8 +185,8 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Promenade: ballerina balances on pointe while the partner turns her.",
-     "Pirouettes: partner stabilizes and provides impulse for turns.",
+     "Before we go, one step. Entrée: Entrance and acknowledgement",
+     "Adagio: Sustained partnering and balances",
      "Count it: 2 counts off, 2 counts on.",
      "Chapter 1 takes it slowly from here."
     ],
@@ -201,8 +201,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the five-part structure of the grand pas de deux, the ultimate test of ballet partnership.",
-     "Sources: 5 references are listed with the profile."
+     "Explore the five-part structure that defines the ultimate romantic duet in classical ballet.",
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -226,7 +226,7 @@
      "narration": [
       "Chapter 1 — First steps. Today: Understand the structure.",
       "Level: Beginner. Difficulty of the dance overall: advanced.",
-      "Your instructor: Classical ballet historian or principal dancer"
+      "Your instructor: A ballet historian or principal dancer."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -238,7 +238,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Classical ballet alignment"
+      "Upright, classical ballet alignment.",
+      "Classical port de bras.",
+      "Controlled, aligned with the partner."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -250,7 +252,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 2 counts off, 2 counts on.",
+      "Count: 2 counts off, 2 counts on. The meter is Entrée is often 3/4 time..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -259,8 +261,7 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo",
-      "meter"
+      "tempo"
      ]
     },
     {
@@ -268,10 +269,10 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Promenade: ballerina balances on pointe while the partner turns her.",
-      "Step 2: Pirouettes: partner stabilizes and provides impulse for turns.",
-      "Footwork from the sources: Includes pointe work for the ballerina",
-      "Drill: Identify the five parts in a recording"
+      "Step 1: Entrée: Entrance and acknowledgement",
+      "Step 2: Adagio: Sustained partnering and balances",
+      "Footwork from the sources: Includes pointe work for the ballerina.",
+      "Drill: Identify the five parts"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -286,8 +287,9 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Portée: partner lifts the ballerina.",
-      "Drill: Practice basic stage acknowledgement"
+      "Step 3: Variation: Individual solo of leaps and turns",
+      "Step 4: Coda: Final virtuosic sequence",
+      "Drill: Observe a classic pas de deux"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
@@ -303,7 +305,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Discuss the roles of the dancers"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -345,7 +348,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: Understand the structure.",
-      "The pas de deux is typically the climax of a scene or an entire ballet, symbolizing romantic love, affection, and the partnership between two characters.",
+      "The pas de deux is often the pièce de résistance of a ballet, frequently symbolizing a love story or the emotional connection between two characters.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -359,17 +362,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "the building the dance of pas de deux",
-   "level": null,
+   "goal": "Analyze partnering",
+   "level": "Intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: the building the dance of pas de deux.",
-      "Level: intermediate. Difficulty of the dance overall: advanced.",
-      "Your instructor: Classical ballet historian or principal dancer"
+      "Chapter 2 — Building the dance. Today: Analyze partnering.",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A ballet historian or principal dancer."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -381,7 +384,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Classical ballet alignment"
+      "Upright, classical ballet alignment.",
+      "Classical port de bras.",
+      "Controlled, aligned with the partner."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -393,7 +398,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 2 counts off, 2 counts on.",
+      "Count: 2 counts off, 2 counts on. The meter is Entrée is often 3/4 time..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -402,8 +407,7 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo",
-      "meter"
+      "tempo"
      ]
     },
     {
@@ -411,8 +415,9 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Promenade: ballerina balances on pointe while the partner turns her.",
-      "Step 2: Pirouettes: partner stabilizes and provides impulse for turns."
+      "Step 1: Entrée: Entrance and acknowledgement",
+      "Step 2: Adagio: Sustained partnering and balances",
+      "Drill: Observe the support in an adagio"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -427,9 +432,11 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Portée: partner lifts the ballerina.",
-      "Promenade: Ballerina on pointe while partner walks around her.",
-      "Portée: Partner lifts the ballerina."
+      "Step 3: Variation: Individual solo of leaps and turns",
+      "Step 4: Coda: Final virtuosic sequence",
+      "Promenade: Ballerina stays on pointe while the danseur supports her and walks around her.",
+      "Pirouettes: Ballerina performs turns while the danseur provides impulse and stability.",
+      "Drill: Identify the variation differences"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -446,7 +453,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Discuss the musical climax"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -487,8 +495,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the building the dance of pas de deux.",
-      "Marius Petipa is the primary figure associated with the codification of the grand pas de deux.",
+      "You can now: Analyze partnering.",
+      "Marius Petipa is the primary figure in the codification of the form.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -502,17 +510,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "the dancing it fully of pas de deux",
-   "level": null,
+   "goal": "Historical context",
+   "level": "Advanced",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: the dancing it fully of pas de deux.",
-      "Level: advanced. Difficulty of the dance overall: advanced.",
-      "Your instructor: Classical ballet historian or principal dancer"
+      "Chapter 3 — Dancing it fully. Today: Historical context.",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A ballet historian or principal dancer."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -524,7 +532,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Classical ballet alignment"
+      "Upright, classical ballet alignment.",
+      "Classical port de bras.",
+      "Controlled, aligned with the partner."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -536,7 +546,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 2 counts off, 2 counts on.",
+      "Count: 2 counts off, 2 counts on. The meter is Entrée is often 3/4 time..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -545,8 +555,7 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo",
-      "meter"
+      "tempo"
      ]
     },
     {
@@ -554,8 +563,9 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Pirouettes: partner stabilizes and provides impulse for turns.",
-      "Step 2: Portée: partner lifts the ballerina."
+      "Step 1: Variation: Individual solo of leaps and turns",
+      "Step 2: Coda: Final virtuosic sequence",
+      "Drill: Compare Petipa's structure to contemporary duos"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -570,8 +580,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Promenade: Ballerina on pointe while partner walks around her.",
-      "Portée: Partner lifts the ballerina."
+      "Portée: The danseur lifts the ballerina.",
+      "Drill: Analyze the shift in male roles"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -588,7 +598,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Research specific famous pas de deux"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -629,8 +640,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the dancing it fully of pas de deux.",
-      "Inheritor of the 18th-century 'entrée à deux' and developed through the Romantic ballet of the 19th century.",
+      "You can now: Historical context.",
+      "The form is a direct descendant of the 18th-century 'entrée de ballet' and evolved through the Romantic ballet period into the 19th-century classical standard.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -647,24 +658,21 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": null,
+  "meter": "Entrée is often 3/4 time.",
   "rhythm_pattern": null,
   "instruments": [
    "Orchestra"
   ],
   "vocal_style": null,
-  "musical_form": "Suite (Entrée, Adagio, Variations, Coda)",
+  "musical_form": "Suite of five parts: entrée, adagio, two variations, coda.",
   "mood": [
    "romantic",
-   "poetic",
-   "virtuosic"
+   "virtuosic",
+   "expressive"
   ],
-  "sound_description": "Orchestral music structured to match the five-part dance, moving from slow, lyrical adagio melodies to fast, high-energy climactic codas.",
-  "listen_before_composing": [
-   "Swan Lake (Black Swan Pas de deux) — Piotr Ilich Chaikovski",
-   "The Nutcracker (Sugar Plum Fairy Pas de deux) — Piotr Ilich Chaikovski"
-  ],
-  "prompt": "Original instrumental composition in the musical world of pas de deux (France (term origin), Russia (19th-century codification)). Instruments: Orchestra. Form: Suite (Entrée, Adagio, Variations, Coda). Mood: romantic, poetic, virtuosic. It should sound like this: Orchestral music structured to match the five-part dance, moving from slow, lyrical adagio melodies to fast, high-energy climactic codas. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "sound_description": "Orchestral music structured to support the varying technical demands of the dancers, moving from a stately entrance to a slow, lyrical adagio, and ending in a fast, climactic coda.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of pas de deux (France (origin), Russia (codification)). Meter Entrée is often 3/4 time.. Instruments: Orchestra. Form: Suite of five parts: entrée, adagio, two variations, coda.. Mood: romantic, virtuosic, expressive. It should sound like this: Orchestral music structured to support the varying technical demands of the dancers, moving from a stately entrance to a slow, lyrical adagio, and ending in a fast, climactic coda. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -703,10 +711,10 @@
    "title": "The Nutcracker – Sugar Plum pas de deux: Adagio (Nuñez, Muntagirov, The Royal Ballet)"
   },
   "wardrobe": {
-   "policy": "neutral dress: the sources do not describe the costume yet",
-   "dress_the_narrator": false,
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": null,
+   "from_sources": "Costumes vary based on the specific ballet, but generally follow classical ballet conventions, such as tutus for the ballerina and fitted tunics or tights for the danseur, allowing for a full range of motion and clear visibility of the dancers' lines.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ADq1.jpg",
     "https://commons.wikimedia.org/wiki/File%3ATomoaki_Nakanome_-_Don_Quichotte%2C_Basile_-_Prix_de_Lausanne_2010.jpg",
@@ -800,13 +808,15 @@
    }
   ],
   "motifs": [
-   "Archival footage of Petipa-era ballets",
-   "Close-ups of partnering support points"
+   "Stage entrances",
+   "Lifts in slow motion",
+   "Close-ups of pointe work",
+   "Orchestral scores"
   ],
-  "costume_notes": null,
-  "setting_notes": "The pas de deux is typically the climax of a scene or an entire ballet, symbolizing romantic love, affection, and the partnership between two characters.",
+  "costume_notes": "Costumes vary based on the specific ballet, but generally follow classical ballet conventions, such as tutus for the ballerina and fitted tunics or tights for the danseur, allowing for a full range of motion and clear visibility of the dancers' lines.",
+  "setting_notes": "The pas de deux is often the pièce de résistance of a ballet, frequently symbolizing a love story or the emotional connection between two characters. It is used to illustrate the most poetic moments of a narrative.",
   "map": {
-   "country": "France (term origin), Russia (19th-century codification)",
+   "country": "France (origin), Russia (codification)",
    "region": "Europe",
    "coords": null
   },
@@ -851,20 +861,19 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "meter",
-  "a verified recording to listen to",
-  "the costume & setting section"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Pas_de_deux",
   "https://www.wikidata.org/wiki/Q909781",
-  "https://es.wikipedia.org/wiki/Pas_de_deux",
   "https://fr.wikipedia.org/wiki/Pas_de_deux",
-  "https://pt.wikipedia.org/wiki/Pas_de_Deux"
+  "https://es.wikipedia.org/wiki/Pas_de_deux",
+  "https://pt.wikipedia.org/wiki/Pas_de_Deux",
+  "https://de.wikipedia.org/wiki/Pas_de_deux"
  ],
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "ba98a05ff3abdf9b7ec120aa2c48be6f1dbbdbe6d99e70a603abe3c166cf8c74",
+ "input_fingerprint": "277e0c498e8bd0d44d1d74d9d7074d9194238064629bc407f66c0e43cb200532",
  "hero_checked": "pass"
 }

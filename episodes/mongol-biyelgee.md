@@ -1,8 +1,8 @@
 # Mongol Biyelgee — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of the Ger
 NARRATION: This is Mongol Biyelgee. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (qCNlGz-d9mA)
 ON SCREEN: Title card: Mongol Biyelgee · Mongolia · Traditional
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dancers perform while half-sitting or cross-legged in the limited spa
 NARRATION: The technique focuses on the upper body—shoulders, hands, and chest—to express daily labor.
 NARRATION: Specific groups utilize unique postures, such as the Zakhchin squat or the Bayid knee-balancing technique.
 NARRATION: Watch for Zakhchin squat, Bayid knee-balance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (qCNlGz-d9mA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Confined space before a hearth inside a ger
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -296,7 +296,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear clothing and accessories featuring embroidery, knitting, quilting, and leather techniques, alongside gold and silver jewelry specific to their ethnic group and community. The dance is traditionally set inside a ger.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'qCNlGz-d9mA', 'checked_by_vision_model': True, 'title': 'Mongolian Traditional Dance| Bii Biyelgee'}
 Images: 1 licensed — Jamie Price / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: The central hearth of a ger, Intricate embroidery on traditional deel, The silhouette of a morin khuur
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (5): https://en.wikipedia.org/wiki/Biyelgee; https://www.wikidata.org/wiki/Q2904995; https://fr.wikipedia.org/wiki/Biyelgee; https://de.wikipedia.org/wiki/Bijelgee; https://ich.unesco.org/en/USL/00311

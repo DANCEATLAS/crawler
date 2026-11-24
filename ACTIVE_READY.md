@@ -1,41 +1,43 @@
 # Active-ready — the starting line
 
-_Measured 2026-11-22 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
+_Measured 2026-11-24 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 40 profiles are active-ready
+## 41 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,295 |
-| Researched from sources (in the atlas) | 665 |
-| Published (passed every gate) | 540 |
-| **Active-ready** | **40** |
-| One item short | 47 |
-| Two items short | 51 |
-| Three to five short | 122 |
-| Story-ready, teaching withheld (sacred or restricted) | 51 |
+| In the atlas | 1,300 |
+| Researched from sources (in the atlas) | 683 |
+| Published (passed every gate) | 545 |
+| **Active-ready** | **41** |
+| One item short | 45 |
+| Two items short | 50 |
+| Three to five short | 127 |
+| Story-ready, teaching withheld (sacred or restricted) | 57 |
 
-Video studied so far: 237 lessons, 220 performances.
+Video studied so far: 262 lessons, 220 performances.
 
+Pace over the last two weeks: +32 active-ready a week.
+Pace over the last two weeks: +163 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 309 |
-| a lesson or performance the machine studied, with timestamps | 200 |
-| what to avoid: common mistakes or safety | 193 |
-| a hero video that passed the vision check | 152 |
-| two or more signature moves | 134 |
-| tempo, meter or the teacher's count | 126 |
-| posture | 118 |
-| a licensed picture or licensed footage | 113 |
-| arms and hands | 92 |
-| ordered basic steps or a lesson ladder | 85 |
-| the instruments and what the music sounds like | 81 |
-| origins, meaning and occasions, dress and setting — written from sources | 69 |
+| the steps with their counts | 312 |
+| a lesson or performance the machine studied, with timestamps | 203 |
+| what to avoid: common mistakes or safety | 197 |
+| a hero video that passed the vision check | 145 |
+| two or more signature moves | 137 |
+| tempo, meter or the teacher's count | 127 |
+| posture | 121 |
+| a licensed picture or licensed footage | 114 |
+| arms and hands | 94 |
+| ordered basic steps or a lesson ladder | 88 |
+| the instruments and what the music sounds like | 83 |
+| origins, meaning and occasions, dress and setting — written from sources | 71 |
 | formation and use of space | 46 |
 | known to be living, revived or historical | 30 |
 
@@ -61,6 +63,7 @@ Video studied so far: 237 lessons, 220 performances.
 - **Electric Slide** — needs: origins, meaning and occasions, dress and setting — written from sources
 - **Fancy Shawl Dance** — needs: what to avoid: common mistakes or safety
 - **Finger Tutting** — needs: the steps with their counts
+- **Formation dance** — needs: the instruments and what the music sounds like
 - **Fouetté** — needs: the instruments and what the music sounds like
 - **Fusion Dance** — needs: what to avoid: common mistakes or safety
 - **Geommu** — needs: the steps with their counts
@@ -70,17 +73,16 @@ Video studied so far: 237 lessons, 220 performances.
 - **Huaylarsh** — needs: a licensed picture or licensed footage
 - **Huaylas (Huaylarsh)** — needs: a licensed picture or licensed footage
 - **J-Setting** — needs: the steps with their counts
-- **Jurit Ampil Kridha Warastra Dance** — needs: the steps with their counts
 - **Kebyar duduk** — needs: the steps with their counts
 - **makossa** — needs: what to avoid: common mistakes or safety
-- **Marinera Norteña** — needs: a hero video that passed the vision check
 - **moshing** — needs: the steps with their counts
 - **pachanga** — needs: the steps with their counts
 - **pas de deux** — needs: the steps with their counts
 - **passacaglia** — needs: what to avoid: common mistakes or safety
 - **Pogo** — needs: the steps with their counts
 - **Polska** — needs: what to avoid: common mistakes or safety
-- **Queer Tango** — needs: the steps with their counts
+- **Rebolation** — needs: a licensed picture or licensed footage
+- **Sequence dance** — needs: what to avoid: common mistakes or safety
 
 ## The fifteen items
 

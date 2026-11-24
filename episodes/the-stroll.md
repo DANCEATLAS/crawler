@@ -1,8 +1,8 @@
 # The Stroll — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic 1950s dance hall leader with a focus on 'cool' and 'rhythm'.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In 1957, Dick Clark watched teenagers on American Bandstand transform the 19th-century Virginia Reel into a slow-drag rock 'n' roll promenade that would later become the iconic Soul Train Line.
 NARRATION: This is The Stroll. Late 1950s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (UrGLNtZ0rEg)
 ON SCREEN: Title card: The Stroll · United States · Late 1950s
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Dancers form two parallel lines, men on one side and women on the oth
 NARRATION: The lines move in place to the rhythm.
 NARRATION: The couple at the head of the line joins hands and travels down the center 'aisle' between the lines, performing more complex or 'elaborate' steps before joining the end of the line.
 NARRATION: Watch for The Promenade.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (UrGLNtZ0rEg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two parallel lines creating a central corridor or 'aisle'.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -323,7 +323,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Originally performed in 1950s social settings such as high school gymnasiums, record hops, and television studios. Typical attire of the era included poodle skirts, cardigans, and saddle shoes for women, and slacks with button-down shirts or leather jackets for men.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'UrGLNtZ0rEg', 'checked_by_vision_model': True, 'title': 'The Original Stroll - February 1958'}
 Images: 0 licensed
 Footage: Down And Dirty: The Contemporary Versions Of The Great All Time Dances! [Full VHS] — https://archive.org/details/down-and-dirty-the-contemporary-versions-of-the-great-all-time-dances-full-vhs; SHORT SHORTS — https://archive.org/details/SHORTSHORTS; Soul Train (Season 1, Episode 22) — https://archive.org/details/soul-train-season-1-episode-22-restored; The Best Of Soul Train Ep. 289 Feat Joe Simon Cheryl Lynn 02 1979 — https://archive.org/details/TheBestOfSoulTrainEp.289FeatJoeSimonCherylLynn021979; Soul Train -Season 15 -Episode 27 - Jermaine Stewart / The SOS Band / Juicy - 6/14/1986 — https://archive.org/details/SoulTrain-Season15-Episode27-JermaineStewartTheSOSBandJuicy-6141986; Soul Train (Season 1, Episode 7) — https://archive.org/details/soul-train-season-1-episode-7-partially-full-episode; Best Of Soul Train Ep 103 Kool & The Gang Al Wilson Natural Four 06 74 — https://archive.org/details/BestOfSoulTrainEp103KoolTheGangAlWilsonNaturalFour0674; Soul Train (Season 8, Episode 25) — https://archive.org/details/soul-train-season-8-episode-25
 Motifs: Parallel lines of shoes, The 'aisle' created by the dancers, Black and white television monitors, Vinyl records spinning
@@ -333,7 +333,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

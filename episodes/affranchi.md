@@ -1,6 +1,6 @@
 # Affranchi — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-24 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -11,29 +11,30 @@
 ## Episode 1 · Meet Affranchi · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Affranchi: Dance of the Free People of Color
-NARRATION: This is Affranchi. colonial era to present.
+NARRATION: This is Affranchi, a dance of the free people of color.
+NARRATION: It spans from the colonial era to the present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Affranchi · Haiti · colonial era to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Affranchi originated in colonial Saint-Domingue among free people of color known as affranchis, meaning manumitted.
-NARRATION: The term initially described free people of mixed French-African descent.
+NARRATION: Affranchi originated in colonial Saint-Domingue among free people of color called affranchis, meaning manumitted.
+NARRATION: Initially, the term described free people of mixed French-African descent.
 NARRATION: After the Haitian Revolution, it referred to the light-skinned elite known as the Mulatto ascendancy.
 ON SCREEN: Map: Haiti · Caribbean
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Europeans and affranchis performed this dance for colonial entertainment, sometimes involving enslaved people dancing for guests.
-NARRATION: It carries regal connotations and is associated with African-descended Kings and Queens.
-NARRATION: Today, it remains a living tradition performed at Haitian country festivals, Vodou services, and as a tourist attraction.
+NARRATION: Affranchi was performed for colonial entertainment by Europeans and affranchis, and sometimes involved enslaved people dancing for guests.
+NARRATION: It is associated with African-descended Kings and Queens and carries regal connotations.
+NARRATION: Today, it is performed at Haitian country festivals, Vodou services, and as a tourist attraction.
+NARRATION: It is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Watch for French-style figures, African improvisation.
+NARRATION: Watch for French-style figures and African improvisation.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: line and square formations
@@ -41,8 +42,8 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Unlike many African-derived dances, this is accompanied by string and woodwind instruments instead of drums.
-NARRATION: The specific instruments, rhythm patterns, and tempo are not detailed in the sources.
+NARRATION: The dance uses string and woodwind instruments instead of drums, distinguishing it from many African-derived dances.
+NARRATION: The sources do not detail the specific instruments, rhythm patterns, or tempo.
 NARRATION: Listen for the string and woodwind instruments.
 NARRATION: The music features string and woodwind instruments, supporting formal French-style figures and African improvisation without drum rhythms.
 ON SCREEN: Instrument names on screen as each is mentioned
@@ -59,14 +60,14 @@ NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
 NARRATION: The National Troupe of Haiti played a key role in reviving Affranchi in the 1950s.
-NARRATION: This dance influenced the tumba francesa in Cuba, which shares the African improvisation element but uses drums instead of strings and woodwinds.
+NARRATION: The dance influenced the tumba francesa in Cuba, which shares the African improvisation element but uses drums instead of strings and woodwinds.
 NARRATION: Affranchi is a Haitian folk dance with roots in colonial free people of color culture, blending French formal dance figures with African improvisation, influencing diaspora dances like Cuba's tumba francesa.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Affranchi is a sibling of the tumba francesa, which developed in Cuba by Haitian refugees and shares African improvisation but uses drums.
+NARRATION: Affranchi is a sibling of tumba francesa. It shares African improvisation but uses drums and was developed in Cuba by Haitian refugees.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
@@ -185,8 +186,8 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures: formal, upright movements with held torso.
-NARRATION: African improvisation: free, expressive movements in the final set.
+NARRATION: French-style figures are formal, upright movements with a held torso.
+NARRATION: African improvisation involves free, expressive movements in the final set.
 NARRATION: Drill: Practice transitioning from figures to improvisation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -224,7 +225,7 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Combine formality and improvisation fluidly · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3: Dancing it fully. Today, we combine formality and improvisation fluidly.
+NARRATION: Chapter 3: Dancing it fully. Today, combine formality and improvisation fluidly.
 NARRATION: Level: advanced.
 NARRATION: Your instructor is a Haitian cultural historian and dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
@@ -253,8 +254,8 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures: formal, upright movements with held torso.
-NARRATION: African improvisation: free, expressive movements in the final set.
+NARRATION: French-style figures are formal, upright movements with a held torso.
+NARRATION: African improvisation involves free, expressive movements in the final set.
 NARRATION: Drill: Develop personal improvisational style.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -312,7 +313,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

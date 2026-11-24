@@ -3,31 +3,31 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 40,
+  "read": 45,
   "next": 6,
-  "waiting": 29,
-  "thin": 2,
+  "waiting": 23,
+  "thin": 3,
   "no_sources": 0,
   "unanswered": 3,
   "owner_topics": 14,
   "owner_read": 12,
-  "papers": 15,
-  "papers_shown": 15,
-  "findings_checked": 171,
+  "papers": 19,
+  "papers_shown": 19,
+  "findings_checked": 197,
   "searches": 50,
-  "searches_asked": 11
+  "searches_asked": 12
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "mirrors_in_dance",
-  "online_dance_learning",
-  "dance_pedagogy",
-  "beginners",
-  "scaffolding",
-  "zone_of_proximal_development"
+  "mastery_learning",
+  "growth_mindset",
+  "flow",
+  "play",
+  "overlearning",
+  "retrieval_practice"
  ],
  "groups": [
   {
@@ -843,21 +843,56 @@
     {
      "key": "mirrors_in_dance",
      "name": "mirrors in dance",
-     "state": "next",
+     "state": "read",
      "tags": [
       "mirror_view",
       "self_check"
+     ],
+     "on": "2026-11-24",
+     "principle": "Providing a back view perspective during instruction reduces cognitive load and improves motor learning outcomes compared to mirrored or front-facing views.",
+     "for_the_teacher": [
+      "Use a back-facing camera angle when demonstrating new choreography to minimize the mental effort required for the learner to mirror your movements.",
+      "Prioritize first-person or back-view video demonstrations for beginners to improve their movement accuracy and spatial awareness."
+     ],
+     "when_it_does_not_apply": "The study noted no significant performance differences between front mirror views and front opposite views, and results may vary based on the dancer's prior background or experience level.",
+     "findings": [
+      {
+       "finding": "A back view perspective consistently leads to better performance and movement accuracy, particularly for dancers with less experience.",
+       "quote": "The Back view consistently yielded superior outcomes, especially among less trained dancers.",
+       "source": "https://europepmc.org/article/MED/42748079"
+      },
+      {
+       "finding": "First-person or back-view perspectives are more effective for learning because they lower the cognitive demand on the learner.",
+       "quote": "These findings suggest that first-person perspectives enhance motor learning by reducing cognitive load.",
+       "source": "https://europepmc.org/article/PPR/PPR1056573"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/42748079",
+       "title": "Enhancing dance learning by optimising instructional perspective: A preregistered study on the effect of dancers' viewing perspective, cognitive load and expertise",
+       "authors": "Versace E, Angioi M, Hadfield K, Gallo V, Jensen LJ, Roman J, Sheriff K, Redding E, Clarke F, Deering J, Morrissey D, Buckingham S.",
+       "year": "2026",
+       "journal": "PloS one"
+      },
+      {
+       "url": "https://europepmc.org/article/PPR/PPR1056573",
+       "title": "Enhancing dance learning by reducing cognitive load: A preregistered study on the effect of dancers’ viewing perspective and expertise",
+       "authors": "Versace E, Angioi M, Hadfield K, Gallo V, Jensen LJ, Roman J, Sheriff K, Redding E, Clarke F, Deering J, Morrissey D, Buckingham S.",
+       "year": "2025"
+      }
      ]
     },
     {
      "key": "online_dance_learning",
      "name": "online dance learning",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "split_screen",
       "mirror_view",
       "social_connection"
-     ]
+     ],
+     "on": "2026-11-24"
     }
    ]
   },
@@ -1219,7 +1254,7 @@
     {
      "key": "mastery_learning",
      "name": "mastery learning",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "repetition",
       "progression"
@@ -1228,7 +1263,7 @@
     {
      "key": "overlearning",
      "name": "overlearning",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "repetition"
      ]
@@ -1579,16 +1614,81 @@
     {
      "key": "dance_pedagogy",
      "name": "dance pedagogy",
-     "state": "next",
+     "state": "read",
      "tags": [
       "culture_and_meaning",
       "play_and_variation"
+     ],
+     "on": "2026-11-24",
+     "principle": "Dance education relies on varied pedagogical approaches—from structured guidance to learner-centered reflection, self-compassion, and collaborative movement—to foster technical skill, self-expression, and well-being.",
+     "for_the_teacher": [
+      "Focus younger learners on listening to the musical beat and practicing basic moves to the rhythm rather than memorizing long routines.",
+      "Integrate self-kindness training into lessons to cultivate emotional resilience and protect against self-judgment.",
+      "Provide options for reflection, learner choice, and dialogue during class to support self-related and cognitive development.",
+      "Encourage learners to record video of their own practice to evaluate their execution and track progress."
+     ],
+     "when_it_does_not_apply": "Conclusions regarding learner-centered pedagogy remain tentative due to heterogeneity in study designs, outcomes, and risk of bias across reviewed studies.",
+     "findings": [
+      {
+       "finding": "Young children find it harder to remember complete routines, so primary dance education emphasizes listening to beats and practicing beginner steps to rhythm.",
+       "quote": "Younger children have a harder time remembering full dance routines, so it is important that they focus more on listening to the beats of the music and practicing beginner moves to the rhythm.",
+       "source": "https://en.wikipedia.org/wiki/Dance_education"
+      },
+      {
+       "finding": "Self-kindness serves as a strong positive predictor of life satisfaction in recreational dance settings.",
+       "quote": "Self-kindness emerged as a strong positive predictor (β = 0.258, p p p = 0.029) negatively predicted life satisfaction.",
+       "source": "https://europepmc.org/article/MED/40711108"
+      },
+      {
+       "finding": "Learner-centered strategies like reflection, dialogue, and choice often correlate with positive cognitive, self-related, and psychosocial outcomes.",
+       "quote": "results revealed that learner-centered features (reflection, dialog, collaboration, observation, and choice) were more often associated with more favorable cognitive, self-related, psychosocial, and implementation outcomes.",
+       "source": "https://europepmc.org/article/MED/42205960"
+      },
+      {
+       "finding": "Synchronized movement, collaborative choreography, and shared rhythm help foster prosocial behaviors such as peer connection, cooperation, and empathy in adolescents.",
+       "quote": "Mechanisms such as synchronized movement, shared rhythm, and collaborative choreography facilitated these effects.",
+       "source": "https://europepmc.org/article/MED/42076930"
+      },
+      {
+       "finding": "Self-taught learners can analyze their movement quality by video recording themselves while dancing.",
+       "quote": "One can also film oneself dancing to better understand how different moves look, or solicit feedback from others.",
+       "source": "https://en.wikipedia.org/wiki/Dance_education"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Dance_education",
+       "title": "Dance education",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/40711108",
+       "title": "Choreographing Well-Being: The Predictive Role of Self-Compassion on Life Satisfaction-A Therapeutic-Based Art Pedagogy Perspective in Recreational Dance",
+       "authors": "Zafeiroudi A, Karagiorgos T, Tsartsapakis I, Grivas GV, Kouthouris C, Goulimaris D.",
+       "year": "2025",
+       "journal": "Sports (Basel, Switzerland)"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42205960",
+       "title": "Learner-centered versus teacher-centered dance pedagogy and dance learning and related outcomes: a systematic review",
+       "authors": "Silang R, Zhou W, Gao X.",
+       "year": "2026",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42076930",
+       "title": "The Impact of Dance Interventions on Adolescents' Prosocial Behavior: A Scoping Review",
+       "authors": "Brown CL, Mason CLJ, Hancox JE, Deal CJ, Du M.",
+       "year": "2026",
+       "journal": "Journal of adolescence"
+      }
      ]
     },
     {
      "key": "flow",
      "name": "flow",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "feel_and_groove",
       "progression"
@@ -2047,16 +2147,64 @@
     {
      "key": "beginners",
      "name": "beginners",
-     "state": "next",
+     "state": "read",
      "tags": [
       "quick_win",
       "chunking"
+     ],
+     "on": "2026-11-24",
+     "principle": "Learning complex movement sequences and motor tasks is facilitated by repeated exposure to structured patterns and consistent practice, which leads to measurable improvements in performance and cognitive processing.",
+     "for_the_teacher": [
+      "Expose beginners to repeated sequences of movement to help them implicitly grasp the 'grammar' or flow of the dance.",
+      "Use consistent, repetitive practice of specific movement patterns to improve motor performance and accuracy.",
+      "Incorporate visual and auditory cues to help learners synchronize their movements with the rhythm."
+     ],
+     "when_it_does_not_apply": "The research does not support the claim that dance is superior to other forms of physical activity like walking for improving executive function in healthy older adults.",
+     "findings": [
+      {
+       "finding": "Novice observers can implicitly learn the underlying structure or 'grammar' of dance movement sequences through simple exposure.",
+       "quote": "Through exposure, novice observers can learn a grammar that governs the sequencing of dance movements.",
+       "source": "https://europepmc.org/article/MED/19857027"
+      },
+      {
+       "finding": "Training in complex motor tasks, such as dance-based video games, leads to significant increases in motor performance and changes in brain activity patterns.",
+       "quote": "Training significantly increased the motor performance using the number of temporally accurate steps in the DVG as criteria.",
+       "source": "https://europepmc.org/article/MED/26401727"
+      },
+      {
+       "finding": "Dance training has been shown to provide benefits for dancers, contributing to the validation of neurofeedback and creative performance.",
+       "quote": "A/T and HRV training have benefitted dancers.",
+       "source": "https://europepmc.org/article/MED/24239853"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/19857027",
+       "title": "Unspoken knowledge: implicit learning of structured human dance movement",
+       "authors": "Opacic T, Stevens C, Tillmann B.",
+       "year": "2009",
+       "journal": "Journal of experimental psychology. Learning, memory, and cognition"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/26401727",
+       "title": "Motor learning and modulation of prefrontal cortex: an fNIRS assessment",
+       "authors": "Ono Y, Noah JA, Zhang X, Nomoto Y, Suzuki T, Shimada S, Tachibana A, Bronner S, Hirsch J.",
+       "year": "2015",
+       "journal": "Journal of neural engineering"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/24239853",
+       "title": "EEG-neurofeedback for optimising performance. II: creativity, the performing arts and ecological validity",
+       "authors": "Gruzelier JH.",
+       "year": "2014",
+       "journal": "Neuroscience and biobehavioral reviews"
+      }
      ]
     },
     {
      "key": "growth_mindset",
      "name": "growth mindset",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "normalise_mistakes",
       "praise_and_expectancy"
@@ -2065,7 +2213,7 @@
     {
      "key": "play",
      "name": "play",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "fun_and_energy",
       "play_and_variation"
@@ -2485,26 +2633,104 @@
     {
      "key": "scaffolding",
      "name": "scaffolding",
-     "state": "next",
+     "state": "read",
      "tags": [
       "regression",
       "progression",
       "layering"
+     ],
+     "on": "2026-11-24",
+     "principle": "Effective learning occurs when an instructor provides tailored, temporary support that is gradually removed as the learner gains proficiency and autonomy.",
+     "for_the_teacher": [
+      "Identify the learner's current skill level and provide just enough guidance to help them reach the next stage without doing the work for them.",
+      "Monitor the learner for signs of frustration and offer encouragement or simpler variations to maintain their interest.",
+      "Gradually reduce the amount of feedback or visual cues as the learner demonstrates increased competence in a movement.",
+      "Use verbal cues or dialogue to help the learner connect their current actions to the intended movement goal."
+     ],
+     "when_it_does_not_apply": "There is a lack of research addressing physical activity among autistic women and those with complex needs.",
+     "findings": [
+      {
+       "finding": "Scaffolding involves adjusting the level of guidance to match the learner's current ability and potential.",
+       "quote": "Over the course of a teaching session, one can adjust the amount of guidance to fit the child's potential level of performance.",
+       "source": "https://en.wikipedia.org/wiki/Instructional_scaffolding"
+      },
+      {
+       "finding": "Support should be gradually withdrawn as the learner becomes more independent.",
+       "quote": "The third feature of scaffolding is that the scaffold, the support and guidance provided by the expert, is gradually removed as the learner becomes more proficient.",
+       "source": "https://en.wikipedia.org/wiki/Instructional_scaffolding"
+      },
+      {
+       "finding": "Scaffolding should address both the cognitive and emotional needs of the learner, such as managing frustration.",
+       "quote": "Scaffolding is not limited to a cognitive skill and can also support emotional responses (affect). For example, during a task the scaffolder (expert) might need to manage and control for frustration",
+       "source": "https://en.wikipedia.org/wiki/Instructional_scaffolding"
+      },
+      {
+       "finding": "Virtual training can serve as a preliminary support structure before physical practice.",
+       "quote": "Pending closed-loop validation of the strain-stiffening hypothesis (offline R2=0.31), current VR is best positioned as pre-apprenticeship scaffolding, not a substitute for physical practice.",
+       "source": "https://europepmc.org/article/MED/42900609"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Instructional_scaffolding",
+       "title": "Instructional scaffolding",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42900609",
+       "title": "The Rheology Gap: A Component-Level Benchmark for VR-to-Reality Motor Skill Transfer under Linear Haptic Simulation",
+       "authors": "Liu Z, An L.",
+       "year": "2026",
+       "journal": "IEEE transactions on visualization and computer graphics"
+      }
      ]
     },
     {
      "key": "zone_of_proximal_development",
      "name": "zone of proximal development",
-     "state": "next",
+     "state": "read",
      "tags": [
       "regression",
       "progression"
+     ],
+     "on": "2026-11-24",
+     "principle": "Learning is most effective when a teacher provides support for tasks that a learner can perform with guidance but not yet independently.",
+     "for_the_teacher": [
+      "Offer easier versions of a dance step that the learner can perform with your guidance before attempting the full movement.",
+      "Gradually reduce the amount of verbal or visual cues provided as the learner becomes more confident with a specific sequence.",
+      "Assess the learner's current ability level to ensure the dance material is challenging but achievable with your support."
+     ],
+     "findings": [
+      {
+       "finding": "The zone of proximal development is the range of tasks a learner can perform only with the assistance of a more knowledgeable person.",
+       "quote": "The zone of proximal development (ZPD) is a concept in educational psychology that represents the space between what a learner is capable of doing unsupported and what the learner cannot do even with support.",
+       "source": "https://en.wikipedia.org/wiki/Zone_of_proximal_development"
+      },
+      {
+       "finding": "Scaffolding involves providing support that is gradually removed as the learner gains mastery.",
+       "quote": "Scaffolding is a process through which a teacher or a more competent peer helps a student in their ZPD as necessary and tapers off this aid as it becomes unnecessary",
+       "source": "https://en.wikipedia.org/wiki/Zone_of_proximal_development"
+      },
+      {
+       "finding": "Providing the most challenging tasks that a student can manage with support results in the best learning outcomes.",
+       "quote": "According to Wass and Golding, giving students the hardest tasks they can do with scaffolding leads to the greatest learning gains.",
+       "source": "https://en.wikipedia.org/wiki/Zone_of_proximal_development"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Zone_of_proximal_development",
+       "title": "Zone of proximal development",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "retrieval_practice",
      "name": "retrieval practice",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "self_check",
       "recap_and_practice_plan"
@@ -2685,6 +2911,180 @@
   }
  ],
  "papers": [
+  {
+   "key": "paper-med-22705939",
+   "title": "Mindful movement program for older breast cancer survivors: a pilot study",
+   "on": "2026-11-24",
+   "tags": [
+    "moment_of_presence",
+    "autonomy",
+    "recap_and_practice_plan"
+   ],
+   "authors": "Crane-Okada R, Kiger H, Sugerman F, Uman GC, Shapiro SL, Wyman-McGinty W, Anderson NL.",
+   "year": "2012",
+   "journal": "Cancer nursing",
+   "url": "https://europepmc.org/article/MED/22705939",
+   "cited_by": 42,
+   "principle": "Integrating mindfulness with self-directed movement can improve quality of life and reduce fear of recurrence in older cancer survivors.",
+   "for_the_teacher": [
+    "Incorporate mindfulness practices, such as focused breathing or stillness, alongside movement sequences.",
+    "Encourage learners to engage in self-directed movement to foster a sense of autonomy and well-being.",
+    "Provide tools or prompts for learners to track their home practice to support consistency."
+   ],
+   "when_it_does_not_apply": "The study focused specifically on female breast cancer survivors aged 50 and older.",
+   "findings": [
+    {
+     "finding": "Combining mindfulness with movement is a beneficial approach for older survivors to improve their well-being.",
+     "quote": "The combination of self-directed movement and mindfulness, as tested here, may be a valuable tool for promoting health and well-being in older long-term survivors of breast cancer.",
+     "source": "https://europepmc.org/article/MED/22705939"
+    },
+    {
+     "finding": "Participants who engaged in a structured movement program reported decreased fear of recurrence and increased mindfulness.",
+     "quote": "After intervention, EG participants showed improved QOL via decreased fear of recurrence and increased mindfulness attitude.",
+     "source": "https://europepmc.org/article/MED/22705939"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/22705939",
+     "title": "Mindful movement program for older breast cancer survivors: a pilot study",
+     "authors": "Crane-Okada R, Kiger H, Sugerman F, Uman GC, Shapiro SL, Wyman-McGinty W, Anderson NL.",
+     "year": "2012",
+     "journal": "Cancer nursing"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-28450412",
+   "title": "The art of medicine: arts-based training in observation and mindfulness for fostering the empathic response in medical residents",
+   "on": "2026-11-24",
+   "tags": [
+    "moment_of_presence",
+    "feel_and_groove"
+   ],
+   "authors": "Zazulak J, Sanaee M, Frolic A, Knibb N, Tesluk E, Hughes E, Grierson LEM.",
+   "year": "2017",
+   "journal": "Medical humanities",
+   "url": "https://europepmc.org/article/MED/28450412",
+   "cited_by": 43,
+   "principle": "Integrating arts-based observation and mindfulness practices can enhance communication skills and professional well-being in learners.",
+   "for_the_teacher": [
+    "Incorporate mindfulness exercises before or after dance practice to help learners cultivate presence and self-awareness.",
+    "Encourage learners to practice 'visual literacy' by observing and describing the movement qualities of others to build empathy and observational skills."
+   ],
+   "when_it_does_not_apply": "The study focused specifically on medical residents in obstetrics, gynaecology, and family medicine, and results on psychometric measures were mixed.",
+   "findings": [
+    {
+     "finding": "Arts-based training that includes dance and mindfulness can improve a learner's self-confidence and communication abilities.",
+     "quote": "The results indicated that programme participants improved in the Mindfulness Scale domains related to self-confidence and communication relative to a group of control participants following the arts-based programme.",
+     "source": "https://europepmc.org/article/MED/28450412"
+    },
+    {
+     "finding": "Engaging with arts-based curricula helps foster empathy and supports the personal well-being of trainees.",
+     "quote": "The study concludes that a multifaceted arts-based curriculum focusing on evidence-based observation and mindfulness is a useful tool in bolstering the empathic response, improving communication, and fostering professional well-being among medical residents.",
+     "source": "https://europepmc.org/article/MED/28450412"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/28450412",
+     "title": "The art of medicine: arts-based training in observation and mindfulness for fostering the empathic response in medical residents",
+     "authors": "Zazulak J, Sanaee M, Frolic A, Knibb N, Tesluk E, Hughes E, Grierson LEM.",
+     "year": "2017",
+     "journal": "Medical humanities"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-25143234",
+   "title": "A review of the clinical evidence for complementary and alternative therapies in Parkinson's disease",
+   "on": "2026-11-24",
+   "tags": [
+    "social_connection",
+    "feel_and_groove",
+    "moment_of_presence"
+   ],
+   "authors": "Bega D, Gonzalez-Latapi P, Zadikoff C, Simuni T.",
+   "year": "2014",
+   "journal": "Current treatment options in neurology",
+   "url": "https://europepmc.org/article/MED/25143234",
+   "cited_by": 50,
+   "principle": "Engaging in enjoyable, challenging, and social mind-body activities like dance is recommended as a beneficial complement to standard care for managing Parkinson's disease.",
+   "for_the_teacher": [
+    "Design dance sequences that are both enjoyable and mentally challenging to keep the learner engaged.",
+    "Incorporate moments of mindfulness or relaxation into the dance lesson to support a holistic mind-body approach.",
+    "Encourage the learner to view their dance practice as an active, empowering part of their overall health management."
+   ],
+   "when_it_does_not_apply": "The source notes that while these activities are encouraged, there is limited evidence regarding their ability to slow or stop the progression of Parkinson's disease.",
+   "findings": [
+    {
+     "finding": "Dance is specifically recommended as an enjoyable and challenging activity for patients to engage in.",
+     "quote": "patients should be encouraged to be as active as possible and engage with others in enjoyable and challenging activities such as dance, music therapy, and yoga.",
+     "source": "https://europepmc.org/article/MED/25143234"
+    },
+    {
+     "finding": "Mind-body practices that combine physical activity with relaxation and mindfulness are beneficial for patients.",
+     "quote": "mind-body interventions such as Tai Chi that incorporate relaxation and mindfulness with physical activity should be routinely encouraged as well.",
+     "source": "https://europepmc.org/article/MED/25143234"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/25143234",
+     "title": "A review of the clinical evidence for complementary and alternative therapies in Parkinson's disease",
+     "authors": "Bega D, Gonzalez-Latapi P, Zadikoff C, Simuni T.",
+     "year": "2014",
+     "journal": "Current treatment options in neurology"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-23131367",
+   "title": "Argentine tango dance compared to mindfulness meditation and a waiting-list control: a randomised trial for treating depression",
+   "on": "2026-11-24",
+   "tags": [
+    "moment_of_presence",
+    "reason_to_return",
+    "social_connection"
+   ],
+   "authors": "Pinniger R, Brown RF, Thorsteinsson EB, McKinley P.",
+   "year": "2012",
+   "journal": "Complementary therapies in medicine",
+   "url": "https://europepmc.org/article/MED/23131367",
+   "cited_by": 54,
+   "principle": "Participating in structured dance classes like Argentine tango can significantly reduce symptoms of depression and stress while promoting mindfulness.",
+   "for_the_teacher": [
+    "Frame the dance practice as a tool for stress reduction and mindfulness to encourage consistent participation.",
+    "Structure lessons to include moments of focused attention to help learners cultivate mindfulness while they move."
+   ],
+   "when_it_does_not_apply": "The study focused on individuals with self-declared depression and may not generalize to all populations; the intervention was a six-week program.",
+   "findings": [
+    {
+     "finding": "Tango dancing is an effective intervention for reducing depression symptoms in individuals.",
+     "quote": "Depression levels were significantly reduced in the tango (effect size d=0.50, p=.010), and meditation groups (effect size d=0.54, p=.025), relative to waiting-list controls.",
+     "source": "https://europepmc.org/article/MED/23131367"
+    },
+    {
+     "finding": "Tango classes specifically help in lowering stress levels for participants.",
+     "quote": "Stress levels were significantly reduced only in the tango group (effect size d=0.45, p=.022).",
+     "source": "https://europepmc.org/article/MED/23131367"
+    },
+    {
+     "finding": "Engagement in tango dance practice is linked to higher levels of mindfulness.",
+     "quote": "Attending tango classes was a significant predictor for the increased levels of mindfulness R(2)=.10, adjusted R(2)=.07, F (2,59)=3.42, p=.039.",
+     "source": "https://europepmc.org/article/MED/23131367"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/23131367",
+     "title": "Argentine tango dance compared to mindfulness meditation and a waiting-list control: a randomised trial for treating depression",
+     "authors": "Pinniger R, Brown RF, Thorsteinsson EB, McKinley P.",
+     "year": "2012",
+     "journal": "Complementary therapies in medicine"
+    }
+   ]
+  },
   {
    "key": "paper-med-9893002",
    "title": "Dance/Movement therapy for children and adolescents with cancer",
@@ -3340,6 +3740,6 @@
    ]
   }
  ],
- "fingerprint": "cdd06912d3008fae",
- "updated": "2026-11-23"
+ "fingerprint": "19ebb41630b81258",
+ "updated": "2026-11-24"
 }

@@ -4,45 +4,52 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "not described in sources",
+      "difficulty": "advanced",
       "footwork": "not described in sources",
-      "formation_and_space": "group dance",
+      "formation_and_space": "Groups",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
-      "signature_moves": [],
+      "signature_moves": [
+        {
+          "description": "The act of cleaning or sweeping the ground before the ritual dance begins.",
+          "name": "Sebata"
+        }
+      ],
       "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [],
       "meter": "not described in sources",
-      "mood_keywords": [
-        "spiritual",
-        "solemn"
-      ],
+      "mood_keywords": [],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
       "sound_description": "not described in sources",
-      "tempo_bpm": "not described in sources",
+      "tempo_bpm": "",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
         "not described in sources"
       ],
-      "formation": "group dance",
+      "formation": "Groups",
       "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e0d758e8aca8ce293e7c0564d70f7197ebada95b5751cd074ce8a361fd55d3b6",
+  "fingerprint": "a10ccda17bebb9ffe05b81b6d58e38f6051f45ad03360f518d4d79560fececc9",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -52,7 +59,9 @@
     "research": [
       "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments and rhythmic patterns used in Dihosana? Evidence needed: Ethnographic field recordings or academic studies on Kalanga ritual music.",
+      "Investigate: What are the specific physical movements or footwork patterns of the Dihosana dance? Evidence needed: Detailed observational studies or video documentation of the dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -79,7 +88,26 @@
   ],
   "music_options": [],
   "name": "Dihosana",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cb4f5c7dd0e21e95",
+      "next_evidence": "Ethnographic field recordings or academic studies on Kalanga ritual music.",
+      "question": "What are the specific musical instruments and rhythmic patterns used in Dihosana?",
+      "source": "https://en.wikipedia.org/wiki/Dihosana",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not describe the musical accompaniment, which is essential for the music_profile."
+    },
+    {
+      "domain": "research",
+      "id": "c8d14f40742fdfd9",
+      "next_evidence": "Detailed observational studies or video documentation of the dance.",
+      "question": "What are the specific physical movements or footwork patterns of the Dihosana dance?",
+      "source": "https://en.wikipedia.org/wiki/Dihosana",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the ritual context but lack technical descriptions of the dance movements."
+    }
+  ],
   "research_file": "research_results/dihosana.json",
   "runtime_active": false,
   "scope": {

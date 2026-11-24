@@ -23,26 +23,17 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Armed hand gestures handling the jemparing (bow and arrow) and unsheathing or brandishing the cundrik dagger.",
-      "difficulty": "intermediate",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "Can be staged flexibly as a solo, in paired duels/partnerships, or as a synchronized group formation.",
-      "hips_and_torso": "Controlled torso and hip carriage wrapped in a dodot and belt over knee-length trousers.",
+      "formation_and_space": "Flexible: solo, pairs, or groups.",
+      "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "Can be performed solo, in pairs, or in groups.",
-      "posture": "Disciplined female warrior posture blending refined Surakarta-style court alignment with grounded Prajuritan martial readiness.",
-      "signature_moves": [
-        {
-          "description": "Drawing arrows (nyenyep) from the quiver (endhong) and aiming the bow (gendewa).",
-          "name": "Jemparing manipulation"
-        },
-        {
-          "description": "Martial posture integrating the short dagger into defensive and offensive stage displays.",
-          "name": "Cundrik stance"
-        }
-      ],
-      "tempo_feel": "Shifts dynamically between the steady cadence of lancaran, the urgent momentum of srepeg, and the lyrical tension of palaran.",
-      "what_to_avoid": "Loose modern posturing; casual handling of ceremonial stage weapons (bows, arrows, daggers)."
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
@@ -54,35 +45,30 @@
         "kempul",
         "gong"
       ],
-      "meter": "Javanese metric cycles (lancaran, srepeg, palaran)",
+      "meter": "not described in sources",
       "mood_keywords": [
-        "martial",
-        "courtly",
-        "regal",
+        "military",
         "disciplined",
-        "solemn"
+        "classical"
       ],
-      "musical_form": "Transitions across lancaran, srepeg, and palaran compositions",
+      "musical_form": "lancaran, srepeg, and palaran",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "A Javanese gamelan ensemble playing in the pelog scale, marked by the resonant punctuations of the gong, kempul, and kenong, balanced by the rhythmic drive of the kendhang barrel drum and melodic metallophones including the gender, demung, and saron, shifting through lancaran, srepeg, and palaran sections.",
+      "sound_description": "A Javanese gamelan ensemble playing in the pelog scale, characterised by the percussive interplay of metallophones and drums.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "palaran singing where applicable within the gamelan structure"
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Assume a balanced warrior stance carrying the gendewa (bow) and cundrik (dagger).",
-        "Execute Prajuritan-derived martial footwork blended with Surakarta classical body alignment.",
-        "Draw the nyenyep (arrow) from the endhong (quiver) and nock to the gendewa.",
-        "Manoeuvre through floor pathways transitioning between lancaran and srepeg musical structures."
+        "not described in sources"
       ],
-      "formation": "Solo, pairs, or group bregada line formations",
-      "level_notes": "Requires coordination of handheld traditional weaponry (bow, arrows, dagger) with Javanese classical and folk movement registers.",
-      "rhythm": "Pelog gamelan structures featuring lancaran, srepeg, and palaran meters"
+      "formation": "Solo, pairs, or group formations.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "efbba7bfa5927d501f5407eadc6c2ea6edcd92efb2b6cc5fcca145357e051c9b",
+  "fingerprint": "6895eace5868a21e9cfca2dab5a31f49da184d6c12fd59c3cdd72d4dcff864ae",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -90,9 +76,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
-      "music_structure: rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns and counts for the Jurit Ampil Kridha Warastra? Evidence needed: Technical dance manuals or instructional video series from the Salatiga City Art Ambassadors."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -108,7 +95,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Can we obtain licensed footage of the dance to verify the posture and arm movements? Evidence needed: High-definition performance footage from the Salatiga City Art Ambassadors."
     ]
   },
   "id": "atlas:jurit-ampil-kridha-warastra-dance",
@@ -119,7 +107,26 @@
   ],
   "music_options": [],
   "name": "Jurit Ampil Kridha Warastra Dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "b126d7c5d87cdd72",
+      "next_evidence": "Technical dance manuals or instructional video series from the Salatiga City Art Ambassadors.",
+      "question": "What are the specific footwork patterns and counts for the Jurit Ampil Kridha Warastra?",
+      "source": "https://en.wikipedia.org/wiki/Jurit_Ampil_Kridha_Warastra",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the dance as a blend of styles but do not provide the technical movement vocabulary required for instruction."
+    },
+    {
+      "domain": "video",
+      "id": "79e539eb58887bf4",
+      "next_evidence": "High-definition performance footage from the Salatiga City Art Ambassadors.",
+      "question": "Can we obtain licensed footage of the dance to verify the posture and arm movements?",
+      "source": "https://en.wikipedia.org/wiki/Jurit_Ampil_Kridha_Warastra",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources are descriptive but lack the visual detail necessary to create an accurate movement profile."
+    }
+  ],
   "research_file": "research_results/jurit-ampil-kridha-warastra-dance.json",
   "runtime_active": false,
   "scope": {

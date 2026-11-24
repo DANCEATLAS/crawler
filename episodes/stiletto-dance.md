@@ -1,6 +1,6 @@
 # Stiletto dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); notable figures
 
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full; repetitions per step: about 3
-Cues: shoulders back; hips back; core lifted up; switch hips; ankles together
+Cues: shoulders back; hips back; core lifted up; switch hips; ankles together; double out; sway it hip up; work the chest and back; step and flick; drive with it get low
 
 Sources (2): https://en.wikipedia.org/wiki/Stiletto_dance; https://www.wikidata.org/wiki/Q25042625

@@ -163,6 +163,130 @@
    }
   ]
  },
- "fingerprint": "02406dfc440d9ee6",
- "updated": "2026-11-21"
+ "lessons": [
+  {
+   "youtube_id": "Xeo3DHnsdxc",
+   "url": "https://www.youtube.com/watch?v=Xeo3DHnsdxc",
+   "title": "FULL DABKE TUTORIAL",
+   "channel": "YousifVSWorld",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6",
+   "parts": [
+    {
+     "t": "0:19",
+     "seconds": 19,
+     "segment": "intro",
+     "note": "Introduction by instructor Yousif"
+    },
+    {
+     "t": "0:23",
+     "seconds": 23,
+     "segment": "context",
+     "note": "Explanation of what Dabke is and where it is danced"
+    },
+    {
+     "t": "0:47",
+     "seconds": 47,
+     "segment": "breakdown",
+     "note": "Breakdown of the basic Dabke steps"
+    },
+    {
+     "t": "1:15",
+     "seconds": 75,
+     "segment": "context",
+     "note": "Introduction to the Sab'a variation"
+    },
+    {
+     "t": "1:29",
+     "seconds": 89,
+     "segment": "breakdown",
+     "note": "Step-by-step breakdown of Sab'a"
+    },
+    {
+     "t": "3:07",
+     "seconds": 187,
+     "segment": "music_practice",
+     "note": "Practicing Sab'a with music"
+    },
+    {
+     "t": "3:52",
+     "seconds": 232,
+     "segment": "breakdown",
+     "note": "Introduction and breakdown of Midwaz"
+    },
+    {
+     "t": "6:02",
+     "seconds": 362,
+     "segment": "music_practice",
+     "note": "Practicing Midwaz with music"
+    },
+    {
+     "t": "6:45",
+     "seconds": 405,
+     "segment": "recap",
+     "note": "Outro and sign-off"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Basic Dabke Steps",
+     "counts": "1-2-3-4-5-6",
+     "description": "Six steps walking to the right ending with a kick and stomp."
+    },
+    {
+     "name": "Sab'a",
+     "counts": "7 counts",
+     "description": "Seven steps each featuring a hop and a kick-slide."
+    },
+    {
+     "name": "Midwaz",
+     "counts": "multiple",
+     "description": "Faster continuous dabke style with leg crossovers and knee lifts."
+    }
+   ],
+   "cues": [
+    "Kick with right, slide back with left",
+    "Step, kick and slide, right, left, and stomp",
+    "Hop with your left and your right knee goes up"
+   ],
+   "teacher_style": "The instructor talks directly to the camera to explain origins and counts, then switches to a first-person or side-angle view of his feet to demonstrate the steps. He breaks down each variant step-by-step from slow to regular speed before demonstrating them with music.",
+   "distinctive_method": "Using a first-person chest-mounted or downward-facing camera angle on his feet so learners see the exact footwork from their own perspective.",
+   "what_works": [
+    "First-person foot camera angle helps viewers follow foot placement directly",
+    "Progression from slow explanation to music practice"
+   ],
+   "what_hinders": [
+    "Frequent camera angle changes between upper body and feet"
+   ],
+   "evidence": [
+    {
+     "start_s": 47,
+     "end_s": 58,
+     "topic": "movement",
+     "observation": "Instructor demonstrates basic steps walking to the right using a first-person shoe-cam perspective on wooden flooring.",
+     "viewpoint": "overhead",
+     "cannot_infer": "Full body posture and upper body alignment",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 142,
+     "end_s": 150,
+     "topic": "movement",
+     "observation": "Side profile view of instructor demonstrating kick and slide back movement in shorts and socks.",
+     "viewpoint": "side",
+     "cannot_infer": "Exact weight distribution across feet",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "a9fad3d9aec0f23c",
+ "updated": "2026-11-24"
 }

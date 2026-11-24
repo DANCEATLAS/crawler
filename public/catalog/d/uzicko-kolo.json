@@ -387,9 +387,94 @@
   ],
   "via": {
    "posture": "performance",
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "zHcutlTy5EA",
+   "url": "https://www.youtube.com/watch?v=zHcutlTy5EA",
+   "title": "TUTORIAL: Uzicko Kolo, Western, Serbia",
+   "channel": "Folklor Wonder",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-2-2-3-3-2-3-4-2-3",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "Instructor introduces himself and the dance name"
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "context",
+     "note": "Instructor points to a map showing Uzice in western Serbia"
+    },
+    {
+     "t": "0:21",
+     "seconds": 21,
+     "segment": "context",
+     "note": "Instructor explains the 2/4 time signature"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "breakdown",
+     "note": "Instructor demonstrates the main step facing away from the camera"
+    },
+    {
+     "t": "6:16",
+     "seconds": 376,
+     "segment": "breakdown",
+     "note": "Instructor demonstrates a simplified version of the step"
+    },
+    {
+     "t": "6:44",
+     "seconds": 404,
+     "segment": "full_demo",
+     "note": "Instructor performs the full dance in traditional costume with music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Uzicko Kolo basic step",
+     "counts": "1-2-3-2-2-3-3-2-3-4-2-3",
+     "description": "Traveling step starting on the right foot moving sideways"
+    }
+   ],
+   "cues": [
+    "Three and one two three two two three three two three four two three"
+   ],
+   "teacher_style": "The instructor explains background history and geographical location of the dance before breaking down footwork step-by-step from behind. He uses repetition with counts and verbal modifications to contrast regional dance styles.",
+   "distinctive_method": "Explaining regional style variations by comparing western rougher footwork to central lighter dancing.",
+   "what_works": [
+    "Clear breakdown of footwork counts",
+    "Demonstrating from the back helps mirror the movement"
+   ],
+   "what_hinders": [
+    "Long verbal explanations without moving"
+   ],
+   "evidence": [
+    {
+     "start_s": 31,
+     "end_s": 62,
+     "topic": "movement",
+     "observation": "Instructor demonstrates footwork facing away with hands on hips",
+     "viewpoint": "back, unknown if mirrored",
+     "cannot_infer": "exact weight distribution on soft shoes",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "Ieg8zCOmIp4",
@@ -450,6 +535,6 @@
   "polished": false,
   "file": "episodes/uzicko-kolo.json"
  },
- "fingerprint": "a5429766ae0a1496",
- "updated": "2026-11-22"
+ "fingerprint": "90ff1a02cc58a004",
+ "updated": "2026-11-24"
 }

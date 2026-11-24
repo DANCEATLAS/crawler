@@ -129,6 +129,102 @@
    "son-cubano"
   ]
  },
- "fingerprint": "d94b5900581f8e41",
- "updated": "2026-11-21"
+ "lessons": [
+  {
+   "youtube_id": "C3t1BbE6B6g",
+   "url": "https://www.youtube.com/watch?v=C3t1BbE6B6g",
+   "title": "Easy To Follow 30 Minute Dance Workout View From The Back (Salsa, Bachata, Merengue, Mambo And More)",
+   "channel": "375 Dance Studio",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Amanda introduces the 30 minute dance workout and explains they will face away from the camera"
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "Teaches Merengue marching, walking, and side steps"
+    },
+    {
+     "t": "2:57",
+     "seconds": 177,
+     "segment": "breakdown",
+     "note": "Transitions into Mambo basic steps and side steps"
+    },
+    {
+     "t": "5:59",
+     "seconds": 359,
+     "segment": "breakdown",
+     "note": "Teaches Cha Cha time steps and Cuban breaks"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Merengue March",
+     "counts": "1-6",
+     "description": "Marching in place starting with the left foot"
+    },
+    {
+     "name": "Mambo Basic",
+     "counts": "1-4",
+     "description": "Stepping forward and back with basic mambo rhythm"
+    },
+    {
+     "name": "Cha Cha Time Step",
+     "counts": "1-3",
+     "description": "Time steps and Cuban breaks for cha cha"
+    }
+   ],
+   "cues": [
+    "march on the spot",
+    "walk forward",
+    "do it again",
+    "to the side",
+    "turn"
+   ],
+   "teacher_style": "The instructor teaches in a high-energy dance workout style, facing away from the camera to make following along easier. She continuously calls out steps, counts, and gives encouragement while moving with her backup dancers.",
+   "distinctive_method": "Instructing entirely facing away from the camera for the duration of the workout to eliminate left-right confusion for viewers.",
+   "what_works": [
+    "Instructor faces away from the camera so students can mirror her movements directly",
+    "Consistent counting and clear verbal cues before transitions"
+   ],
+   "what_hinders": [
+    "Fast transitions between different dance styles without much pause"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Instructor stands facing the camera introducing the workout in a studio.",
+     "viewpoint": "front, mirrored unknown",
+     "cannot_infer": "dance footwork",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 11,
+     "end_s": 25,
+     "topic": "movement",
+     "observation": "Instructor and dancers turn around facing away from the camera, marching in place.",
+     "viewpoint": "back, mirrored unknown",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "ce4344419ffb04cb",
+ "updated": "2026-11-24"
 }

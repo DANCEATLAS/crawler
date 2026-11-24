@@ -2,7 +2,7 @@
  "slug": "the-stroll",
  "name": "The Stroll",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:49Z",
+ "built_at": "2026-11-24T00:44:44Z",
  "researched_at": "2026-11-22T19:08:17Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is The Stroll. Late 1950s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (UrGLNtZ0rEg)",
      "Title card: The Stroll · United States · Late 1950s"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for The Promenade."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (UrGLNtZ0rEg)",
      "Captions name each signature move as it appears",
      "Formation: Two parallel lines creating a central corridor or 'aisle'."
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "UrGLNtZ0rEg",
+   "checked_by_vision_model": true,
+   "title": "The Original Stroll - February 1958"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -812,8 +816,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "67 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 67,
+  "source": "71 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 71,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -849,7 +853,6 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -859,6 +862,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "a531d9fdfc66aae9e6e88ae826dd34278dfb220efc7adaa37d3b365d02f66ab7",
- "hero_checked": null
+ "input_fingerprint": "5ad404efef221d56fa51bb03f7765db14305ebfec968374accb2a6228b2be06d",
+ "hero_checked": "pass"
 }

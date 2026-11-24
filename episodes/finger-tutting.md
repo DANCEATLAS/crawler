@@ -1,6 +1,6 @@
 # Finger Tutting — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
@@ -120,7 +120,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Box: Create a square shape using the index fingers and thumbs of both hands.
 NARRATION: Step 2: The Staircase: Stack fingers horizontally one above the other in a stepped pattern.
 NARRATION: Drill: Thumb-to-thumb connection
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -144,6 +144,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rounded or soft angles; the style requires 'hard' 90-degree corners to maintain the illusion.
+NARRATION: Teachers of this dance warn against: trying to do finger tutting with tense or stiff hands
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Inherently performed seated; excellent for fine motor skill maintenance. · For children: Shadow puppets: create shapes and have others guess the object.
 MUSIC: silence
@@ -192,7 +193,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Box: Create a square shape using the index fingers and thumbs of both hands.
 NARRATION: Step 2: The Staircase: Stack fingers horizontally one above the other in a stepped pattern.
 NARRATION: Drill: The 'Finger Walk' across a flat palm
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -219,6 +220,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rounded or soft angles; the style requires 'hard' 90-degree corners to maintain the illusion.
+NARRATION: Teachers of this dance warn against: trying to do finger tutting with tense or stiff hands
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Inherently performed seated; excellent for fine motor skill maintenance. · For children: Shadow puppets: create shapes and have others guess the object.
 MUSIC: silence
@@ -267,7 +269,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Pivot: Rotate one hand 90 degrees while keeping a finger joint connected to the other hand.
 NARRATION: Step 2: Finger Isolation: Lift or fold one finger at a time while keeping the others perfectly still.
 NARRATION: Drill: Transitioning from a box to a staircase
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -292,6 +294,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rounded or soft angles; the style requires 'hard' 90-degree corners to maintain the illusion.
+NARRATION: Teachers of this dance warn against: trying to do finger tutting with tense or stiff hands
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Inherently performed seated; excellent for fine motor skill maintenance. · For children: Shadow puppets: create shapes and have others guess the object.
 MUSIC: silence
@@ -337,9 +340,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8
-Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: make it nice make it neat; make sure you keep your thumbs connected
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 3
+Cues: make an l; close the box; make a little heart; make these two touch at the top; make it nice make it neat; make sure you keep your thumbs connected
+Common mistakes the studied teachers name: trying to do finger tutting with tense or stiff hands
 
 Sources (2): https://en.wikipedia.org/wiki/Finger-tutting; https://www.wikidata.org/wiki/Q25041058

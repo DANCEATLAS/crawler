@@ -1,8 +1,8 @@
 # Chestnut — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historical dance specialist working directly from seventeenth-century primary notation and modern reconstructions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Published in John Playford's 1651 The English Dancing Master, Chestnut sets three couples face-to-face in a single line under the alternative title Dove's Figary.
 NARRATION: This is Chestnut. 1651.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (G0rxZCYTkmw)
 ON SCREEN: Title card: Chestnut · England · 1651
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 NEEDS: occasions_and_meaning
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (G0rxZCYTkmw)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Three couples in a line
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -269,7 +269,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'G0rxZCYTkmw', 'checked_by_vision_model': True, 'title': 'Chestnuts -  BeDrex Showcase 2017'}
 Images: 0 licensed
 Footage: File:4875 SW Chestnut Place.webm — https://upload.wikimedia.org/wikipedia/commons/6/60/4875_SW_Chestnut_Place.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:22.9.13 Pénélope à ventre roux (Penelope ochrogaster, Chestnut-bellied Guan).webm — https://upload.wikimedia.org/wikipedia/commons/8/82/22.9.13_P%C3%A9n%C3%A9lope_%C3%A0_ventre_roux_%28Penelope_ochrogaster%2C_Chestnut-bellied_Guan%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Chestnut Headed Tesia (Cettia castaneocoronata).webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Chestnut_Headed_Tesia_%28Cettia_castaneocoronata%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; chestnut-multimedia — https://archive.org/details/sharware; Joes Garage The Musical — https://archive.org/details/joes-garage-the-musical-part-1; Brain Breaks - Dance Song - Dancing Robots - Children's Songs by The Learning Station — https://archive.org/details/youtube-hpLULy-gjyc; Chestnut Avenue Center For The Arts Costume Party on 10/17 — https://archive.org/details/Chestnut_Avenue_Center_For_The_Arts_Costume_Party_on_10_17; Mystic Fragrance. Yu Fen et al. — https://archive.org/details/mystic-fragrance-yu-fen-et-al
 Motifs: Facsimile of John Playford's 1651 manual, Three couples aligned in a straight line set
@@ -279,7 +279,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 67 tutorial(s) of the folk-circle family studied · videos studied: 67
+Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie

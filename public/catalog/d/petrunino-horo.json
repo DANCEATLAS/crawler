@@ -29,6 +29,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Petrunino_horo",
   "wikidata_qid": "Q24911650",
   "unesco": false,
+  "hero_video_youtube_id": "C_M_HrnFUSw",
+  "video_stack": [
+   {
+    "youtube_id": "C_M_HrnFUSw",
+    "role": "hero",
+    "title": "Petrunino horo /Петрунино хоро",
+    "channel": "Teddy Svilenska",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -41,7 +51,13 @@
   "pipeline_version": "v3.3",
   "profile_long": "Petrunino horo stands as a distinct musical and choreographic tradition rooted in the Shopluk region of middle-west Bulgaria. Recognized across the Balkan peninsula for its energetic drive and rhythmic complexity, the dance is celebrated primarily for its signature asymmetrical meter. While many Bulgarian chain dances rely on quick additive rhythms, Petrunino horo is distinguished as one of the two primary examples of Bulgarian dance executed in 12/16 time. The dance has long transcended village gatherings to become a foundational work performed across stage settings, community workshops, and international folk dance circles.\n\nThe historical geography of Petrunino horo places its origins directly in the Shopluk region, an area celebrated in Bulgarian folklore for sharp, rapid, and expressive dance styles. Within middle-west Bulgaria, rural musicians developed tunes specifically suited for the quick step variations demanded by local dancers. Over decades of documentation and formal arrangement, the music associated with Petrunino horo was widely recorded and preserved. Today, the melodies that accompany the dance are standard selections within compilations of Bulgarian dance music, serving as both reference material for ethnomusicologists and performance tracks for dance ensembles.\n\nAt the core of Petrunino horo is its unusual meter and internal pulse structure. Danced and played in 12/16, the rhythm shares thematic similarities with another prominent Bulgarian dance, Eleno Mome, which relies on a major grouping counted as slow, slow, quick, medium. However, Petrunino horo departs from Eleno Mome by dividing the second slow count into two smaller subdivisions. This structural division produces a characteristic five-part measure counted as slow, quick, quick, quick, medium. This precise pulse is sustained throughout almost every measure across most documented versions of the dance, creating a driving momentum that dictates the dancers' footwork and body control.\n\nIn terms of staging and presentation, Petrunino horo has moved from regional social gatherings to professional theatrical stages. Nearly every professional Bulgarian folk troupe includes Petrunino horo in its master repertoire, using the dance to display technical precision, sharp spatial alignments, and dynamic group coordination. The performance presentation preserves the tight line formations characteristic of the Shopluk style while showcasing the intricate syncopation inherent in 12/16 music.\n\nBeyond the borders of Bulgaria, Petrunino horo achieved significant international recognition through the work of dedicated folk dance instructors and researchers. Renowned teachers such as David Vinski, Dick Crum, Jaap Leegwater, and Daniela Ivanova-Nyberg introduced the dance to international audiences, workshop attendees, and academic dance programs. Through their detailed instruction, the complex 12/16 rhythmic structure and traditional Shopluk styling have been preserved and disseminated to dancers worldwide, maintaining Petrunino horo as a vital subject in the study of Balkan dance traditions.",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:22:04Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -207,7 +223,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -227,36 +243,127 @@
     "label": "formation and use of space"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "_3SWujAO4R8",
+   "url": "https://www.youtube.com/watch?v=_3SWujAO4R8",
+   "title": "6. ПЕТРУНИНО ХОРО 1/ Petrunino horo 1- урок  по народни танци за 9мин ",
+   "channel": "Bulgarian folk dancing  tutorial with Petya",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "Bulgarian",
+   "counting_scheme": "1-2-3-4-5",
+   "parts": [
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "segment": "full_demo",
+     "note": "Demonstration of Petrunino horo in traditional costume"
+    },
+    {
+     "t": "0:27",
+     "seconds": 27,
+     "segment": "intro",
+     "note": "Greeting and introduction of the dance from Shopska region"
+    },
+    {
+     "t": "0:51",
+     "seconds": 51,
+     "segment": "breakdown",
+     "note": "Step by step breakdown of the dance measures"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Първи и втори такт",
+     "counts": "1-2-3-4-5",
+     "description": "Three steps or a slight hop on three times followed by two steps"
+    },
+    {
+     "name": "Трети и четвърти такт",
+     "counts": "1-2-3-4-5",
+     "description": "Cosička s podskok and four ordinary steps"
+    },
+    {
+     "name": "Пети такт",
+     "counts": "1-2-3-4-5",
+     "description": "Crossing steps to the left with left in front"
+    },
+    {
+     "name": "Шести такт",
+     "counts": "1-2-3-4-5",
+     "description": "Podskok s slivka and left/right variations"
+    },
+    {
+     "name": "Седми и осми такт",
+     "counts": "1-2-3-4-5",
+     "description": "Rytnik variations starting left or right"
+    }
+   ],
+   "cues": [
+    "1-2-3-4-5"
+   ],
+   "images": [
+    "като едно подскоче",
+    "пресипване се казва"
+   ],
+   "teacher_style": "The instructor explains the rhythm and tempo of the dance before demonstrating each measure step by step. She uses counting and verbal explanation while breaking down the steps in place.",
+   "distinctive_method": "Verbal explanation of the regional style characteristics (Shopski horo) and detailed counting of 12/16 meter as 5 beats per measure.",
+   "what_works": [
+    "Clear counting of measures and breakdown of individual parts"
+   ],
+   "what_hinders": [
+    "No music during the breakdown phase"
+   ],
+   "evidence": [
+    {
+     "start_s": 27,
+     "end_s": 50,
+     "topic": "teaching",
+     "observation": "Teacher stands outdoors in athletic wear talking to the camera to introduce the dance.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 51,
+     "end_s": 85,
+     "topic": "movement",
+     "observation": "Teacher demonstrates footwork counts while standing sideways in profile view.",
+     "viewpoint": "side, unmirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 11,
+  "gaps": 10,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/petrunino-horo.json"
  },
- "fingerprint": "c1757ba203e618f8",
- "updated": "2026-11-22"
+ "fingerprint": "547f652c2b6eb7a0",
+ "updated": "2026-11-24"
 }

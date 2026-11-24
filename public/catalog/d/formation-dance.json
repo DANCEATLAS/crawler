@@ -28,6 +28,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Formation_dance",
   "wikidata_qid": "Q1416037",
   "unesco": false,
+  "hero_video_youtube_id": "O3D6zvWHHs8",
+  "video_stack": [
+   {
+    "youtube_id": "O3D6zvWHHs8",
+    "role": "hero",
+    "title": "FORMATION DANCE II JUNIORS 'ANNUAL ATHLETIC MEET 2022 II @GTBDHURI",
+    "channel": "GURU TEG BAHADUR PUBLIC SCHOOL BARDWAL",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "_is_sacred": false,
   "research_gate": "publish",
@@ -51,6 +61,12 @@
   "publish_gate": "publish",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T00:24:24Z",
+   "soft_fail": []
+  },
   "tutorials": [
    {
     "youtube_id": "Suhz7IMYNwE",
@@ -365,16 +381,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    }
   ],
   "via": {
@@ -611,11 +623,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/formation-dance.json"
  },
- "fingerprint": "af1b41bb5866dfc8",
- "updated": "2026-11-21"
+ "fingerprint": "01035ce8c93f93f7",
+ "updated": "2026-11-24"
 }

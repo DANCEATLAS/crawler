@@ -1,11 +1,11 @@
 # Dihosana — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A veteran elder from the Makobo community
+**Instructor:** A veteran elder from the Makobo community.
 **Say it:** Dihosana, Hosana
 
 ## Episode 1 · Meet Dihosana · 8 min
@@ -18,22 +18,27 @@ ON SCREEN: Title card: Dihosana · Botswana · Traditional/Historical
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Dihosana is a traditional dance of the Kalanga people that has existed for a long period of time, inherited from their forefathers.
+NARRATION: Dihosana is a heritage inherited from the forefathers of the Kalanga people.
+NARRATION: It has existed for a long period and remains a vital part of Kalanga culture, centered in the village of Makobo.
 ON SCREEN: Map: Botswana · Africa
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The dance is performed to pray for rain during times of drought by inviting ancestors through trance.
+NARRATION: The dance is performed to pray for rain during times of drought.
+NARRATION: It is a sacred ritual triggered by an ancestral calling.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
+NARRATION: Dancers perform in groups.
+NARRATION: The ritual begins with the cleaning or sweeping of the ground, known as the Sebata.
+NARRATION: The dance involves the invitation of ancestors through trance.
+NARRATION: Watch for Sebata.
 ON SCREEN: Hero video full screen, 30–45 s (MD2oGbI_IA0)
-ON SCREEN: Signature moves — MISSING
+ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
-NEEDS: how_it_is_danced, signature_moves
 
 ### 5. Listen (70 s) · `music`
 ON SCREEN: Instrument names on screen as each is mentioned
@@ -43,15 +48,15 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: music_and_instruments, tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Dancers wear black skirts and long strings of beads around their necks, with beads also worn on the body and waist in red, black, and white colors.
-NARRATION: Rituals occur at a hill called Ka Mwale and on a ground known as the Sebata.
+NARRATION: Dancers wear black skirts and long strings of beads around their necks, bodies, and waists.
+NARRATION: The beads are grouped in various colors, including red, black, and white.
 ON SCREEN: Image gallery: 7 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Veteran elders of the Hosana dance, particularly those residing in the village of Makobo.
-NARRATION: Inherited from the forefathers of the Kalanga people.
+NARRATION: Veteran elders of the Hosana dance are located in the village of Makobo, approximately 20 to 30 km north of Francistown, Botswana.
+NARRATION: The tradition is inherited from the forefathers of the Kalanga people.
 ON SCREEN: Names on screen as they are spoken
 MUSIC: underscore
 
@@ -61,12 +66,12 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: Dihosana is a sacred rain-making dance involving ancestral trance and initiation; it is not a performance for public entertainment and requires an ancestral calling to participate.
+NARRATION: Dihosana is a ritual practice involving ancestral possession and trance; it is not a performance for public entertainment and requires specific ancestral calling.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: An exploration of the sacred rain-making rituals of the Kalanga people in Botswana.
+NARRATION: An exploration of the sacred Dihosana ritual, where ancestral spirits are invited to bring rain to the Kalanga people.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -75,7 +80,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Dihosana (Botswana). Mood: spiritual, solemn. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Dihosana (Botswana). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -89,16 +94,16 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: {'youtube_id': 'MD2oGbI_IA0', 'checked_by_vision_model': True, 'title': 'CULTURE SPEARS- HOSANA'}
 Images: 7 licensed — Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
-Motifs: Black skirts, Red, black, and white beadwork, The landscape of Ka Mwale hill
-Costume notes: Dancers wear black skirts and long strings of beads around their necks, with beads also worn on the body and waist in red, black, and white colors. Rituals occur at a hill called Ka Mwale and on a ground known as the Sebata.
+Motifs: Black skirts, Intricate beadwork in red, black, and white, The landscape of Ka Mwale hill, Sweeping the Sebata ground
+Costume notes: Dancers wear black skirts and long strings of beads around their necks, bodies, and waists. The beads are grouped in various colors, including red, black, and white.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (2): https://en.wikipedia.org/wiki/Dihosana; https://www.wikidata.org/wiki/Q41669136

@@ -1,8 +1,8 @@
 # Sekete — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 8.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 8.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; signature moves; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; signature moves; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian or community elder from the Saramaka Maroon tradition.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythmic Spirits of the Saramaka
 NARRATION: This is Sekete. Colonial period to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cUKfGJSIUvI)
 ON SCREEN: Title card: Sekete · Suriname · Colonial period to present
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance is performed by Saramaka dancers who incorporate music-making into their movement.
 NARRATION: Dancers shake instruments attached to their ankles to create rhythmic accompaniment while they perform.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cUKfGJSIUvI)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
@@ -96,7 +96,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cUKfGJSIUvI', 'checked_by_vision_model': False, 'title': 'Rose Muhando_-_MASEKETE (Official Dance Video) @rosemuhandoofficial5676'}
 Images: 8 licensed — Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Suyash Dwivedi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 Motifs: Rainforest setting, Close-up of ankle rattles, Traditional Maroon attire
@@ -106,9 +106,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ritual-sacred family studied · videos studied: 13
+Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; y tac tac; el segundo; loosen those hips; connect with the earth; knees have to be bent
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Suriname; https://www.wikidata.org/wiki/Q107447246
