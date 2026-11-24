@@ -1,6 +1,6 @@
 # Contact Improvisation — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage
 

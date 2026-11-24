@@ -1,0 +1,370 @@
+{
+ "slug": "turkey-dance",
+ "name": "Turkey Dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T03:20:28Z",
+ "researched_at": "2026-11-23T22:14:20Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Caddo elder or cultural historian who emphasizes the dance as a living archive of survival.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Turkey Dance",
+   "Núh Kaʔáwshan"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Turkey Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Sentinels of the Sunset",
+     "This is Turkey Dance. Ancient to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Turkey Dance · United States · Ancient to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Turkey Dance is an ancient tradition with multiple origin stories, most notably that of a hunter who memorized the movements of wild turkeys.",
+     "Spanish missionaries in the 18th century recorded Hasinai women performing the dance to welcome returning warriors.",
+     "It has been maintained continuously by the Caddo people, with a notable resurgence in practice following World War II."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is a celebration of Caddo survival and history.",
+     "It is the first dance performed during a day of tribal ceremonies.",
+     "It also serves to honor veterans, particularly during the concluding flag song and the lowering of the US flag at sunset.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance progresses through several phases.",
+     "Women move in a circular formation, which in the past centered on a pole.",
+     "In the third phase, dancers cluster around the male drummers in the center.",
+     "Watch for Turkey Mimicry."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Starts as a circle (formerly around a pole), moves to a central cluster around drummers"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Men perform the music, which consists of 52 specific songs sung in various Caddo dialects.",
+     "The primary instrumentation is the drum.",
+     "Listen for the Drum.",
+     "The sound is defined by male voices singing 52 traditional songs in Caddo dialects, accompanied by rhythmic drumming. The songs transition from creation myths to specific military histories."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Women wear ankle-length dresses with ribbon-trimmed skirts, matching blouses with flared yokes, and full-length aprons.",
+     "Key accessories include the dush-toh (a plaque with mirrors and ribbons), beadwork, and broadcloth blankets.",
+     "The dance traditionally occurs outdoors and must end by sunset."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "While individual dancers are not named in the source, the Hasinay Society and the Caddo Cultural Club are identified as the primary organizations currently performing and preserving the dance.",
+     "The dance is currently centered in Binger, Oklahoma, at the Caddo National Tribal Complex.",
+     "The dance is a traditional indigenous American ceremonial dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Turkey Dance is parent of Hasinai Ceremonies: The Turkey Dance was historically performed by the Hasinai Caddo women."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Turkey Dance is a significant traditional ceremony that must be completed by sunset. It involves specific regalia and songs that recount tribal history and honor veterans."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how the Caddo people preserve their entire history through a dance that must end before the turkeys roost.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Drum"
+  ],
+  "vocal_style": "Chanted or sung in Caddo dialects; narrative and historical",
+  "musical_form": "52 distinct songs recounting historical events",
+  "mood": [
+   "historical",
+   "ceremonial",
+   "honorific",
+   "narrative"
+  ],
+  "sound_description": "The sound is defined by male voices singing 52 traditional songs in Caddo dialects, accompanied by rhythmic drumming. The songs transition from creation myths to specific military histories.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Turkey Dance (United States). Instruments: Drum. Vocal style: Chanted or sung in Caddo dialects; narrative and historical. Form: 52 distinct songs recounting historical events. Mood: historical, ceremonial, honorific, narrative. It should sound like this: The sound is defined by male voices singing 52 traditional songs in Caddo dialects, accompanied by rhythmic drumming. The songs transition from creation myths to specific military histories. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Women wear ankle-length dresses with ribbon-trimmed skirts, matching blouses with flared yokes, and full-length aprons. Key accessories include the dush-toh (a plaque with mirrors and ribbons), beadwork, and broadcloth blankets. The dance traditionally occurs outdoors and must end by sunset.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACaddo_turkey_dance00.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Caddo_turkey_dance00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Caddo_turkey_dance00.jpg/1280px-Caddo_turkey_dance00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Uyvsdi / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACaddo_turkey_dance00.jpg",
+    "description": "Caddo turkey dance, outdoor dance arena at the Caddo National Complex, Binger, Oklahoma"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The dush-toh headpiece with flowing ribbons",
+   "The setting sun",
+   "Wild turkeys in a forest",
+   "The ceremonial Spanish cane"
+  ],
+  "costume_notes": "Women wear ankle-length dresses with ribbon-trimmed skirts, matching blouses with flared yokes, and full-length aprons. Key accessories include the dush-toh (a plaque with mirrors and ribbons), beadwork, and broadcloth blankets. The dance traditionally occurs outdoors and must end by sunset.",
+  "setting_notes": "The dance is a celebration of Caddo survival and history. It is the first dance performed during a day of tribal ceremonies. It also serves to honor veterans, particularly during the concluding flag song and the lowering of the US flag at sunset.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 14,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Turkey_dance",
+  "https://www.wikidata.org/wiki/Q7855143"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "29d76b340a38d0276f05b3a281de98b2de2f075f5437c184d5e5c58f76042923",
+ "hero_checked": null
+}

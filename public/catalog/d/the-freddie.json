@@ -86,6 +86,19 @@
     "verified": false
    }
   ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Freddie_and_the_Dreamers_dancing_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Freddie_and_the_Dreamers_dancing_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 987,
+    "height": 717,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Unknown authorUnknown author\n\n\n\n\n\n\nThis  is a retouched picture, which means that it has been digitally altered from its original version.   Modifications made by Dcameron814. / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFreddie_and_the_Dreamers_dancing_1965.jpg",
+    "description": "Freddie and the Dreamers \"do the Freddie\" in 1965"
+   }
+  ],
   "movie_ready": false,
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
@@ -98,7 +111,8 @@
   },
   "related_slugs": [
    "twist",
-   "the-jerk"
+   "the-jerk",
+   "the-frug"
   ]
  },
  "profile": {
@@ -173,6 +187,22 @@
     "verified": true
    }
   ],
+  "images": [
+   {
+    "title": "File:Freddie and the Dreamers dancing 1965.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Freddie_and_the_Dreamers_dancing_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Freddie_and_the_Dreamers_dancing_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 987,
+    "height": 717,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Unknown authorUnknown author\n\n\n\n\n\n\nThis  is a retouched picture, which means that it has been digitally altered from its original version.   Modifications made by Dcameron814.",
+    "description": "Freddie and the Dreamers \"do the Freddie\" in 1965",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFreddie_and_the_Dreamers_dancing_1965.jpg",
+    "attribution": "Unknown authorUnknown author\n\n\n\n\n\n\nThis  is a retouched picture, which means that it has been digitally altered from its original version.   Modifications made by Dcameron814. / Wikimedia Commons / Public domain",
+    "found_in": "a search of Wikimedia Commons for its name"
+   }
+  ],
   "confidence": 1.0,
   "movie_ready": false,
   "researched_at": "2026-10-28T16:24:04Z",
@@ -180,7 +210,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 4,
   "of": 15,
   "missing": [
    {
@@ -226,10 +256,6 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
-    "key": "picture",
-    "label": "a licensed picture or licensed footage"
    }
   ]
  },
@@ -242,6 +268,6 @@
   "polished": false,
   "file": "episodes/the-freddie.json"
  },
- "fingerprint": "5b8b0aebe7821663",
- "updated": "2026-11-21"
+ "fingerprint": "3105f0383808219e",
+ "updated": "2026-11-24"
 }

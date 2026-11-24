@@ -33,7 +33,7 @@
   "tier": "needs_curation",
   "_is_sacred": false,
   "research_gate": "review",
-  "qc_score": 0.0,
+  "qc_score": 8.7,
   "last_researched_at": "2026-11-23T23:37:19Z",
   "pipeline_version": "v3.3",
   "hero_source": "crawler:crowd_wisdom_confident",
@@ -53,7 +53,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 5,
   "of": 15,
   "missing": [
    {
@@ -91,9 +91,13 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
- "fingerprint": "1828a96fe5bdef06",
+ "fingerprint": "77ec879f505382ec",
  "updated": "2026-11-24"
 }

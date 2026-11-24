@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.35 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -21,14 +21,14 @@ MUSIC: theme (30 s)
 NARRATION: Cornish dance has roots in medieval rondes and farandoles, potentially influenced by the geography of stone circles.
 NARRATION: Documentary evidence spans from 1287 church statutes to 19th-century reports of Furry dances and Troils in fishing communities.
 ON SCREEN: Map: UK · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Dances marked religious feasts, the end of fishing seasons, and significant political or community events.
 NARRATION: They served as a mechanism for social cohesion and celebration within Cornish communities.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Homesteading and the Building's Falling [Part 1 of 2] (https://archive.org/details/SSG10A)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -54,7 +54,7 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Historically, dances occurred in churchyards, fish cellars, and town streets during feast days.
 NARRATION: Geese dancers used tattered paper headgear and disguises, while social dances were held in lofts or at harvest home celebrations.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -282,8 +282,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
-Footage: Homesteading and the Building's Falling [Part 1 of 2] — https://archive.org/details/SSG10A; Homesteading and the Building's Falling [Part 2 of 2] — https://archive.org/details/SSG10B; Cornish dance students perform “An Exploration of Movement & Energy” — https://archive.org/details/sc21wa-Cornish_dance_students_perform_An_Exploration_of_Movement_Energy; From paint to percussion, Art Zone with Nancy Guppy celebrates Seattle's creative scene — https://archive.org/details/sc21wa-From_paint_to_percussion_Art_Zone_with_Nancy_Guppy_celebrates_Seattle_s_creative_scene; Classic-Banjo - Video: Zither Banjo: Cammeyer: Cornish Dance No 1 - Rob MacKillop — https://archive.org/details/classic-banjo-videos-8e8f0af76414af999ec55517f4a06fb1cf809047
+Images: 2 licensed — Tyw7 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mutney / Wikimedia Commons / CC0 (CC0)
+Footage: MISSING
 Motifs: Stone circles, Coastal fishing villages, Fiddle players, Processional lines
 Costume notes: Historically, dances occurred in churchyards, fish cellars, and town streets during feast days. Geese dancers used tattered paper headgear and disguises, while social dances were held in lofts or at harvest home celebrations.
 

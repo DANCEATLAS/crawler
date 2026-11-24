@@ -1,8 +1,8 @@
 # Western swing — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned dance instructor with a deep appreciation for Southwestern string bands, speaking with warm, steady authority.
@@ -28,7 +28,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Saturday night dances served as the core of social life for working-class communities throughout Texas, Oklahoma, and California, providing a vital recreational outlet amid the hardships of the Great Depression and World War II.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Josh Graves set, Norman Blake set, Vassar Clements set - 1974-July-20 (https://archive.org/details/tier-fest74-07-20_3-set-AUD.fob)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -323,7 +323,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 2 licensed — Joseph Kane / Wikimedia Commons / Public domain (Public domain); Paul Parry / Wikimedia Commons / Public domain (Public domain)
-Footage: Josh Graves set, Norman Blake set, Vassar Clements set - 1974-July-20 — https://archive.org/details/tier-fest74-07-20_3-set-AUD.fob; "The old american barn dance" (1953) — https://archive.org/details/theOldAmericanBarnDance1953; Barry Dolins on HammondCast, Chicago Blues Festival 2007 — https://archive.org/details/BarryDolinsOnHammondcastChicagoBluesFestival2007; Barry Dolins on HammondCast, Chicago Blues Festival 2007 — https://archive.org/details/JonHammondBarryDolinsonHammondCast_ChicagoBluesFestival2007_0; Barry Dolins on HammondCast Radio Show, Chicago Blues Festival 2007 — https://archive.org/details/JonHammondBarryDolinsonHammondCastRadioShow_ChicagoBluesFestival2007; Barry Dolins on HammondCast, Chicago Blues Festival 2007 — https://archive.org/details/JonHammondBarryDolinsonHammondCast_ChicagoBluesFestival2007; The Gentlemen & Their Lady will be Performing June 26, Yorktown Sounds of Summer at Riverwalk — https://archive.org/details/The_Gentlemen_Their_Lady_will_be_Performing_June_26_Yorktown_Sounds_of_Summer_at_Riverwalk; Cafe Improv, March 2016 pt 2 — https://archive.org/details/Cafe_Improv_March_2016_pt_2
+Footage: MISSING
 Motifs: Electrified steel guitar gleaming under vintage ballroom lights, Crowded wooden dance floor with couples spinning in two-step formation, Microphones broadcasting live radio programs from KVOO, Neon signs glowing outside roadside Southwestern dance pavilions
 Costume notes: Dancers gathered in expansive ballrooms, dance pavilions, and nightspots such as Cain's Ballroom in Tulsa, the Crystal Springs Dance Pavilion in Fort Worth, and the Venice Pier Ballroom in California, often drawing thousands of attendees on Saturday nights.
 

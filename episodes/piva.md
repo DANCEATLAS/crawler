@@ -1,8 +1,8 @@
 # Piva — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A musicologist specializing in Renaissance dance notation.
@@ -28,7 +28,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The Piva served as the final, fastest movement in early dance suites, following the Padoana and the Saltarello.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: File:Piva river underwater. Bottom covered in rocks and gravel.webm (https://upload.wikimedia.org/wikipedia/commons/e/ec/Piva_river_underwater._Bottom_covered_in_rocks_and_gravel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -289,7 +289,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'zUpQrutawDI', 'checked_by_vision_model': False, 'title': 'Classical performance by “Piva Dance World”'}
 Images: 0 licensed
-Footage: File:Piva river underwater. Bottom covered in rocks and gravel.webm — https://upload.wikimedia.org/wikipedia/commons/e/ec/Piva_river_underwater._Bottom_covered_in_rocks_and_gravel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Two graylings (Thymallus thymallus) swimming at the confluence of the Tara and Piva rivers.webm — https://upload.wikimedia.org/wikipedia/commons/0/0c/Two_graylings_%28Thymallus_thymallus%29_swimming_at_the_confluence_of_the_Tara_and_Piva_rivers.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A grayling (Thymallus thymallus) swimming at the confluence of the Tara and Piva rivers close up.webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/A_grayling_%28Thymallus_thymallus%29_swimming_at_the_confluence_of_the_Tara_and_Piva_rivers_close_up.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Piva river with a hanging bridge in the background.webm — https://upload.wikimedia.org/wikipedia/commons/3/38/Piva_river_with_a_hanging_bridge_in_the_background.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Brown Trout (Salmo truta morpha fario) in Piva River high angle surface shot.webm — https://upload.wikimedia.org/wikipedia/commons/9/90/Brown_Trout_%28Salmo_truta_morpha_fario%29_in_Piva_River_high_angle_surface_shot.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Common minnow (Phoxinus phoxinus) searching for food at the confluence of the Tara and Piva rivers.webm — https://upload.wikimedia.org/wikipedia/commons/3/3c/Common_minnow_%28Phoxinus_phoxinus%29_searching_for_food_at_the_confluence_of_the_Tara_and_Piva_rivers.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: 15th-century Italian court paintings, Lute tablature manuscripts, Historical bagpipe illustrations
 Costume notes: The dance was performed in both folk festival settings and the courts of the nobility during the 15th and 16th centuries.
 

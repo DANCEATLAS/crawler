@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The dance symbolizes the three-horse team used by noble families to pull their carriages.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Ministro da Economia realça que Portugal já não está sob a dependência da 'troika'.webm (https://upload.wikimedia.org/wikipedia/commons/7/72/Ministro_da_Economia_real%C3%A7a_que_Portugal_j%C3%A1_n%C3%A3o_est%C3%A1_sob_a_depend%C3%AAncia_da_%27troika%27.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: 2011 Christmas Gala -- Troika (https://archive.org/details/nwsula-2011_Christmas_Gala_--_Troika)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -286,7 +286,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'xF20bKmf8lU', 'checked_by_vision_model': False, 'title': 'The Deer Hunter 1978  Wedding Dance OST - Troika'}
 Images: 0 licensed
-Footage: File:Ministro da Economia realça que Portugal já não está sob a dependência da 'troika'.webm — https://upload.wikimedia.org/wikipedia/commons/7/72/Ministro_da_Economia_real%C3%A7a_que_Portugal_j%C3%A1_n%C3%A3o_est%C3%A1_sob_a_depend%C3%AAncia_da_%27troika%27.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; SERGEJ PROKOF'EV — https://archive.org/details/TheBestOfProkofiev; RECITAL AL MUSIKVEREIN DI VIENNA - Bruce Liu (29 gennaio 2025) — https://archive.org/details/bruce-liu-recital-in-vienna-jan.-29-2025-musikverein; 2011 Christmas Gala -- Troika — https://archive.org/details/nwsula-2011_Christmas_Gala_--_Troika; Troika dancing at Poquessing MS — https://archive.org/details/nsdpa-Troika_dancing_at_Poquessing_MS
+Footage: 2011 Christmas Gala -- Troika — https://archive.org/details/nwsula-2011_Christmas_Gala_--_Troika; Troika dancing at Poquessing MS — https://archive.org/details/nsdpa-Troika_dancing_at_Poquessing_MS
 Motifs: Three-horse carriage imagery, Circular patterns on the floor, Interlocking hands
 
 

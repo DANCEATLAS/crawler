@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An encouraging Scottish ceilidh caller who emphasizes steady rhythmic timing and inclusive social enjoyment.
@@ -22,7 +22,7 @@ NARRATION: The Gay Gordons emerged as a traditional Scottish country dance assoc
 NARRATION: The dance is closely tied to the composition by James Scott Skinner, originally known as 'The Gordon Highlanders' March', which was first printed in the collection 'Monikie Series no 3' around 1890.
 NARRATION: It grew into a staple of modern ceilidh dancing and was famously recorded by Scottish musician Jimmy Shand in 1942.
 ON SCREEN: Map: Scotland · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -57,10 +57,9 @@ NEEDS: tempo
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: As a popular Scottish social and country dance, the Gay Gordons requires no specialized ritual costume, though formal ceilidhs often feature traditional Scottish attire such as kilts, sporrans, and tartans.
 NARRATION: It is typically performed in community halls, dance studios, and social ceilidhs where a large circular space allows couples to travel anti-clockwise around the perimeter of the room.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Key figures associated with the dance include Scottish composer and fiddler James Scott Skinner, who published its iconic tune around 1890, and bandleader Jimmy Shand, who popularized the music with his 1942 recording.
@@ -320,7 +319,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '7YIqMg8jnpE', 'checked_by_vision_model': True, 'title': 'Learning the Gay Gordons'}
-Images: 0 licensed
+Images: 6 licensed — Fæ / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ian Palmer from Dover, Kent, Great Britain / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); popmisa / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); I Robertson / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); I Robertson / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Large concentric circle of couples moving anti-clockwise, Traditional accordion player's hands on key bed, High angle of dancers exchanging partners during progressive turn
 Costume notes: As a popular Scottish social and country dance, the Gay Gordons requires no specialized ritual costume, though formal ceilidhs often feature traditional Scottish attire such as kilts, sporrans, and tartans. It is typically performed in community halls, dance studios, and social ceilidhs where a large circular space allows couples to travel anti-clockwise around the perimeter of the room.

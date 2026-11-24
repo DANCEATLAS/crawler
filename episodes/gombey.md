@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Troupe Captain: authoritative, deeply knowledgeable about family lineage, and rhythmic.
@@ -22,7 +22,7 @@ NARRATION: The Gombey originated among Bermuda's enslaved population, drawing fr
 NARRATION: Genetic studies of Black Bermudians show ancestry linked to a band across southern Africa from Angola to Mozambique, distinct from other British West Indian populations.
 NARRATION: Historically, the dance was a form of protest; masked performers used the anonymity of the costume to mock slave masters.
 ON SCREEN: Map: Bermuda · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -30,7 +30,7 @@ NARRATION: Originally a tool of resistance and a rare outlet for celebration und
 NARRATION: It is a staple of Boxing Day, New Year's Day, and Bermuda Day.
 NARRATION: It also appears at football and cricket matches.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Gumba Nεmbu Piligu.webm (https://upload.wikimedia.org/wikipedia/commons/3/32/Gumba_N%CE%B5mbu_Piligu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -58,10 +58,9 @@ NEEDS: tempo, meter
 NARRATION: Gombey costumes provide full-body coverage and are highly decorative.
 NARRATION: Key features include tall headdresses topped with peacock feathers, painted masks, and long capes.
 NARRATION: The outfits are adorned with tassels, mirrors, and bells that create sound as the dancer moves.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: The tradition is led by Captains who oversee individual troupes and determine their unique styles.
@@ -323,8 +322,8 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'czmDldlBL3w', 'checked_by_vision_model': True, 'title': 'BERMUDA GOMBEY'}
-Images: 0 licensed
-Footage: File:Gumba Nεmbu Piligu.webm — https://upload.wikimedia.org/wikipedia/commons/3/32/Gumba_N%CE%B5mbu_Piligu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Gumba Tobu (Pounding Millet at a funeral ).webm — https://upload.wikimedia.org/wikipedia/commons/d/d5/Gumba_Tobu_%28Pounding_Millet_at_a_funeral_%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Images: 3 licensed — Captain-tucker / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); kansasphoto / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); P. Hughes / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: MISSING
 Motifs: Peacock feathers swaying in the wind, The reflection of mirrors on the capes, Close-ups of painted masks, Drummers' hands hitting the snare rims
 Costume notes: Gombey costumes provide full-body coverage and are highly decorative. Key features include tall headdresses topped with peacock feathers, painted masks, and long capes. The outfits are adorned with tassels, mirrors, and bells that create sound as the dancer moves. Historically, dancers used red and yellow paints and scarlet cloth. Performances typically take place in the streets, particularly during the Christmas season, Easter, and Bermuda Day, often involving long marches across the island.
 

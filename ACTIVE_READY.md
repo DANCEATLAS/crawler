@@ -2,43 +2,45 @@
 
 _Measured 2026-11-24 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 41 profiles are active-ready
+## 31 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
+Since 24 November 2026 a reference clip counts as the licensed picture only when its list was read, the clip shows the dance and it declares a licence (`pipeline/footage.py`). On that day 18 profiles that had been counted on an unread list stepped back until a picture is found.
+
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,300 |
-| Researched from sources (in the atlas) | 683 |
-| Published (passed every gate) | 545 |
-| **Active-ready** | **41** |
-| One item short | 45 |
-| Two items short | 50 |
-| Three to five short | 127 |
-| Story-ready, teaching withheld (sacred or restricted) | 57 |
+| In the atlas | 1,320 |
+| Researched from sources (in the atlas) | 703 |
+| Published (passed every gate) | 571 |
+| **Active-ready** | **31** |
+| One item short | 56 |
+| Two items short | 51 |
+| Three to five short | 136 |
+| Story-ready, teaching withheld (sacred or restricted) | 56 |
 
 Video studied so far: 262 lessons, 220 performances.
 
-Pace over the last two weeks: +32 active-ready a week.
-Pace over the last two weeks: +163 published a week.
+Pace over the last two weeks: +23 active-ready a week.
+Pace over the last two weeks: +186 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 312 |
-| a lesson or performance the machine studied, with timestamps | 203 |
-| what to avoid: common mistakes or safety | 197 |
-| a hero video that passed the vision check | 145 |
-| two or more signature moves | 137 |
-| tempo, meter or the teacher's count | 127 |
-| posture | 121 |
-| a licensed picture or licensed footage | 114 |
-| arms and hands | 94 |
-| ordered basic steps or a lesson ladder | 88 |
-| the instruments and what the music sounds like | 83 |
-| origins, meaning and occasions, dress and setting — written from sources | 71 |
-| formation and use of space | 46 |
+| the steps with their counts | 333 |
+| a lesson or performance the machine studied, with timestamps | 224 |
+| what to avoid: common mistakes or safety | 204 |
+| a hero video that passed the vision check | 164 |
+| two or more signature moves | 147 |
+| a licensed picture or licensed footage | 141 |
+| tempo, meter or the teacher's count | 136 |
+| posture | 131 |
+| arms and hands | 98 |
+| ordered basic steps or a lesson ladder | 94 |
+| the instruments and what the music sounds like | 88 |
+| origins, meaning and occasions, dress and setting — written from sources | 74 |
+| formation and use of space | 47 |
 | known to be living, revived or historical | 30 |
 
 ## Closest to the line
@@ -46,14 +48,14 @@ Pace over the last two weeks: +163 published a week.
 - **Acrobatic Rock'n'Roll** — needs: the steps with their counts
 - **Aerial dance** — needs: the steps with their counts
 - **Alegrías** — needs: the steps with their counts
+- **Ballos** — needs: what to avoid: common mistakes or safety
 - **Bugg** — needs: ordered basic steps or a lesson ladder
 - **Bush dance** — needs: the steps with their counts
 - **Cariñosa** — needs: what to avoid: common mistakes or safety
+- **Carolina shag** — needs: a licensed picture or licensed footage
 - **Charleston Stroll** — needs: a lesson or performance the machine studied, with timestamps
-- **Chiapanecas** — needs: a licensed picture or licensed footage
 - **Chinese square dancing** — needs: the steps with their counts
 - **Choobazi** — needs: the steps with their counts
-- **Collegiate Shag** — needs: what to avoid: common mistakes or safety
 - **Condong** — needs: the steps with their counts
 - **Dance of Osman Taka** — needs: the steps with their counts
 - **Dikir barat** — needs: the steps with their counts
@@ -62,10 +64,11 @@ Pace over the last two weeks: +163 published a week.
 - **electric boogaloo** — needs: known to be living, revived or historical
 - **Electric Slide** — needs: origins, meaning and occasions, dress and setting — written from sources
 - **Fancy Shawl Dance** — needs: what to avoid: common mistakes or safety
-- **Finger Tutting** — needs: the steps with their counts
+- **Farruca** — needs: a licensed picture or licensed footage
 - **Formation dance** — needs: the instruments and what the music sounds like
 - **Fouetté** — needs: the instruments and what the music sounds like
 - **Fusion Dance** — needs: what to avoid: common mistakes or safety
+- **Garrotín** — needs: what to avoid: common mistakes or safety
 - **Geommu** — needs: the steps with their counts
 - **Gombey** — needs: the steps with their counts
 - **Grotesque dance** — needs: the steps with their counts
@@ -73,16 +76,15 @@ Pace over the last two weeks: +163 published a week.
 - **Huaylarsh** — needs: a licensed picture or licensed footage
 - **Huaylas (Huaylarsh)** — needs: a licensed picture or licensed footage
 - **J-Setting** — needs: the steps with their counts
+- **Jacking** — needs: a licensed picture or licensed footage
 - **Kebyar duduk** — needs: the steps with their counts
+- **Luddi** — needs: known to be living, revived or historical
 - **makossa** — needs: what to avoid: common mistakes or safety
+- **Melbourne shuffle** — needs: a licensed picture or licensed footage
 - **moshing** — needs: the steps with their counts
 - **pachanga** — needs: the steps with their counts
 - **pas de deux** — needs: the steps with their counts
 - **passacaglia** — needs: what to avoid: common mistakes or safety
-- **Pogo** — needs: the steps with their counts
-- **Polska** — needs: what to avoid: common mistakes or safety
-- **Rebolation** — needs: a licensed picture or licensed footage
-- **Sequence dance** — needs: what to avoid: common mistakes or safety
 
 ## The fifteen items
 

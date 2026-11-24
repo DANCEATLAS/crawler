@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Stiletto dance is primarily a professional performance art used in the entertainment industry.
 NARRATION: It also serves as a physical fitness discipline for women, focusing on movement vocabulary and body language.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: unaputita_315 (https://archive.org/details/unaputita_315)
+ON SCREEN: Footage: High Heels Dance By D 3t (https://archive.org/details/high-heels-dance-by-d-3t)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -322,7 +322,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '8nRyRNUtNhA', 'checked_by_vision_model': True, 'title': 'Sam Sparro - Black&Gold | Žydrė High Heels Dance'}
 Images: 0 licensed
-Footage: unaputita_315 — https://archive.org/details/unaputita_315; High Heels Dance By D 3t — https://archive.org/details/high-heels-dance-by-d-3t; Pee Wees Playhouse - High Heels Dance 480p — https://archive.org/details/y-2mate.com-pee-wees-playhouse-high-heels-dance-480p; Frisco Features – High Tops & High Heels Dance — https://archive.org/details/ftvntx-Frisco_Features_High_Tops_High_Heels_Dance
+Footage: High Heels Dance By D 3t — https://archive.org/details/high-heels-dance-by-d-3t
 Motifs: Close-ups of stiletto heels striking a wooden floor, Slow-motion captures of torso isolations, The contrast between the industrial gym setting and the glamour of the stage
 Costume notes: The defining costume element is the stiletto heel shoe. Settings range from professional stages and cruise ships to music video sets and dance studios or gyms for fitness-based practice.
 

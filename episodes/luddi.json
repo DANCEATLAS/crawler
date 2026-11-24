@@ -2,7 +2,7 @@
  "slug": "luddi",
  "name": "Luddi",
  "pack_version": "e2",
- "built_at": "2026-11-21T19:39:47Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-10-28T16:26:23Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -79,7 +79,7 @@
     ],
     "on_screen": [
      "Map: Pakistan & India · South Asia",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -137,7 +137,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -687,7 +687,9 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3APunjabi_Luddi.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -695,7 +697,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Punjabi_Luddi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Punjabi_Luddi.jpg/1280px-Punjabi_Luddi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Terimaadiphudi / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APunjabi_Luddi.jpg",
+    "description": "A group of Punjabi men performing Luddi at a wedding."
+   }
+  ],
   "footage": [],
   "motifs": [],
   "costume_notes": null,
@@ -787,6 +798,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "36efef4a92e0f198a896326eccfed23c9dbd37ec81178cc815924270deb3f4e2",
+ "input_fingerprint": "6195900ca6dd92a688f820f048353f793b0c3d15ef8b713110c1c57c5fbc43fa",
  "hero_checked": "pass"
 }

@@ -1,6 +1,6 @@
 # makossa — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
 
@@ -293,7 +293,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '-NyJDecUdSE', 'checked_by_vision_model': True, 'title': 'Makossa Dance'}
 Images: 1 licensed — Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Female Makossa Dancer - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/d/de/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Male Makossa Dancer - Industrial Chemistry (ICH) Department Award Night Dance - Enugu State University of Science and Technology (ESUT) - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/Male_Makossa_Dancer_-_Industrial_Chemistry_%28ICH%29_Department_Award_Night_Dance_-_Enugu_State_University_of_Science_and_Technology_%28ESUT%29_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MARLOZ DANCE VIDEO MIX VOL. 114 Disco & Funk! — https://archive.org/details/MARLOZDANCEVIDEOMIXVOL.114DiscoFunk; AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET — https://archive.org/details/africa-dance-5-complet
+Footage: File:Female Makossa Dancer - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/d/de/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Male Makossa Dancer - Industrial Chemistry (ICH) Department Award Night Dance - Enugu State University of Science and Technology (ESUT) - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/Male_Makossa_Dancer_-_Industrial_Chemistry_%28ICH%29_Department_Award_Night_Dance_-_Enugu_State_University_of_Science_and_Technology_%28ESUT%29_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Douala street scenes, Vintage vinyl records, Electric bass guitars, Archival footage of 1970s dance halls
 Costume notes: Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala. It evolved in settings where electricity and modern musical equipment became available to local musicians.
 

@@ -1,6 +1,6 @@
 # Para Para — episode pack
 
-*Status: draft · built 2026-11-20 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); what to avoid / common mistakes
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Para Para emerged in the early 1980s, with theories suggesting it began with VIP room staff choreographing moves to impress clients or from the Takenoko-zoku subculture in Harajuku.
 NARRATION: The term is onomatopoeic, mimicking the sound of hand movements to music.
 ON SCREEN: Map: Japan · East Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,7 +55,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Historically associated with Japanese club culture, including venues like Maharaja, Twinstar, and Velfarre.
 NARRATION: Costumes vary by era, often reflecting the fashion of the time, such as the gyaru style during the third boom.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -315,8 +315,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'nah1-LwkJGQ', 'checked_by_vision_model': True, 'title': 'ParaPara Paradise 4 - 01 - Go Go Girls - Cyber Dance'}
-Images: 0 licensed
-Footage: File:Parapara dance 2009 France.webm — https://upload.wikimedia.org/wikipedia/commons/2/23/Parapara_dance_2009_France.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; ParaPara Paradise 3 (DVD, 2001) — https://archive.org/details/para-para-paradise-3-2001; ParaPara Paradise 2 (DVD, 2001) — https://archive.org/details/para-para-paradise-2-2001; ParaPara Paradise 5 (DVD, 2001) — https://archive.org/details/para-para-paradise-5-2001; ParaPara Paradise 6 (2002, DVD) — https://archive.org/details/para-para-paradise-6-2002; ParaPara Paradise 4 (2001, DVD) — https://archive.org/details/para-para-paradise-4-2001; ParaPara Paradise Presents ガッチャ！ ラフ君 With ASH (2001, VHS) — https://archive.org/details/para-para-paradise-presents-with-ash-2001; File:Parapara Valley Road flooded.webm — https://upload.wikimedia.org/wikipedia/commons/f/f5/Parapara_Valley_Road_flooded.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Images: 2 licensed — Mr.ちゅらさん / Wikimedia Commons / CC0 (CC0); Kiumaonzea / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
+Footage: File:Parapara dance 2009 France.webm — https://upload.wikimedia.org/wikipedia/commons/2/23/Parapara_dance_2009_France.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; ParaPara Paradise Presents ガッチャ！ ラフ君 With ASH (2001, VHS) — https://archive.org/details/para-para-paradise-presents-with-ash-2001
 Motifs: Neon club lighting, Synchronized dancers in a line, Close-ups of hand gestures
 Costume notes: Historically associated with Japanese club culture, including venues like Maharaja, Twinstar, and Velfarre. Costumes vary by era, often reflecting the fashion of the time, such as the gyaru style during the third boom.
 

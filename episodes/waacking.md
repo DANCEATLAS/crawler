@@ -1,6 +1,6 @@
 # Waacking — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
@@ -336,7 +336,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'tCDqCnOqOas', 'checked_by_vision_model': True, 'title': 'Lip J - WAACKING showcase at KOD // .stance'}
 Images: 0 licensed
-Footage: Waacking: Psychedelic Flow! — https://archive.org/details/psychedelic-flow; Waacking: Flute Cover! — https://archive.org/details/flute-cover; Rockwell - 'Somebody's Watching Me' | Waacking Freestyle (Berfu) — https://archive.org/details/rockwell-somebodys-watching-me-waacking-freestyle-berfu; WAACKING: PINK PARADE | ICONIC EDITION - The Royal Family Waacking Virtual Experience! — https://archive.org/details/pink-parade-iconic-edition-the-royal-family-virtual-experience; Elahood Waacking - ¡Danza! — https://archive.org/details/elahood-waacking; Lên sàn | Jack đen | Phong cách tự do Waacking Vogue | Kẹp 02 | 2010 — https://archive.org/details/get-on-the-floor-black-jack-freestyle-waacking-vogue-clip-02-2010; Aversión al agua | Garay | Whacking. — https://archive.org/details/aversion-al-agua-garay-whacking
+Footage: Waacking: Psychedelic Flow! — https://archive.org/details/psychedelic-flow; Waacking: Flute Cover! — https://archive.org/details/flute-cover; Rockwell - 'Somebody's Watching Me' | Waacking Freestyle (Berfu) — https://archive.org/details/rockwell-somebodys-watching-me-waacking-freestyle-berfu; Elahood Waacking - ¡Danza! — https://archive.org/details/elahood-waacking; Lên sàn | Jack đen | Phong cách tự do Waacking Vogue | Kẹp 02 | 2010 — https://archive.org/details/get-on-the-floor-black-jack-freestyle-waacking-vogue-clip-02-2010
 Motifs: Spun disco balls reflecting fractured light across spinning forearms, Vintage black-and-white Hollywood movie stills intercut with modern club cyphers, Slow-motion captures of wrists wrapping around the crown of the head
 Costume notes: Originally performed in dimly lit LGBTQ+ nightclubs of 1970s Los Angeles, waacking was framed by social freedom and theatrical display. Dancers drew visual and sartorial inspiration from classic Hollywood screen stars such as Marlene Dietrich, Lauren Bacall, and James Dean, adopting vintage diva attitudes, tailored silhouettes, and stylized garments. In modern practice, waacking appears in international dance battles, television studios, university theatre departments, music videos, and competitive ice rinks, where performers continue to wear expressive, high-fashion, and dramatic attire.
 

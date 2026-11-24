@@ -1,6 +1,6 @@
 # Men's Fancy Dance — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
@@ -304,7 +304,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'nlfVPjeb1Xo', 'checked_by_vision_model': True, 'title': None}
 Images: 2 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Montanabw / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: 1994 VHS • Native American Men's and Women's Dance Styles Vol 1 60 FPS — https://archive.org/details/TheVistaGroup-1994VHSNativeAmericanMensandWomensDanceStylesVol1; National Indian Heritage Month Celebration - Nashville Public Library - 2003 — https://archive.org/details/mgntn-National_Indian_Heritage_Month_Celebration_-_Nashville_Public_Library_-_2003
+Footage: 1994 VHS • Native American Men's and Women's Dance Styles Vol 1 60 FPS — https://archive.org/details/TheVistaGroup-1994VHSNativeAmericanMensandWomensDanceStylesVol1
 Motifs: Twin feather bustles in motion, Beaded regalia, The powwow arena
 Costume notes: Dancers wear brightly colored regalia, including twin feather bustles, beaded bodices, leggings, bells below the knees, and a roach with two feathers. The regalia is designed to accentuate the dancer's motion.
 

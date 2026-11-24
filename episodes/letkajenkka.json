@@ -2,7 +2,7 @@
  "slug": "letkajenkka",
  "name": "Letkajenkka",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-05T17:59:37Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -82,7 +82,7 @@
     ],
     "on_screen": [
      "Map: Finland · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -146,7 +146,7 @@
      "It was performed in clubs, schools, and public squares."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -731,7 +731,9 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": "There is no specific traditional costume; dancers typically wore 1960s casual attire. It was performed in clubs, schools, and public squares.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALetkajenkka-1964.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -739,7 +741,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Letkajenkka-1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Letkajenkka-1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Erkki Laitila / Lehtikuva / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALetkajenkka-1964.jpg",
+    "description": "Letkajenkkaa tanssitaan itsenäisyyspäivän vastaanotolla."
+   }
+  ],
   "footage": [],
   "motifs": [
    "Conga lines in 1960s footage",
@@ -812,6 +823,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "fc5e97bf7da4f9e45578eecdb7bdd8f7c5a3150f909a8a4ca2e0414056602a11",
+ "input_fingerprint": "553b9de52e9a852c5bd3c3526ca204516bb2111a9e1b2d57990a64ed28c7902f",
  "hero_checked": "pass"
 }

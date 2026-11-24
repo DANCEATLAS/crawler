@@ -1,6 +1,6 @@
 # Hakken — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section
 
@@ -30,7 +30,7 @@ NARRATION: Hakken is a social dance within rave and hard dance communities, expr
 NARRATION: It is not sacred or ritualistic and has no known restrictions on participation.
 NARRATION: The dance symbolizes the hardcore rave culture of 1990s Netherlands and its international offshoots.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Middelste bonte specht hakkend-4961794.webm (https://upload.wikimedia.org/wikipedia/commons/a/aa/Middelste_bonte_specht_hakkend-4961794.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: LE "HAKKEN", MÉKÈSKECÉ ??? 🤔 (https://archive.org/details/youtube-mikHSKzzXSk)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -320,7 +320,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'l-cffsL7DTM', 'checked_by_vision_model': True, 'title': 'Hardshock 2019 Hakkuh Gabber Hakken'}
 Images: 0 licensed
-Footage: File:Middelste bonte specht hakkend-4961794.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Middelste_bonte_specht_hakkend-4961794.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; LE "HAKKEN", MÉKÈSKECÉ ??? 🤔 — https://archive.org/details/youtube-mikHSKzzXSk; Free 24h En El Skatepark La Francia — https://archive.org/details/muy-aspero-el-ultimo-free-24h-en-el-skatepark-la-francia
+Footage: LE "HAKKEN", MÉKÈSKECÉ ??? 🤔 — https://archive.org/details/youtube-mikHSKzzXSk; Free 24h En El Skatepark La Francia — https://archive.org/details/muy-aspero-el-ultimo-free-24h-en-el-skatepark-la-francia
 Motifs: Heel stomps, Rotterdam stadium stands, Nike Air Max shoes, Fast-paced footwork, Rave lighting and crowd
 Costume notes: Dancers typically wear Nike Air Max Classics shoes, favored for their support and cultural association. Hakken is performed in rave venues, festivals, and club settings, often in groups but also solo. The dance's fast tempo and repetitive footwork suit energetic, crowded environments.
 

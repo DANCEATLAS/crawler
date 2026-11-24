@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); notable figures
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local 'spelemann' (fiddler) or veteran dancer who emphasizes the 'feeling' of the local valley's rhythm over academic counts.
@@ -21,14 +21,14 @@ MUSIC: theme (30 s)
 NARRATION: Bygdedans is identified as the oldest and most distinctive of Norwegian folk dances, surviving primarily in isolated farming communities.
 NARRATION: While coastal and urban areas shifted toward newer styles like Gammaldans following the introduction of the accordion, these village dances maintained their ancient musical roots.
 ON SCREEN: Map: Norway · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Bygdedans serves as a regional marker of identity.
 NARRATION: It represents a traditional form of social interaction that predates the more standardized European partner dances that arrived later.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Village Dance.webm (https://upload.wikimedia.org/wikipedia/commons/c/cd/Village_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -55,7 +55,7 @@ NEEDS: tempo
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Traditionally performed in farming communities, the dance is historically linked to the social life of rural Norway.
 NARRATION: While specific costumes are not detailed in the source, the dance is geographically tied to the regions where the Hardanger fiddle is prevalent.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -319,8 +319,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
-Footage: File:Village Dance.webm — https://upload.wikimedia.org/wikipedia/commons/c/cd/Village_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MY BLIND MOTHER'S DANCE MOVES 2 - 2017 Latest Nigerian Movies African Nollywood Full Movies — https://archive.org/details/youtube-O5omZXO1Zxg; MY BLIND MOTHER'S DANCE MOVES - 2017 Latest Nigerian Movies African Nollywood Full Movies — https://archive.org/details/youtube-h_YRRp3iAjI; Arunachal Pradesh Tour (Vol. VI) — https://archive.org/details/dni.ncaa.IGRMS-MINI_DV_50-MDV; A Day In Our Village-Dance Party — https://archive.org/details/vopil-A_Day_In_Our_Village-Dance_Party; Village Dance & Social Club, July 28, 2026 — https://archive.org/details/lwvtca-Village_Dance_Social_Club_July_28_2026; Village Dance — https://archive.org/details/youtube-t_CBLORruV0
+Images: 1 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
+Footage: MISSING
 Motifs: The ornate carvings of a Hardanger fiddle, Dust rising from a wooden dance floor, The contrast between isolated mountain farms and modern Norwegian life, Leather-soled shoes striking wood
 Costume notes: Traditionally performed in farming communities, the dance is historically linked to the social life of rural Norway. While specific costumes are not detailed in the source, the dance is geographically tied to the regions where the Hardanger fiddle is prevalent.
 

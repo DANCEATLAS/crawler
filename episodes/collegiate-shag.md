@@ -1,6 +1,6 @@
 # Collegiate Shag — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
 
@@ -312,7 +312,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'uUGsLoZYXb4', 'checked_by_vision_model': True, 'title': 'RTSF 2013  Stephen & Chandrae - Shag Showcase'}
 Images: 0 licensed
-Footage: Collegiate Shag (Part 2): Jenni's Joint #16 — https://archive.org/details/Collegiate_Shag_Part_2_-_Jenni_s_Joint_16; COLLEGIATE SHAG (Part 1): Jenni's Joint #15 — https://archive.org/details/COLLEGIATE_SHAG_Part_1_-_Jenni_s_Joint_15; File:Shag-1013365, Dingle Peninsula, Co. Kerry, Ireland.webm — https://upload.wikimedia.org/wikipedia/commons/9/99/Shag-1013365%2C_Dingle_Peninsula%2C_Co._Kerry%2C_Ireland.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Shags-1013540, Dingle Peninsula, Co. Kerry, Ireland.webm — https://upload.wikimedia.org/wikipedia/commons/f/f9/Shags-1013540%2C_Dingle_Peninsula%2C_Co._Kerry%2C_Ireland.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Shag (1985 documentary on the 1930s-50s dance fad) — https://archive.org/details/shag-1985-documentary-on-southern-dance; Shag — https://archive.org/details/img-20251002-153321; Learn To Dance The Carolina Shag — https://archive.org/details/learn-to-dance-the-carolina-shag; City Talk: Shagging on Main — https://archive.org/details/City_Talk_-_Shagging_on_Main
+Footage: Collegiate Shag (Part 2): Jenni's Joint #16 — https://archive.org/details/Collegiate_Shag_Part_2_-_Jenni_s_Joint_16; COLLEGIATE SHAG (Part 1): Jenni's Joint #15 — https://archive.org/details/COLLEGIATE_SHAG_Part_1_-_Jenni_s_Joint_15
 Motifs: High arm holds, Constant vertical bounce, Offset partner connection
 
 

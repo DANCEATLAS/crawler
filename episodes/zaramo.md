@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local folk dance practitioner from the Florina region.
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: It is a popular dance in North Macedonia and the Florina region of Greece.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Saul speaking Zaramo, English.webm (https://upload.wikimedia.org/wikipedia/commons/f/ff/Saul_speaking_Zaramo%2C_English.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -296,7 +296,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: File:Saul speaking Zaramo, English.webm — https://upload.wikimedia.org/wikipedia/commons/f/ff/Saul_speaking_Zaramo%2C_English.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Shoulder-to-shoulder line of dancers, Close-up of feet dragging on the ground
 
 

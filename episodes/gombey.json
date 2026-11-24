@@ -2,7 +2,7 @@
  "slug": "gombey",
  "name": "Gombey",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-20T18:46:03Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -82,7 +82,7 @@
     ],
     "on_screen": [
      "Map: Bermuda · North America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -97,7 +97,7 @@
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: File:Gumba Nεmbu Piligu.webm (https://upload.wikimedia.org/wikipedia/commons/3/32/Gumba_N%CE%B5mbu_Piligu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+     "Footage — MISSING (use images)"
     ],
     "music": "underscore"
    },
@@ -149,13 +149,10 @@
      "The outfits are adorned with tassels, mirrors, and bells that create sound as the dancer moves."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 3 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "images"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
@@ -743,7 +740,11 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": "Gombey costumes provide full-body coverage and are highly decorative. Key features include tall headdresses topped with peacock feathers, painted masks, and long capes. The outfits are adorned with tassels, mirrors, and bells that create sound as the dancer moves. Historically, dancers used red and yellow paints and scarlet cloth. Performances typically take place in the streets, particularly during the Christmas season, Easter, and Bermuda Day, often involving long marches across the island.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGombey_dancers_Bermuda.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AGombeys.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABermuda_-_Gombey_dancers.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -751,23 +752,33 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
-  "footage": [
+  "images": [
    {
-    "title": "File:Gumba Nεmbu Piligu.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Gumba_N%CE%B5mbu_Piligu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Alhassan Peter / Wikimedia Commons / CC BY-SA 4.0"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Gombey_dancers_Bermuda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Gombey_dancers_Bermuda.JPG/1280px-Gombey_dancers_Bermuda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Captain-tucker / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGombey_dancers_Bermuda.JPG",
+    "description": "Gombey dancers performing in Kings Square,St. George's, Bermuda."
    },
    {
-    "title": "File:Gumba Tobu (Pounding Millet at a funeral ).webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gumba_Tobu_%28Pounding_Millet_at_a_funeral_%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Gombeys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Gombeys.jpg/1280px-Gombeys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "kansasphoto / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGombeys.jpg",
+    "description": "The Gombey is an iconic symbol of Bermuda, this folklife tradition reflecting the island’s blend of African, Caribbean and British cultures, incorporating them over time into a unique performance art full of colorful and intricate masquerade, dance and drumming.\nHamilton, Pembroke Parish, Bermudas."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Bermuda_-_Gombey_dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Bermuda_-_Gombey_dancers.jpg/1280px-Bermuda_-_Gombey_dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "P. Hughes / Wikimedia Commons / CC BY-SA 4.0",
     "license": "CC BY-SA 4.0",
-    "attribution": "Alhassan Peter / Wikimedia Commons / CC BY-SA 4.0"
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABermuda_-_Gombey_dancers.jpg",
+    "description": "Gombey dancers, Royal Naval Dockyard, Bermuda"
    }
   ],
+  "footage": [],
   "motifs": [
    "Peacock feathers swaying in the wind",
    "The reflection of mirrors on the capes",
@@ -828,7 +839,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "licensed images (3 needed)"
+  "licensed reference footage"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Gombey",
@@ -837,6 +848,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "6d3982240932542e12f2dec7c86d64938886ce88bba51de1da710ef455dde6aa",
+ "input_fingerprint": "30fa1451d64f12aad207fb4f95732ed8155df807bf6f3d7abc5dc4148fb7e98c",
  "hero_checked": "pass"
 }

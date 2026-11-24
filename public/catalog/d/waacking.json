@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "waacking",
  "name": "Waacking",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -383,16 +383,6 @@
     "source": "archive"
    },
    {
-    "title": "WAACKING: PINK PARADE | ICONIC EDITION - The Royal Family Waacking Virtual Experience!",
-    "url": "https://archive.org/details/pink-parade-iconic-edition-the-royal-family-virtual-experience",
-    "year": 2021,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "THE ROYAL FAMILY VIRTUAL EXPERIENCE - ICONIC EDITION. Relive some of your favorite throwbacks from HHI, WOD & all the RF classics throughout the history of The Palace Dance Studio! Featuring some of your favorite Alumni’s, The Royal Family & Re Quest Dance Crew!",
-    "source": "archive"
-   },
-   {
     "title": "Elahood Waacking - ¡Danza!",
     "url": "https://archive.org/details/elahood-waacking",
     "year": 2019,
@@ -411,16 +401,6 @@
     "attribution": "Internet Archive",
     "description": "2010 - Waacking và Vogue trên sân thượng. Jack đen Vũ công nhảy tự do/ thịnh hành - Kẹp 02. Âm Nhạc - Hãy Lên Sàn.",
     "source": "archive"
-   },
-   {
-    "title": "Aversión al agua | Garay | Whacking.",
-    "url": "https://archive.org/details/aversion-al-agua-garay-whacking",
-    "year": 2021,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "No me siento cómodo ahí donde otros fluyen.",
-    "source": "archive"
    }
   ],
   "researched_at": "2026-11-07T16:11:11Z",
@@ -428,8 +408,14 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "footwork_counts": "lesson",
    "study_video": "lesson"
@@ -759,6 +745,6 @@
   "polished": false,
   "file": "episodes/waacking.json"
  },
- "fingerprint": "188a02721f9bb28f",
- "updated": "2026-11-21"
+ "fingerprint": "6645ee1317c17b2c",
+ "updated": "2026-11-24"
 }

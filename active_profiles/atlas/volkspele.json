@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "15",
+        "game_version": "The dance is already structured as 'folk-games' for school-age children."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Groups called laers participate in communal singing and dancing at gatherings called saamtrekke.",
+          "source": "https://en.wikipedia.org/wiki/Volkspele"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Dancers organize into groups known as laers and participate in large gatherings called saamtrekke.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The general term for the folk-games and dances performed by the laers.",
+          "name": "Volkspele"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "communal",
+        "traditional",
+        "social"
+      ],
+      "musical_form": "Translated Swedish folk songs",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The sound is characterized by communal folk-singing in Afrikaans, originally adapted from Swedish melodies, performed during social 'folk-games'.",
+      "tempo_bpm": "",
+      "vocal_style": "Folk-singing (Volksang)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Groups called laers",
+      "level_notes": "Courses are divided into Judith Pellissierweek (grades 5-7), Vormingsweek (grades 8-9), and Pellissierweek (grades 10-12).",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "640e87575fe6b4b2675b80fb1c72fa9f9128b5358150c73bf45789b6d9aae628",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: Which specific Swedish folk dances did Dr. Pellissier translate to create the Volkspele repertoire? Evidence needed: https://en.wikipedia.org/wiki/Volkspele"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns and hand-hold positions used in a standard Volkspele 'game'? Evidence needed: https://en.wikipedia.org/wiki/Volkspele"
+    ]
+  },
+  "id": "atlas:volkspele",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Volkspele",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d01922a17050b495",
+      "next_evidence": "https://en.wikipedia.org/wiki/Volkspele",
+      "question": "What are the specific footwork patterns and hand-hold positions used in a standard Volkspele 'game'?",
+      "source": "https://en.wikipedia.org/wiki/Volkspele",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the social structure but not the physical mechanics required for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "64ef6459de460eb2",
+      "next_evidence": "https://en.wikipedia.org/wiki/Volkspele",
+      "question": "Which specific Swedish folk dances did Dr. Pellissier translate to create the Volkspele repertoire?",
+      "source": "https://en.wikipedia.org/wiki/Volkspele",
+      "status": "candidate_unreviewed",
+      "why_needed": "Identifying the parent dances would allow for a comparative analysis of movement and rhythm."
+    }
+  ],
+  "research_file": "research_results/volkspele.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "volkspele",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Volkspele",
+    "https://www.wikidata.org/wiki/Q7940288"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

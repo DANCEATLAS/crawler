@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic community dance caller who guides the room with clear spatial prompts, warm humour, and an emphasis on inclusion.
@@ -22,7 +22,7 @@ NARRATION: Bush dance developed across key historical eras in Australia.
 NARRATION: Early European settlers between 1770 and 1850 brought local dance traditions from the United Kingdom, Ireland, and central Europe.
 NARRATION: During the gold rush between 1850 and 1860, miners introduced further European dances, including some arriving via the American gold rush.
 ON SCREEN: Map: Australia · Oceania
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,10 +55,9 @@ NEEDS: tempo
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Bush dance takes place in relaxed social environments, traditionally woolsheds, rural halls, and social club venues for Bushy Balls.
 NARRATION: Unlike colonial dance, which typically calls for period costume, bush dance adheres to relaxed dress codes.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Shirley Andrews and Max Klubal documented dance figures and instructions in publications such as 'Take Your Partners' (1979) and 'Music for Australian Folk Dancing with Instructions' (1979).
@@ -324,8 +323,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'qHqzjQty7aY', 'checked_by_vision_model': True, 'title': 'Koala Nutbush - Line Dance'}
-Images: 0 licensed
-Footage: Bush Dance Against Terorism — https://archive.org/details/Bush_Dance_Against_Terorism_3; Sarah Bush Dance Project Part Two — https://archive.org/details/JoeyWilliams-SarahBushDanceProjectPartTwo527; Sarah Bush Dance Project Part One — https://archive.org/details/JoeyWilliams-SarahBushDanceProjectPartOne897
+Images: 3 licensed — Wikimedia Commons / Public domain (Public domain); Wikimedia Commons / Public domain (Public domain); dnatheist / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
+Footage: Bush Dance Against Terorism — https://archive.org/details/Bush_Dance_Against_Terorism_3
 Motifs: The lagerphone shaker covered in bottle caps, Opposing longways lines moving along wooden hall floorboards, Dancers clapping hands together in Heel-Toe Polka, A lone dancer standing in the middle of a square quadrille
 Costume notes: Bush dance takes place in relaxed social environments, traditionally woolsheds, rural halls, and social club venues for Bushy Balls. Unlike colonial dance, which typically calls for period costume, bush dance adheres to relaxed dress codes.
 

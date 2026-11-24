@@ -1,8 +1,8 @@
 # Tourdion — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.65 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.65 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A meticulous Renaissance dancing master who emphasizes grace over height.
@@ -22,7 +22,7 @@ NARRATION: The tourdion originated in the Burgundian court in the mid-15th centu
 NARRATION: Early mentions appear in 'La grant danse macabre' (1499).
 NARRATION: It was famously documented by Pierre Attaingnant in 1530 and Thoinot Arbeau in 1589.
 ON SCREEN: Map: France · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -30,7 +30,7 @@ NARRATION: The tourdion was a social dance used for entertainment and courtship.
 NARRATION: Its lively nature provided a rhythmic contrast to more somber dances.
 NARRATION: In modern times, it has become associated with drinking songs and historical reenactments.
 NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: Medieval Music vol.3 (1000-1450) (https://archive.org/details/youtube-I8CW7P4k7II)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -58,7 +58,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NARRATION: Performed in Renaissance court settings or festive gatherings.
 NARRATION: Dancers wore period attire such as doublets and hose for men, and gowns for women.
 NARRATION: The setting was typically a ballroom or a festive hall where it followed the basse danse.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -325,8 +325,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'P8RlYeu5GBs', 'checked_by_vision_model': True, 'title': 'Tourdion - French Renaissance'}
-Images: 0 licensed
-Footage: Medieval Music vol.3 (1000-1450) — https://archive.org/details/youtube-I8CW7P4k7II; Tudor and Renaissance Music vol.3 (1450-1600) — https://archive.org/details/youtube-yIEF8Mf-FcI; Tourdion (1530) French Renaissance Song — https://archive.org/details/youtube-ArgDiJQ41Sg; Le Tourdion - French Renaissance Song — https://archive.org/details/le-tourdion-french-renaissance-song-farya
+Images: 1 licensed — Nileida94 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: MISSING
 Motifs: Dust rising slightly from the floor during the petit saut, The 'twist' of the feet during the cadence, The contrast between heavy court velvet and light, rapid footwork
 Costume notes: Performed in Renaissance court settings or festive gatherings. Dancers wore period attire such as doublets and hose for men, and gowns for women. The setting was typically a ballroom or a festive hall where it followed the basse danse.
 

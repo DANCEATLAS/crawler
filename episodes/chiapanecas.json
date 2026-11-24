@@ -2,7 +2,7 @@
  "slug": "chiapanecas",
  "name": "Chiapanecas",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-19T20:02:05Z",
  "qc_score": 8.7,
  "status": "draft",
@@ -81,7 +81,7 @@
     ],
     "on_screen": [
      "Map: Mexico · Central America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -142,13 +142,10 @@
      "Dancers wear the 'Traje de Chiapaneca', which is the traditional attire originating from Chiapa de Corzo."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 3 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "images"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
@@ -701,7 +698,11 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "Dancers wear the 'Traje de Chiapaneca', which is the traditional attire originating from Chiapa de Corzo.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALas_Chiapanecas._-_panoramio.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALos_Parachicos_Y_Las_Chiapanecas.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALas_chiapanecas.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -709,7 +710,32 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Las_Chiapanecas._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Las_Chiapanecas._-_panoramio.jpg/1280px-Las_Chiapanecas._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Nacasma / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALas_Chiapanecas._-_panoramio.jpg",
+    "description": "Las Chiapanecas."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Los_Parachicos_Y_Las_Chiapanecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Los_Parachicos_Y_Las_Chiapanecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Erick Daniel Ramos / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALos_Parachicos_Y_Las_Chiapanecas.jpg",
+    "description": "Esta hermoso arte se lleva a cabo en el cultural y magico pueblo de Chiapa De Corzo en Chiapas, es la danza mas representativa de todo el estado."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Las_chiapanecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Las_chiapanecas.jpg/1280px-Las_chiapanecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "JOSE ANGEL VIDAL MENA / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALas_chiapanecas.jpg",
+    "description": "Baile representativo de Chiapas, México"
+   }
+  ],
   "footage": [],
   "motifs": [
    "Traje de Chiapaneca",
@@ -790,7 +816,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
   "the how-it-is-danced section",
@@ -806,6 +831,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "eedc99cada4dcc4a224ad8f314729237b39315e7abd1ac4205ba0905b7f57bf1",
+ "input_fingerprint": "68bdce9dca51ecbb3c573f68a7a88354791aae059bc98b4db3b7ac580d222517",
  "hero_checked": "pass"
 }

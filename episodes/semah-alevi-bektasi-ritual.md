@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; the costume & setting section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed reference footage; the costume & setting section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable member of the Alevi community or a cultural historian.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Semah is performed during the Cem ceremony as one of twelve mandatory services.
 NARRATION: It symbolizes the spiritual journey of humanity, the cycle of life, and the unity of all creation with God.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Chika Dance Green Screen (https://archive.org/details/chikaYo)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -101,7 +101,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 5 licensed — myself / Wikimedia Commons / Public domain (Public domain); Jamie Price / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Calligraphy by Muhammad-i Azhar / Wikimedia Commons / Public domain (Public domain); Hidayetgoktas / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Unknown artistUnknown artist / Wikimedia Commons / Public domain (Public domain)
-Footage: Chika Dance Green Screen — https://archive.org/details/chikaYo; MMD Dances by hori — https://archive.org/details/ID-2450897; Latex kigurumi on the Catwalk at MWF 2019 — https://archive.org/details/youtube-cEY3cY44J5U
+Footage: MISSING
 Motifs: Circular movement patterns, The saz instrument, Crane imagery
 
 

@@ -1,6 +1,6 @@
 # Line dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; posture, arms and hands; teaching steps written out
 
@@ -311,7 +311,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '9BhPdnxD6Xk', 'checked_by_vision_model': True, 'title': "Kane's Boots - Line Dance (Dance & Teach in English & 中文)"}
 Images: 6 licensed — Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Bernd Hannemann / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); quinn.anya / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Sebastiaan ter Burg from Utrecht, The Netherlands / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); The White House from Washington, DC / Wikimedia Commons / Public domain (Public domain)
-Footage: Line-Dance Videos — https://archive.org/details/Line-danceVideos; Line-Dance Videos — https://archive.org/details/Line-Dance_Videos; CBEEBIES Balamory The Line Dance — https://archive.org/details/cbeebiesbalamorythelinedance; Soul Train (Season 1, Episode 7) — https://archive.org/details/soul-train-season-1-episode-7-partially-full-episode; Soul Train (Season 8, Episode 25) — https://archive.org/details/soul-train-season-8-episode-25; 1992 VHS • Kickin' Country Workout with Denise Austin 60 FPS — https://archive.org/details/TheVistaGroup-KickinCountryWorkoutwithDeniseAustin1992; File:1929-07-13 Irish GP Eireann Cup video.webm — https://upload.wikimedia.org/wikipedia/commons/c/cd/1929-07-13_Irish_GP_Eireann_Cup_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; DeSoto Steppers - Easy to Learn Dance Moves — https://archive.org/details/desotx-DeSoto_Steppers_-_Easy_to_Learn_Dance_Moves
+Footage: Line-Dance Videos — https://archive.org/details/Line-danceVideos; Line-Dance Videos — https://archive.org/details/Line-Dance_Videos; CBEEBIES Balamory The Line Dance — https://archive.org/details/cbeebiesbalamorythelinedance; 1992 VHS • Kickin' Country Workout with Denise Austin 60 FPS — https://archive.org/details/TheVistaGroup-KickinCountryWorkoutwithDeniseAustin1992; DeSoto Steppers - Easy to Learn Dance Moves — https://archive.org/details/desotx-DeSoto_Steppers_-_Easy_to_Learn_Dance_Moves
 Motifs: Parallel lines of dancers, Dance trainers, Step sheets
 Costume notes: While historically associated with Western-style clothing and boots, modern participants often wear casual clothing and dance trainers. It is practiced in dance bars, social clubs, and ballrooms.
 

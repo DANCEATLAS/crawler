@@ -1,8 +1,8 @@
 # American Tribal Style Belly Dance — episode pack
 
-*Status: draft · built 2026-11-21 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); signature moves; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; signature moves; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -22,7 +22,7 @@ NARRATION: The style originated in California in the late 1960s and 1970s with J
 NARRATION: Masha Archer later refined the 'tribal' group dynamic.
 NARRATION: Carolena Nericcio-Bohlman formalized the current ATS format in 1987 through FatChanceBellyDance, creating the standardized cueing system.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -56,10 +56,9 @@ NEEDS: tempo, meter
 NARRATION: Costumes feature tiered skirts (10-25 meters), cholis, coin bras, and heavy oxidized silver jewelry.
 NARRATION: Hair is often worn up with flowers or hair gardens.
 NARRATION: Makeup is eye-focused with heavy kohl or kajal.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Jamila Salimpour, Masha Archer, Carolena Nericcio-Bohlman, Paulette Rees-Denis, Kajira Djoumahna.
@@ -299,8 +298,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '_DTMoZf1jis', 'checked_by_vision_model': True, 'title': 'День рождения Трайбл Мафии - Tiana Frolkina - Tribal Fusion'}
-Images: 0 licensed
-Footage: Fat Chance Belly Dance Live — https://archive.org/details/fat-chance-belly-dance-live-199-dance-vhs_1; File:Tribal Festival Dance 2014.webm — https://upload.wikimedia.org/wikipedia/commons/8/8b/Tribal_Festival_Dance_2014.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wes Studi Offers COVID-19 Guidance to Tribal Communities 30sec PSA.webm — https://upload.wikimedia.org/wikipedia/commons/2/2f/Wes_Studi_Offers_COVID-19_Guidance_to_Tribal_Communities_30sec_PSA.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2022 White House Tribal Nations Summit - Day 1.webm — https://upload.wikimedia.org/wikipedia/commons/2/21/2022_White_House_Tribal_Nations_Summit_-_Day_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Western Oregon Tribal Fairness Act Explained (26390350647).webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Western_Oregon_Tribal_Fairness_Act_Explained_%2826390350647%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Koya - Education, Employment, and alternative careers in Tribal Community.webm — https://upload.wikimedia.org/wikipedia/commons/5/5f/Koya_-_Education%2C_Employment%2C_and_alternative_careers_in_Tribal_Community.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Encyclopedia of Tribal Medicines by Pankaj Oudhia (Related Videos/Movies/Slide Shows-1) — https://archive.org/details/EncyclopediaOfTribalMedicinesByPankajOudhia-1
+Images: 3 licensed — HelenaL at German Wikipedia / Wikimedia Commons / Public domain (Public domain); Pandatribaldancer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Pandatribaldancer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: Fat Chance Belly Dance Live — https://archive.org/details/fat-chance-belly-dance-live-199-dance-vhs_1
 Motifs: Layered skirts, Oxidized silver jewelry, Kohl-lined eyes
 Costume notes: Costumes feature tiered skirts (10-25 meters), cholis, coin bras, and heavy oxidized silver jewelry. Hair is often worn up with flowers or hair gardens. Makeup is eye-focused with heavy kohl or kajal.
 

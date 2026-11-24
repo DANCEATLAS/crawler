@@ -1,6 +1,6 @@
 # Women's Fancy Shawl Dance — episode pack
 
-*Status: draft · built 2026-11-17 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -287,7 +287,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'L5hyvjwAM4I', 'checked_by_vision_model': False, 'title': 'I Spent $100,000 To Rizz With NEW Lavinho Style & Butterfly Dancer Flow In Blue Lock Rivals...'}
 Images: 2 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Montanabw / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Canadian First Nation's Dances (from YouTube) — https://archive.org/details/first-nation-dances-canada; File:Butterfly dance (1895).webm — https://upload.wikimedia.org/wikipedia/commons/2/25/Butterfly_dance_%281895%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:The Butterfly Dance.mpg — https://upload.wikimedia.org/wikipedia/commons/d/dd/The_Butterfly_Dance.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bagurumba, Assam's butterfly dance in motion.webm — https://upload.wikimedia.org/wikipedia/commons/d/da/Bagurumba%2C_Assam%27s_butterfly_dance_in_motion.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bagurumba Dance (Butterfly Dance of the Bodo People).webm — https://upload.wikimedia.org/wikipedia/commons/3/35/Bagurumba_Dance_%28Butterfly_Dance_of_the_Bodo_People%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Annabelle Dances and Dances (1894-1897).webm — https://upload.wikimedia.org/wikipedia/commons/8/81/Annabelle_Dances_and_Dances_%281894-1897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; EROTIC BUTTERFLY DANCE,ZIGZAG — https://archive.org/details/EROTIC_BUTTERFLY_DANCEZIGZAG; Nickelodeon Dance to the music — https://archive.org/details/clideo_editor_c33f38b6e64f454aa66ca998e2eaec82
+Footage: Canadian First Nation's Dances (from YouTube) — https://archive.org/details/first-nation-dances-canada
 Motifs: Fringed shawls in motion, Close-ups of beadwork, Drummers at a powwow
 Costume notes: Regalia includes a colorful, fringed shawl, beaded or appliqued designs, beaded hairpieces, chokers, earrings, bracelets, eagle plumes, moccasins, and leggings.
 

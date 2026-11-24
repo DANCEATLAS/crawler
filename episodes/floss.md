@@ -1,6 +1,6 @@
 # Floss — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the music & instruments section; the costume & setting section; lineage; two or more connections
 
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance is performed as a social media trend, a video game emote, and in television performances.
 NARRATION: It has been associated with school environments and youth culture.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Design FLOSS events for developers - what we've learned.webm (https://upload.wikimedia.org/wikipedia/commons/c/ca/Design_FLOSS_events_for_developers_-_what_we%27ve_learned.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: Little Boy Has To Do Fortnite Dances As Punishment (https://archive.org/details/youtube-yu-YnJudK6U)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -302,7 +302,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'KujchiodZEc', 'checked_by_vision_model': False, 'title': 'Dancing on Live TV!! Meredith Vieira Show'}
 Images: 0 licensed
-Footage: File:Design FLOSS events for developers - what we've learned.webm — https://upload.wikimedia.org/wikipedia/commons/c/ca/Design_FLOSS_events_for_developers_-_what_we%27ve_learned.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Lightening talk "8 FLOSS tools and 4 hardware for audio, video and image editing for Commons".webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Lightening_talk_%228_FLOSS_tools_and_4_hardware_for_audio%2C_video_and_image_editing_for_Commons%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:EsLibre 2021 P48 - Antonio Montes de Miguel - Creación de recursos espaciales de aprendizaje XR con FLOSS.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/EsLibre_2021_P48_-_Antonio_Montes_de_Miguel_-_Creaci%C3%B3n_de_recursos_espaciales_de_aprendizaje_XR_con_FLOSS.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music) — https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino; Little Boy Has To Do Fortnite Dances As Punishment — https://archive.org/details/youtube-yu-YnJudK6U; Bom Bom Floss — https://archive.org/details/BomBomFloss; File:Radio Around the Region- Importance of Flossing (987935).webm — https://upload.wikimedia.org/wikipedia/commons/8/8b/Radio_Around_the_Region-_Importance_of_Flossing_%28987935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Funny or Die Video 1eed61a4c1: FLOSS BOSS (The Original Hardcore Rap Video About Flossing) — https://archive.org/details/funny_or_die_video_1eed61a4c1
+Footage: Little Boy Has To Do Fortnite Dances As Punishment — https://archive.org/details/youtube-yu-YnJudK6U; Bom Bom Floss — https://archive.org/details/BomBomFloss
 Motifs: Split-screen comparisons of early YouTube videos and Fortnite emotes., Graphic overlays showing the arm trajectory.
 
 

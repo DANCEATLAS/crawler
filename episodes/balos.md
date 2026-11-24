@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the music & instruments section; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the music & instruments section; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Kythnos dance tradition bearer or a researcher of Greek folk dance.
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: It is an integral part of the music and dance tradition of Kythnos, performed during local feasts and festivals.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Balos F6B-2I.webm (https://upload.wikimedia.org/wikipedia/commons/0/08/Balos_F6B-2I.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -287,7 +287,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'EtKfru3fEWc', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — DNK GR / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Balos F6B-2I.webm — https://upload.wikimedia.org/wikipedia/commons/0/08/Balos_F6B-2I.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Balos F6B-2D.webm — https://upload.wikimedia.org/wikipedia/commons/4/43/Balos_F6B-2D.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Aegean island festival setting, Close-up of hand-holding technique, Continuous rotation motion
 Costume notes: The dance is performed primarily during local festivals and summer events on the island of Kythnos.
 

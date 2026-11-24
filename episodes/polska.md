@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Traditional folk dance expert
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The polska is a social dance performed in community settings, with specific regional traditions still practiced in parts of Norway and Sweden.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: BEAUTY OF SLAVIC CULTURE (https://archive.org/details/youtube-yMc5b-V7mRI)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -304,7 +304,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'lRl1T7CAD0E', 'checked_by_vision_model': True, 'title': None}
 Images: 0 licensed
-Footage: BEAUTY OF SLAVIC CULTURE — https://archive.org/details/youtube-yMc5b-V7mRI; Polonaise - Traditional Polish Dance (War and Peace 1968 Version) — https://archive.org/details/youtube-LC5yCpO8-gM; File:Pols, Eckhard.webm — https://upload.wikimedia.org/wikipedia/commons/b/b7/Pols%2C_Eckhard.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Interview met Wouter Pols van Magic Moon bij Hobnob 2018.webm — https://upload.wikimedia.org/wikipedia/commons/9/99/Interview_met_Wouter_Pols_van_Magic_Moon_bij_Hobnob_2018.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Fiddle strings, Rotating couples, Map of Nordic regions
 
 

@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; notable figures; lineage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local practitioner from Banyuwangi.
@@ -26,7 +26,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: It is performed as a social dance at communal and social events such as circumcisions or weddings, and as a tourist attraction.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble (https://archive.org/details/calauem_200201_omvf0000672_pt1_ac)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -298,7 +298,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '-dxcamTUIsw', 'checked_by_vision_model': True, 'title': 'Tari Gama Gandrung by Wiryatama (Banyuwangi Traditional Dance)'}
 Images: 4 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Candra Firmansyah / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rvianry / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000672_pt1_ac
+Footage: MISSING
 Motifs: Ornate headgear, Traditional fans, Gamelan instruments
 Costume notes: The dancer is dressed in traditional costume, with a fan, shawl, and ornamental headgear. It is usually performed in an all-night performance that begins sometime around 9 p.m. and ends just before dawn.
 

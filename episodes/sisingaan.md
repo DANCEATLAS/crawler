@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; posture, arms and hands; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; posture, arms and hands; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Subang artist or cultural historian.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Sisingaan is primarily performed to celebrate a child's circumcision.
 NARRATION: It also serves as a symbol of historical resistance against Dutch colonialism, specifically referencing the lion as a symbol of the VOC.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Folk Dances of Asia and the Pacific (https://archive.org/details/dni.ncaa.IGRMS-V_129-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -292,7 +292,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '66jouszDYNI', 'checked_by_vision_model': True, 'title': 'TARI LATAR SISINGAAN'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ilham.nurwansah / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Amir Hosseini / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Sandhi Irawan / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Tommybandza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: Folk Dances of Asia and the Pacific — https://archive.org/details/dni.ncaa.IGRMS-V_129-VHS
+Footage: MISSING
 Motifs: The lion-shaped effigy, Bamboo support rods, Village streets of Subang
 Costume notes: The central element is a lion-shaped effigy or statue in a couchant position, mounted on a palanquin. The performance takes place in the kampung (village) setting, specifically during circumcision ceremonies.
 

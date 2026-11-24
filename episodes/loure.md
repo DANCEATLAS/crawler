@@ -1,8 +1,8 @@
 # loure — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Historical dance scholar
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: It was not a social dance but a theatrical one, used in operas and ballets to convey dignity, earnestness, and pride.
 NARRATION: It was often associated with pastoral scenes or characters of high status.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: La Naissance de Vénus (https://archive.org/details/Naissance_de_Venus)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -301,7 +301,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '6xY5KrF2qGc', 'checked_by_vision_model': True, 'title': 'Loure Aimable Vainqueur'}
 Images: 0 licensed
-Footage: La Naissance de Vénus — https://archive.org/details/Naissance_de_Venus
+Footage: MISSING
 Motifs: 18th-century dance notation, Baroque stage architecture, Historical bagpipes
 Costume notes: The loure was primarily a theatrical dance performed by virtuosos on the French stage. It was associated with noble, majestic, and sometimes pastoral settings, requiring costumes suitable for the refined aesthetic of the Baroque court and theater.
 

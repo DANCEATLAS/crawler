@@ -1,6 +1,6 @@
 # Baroque dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Originally performed at social events, court ceremonies, and theatrical productions like opera-ballets, it served as a display of elegance, social status, and artistic refinement.
 NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: Baroque Dance Rhythms - Music that Moves the Heart and the Feet - 10/12/2018 (https://archive.org/details/cctv17vt-Baroque_Dance_Rhythms_-_Music_that_Moves_the_Heart_and_the_Feet_-_10_12_2018)
+ON SCREEN: Footage: [ 09] Dance A Journey Across Europe, Choreographed By ' La Compagnie De L' Eventail' [ Etcohod] (https://archive.org/details/09-dance-a-journey-across-europe-choreographed-by-la-compagnie-de-l-eventail-etcohod)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -319,7 +319,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '3uoHr22VmFQ', 'checked_by_vision_model': True, 'title': 'Menuet Excerpt from Introduction to Baroque Dance'}
 Images: 2 licensed — Henri de Gissey / Wikimedia Commons / Public domain (Public domain); John Hewat of Canberra, Australia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: Baroque Dance Rhythms - Music that Moves the Heart and the Feet - 10/12/2018 — https://archive.org/details/cctv17vt-Baroque_Dance_Rhythms_-_Music_that_Moves_the_Heart_and_the_Feet_-_10_12_2018; [ 09] Dance A Journey Across Europe, Choreographed By ' La Compagnie De L' Eventail' [ Etcohod] — https://archive.org/details/09-dance-a-journey-across-europe-choreographed-by-la-compagnie-de-l-eventail-etcohod; D' Auvergne: Les Troquers (1983) (Opera - VHS) — https://archive.org/details/d-auvergne-les-troquers; Preußische Tänze im Stil Friedrich des Großen-Prussian Dances in the Style of Frederick the Great — https://archive.org/details/vimeo-1104909249; Preußische Tänze im Stil Friedrich des Großen-Prussian Dances in the Style of Frederick the Great — https://archive.org/details/vimeo-1104911306; [ 62] Dance La Belle Dame, Chorégraphie De Béatrice Massin 2011 [ Etcohod] — https://archive.org/details/62-dance-la-belle-dame-choregraphie-de-beatrice-massin-2011-etcohod; [ 10] Dance The Fair Lady, Choreography By Béatrice Massin[ Etcohod] — https://archive.org/details/10-dance-the-fair-lady-choreography-by-beatrice-massin-etcohod
+Footage: [ 09] Dance A Journey Across Europe, Choreographed By ' La Compagnie De L' Eventail' [ Etcohod] — https://archive.org/details/09-dance-a-journey-across-europe-choreographed-by-la-compagnie-de-l-eventail-etcohod; D' Auvergne: Les Troquers (1983) (Opera - VHS) — https://archive.org/details/d-auvergne-les-troquers; Preußische Tänze im Stil Friedrich des Großen-Prussian Dances in the Style of Frederick the Great — https://archive.org/details/vimeo-1104909249; Preußische Tänze im Stil Friedrich des Großen-Prussian Dances in the Style of Frederick the Great — https://archive.org/details/vimeo-1104911306; [ 62] Dance La Belle Dame, Chorégraphie De Béatrice Massin 2011 [ Etcohod] — https://archive.org/details/62-dance-la-belle-dame-choregraphie-de-beatrice-massin-2011-etcohod; [ 10] Dance The Fair Lady, Choreography By Béatrice Massin[ Etcohod] — https://archive.org/details/10-dance-the-fair-lady-choreography-by-beatrice-massin-etcohod
 Motifs: Historical dance manuals, Beauchamp-Feuillet notation diagrams, Courtly attire
 Costume notes: Dancers traditionally wore elaborate, heavy costumes, often adorned with jewelry, reflecting the status of the nobility and the theatrical nature of court entertainments.
 

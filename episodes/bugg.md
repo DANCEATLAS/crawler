@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A friendly, experienced Swedish social dancer.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Bugg is both a social dance and a competitive sport.
 NARRATION: It is highly popular in Swedish dance clubs and at events featuring 'dansbands.' It serves as a primary social outlet for many in the Swedish dance community.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Lazze Ohlyz with English Subtitles (https://archive.org/details/lazze-ohlyz-with-english-subtitles)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -306,7 +306,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'gJCkfkExuQ8', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — Averuuh / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Lazze Ohlyz with English Subtitles — https://archive.org/details/lazze-ohlyz-with-english-subtitles
+Footage: MISSING
 Motifs: Dance halls in Stockholm, Close-up of footwork, Partners holding hands
 Costume notes: There is no specific traditional costume; dancers wear clothing that fits the music and 'good taste.' Shoes must be worn at all times. It is commonly danced in social dance clubs and at competitive events.
 

@@ -32,8 +32,8 @@
   "hero_video_youtube_id": "D3KEW4n4obA",
   "tier": "needs_curation",
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 0.0,
+  "research_gate": "reject",
+  "qc_score": 8.45,
   "last_researched_at": "2026-11-24T00:13:25Z",
   "pipeline_version": "v3.3",
   "hero_source": "crawler:qc_failed_pending_recrawl",
@@ -51,7 +51,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 4,
   "of": 15,
   "missing": [
    {
@@ -93,9 +93,13 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
- "fingerprint": "7c87babf72e61a14",
+ "fingerprint": "9c07493ad4a3aa80",
  "updated": "2026-11-24"
 }

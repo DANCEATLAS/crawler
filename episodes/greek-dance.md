@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Greek dancing is primarily a social binding mechanism, bringing communities together for religious holidays, Easter, grape harvests, and family weddings.
 NARRATION: Historically, it also served as military preparation, religious worship, and a tool for educating youth on social morals and physical coordination.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: TANTRA LOVE FESTIVALS HIT THE WORLD (https://archive.org/details/TantraMatchTantricCrowdfundingCampaign)
+ON SCREEN: Footage: Eleni Gage (https://archive.org/details/Eleni_Gage)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -297,7 +297,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 't6-89Y1G56Q', 'checked_by_vision_model': True, 'title': 'greek dance zorba in Canada'}
 Images: 8 licensed — Dvortygirl / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Muriel Pécastaing-Boissière pour Cédric Boissière / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Zde / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); psyberartist / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); The postcard was published by Aspiotis in 1906 c. / Wikimedia Commons / Public domain (Public domain)
-Footage: TANTRA LOVE FESTIVALS HIT THE WORLD — https://archive.org/details/TantraMatchTantricCrowdfundingCampaign; Eleni Gage — https://archive.org/details/Eleni_Gage; 42nd Annual International Folk Dance Festival at the Dorothy Chandler Pavilion — https://archive.org/details/calauem_000210; Worldwide Tantra Love Festivals Yeah Bring Them On! — https://archive.org/details/WorldwideTantraLoveFestivalsYeahBringThemOn; Festival of the Arts 2014 - Holy Trinity Greek Dance Group — https://archive.org/details/FOTA2014HolyTrinityGreekDanceGroup; Greek dance — https://archive.org/details/Greek_dance; Dances for Dayton Greek Fest — https://archive.org/details/Dances_for_Dayton_Greek_Fest; [ 37] Dance Lausanne Béjart Ballet At Versailles 2014 [ Etcohod] DUPL — https://archive.org/details/37-dance-lausanne-bejart-ballet-at-versailles-2014-etcohod-dupl
+Footage: Eleni Gage — https://archive.org/details/Eleni_Gage; Festival of the Arts 2014 - Holy Trinity Greek Dance Group — https://archive.org/details/FOTA2014HolyTrinityGreekDanceGroup; Dances for Dayton Greek Fest — https://archive.org/details/Dances_for_Dayton_Greek_Fest; [ 37] Dance Lausanne Béjart Ballet At Versailles 2014 [ Etcohod] DUPL — https://archive.org/details/37-dance-lausanne-bejart-ballet-at-versailles-2014-etcohod-dupl
 Motifs: Traditional regional costumes, Open community circles, Pontian lyra, Church festival courtyards
 Costume notes: Dancers typically wear elaborate regional traditional costumes reflecting their specific ancestral village or island. Performances take place at community festivals, patronal celebrations, weddings, and organized cultural events such as the annual Greek Orthodox Folk Dance and Choral Festival (FDF) in San Francisco.
 

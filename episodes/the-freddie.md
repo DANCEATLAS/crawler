@@ -22,7 +22,7 @@ NARRATION: The dance originated in 1965, prompted by the musical releases of the
 NARRATION: It was a product of the British Invasion's influence on American pop culture.
 NARRATION: Chubby Checker, a veteran of the dance craze era, further popularized it with his own version, 'Let's Do the Freddie,' which Billboard described as an 'exciting number done in his familiar style.'
 ON SCREEN: Map: United Kingdom · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -52,7 +52,7 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: There is no specific costume for the Freddie, though it is associated with 1960s mod fashion and go-go attire.
 NARRATION: It was typically performed in social settings like dance halls, living rooms during television broadcasts, or on variety show stages.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -287,7 +287,14 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'S4jGvllnmeA', 'checked_by_vision_model': False, 'title': 'The Jackson 5 perform Solos and Medly at the Freddie Prinze show -RARE!'}
-Images: 0 licensed
+Images: 1 licensed — Unknown authorUnknown author
+
+
+
+
+
+
+This  is a retouched picture, which means that it has been digitally altered from its original version.   Modifications made by Dcameron814. / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 
 Costume notes: There is no specific costume for the Freddie, though it is associated with 1960s mod fashion and go-go attire. It was typically performed in social settings like dance halls, living rooms during television broadcasts, or on variety show stages.

@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful, grounded documentary host focused on collective movement mechanics and indigenous instrumental music.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Dhemsa is generally performed late at night during annual community ceremonies including Chait Parab and Pus Puni (also referred to as Pus Parab).
 NARRATION: It serves as a major social and ritual group performance during these annual festivals.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Tribal and Folk Dances of Maharashtra (https://archive.org/details/dni.ncaa.ICCR-80-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -299,7 +299,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'rm2uw5nGG0M', 'checked_by_vision_model': True, 'title': 'Dhemsa dance 2023 //gadhipabli Ganesh Puja visarjan//Maa thakurani band party ph-7008412892'}
 Images: 1 licensed — Government of Odisha / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
-Footage: Tribal and Folk Dances of Maharashtra — https://archive.org/details/dni.ncaa.ICCR-80-VHS
+Footage: MISSING
 Motifs: Interlocked hands gripping waists and shoulders in continuous lines, Close-ups of the mahuri wind instrument played by the Mohuria, Traditional drums: dhol, tamak', and changu being struck in night light
 
 

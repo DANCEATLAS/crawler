@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community folk dance leader grounded in the recreational and historical tradition.
@@ -22,7 +22,7 @@ NARRATION: Dance references in Jewish history date back to the Bible and Talmud,
 NARRATION: During the dispersion, national community dancing ceased until the halutzim (pioneers) of the First, Second, and Third Aliyahs (1882–1923) reintroduced dances brought from the Diaspora, establishing the horah as the national dance.
 NARRATION: Choreographer Rivka Sturman created over 90 dances between 1942 and 1983 to provide children with indigenous cultural reflections.
 ON SCREEN: Map: Israel · Middle East
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -52,10 +52,9 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Dances are performed publicly in towns and cities, notably on beachfronts and promenades (tayelets), as well as at kibbutzim, festivals, and communal gatherings.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Rivka Sturman created over 90 classic Israeli dances between 1942 and 1983.
@@ -303,7 +302,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'qu-LaDQtwMg', 'checked_by_vision_model': True, 'title': 'Israeli folk dance with Israeli Dance Institute (Fitness, Faith & Feeling Good)'}
-Images: 0 licensed
+Images: 6 licensed — https://www.flickr.com/people/69061470@N05 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Jiří Sedláček / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Jiří Sedláček / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Jiří Sedláček / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Jiří Sedláček / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Ensemble ADAR-KRAMIM — https://archive.org/details/EnsembleAdar-kramim_958; Jewish Hora Nirkoda Sixth Grade — https://archive.org/details/jewish-hora-nirkoda-sixth-grade; 5 Iconic Jewish Dances From Around The World — https://archive.org/details/youtube-dU3YgNln8ho
 Motifs: Dancers in a tight circle with arms over shoulders, Kibbutz gatherings and beachfront tayelets, Festival crowds in Galilee
 Costume notes: Dances are performed publicly in towns and cities, notably on beachfronts and promenades (tayelets), as well as at kibbutzim, festivals, and communal gatherings.

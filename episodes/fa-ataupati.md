@@ -1,8 +1,8 @@
 # Fa’ataupati — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The dance was developed in Samoa during the 19th century.
 NARRATION: It is historically linked to an invasion of mosquitoes in the Kingdom, where the repetitive motions of slapping insects off the body were transformed into a rhythmic dance.
 ON SCREEN: Map: Samoa · Oceania
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -49,10 +49,9 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Dancers typically perform with bare torsos heavily rubbed with coconut oil.
 NARRATION: The setting is traditionally communal, though it is now performed on stages globally.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: The New Zealand contemporary dance company Black Grace is noted for incorporating Fa’ataupati into their works 'Minoi' and 'Minoi 2'.
@@ -286,7 +285,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'K_5MjX8Mj-k', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
+Images: 3 licensed — U.S. Marine Corps photo by Lance Cpl. Moses Lopez Franco / Wikimedia Commons / Public domain (Public domain); Smita Biswas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Smita Biswas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: MISSING
 
 Costume notes: Dancers typically perform with bare torsos heavily rubbed with coconut oil. The setting is traditionally communal, though it is now performed on stages globally.

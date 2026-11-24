@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; signature moves; the music & instruments section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; signature moves; the music & instruments section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Balinese temple elder or community guardian explaining the devotional mindset of ngayah.
@@ -29,7 +29,7 @@ NARRATION: The word 'Rejang' translates directly to 'offering'.
 NARRATION: It serves as a greeting ceremony for gods arriving on Earth during major milestones of the Balinese ceremonial calendar.
 NARRATION: The act embodies the concept of ngayah, or spiritual community service and devotion.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: BlocBoy JB on the ‘Shoot’ Dance, Collabs w/ Drake & A$AP Rocky, & His ‘SIMI’ Mixtape 💿 | MTV News (https://archive.org/details/youtube-IkijaS1rUAo)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -99,7 +99,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'GjV3VxHoHKg', 'checked_by_vision_model': False, 'title': '"Tari Rejang Dewa" - Amazing Traditional Balinese Dance'}
 Images: 6 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); EGimaging / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain); Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: BlocBoy JB on the ‘Shoot’ Dance, Collabs w/ Drake & A$AP Rocky, & His ‘SIMI’ Mixtape 💿 | MTV News — https://archive.org/details/youtube-IkijaS1rUAo; 四月最后一个视频咯 五月也要编更多好看的舞～宝们可以评论区推推歌～歌荒了😩#抖音潮流舞蹈地图 #爵士基础 #simi编舞 #一学就会系列 #shapeofyou编舞 — https://archive.org/details/Douyin-7499118922937306404
+Footage: MISSING
 Motifs: Bale Agung communal hall architecture, Temple courtyards of Klungkung and Karangasem, Young toddlers walking in communal temple processions
 Costume notes: Rejang is conducted within Hindu temple grounds, notably in Klungkung Regency and Karangasem Regency. Its primary staging takes place during three-day ceremonies organized at the Bale Agung, the communal village hall.
 

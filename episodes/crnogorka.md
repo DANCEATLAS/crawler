@@ -1,8 +1,8 @@
 # Crnogorka — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the occasions & meaning section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Macedonian folk dance expert.
@@ -26,7 +26,7 @@ MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: BEAUTY OF SLAVIC CULTURE (https://archive.org/details/youtube-yMc5b-V7mRI)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 NEEDS: occasions_and_meaning
 
@@ -297,7 +297,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'wJvguB2n7FE', 'checked_by_vision_model': True, 'title': 'Skopska Crnogorka, Macedonian folk dance'}
 Images: 0 licensed
-Footage: BEAUTY OF SLAVIC CULTURE — https://archive.org/details/youtube-yMc5b-V7mRI
+Footage: MISSING
 Motifs: Half-circle formation, Feet moving on half-feet, Vertical jumps
 
 

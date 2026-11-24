@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "egg-dance",
  "name": "Egg dance",
- "state": "not_published",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "DE"
@@ -11,10 +11,18 @@
   "slug": "egg-dance",
   "name": "Egg dance",
   "country": "Germany",
+  "country_code": "DE",
+  "flag_emoji": "🇩🇪",
   "region": "Europe",
-  "tagline": "Germany — traditional Easter game in which eggs are laid on the ground or floor, and the goal is to dance among them,…",
-  "profile": "An egg dance is a traditional Easter game in which eggs are laid on the ground or floor, and the goal is to dance among them, damaging as few as possible. The egg was a symbol of the rebirth of the earth in Pagan celebrations of spring, and was adopted by early Christians as a symbol of the rebirth of man at Easter. Another form of egg dancing was a springtime game depicted in the painting of Pieter Aertsen. The goal was to roll an egg out of a bowl while keeping within a circle drawn by chalk, and then flip the bowl to cover the egg.",
-  "insight": "The event was described in an 1895 issue of The American Magazine as follows.",
+  "family": "folk-circle",
+  "era": "15th century",
+  "tagline": "Traditional Easter game and dance featuring eggs laid on the ground.",
+  "profile": "An egg dance is a traditional Easter game in which eggs are laid on the ground, and the goal is to dance among them without damage. Historical accounts describe couples dancing hand in hand or solo performers blindfolded navigating eggs on sand. The tradition appeared in European festivities, literature, and stage performances, including hornpipe exhibitions.",
+  "insight": "A hundred eggs were scattered over sand, and a young couple dancing among them without breaking any would be betrothed.",
+  "aliases": [
+   "hop-egg",
+   "Eiertanz"
+  ],
   "related": [
    "waltz",
    "ambasse-bey",
@@ -24,13 +32,18 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Egg_dance",
-   "Source: Egg dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Egg_dance"
+   "Source: Egg dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Egg_dance",
+   "https://www.wikidata.org/wiki/Q5347839",
+   "https://de.wikipedia.org/wiki/Eiertanz",
+   "https://archive.org/details/EasterCelebrations",
+   "https://archive.org/details/CLH_1913091001",
+   "https://archive.org/details/BME_1913082901"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Egg_dance",
   "wikidata_qid": "Q5347839",
   "unesco": false,
   "hero_video_youtube_id": "IS7fiea_dE4",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_albums": [
    {
     "title": "Reggae Dance 2",
@@ -46,10 +59,27 @@
    }
   ],
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 0.0,
+  "research_gate": "publish",
+  "qc_score": 8.95,
   "last_researched_at": "2026-11-23T23:50:59Z",
   "pipeline_version": "v3.3",
+  "profile_long": "The egg dance stands as a unique cultural tradition bridging festive games, courtly rituals, and stage entertainment across Europe. Its origins trace back centuries, with historical records noting its presence in various forms from the Germanic regions to the western Alps and England. Mark Knowles documents that the practice was brought to England from Germany by the Saxons as early as the fifth century, where the Saxon word hoppe meant to dance. Over subsequent generations, the custom manifested in multiple distinct formats, ranging from courtship trials and springtime pagan celebrations adopted by early Christians to theatrical spectacles performed by professional dancers in London and the United States.\n\nThe mechanics of the dance varied by region and era, yet central motifs of precision, vulnerability, and spatial awareness remained constant. In one prominent variation observed in the western Alps and during royal celebrations, one hundred eggs were distributed over a level space covered with sand. A young couple, taking hands, would perform a dance around and among the eggs. If they finished the performance without breaking a single egg, it was accepted as a token of the compatibility of their temperaments, leading to betrothal. A notable historical account places this ritual at the wedding of Margaret of Austria and Philibert of Savoy on Easter Monday in 1498, where Philibert and Marguerite successfully completed the dance to the unbounded enthusiasm of onlookers.\n\nAnother historical iteration, depicted in the painting of Pieter Aertsen and described in various German and English texts, involved different physical challenges. In this version, a dancer sought to manipulate an egg out of a bowl using only their feet while remaining entirely within a chalk-drawn circle, eventually flipping the bowl to cover the egg without disturbing other objects placed on the floor. In England, the activity often took the form of hopping on one foot, earning the moniker of the hop-egg. William Wager's sixteenth-century comedy 'The longer thou livest, the more Foole thou art' captures this physical style with lines noting the ability to hop upon one foot and dance trimley about an egg. Chaucer similarly referenced the practitioners of such hopping dances as hoppesteres.\n\nBy the eighteenth and nineteenth centuries, the egg dance evolved into a popular theatrical act performed on professional stages such as Sadler's Wells in London. Performers heightened the difficulty of the feat by undertaking the dance while blindfolded. Accounts from this period describe dancers navigating a stage strewn with a dozen or more eggs placed at precise distances, executing the paces and figures of a hornpipe without touching the fragile objects. Renowned performers like the American hornpipe dancer John Durang and Barnett Nathan famously executed these blindfolded routines on stages covered with eggs and tea-things, accompanied by an orchestra playing a lively hornpipe.\n\nMusically, the performance relied heavily on the rhythm and tempo of the hornpipe. Played by theatre orchestras or local musicians, the hornpipe provided a steady, driving meter that guided the dancer's footwork and steps. Although detailed sheet music or specific dance counts are largely absent from surviving brief chronicles, the association with the hornpipe indicates an energetic and nimble musical accompaniment suited to precise footwork and rapid directional changes.\n\nThe cultural meaning of the egg carried deep symbolic resonance. Originally representing the rebirth of the earth in pre-Christian spring celebrations, the egg was later embraced by early Christians as a potent symbol of human rebirth and resurrection at Easter. In community contexts, the dance served as a test of skill, patience, and mutual accord among young wooers. On the stage, it functioned as a dazzling novelty act that tested the absolute mastery and spatial memory of the performer. Today, while the active performance of traditional egg dances has largely receded into historical archives, the legacy persists in language and folklore. In German, the idiom 'einen Eiertanz aufführen' survives to describe cautious, tactical, or evasive behavior in delicate situations, testifying to the enduring cultural footprint of this intricate historical game.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/De_eierdans_Rijksmuseum_SK-A-3.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/De_eierdans_Rijksmuseum_SK-A-3.jpeg/1280px-De_eierdans_Rijksmuseum_SK-A-3.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 7114,
+    "height": 3460,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Pieter Aertsen / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe_eierdans_Rijksmuseum_SK-A-3.jpeg",
+    "description": "The egg dance. Interior of a farmhouse with several figures by the fire place and at the table. To the right a young man is dancing. To the left a man is drinking from a jug. By the fireplace a bagpiper is standing."
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "historical",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -63,15 +93,188 @@
    "schuhplattler"
   ]
  },
+ "profile": {
+  "sections": {
+   "origins_and_history": "The egg dance has ancient roots connected to spring and Easter celebrations. Mark Knowles notes it was brought to England from Germany by the Saxons in the fifth century. It gained prominence in European courts, such as at the 1498 wedding of Margaret of Austria and Philibert of Savoy, and later evolved into a stage act in 18th- and 19th-century theatres like Sadler's Wells.",
+   "how_it_is_danced": "Dancers navigated around or between eggs laid on the floor without breaking them. Variations included couples holding hands on sand-covered spaces, solo dancers hopping on one foot, or performers moving blindfolded through a course of eggs to hornpipe music.",
+   "music_and_instruments": "Performances were accompanied by orchestras playing a hornpipe. The lively tempo and steady rhythm provided the temporal framework for the dancer's movements.",
+   "costume_and_setting": "Settings ranged from rural lawns and sand-covered level spaces to formal court settings and professional theatre stages strewn with eggs and sometimes other objects like tea-things.",
+   "occasions_and_meaning": "Celebrated primarily during Easter Monday festivities and springtime gatherings. Symbolized the rebirth of the earth and man, and served in some alpine traditions as a courtship test of temperament compatibility.",
+   "notable_figures": "Key historical figures associated with the dance include Philibert of Savoy, Margaret of Austria, Pieter Aertsen, John Wager, John Durang, and Barnett Nathan.",
+   "regional_variants": "Variants include the alpine couple dance among one hundred eggs on sand, the English hop-egg involving hopping on one foot, and the Dutch bowl-and-chalk-circle game depicted by Pieter Aertsen.",
+   "lineage": "Linked historically to Saxon gleeman dances, medieval minstrel hopping, and theatrical hornpipes of the eighteenth and nineteenth centuries."
+  },
+  "teaching": {
+   "basic_steps": [
+    "hopping on one foot",
+    "passing backwards and forwards between objects"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "couple taking hands or solo dancer",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "An egg dance is a traditional Easter game in which eggs are laid on the ground or floor.",
+    "source": "https://en.wikipedia.org/wiki/Egg_dance"
+   },
+   {
+    "text": "The goal was to roll an egg out of a bowl while keeping within a circle drawn by chalk.",
+    "source": "https://en.wikipedia.org/wiki/Egg_dance"
+   },
+   {
+    "text": "A hundred eggs were scattered over a level space covered with sand, and a young couple began the dance.",
+    "source": "https://en.wikipedia.org/wiki/Egg_dance"
+   },
+   {
+    "text": "In the United Kingdom, the dancing takes the form of hopping and sometimes called the hop-egg.",
+    "source": "https://en.wikipedia.org/wiki/Egg_dance"
+   },
+   {
+    "text": "A hornpipe was one of dances performed as an egg dance.",
+    "source": "https://en.wikipedia.org/wiki/Egg_dance"
+   },
+   {
+    "text": "Mignon mit verbundenen Augen zwischen auf dem Boden ausgelegten Eiern tanzt.",
+    "source": "https://de.wikipedia.org/wiki/Eiertanz"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:De eierdans Rijksmuseum SK-A-3.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/De_eierdans_Rijksmuseum_SK-A-3.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/De_eierdans_Rijksmuseum_SK-A-3.jpeg/1280px-De_eierdans_Rijksmuseum_SK-A-3.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 7114,
+    "height": 3460,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Pieter Aertsen",
+    "description": "The egg dance. Interior of a farmhouse with several figures by the fire place and at the table. To the right a young man is dancing. To the left a man is drinking from a jug. By the fireplace a bagpiper is standing.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe_eierdans_Rijksmuseum_SK-A-3.jpeg",
+    "attribution": "Pieter Aertsen / Wikimedia Commons / Public domain"
+   }
+  ],
+  "gaps": [
+   "Detailed musical score and counts not described in sources",
+   "Specific choreography for regional variants beyond general descriptions"
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "orchestra"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "hornpipe",
+   "mood_keywords": [
+    "lively",
+    "energetic"
+   ],
+   "reference_recordings": [],
+   "sound_description": "A hornpipe played in the orchestra."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "hopping upon one foot and passing backwards and forwards between the eggs",
+   "arms_and_hands": "young couple taking hands",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "level space covered with sand with eggs distributed at certain distances",
+   "partnering": "gentleman and lady, hand in hand",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [
+    {
+     "name": "blindfolded hornpipe",
+     "description": "going through paces and figures of the dance blindfolded among eggs"
+    }
+   ],
+   "levels_and_jumps": "hopping",
+   "difficulty": "advanced",
+   "what_to_avoid": "touching or breaking the eggs placed on the floor"
+  },
+  "episode_brief": {
+   "title_hook": "Dancing on Eggshells",
+   "logline": "Explore the historical Easter egg dance where participants navigate fragile eggs with precise steps.",
+   "beats": [
+    "Introduction to the egg dance tradition",
+    "The Alpine betrothal custom with one hundred eggs on sand",
+    "Pieter Aertsen's bowl and chalk circle variation",
+    "Blindfolded stage performances to hornpipe music"
+   ],
+   "lesson_ladder": [
+    {
+     "level": "beginner",
+     "goal": "learn basic spatial awareness",
+     "drills": [
+      "navigating spaced markers on the floor",
+      "gentle hopping on one foot"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "eggs scattered on sand",
+    "blindfolded performer",
+    "chalk circles"
+   ],
+   "instructor_persona": "dance historian",
+   "music_cue": "hornpipe orchestra"
+  },
+  "connections": [
+   {
+    "name": "hornpipe",
+    "relation": "influence",
+    "note": "hornpipe tunes were used for egg dance performances"
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "historical",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": [
+     "not derivable yet"
+    ]
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "0",
+    "counts": "not derivable yet",
+    "avoid": [
+     "not derivable yet"
+    ]
+   },
+   "derived": true
+  },
+  "footage": [
+   {
+    "title": "lum # 225 \" modern dance\"",
+    "url": "https://archive.org/details/SamRenseiw-lum225ModernDance999",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive",
+    "description": "Short lumiere video without sound featuring a dancer from the Royal Danish Ballet performing the new \"Egg\" dance at the opening of \"Golden Days \" exhibition at the SMK in Copenhagen, 11.09.2009. [Sam Renseiw: Bonus Lumiere video for patalab02.blogsspot.com]",
+    "source": "archive"
+   }
+  ],
+  "researched_at": "2026-11-23T23:50:59Z",
+  "qc_score": 8.95
+ },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 8,
   "of": 15,
   "missing": [
-   {
-    "key": "published",
-    "label": "passed every quality gate and the independent judge"
-   },
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
@@ -102,6 +305,15 @@
    }
   ]
  },
- "fingerprint": "d56a7ee5aa2c1470",
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 7,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/egg-dance.json"
+ },
+ "fingerprint": "6f25a220209cf38f",
  "updated": "2026-11-24"
 }

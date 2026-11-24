@@ -22,7 +22,7 @@ NARRATION: The letkajenkka originated in Finland in 1963, evolving from the trad
 NARRATION: Composers Erik Lindström and Rauno Lehtinen were instrumental in popularizing the genre by blending traditional structures with modern instrumentation.
 NARRATION: The dance craze spread rapidly across Europe, reaching its height by 1965.
 ON SCREEN: Map: Finland · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -56,7 +56,7 @@ NEEDS: tempo
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: There is no specific traditional costume; dancers typically wore 1960s casual attire.
 NARRATION: It was performed in clubs, schools, and public squares.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -321,7 +321,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'AZxL4rdeJ44', 'checked_by_vision_model': True, 'title': 'Letkajenkka'}
-Images: 0 licensed
+Images: 1 licensed — Erkki Laitila / Lehtikuva / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Conga lines in 1960s footage, Vintage record covers, Modern group dancing
 Costume notes: There is no specific traditional costume; dancers typically wore 1960s casual attire. It was performed in clubs, schools, and public squares.

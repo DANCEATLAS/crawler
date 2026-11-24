@@ -1,6 +1,6 @@
 # Luddi — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; the costume & setting section; two or more connections
 
@@ -20,7 +20,7 @@ MUSIC: theme (30 s)
 ### 2. Where and when (70 s) · `where`
 NARRATION: Luddi is a traditional folk dance native to the Punjab region, with established popularity across both eastern India and western Pakistan.
 ON SCREEN: Map: Pakistan & India · South Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -46,7 +46,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -284,7 +284,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'RYX02ssRCNk', 'checked_by_vision_model': True, 'title': 'LUDDI Girls Performance at Kala Bhawan Punjabi University Patiala 2018'}
-Images: 0 licensed
+Images: 1 licensed — Terimaadiphudi / Wikimedia Commons / CC0 (CC0)
 Footage: MISSING
 
 

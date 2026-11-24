@@ -1,8 +1,8 @@
 # Angloise — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; posture, arms and hands
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An articulate historical dance specialist who blends baroque court precision with communal warmth.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The dance was conceived for broad social participation rather than solo spectacle.
 NARRATION: By allowing dancers to progress through the set and encounter every other couple, it created an egalitarian, interactive social atmosphere within structured ballroom etiquette.
 NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: File:Voyage dans l'ancien front -cimetière anglais - AI90861.webm (https://upload.wikimedia.org/wikipedia/commons/7/76/Voyage_dans_l%27ancien_front_-cimeti%C3%A8re_anglais_-_AI90861.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -323,7 +323,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 4 licensed — unknown 1805 Le Bon Genre artist / Wikimedia Commons / Public domain (Public domain); Wikimedia Commons / Public domain (Public domain); Engraving by William Hogarth / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
-Footage: File:Voyage dans l'ancien front -cimetière anglais - AI90861.webm — https://upload.wikimedia.org/wikipedia/commons/7/76/Voyage_dans_l%27ancien_front_-cimeti%C3%A8re_anglais_-_AI90861.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Zero Patience ｜ Feature Film — https://archive.org/details/youtube-VZrD7QX-zj0; Herby, le Jazz et la musique haïtienne (2012) — https://archive.org/details/herbylejazzetlamusiquehaitienne2012
+Footage: MISSING
 Motifs: Geometric floor patterns filmed from overhead showing lines and squares, Pages from Feuillet's 1706 Beauchamp-Feuillet notation manual, Courtiers transitioning from rigid minuets to lively progressive country lines
 Costume notes: Originally performed in seventeenth- and eighteenth-century European aristocratic courts and formal ballrooms, the dance functioned as a refreshing, energetic finale to social evenings dominated by stately dances such as the minuet. Historical clothing reflected court and ballroom attire of the eighteenth century.
 

@@ -1,8 +1,8 @@
 # Tobas — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Oruro dancer or researcher of the Cáceres family history.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance represents warrior energy, hunting, and the preservation of indigenous identity.
 NARRATION: It is performed at the Carnaval de Oruro and other religious festivals.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: fantastic Arlington parade (https://archive.org/details/PurpleMotes-fantasticArlingtonParade571)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -301,7 +301,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '-LGqf8TMNrU', 'checked_by_vision_model': True, 'title': 'Campeones Nacionales de Tobas 2017, Fraternidad Cultural Sayani Huajchas'}
 Images: 1 licensed — Pierre André Leclercq / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: fantastic Arlington parade — https://archive.org/details/PurpleMotes-fantasticArlingtonParade571
+Footage: MISSING
 Motifs: Feathered headwear, Cow hooves on ankles, Spears and hatchets
 Costume notes: Costumes feature feathered headwear, beaded skirts and tops, and ankle bands made with cow or lamb hooves. Dancers carry spears or hatchets.
 

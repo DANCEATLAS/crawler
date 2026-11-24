@@ -2,7 +2,7 @@
  "slug": "polka-mazurka",
  "name": "polka-mazurka",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-06T17:53:29Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -79,7 +79,7 @@
     ],
     "on_screen": [
      "Map: Austria · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -142,7 +142,7 @@
      "The dance was performed in 19th-century European salons, requiring the formal attire typical of the era's 'gens du monde' (people of the world)."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -706,7 +706,9 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "The dance was performed in 19th-century European salons, requiring the formal attire typical of the era's 'gens du monde' (people of the world).",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AThe_Bridal_Polka_Mazurka_%28BM_1922%2C0710.610_1%29.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -714,7 +716,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Bridal_Polka_Mazurka_%28BM_1922%2C0710.610_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/The_Bridal_Polka_Mazurka_%28BM_1922%2C0710.610_1%29.jpg/1280px-The_Bridal_Polka_Mazurka_%28BM_1922%2C0710.610_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Print made by: Alfred Ashley\n\nPublished by: William Strange / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_Bridal_Polka_Mazurka_%28BM_1922%2C0710.610_1%29.jpg",
+    "description": "No.172. Music sheet for piano, with image printed at top and music below, continuing on verso; central image of three dancing couples, watched by a fourth couple in background at right; surrounding small images of dancers, within decorative frames of scrolled leaf design, featuring small figures and humorous scenes. \nLithograph"
+   }
+  ],
   "footage": [],
   "motifs": [
    "Sheet music for La Viennoise",
@@ -791,6 +802,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "13493f8cd7bccffffdb9b058016892c11046e4ebb0b0b64039bbdb7f242d9bc7",
+ "input_fingerprint": "ea0fa0cac5569e537b17a9fbd65abaac293d9938348cbe11e1dd15d59ae1df2d",
  "hero_checked": null
 }

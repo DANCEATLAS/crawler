@@ -1,8 +1,8 @@
 # Waka Waka — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Andean folk dancer with knowledge of cultural history and character roles
@@ -30,7 +30,7 @@ NARRATION: Waka Waka is performed during major Andean festivals: the Oruro Carni
 NARRATION: It satirizes Spanish bullfighting while celebrating cattle and agricultural traditions.
 NARRATION: The dance embodies cultural identity, history, and social commentary through its characters and choreography.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Werra Son (Congo) Music video of "Waka Waka".webm (https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -330,7 +330,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'FFtzqqgE3kA', 'checked_by_vision_model': True, 'title': 'Waka Waka Biggest flashmob in the Netherlands'}
 Images: 1 licensed — Akizia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Werra Son (Congo) Music video of "Waka Waka".webm — https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MTV TOP HITS 007 — https://archive.org/details/top-hits-n-o-p
+Footage: MISSING
 Motifs: Layered colorful skirts, Bells on bull costumes, Jumping kusillos, Brass band instruments
 Costume notes: Women dancers wear more than 16 colorful layered skirts called polleras, an alpaca mantilla covering the head, and embroidered jubón jackets. Men wear bull costumes made from dried and shaped animal skins with bells hanging from the bulls' necks. The dance is performed in urban and rural settings, notably during festivals such as the Oruro Carnival and Gran Poder in Bolivia, and the Virgen de la Candelaria in Peru.
 

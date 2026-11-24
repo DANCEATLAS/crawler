@@ -306,7 +306,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 2 licensed — Greg Stringham / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Thomas Jefferson (scribe) and Daniel Dow (author) / Wikimedia Commons / Public domain (Public domain)
-Footage: File:Money Musk at Youth Dance Weekend 2019.webm — https://upload.wikimedia.org/wikipedia/commons/4/48/Money_Musk_at_Youth_Dance_Weekend_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Contra dance in Richmond, NH, 1965.webm — https://upload.wikimedia.org/wikipedia/commons/8/85/Contra_dance_in_Richmond%2C_NH%2C_1965.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: File:Money Musk at Youth Dance Weekend 2019.webm — https://upload.wikimedia.org/wikipedia/commons/4/48/Money_Musk_at_Youth_Dance_Weekend_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 18th-century tunebooks, Diagrams of triple minor sets, Modern dance hall footage
 
 

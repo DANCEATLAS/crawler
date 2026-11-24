@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Circumambulation timing drill around the kalam boundary.",
+          "source": "https://en.wikipedia.org/wiki/Theeyaattam"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Solo ritual performer enacting stories and circumambulating in front of temple audience and drum ensemble.",
+          "source": "https://en.wikipedia.org/wiki/Theeyaattam"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand gestures in Koothu derived from Kathakali/Koodiyattam idioms; wielding small sword in right hand during oracle phase",
+      "difficulty": "advanced",
+      "footwork": "Slow circular walking steps escalating into fast running strides and floor-smearing sweeps",
+      "formation_and_space": "Circular spatial path around the floor kalam, terminating inside the artwork boundary",
+      "hips_and_torso": "Minimal torso rotation during narrative phase, dynamic full-body shifting during kalam erasure",
+      "levels_and_jumps": "Ground-level stepping with sudden leaps into the center of the kalam",
+      "partnering": "Solo dancer interacting with sacred objects, lamp, and floor artwork",
+      "posture": "Upright torso during circumambulation; energetic, loose-framed trance posture during frenzy phase",
+      "signature_moves": [
+        {
+          "description": "Making 9 or 11 measured circular passes around the painted floor diagram.",
+          "name": "Kalam Circumambulation"
+        },
+        {
+          "description": "Leaping into the painted figure and smearing the sacred powders with both feet and right hand.",
+          "name": "Kalam Erasing"
+        }
+      ],
+      "tempo_feel": "Gradual building from solemn slow walk to wild accelerating frenzy",
+      "what_to_avoid": "Do not perform secular commercial adaptations or alter sacred ritual sequences."
+    },
+    "music_profile": {
+      "instruments": [
+        "chenda",
+        "para",
+        "ilathalam"
+      ],
+      "meter": "Flexible metric cycles changing from slow devotional invocations to rapid drum pulses",
+      "mood_keywords": [
+        "devotional",
+        "sacred",
+        "intense",
+        "rhythmic",
+        "trance-inducing"
+      ],
+      "musical_form": "Sequential ritual structure: invocatory songs (Kottum Pattum), narrative Thottam recitation, drum accompaniment to Koothu, and accelerating trance percussion for Velichchappaadu",
+      "reference_recordings": [],
+      "rhythm_pattern": "Accelerating circular beats driven by chenda, para, and ilathalam",
+      "sound_description": "Resonant, deep drum beats from para and chenda interspersed with the bright metallic clatter of ilathalam cymbals, accompanied by archaic vocal chants in Sopanam ragas.",
+      "tempo_bpm": "60-160 BPM accelerating over the course of ritual phases",
+      "vocal_style": "Stylized vocal recitation in old Malayalam and Tamil, Sopanam style and Carnatic ragas"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circumambulation (slow walking along the outer perimeter of the sacred kalam)",
+        "Tempo acceleration step (gradual shortening of stride while increasing pace around the kalam)",
+        "Frenzy leap (stepping directly into the ritual ground painting at peak tempo)",
+        "Foot erasure sweep (using both legs to smear and erase the body section of the powder painting)",
+        "Hand erasure stroke (using the right hand to erase the facial section of the sacred figure)"
+      ],
+      "formation": "Circular spatial path circumambulating the ground kalam in front of a lighted lamp",
+      "level_notes": "Ritual performance restricted to hereditary community initiates.",
+      "rhythm": "Accelerating rhythmic drum cycles played on chenda and para with ilathalam cymbals"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a9f013846784d0fc2c386d691af94588cbf89ec04e76f8d51442d573e7f190b6",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise footwork mechanics used by the oracle during the rapid acceleration phase of circumambulation? Evidence needed: High-definition video documentation of full Ayyappan and Bhadrakali Theeyaattam temple performances."
+    ]
+  },
+  "id": "atlas:theeyaattam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Theeyaattam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c4d1b4d913b00093",
+      "next_evidence": "High-definition video documentation of full Ayyappan and Bhadrakali Theeyaattam temple performances.",
+      "question": "What are the precise footwork mechanics used by the oracle during the rapid acceleration phase of circumambulation?",
+      "source": "https://en.wikipedia.org/wiki/Theeyaattam",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately guide spatial trajectory and step mechanics for interactive movement analysis."
+    }
+  ],
+  "research_file": "research_results/theeyaattam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "theeyaattam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Theeyaattam",
+    "https://www.wikidata.org/wiki/Q7777744"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

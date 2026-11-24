@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The Chicken is a secular social dance intended for entertainment and rhythmic expression.
 NARRATION: It serves as a lighthearted 'novelty' dance, often used to engage a crowd or provide a rhythmic break in a longer dance set.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Meet Bear, the chicken rescued from Long Shadow Farms.webm (https://upload.wikimedia.org/wikipedia/commons/4/44/Meet_Bear%2C_the_chicken_rescued_from_Long_Shadow_Farms.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: 2019 Father Daughter Dance Promo (https://archive.org/details/2019_Father_Daughter_Dance_Promo)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -326,7 +326,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'cA28eZCA69Q', 'checked_by_vision_model': False, 'title': "What Is the 'Chicken Dance' Prank?"}
 Images: 0 licensed
-Footage: File:Meet Bear, the chicken rescued from Long Shadow Farms.webm — https://upload.wikimedia.org/wikipedia/commons/4/44/Meet_Bear%2C_the_chicken_rescued_from_Long_Shadow_Farms.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Police Academy Recruits Must Try Not to Laugh to Pass the Chicken Test .webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Police_Academy_Recruits_Must_Try_Not_to_Laugh_to_Pass_the_Chicken_Test_.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; CHICKEN DANCE — https://archive.org/details/CHICKEN_DANCE; 2019 Father Daughter Dance Promo — https://archive.org/details/2019_Father_Daughter_Dance_Promo; g4tv.com-video15426: Around The Net - 03.05.07 — https://archive.org/details/g4tv.com-video15426; Hi-5 | S1 EP2 | Kidz’ TV Dream Team — https://archive.org/details/img-7495_202309
+Footage: 2019 Father Daughter Dance Promo — https://archive.org/details/2019_Father_Daughter_Dance_Promo; Hi-5 | S1 EP2 | Kidz’ TV Dream Team — https://archive.org/details/img-7495_202309
 Motifs: Feather-like textures in motion, Split-screen comparisons of the Chicken and the Frug, Vintage Stax Records aesthetic
 Costume notes: There is no specific traditional costume, as it is a social novelty dance. It was typically performed in dance halls, clubs, and on televised music programs like Soul Train during its 1970s peak.
 

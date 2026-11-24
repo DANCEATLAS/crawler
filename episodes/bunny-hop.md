@@ -1,8 +1,8 @@
 # Bunny hop — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic and accessible, focusing on the social and fun aspects of the dance.
@@ -21,14 +21,14 @@ MUSIC: theme (30 s)
 NARRATION: The dance was created in 1952 at Balboa High School in San Francisco.
 NARRATION: It gained national attention through Ray Anthony's big band recordings in 1952 and 1953.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: It is a social novelty dance used at weddings, parties, and social events.
 NARRATION: It has been used in popular culture to signify lighthearted or nostalgic social interaction.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: The Wiggles: Furry Tales [2013] (https://archive.org/details/furry-tales-2013)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -52,7 +52,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -315,8 +315,8 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'EmC1KyxhEJU', 'checked_by_vision_model': False, 'title': 'The Bunny Hop from The Ray Anthony Show (1953)'}
-Images: 0 licensed
-Footage: The Wiggles: Furry Tales [2013] — https://archive.org/details/furry-tales-2013; Kids Concert - The Jolly Pops 7-20-2022 -- ParkTV15 — https://archive.org/details/slpmn-Kids_Concert_-_The_Jolly_Pops_7-20-2022_--_ParkTV15; #BBCtrending DOES HARLEM SHAKE & PENGUIN DANCE - BBC NEWS — https://archive.org/details/youtube-l4Vbz2qF8Hk; BSOD compilation 11 — https://archive.org/details/youtube-GcaiquFDzmM; PS2 Happy Feet - Mumble The Penguin Dance Everybody Wash (2006) — https://archive.org/details/ps-2-happy-feet-mumble-the-penguin-dance-everybody-wash-2006; 2810807_Penguin Dance-5617266 — https://archive.org/details/1023660568cbb146f9271793b4a33861; Penguin Dance | Game Nights (Club Penguin) — https://archive.org/details/youtube-UdB0xGCxwZU; Kitty Paw | The HUB - November 10, 2015 — https://archive.org/details/youtube-I0oWZw7C0Os
+Images: 1 licensed — transcription: self-made; music: anonymous / Wikimedia Commons / Public domain (Public domain)
+Footage: MISSING
 Motifs: Vintage 1950s school dance footage., Line of dancers moving in sync., Close-up of feet tapping and hopping.
 
 

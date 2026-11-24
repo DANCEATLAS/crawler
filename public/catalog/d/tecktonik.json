@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "tecktonik",
  "name": "Tecktonik",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "FR"
@@ -412,26 +412,6 @@
     "source": "archive"
    },
    {
-    "title": "Jump-Tonic - The Best Electro Dance Videoclips",
-    "url": "https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495",
-    "year": 2008,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "FGR 04-5818-8 --- 1. Kan Harder - Houzzzeee Time (Tecktonik Remix) 2. Bazztek Inc. - Dick Style (Fuck You Bitch! Mix) 3. DJ Makina - Rockin' (2K8 Remix) 4. Tha Creator ft. La Tigra - Cocaine Bitch 5. DJ Yella - Horneeeessss (Video Version) 6. Houzeee Bee - Paradise (Tecktonik Remix) 7. DJ Saint Seba",
-    "source": "archive"
-   },
-   {
-    "title": "DIGITAL DAWN - Start time",
-    "url": "https://archive.org/details/Lordnetzwerk-DIGITALDAWNStartTime672-2",
-    "year": null,
-    "license": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
-    "license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
-    "attribution": "Internet Archive",
-    "description": "DIGITAL DAWN - Start timeISRC: ITV400900002written by Vincenzo Paolo Fraddosioproduced by Zerozen RecordsEXCLUSIVE PROMO at : http://www.junodownload.com/products/1458789-02.htmDIGITAL DAWN - Start time (Extended Mix). A new techouse/electrohouse track by Digital Dawn project, for all the people who",
-    "source": "archive"
-   },
-   {
     "title": "【MMD】Groovy Dancing SSBB【Kirby Dance】",
     "url": "https://archive.org/details/youtube-cwSuF-x_I44",
     "year": 2010,
@@ -450,26 +430,6 @@
     "attribution": "Internet Archive",
     "description": "¡Después de 1 mes con la muñeca escayolada este pedazo de bailarín vuelve! Spike Javixu, estrella de la Furia Nube Azúcar, modo vencer a la Equipo Insana - danza electro, Tecktonik España - Valencia RTX Vertifight Jerem Reyndie Treaxy.",
     "source": "archive"
-   },
-   {
-    "title": "Touch By Touch (Modern Talking) - Supermodel Video 2022 & Party Music Remix",
-    "url": "https://archive.org/details/youtube-qTbopXeh-40",
-    "year": 2022,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Touch By Touch (Modern Talking) - Supermodel Video 2022 & Party Music Remix Link Video: https://youtu.be/qTbopXeh-40 ★Help Us to Get 100.000 Subscribers, PLEASE !!!: →https://https://www.youtube.com/channel/UCelKTYRnaWfPhfO6Oyo0-aw ● Don't forget to LIKE & SHARE this video if you enjoy it! I'll be u",
-    "source": "archive"
-   },
-   {
-    "title": "Bhangra 2013 Kamal Supreme",
-    "url": "https://archive.org/details/Bhangra2013KamalSupreme",
-    "year": 2012,
-    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-    "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-    "attribution": "Internet Archive",
-    "description": "Got Bhangra? Enjoy the fun favorite workout and dance song “Bhangra Happy Dance” and check out the album Bhangra Supreme Workout and dance Party by DJ KamalSupreme for much more great Bhangra songs along with electro dance, techno and house songs! Dance, warm up and work out to new Bhangra music for",
-    "source": "archive"
    }
   ],
   "researched_at": "2026-11-09T21:05:22Z",
@@ -477,8 +437,14 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "footwork_counts": "lesson",
    "study_video": "lesson"
@@ -659,6 +625,6 @@
   "polished": false,
   "file": "episodes/tecktonik.json"
  },
- "fingerprint": "cf570294609a45f9",
- "updated": "2026-11-21"
+ "fingerprint": "b0a53452d3b732e3",
+ "updated": "2026-11-24"
 }

@@ -28,7 +28,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: As a popular fad dance, the Watusi functioned primarily as recreational social dance entertainment for youth and teenagers during the early to mid-1960s.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: File:Wuppertal - Zoo - Watusi cattle 01 (1) ies.webm (https://upload.wikimedia.org/wikipedia/commons/0/0f/Wuppertal_-_Zoo_-_Watusi_cattle_01_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: Nudie Cuties 370 (https://archive.org/details/nc-370)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -320,7 +320,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: File:Wuppertal - Zoo - Watusi cattle 01 (1) ies.webm — https://upload.wikimedia.org/wikipedia/commons/0/0f/Wuppertal_-_Zoo_-_Watusi_cattle_01_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wuppertal - Zoo - Watusi cattle 02 (1) ies.webm — https://upload.wikimedia.org/wikipedia/commons/c/cc/Wuppertal_-_Zoo_-_Watusi_cattle_02_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wuppertal - Zoo - Watusi cattle 03 (1) ies.webm — https://upload.wikimedia.org/wikipedia/commons/a/af/Wuppertal_-_Zoo_-_Watusi_cattle_03_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Les caresses des watusis.webm — https://upload.wikimedia.org/wikipedia/commons/e/e6/Les_caresses_des_watusis.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Nudie Cuties 370 — https://archive.org/details/nc-370; The Giant Watusi - Documentary about Belgian Ruanda-Urundi — https://archive.org/details/the-giant-watusi-documentary-about-belgian-ruanda-urundi; Time Machine: Episode #2 Time Warp — https://archive.org/details/TimeMachineEpisode2TimeWarp; Traditional Watusi dance in Belgian Ruanda-Urundi — https://archive.org/details/traditional-watusi-dance-in-belgian-ruanda-urundi
+Footage: Nudie Cuties 370 — https://archive.org/details/nc-370
 Motifs: 1960s vinyl records spinning, Dancers on a beach scene, Close-ups of vertical arm movements
 Costume notes: The dance was performed in casual party, dance hall, and beach environments. In American surf and beach culture during the 1960s, dancers performed outdoors on sand, incorporating beach aesthetic context into their movement styling.
 

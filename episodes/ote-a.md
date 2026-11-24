@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The Ōte'a predates European contact in Tahiti, where it was initially a male-only war dance.
 NARRATION: Its modern form was established during the latter half of the 20th century, largely influenced by the competitive requirements of the Heiva i Tahiti festival.
 ON SCREEN: Map: French Polynesia · Oceania
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,7 +55,7 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Dancers wear traditional 'more' (plant fiber skirts), floral headpieces, and necklaces.
 NARRATION: Modern adaptations may include synthetic materials like polyester or mylar, particularly in tourism-oriented shows.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -313,8 +313,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '2QahgraRrYs', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
-Footage: File:Otea grupo - dance - 2013 Nov 3.webm — https://upload.wikimedia.org/wikipedia/commons/3/35/Otea_grupo_-_dance_-_2013_Nov_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Ethnic Dance Festival, 1978 — https://archive.org/details/csfpal_000262; Bang bang bang 💥💥 @ig: @kan.gooru 🛼 #fyp #anhchuotea (dc:me) — https://archive.org/details/TikTok-7371422902551416080; Darling ohayo 😚 @M Y H A N H 🦋 #fyp #anhchuotea (dc:me) — https://archive.org/details/TikTok-7393300616979795201; Shut up & dance (dc:me) #fyp #anhchuotea @Đô Nan Trinh @Đạt Lê @Khánh... — https://archive.org/details/TikTok-7490789793836666129; Tan trường vs Ôn bài chưa xuất chiuuu (dc:me) #fyp #anhchuotea @ig: @... — https://archive.org/details/TikTok-7482373261079121160; Đã có anh (dc:me) #fyp #anhchuotea @Đô Nan Trinh — https://archive.org/details/TikTok-7510192732841708816
+Images: 1 licensed — Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: File:Otea grupo - dance - 2013 Nov 3.webm — https://upload.wikimedia.org/wikipedia/commons/3/35/Otea_grupo_-_dance_-_2013_Nov_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Close-up of the tōʻere drum being struck, Wide shot of dancers in rows, Detail of the more skirt tassels in motion
 Costume notes: Dancers wear traditional 'more' (plant fiber skirts), floral headpieces, and necklaces. Modern adaptations may include synthetic materials like polyester or mylar, particularly in tourism-oriented shows.
 

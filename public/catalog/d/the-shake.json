@@ -234,44 +234,12 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "File:Doin' the Shake - U.S. Navy Band.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Doin%27_the_Shake_-_U.S._Navy_Band.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "Public domain",
-    "license_url": null,
-    "attribution": "United States Navy Band / Wikimedia Commons / Public domain",
-    "description": "Doin' the Shake | Chief Musician Shawn Purcell\nEnjoy this new recording of the U.S. Navy Band Commodores performing Doin' the Shake by Chief Musician Shawn Purcell.\n\nusnavy #navyband100 #commodores",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ADoin%27_the_Shake_-_U.S._Navy_Band.webm",
-    "source": "commons"
-   },
-   {
-    "title": "Funny or Die Video 1119: The Shake Bum",
-    "url": "https://archive.org/details/funny_or_die_video_1119",
-    "year": 2007,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Jayden loves to show his dance called",
-    "source": "archive"
-   },
-   {
-    "title": "The Wiggles: Yule Be Wiggling [2001]",
-    "url": "https://archive.org/details/the-wiggles-yule-be-wiggling-2001_202610",
-    "year": 2001,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "It's Christmas time in Wiggle World and it's such a special time! Help decorate Captain Feathersword just like a Christmas tree! Travel to Bethlehem and sing the Carol of the Birds to the Baby Jesus. Dance with Santa Claus as he does the Christmas Polka. Hey, let's do the Samba with Murray. Aye yie ",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-22T17:57:04Z",
   "qc_score": 9.85
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -285,6 +253,10 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
@@ -292,11 +264,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/the-shake.json"
  },
- "fingerprint": "871b3b400da54705",
- "updated": "2026-11-22"
+ "fingerprint": "6164a591bbf7d15d",
+ "updated": "2026-11-24"
 }

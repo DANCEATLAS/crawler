@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable local dancer from Huari, respectful of the ritual context
@@ -30,7 +30,7 @@ NARRATION: Wari is performed during religious festivals honoring the Virgin of t
 NARRATION: The bells on the knee pads symbolize penitence and devotion to the Cross.
 NARRATION: The dance reflects a syncretism of indigenous agricultural rites and Christian celebrations.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm (https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -105,7 +105,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '6aCSB5NBsd8', 'checked_by_vision_model': False, 'title': 'CGs - Wari Tunwalo | Paisa Jhare Maruni'}
 Images: 0 licensed
-Footage: File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm — https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, Apu Onccoy una voz, un sueño en los Andes.webm — https://upload.wikimedia.org/wikipedia/commons/e/ed/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_Apu_Onccoy_una_voz%2C_un_sue%C3%B1o_en_los_Andes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wari Chora.webm — https://upload.wikimedia.org/wikipedia/commons/6/67/Wari_Chora.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; B.knight Video Durandall WARI F. M. C. T — https://archive.org/details/b.knight-video-durandall-wari-f.-m.-c.-t
+Footage: MISSING
 Motifs: Pink mesh masks, Floral shawls, Bells on knee pads, Toquilla straw hats, Pinkullo flute and wanqar drum
 Costume notes: Dancers wear formal blue or black suits with white shirts and ties, floral shawls tied over the chest, golden embroidered sashes, and carry handkerchiefs. The head is covered with a white cloth called uma paño and a pink mesh mask painted with facial features. They wear white toquilla straw hats decorated with silk ribbons and artificial flowers. Pants are rolled up, covered by black velvet knee pads embroidered with 35-40 bells each. White gloves and a command baton with a dog-head handle and leather whip complete the attire.
 

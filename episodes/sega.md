@@ -1,8 +1,8 @@
 # Sega — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Mauritian practitioner who emphasizes the cultural history and community connection.
@@ -30,7 +30,7 @@ NARRATION: Sega is a social and community-building art form.
 NARRATION: Historically, it was used for dirges, exorcisms, and protest (Santé engagé).
 NARRATION: It serves as a symbol of cultural identity and resilience, transcending social and ethnic barriers in modern society.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Andrew Sega - Taking Tracking Mainstream.webm (https://upload.wikimedia.org/wikipedia/commons/f/fb/Andrew_Sega_-_Taking_Tracking_Mainstream.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -336,7 +336,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'KEZ8LVzan28', 'checked_by_vision_model': True, 'title': None}
 Images: 2 licensed — Andy Carvin / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rachael Zylstra from East Lansing, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: File:Andrew Sega - Taking Tracking Mainstream.webm — https://upload.wikimedia.org/wikipedia/commons/f/fb/Andrew_Sega_-_Taking_Tracking_Mainstream.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:PAC-MAN and the Ghostly Adventures - Pac-Man Sega Stunt Making of OF.webm — https://upload.wikimedia.org/wikipedia/commons/d/d8/PAC-MAN_and_the_Ghostly_Adventures_-_Pac-Man_Sega_Stunt_Making_of_OF.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:DOTHEPACMAN by Less than Jake and Interlude.webm — https://upload.wikimedia.org/wikipedia/commons/4/45/DOTHEPACMAN_by_Less_than_Jake_and_Interlude.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Sega Saturn CD - Cracked after 20 years.webm — https://upload.wikimedia.org/wikipedia/commons/6/67/Sega_Saturn_CD_-_Cracked_after_20_years.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:$5 Sega Genesis 2 Complete Teardown & Cleaning -- TRU Fixes.webm — https://upload.wikimedia.org/wikipedia/commons/d/dd/%245_Sega_Genesis_2_Complete_Teardown_%26_Cleaning_--_TRU_Fixes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Una consola OLVIDADA por el mundo... LA SEGA GAME GEAR.webm — https://upload.wikimedia.org/wikipedia/commons/9/9c/Una_consola_OLVIDADA_por_el_mundo..._LA_SEGA_GAME_GEAR.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; 【Genshin Impact MMD】 Ankha dance / Hu Tao Yanfei (Ankha zone meme) — https://archive.org/details/youtube-YaDB2rHcN54
+Footage: MISSING
 Motifs: Circular skirts in motion, Close-ups of the ravanne being heated over a fire, Sunlight on the Indian Ocean
 Costume notes: Women traditionally wear large, colorful circular skirts and tops that bare the midriff to accentuate hip movements. Men wear colorful shirts, shorts, and straw hats. Performances occur in private family settings, public community events, and formal festivals.
 

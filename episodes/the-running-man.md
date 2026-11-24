@@ -1,6 +1,6 @@
 # The Running Man — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
 
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Originally a party dance, it evolved into a performance staple for concerts and music videos.
 NARRATION: It serves as a display of rhythmic coordination and athletic style.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Run This Town SPOOF (https://archive.org/details/bliptv-20131012-221628-Alphacat-RunThisTownSPOOF892.)
+ON SCREEN: Footage: PSTV Dance Of the Day (https://archive.org/details/PSTV_Dance_Of_the_Day)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -327,7 +327,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: Run This Town SPOOF — https://archive.org/details/bliptv-20131012-221628-Alphacat-RunThisTownSPOOF892.; PSTV Dance Of the Day — https://archive.org/details/PSTV_Dance_Of_the_Day; City of Alexandria Running Man Challenge 2016 — https://archive.org/details/alextva-City_of_Alexandria_Running_Man_Challenge_2016
+Footage: PSTV Dance Of the Day — https://archive.org/details/PSTV_Dance_Of_the_Day; City of Alexandria Running Man Challenge 2016 — https://archive.org/details/alextva-City_of_Alexandria_Running_Man_Challenge_2016
 Motifs: Close-ups of feet sliding on smooth surfaces., Archival 1980s concert footage., Split-screen of the 1978 proto-version and modern performances.
 Costume notes: Associated with 1980s street fashion, including baggy pants, tracksuits, and sneakers. It is performed in clubs, on concert stages, and in music videos.
 

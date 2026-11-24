@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Upbeat, energetic documentary dance historian and instructor.
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: A 1960s novelty party dance designed for open social dancing, youth gatherings, and rock and roll television showcases.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:02016 Regional Pony Rally in Rudawka Rymanowska.webm (https://upload.wikimedia.org/wikipedia/commons/4/40/02016_Regional_Pony_Rally_in_Rudawka_Rymanowska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -316,7 +316,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'FPSJfIioFKU', 'checked_by_vision_model': True, 'title': 'My Little Pony - Cafeteria Song dance (Helping Twilight Win the Crown)'}
 Images: 0 licensed
-Footage: File:02016 Regional Pony Rally in Rudawka Rymanowska.webm — https://upload.wikimedia.org/wikipedia/commons/4/40/02016_Regional_Pony_Rally_in_Rudawka_Rymanowska.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Exmoor pony at Šlovický vrch, Dobřany, 2019-03-02.webm — https://upload.wikimedia.org/wikipedia/commons/c/cf/Exmoor_pony_at_%C5%A0lovick%C3%BD_vrch%2C_Dob%C5%99any%2C_2019-03-02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Vermin Supreme's Pony Protest in Concord, NH.webm — https://upload.wikimedia.org/wikipedia/commons/0/08/Vermin_Supreme%27s_Pony_Protest_in_Concord%2C_NH.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Pony ride - kanagawa - 2023 3 12.webm — https://upload.wikimedia.org/wikipedia/commons/d/d9/Pony_ride_-_kanagawa_-_2023_3_12.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:My Little Pony Mane Ponies.webm — https://upload.wikimedia.org/wikipedia/commons/9/93/My_Little_Pony_Mane_Ponies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; "The old american barn dance" (1953) — https://archive.org/details/theOldAmericanBarnDance1953; Getvid Gggg 1 — https://archive.org/details/20220320_20220320_1734; The Backyardigans It's Great To Be A Ghost 2005 Fanmade VHS — https://archive.org/details/the-backyardigans-its-great-to-be-a-ghost-2005-fanmade-vhs
+Footage: MISSING
 Motifs: Early 1960s outfits and hairstyles, Bouncing silhouettes mimicking horse riding, Couples facing each other on a dance floor without touching
 Costume notes: Social dance halls and party settings. Later television and stage performances featured mid-century early 1960s outfits and hairstyles.
 

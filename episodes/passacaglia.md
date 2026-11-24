@@ -1,6 +1,6 @@
 # passacaglia — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -30,7 +30,7 @@ NARRATION: Originally used as a transition between theatrical numbers or religio
 NARRATION: In Europe, it became a pillar of sacred and secular art music.
 NARRATION: In South America and the Basque Country, it serves a strong social and civic function, organizing public space during desfilados, patron saint festivals, anniversaries, and national holidays.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Passacaglia - 파사칼리아 Handel-Halvorsen 헨델-할보르센 piano cover ピアノ.webm (https://upload.wikimedia.org/wikipedia/commons/a/aa/Passacaglia_-_%ED%8C%8C%EC%82%AC%EC%B9%BC%EB%A6%AC%EC%95%84_Handel-Halvorsen_%ED%97%A8%EB%8D%B8-%ED%95%A0%EB%B3%B4%EB%A5%B4%EC%84%BC_piano_cover_%E3%83%94%E3%82%A2%E3%83%8E.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: File:Zalduondoko inauteria - Kalejira.webm (https://upload.wikimedia.org/wikipedia/commons/c/c6/Zalduondoko_inauteria_-_Kalejira.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -303,7 +303,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '3AICNrKts3A', 'checked_by_vision_model': True, 'title': 'Passacaglia'}
 Images: 0 licensed
-Footage: File:Passacaglia - 파사칼리아 Handel-Halvorsen 헨델-할보르센 piano cover ピアノ.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Passacaglia_-_%ED%8C%8C%EC%82%AC%EC%B9%BC%EB%A6%AC%EC%95%84_Handel-Halvorsen_%ED%97%A8%EB%8D%B8-%ED%95%A0%EB%B3%B4%EB%A5%B4%EC%84%BC_piano_cover_%E3%83%94%E3%82%A2%E3%83%8E.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Toccata 9, Passacaglia, Corrente 5 et Gagliarda 5.webm — https://upload.wikimedia.org/wikipedia/commons/7/76/Toccata_9%2C_Passacaglia%2C_Corrente_5_et_Gagliarda_5.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bach - Passacaglia and Fugue in C Minor on Melodica Quartet.webm — https://upload.wikimedia.org/wikipedia/commons/8/8e/Bach_-_Passacaglia_and_Fugue_in_C_Minor_on_Melodica_Quartet.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Ottorino Respighi, ANTICHE ARIE E DANZE PER LIUTO, TRITTICO BOTTICELLIANO - Seiji Ozawa, Geoffrey Simon — https://archive.org/details/respighi-antiche-arie-e-danze-per-liuto-i-ii-iii-trittico-botticelliano; File:Zalduondoko inauteria - Kalejira.webm — https://upload.wikimedia.org/wikipedia/commons/c/c6/Zalduondoko_inauteria_-_Kalejira.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Entrevista en pasacalle de San Borja.webm — https://upload.wikimedia.org/wikipedia/commons/b/bb/Entrevista_en_pasacalle_de_San_Borja.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Pasacalles Navideño - Municipalidad de Maipú - 2023.webm — https://upload.wikimedia.org/wikipedia/commons/0/03/Pasacalles_Navide%C3%B1o_-_Municipalidad_de_Maip%C3%BA_-_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Procesión (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/6/6a/Procesi%C3%B3n_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: File:Zalduondoko inauteria - Kalejira.webm — https://upload.wikimedia.org/wikipedia/commons/c/c6/Zalduondoko_inauteria_-_Kalejira.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Entrevista en pasacalle de San Borja.webm — https://upload.wikimedia.org/wikipedia/commons/b/bb/Entrevista_en_pasacalle_de_San_Borja.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Pasacalles Navideño - Municipalidad de Maipú - 2023.webm — https://upload.wikimedia.org/wikipedia/commons/0/03/Pasacalles_Navide%C3%B1o_-_Municipalidad_de_Maip%C3%BA_-_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Procesión (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/6/6a/Procesi%C3%B3n_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 17th-century Spanish street musicians with baroque guitars, Baroque pipe organ keyboards and sheet music, Andean brass bands marching through a public square
 Costume notes: Performed in European courts in formal Baroque attire, in churches during religious ceremonies, and in public streets during civic parades, carnivals, and institutional celebrations in South America and the Basque Country.
 

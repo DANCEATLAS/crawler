@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex multi-call sequences above basic beginner set"
+        ],
+        "counts": "1 step per count",
+        "duration_minutes": "15",
+        "game_version": "Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "Jumping or leaping moves"
+        ],
+        "counts": "1 step per count",
+        "seated_version": "Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues.",
+        "standing_version": "Perform walking steps in a square set at reduced tempo without jumps or abrupt direction changes.",
+        "tempo_and_range": "Moderate walking speed, reduced arm extension."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Execute the Allemande Left forearm turn within a four-couple square set upon caller prompt.",
+          "source": "https://en.wikipedia.org/wiki/Square_dance"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Four couples arranged in a square facing center, working as a set under direction of a caller.",
+          "source": "https://en.wikipedia.org/wiki/Square_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Left hand or forearm grip used during Allemande Left moves.",
+      "difficulty": "intermediate",
+      "footwork": "Walking steps where one count equals roughly one step; specific regional variants use flat-foot polka steps, skip steps, or rants.",
+      "formation_and_space": "Four couples arranged in a square set facing center; head couples opposite each other, side couples opposite each other.",
+      "hips_and_torso": "technique not described in sources",
+      "levels_and_jumps": "Level smooth walking to leaps depending on traditional regional or Playford style.",
+      "partnering": "Couples work as partners within a set, executing calls together or visiting other couples.",
+      "posture": "Self-supported upright posture during turns",
+      "signature_moves": [
+        {
+          "description": "Dancers grip left hands or forearms with another dancer and walk halfway around a central axis before stepping through.",
+          "name": "Allemande Left"
+        }
+      ],
+      "tempo_feel": "Direct, rhythmic, synchronized to caller prompts.",
+      "what_to_avoid": "In modern western square dance, avoid pulling away heavily during forearm turns; maintain self-supported balance."
+    },
+    "music_profile": {
+      "instruments": [
+        "fiddle",
+        "banjo",
+        "guitar",
+        "double bass",
+        "piano",
+        "accordion",
+        "concertina",
+        "hammered dulcimer"
+      ],
+      "meter": "technique not described in sources",
+      "mood_keywords": [
+        "lively",
+        "rhythmic",
+        "social"
+      ],
+      "musical_form": "Phrased traditional acoustic tunes or modern square dance recordings",
+      "reference_recordings": [],
+      "rhythm_pattern": "Jigs and reels phrasing",
+      "sound_description": "Acoustic ensemble featuring driving fiddle, banjo, and guitar rhythms paired with a vocal caller delivering rhythmic calls over traditional jigs, reels, or modern backing tracks.",
+      "tempo_bpm": "technique not described in sources",
+      "vocal_style": "Caller directing steps verbally over the music"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a four-couple square set facing the middle.",
+        "Execute steps cued by the caller, averaging 1 count per step.",
+        "Perform Allemande Left by gripping the partner's or neighbor's left forearm and walking halfway around a central axis."
+      ],
+      "formation": "Four couples arranged in a square, facing the middle of the set.",
+      "level_notes": "Mainstream level requires mastering approximately 70 standardized calls cued spontaneously by a caller.",
+      "rhythm": "Standard walking or stepping on beat to phrases of jigs, reels, or modern tunes."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "76767993be4dc9713e18975d12dd84f532f01038fb799f47f15f7fdca97be247",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact visual footage requirements to demonstrate the difference between modern western forearm grips and traditional hand grips during an Allemande Left? Evidence needed: Comparative multi-angle video analysis of traditional versus Callerlab Allemande Left executions."
+    ]
+  },
+  "id": "atlas:western-promenade-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Western promenade dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "baa4460ec209ab78",
+      "next_evidence": "Comparative multi-angle video analysis of traditional versus Callerlab Allemande Left executions.",
+      "question": "What are the exact visual footage requirements to demonstrate the difference between modern western forearm grips and traditional hand grips during an Allemande Left?",
+      "source": "https://en.wikipedia.org/wiki/Square_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to ensure interactive visual tracking accurately assesses body mechanics."
+    }
+  ],
+  "research_file": "research_results/western-promenade-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "western-promenade-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Square_dance",
+    "https://www.wikidata.org/wiki/Q7988520"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

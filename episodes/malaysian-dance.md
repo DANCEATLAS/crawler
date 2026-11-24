@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A disciplined Sifu (master) from a traditional Malaysian kung fu school.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: It is performed during 'Lunar New Year and other traditional, cultural and religious festivals' to 'bring good luck and fortune and to ward off evil.' It is a staple of business openings and weddings.
 NARRATION: The dance is a 'ceremony to exorcise spirits' and is often performed to 'honor special guests.' In a village setting, the lion pays respects to the local temple and ancestors before dancing through the streets.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Nadun in Wushi Valley with Puba Village, Guanting Town, Minhe Hui and Tu Autonomous County (https://archive.org/details/NadunInWushiValleyWithPubaVillageGuantingTownMinheHuiAndTu)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -104,7 +104,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'N3LR_nx4Nj4', 'checked_by_vision_model': True, 'title': 'Traditional Malaysian Dance - Penang Airport'}
 Images: 8 licensed — hojusaram / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); by lismith28 at Flickr / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); 663highland / Wikimedia Commons / CC BY 2.5 (CC BY 2.5); Michael Gunther / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Gap chuen / Wikimedia Commons / Public domain (Public domain)
-Footage: Nadun in Wushi Valley with Puba Village, Guanting Town, Minhe Hui and Tu Autonomous County — https://archive.org/details/NadunInWushiValleyWithPubaVillageGuantingTownMinheHuiAndTu
+Footage: MISSING
 Motifs: Exploding red firecrackers, The single horn of the Southern Lion, Vibrant silk tails rippling in the wind
 Costume notes: The Southern Lion has a 'single horn' and a head made of papier-mâché over bamboo or aluminum. It features 'pop-up teeth, tongue, and eyes that swivel.' The body is made of layered cloth trimmed with fur. Colors are symbolic: yellow for Liu Bei (wisdom), red for Guan Gong (courage), and black for Zhang Fei (aggression). Performances occur in streets, at business entrances, or on 'jong' (high poles).
 

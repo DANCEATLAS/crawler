@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.1 · 6/6 claims verified · narration polished by the model and verified*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced competitive coach with a background in dance sport.
@@ -11,76 +11,77 @@
 ## Episode 1 · Meet Acrobatic Rock'n'Roll · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Physics of the Flip
-NARRATION: This is Acrobatic Rock'n'Roll. 20th century.
+NARRATION: The physics of the flip.
+NARRATION: This is Acrobatic Rock'n'Roll, born in the 20th century.
 ON SCREEN: Hero video, first 10 seconds (uvbLjBYyQ3c)
 ON SCREEN: Title card: Acrobatic Rock'n'Roll · United States (origin), France (modern sport development) · 20th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The dance evolves from the Lindy Hop of 1920 and the Boogie Woogie of the 1940s.
-NARRATION: By 1955, the rise of rock music shifts the style toward competitive acrobatics.
-NARRATION: In the 1970s, dance schools in Lyon formalize the discipline, leading to the World Rock'N'Roll Confederation, or WRRC.
+NARRATION: The style grew out of the Lindy Hop around 1920, evolving through 1940s Boogie Woogie.
+NARRATION: By 1955, as rock music swept in, the movement shifted toward a competitive, acrobatic discipline.
+NARRATION: In the 1970s, French dance schools in Lyon formalized the sport, leading to the creation of the World Rock'N'Roll Confederation, or WRRC.
 ON SCREEN: Map: United States (origin), France (modern sport development) · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Acrobatic Rock'n'Roll is primarily a competitive sport.
-NARRATION: The WRRC organizes local, national, and international championships.
-NARRATION: Dancers focus on precision, athleticism, and high-difficulty acrobatic execution.
-NARRATION: It remains a living tradition today.
-ON SCREEN: Footage: File:Rock 'N' Roll (1959) Australian Film.webm (https://upload.wikimedia.org/wikipedia/commons/e/e0/Rock_%27N%27_Roll_%281959%29_Australian_Film.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+NARRATION: It is performed at local, national, and international championships organized by the WRRC.
+NARRATION: The focus is on precision, athleticism, and the successful execution of high-difficulty acrobatic elements.
+NARRATION: Today it is a living tradition.
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: The dance relies on a 6-basic or 9-basic step structure.
-NARRATION: The 9-basic step is the modern tournament standard, characterized by a 'kick-ball-change' maneuver.
-NARRATION: Dancers move in a linear fashion, maintaining a precise, upright posture while executing kicks into the air.
-NARRATION: Watch for Einsteiger, Körperwelle.
+NARRATION: The footwork builds on a six-basic or nine-basic step structure.
+NARRATION: The nine-basic step serves as the modern tournament standard, built around a kick-ball-change.
+NARRATION: Dancers travel along linear paths, holding an upright posture while firing kicks into the air.
+NARRATION: Watch for specialized moves like the Einsteiger and the Körperwelle.
 ON SCREEN: Hero video full screen, 30–45 s (uvbLjBYyQ3c)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Linear movement, pairs or formation groups.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Music is in 4/4 time, typically modern disco or pop tracks between 176 and 208 bpm.
-NARRATION: The rhythm stresses the first and third beats, unlike traditional rock music.
-NARRATION: Listen for modern pop and disco instrumentation.
-NARRATION: The pulse is 4/4 at about 192 beats a minute.
-NARRATION: The driving beat supports rapid footwork and athletic movement.
+NARRATION: Couples dance in 4/4 time, moving to modern disco or pop tracks set between 176 and 208 beats per minute.
+NARRATION: The accent lands on the first and third beats of every measure, unlike classic off-beat rock.
+NARRATION: Listen to the modern pop and disco instrumentation.
+NARRATION: The core pulse holds a steady 4/4 meter at roughly 192 beats per minute.
+NARRATION: This high-tempo driving beat delivers a clear pulse to power rapid footwork and airborne acrobatics.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: Stress on beats 1 and 3
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Dancers wear tight-fitting, multicoloured costumes made of elastic, durable artificial fibers to prevent snagging.
-NARRATION: Footwear includes light jazz shoes for dance programs or aerobics sneakers for acrobatic programs to ensure grip and shock absorption.
+NARRATION: Dancers wear custom-made, multicoloured costumes crafted from elastic, durable artificial fibers.
+NARRATION: These are designed to be tight-fitting to prevent snagging during acrobatics.
+NARRATION: Footwear consists of light jazz shoes for dance programs or aerobics sneakers for acrobatic programs to provide grip and shock absorption.
 ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Notable figures include French world champion Miguel Angueira and Katerina Tikhonova.
-NARRATION: Categories include Youth, Juniors, and Main Class in Contact Style and Free Style.
-NARRATION: The lineage is: Swing (1920s), Lindy Hop, Boogie Woogie (1940s), and Acrobatic Rock'n'Roll (1955-present).
+NARRATION: Notable figures include French world champion Miguel Angueira and Katerina Tikhonova, who has competed in the sport.
+NARRATION: Categories are divided by age and skill level, including Youth, Juniors, and Main Class (Contact Style and Free Style).
+NARRATION: Swing (1920s) -> Lindy Hop -> Boogie Woogie (1940s) -> Acrobatic Rock'n'Roll (1955-present).
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Acrobatic Rock'n'Roll descends from the Lindy Hop, the foundational swing dance that introduced acrobatic elements.
-NARRATION: It also descends from Boogie Woogie, a faster swing adaptation that bridged the gap to rock music.
+NARRATION: Acrobatic Rock'n'Roll traces its lineage to Lindy Hop, the 1920s swing dance that first introduced aerial elements.
+NARRATION: It also stems from Boogie Woogie, a faster swing adaptation that linked original social dance to rock music.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Try one step: kick-ball-change.
-NARRATION: Now, kick-step with the left foot.
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 for eight counts over two bars.
-NARRATION: Chapter 1 begins here.
+NARRATION: Before we go, one step. Kick-ball-change
+NARRATION: Kick-step (left)
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
@@ -94,16 +95,16 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — Master the 6-basic step · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps and the 6-basic step.
-NARRATION: This is a beginner level lesson within an advanced dance.
-NARRATION: Your instructor is an experienced competitive coach.
+NARRATION: Chapter 1, First Steps. Today, you will master the 6-basic step.
+NARRATION: This entry lesson starts at the beginner level, though the overall dance reaches an advanced difficulty.
+NARRATION: Your instructor is an experienced competitive coach with a background in dance sport.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Maintain an upright, precise, and athletic posture.
-NARRATION: Keep the body active for balance and partner connection.
-NARRATION: Use controlled body waves to initiate lifts.
+NARRATION: Keep your torso upright, precise, and athletic.
+NARRATION: Use your arms actively to balance and hold a firm connection with your partner.
+NARRATION: Maintain body control, using specific body wave movements to initiate lifts.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -116,18 +117,18 @@ ON SCREEN: Metronome at 134 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1 is a kick-ball-change.
-NARRATION: Step 2 is a kick-step with the left foot.
-NARRATION: Follow the footwork: kick-ball-change, kick-step left and right.
-NARRATION: Drill the kick-ball-change rhythm.
+NARRATION: Step 1: Kick-ball-change
+NARRATION: Step 2: Kick-step (left)
+NARRATION: Footwork from the sources: Kick-ball-change, kick-step (left/right).
+NARRATION: Drill: Kick-ball-change rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3 is a kick-step with the right foot.
-NARRATION: Practice your weight transfer.
+NARRATION: Step 3 continues with a right kick-step.
+NARRATION: Work on this weight transfer drill.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -142,7 +143,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid acrobatics without proper safety training or in unauthorized classes.
+NARRATION: Acrobatics without proper safety training or in unauthorized classes.
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -154,9 +155,9 @@ ON SCREEN: Track: lesson_full at 192 bpm
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Master the 6-basic step.
-NARRATION: Acrobatic Rock'n'Roll is primarily a competitive sport.
-NARRATION: Next: Chapter 2.
+NARRATION: You can now execute the 6-basic step.
+NARRATION: Acrobatic Rock'n'Roll stands primarily as a competitive sport.
+NARRATION: Next up: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -164,16 +165,16 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Introduction to partner connection · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 introduces partner connection.
-NARRATION: This is an intermediate level lesson.
-NARRATION: Your instructor is an experienced competitive coach.
+NARRATION: Chapter 2 — Building the dance. Today: Introduction to partner connection.
+NARRATION: Level: Intermediate. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: An experienced competitive coach with a background in dance sport.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Maintain an upright, precise, and athletic posture.
-NARRATION: Keep the body active for balance and partner connection.
-NARRATION: Use controlled body waves to initiate lifts.
+NARRATION: Stand tall, sharp, and ready.
+NARRATION: Keep your frame active to balance and guide your partner.
+NARRATION: Initiate lifts using controlled, fluid body waves.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -186,19 +187,19 @@ ON SCREEN: Metronome at 134 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1 is a kick-ball-change.
-NARRATION: Step 2 is a kick-step with the left foot.
-NARRATION: Drill leading and following basic turns.
+NARRATION: Step 1 starts with the kick-ball-change.
+NARRATION: Step 2 moves into a left kick-step.
+NARRATION: Drill the basic lead and follow mechanics through simple turns.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3 is a kick-step with the right foot.
-NARRATION: The Einsteiger is a vaulting move where the male forms a step with his hands.
-NARRATION: The Körperwelle is a body wave used to lift the partner.
-NARRATION: Drill your synchronized footwork.
+NARRATION: Step 3 completes the kick-step on the right.
+NARRATION: The Einsteiger is a vaulting entry where the lead forms a step with his hands for the follower to spring upward.
+NARRATION: The Körperwelle is a full-body wave movement used to launch partner lifts.
+NARRATION: Drill your footwork in synchronization.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -214,21 +215,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid acrobatics without proper safety training or in unauthorized classes.
+NARRATION: Avoid aerial acrobatics without certified coaching and safety equipment.
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Linear movement, pairs or formation groups.
+NARRATION: Here is your count-in: 1-2-3-4, then 5-6-7-8.
+NARRATION: Run the complete sequence twice at full tempo, traveling in a linear path as a pair or formation group.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 192 bpm
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Introduction to partner connection.
-NARRATION: Notable figures include French world champion Miguel Angueira and Katerina Tikhonova, who has competed in the sport.
-NARRATION: Next: Chapter 3.
+NARRATION: You now understand the basics of partner connection.
+NARRATION: World champion Miguel Angueira and competitor Katerina Tikhonova are among the prominent names in the sport.
+NARRATION: Next up: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -236,16 +237,16 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Safe acrobatic entry · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 covers safe acrobatic entry.
-NARRATION: This is an advanced level lesson.
-NARRATION: Your instructor is an experienced competitive coach.
+NARRATION: Chapter 3 — Dancing it fully. Today: Safe acrobatic entry.
+NARRATION: Level: Advanced. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: An experienced competitive coach with a background in dance sport.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Maintain an upright, precise, and athletic posture.
-NARRATION: Keep the body active for balance and partner connection.
-NARRATION: Use controlled body waves to initiate lifts.
+NARRATION: Upright, precise, and athletic.
+NARRATION: Active, used for balance and partner connection.
+NARRATION: Controlled, with specific body wave movements used to initiate lifts.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -258,18 +259,18 @@ ON SCREEN: Metronome at 134 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1 is a kick-step with the left foot.
-NARRATION: Step 2 is a kick-step with the right foot.
-NARRATION: Drill the mechanics of the body wave.
+NARRATION: Step 1 launches with a left kick-step.
+NARRATION: Step 2 follows with a right kick-step.
+NARRATION: Drill the mechanical wave of the body.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: The Einsteiger is a vaulting move where the male forms a step with his hands.
-NARRATION: The Körperwelle is a body wave used to lift the partner.
-NARRATION: Drill your spotting techniques.
+NARRATION: The Einsteiger uses a hand-step support to vault the partner high into the air.
+NARRATION: The Körperwelle drives upward energy through a wave motion to start the lift.
+NARRATION: Drill your spotting technique.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -285,7 +286,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid acrobatics without proper safety training or in unauthorized classes.
+NARRATION: Acrobatics without proper safety training or in unauthorized classes.
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -297,9 +298,9 @@ ON SCREEN: Track: lesson_full at 192 bpm
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You have learned safe acrobatic entry.
-NARRATION: The lineage is: Swing (1920s), Lindy Hop, Boogie Woogie (1940s), and Acrobatic Rock'n'Roll (1955-present).
-NARRATION: You know the dance. Go and dance it.
+NARRATION: You now know how to execute a safe acrobatic entry.
+NARRATION: The lineage carries from 1920s Swing to Lindy Hop, through 1940s Boogie Woogie, up to modern Acrobatic Rock'n'Roll.
+NARRATION: You have the tools. Go out and dance.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -319,7 +320,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'uvbLjBYyQ3c', 'checked_by_vision_model': True, 'title': 'CRAZY ROCK AND ROLL DANCE IN SPAIN'}
 Images: 2 licensed — Sebastian Leske / Wikimedia Commons / CC BY 2.5 (CC BY 2.5); Sebastian Leske / Wikimedia Commons / CC BY 2.5 (CC BY 2.5)
-Footage: File:Rock 'N' Roll (1959) Australian Film.webm — https://upload.wikimedia.org/wikipedia/commons/e/e0/Rock_%27N%27_Roll_%281959%29_Australian_Film.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Independent Championship Wrestling Rock N Roll Rebel with the Punishers ICW 1998.webm — https://upload.wikimedia.org/wikipedia/commons/7/7c/Independent_Championship_Wrestling_Rock_N_Roll_Rebel_with_the_Punishers_ICW_1998.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Taylor Hawkins Tribute Concert 2022 09 03 Wembley Stadium, London [ 1080p] — https://archive.org/details/taylor-hawkins-tribute-concert-2022-09-03-wembley-stadium-london-1080p; Getvid Gggg 1 — https://archive.org/details/20220320_20220320_1734; MTV: 3 Hours with VJ Martha Quinn (July 16th, 1983) — https://archive.org/details/1983.07.16_MTV_3_Hours_with_VJ_Martha_Quinn_Sunday_July_16th_1983; Taylor Hawkins Tribute Concert - September 3 2022 London — https://archive.org/details/aylorHawkinsTributeConcertSeptember2022London
+Footage: MISSING
 Motifs: Brightly colored elastic costumes, Fast-motion footwork close-ups, Slow-motion acrobatic lifts
 Costume notes: Dancers wear custom-made, multicoloured costumes crafted from elastic, durable artificial fibers. These are designed to be tight-fitting to prevent snagging during acrobatics. Footwear consists of light jazz shoes for dance programs or aerobics sneakers for acrobatic programs to provide grip and shock absorption.
 

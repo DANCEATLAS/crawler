@@ -268,24 +268,12 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "La Naissance de Vénus",
-    "url": "https://archive.org/details/Naissance_de_Venus",
-    "year": 2008,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "La Naissance de Vénus Zinzendorfhaus 12te April 18h Barbara Leitherer, Tanz François Joubert-Caillet, Orchester Ballet Royal de la Naissance de Vénus (1665) Jean-Baptiste Lully (1632-1687) Ouverture Premier Entrée Madame representans Vénus sortant de la mer 3e Entrée Æole & les 4 Vents Bourée pour l",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-13T17:42:40Z",
   "qc_score": 9.55
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -299,6 +287,10 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
@@ -381,11 +373,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/loure.json"
  },
- "fingerprint": "dcad5aa51dc3e895",
- "updated": "2026-11-21"
+ "fingerprint": "749837cae27f36bb",
+ "updated": "2026-11-24"
 }

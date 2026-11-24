@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable powwow dancer or elder.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance is a healing ceremony.
 NARRATION: It is performed at powwows, where people may offer tobacco to dancers to request prayers for the sick.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Pow Wow Trail ｜ S1, Ep 07 ｜ Docu-series (https://archive.org/details/youtube-CHRha0H1YPg)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -101,7 +101,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'vgS9veBDOhE', 'checked_by_vision_model': False, 'title': None}
 Images: 4 licensed — Montanabw / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Montanabw / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Montanabw / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Daderot / Wikimedia Commons / CC0 (CC0)
-Footage: Pow Wow Trail ｜ S1, Ep 07 ｜ Docu-series — https://archive.org/details/youtube-CHRha0H1YPg; Anishinabe Culture Day 2021 — https://archive.org/details/dancedrum12nov; Anoli : Choctaw and Chickasaw Song & Dance — https://archive.org/details/coatx-Anoli_-_Choctaw_and_Chickasaw_Song_Dance; Choctaw and Chickasaw dancing October 17, 2024 — https://archive.org/details/coatx-Choctaw_and_Chickasaw_dancing_October_17_2024; 1994 VHS • Native American Men's and Women's Dance Styles Vol 1 60 FPS — https://archive.org/details/TheVistaGroup-1994VHSNativeAmericanMensandWomensDanceStylesVol1
+Footage: MISSING
 Motifs: Metal cones catching the light., The drum circle., Feather fans.
 Costume notes: The regalia consists of a dress adorned with metal cones (historically from tobacco lids). Modern dresses may use 365 cones to represent the days of the year. Dancers often carry a feather fan.
 

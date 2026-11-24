@@ -2,7 +2,7 @@
  "slug": "tourdion",
  "name": "Tourdion",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:49Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-19T19:42:26Z",
  "qc_score": 9.65,
  "status": "draft",
@@ -84,7 +84,7 @@
     ],
     "on_screen": [
      "Map: France · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -99,7 +99,7 @@
      "Today it is a revived tradition."
     ],
     "on_screen": [
-     "Footage: Medieval Music vol.3 (1000-1450) (https://archive.org/details/youtube-I8CW7P4k7II)"
+     "Footage — MISSING (use images)"
     ],
     "music": "underscore"
    },
@@ -148,7 +148,7 @@
      "The setting was typically a ballroom or a festive hall where it followed the basse danse."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -729,7 +729,9 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "Performed in Renaissance court settings or festive gatherings. Dancers wore period attire such as doublets and hose for men, and gowns for women. The setting was typically a ballroom or a festive hall where it followed the basse danse.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ATourdion%2C_Thoinoit_Arbeau.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -737,37 +739,17 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
-  "footage": [
+  "images": [
    {
-    "title": "Medieval Music vol.3 (1000-1450)",
-    "url": "https://archive.org/details/youtube-I8CW7P4k7II",
-    "year": 2018,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Tudor and Renaissance Music vol.3 (1450-1600)",
-    "url": "https://archive.org/details/youtube-yIEF8Mf-FcI",
-    "year": 2018,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Tourdion (1530) French Renaissance Song",
-    "url": "https://archive.org/details/youtube-ArgDiJQ41Sg",
-    "year": 2024,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Le Tourdion - French Renaissance Song",
-    "url": "https://archive.org/details/le-tourdion-french-renaissance-song-farya",
-    "year": null,
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "attribution": "Internet Archive"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tourdion%2C_Thoinoit_Arbeau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tourdion%2C_Thoinoit_Arbeau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Nileida94 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATourdion%2C_Thoinoit_Arbeau.jpg",
+    "description": "This photo has been taken in the country: Italy"
    }
   ],
+  "footage": [],
   "motifs": [
    "Dust rising slightly from the floor during the petit saut",
    "The 'twist' of the feet during the cadence",
@@ -824,7 +806,8 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "licensed images (3 needed)"
+  "licensed images (3 needed)",
+  "licensed reference footage"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Tourdion",
@@ -837,6 +820,6 @@
  "claims_verified": 5,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "8c03ff28adf6565c292d461ae349a669025a0e23e010b966ad83f9a0eb884e66",
+ "input_fingerprint": "dded7d9bdd7abdc6151e1fa0a817de789b4ab0e134fb055c427e1e0083e878bd",
  "hero_checked": "pass"
 }

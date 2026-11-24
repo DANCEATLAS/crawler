@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.8 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A scholar of Japanese classical dance and literature with expertise in Muromachi-period performing arts
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The dance tells the story of bereaved relatives of Yoshitsune's retainers, focusing on themes of guardianship, pilgrimage, and religious devotion.
 NARRATION: It likely served to commemorate these figures and their virtues within the cultural context of Muromachi Japan.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:De containertrein (nr.1072) op de Sanyō-hoofdlijn met voorop loc EF66 130 rijdt station Okayama voorbij, -26 september 2018 a.webm (https://upload.wikimedia.org/wikipedia/commons/2/2c/De_containertrein_%28nr.1072%29_op_de_Sany%C5%8D-hoofdlijn_met_voorop_loc_EF66_130_rijdt_station_Okayama_voorbij%2C_-26_september_2018_a.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -282,7 +282,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'D6Y-gP9--pQ', 'checked_by_vision_model': True, 'title': 'Kemence Okayamada2\u3000ケメンチェin岡山'}
 Images: 0 licensed
-Footage: File:De containertrein (nr.1072) op de Sanyō-hoofdlijn met voorop loc EF66 130 rijdt station Okayama voorbij, -26 september 2018 a.webm — https://upload.wikimedia.org/wikipedia/commons/2/2c/De_containertrein_%28nr.1072%29_op_de_Sany%C5%8D-hoofdlijn_met_voorop_loc_EF66_130_rijdt_station_Okayama_voorbij%2C_-26_september_2018_a.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Een dieseltrein die uit twee Kiha 40 gaat bestaan als sneltrein „Kotobuki” van Okayama naar Tsuyama passeert de brug over Ukai op de Tsuyama-lijn, -6 april 2019.webm — https://upload.wikimedia.org/wikipedia/commons/b/b6/Een_dieseltrein_die_uit_twee_Kiha_40_gaat_bestaan_als_sneltrein_%E2%80%9EKotobuki%E2%80%9D_van_Okayama_naar_Tsuyama_passeert_de_brug_over_Ukai_op_de_Tsuyama-lijn%2C_-6_april_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Omurice-inshop-okayama-japan-2019-08-14.webm — https://upload.wikimedia.org/wikipedia/commons/e/ea/Omurice-inshop-okayama-japan-2019-08-14.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Een 381 serie treinstel als de exprestrein „Yakumo 10” uit Izumoshi naar Okayama passeert de overweg Tanei in de Hakubi-lijn tussen Bitchū-Hirose en Minagi, -15 mei 2021.webm — https://upload.wikimedia.org/wikipedia/commons/7/78/Een_381_serie_treinstel_als_de_exprestrein_%E2%80%9EYakumo_10%E2%80%9D_uit_Izumoshi_naar_Okayama_passeert_de_overweg_Tanei_in_de_Hakubi-lijn_tussen_Bitch%C5%AB-Hirose_en_Minagi%2C_-15_mei_2021.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; 1998 — https://archive.org/details/bweatherly-1998
+Footage: MISSING
 Motifs: Scrolls and manuscripts, Pilgrimage paths and huts, Traditional Muromachi-period attire, Yoshitsune and retainers in armor, Nuns in simple robes
 
 

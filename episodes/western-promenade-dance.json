@@ -1,0 +1,856 @@
+{
+ "slug": "western-promenade-dance",
+ "name": "Western promenade dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T03:20:28Z",
+ "researched_at": "2026-11-23T22:07:56Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Clear, rhythmic, commanding, encouraging spatial awareness and quick recall.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Western promenade dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Western promenade dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Inside the Square: Precision, Calling, and Community",
+     "This is Western promenade dance. 17th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Western promenade dance · United States · 17th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Origins trace back to English country dances documented by John Playford in 1651 and 18th-century French quadrilles.",
+     "Transmitted to North America by European settlers, African American musicians initiated the tradition of calling steps.",
+     "In the 1920s, Henry Ford promoted square dancing in US public schools, while Lloyd \"Pappy\" Shaw codified western traditional calls in the 1930s, paving the way for modern western square dance."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Functions as a social folk and club dance.",
+     "Thirty-one U.S. states have designated square dance as their official state dance.",
+     "Modern clubs offer standardized English-language instruction internationally.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Eight dancers form four couples facing the middle of a square.",
+     "Dancers act on cues delivered by a caller on stage.",
+     "Calls take between 4 and 32 counts (steps).",
+     "Watch for Allemande Left."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Four couples arranged in a square set facing center; head couples opposite each other, side couples opposite each other."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Traditional square dance uses live acoustic instruments such as fiddle, banjo, guitar, and double bass, alongside regional piano, accordion, concertina, or hammered dulcimer playing jigs and reels.",
+     "Modern western square dance employs both traditional and modern recorded tunes.",
+     "Listen for the fiddle, banjo, guitar, double bass.",
+     "Acoustic ensemble featuring driving fiddle, banjo, and guitar rhythms paired with a vocal caller delivering rhythmic calls over traditional jigs, reels, or modern backing tracks."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Jigs and reels phrasing"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performed in dance halls, barns, and square dance clubs across over 30 countries.",
+     "Dress codes vary by club and event style.",
+     "The setup defaults to a four-couple square facing inwards."
+    ],
+    "on_screen": [
+     "Image gallery: 5 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "John Playford (published *The English Dancing Master* in 1651), Henry Ford (promoted square dancing in 1920s US schools), Lloyd \"Pappy\" Shaw (documented callers in the 1930s), Pete Seeger (popularized folk music and square dancing in the 1940s-1950s).",
+     "Includes Traditional Square Dance (Northeast/New England, Southeast/Appalachian, Western), Modern Western Square Dance, Playford dances, Irish set dance, Scottish country dance, and continental European forms like Bekedorfer and Carré de Campagne.",
+     "Descended from Morris dance, English country dance, French quadrilles, and cotillions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Western promenade dance is parent of English country dance: Documented by John Playford in 1651, providing foundational square set concepts.",
+     "Western promenade dance is parent of Quadrille: 18th-century French four-couple square dance that merged with English country dances.",
+     "Western promenade dance is child of Modern western square dance: Standardized variant evolved from traditional western styles between 1940 and 1960."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form a four-couple square set facing the middle.",
+     "Execute steps cued by the caller, averaging 1 count per step.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how European country dances evolved into an international square dance phenomenon driven by real-time calls.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Establish basic set position and square numbering",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Establish basic set position and square numbering.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Clear, rhythmic, commanding, encouraging spatial awareness and quick recall."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Self-supported upright posture during turns",
+      "Left hand or forearm grip used during Allemande Left moves."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Jigs and reels phrasing.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a four-couple square set facing the middle.",
+      "Step 2: Execute steps cued by the caller, averaging 1 count per step.",
+      "Footwork from the sources: Walking steps where one count equals roughly one step; specific regional variants use flat-foot polka steps, skip steps, or rants.",
+      "Drill: Set formation setup facing middle"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform Allemande Left by gripping the partner's or neighbor's left forearm and walking halfway around a central axis.",
+      "Drill: Distinguish head couples vs side couples"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic count-to-step walk"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "In modern western square dance, avoid pulling away heavily during forearm turns; maintain self-supported balance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues. · For children: Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues.",
+      "For children: Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Establish basic set position and square numbering.",
+      "Functions as a social folk and club dance.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute fundamental calls on prompt",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute fundamental calls on prompt.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Clear, rhythmic, commanding, encouraging spatial awareness and quick recall."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Self-supported upright posture during turns",
+      "Left hand or forearm grip used during Allemande Left moves."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Jigs and reels phrasing.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a four-couple square set facing the middle.",
+      "Step 2: Execute steps cued by the caller, averaging 1 count per step.",
+      "Drill: Allemande Left forearm grip and turn"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform Allemande Left by gripping the partner's or neighbor's left forearm and walking halfway around a central axis.",
+      "Allemande Left: Dancers grip left hands or forearms with another dancer and walk halfway around a central axis before stepping through.",
+      "Drill: Responding to prompt timing (4 to 32 counts)"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "In modern western square dance, avoid pulling away heavily during forearm turns; maintain self-supported balance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues. · For children: Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues.",
+      "For children: Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Four couples arranged in a square set facing center; head couples opposite each other, side couples opposite each other."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute fundamental calls on prompt.",
+      "John Playford (published *The English Dancing Master* in 1651), Henry Ford (promoted square dancing in 1920s US schools), Lloyd \"Pappy\" Shaw (documented callers in the 1930s), Pete Seeger (popularized folk music and square dancing in the 1940s-1950s).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Western promenade dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Western promenade dance.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Clear, rhythmic, commanding, encouraging spatial awareness and quick recall."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Self-supported upright posture during turns",
+      "Left hand or forearm grip used during Allemande Left moves."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Jigs and reels phrasing.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute steps cued by the caller, averaging 1 count per step.",
+      "Step 2: Perform Allemande Left by gripping the partner's or neighbor's left forearm and walking halfway around a central axis."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Allemande Left: Dancers grip left hands or forearms with another dancer and walk halfway around a central axis before stepping through."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "In modern western square dance, avoid pulling away heavily during forearm turns; maintain self-supported balance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues. · For children: Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Dancers sit in a 4-couple square formation, executing hand-arm turns like Allemande Left and upper body turns on caller cues.",
+      "For children: Simon Says Square Dance: Dancers follow caller commands in a set, scoring points for executing moves without stopping."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Four couples arranged in a square set facing center; head couples opposite each other, side couples opposite each other."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Western promenade dance.",
+      "Descended from Morris dance, English country dance, French quadrilles, and cotillions.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Jigs and reels phrasing",
+  "instruments": [
+   "fiddle",
+   "banjo",
+   "guitar",
+   "double bass",
+   "piano",
+   "accordion",
+   "concertina",
+   "hammered dulcimer"
+  ],
+  "vocal_style": "Caller directing steps verbally over the music",
+  "musical_form": "Phrased traditional acoustic tunes or modern square dance recordings",
+  "mood": [
+   "lively",
+   "rhythmic",
+   "social"
+  ],
+  "sound_description": "Acoustic ensemble featuring driving fiddle, banjo, and guitar rhythms paired with a vocal caller delivering rhythmic calls over traditional jigs, reels, or modern backing tracks.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Western promenade dance (United States). Rhythm pattern: Jigs and reels phrasing. Instruments: fiddle, banjo, guitar, double bass, piano, accordion, concertina, hammered dulcimer. Vocal style: Caller directing steps verbally over the music. Form: Phrased traditional acoustic tunes or modern square dance recordings. Mood: lively, rhythmic, social. It should sound like this: Acoustic ensemble featuring driving fiddle, banjo, and guitar rhythms paired with a vocal caller delivering rhythmic calls over traditional jigs, reels, or modern backing tracks. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Performed in dance halls, barns, and square dance clubs across over 30 countries. Dress codes vary by club and event style. The setup defaults to a four-couple square facing inwards.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMtmusicfestsqdance.png",
+    "https://commons.wikimedia.org/wiki/File%3ADance._Square_Dancing_at_North_Branch_Y.M.C.A_BAnQ_P48S1P06773.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASchleswig-Holstein%2C_Itzehoe%2C_Museumsfest_2014_NIK_7581.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mtmusicfestsqdance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mtmusicfestsqdance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMtmusicfestsqdance.png",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dance._Square_Dancing_at_North_Branch_Y.M.C.A_BAnQ_P48S1P06773.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dance._Square_Dancing_at_North_Branch_Y.M.C.A_BAnQ_P48S1P06773.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Conrad Poirier / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADance._Square_Dancing_at_North_Branch_Y.M.C.A_BAnQ_P48S1P06773.jpg",
+    "description": "We see couples dancing folk dances to the branch of the Young Men's Christian Association (YMCA) located at 5500 Park Avenue in Montreal."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schleswig-Holstein%2C_Itzehoe%2C_Museumsfest_2014_NIK_7581.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schleswig-Holstein%2C_Itzehoe%2C_Museumsfest_2014_NIK_7581.JPG/1280px-Schleswig-Holstein%2C_Itzehoe%2C_Museumsfest_2014_NIK_7581.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Nightflyer / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASchleswig-Holstein%2C_Itzehoe%2C_Museumsfest_2014_NIK_7581.JPG",
+    "description": "Eine Square-dance-Gruppe in Itzehoe auf dem Museumsfest 2014"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Quadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Quadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg/1280px-Quadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Johnscotaus / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQuadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg",
+    "description": "Set dancing at Colonial Ball at the Albert Hall, Canberra presented by the Monaro Folk Society Sepia setting (2016"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg/1280px-Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Harrison Keely / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASquare_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg",
+    "description": "A square dance at the John C. Campbell Folk School in Brasstown, North Carolina"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Overhead camera shot of four-couple square formation.",
+   "Close-up of caller on microphone directing dancers.",
+   "Detail of forearm grip during Allemande Left."
+  ],
+  "costume_notes": "Performed in dance halls, barns, and square dance clubs across over 30 countries. Dress codes vary by club and event style. The setup defaults to a four-couple square facing inwards.",
+  "setting_notes": "Functions as a social folk and club dance. Thirty-one U.S. states have designated square dance as their official state dance. Modern clubs offer standardized English-language instruction internationally.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "71 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 71,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Square_dance",
+  "https://www.wikidata.org/wiki/Q7988520"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "b61a6a0262f504f6520aa69c37ee72d3fb93465ad2205ed438447419856bfc7a",
+ "hero_checked": null
+}

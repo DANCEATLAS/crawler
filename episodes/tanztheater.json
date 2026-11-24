@@ -2,7 +2,7 @@
  "slug": "tanztheater",
  "name": "Tanztheater",
  "pack_version": "e2",
- "built_at": "2026-11-20T20:02:15Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-01T16:35:57Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -83,7 +83,7 @@
     ],
     "on_screen": [
      "Map: Germany · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -148,7 +148,7 @@
      "Performers frequently appear in ordinary dress or dramatic character attire suitable for their dual identity as dancers and actors."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -729,7 +729,9 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "Tanztheater stages distance themselves from classical ballet sets and tutus, placing dancers in contemporary, dramatic, or everyday environments. Sets often incorporate specific, physically demanding environments that reflect internal human obsessions, philosophical dilemmas, and psychoanalytic states. Performers frequently appear in ordinary dress or dramatic character attire suitable for their dual identity as dancers and actors.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACravos01.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -737,7 +739,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cravos01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cravos01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "clau damaso from lisbon, portugal / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACravos01.jpg",
+    "description": "Cravos, by choreographer Pina Bausch."
+   }
+  ],
   "footage": [],
   "motifs": [
    "Empty chairs scattered across a bare stage",
@@ -814,6 +825,6 @@
  "claims_verified": 12,
  "claims": 12,
  "polished": false,
- "input_fingerprint": "fe09f6328c1405ed601c3a07af9838ea27f5fab0913f7a8ef809af6d341c5bc1",
+ "input_fingerprint": "044fa1121afcc2d4a3604b6dcc4520dd2d265f6ef3ee0abc9bfb5e104d19c52a",
  "hero_checked": "pass"
 }

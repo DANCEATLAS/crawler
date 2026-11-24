@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "stomp-dance",
  "name": "Stomp dance",
- "state": "story_ready_teaching_withheld",
+ "state": "teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -65,7 +65,10 @@
    "verdict": "pass",
    "checked_at": "2026-11-16T22:03:03Z",
    "soft_fail": []
-  }
+  },
+  "related_slugs": [
+   "turkey-dance"
+  ]
  },
  "profile": {
   "sections": {
@@ -171,16 +174,6 @@
   "tradition_status": "living",
   "footage": [
    {
-    "title": "American Indian Speaks, The",
-    "url": "https://archive.org/details/AmericanIndianSpeaks",
-    "year": 1973,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "This important film presents the American Indian speaking for himself ---discussing what he wants and how he feels. It features historically important Native Americans such as Chief Dan George and Lame Deer, and focuses on three American Indian tribes and how they are surviving. Reverend Cliff Hill ",
-    "source": "archive"
-   },
-   {
     "title": "Native American Social Dance and Stomp Dance",
     "url": "https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance",
     "year": 2020,
@@ -189,16 +182,6 @@
     "attribution": "Internet Archive",
     "description": "The Nolumbeka Project presents a Native American Social Dance and Stomp Dance, Saturday, February 1, 2020. Filmed at Greenfield Community College, Cohn Dining Room, 1 College Drive, Greenfield, MA. A rare opportunity to learn and participate in Northeastern Woodlands Native social dances, led by Ann",
     "source": "archive"
-   },
-   {
-    "title": "The Wiggles: Wiggledancing! Live In Concert [2007] (HD)",
-    "url": "https://archive.org/details/wiggledancing-live-in-concert-2007-hd",
-    "year": 2007,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "NOTE: I had to reconstruct the ending credits by using a DVD version (DVD quality: 576i) with a website bumper from the same DVD by using CapCut, due to the references to The Wiggles and Wiggle Time! Websites are edited out/blurred frame-by-frame from TV series and specials from FilmRise [Sourced fr",
-    "source": "archive"
    }
   ],
   "researched_at": "2026-11-05T17:59:19Z",
@@ -206,8 +189,14 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
-  "of": 6
+  "have": 5,
+  "of": 6,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ]
  },
  "teaching_withheld": "The stomp dance is a religious ceremony. Photography is prohibited, and participants must adhere to strict rules regarding alcohol, drugs, and personal conduct. Outsiders should not attempt to record or participate without explicit invitation and guidance from the community.",
  "episodes": {
@@ -219,6 +208,6 @@
   "polished": false,
   "file": "episodes/stomp-dance.json"
  },
- "fingerprint": "0ba90872e5afda1a",
- "updated": "2026-11-21"
+ "fingerprint": "134fe806bef4cd0b",
+ "updated": "2026-11-24"
 }

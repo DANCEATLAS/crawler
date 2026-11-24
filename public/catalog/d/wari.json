@@ -183,59 +183,21 @@
   "movie_ready": true,
   "schema": 5,
   "tradition_status": "living",
-  "footage": [
-   {
-    "title": "File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 3.0 igo",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
-    "attribution": "UNESCO / Wikimedia Commons / CC BY-SA 3.0 igo",
-    "description": "Una visión de la cosmovisión y de la resistencia cultural a través de la Danza de las Tijeras\nThis film is part of the DVD Proyecto Tokapu: Video Quechua en Villa El Salvador  »disponible aquí\nPaís/lugar: Peru,\nTipo: Documentary\nDuración: 18 minutes\nCréditos: Maribel Nahui Pretell (director), Asocia",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3AICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm",
-    "source": "commons"
-   },
-   {
-    "title": "File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, Apu Onccoy una voz, un sueño en los Andes.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_Apu_Onccoy_una_voz%2C_un_sue%C3%B1o_en_los_Andes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 3.0 igo",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
-    "attribution": "UNESCO / Wikimedia Commons / CC BY-SA 3.0 igo",
-    "description": "Una mujer de Ayacucho lucha por conservar sus raíces a través del canto y la danza autóctonas\nThis film is part of the DVD Proyecto Tokapu: Video Quechua en Villa El Salvador\nPlace/country: Peru,\nType: Documentary\nDuration: 19 minutes\nCredits: Victor Jesús Ñahui de la Cruz (director), Asociación Cul",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3AICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_Apu_Onccoy_una_voz%2C_un_sue%C3%B1o_en_los_Andes.webm",
-    "source": "commons"
-   },
-   {
-    "title": "File:Wari Chora.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Wari_Chora.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "attribution": "Wann Majaw / Wikimedia Commons / CC BY 4.0",
-    "description": "Wari Chora is a canyon type landscape with a running water in between the gorges ad it is situated in South Garo Hills",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3AWari_Chora.webm",
-    "source": "commons"
-   },
-   {
-    "title": "B.knight Video Durandall WARI F. M. C. T",
-    "url": "https://archive.org/details/b.knight-video-durandall-wari-f.-m.-c.-t",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "MMD 4K Animation – Dance Scene colection",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-14T16:50:13Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 4,
   "of": 6,
   "missing": [
    {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
@@ -244,11 +206,11 @@
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 6,
+  "gaps": 7,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/wari.json"
  },
- "fingerprint": "d71bae2f57cb87d3",
- "updated": "2026-11-21"
+ "fingerprint": "fe86ea56778b9e89",
+ "updated": "2026-11-24"
 }

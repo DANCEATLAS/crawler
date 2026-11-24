@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The passamezzo was performed in solo settings, paired social gatherings, or as part of multi-movement musical suites.
 NARRATION: It often preceded a faster triple-time dance like the saltarello or gagliarda to balance solemnity with agility.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) (https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da)
+ON SCREEN: Footage: Dances and Music from the Italian Renaissance / Gastoldi, Gabrieli, Mainerio [...] (https://archive.org/details/youtube-739R9G0qDH8)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -292,7 +292,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'A7AzGhMV1T8', 'checked_by_vision_model': True, 'title': 'Passamezzo'}
 Images: 0 licensed
-Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) — https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da; Dances and Music from the Italian Renaissance / Gastoldi, Gabrieli, Mainerio [...] — https://archive.org/details/youtube-739R9G0qDH8
+Footage: Dances and Music from the Italian Renaissance / Gastoldi, Gabrieli, Mainerio [...] — https://archive.org/details/youtube-739R9G0qDH8
 Motifs: A Renaissance lute resting on a wooden table, An open score of Giacomo Gorzanis's tablature, A courtly ballroom engraving from the 16th century
 
 

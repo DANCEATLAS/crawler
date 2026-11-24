@@ -1,6 +1,6 @@
 # Swing — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; teaching steps written out
 
@@ -30,7 +30,7 @@ NARRATION: Swing is a social dance, though it has developed a significant compet
 NARRATION: It is used for recreation, community building, and artistic expression.
 NARRATION: In some contexts, it is a competitive sport with standardized judging criteria.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:The mystic swing (1900).webm (https://upload.wikimedia.org/wikipedia/commons/d/da/The_mystic_swing_%281900%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: File:Swing Dance.webm (https://upload.wikimedia.org/wikipedia/commons/2/2f/Swing_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -315,7 +315,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'LQxHfEjBhh0', 'checked_by_vision_model': True, 'title': None}
 Images: 3 licensed — Joe Mabel / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); William H. Johnson / Wikimedia Commons / Public domain (Public domain); David McSpadden / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: File:The mystic swing (1900).webm — https://upload.wikimedia.org/wikipedia/commons/d/da/The_mystic_swing_%281900%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Multi-arm Swing Test Odl0TFh0Qy0.webm — https://upload.wikimedia.org/wikipedia/commons/0/07/Multi-arm_Swing_Test_Odl0TFh0Qy0.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Boy enjoying rope and log swing.webm — https://upload.wikimedia.org/wikipedia/commons/e/ec/Boy_enjoying_rope_and_log_swing.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Hikers on a swing in Steigerwald.webm — https://upload.wikimedia.org/wikipedia/commons/4/4e/Hikers_on_a_swing_in_Steigerwald.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Swing You Sinners! Original Print.webm — https://upload.wikimedia.org/wikipedia/commons/d/db/Swing_You_Sinners%21_Original_Print.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:(20260404 154546659) Medieval swing ride Leipzig.webm — https://upload.wikimedia.org/wikipedia/commons/e/ea/%2820260404_154546659%29_Medieval_swing_ride_Leipzig.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Swing Dance.webm — https://upload.wikimedia.org/wikipedia/commons/2/2f/Swing_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Swing dance in Toronto in November 2023 video.webm — https://upload.wikimedia.org/wikipedia/commons/e/e3/Swing_dance_in_Toronto_in_November_2023_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: File:Swing Dance.webm — https://upload.wikimedia.org/wikipedia/commons/2/2f/Swing_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Swing dance in Toronto in November 2023 video.webm — https://upload.wikimedia.org/wikipedia/commons/e/e3/Swing_dance_in_Toronto_in_November_2023_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Archival footage of the Savoy Ballroom, Close-ups of footwork, Dynamic partner turns
 Costume notes: Historically associated with dance halls and juke joints, swing is now performed in studios, clubs, and competition venues. There is no specific costume, though comfortable, durable clothing and shoes that allow for movement and sliding are standard.
 

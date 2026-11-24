@@ -1,6 +1,6 @@
 # Chari Dance — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; two or more connections
 
@@ -304,7 +304,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '7yhQfDX1Djk', 'checked_by_vision_model': True, 'title': 'PANIHARI - CHARI Fire Dance of Rajasthan -  by Aurora in PUSHKAR'}
 Images: 3 licensed — Arian Zwegers / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); INGENUEN / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Prakashveer1947 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Chari Folk Dance of Rajasthan.webm — https://upload.wikimedia.org/wikipedia/commons/0/0d/Chari_Folk_Dance_of_Rajasthan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.ICCR-1570-VHS; File:Meet Artemis Team Member Raja Chari.webm — https://upload.wikimedia.org/wikipedia/commons/d/d9/Meet_Artemis_Team_Member_Raja_Chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danse moyen chari.webm — https://upload.wikimedia.org/wikipedia/commons/4/4f/Danse_moyen_chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Raja Chari-NASA 2017 Astronaut Candidate.webm — https://upload.wikimedia.org/wikipedia/commons/7/70/Raja_Chari-NASA_2017_Astronaut_Candidate.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:NHQ 2020 Artemis Astro RAJA CHARI YOUTUBE (751927043383).webm — https://upload.wikimedia.org/wikipedia/commons/d/d1/NHQ_2020_Artemis_Astro_RAJA_CHARI_YOUTUBE_%28751927043383%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A Team Hero Slide Chari 2020-12-03 LR (757013085436).webm — https://upload.wikimedia.org/wikipedia/commons/d/dc/A_Team_Hero_Slide_Chari_2020-12-03_LR_%28757013085436%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.RS-92-VHS
+Footage: File:Chari Folk Dance of Rajasthan.webm — https://upload.wikimedia.org/wikipedia/commons/0/0d/Chari_Folk_Dance_of_Rajasthan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Flaming pots in the dark, Golden Rajasthani jewelry, Desert landscapes
 Costume notes: Dancers wear traditional Rajasthani golden ornaments including the Hansli, Timniya, Mogri, Punchi, Bangdi, Gajra, Armlets, Karli, Kanka, and Navr.
 

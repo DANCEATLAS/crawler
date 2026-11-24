@@ -1,6 +1,6 @@
 # Bubble dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The performance served primarily as visual theatrical entertainment and erotic stage art within burlesque and revue contexts in the 1930s.
 NARRATION: In social contexts, such as local community lodge dances held in hall venues during the 1920s, the name was associated with public social gatherings intended for community recreation.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: Rosita Royce The Dove Dance 1953 Striporama (https://archive.org/details/rosita-royce-dove-dance-1953)
+ON SCREEN: Footage: SALLY RAND BALLOON BUBBLE DANCE PERFORMANCE LITA BARON & GRACIE BARRIE 1940s MUSIC VIDEO XD10084 (https://archive.org/details/xd-10084-ive-got-to-get-hot-vwr-1)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -278,7 +278,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'XM1BX5ka5Zg', 'checked_by_vision_model': True, 'title': "Burlesque dancer - Sally Rand's 'Bubble Dance'"}
 Images: 0 licensed
-Footage: Rosita Royce The Dove Dance 1953 Striporama — https://archive.org/details/rosita-royce-dove-dance-1953; SALLY RAND - Fan Dance (1942) — https://archive.org/details/youtube-zYeUx4kOQwI; SALLY RAND BALLOON BUBBLE DANCE PERFORMANCE LITA BARON & GRACIE BARRIE 1940s MUSIC VIDEO XD10084 — https://archive.org/details/xd-10084-ive-got-to-get-hot-vwr-1; Fan Dance. Sally Rand — https://archive.org/details/fan-dance.-sally-rand; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand_202609; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand
+Footage: SALLY RAND BALLOON BUBBLE DANCE PERFORMANCE LITA BARON & GRACIE BARRIE 1940s MUSIC VIDEO XD10084 — https://archive.org/details/xd-10084-ive-got-to-get-hot-vwr-1; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand_202609; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand
 Motifs: Large spherical opaque or translucent balloon, Dramatic stage spotlighting, Vintage theatre curtain backdrop
 Costume notes: The defining attire of the soloist in classic bubble dance performances is nudity, with the dancer relying on a large spherical prop shaped like a balloon or ball placed between herself and the spectators. In contemporary 1930s film appearances and cartoon depictions, stage settings feature dramatic spotlighting, stage curtains, and proscenium framing that emphasize the soloist's movement.
 

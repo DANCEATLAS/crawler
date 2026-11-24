@@ -2,7 +2,7 @@
  "slug": "finnish-tango",
  "name": "Finnish tango",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-04T18:00:03Z",
  "qc_score": 9.5,
  "status": "draft",
@@ -82,7 +82,7 @@
     ],
     "on_screen": [
      "Map: Finland · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -145,7 +145,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 2 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -721,7 +721,10 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKirsti_Isoaho%2C_Anders_Rixer_och_danstruppen_Tango.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AFinskTango.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -729,7 +732,24 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kirsti_Isoaho%2C_Anders_Rixer_och_danstruppen_Tango.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kirsti_Isoaho%2C_Anders_Rixer_och_danstruppen_Tango.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Anders Rixer / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKirsti_Isoaho%2C_Anders_Rixer_och_danstruppen_Tango.jpg",
+    "description": "Let´s Tangofestivalens värdinna Kirsti Isoaho och värd Anders Rixer tillsammans med danstruppen Tango från Oulu, Finland"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/FinskTango.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/FinskTango.jpg/1280px-FinskTango.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Orfeuz / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFinskTango.jpg",
+    "description": "Finnish tango"
+   }
+  ],
   "footage": [],
   "motifs": [
    "close embrace",
@@ -805,6 +825,6 @@
  "claims_verified": 7,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "2d41446626d99e705047f96e550550a12424aee0e9cff740318bb83c6eddcceb",
+ "input_fingerprint": "24e167cb9fc25d0709caff204e14c8523ea97eb12ee9dc4b9c47797d87900ff0",
  "hero_checked": "pass"
 }

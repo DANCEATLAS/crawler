@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Pantsula emerged in the 1950s and 1960s in Alexandra and Sophiatown, Johannesburg, as a response to forced removals by the apartheid government.
 NARRATION: It began as informal street competitions among men before becoming a broader tool for political resistance and social awareness by the 1980s.
 ON SCREEN: Map: South Africa · Africa
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -50,7 +50,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -316,7 +316,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'BuvTclfJ8tA', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
+Images: 1 licensed — Fongcwele / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: The Travel Show : BBCNEWS : January 8, 2022 10:30am-11:01am GMT — https://archive.org/details/BBCNEWS_20220108_103000_The_Travel_Show; The Travel Show : BBCNEWS : January 9, 2022 1:30am-2:01am GMT — https://archive.org/details/BBCNEWS_20220109_013000_The_Travel_Show; The Travel Show : BBCNEWS : January 13, 2022 1:30am-2:01am GMT — https://archive.org/details/BBCNEWS_20220113_013000_The_Travel_Show; The Travel Show : BBCNEWS : June 12, 2021 10:30am-11:01am BST — https://archive.org/details/BBCNEWS_20210612_093000_The_Travel_Show; The Travel Show : BBCNEWS : January 8, 2022 5:30am-6:01am GMT — https://archive.org/details/BBCNEWS_20220108_053000_The_Travel_Show; The Travel Show : BBCNEWS : January 12, 2022 2:30am-3:01am GMT — https://archive.org/details/BBCNEWS_20220112_023000_The_Travel_Show
 Motifs: Geometric floor patterns, Urban street backdrops, Fast-moving feet
 

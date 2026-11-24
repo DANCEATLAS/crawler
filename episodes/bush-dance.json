@@ -2,7 +2,7 @@
  "slug": "bush-dance",
  "name": "Bush dance",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:27Z",
  "researched_at": "2026-11-15T17:15:25Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -80,7 +80,7 @@
     ],
     "on_screen": [
      "Map: Australia · Oceania",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -143,13 +143,10 @@
      "Unlike colonial dance, which typically calls for period costume, bush dance adheres to relaxed dress codes."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 3 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "images"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
@@ -735,7 +732,11 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "Bush dance takes place in relaxed social environments, traditionally woolsheds, rural halls, and social club venues for Bushy Balls. Unlike colonial dance, which typically calls for period costume, bush dance adheres to relaxed dress codes.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AStateLibQld_1_201235_Country_dance%2C_Helenvale%2C_ca._1910.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AStateLibQld_2_176027_Dancing_a_reel_at_a_Boulia_picnic%2C_Queensland%2C_1921.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGundillion_Hall_Bush_Dance_-_panoramio.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -743,27 +744,38 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/StateLibQld_1_201235_Country_dance%2C_Helenvale%2C_ca._1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fb/StateLibQld_1_201235_Country_dance%2C_Helenvale%2C_ca._1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AStateLibQld_1_201235_Country_dance%2C_Helenvale%2C_ca._1910.jpg",
+    "description": "Country dance, Helenvale, ca. 1910.\nMen and women dancing in a circle in front of the Lion's Den Hotel at Helenvale, south of Cooktown in north Queensland. There are five couples dancing in a circle while a group of people watch the performance from a distance."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/StateLibQld_2_176027_Dancing_a_reel_at_a_Boulia_picnic%2C_Queensland%2C_1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/StateLibQld_2_176027_Dancing_a_reel_at_a_Boulia_picnic%2C_Queensland%2C_1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AStateLibQld_2_176027_Dancing_a_reel_at_a_Boulia_picnic%2C_Queensland%2C_1921.jpg",
+    "description": "Dancing a reel at a Boulia picnic, Queensland, 1921"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Gundillion_Hall_Bush_Dance_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gundillion_Hall_Bush_Dance_-_panoramio.jpg/1280px-Gundillion_Hall_Bush_Dance_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "dnatheist / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGundillion_Hall_Bush_Dance_-_panoramio.jpg",
+    "description": "Gundillion Hall Bush Dance"
+   }
+  ],
   "footage": [
    {
     "title": "Bush Dance Against Terorism",
     "url": "https://archive.org/details/Bush_Dance_Against_Terorism_3",
     "year": null,
     "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Sarah Bush Dance Project Part Two",
-    "url": "https://archive.org/details/JoeyWilliams-SarahBushDanceProjectPartTwo527",
-    "year": null,
-    "license": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Sarah Bush Dance Project Part One",
-    "url": "https://archive.org/details/JoeyWilliams-SarahBushDanceProjectPartOne897",
-    "year": null,
-    "license": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
     "attribution": "Internet Archive"
    }
   ],
@@ -825,8 +837,7 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a verified recording to listen to",
-  "licensed images (3 needed)"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Bush_dance",
@@ -835,6 +846,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "38483b23a9a808fd0e06ca34f51808f09bd47f35d35f81b4d1b5d3dc5f88a052",
+ "input_fingerprint": "d113ec51238a187cf43cf5ad67474f904b5ba4002d45d7cff36f4099b191c82d",
  "hero_checked": "pass"
 }

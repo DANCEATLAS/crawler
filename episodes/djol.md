@@ -273,7 +273,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'm-cszdKsE9M', 'checked_by_vision_model': True, 'title': None}
 Images: 0 licensed
-Footage: West African Dance (1 of 4) — https://archive.org/details/West_African_Dance_1_of_4; West African Dance (2 of 4) — https://archive.org/details/West_African_Dance_2_of_4; West African Dance (3 of 4) — https://archive.org/details/West_African_Dance_3_of_4; West African Dance (4 of 4) — https://archive.org/details/West_African_Dance_4_of_4; Colors of Ancient Europe – Caryatid from the Erechtheion in Athens — https://archive.org/details/youtube-QTr1pGX6Ers; Colors of Ancient Europe – Caryatid from the Erechtheion — https://archive.org/details/youtube-K74sDehQ298; 2024-07-15 Kyle Huval & The Dixie Club Ramblers @ 32nd Finger Lakes GrassRoots Trumansburg NY — https://archive.org/details/2024-07-15-kyle-huval-and-the-dixie-club-ramblers-trumansburg-ny; 2024-07-15 Kyle Huval & The Dixie Club Ramblers @ 32nd Finger Lakes GrassRoots Trumansburg NY — https://archive.org/details/2024-07-15_Kyle_Huval_And_The_Dixie_Club_Ramblers_Trumansburg_NY
+Footage: West African Dance (1 of 4) — https://archive.org/details/West_African_Dance_1_of_4; West African Dance (2 of 4) — https://archive.org/details/West_African_Dance_2_of_4; West African Dance (3 of 4) — https://archive.org/details/West_African_Dance_3_of_4; West African Dance (4 of 4) — https://archive.org/details/West_African_Dance_4_of_4
 
 Costume notes: The central element of the costume is a mask depicting a female, which is worn by a male dancer. The dance is performed in settings involving multiple villages.
 

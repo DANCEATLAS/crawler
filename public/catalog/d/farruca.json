@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "farruca",
  "name": "Farruca",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "ES"
@@ -302,45 +302,19 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "Men Dancing 10",
-    "url": "https://archive.org/details/csfpal_000160",
-    "year": 1991,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Men Dancing was a popular San Francisco Bay Area dance series created in 1982 by Gary Palmer that featured only male dancers and choreographers in order to \"give male dance artists a creative space outside of traditional roles (as partners to ballerinas) or archetypes (heroes or villains).\" This rec",
-    "source": "archive"
-   },
-   {
-    "title": "Bailes Tipicos Españoles Angelita Y Mª Del Carmen Romero ( 1984) LP Completo",
-    "url": "https://archive.org/details/BailesTipicosEspaolesAngelitaYMDelCarmenRomero1984LPCompleto",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "bailes tipicos Españoles - angelita y mª del carmen romero (1984) LP completo cara A: 01 el ole de la curra (popular) 02 el vito (popular) 03 la reja - tanguillo de granada (popular) 04 angelita - tango (A. Barrios) 05 el antequerano (p. Espert) 06 farruca (popular) Cara B: 01 fandangos de comares -",
-    "source": "archive"
-   },
-   {
-    "title": "The Art Of Guitar Flamenco By Pepe Romero Spanish Dance, Zorrongo, Farruca Y Rumba .. ( Ct.rc..)",
-    "url": "https://archive.org/details/the-art-of-guitar-flamenco-by-pepe-romero-spanish-dance-zorrongo-farruca-y-rumba-..-ct.rc..",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "d",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-15T17:28:36Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "study_video": "lesson"
   }
@@ -500,11 +474,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 3,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/farruca.json"
  },
- "fingerprint": "5b753642658d781b",
- "updated": "2026-11-21"
+ "fingerprint": "b33857a40ae53495",
+ "updated": "2026-11-24"
 }

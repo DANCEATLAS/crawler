@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The Alegrías originated in Cádiz, likely derived from the Aragonese jota during the French occupation.
 NARRATION: Enrique Butrón is credited with fixing the current flamenco style, while Ignacio Espeleta introduced the signature 'tiriti, tran, tran' refrain.
 ON SCREEN: Map: Spain · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,7 +55,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NARRATION: Dancers wear ankle-length dresses with ruffles, often with a bata de cola.
 NARRATION: Accessories include mantillas, flowers, combs, and coral earrings.
 NARRATION: High-heeled shoes are essential for the zapateado.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -318,8 +318,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'gvnf-Kor754', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
-Footage: File:La Argentinita - Alegrias (ca. 1935).webm — https://upload.wikimedia.org/wikipedia/commons/8/8b/La_Argentinita_-_Alegrias_%28ca._1935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; 43rd Annual International Folk Dance Festival at the Dorothy Chandler Pavilion — https://archive.org/details/calauem_000211; Montalvo Cuadro Flamenco à Culture en ligne — https://archive.org/details/tcftv1qc-Montalvo_Cuadro_Flamenco_a_Culture_en_ligne; Montalvo Cuadro Flamenco - Alegrías (extrait) — https://archive.org/details/tcftv1qc-Montalvo_Cuadro_Flamenco_Alegrias_extrait
+Images: 1 licensed — Julio Romero de Torres / Wikimedia Commons / Public domain (Public domain)
+Footage: File:La Argentinita - Alegrias (ca. 1935).webm — https://upload.wikimedia.org/wikipedia/commons/8/8b/La_Argentinita_-_Alegrias_%28ca._1935%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; 43rd Annual International Folk Dance Festival at the Dorothy Chandler Pavilion — https://archive.org/details/calauem_000211
 Motifs: Ruffled dresses, Mantillas, High-heeled shoes, Cádiz coastal scenery
 Costume notes: Dancers wear ankle-length dresses with ruffles, often with a bata de cola. Accessories include mantillas, flowers, combs, and coral earrings. High-heeled shoes are essential for the zapateado.
 

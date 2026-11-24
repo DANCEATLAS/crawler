@@ -300,7 +300,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'cR1kloYoPjs', 'checked_by_vision_model': False, 'title': 'HAVA NAGILA Jewish Punjabi Israel India Dance - Downtown Bhangra Vancouver'}
 Images: 0 licensed
-Footage: File:Nagila Traditional Dance.webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Nagila_Traditional_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Hava Nagila Original — https://archive.org/details/youtube-vHSNZK4Je-Y; Curtain Up! Full One Hour Show — https://archive.org/details/CurtainUpFullOneHourShow; Duchess Camilla Dancing the Hava Nagila! — https://archive.org/details/youtube-lRu5RUL5qJc; Hava Nagila — https://archive.org/details/bandicam-2024-08-18-17-18-55-423; "Hava Nagila" performed by Joshua Moon — https://archive.org/details/youtube-Pd-Sm58i35Y; ''Hava Nagila'' | Israeli folk song — https://archive.org/details/youtube-Z9PM5gjwN1U
+Footage: File:Nagila Traditional Dance.webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Nagila_Traditional_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Right-angle posture, Drumming hands, Dust kicking up from rhythmic stamps
 
 

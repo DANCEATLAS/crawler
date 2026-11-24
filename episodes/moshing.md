@@ -1,6 +1,8 @@
 # moshing — episode pack
 
-*Status: complete · built 2026-11-24 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
+
+**Gaps** (handed to the research queue): licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An aging hardcore veteran with a background in physics, blending street-smarts with crowd dynamics theory.
@@ -27,7 +29,7 @@ MUSIC: underscore
 NARRATION: Moshing is a form of fan feedback and collective energy release.
 NARRATION: While seen by participants as a positive expression of enjoyment, it is viewed by critics and some musicians (like Fugazi or Smashing Pumpkins) as violent, exclusionary, or dangerous.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: .unpalatable Punk Rock Disco 2 @ Unaffiliated 777 (vid,audio,info) (https://archive.org/details/unpalatable-unaffiliated-777)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -325,7 +327,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'xS5o0bZT4zY', 'checked_by_vision_model': True, 'title': 'a guide to moshing and concert survival'}
 Images: 5 licensed — [][tatu] from Porto Alegre, Brasil / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Joe Mabel / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Seis Pasos Mas Abajo / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); EnglishLoverWillie at English Wikipedia / Wikimedia Commons / CC0 (CC0); vxla from Chicago, US / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: .unpalatable Punk Rock Disco 2 @ Unaffiliated 777 (vid,audio,info) — https://archive.org/details/unpalatable-unaffiliated-777; Radio Clash 21-2-6_ToneChange, Ratrace, Zero One — https://archive.org/details/radio-clash-21-2-6; File:Satellite Movie from NASA Shows Large Hurricane Irene Slamming East Coast.webm — https://upload.wikimedia.org/wikipedia/commons/5/51/Satellite_Movie_from_NASA_Shows_Large_Hurricane_Irene_Slamming_East_Coast.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Close Look at Storm System Slamming Coastline (CIRA 2023-01-05 - labels).webm — https://upload.wikimedia.org/wikipedia/commons/f/f6/Close_Look_at_Storm_System_Slamming_Coastline_%28CIRA_2023-01-05_-_labels%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Close Look at Storm System Slamming Coastline (CIRA 2023-01-05 - nolabels).webm — https://upload.wikimedia.org/wikipedia/commons/1/1b/Close_Look_at_Storm_System_Slamming_Coastline_%28CIRA_2023-01-05_-_nolabels%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; IShowSpeed Raging At NSMB. Wii (Extended V2) — https://archive.org/details/ishowspeed-raging-at-nsmb.-wii-extended-v2
+Footage: MISSING
 Motifs: Slow-motion sweat flying from a rotating circle pit, A split-screen of a 1980s punk basement vs. a modern EDM festival, Thermal imaging showing the heat generated in the center of a pit
 Costume notes: Danced in the 'pit' area of live music venues. Participants wear durable street clothes. Safety precautions in the community include removing glasses and helping fallen dancers. Venues often use T-barricades to split the pit and manage the physical force of the crowd.
 

@@ -1,6 +1,6 @@
 # Bruckins — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.85 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 

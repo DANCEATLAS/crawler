@@ -1,8 +1,8 @@
 # Seis — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Jíbaro music and dance expert.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The Seis is associated with Christmas, folkloric festivals, and poetry contests.
 NARRATION: Lyrics often address migration, love, patriotism, and the natural beauty of the Puerto Rican countryside.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Mudança na equipe de governo.webm (https://upload.wikimedia.org/wikipedia/commons/8/8e/Mudan%C3%A7a_na_equipe_de_governo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -306,7 +306,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '4nFyLdsyIgk', 'checked_by_vision_model': False, 'title': None}
 Images: 2 licensed — Marine 69-71 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Marine 69-71 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Mudança na equipe de governo.webm — https://upload.wikimedia.org/wikipedia/commons/8/8e/Mudan%C3%A7a_na_equipe_de_governo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Conmemoración de seis años del gobierno de Hugo Chávez 3.webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Conmemoraci%C3%B3n_de_seis_a%C3%B1os_del_gobierno_de_Hugo_Ch%C3%A1vez_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Belgravia — https://archive.org/details/belgravia_202302; SYNURA, UN BAILE AL SOL, SIERRA DE LA CULEBRA. — https://archive.org/details/Flickr-39716919212; La Cueca De Pikachu - Martes De Payadoras En El Chancho Seis (8M) (10/03/2020) — https://archive.org/details/20200310-la-cueca-de-pikachu-martes-de-payadoras-en-el-chancho-seis-8m; TÍTULO: Esta Es Una Historia Real Nació En 1999 En Pennsylvania La Menor De Cuatro Herma — https://archive.org/details/esta_es_una_historia_real_nacio_en_1999_en_pennsylvania_la_menor_de_cuatro_herma_ad10f167; Ácaros en una flor — https://archive.org/details/Flickr-7285870930; SEIS PISTOS "Que me la Mame" at Heart Of Texas Rockfest, Austin, Tx. March 21, 2015 — https://archive.org/details/youtube-5o0-RX3vo6s
+Footage: MISSING
 Motifs: The cuatro instrument, Two lines of dancers in traditional attire, Open rural landscape
 Costume notes: Historically performed in open places of beaten earth, the dance is now a staple of festivals, social clubs, and competitive poetry-singing contests.
 

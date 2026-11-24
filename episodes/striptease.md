@@ -1,6 +1,6 @@
 # Striptease — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
 

@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A village elder from the Porja community, emphasizing rhythm as a form of collective relief and identity.
@@ -30,7 +30,7 @@ NARRATION: Dhimsa is performed for various reasons: as a relaxation during work,
 NARRATION: It serves as a communal bond, with no discrimination regarding who can join.
 NARRATION: The 'Boda Dhimsa' variant is specifically dedicated to the worship of village gods and goddesses.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Folk and Tribal Dance Performance by Folk and Tribal Dance Academy (https://archive.org/details/dni.ncaa.ICCR-2578-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -105,7 +105,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'mMiUEf8mOxc', 'checked_by_vision_model': True, 'title': '13,000 tribal artists welcome PM Modi with a SPECTACULAR Dhimsa Dance in Andhra Pradesh'}
 Images: 1 licensed — No machine-readable author provided. Robbygrine assumed (based on copyright claims). / Wikimedia Commons / Public domain (Public domain)
-Footage: Folk and Tribal Dance Performance by Folk and Tribal Dance Academy — https://archive.org/details/dni.ncaa.ICCR-2578-VHS
+Footage: MISSING
 Motifs: Concentric circles, Earthy tones of sarees (green, red, yellow), The Mori reed instrument, The rugged landscape of the Araku Valley
 Costume notes: Dancers wear bright, colorful sarees in earthy tones such as green, red, and yellow, typically worn at calf-length (just below the knee) to facilitate movement. They adorn themselves with traditional tribal ornaments and necklaces. The dance is usually performed outdoors, in village squares or near natural sites like the Borra Caves and Araku Valley.
 

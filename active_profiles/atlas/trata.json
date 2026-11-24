@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Mimics the physical movement of hauling in fishing nets",
+      "difficulty": "beginner",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "Group line or open circle executed in open space outside Saint John the Dancer chapel in Megara, or general social spaces in the Aegean Islands",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group dance executed in line or chorus formation",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Hand and body movements imitating the pull of hauling in fishing nets",
+          "name": "Net-hauling motion"
+        }
+      ],
+      "tempo_feel": "Steady, rhythmic hauling cadence",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "commemorative",
+        "festive",
+        "maritime",
+        "communal"
+      ],
+      "musical_form": "Verse-chorus structure, featuring chorus sections with specific dance movements",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Η τράτα μας η κουρελού"
+        }
+      ],
+      "rhythm_pattern": "Syrtos rhythmic structure in island contexts",
+      "sound_description": "Greek island folk music (Nisiotika) anchored by traditional vocal melodies and Syrtos dance rhythms, centered around the traditional song Η τράτα μας η κουρελού.",
+      "tempo_bpm": "",
+      "vocal_style": "Chorus and verse singing associated with Nisiotika folk songs"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "Line or open circle in public space before chapel or in social gatherings",
+      "level_notes": "Accessible community folk dance performed at social gatherings and commemorative events.",
+      "rhythm": "Syrtos rhythm in island variants; specific meter not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "b72f36128a89bc5299e6f1286ad80a602ca32acbc3a130f70fbf12256f23a600",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What exact footwork counts and step patterns are performed by the women of Megara during the biennial Easter Tuesday dance? Evidence needed: Video analysis or field documentation of the Megara biennial festival performance."
+    ]
+  },
+  "id": "atlas:trata",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Trata",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c3bca57e525a09ab",
+      "next_evidence": "Video analysis or field documentation of the Megara biennial festival performance.",
+      "question": "What exact footwork counts and step patterns are performed by the women of Megara during the biennial Easter Tuesday dance?",
+      "source": "https://en.wikipedia.org/wiki/Trata_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to document precise movement profile and enable interactive step-by-step teaching modules."
+    }
+  ],
+  "research_file": "research_results/trata.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "trata",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Trata_(dance)",
+    "https://www.wikidata.org/wiki/Q7835768"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

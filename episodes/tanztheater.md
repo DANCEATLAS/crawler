@@ -1,6 +1,6 @@
 # Tanztheater — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; teaching steps written out
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Tanztheater originated within Central European expressionist dance (Ausdruckstanz) during the 1910s and 1920s, shaped by the pedagogical ideas of François Delsarte and the cultural ferment of the Weimar Republic.
 NARRATION: The term appeared around 1927, tied to pioneers such as Rudolf von Laban, Kurt Jooss, and Mary Wigman, who rejected the stylized conventions and fairy-tale themes of 19th-century classical ballet.
 ON SCREEN: Map: Germany · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,7 +55,7 @@ NEEDS: tempo, meter
 NARRATION: Tanztheater stages distance themselves from classical ballet sets and tutus, placing dancers in contemporary, dramatic, or everyday environments.
 NARRATION: Sets often incorporate specific, physically demanding environments that reflect internal human obsessions, philosophical dilemmas, and psychoanalytic states.
 NARRATION: Performers frequently appear in ordinary dress or dramatic character attire suitable for their dual identity as dancers and actors.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -312,7 +312,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'N1ohT4_tSNs', 'checked_by_vision_model': True, 'title': 'Pina Bausch   Nelken   The man I love, dancer Hans Beenhakker at Wuppertaler Tanztheater'}
-Images: 0 licensed
+Images: 1 licensed — clau damaso from lisbon, portugal / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Empty chairs scattered across a bare stage, Performers in everyday mid-century clothing, Relentless physical repetition of human contact, Dramatic stage lighting highlighting facial expression and gaze
 Costume notes: Tanztheater stages distance themselves from classical ballet sets and tutus, placing dancers in contemporary, dramatic, or everyday environments. Sets often incorporate specific, physically demanding environments that reflect internal human obsessions, philosophical dilemmas, and psychoanalytic states. Performers frequently appear in ordinary dress or dramatic character attire suitable for their dual identity as dancers and actors.

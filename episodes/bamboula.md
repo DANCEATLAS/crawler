@@ -1,8 +1,8 @@
 # Bamboula — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Musicologist or cultural historian
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance served as a communal expression for enslaved populations.
 NARRATION: It was also subject to colonial bans, such as the 1672 prohibition on St. Thomas.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: BAAD Bamboula (https://archive.org/details/BAADBamboula)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -284,7 +284,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '4rdmlhb4ifI', 'checked_by_vision_model': False, 'title': None}
 Images: 2 licensed — Edward Winsor Kemble / Wikimedia Commons / Public domain (Public domain); Cynthia Keedy / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: BAAD Bamboula — https://archive.org/details/BAADBamboula
+Footage: MISSING
 Motifs: Rum barrel drum, Congo Square historical illustrations
 Costume notes: Historically associated with festivals and ceremonies in Haiti and Sunday gatherings in New Orleans' Congo Square.
 

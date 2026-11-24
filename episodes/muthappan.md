@@ -101,7 +101,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 3 licensed — User:Challiyan / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Sreejithk2000 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Sreejithk2000 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: File:Muthappan blessings a baby.webm — https://upload.wikimedia.org/wikipedia/commons/5/54/Muthappan_blessings_a_baby.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Padayani: A Folk Dance of Kerala (Vol. II) — https://archive.org/details/dni.ncaa.IGNCA-38-VHS
+Footage: File:Muthappan blessings a baby.webm — https://upload.wikimedia.org/wikipedia/commons/5/54/Muthappan_blessings_a_baby.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: dog sculptures, round hay throne, colorful face paint, palm toddy, fish offerings
 Costume notes: Muthappan Theyyam performers wear elaborate costumes and face paint characteristic of Theyyam ritual. The Vellattam form uses a round-shaped throne made of hay. Madappuras, the temples dedicated to Muthappan, do not have idols or temple flagstaffs but are open-air shrines where the Theyyam is performed. Dogs are present in and around the temple, symbolizing the deity's companions.
 

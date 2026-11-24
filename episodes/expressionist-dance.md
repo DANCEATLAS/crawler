@@ -1,6 +1,6 @@
 # expressionist dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section
 

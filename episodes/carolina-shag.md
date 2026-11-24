@@ -1,6 +1,6 @@
 # Carolina shag — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands
 
@@ -314,7 +314,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'y-txQrkv1bE', 'checked_by_vision_model': True, 'title': 'Carolina Shag Hall of Famer Ellen Taylor and "The Phenominal" Michael Norris 2008 Las Vegas'}
 Images: 0 licensed
-Footage: Learn To Dance The Carolina Shag — https://archive.org/details/learn-to-dance-the-carolina-shag; Swinging’ Medallions 🎶 — https://archive.org/details/tolsc-Swinging_Medallions
+Footage: Learn To Dance The Carolina Shag — https://archive.org/details/learn-to-dance-the-carolina-shag
 Motifs: Ocean waves and Atlantic beaches, Smooth feet sliding in a slot on a wooden floor
 Costume notes: danced socially in beach clubs and competition venues. Society of Stranders and local shag clubs foster the social environment.
 

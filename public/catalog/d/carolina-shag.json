@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "carolina-shag",
  "name": "Carolina shag",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -299,16 +299,6 @@
     "attribution": "Internet Archive",
     "description": "VHS transfer",
     "source": "archive"
-   },
-   {
-    "title": "Swinging’ Medallions 🎶",
-    "url": "https://archive.org/details/tolsc-Swinging_Medallions",
-    "year": 2025,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "🎶 Tomorrow Night! 🎶 Join us at the Icehouse Amphitheater in Lexington, SC for a FREE night of music, dancing, and Southern tradition! As part of the Icehouse Live Fall Concert Series presented by Lexington Medical Center, we’re excited to welcome the legendary Swingin’ Medallions - a high-energy fav",
-    "source": "archive"
    }
   ],
   "researched_at": "2026-11-16T20:01:34Z",
@@ -316,8 +306,14 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "posture": "performance",
    "arms": "performance",
@@ -745,6 +741,6 @@
   "polished": false,
   "file": "episodes/carolina-shag.json"
  },
- "fingerprint": "bd42cb10db7bc05f",
- "updated": "2026-11-22"
+ "fingerprint": "3c9061d36e49ff4d",
+ "updated": "2026-11-24"
 }

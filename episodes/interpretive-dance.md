@@ -1,6 +1,6 @@
 # Interpretive dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); what to avoid / common mistakes
 
@@ -325,7 +325,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 1 licensed — uwdigitalcollections / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: File:Nanotopia’s Midnight Mushroom Music Living Mycelium - A MAZE. - Berlin 2021.webm — https://upload.wikimedia.org/wikipedia/commons/8/8c/Nanotopia%E2%80%99s_Midnight_Mushroom_Music_Living_Mycelium_-_A_MAZE._-_Berlin_2021.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) (English Subtitles) — https://archive.org/details/UcanDairelerIstanbuldaflyingSaucersOverIstanbul; Female Reproductive System Video Podcast - Interpretive Dance — https://archive.org/details/Mr.ArditoFemaleReproductiveSystemVideoPodcast-InterpretiveDance; Dance17 animation — https://archive.org/details/Dance17_animation; Painted Ladies Interpretive Dance — https://archive.org/details/painted-ladies-interpretive-dance; Numa Numa (Dragostei) Lipsync and Interpretive Dance! | Topless Topics Fun-Friday — https://archive.org/details/PeerTube-uwToSVcW2SW6Rc4C1Uxvvp; Dance17:extended — https://archive.org/details/Dance17extended
+Footage: File:Nanotopia’s Midnight Mushroom Music Living Mycelium - A MAZE. - Berlin 2021.webm — https://upload.wikimedia.org/wikipedia/commons/8/8c/Nanotopia%E2%80%99s_Midnight_Mushroom_Music_Living_Mycelium_-_A_MAZE._-_Berlin_2021.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Dance17 animation — https://archive.org/details/Dance17_animation; Painted Ladies Interpretive Dance — https://archive.org/details/painted-ladies-interpretive-dance; Numa Numa (Dragostei) Lipsync and Interpretive Dance! | Topless Topics Fun-Friday — https://archive.org/details/PeerTube-uwToSVcW2SW6Rc4C1Uxvvp; Dance17:extended — https://archive.org/details/Dance17extended
 Motifs: Bare feet on a wooden floor, Flowing silk tunics, Dramatic shadows and spotlights, The contrast of a dancer's body against a minimalist set
 Costume notes: Early practitioners like Duncan wore loose-fitting tunics and danced barefoot. Later variants incorporated 'sontuosi' (sumptuous) costumes, ribbons, or spandex. Lighting and sets are frequently used to enhance the specific mood or concept being interpreted.
 

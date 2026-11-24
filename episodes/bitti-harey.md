@@ -20,7 +20,7 @@ MUSIC: theme (30 s)
 ### 2. Where and when (70 s) · `where`
 NARRATION: The dance originates from the Zarmaganda region of Niger, specifically the area between Dosso and Ouallam, which is considered the heartland of the Zarma people.
 ON SCREEN: Map: Niger · Africa
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -47,7 +47,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -269,7 +269,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 2 licensed — Doultraf / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Doultraf / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The cylindrical bitti drum, The landscape of Zarmaganda, Community gathering spaces
 

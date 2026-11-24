@@ -103,7 +103,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'It-uIrFEoPo', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — Donovan Shortey / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Pikes Peak Challenge — https://archive.org/details/dom-351187-pikespeakchallenge; Meaning and History of the Gourd Dance - Native American Heritage Month — https://archive.org/details/cpaz-Meaning_and_History_of_the_Gourd_Dance_-_Native_American_Heritage_Month; Allen James, Pomo Culture 4 — https://archive.org/details/cafovyka_000068
+Footage: Pikes Peak Challenge — https://archive.org/details/dom-351187-pikespeakchallenge; Meaning and History of the Gourd Dance - Native American Heritage Month — https://archive.org/details/cpaz-Meaning_and_History_of_the_Gourd_Dance_-_Native_American_Heritage_Month
 Motifs: Red and blue blankets, Skunk berry bandoliers, Circular arena
 Costume notes: Regalia includes a red and blue blanket, a skunk berry bandolier, and a metal rattle. Dancers wear buckskin leggings and a long red breechcloth. Head attire includes otter wraps or a roach.
 

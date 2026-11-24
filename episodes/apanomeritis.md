@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance is alternatively known as provatinistikos ('sheep dance') because the stamping footwork reflects the way sheep stamp when agitated or nervous.
 NARRATION: It was performed communally until shortly after the war and continues primarily through women's performances.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Onze Slag (Adhunik Hanpuriyan Album) (https://archive.org/details/onze-slag-adhunik-hanpuriyan-album)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -312,7 +312,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: Onze Slag (Adhunik Hanpuriyan Album) — https://archive.org/details/onze-slag-adhunik-hanpuriyan-album; Classic Nursery Rhymes — https://archive.org/details/classic-nursery-rhymes_202312; Classic Nursery Rhymes — https://archive.org/details/classic-nursery-rhymes_202409; Classic Nursery Rhymes — https://archive.org/details/classic-nursery-rhymes_202607; Classic Nursery Rhymes — https://archive.org/details/classic-nursery-rhymes_202608; Classic Nursery Rhymes — https://archive.org/details/classic-nursery-rhymes_202606
+Footage: MISSING
 Motifs: Interlocked palms held low with arms crossed, Dust kicking up from coordinated foot stamps on rural stone or earth, Central Cretan landscapes around Heraklion and Rethymno
 
 

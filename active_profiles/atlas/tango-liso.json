@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Close embrace (use open hand-hold)",
+          "Complex figure-eights",
+          "Long periods of vertical stillness"
+        ],
+        "counts": "Basic 4-count walking patterns.",
+        "duration_minutes": "15",
+        "game_version": "A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid rotations",
+          "Deep knee bends",
+          "Complex weight shifts"
+        ],
+        "counts": "Simple 1-2-3-4 walking counts.",
+        "seated_version": "Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor.",
+        "standing_version": "The caminada is naturally low-impact; focus on small, controlled steps without the need for rotation.",
+        "tempo_and_range": "Reduced tempo to allow for balance; limit the range of the ochos."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Partners remain in a frame that cycles between close-embrace and open-embrace.",
+      "difficulty": "beginner",
+      "footwork": "Feet must remain flush to the ground; elimination of taconeo (heel-stamping).",
+      "formation_and_space": "Couples remain offset to their right; movement is often rotary to accommodate crowded dance floors.",
+      "hips_and_torso": "Vertical torso with minimal hip exaggeration; knees are only slightly softened.",
+      "levels_and_jumps": "No jumps or acrobatics; levels remain constant with slightly softened knees.",
+      "partnering": "Lead and follow in a constant offset position.",
+      "posture": "Good posture keeping a vertical torso.",
+      "signature_moves": [
+        {
+          "description": "The fundamental walking step of the dance.",
+          "name": "Caminada"
+        },
+        {
+          "description": "Figure-eight patterns traced on the floor with the feet.",
+          "name": "Ochos"
+        }
+      ],
+      "tempo_feel": "Smooth and flowing, lacking aggressive or sudden stops.",
+      "what_to_avoid": "Avoid aggressive cuts (cortes), breaks (quebradas), hooks (ganchos), or any acrobatic moves like sentadas."
+    },
+    "music_profile": {
+      "instruments": [
+        "Mandolin",
+        "Accordion",
+        "Guitar",
+        "Violin",
+        "Flute"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "Smooth",
+        "Fatigued",
+        "Genteel",
+        "Monotonous"
+      ],
+      "musical_form": "Predictable and repetitive to match the simplified choreography.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Simplified and less aggressive than earlier African-influenced tango rhythms.",
+      "sound_description": "A softer, more melodic version of early tango that incorporated Italian instruments like the mandolin. It lacks the sharp, aggressive accents of the 'cortes y quebradas' era, favoring a smoother, more flowing auditory experience.",
+      "tempo_bpm": "",
+      "vocal_style": "Lyrics often written in Lunfardo (Italian-based slang)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Caminada (walking steps forward)",
+        "Ochos (figure-eight patterns)",
+        "Molinetes (grapevine-like circular steps)",
+        "Rotary-type couple rotation in place"
+      ],
+      "formation": "Couples in an offset position to the right, cycling between close and open embrace.",
+      "level_notes": "Designed for beginners and those seeking a less physically demanding form of tango.",
+      "rhythm": "Simplified, less syncopated than earlier styles, often described as monotonous."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6bdfd8d5f0aba9b7bf0298224ad5ccd7345c40a491215aa2f335238ad9b371d8",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific 'basic' tango steps were included in the early instruction books that codified Tango Liso? Evidence needed: https://en.wikipedia.org/wiki/Tango_Liso"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there archival films or reconstructions of the 'rotary-tango type' rotation used in crowded halls? Evidence needed: https://en.wikipedia.org/wiki/Tango_Liso"
+    ]
+  },
+  "id": "atlas:tango-liso",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tango Liso",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "33faf60cc13fefbf",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tango_Liso",
+      "question": "Are there archival films or reconstructions of the 'rotary-tango type' rotation used in crowded halls?",
+      "source": "https://en.wikipedia.org/wiki/Tango_Liso",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately teach the spatial navigation specific to the Liso style."
+    },
+    {
+      "domain": "research",
+      "id": "1570c523db2e1bee",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tango_Liso",
+      "question": "What specific 'basic' tango steps were included in the early instruction books that codified Tango Liso?",
+      "source": "https://en.wikipedia.org/wiki/Tango_Liso",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a more comprehensive lesson ladder based on historical documentation."
+    }
+  ],
+  "research_file": "research_results/tango-liso.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tango-liso",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tango_Liso",
+    "https://www.wikidata.org/wiki/Q131378736"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

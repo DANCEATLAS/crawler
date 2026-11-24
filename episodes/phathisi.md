@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable cultural historian
@@ -22,7 +22,7 @@ NARRATION: Phathisi, also known as Borankana, is a traditional music and dance f
 NARRATION: Performances are historically estimated to have initiated between the years 1914 and 1916.
 NARRATION: According to history, Phathisi originated from a man tying down the lowest part of his trouser using a peg while cycling.
 ON SCREEN: Map: Botswana · Africa
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -49,10 +49,9 @@ NEEDS: music_and_instruments, tempo, meter
 NARRATION: Dancers historically tied down the lowest part of their trousers using a peg, a style derived from bicycle-riding mine workers.
 NARRATION: This costume detail later transitioned into using shorts for performances.
 NARRATION: The setting is rooted in tribal activities within the Kweneng District of Botswana, particularly Molepolole.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Subclass of African folk dance and music of Botswana.
@@ -273,7 +272,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'QUc-0BxQuI4', 'checked_by_vision_model': True, 'title': 'Dipela Tsa Ga Kobokwe'}
-Images: 0 licensed
+Images: 6 licensed — Ms Lito / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ms Lito / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ms Lito / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); OtengPortia / Wikimedia Commons / CC0 (CC0); WIPO | OMPI / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Mogwana DVD 2005 - Borankana dance — https://archive.org/details/MogwanaDVD2005_Borankana.wmv
 Motifs: Bicycles, Pegged trousers, Kweneng District landscape
 Costume notes: Dancers historically tied down the lowest part of their trousers using a peg, a style derived from bicycle-riding mine workers. This costume detail later transitioned into using shorts for performances. The setting is rooted in tribal activities within the Kweneng District of Botswana, particularly Molepolole.

@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Historical dance researcher with a focus on folk evolution.
@@ -28,7 +28,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Originally a social ballroom dance for the 19th-century elite, it transitioned into a folk dance in Mexico, where it is now performed at festivals and by traditional dance groups.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Nikolaj Rimskij-Korsakov, SUITE D'OPERA - Richard Kapp, Milton Katims, David Zinman (https://archive.org/details/rimsky-korsakov-opera-suites)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -313,7 +313,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'tIZozQKadkw', 'checked_by_vision_model': True, 'title': 'Redowa and Mazurka Waltzes'}
 Images: 2 licensed — Scan by NYPL / Wikimedia Commons / Public domain (Public domain); Scan by NYPL / Wikimedia Commons / Public domain (Public domain)
-Footage: Nikolaj Rimskij-Korsakov, SUITE D'OPERA - Richard Kapp, Milton Katims, David Zinman — https://archive.org/details/rimsky-korsakov-opera-suites
+Footage: MISSING
 Motifs: 19th-century ballroom sketches, Mexican norteña dance attire, Close-ups of footwork
 
 

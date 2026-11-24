@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Historical dance researcher
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: It served as a form of rustic entertainment and was often associated with buffoonery.
 NARRATION: It is famously depicted as a peasant dance in Shakespeare's 'A Midsummer Night's Dream'.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: Ottorino Respighi, ANTICHE ARIE E DANZE PER LIUTO, TRITTICO BOTTICELLIANO - Seiji Ozawa, Geoffrey Simon (https://archive.org/details/respighi-antiche-arie-e-danze-per-liuto-i-ii-iii-trittico-botticelliano)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -313,7 +313,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 2 licensed — Peter Paul Rubens / Wikimedia Commons / Public domain (Public domain); Mario Uccelini / Wikimedia Commons / Public domain (Public domain)
-Footage: Ottorino Respighi, ANTICHE ARIE E DANZE PER LIUTO, TRITTICO BOTTICELLIANO - Seiji Ozawa, Geoffrey Simon — https://archive.org/details/respighi-antiche-arie-e-danze-per-liuto-i-ii-iii-trittico-botticelliano
+Footage: MISSING
 Motifs: 16th-century lute tablature, Circular dance patterns, Italian village landscapes
 Costume notes: Associated with rustic settings and the commedia dell'arte, the dance was performed by peasants and later adapted for theatrical and courtly instrumental settings.
 

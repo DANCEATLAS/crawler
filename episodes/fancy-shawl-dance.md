@@ -1,6 +1,6 @@
 # Fancy Shawl Dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 8.4 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.4 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -283,7 +283,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'dw7dOTQRphQ', 'checked_by_vision_model': True, 'title': None}
 Images: 2 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Montanabw / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Circle of Dance: "Yakama - Girl's Fancy Shawl Dance" — https://archive.org/details/Flickr-32889766574; Lowell Folk Fest 2024 - NATIVE PRIDE DANCERS — https://archive.org/details/stvma-Lowell_Folk_Fest_2024_-_NATIVE_PRIDE_DANCERS; Canadian First Nation's Dances (from YouTube) — https://archive.org/details/first-nation-dances-canada
+Footage: Circle of Dance: "Yakama - Girl's Fancy Shawl Dance" — https://archive.org/details/Flickr-32889766574; Canadian First Nation's Dances (from YouTube) — https://archive.org/details/first-nation-dances-canada
 Motifs: butterfly, fringed shawl, beadwork
 Costume notes: Dancers wear fringed, colorful shawls featuring embroidery or ribbon work. Additional regalia includes beaded or appliqued designs, beaded hairpieces, chokers, earrings, bracelets, eagle plumes, moccasins, and leggings.
 

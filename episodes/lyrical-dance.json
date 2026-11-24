@@ -2,7 +2,7 @@
  "slug": "lyrical-dance",
  "name": "Lyrical dance",
  "pack_version": "e2",
- "built_at": "2026-11-18T21:38:03Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-05T18:30:22Z",
  "qc_score": 8.7,
  "status": "draft",
@@ -79,7 +79,7 @@
     ],
     "on_screen": [
      "Map: Russia · Global",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -138,7 +138,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -689,7 +689,9 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AUSMC-17714.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -697,7 +699,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/USMC-17714.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/USMC-17714.jpg/1280px-USMC-17714.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pfc. Jahn R. Kuiper / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AUSMC-17714.jpg",
+    "description": "Ashley Mason, Malika Pride and Heaven Duncan perform a lyrical dance at the first annual Juneteenth commemoration charity festival at Quantico was held at Lunga Park June 20 in honor of the freeing of last slaves in the United States. The girls are part of the Expressions of Worship dance team at Mount Zion Baptist Church."
+   }
+  ],
   "footage": [
    {
     "title": "\"Nuvole Bianche\" (Lyrical Dance) - Petite Dance Troupe - Spirit YPC",
@@ -707,23 +718,9 @@
     "attribution": "Internet Archive"
    },
    {
-    "title": "Bboy.org 7 To Smoke - Popping Freestyle.",
-    "url": "https://archive.org/details/bboy.org-7-to-smoke",
-    "year": 2006,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
     "title": "Game of Thrones Dance - Move It Main Stage 2016 - Spirit YPC",
     "url": "https://archive.org/details/youtube-wopALLZVHW4",
     "year": 2016,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Run Boy Run (Contemporary Dance) - Spirit YPC",
-    "url": "https://archive.org/details/youtube-D3KopFSHNcs",
-    "year": 2015,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
    },
@@ -828,6 +825,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "8c71ec08d99c3ac986c4d602779c11ec763dd1a82c11d5e1cc53b413845dd76e",
+ "input_fingerprint": "04bf28414c39ee2925bdef67809325843e010ddcc7dad80ebcbea8282bde6bcd",
  "hero_checked": null
 }

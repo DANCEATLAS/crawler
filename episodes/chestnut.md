@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historical dance specialist working directly from seventeenth-century primary notation and modern reconstructions.
@@ -27,7 +27,7 @@ MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: File:4875 SW Chestnut Place.webm (https://upload.wikimedia.org/wikipedia/commons/6/60/4875_SW_Chestnut_Place.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 NEEDS: occasions_and_meaning
 
@@ -271,7 +271,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'G0rxZCYTkmw', 'checked_by_vision_model': True, 'title': 'Chestnuts -  BeDrex Showcase 2017'}
 Images: 0 licensed
-Footage: File:4875 SW Chestnut Place.webm — https://upload.wikimedia.org/wikipedia/commons/6/60/4875_SW_Chestnut_Place.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:22.9.13 Pénélope à ventre roux (Penelope ochrogaster, Chestnut-bellied Guan).webm — https://upload.wikimedia.org/wikipedia/commons/8/82/22.9.13_P%C3%A9n%C3%A9lope_%C3%A0_ventre_roux_%28Penelope_ochrogaster%2C_Chestnut-bellied_Guan%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Chestnut Headed Tesia (Cettia castaneocoronata).webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Chestnut_Headed_Tesia_%28Cettia_castaneocoronata%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; chestnut-multimedia — https://archive.org/details/sharware; Joes Garage The Musical — https://archive.org/details/joes-garage-the-musical-part-1; Brain Breaks - Dance Song - Dancing Robots - Children's Songs by The Learning Station — https://archive.org/details/youtube-hpLULy-gjyc; Chestnut Avenue Center For The Arts Costume Party on 10/17 — https://archive.org/details/Chestnut_Avenue_Center_For_The_Arts_Costume_Party_on_10_17; Mystic Fragrance. Yu Fen et al. — https://archive.org/details/mystic-fragrance-yu-fen-et-al
+Footage: MISSING
 Motifs: Facsimile of John Playford's 1651 manual, Three couples aligned in a straight line set
 
 

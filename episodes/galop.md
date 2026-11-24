@@ -1,8 +1,8 @@
 # galop — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic dance historian with a focus on 19th-century social etiquette.
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The galop was frequently used as the final dance of the evening at balls, serving as an energetic conclusion to the night's festivities.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Le galop de la girafe.webm (https://upload.wikimedia.org/wikipedia/commons/d/d5/Le_galop_de_la_girafe.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -328,7 +328,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'NZaeTPXlKAg', 'checked_by_vision_model': True, 'title': 'Canon Galop Quadrille Performance'}
 Images: 1 licensed — Johann Christian Schoeller / Andreas Geiger the Elder / Wikimedia Commons / Public domain (Public domain)
-Footage: File:Le galop de la girafe.webm — https://upload.wikimedia.org/wikipedia/commons/d/d5/Le_galop_de_la_girafe.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Almelose Ruiterdagen volop in galop.webm — https://upload.wikimedia.org/wikipedia/commons/9/92/Almelose_Ruiterdagen_volop_in_galop.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Curtain Call: Review of Seabury Hallʻs Annual Dance Showcase — https://archive.org/details/Curtain_Call_-_Review_of_Seabury_Hall_s_Annual_Dance_Showcase; Sergej Prokof'ev, CENERENTOLA - Gennadij Roždestvenskij — https://archive.org/details/prokofievcinderellaop87rozhdestvensky; Récréation - Musique de l'Air de Paris - Lieutenant-Colonel Devogel - Capitaine Ballada — https://archive.org/details/recre
+Footage: MISSING
 Motifs: 19th-century ballroom illustrations, Close-ups of feet performing the chassé, Historical fashion sketches showing shortened hemlines
 Costume notes: In the 1820s, the dance influenced fashion, leading women to shorten their dresses to the ankle to accommodate the rapid sliding steps. It was traditionally performed in ballrooms.
 

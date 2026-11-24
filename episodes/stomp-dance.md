@@ -29,7 +29,7 @@ NARRATION: The dance is a religious ceremony involving fasting, medicine, and co
 NARRATION: It is held throughout the night until dawn.
 NARRATION: It serves as a spiritual and physical benefit to the community and is a core element of tribal identity.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: American Indian Speaks, The (https://archive.org/details/AmericanIndianSpeaks)
+ON SCREEN: Footage: Native American Social Dance and Stomp Dance (https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -104,7 +104,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'mSRdqn2U-T8', 'checked_by_vision_model': True, 'title': 'Stomp Dancing'}
 Images: 0 licensed
-Footage: American Indian Speaks, The — https://archive.org/details/AmericanIndianSpeaks; Native American Social Dance and Stomp Dance — https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance; The Wiggles: Wiggledancing! Live In Concert [2007] (HD) — https://archive.org/details/wiggledancing-live-in-concert-2007-hd
+Footage: Native American Social Dance and Stomp Dance — https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance
 Motifs: The central ceremonial fire, Turtle shell leg shakers, The spiral formation of dancers, The Square Ground arbors
 Costume notes: Dancers wear casual but respectful attire, often including ribbon shirts. Women wear full cotton skirts, sometimes featuring ribbonwork. The setting is the Square Ground, an outdoor ceremonial space with a central fire and surrounding clan-houses or camps.
 

@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A dance historian specializing in early 20th-century vernacular social dance.
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The bunny hug is thought to have originated in San Francisco, California, within the Barbary Coast dance halls during the early 20th century.
 NARRATION: It developed alongside other animal dances such as the Texas Tommy, the turkey trot, and the grizzly bear, experiencing its peak popularity from 1901 to 1910.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -48,10 +48,9 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Performed in the Barbary Coast dance halls of San Francisco by young people.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Comedian John Bunny performed the bunny hug in the 1913 Vitagraph comedy short 'Bunny Dips Into Society'.
@@ -278,7 +277,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'Y3mglvFzrdE', 'checked_by_vision_model': False, 'title': 'Los bailes animales de la era ragtime | Turkey Trot, Bunny Hug, Buzzard Lope'}
-Images: 0 licensed
+Images: 3 licensed — Titus / Wikimedia Commons / Public domain (Public domain); Titus / Wikimedia Commons / Public domain (Public domain); Titus / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Early 20th-century sheet music covers, Archival footage or stills of Barbary Coast dance halls, Frames from the 1913 silent short 'Bunny Dips Into Society'
 Costume notes: Performed in the Barbary Coast dance halls of San Francisco by young people.

@@ -1,6 +1,6 @@
 # Apache — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Originally a theatrical performance piece for cabarets and music halls.
 NARRATION: It serves as a dramatic representation of urban conflict and the volatile dynamics of a street-level relationship.
 NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: File:How to make a MOTIONER - 01.webm (https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: File:Bowery Waltz (1897).webm (https://upload.wikimedia.org/wikipedia/commons/f/f3/Bowery_Waltz_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -332,7 +332,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '3TAxfqPbl8U', 'checked_by_vision_model': False, 'title': 'Just Dance 3 Apache Jump On It'}
 Images: 1 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
-Footage: File:How to make a MOTIONER - 01.webm — https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grand Canyon Native American Heritage Day 2010- Video 02 (5188538311).webm — https://upload.wikimedia.org/wikipedia/commons/5/59/Grand_Canyon_Native_American_Heritage_Day_2010-_Video_02_%285188538311%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Workout Music ( 54 Songs) — https://archive.org/details/Workout-Music-54-Songs; Getvid Gggg 1 — https://archive.org/details/20220320_20220320_1734; File:Bowery Waltz (1897).webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/Bowery_Waltz_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: File:Bowery Waltz (1897).webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/Bowery_Waltz_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Black and white film clips, Cabaret stage lights, Vintage Parisian street signs
 Costume notes: Historically associated with the 'Apache' street gang aesthetic of early 20th-century Paris. Settings include seedy bars, cabarets, and Parisian street scenes.
 

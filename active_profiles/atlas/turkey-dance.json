@@ -1,0 +1,137 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Women may carry a ceremonial Spanish cane or broadcloth blankets",
+      "difficulty": "intermediate",
+      "footwork": "Steps inspired by the movements of turkeys",
+      "formation_and_space": "Starts as a circle (formerly around a pole), moves to a central cluster around drummers",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Women choose male partners during the final phase",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dance movements inspired by the gait and behavior of turkeys",
+          "name": "Turkey Mimicry"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Do not continue dancing after sunset; do not perform without the appropriate historical songs"
+    },
+    "music_profile": {
+      "instruments": [
+        "Drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "historical",
+        "ceremonial",
+        "honorific",
+        "narrative"
+      ],
+      "musical_form": "52 distinct songs recounting historical events",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady drumming",
+      "sound_description": "The sound is defined by male voices singing 52 traditional songs in Caddo dialects, accompanied by rhythmic drumming. The songs transition from creation myths to specific military histories.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanted or sung in Caddo dialects; narrative and historical"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Women form a circle around the central area",
+        "Move in a circular path using steps inspired by turkey movements",
+        "Cluster toward the center around the drummers during the third phase",
+        "Select a male partner for the final phase"
+      ],
+      "formation": "Circular, transitioning to a central cluster",
+      "level_notes": "The dance is performed by women of the community; men participate as singers, drummers, and eventually as invited partners.",
+      "rhythm": "Steady drumming accompanying narrative songs"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "d966afd01686d1b774abb814b8c036e8fd2f11b90b82194073953cb46073d89e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the specific rhythmic structure (meter) of the drumming for the 52 songs? Evidence needed: https://en.wikipedia.org/wiki/Turkey_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns used during the 'turkey-inspired' movements? Evidence needed: https://en.wikipedia.org/wiki/Turkey_dance"
+    ]
+  },
+  "id": "atlas:turkey-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Turkey Dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d2365bacbe4cd4de",
+      "next_evidence": "https://en.wikipedia.org/wiki/Turkey_dance",
+      "question": "What are the specific footwork patterns used during the 'turkey-inspired' movements?",
+      "source": "https://en.wikipedia.org/wiki/Turkey_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the movement profile."
+    },
+    {
+      "domain": "research",
+      "id": "de8394af62f006d0",
+      "next_evidence": "https://en.wikipedia.org/wiki/Turkey_dance",
+      "question": "What is the specific rhythmic structure (meter) of the drumming for the 52 songs?",
+      "source": "https://en.wikipedia.org/wiki/Turkey_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the music profile for composers or students."
+    }
+  ],
+  "research_file": "research_results/turkey-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "turkey-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Turkey_dance",
+    "https://www.wikidata.org/wiki/Q7855143"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

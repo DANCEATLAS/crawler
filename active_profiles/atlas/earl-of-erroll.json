@@ -1,0 +1,153 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-extension",
+          "Complex manuscript interpretations"
+        ],
+        "counts": "1, 2, 3, 4",
+        "duration_minutes": "2",
+        "game_version": "A 'follow the leader' game focusing on the precise placement of feet in 'secret' patterns."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid weight shifts",
+          "Unsupported balancing"
+        ],
+        "counts": "1, 2, 3, 4",
+        "seated_version": "Perform the footwork patterns while seated, focusing on the rhythmic tapping of the toes and heels.",
+        "standing_version": "Perform the steps while holding a barre or chair for balance, reducing the depth of knee bends.",
+        "tempo_and_range": "Maintain the slow tempo but reduce the extension of the legs."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Soft, natural carriage (typical of National dances)",
+      "difficulty": "advanced",
+      "footwork": "Intricate step dancing; originally hard-soled, now soft-shoe",
+      "formation_and_space": "Solo, stationary or limited travel on a platform",
+      "hips_and_torso": "Stable and centered",
+      "levels_and_jumps": "Low to ground, focusing on precision over height",
+      "partnering": "None",
+      "posture": "Upright and balletic",
+      "signature_moves": [
+        {
+          "description": "Intricate footwork derived from 19th-century manuscripts",
+          "name": "Step dancing"
+        }
+      ],
+      "tempo_feel": "Slow and controlled",
+      "what_to_avoid": "Avoid heavy or aggressive movements; maintain a 'soft balletic' quality."
+    },
+    "music_profile": {
+      "instruments": [
+        "Bagpipes",
+        "Fiddle"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "stately",
+        "precise",
+        "traditional"
+      ],
+      "musical_form": "Two distinct reels played in sequence",
+      "reference_recordings": [
+        {
+          "artist": "not described in sources",
+          "title": "Earl of Erroll"
+        },
+        {
+          "artist": "not described in sources",
+          "title": "23rd Countess of Erroll"
+        }
+      ],
+      "rhythm_pattern": "Slow reel",
+      "sound_description": "A measured 4/4 reel rhythm played with the clarity required for step dancing. The melody is formal and repetitive, providing a steady pulse for the dancer's weight changes.",
+      "tempo_bpm": "100",
+      "vocal_style": "None"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Preparation in first position",
+        "Intricate weight shifts (technique not described in sources)",
+        "Balletic foot placements",
+        "Transition between the two reels"
+      ],
+      "formation": "Solo",
+      "level_notes": "Considered one of the hardest national dances to perform well.",
+      "rhythm": "4/4 slow reel"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "2ab9f78709345aba0ba5b3956ec3a5c7e25987dcd52be9617c2a03eaa1337ed2",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific foot positions and weight transitions described in the Frederick Hill Manuscript? Evidence needed: https://en.wikipedia.org/wiki/Earl_of_Erroll_(reel)"
+    ]
+  },
+  "id": "atlas:earl-of-erroll",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Earl of Erroll",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "fb7f4234eec833bb",
+      "next_evidence": "https://en.wikipedia.org/wiki/Earl_of_Erroll_(reel)",
+      "question": "What are the specific foot positions and weight transitions described in the Frederick Hill Manuscript?",
+      "source": "https://en.wikipedia.org/wiki/Earl_of_Erroll_(reel)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional content for the 'advanced' difficulty level."
+    }
+  ],
+  "research_file": "research_results/earl-of-erroll.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "earl-of-erroll",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Earl_of_Erroll_(reel)",
+    "https://www.wikidata.org/wiki/Q20046370"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

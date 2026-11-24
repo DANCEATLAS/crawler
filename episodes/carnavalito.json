@@ -2,7 +2,7 @@
  "slug": "carnavalito",
  "name": "carnavalito",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-03T17:59:10Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -81,7 +81,7 @@
     ],
     "on_screen": [
      "Map: Bolivia, Argentina, Chile, Peru · South America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -147,13 +147,10 @@
      "In the Andes, attire varies by local indigenous tradition."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 4 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "images"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
@@ -724,7 +721,11 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "In eastern Bolivia, women wear a colorful tipoy and flowers in their hair. Men wear white shirts, trousers, and a 'sombrero de Sao'. In the Andes, attire varies by local indigenous tradition.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGran_Ballet_Argentino_%282018%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACarnavalito_2023_3.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACarnavalito_2023_2.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -732,7 +733,40 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Gran_Ballet_Argentino_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Gran_Ballet_Argentino_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Alejandro Miguel Tapia / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGran_Ballet_Argentino_%282018%29.jpg",
+    "description": "Gran Ballet Argentino - Carnavalito"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Carnavalito_2023_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Carnavalito_2023_3.jpg/1280px-Carnavalito_2023_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rayane Mara / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnavalito_2023_3.jpg",
+    "description": "Carnavalito 2023\nPovo chiquitano, Vila Bela da Santíssima Trindade"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Carnavalito_2023_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Carnavalito_2023_2.jpg/1280px-Carnavalito_2023_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rayane Mara / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnavalito_2023_2.jpg",
+    "description": "Carnavalito 2023\nPovo chiquitano, Vila Bela da Santíssima Trindade"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Carnavalito_2023_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Carnavalito_2023_6.jpg/1280px-Carnavalito_2023_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rayane Mara / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnavalito_2023_6.jpg",
+    "description": "Carnavalito 2023\nPovo chiquitano, Vila Bela da Santíssima Trindade"
+   }
+  ],
   "footage": [],
   "motifs": [
    "Ribbon-adorned pennants",
@@ -789,7 +823,6 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections",
   "what to avoid / common mistakes"
@@ -804,6 +837,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "c706e2d359fbb22a7d9081aebac10708c4606ba17858cb5c09e68ff56e84c7ba",
+ "input_fingerprint": "5de6b094d45a81ca98da5e2bcd4df3b37af1d1b08aad2d21a78ed7e4695b4fc9",
  "hero_checked": "pass"
 }

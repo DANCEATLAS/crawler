@@ -2,7 +2,7 @@
  "slug": "inai",
  "name": "Inai",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-17T20:14:03Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -81,7 +81,7 @@
     ],
     "on_screen": [
      "Map: Malaysia · Southeast Asia",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -94,7 +94,7 @@
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: File:Rio 2012- os Bens Comuns, nosso direito ao futuro. Inai ê Fulni ô.webm (https://upload.wikimedia.org/wikipedia/commons/c/c0/Rio_2012-_os_Bens_Comuns%2C_nosso_direito_ao_futuro._Inai_%C3%AA_Fulni_%C3%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+     "Footage — MISSING (use images)"
     ],
     "music": "underscore"
    },
@@ -144,7 +144,7 @@
      "The dance is set within the palace environment, either in the throne room during circumcision ceremonies or in the palace flower gardens during henna leaf picking."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -725,7 +725,9 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": "The dance is set within the palace environment, either in the throne room during circumcision ceremonies or in the palace flower gardens during henna leaf picking.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMalysian_dance_form.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -733,16 +735,17 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
-  "footage": [
+  "images": [
    {
-    "title": "File:Rio 2012- os Bens Comuns, nosso direito ao futuro. Inai ê Fulni ô.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Rio_2012-_os_Bens_Comuns%2C_nosso_direito_ao_futuro._Inai_%C3%AA_Fulni_%C3%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY 3.0",
-    "attribution": "Remix The Commons / Wikimedia Commons / CC BY 3.0"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Malysian_dance_form.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Malysian_dance_form.jpg/1280px-Malysian_dance_form.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jkozx / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMalysian_dance_form.jpg",
+    "description": "Terinai Mengadap performed by ASK Dance Company Photo Huneid Tyeb"
    }
   ],
+  "footage": [],
   "motifs": [
    "Ornate palace architecture",
    "Henna leaves",
@@ -803,6 +806,7 @@
   "meter",
   "a verified recording to listen to",
   "licensed images (3 needed)",
+  "licensed reference footage",
   "notable figures"
  ],
  "sources": [
@@ -812,6 +816,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "f90a352ee34e6101188bb890e86b019765b22f4938be8d9ea4348fb4a1669831",
+ "input_fingerprint": "6b2fdf595b03a63cbe85360aa8b9fcba1eba2567613c25ffcfd32d0db474a6e8",
  "hero_checked": "pass"
 }

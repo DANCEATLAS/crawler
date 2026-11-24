@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian or traditional practitioner
@@ -30,7 +30,7 @@ NARRATION: Calinda is performed during Carnival in Trinidad and Guadeloupe.
 NARRATION: In Haiti, it is associated with Voodoo ceremonies and festivals.
 NARRATION: It serves as a martial art, a war dance, and a form of social entertainment that preserves African cultural identity.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Kalenda maya - villemann og magnhild (https://archive.org/details/youtube-IUgKk3wmJOY)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -104,7 +104,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'gfWctshJaSk', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — François Aimé Louis Dumoulin / Wikimedia Commons / Public domain (Public domain)
-Footage: Kalenda maya - villemann og magnhild — https://archive.org/details/youtube-IUgKk3wmJOY; Kalenda maya - Iddan Hermund — https://archive.org/details/youtube-hpMMaLlJE-I; Kalenda Maya - Olavs Haraldssons kappsigling (folk/middleage song) — https://archive.org/details/youtube-FM3mcDsxf4A; Kalenda Maya - De Två systrarna — https://archive.org/details/youtube-gKTy2A7qYLw
+Footage: MISSING
 Motifs: wooden sticks, circular arenas, drums made of bamboo, vibrant Carnival settings
 Costume notes: In Trinidad, stick-fighters perform in a gayelle. Historically, in New Orleans, the dance took place in public squares like Place Congo. Costumes vary; in some historical contexts, performers wore specific attire, and in theatrical representations, court costumes were used as prizes.
 

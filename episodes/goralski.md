@@ -292,7 +292,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 7 licensed — Lestat (Jan Mehlich) / Wikimedia Commons / CC BY-SA 2.5 (CC BY-SA 2.5); Silar / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Scan by NYPL / Wikimedia Commons / Public domain (Public domain); Chaffee A-ii / Wikimedia Commons / Public domain (Public domain); Biser Todorov / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Góralski taniec i muzyka z regionu Podhala.webm — https://upload.wikimedia.org/wikipedia/commons/6/63/G%C3%B3ralski_taniec_i_muzyka_z_regionu_Podhala.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Taniec góralski zbójnicki w Zakopanem.webm — https://upload.wikimedia.org/wikipedia/commons/0/0c/Taniec_g%C3%B3ralski_zb%C3%B3jnicki_w_Zakopanem.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: File:Góralski taniec i muzyka z regionu Podhala.webm — https://upload.wikimedia.org/wikipedia/commons/6/63/G%C3%B3ralski_taniec_i_muzyka_z_regionu_Podhala.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: mountainous landscapes, live musicians, dancers in traditional attire
 
 

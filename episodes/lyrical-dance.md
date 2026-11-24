@@ -1,6 +1,6 @@
 # Lyrical dance — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The roots of lyrical dance trace back to the early 20th century in Russia.
 NARRATION: It began to emerge as a distinct form during the 1970s and gained widespread popularity in the 1990s, evolving away from its origins in jazz and classical ballet.
 ON SCREEN: Map: Russia · Global
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -48,7 +48,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -284,8 +284,8 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
-Footage: "Nuvole Bianche" (Lyrical Dance) - Petite Dance Troupe - Spirit YPC — https://archive.org/details/youtube-pJ_HJbCogL0; Bboy.org 7 To Smoke - Popping Freestyle. — https://archive.org/details/bboy.org-7-to-smoke; Game of Thrones Dance - Move It Main Stage 2016 - Spirit YPC — https://archive.org/details/youtube-wopALLZVHW4; Run Boy Run (Contemporary Dance) - Spirit YPC — https://archive.org/details/youtube-D3KopFSHNcs; "Don't Worry About Me" (Lyrical Dance) - Spirit YPC — https://archive.org/details/youtube-vlyMIipwIxg; Lyrical Dance Choreography Piece (c. 1999) — https://archive.org/details/katies-piece-1999
+Images: 1 licensed — Pfc. Jahn R. Kuiper / Wikimedia Commons / Public domain (Public domain)
+Footage: "Nuvole Bianche" (Lyrical Dance) - Petite Dance Troupe - Spirit YPC — https://archive.org/details/youtube-pJ_HJbCogL0; Game of Thrones Dance - Move It Main Stage 2016 - Spirit YPC — https://archive.org/details/youtube-wopALLZVHW4; "Don't Worry About Me" (Lyrical Dance) - Spirit YPC — https://archive.org/details/youtube-vlyMIipwIxg; Lyrical Dance Choreography Piece (c. 1999) — https://archive.org/details/katies-piece-1999
 Motifs: Dancers in a competition setting, Close-ups of expressive facial gestures, Elongated, off-center body lines
 
 

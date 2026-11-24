@@ -2,7 +2,7 @@
  "slug": "ballos",
  "name": "Ballos",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T03:20:27Z",
  "researched_at": "2026-11-21T19:10:33Z",
  "qc_score": 8.4,
  "status": "draft",
@@ -80,7 +80,7 @@
     ],
     "on_screen": [
      "Map: Greece · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -143,7 +143,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -706,7 +706,9 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AIsland_dancing_in_concert.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -714,7 +716,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Island_dancing_in_concert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Island_dancing_in_concert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Greek Folk Dance / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AIsland_dancing_in_concert.jpg",
+    "description": "Institute of Hellenic Dance &amp; culture dances Greek island dances in costume in Sydney"
+   }
+  ],
   "footage": [],
   "motifs": [
    "Aegean island landscapes",
@@ -787,6 +798,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "ac6aae42aee2db0d04fb68fcbdc2c8ad9e7fbc199765f774ff8470f7bd65941d",
+ "input_fingerprint": "94325b926f285fd7ea3d79b4faebf9d41f083fd45f09076277be30354f618c69",
  "hero_checked": "pass"
 }

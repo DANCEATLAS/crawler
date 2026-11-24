@@ -1,6 +1,6 @@
 # Garrotín — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.0 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.0 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -22,7 +22,7 @@ NARRATION: The Garrotín originated in the late 19th century, likely as a northe
 NARRATION: It was developed by Roma communities in Lleida and Barcelona before being integrated into the flamenco repertoire.
 NARRATION: It was documented as a theatrical dance by José Otero in 1912.
 ON SCREEN: Map: Spain · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -51,7 +51,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -293,7 +293,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '1AUAf3A9iTU', 'checked_by_vision_model': True, 'title': 'Garrotín Solo at the 2015 Victoria Flamenco Festival'}
-Images: 0 licensed
+Images: 1 licensed — José Demaría López / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Archival photos of early 20th-century flamenco dancers, Maps showing the migration from Asturias to Catalonia
 

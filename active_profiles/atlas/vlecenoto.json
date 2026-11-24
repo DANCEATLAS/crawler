@@ -1,0 +1,151 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "High-impact jumps on hard surfaces"
+        ],
+        "counts": "1-2, 1-2",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' game where children must keep their feet 'glued' to the floor during the drag."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid weight shifts"
+        ],
+        "counts": "1-2, 1-2",
+        "seated_version": "Perform the dragging motion with the feet while seated, focusing on the ankle extension.",
+        "standing_version": "Perform the dragging steps while holding onto a stable barre or chair for balance.",
+        "tempo_and_range": "Reduce the tempo to a slow 2/4 and minimize the drag distance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Dragging the feet along the ground punctuated by jumps.",
+      "formation_and_space": "Dancers move in a semicircle.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Jumps occur during the dance.",
+      "partnering": "None; communal semicircle.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Moving the foot across the floor without lifting it, creating a sliding or dragging effect.",
+          "name": "The Drag"
+        }
+      ],
+      "tempo_feel": "Medium-fast",
+      "what_to_avoid": "Lifting the feet too high during the dragging sequences."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4",
+      "mood_keywords": [
+        "medium-fast",
+        "rhythmic",
+        "traditional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is defined by a steady 2/4 meter played at a medium-fast tempo, providing a consistent pulse for the dragging footwork and occasional jumps.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a semicircle holding hands",
+        "Execute a dragging step with the foot maintaining contact with the floor",
+        "Maintain a medium-fast 2/4 pulse",
+        "Incorporate vertical jumps as specified by the phrase"
+      ],
+      "formation": "Semicircle",
+      "level_notes": "The dragging technique requires balance and leg strength to maintain contact with the floor at a medium-fast tempo.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "8a5c48d7bc5bc12bf811005417427fea170dc859e418b8a3f406bf4fe33a7f9d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the specific sequence of dragging steps versus jumps in a standard phrase? Evidence needed: https://en.wikipedia.org/wiki/Vle%C4%8Denoto"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific handholds used in the semicircle formation for Vlečenoto? Evidence needed: https://en.wikipedia.org/wiki/Vle%C4%8Denoto"
+    ]
+  },
+  "id": "atlas:vlecenoto",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Vlečenoto",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "804168d17a478f67",
+      "next_evidence": "https://en.wikipedia.org/wiki/Vle%C4%8Denoto",
+      "question": "What are the specific handholds used in the semicircle formation for Vlečenoto?",
+      "source": "https://en.wikipedia.org/wiki/Vle%C4%8Denoto",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the dance correctly, the connection between dancers (e.g., W-hold, V-hold, or shoulder hold) must be known."
+    },
+    {
+      "domain": "research",
+      "id": "311f0cd2036c3829",
+      "next_evidence": "https://en.wikipedia.org/wiki/Vle%C4%8Denoto",
+      "question": "What is the specific sequence of dragging steps versus jumps in a standard phrase?",
+      "source": "https://en.wikipedia.org/wiki/Vle%C4%8Denoto",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions both occur but does not provide the counts or order needed for a choreography profile."
+    }
+  ],
+  "research_file": "research_results/vlecenoto.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "vlecenoto",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vle%C4%8Denoto",
+    "https://www.wikidata.org/wiki/Q7939072"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

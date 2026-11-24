@@ -1,6 +1,6 @@
 # Jumpstyle — episode pack
 
-*Status: draft · built 2026-11-16 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); the costume & setting section
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Jumpstyle emerged in Belgium around 1997–1998, drawing roots from Chicago hard house and European hard dance.
 NARRATION: It gained significant commercial traction between 2006 and 2008, fueled by artists like Patrick Jumpen and Scooter, before evolving into a digital-first community in the 2010s and 2020s.
 ON SCREEN: Map: Belgium, Netherlands · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -53,7 +53,7 @@ ON SCREEN: Waveform or rhythm-pattern graphic: Four-on-the-floor 909 kick drum.
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -319,8 +319,8 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'iWRolPgp9JY', 'checked_by_vision_model': True, 'title': 'JumpStyle HardJump Shuffle @ Berlin HardStyle Germany'}
-Images: 0 licensed
-Footage: File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm — https://upload.wikimedia.org/wikipedia/commons/f/fa/JumpStyle_HardJump_Shuffle_oblivion_doprigalsa_vizhit_siemka.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; jumpstyle — https://archive.org/details/jumpstyle_202306; Jump-Tonic - The Best Electro Dance Videoclips — https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495; Jeckyll & Hyde | Jumpstyle - La Danse Macabre — https://archive.org/details/youtube-cRHdqxcKY1M; Jumpstyle Tutorial ( English) — https://archive.org/details/jumpstyle-tutorial-english_202401
+Images: 2 licensed — Pixel Addict / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Patrick Mantizz / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
+Footage: File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm — https://upload.wikimedia.org/wikipedia/commons/f/fa/JumpStyle_HardJump_Shuffle_oblivion_doprigalsa_vizhit_siemka.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Jumpstyle Tutorial ( English) — https://archive.org/details/jumpstyle-tutorial-english_202401
 Motifs: Close-ups of rhythmic footwork, Archival footage of 2000s jumpmeetings, Split-screen comparisons of regional styles
 
 

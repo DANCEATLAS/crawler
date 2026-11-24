@@ -315,7 +315,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'RUCbV8C9CVE', 'checked_by_vision_model': False, 'title': "Beginner's Guide: How To Swing Dance (No Experience Needed)"}
 Images: 7 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain)
-Footage: GunungSari | PuriAgungPliatan | OLEG TAMULILINGAN — https://archive.org/details/20150822GunungSariPuriPliatanOlegTamulilinganDayuAloHD720p; Dance all You Can - WOW That's in OC — https://archive.org/details/fvpctca-Dance_all_You_Can_-_WOW_That_s_in_OC
+Footage: GunungSari | PuriAgungPliatan | OLEG TAMULILINGAN — https://archive.org/details/20150822GunungSariPuriPliatanOlegTamulilinganDayuAloHD720p
 Motifs: Gold prada fabric glistening under stage lights, Sheer scarf fluttering like insect wings, Male fan opening and closing during courtship chase, Head bouquet of fresh flowers
 Costume notes: The female dancer wears traditional prada fabric embellished with gold paint, a long sheer scarf serving as bee wings, and a large bouquet of flowers on her head. The male dancer wears prada fabric wrapped to trail behind him like a tail, an udeng headpiece, and carries a fan throughout the performance.
 

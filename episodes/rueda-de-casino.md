@@ -1,6 +1,6 @@
 # Rueda de Casino — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed)
 
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Rueda de Casino functions as a social gathering dance emphasizing community, humor, and shared rhythm.
 NARRATION: It is featured in large international flash mobs, television shows like 'Para Bailar', and local social dances.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:2017-12-05 Rueda de prensa del Fiscal General Tarek William Saab.webm (https://upload.wikimedia.org/wikipedia/commons/b/b3/2017-12-05_Rueda_de_prensa_del_Fiscal_General_Tarek_William_Saab.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: UN Day Parade 2010 (https://archive.org/details/UN_Day_Parade_2010)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -314,7 +314,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'rsthpn_W0gE', 'checked_by_vision_model': True, 'title': 'Rueda de casino Santiago de Cuba'}
 Images: 0 licensed
-Footage: File:2017-12-05 Rueda de prensa del Fiscal General Tarek William Saab.webm — https://upload.wikimedia.org/wikipedia/commons/b/b3/2017-12-05_Rueda_de_prensa_del_Fiscal_General_Tarek_William_Saab.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Rueda de Prensa FGR (2020-05-22).webm — https://upload.wikimedia.org/wikipedia/commons/a/ac/Rueda_de_Prensa_FGR_%282020-05-22%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2019-03-11 Rueda de Prensa de Juan Guaidó.webm — https://upload.wikimedia.org/wikipedia/commons/b/b6/2019-03-11_Rueda_de_Prensa_de_Juan_Guaid%C3%B3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2019-10-18 Rueda de Prensa de Juan Guaidó.webm — https://upload.wikimedia.org/wikipedia/commons/4/42/2019-10-18_Rueda_de_Prensa_de_Juan_Guaid%C3%B3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2020-02-15 Rueda de Prensa de Juan Guaidó.webm — https://upload.wikimedia.org/wikipedia/commons/b/b3/2020-02-15_Rueda_de_Prensa_de_Juan_Guaid%C3%B3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2025-11-06 Rueda de prensa del PSUV.webm — https://upload.wikimedia.org/wikipedia/commons/9/9c/2025-11-06_Rueda_de_prensa_del_PSUV.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; SYNURA, UN BAILE AL SOL, SIERRA DE LA CULEBRA. — https://archive.org/details/Flickr-39716919212; UN Day Parade 2010 — https://archive.org/details/UN_Day_Parade_2010
+Footage: UN Day Parade 2010 — https://archive.org/details/UN_Day_Parade_2010
 Motifs: Circular overhead shot of couples rotating, Caller gesturing with hand signals, Dancers in white clothing at Malecón
 Costume notes: Original founders in Havana, such as older dancers at Jardines del 1830, often wear all-white clothing and carry membership cards. Dances take place in clubs, beachfront venues, and social dance spaces.
 

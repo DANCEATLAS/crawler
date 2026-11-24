@@ -22,7 +22,7 @@ NARRATION: The genre originated in the second half of the 1950s, influenced by C
 NARRATION: It gained national scope in the 1990s when it became popular among the lower classes in the main urban centers of the Río de la Plata basin.
 NARRATION: Key early groups included Los Wawancó (formed 1955) and Los Cumbiambas (1964).
 ON SCREEN: Map: Argentina · South America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -54,7 +54,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NARRATION: Clothing is a central characteristic; bands often wear matching, specialized costumes or exclusive clothes.
 NARRATION: The primary setting is the 'bailanta,' a large dancing hall.
 NARRATION: Digital cumbia is associated with modern clubs like Zizek Club in Buenos Aires.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -300,7 +300,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '1sgylG_m5MA', 'checked_by_vision_model': True, 'title': 'Tutorial de como bailar cumbia Argentina'}
-Images: 0 licensed
+Images: 2 licensed — Soledad Amarilla / Ministerio de Cultura de la Nación / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Mora Urzagasti / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Neon lights of a Buenos Aires bailanta, Matching sequined suits of a cumbia band, The roadside shrines dedicated to Gilda, The rhythmic scraping of a metal güiro
 Costume notes: Clothing is a central characteristic; bands often wear matching, specialized costumes or exclusive clothes. The primary setting is the 'bailanta,' a large dancing hall. Digital cumbia is associated with modern clubs like Zizek Club in Buenos Aires.

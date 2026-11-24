@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local community leader or traditional dancer from Jujuy or Santa Cruz.
@@ -22,7 +22,7 @@ NARRATION: The carnavalito is a pre-Hispanic dance of the Altiplano.
 NARRATION: It evolved through syncretism with Spanish colonial culture.
 NARRATION: In eastern Bolivia, it consolidated as a symbol of national integration after 1952.
 ON SCREEN: Map: Bolivia, Argentina, Chile, Peru · South America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -58,10 +58,9 @@ NEEDS: tempo
 NARRATION: In eastern Bolivia, women wear a colorful tipoy and flowers in their hair.
 NARRATION: Men wear white shirts, trousers, and a 'sombrero de Sao'.
 NARRATION: In the Andes, attire varies by local indigenous tradition.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 4 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Raúl Otero Reiche and Jorge Luna (composers of 'Palomita de Arrozal').
@@ -314,7 +313,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '48XoxiM-c-g', 'checked_by_vision_model': True, 'title': 'Gran Ballet Argentino "Carnavalito" Fribourg Suiza'}
-Images: 0 licensed
+Images: 4 licensed — Alejandro Miguel Tapia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rayane Mara / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rayane Mara / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rayane Mara / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Ribbon-adorned pennants, Andean mountain landscapes, Colorful tipoy dresses
 Costume notes: In eastern Bolivia, women wear a colorful tipoy and flowers in their hair. Men wear white shirts, trousers, and a 'sombrero de Sao'. In the Andes, attire varies by local indigenous tradition.

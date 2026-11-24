@@ -1,8 +1,8 @@
 # siciliana — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Baroque musicologist and performance historian.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Evokes a pastoral, bucolic, and sentimental mood.
 NARRATION: In Baroque opera and Classical compositions, it was frequently used to portray grief, lamentation, and rustic scenes.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: File:WIKITONGUES- Paola speaking Italian and Sicilian.webm (https://upload.wikimedia.org/wikipedia/commons/d/de/WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -293,7 +293,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'JtUCHp-hjms', 'checked_by_vision_model': False, 'title': 'Understanding Form: The Siciliana'}
 Images: 0 licensed
-Footage: File:WIKITONGUES- Paola speaking Italian and Sicilian.webm — https://upload.wikimedia.org/wikipedia/commons/d/de/WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WIKITONGUES- Steven speaking Sicilian.webm — https://upload.wikimedia.org/wikipedia/commons/4/42/WIKITONGUES-_Steven_speaking_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preghiera in siciliano.webm — https://upload.wikimedia.org/wikipedia/commons/f/f5/Preghiera_in_siciliano.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preparazione del cannolo - video riempimento cannoli.webm — https://upload.wikimedia.org/wikipedia/commons/f/f4/Preparazione_del_cannolo_-_video_riempimento_cannoli.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preparazione del cannolo - video stirare impasto.webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/Preparazione_del_cannolo_-_video_stirare_impasto.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preparazione del cannolo - video riempimento cannoli 2.webm — https://upload.wikimedia.org/wikipedia/commons/b/b3/Preparazione_del_cannolo_-_video_riempimento_cannoli_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Ottorino Respighi, ANTICHE ARIE E DANZE PER LIUTO, TRITTICO BOTTICELLIANO - Seiji Ozawa, Geoffrey Simon — https://archive.org/details/respighi-antiche-arie-e-danze-per-liuto-i-ii-iii-trittico-botticelliano; File:Leonardo Vinci, Twelve solos for a German flute or violin with a thorough bass (...), extract.webm — https://upload.wikimedia.org/wikipedia/commons/0/0e/Leonardo_Vinci%2C_Twelve_solos_for_a_German_flute_or_violin_with_a_thorough_bass_%28...%29%2C_extract.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Baroque manuscript scores, Sicilian landscapes, Harpsichord and violin craftsmanship
 
 

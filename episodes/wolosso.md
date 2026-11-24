@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations.
@@ -29,7 +29,7 @@ NARRATION: The dance functions as a contemporary social dance.
 NARRATION: In predominantly Muslim countries of West Africa, Wolosso has stirred strong public offense due to movements perceived as lascivious.
 NARRATION: Stripped of their original ritual and folk contexts, these bodily articulations are frequently identified with decadent Western culture.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET (https://archive.org/details/africa-dance-5-complet)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -309,7 +309,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'pR9RHZGLat0', 'checked_by_vision_model': False, 'title': 'Dollar R DJ Wolosso Clip Officiel'}
 Images: 0 licensed
-Footage: AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET — https://archive.org/details/africa-dance-5-complet
+Footage: MISSING
 Motifs: Close-up of rolling pelvic isolations against street backdrop, Offbeat bass pulse visualization, Contrasting modern urban club dance with rural folk origins
 Costume notes: Wolosso belongs to contemporary urban popular culture and secular social dancing. Over time, the term broadened to designate revealing, permissive styles of dress and unconventional lifestyles, especially among women.
 

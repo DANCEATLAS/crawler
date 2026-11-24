@@ -1,8 +1,8 @@
 # Fusion Dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A contemporary social dance organizer
@@ -28,7 +28,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Festivals and social gatherings provide spaces where diverse dance styles are taught during the day and practiced socially during evening events.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: "What If" Origins of Belly Dancing (https://archive.org/details/Nohorse-WhatIfOriginsOfBellyDancing514)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -289,7 +289,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '82R915KChps', 'checked_by_vision_model': True, 'title': 'FUSION DANCE (Golden Jubilee Celebration of Holy Child Hr. Sec. School Shillong)'}
 Images: 2 licensed — Sdkb / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); DanceNinjas / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: "What If" Origins of Belly Dancing — https://archive.org/details/Nohorse-WhatIfOriginsOfBellyDancing514; Dance Performance by Shobha Chanel Dance Group — https://archive.org/details/dni.ncaa.ICCR-1281-VHS; Bolly Latin Dance by Desi Rhythms School of Dance — https://archive.org/details/actonma-Bolly_Latin_Dance_by_Desi_Rhythms_School_of_Dance; raasibomma 2025-02-25 — https://archive.org/details/raasibomma-2025-02-25; IMPROVVISAZIONE - RADIOATTIVA DUBSTEP PIANO FUSION DANCE — https://archive.org/details/improvisation-radioactive-dubstep-piano-fusion-dance; Sacred Bellydance. — https://archive.org/details/sacred-bellydance
+Footage: MISSING
 Motifs: Dancers transitioning between blues and popping, Partner connection grips
 Costume notes: Fusion dances take place in public events, private gatherings, and multi-day festivals across cities in Europe and the United States.
 

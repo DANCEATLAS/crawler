@@ -1,0 +1,177 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Maintain belt-hold (zonaria) alignment and bent-knee posture while transitioning to fast tempo.",
+          "source": "https://en.wikipedia.org/wiki/Zonaradiko"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Line dance led from the right with dancers holding neighboring belts; optional inner line formation.",
+          "source": "https://en.wikipedia.org/wiki/Zonaradiko"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands firmly hold the adjacent dancers' belts (zonaria).",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Line dance led from the right. Can form an inner belt-hold line towards the center, or feature coiling/uncoiling patterns.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Low level maintained via continuously bent knees; jumps not described in sources.",
+      "partnering": "Belt-hold connection with neighboring dancers on either side in a shared line.",
+      "posture": "Continuous bent-knee posture maintained throughout, becoming especially evident during the fast tsestos section.",
+      "signature_moves": [
+        {
+          "description": "Holding the belt of the adjacent dancer on each side throughout the movement.",
+          "name": "Zonaria hold"
+        },
+        {
+          "description": "Forming a secondary fast line inside towards the center of the original dance line.",
+          "name": "Inner belt-hold line"
+        }
+      ],
+      "tempo_feel": "Accelerates from a steady walking pace into a fast, energetic speed.",
+      "what_to_avoid": "Avoid straightening the knees or letting go of neighboring belts during speed transitions."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "energetic",
+        "fast"
+      ],
+      "musical_form": "Transitions from a steady Zonaradiko section into an accelerated, fast Tsestos section.",
+      "reference_recordings": [
+        {
+          "artist": "Traditional Thracian",
+          "title": "Lianohortarouthyia (Λιανοχορταρούδια)"
+        },
+        {
+          "artist": "Traditional Thracian",
+          "title": "Steryios Pismanipsi (Στέργιος Πισμάνιψι)"
+        },
+        {
+          "artist": "Traditional Thracian",
+          "title": "Vasilkouda (Βασιλκούδα)"
+        },
+        {
+          "artist": "Yiannis Katevas",
+          "title": "Zonaradiko Thrace"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Grasp the belts (zonaria) of adjacent dancers on the left and right.",
+        "Bend both knees deeply to maintain a low center of gravity throughout.",
+        "Follow the leader on the right side of the line in step with the Thracian rhythm.",
+        "Accelerate footwork speed while maintaining belt-hold as the transition to fast tsestos occurs."
+      ],
+      "formation": "Line dance with dancers holding adjacent belts (zonaria); leader positioned on the right.",
+      "level_notes": "Requires strong leg stamina due to continuous bent-knee posture during fast tempo transitions.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cb20ec0cc3a66606781958d2e16e1d31e801656264ecc9d4accaf53ea87a3341",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What specific musical meter (e.g. 6/8, 12/8, or 2/4) structures the fast Tsestos acceleration? Evidence needed: Ethnomusicological transcription of Lianohortarouthyia or related Tsestos recordings."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise footwork counts and step patterns used during the fast tsestos portion? Evidence needed: Video analysis of traditional northern Thracian dancers executing the fast tsestos section."
+    ]
+  },
+  "id": "atlas:tsestos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tsestos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "26a2a0f8d853606a",
+      "next_evidence": "Video analysis of traditional northern Thracian dancers executing the fast tsestos section.",
+      "question": "What are the precise footwork counts and step patterns used during the fast tsestos portion?",
+      "source": "https://en.wikipedia.org/wiki/Zonaradiko",
+      "status": "candidate_unreviewed",
+      "why_needed": "Footwork details are missing from text sources, preventing precise digital instructional modeling."
+    },
+    {
+      "domain": "research",
+      "id": "1cd08e1febc4bbc9",
+      "next_evidence": "Ethnomusicological transcription of Lianohortarouthyia or related Tsestos recordings.",
+      "question": "What specific musical meter (e.g. 6/8, 12/8, or 2/4) structures the fast Tsestos acceleration?",
+      "source": "https://en.wikipedia.org/wiki/Zonaradiko",
+      "status": "candidate_unreviewed",
+      "why_needed": "Exact meter and tempo parameters are required to build interactive audio-rhythmic synchronization."
+    }
+  ],
+  "research_file": "research_results/tsestos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tsestos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zonaradiko",
+    "https://www.wikidata.org/wiki/Q7849577"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

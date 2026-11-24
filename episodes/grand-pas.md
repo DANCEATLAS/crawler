@@ -1,8 +1,8 @@
 # Grand pas — episode pack
 
-*Status: draft · built 2026-11-17 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Professional ballet master.
@@ -22,14 +22,14 @@ NARRATION: The Grand pas was formalized in the 19th century, most notably throug
 NARRATION: His 1881 revival of the ballet Paquita, with music by Joseph Mazilier, established the Grand Pas Classique as a global standard for ballet companies.
 NARRATION: Other historical examples include the 2000 revival of La Fille du pharaon, which adhered to Petipa's original sequence.
 ON SCREEN: Map: France · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The Grand pas serves as a 'pièce de résistance' in a full-length ballet, intended to showcase the technical prowess of the performers.
 NARRATION: It is often performed independently of the full ballet.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Cuba: Bay of Pigs (1964) (https://archive.org/details/cubabayofpigs)
+ON SCREEN: Footage: FAIF Clip - BHS Dance "Grand Pas Espangnol" (https://archive.org/details/scpsfl-FAIF_Clip_-_BHS_Dance_Grand_Pas_Espangnol)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -53,10 +53,10 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: costume_and_setting, images
+NEEDS: costume_and_setting
 
 ### 7. The people (60 s) · `people`
 NARRATION: Marius Petipa is the primary choreographer associated with the development and standardization of the Grand pas in the 19th century.
@@ -322,8 +322,8 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'Jujz3Z8EDDs', 'checked_by_vision_model': False, 'title': 'Raymonda Spanish Dance by Young Gyu Choi | Performance clip | Dutch National Ballet'}
-Images: 0 licensed
-Footage: Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; FAIF Clip - BHS Dance "Grand Pas Espangnol" — https://archive.org/details/scpsfl-FAIF_Clip_-_BHS_Dance_Grand_Pas_Espangnol; Cuba: Bay of Pigs — https://archive.org/details/cubabayofpigs_202603
+Images: 3 licensed — Gabriel Saldana / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Bert. A, photographe / Wikimedia Commons / Public domain (Public domain); Herbert Behrens / Anefo / Wikimedia Commons / CC0 (CC0)
+Footage: FAIF Clip - BHS Dance "Grand Pas Espangnol" — https://archive.org/details/scpsfl-FAIF_Clip_-_BHS_Dance_Grand_Pas_Espangnol
 Motifs: Orchestral pit, Stage lighting, Classical ballet studio
 
 

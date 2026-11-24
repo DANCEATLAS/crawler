@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A temple elder or cultural historian of the Travancore tradition
@@ -30,7 +30,7 @@ NARRATION: It is performed as a 'votive offering' or reward for problems solved 
 NARRATION: Key occasions include the festivals of Meena Bharani, Pathamudayam, and Makara Bharani.
 NARRATION: It is a ritual of sacrifice and devotion intended to satisfy the family deity, Bhadrakali.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Folk Dance of Kerala (Vol. IV) (https://archive.org/details/dni.ncaa.IGNCA-36-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -104,7 +104,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'a1d1G-Mj9JU', 'checked_by_vision_model': True, 'title': 'Garudan thookkam'}
 Images: 1 licensed — Devdarsh DS / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: Folk Dance of Kerala (Vol. IV) — https://archive.org/details/dni.ncaa.IGNCA-36-VHS
+Footage: MISSING
 Motifs: The sharp metal hook, The three-storied floating Attuvela, The vibrant feathers of the Garuda costume, The flickering lamps of the night procession
 Costume notes: Dancers wear elaborate costumes to resemble the divine eagle Garuda. The setting varies from temple grounds to 'thoni vallams' (large country boats) on rivers like the Moovattupuzha, or chariot-like structures on roads. Illuminated three-storied wooden structures called Attuvela often accompany the water-based processions.
 

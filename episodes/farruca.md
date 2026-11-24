@@ -1,8 +1,8 @@
 # Farruca — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional flamenco dancer with a focus on stage presence and rhythmic precision.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Traditionally a theatrical solo, it is performed in stage settings and concert halls.
 NARRATION: It represents sobriety, authority, and masculine-coded defiance, though these meanings have been expanded by modern female interpreters.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Men Dancing 10 (https://archive.org/details/csfpal_000160)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -327,7 +327,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '3j5IRvgQAS8', 'checked_by_vision_model': True, 'title': 'Pablo Egea - Farruca'}
 Images: 0 licensed
-Footage: Men Dancing 10 — https://archive.org/details/csfpal_000160; Bailes Tipicos Españoles Angelita Y Mª Del Carmen Romero ( 1984) LP Completo — https://archive.org/details/BailesTipicosEspaolesAngelitaYMDelCarmenRomero1984LPCompleto; The Art Of Guitar Flamenco By Pepe Romero Spanish Dance, Zorrongo, Farruca Y Rumba .. ( Ct.rc..) — https://archive.org/details/the-art-of-guitar-flamenco-by-pepe-romero-spanish-dance-zorrongo-farruca-y-rumba-..-ct.rc..
+Footage: MISSING
 Motifs: Close-up of feet striking the floor., The silhouette of a dancer in a dramatic pause., Guitarist's hands on the fretboard.
 Costume notes: Historically associated with male dress, including capes in older descriptions. Women have performed it in male clothing or contemporary stage attire.
 

@@ -1,8 +1,8 @@
 # robot — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable street dance artist with experience in mime and popping, patient and precise in teaching mechanical illusions.
@@ -30,7 +30,7 @@ NARRATION: Originally part of theatrical mime and social dancing at funk and sou
 NARRATION: It is performed socially, in competitions, on television, and in popular media.
 NARRATION: The dance is not sacred or restricted.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Robot Monster trailer (1953).webm (https://upload.wikimedia.org/wikipedia/commons/5/5d/Robot_Monster_trailer_%281953%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -338,7 +338,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'wt_nbTRzYrk', 'checked_by_vision_model': True, 'title': 'Amazing Robot Dance Battle | Robot Vall'}
 Images: 1 licensed — Stefan Bootin / Wikimedia Commons / CC BY-SA 2.5 (CC BY-SA 2.5)
-Footage: File:Robot Monster trailer (1953).webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Robot_Monster_trailer_%281953%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Waarom hebben we nog steeds geen robot als BFF- - Het LAB -4.webm — https://upload.wikimedia.org/wikipedia/commons/9/96/Waarom_hebben_we_nog_steeds_geen_robot_als_BFF-_-_Het_LAB_-4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:The Iris Robot of the Bureau of Fire Protection.webm — https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Iris_Robot_of_the_Bureau_of_Fire_Protection.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Window cleaning robot in action seen through window.webm — https://upload.wikimedia.org/wikipedia/commons/3/3d/Window_cleaning_robot_in_action_seen_through_window.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Hand-made robotic arm with Arduino.webm — https://upload.wikimedia.org/wikipedia/commons/9/9c/Hand-made_robotic_arm_with_Arduino.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Will robots outsmart us.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Will_robots_outsmart_us.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Sony Robot Dances — https://archive.org/details/Sony_Robot_Dances; DTV Pop & Rock PAL.480p — https://archive.org/details/dtv-pop-rock-pal
+Footage: MISSING
 Motifs: Mechanical joints, Abrupt stops, Angular arm movements, Retro-futuristic costumes
 Costume notes: Costuming is flexible; social dancers in the 1960s wore typical funk or soul club attire. Performance costumes may emphasize a mechanical or futuristic look with metallic colors or angular designs. The dance is performed in clubs, on television, and in street settings. No sacred or restricted costume conventions apply.
 

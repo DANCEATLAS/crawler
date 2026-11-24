@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "melbourne-shuffle",
  "name": "Melbourne shuffle",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "AU"
@@ -374,26 +374,6 @@
     "source": "archive"
    },
    {
-    "title": "File:Ritmo shuffle chitarra - guitar rhythm shuffle.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ritmo_shuffle_chitarra_-_guitar_rhythm_shuffle.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "attribution": "Elenaf / Wikimedia Commons / CC BY-SA 3.0",
-    "description": "ritmo shuffle chitarra",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ARitmo_shuffle_chitarra_-_guitar_rhythm_shuffle.webm",
-    "source": "commons"
-   },
-   {
-    "title": "File:Space to Ground- Dragon Shuffle- May 12, 2023.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Space_to_Ground-_Dragon_Shuffle-_May_12%2C_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "Public domain",
-    "license_url": null,
-    "attribution": "NASA Johnson / Wikimedia Commons / Public domain",
-    "description": "NASA's Space to Ground is your weekly update on what's happening aboard the International Space Station. \nGot a question or comment? Use #AskNASA to talk to us.\nLearn more about the important research being operated on Station:\nhttps://www.nasa.gov/iss-science \nFor more information about STEM on Sta",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ASpace_to_Ground-_Dragon_Shuffle-_May_12%2C_2023.webm",
-    "source": "commons"
-   },
-   {
     "title": "Shuffle dance kids",
     "url": "https://archive.org/details/PowerofLoveDev_20180505",
     "year": null,
@@ -409,8 +389,14 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "footwork_counts": "lesson",
    "mistakes": "lesson",
@@ -779,6 +765,6 @@
   "polished": false,
   "file": "episodes/melbourne-shuffle.json"
  },
- "fingerprint": "bb2359cf6289e75d",
- "updated": "2026-11-22"
+ "fingerprint": "0658a60a02b62d4a",
+ "updated": "2026-11-24"
 }

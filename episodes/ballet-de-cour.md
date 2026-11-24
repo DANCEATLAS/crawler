@@ -1,8 +1,8 @@
 # Ballet de cour — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; posture, arms and hands; the how-it-is-danced section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A precise court historian and baroque ballet master focused on floor architecture, royal etiquette, and spatial discipline.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Ballets de cour marked royal weddings, state receptions of foreign ambassadors, and celebrations of political triumphs.
 NARRATION: As a secular ceremony designed to exalt the State and project royal power, it communicated harmony, virtue, and monarchical dominance, often using classical allegory to symbolize national reconciliation after religious civil strife.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: GALLOP POG DVD 2010 (https://archive.org/details/gallop-pog-2010)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -296,7 +296,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'ahtN4XSsTcs', 'checked_by_vision_model': False, 'title': '#OS34 - História da ópera: A ópera na França – Ballet de Cour'}
 Images: 3 licensed — Jacques Patin / Wikimedia Commons / Public domain (Public domain); Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain); anonymous / Wikimedia Commons / Public domain (Public domain)
-Footage: GALLOP POG DVD 2010 — https://archive.org/details/gallop-pog-2010
+Footage: MISSING
 Motifs: High-angle overhead shots showing complex human geometric figures on parquet floors, Tiered wooden viewing scaffolds filled with candlelit audiences, Elaborate wooden pageant floats and mechanical fountains wheeled across palace halls, Costumed courtiers holding printed livret librettos
 Costume notes: Spectacles were staged in large palace halls, such as the Tuileries Palace and the Louvre, before the advent of the proscenium stage. Decor was lavish, featuring elaborate scenic machinery such as chariot-floats, palaces, gardens, townscapes, and three-tiered fountains. Costumes were ornate aristocratic dress, later evolving toward lighter apparel and flexible footwear by the late 17th century.
 

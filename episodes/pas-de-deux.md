@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The pas de deux is often the pièce de résistance of a ballet, frequently symbolizing a love story or the emotional connection between two characters.
 NARRATION: It is used to illustrate the most poetic moments of a narrative.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: KIPC 39 - "Spin! Sunda-Senpai!" [Engsub | HD | CC] - Kimi to Idol Precure♪ (https://archive.org/details/kimi-to-idol-precure-39)
+ON SCREEN: Footage: Cuba: Bay of Pigs (1964) (https://archive.org/details/cubabayofpigs)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -319,7 +319,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: {'youtube_id': 'qy6dlGpC3Ns', 'checked_by_vision_model': True, 'title': 'The Nutcracker – Sugar Plum pas de deux: Adagio (Nuñez, Muntagirov, The Royal Ballet)'}
 Images: 6 licensed — jeff from denver, US / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Fanny Schertzer / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Fanny Schertzer
 derivative work: Maedin\talk / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Lambtron / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Lambtron / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: KIPC 39 - "Spin! Sunda-Senpai!" [Engsub | HD | CC] - Kimi to Idol Precure♪ — https://archive.org/details/kimi-to-idol-precure-39; Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; The Nutcracker, Op. 71, Act II: No. 14c, Pas de deux. Variation II "Danse de la Fee-Dragee (Dance of the Sugar-Plum Fairy)" (P. I. Tchaikovsky) (Colors in motion Music Video) — https://archive.org/details/in-shot-20220412-071547800; Cuba: Bay of Pigs — https://archive.org/details/cubabayofpigs_202603
+Footage: Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; Cuba: Bay of Pigs — https://archive.org/details/cubabayofpigs_202603
 Motifs: Stage entrances, Lifts in slow motion, Close-ups of pointe work, Orchestral scores
 Costume notes: Costumes vary based on the specific ballet, but generally follow classical ballet conventions, such as tutus for the ballerina and fitted tunics or tights for the danseur, allowing for a full range of motion and clear visibility of the dancers' lines.
 

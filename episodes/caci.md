@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.25 · 6/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Manggarai caci fighter and cultural custodian
@@ -30,7 +30,7 @@ NARRATION: Caci is performed mainly during traditional harvest festivals like Pe
 NARRATION: It marks the end of the harvest and the start of a new crop cycle.
 NARRATION: The ritual serves as both a competitive sport and a sacrificial offering to ancestors for fertility and good harvests.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Penis (https://archive.org/details/penis_20260922)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -106,7 +106,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '4K5fvJGqtTM', 'checked_by_vision_model': True, 'title': 'part 1. Menantang lawan sampai nyerah.  bermain caci / caci Dance Rickar Santos'}
 Images: 6 licensed — Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Fakhri Anindita / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: Penis — https://archive.org/details/penis_20260922
+Footage: MISSING
 Motifs: horned helmets, jingling bells, whips and shields, drum and gong ensembles, village communal yards
 Costume notes: Fighters wear pants covered by embroidered woven songket sarongs, small jingling bells on their lower backs and ankles, and horned helmets made of buffalo hide wrapped in colorful cloths. The helmets protect the face and head, which are the primary targets. The shield is round or elliptical, made from buffalo hide or wood, and traditionally undecorated. Matches take place in the yard of a communal house or a village arena, often during festivals such as Penti or Karong Woja Wole.
 

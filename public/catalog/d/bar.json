@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "bar",
  "name": "Bar",
- "state": "not_published",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "TR"
@@ -11,10 +11,14 @@
   "slug": "bar",
   "name": "Bar",
   "country": "Turkey",
+  "country_code": "TR",
+  "flag_emoji": "🇹🇷",
   "region": "Middle East",
-  "tagline": "Turkey — Turkish folk dance from the Eastern Anatolia region of Turkey",
-  "profile": "Bar is a Turkish folk dance from the Eastern Anatolia region of Turkey. The word bar is from the Armenian word \"Պար\" (bar) which means dance. With their structure and formation, they are the dances performed by groups in the open. They are spread, in general, all over the region of Eastern Anatolia, especially in Artvin, Ardahan, Erzurum, Bayburt, Ağrı, Kars, and Erzincan provinces. The characteristic of their formation is that they are performed side-by-side, hand, shoulder and arm-in-arm. Woman and man bars are different from one another.",
-  "insight": "Bar is a Turkish folk dance from the Eastern Anatolia region of Turkey.",
+  "family": "folk-circle",
+  "era": "Traditional",
+  "tagline": "A collective folk dance tradition from the Eastern Anatolia region of Turkey.",
+  "profile": "Bar is a traditional folk dance originating from the Eastern Anatolia region of Turkey. It is performed in open-air settings by groups of dancers who maintain a side-by-side formation. The dance is distinguished by its specific rhythmic structures and the use of traditional instruments like the davul and zurna. It remains a cultural practice among communities such as the Karapapakhs and Meskhetian Turks.",
+  "insight": "Bar is a communal dance performed in open spaces, characterized by side-by-side formations where participants link arms or shoulders, often set to the rhythmic complexity of 9/8 Aksak measures.",
   "related": [
    "arab-dance",
    "assyrian-folk-dance",
@@ -29,13 +33,14 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Bar_(dance)",
-   "Source: Bar (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bar_(dance)"
+   "Source: Bar (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bar_(dance)",
+   "https://www.wikidata.org/wiki/Q4857863"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bar_(dance)",
   "wikidata_qid": "Q4857863",
   "unesco": false,
   "hero_video_youtube_id": "Z064cOeTgzU",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_albums": [
    {
     "title": "Secret Lounge: Erotic Pleasure",
@@ -59,10 +64,35 @@
    }
   ],
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 0.0,
+  "research_gate": "publish",
+  "qc_score": 9.7,
   "last_researched_at": "2026-11-23T23:51:51Z",
   "pipeline_version": "v3.3",
+  "profile_long": "The Bar dance is a foundational element of the cultural landscape in Eastern Anatolia, Turkey. Its name is derived from the Armenian word 'Պար' (bar), which translates directly to 'dance.' The practice is geographically widespread across the provinces of Artvin, Ardahan, Erzurum, Bayburt, Ağrı, Kars, and Erzincan. These dances are typically performed in open spaces, emphasizing the collective nature of the performance as groups gather to participate.\n\nThe physical formation of the Bar is highly structured. Dancers align themselves side-by-side, creating a unified line or arc. The connection between participants is maintained through physical contact, specifically by linking hands, shoulders, or arms. This formation ensures that the group moves as a single entity, reflecting a communal approach to the dance. The performance is further categorized by gender, as the Bar dances performed by men and those performed by women are distinct from one another, each possessing unique characteristics.\n\nMusically, the Bar is defined by the interplay between the davul, a large double-headed drum, and the zurna, a traditional wind instrument known for its shrill, piercing tone. These instruments provide the rhythmic and melodic foundation for the dance. The music is structured around specific meters, with 5/8 and 9/8 being the most dominant. Occasionally, 6/8 and 12/8 measures are also utilized. The 9/8 meter, often referred to as 'Aksak,' is particularly significant as it represents a characteristic rhythmic structure in Turkish folk music, applied here with complex and varied patterns.\n\nThe tradition is actively maintained by specific communities, including the Karapapakhs and the Meskhetian Turks. While the dance is a broad regional tradition, specific songs such as 'Atabarı' have gained prominence as representative examples of the genre. The dance is not merely a sequence of steps but a social event that utilizes the open-air environment to facilitate group participation. The reliance on the davul and zurna creates a soundscape that is recognizable throughout the Eastern Anatolian region, anchoring the dance in its historical and geographical context. Despite the diversity of the provinces where it is practiced, the fundamental elements of side-by-side formation and the use of Aksak rhythmic structures remain consistent across the tradition.",
+  "album_candidates": [
+   {
+    "title": "Atabarı",
+    "artist": "Not described in sources",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Verbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Verbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png/1280px-Verbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2194,
+    "height": 939,
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "attribution": "Maximilian Dörrbecker (Chumwa) / Wikimedia Commons / CC BY-SA 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVerbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png",
+    "description": "Verbreitungskarte der türkischen Volkstänze"
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -126,15 +156,159 @@
    "armenian-dance"
   ]
  },
+ "profile": {
+  "sections": {
+   "origins_and_history": "The dance originates from the Eastern Anatolia region of Turkey. The etymology of the name is linked to the Armenian word 'Պար' (bar), meaning dance.",
+   "how_it_is_danced": "Dancers perform in groups in open spaces, standing side-by-side. The formation involves linking hands, shoulders, or arms. Men and women perform different versions of the dance.",
+   "music_and_instruments": "The primary instruments are the davul and the zurna. The music frequently uses 5/8 and 9/8 meters, with 6/8 and 12/8 also appearing. The 9/8 Aksak meter is a defining feature.",
+   "costume_and_setting": "The dance is performed in open-air settings.",
+   "occasions_and_meaning": "not described in sources",
+   "notable_figures": "not described in sources",
+   "regional_variants": "The dance is spread across Artvin, Ardahan, Erzurum, Bayburt, Ağrı, Kars, and Erzincan provinces.",
+   "lineage": "not described in sources"
+  },
+  "teaching": {
+   "basic_steps": [],
+   "rhythm": "5/8, 9/8, 6/8, 12/8",
+   "formation": "Side-by-side group formation",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "Bar is a Turkish folk dance from the Eastern Anatolia region of Turkey.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   },
+   {
+    "text": "The word bar is derived from the Armenian word for dance.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   },
+   {
+    "text": "The dance is performed in open spaces by groups.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   },
+   {
+    "text": "The formation is characterized by side-by-side positioning with linked arms or shoulders.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   },
+   {
+    "text": "The principal instruments are the davul and zurna.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   },
+   {
+    "text": "The 9/8 Aksak meter is a characteristic rhythmic structure.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   },
+   {
+    "text": "The Karapapakhs and Meskhetian Turks perform the dance.",
+    "source": "https://en.wikipedia.org/wiki/Bar_(dance)"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Verbreitungskarte der türkischen Volkstänze.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Verbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Verbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png/1280px-Verbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2194,
+    "height": 939,
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "artist": "Maximilian Dörrbecker (Chumwa)",
+    "description": "Verbreitungskarte der türkischen Volkstänze",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVerbreitungskarte_der_t%C3%BCrkischen_Volkst%C3%A4nze.png",
+    "attribution": "Maximilian Dörrbecker (Chumwa) / Wikimedia Commons / CC BY-SA 2.5"
+   }
+  ],
+  "gaps": [
+   "Specific footwork and movement sequences are not described in the sources.",
+   "Historical origins beyond etymology are not detailed.",
+   "Specific occasions for dancing (e.g., weddings, festivals) are not explicitly mentioned.",
+   "Detailed pedagogical steps for teaching are not available."
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "5/8, 9/8, 6/8, 12/8",
+   "rhythm_pattern": "Aksak 9/8",
+   "instruments": [
+    "davul",
+    "zurna"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [],
+   "reference_recordings": [
+    {
+     "title": "Atabarı",
+     "artist": "not described in sources"
+    }
+   ],
+   "sound_description": "The music is characterized by the shrill, piercing sound of the zurna paired with the rhythmic pulse of the davul drum, often utilizing the complex, asymmetrical Aksak 9/8 meter."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "Participants link hands, shoulders, or arms.",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Side-by-side group formation in open spaces.",
+   "partnering": "Group-based, side-by-side.",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "not described in sources",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Rhythms of the East: Unlocking the Bar",
+   "logline": "Discover the communal spirit and complex meters of the traditional Bar dance from Eastern Anatolia.",
+   "beats": [
+    "Introduction to the geography of Eastern Anatolia.",
+    "Explanation of the Armenian etymology of the word 'Bar'.",
+    "Visual demonstration of the side-by-side formation.",
+    "Introduction to the davul and zurna instruments.",
+    "Breakdown of the Aksak 9/8 rhythmic structure.",
+    "Discussion of the distinct styles for men and women."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Open-air landscapes of Eastern Anatolia",
+    "Close-up of davul and zurna",
+    "Side-by-side dancers linking arms"
+   ],
+   "instructor_persona": "A cultural historian or traditional folk dance practitioner from the region.",
+   "music_cue": "Traditional zurna and davul ensemble playing an Aksak 9/8 rhythm."
+  },
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-23T23:51:51Z",
+  "qc_score": 9.7
+ },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 7,
   "of": 15,
   "missing": [
-   {
-    "key": "published",
-    "label": "passed every quality gate and the independent judge"
-   },
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
@@ -169,6 +343,15 @@
    }
   ]
  },
- "fingerprint": "73eaf9737e54f21b",
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 12,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/bar.json"
+ },
+ "fingerprint": "357be8ff2179fdf4",
  "updated": "2026-11-24"
 }

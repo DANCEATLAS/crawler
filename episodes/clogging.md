@@ -1,6 +1,6 @@
 # Clogging — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to
 
@@ -30,7 +30,7 @@ NARRATION: Clogging is performed at folk festivals, fairs, and community gatheri
 NARRATION: It is practiced both as a social activity and a competitive sport where teams vie for money and trophies.
 NARRATION: It holds official state dance status in Kentucky and North Carolina.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Reading Clog & Step Dance Festival Performers' Show 1990 (https://archive.org/details/ReadingClogStepDanceFestivalPerformersShow1990)
+ON SCREEN: Footage: Uncle Dave Macon Days 2017 (https://archive.org/details/Uncle_Dave_Macon_Days_2017)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -318,7 +318,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'NMA5kgajhEA', 'checked_by_vision_model': True, 'title': 'TAP THIS! - "Honey I\'m Good" Cloggers - Clogging Champions'}
 Images: 3 licensed — Al Stephenson / Wikimedia Commons / Public domain (Public domain); William H. Johnson / Wikimedia Commons / Public domain (Public domain); Harrison Keely / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
-Footage: Reading Clog & Step Dance Festival Performers' Show 1990 — https://archive.org/details/ReadingClogStepDanceFestivalPerformersShow1990; Uncle Dave Mason Days 2017 (Jam Session 1) — https://archive.org/details/Uncle_Dave_Mason_Days_2017_Jam_Session_1; Uncle Dave Macon Days 2017 — https://archive.org/details/Uncle_Dave_Macon_Days_2017; Aman Folk Ensemble presents The Immigrants — https://archive.org/details/calauem_000460; Uncle Dave Macon Days 2017 (Jam Session 2) — https://archive.org/details/Uncle_Dave_Macon_Days_2017_Jam_Session_2; Uncle Dave Macon Days 2017 (Jam Session 3) — https://archive.org/details/Uncle_Dave_Macon_Days_2017_Jam_Session_3; File:Sunny Africa (1907).webm — https://upload.wikimedia.org/wikipedia/commons/7/72/Sunny_Africa_%281907%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Scene from Sunny Africa (1907).webm — https://upload.wikimedia.org/wikipedia/commons/b/bb/Scene_from_Sunny_Africa_%281907%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: Uncle Dave Macon Days 2017 — https://archive.org/details/Uncle_Dave_Macon_Days_2017; File:Sunny Africa (1907).webm — https://upload.wikimedia.org/wikipedia/commons/7/72/Sunny_Africa_%281907%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Scene from Sunny Africa (1907).webm — https://upload.wikimedia.org/wikipedia/commons/b/bb/Scene_from_Sunny_Africa_%281907%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Close-up of wooden soles striking a wooden dance floor, Dancers arranged in a square formation at an outdoor Appalachian festival
 Costume notes: Many traditional shoes lacked metal points, using leather and velvet with wooden or hard leather soles, while modern or variant styles incorporate jingle-taps with loose metal plates. The dance is performed at old-time and bluegrass music festivals, community fairs, logging camps, and square dances.
 

@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 8.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A practitioner of Haitian Vodou with deep knowledge of the Nago nanchon
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Nago rituals are marked by the call 'Awo che Nago'.
 NARRATION: The dance honors the militant, masculine Ogou spirits, who are associated with the elements of earth, fire, and metal.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:ITA — Region Trentino-Südtirol — Provinz Bozen–Südtirol — Gemeinde Nago-Torbole — Windsurfer 2021.webm (https://upload.wikimedia.org/wikipedia/commons/1/1a/ITA_%E2%80%94_Region_Trentino-S%C3%BCdtirol_%E2%80%94_Provinz_Bozen%E2%80%93S%C3%BCdtirol_%E2%80%94_Gemeinde_Nago-Torbole_%E2%80%94_Windsurfer_2021.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -101,7 +101,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'gI8Kdg4JAYo', 'checked_by_vision_model': True, 'title': None}
 Images: 0 licensed
-Footage: File:ITA — Region Trentino-Südtirol — Provinz Bozen–Südtirol — Gemeinde Nago-Torbole — Windsurfer 2021.webm — https://upload.wikimedia.org/wikipedia/commons/1/1a/ITA_%E2%80%94_Region_Trentino-S%C3%BCdtirol_%E2%80%94_Provinz_Bozen%E2%80%93S%C3%BCdtirol_%E2%80%94_Gemeinde_Nago-Torbole_%E2%80%94_Windsurfer_2021.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; FUNERAL DE UM REI NAGO — https://archive.org/details/FuneralDeUmReiNag
+Footage: MISSING
 Motifs: Iron cooking pots, Rada drums, Northern Haitian landscapes
 Costume notes: Nago rites necessitate an iron zin, a ceremonial cooking pot, instead of the typical clay vessel used in other Vodou rituals.
 

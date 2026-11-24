@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, disciplined step master with deep roots in collegiate Greek life and percussive performance.
@@ -29,7 +29,7 @@ NARRATION: Stepping serves as a visual and auditory declaration of organizationa
 NARRATION: Historically used to celebrate the initiation of new members during campus probates, stepping shows allow Black Greek Letter Organizations (BGLOs) to demonstrate discipline, campus presence, and competitive spirit.
 NARRATION: While step shows are fiercely competitive contests, they foster a deep cooperative spirit across neighboring institutions through style exchanges and mutual tributes.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Vista Stock Shots: Entertainment (https://archive.org/details/0565_Vista_Stock_Shots_Entertainment)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -331,7 +331,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'bNUjnqqZfBY', 'checked_by_vision_model': False, 'title': 'NiziU 『Step and a step』 Dance Performance Video'}
 Images: 2 licensed — David Shankbone / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); William H. Johnson / Wikimedia Commons / Public domain (Public domain)
-Footage: Vista Stock Shots: Entertainment — https://archive.org/details/0565_Vista_Stock_Shots_Entertainment; 1990s VHS • Wedding Day Dancing 60 FPS — https://archive.org/details/TheVistaGroup-WeddingDayDancing1990s_TVG_; Irish Dancing in Naperville — https://archive.org/details/Irish_Dancing_in_Naperville; Collecting Traditional Dance — https://archive.org/details/CollectingTraditionalDance; PCN Kingston Resident in World Irish Dancing Championship — https://archive.org/details/PCN_Kingston_Resident_in_World_Irish_Dancing_Championship; Tap With Ginger--90 Minutes Beginner Level (1994) — https://archive.org/details/tap-with-ginger-90-minutes-beginner; Aman Folk Ensemble presents The Immigrants — https://archive.org/details/calauem_000460
+Footage: MISSING
 Motifs: Close-up shots of heavy footwear striking hardwood floors in perfect synchronization., Wide overhead views of military-style grid formations shifting in unison., Detail angles of hand claps, chest slaps, and cane work creating layered percussive sounds.
 Costume notes: Costuming in stepping reflects organizational identity, pride, and drill precision. Performers wear matching gear featuring their organization's official Greek letters and distinctive color schemes. Attire often ranges from coordinated athletic warm-up suits, custom jerseys, and boots or heavy-soled sneakers that maximize foot-stomp acoustics, to formal dress shirts and trousers accessorized with organizational canes.
 

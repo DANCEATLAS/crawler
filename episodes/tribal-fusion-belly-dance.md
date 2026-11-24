@@ -1,6 +1,6 @@
 # Tribal Fusion Belly Dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; signature moves; two or more connections
 
@@ -302,7 +302,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '8XGIRLwcw4o', 'checked_by_vision_model': True, 'title': 'WOW Arabic Belly Dance Sword Dance "Justice" by Irina Akulenko | Tribal Fusion World Dance Heritage'}
 Images: 3 licensed — Georges Seguin (Okki) / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Trizek / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Danecarney / Wikimedia Commons / CC0 (CC0)
-Footage: Belly Dance: Cues and Tattoos Festival 2015 - Bindu Bolar Tribalina. — https://archive.org/details/cues-and-tattoos-festival-2015-bindu-bolar-tribalina; BINDU BOLAR - TRIBAL FUSION BELLY-DANCE - HYPNOSIS 2015 — https://archive.org/details/bindu-bolar-tribal-fusion-bellydance-hypnosis-2015; Tribal Fusion Belly Dance - Bindu - Lost and Found, Fools Rhythm, Beat of Passion - Taal — https://archive.org/details/tribal-fusion-belly-dance-bindu-lost-and-found-fools-rhythm-beat-of-passion-taal; Tribal Fusion Belly Dance Tribalina Bindu Bolar - Links 2 - 3 - 4 Claw-finger Remix, Mechanic Puppet — https://archive.org/details/tribal-fusion-belly-dance-tribalina-bindu-bolar-links-2-3-4-clawfinger-remix-mecanic-puppet; Best Bellydance Safari Desert Dubai #72 — https://archive.org/details/youtube-Kk1cbJGXe5s; Best Belly Dance - Safari Desert Dubai #71 — https://archive.org/details/youtube-9ojbNc0D6QA; Best Bellydance Safari Desert Dubai #46 — https://archive.org/details/youtube-uvD9smyY2Gs; BELLYDANCE Teach In Dubai #4 — https://archive.org/details/youtube-3mQQbQk3Vfo
+Footage: Belly Dance: Cues and Tattoos Festival 2015 - Bindu Bolar Tribalina. — https://archive.org/details/cues-and-tattoos-festival-2015-bindu-bolar-tribalina; BINDU BOLAR - TRIBAL FUSION BELLY-DANCE - HYPNOSIS 2015 — https://archive.org/details/bindu-bolar-tribal-fusion-bellydance-hypnosis-2015; Tribal Fusion Belly Dance - Bindu - Lost and Found, Fools Rhythm, Beat of Passion - Taal — https://archive.org/details/tribal-fusion-belly-dance-bindu-lost-and-found-fools-rhythm-beat-of-passion-taal; Tribal Fusion Belly Dance Tribalina Bindu Bolar - Links 2 - 3 - 4 Claw-finger Remix, Mechanic Puppet — https://archive.org/details/tribal-fusion-belly-dance-tribalina-bindu-bolar-links-2-3-4-clawfinger-remix-mecanic-puppet
 Motifs: Antique silver jewelry, Cowrie shell hair falls, Modern electronic stage lighting
 Costume notes: Costumes vary from traditional tribal elements—such as antique silver jewelry, cholis, and cowrie shells—to minimalist, contemporary designs. Influences from flamenco, burlesque, and other performance arts often dictate the choice of fabrics, feathers, and accessories.
 

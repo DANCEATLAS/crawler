@@ -82,6 +82,19 @@
     "verified": false
    }
   ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Punjabi_Luddi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Punjabi_Luddi.jpg/1280px-Punjabi_Luddi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1438,
+    "height": 836,
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Terimaadiphudi / Wikimedia Commons / CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APunjabi_Luddi.jpg",
+    "description": "A group of Punjabi men performing Luddi at a wedding."
+   }
+  ],
   "publish_gate": "publish",
   "movie_ready": false,
   "hero_source": "crawler:crowd_wisdom_confident",
@@ -168,6 +181,22 @@
    "supported": 6,
    "rate": 1.0
   },
+  "images": [
+   {
+    "title": "File:Punjabi Luddi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Punjabi_Luddi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Punjabi_Luddi.jpg/1280px-Punjabi_Luddi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1438,
+    "height": 836,
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Terimaadiphudi",
+    "description": "A group of Punjabi men performing Luddi at a wedding.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APunjabi_Luddi.jpg",
+    "attribution": "Terimaadiphudi / Wikimedia Commons / CC0",
+    "found_in": "a search of Wikimedia Commons for its name"
+   }
+  ],
   "gaps": [
    "Detailed costume and attire descriptions",
    "Exact musical time signatures, meter, and rhythmic structures",
@@ -180,16 +209,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "status",
     "label": "known to be living, revived or historical"
-   },
-   {
-    "key": "picture",
-    "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
@@ -522,6 +547,6 @@
   "polished": false,
   "file": "episodes/luddi.json"
  },
- "fingerprint": "f9e1ce55b2464215",
- "updated": "2026-11-21"
+ "fingerprint": "7fba78cba41a5f8b",
+ "updated": "2026-11-24"
 }

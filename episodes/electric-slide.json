@@ -2,7 +2,7 @@
  "slug": "electric-slide",
  "name": "Electric Slide",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-17T19:20:33Z",
  "qc_score": 8.7,
  "status": "draft",
@@ -79,7 +79,7 @@
     ],
     "on_screen": [
      "Map: United States · North America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -91,7 +91,7 @@
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: clases danza arabe dance class hot xtreme girl halloween arab dancing halloween fitness ny health mu (https://archive.org/details/Danzaarabe-clasesDanzaArabeDanceClassHotXtremeGirlHalloweenArabDa241)"
+     "Footage: Drew's Famous Step By Step Party Dances [Full VHS] (https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs)"
     ],
     "music": "underscore",
     "needs": [
@@ -140,13 +140,12 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 3 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
     "needs": [
-     "costume_and_setting",
-     "images"
+     "costume_and_setting"
     ]
    },
    {
@@ -694,7 +693,11 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AUSMC-10548.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AA_soldier_is_shown_dancing_%22The_Electric_Slide%22_with_a_member_of_the_National_Football_League%27s_Denver_Broncos_Cheerleaders_at_the_Kandahar_Air_Field_in_Afghanistan_on_July_3%2C_2005_050703-A-FG235-022.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADancing_at_Red_Arrow_Park_in_Milwaukee_on_August_2%2C_2007_%281018291803%29.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -702,56 +705,39 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
-  "footage": [
+  "images": [
    {
-    "title": "clases danza arabe dance class hot xtreme girl halloween arab dancing halloween fitness ny health mu",
-    "url": "https://archive.org/details/Danzaarabe-clasesDanzaArabeDanceClassHotXtremeGirlHalloweenArabDa241",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/USMC-10548.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/USMC-10548.jpg/1280px-USMC-10548.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AUSMC-10548.jpg",
+    "description": "The spouses of deployed Combat Center Marines do the �Electric Slide.�"
    },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/A_soldier_is_shown_dancing_%22The_Electric_Slide%22_with_a_member_of_the_National_Football_League%27s_Denver_Broncos_Cheerleaders_at_the_Kandahar_Air_Field_in_Afghanistan_on_July_3%2C_2005_050703-A-FG235-022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/A_soldier_is_shown_dancing_%22The_Electric_Slide%22_with_a_member_of_the_National_Football_League%27s_Denver_Broncos_Cheerleaders_at_the_Kandahar_Air_Field_in_Afghanistan_on_July_3%2C_2005_050703-A-FG235-022.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "SPC JERRY T. COMBES, USA / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AA_soldier_is_shown_dancing_%22The_Electric_Slide%22_with_a_member_of_the_National_Football_League%27s_Denver_Broncos_Cheerleaders_at_the_Kandahar_Air_Field_in_Afghanistan_on_July_3%2C_2005_050703-A-FG235-022.jpg",
+    "description": "A soldier is shown dancing \"The Electric Slide\" with a member of the National Football League's Denver Broncos Cheerleaders at the Kandahar Air Field in Afghanistan on July 3, 2005.  (U.S. Army photo by Specialist Jerry T. Combes) (Released"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dancing_at_Red_Arrow_Park_in_Milwaukee_on_August_2%2C_2007_%281018291803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dancing_at_Red_Arrow_Park_in_Milwaukee_on_August_2%2C_2007_%281018291803%29.jpg/1280px-Dancing_at_Red_Arrow_Park_in_Milwaukee_on_August_2%2C_2007_%281018291803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Purple Slog from West Allis Wisconsin, USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancing_at_Red_Arrow_Park_in_Milwaukee_on_August_2%2C_2007_%281018291803%29.jpg",
+    "description": "Doing the Electric Slide"
+   }
+  ],
+  "footage": [
    {
     "title": "Drew's Famous Step By Step Party Dances [Full VHS]",
     "url": "https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs",
     "year": null,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
-   },
-   {
-    "title": "1992 VHS • Country Line Dancing 60 FPS",
-    "url": "https://archive.org/details/TheVistaGroup-CountryLineDancing",
-    "year": 1992,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Drew's Famous Step By Step Party Dances",
-    "url": "https://archive.org/details/drews-famous-step-by-step-party-dances",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "1992 VHS • More Country Line Dancing 60 FPS",
-    "url": "https://archive.org/details/TheVistaGroup-MoreCountryLineDancing",
-    "year": 1992,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Diane Horner's How To Country Line Dance [Full VHS]",
-    "url": "https://archive.org/details/diane-horners-how-to-country-line-dance-full-vhs",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "File:The electric teleprinter Automatik Lo 133 (2).webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/The_electric_teleprinter_Automatik_Lo_133_%282%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY 3.0",
-    "attribution": "Sound Recordist: Konrad Gutkowski, Photograper: Konrad Gutkowski, Video recordist: Konrad Gutkowski / Wikimedia Commons / CC BY 3.0"
    }
   ],
   "motifs": [],
@@ -849,7 +835,6 @@
   "tempo (bpm)",
   "meter",
   "instruments",
-  "licensed images (3 needed)",
   "posture, arms and hands",
   "the occasions & meaning section",
   "signature moves",
@@ -865,6 +850,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2d1189c1bfbd85d4f3fcd61f404e21b090e0dc43f3abdb8c78486008b3aa3f03",
+ "input_fingerprint": "b7e689a50992a752e64282d66629f3d1d0bbc4eafa50e8a13efd71628ab2f8cd",
  "hero_checked": "pass"
 }

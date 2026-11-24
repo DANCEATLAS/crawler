@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); signature moves; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Tripuri youth leader who emphasizes the connection between the dance and the survival of their agricultural heritage.
@@ -30,7 +30,7 @@ NARRATION: The dance is performed during annual regional celebrations that revol
 NARRATION: It is a communal celebration of the 'jhum' lifestyle.
 NARRATION: For the participants, the dance is a way to honor the land and ensure a bountiful harvest, often coinciding with festivals like Garia Puja or Mamita.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Cultural Heritage of The Ethnic People of Tripura - Documentary - EZCC.webm (https://upload.wikimedia.org/wikipedia/commons/0/0a/Cultural_Heritage_of_The_Ethnic_People_of_Tripura_-_Documentary_-_EZCC.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -306,7 +306,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 1 licensed — Akkkanksha / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: File:Cultural Heritage of The Ethnic People of Tripura - Documentary - EZCC.webm — https://upload.wikimedia.org/wikipedia/commons/0/0a/Cultural_Heritage_of_The_Ethnic_People_of_Tripura_-_Documentary_-_EZCC.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; The Multifarious Tribal Culture of Tripura — https://archive.org/details/dli.Multifarious.Tribal.Culture
+Footage: MISSING
 Motifs: Silver jewelry (chains and bangles), Bamboo flutes, Hillside agricultural plots (jhum fields), Traditional Tripuri textiles
 Costume notes: Dancers perform in the open air, typically within village squares or near agricultural fields during festival times. Women adorn themselves with traditional silver jewelry, including chains, rings, and bangles, as well as bronze ear and nose rings. The attire is colorful and reflects the ethnic identity of the specific clan or tribe, such as the Tripuri or Marma peoples.
 

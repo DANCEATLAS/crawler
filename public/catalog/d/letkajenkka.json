@@ -72,6 +72,19 @@
     "verified": false
    }
   ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Letkajenkka-1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Letkajenkka-1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1024,
+    "height": 870,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Erkki Laitila / Lehtikuva / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALetkajenkka-1964.jpg",
+    "description": "Letkajenkkaa tanssitaan itsenäisyyspäivän vastaanotolla."
+   }
+  ],
   "needs_eyes_on": true,
   "sacred_note": "not applicable",
   "movie_ready": false,
@@ -142,6 +155,22 @@
    "supported": 6,
    "rate": 1.0
   },
+  "images": [
+   {
+    "title": "File:Letkajenkka-1964.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Letkajenkka-1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Letkajenkka-1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1024,
+    "height": 870,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Erkki Laitila / Lehtikuva",
+    "description": "Letkajenkkaa tanssitaan itsenäisyyspäivän vastaanotolla.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALetkajenkka-1964.jpg",
+    "attribution": "Erkki Laitila / Lehtikuva / Wikimedia Commons / Public domain",
+    "found_in": "a search of Wikimedia Commons for its name"
+   }
+  ],
   "confidence": 1.0,
   "music_profile": {
    "tempo_bpm": "not described in sources",
@@ -266,7 +295,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -280,10 +309,6 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
-    "key": "picture",
-    "label": "a licensed picture or licensed footage"
    }
   ],
   "ritual_context": true
@@ -297,6 +322,6 @@
   "polished": false,
   "file": "episodes/letkajenkka.json"
  },
- "fingerprint": "4e40e8688366390d",
- "updated": "2026-11-21"
+ "fingerprint": "a0fbba75614cace2",
+ "updated": "2026-11-24"
 }

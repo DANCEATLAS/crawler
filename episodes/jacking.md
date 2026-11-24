@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); the costume & setting section; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); licensed reference footage; the costume & setting section; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A house dance historian or experienced club dancer.
@@ -26,7 +26,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The dance is associated with themes of liberation, sexual expression, and the abandonment of self-will in response to the music's beat.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Latin One House Dance Freestyle Mix # 170 (https://archive.org/details/latin-one-house-dance-freestyle-mix-170_202511)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -297,7 +297,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'TNwsQgRsr3o', 'checked_by_vision_model': True, 'title': 'House Dance Tutorial - Jacking Style'}
 Images: 0 licensed
-Footage: Latin One House Dance Freestyle Mix # 170 — https://archive.org/details/latin-one-house-dance-freestyle-mix-170_202511; Latin One House Freestyle & Dance Mix # 116 — https://archive.org/details/latin-one-house-freestyle-dance-mix-116_202301; BELGIUM Phase III DAY 4: it happen that your brain is sometimes faster than you — https://archive.org/details/d-3-day-4; The Jack Benny Program - first episode - 1950-10-28 - Dinah Shore — https://archive.org/details/19501028TheJackBennyProgramDinahShore
+Footage: MISSING
 Motifs: Dark, crowded nightclub lighting, Close-ups of torso movement, Vintage Chicago club footage
 
 

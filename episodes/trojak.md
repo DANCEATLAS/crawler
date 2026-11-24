@@ -1,8 +1,8 @@
 # Trojak — episode pack
 
-*Status: draft · built 2026-11-21 · judge 8.7 · 8/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.7 · 8/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; the costume & setting section; notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Silesian folk dance teacher with experience in trio dances
@@ -22,7 +22,7 @@ NARRATION: Trojak is a traditional folk dance from the Silesian region of Poland
 NARRATION: The name means "threesome" or "trio" in Polish, reflecting the dance's characteristic formation of one male and two female dancers.
 NARRATION: It is part of the Silesian folk dance tradition, which is a regional expression of Polish cultural heritage.
 ON SCREEN: Map: Poland · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -51,10 +51,10 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: costume_and_setting, images
+NEEDS: costume_and_setting
 
 ### 7. The people (60 s) · `people`
 NARRATION: Trojak is classified as a Silesian folk dance within the broader category of Polish folk dances.
@@ -305,7 +305,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'xh1chdtZ0YE', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
+Images: 3 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain); Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain); Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Circle formation of three dancers, Rolling arm gestures, Partner switching, Opposite directional movement and reunion
 

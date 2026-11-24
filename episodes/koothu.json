@@ -1,0 +1,406 @@
+{
+ "slug": "koothu",
+ "name": "Koothu",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T03:20:28Z",
+ "researched_at": "2026-11-23T22:10:13Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior nattuvanar from a traditional koothu pattarai, carrying commanding knowledge of epic lore, rhythmic pacing, and ritual stagecraft.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Koothu",
+   "kuttu",
+   "Tamil drama",
+   "Terukuttu",
+   "Therukoothu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Koothu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Voices in the Temple Square: The Overnight Epics of Koothu",
+     "This is Koothu. Ancient (Sangam period) to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Koothu · India · Ancient (Sangam period) to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Koothu originated in the early Tamilakam and has been practiced in Tamil Nadu since the Sangam period.",
+     "Classical Sangam literature such as the Silappatikaram contains detailed descriptions of the art form.",
+     "Developed as a folk medium combining drama, narrative, dance, and song, it emerged as both communal entertainment and a way to educate rural populations about religious lore and historical events."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Staged primarily during community festivals, Koothu performances are commonly dedicated to Hindu goddesses such as Mariamman or Draupadi.",
+     "Dramas draw upon episodes from Hindu epics including the Ramayana and Mahabharata, alongside wider mythology and regional folklore.",
+     "Beyond serving as festival entertainment, Koothu carries deep educational and religious significance, transmitting cultural heritage across generations.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:MANNAN Tribe - Part 3- Kalaavoottu- Annual Festival of Dance, Tribute & Atonement - ARPO Earthlore.webm (https://upload.wikimedia.org/wikipedia/commons/e/e0/MANNAN_Tribe_-_Part_3-_Kalaavoottu-_Annual_Festival_of_Dance%2C_Tribute_%26_Atonement_-_ARPO_Earthlore.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Koothu is danced as street theatre in open public areas like village squares and temple grounds.",
+     "Dancers enact scenes through play performance, narration, and singing, executing turns that cause their swirling skirts to billow outward.",
+     "Footwork relies on the weight of heavy anklets sounding against the earth.",
+     "Watch for Skirt Swirl, Anklet Strike."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Open public spaces, village squares, or temple grounds; arranged either in mobile procession or on a fixed outdoor performance area"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Koothu is accompanied by traditional musical instruments that provide rhythmic and melodic support for singing and dramatic dialogue.",
+     "Musicians work alongside the kattiyakaran, who delivers narration from the background while the koothar sing and speak their roles.",
+     "Listen for the traditional instruments.",
+     "Live traditional instruments accompany vibrant vocal delivery, where actors alternate between spoken dialogue and sung passages while a background narrator, the kattiyakaran, anchors the theatrical storytelling."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The performers wear elaborate wooden headgear, prominent face paint, and detailed stage make-up to denote divine, heroic, or demonic roles.",
+     "Costumes feature swirling skirts tailored to accentuate spinning movements, accessorised by heavy ornaments including metal anklets.",
+     "Performances traditionally occur outdoors in open public spaces, temple courtyards, or village clearings, often illuminated for overnight stagings."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Performers are traditionally trained in theatre workshops known as koothu pattarai under the instruction of a teacher called a nattuvanar.",
+     "Contemporary institutional custodians include the Koothu-P-Pattarai theater group and the Kattaikuthu Gurukulam, which provides structured training for younger generations of artisans.",
+     "Major forms include Terukuttu, which denotes mobile street performances, and Kattaikkuttu, denoting stationary overnight narrative plays.",
+     "Tracing back to the Sangam period of early Tamilakam, Koothu represents one of the oldest continuing dramatic lineages in South Asia."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Koothu is variant of Koodiyattam: Performed in Kerala in combination with Sanskrit theatre forms and Chakyar Koothu.",
+     "Koothu is variant of Chakyar Koothu: A Kerala theatrical tradition sharing historical and conceptual roots with Koothu.",
+     "Koothu is sibling of Kathakali: A fellow South Indian dance-theatre tradition sharing dramatic epic themes and elaborate facial makeup.",
+     "Koothu is sibling of Yakshagana: A related regional folk-theatre tradition incorporating epic narratives, prominent headgear, and dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Koothu performances are often sacred community rituals dedicated to Hindu deities such as Mariamman and Draupadi during temple festivals, requiring traditional ceremonial respect and adherence to local ritual codes."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Beneath village skies, Tamil actors don towering wooden crowns and swirling skirts to keep millennia-old epic tales alive.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "traditional instruments"
+  ],
+  "vocal_style": "Dramatic singing, dialogue recitation, and spoken narration by the kattiyakaran",
+  "musical_form": "Episodic narrative accompaniment supporting drama, song, and dialogue",
+  "mood": [
+   "epic",
+   "dramatic",
+   "narrative",
+   "festive",
+   "devotional"
+  ],
+  "sound_description": "Live traditional instruments accompany vibrant vocal delivery, where actors alternate between spoken dialogue and sung passages while a background narrator, the kattiyakaran, anchors the theatrical storytelling.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Koothu (India). Instruments: traditional instruments. Vocal style: Dramatic singing, dialogue recitation, and spoken narration by the kattiyakaran. Form: Episodic narrative accompaniment supporting drama, song, and dialogue. Mood: epic, dramatic, narrative, festive, devotional. It should sound like this: Live traditional instruments accompany vibrant vocal delivery, where actors alternate between spoken dialogue and sung passages while a background narrator, the kattiyakaran, anchors the theatrical storytelling. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The performers wear elaborate wooden headgear, prominent face paint, and detailed stage make-up to denote divine, heroic, or demonic roles. Costumes feature swirling skirts tailored to accentuate spinning movements, accessorised by heavy ornaments including metal anklets. Performances traditionally occur outdoors in open public spaces, temple courtyards, or village clearings, often illuminated for overnight stagings.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAritharam.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AMET_DP363734.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Aritharam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/39/Aritharam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Rajavasanthan / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAritharam.JPG",
+    "description": "The South Indian traditional Dram Called \"Theru Koothu\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/MET_DP363734.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/MET_DP363734.jpg/1280px-MET_DP363734.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMET_DP363734.jpg",
+    "description": "Southern India, Tamil Nadu, probably Thanjavur district; Mask; Sculpture"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:MANNAN Tribe - Part 3- Kalaavoottu- Annual Festival of Dance, Tribute & Atonement - ARPO Earthlore.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/MANNAN_Tribe_-_Part_3-_Kalaavoottu-_Annual_Festival_of_Dance%2C_Tribute_%26_Atonement_-_ARPO_Earthlore.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Earthlore by Archival and Research Project (ARPO) / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Chakyar Koothu of Kerala",
+    "url": "https://archive.org/details/dni.ncaa.CVI-BETA_796-BC",
+    "year": 2000,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Kalaavoottu: Annual Festival of Dance, Tribute & Atonement | MANNAN Tribe | Part 3",
+    "url": "https://archive.org/details/kaalayoottu-4-k",
+    "year": 2025,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Towering carved wooden headgear silhouetted against the night sky",
+   "Swirling skirts expanding in circular motion",
+   "Vivid, high-contrast face paint reflecting festival lamps",
+   "Heavy metal anklets striking the dust of an open village square"
+  ],
+  "costume_notes": "The performers wear elaborate wooden headgear, prominent face paint, and detailed stage make-up to denote divine, heroic, or demonic roles. Costumes feature swirling skirts tailored to accentuate spinning movements, accessorised by heavy ornaments including metal anklets. Performances traditionally occur outdoors in open public spaces, temple courtyards, or village clearings, often illuminated for overnight stagings.",
+  "setting_notes": "Staged primarily during community festivals, Koothu performances are commonly dedicated to Hindu goddesses such as Mariamman or Draupadi. Dramas draw upon episodes from Hindu epics including the Ramayana and Mahabharata, alongside wider mythology and regional folklore. Beyond serving as festival entertainment, Koothu carries deep educational and religious significance, transmitting cultural heritage across generations.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "71 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 71,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas",
+   "doble golpe con cada pie"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Koothu",
+  "https://www.wikidata.org/wiki/Q7681407"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "7aaef5cfaa36ef3f95b7f92ff276f59462e685624323eeb363daff22ada95f85",
+ "hero_checked": null
+}

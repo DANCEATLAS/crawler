@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; a hero video
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic Catalan bastoner captain, precise in rhythmic mechanics and proud of regional heritage.
@@ -22,7 +22,7 @@ NARRATION: The origins of ball de bastons are attributed by folklorists to prehi
 NARRATION: It is documented as the oldest traditional dance still performed in Catalonia, Aragon, and Valencia, with its earliest recorded mention dating to 1150 at the wedding banquet of Count Ramon Berenguer IV.
 NARRATION: Widespread by the 15th century, it shares historical roots with European traditions like English and Welsh Morris dancing and Portuguese dança de pauliteiros.
 ON SCREEN: Map: Spain · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -56,10 +56,9 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Traditional attire consists of white shirts, white trousers or velvet pants, colored waist sashes, a decorative short skirt (faldellín), colored chest handkerchiefs designating the group, and traditional 'espardenyes' (espadrilles).
 NARRATION: The sticks are traditionally made of dense holm oak wood, measuring 40–50 cm (16–20 inches) long and 5 cm (2 inches) thick.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Key individual roles within the performance group include the 'cabeza de cola' who directs the ensemble, and the 'banderero' (flag-bearer) stationed at the end of the line carrying a flag in the left hand and a single stick in the right hand.
@@ -324,7 +323,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 6 licensed — No machine-readable author provided. 1997 assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Jordi Sabaté / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Jordi Gili / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Jordi Gili / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Josep Domènech i Sàbat / Wikimedia Commons / Public domain (Public domain)
 Footage: File:Ball bastons.webm — https://upload.wikimedia.org/wikipedia/commons/8/89/Ball_bastons.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Red chest handkerchiefs and waist sashes against crisp white shirts, Close-up high-speed impact of oak bastons, Espadrilles stepping on stone plazas
 Costume notes: Traditional attire consists of white shirts, white trousers or velvet pants, colored waist sashes, a decorative short skirt (faldellín), colored chest handkerchiefs designating the group, and traditional 'espardenyes' (espadrilles). The sticks are traditionally made of dense holm oak wood, measuring 40–50 cm (16–20 inches) long and 5 cm (2 inches) thick.

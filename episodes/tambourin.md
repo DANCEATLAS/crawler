@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Provençal tambourinaire
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The tambourin is associated with Provençal traditions, street parades (cercaviles), and festive events.
 NARRATION: In Catalonia, the smaller tamborí is used in cobla ensembles for the sardana dance.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Le Tambourin fantastique (1907).webm (https://upload.wikimedia.org/wikipedia/commons/a/a0/Le_Tambourin_fantastique_%281907%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -290,7 +290,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'alEYTfNksqs', 'checked_by_vision_model': False, 'title': None}
 Images: 3 licensed — Unknown early 1900s / Wikimedia Commons / Public domain (Public domain); Daderot / Wikimedia Commons / Public domain (Public domain); Finoskov / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Le Tambourin fantastique (1907).webm — https://upload.wikimedia.org/wikipedia/commons/a/a0/Le_Tambourin_fantastique_%281907%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Jean-Philippe Rameau, UNA SINFONIA IMMAGINARIA - Marc Minkowski — https://archive.org/details/RameauUneSymphonieImaginaire
+Footage: MISSING
 Motifs: The cylindrical drum shape, The three-holed flute, The wooden massette beater
 
 

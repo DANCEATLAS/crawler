@@ -260,24 +260,12 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "1992 Houston International Folk Dancers Bulgarian TX Folklife Festival",
-    "url": "https://archive.org/details/1992HoustonInternationalFolkDancersBulgarian",
-    "year": null,
-    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-    "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-    "attribution": "Internet Archive",
-    "description": "This is a performance the Houston International Folk Dancers (HIFD) did in San Antonio at the 1992 Texas Folklife Festival. HIFD is a non profit community group dedicated to recreational dancing from around the world. HIFD is open to anyone who wishes to watch or dance and has been in existence sinc",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-07T16:32:47Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -291,6 +279,10 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
@@ -298,11 +290,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/yove-male-mome.json"
  },
- "fingerprint": "446eed912b4c4299",
- "updated": "2026-11-21"
+ "fingerprint": "09cbfe1f4a8d1631",
+ "updated": "2026-11-24"
 }

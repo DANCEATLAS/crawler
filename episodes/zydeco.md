@@ -1,8 +1,8 @@
 # Zydeco — episode pack
 
-*Status: draft · built 2026-11-17 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced Southwest Louisiana Creole social dancer who emphasizes floor connection, relaxed knees, and playing within the syncopated gaps of the music.
@@ -26,7 +26,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The dance serves as a social gathering practice and an avenue for personal improvisation and self-expression within Creole culture.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Bear in the Big Blue House LIVE! ON TOUR: The Crossover V2 (https://archive.org/details/bear-in-the-big-blue-house-live-on-tour-the-crossover-v2_202501)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -319,7 +319,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'CDgbEOnaksE', 'checked_by_vision_model': True, 'title': 'Basic Zydeco Dance Lesson - Part 1'}
 Images: 0 licensed
-Footage: Bear in the Big Blue House LIVE! ON TOUR: The Crossover V2 — https://archive.org/details/bear-in-the-big-blue-house-live-on-tour-the-crossover-v2_202501; The El Cajon Summer Concert Series Featuring the Bayou Brothers — https://archive.org/details/TheElCajonSummerConcertSeriesFeaturingTheBayouBrothers_913; Studio Session - Andre Thierry and Zydeco Magic — https://archive.org/details/Studio_Session_-_Andre_Thierry_and_Zydeco_Magic; A Cajun Christmas Jay B and the Zydeco Posse) — https://archive.org/details/A_Cajun_Christmas_Jay_B_and_the_Zydeco_Posse
+Footage: MISSING
 Motifs: Dust kicking off polished wood floorboards under low-heeled shoes, Side profiles emphasizing a steady torso while knees flex downward, Tight overhead frames of paired feet tracing clockwise circles
 
 

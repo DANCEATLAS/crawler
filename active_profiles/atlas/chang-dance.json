@@ -1,0 +1,161 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy instruments",
+          "Late-night performances"
+        ],
+        "counts": "Simple 1-2-3-4 drum beats.",
+        "duration_minutes": "10",
+        "game_version": "A 'follow the leader' style where children mimic the 'Sang' theatrical poses and drum rhythms."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid spinning",
+          "Carrying heavy 3-foot drums"
+        ],
+        "counts": "Simple 4/4 rhythmic striking.",
+        "seated_version": "Performers can sit in a circle holding smaller hand drums or tambourines, focusing on the rhythmic striking and singing of Dhamaal songs.",
+        "standing_version": "Stationary rhythmic stepping while holding a lightweight drum, avoiding the 'riotous' carousing to maintain balance.",
+        "tempo_and_range": "Reduced tempo; focus on arm movements for drumming rather than large spatial travel."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Carrying and striking the large chang instrument (2-3 feet radius)",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Group dance performed in a village square (Chauk)",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Theatrical representations or plays performed during the dance",
+          "name": "Sang"
+        }
+      ],
+      "tempo_feel": "Riotous and carousing",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Chang (duff)",
+        "Cymbals (bronze or iron)",
+        "Bamboo flute (8 holes)",
+        "Ghungroo (anklets)",
+        "Drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "riotous",
+        "celebratory",
+        "festive",
+        "rhythmic"
+      ],
+      "musical_form": "Folk songs called Dhamaal",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic beat of the chang instrument",
+      "sound_description": "The sound is dominated by the deep, resonant thrum of the large sheepskin chang drum, punctuated by the sharp metallic clashing of bronze cymbals and the melodic trills of a seven-holed bamboo flute. The dancers' anklets provide a constant rhythmic jingle that matches the vocal energy of the Dhamaal songs.",
+      "tempo_bpm": "",
+      "vocal_style": "Men singing riotously in a style called Dhamaal"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Gather in the village Chauk with the chang instrument",
+        "Strike the sheepskin drum in a steady rhythm",
+        "Sing Dhamaal folk songs in unison",
+        "Move in a group formation, carousing to the beat",
+        "Incorporate Sang (theatrical play) movements if assigned a role"
+      ],
+      "formation": "Group dance, often in a village square (Chauk)",
+      "level_notes": "The dance is described as systematic and disciplined in Shekhawati, requiring coordination between the drummer-dancers and the flute players.",
+      "rhythm": "Rhythmic beat provided by the chang drum and cymbals"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bc74819d608bc4992c296fc6ab38c91718ec74c8a890d98006201ad671d5156c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific roles or characters typically portrayed in the 'Sang' theatrical portion of the dance? Evidence needed: https://en.wikipedia.org/wiki/Chang_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic footwork patterns used by the men in Shekhawati while carrying the chang? Evidence needed: https://en.wikipedia.org/wiki/Chang_dance"
+    ]
+  },
+  "id": "atlas:chang-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Chang dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "5257f663c39846d7",
+      "next_evidence": "https://en.wikipedia.org/wiki/Chang_dance",
+      "question": "What are the specific rhythmic footwork patterns used by the men in Shekhawati while carrying the chang?",
+      "source": "https://en.wikipedia.org/wiki/Chang_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source describes the dance as 'disciplined' and 'systematic' but does not provide the actual steps needed for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "b9008b1094bc42b1",
+      "next_evidence": "https://en.wikipedia.org/wiki/Chang_dance",
+      "question": "What are the specific roles or characters typically portrayed in the 'Sang' theatrical portion of the dance?",
+      "source": "https://en.wikipedia.org/wiki/Chang_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the 'Sang' element, the specific folk characters and their associated movements must be known."
+    }
+  ],
+  "research_file": "research_results/chang-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "chang-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chang_dance",
+    "https://www.wikidata.org/wiki/Q19752913"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

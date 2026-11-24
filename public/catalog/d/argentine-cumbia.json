@@ -98,6 +98,30 @@
     "verified": false
    }
   ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Sudor_Marika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Sudor_Marika.jpg/1280px-Sudor_Marika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5520,
+    "height": 3680,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Soledad Amarilla / Ministerio de Cultura de la Nación / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASudor_Marika.jpg",
+    "description": "Argentinian cumbia music group Sudor Marika on stage. Picture by Soledad Amarilla / Ministerio de Cultura de la Nación."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Sudor_Marika_en_Plaza_de_Mayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Sudor_Marika_en_Plaza_de_Mayo.jpg/1280px-Sudor_Marika_en_Plaza_de_Mayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5184,
+    "height": 3456,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Mora Urzagasti / Wikimedia Commons / CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASudor_Marika_en_Plaza_de_Mayo.jpg",
+    "description": "Sudor Marika en Plaza de Mayo"
+   }
+  ],
   "movie_ready": false,
   "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
@@ -182,6 +206,36 @@
     "type": "Album",
     "source": "https://en.wikipedia.org/wiki/Argentine_cumbia",
     "verified": true
+   }
+  ],
+  "images": [
+   {
+    "title": "File:Sudor Marika.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Sudor_Marika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Sudor_Marika.jpg/1280px-Sudor_Marika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5520,
+    "height": 3680,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Soledad Amarilla / Ministerio de Cultura de la Nación",
+    "description": "Argentinian cumbia music group Sudor Marika on stage. Picture by Soledad Amarilla / Ministerio de Cultura de la Nación.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASudor_Marika.jpg",
+    "attribution": "Soledad Amarilla / Ministerio de Cultura de la Nación / Wikimedia Commons / CC BY-SA 2.0",
+    "found_in": "a search of Wikimedia Commons for its name"
+   },
+   {
+    "title": "File:Sudor Marika en Plaza de Mayo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Sudor_Marika_en_Plaza_de_Mayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Sudor_Marika_en_Plaza_de_Mayo.jpg/1280px-Sudor_Marika_en_Plaza_de_Mayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5184,
+    "height": 3456,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mora Urzagasti",
+    "description": "Sudor Marika en Plaza de Mayo",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASudor_Marika_en_Plaza_de_Mayo.jpg",
+    "attribution": "Mora Urzagasti / Wikimedia Commons / CC BY-SA 4.0",
+    "found_in": "a search of Wikimedia Commons for its name"
    }
   ],
   "gaps": [
@@ -312,7 +366,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -326,10 +380,6 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "picture",
-    "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
@@ -400,6 +450,6 @@
   "polished": false,
   "file": "episodes/argentine-cumbia.json"
  },
- "fingerprint": "a7937e4c34885281",
- "updated": "2026-11-21"
+ "fingerprint": "3c1cb8e4431851f8",
+ "updated": "2026-11-24"
 }

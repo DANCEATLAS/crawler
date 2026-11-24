@@ -1,6 +1,6 @@
 # Eccentric dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Eccentric dance developed as a recognized genre in the United States during the late 19th and early 20th centuries.
 NARRATION: It arose from the dynamic collision of traditional European-derived clog and tap dancing with the expressive freedom and rhythmic character of African and exotic dance traditions.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -54,7 +54,7 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The dance was performed in vaudeville theatres, music halls, Broadway stages, and soundstages for cinematic comedies.
 NARRATION: Costumes typically emphasized physical humor, visual distortion, and character archetypes, ranging from baggy street clothes and exaggerated comic suits to theatrical stage outfits like Ray Bolger's floppy straw-filled Scarecrow costume in The Wizard of Oz.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -320,8 +320,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '_RHHUmGaRsk', 'checked_by_vision_model': True, 'title': 'Dickie Henderson - Leg Mania: Eccentric Dance routine with Billy Dainty and Max Wall 1971'}
-Images: 0 licensed
-Footage: File:A Breeze From The South (1928).webm — https://upload.wikimedia.org/wikipedia/commons/4/47/A_Breeze_From_The_South_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Eccentric Dance (1902) Directed By Alice Guy Blaché — https://archive.org/details/eccentric-dance-1902-directed-by-alice-guy-blache
+Images: 1 licensed — Henri de Toulouse-Lautrec / Wikimedia Commons / Public domain (Public domain)
+Footage: File:A Breeze From The South (1928).webm — https://upload.wikimedia.org/wikipedia/commons/4/47/A_Breeze_From_The_South_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Floppy fabric and oversized theatrical trousers exaggerating leg wobble, Vaudeville footlights casting elongated comic shadows, Split-screen comparison of rigid Irish jigs versus loose eccentric footwork
 Costume notes: The dance was performed in vaudeville theatres, music halls, Broadway stages, and soundstages for cinematic comedies. Costumes typically emphasized physical humor, visual distortion, and character archetypes, ranging from baggy street clothes and exaggerated comic suits to theatrical stage outfits like Ray Bolger's floppy straw-filled Scarecrow costume in The Wizard of Oz.
 

@@ -2,7 +2,7 @@
  "slug": "la-bamba",
  "name": "La Bamba",
  "pack_version": "e2",
- "built_at": "2026-11-22T20:20:48Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-14T16:49:00Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -80,7 +80,7 @@
     ],
     "on_screen": [
      "Map: Mexico · North America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -95,7 +95,7 @@
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: File:La bamba o twist and shout ritmo.webm (https://upload.wikimedia.org/wikipedia/commons/2/2e/La_bamba_o_twist_and_shout_ritmo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+     "Footage: File:Bailando la bamba en el museo de antropologia.webm (https://upload.wikimedia.org/wikipedia/commons/9/91/Bailando_la_bamba_en_el_museo_de_antropologia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
     ],
     "music": "underscore"
    },
@@ -143,7 +143,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -729,7 +729,9 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALa_Bamba.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -737,22 +739,17 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
-  "footage": [
+  "images": [
    {
-    "title": "File:La bamba o twist and shout ritmo.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/La_bamba_o_twist_and_shout_ritmo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 3.0",
-    "attribution": "Elenaf / Wikimedia Commons / CC BY-SA 3.0"
-   },
-   {
-    "title": "File:Andrés Flores explicando como tocar la Bamba.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Andr%C3%A9s_Flores_explicando_como_tocar_la_Bamba.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/La_Bamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/La_Bamba.jpg/1280px-La_Bamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Maria Fernanda Lira Silva / Wikimedia Commons / CC BY-SA 4.0",
     "license": "CC BY-SA 4.0",
-    "attribution": "Koffermejia / Wikimedia Commons / CC BY-SA 4.0"
-   },
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALa_Bamba.jpg",
+    "description": "Es uno de los sones más gustados del estado de Veracruz y se interpreta casi siempre por una pareja de enamorados que con una banda o faja roja en el piso hacen un “lazo” con solo el movimiento de los pies."
+   }
+  ],
+  "footage": [
    {
     "title": "File:Bailando la bamba en el museo de antropologia.webm",
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bailando_la_bamba_en_el_museo_de_antropologia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -773,27 +770,6 @@
     "year": null,
     "license": "CC0",
     "attribution": "Koffermejia / Wikimedia Commons / CC0"
-   },
-   {
-    "title": "The Wiggles You Make Me Feel Like Dancing! ( 2008)",
-    "url": "https://archive.org/details/the-wiggles-you-make-me-feel-like-dancing-2008",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Billy & Ruby's Sing & Play Along",
-    "url": "https://archive.org/details/billy-rubys-sing-play-along_202207",
-    "year": 1995,
-    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "CantaJuego - Lo Mejor de Puli",
-    "url": "https://archive.org/details/youtube-PZGtIi-E2js",
-    "year": 2021,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
    }
   ],
   "motifs": [
@@ -891,6 +867,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "2d71def49b4d5f8e2ec351578b965b430f6ab284079655302b3625803b3ece0e",
+ "input_fingerprint": "c7c50d6303c2c9a33bb7ab15aa533f67dd6fe4767efc74efbd4a88d2354ef666",
  "hero_checked": "pass"
 }

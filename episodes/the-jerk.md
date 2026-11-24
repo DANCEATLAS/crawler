@@ -1,6 +1,6 @@
 # The Jerk — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; licensed images (3 needed); the costume & setting section
 
@@ -320,7 +320,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'TZdvihA7Y1A', 'checked_by_vision_model': True, 'title': "DANCE CRAZES OF THE '60S (Compiled by Toni Basil)"}
 Images: 0 licensed
-Footage: Down And Dirty: The Contemporary Versions Of The Great All Time Dances! [Full VHS] — https://archive.org/details/down-and-dirty-the-contemporary-versions-of-the-great-all-time-dances-full-vhs; Get Down And Get With It Slade — https://archive.org/details/get-down-and-get-with-it-slade; File:Double Kettlebell Clean and Jerk.webm — https://upload.wikimedia.org/wikipedia/commons/e/ee/Double_Kettlebell_Clean_and_Jerk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Barbell Jerk.webm — https://upload.wikimedia.org/wikipedia/commons/2/20/Barbell_Jerk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: Down And Dirty: The Contemporary Versions Of The Great All Time Dances! [Full VHS] — https://archive.org/details/down-and-dirty-the-contemporary-versions-of-the-great-all-time-dances-full-vhs
 Motifs: 1960s vinyl records, Conductor-like arm gestures, Archive footage of 1960s dance halls
 
 

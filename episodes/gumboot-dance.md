@@ -1,8 +1,8 @@
 # Gumboot dance — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable cultural historian or experienced Gumboot dancer.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Historically used for communication and as a morale booster, it is now a performance art.
 NARRATION: It serves as a cultural record of the miners' struggle, resistance, and identity, often performed at festivals and in public plazas.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Aman Folk Ensemble presents The Immigrants (https://archive.org/details/calauem_000460)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -311,7 +311,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'fYYYymWvhAI', 'checked_by_vision_model': True, 'title': 'Gumboot Dance'}
 Images: 1 licensed — Michal Maňas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
-Footage: Aman Folk Ensemble presents The Immigrants — https://archive.org/details/calauem_000460; Cobi van Tonder ATC Lecture at UC Berkeley — https://archive.org/details/CobiVanTonderAtcLectureAtUcBerkeley
+Footage: MISSING
 Motifs: Wellington boots, Bottle caps attached to boots, Mine tunnel imagery
 Costume notes: Performers wear Wellington boots, sometimes painted or decorated with bells and bottle caps. Costumes vary by group, ranging from work-related gear like helmets to school uniforms or traditional attire.
 

@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance is a form of 'entertaining dance' in many tribes, though it retains spiritual significance.
 NARRATION: It is used for storytelling, healing ceremonies, and as a competitive cultural heritage event.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: dance dance dance. (https://archive.org/details/Rustedgate-danceDanceDance726)
+ON SCREEN: Footage: Nokturnal - Jamaica (https://archive.org/details/nokturnal-jamaica)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -101,7 +101,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '4zjHK0tqgkc', 'checked_by_vision_model': True, 'title': None}
 Images: 3 licensed — karol m from arizona, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Photo courtesy PDPhoto.org / Wikimedia Commons / Public domain (Public domain); Peterwchen / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: dance dance dance. — https://archive.org/details/Rustedgate-danceDanceDance726; dance dance dance. — https://archive.org/details/Rustedgate-danceDanceDance726-3; 1960s HOME MOVIE NATIVE AMERICAN PUEBLOS & DANCES CHIMAYO TAOS GALLUP TESUQUE NEW MEXICO 55904 — https://archive.org/details/55904-chimayo-rexfer; Nokturnal - Jamaica — https://archive.org/details/nokturnal-jamaica; PUEBLO INDIAN BOY 1940s FORD MOTOR COMPANY FILM 32784 — https://archive.org/details/32784IndiaLife; American Indian Dance: The Story of a Young Bird — https://archive.org/details/American_Indian_Dance_-_The_Story_of_a_Young_Bird; Funny or Die Video d513e0c33a: Pete FourWinds - Native American Hoop Dancer — https://archive.org/details/funny_or_die_video_d513e0c33a
+Footage: Nokturnal - Jamaica — https://archive.org/details/nokturnal-jamaica; PUEBLO INDIAN BOY 1940s FORD MOTOR COMPANY FILM 32784 — https://archive.org/details/32784IndiaLife; American Indian Dance: The Story of a Young Bird — https://archive.org/details/American_Indian_Dance_-_The_Story_of_a_Young_Bird; Funny or Die Video d513e0c33a: Pete FourWinds - Native American Hoop Dancer — https://archive.org/details/funny_or_die_video_d513e0c33a
 Motifs: Interlocking hoops, Eagle-like arm movements, Traditional regalia
 Costume notes: Dancers wear regalia that allows for fluid movement. Hoops are typically 24 inches in diameter, traditionally made of willow but now often constructed from plastic piping or reeds, decorated with paint and tape.
 

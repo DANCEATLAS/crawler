@@ -2,7 +2,7 @@
  "slug": "jumpstyle",
  "name": "Jumpstyle",
  "pack_version": "e2",
- "built_at": "2026-11-16T22:22:18Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-12T18:06:43Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -81,7 +81,7 @@
     ],
     "on_screen": [
      "Map: Belgium, Netherlands · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -140,7 +140,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 2 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -721,7 +721,10 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKoefnoen_jumpstyle.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APatrick_jumpen_mantizz.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -729,7 +732,24 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Koefnoen_jumpstyle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Koefnoen_jumpstyle.jpg/1280px-Koefnoen_jumpstyle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pixel Addict / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKoefnoen_jumpstyle.jpg",
+    "description": "w:nl:Koefnoen-satire met drie \"ministers\" die jumpstyle doen. Zie ook de clip (geen screenshot). v.l.n.r. worden André Rouvoet, Jan Peter Balkenende en Wouter Bos nagedaan. Op de achtergrond het Mauritshuis aan de rechterkant - aan de linkerkant het Torentje."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Patrick_jumpen_mantizz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/Patrick_jumpen_mantizz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Patrick Mantizz / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APatrick_jumpen_mantizz.jpg",
+    "description": "Dutch dancer Patrick Mantizz from w:nl:Patrick Jumpen"
+   }
+  ],
   "footage": [
    {
     "title": "File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm",
@@ -737,27 +757,6 @@
     "year": null,
     "license": "CC BY-SA 4.0",
     "attribution": "Zelio007 / Wikimedia Commons / CC BY-SA 4.0"
-   },
-   {
-    "title": "jumpstyle",
-    "url": "https://archive.org/details/jumpstyle_202306",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Jump-Tonic - The Best Electro Dance Videoclips",
-    "url": "https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495",
-    "year": 2008,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Jeckyll & Hyde | Jumpstyle - La Danse Macabre",
-    "url": "https://archive.org/details/youtube-cRHdqxcKY1M",
-    "year": 2011,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
    },
    {
     "title": "Jumpstyle Tutorial ( English)",
@@ -854,6 +853,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2e6593267ac6e8590ca73d265cf9405b5cea6d24b215d3a0ac71291142c6faf5",
+ "input_fingerprint": "d7f82cc53f1c334ba8d77cf90543f422c162115e8f24b694157790a897e39db0",
  "hero_checked": "pass"
 }

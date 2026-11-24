@@ -205,24 +205,12 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "File:Saul speaking Zaramo, English.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Saul_speaking_Zaramo%2C_English.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "attribution": "Wikitongues Inc / Wikimedia Commons / CC BY-SA 4.0",
-    "description": "Saul speaking Zaramo, is a Niger-Congo language spoken by the Zaramo people of eastern Tanzania and English.",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ASaul_speaking_Zaramo%2C_English.webm",
-    "source": "commons"
-   }
-  ],
   "researched_at": "2026-11-05T18:08:28Z",
   "qc_score": 9.45
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 6,
   "of": 15,
   "missing": [
    {
@@ -256,6 +244,10 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
@@ -263,11 +255,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 10,
+  "gaps": 11,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/zaramo.json"
  },
- "fingerprint": "1227820b0b1fe973",
- "updated": "2026-11-21"
+ "fingerprint": "eb7a7ab943da0f00",
+ "updated": "2026-11-24"
 }

@@ -1,0 +1,161 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-extending the lower back",
+          "Colliding with others in a stationary space"
+        ],
+        "counts": "Simple 1-2-3-4 counts with exaggerated arm movements.",
+        "duration_minutes": "2",
+        "game_version": "A 'statue' game where children must Frug during the music and freeze in a Fosse-style pose when it stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Vigorous jerking motions",
+          "Sharp torso twists",
+          "Unsupported standing if balance is an issue"
+        ],
+        "counts": "Focus on a simple 1-2-1-2 side-to-side count.",
+        "seated_version": "Perform the lateral hip shifts while seated in a firm chair, keeping feet flat on the floor.",
+        "standing_version": "Hold onto a stable barre or chair back while performing gentle side-to-side hip sways.",
+        "tempo_and_range": "Reduce tempo by 20% and limit the range of hip motion to avoid lower back strain."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Variable and improvised; can include swimming motions, jerking, or stylized poses.",
+      "difficulty": "beginner",
+      "footwork": "Stationary; feet stay planted on the floor.",
+      "formation_and_space": "Stationary solo dancing; requires very little floor space.",
+      "hips_and_torso": "Vigorous lateral (side-to-side) hip movements; torso moves in response to the hips.",
+      "levels_and_jumps": "None; the dance is grounded and stays on one level.",
+      "partnering": "None; performed individually.",
+      "posture": "Upright but relaxed, knees slightly soft to allow hip mobility.",
+      "signature_moves": [
+        {
+          "description": "A stylized, detached posture with minimal movement, popularized by Bob Fosse.",
+          "name": "The Aloof"
+        },
+        {
+          "description": "A more aggressive, grounded movement phase in Fosse's choreography.",
+          "name": "The Heavyweight"
+        }
+      ],
+      "tempo_feel": "Vigorous and energetic, matching the driving pop beat.",
+      "what_to_avoid": "Avoid excessive traveling; the essence of the Frug is staying in one spot."
+    },
+    "music_profile": {
+      "instruments": [
+        "Electric guitar",
+        "Drums",
+        "Bass guitar",
+        "Saxophone"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "youthful",
+        "rebellious",
+        "rhythmic"
+      ],
+      "musical_form": "Verse-chorus structure",
+      "reference_recordings": [
+        {
+          "artist": "The B-52s",
+          "title": "Rock Lobster"
+        },
+        {
+          "artist": "Rilo Kiley",
+          "title": "Frug"
+        }
+      ],
+      "rhythm_pattern": "Heavy backbeat on 2 and 4",
+      "sound_description": "A driving mid-tempo rock or pop sound with a prominent snare drum backbeat and jangly electric guitars, typical of the 1964-1966 era.",
+      "tempo_bpm": "110-130",
+      "vocal_style": "Pop/Rock energetic vocals"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand with feet shoulder-width apart, knees slightly bent.",
+        "Shift weight subtly between feet without lifting them from the floor.",
+        "Drive the hips laterally from left to right in time with the music.",
+        "Keep the upper torso relatively loose to absorb the hip motion.",
+        "Incorporate improvised arm movements such as the 'Swim' or 'Monkey' gestures."
+      ],
+      "formation": "Solo, stationary, often in a crowded social dance floor setting.",
+      "level_notes": "Beginners should focus on the hip isolation before adding arm movements.",
+      "rhythm": "4/4 time with a strong backbeat on counts 2 and 4."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "8c961f205434cf6d65f8d94939b8b00d41860a238fd865f1e26c6d32535d3656",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there archival recordings of non-choreographed social Frug dancing from 1964-1965 discotheques? Evidence needed: https://en.wikipedia.org/wiki/Frug_(dance)"
+    ]
+  },
+  "id": "atlas:the-frug",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "The Frug",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1b58e7be5316b4f6",
+      "next_evidence": "https://en.wikipedia.org/wiki/Frug_(dance)",
+      "question": "Are there archival recordings of non-choreographed social Frug dancing from 1964-1965 discotheques?",
+      "source": "https://en.wikipedia.org/wiki/Frug_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To distinguish between the highly stylized Fosse version and the actual social practice of the era."
+    }
+  ],
+  "research_file": "research_results/the-frug.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "the-frug",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Frug_(dance)",
+    "https://www.wikidata.org/wiki/Q7735386"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

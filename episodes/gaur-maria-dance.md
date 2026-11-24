@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A village elder from the Sing Maria community, emphasizing the joy and ancestral pride of the hunt.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Performed primarily for marriages, the dance is a celebration of joy and a tribute to the spirit of hunting.
 NARRATION: It serves to depict hunting procedures and reinforce tribal identity through communal performance.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Manipuri: Subtle, Sublime, and Seren (https://archive.org/details/dli.pb.manipuri)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -310,7 +310,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'RtNwAjTY22s', 'checked_by_vision_model': True, 'title': 'Gaur Maria tribal dance from Madhya Pradesh'}
 Images: 2 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ramesh Lalwani / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: Manipuri: Subtle, Sublime, and Seren — https://archive.org/details/dli.pb.manipuri
+Footage: MISSING
 Motifs: Bison horns silhouetted against the sky, The blur of peacock feathers in motion, Intricate tribal tattoos on the women's arms, Dust rising from the dancing ground under rhythmic feet
 Costume notes: Men wear head-dresses with bison horns, peacock feathers, and stringed cowries. Women wear brass fillets, bead necklaces, and have tattooed bodies. The dance is performed in open dancing grounds during marriage celebrations.
 

@@ -1,6 +1,6 @@
 # Shim Sham — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); two or more connections
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Created in the late 1920s by Leonard Reed and Willie Bryant, the routine was originally called 'Goofus' and performed on the T.O.B.A. circuit.
 NARRATION: It later became a staple in Harlem venues and was popularized as a line dance at the Savoy Ballroom.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -52,7 +52,7 @@ NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Historically performed on stage in theatres and clubs; today it is performed in ballrooms and at swing dance parties.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -316,8 +316,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '268jUcVRdoY', 'checked_by_vision_model': True, 'title': 'Shim Sham for Absolute Beginners'}
-Images: 0 licensed
-Footage: File:Shim Sham at CCX 2022.webm — https://upload.wikimedia.org/wikipedia/commons/9/93/Shim_Sham_at_CCX_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Let's Tap! [VHS, 1992] — https://archive.org/details/lets-tap-vhs; Tap With Ginger--90 Minutes Beginner Level (1994) — https://archive.org/details/tap-with-ginger-90-minutes-beginner
+Images: 1 licensed — jayjjj1955 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: File:Shim Sham at CCX 2022.webm — https://upload.wikimedia.org/wikipedia/commons/9/93/Shim_Sham_at_CCX_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Archival footage of 1930s Harlem, Close-up of tap shoes on wooden floors, Line of dancers in a ballroom
 Costume notes: Historically performed on stage in theatres and clubs; today it is performed in ballrooms and at swing dance parties.
 

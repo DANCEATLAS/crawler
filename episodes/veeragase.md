@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Maheshwara elder who emphasizes the spiritual weight and ancestral lineage of every step.
@@ -30,7 +30,7 @@ NARRATION: Veeragase is performed during significant Hindu festivals and Veerash
 NARRATION: It is a ritualistic reenactment of divine justice and fury, intended to honor Shiva and Veerabhadra.
 NARRATION: The act of mouth-piercing signifies deep devotion and the suppression of the ego.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Folk Dances of Karnataka (https://archive.org/details/dni.ncaa.ICCR-93-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -105,7 +105,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'PaTicy6gpIk', 'checked_by_vision_model': True, 'title': 'Veeragase Kunitha - Veerabhadra Dance - Folk Dance of Karnataka'}
 Images: 1 licensed — Nikhilmhatre294 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: Folk Dances of Karnataka — https://archive.org/details/dni.ncaa.ICCR-93-VHS
+Footage: MISSING
 Motifs: The orange flag atop the Nandikolu pole, The silver needles used for ritual piercing, Vibrant, warrior-style costumes, Sweat-streaked faces of the dancers during intense movement
 Costume notes: Performers wear traditional warrior-like attire, often including elaborate headgear and ornaments. A key ritualistic element involves the piercing of a needle through the mouth. The performance often takes place in temple courtyards or during religious processions, centered around the Nandikolu pole.
 

@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior elder or cultural custodian from Tulu Nadu discussing the heritage, ecological meaning, and sacred etiquette of daiva worship.
@@ -30,7 +30,7 @@ NARRATION: Panjurli is invoked during annual festivals, Bhoota Kola gatherings, 
 NARRATION: The deity symbolizes environmental stewardship, communal protection, fertility, and justice.
 NARRATION: Regarded as a mandatory deity in Tuluva families, Panjurli's ritual functions as a venue for communal decision-making and cross-caste participation, maintaining social harmony and settling disputes.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Padhana on Panjurli Daiva (video-converter.com).webm (https://upload.wikimedia.org/wikipedia/commons/5/5d/Padhana_on_Panjurli_Daiva_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -100,7 +100,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'Ac_8bkJelD4', 'checked_by_vision_model': True, 'title': 'Panjurli Nema - Barebail Mangalore Yeyyady #kantara '}
 Images: 4 licensed — Hiart / Wikimedia Commons / CC0 (CC0); Wikimedia Commons / Public domain (Public domain); Vaishakh Mijar / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mosharie / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Padhana on Panjurli Daiva (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Padhana_on_Panjurli_Daiva_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Rudra Minukku face painting, Wild boar iconography and symbolic attributes, Nighttime ritual arena illuminated by ceremonial lamps, Community assemblies gathered across caste lines
 Costume notes: Ceremonies take place during annual festivals and community gatherings in Tulu Nadu and Northern Kerala shrines. In the Kasaragod Theyyam tradition, the performer's face is painted in the design known as Rudra Minukku. The deity represents the divine wild boar, and rituals incorporate ceremonial offerings, including chickens offered by devotees.
 

@@ -1,6 +1,6 @@
 # Renaissance dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; posture, arms and hands; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Dance was a social activity and a marker of education and status.
 NARRATION: It was used for display and entertainment at court, but also functioned as a communal activity that could be joined by anyone present at social events.
 NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: Renaissance Dance Bands 1551 1599, Tylman Susato Thomas Morley ( Centurys Recording David Munrow) (https://archive.org/details/renaissance-dance-bands-1551-1599-tylman-susato-thomas-morley-centurys-recording-david-munrow)
+ON SCREEN: Footage: Classic-Banjo - Video: Boo-Yah Besard (https://archive.org/details/classic-banjo-videos-c891688d42373eeecb2b1d5e26d55e4e88456457)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -288,7 +288,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'hVBlFUb0g60', 'checked_by_vision_model': True, 'title': None}
 Images: 4 licensed — Possibly Marcus Gheeraerts (according to Brissenden) / Wikimedia Commons / Public domain (Public domain); Leonardo da Vinci / Wikimedia Commons / Public domain (Public domain); Ambrosius Benson / Wikimedia Commons / Public domain (Public domain); Israhel van Meckenem / Wikimedia Commons / Public domain (Public domain)
-Footage: Renaissance Dance Bands 1551 1599, Tylman Susato Thomas Morley ( Centurys Recording David Munrow) — https://archive.org/details/renaissance-dance-bands-1551-1599-tylman-susato-thomas-morley-centurys-recording-david-munrow; Jessica Comeau- Saltarello, 14th Cent. (Medieval / Renaissance Dance Music) — https://archive.org/details/youtube-u4j-QCnIxxA; Classic-Banjo - Video: Boo-Yah Besard — https://archive.org/details/classic-banjo-videos-c891688d42373eeecb2b1d5e26d55e4e88456457
+Footage: Classic-Banjo - Video: Boo-Yah Besard — https://archive.org/details/classic-banjo-videos-c891688d42373eeecb2b1d5e26d55e4e88456457
 
 
 

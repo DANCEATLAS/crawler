@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic traditional dancer and dance historian focusing on rhythm, posture, and historical accuracy.
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Clog dance encompasses traditional step dance forms defined by percussive footwear across Wales, Northern England, the Netherlands, and North America.
 NARRATION: Over time, European clog traditions contributed to the development of tap dance and American clogging.
 ON SCREEN: Map: United Kingdom · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -53,10 +53,9 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The defining attire consists of clogs with rigid wooden soles.
 NARRATION: Dancing requires a hard floor surface capable of echoing the percussive strikes of the footwear.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Composer Percy Aldridge Grainger designated his work 'Handel in the Strand' for clog dancing; Charles C. Bertholdt published 'Wooden Shoe Clog Dance' for banjos in 1890.
@@ -314,8 +313,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'BT9naCq0fdE', 'checked_by_vision_model': True, 'title': 'La Fille mal gardée - The Clog Dance from Act I (The Royal Ballet)'}
-Images: 0 licensed
-Footage: File:Charlwood Music Festival 2024 Surrey England Anocalypse Now Appalachian traditional step dance 02.webm — https://upload.wikimedia.org/wikipedia/commons/4/4a/Charlwood_Music_Festival_2024_Surrey_England_Anocalypse_Now_Appalachian_traditional_step_dance_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; "Too Utterly Too" Clog Dance — https://archive.org/details/tooUtterlyTooClogDance; Reading Clog & Step Dance Festival Performers' Show 1990 — https://archive.org/details/ReadingClogStepDanceFestivalPerformersShow1990; The Highland Dirk Dance From Mary Isdale MacNab — https://archive.org/details/TheHighlandDirkDanceFromMaryIsdaleMacNab; The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music) — https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino; Collecting Traditional Dance — https://archive.org/details/CollectingTraditionalDance; Millions Love Watching This Mountain Clog Dance. You Will Too. Take A Look At The Very Best — https://archive.org/details/youtube-cs2j8f7H2WY
+Images: 6 licensed — Larry D. Moore / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Tina Olson Hvitfeldt / Wikimedia Commons / CC0 (CC0); dorsetbays / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Harrison Keely / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Harrison Keely / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
+Footage: File:Charlwood Music Festival 2024 Surrey England Anocalypse Now Appalachian traditional step dance 02.webm — https://upload.wikimedia.org/wikipedia/commons/4/4a/Charlwood_Music_Festival_2024_Surrey_England_Anocalypse_Now_Appalachian_traditional_step_dance_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Reading Clog & Step Dance Festival Performers' Show 1990 — https://archive.org/details/ReadingClogStepDanceFestivalPerformersShow1990; Millions Love Watching This Mountain Clog Dance. You Will Too. Take A Look At The Very Best — https://archive.org/details/youtube-cs2j8f7H2WY
 Motifs: Close-ups of wooden soles striking timber floors, Archival sheet music scores from 1890 and 1912
 Costume notes: The defining attire consists of clogs with rigid wooden soles. Dancing requires a hard floor surface capable of echoing the percussive strikes of the footwear.
 

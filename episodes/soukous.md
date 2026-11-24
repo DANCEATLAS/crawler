@@ -1,6 +1,6 @@
 # soukous — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; two or more connections; what to avoid / common mistakes
 
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Soukous is a celebratory genre used for social gatherings.
 NARRATION: It has served as a vehicle for both political expression and personal storytelling, with lyrics covering themes of love, struggle, and success.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: 0cbf 58305382f 8916e 69800315e 14e 6c 56185588 360p (https://archive.org/details/0cbf-58305382f-8916e-69800315e-14e-6c-56185588-360p)
+ON SCREEN: Footage: AFRICA DANCE VOL. 1 (2002) 🌍 — COMPILATION AFRICAINE – DVD COMPLET (https://archive.org/details/africa-dance-1)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -309,7 +309,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'XS4ErzpF9uw', 'checked_by_vision_model': True, 'title': 'Soukous Vibration Dancers - II'}
 Images: 8 licensed — unknown, Ngoma / Wikimedia Commons / Public domain (Public domain); BIB39 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); BIB39 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mbokamosika / Wikimedia Commons / Public domain (Public domain); Unknown author / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: 0cbf 58305382f 8916e 69800315e 14e 6c 56185588 360p — https://archive.org/details/0cbf-58305382f-8916e-69800315e-14e-6c-56185588-360p; AFRICA DANCE VOL. 1 (2002) 🌍 — COMPILATION AFRICAINE – DVD COMPLET — https://archive.org/details/africa-dance-1; File:Werra Son (Congo) Music video of "Waka Waka".webm — https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Moise speaking French, English, Lingala, Hunde, Congo Swahili.webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Moise_speaking_French%2C_English%2C_Lingala%2C_Hunde%2C_Congo_Swahili.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Hbd Lingala gâteau 05.webm — https://upload.wikimedia.org/wikipedia/commons/4/4c/Hbd_Lingala_g%C3%A2teau_05.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: AFRICA DANCE VOL. 1 (2002) 🌍 — COMPILATION AFRICAINE – DVD COMPLET — https://archive.org/details/africa-dance-1
 Motifs: Guitar fretboard close-ups, Urban dance hall scenes, Vibrant fashion
 Costume notes: Historically associated with dance halls and urban clubs in Kinshasa and Brazzaville, soukous is a staple of weddings and public festivals. Fashion and elegance, particularly within the Sapeur movement, are integral to the performance culture.
 

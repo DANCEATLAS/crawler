@@ -1,6 +1,6 @@
 # Taualuga — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 9.35 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.35 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 

@@ -1,6 +1,6 @@
 # Quebradita — episode pack
 
-*Status: draft · built 2026-11-21 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the costume & setting section
 
@@ -328,7 +328,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'uIF8MrZ2ptA', 'checked_by_vision_model': True, 'title': 'New Quebradita Mix# 1 2019'}
 Images: 1 licensed — Edil Villa / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: L.A. Banda: Dance of the New L.A. — https://archive.org/details/clloy_000027; Baile de la Quebradita — https://archive.org/details/vid-20250927-223344; File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 01.webm — https://upload.wikimedia.org/wikipedia/commons/9/97/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 02.webm — https://upload.wikimedia.org/wikipedia/commons/b/b8/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: L.A. Banda: Dance of the New L.A. — https://archive.org/details/clloy_000027; Baile de la Quebradita — https://archive.org/details/vid-20250927-223344
 Motifs: 1990s television footage, Close-ups of footwork, Technobanda musical instruments
 
 

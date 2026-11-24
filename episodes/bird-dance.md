@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.1 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; signature moves; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; signature moves; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian or Yuman tradition bearer.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The dance is a nocturnal event that lasts all night.
 NARRATION: It is deeply connected to Yuman cultural identity and oral history, with songs reflecting migration narratives.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Five Windows into Africa: a CD-ROM (2000) (https://archive.org/details/FiveWindowsIntoAfrica2000)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -102,7 +102,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'nPhVOZiPokA', 'checked_by_vision_model': False, 'title': None}
 Images: 4 licensed — Joe Mabel / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Joe Mabel / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Infrogmation of New Orleans / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Villwock / Wikimedia Commons / Public domain (Public domain)
-Footage: Five Windows into Africa: a CD-ROM (2000) — https://archive.org/details/FiveWindowsIntoAfrica2000; Papa bird dance! — https://archive.org/details/Kkennedy-PapaBirdDance741; Network TEN Commercials (ATV-10, 13/11/82) — https://archive.org/details/commercials-atv-10-13-11-82; Bird Dance — https://archive.org/details/BirdDance_201802; KentRippo's Bonus Vids (2023) — https://archive.org/details/youtube-8xPbaUobuOQ; Bird Dance — https://archive.org/details/BirdDance_201703
+Footage: MISSING
 Motifs: Gourd rattles, Nocturnal desert setting, Row formation
 
 

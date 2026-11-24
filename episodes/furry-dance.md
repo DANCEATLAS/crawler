@@ -1,8 +1,8 @@
 # Furry Dance — episode pack
 
-*Status: draft · built 2026-11-18 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; lineage; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; lineage; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Helston resident and band member.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance celebrates the passing of winter and the arrival of spring.
 NARRATION: It is held on May 8th, or the preceding Saturday if that date falls on a Sunday or Monday.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: furry dance: the collection (https://archive.org/details/furry_dance)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -293,7 +293,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'iFFqBcKVZnc', 'checked_by_vision_model': False, 'title': None}
 Images: 3 licensed — Rod Allday / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Steve G / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rod Allday / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
-Footage: furry dance: the collection — https://archive.org/details/furry_dance; Radio And Telephone (paper Planes) — https://archive.org/details/radioandtelephonepaperplanes; Le Saviez-Vous ? # 43 [Anecdotes Historiques et Insolites] — https://archive.org/details/youtube-QBtJ0mF0d0E; Face reveal chat asks me to dance xDdddd here it is!! — https://archive.org/details/ghostface_202502; I danced at Megaplex 2024 — https://archive.org/details/youtube-toqK002IElM; I danced at FurtheMore 2023 — https://archive.org/details/youtube-FOS5fITDVXU
+Footage: MISSING
 Motifs: Lily of the valley, Top hats and tails, White dresses, Narrow Cornish streets
 Costume notes: Dancers wear formal attire, including top hats and tails for men and fine dresses for women. Lily of the valley is worn by participants, with specific rules for placement based on gender and status.
 

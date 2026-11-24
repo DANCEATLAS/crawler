@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "the-jerk",
  "name": "The Jerk",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -343,36 +343,6 @@
     "attribution": "Internet Archive",
     "description": "If you liked Flashdance and Dirty Dancing, you'll love Down A Dirty! The contemporary versions of the greatest dances of all time, featuring the sensational dance revue, \"Sassy\" performing dirty dance, the hustle, the twist, the jerk, hitchhike, the monkey, the swim, the stroll, freestyle, and other",
     "source": "archive"
-   },
-   {
-    "title": "Get Down And Get With It Slade",
-    "url": "https://archive.org/details/get-down-and-get-with-it-slade",
-    "year": 1970,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Well alright everybody, let your hair down Want to see everybody get up off their seat Clap your hands stamp your feet, get down get with it I said a-get down get with it and do the jerk Come on baby, I'm gonna watch everybody work I said a-come on baby, watch everybody do the dance I said get down ",
-    "source": "archive"
-   },
-   {
-    "title": "File:Double Kettlebell Clean and Jerk.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Double_Kettlebell_Clean_and_Jerk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "attribution": "Taco fleur / Wikimedia Commons / CC BY-SA 4.0",
-    "description": "Taco Fleur demonstrates Double Kettlebell Clean and Jerk.",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ADouble_Kettlebell_Clean_and_Jerk.webm",
-    "source": "commons"
-   },
-   {
-    "title": "File:Barbell Jerk.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Barbell_Jerk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "attribution": "Taco fleur / Wikimedia Commons / CC BY-SA 4.0",
-    "description": "Taco Fleur from Cavemantraining demonstrates the barbell jerk.",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ABarbell_Jerk.webm",
-    "source": "commons"
    }
   ],
   "researched_at": "2026-11-10T17:19:51Z",
@@ -380,8 +350,14 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "footwork_counts": "lesson",
    "signature_moves": "lesson",
@@ -697,6 +673,6 @@
   "polished": false,
   "file": "episodes/the-jerk.json"
  },
- "fingerprint": "0706bbc64d981aac",
- "updated": "2026-11-21"
+ "fingerprint": "02de59cf8f11efef",
+ "updated": "2026-11-24"
 }

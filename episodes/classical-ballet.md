@@ -1,6 +1,6 @@
 # Classical Ballet — episode pack
 
-*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to
 
@@ -335,7 +335,7 @@ J. Dickinson (publisher) / Wikimedia Commons / Public domain (Public domain); Un
 This image was made by Loadmaster (David R. Tribble).
 Email the author:  David R. Tribble
 Also see my personal gallery at Google Photos / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Lambtron / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; now moving into — https://archive.org/details/Ferreira_Gisela--now_moving_into; Joseph Rickard ballet dancers: Cantinflas show and Europe — https://archive.org/details/csmha_000307; Martita Santiago Flamenco Dancing at the Oregon Country Fair on July 9 2011 — https://archive.org/details/MartitaSantiagoFlamencoDancingAtTheOregonCountryFairOnJuly92011; Bob Rizzo's Budding Ballerinas (2004, Riz-Biz Productions - VHSrip) — https://archive.org/details/bob-rizzos-budding-ballerinas-2004-riz-biz-productions-vhsrip; The Firebird (National Ballet of Canada) — https://archive.org/details/the-firebird-national-ballet-of-canada
+Footage: Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; Joseph Rickard ballet dancers: Cantinflas show and Europe — https://archive.org/details/csmha_000307; Bob Rizzo's Budding Ballerinas (2004, Riz-Biz Productions - VHSrip) — https://archive.org/details/bob-rizzos-budding-ballerinas-2004-riz-biz-productions-vhsrip; The Firebird (National Ballet of Canada) — https://archive.org/details/the-firebird-national-ballet-of-canada
 Motifs: Close-ups of feet in the five positions, Historical illustrations of court dances, The pianist in the studio, Dancers at the barre
 Costume notes: Female dancers wear leotards, tights, and soft shoes (or pointe shoes). Male dancers wear tights and fitted shirts. Settings include dance studios with mirrors and stages for performance.
 

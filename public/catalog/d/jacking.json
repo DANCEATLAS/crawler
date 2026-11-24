@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "jacking",
  "name": "Jacking",
- "state": "active_ready",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -306,55 +306,19 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "Latin One House Dance Freestyle Mix # 170",
-    "url": "https://archive.org/details/latin-one-house-dance-freestyle-mix-170_202511",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Another Mix By LatinOne Brooklyn's Own Enjoy the songs and mix. \"I do not own any rights to any of these songs! All videos are from YouTube.com. No Copyright Infringement Intended! For Entertainment Purposes Only! All respects and credits go to the original artists and record labels!\" Reach out and ",
-    "source": "archive"
-   },
-   {
-    "title": "Latin One House Freestyle & Dance Mix # 116",
-    "url": "https://archive.org/details/latin-one-house-freestyle-dance-mix-116_202301",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Another Mix By LatinOne Brooklyn's Own Enjoy the songs and mix. \"I do not own any rights to the songs! No Copyright Infringement Intended! For Promotional, Entertainment and Educational Purposes Only! All respects and credits go to the original artists and record labels!\" Reach out and support these",
-    "source": "archive"
-   },
-   {
-    "title": "BELGIUM Phase III DAY 4: it happen that your brain is sometimes faster than you",
-    "url": "https://archive.org/details/d-3-day-4",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "belgium covid-19 deconfinement-phase III day 4. PLAYLIST: Intro: 2001 a space odyssey Shifted phases: the cosmic memoirs of the late great Rupert j. Rosinthrope The egyptian lover: King of ecstasy Ken ishii: jelly tones Studio 69: move and dance ep The advent: kombinationphunk Madonna: material girl",
-    "source": "archive"
-   },
-   {
-    "title": "The Jack Benny Program - first episode - 1950-10-28 - Dinah Shore",
-    "url": "https://archive.org/details/19501028TheJackBennyProgramDinahShore",
-    "year": 1950,
-    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
-    "license_url": "http://creativecommons.org/publicdomain/mark/1.0/",
-    "attribution": "Internet Archive",
-    "description": "Jack Benny's first TV broadcast, from 28 October 1950. Jack's TV programs were only once every eight weeks in his first year, and he traveled from California to New York to do them. Ken Murray's program was preempted for this broadcast, and he makes an appearance to wish Jack good luck on TV. Also a",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-18T21:06:37Z",
   "qc_score": 9.7
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 15,
+  "have": 14,
   "of": 15,
+  "missing": [
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
   "via": {
    "footwork_counts": "lesson",
    "posture": "performance",
@@ -773,11 +737,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 7,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/jacking.json"
  },
- "fingerprint": "4a24aa4c54822663",
+ "fingerprint": "b00b9a86fc124359",
  "updated": "2026-11-24"
 }

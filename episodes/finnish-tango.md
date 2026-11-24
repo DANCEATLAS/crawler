@@ -22,7 +22,7 @@ NARRATION: Finnish tango was introduced to Finland in 1913 by traveling musician
 NARRATION: The first Finnish tango was composed in 1914 by Emil Kauppi.
 NARRATION: Finnish musicians began composing their own tangos in the 1930s.
 ON SCREEN: Map: Finland · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -56,7 +56,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -318,7 +318,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '6e8i0A_K8ZI', 'checked_by_vision_model': True, 'title': 'Finnish tango 100 years!!     (more info in text section)'}
-Images: 0 licensed
+Images: 2 licensed — Anders Rixer / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Orfeuz / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: close embrace, accordion player, Seinäjoki festival crowds, autumn Finnish nature, black and white archival photos
 

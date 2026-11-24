@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An exacting, warm Balkan dance master who makes asymmetric compound meters accessible through clear rhythmic chanting and solid belt-hold alignment.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: Traditionally danced to communal folk songs in the Shopluk region, the dance is tied to the lyrical narrative of Yova watering horses—giving clear water to her beloved's horse and murky water to her brother's horse.
 NARRATION: Today, it is widely performed at folk dance clubs, workshops, and recreational Balkan dance gatherings worldwide.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: 1992 Houston International Folk Dancers Bulgarian TX Folklife Festival (https://archive.org/details/1992HoustonInternationalFolkDancersBulgarian)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -325,7 +325,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: 1992 Houston International Folk Dancers Bulgarian TX Folklife Festival — https://archive.org/details/1992HoustonInternationalFolkDancersBulgarian
+Footage: MISSING
 Motifs: Close-up of fingers gripping woven traditional belts, Serpentine curve of the open circle viewed from above, The vibrating chanter and drone of the gaida bagpipe
 Costume notes: The dance takes place in social and recreational settings in a curved line or open circle. In traditional contexts, dancers wear belts, which are essential for the traditional grip where each dancer holds their neighbours by the belt; handholds are used when belts are absent.
 

@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Used in karaoke, family celebrations, government office exercise, and political campaigns.
 NARRATION: It serves as both popular entertainment and a medium for religious preaching.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Dangdut in the context of a healthy walk event in Watualang village.webm (https://upload.wikimedia.org/wikipedia/commons/b/bd/Dangdut_in_the_context_of_a_healthy_walk_event_in_Watualang_village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: Sexy Dance Hot Banget Live Mahkota Raja King Bikin Dagdigdug (https://archive.org/details/SexyDanceHotBangetLiveMahkotaRajaKingBikinDagdigdug)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -289,7 +289,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: {'youtube_id': 'iXM4jg2MaA0', 'checked_by_vision_model': True, 'title': 'JAYANTI || Senam Kreasi Dangdut by Euis Ababil'}
 Images: 8 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); fir0002  flagstaffotos [at] gmail.com
 		Canon 20D + Tamron 28-75mm f/2.8 / Wikimedia Commons / GFDL 1.2 (GFDL 1.2); Sakurai Midori / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Mahbob Yusof from Kuala Lumpur, Malaysia / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); User:Chachatriomacan / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: File:Dangdut in the context of a healthy walk event in Watualang village.webm — https://upload.wikimedia.org/wikipedia/commons/b/bd/Dangdut_in_the_context_of_a_healthy_walk_event_in_Watualang_village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Sexy Dance Hot Banget Live Mahkota Raja King Bikin Dagdigdug — https://archive.org/details/SexyDanceHotBangetLiveMahkotaRajaKingBikinDagdigdug; UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000672_pt1_ac
+Footage: Sexy Dance Hot Banget Live Mahkota Raja King Bikin Dagdigdug — https://archive.org/details/SexyDanceHotBangetLiveMahkotaRajaKingBikinDagdigdug
 Motifs: Tabla drums, Stage performances, Karaoke screens
 
 

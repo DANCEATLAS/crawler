@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Panamanian folk dancer
@@ -21,14 +21,14 @@ MUSIC: theme (30 s)
 NARRATION: The punto is of pure Hispanic ancestry and is considered the most beautiful and elegant dance genre in Panama.
 NARRATION: The accordion was introduced to the region in the mid-19th century by European sailors and became a common substitute for the violin during the War of the Thousand Days.
 ON SCREEN: Map: Panama · Central America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: It is a demonstration of skill, precision, and grace.
 NARRATION: It is not a dance for an entire night but a performance for the enjoyment of the audience, who may applaud or toss coins to show appreciation.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Blessed We Are (https://archive.org/details/guacamayo-danit-friends-live-2019)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -55,7 +55,7 @@ NEEDS: tempo
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The dance is performed as an intermission at parties or social events.
 NARRATION: Women may perform flourishes with their skirts, particularly in the Punto de Mejorana.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -301,8 +301,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'IrsyBbWyLrQ', 'checked_by_vision_model': True, 'title': 'El Punto Proyecto Folclore Para El Mundo'}
-Images: 0 licensed
-Footage: Blessed We Are — https://archive.org/details/guacamayo-danit-friends-live-2019
+Images: 1 licensed — HazelPacheco / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: MISSING
 Motifs: The kneeling man, The woman's skirt flourish, The rabel player
 Costume notes: The dance is performed as an intermission at parties or social events. Women may perform flourishes with their skirts, particularly in the Punto de Mejorana.
 

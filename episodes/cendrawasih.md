@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, precise Balinese dance master emphasizing crisp hand work, stamina, and dramatic mimicry.
@@ -30,7 +30,7 @@ NARRATION: Rooted in the natural world and Balinese cosmology, Cendrawasih draws
 NARRATION: Outside of local cultural displays in Bali, the dance serves as a premier showcase piece for Indonesian cultural diplomacy abroad.
 NARRATION: It has been featured at major international events, including performances in Peru in 2002, at the Freer Gallery of Art in Washington, D.C. in 2008, and across stage venues in Japan and the Netherlands.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Bali Ensemble (https://archive.org/details/calauem_200201_omvf0000645a_ac)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -313,7 +313,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'IWB7uMeNgxc', 'checked_by_vision_model': True, 'title': 'Tari Cendrawasih Dance'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Bali Ensemble — https://archive.org/details/calauem_200201_omvf0000645a_ac
+Footage: MISSING
 Motifs: Feathered Pandji headdresses shimmering under lights, Vibrant pink stripes fluttering through swift running movement, Side-by-side bird-like flirtation gestures
 Costume notes: The visually striking costumes are central to the performance narrative. Dancers wear feathered Pandji-style headdresses alongside long flowing skirts or scarves adorned with a prominent pink stripe. These trailing skirts represent the vibrant tail feathers of the bird of paradise. When grasped and extended by the dancers' hands, the fabric transforms into wings; as the dancers run across the performance space, the fluttering textiles generate an illusion of aerial flight.
 

@@ -1,14 +1,14 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-24T00:45:45Z",
+ "generated_at": "2026-11-24T03:20:29Z",
  "last_night": {
   "date": "2026-11-23",
   "started": "2026-11-23T21:30:31Z",
-  "finished": "2026-11-24T00:45:43Z",
-  "minutes": 195,
-  "questions": 221,
-  "unanswered": 59,
-  "stages": 11,
+  "finished": "2026-11-24T03:20:28Z",
+  "minutes": 350,
+  "questions": 813,
+  "unanswered": 63,
+  "stages": 19,
   "errors": [],
   "trouble": [
    "research: model trouble: waited_seconds 2346, overloaded 55, day_quota_used_up 5, model_gone 2, timeout_or_network 1",
@@ -17,7 +17,10 @@
    "teaching: model trouble: overloaded 5, day_quota_used_up 5, model_gone 2, unusable_answer 1, no_model_available 1",
    "pedagogy: model trouble: overloaded 8, unusable_answer 5, day_quota_used_up 4, model_gone 2, timeout_or_network 2, no_model_available 2",
    "episodes: model trouble: overloaded 1",
-   "translate: model trouble: overloaded 1"
+   "translate: model trouble: overloaded 1",
+   "qc: model trouble: overloaded 5, model_gone 1",
+   "footage: model trouble: overloaded 1",
+   "footage: model trouble: waited_seconds 452, overloaded 41, day_quota_used_up 5, model_gone 2"
   ]
  },
  "nights": [
@@ -219,21 +222,21 @@
   },
   {
    "date": "2026-11-23",
-   "minutes": 195,
-   "questions": 221,
-   "unanswered": 59,
+   "minutes": 350,
+   "questions": 813,
+   "unanswered": 63,
    "errors": 0
   }
  ],
  "counts": {
-  "listed": 1300,
-  "researched": 683,
-  "published": 545,
-  "active_ready": 41,
-  "one_short": 45,
-  "two_short": 50,
-  "three_to_five_short": 127,
-  "story_ready_teaching_withheld": 57,
+  "listed": 1320,
+  "researched": 703,
+  "published": 571,
+  "active_ready": 31,
+  "one_short": 56,
+  "two_short": 51,
+  "three_to_five_short": 136,
+  "story_ready_teaching_withheld": 56,
   "lessons_studied": 262,
   "performances_observed": 220
  },
@@ -303,10 +306,10 @@
   },
   {
    "date": "2026-11-24",
-   "listed": 1300,
-   "researched": 683,
-   "published": 545,
-   "active_ready": 41,
+   "listed": 1320,
+   "researched": 703,
+   "published": 571,
+   "active_ready": 31,
    "lessons_studied": 262,
    "performances_observed": 220
   }
@@ -314,76 +317,76 @@
  "pace": {
   "days": 8,
   "per_night": {
-   "listed": 18.1,
-   "published": 23.2,
-   "active_ready": 4.5
+   "listed": 20.6,
+   "published": 26.5,
+   "active_ready": 3.2
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 312
+   "profiles": 333
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 203
+   "profiles": 224
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 197
+   "profiles": 204
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 145
+   "profiles": 164
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 137
-  },
-  {
-   "key": "rhythm",
-   "label": "tempo, meter or the teacher's count",
-   "profiles": 127
-  },
-  {
-   "key": "posture",
-   "label": "posture",
-   "profiles": 121
+   "profiles": 147
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 114
+   "profiles": 141
+  },
+  {
+   "key": "rhythm",
+   "label": "tempo, meter or the teacher's count",
+   "profiles": 136
+  },
+  {
+   "key": "posture",
+   "label": "posture",
+   "profiles": 131
   },
   {
    "key": "arms",
    "label": "arms and hands",
-   "profiles": 94
+   "profiles": 98
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 88
+   "profiles": 94
   },
   {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 83
+   "profiles": 88
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 71
+   "profiles": 74
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 46
+   "profiles": 47
   },
   {
    "key": "status",
@@ -423,6 +426,16 @@
    ]
   },
   {
+   "slug": "ballos",
+   "name": "Ballos",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
+   ]
+  },
+  {
    "slug": "bugg",
    "name": "Bugg",
    "needs": [
@@ -453,6 +466,16 @@
    ]
   },
   {
+   "slug": "carolina-shag",
+   "name": "Carolina shag",
+   "needs": [
+    "a licensed picture or licensed footage"
+   ],
+   "need_keys": [
+    "picture"
+   ]
+  },
+  {
    "slug": "charleston-stroll",
    "name": "Charleston Stroll",
    "needs": [
@@ -460,16 +483,6 @@
    ],
    "need_keys": [
     "study_video"
-   ]
-  },
-  {
-   "slug": "chiapanecas",
-   "name": "Chiapanecas",
-   "needs": [
-    "a licensed picture or licensed footage"
-   ],
-   "need_keys": [
-    "picture"
    ]
   },
   {
@@ -490,16 +503,6 @@
    ],
    "need_keys": [
     "footwork_counts"
-   ]
-  },
-  {
-   "slug": "collegiate-shag",
-   "name": "Collegiate Shag",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
    ]
   },
   {
@@ -583,13 +586,13 @@
    ]
   },
   {
-   "slug": "finger-tutting",
-   "name": "Finger Tutting",
+   "slug": "farruca",
+   "name": "Farruca",
    "needs": [
-    "the steps with their counts"
+    "a licensed picture or licensed footage"
    ],
    "need_keys": [
-    "footwork_counts"
+    "picture"
    ]
   },
   {
@@ -615,6 +618,16 @@
   {
    "slug": "fusion-dance",
    "name": "Fusion Dance",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
+   ]
+  },
+  {
+   "slug": "garrotin",
+   "name": "Garrotín",
    "needs": [
     "what to avoid: common mistakes or safety"
    ],
@@ -693,6 +706,16 @@
    ]
   },
   {
+   "slug": "jacking",
+   "name": "Jacking",
+   "needs": [
+    "a licensed picture or licensed footage"
+   ],
+   "need_keys": [
+    "picture"
+   ]
+  },
+  {
    "slug": "kebyar-duduk",
    "name": "Kebyar duduk",
    "needs": [
@@ -703,6 +726,16 @@
    ]
   },
   {
+   "slug": "luddi",
+   "name": "Luddi",
+   "needs": [
+    "known to be living, revived or historical"
+   ],
+   "need_keys": [
+    "status"
+   ]
+  },
+  {
    "slug": "makossa",
    "name": "makossa",
    "needs": [
@@ -710,6 +743,16 @@
    ],
    "need_keys": [
     "mistakes"
+   ]
+  },
+  {
+   "slug": "melbourne-shuffle",
+   "name": "Melbourne shuffle",
+   "needs": [
+    "a licensed picture or licensed footage"
+   ],
+   "need_keys": [
+    "picture"
    ]
   },
   {
@@ -745,46 +788,6 @@
   {
    "slug": "passacaglia",
    "name": "passacaglia",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
-  },
-  {
-   "slug": "pogo",
-   "name": "Pogo",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
-   "slug": "polska",
-   "name": "Polska",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
-  },
-  {
-   "slug": "rebolation",
-   "name": "Rebolation",
-   "needs": [
-    "a licensed picture or licensed footage"
-   ],
-   "need_keys": [
-    "picture"
-   ]
-  },
-  {
-   "slug": "sequence-dance",
-   "name": "Sequence dance",
    "needs": [
     "what to avoid: common mistakes or safety"
    ],

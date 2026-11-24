@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable practitioner from Kerala with a focus on cultural preservation.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Performed during Onam and Thiruvathira day, the dance is believed to bring a long and auspicious married life.
 NARRATION: It is also performed as Poothiruvathira by women after their marriage.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Indian Folk and Tribal Dance Performances (https://archive.org/details/dni.ncaa.ICCR-2088-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -99,7 +99,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'x0YFsRIdCd8', 'checked_by_vision_model': True, 'title': 'Angane Njan | അംഗനേ ഞാൻ | Thiruvathirakali | Thiruvathira | Onam | Unni Ganapathi Thampuran'}
 Images: 1 licensed — Jigesh at Malayalam Wikipedia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Indian Folk and Tribal Dance Performances — https://archive.org/details/dni.ncaa.ICCR-2088-VHS
+Footage: MISSING
 Motifs: Lit candle or lamp, Traditional sarees, Circle of women, Dasapushkas flowers
 Costume notes: Dancers wear sarees and blouses. The dance is performed at night, often in or near temples or homes, centered around a lit candle or lamp.
 

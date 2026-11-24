@@ -1,8 +1,8 @@
 # Madison — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic dance historian with a passion for 1960s social dances and community engagement
@@ -30,7 +30,7 @@ NARRATION: Originally a social novelty dance popular in the late 1950s and early
 NARRATION: It remains popular in Cambodia at weddings and parties, where it is performed in large groups.
 NARRATION: The dance is associated with nostalgia for the early 1960s in the US and is featured in films and musicals like Hairspray.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Partial Lunar Eclipse, Madison 12-10-2011 VP8.webm (https://upload.wikimedia.org/wikipedia/commons/3/32/Partial_Lunar_Eclipse%2C_Madison_12-10-2011_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -328,7 +328,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'eEkLpmvIMuw', 'checked_by_vision_model': True, 'title': "It's Madison Time"}
 Images: 6 licensed — Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: File:Partial Lunar Eclipse, Madison 12-10-2011 VP8.webm — https://upload.wikimedia.org/wikipedia/commons/3/32/Partial_Lunar_Eclipse%2C_Madison_12-10-2011_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Total Solar Eclipse 2017, Madison County, ID.webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Total_Solar_Eclipse_2017%2C_Madison_County%2C_ID.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Elwha River 2022 by Madison Falls 2.webm — https://upload.wikimedia.org/wikipedia/commons/8/8a/Elwha_River_2022_by_Madison_Falls_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Memorial-Union-Terrace-in-Madison -WI.mpg — https://upload.wikimedia.org/wikipedia/commons/d/da/Memorial-Union-Terrace-in-Madison_-WI.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; German Commercials (1960s) — https://archive.org/details/1966-mit-dem-einkommen-auskommen-ii; He Makes Me Feel Like Dancin' — https://archive.org/details/hemakesmefeellikedancin; Harry's Mad (1993-1996) — https://archive.org/details/s-01-e-01_20260708
+Footage: MISSING
 Motifs: Lines of dancers clapping in unison, Close-ups of foot crosses and claps, Vintage 1960s TV footage, Cambodian large group dance events
 
 

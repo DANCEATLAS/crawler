@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Small LED parts (choking hazard)",
+          "Prolonged exposure to strobe effects"
+        ],
+        "counts": "Simple 1-2-3-4 counts for hand claps and finger wiggles.",
+        "duration_minutes": "10",
+        "game_version": "Follow-the-leader light patterns using colorful finger lights."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid repetitive snapping",
+          "Extreme wrist hyperextension"
+        ],
+        "counts": "Use slow 4-counts for each finger movement.",
+        "seated_version": "The dance is naturally performed seated, making it highly accessible.",
+        "standing_version": "Can be performed standing with no footwork required.",
+        "tempo_and_range": "Reduce the speed of finger rolls to accommodate joint stiffness."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "The Finger Roll: A foundational move where fingers are curled in sequence.",
+          "source": "https://en.wikipedia.org/wiki/Gloving"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Manual dexterity and finger independence.",
+          "source": "https://en.wikipedia.org/wiki/Gloving"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "One-on-one 'light-shows' typically performed at raves or festivals.",
+          "source": "https://en.wikipedia.org/wiki/Gloving"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Extremely active; arms provide the frame while hands and fingers execute the primary patterns.",
+      "difficulty": "intermediate",
+      "footwork": "Minimal; the dancer typically remains stationary.",
+      "formation_and_space": "Intimate, focused on the 'box' of space directly in front of the viewer.",
+      "hips_and_torso": "Used for stabilization or subtle rhythmic pulsing (popping).",
+      "levels_and_jumps": "None; focused on manual dexterity.",
+      "partnering": "One-on-one interaction between the performer and the viewer.",
+      "posture": "Usually seated or slightly crouched to stay at the viewer's eye level; upper body is the focus.",
+      "signature_moves": [
+        {
+          "description": "Creating geometric shapes and right angles using the fingers.",
+          "name": "Finger-tutting"
+        },
+        {
+          "description": "Fluid, wave-like movements of the hands and arms.",
+          "name": "Liquiding"
+        }
+      ],
+      "tempo_feel": "Can range from slow, fluid 'liquid' motions to rapid-fire finger movements.",
+      "what_to_avoid": "Avoid blocking the lights with the palms; ensure movements are large enough to be seen but contained within the viewer's field of vision."
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizers",
+        "Drum machines",
+        "Digital samplers"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "Energetic",
+        "Atmospheric",
+        "Rhythmic",
+        "Electronic"
+      ],
+      "musical_form": "Electronic dance music structures (intro, build-up, drop, breakdown).",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady four-on-the-floor beats with syncopated electronic textures.",
+      "sound_description": "The sound is characterized by the synthesized textures and heavy basslines of EDM. The dance responds to the 'drop'—a moment of high intensity—and the intricate percussive elements of the track.",
+      "tempo_bpm": "120-150",
+      "vocal_style": "Often instrumental or featuring processed vocal loops."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Finger rolls: Sequentially curling and uncurling fingers to create a wave effect.",
+        "Liquid paths: Moving the hands in fluid, interconnected lines.",
+        "Tutting boxes: Creating 90-degree angles with fingers and wrists.",
+        "Strobe hits: Timing a sharp movement or 'pop' with a musical beat or light flash."
+      ],
+      "formation": "Solo performance, usually facing a seated or standing viewer at eye level.",
+      "level_notes": "Beginners focus on finger dexterity and basic rolls; advanced dancers master complex tutting and multi-layered light patterns.",
+      "rhythm": "Synchronized with the 4/4 time signatures and syncopated beats of electronic dance music."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "622b86e8891536aa15746418d1e8bd583b1993d200a2241dcfd11aacba2150ff",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific 'concepts and techniques' shared between gloving and popping? Evidence needed: https://en.wikipedia.org/wiki/Gloving"
+    ]
+  },
+  "id": "atlas:gloving",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gloving",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "71beb4a064058d86",
+      "next_evidence": "https://en.wikipedia.org/wiki/Gloving",
+      "question": "What are the specific 'concepts and techniques' shared between gloving and popping?",
+      "source": "https://en.wikipedia.org/wiki/Gloving",
+      "status": "candidate_unreviewed",
+      "why_needed": "To create accurate instructional content, we need to know if the 'pop' is in the wrist, finger joints, or arms."
+    }
+  ],
+  "research_file": "research_results/gloving.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gloving",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gloving",
+    "https://www.wikidata.org/wiki/Q19571960"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

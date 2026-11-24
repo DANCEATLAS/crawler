@@ -1,8 +1,8 @@
 # Andhra Natyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the music & instruments section; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced practitioner and scholar dedicated to the revived Nattuva Mela legacy and its tripartite repertoire.
@@ -30,7 +30,7 @@ NARRATION: Performance contexts dictated artistic function.
 NARRATION: Temple Agama rituals formed part of sacred daily worship and cosmic propitiation dedicated to temple deities.
 NARRATION: In royal courts, Asthana kelika was designed either to direct the audience toward spiritualism or provide entertainment for kings, intellectuals, and scholars.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Kuchipudi Recital by Shri Ratan Kumar (https://archive.org/details/dni.ncaa.ICCR-1751-VHS)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -97,7 +97,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'Zvpr6kgo7GI', 'checked_by_vision_model': True, 'title': 'alarimpu Andhra natyam ♥'}
 Images: 1 licensed — రహ్మానుద్దీన్ / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: Kuchipudi Recital by Shri Ratan Kumar — https://archive.org/details/dni.ncaa.ICCR-1751-VHS; Bharatanatyam, Vol. 2 — https://archive.org/details/dli.pb.bhartnatyam.2; Aradhana Nritham — https://archive.org/details/aradhana-nritham
+Footage: MISSING
 Motifs: Carved stone pillars of Kakatiya temples, The brass Kumbha Harathi flame offering, Courtyard of Kunti Madhava Temple in Pithapuram, Expressive facial close-ups during Saatvikabhinayam
 
 

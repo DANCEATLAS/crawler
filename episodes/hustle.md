@@ -1,8 +1,8 @@
 # Hustle — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The Hustle served as a youthful social rebellion against parental restrictions on slow grinding dances, quickly transforming into a tool for community peacemaking.
 NARRATION: Members of the Imperial Bachelors street gang ran hustle parties at St. Mary's Recreation Center specifically to curb neighborhood violence in the South Bronx during 1974.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:2025-3-17 Engine AI plays Axe Gang Dance.webm (https://upload.wikimedia.org/wikipedia/commons/c/cf/2025-3-17_Engine_AI_plays_Axe_Gang_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -336,7 +336,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'BzrA38NiyoA', 'checked_by_vision_model': True, 'title': 'Dance Party Friday - The Hustle'}
 Images: 1 licensed — Heinrich Klaffs / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
-Footage: File:2025-3-17 Engine AI plays Axe Gang Dance.webm — https://upload.wikimedia.org/wikipedia/commons/c/cf/2025-3-17_Engine_AI_plays_Axe_Gang_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Disney Sing Along Songs: Disneyland Fun (2002 Print) — https://archive.org/details/DisneylandFun2002; Kung Fu Hustle [DVD] [Thai] [Region 3] — https://archive.org/details/kung-fu-hustle
+Footage: MISSING
 Motifs: St. Mary's Recreation Center gymnasium filled with teenagers in 1974., The glowing dance floor and spinning mirror ball of 1970s New York discotheques., Close-up of pumping forearm grips executing 'The Wheel'., Vintage CRT television playing 1975 episodes of 'Disco Step-by-Step'.
 Costume notes: Hustle was historically danced in social and urban settings including South Bronx basements, hooky gigs, house parties, church recreation centers such as St. Mary's Recreation Center, and discotheques like New York City's Adam's Apple and club '310 1/2'. Instructional vinyl releases like 'New York Hustle Incorporated' featured period disco attire and instructional photos to guide home learners. Television shows like Marty Angelo's 'Disco Step-by-Step' brought nightclub dress into living rooms, while Saturday Night Fever broadcast club-based disco styling internationally.
 

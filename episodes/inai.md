@@ -1,8 +1,8 @@
 # Inai — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian or traditional Malay dance practitioner.
@@ -22,13 +22,13 @@ NARRATION: Inai originated as a ceremonial court dance in the Malay Peninsula, s
 NARRATION: It is historically linked to the Perlis, northern Kedah, and Kelantan courts.
 NARRATION: A separate, enduring tradition exists in Perak, where palace maids perform the dance during henna leaf gathering.
 ON SCREEN: Map: Malaysia · Southeast Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Inai is reserved for royal events, including weddings, coronations, and circumcision ceremonies for the children of palace dignitaries.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Rio 2012- os Bens Comuns, nosso direito ao futuro. Inai ê Fulni ô.webm (https://upload.wikimedia.org/wikipedia/commons/c/c0/Rio_2012-_os_Bens_Comuns%2C_nosso_direito_ao_futuro._Inai_%C3%AA_Fulni_%C3%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -54,7 +54,7 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The dance is set within the palace environment, either in the throne room during circumcision ceremonies or in the palace flower gardens during henna leaf picking.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -308,8 +308,8 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'WTtMqS4BCvE', 'checked_by_vision_model': True, 'title': '【Raya Dance】Jong Jong Inai'}
-Images: 0 licensed
-Footage: File:Rio 2012- os Bens Comuns, nosso direito ao futuro. Inai ê Fulni ô.webm — https://upload.wikimedia.org/wikipedia/commons/c/c0/Rio_2012-_os_Bens_Comuns%2C_nosso_direito_ao_futuro._Inai_%C3%AA_Fulni_%C3%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Images: 1 licensed — Jkozx / Wikimedia Commons / CC0 (CC0)
+Footage: MISSING
 Motifs: Ornate palace architecture, Henna leaves, The royal throne, Intricate hand gestures in close-up
 Costume notes: The dance is set within the palace environment, either in the throne room during circumcision ceremonies or in the palace flower gardens during henna leaf picking.
 

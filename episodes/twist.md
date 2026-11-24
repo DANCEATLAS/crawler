@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Originally a teenage fad, it became a social dance for all ages.
 NARRATION: It is often viewed as a symbol of 1960s hedonism and the liberation of youth culture.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Kettlebell Lunge and Twist.webm (https://upload.wikimedia.org/wikipedia/commons/2/21/Kettlebell_Lunge_and_Twist.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: The Wiggles: Yummy Yummy 2007 Warner Home Video DVD Rip (https://archive.org/details/YUMMYYUMMYNTSCTitle2)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -319,7 +319,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'ofBp0Mvt3S8', 'checked_by_vision_model': True, 'title': 'RTSF 2019 – Stephen & Chanzie – Twisting The Night Away'}
 Images: 1 licensed — Hochneder, Christa / Wikimedia Commons / CC BY-SA 3.0 de (CC BY-SA 3.0 de)
-Footage: File:Kettlebell Lunge and Twist.webm — https://upload.wikimedia.org/wikipedia/commons/2/21/Kettlebell_Lunge_and_Twist.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; PRINCESS OLANMA THE DANCER nigerian movies - Nollywood Latest Movies 2016 | Latest Nigerian Movies — https://archive.org/details/youtube-geddAAhzswY; The Wiggles: Magical Adventure! (A Wiggly Movie) 2007 Warner Home Video DVD Rip — https://archive.org/details/MAGICALADVENTURENTSCTitle2; The Wiggles: Yummy Yummy 2007 Warner Home Video DVD Rip — https://archive.org/details/YUMMYYUMMYNTSCTitle2; The Wiggles: Dance Party 2003 DVD — https://archive.org/details/WigglesDancePartyTitle1; (VHS 50fps) The Wiggles: Wiggledance! (Original 1997 Version) — https://archive.org/details/the-wiggles-wiggledance-1997-vhs-50fps; The Wiggles - Big Red Car 1995 VHS — https://archive.org/details/the-wiggles-big-red-car-1995-vhs; The Wiggles: Dance Party (2001) US VHS — https://archive.org/details/wiggles-the-dance-party-2001
+Footage: The Wiggles: Yummy Yummy 2007 Warner Home Video DVD Rip — https://archive.org/details/YUMMYYUMMYNTSCTitle2; The Wiggles: Dance Party 2003 DVD — https://archive.org/details/WigglesDancePartyTitle1; The Wiggles - Big Red Car 1995 VHS — https://archive.org/details/the-wiggles-big-red-car-1995-vhs
 Motifs: 1960s dance halls, Chubby Checker performance footage, Close-ups of feet grinding on the floor
 Costume notes: There is no specific costume, though it is associated with 1960s casual fashion. It was performed in dance halls, television studios, and social clubs like the Peppermint Lounge.
 

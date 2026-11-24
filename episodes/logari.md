@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: Logari originates from the Logar Province of Afghanistan as a regional style of the Attan.
 NARRATION: The Attan itself is a Pashtun dance with historical roots that some scholars associate with Zoroastrian religious ceremonies and ancient war dances intended to instill confidence in warriors.
 ON SCREEN: Map: Afghanistan · Central Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -54,7 +54,7 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Performers wear traditional regalia.
 NARRATION: Men often wear turbans, which are sometimes removed during the faster, final stages of the dance due to the physical intensity.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -306,7 +306,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'R_f8kKw_W7o', 'checked_by_vision_model': True, 'title': 'logari afghan dance'}
-Images: 0 licensed
+Images: 1 licensed — Pfc. Christina Sinders / Wikimedia Commons / Public domain (Public domain)
 Footage: Delkash Dancing 1978 — https://archive.org/details/delkash-dancing-1978
 Motifs: Circular movement, Traditional turbans, Dhol drum
 Costume notes: Performers wear traditional regalia. Men often wear turbans, which are sometimes removed during the faster, final stages of the dance due to the physical intensity.

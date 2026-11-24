@@ -1,6 +1,6 @@
 # polka-mazurka — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The polka-mazurka originated in the 1850s, with Johann Strauss II's 'La Viennoise' (1854) cited as the first example by the Strauss family.
 NARRATION: It was widely adopted in European salons as a cross-cultural variant of the polka, influenced by the French-polka and the schnell-polka.
 ON SCREEN: Map: Austria · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -54,7 +54,7 @@ NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The dance was performed in 19th-century European salons, requiring the formal attire typical of the era's 'gens du monde' (people of the world).
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -307,7 +307,9 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 1 licensed — Print made by: Alfred Ashley
+
+Published by: William Strange / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Sheet music for La Viennoise, 19th-century ballroom illustrations, Metronome set to 3/4
 Costume notes: The dance was performed in 19th-century European salons, requiring the formal attire typical of the era's 'gens du monde' (people of the world).

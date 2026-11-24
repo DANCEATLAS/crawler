@@ -1,8 +1,8 @@
 # Wuju — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An expert dance historian and theatrical rehearsal director specializing in Chinese concert dance forms.
@@ -30,7 +30,7 @@ NARRATION: As a concert dance form, wuju serves as a theatrical storytelling med
 NARRATION: Works from the 1960s such as Fires of Fury in the Coconut Grove (1965) and Fires of Fury Are Burning (1965) addressed Pan-Asian solidarity and anti-imperialist struggles.
 NARRATION: Later 21st-century productions, such as Yunnan Impressions (2003), explored ecological themes, demonstrating the form's versatility in adapting historic and modern narrative content.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Kathak ( Dance of India ) (https://archive.org/details/kathakdanceofindia)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -294,7 +294,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: Kathak ( Dance of India ) — https://archive.org/details/kathakdanceofindia; Go Jetters Series 3 25. Chinese New Year Dragon Dance Drama m000dw9c signed — https://archive.org/details/Go_Jetters_Series_3_-_25._Chinese_New_Year_Dragon_Dance_Drama_m000dw9c_signed; Tasher Desh: Dance Drama — https://archive.org/details/dni.ncaa.ICCR-1819-VHS; Flashdance (1983) Trailer — https://archive.org/details/flashdance-1983_202106; Manadin's Gambit (Indonesian Randai) — https://archive.org/details/Manadin-Gamble-Indonesia-Randai
+Footage: MISSING
 Motifs: Orchestral pit combining Western violins and traditional Chinese erhu, Elaborate theatrical stage lighting and painted set pieces, Choreographed combat sequences blending martial arts and ballet
 Costume notes: Wuju relies heavily on theatrical production values, including full stage setpieces, dynamic lighting, and detailed costuming. Costumes reflect the historical, ethnic, or political context of the story. Early works like Stealing Immortal Herbs adapted traditional Chinese opera costuming and stage combat techniques. Revolutionary ballets featured military uniforms and period peasant attire, while post-Cultural Revolution productions integrated elaborate period dress representing dynasties such as the Tang or traditional regional ethnic garb.
 

@@ -54,12 +54,16 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 13,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
@@ -274,6 +278,6 @@
    }
   }
  ],
- "fingerprint": "625c4d274d3fbb8a",
- "updated": "2026-11-22"
+ "fingerprint": "32c1028d616e5eff",
+ "updated": "2026-11-24"
 }

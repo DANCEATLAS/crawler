@@ -1,8 +1,8 @@
 # Pogo — episode pack
 
-*Status: draft · built 2026-11-21 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, knowledgeable punk historian.
@@ -22,14 +22,14 @@ NARRATION: The pogo originated in the mid-1970s London punk scene.
 NARRATION: Sid Vicious is widely cited as its inventor, using it as a tool to mock non-punk attendees at Sex Pistols concerts.
 NARRATION: It was conceived as an 'anti-disco' dance, rejecting the smooth, synchronized movements of the mainstream.
 ON SCREEN: Map: United Kingdom · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The pogo is performed at live music concerts.
 NARRATION: It functions as a form of collective release and a way for the audience to engage physically with the music, fostering a sense of solidarity among participants.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:PogoCarCrashControlMotocultor2022.mpg (https://upload.wikimedia.org/wikipedia/commons/0/0d/PogoCarCrashControlMotocultor2022.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -56,10 +56,9 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: There is no specific costume, though early punk attire such as leather jackets or ponchos were common.
 NARRATION: It is performed in concert venues, typically in the area in front of the stage known as the 'mosh pit'.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Sid Vicious, Shane MacGowan, and Viv Albertine are central figures associated with the early history and popularization of the pogo.
@@ -316,8 +315,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'mi2q5-Ia-RU', 'checked_by_vision_model': True, 'title': 'Punks - Pogo - Stage Diving and The Mosh Pit'}
-Images: 0 licensed
-Footage: File:PogoCarCrashControlMotocultor2022.mpg — https://upload.wikimedia.org/wikipedia/commons/0/0d/PogoCarCrashControlMotocultor2022.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; TREINO DE WAACKING e... "AGITE SEU ESPÓLIO"! — https://archive.org/details/waacking-training-and-shake-your-booty
+Images: 6 licensed — GothEric / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Silviu filip / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Carlos Delgado / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Carlos Delgado / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Carlos Delgado / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
+Footage: MISSING
 Motifs: Grainy 1970s concert footage., Close-ups of rhythmic jumping., Crowd solidarity scenes.
 Costume notes: There is no specific costume, though early punk attire such as leather jackets or ponchos were common. It is performed in concert venues, typically in the area in front of the stage known as the 'mosh pit'.
 

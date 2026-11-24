@@ -244,24 +244,12 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET",
-    "url": "https://archive.org/details/africa-dance-5-complet",
-    "year": 2005,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "AFRICA DANCE 5 — DVD COMPLET (2005) Compilation de 24 clips africains réunissant plusieurs artistes majeurs des années 2000. 🎬 TRACKLIST : Magic System – C’est chô ça brûle Brenda Fassie – Vulindlela Perle Lama – Emmène-Moi Avec Toi Kaysha – Si Tu Veux De Moi Betika – Fakaloh Amadou et Mariam – Beau",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-07T15:46:49Z",
   "qc_score": 9.85
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -283,6 +271,10 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ],
   "ritual_context": true
@@ -291,11 +283,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/wolosso.json"
  },
- "fingerprint": "a7296a1b86082a49",
- "updated": "2026-11-21"
+ "fingerprint": "0fd33ec03592f940",
+ "updated": "2026-11-24"
 }

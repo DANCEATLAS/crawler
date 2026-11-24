@@ -22,7 +22,7 @@ NARRATION: Danza Prima is an ancient dance from Asturias, Spain, with possible C
 NARRATION: It has been preserved as a communal circle dance accompanied by heroic ballads and the Celtic bagpipe.
 NARRATION: Historically, dancers used sticks resembling battle maces, suggesting a connection to warrior rituals.
 ON SCREEN: Map: Spain · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -58,7 +58,7 @@ NEEDS: tempo, meter
 NARRATION: The dance is traditionally performed outdoors in village meadows or communal spaces in Asturias.
 NARRATION: Costumes are not explicitly described in the sources, but the dance involves participants of all ages, including elderly men and young women, suggesting everyday or traditional regional attire.
 NARRATION: The presence of sticks or staffs is notable, used rhythmically during the dance.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -320,7 +320,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'qVE87NPAALc', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
+Images: 1 licensed — jlgomezlinares / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Circle of dancers, Swinging sticks, Bagpipe player, Village meadow, Generations dancing together
 Costume notes: The dance is traditionally performed outdoors in village meadows or communal spaces in Asturias. Costumes are not explicitly described in the sources, but the dance involves participants of all ages, including elderly men and young women, suggesting everyday or traditional regional attire. The presence of sticks or staffs is notable, used rhythmically during the dance.

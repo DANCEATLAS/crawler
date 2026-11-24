@@ -1,6 +1,6 @@
 # Jazz dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
@@ -338,7 +338,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'lM9H1eYz-lc', 'checked_by_vision_model': True, 'title': None}
 Images: 2 licensed — Joe Mabel / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Knight Foundation / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
-Footage: File:Pas de bourrée, jazz dance technique.webm — https://upload.wikimedia.org/wikipedia/commons/6/63/Pas_de_bourr%C3%A9e%2C_jazz_dance_technique.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Jazz Dance.webm — https://upload.wikimedia.org/wikipedia/commons/d/dc/Jazz_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; rmk42tvkaraoke 05022018 — https://archive.org/details/Rmk42tvkaraoke05022018; Short Clips — https://archive.org/details/ShortClips_251; 05022018 rmk42tvkaraoke — https://archive.org/details/05022018Rmk42tvkaraoke; Jazz Dance — https://archive.org/details/0985-chase-jazz-dance-june-20; A portrait of contemporary jazz dance. [motion picture] — https://archive.org/details/aportraitofcontemporaryjazzdance; 3.gars. 2.filles.et.un.tresor Saint Étienne Loire Rmk 42tvkaraoke — https://archive.org/details/3.gars.2.filles.et.un.tresorSaintEtienneLoireRmk42tvkaraoke_201704
+Footage: File:Pas de bourrée, jazz dance technique.webm — https://upload.wikimedia.org/wikipedia/commons/6/63/Pas_de_bourr%C3%A9e%2C_jazz_dance_technique.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Jazz Dance.webm — https://upload.wikimedia.org/wikipedia/commons/d/dc/Jazz_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Short Clips — https://archive.org/details/ShortClips_251; Jazz Dance — https://archive.org/details/0985-chase-jazz-dance-june-20; A portrait of contemporary jazz dance. [motion picture] — https://archive.org/details/aportraitofcontemporaryjazzdance
 Motifs: Black and white photos of 1920s Harlem dance halls, Close-ups of shoulder shimmy and footwork, Broadway stage lighting and costumes, Archival footage of Bob Fosse choreography, Contemporary dance studio rehearsals
 Costume notes: Costumes vary by style and era, from casual social dance attire in early vernacular jazz to theatrical costumes in Broadway jazz and film. Early social dances were performed in everyday clothing suitable for dance halls and clubs. Theatrical jazz uses stylized costumes reflecting character and mood, often incorporating hats, gloves, and tailored suits or dresses. Contemporary jazz costumes are diverse, ranging from streetwear in commercial jazz to sleek, form-fitting attire in stage performances. Settings include social dance venues, theaters, television studios, and dance competitions.
 

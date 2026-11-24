@@ -1,6 +1,6 @@
 # Alarippu — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
@@ -103,7 +103,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'vxJ8rgBtAmE', 'checked_by_vision_model': True, 'title': 'Alarippu'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: File:Alarippu.webm — https://upload.wikimedia.org/wikipedia/commons/9/9f/Alarippu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Dance Performance by Ms. Roopa Rajagopal — https://archive.org/details/dni.ncaa.ICCR-2124-VHS; Classical Dance performance (Vol.I) — https://archive.org/details/dni.ncaa.ICCR-997-VHS; Arangetram: Bharatnatyam Recital by Ms. Parul Pandya — https://archive.org/details/dni.ncaa.ICCR-2186-VHS; Bharatnatyam Recital by Ms. Roopa Rajagopal — https://archive.org/details/dni.ncaa.ICCR-2316-VHS; Bharatnatyam Recital by Ms. V. Subha — https://archive.org/details/dni.ncaa.ICCR-2479-VHS; Bharatnatyam Recital by Ms. Corneliya Punj — https://archive.org/details/dni.ncaa.ICCR-2719-VHS
+Footage: File:Alarippu.webm — https://upload.wikimedia.org/wikipedia/commons/9/9f/Alarippu.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Opening flower buds, Geometric lines of the arms, The rhythmic strike of the mridangam, Dust rising from the floor during footwork
 Costume notes: Dancers typically wear the traditional Bharatanatyam sari or dress with a pleated front that fans out during the Araimandi posture. The setting is usually a formal stage or a temple courtyard, where the dancer performs facing the audience and the deity.
 

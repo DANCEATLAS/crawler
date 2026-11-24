@@ -1,8 +1,8 @@
 # pachanga — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, grounded, knowledgeable in salsa history.
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Historically a social dance craze in 1950s/60s ballrooms, it is now a performance element in salsa shines.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Videos Hits ; 35 Cumbias, Pachanga, Latín Dance, Reggaeton, Tribal, Pop, Kitsch, Retro (https://archive.org/details/karicia-la-discoteka)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -325,7 +325,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'BwjN0t7eFPU', 'checked_by_vision_model': True, 'title': 'PACHANGA Eddie Torres and Grisel Ponce'}
 Images: 1 licensed — Joel Riedesel / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: Videos Hits ; 35 Cumbias, Pachanga, Latín Dance, Reggaeton, Tribal, Pop, Kitsch, Retro — https://archive.org/details/karicia-la-discoteka; 2026 Latinx Theatre Commons Carnaval of New Latinx Musicals — https://archive.org/details/2026-latinx-theatre-commons-carnaval-of-new-latinx-musicals
+Footage: MISSING
 Motifs: 1950s ballroom footage, Close-up of feet showing the glide, Charanga ensemble performance
 
 

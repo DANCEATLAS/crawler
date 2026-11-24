@@ -1,8 +1,8 @@
 # Electric Slide — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; signature moves; the costume & setting section; lineage; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; posture, arms and hands; the occasions & meaning section; signature moves; the costume & setting section; lineage; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -20,12 +20,12 @@ MUSIC: theme (30 s)
 ### 2. Where and when (70 s) · `where`
 NARRATION: The dance was reportedly created by Ric Silver in 1976, though the creation date is disputed by Marcia Griffiths, who states the associated song was written in the early 1980s.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: clases danza arabe dance class hot xtreme girl halloween arab dancing halloween fitness ny health mu (https://archive.org/details/Danzaarabe-clasesDanzaArabeDanceClassHotXtremeGirlHalloweenArabDa241)
+ON SCREEN: Footage: Drew's Famous Step By Step Party Dances [Full VHS] (https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs)
 MUSIC: underscore
 NEEDS: occasions_and_meaning
 
@@ -47,10 +47,10 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: costume_and_setting, images
+NEEDS: costume_and_setting
 
 ### 7. The people (60 s) · `people`
 NARRATION: Ric Silver (choreographer), Bunny Wailer (songwriter), Marcia Griffiths (singer).
@@ -280,8 +280,8 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'dv2qKpna3lM', 'checked_by_vision_model': True, 'title': 'How to Do the Electric Slide | Sexy Dance Moves'}
-Images: 0 licensed
-Footage: clases danza arabe dance class hot xtreme girl halloween arab dancing halloween fitness ny health mu — https://archive.org/details/Danzaarabe-clasesDanzaArabeDanceClassHotXtremeGirlHalloweenArabDa241; Drew's Famous Step By Step Party Dances [Full VHS] — https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs; 1992 VHS • Country Line Dancing 60 FPS — https://archive.org/details/TheVistaGroup-CountryLineDancing; Drew's Famous Step By Step Party Dances — https://archive.org/details/drews-famous-step-by-step-party-dances; 1992 VHS • More Country Line Dancing 60 FPS — https://archive.org/details/TheVistaGroup-MoreCountryLineDancing; Diane Horner's How To Country Line Dance [Full VHS] — https://archive.org/details/diane-horners-how-to-country-line-dance-full-vhs; File:The electric teleprinter Automatik Lo 133 (2).webm — https://upload.wikimedia.org/wikipedia/commons/f/f5/The_electric_teleprinter_Automatik_Lo_133_%282%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Images: 3 licensed — Wikimedia Commons / Public domain (Public domain); SPC JERRY T. COMBES, USA / Wikimedia Commons / Public domain (Public domain); Purple Slog from West Allis Wisconsin, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
+Footage: Drew's Famous Step By Step Party Dances [Full VHS] — https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs
 
 
 

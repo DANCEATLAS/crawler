@@ -1,8 +1,8 @@
 # Cariñosa — episode pack
 
-*Status: draft · built 2026-11-19 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the music & instruments section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural researcher or experienced folk dance practitioner.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: The dance is performed at festivals and social gatherings.
 NARRATION: It serves as a courtship performance, depicting a romantic scenario between partners.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Music from the Philippines: Robert Garfias Films (https://archive.org/details/waueum_1966004-Garfias_Philippine-Films)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -295,7 +295,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'jaszm_kuY7I', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — Markytour777 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: Music from the Philippines: Robert Garfias Films — https://archive.org/details/waueum_1966004-Garfias_Philippine-Films; Jaela - Find My Forever En Español — https://archive.org/details/Jaela_-_Find_My_Forever_En_Espanol
+Footage: MISSING
 Motifs: Fan and handkerchief, María Clara gown, Barong tagalog
 Costume notes: Performers wear the María Clara gown and barong tagalog. Alternative attire includes the patadyong kimona, camisa de chino, and colored pants for men.
 

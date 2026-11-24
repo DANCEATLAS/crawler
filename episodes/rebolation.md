@@ -1,6 +1,6 @@
 # Rebolation — episode pack
 
-*Status: draft · built 2026-11-20 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
@@ -22,7 +22,7 @@ NARRATION: Rebolation emerged in Brazilian rave parties in the early 2000s.
 NARRATION: It was originally called 'reboleixon'.
 NARRATION: In 2009, the name 'Free Step' was adopted by the community to distance the dance from the Axé music song 'Rebolation' by Parangolé.
 ON SCREEN: Map: Brazil · South America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,7 +55,7 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Traditional attire includes bell-bottomed 'shuffle pants' or phat pants with neon details, UV reflective tape, or glitter.
 NARRATION: Modern practitioners often wear casual street clothing with flat-soled sneakers to aid in sliding.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -302,7 +302,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'WGQAGTmc8Qs', 'checked_by_vision_model': True, 'title': "' Gaa.Mendees X Rick.Barbosa - ETERNITY - [ Free Step ]"}
-Images: 0 licensed
+Images: 2 licensed — Rodrigo Della Fávera / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Rodrigo Della Fávera / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Neon-accented phat pants, Flat-soled sneakers, Roof terrace setting, Fast-paced electronic light shows
 Costume notes: Traditional attire includes bell-bottomed 'shuffle pants' or phat pants with neon details, UV reflective tape, or glitter. Modern practitioners often wear casual street clothing with flat-soled sneakers to aid in sliding.

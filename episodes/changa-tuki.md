@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A veteran barrio dancer from the Máquina Latina era who emphasizes battle resilience, crew pride, and street authenticity.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Originally performed during afternoon matinée parties and community parrandas, changa tuki functioned as an outlet for urban youth, reflecting the adrenaline and social tension of Caracas barrios while providing a peaceful arena for rival groups to resolve disputes.
 NARRATION: Despite facing class-based stigma and pejorative labeling from middle and upper classes, the movement enabled prominent dancers to progress professionally and open their own dance academies.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Bailando con la changa.webm (https://upload.wikimedia.org/wikipedia/commons/8/85/Bailando_con_la_changa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -286,7 +286,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'DHJ-6io__8c', 'checked_by_vision_model': True, 'title': 'Aprende a bailar changa tuky con Crew Abstractor'}
 Images: 0 licensed
-Footage: File:Bailando con la changa.webm — https://upload.wikimedia.org/wikipedia/commons/8/85/Bailando_con_la_changa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Sonido la changa en banderilla.webm — https://upload.wikimedia.org/wikipedia/commons/5/5f/Sonido_la_changa_en_banderilla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Peroxide-dyed blonde beards and hair tips against dark hair, Low cap brims pulled down over the brow, Air Jordan-style Nike sneakers stepping on a crowded club floor, Tight red trousers moving against glowing club lighting, Sweat dripping under strobes in an afternoon matinée
 Costume notes: Dancers developed a recognizable street aesthetic consisting of tight red pants, sleeveless shirts, caps worn low enough to almost cover their eyes, and Nike shoes styled after Air Jordans. Dancers frequently used hydrogen peroxide to bleach their beards and the tips of their hair. The primary settings were afternoon club matinées, popular barrio discotheques like Iguana in Caracas, and informal residential parrandas.
 

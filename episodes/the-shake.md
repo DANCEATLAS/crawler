@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic 1960s youth culture historian with an enthusiastic, accessible teaching approach.
@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: The Shake served as a social release mechanism for 1960s youth, exemplifying individualistic expression without the constraints of formal partner dancing.
 NARRATION: The hypnotic combination of loud music and intense somatic vibration offered a immersive experience that intrigued contemporary researchers studying the effects of music on the human central nervous system.
 NARRATION: Today it is a historical tradition.
-ON SCREEN: Footage: File:Doin' the Shake - U.S. Navy Band.webm (https://upload.wikimedia.org/wikipedia/commons/0/02/Doin%27_the_Shake_-_U.S._Navy_Band.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -328,7 +328,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: File:Doin' the Shake - U.S. Navy Band.webm — https://upload.wikimedia.org/wikipedia/commons/0/02/Doin%27_the_Shake_-_U.S._Navy_Band.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Funny or Die Video 1119: The Shake Bum — https://archive.org/details/funny_or_die_video_1119; The Wiggles: Yule Be Wiggling [2001] — https://archive.org/details/the-wiggles-yule-be-wiggling-2001_202610
+Footage: MISSING
 Motifs: Mod fashion aesthetic of 1965, Loud amplified electric guitars on stage, Solo dancers engaged in energetic, jerky movements
 Costume notes: Associated firmly with the Mod subculture of 1960s Britain, The Shake was performed in youth clubs, discotheques, and music venues where loud, amplified R&B played. Mod fashion of the mid-1960s framed the dance's sharp, sudden visual aesthetic.
 

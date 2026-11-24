@@ -1,0 +1,177 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex reeling patterns",
+          "Strict gender-based lines",
+          "High-speed turns"
+        ],
+        "counts": "Simple 1-2-3-4 or 1-2-3-hop counts.",
+        "duration_minutes": "5",
+        "game_version": "The 'Dancing Game' version: use simplified lyrics like 'Heel and toe, away we go' to cue movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid spinning",
+          "Sashay/gallop steps",
+          "Long periods of standing without movement"
+        ],
+        "counts": "Use clear 1-2-3-4 walking counts for every figure.",
+        "seated_version": "Dancers sit in two rows; perform 'forward and back' by leaning and 'turns' by circling arms with a partner.",
+        "standing_version": "Reduce the 'reel' to a simple walk-through without spinning to maintain balance.",
+        "tempo_and_range": "Slow the music to 80-90 BPM; reduce the length of the set to 4 couples to minimize walking distance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands joined at shoulder height for turns; arms crossed for do-si-do; linked elbows for the reel",
+      "difficulty": "intermediate",
+      "footwork": "Walking steps or a light 'bounce' step; sashay (side-slip and close) for the center travel",
+      "formation_and_space": "Two facing lines (longways set); movement occurs in the 'aisle' between lines and behind the lines during the march",
+      "hips_and_torso": "Stable torso with movement generated from the legs and feet",
+      "levels_and_jumps": "No jumps; levels remain constant with a rhythmic bounce",
+      "partnering": "Frequent partner interaction interspersed with 'reeling' through the rest of the group",
+      "posture": "Upright and alert, ready for quick directional changes",
+      "signature_moves": [
+        {
+          "description": "Head couple links right arms for a 1.5 turn, then left arm to the next person in the opposite line.",
+          "name": "The Reel"
+        },
+        {
+          "description": "Dancers pass right shoulders and move around each other back-to-back without turning.",
+          "name": "Do-si-do"
+        }
+      ],
+      "tempo_feel": "Quick and energetic",
+      "what_to_avoid": "Avoid 'running' or 'scrambling'; maintain the 'refined jollity' and geometric precision of the figures."
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle",
+        "Banjo",
+        "Piano",
+        "Flute"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "lively",
+        "spirited",
+        "merry",
+        "rhythmic"
+      ],
+      "musical_form": "AABB (binary) structure typical of reels",
+      "reference_recordings": [
+        {
+          "artist": "MacGregor #7345",
+          "title": "Virginia Reel (Haste to the Wedding)"
+        },
+        {
+          "artist": "Traditional",
+          "title": "Turkey in the Straw"
+        }
+      ],
+      "rhythm_pattern": "Continuous eighth notes with strong downbeats",
+      "sound_description": "A driving, upbeat fiddle-led sound characterized by rapid-fire melodic lines and a steady, percussive accompaniment that emphasizes the 'bounce' of the dance.",
+      "tempo_bpm": "110",
+      "vocal_style": "Usually instrumental; occasionally accompanied by rhythmic calls"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Forward and back (4 steps each way)",
+        "Two-hand turn (join hands and rotate once)",
+        "Do-si-do (pass right shoulders, go back-to-back)",
+        "Sashay/Chasse (side-slip down the center and back)",
+        "The Reel (alternate arm swings with partner and line members)",
+        "The March (turn outward and file to the foot)",
+        "The Arch (head couple forms a gate for others to pass through)"
+      ],
+      "formation": "Longways set (two parallel lines of 5-8 couples)",
+      "level_notes": "Beginners should focus on the 'reel' timing, ensuring they return to the center to swing their partner between every side-line swing.",
+      "rhythm": "Quick 2/4 or 6/8 time with a bounce"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bcee7eea0acbf6f4afbcf4af3d558a97246eba876f44be690136f96161991cd3",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific 'variations on the chorus' used by University of Virginia students? Evidence needed: https://en.wikipedia.org/wiki/Virginia_reel_(dance)"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How does the 'bounce' step vary between the American folk tradition and the Finnish 'Vanhojen tanssit' version? Evidence needed: https://en.wikipedia.org/wiki/Virginia_reel_(dance)"
+    ]
+  },
+  "id": "atlas:virginia-reel",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Virginia reel",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "52fa25565f276c51",
+      "next_evidence": "https://en.wikipedia.org/wiki/Virginia_reel_(dance)",
+      "question": "How does the 'bounce' step vary between the American folk tradition and the Finnish 'Vanhojen tanssit' version?",
+      "source": "https://en.wikipedia.org/wiki/Virginia_reel_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention a 'bounce' but do not specify if the Finnish formal version maintains this or uses a more restrained ballroom step."
+    },
+    {
+      "domain": "research",
+      "id": "4697d69d4f39548f",
+      "next_evidence": "https://en.wikipedia.org/wiki/Virginia_reel_(dance)",
+      "question": "What are the specific 'variations on the chorus' used by University of Virginia students?",
+      "source": "https://en.wikipedia.org/wiki/Virginia_reel_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions variations exist for 'The Rattlin' Bog' but does not describe the movements."
+    }
+  ],
+  "research_file": "research_results/virginia-reel.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "virginia-reel",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Virginia_reel_(dance)",
+    "https://www.wikidata.org/wiki/Q7934709",
+    "https://archive.org/details/SongsOfTheChildWorld",
+    "https://archive.org/details/danceman093",
+    "https://archive.org/details/danceman186"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

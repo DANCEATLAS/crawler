@@ -2,7 +2,7 @@
  "slug": "batuque",
  "name": "Batuque",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:27Z",
  "researched_at": "2026-11-15T16:34:40Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -82,7 +82,7 @@
     ],
     "on_screen": [
      "Map: Cape Verde · Africa",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -97,7 +97,7 @@
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: Caique Vidal (https://archive.org/details/tognc-Caique_Vidal)"
+     "Footage — MISSING (use images)"
     ],
     "music": "underscore"
    },
@@ -149,7 +149,7 @@
      "The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -747,7 +747,9 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": "Batuque requires no specialized architecture and takes place in a terreru, typically an open-air domestic backyard or a public village square. Dancers wear everyday attire accented by a panu—a traditional fabric cloth tied securely around the waist or hips to visually accentuate the oscillatory movements of the pelvis. The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABatukaderas_deltacultura.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -755,23 +757,17 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
-  "footage": [
+  "images": [
    {
-    "title": "Caique Vidal",
-    "url": "https://archive.org/details/tognc-Caique_Vidal",
-    "year": 2021,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "File:Obat Batuk.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Obat_Batuk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Annidafattiya / Wikimedia Commons / CC BY-SA 4.0"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Batukaderas_deltacultura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Batukaderas_deltacultura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jennifer Jane Smith - http://www.jennifer-jane-smith.com/ / Wikimedia Commons / CC BY-SA 2.0 de",
+    "license": "CC BY-SA 2.0 de",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABatukaderas_deltacultura.jpg",
+    "description": "Batukugruppe \"Batukaderas Delta Cultura\" bei einem Auftritt auf Santiago (Kap Verde)."
    }
   ],
+  "footage": [],
   "motifs": [
    "A patterned panu sash tied snugly across the hips",
    "Hands drumming forcefully against folded cloths between knees",
@@ -831,6 +827,7 @@
  "gaps": [
   "tempo (bpm)",
   "licensed images (3 needed)",
+  "licensed reference footage",
   "two or more connections"
  ],
  "sources": [
@@ -842,6 +839,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "97923882a60bedaf7f4968660fa604f4057c0ba99c8cf4d17d1b19c481f3def0",
+ "input_fingerprint": "a8b6d3c694ebf45fd322c58732f636b528917bd7637830f79aab8dfb72232adc",
  "hero_checked": "pass"
 }

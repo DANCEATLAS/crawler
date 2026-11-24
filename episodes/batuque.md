@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned Santiago batukadera with authoritative presence, warm cadence, and exacting rhythm.
@@ -22,7 +22,7 @@ NARRATION: Batuque is widely regarded as the oldest musical and dance tradition 
 NARRATION: While musicologist Carlos Gonçalves notes it is not simply an unmediated African import but rather an adaptation of African dance forms that evolved distinct local features in Cape Verde, written records trace it back to the 18th century.
 NARRATION: The earliest documented colonial decree against it was signed in September 1772 by Governor Joaquim Salema de Saldanha Lobo, citing nighttime disruptions and scandalous gatherings.
 ON SCREEN: Map: Cape Verde · Africa
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -30,7 +30,7 @@ NARRATION: In earlier centuries, batuque held specific social, ritual, and cerem
 NARRATION: It was danced on Christian saints' feast days, at local festivals, and especially prior to and during weddings.
 NARRATION: Scholars have suggested that the pelvic movements originally evoked fertility and marital sexuality to bless the bride.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Caique Vidal (https://archive.org/details/tognc-Caique_Vidal)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -59,7 +59,7 @@ NEEDS: tempo
 NARRATION: Batuque requires no specialized architecture and takes place in a terreru, typically an open-air domestic backyard or a public village square.
 NARRATION: Dancers wear everyday attire accented by a panu—a traditional fabric cloth tied securely around the waist or hips to visually accentuate the oscillatory movements of the pelvis.
 NARRATION: The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -331,8 +331,8 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'NblcFPVqzDY', 'checked_by_vision_model': True, 'title': 'Batucadeiras - Voz de Cultura - Balansa Coxa (Video Oficial )'}
-Images: 0 licensed
-Footage: Caique Vidal — https://archive.org/details/tognc-Caique_Vidal; File:Obat Batuk.webm — https://upload.wikimedia.org/wikipedia/commons/4/44/Obat_Batuk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Images: 1 licensed — Jennifer Jane Smith - http://www.jennifer-jane-smith.com/ / Wikimedia Commons / CC BY-SA 2.0 de (CC BY-SA 2.0 de)
+Footage: MISSING
 Motifs: A patterned panu sash tied snugly across the hips, Hands drumming forcefully against folded cloths between knees, A circle of women singing face-to-face in an open terreru, Dust kicking up under rhythmic knee flexions
 Costume notes: Batuque requires no specialized architecture and takes place in a terreru, typically an open-air domestic backyard or a public village square. Dancers wear everyday attire accented by a panu—a traditional fabric cloth tied securely around the waist or hips to visually accentuate the oscillatory movements of the pelvis. The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces.
 

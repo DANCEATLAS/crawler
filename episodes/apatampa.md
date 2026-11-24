@@ -22,7 +22,7 @@ NARRATION: The dance originates from the Fanti people of Ghana.
 NARRATION: It is historically linked to a legend where a woman distracted a giant with her dancing, saving the men of her community.
 NARRATION: The name is derived from 'apata ampa', meaning she was praised for ending the fight.
 ON SCREEN: Map: Ghana · Africa
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -51,7 +51,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -294,7 +294,7 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'gxnSDuuK7-I', 'checked_by_vision_model': True, 'title': 'Performance of Apatampa dance by B. S. 2'}
-Images: 0 licensed
+Images: 2 licensed — Assilidjoe / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Assilidjoe / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: MISSING
 Motifs: Close-up of hands striking the plywood sheet., Wide shot of a performer moving with a smile., The metal whistle (aben).
 

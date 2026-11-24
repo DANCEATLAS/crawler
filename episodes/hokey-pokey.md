@@ -29,7 +29,7 @@ MUSIC: underscore
 NARRATION: It is a social, participatory dance used for amusement and group interaction.
 NARRATION: It has no sacred meaning, despite debunked theories linking it to the Catholic Mass.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Disney's Sing Along Songs Vol. 11 (Laserdisc) (https://archive.org/details/14023AS)
+ON SCREEN: Footage: Drew's Famous Step By Step Party Dances [Full VHS] (https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -318,7 +318,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'CMHU2RxFgD4', 'checked_by_vision_model': False, 'title': 'Hokey Pokey (1953 Original - Jo Ann Greer) MR DICKIE BOWS DANCE SCHOOL (ROSE) NEW YEARS EVE 2018'}
 Images: 1 licensed — Bryan Ledgard / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: Disney's Sing Along Songs Vol. 11 (Laserdisc) — https://archive.org/details/14023AS; Billy & Ruby's Sing & Play Along — https://archive.org/details/billy-rubys-sing-play-along_202207; Barney: The Backyard Show [1988] - 1990 VHS Release — https://archive.org/details/backyard-show-1988-1990-vhs-rip_202308; Drew's Famous Step By Step Party Dances [Full VHS] — https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs; Barney: The Backyard Show [1988] - 1992 VHS Release (White VHS) — https://archive.org/details/backyard-show-1988-1992-vhs-rip-1_202308; Barney: The Backyard Show [1988] - 1991 VHS Release — https://archive.org/details/the-backyard-show-1988-1991-vhs-release; Get Up & Go! With Dave Benson Phillips & Big Bear (Lyrick Studios Version) — https://archive.org/details/get-up-go-with-dave-benson-phillips-big-bear-lyrick-studios-version; Pocoyo Dance The Hokey Cokey From The Adventures Of Gracie Lou — https://archive.org/details/pocoyo-dance-the-hokey-cokey-from-the-adventures-of-gracie-lou
+Footage: Drew's Famous Step By Step Party Dances [Full VHS] — https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs; Pocoyo Dance The Hokey Cokey From The Adventures Of Gracie Lou — https://archive.org/details/pocoyo-dance-the-hokey-cokey-from-the-adventures-of-gracie-lou
 Motifs: Vintage sheet music, Circle of dancers, Archival footage of 1940s dance halls
 Costume notes: There is no specific costume; it is a casual, social dance. It is performed in settings ranging from skating rinks and school halls to parties and carnivals.
 

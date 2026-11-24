@@ -1,8 +1,8 @@
 # Skank — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable dance historian with experience in ska and punk scenes.
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: It serves as a consensual release of emotion.
 NARRATION: The community maintains a safety-first approach, where dancers protect those who fall in the pit.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Skank ao vivo em Porto Alegre - É Uma Partida de Futebol, novembro de 2022.webm (https://upload.wikimedia.org/wikipedia/commons/7/76/Skank_ao_vivo_em_Porto_Alegre_-_%C3%89_Uma_Partida_de_Futebol%2C_novembro_de_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -321,7 +321,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'km6Zyw81pP4', 'checked_by_vision_model': True, 'title': 'DRUM N BASS DANCE DNB STEP/SKANK FREESTYLE'}
 Images: 0 licensed
-Footage: File:Skank ao vivo em Porto Alegre - É Uma Partida de Futebol, novembro de 2022.webm — https://upload.wikimedia.org/wikipedia/commons/7/76/Skank_ao_vivo_em_Porto_Alegre_-_%C3%89_Uma_Partida_de_Futebol%2C_novembro_de_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; VA - Viva La Disco 1 — https://archive.org/details/va-viva-la-disco-1; Brazilian Music Dance Remix Vol.01 — https://archive.org/details/brazilian-music-dance-remix-vol.-1; MTV Dancefloor 2022.12.09 — https://archive.org/details/mtv-dancefloor-2022.12.09; Just Dance Raw Files — https://archive.org/details/crazy-in-love-beta-hd; Bohemian Rhapsody In Jamaican Ska Style | Queen Classic With Island Vibes [ By AI Not Real] — https://archive.org/details/bohemian-rhapsody-in-jamaican-ska-style-queen-classic-with-island-vibes-by-ai-not-real; Radio Clash 21-2-6_ToneChange, Ratrace, Zero One — https://archive.org/details/radio-clash-21-2-6
+Footage: MISSING
 Motifs: The backbeat pulse on a guitar., The circle formation of a dance pit., Close-ups of the running-man leg motion.
 Costume notes: Skanking is performed in diverse settings including dance halls, concert venues, and raves. No specific costume is required, though it is historically associated with mod, skinhead, and punk subcultures.
 

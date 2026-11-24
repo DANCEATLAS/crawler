@@ -1,0 +1,831 @@
+{
+ "slug": "walkaround",
+ "name": "walkaround",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T03:20:28Z",
+ "researched_at": "2026-11-23T21:59:26Z",
+ "qc_score": 9.45,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A historical dance archivist focused on 19th-century stage performance mechanics and rhythm.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "walkaround",
+   "walk-around",
+   "walk around",
+   "horay"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet walkaround",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "From Sacred Ring to Minstrel Stage",
+     "This is walkaround. 19th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: walkaround · United States · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The walkaround began in the 1840s as a dance for one performer in blackface minstrel shows, expanding by the 1850s to involve full troupes.",
+     "Scholars note its origins as a parody of the ring shout, a religious dance of African plantation slaves tracing back to West African traditions.",
+     "Over time, minstrel troupes wrote dedicated walkaround compositions like 'Dixie', and the dance eventually incorporated the cakewalk."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Functions as a stage finale for the first half of a minstrel show, leading into intermission.",
+     "It served as a caricature of sacred slave ring shouts while functioning as a vehicle for competitive vernacular dance.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers start seated in a semicircle.",
+     "At the onset of fast 2/4 or 4/4 music, they stand and clap or slap their bodies ('patting Juba').",
+     "Individual dancers or couples step downstage to the center of the semicircle, performing elaborate steps for roughly 16 bars.",
+     "Watch for Patting Juba, Downstage Solo."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers begin seated in an opening semicircle, move downstage to the focal point for solos, and break ranks across the stage for the finale."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Accompanied by fast dance music in 2/4 or 4/4 meter.",
+     "Minstrel troupes authored specific compositions known as walkarounds, including 'Dixie'.",
+     "Listen for the body percussion.",
+     "The pulse is 2/4 or 4/4.",
+     "A fast, driving 2/4 or 4/4 tempo defined by energetic body percussion, clapping, and theatrical stage song arrangements."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Dixie — Daniel Decatur Emmett",
+     "Waveform or rhythm-pattern graphic: Fast dance beat in 2/4 or 4/4 accompanied by hand clapping and body slapping"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "staged on theatrical minstrel show stages during the first-half finale.",
+     "During the later period when the cakewalk integrated into the performance, the cakewalk sections were typically performed by men in drag."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Master Juba is referenced through the associated 'patting Juba' rhythm tradition.",
+     "Daniel Decatur Emmett wrote 'Dixie', the most famous walkaround song.",
+     "Derived from West African religious ring traditions and plantation ring shouts; directly integrated with the cakewalk and influenced early tap and vernacular American stage dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "walkaround is parent of ring shout: The walkaround originated as a theatrical stage parody of the religious ring shout.",
+     "walkaround is variant of cakewalk: The cakewalk integrated into the walkaround over time, making the terms interchangeable."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand from semicircle formation upon musical cue",
+     "Execute Juba body-patting (clapping and slapping body in 2/4 or 4/4 time)",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how 19th-century dancers adapted sacred slave rituals into the competitive stage walkaround.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master basic body percussion patterns in 2/4 time",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master basic body percussion patterns in 2/4 time.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance archivist focused on 19th-century stage performance mechanics and rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Clapping and slapping against the body ('patting Juba')."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Fast dance beat in 2/4 or 4/4 accompanied by hand clapping and body slapping.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand from semicircle formation upon musical cue",
+      "Step 2: Execute Juba body-patting (clapping and slapping body in 2/4 or 4/4 time)",
+      "Footwork from the sources: Elaborate solo dance steps performed in 16-bar segments downstage.",
+      "Drill: Practice hand clapping in fast 2/4 meter"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Advance downstage to center point of the semicircle",
+      "Step 4: Perform elaborate solo dance steps for 16 bars",
+      "Drill: Add thigh and torso slapping on alternating beats"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform Juba hand clapping and chest/lap patting while remaining seated in a semicircle. · For children: Circle Pass Solo: Children sit in a semicircle, patting knees to a fast beat; when called, a child runs to center to show their own 16-bar movement."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform Juba hand clapping and chest/lap patting while remaining seated in a semicircle.",
+      "For children: Circle Pass Solo: Children sit in a semicircle, patting knees to a fast beat; when called, a child runs to center to show their own 16-bar movement."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master basic body percussion patterns in 2/4 time.",
+      "Functions as a stage finale for the first half of a minstrel show, leading into intermission.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the spatial entry and 16-bar solo timing",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the spatial entry and 16-bar solo timing.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance archivist focused on 19th-century stage performance mechanics and rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Clapping and slapping against the body ('patting Juba')."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Fast dance beat in 2/4 or 4/4 accompanied by hand clapping and body slapping.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Retreat back to semicircle while next soloist steps downstage",
+      "Step 2: Break ranks with entire troupe to dance ensemble section",
+      "Drill: Step downstage from semicircle formation on count"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Patting Juba: Clapping hands and slapping the body rhythmically in time with fast 2/4 or 4/4 music.",
+      "Downstage Solo: Advancing to the focal point of the semicircle to execute 16 bars of elaborate steps.",
+      "Drill: Maintain rhythmic speed through 16 bars of movement"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform Juba hand clapping and chest/lap patting while remaining seated in a semicircle. · For children: Circle Pass Solo: Children sit in a semicircle, patting knees to a fast beat; when called, a child runs to center to show their own 16-bar movement."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform Juba hand clapping and chest/lap patting while remaining seated in a semicircle.",
+      "For children: Circle Pass Solo: Children sit in a semicircle, patting knees to a fast beat; when called, a child runs to center to show their own 16-bar movement."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Dancers begin seated in an opening semicircle, move downstage to the focal point for solos, and break ranks across the stage for the finale."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the spatial entry and 16-bar solo timing.",
+      "Master Juba is referenced through the associated 'patting Juba' rhythm tradition.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Combine Juba patting with competitive stage solos",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Combine Juba patting with competitive stage solos.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance archivist focused on 19th-century stage performance mechanics and rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Clapping and slapping against the body ('patting Juba')."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Fast dance beat in 2/4 or 4/4 accompanied by hand clapping and body slapping.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Retreat back to semicircle while next soloist steps downstage",
+      "Step 2: Break ranks with entire troupe to dance ensemble section",
+      "Drill: Perform complex footwork while maintaining call-and-response dynamics"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Patting Juba: Clapping hands and slapping the body rhythmically in time with fast 2/4 or 4/4 music.",
+      "Downstage Solo: Advancing to the focal point of the semicircle to execute 16 bars of elaborate steps.",
+      "Drill: Transition smoothly back to semicircle post-solo"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform Juba hand clapping and chest/lap patting while remaining seated in a semicircle. · For children: Circle Pass Solo: Children sit in a semicircle, patting knees to a fast beat; when called, a child runs to center to show their own 16-bar movement."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform Juba hand clapping and chest/lap patting while remaining seated in a semicircle.",
+      "For children: Circle Pass Solo: Children sit in a semicircle, patting knees to a fast beat; when called, a child runs to center to show their own 16-bar movement."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Dancers begin seated in an opening semicircle, move downstage to the focal point for solos, and break ranks across the stage for the finale."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine Juba patting with competitive stage solos.",
+      "Derived from West African religious ring traditions and plantation ring shouts; directly integrated with the cakewalk and influenced early tap and vernacular American stage dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4 or 4/4",
+  "rhythm_pattern": "Fast dance beat in 2/4 or 4/4 accompanied by hand clapping and body slapping",
+  "instruments": [
+   "body percussion"
+  ],
+  "vocal_style": null,
+  "musical_form": "16-bar solo structural blocks framed by group chorus/semicircle",
+  "mood": [
+   "fast",
+   "competitive",
+   "theatrical",
+   "lively"
+  ],
+  "sound_description": "A fast, driving 2/4 or 4/4 tempo defined by energetic body percussion, clapping, and theatrical stage song arrangements.",
+  "listen_before_composing": [
+   "Dixie — Daniel Decatur Emmett"
+  ],
+  "prompt": "Original instrumental composition in the musical world of walkaround (United States). Meter 2/4 or 4/4. Rhythm pattern: Fast dance beat in 2/4 or 4/4 accompanied by hand clapping and body slapping. Instruments: body percussion. Form: 16-bar solo structural blocks framed by group chorus/semicircle. Mood: fast, competitive, theatrical, lively. It should sound like this: A fast, driving 2/4 or 4/4 tempo defined by energetic body percussion, clapping, and theatrical stage song arrangements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "staged on theatrical minstrel show stages during the first-half finale. During the later period when the cakewalk integrated into the performance, the cakewalk sections were typically performed by men in drag.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABryant%27s_Minstrels_walkaround_1.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABryant%27s_Minstrels_walkaround_2.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bryant%27s_Minstrels_walkaround_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bryant%27s_Minstrels_walkaround_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABryant%27s_Minstrels_walkaround_1.jpg",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bryant%27s_Minstrels_walkaround_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bryant%27s_Minstrels_walkaround_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABryant%27s_Minstrels_walkaround_2.jpg",
+    "description": ""
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Semicircle stage layout",
+   "Body slap hand contact",
+   "Center-stage spotlight downstage"
+  ],
+  "costume_notes": "staged on theatrical minstrel show stages during the first-half finale. During the later period when the cakewalk integrated into the performance, the cakewalk sections were typically performed by men in drag.",
+  "setting_notes": "Functions as a stage finale for the first half of a minstrel show, leading into intermission. It served as a caricature of sacred slave ring shouts while functioning as a vehicle for competitive vernacular dance.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "69 tutorial(s) of the street-urban family studied",
+  "videos_studied": 69,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "down and up",
+   "step touch",
+   "one and two",
+   "5-6-7-8",
+   "heel toe",
+   "twist your wrist",
+   "keep your arm tense",
+   "pivot your feet",
+   "turn your torso",
+   "heel step",
+   "stomp",
+   "farmer"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Walkaround",
+  "https://www.wikidata.org/wiki/Q7962157",
+  "https://fr.wikipedia.org/wiki/Walkaround"
+ ],
+ "claims_verified": 9,
+ "claims": 9,
+ "polished": false,
+ "input_fingerprint": "a1b3ffb88a9942a88afa194eab50302110c4df6d79b840b0fa9c996e0c5baf9b",
+ "hero_checked": null
+}

@@ -2,7 +2,7 @@
  "slug": "pantsula",
  "name": "Pantsula",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-21T19:12:54Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -83,7 +83,7 @@
     ],
     "on_screen": [
      "Map: South Africa · Africa",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -142,7 +142,7 @@
     "duration_s": 60,
     "narration": [],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -729,7 +729,9 @@
    "dress_the_narrator": false,
    "restricted_attire": false,
    "from_sources": null,
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AIsipantsula_ngesibheqe_sohlamvu.png"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -737,7 +739,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Isipantsula_ngesibheqe_sohlamvu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Isipantsula_ngesibheqe_sohlamvu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Fongcwele / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AIsipantsula_ngesibheqe_sohlamvu.png",
+    "description": "Isipantsula ngesibheqe sohlamvu"
+   }
+  ],
   "footage": [
    {
     "title": "The Travel Show : BBCNEWS : January 8, 2022 10:30am-11:01am GMT",
@@ -893,6 +904,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "914aeafe4a9a0e44775bd6ac9dc18b458ea6b3da7da523208a4f46fb57ea195b",
+ "input_fingerprint": "4506bd972f7a7d8c3001fbef97645ee081dea294943c40ecfc6f10e1ea7c0f74",
  "hero_checked": "pass"
 }

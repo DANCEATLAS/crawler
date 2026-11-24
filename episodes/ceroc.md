@@ -1,6 +1,6 @@
 # Ceroc — episode pack
 
-*Status: draft · built 2026-11-18 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the costume & setting section
 
@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Weekly classes, weekend 'Freestyles', and annual championships.
 NARRATION: The dance is used for social interaction and competitive performance.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Grand Villa Casino showgirls learned to jive instantly, Famous Players cover band music (https://archive.org/details/JIVEDANCESHOWGIRLS9Mb_201902)
+ON SCREEN: Footage: Ceroc Routine 3 (https://archive.org/details/Flickr-5150992093)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -305,7 +305,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 0 licensed
-Footage: Grand Villa Casino showgirls learned to jive instantly, Famous Players cover band music — https://archive.org/details/JIVEDANCESHOWGIRLS9Mb_201902; Grand Villa Casino showgirls with Famous Players cover band music — https://archive.org/details/GrandVillaCasinoShowgirlsLearnedToJiveInstantly; Ceroc Routine 3 — https://archive.org/details/Flickr-5150992093; Modern Jive intermediate dance lesson at the Octel Club. 10th November 2005. — https://archive.org/details/Modern_Jive_intermediate_dance_lesson_at_the_Octel_Club._10th_November_2005.; Modern Jive beginners lesson at Ellesmere Port British Legion, 3rd October 2005 — https://archive.org/details/Modern_Jive_beginners_lesson_at_Ellesmere_Port_British_Legion_3rd_October_2005; Modern Jive freestyle at Ellesmere Port British Legion, October 3rd 2005 — https://archive.org/details/Modern_Jive_freestyle_at_Ellesmere_Port_British_Legion_October_3rd_2005; Octel Club Jive Dancing 2005-09-20 — https://archive.org/details/Octel_Club_Jive_Dancing_20050920; Modern Jive dancing at the Octel Club: 2005-09-20 — https://archive.org/details/Modern_Jive_dancing_at_the_Octel_Club_20050920
+Footage: Ceroc Routine 3 — https://archive.org/details/Flickr-5150992093; Modern Jive intermediate dance lesson at the Octel Club. 10th November 2005. — https://archive.org/details/Modern_Jive_intermediate_dance_lesson_at_the_Octel_Club._10th_November_2005.; Modern Jive beginners lesson at Ellesmere Port British Legion, 3rd October 2005 — https://archive.org/details/Modern_Jive_beginners_lesson_at_Ellesmere_Port_British_Legion_3rd_October_2005; Modern Jive freestyle at Ellesmere Port British Legion, October 3rd 2005 — https://archive.org/details/Modern_Jive_freestyle_at_Ellesmere_Port_British_Legion_October_3rd_2005; Octel Club Jive Dancing 2005-09-20 — https://archive.org/details/Octel_Club_Jive_Dancing_20050920; Modern Jive dancing at the Octel Club: 2005-09-20 — https://archive.org/details/Modern_Jive_dancing_at_the_Octel_Club_20050920
 Motifs: Rows of dancers in a large hall, The constant movement of partners rotating, Close-ups of lead-follow connection
 
 

@@ -1,6 +1,6 @@
 # La Bamba — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
@@ -22,7 +22,7 @@ NARRATION: La Bamba originated in the late 17th century in Veracruz, Mexico, wit
 NARRATION: It began as a satirical song mocking the viceroy's ineffective defense against pirates.
 NARRATION: The name 'Bamba' may derive from the Spanish verb 'bambolear' or African roots linked to the Bamba or Bambara peoples, reflecting Veracruz's Afro-Mexican heritage.
 ON SCREEN: Map: Mexico · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -30,7 +30,7 @@ NARRATION: La Bamba is performed at weddings, folkloric festivals, and social ev
 NARRATION: The tying of the ribbon into a lover's knot symbolizes union and grace.
 NARRATION: Lyrics are often improvised to personalize the song for the occasion, especially at weddings, where guests may compose verses for the newlyweds.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:La bamba o twist and shout ritmo.webm (https://upload.wikimedia.org/wikipedia/commons/2/2e/La_bamba_o_twist_and_shout_ritmo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: File:Bailando la bamba en el museo de antropologia.webm (https://upload.wikimedia.org/wikipedia/commons/9/91/Bailando_la_bamba_en_el_museo_de_antropologia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -54,7 +54,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: costume_and_setting, images
@@ -321,8 +321,8 @@ Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'Z8OYQq9jGww', 'checked_by_vision_model': True, 'title': 'La Bamba (bongo mix) by Monkey Circus - Basic Warm up - JamieZumba - 줌바댄스'}
-Images: 0 licensed
-Footage: File:La bamba o twist and shout ritmo.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/La_bamba_o_twist_and_shout_ritmo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Andrés Flores explicando como tocar la Bamba.webm — https://upload.wikimedia.org/wikipedia/commons/d/d6/Andr%C3%A9s_Flores_explicando_como_tocar_la_Bamba.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bailando la bamba en el museo de antropologia.webm — https://upload.wikimedia.org/wikipedia/commons/9/91/Bailando_la_bamba_en_el_museo_de_antropologia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Fandango en Xalapa, Suena y se baila la Bamba.webm — https://upload.wikimedia.org/wikipedia/commons/6/6b/Fandango_en_Xalapa%2C_Suena_y_se_baila_la_Bamba.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bailando la Bamba en el fandango en el estadio xalapeño.webm — https://upload.wikimedia.org/wikipedia/commons/0/04/Bailando_la_Bamba_en_el_fandango_en_el_estadio_xalape%C3%B1o.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; The Wiggles You Make Me Feel Like Dancing! ( 2008) — https://archive.org/details/the-wiggles-you-make-me-feel-like-dancing-2008; Billy & Ruby's Sing & Play Along — https://archive.org/details/billy-rubys-sing-play-along_202207; CantaJuego - Lo Mejor de Puli — https://archive.org/details/youtube-PZGtIi-E2js
+Images: 1 licensed — Maria Fernanda Lira Silva / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
+Footage: File:Bailando la bamba en el museo de antropologia.webm — https://upload.wikimedia.org/wikipedia/commons/9/91/Bailando_la_bamba_en_el_museo_de_antropologia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Fandango en Xalapa, Suena y se baila la Bamba.webm — https://upload.wikimedia.org/wikipedia/commons/6/6b/Fandango_en_Xalapa%2C_Suena_y_se_baila_la_Bamba.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bailando la Bamba en el fandango en el estadio xalapeño.webm — https://upload.wikimedia.org/wikipedia/commons/0/04/Bailando_la_Bamba_en_el_fandango_en_el_estadio_xalape%C3%B1o.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Red ribbon knot, Wooden dance floor, Traditional Veracruz attire, Arpa jarocha harp, Zapateado footwork close-ups
 
 

@@ -1,6 +1,6 @@
 # Afro fusion — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.7 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; posture, arms and hands; signature moves; the costume & setting section; teaching steps written out
 
@@ -11,15 +11,15 @@
 ## Episode 1 · Meet Afro fusion · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Rhythm of Resistance: Afro Fusion.
-NARRATION: This is Afro fusion, spanning the 20th and 21st centuries.
+NARRATION: The Rhythm of Resistance: Afro Fusion
+NARRATION: This is Afro fusion. 20th and 21st century.
 ON SCREEN: Hero video, first 10 seconds (V003vlc4Joo)
 ON SCREEN: Title card: Afro fusion · South Africa · 20th and 21st century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
 NARRATION: Afro fusion emerged in South Africa during the 1970s, pioneered by Sylvia Glasser.
-NARRATION: It developed as a contemporary dance vocabulary to challenge the racial segregation of the apartheid era.
+NARRATION: It was developed as a contemporary dance vocabulary that challenged the racial segregation of the apartheid era.
 NARRATION: The musical style evolved from earlier South African jazz and mbaqanga traditions, gaining institutional support and global recognition by the early 2000s.
 ON SCREEN: Map: South Africa · Africa
 ON SCREEN: Image 1 with attribution
@@ -30,23 +30,23 @@ NARRATION: The style originated as a response to the political changes of the ap
 NARRATION: It served as a means of artistic protest and a way to promote cultural diversity.
 NARRATION: It is performed in contemporary dance theaters and at major music awards ceremonies.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Afro-Fusion Artist Irene Ntale Talks Uganda’s Vibrant Music Scene.webm (https://upload.wikimedia.org/wikipedia/commons/6/68/Afro-Fusion_Artist_Irene_Ntale_Talks_Uganda%E2%80%99s_Vibrant_Music_Scene.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage: City News (Sept. 22nd, 2023 Edition) (https://archive.org/details/cohca-City_News_Sept._22nd_2023_Edition)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: This dance style is a hybrid of African movement and Western contemporary techniques.
+NARRATION: The dance style is a hybrid of African movement and Western contemporary techniques.
 NARRATION: It incorporates somatic practices like the Alexander Technique and release work, combined with traditional African dance styles such as kwassa kwassa and pantsula.
-NARRATION: Choreography emphasizes a fusion of ritualistic movement and modern contemporary forms.
+NARRATION: Choreography often emphasizes a fusion of ritualistic movement and modern contemporary forms.
 ON SCREEN: Hero video full screen, 30–45 s (V003vlc4Joo)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Afro fusion is an experimental crossover style blending traditional African music with jazz, hip hop, kwaito, reggae, soul, pop, kwela, blues, and rock.
+NARRATION: Afro fusion music is an experimental crossover style blending traditional African music with jazz, hip hop, kwaito, reggae, soul, pop, kwela, blues, and rock.
 NARRATION: Songs are frequently multilingual, incorporating African languages alongside English, French, or Spanish.
-NARRATION: Listen for the guitar, brass, and percussion.
-NARRATION: The music blends traditional African sounds with Western genres like jazz, pop, and rock, featuring multilingual vocals and experimental arrangements.
+NARRATION: Listen for the Guitar, Brass, Percussion.
+NARRATION: A blend of traditional African music with Western genres like jazz, pop, and rock, characterized by multilingual vocals and experimental arrangements.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Listen later: Waka Waka (This Time for Africa) — Shakira and Freshlyground; Zulu Screams — GoldLink; Diaspora — GoldLink (2019)
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -60,16 +60,16 @@ MUSIC: underscore
 NEEDS: costume_and_setting
 
 ### 7. The people (60 s) · `people`
-NARRATION: Key figures include Sylvia Glasser, Vincent Mantsoe, Gregory Maqoma, Ray Phiri, Miriam Makeba, Hugh Masekela, Tsepo Tshola, and the band Freshlyground.
-NARRATION: While originating in South Africa, the style has developed significantly in Kenya, particularly through the support of the Alliance Française de Nairobi.
+NARRATION: Sylvia Glasser, Vincent Mantsoe, Gregory Maqoma, Ray Phiri, Miriam Makeba, Hugh Masekela, Tsepo Tshola, and the band Freshlyground.
+NARRATION: While originating in South Africa, the style has seen significant development in Kenya, particularly through the support of the Alliance Française de Nairobi.
 NARRATION: The style descends from a blend of traditional African dance, mbaqanga, jazz, and Western contemporary dance techniques like the Graham technique.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Afro fusion is influenced by Mbaqanga, a foundational South African genre that shaped its musical development.
-NARRATION: It is also influenced by Pantsula, an indigenous South African dance style incorporated into the Afro fusion movement vocabulary.
+NARRATION: Afro fusion is influence of Mbaqanga: A foundational South African genre that heavily influenced the musical development of Afro fusion.
+NARRATION: Afro fusion is influence of Pantsula: An indigenous South African dance style incorporated into the Afro fusion movement vocabulary.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -291,7 +291,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'V003vlc4Joo', 'checked_by_vision_model': True, 'title': None}
 Images: 8 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Pierre34u / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Schorle / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Eleanor Muller / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Sigoise / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
-Footage: File:Afro-Fusion Artist Irene Ntale Talks Uganda’s Vibrant Music Scene.webm — https://upload.wikimedia.org/wikipedia/commons/6/68/Afro-Fusion_Artist_Irene_Ntale_Talks_Uganda%E2%80%99s_Vibrant_Music_Scene.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; City News (Sept. 22nd, 2023 Edition) — https://archive.org/details/cohca-City_News_Sept._22nd_2023_Edition; Afro Fusion and Mindfulness — https://archive.org/details/mccmd-Afro_Fusion_and_Mindfulness
+Footage: City News (Sept. 22nd, 2023 Edition) — https://archive.org/details/cohca-City_News_Sept._22nd_2023_Edition; Afro Fusion and Mindfulness — https://archive.org/details/mccmd-Afro_Fusion_and_Mindfulness
 Motifs: Archive footage of 1970s South African dance studios., Contemporary performance clips., Maps showing the spread of the style from South Africa to Kenya.
 
 

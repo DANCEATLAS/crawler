@@ -223,74 +223,12 @@
    },
    "derived": true
   },
-  "footage": [
-   {
-    "title": "Onze Slag (Adhunik Hanpuriyan Album)",
-    "url": "https://archive.org/details/onze-slag-adhunik-hanpuriyan-album",
-    "year": 2013,
-    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "attribution": "Internet Archive",
-    "description": "Album :- Onze Slag (Super Hit Adhunik Hanpuriyan Album) Year :- 2013 Starring :- Donkey Kong, Diddy Kong, King K. Rool, General Klump, Krusha, Kong Fu, Vybz Kartel (Adidja Azim Palmer), Candy Kong, Dixie Kong, Kaptain Skurvy, Green Kroc, Kutlass, Cranky Kong, Funky Kong, Polly Roger, Junior The Gian",
-    "source": "archive"
-   },
-   {
-    "title": "Classic Nursery Rhymes",
-    "url": "https://archive.org/details/classic-nursery-rhymes_202312",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Humpty Dumpty Mary Had a Little Lamb Ride a Cock Horse Ring a Ring a Roses Simple Simon Baa Baa Black Sheep Dance to Your Daddy Who Killed Cock Robin? Hey Diddle Diddle I Saw a Ship A Sailing Dr Foster Went to Gloucester Little Piggy Went to Market Wee Willie Winkie Pussy Cat, Pussy Cat Oranges and ",
-    "source": "archive"
-   },
-   {
-    "title": "Classic Nursery Rhymes",
-    "url": "https://archive.org/details/classic-nursery-rhymes_202409",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Humpty Dumpty Mary Had a Little Lamb Ride a Cock Horse Ring a Ring a Roses Simple Simon Baa Baa Black Sheep Dance to Your Daddy Who Killed Cock Robin? Hey Diddle Diddle I Saw a Ship A Sailing Dr Foster Went to Gloucester Little Piggy Went to Market Wee Willie Winkie Pussy Cat, Pussy Cat Oranges and ",
-    "source": "archive"
-   },
-   {
-    "title": "Classic Nursery Rhymes",
-    "url": "https://archive.org/details/classic-nursery-rhymes_202607",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Humpty Dumpty Mary Had a Little Lamb Ride a Cock Horse Ring a Ring a Roses Simple Simon Baa Baa Black Sheep Dance to Your Daddy Who Killed Cock Robin? Hey Diddle Diddle I Saw a Ship A Sailing Dr Foster Went to Gloucester Little Piggy Went to Market Wee Willie Winkie Pussy Cat, Pussy Cat Oranges and ",
-    "source": "archive"
-   },
-   {
-    "title": "Classic Nursery Rhymes",
-    "url": "https://archive.org/details/classic-nursery-rhymes_202608",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Humpty Dumpty Mary Had a Little Lamb Ride a Cock Horse Ring a Ring a Roses Simple Simon Baa Baa Black Sheep Dance to Your Daddy Who Killed Cock Robin? Hey Diddle Diddle I Saw a Ship A Sailing Dr Foster Went to Gloucester Little Piggy Went to Market Wee Willie Winkie Pussy Cat, Pussy Cat Oranges and ",
-    "source": "archive"
-   },
-   {
-    "title": "Classic Nursery Rhymes",
-    "url": "https://archive.org/details/classic-nursery-rhymes_202606",
-    "year": null,
-    "license": "unknown (Internet Archive)",
-    "license_url": null,
-    "attribution": "Internet Archive",
-    "description": "Humpty Dumpty Mary Had a Little Lamb Ride a Cock Horse Ring a Ring a Roses Simple Simon Baa Baa Black Sheep Dance to Your Daddy Who Killed Cock Robin? Hey Diddle Diddle I Saw a Ship A Sailing Dr Foster Went to Gloucester Little Piggy Went to Market Wee Willie Winkie Pussy Cat, Pussy Cat Oranges and ",
-    "source": "archive"
-   }
-  ],
   "researched_at": "2026-11-11T17:26:53Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -316,6 +254,10 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
@@ -323,11 +265,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 10,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/apanomeritis.json"
  },
- "fingerprint": "04c8d5c36fb23dd4",
- "updated": "2026-11-21"
+ "fingerprint": "68e406ed48264b9f",
+ "updated": "2026-11-24"
 }

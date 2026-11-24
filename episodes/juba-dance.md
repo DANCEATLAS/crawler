@@ -1,8 +1,8 @@
 # Juba dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rhythmic historian who emphasizes the weight and power of every strike
@@ -30,7 +30,7 @@ NARRATION: In its original context, Juba was a tool for resilience and communica
 NARRATION: It also carried spiritual significance related to the Kongo religion's circle of life.
 NARRATION: The lyrics often contained social commentary on the conditions of slavery, such as the rhyme 'You sift the meal and ya gimme the husk,' which highlighted the exploitation of enslaved labor.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: McKinney Flute Choir in Concert! (https://archive.org/details/coatx-McKinney_Flute_Choir_in_Concert)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -107,7 +107,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'raAwu-CF6mM', 'checked_by_vision_model': True, 'title': 'juba dance @amaqaqamusic5605'}
 Images: 1 licensed — William H. Johnson / Wikimedia Commons / Public domain (Public domain)
-Footage: McKinney Flute Choir in Concert! — https://archive.org/details/coatx-McKinney_Flute_Choir_in_Concert; Waterloo Municipal Band Summer Concert Series - July 24, 2025 — https://archive.org/details/wloucatwi-Waterloo_Municipal_Band_Summer_Concert_Series_-_July_24_2025; Wingate University Wind Ensemble Concert 10.14.2024 — https://archive.org/details/winunc-Wingate_University_Wind_Ensemble_Concert_10.14.2024
+Footage: MISSING
 Motifs: Dust rising from a wooden floor with every stomp, The blurred motion of hands hitting the chest, The circle of dancers under moonlight, The contrast between 19th-century plantation clothes and modern step-show uniforms
 Costume notes: Originally performed in the informal setting of plantation gatherings and slave quarters, the dance required no specific costume other than the everyday attire of the enslaved. In later 19th-century public performances and minstrel shows, it was performed on stages. Today, it is seen in university settings during step-shows and in professional dance theaters, often performed in contemporary athletic or performance wear that allows for unrestricted movement and clear percussive sound.
 

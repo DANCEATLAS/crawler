@@ -28,7 +28,7 @@ MUSIC: underscore
 NARRATION: Functioning as community gatherings, survival dances are sponsored by local churches, fire departments, or Granges where attendees mostly know one another.
 NARRATION: Revival dances and fun nights open the floor to the public with casual attire and frequent partner changes.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: Alliance for Appalachia blockades Obama's Council on Environmental Quality over MTR coal mining (https://archive.org/details/MTRAppalachiaCD992014540p)
+ON SCREEN: Footage: Two Lady Around Figures (https://archive.org/details/two-lady-around-figures)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -308,7 +308,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'ZWuQK0WFE44', 'checked_by_vision_model': True, 'title': 'The Ninepin square dance'}
 Images: 1 licensed — Harrison Keely / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
-Footage: Alliance for Appalachia blockades Obama's Council on Environmental Quality over MTR coal mining — https://archive.org/details/MTRAppalachiaCD992014540p; Two Lady Around Figures — https://archive.org/details/two-lady-around-figures; Dip & Dive Square — https://archive.org/details/dip-dive-square; The Tunnel Square Dance — https://archive.org/details/the-tunnel-square-dance; Life On An Ocean Wave — https://archive.org/details/life-on-an-ocean-wave; Split The Sides Of The Square — https://archive.org/details/split-the-sides-of-the-square
+Footage: Two Lady Around Figures — https://archive.org/details/two-lady-around-figures; Dip & Dive Square — https://archive.org/details/dip-dive-square; The Tunnel Square Dance — https://archive.org/details/the-tunnel-square-dance; Life On An Ocean Wave — https://archive.org/details/life-on-an-ocean-wave; Split The Sides Of The Square — https://archive.org/details/split-the-sides-of-the-square
 Motifs: A fiddler drawing a bow across strings under warm hall lighting, Four couples forming a square on wooden floorboards, A caller speaking into a microphone before a live string band
 Costume notes: Events take place in community spaces, local halls, or revival venues. Dancers wear casual attire or dress up slightly, without requiring standardized square-dance-specific costumes.
 

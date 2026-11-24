@@ -1,8 +1,8 @@
 # Harlem shake — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.5 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -21,13 +21,13 @@ MUSIC: theme (30 s)
 NARRATION: Created in 1981 by Albert Leopold Boyce (Al B) at Rucker Park, the dance was initially called 'The Albee'.
 NARRATION: It gained prominence in the early 2000s through hip-hop music videos.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Al B described the dance as a 'drunken shake' and a respected cultural expression that originated from his interpretation of ancient Egyptian mummy movements.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:HARLEM SHAKE (Rolling Stone Indonesia Edition).webm (https://upload.wikimedia.org/wikipedia/commons/6/61/HARLEM_SHAKE_%28Rolling_Stone_Indonesia_Edition%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -46,10 +46,9 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Originally performed in basketball settings like Rucker Park and later popularized in urban hip-hop music videos.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 5 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Albert Leopold Boyce (Al B), the Crazy Boyz dance crew (Maurice 'Motion' Strayhorn, Jesse 'Smiley' Rutland, Kirkland 'Dirty Kirt' Young, Joseph 'No Bones' Collins).
@@ -289,8 +288,8 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '8vJiSSAMNWw', 'checked_by_vision_model': True, 'title': 'DO THE HARLEM SHAKE (ORIGINAL)'}
-Images: 0 licensed
-Footage: File:HARLEM SHAKE (Rolling Stone Indonesia Edition).webm — https://upload.wikimedia.org/wikipedia/commons/6/61/HARLEM_SHAKE_%28Rolling_Stone_Indonesia_Edition%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; HARLEM SHAKE POOP — https://archive.org/details/harlem-shake-poop; The Sexy Harlem Shake — https://archive.org/details/youtube-a8NtuWqEh3o; #BBCtrending DOES HARLEM SHAKE & PENGUIN DANCE - BBC NEWS — https://archive.org/details/youtube-l4Vbz2qF8Hk; Harlem Shake by MATV SALSA Kids Video Club — https://archive.org/details/Harlem_Shake_by_MATV_SALSA_Kids_Video_Club; Harlem Shake (Tiger Edition) — https://archive.org/details/bliptv-20131013-223137-BigCatRescue-HarlemShakeTigerEdition988; Harlem Shake (Allen Senior Recreation Center Edition - Feat. Burton Gilliam) — https://archive.org/details/Harlem_Shake_Allen_Senior_Recreation_Center_Edition_-_Feat._Burton_Gilliam
+Images: 5 licensed — David cambridge / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Christopher Clabaugh / Wikimedia Commons / Public domain (Public domain); Wikimedia Commons / CC BY 3.0 (CC BY 3.0); greyloch from Washington, DC, area, U.S.A. / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); אור פ / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
+Footage: MISSING
 Motifs: Basketball courts, Early 2000s hip-hop music video aesthetics
 Costume notes: Originally performed in basketball settings like Rucker Park and later popularized in urban hip-hop music videos.
 

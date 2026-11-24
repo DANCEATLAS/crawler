@@ -102,7 +102,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: MISSING
 Images: 4 licensed — Mariegriffiths at English Wikipedia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Anneli Salo / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Endlisnis / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Jarek Tuszyński / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
-Footage: “ JAMAICA ” 1974 TOURISM FILM w/ RAGGAE LEGEND BYRON LEE PORT ROYAL SCUBA DIVING 51304 — https://archive.org/details/51304-jamaica; La Maison De Mickey - Party Games / Limbo Dance Time — https://archive.org/details/la-maison-de-mickey_20260619; DJ Ostkurve ft. David Hasselhoff - Limbo Dance — https://archive.org/details/dj-ostkurve-dt.-david-hasselhoff-limbo-dance
+Footage: “ JAMAICA ” 1974 TOURISM FILM w/ RAGGAE LEGEND BYRON LEE PORT ROYAL SCUBA DIVING 51304 — https://archive.org/details/51304-jamaica
 Motifs: The horizontal bar, Dancer arching backwards, Drummers
 Costume notes: The dance requires a horizontal bar supported by two vertical poles. Performances may include the use of fire.
 

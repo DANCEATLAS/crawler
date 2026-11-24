@@ -1,6 +1,6 @@
 # Rhumba — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
@@ -30,7 +30,7 @@ NARRATION: Rhumba is danced socially and in international ballroom competitions 
 NARRATION: It is appreciated for its sensuality and musicality, reflecting Afro-Cuban roots in its hip movements and partner interaction.
 NARRATION: The dance is not sacred or restricted.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: The Wiggles: Yummy Yummy (1999) US VHS (https://archive.org/details/wiggles-the-yummy-yummy-1999)
+ON SCREEN: Footage: 1940s NOVELTY NEWSREELS DIVING, UNDERWATER BALLET, RISQUE LATIN RHUMBA DANCE 63004b (https://archive.org/details/63004b-diving-exhibitions-vwr)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -333,7 +333,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'LCszIfVPdtM', 'checked_by_vision_model': True, 'title': 'Dance Legends 2014 - Slavik Kryklyvyy & Karina Smirnoff - Rumba'}
 Images: 2 licensed — Ailura / Wikimedia Commons / CC BY-SA 3.0 at (CC BY-SA 3.0 at); Dicklyon / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: The Wiggles: Yummy Yummy (1999) US VHS — https://archive.org/details/wiggles-the-yummy-yummy-1999; 1940s NOVELTY NEWSREELS DIVING, UNDERWATER BALLET, RISQUE LATIN RHUMBA DANCE 63004b — https://archive.org/details/63004b-diving-exhibitions-vwr; The Wiggles: Yummy Yummy (1998, Extended Version) — https://archive.org/details/TheWigglesYummyYummy1998Extended; "ARTHUR MURRAY STEPS IN THE RUMBA & MAMBO " 1940s DANCE INSTRUCTIONAL FILM LATIN DANCING 50934 — https://archive.org/details/50934-the-arthur-murray-steps-in-the-rumba-mamba; The Wiggles - Yummy Yummy (1994) — https://archive.org/details/the-wiggles-yummy-yummy-1994_202203; How 2 Go To School — https://archive.org/details/how2gotoschool
+Footage: 1940s NOVELTY NEWSREELS DIVING, UNDERWATER BALLET, RISQUE LATIN RHUMBA DANCE 63004b — https://archive.org/details/63004b-diving-exhibitions-vwr; "ARTHUR MURRAY STEPS IN THE RUMBA & MAMBO " 1940s DANCE INSTRUCTIONAL FILM LATIN DANCING 50934 — https://archive.org/details/50934-the-arthur-murray-steps-in-the-rumba-mamba
 Motifs: Big band orchestra, Couple dancing box step, Hip sway close-up, Vintage 1930s New York, Monsieur Pierre in Cuba
 
 

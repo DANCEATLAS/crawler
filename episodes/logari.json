@@ -2,7 +2,7 @@
  "slug": "logari",
  "name": "Logari",
  "pack_version": "e2",
- "built_at": "2026-11-24T00:44:44Z",
+ "built_at": "2026-11-24T03:20:28Z",
  "researched_at": "2026-11-20T19:44:08Z",
  "qc_score": 9.6,
  "status": "draft",
@@ -82,7 +82,7 @@
     ],
     "on_screen": [
      "Map: Afghanistan · Central Asia",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -146,7 +146,7 @@
      "Men often wear turbans, which are sometimes removed during the faster, final stages of the dance due to the physical intensity."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -723,7 +723,9 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": "Performers wear traditional regalia. Men often wear turbans, which are sometimes removed during the faster, final stages of the dance due to the physical intensity.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAfghan_attan_dance.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -731,7 +733,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Afghan_attan_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Afghan_attan_dance.jpg/1280px-Afghan_attan_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pfc. Christina Sinders / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAfghan_attan_dance.jpg",
+    "description": "A group of local Afghan citizens perform a traditional dance, called attan, at the New Year's Eve Talent Show held at Forward Operating Base Salerno, Khowst province, Dec. 31, 2008."
+   }
+  ],
   "footage": [
    {
     "title": "Delkash Dancing 1978",
@@ -813,6 +824,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "7c11e98f22356b9637b58e4f78c024ab169afbaf80e365954d63fd1408c3cb82",
+ "input_fingerprint": "8d83c50015934c637a451ea4a3224ccd94e46cf17ec2a81c48e08f074957e038",
  "hero_checked": "pass"
 }

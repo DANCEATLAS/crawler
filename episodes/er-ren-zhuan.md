@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic Northeastern Chinese folk performer skilled in prop twirling and quyi comedy timing.
@@ -22,7 +22,7 @@ NARRATION: Er ren zhuan originated over 300 years ago in the three northeastern 
 NARRATION: Initially performed by rural farmers during the agricultural off-season, it grew into a professional art form.
 NARRATION: On April 27, 1934, the name 'Erren Zhuan' appeared in the Taidong Daily published in Kant (Manchuria), describing tea house duet performers called 'lotuses'.
 ON SCREEN: Map: China · East Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -53,10 +53,9 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Performers utilize specific hand props, primarily square-shaped red handkerchiefs and folding fans.
 NARRATION: Historically performed in rural off-season settings and urban teahouses, modern performances take place on theatrical stages, art troupe venues, and cultural congresses.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 4 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Zhao Benshan is a well-known comedian and performer in China who initiated the 'Green Er ren zhuan' movement to promote performance content free of controversial language or sexual innuendo.
@@ -297,7 +296,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 4 licensed — 张元柏 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); lienyuan lee / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); lienyuan lee / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); lienyuan lee / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 Motifs: Square red handkerchiefs spinning mid-air., Folding fans snapping open., Expressive duo facial interactions.
 Costume notes: Performers utilize specific hand props, primarily square-shaped red handkerchiefs and folding fans. Historically performed in rural off-season settings and urban teahouses, modern performances take place on theatrical stages, art troupe venues, and cultural congresses.

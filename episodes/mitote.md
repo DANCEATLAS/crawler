@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respected member of a traditional Conchero mesa, emphasizing humility and spiritual connection.
@@ -30,7 +30,7 @@ NARRATION: The dance is performed for spiritual and personal reasons, often star
 NARRATION: It is linked to religious festivals such as the Santa Cruz in Chalma, Santiago Apóstol, and the Virgin of Guadalupe.
 NARRATION: It serves as a ritual cleansing and a way to honor family and cultural ancestors.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: File:Mitote Food Park - February 2024 - Sarah Stierch.webm (https://upload.wikimedia.org/wikipedia/commons/2/28/Mitote_Food_Park_-_February_2024_-_Sarah_Stierch.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -104,7 +104,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'RLrpXibhQ60', 'checked_by_vision_model': True, 'title': None}
 Images: 8 licensed — Diego Lema from Miami Florida - USA / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Thelmadatter / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); AlejandroLinaresGarcia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); AlejandroLinaresGarcia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); AlejandroLinaresGarcia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Mitote Food Park - February 2024 - Sarah Stierch.webm — https://upload.wikimedia.org/wikipedia/commons/2/28/Mitote_Food_Park_-_February_2024_-_Sarah_Stierch.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Footage: MISSING
 Motifs: Incense smoke swirling in the night air., Close-ups of the ayoyotes on ankles., The standard (estandarte) held by the lieutenant., The contrast between modern city lights and traditional regalia.
 Costume notes: Regalia ranges from tunics (naguillas) and capes with gold and silver adornments to loincloths and natural materials for 'Azteca' dancers. Headdresses are made of ostrich or pheasant feathers. The setting is often a church atrium or a public square, decorated with altars, flowers, candles, and incense smoke.
 

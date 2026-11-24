@@ -1,6 +1,6 @@
 # Daggering — episode pack
 
-*Status: draft · built 2026-11-22 · judge 7.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 7.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; the costume & setting section; teaching steps written out
 
@@ -277,7 +277,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'XkkXPIdSG9Q', 'checked_by_vision_model': False, 'title': 'Patexx teaching daggering to whitey'}
 Images: 0 licensed
-Footage: jamaican daggering shelly belly — https://archive.org/details/y-2mate.is-yaga-saga-raga-shelly-belly-dhq-aga-dancing-behind-the-scene-yp-svsco; Equiknoxx and Shanique Marie Lecture (Berlin, 2018) | Red Bull Music Academy — https://archive.org/details/youtube-EviyCGcx5AU
+Footage: jamaican daggering shelly belly — https://archive.org/details/y-2mate.is-yaga-saga-raga-shelly-belly-dhq-aga-dancing-behind-the-scene-yp-svsco
 Motifs: Dancehall posters, Radio broadcast equipment, Archive footage of dancehall crowds
 
 

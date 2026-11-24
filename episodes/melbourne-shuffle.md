@@ -1,6 +1,6 @@
 # Melbourne shuffle — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed)
 
@@ -318,7 +318,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'eeAzwFkfyPA', 'checked_by_vision_model': True, 'title': 'Haddaway   What Is Love  Shuffle Dance ( Music video )'}
 Images: 0 licensed
-Footage: Crawford High School The Art of Shuffling — https://archive.org/details/macsdca-Crawford_High_School_The_Art_of_Shuffling; Melbourne Shuffle (full Documentary) — https://archive.org/details/melbourne-shuffle-full-documentary; The Melbourne Shuffler Documentary DVD Disc 2： Blue Screen Footage — https://archive.org/details/the-melbourne-shuffler-documentary-dvd-disc-2-blue-screen-footage; How to Hardstyle Shuffle Tutorial 2010 — https://archive.org/details/youtube-AAY5J5bwRDU; *OFFICIAL* HSE's Melbourne Shuffle Meet Up 2011 ! — https://archive.org/details/youtube-OzO0Y879lMk; File:Ritmo shuffle chitarra - guitar rhythm shuffle.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Ritmo_shuffle_chitarra_-_guitar_rhythm_shuffle.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Space to Ground- Dragon Shuffle- May 12, 2023.webm — https://upload.wikimedia.org/wikipedia/commons/f/fd/Space_to_Ground-_Dragon_Shuffle-_May_12%2C_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Shuffle dance kids — https://archive.org/details/PowerofLoveDev_20180505
+Footage: Crawford High School The Art of Shuffling — https://archive.org/details/macsdca-Crawford_High_School_The_Art_of_Shuffling; Melbourne Shuffle (full Documentary) — https://archive.org/details/melbourne-shuffle-full-documentary; The Melbourne Shuffler Documentary DVD Disc 2： Blue Screen Footage — https://archive.org/details/the-melbourne-shuffler-documentary-dvd-disc-2-blue-screen-footage; How to Hardstyle Shuffle Tutorial 2010 — https://archive.org/details/youtube-AAY5J5bwRDU; *OFFICIAL* HSE's Melbourne Shuffle Meet Up 2011 ! — https://archive.org/details/youtube-OzO0Y879lMk; Shuffle dance kids — https://archive.org/details/PowerofLoveDev_20180505
 Motifs: Neon lights of a club., Close-ups of footwork., Talcum powder on a dance floor.
 Costume notes: Historically, dancers often wore 'phat pants'—wide-legged trousers that helped hide footwork and allowed for airflow. Dancers frequently use talcum powder or liquid on the floor to facilitate sliding.
 

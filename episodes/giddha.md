@@ -1,6 +1,6 @@
 # Giddha — episode pack
 
-*Status: draft · built 2026-11-16 · judge 8.7 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-24 · judge 8.7 · 11/11 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections
 
@@ -305,7 +305,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'U166QxgmCqw', 'checked_by_vision_model': True, 'title': 'Giddha performance for Sangeet night!'}
 Images: 1 licensed — Dr. Manavpreet Kaur / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
-Footage: File:Punjabi Dance Performance at Cultural Fest, Himachal Pradesh University, Shimla.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Punjabi_Dance_Performance_at_Cultural_Fest%2C_Himachal_Pradesh_University%2C_Shimla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; A Dance performance by Bhangra Giddha Group led by Ms. Pushpa Rani — https://archive.org/details/dni.ncaa.ICCR-891-VHS; Performances: Folk Dance and Music of India by Groups from Sangeet Natak Akademi — https://archive.org/details/dni.ncaa.ICCR-866-UM; Performance by Bhangra and Giddha Group (Vol. IV) — https://archive.org/details/dni.ncaa.ICCR-838-UM; Folk Performance by a Group from Ludhiana — https://archive.org/details/dni.ncaa.ICCR-2447-VHS; Folk Performance by Asian Folk Dance Club — https://archive.org/details/dni.ncaa.ICCR-2407-VHS; Performance by Bhangra and Giddha Group (Vol. III) — https://archive.org/details/dni.ncaa.ICCR-837-UM
+Footage: File:Punjabi Dance Performance at Cultural Fest, Himachal Pradesh University, Shimla.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Punjabi_Dance_Performance_at_Cultural_Fest%2C_Himachal_Pradesh_University%2C_Shimla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; A Dance performance by Bhangra Giddha Group led by Ms. Pushpa Rani — https://archive.org/details/dni.ncaa.ICCR-891-VHS; Performance by Bhangra and Giddha Group (Vol. IV) — https://archive.org/details/dni.ncaa.ICCR-838-UM; Performance by Bhangra and Giddha Group (Vol. III) — https://archive.org/details/dni.ncaa.ICCR-837-UM
 Motifs: Brightly colored traditional Punjabi dress, Hands clapping in unison, Braided hair with tikka, Circle formation, Expressive facial expressions during boliyan
 Costume notes: Women traditionally wear brightly colored salwar kameez or ghagra, accessorized with folk jewelry. Hair is styled in two braids with folk ornaments and a tikka on the forehead. The dance is performed in social and festive settings, especially weddings.
 

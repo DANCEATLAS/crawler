@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.1 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A grounded Slovak folk dance tradition bearer with deep knowledge of Moravian Wallachia regional styles.
@@ -27,7 +27,7 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: The dance serves as a vibrant expression of traditional male bravado and physical agility, historically anchored in the cultural practices of Slovakia and Moravian Wallachia through both solo improvisation and structured group mock duels.
 NARRATION: Today it is a living tradition.
-ON SCREEN: Footage: 2005 Houston International Folk Dancers Czech TX Spring Fest (https://archive.org/details/2005HoustonInternationalFolkDancersTxSpringFest)
+ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
@@ -314,7 +314,7 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': 'FnYUe1vVDZg', 'checked_by_vision_model': True, 'title': 'Valašský odzemek  (krojový ples 2010)'}
 Images: 0 licensed
-Footage: 2005 Houston International Folk Dancers Czech TX Spring Fest — https://archive.org/details/2005HoustonInternationalFolkDancersTxSpringFest; Antonín Dvořák, DANZE SLAVE - Duo Kasik — https://archive.org/details/a.-dvorak-slavonic-dances-op.-46-op.-72-duo-kasik
+Footage: MISSING
 Motifs: Carved wooden valaška axe, Cimbalom strings vibrating, A pair of dancers leaping in a mock duel, Fujara flute resting against a wooden wall
 Costume notes: Costume details and specific settings beyond the use of the valaška shepherd's axe and traditional musical formations are not elaborated upon in the sources.
 
