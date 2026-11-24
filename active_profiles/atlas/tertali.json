@@ -1,0 +1,146 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active arm movements used to strike the thirteen manjiras attached to body parts.",
+      "difficulty": "advanced",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "Two or three women seated on the ground.",
+      "hips_and_torso": "Controlled, steady torso movements maintaining balance while seated.",
+      "levels_and_jumps": "Seated ground level; no jumps.",
+      "partnering": "Group synchronization among two or three seated dancers.",
+      "posture": "Seated on the ground with upright spine to support head balancing.",
+      "signature_moves": [
+        {
+          "description": "Rhythmically striking thirteen body-tied metal cymbals while seated.",
+          "name": "Manjira Striking"
+        },
+        {
+          "description": "Balancing an ornamental pot on the head covered with a hat or petha.",
+          "name": "Head Balancing"
+        },
+        {
+          "description": "Holding a small sword clenched firmly between the teeth while dancing.",
+          "name": "Sword Clenching"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Do not attempt sword clenching or pot balancing without proper training and safety oversight."
+    },
+    "music_profile": {
+      "instruments": [
+        "Manjiras (small metal cymbals)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ritual",
+        "percussive",
+        "focused",
+        "devotional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A striking percussive soundscape created by thirteen small metal cymbals (manjiras) tied directly to the dancers' bodies and struck in rhythmic patterns.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume seated posture on the ground.",
+        "Fasten thirteen manjira cymbals to specified body positions.",
+        "Balance ornamental pot on head and cover head with hat or petha.",
+        "Optionally clench small sword between teeth.",
+        "Strike manjira cymbals tied to the body in rhythmic unison while maintaining balance."
+      ],
+      "formation": "Seated group of two or three women on the ground.",
+      "level_notes": "Requires intense upper-body rhythm, physical balance for head-pot retention, and jaw stability for sword holding.",
+      "rhythm": "Percussive rhythm produced by striking thirteen body-mounted manjira cymbals; specific meter not described in sources."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "635c432246386e4eeee2993cb2d9cd3803bd5d2a0e86c65040488a6287727ad2",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific body positions are the thirteen manjiras tied to during performance? Evidence needed: Field documentation or ethnochoreological studies of Kamar tribal dance rituals."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact percussive rhythmic meters played by the manjiras? Evidence needed: Audio-visual recordings of authentic Kamar tribal Tertali performances."
+    ]
+  },
+  "id": "atlas:tertali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tertali",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "de7281bbc5eb6c39",
+      "next_evidence": "Field documentation or ethnochoreological studies of Kamar tribal dance rituals.",
+      "question": "What specific body positions are the thirteen manjiras tied to during performance?",
+      "source": "https://en.wikipedia.org/wiki/Teratali",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to accurately teach or map the physical percussion technique of Tertali."
+    },
+    {
+      "domain": "video",
+      "id": "580e410fb396d557",
+      "next_evidence": "Audio-visual recordings of authentic Kamar tribal Tertali performances.",
+      "question": "What are the exact percussive rhythmic meters played by the manjiras?",
+      "source": "https://en.wikipedia.org/wiki/Teratali",
+      "status": "candidate_unreviewed",
+      "why_needed": "Essential for musical notation and soundtrack alignment."
+    }
+  ],
+  "research_file": "research_results/tertali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tertali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Teratali",
+    "https://www.wikidata.org/wiki/Q7705236"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

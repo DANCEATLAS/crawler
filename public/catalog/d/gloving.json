@@ -32,6 +32,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gloving",
   "wikidata_qid": "Q19571960",
   "unesco": false,
+  "hero_video_youtube_id": "4uafkkjy-EU",
+  "video_stack": [
+   {
+    "youtube_id": "4uafkkjy-EU",
+    "role": "hero",
+    "title": "\"Circus Lights\" | Finger Circus | Gloving Choreography in 4k | LED Light show",
+    "channel": "StatusSilver",
+    "hd": true
+   },
+   {
+    "youtube_id": "033pEmNiRP8",
+    "role": "rendition",
+    "title": "[ION] Tranquil - eLite Flow V2 Gloving Light Show[EmazingLights.com]",
+    "channel": "EmazingLights",
+    "hd": true
+   },
+   {
+    "youtube_id": "3q5vcXplGMU",
+    "role": "rendition",
+    "title": "Art of Gloving - Glove Light shows [EmazingLights.com]",
+    "channel": "EmazingLights",
+    "hd": true
+   },
+   {
+    "youtube_id": "27DErCAeHbA",
+    "role": "rendition",
+    "title": "Revi - Gloving Light Show // XTRAP",
+    "channel": "Kuma Films",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -58,6 +89,44 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:12:18Z",
+   "soft_fail": []
+  },
+  "tutorials": [
+   {
+    "youtube_id": "tCICnGoLq7g",
+    "title": "How To Glove: Figure 8 Glove Light Show Tutorial [EmazingLights.com]",
+    "channel": "EmazingLights",
+    "level": "general",
+    "pos": 5,
+    "neg": 0,
+    "ratio": 5.0,
+    "evidence": [
+     "You are the best teacher on youtube!",
+     "I can't thank you enough man! All my friends tried to teach me that but it never clicked for some reason but once I saw this video it just happened so thank you",
+     "OMG THANK YOU SO MUCH SHARKY!!!!!😩😩😩😩❤️❤️❤️❤️❤️❤️"
+    ],
+    "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "Fk_Fuh_8c2U",
+    "title": "Gloving Tutorial: Whips, Tunnels, and Circle Move [Frosty] {HC} {LJ}",
+    "channel": "Flip the Cat",
+    "level": "general",
+    "pos": 6,
+    "neg": 2,
+    "ratio": 2.0,
+    "evidence": [
+     "Here in 2025. Good video definitely made it simple for my mind to see it and hear the explanation while seeing it in action! Do you still glove?",
+     "dude thank you so much, mad respect for you man, been watch Tutorials for weeks and once I watched your once I finally got the hang of what I needed to know xD ",
+     "This was very useful. Thank you so much, Frosty. :]"
+    ],
+    "lesson_status": "in_review"
+   }
+  ],
   "related_slugs": [
    "finger-tutting",
    "popping"
@@ -321,32 +390,173 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "tCICnGoLq7g",
+   "url": "https://www.youtube.com/watch?v=tCICnGoLq7g",
+   "title": "How To Glove: Figure 8 Glove Light Show Tutorial [EmazingLights.com]",
+   "channel": "EmazingLights",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "intro",
+     "note": "Teacher introduces himself as Sharky from Team E and states the topic"
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "breakdown",
+     "note": "Teacher shows the starting position with fingers facing out and wrists connected"
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "breakdown",
+     "note": "Teacher breaks down pivoting the left and right hands over and under"
+    },
+    {
+     "t": "1:33",
+     "seconds": 93,
+     "segment": "breakdown",
+     "note": "Teacher explains the fanning technique based on palm orientation"
+    },
+    {
+     "t": "2:22",
+     "seconds": 142,
+     "segment": "breakdown",
+     "note": "Teacher advises putting elbows up to help get correct rotation"
+    },
+    {
+     "t": "4:43",
+     "seconds": 283,
+     "segment": "other",
+     "note": "Teacher explains why moving elbows is necessary for figure eights"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Figure 8s",
+     "description": "Crossed hands pivoting over and under with fanning motions and elbow guidance"
+    }
+   ],
+   "cues": [
+    "Start off with your hands fingers facing out",
+    "Pivot over and under",
+    "Fan that way",
+    "Put your elbows up"
+   ],
+   "teacher_style": "The teacher is seated in front of a camera, explaining finger and wrist movements step by step. He demonstrates arm angles and flow, repeating sequences multiple times.",
+   "distinctive_method": "Instruction relies entirely on seated upper body demonstration and verbal description of hand rotation mechanics.",
+   "what_works": [
+    "Breaking down hand positioning and palm orientation clearly",
+    "Repeating sequences multiple times from the starting position"
+   ],
+   "what_hinders": [
+    "Static front-facing camera angle without close-up views of intricate finger positioning"
+   ],
+   "evidence": [
+    {
+     "start_s": 16,
+     "end_s": 25,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates starting hand position with fingers pointing outward.",
+     "viewpoint": "front",
+     "cannot_infer": "exact finger articulation",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 46,
+     "end_s": 65,
+     "topic": "movement",
+     "observation": "Teacher pivots left hand over and right hand under in a crossing motion.",
+     "viewpoint": "front",
+     "cannot_infer": "hidden hand contact",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "4uafkkjy-EU",
+   "url": "https://www.youtube.com/watch?v=4uafkkjy-EU",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "performance video against a dark background with light effects, later showing a railroad track",
+    "dancers": "solo person visible as upper body and hands",
+    "formation_and_space": "stationary upper body facing forward",
+    "posture": "upright torso, shoulders moving slightly",
+    "footwork": "cannot be seen as feet are not in frame",
+    "arms_and_hands": "arms move fluidly in front of the chest and face, fingers articulating intricate patterns with glowing LED lights on fingertips",
+    "hips_and_torso": "minimal torso movement, upper body remains mostly stationary",
+    "partnering": "none",
+    "levels_jumps_turns": "none visible",
+    "costume_and_props": "wearing dark clothing with glowing LED gloves on fingers, and a glowing wire-lit mask on face",
+    "cannot_infer": "feet, leg movements, floor work, and full body posture cannot be seen due to framing",
+    "music_heard": {
+     "instruments": [
+      "electronic synthesizer",
+      "electronic drum beats"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 9,
+      "end_s": 24,
+      "what": "intricate finger weaving and tracing lights across the dark screen creating light trails"
+     },
+     {
+      "start_s": 45,
+      "end_s": 59,
+      "what": "rapid finger movements holding hands up close to camera with pulsing blue lights"
+     },
+     {
+      "start_s": 100,
+      "end_s": 112,
+      "what": "symmetric finger weaving framing the illuminated mask"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/gloving.json"
  },
- "fingerprint": "15afc87f286de08e",
+ "fingerprint": "111ba65e281a59de",
  "updated": "2026-11-24"
 }

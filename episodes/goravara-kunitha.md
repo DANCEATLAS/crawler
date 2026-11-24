@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Gorava who speaks of the dance as a lifelong oath, not a performance.
@@ -22,7 +22,7 @@ NARRATION: The dance originates within the Kuruba community of Karnataka as a fo
 NARRATION: It is tied to the 'Deekshe' initiation, where men dedicate their lives to the deity and the Gorava sect.
 NARRATION: The tradition involves the recitation of epics like those of Mailara Linga, Manteswami, and Mahadeshwara, which are central to the community's identity.
 ON SCREEN: Map: India · South Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -58,10 +58,9 @@ NEEDS: tempo, meter
 NARRATION: The most distinctive feature is the bear-skin headgear worn over a white 'Rumala' (turban).
 NARRATION: Dancers wear a white or yellow 'Panche' (waist cloth) and a white 'Juba' (shirt).
 NARRATION: They carry a 'Nagabetha' (wooden stick) and a 'Jolge' (bag).
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: The 'Guru' or head of the Gorava clan is the central figure who initiates new members.
@@ -105,7 +104,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'iA3gr_NkqxI', 'checked_by_vision_model': True, 'title': 'Goravara Kunitha Karnataka'}
-Images: 0 licensed
+Images: 6 licensed — Pavanaja / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Pavanaja / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Pavanaja / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Pavanaja / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Pavanaja / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The texture of the bear-skin headgear, The yellow and white turmeric/ash on the face, The black woolen blanket on the floor, The blur of the spinning Damaru
 Costume notes: The most distinctive feature is the bear-skin headgear worn over a white 'Rumala' (turban). Dancers wear a white or yellow 'Panche' (waist cloth) and a white 'Juba' (shirt). They carry a 'Nagabetha' (wooden stick) and a 'Jolge' (bag). Foreheads are smeared with 'Vibhuthi' (holy ash), and eyes are ringed with white and red paint.
@@ -114,7 +113,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
+Source: 15 tutorial(s) of the ritual-sacred family studied · videos studied: 15
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

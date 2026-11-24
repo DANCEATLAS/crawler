@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The dance originates from the Udupi and Dakshina Kannada regions of Karnataka and is performed by the Mundaala community.
 NARRATION: It is a spiritual practice conducted during the full moon of the Tulu month of Mai to invoke protection from disease and evil.
 ON SCREEN: Map: India · South Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -56,7 +56,7 @@ NEEDS: tempo, meter
 NARRATION: Dancers wear heavy, colorful dresses constructed from tender coconut and palm leaves.
 NARRATION: The masked dancer representing Koragajja uses black body paint.
 NARRATION: The performance takes place in village settings, including house visits and processions to the village outskirts.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -100,7 +100,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'IV0oqaegvLM', 'checked_by_vision_model': True, 'title': 'Ati Kalenja KANGILU Nrutya...'}
-Images: 0 licensed
+Images: 2 licensed — Yakshitha / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Yakshitha / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Coconut and palm leaf costumes, Black body paint, Wooden statue of Khadgeshwari, Full moon night
 Costume notes: Dancers wear heavy, colorful dresses constructed from tender coconut and palm leaves. The masked dancer representing Koragajja uses black body paint. The performance takes place in village settings, including house visits and processions to the village outskirts.
@@ -109,7 +109,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
+Source: 15 tutorial(s) of the ritual-sacred family studied · videos studied: 15
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

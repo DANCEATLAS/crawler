@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 262 tutorials across the atlas studied · videos studied: 262
+Source: 293 tutorials across the atlas studied · videos studied: 293
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; side to side; shift your weight; rock step; cross; 1-2-3-4-5-6-7-8; 1-2-3; triple step; slow slow quick quick; stomp; down and up
+Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; right left right; step touch; shift your weight; bend your knees; one two three four; cross; 1-2-3-4-5-6-7-8; 1-2-3
 
 Sources (3): https://en.wikipedia.org/wiki/Bugg; https://www.wikidata.org/wiki/Q1002441; https://de.wikipedia.org/wiki/Bugg

@@ -1,13 +1,72 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Kwadum",
+        "Apentemma",
+        "Petia",
+        "Aburukuwa",
+        "Donno",
+        "Dawuro",
+        "Ntorowa"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ceremonial",
+        "royal",
+        "rhythmic"
+      ],
+      "musical_form": "Highly organized ensemble performance with specific pieces for different ceremonial occasions.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Complex rhythmic patterns produced by an ensemble of drums, directed by the Kwadum.",
+      "sound_description": "A percussion-heavy ensemble sound featuring the interplay of various drums, bells, and rattles, led by a master drum that directs the rhythmic flow.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "da743c47b3940556e9f7bccc9b3c8684ea2907ad3b52536af66f78854010a81d",
+  "fingerprint": "8d8bc3c650566387a05b992a8c709d68dde4d6503b0478157583529ce2669d61",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +74,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific, codified movement patterns or gestures associated with Kete dance? Evidence needed: Ethnographic field studies or instructional manuals on Akan dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +104,18 @@
   ],
   "music_options": [],
   "name": "Kete",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4363b8e206ee9d41",
+      "next_evidence": "Ethnographic field studies or instructional manuals on Akan dance.",
+      "question": "What are the specific, codified movement patterns or gestures associated with Kete dance?",
+      "source": "https://en.wikipedia.org/wiki/Kete_drums",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only mention that the master drum communicates with dancers, but provide no details on the dance itself."
+    }
+  ],
+  "research_file": "research_results/kete-akan.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +126,9 @@
   },
   "slug": "kete-akan",
   "sources": [
-    "https://www.cambridge.org/core/books/abs/embodiment-and-transmission-of-ghanaian-kete-royal-dance/background-the-kete-dance-of-the-asante/4B5694DA1AE5A1982F5E0D603614242B",
-    "https://ejisubesease.org/asante-music-and-dances/"
+    "https://en.wikipedia.org/wiki/Kete_drums",
+    "https://www.wikidata.org/wiki/Q140569366"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

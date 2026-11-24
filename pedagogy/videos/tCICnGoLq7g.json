@@ -1,0 +1,132 @@
+{
+ "youtube_id": "tCICnGoLq7g",
+ "slug": "gloving",
+ "dance": "Gloving",
+ "title": "How To Glove: Figure 8 Glove Light Show Tutorial [EmazingLights.com]",
+ "channel": "EmazingLights",
+ "viewer_ratio": 5.0,
+ "analysed_at": "2026-11-24T22:22:14Z",
+ "url": "https://www.youtube.com/watch?v=tCICnGoLq7g",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher is seated in front of a camera, explaining finger and wrist movements step by step. He demonstrates arm angles and flow, repeating sequences multiple times.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:06",
+    "segment": "intro",
+    "note": "Teacher introduces himself as Sharky from Team E and states the topic"
+   },
+   {
+    "t": "0:16",
+    "segment": "breakdown",
+    "note": "Teacher shows the starting position with fingers facing out and wrists connected"
+   },
+   {
+    "t": "0:45",
+    "segment": "breakdown",
+    "note": "Teacher breaks down pivoting the left and right hands over and under"
+   },
+   {
+    "t": "1:33",
+    "segment": "breakdown",
+    "note": "Teacher explains the fanning technique based on palm orientation"
+   },
+   {
+    "t": "2:22",
+    "segment": "breakdown",
+    "note": "Teacher advises putting elbows up to help get correct rotation"
+   },
+   {
+    "t": "4:43",
+    "segment": "other",
+    "note": "Teacher explains why moving elbows is necessary for figure eights"
+   }
+  ],
+  "counting_scheme": "",
+  "cues": [
+   "Start off with your hands fingers facing out",
+   "Pivot over and under",
+   "Fan that way",
+   "Put your elbows up"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Figure 8s",
+    "counts": "",
+    "description": "Crossed hands pivoting over and under with fanning motions and elbow guidance"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Breaking down hand positioning and palm orientation clearly",
+    "Repeating sequences multiple times from the starting position"
+   ],
+   "what_hinders": [
+    "Static front-facing camera angle without close-up views of intricate finger positioning"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:18",
+    "text": "Start off with your hand your fingers facing out like this."
+   },
+   {
+    "t": "1:36",
+    "text": "Which you're going to do here is I'm going to call it fanning."
+   },
+   {
+    "t": "2:23",
+    "text": "If it helps, put your elbows up."
+   },
+   {
+    "t": "5:20",
+    "text": "The more you do with the figure eights, the more dramatic it looks."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 16,
+    "end_s": 25,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates starting hand position with fingers pointing outward.",
+    "viewpoint": "front",
+    "cannot_infer": "exact finger articulation",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 46,
+    "end_s": 65,
+    "topic": "movement",
+    "observation": "Teacher pivots left hand over and right hand under in a crossing motion.",
+    "viewpoint": "front",
+    "cannot_infer": "hidden hand contact",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Instruction relies entirely on seated upper body demonstration and verbal description of hand rotation mechanics."
+ },
+ "attempts": 1
+}

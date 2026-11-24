@@ -1,10 +1,10 @@
 {
  "slug": "nago",
- "qc_at": "2026-11-06T18:39:23Z",
+ "qc_at": "2026-11-24T22:07:29Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 8.6,
+ "qc_score": 8.8,
  "gates": [
   {
    "gate": "has_name",
@@ -34,12 +34,12 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2177"
+   "detail": "1982"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
   },
   {
    "gate": "citations",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,33 +84,30 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'ceremon', 'spirit']"
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'initiation', 'spirit', 'religious']"
   }
  ],
  "judge": {
-  "accuracy": 8,
+  "accuracy": 9,
   "respect": 10,
   "specificity": 9,
-  "teaching_value": 7,
+  "teaching_value": 6,
   "is_a_dance": true,
-  "factual_doubt": [
-   "The claim that Loco is the 'king of the Nago' (wa Nago) is contested in some Vodou lineages, where Ogou is considered the primary leader of the Nago nanchon, with Loco serving a different role as the lwa of vegetation and healing."
-  ],
+  "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 8,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is well-researched and respectful of the sacred nature of the tradition. The distinction regarding the iron zin is a strong, specific detail. The minor factual doubt regarding the leadership of the Nago nanchon reflects the diversity of Vodou practice, but the profile remains high-quality."
+  "notes": "The profile is well-researched and handles the sacred nature of the Nago tradition with appropriate caution. It correctly identifies the dance as a ritual practice within Haitian Vodou. The teaching section is limited due to the sacred nature of the material, which is handled correctly by withholding adaptations."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=8.6",
-  "doubts=1",
+  "judge_score=8.8",
   "sacred"
  ],
  "citation": {
@@ -118,5 +115,5 @@
   "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-06T18:28:21Z"
+ "researched_at": "2026-11-24T21:22:06Z"
 }

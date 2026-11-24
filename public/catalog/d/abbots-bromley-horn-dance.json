@@ -429,19 +429,58 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "q5qCfQlipqE",
+   "url": "https://www.youtube.com/watch?v=q5qCfQlipqE",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "an outdoor stone paved courtyard at night, illuminated by soft ground lighting and candlelight, with an audience watching from the edges",
+    "dancers": "a group of mixed adults and children, mostly men/boys visible wearing horn sets, plus supporting characters including someone carrying a red umbrella, a hobby horse, and a jester figure",
+    "formation_and_space": "a single-file procession entering and moving in a curving line around the stone courtyard, following a fiddler standing near the steps",
+    "posture": "upright torso, relaxed knees, carrying weight naturally while walking or stepping in rhythm",
+    "footwork": "marching or stepping to the beat in a continuous progression along the path; exact footwork details obscured by darkness and camera angle",
+    "arms_and_hands": "each dancer holds a large pair of real antlers raised near their chest or head with both hands; auxiliary performers hold bows, umbrellas, or props",
+    "hips_and_torso": "minimal torso movement, upright and steady while walking in procession",
+    "partnering": "none; dancers move individually in single file procession",
+    "levels_jumps_turns": "none observed; steady ground-level walking and marching",
+    "costume_and_props": "tunics in rust-orange and blue over shirts, dark trousers or sandals, each wearing a large set of real deer antlers held in front of their chest/shoulders; auxiliary characters include a jester in multi-colored ragged clothes, a hobby horse operator, and a person holding a red parasol",
+    "cannot_infer": "exact footwork, weight changes, and subtle upper body nuances are obscured by low-light night conditions and distance from the camera",
+    "music_heard": {
+     "instruments": [
+      "fiddle"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 7,
+      "end_s": 25,
+      "what": "dancers file into the courtyard in a single-file line, each holding up a large pair of antlers in front of their chests while marching to the fiddle tune"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -451,6 +490,6 @@
   "polished": true,
   "file": "episodes/abbots-bromley-horn-dance.json"
  },
- "fingerprint": "fb4324cd328a3a66",
+ "fingerprint": "4e8022cacf3e3362",
  "updated": "2026-11-24"
 }

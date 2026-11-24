@@ -1,17 +1,20 @@
 {
  "contract": "da_dance_v1",
  "slug": "ta-me",
- "name": "Ta Me",
- "state": "not_published",
+ "name": "Tā Mē",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "NU"
  ],
  "card": {
   "slug": "ta-me",
-  "name": "Ta Me",
+  "name": "Tā Mē",
   "country": "Niue",
+  "country_code": "NU",
+  "flag_emoji": "🇳🇺",
   "region": "Pacific",
+  "family": "ritual-sacred",
   "era": "traditional",
   "tagline": "Niue’s seated song-dance.",
   "profile": "Niuean group song-dance; women seated, men standing; palau drum.",
@@ -24,6 +27,12 @@
    "pavane",
    "african-dance"
   ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Music_of_Niue",
+   "https://www.wikidata.org/wiki/Q14548294"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Music_of_Niue",
+  "wikidata_qid": "Q14548294",
   "unesco": false,
   "image_significance": {
    "status": "pending",
@@ -31,38 +40,179 @@
   },
   "tier": "content_ready",
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 4.55,
-  "last_researched_at": "2026-10-31T16:19:01Z",
+  "research_gate": "publish",
+  "qc_score": 9.45,
+  "last_researched_at": "2026-11-24T21:29:38Z",
   "pipeline_version": "v3.3",
-  "is_sacred": true,
-  "needs_eyes_on": true,
+  "profile_long": "Tā Mē stands as a cornerstone of Niuean cultural expression, functioning as a communal performance art that marks the rhythm of life on the island. It is not merely a dance but a holistic presentation of song, movement, and narrative, utilized to commemorate milestones that range from the personal, such as birthdays and weddings, to the civic, such as the launch of new buildings or fundraising events. The structure of Tā Mē is deeply rooted in the social fabric of Niue, where the performance serves to bring the community together in a shared act of celebration and storytelling.\n\nThe physical arrangement of the performers is one of the most distinct features of Tā Mē. Women perform in a seated position, facing the audience directly, while men take their places standing behind them. This specific spatial configuration is significant because it does not denote a hierarchy or a disparity in social status; rather, it is a traditional arrangement that highlights the equal standing of men and women within Niuean society. By separating the performers into these two levels—seated and standing—the group creates a visual depth that allows the audience to engage with the entire ensemble simultaneously.\n\nMovement in Tā Mē is intrinsically linked to the lyrical content of the songs being performed. The choreography is designed to match the words, serving as a visual interpretation of the narrative. This makes the dance a form of gestural storytelling, where the hands and body movements act as a conduit for the song's meaning. Because the songs often follow familiar Niuean and Pacific melodies, the audience is frequently able to connect with the performance on a deeper, more personal level, as the lyrics are often customized to fit the specific occasion being celebrated.\n\nMusical accompaniment for Tā Mē has evolved alongside the island's modernization. While traditional dances historically relied on the palau or nafa—a wooden drum carved from the trunk of the selie tree—modern performances often incorporate a wider array of instruments. The guitar, ukulele, and traditionally-crafted bass drums are now common additions, providing a rhythmic foundation for the singers and dancers. The palau remains a vital link to the past, representing the foundational percussion that provides the beat for the traditional items. The songs themselves are varied, with multiple items often presented during a single Tā Mē performance, ensuring that the event remains dynamic and engaging for all attendees.\n\nAs Niue has navigated the influences of the wider Pacific and the global music scene, the practice of Tā Mē has remained a resilient and living tradition. It continues to be a primary way for Niueans to express their identity and celebrate their heritage. Whether performed in Niue or within the diaspora in New Zealand and Australia, the dance maintains its core purpose: to bring people together to mark the significant moments of life through song and movement. The persistence of Tā Mē, despite the introduction of contemporary musical styles like rap and reggae into the broader Niuean music landscape, underscores its enduring importance as a cultural anchor for the Niuean people.",
+  "movie_ready": false,
+  "tradition_status": "living",
   "related_slugs": [
    "zamba",
    "highland-fling",
    "pavane"
   ]
  },
+ "profile": {
+  "sections": {
+   "origins_and_history": "Tā Mē is a traditional group performance used to celebrate significant milestones in Niuean life. It has historically served as a way to mark community events, including the opening of facilities, weddings, and birthdays.",
+   "how_it_is_danced": "The dance is a group performance where women are seated facing the audience and men stand behind them. The movements are choreographed to match the lyrics of the songs being performed.",
+   "music_and_instruments": "Traditional accompaniment involves the palau or nafa, a wooden drum made from the selie tree. Modern performances often include guitar, ukulele, and bass drums.",
+   "costume_and_setting": "not described in sources",
+   "occasions_and_meaning": "Performed at weddings, birthdays, building openings, launches, milestones, and fundraising events. It is a communal act that reflects the equal standing of men and women in Niuean culture.",
+   "notable_figures": "Not described in sources as specific to the dance, though many Niuean artists (e.g., Fuata Muta, Malakava Sisters) are noted for their contributions to Niuean music.",
+   "regional_variants": "not described in sources",
+   "lineage": "Part of the music and dance traditions of Polynesia, specifically Niue."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Seated posture for women facing the audience",
+    "Standing posture for men positioned behind the women",
+    "Gestural movements choreographed to match song lyrics"
+   ],
+   "rhythm": "Provided by the palau or nafa drum.",
+   "formation": "Group formation with women seated in front and men standing behind.",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "The Tā Mē is a traditional group performance, celebrating significant occasions such as, the opening of a new building or facility, weddings, birthdays, launches, milestones and fundraising events.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Niue"
+   },
+   {
+    "text": "Women usually perform seated, facing the audience, while the men perform while standing behind them.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Niue"
+   },
+   {
+    "text": "These positions are not a reflection of social status, as men and women hold equal standing in Niuean culture.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Niue"
+   },
+   {
+    "text": "The only instrument that is used for the very traditional dances is a wooden drum known in Niuean as palau or nafa, made out of a carved trunk of the selie tree.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Niue"
+   },
+   {
+    "text": "This is often accompanied by musical instruments like the guitar, ukulele and sometimes a traditionally-crafted bass drum.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Niue"
+   },
+   {
+    "text": "Typically, there are multiple items during a Tā Mē and the dance actions are generally choreographed to match the words of the songs.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Niue"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Detailed costume descriptions",
+   "Specific footwork counts",
+   "Specific arm and hand gesture names",
+   "Regional variations",
+   "Notable historical figures specific to the dance"
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "Provided by the palau or nafa drum beat.",
+   "instruments": [
+    "palau (nafa)",
+    "guitar",
+    "ukulele",
+    "bass drum"
+   ],
+   "vocal_style": "Group singing of Niuean songs.",
+   "musical_form": "Multiple items per performance, often following familiar Niuean and Pacific melodies.",
+   "mood_keywords": [
+    "celebratory",
+    "communal"
+   ],
+   "reference_recordings": [],
+   "sound_description": "The music is characterized by group singing accompanied by the rhythmic beat of a wooden drum (palau) or modern stringed instruments like the guitar and ukulele."
+  },
+  "movement_profile": {
+   "posture": "Women are seated; men are standing.",
+   "footwork": "not described in sources",
+   "arms_and_hands": "Gestures are choreographed to match the words of the songs.",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Women seated facing the audience, men standing behind them.",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "Two levels: seated (women) and standing (men).",
+   "difficulty": "beginner",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Seated Rhythm of Niue",
+   "logline": "Discover Tā Mē, the Niuean song-dance that brings a community together through synchronized movement and song.",
+   "beats": [
+    "Introduction to the island of Niue and its musical traditions.",
+    "Explanation of the Tā Mē performance as a communal celebration.",
+    "The visual contrast of the seated women and standing men.",
+    "The role of the palau drum in setting the beat.",
+    "How choreography mirrors the lyrics of the songs.",
+    "The significance of the dance in modern Niuean life."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Understand the formation and basic posture.",
+     "drills": [
+      "Practice seated posture while maintaining focus on the audience.",
+      "Practice standing posture behind a seated partner.",
+      "Learn the basic rhythmic beat of the palau."
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "The selie tree wood used for the palau drum",
+    "The seated formation of women",
+    "The standing formation of men behind the women"
+   ],
+   "instructor_persona": "A Niuean cultural practitioner or community leader.",
+   "music_cue": "Traditional Niuean song with palau drum accompaniment."
+  },
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "The dance is already performed seated for women, making it accessible.",
+    "standing_version": "Not derivable yet.",
+    "tempo_and_range": "Not derivable yet.",
+    "counts": "Not derivable yet.",
+    "avoid": [
+     "Not derivable yet"
+    ]
+   },
+   "children": {
+    "game_version": "Not derivable yet.",
+    "duration_minutes": "Not derivable yet.",
+    "counts": "Not derivable yet.",
+    "avoid": [
+     "Not derivable yet"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-24T21:29:38Z",
+  "qc_score": 9.45
+ },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 8,
   "of": 15,
   "missing": [
    {
-    "key": "published",
-    "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "status",
-    "label": "known to be living, revived or historical"
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
    },
    {
     "key": "signature_moves",
@@ -84,10 +234,17 @@
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ],
-  "ritual_context": true
+  ]
  },
- "teaching_withheld": "Sacred or restricted: the story is told, the dance is not taught.",
- "fingerprint": "b0e41433ff034f7d",
- "updated": "2026-11-21"
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 11,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/ta-me.json"
+ },
+ "fingerprint": "16da3d9df534b2af",
+ "updated": "2026-11-24"
 }

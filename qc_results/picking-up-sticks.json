@@ -1,0 +1,118 @@
+{
+ "slug": "picking-up-sticks",
+ "qc_at": "2026-11-24T22:09:15Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Picking Up Sticks"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "78"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "First recorded by John Playford in 1651, this three-couple English country dance"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "497"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2688"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "England"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "7 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurately reflects the historical context of the dance. It correctly identifies the role of Playford, Sharp, and modern reconstructors. The distinction between the original publication and the 20th-century revival is handled clearly."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.95"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-24T20:41:04Z"
+}

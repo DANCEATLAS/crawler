@@ -83,7 +83,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -91,31 +91,76 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "1dd0dead89b462aa",
+ "performances": [
+  {
+   "youtube_id": "SqH-HrNNTvQ",
+   "url": "https://www.youtube.com/watch?v=SqH-HrNNTvQ",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "outdoor stage at night, with an architectural backdrop of arches",
+    "dancers": "a group of women",
+    "formation_and_space": "the dancers move in lines and circles, often linking arms or holding hands",
+    "posture": "upright torso, knees are slightly bent, weight is shifted from side to side",
+    "footwork": "rhythmic stepping, often involving a side-to-side sway or a small hop, keeping time with the music; precise footwork is difficult to see due to the long costumes",
+    "arms_and_hands": "arms are often raised, sometimes with hands held together or moving in rhythmic gestures; dancers may hold hands with neighbors",
+    "hips_and_torso": "the torso remains relatively upright, with some swaying movement",
+    "partnering": "dancers hold hands or link arms in lines and circles",
+    "levels_jumps_turns": "the dance is performed at a standing level, with some small hops and occasional turns",
+    "costume_and_props": "long, loose-fitting tunics (pherans) in various colors, with headscarves",
+    "cannot_infer": "the long, loose-fitting costumes obscure the precise footwork and leg movements; the low-resolution video and stage lighting make it difficult to see fine details of the dancers' movements",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "stringed instruments"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "a group of women in a line, holding hands and swaying rhythmically from side to side"
+     },
+     {
+      "start_s": 25,
+      "end_s": 30,
+      "what": "dancers in a line, moving their arms in a coordinated, flowing motion while stepping"
+     },
+     {
+      "start_s": 105,
+      "end_s": 110,
+      "what": "dancers in a circle, moving in a rhythmic, swaying step while holding hands"
+     },
+     {
+      "start_s": 242,
+      "end_s": 247,
+      "what": "dancers in a line, performing a synchronized, rhythmic step while holding hands"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "1b062d74269ad1cf",
  "updated": "2026-11-24"
 }

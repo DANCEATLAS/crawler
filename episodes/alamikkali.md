@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful regional documentary narrator guiding viewers through Kasargod's sacred communal heritage.
@@ -22,7 +22,7 @@ NARRATION: Alamikkali originated as a folk commemoration of the Battle of Karbal
 NARRATION: The festival was historically organized and led by Hindustani-speaking Hanafi Muslim families known as Sahibs or Tuluker, who settled around Puthiyakota and regional forts during Tippu's campaign.
 NARRATION: Over time, the tradition evolved into a unique cross-religious observance where the role of the Alami is performed by members of the Hindu faith.
 ON SCREEN: Map: India · South Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -59,10 +59,9 @@ NEEDS: tempo
 NARRATION: Performers apply black charcoal all over their bodies, decorated with white spots.
 NARRATION: They wear dhotis drawn up to the knees, caps made of spathe containing Ixora coccinea flowers, and chains of flowers and leaves around their necks.
 NARRATION: False beards and moustaches are constructed from munda plant fibers.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Rasool Sahib is documented as a notable historical fakir sahib from Echikkanam who organized and conducted the last traditional Alamikkali ceremonies.
@@ -104,7 +103,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '11CLF1T-CEU', 'checked_by_vision_model': True, 'title': 'Alamikali | #CatchTheRhythm | Kerala 365 | Kerala Tourism'}
-Images: 0 licensed
+Images: 6 licensed — Vijayanrajapuram / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Vijayanrajapuram / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Vijayanrajapuram / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Vijayanrajapuram / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Vijayanrajapuram / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Alamikkali Folk dance.webm — https://upload.wikimedia.org/wikipedia/commons/a/af/Alamikkali_Folk_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Charcoal-painted skin with white spots, Areca spathe caps decorated with bright red Ixora flowers, Flame-shaped rock-lined floor at Alamippalli, Barefoot dancers holding sticks and deep-bottomed vessels
 Costume notes: Performers apply black charcoal all over their bodies, decorated with white spots. They wear dhotis drawn up to the knees, caps made of spathe containing Ixora coccinea flowers, and chains of flowers and leaves around their necks. False beards and moustaches are constructed from munda plant fibers. Performers never wear shoes and carry a wallet alongside a deep-bottomed vessel for alms. The main setting is Alamippalli in Kasargod, which features a rock-lined floor shaped like a flame, alongside village residential yards.
@@ -113,7 +112,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
+Source: 15 tutorial(s) of the ritual-sacred family studied · videos studied: 15
 Counting: count the Unstructured / freeform vocal meter bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

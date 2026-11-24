@@ -1,26 +1,24 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-24T03:28:46Z",
+ "generated_at": "2026-11-24T22:54:15Z",
  "last_night": {
-  "date": "2026-11-23",
-  "started": "2026-11-23T21:30:31Z",
-  "finished": "2026-11-24T03:20:28Z",
-  "minutes": 350,
-  "questions": 813,
-  "unanswered": 63,
-  "stages": 19,
+  "date": "2026-11-24",
+  "started": "2026-11-24T20:13:43Z",
+  "finished": "2026-11-24T22:54:14Z",
+  "minutes": 161,
+  "questions": 335,
+  "unanswered": 4,
+  "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: waited_seconds 2346, overloaded 55, day_quota_used_up 5, model_gone 2, timeout_or_network 1",
-   "qc: model trouble: waited_seconds 43, no_model_available 38, overloaded 11, day_quota_used_up 5, model_gone 2, timeout_or_network 1",
-   "hero_qc: model trouble: overloaded 5, day_quota_used_up 5, model_gone 2",
-   "teaching: model trouble: overloaded 5, day_quota_used_up 5, model_gone 2, unusable_answer 1, no_model_available 1",
-   "pedagogy: model trouble: overloaded 8, unusable_answer 5, day_quota_used_up 4, model_gone 2, timeout_or_network 2, no_model_available 2",
+   "research: model trouble: waited_seconds 447, overloaded 42, day_quota_used_up 5, timeout_or_network 2, unusable_answer 2, model_gone 2",
+   "qc: model trouble: waited_seconds 44, overloaded 5, model_gone 2",
+   "hero_qc: model trouble: overloaded 1",
+   "teaching: model trouble: waited_seconds 15, overloaded 5, unusable_answer 2, model_gone 2, rate_limited 1",
+   "pedagogy: model trouble: waited_seconds 152, overloaded 16, unusable_answer 4, model_gone 2",
+   "pictures: model trouble: overloaded 2",
    "episodes: model trouble: overloaded 1",
-   "translate: model trouble: overloaded 1",
-   "qc: model trouble: overloaded 5, model_gone 1",
-   "footage: model trouble: overloaded 1",
-   "footage: model trouble: waited_seconds 452, overloaded 41, day_quota_used_up 5, model_gone 2"
+   "translate: model trouble: overloaded 1"
   ]
  },
  "nights": [
@@ -226,19 +224,26 @@
    "questions": 813,
    "unanswered": 63,
    "errors": 0
+  },
+  {
+   "date": "2026-11-24",
+   "minutes": 161,
+   "questions": 335,
+   "unanswered": 4,
+   "errors": 0
   }
  ],
  "counts": {
-  "listed": 1320,
-  "researched": 703,
-  "published": 571,
-  "active_ready": 31,
-  "one_short": 56,
-  "two_short": 51,
-  "three_to_five_short": 136,
-  "story_ready_teaching_withheld": 56,
-  "lessons_studied": 262,
-  "performances_observed": 220
+  "listed": 1345,
+  "researched": 739,
+  "published": 607,
+  "active_ready": 33,
+  "one_short": 63,
+  "two_short": 56,
+  "three_to_five_short": 144,
+  "story_ready_teaching_withheld": 62,
+  "lessons_studied": 293,
+  "performances_observed": 270
  },
  "line": [
   {
@@ -306,72 +311,72 @@
   },
   {
    "date": "2026-11-24",
-   "listed": 1320,
-   "researched": 703,
-   "published": 571,
-   "active_ready": 31,
-   "lessons_studied": 262,
-   "performances_observed": 220
+   "listed": 1345,
+   "researched": 739,
+   "published": 607,
+   "active_ready": 33,
+   "lessons_studied": 293,
+   "performances_observed": 270
   }
  ],
  "pace": {
   "days": 8,
   "per_night": {
-   "listed": 20.6,
-   "published": 26.5,
-   "active_ready": 3.2
+   "listed": 23.8,
+   "published": 31.0,
+   "active_ready": 3.5
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 333
+   "profiles": 358
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 224
+   "profiles": 232
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 204
+   "profiles": 215
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 164
+   "profiles": 177
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 147
+   "profiles": 153
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 141
+   "profiles": 147
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 136
+   "profiles": 146
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 131
+   "profiles": 135
   },
   {
    "key": "arms",
    "label": "arms and hands",
-   "profiles": 98
+   "profiles": 104
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 94
+   "profiles": 102
   },
   {
    "key": "sound",
@@ -381,12 +386,12 @@
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 74
+   "profiles": 78
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 47
+   "profiles": 50
   },
   {
    "key": "status",
@@ -395,6 +400,16 @@
   }
  ],
  "closest": [
+  {
+   "slug": "abbots-bromley-horn-dance",
+   "name": "Abbots Bromley Horn Dance",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
   {
    "slug": "acrobatic-rock-n-roll",
    "name": "Acrobatic Rock'n'Roll",
@@ -428,6 +443,16 @@
   {
    "slug": "ballos",
    "name": "Ballos",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
+   ]
+  },
+  {
+   "slug": "big-apple",
+   "name": "Big Apple",
    "needs": [
     "what to avoid: common mistakes or safety"
    ],
@@ -596,16 +621,6 @@
    ]
   },
   {
-   "slug": "formation-dance",
-   "name": "Formation dance",
-   "needs": [
-    "the instruments and what the music sounds like"
-   ],
-   "need_keys": [
-    "sound"
-   ]
-  },
-  {
    "slug": "fouette",
    "name": "Fouetté",
    "needs": [
@@ -638,6 +653,16 @@
   {
    "slug": "geommu",
    "name": "Geommu",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
+   "slug": "gloving",
+   "name": "Gloving",
    "needs": [
     "the steps with their counts"
    ],
@@ -774,26 +799,6 @@
    "need_keys": [
     "footwork_counts"
    ]
-  },
-  {
-   "slug": "pas-de-deux",
-   "name": "pas de deux",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
-   "slug": "passacaglia",
-   "name": "passacaglia",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
   }
  ],
  "owner": {
@@ -803,23 +808,23 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 45,
+  "topics_read": 51,
   "first": {
    "topics": 14,
    "read": 12
   },
   "next": [
-   "mastery_learning",
-   "growth_mindset",
-   "flow",
-   "play",
-   "overlearning",
-   "retrieval_practice"
+   "moving_together",
+   "older_learners",
+   "children",
+   "dance_across_life",
+   "embodied_cognition",
+   "gamification"
   ],
-  "papers_read": 19,
-  "lessons_studied": 98,
-  "teachers_studied": 88,
-  "findings_checked": 197,
+  "papers_read": 23,
+  "lessons_studied": 107,
+  "teachers_studied": 95,
+  "findings_checked": 225,
   "practices": 37,
   "practices_in_dna": 29
  }

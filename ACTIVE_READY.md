@@ -2,7 +2,7 @@
 
 _Measured 2026-11-24 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 31 profiles are active-ready
+## 33 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
@@ -10,45 +10,47 @@ Since 24 November 2026 a reference clip counts as the licensed picture only when
 
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,320 |
-| Researched from sources (in the atlas) | 703 |
-| Published (passed every gate) | 571 |
-| **Active-ready** | **31** |
-| One item short | 56 |
-| Two items short | 51 |
-| Three to five short | 136 |
-| Story-ready, teaching withheld (sacred or restricted) | 56 |
+| In the atlas | 1,345 |
+| Researched from sources (in the atlas) | 739 |
+| Published (passed every gate) | 607 |
+| **Active-ready** | **33** |
+| One item short | 63 |
+| Two items short | 56 |
+| Three to five short | 144 |
+| Story-ready, teaching withheld (sacred or restricted) | 62 |
 
-Video studied so far: 262 lessons, 220 performances.
+Video studied so far: 293 lessons, 270 performances.
 
-Pace over the last two weeks: +23 active-ready a week.
-Pace over the last two weeks: +186 published a week.
+Pace over the last two weeks: +24 active-ready a week.
+Pace over the last two weeks: +217 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 333 |
-| a lesson or performance the machine studied, with timestamps | 224 |
-| what to avoid: common mistakes or safety | 204 |
-| a hero video that passed the vision check | 164 |
-| two or more signature moves | 147 |
-| a licensed picture or licensed footage | 141 |
-| tempo, meter or the teacher's count | 136 |
-| posture | 131 |
-| arms and hands | 98 |
-| ordered basic steps or a lesson ladder | 94 |
+| the steps with their counts | 358 |
+| a lesson or performance the machine studied, with timestamps | 232 |
+| what to avoid: common mistakes or safety | 215 |
+| a hero video that passed the vision check | 177 |
+| two or more signature moves | 153 |
+| a licensed picture or licensed footage | 147 |
+| tempo, meter or the teacher's count | 146 |
+| posture | 135 |
+| arms and hands | 104 |
+| ordered basic steps or a lesson ladder | 102 |
 | the instruments and what the music sounds like | 88 |
-| origins, meaning and occasions, dress and setting — written from sources | 74 |
-| formation and use of space | 47 |
+| origins, meaning and occasions, dress and setting — written from sources | 78 |
+| formation and use of space | 50 |
 | known to be living, revived or historical | 30 |
 
 ## Closest to the line
 
+- **Abbots Bromley Horn Dance** — needs: the steps with their counts
 - **Acrobatic Rock'n'Roll** — needs: the steps with their counts
 - **Aerial dance** — needs: the steps with their counts
 - **Alegrías** — needs: the steps with their counts
 - **Ballos** — needs: what to avoid: common mistakes or safety
+- **Big Apple** — needs: what to avoid: common mistakes or safety
 - **Bugg** — needs: ordered basic steps or a lesson ladder
 - **Bush dance** — needs: the steps with their counts
 - **Cariñosa** — needs: what to avoid: common mistakes or safety
@@ -65,11 +67,11 @@ Pace over the last two weeks: +186 published a week.
 - **Electric Slide** — needs: origins, meaning and occasions, dress and setting — written from sources
 - **Fancy Shawl Dance** — needs: what to avoid: common mistakes or safety
 - **Farruca** — needs: a licensed picture or licensed footage
-- **Formation dance** — needs: the instruments and what the music sounds like
 - **Fouetté** — needs: the instruments and what the music sounds like
 - **Fusion Dance** — needs: what to avoid: common mistakes or safety
 - **Garrotín** — needs: what to avoid: common mistakes or safety
 - **Geommu** — needs: the steps with their counts
+- **Gloving** — needs: the steps with their counts
 - **Gombey** — needs: the steps with their counts
 - **Grotesque dance** — needs: the steps with their counts
 - **Hiplet** — needs: the steps with their counts
@@ -83,8 +85,6 @@ Pace over the last two weeks: +186 published a week.
 - **Melbourne shuffle** — needs: a licensed picture or licensed footage
 - **moshing** — needs: the steps with their counts
 - **pachanga** — needs: the steps with their counts
-- **pas de deux** — needs: the steps with their counts
-- **passacaglia** — needs: what to avoid: common mistakes or safety
 
 ## The fifteen items
 

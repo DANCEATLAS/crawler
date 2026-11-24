@@ -2,10 +2,10 @@
  "contract": "da_mentor_brief_v1",
  "what_this_is": "How to teach anyone to dance, as far as the nightly study has come. Use 'default' as the way to teach, 'moments' at the points that decide whether a learner stays, 'when_it_is_hard' and 'when_a_feeling_shows' to answer the person, and 'remember' over time. It is evidence, not a verdict: watched and read by a machine, not checked by a person, not tested on learners. The whole study with its proof is in bdf_teaching_system.json.",
  "stands_on": {
-  "teachers_studied": 88,
-  "lessons_studied_for_method": 98,
-  "comments_read": 5702,
-  "science_findings_checked": 197,
+  "teachers_studied": 95,
+  "lessons_studied_for_method": 107,
+  "comments_read": 6200,
+  "science_findings_checked": 225,
   "practices_with_two_or_more_kinds": 29,
   "practices_total": 37
  },
@@ -133,7 +133,7 @@
   {
    "theme": "Fit the person",
    "do": "Teach learners how to check themselves.",
-   "kinds_of_evidence": 2
+   "kinds_of_evidence": 3
   },
   {
    "theme": "Be a mentor",
@@ -160,7 +160,7 @@
   {
    "moment": "opening",
    "title": "How they open",
-   "seen": 79,
+   "seen": 88,
    "teachers_do": [
     "Greets the viewers and introduces shuffle dance basics specifically tailored for older adults and those finding it difficult to train.",
     "Greets the viewers, introduces himself as a professional dancer working with Russian stars, and sets the goal of looking confident at parties.",
@@ -170,7 +170,7 @@
   {
    "moment": "before_hard_part",
    "title": "Before a hard part",
-   "seen": 140,
+   "seen": 156,
    "teachers_do": [
     "The teacher offers a simplified starting point on the spot if learners struggle at first.",
     "Explains that hands are both the simplest and most complex part of dancing, warning against aggressive movements that push people away.",
@@ -180,7 +180,7 @@
   {
    "moment": "after_mistake",
    "title": "After a mistake",
-   "seen": 52,
+   "seen": 56,
    "teachers_do": [
     "Tells learners not to worry if something doesn't work out at first, emphasizing practice, diligence, and persistence.",
     "Teacher names a common student confusion between shuffle and flap steps and demonstrates the correct execution.",
@@ -190,7 +190,7 @@
   {
    "moment": "after_success",
    "title": "After a success",
-   "seen": 50,
+   "seen": 53,
    "teachers_do": [
     "The teacher encourages the learner and expresses hope that the explanation was clear.",
     "Yes, great! Okay, one more time slowly.",
@@ -200,7 +200,7 @@
   {
    "moment": "check_in",
    "title": "Checking in",
-   "seen": 39,
+   "seen": 42,
    "teachers_do": [
     "Maybe pause this video, put yourself some music on and practice this first movement.",
     "The teacher asks the learner if they are managing to follow the steps and encourages them to keep going.",
@@ -210,7 +210,7 @@
   {
    "moment": "closing",
    "title": "How they close",
-   "seen": 35,
+   "seen": 40,
    "teachers_do": [
     "The teacher transitions the learner into practicing the full sequence along with the music.",
     "Teacher asks viewers to like, share, subscribe, and leave comments for future videos.",
@@ -241,7 +241,7 @@
     "not coordinated enough to do the steps"
    ],
    "teachers_offer": [
-    "The teacher demonstrates circular hip rotations, starting with a small amplitude and gradually increasing it based on the learner's comfort.",
+    "Performs circular hip rotations to warm up the waist area.",
     "The teacher starts the warm-up by stretching and moving arms to the sides."
    ],
    "research_adds": [
@@ -260,8 +260,23 @@
     "The teacher emphasizes the importance of shifting the full body weight onto the standing leg."
    ],
    "research_adds": [
-    "Explicitly state at the beginning of the lesson that mistakes are a normal and expected part of the learning process.",
-    "Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy."
+    "Praise learners specifically for their effort, persistence, and the strategies they use rather than labeling them as naturally talented.",
+    "Explicitly state at the beginning of the lesson that mistakes are a normal and expected part of the learning process."
+   ]
+  },
+  {
+   "about": "self_check",
+   "learners_say": [
+    "feeling good while dancing until recording reveals mistakes",
+    "looked stiff when watching own dance"
+   ],
+   "teachers_offer": [
+    "Uses a close-up shot of the feet to ensure the learner can see the weight distribution and foot placement clearly.",
+    "The teacher reminds the learner to check their posture, keep their back straight, neck tall, and maintain a neutral pelvis."
+   ],
+   "research_adds": [
+    "Provide feedback after the movement is completed rather than during it to encourage independent learning.",
+    "Allow the learner to choose the order of practice segments or the music track for their session."
    ]
   },
   {
@@ -326,9 +341,9 @@
     "hard to keep up once the speed increases"
    ],
    "teachers_offer": [
+    "Start with a smaller amplitude and adjust based on personal physical condition",
     "Start by making small amplitude steps to get used to the movement",
-    "pause and practice the weight shift alone before continuing",
-    "rewind or pause the video to practice before moving on"
+    "pause and practice the weight shift alone before continuing"
    ],
    "research_adds": [
     "Invite learners to try a short bout of aerobic movement or a warm-up before tackling a new motor skill to prime acquisition."
@@ -348,26 +363,12 @@
     "Encourage action exploration and allow learners to test different movement variations, as motor variability can facilitate faster learning.",
     "Select specific dance movements or games that encourage the use of both limbs to support bilateral coordination."
    ]
-  },
-  {
-   "about": "self_check",
-   "learners_say": [
-    "looked stiff when watching own dance"
-   ],
-   "teachers_offer": [
-    "Uses a close-up shot of the feet to ensure the learner can see the weight distribution and foot placement clearly.",
-    "The teacher reminds the learner to check their posture, keep their back straight, neck tall, and maintain a neutral pelvis."
-   ],
-   "research_adds": [
-    "Provide feedback after the movement is completed rather than during it to encourage independent learning.",
-    "Allow the learner to choose the order of practice segments or the music track for their session."
-   ]
   }
  ],
  "when_a_feeling_shows": [
   {
    "feeling": "frustrated",
-   "seen": 23,
+   "seen": 26,
    "teachers_answer": [
     "The teacher acknowledges the potential for confusion and offers to repeat the sequence to help the learner.",
     "The teacher validates the feeling by sharing her own past struggle with the same concept."
@@ -375,10 +376,18 @@
   },
   {
    "feeling": "awkward",
-   "seen": 17,
+   "seen": 19,
    "teachers_answer": [
     "The teacher encourages the learner to have fun and add as much body sway as they want, making it easier to change weight.",
     "The teacher asks the learner what they need to shake out today, normalizing the need to release tension."
+   ]
+  },
+  {
+   "feeling": "overwhelmed",
+   "seen": 17,
+   "teachers_answer": [
+    "The teacher advises the learner to bring it back to the basics to regain focus and confidence.",
+    "The teacher explains that anxiety causes tension in the chest and head, and suggests connecting to the floor to release it."
    ]
   },
   {
@@ -390,16 +399,8 @@
    ]
   },
   {
-   "feeling": "overwhelmed",
-   "seen": 14,
-   "teachers_answer": [
-    "The teacher advises the learner to bring it back to the basics to regain focus and confidence.",
-    "The teacher explains that anxiety causes tension in the chest and head, and suggests connecting to the floor to release it."
-   ]
-  },
-  {
    "feeling": "afraid_of_looking_silly",
-   "seen": 6,
+   "seen": 8,
    "teachers_answer": [
     "The teacher names the fear of stepping on a partner's feet and explains how to avoid it by keeping knees and ankles close.",
     "The teacher notes that everyone fears looking silly in certain positions, but assures learners there is no reason to worry."
@@ -439,15 +440,15 @@
  "what_teachers_believe": [
   {
    "about": "Who can dance",
-   "teachers": 27,
+   "teachers": 29,
    "in_their_words": [
-    "Dancing is accessible to anyone regardless of zero experience or age.",
+    "Dancing and learning shuffle moves are accessible to older adults and those who find training difficult.",
     "Anyone can look cool and confident at a party, even if they do not know how to dance initially."
    ]
   },
   {
    "about": "What dancing is for",
-   "teachers": 17,
+   "teachers": 19,
    "in_their_words": [
     "Dancing is personal expression, creativity, and following your inner feeling rather than strict rules.",
     "Dancing is for social situations, like weddings and parties, where you can have fun with others."
@@ -455,7 +456,7 @@
   },
   {
    "about": "How people learn",
-   "teachers": 42,
+   "teachers": 48,
    "in_their_words": [
     "Repetition is the mother of learning for building muscle memory in the body.",
     "Shifting attention from the head to the body helps people become more present."
@@ -485,6 +486,6 @@
   "how much talk and how much movement they like",
   "their body, their room and whether they have a partner"
  ],
- "fingerprint": "1181760f153be26b",
+ "fingerprint": "6a2ff4888a8f6467",
  "updated": "2026-11-24"
 }

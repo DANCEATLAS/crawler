@@ -47,7 +47,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 1,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -67,30 +67,6 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
@@ -99,15 +75,65 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "c1b79140a4ba180b",
+ "performances": [
+  {
+   "youtube_id": "PYtJcHmGDaU",
+   "url": "https://www.youtube.com/watch?v=PYtJcHmGDaU",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "dance studio with a ballet barre",
+    "dancers": "one woman, solo",
+    "formation_and_space": "travels across the floor in a diagonal line",
+    "posture": "upright, torso held straight, knees straight when not in plié",
+    "footwork": "stepping onto the ball of the foot in a pointed position (passé), alternating legs; cannot see exact weight transfer due to camera angle",
+    "arms_and_hands": "arms move from first to second position and back to first; hands are soft and rounded",
+    "hips_and_torso": "still, held in a vertical alignment",
+    "partnering": "none",
+    "levels_jumps_turns": "turns on one leg, rising to the ball of the foot",
+    "costume_and_props": "black leotard, ballet tights, ballet slippers",
+    "cannot_infer": "exact weight transfer and footwork details are obscured by the camera angle and low resolution",
+    "music_heard": {
+     "instruments": [
+      "synthesizer"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 15,
+      "end_s": 17,
+      "what": "a sequence of pique turns moving diagonally across the floor"
+     },
+     {
+      "start_s": 213,
+      "end_s": 217,
+      "what": "a demonstration of a pique turn sequence on a diagonal"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "2fa917fa9366b00d",
  "updated": "2026-11-24"
 }

@@ -1,0 +1,801 @@
+{
+ "slug": "nutbush",
+ "name": "Nutbush",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:18Z",
+ "researched_at": "2026-11-24T20:16:19Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An enthusiastic Australian physical education teacher or community event leader who keeps energy high and counts clear.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Nutbush"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Nutbush",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Outback Line Dance Tina Turner Never Danced",
+     "This is Nutbush. 1970s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Nutbush · Australia · 1970s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The origins of the Nutbush dance trace back to the 1970s disco era in Australia.",
+     "Although named after the track 'Nutbush City Limits' by Ike & Tina Turner, Tina Turner herself never performed the routine.",
+     "A 2024 study by the University of South Australia and Edith Cowan University suggested that the New South Wales Department of Education developed the dance as a teaching aid in the mid-1970s, potentially based on the Madison dance or an adapted version of the sequence associated with 'Alley Cat'."
+    ],
+    "on_screen": [
+     "Map: Australia · Oceania",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Nutbush is a secular social line dance performed at Australian school events, community gatherings, weddings, and music festivals.",
+     "It serves as an accessible participatory group activity where simple steps allow dancers of all ages and skill levels to join together.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers arrange themselves in a grid or box formation with hands akimbo and feet shoulder-width apart.",
+     "Watch for Turn-and-clap, Criss-cross variation."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Box or grid formation, dancers facing the same wall and turning 90 degrees clockwise at the end of each 32-beat cycle."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is performed to Ike & Tina Turner's 1973 recording of 'Nutbush City Limits'.",
+     "The track features a rock/funk beat driven by electric guitar, brass, and drums.",
+     "Listen for the Electric guitar, Drums, Bass guitar, Brass section.",
+     "The pulse is 4/4 at about 117 beats a minute.",
+     "A high-energy 1970s funk-rock track characterized by an extended electric guitar and horn intro, driving drums on a constant 4/4 pulse, and gritty soulful vocals."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Nutbush City Limits — Ike & Tina Turner; Nutbush City Limits — Ike & Tina Turner (2000)",
+     "Waveform or rhythm-pattern graphic: Driving 4/4 rock-funk drum beat"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "No specialized costume is worn for the Nutbush; participants dance in whatever attire fits the social occasion, ranging from school uniforms and sports gear to wedding attire and casual festival clothes.",
+     "Settings include school halls, community centers, reception venues, and outdoor desert sites."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "While Tina Turner wrote and recorded the namesake song 'Nutbush City Limits', she never performed the line dance.",
+     "The dance was institutionalized by physical education developers within the New South Wales Department of Education during the mid-1970s.",
+     "A widely recognized variation occurs during the final 4 beats, known as the 'criss-cross': dancers jump both feet outward on beat 1, jump to cross legs on beat 2, jump to uncross outward on beat 3, and clap on beat 4.",
+     "The Nutbush inherits structural elements from earlier 20th-century American line dances like the Madison and the Alley Cat."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Nutbush is influence of Madison: Studies suggest the Nutbush may have evolved from attempts to teach the Madison in Australian schools."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Touch right foot to the side and return twice, then touch left foot to the side and return twice (8 beats)",
+     "Touch right foot half a pace back and return twice, then touch left foot back and return twice (8 beats)",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a 1970s American funk-rock song became Australia's unofficial national line dance taught in primary schools and performed by thousands in the desert.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the side and back touches",
+   "level": "Basic Footwork",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the side and back touches.",
+      "Level: Basic Footwork. Difficulty of the dance overall: beginner.",
+      "Your instructor: An enthusiastic Australian physical education teacher or community event leader who keeps energy high and counts clear."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright stance, feet shoulder-width apart in neutral position, hands akimbo on hips.",
+      "Hands placed akimbo on hips during footwork, releasing to clap on count 32 (or count 4 of final sequence).",
+      "Torso remains upright; hips twist slightly to accommodate cross-body knee raises and kicks."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Driving 4/4 rock-funk drum beat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 81 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Touch right foot to the side and return twice, then touch left foot to the side and return twice (8 beats)",
+      "Step 2: Touch right foot half a pace back and return twice, then touch left foot back and return twice (8 beats)",
+      "Footwork from the sources: Side touches right and left (8 counts), back touches right and left (8 counts), knee raises (8 counts), cross kicks (4 counts), quarter turn and clap (4 counts).",
+      "Drill: Practice double right side touch and left side touch on beat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Raise right knee across body to left hip twice, then raise left knee across body to right hip twice (8 beats)",
+      "Step 4: Kick right leg across body once, then kick left leg across body once (4 beats)",
+      "Drill: Practice double right back touch and left back touch on beat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Turning counter-clockwise instead of clockwise; losing count during knee raises."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform side taps and back heel-touches while seated in a chair; perform seated knee lifts across the midline and finish with a clap without turning. · For children: Play 'Statue Nutbush' where kids do the grid steps but must freeze instantly if the music pauses during the turn-and-clap step."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform side taps and back heel-touches while seated in a chair; perform seated knee lifts across the midline and finish with a clap without turning.",
+      "For children: Play 'Statue Nutbush' where kids do the grid steps but must freeze instantly if the music pauses during the turn-and-clap step."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 117 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the side and back touches.",
+      "The Nutbush is a secular social line dance performed at Australian school events, community gatherings, weddings, and music festivals.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the cross-body knees and leg kicks",
+   "level": "Knees & Kicks",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the cross-body knees and leg kicks.",
+      "Level: Knees & Kicks. Difficulty of the dance overall: beginner.",
+      "Your instructor: An enthusiastic Australian physical education teacher or community event leader who keeps energy high and counts clear."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright stance, feet shoulder-width apart in neutral position, hands akimbo on hips.",
+      "Hands placed akimbo on hips during footwork, releasing to clap on count 32 (or count 4 of final sequence).",
+      "Torso remains upright; hips twist slightly to accommodate cross-body knee raises and kicks."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Driving 4/4 rock-funk drum beat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 81 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Turn 1/4 clockwise, pause, and clap hands (4 beats)",
+      "Drill: Lift right knee to left hip twice, left knee to right hip twice"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Turn-and-clap: A 90-degree clockwise turn on the spot followed by a single sharp handclap.",
+      "Criss-cross variation: Jumping feet out, crossing legs in air/landing, jumping out, and clapping on the final 4 beats.",
+      "Drill: Single kick right across, single kick left across"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Turning counter-clockwise instead of clockwise; losing count during knee raises."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform side taps and back heel-touches while seated in a chair; perform seated knee lifts across the midline and finish with a clap without turning. · For children: Play 'Statue Nutbush' where kids do the grid steps but must freeze instantly if the music pauses during the turn-and-clap step."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform side taps and back heel-touches while seated in a chair; perform seated knee lifts across the midline and finish with a clap without turning.",
+      "For children: Play 'Statue Nutbush' where kids do the grid steps but must freeze instantly if the music pauses during the turn-and-clap step."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Box or grid formation, dancers facing the same wall and turning 90 degrees clockwise at the end of each 32-beat cycle."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 117 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the cross-body knees and leg kicks.",
+      "While Tina Turner wrote and recorded the namesake song 'Nutbush City Limits', she never performed the line dance.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Complete the 32-beat cycle with quarter turn and clap",
+   "level": "Turn & Flow",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Complete the 32-beat cycle with quarter turn and clap.",
+      "Level: Turn & Flow. Difficulty of the dance overall: beginner.",
+      "Your instructor: An enthusiastic Australian physical education teacher or community event leader who keeps energy high and counts clear."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright stance, feet shoulder-width apart in neutral position, hands akimbo on hips.",
+      "Hands placed akimbo on hips during footwork, releasing to clap on count 32 (or count 4 of final sequence).",
+      "Torso remains upright; hips twist slightly to accommodate cross-body knee raises and kicks."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Driving 4/4 rock-funk drum beat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 81 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Kick right leg across body once, then kick left leg across body once (4 beats)",
+      "Step 2: Turn 1/4 clockwise, pause, and clap hands (4 beats)",
+      "Drill: Practice the turn-and-clap step to reorient facing wall"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Turn-and-clap: A 90-degree clockwise turn on the spot followed by a single sharp handclap.",
+      "Criss-cross variation: Jumping feet out, crossing legs in air/landing, jumping out, and clapping on the final 4 beats.",
+      "Drill: Run the full 32-beat cycle through four wall rotations"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Turning counter-clockwise instead of clockwise; losing count during knee raises."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform side taps and back heel-touches while seated in a chair; perform seated knee lifts across the midline and finish with a clap without turning. · For children: Play 'Statue Nutbush' where kids do the grid steps but must freeze instantly if the music pauses during the turn-and-clap step."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform side taps and back heel-touches while seated in a chair; perform seated knee lifts across the midline and finish with a clap without turning.",
+      "For children: Play 'Statue Nutbush' where kids do the grid steps but must freeze instantly if the music pauses during the turn-and-clap step."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Box or grid formation, dancers facing the same wall and turning 90 degrees clockwise at the end of each 32-beat cycle."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 117 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Complete the 32-beat cycle with quarter turn and clap.",
+      "The Nutbush inherits structural elements from earlier 20th-century American line dances like the Madison and the Alley Cat.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 117,
+  "meter": "4/4",
+  "rhythm_pattern": "Driving 4/4 rock-funk drum beat",
+  "instruments": [
+   "Electric guitar",
+   "Drums",
+   "Bass guitar",
+   "Brass section"
+  ],
+  "vocal_style": "High-energy soul/rock vocals",
+  "musical_form": "Intro followed by verse-chorus structure",
+  "mood": [
+   "energetic",
+   "upbeat",
+   "driving",
+   "festive"
+  ],
+  "sound_description": "A high-energy 1970s funk-rock track characterized by an extended electric guitar and horn intro, driving drums on a constant 4/4 pulse, and gritty soulful vocals.",
+  "listen_before_composing": [
+   "Nutbush City Limits — Ike & Tina Turner",
+   "Nutbush City Limits — Ike & Tina Turner (2000)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Nutbush (Australia). Meter 4/4. Tempo about 117 bpm. Rhythm pattern: Driving 4/4 rock-funk drum beat. Instruments: Electric guitar, Drums, Bass guitar, Brass section. Vocal style: High-energy soul/rock vocals. Form: Intro followed by verse-chorus structure. Mood: energetic, upbeat, driving, festive. It should sound like this: A high-energy 1970s funk-rock track characterized by an extended electric guitar and horn intro, driving drums on a constant 4/4 pulse, and gritty soulful vocals. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 81
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 117
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "No specialized costume is worn for the Nutbush; participants dance in whatever attire fits the social occasion, ranging from school uniforms and sports gear to wedding attire and casual festival clothes. Settings include school halls, community centers, reception venues, and outdoor desert sites.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Grid array of dancers seen from a high overhead angle",
+   "Dust kicking up under boots at an outback festival",
+   "Hands akimbo on hips in unified timing"
+  ],
+  "costume_notes": "No specialized costume is worn for the Nutbush; participants dance in whatever attire fits the social occasion, ranging from school uniforms and sports gear to wedding attire and casual festival clothes. Settings include school halls, community centers, reception venues, and outdoor desert sites.",
+  "setting_notes": "The Nutbush is a secular social line dance performed at Australian school events, community gatherings, weddings, and music festivals. It serves as an accessible participatory group activity where simple steps allow dancers of all ages and skill levels to join together.",
+  "map": {
+   "country": "Australia",
+   "region": "Oceania",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "73 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 73,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "step to the right",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nutbush_(dance)",
+  "https://www.wikidata.org/wiki/Q7754521"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "f2570e35a399c95cca74cfbcb46070fafd8b3a8481d1f4db14b3fe67d2b21af7",
+ "hero_checked": null
+}

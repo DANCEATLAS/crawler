@@ -30,6 +30,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tippani",
   "wikidata_qid": "Q7808860",
   "unesco": false,
+  "hero_video_youtube_id": "_VDciQxlM5I",
+  "video_stack": [
+   {
+    "youtube_id": "_VDciQxlM5I",
+    "role": "hero",
+    "title": "Tippani Dance",
+    "channel": "Nrutyam Universal Performing Art",
+    "hd": true
+   },
+   {
+    "youtube_id": "kj7t6TkJb0E",
+    "role": "rendition",
+    "title": "Tippani Dance - Tarnetar ne re....mele gyata",
+    "channel": "Nritya Arpan Dance School - USA",
+    "hd": true
+   },
+   {
+    "youtube_id": "ZjQQbNvf3L0",
+    "role": "rendition",
+    "title": "Tippani",
+    "channel": "KALAPATH",
+    "hd": true
+   },
+   {
+    "youtube_id": "w8o_HTsQAFw",
+    "role": "rendition",
+    "title": "TIPPANI DANCE | FOLK DANCE OF GUJRAT | CHOREOGRAPHY - GANESH GIDAYE",
+    "channel": "G2R2 DANCE & ACTIVITY CENTRE PVT.LTD",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -56,6 +87,12 @@
   ],
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:12:48Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "garba",
    "dandiya-raas"
@@ -271,40 +308,85 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "_VDciQxlM5I",
+   "url": "https://www.youtube.com/watch?v=_VDciQxlM5I",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A stage with a banner in the background, likely a cultural festival or competition.",
+    "dancers": "A group of 10 women.",
+    "formation_and_space": "The dancers start in a line, then move into a circle, and later perform in pairs or smaller groups, moving across the stage.",
+    "posture": "Upright torso, knees slightly bent, weight shifts between feet.",
+    "footwork": "Rhythmic stepping, often involving tapping or striking the floor with the tippani (a long wooden pole with a metal base). The steps are synchronized with the beat.",
+    "arms_and_hands": "Arms are used to hold and manipulate the tippani, sometimes swinging it or using it to strike the floor. Hands are also used for gestures.",
+    "hips_and_torso": "Minimal hip movement, torso remains relatively stable.",
+    "partnering": "Some interaction between dancers, but no formal partnering holds.",
+    "levels_jumps_turns": "Occasional small jumps and turns, but no complex floor work.",
+    "costume_and_props": "Traditional Gujarati attire: ghagra choli (skirt and blouse) with a dupatta (scarf), and jewelry. Each dancer holds a tippani.",
+    "cannot_infer": "The exact nature of the footwork is difficult to determine due to the distance and the speed of the movements.",
+    "music_heard": {
+     "instruments": [
+      "Dhol (drum)",
+      "Manjira (cymbals)"
+     ],
+     "vocals": "Chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "The dancers strike the floor with their tippanis in a rhythmic, synchronized manner while moving in a line."
+     },
+     {
+      "start_s": 35,
+      "end_s": 45,
+      "what": "The dancers perform a series of turns while holding their tippanis, creating a dynamic visual effect."
+     },
+     {
+      "start_s": 130,
+      "end_s": 140,
+      "what": "The dancers move in a circle, striking the floor with their tippanis in a coordinated pattern."
+     },
+     {
+      "start_s": 220,
+      "end_s": 230,
+      "what": "The dancers perform a sequence of steps while holding their tippanis in front of them, emphasizing the rhythmic nature of the dance."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/tippani-dance.json"
  },
- "fingerprint": "bfddff77942103b3",
+ "fingerprint": "f7fda8d957d01645",
  "updated": "2026-11-24"
 }

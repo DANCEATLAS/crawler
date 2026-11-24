@@ -69,10 +69,33 @@
   "mentor": {
    "voice": [
     "energetic",
-    "direct"
+    "direct",
+    "precise",
+    "playful"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:01",
+     "moment": "opening",
+     "says": "The teacher announces an instructional tutorial to help the learner achieve an airflare in just five minutes.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "1:08",
+     "moment": "before_hard_part",
+     "says": "The teacher introduces the first timed interval, instructing the learner to focus on practicing the foundational setup.",
+     "tag": "reason_to_return"
+    },
+    {
+     "t": "5:26",
+     "moment": "closing",
+     "says": "The teacher encourages the learner to subscribe for more tutorials, promoting daily videos and community interaction.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and motivated to master the airflare through structured progression."
   },
   "learner_voice": {
    "struggles": [
@@ -118,5 +141,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-24T22:18:57Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

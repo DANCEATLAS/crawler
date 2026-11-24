@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian or community elder
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The dance was introduced by Dominican friars in the 16th century as a means of religious conversion.
 NARRATION: It is an adaptation of the Spanish 'Baile de los Moros', utilizing the same structural framework of conflict and resolution through religious conversion.
 ON SCREEN: Map: Guatemala · Central America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -55,10 +55,9 @@ NEEDS: tempo, meter
 NARRATION: Performers wear elaborate velvet capes, trousers, and masks.
 NARRATION: Spanish characters wear pink masks with blonde hair and serious expressions.
 NARRATION: Indigenous characters wear brown masks with smiling expressions.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 4 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Pedro de Alvarado (Spanish conquistador) and Tecun Uman (K'iche' leader).
@@ -101,7 +100,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'TrVTkHW4q5E', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
+Images: 4 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain); Bernal Rodríguez Ramírez / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); RosaMaria Birdfeather / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); RosaMaria Birdfeather / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Danza de la conquista en Actopan Veracruz.webm — https://upload.wikimedia.org/wikipedia/commons/9/9a/Danza_de_la_conquista_en_Actopan_Veracruz.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Viendo la danza de la conquista en Actopan.webm — https://upload.wikimedia.org/wikipedia/commons/9/9f/Viendo_la_danza_de_la_conquista_en_Actopan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Elaborate masks, Velvet capes with mirrors, Chirimía players, Processional formations
 Costume notes: Performers wear elaborate velvet capes, trousers, and masks. Spanish characters wear pink masks with blonde hair and serious expressions. Indigenous characters wear brown masks with smiling expressions. Accessories include mirrors, feathers, crowns, and tin wheels.
@@ -110,7 +109,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
+Source: 15 tutorial(s) of the ritual-sacred family studied · videos studied: 15
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

@@ -37,6 +37,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mule_(dance)",
   "wikidata_qid": "Q7752610",
   "unesco": false,
+  "hero_video_youtube_id": "X5TEsdb918c",
+  "video_stack": [
+   {
+    "youtube_id": "X5TEsdb918c",
+    "role": "hero",
+    "title": "Weekend Update: Pete Davidson & John Mulaney Review Clint Eastwood's The Mule - SNL",
+    "channel": "Saturday Night Live",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -58,6 +68,14 @@
   ],
   "movie_ready": true,
   "tradition_status": "historical",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-24T22:12:44Z",
+   "soft_fail": [
+    "not_talking_head"
+   ]
+  },
   "related_slugs": [
    "the-jerk"
   ]
@@ -294,6 +312,6 @@
   "polished": false,
   "file": "episodes/the-mule.json"
  },
- "fingerprint": "4b38276d4f0c70a7",
+ "fingerprint": "4b4304ec8832e3d2",
  "updated": "2026-11-24"
 }

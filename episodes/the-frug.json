@@ -2,7 +2,7 @@
  "slug": "the-frug",
  "name": "The Frug",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:28Z",
+ "built_at": "2026-11-24T22:53:18Z",
  "researched_at": "2026-11-23T22:13:27Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is The Frug. Mid-1960s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (mcrZIK3gqbU)",
      "Title card: The Frug · USA · Mid-1960s"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for The Aloof, The Heavyweight."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (mcrZIK3gqbU)",
      "Captions name each signature move as it appears",
      "Formation: Stationary solo dancing; requires very little floor space."
     ],
@@ -720,7 +720,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "mcrZIK3gqbU",
+   "checked_by_vision_model": true,
+   "title": "Bob Fosse dance numbers -  \" The Rich Man's Frug \""
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -756,8 +760,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "69 tutorial(s) of the street-urban family studied",
-  "videos_studied": 69,
+  "source": "73 tutorial(s) of the street-urban family studied",
+  "videos_studied": 73,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -768,6 +772,7 @@
   "cues": [
    "down and up",
    "step touch",
+   "one two three four",
    "one and two",
    "5-6-7-8",
    "heel toe",
@@ -776,8 +781,7 @@
    "pivot your feet",
    "turn your torso",
    "heel step",
-   "stomp",
-   "farmer"
+   "stomp"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -793,7 +797,6 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -804,6 +807,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "41aa32274db9d0520821434dedcfb63aa2f0a4f27fe3f3fe4c548f9eb44c4327",
- "hero_checked": null
+ "input_fingerprint": "da297ac88a368e8b766f1c2196b7372d6a527d5f2220bae4db95970d2d7b2555",
+ "hero_checked": "pass"
 }

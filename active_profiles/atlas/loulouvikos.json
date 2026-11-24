@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Aggressive pushing",
+          "Excessive number of squats that strain young knees"
+        ],
+        "counts": "Simplified 1-2-3 walking counts.",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' game where the leader decides when to squat; the pushing at the end is replaced by a 'statue' game."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep squats",
+          "Rapid level changes",
+          "Pushing competition"
+        ],
+        "counts": "1-2-3 for the walk; 1-2 for the squat and rise.",
+        "seated_version": "Perform the Sta Tria rhythm with feet while seated; replace deep squats with gentle knee lifts or partial squats while holding a chair.",
+        "standing_version": "Use a barre or chair for support during squats; reduce the number of squats from 20 to 3-5.",
+        "tempo_and_range": "Slower tempo; shallow range of motion for squats."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "Sta Tria style walking steps followed by squatting while moving.",
+      "formation_and_space": "Starts in a circle; ends with dancers breaking off into open space for pushing.",
+      "hips_and_torso": "Vertical movement during squats; torso stability required for the pushing finale.",
+      "levels_and_jumps": "Frequent level changes from standing to deep squats.",
+      "partnering": "None in the circle; adversarial/playful contact during the final pushing phase.",
+      "posture": "Upright during the walking phase, transitioning to deep crouched positions during squats.",
+      "signature_moves": [
+        {
+          "description": "Performing up to 20 deep squats in succession while maintaining the circle's progression.",
+          "name": "Loulouvikos Squats"
+        },
+        {
+          "description": "A playful pushing match at the end of the dance to see who loses balance.",
+          "name": "The Fall"
+        }
+      ],
+      "tempo_feel": "Steady during the walk, physically demanding and rhythmic during the squats.",
+      "what_to_avoid": "Avoid losing balance during the squatting sequence or the final pushing phase."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "playful",
+        "festive",
+        "athletic",
+        "longing"
+      ],
+      "musical_form": "Verse-chorus structure where the chorus triggers the squatting movement.",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A traditional Greek folk song from the Attica region, characterized by lyrics pleading with a boat named Loulouvikos to return the village's men.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Lyric-driven song with a distinct chorus for squatting."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Walk in a circle using Sta Tria steps",
+        "Listen for the chorus cue",
+        "Perform deep squats while moving laterally in the circle",
+        "Repeat squats up to 20 times",
+        "Break formation for playful pushing at the song's end"
+      ],
+      "formation": "Circle formation that breaks into individual competition at the end.",
+      "level_notes": "Requires significant lower body strength for the squatting sequence.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "da964f2278dfeca6a77cc772edbbd29668b7cb1f6c5aa5e92d212dcac4334c9c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the specific musical meter (e.g., 2/4, 7/8) of the Loulouvikos song? Evidence needed: https://en.wikipedia.org/wiki/Loulouvikos"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific arm positions (e.g., shoulder hold, hand hold) during the Sta Tria phase and the squatting phase? Evidence needed: https://en.wikipedia.org/wiki/Loulouvikos"
+    ]
+  },
+  "id": "atlas:loulouvikos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Loulouvikos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "115854198de94ee8",
+      "next_evidence": "https://en.wikipedia.org/wiki/Loulouvikos",
+      "question": "What are the specific arm positions (e.g., shoulder hold, hand hold) during the Sta Tria phase and the squatting phase?",
+      "source": "https://en.wikipedia.org/wiki/Loulouvikos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately teach the formation and connection between dancers."
+    },
+    {
+      "domain": "research",
+      "id": "257eb5b37db7b358",
+      "next_evidence": "https://en.wikipedia.org/wiki/Loulouvikos",
+      "question": "What is the specific musical meter (e.g., 2/4, 7/8) of the Loulouvikos song?",
+      "source": "https://en.wikipedia.org/wiki/Loulouvikos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate rhythm profiles for composers and instructors."
+    }
+  ],
+  "research_file": "research_results/loulouvikos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "loulouvikos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Loulouvikos",
+    "https://www.wikidata.org/wiki/Q6689630"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

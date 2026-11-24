@@ -1,12 +1,12 @@
 {
  "youtube_id": "HZruz8wO0g8",
- "slug": "basics-how-teachers-teach",
- "dance": "How teachers teach (basics)",
+ "slug": "tap-dance-usa",
+ "dance": "tap dance usa",
  "title": "TAP DANCE BASICS - 5 Steps EVERY Beginner should Master",
  "teacher": "The Dance Prof",
  "teacher_key": "the-dance-prof",
  "teacher_score": 77.9,
- "analysed_at": "2026-11-17T06:24:44Z",
+ "analysed_at": "2026-11-24T22:18:26Z",
  "url": "https://www.youtube.com/watch?v=HZruz8wO0g8",
  "comments_read": 60,
  "schema": 3,
@@ -17,16 +17,16 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces core tap dance steps one by one, breaking down their mechanics and terminology. He demonstrates each movement with verbal counts and physical cues, then combines them into sequential practice routines. Finally, he speeds up the tempo and dances along to music so learners can apply what they learned.",
-  "signature": "",
+  "teacher_system": "The teacher introduces foundational tap steps one by one, breaking down foot placements and mechanics carefully. He then combines these steps into a continuous sequence and finally sets them to music for practice.",
+  "signature": "The teacher combines anatomical precision with playful verbal phrasing (like 'just along for the ride') to make technical adjustments memorable.",
   "screen": {
    "views": [
     "front",
-    "feet_closeup",
-    "back"
+    "feet_closeup"
    ],
    "on_screen": [
-    "step_names"
+    "step_names",
+    "captions"
    ],
    "editing": []
   },
@@ -34,40 +34,52 @@
    {
     "tag": "chunking",
     "t": "0:12",
-    "what": "Teaches the ball and heel step by lifting and dropping the ball of the foot while keeping the heel lifted."
+    "what": "Demonstrates and explains the ball-heel step in a marching pattern."
    },
    {
     "tag": "chunking",
-    "t": "0:59",
-    "what": "Teaches the brush step by shaking out ankle tension and brushing the foot forward and back."
+    "t": "1:00",
+    "what": "Teaches the brush step while encouraging ankle relaxation."
    },
    {
     "tag": "chunking",
     "t": "2:06",
-    "what": "Teaches the shuffle step by combining a forward brush and a backward brush."
+    "what": "Introduces the shuffle by combining forward and backward brush movements."
    },
    {
     "tag": "chunking",
     "t": "2:51",
-    "what": "Teaches the ball change step by stepping back and doing a quick weight change."
+    "what": "Teaches the ball change with quick weight shifts."
    },
    {
     "tag": "chunking",
     "t": "4:00",
-    "what": "Teaches the flap step by brushing forward and stepping on the whole foot."
+    "what": "Breaks down the flap step and how it differs from a shuffle."
+   },
+   {
+    "tag": "chunking",
+    "t": "5:05",
+    "what": "Combines flap and heel into a flap heel step."
    },
    {
     "tag": "chunking",
     "t": "5:49",
-    "what": "Teaches stomps and stamps, explaining the difference in weight distribution between them."
+    "what": "Explains the difference between stomps and stamps."
    },
    {
     "tag": "music_early",
-    "t": "6:41",
-    "what": "Puts all the learned steps together into a warm-up drill with music."
+    "t": "6:42",
+    "what": "Applies all learned footwork to music in a guided warm-up drill."
    }
   ],
-  "adaptations": [],
+  "adaptations": [
+   {
+    "t": "6:19",
+    "difficulty": "pounding too hard on hard surfaces",
+    "adjustment": "do not pound too much to avoid shin splints",
+    "kind": "other"
+   }
+  ],
   "entry_points": [
    "feet_first",
    "rhythm_first"
@@ -75,7 +87,7 @@
   "pace": {
    "talk_vs_move": "balanced",
    "seconds_before_first_movement": 12,
-   "pieces_taught": 6
+   "pieces_taught": 5
   },
   "mentor": {
    "voice": [
@@ -118,53 +130,38 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Finding it overwhelming when taking initial tap classes",
+     "theme": "Overwhelming first in-person class experience",
      "tag": "other",
-     "count": 1
-    },
-    {
-     "theme": "Having zero rhythm or feeling clumsy on the dance floor",
-     "tag": "other",
-     "count": 1
+     "count": 2
     }
    ],
    "clicked": [
     {
-     "theme": "Breaking the steps down simply and clearly",
-     "tag": "other",
-     "count": 6
-    },
-    {
-     "theme": "The slow and easy-to-follow pace",
-     "tag": "other",
-     "count": 4
+     "theme": "Clear and simple breakdown of steps made it easy to follow",
+     "tag": "chunking",
+     "count": 15
     }
    ],
    "requests": [
     {
-     "theme": "Asking for suggestions on what tutorial videos to make next",
+     "theme": "Requests for more beginner tutorials and future dance topics",
      "tag": "other",
-     "count": 1
+     "count": 3
     }
    ],
    "meant": [
     {
-     "theme": "Fulfilling a lifelong childhood dream of learning how to tap dance",
+     "theme": "Fulfilling lifelong bucket list dreams of learning tap dance as adults and seniors",
      "tag": "other",
-     "count": 8
-    },
-    {
-     "theme": "Building confidence and being able to practice comfortably at home",
-     "tag": "other",
-     "count": 4
+     "count": 18
     }
    ]
   },
-  "limits": "Only the instructor's lower body and feet are visible during most of the instructional segments, limiting observation of upper body posture."
+  "limits": "The video focuses entirely on footwork and lower body mechanics, so upper body posture and arm styling are not covered."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1,
+ "attempts": 2,
  "mentor_look": {
   "at": "2026-11-17T06:45:05Z",
   "attempts": 1,

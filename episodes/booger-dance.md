@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The Booger Dance is a traditional Cherokee practice that was performed until the 20th century.
 NARRATION: After a period of abandonment, the dance has been recently resurrected by the Cherokee community.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -47,7 +47,7 @@ NEEDS: music_and_instruments, tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Performers wear masks fashioned from gourds, animal skins, or buckeye wood.
 NARRATION: The dance takes place at night, usually in late fall or winter, around a campfire.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -89,7 +89,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 1 licensed — Unknown authorUnknown author or not provided / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 
 Costume notes: Performers wear masks fashioned from gourds, animal skins, or buckeye wood. The dance takes place at night, usually in late fall or winter, around a campfire.
@@ -98,7 +98,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
+Source: 15 tutorial(s) of the ritual-sacred family studied · videos studied: 15
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

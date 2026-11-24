@@ -1,0 +1,134 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Specific sets of rules for hand gestures requiring high discipline.",
+      "difficulty": "advanced",
+      "footwork": "Slow movements and graceful poses; often involves grounded, gliding steps.",
+      "formation_and_space": "Distinct staging with subtle layers of meaning; often symmetrical in court rituals.",
+      "hips_and_torso": "Stable and upright in court styles; more vigorous in commoner styles.",
+      "levels_and_jumps": "Primarily low to medium levels; jumps are rare in courtly styles.",
+      "partnering": "Courtship dances like Tayub involve social interaction; court dances are usually ensemble-based.",
+      "posture": "Controlled and deliberate with a serene composure.",
+      "signature_moves": [
+        {
+          "description": "A refined movement style used for noble hero characters.",
+          "name": "Alus"
+        },
+        {
+          "description": "A forceful, vigorous movement style used for villainous or warrior characters.",
+          "name": "Gagah"
+        }
+      ],
+      "tempo_feel": "Slow-paced and meditative.",
+      "what_to_avoid": "Avoid vigorous or expressive movements typical of Balinese dance when performing courtly Javanese styles."
+    },
+    "music_profile": {
+      "instruments": [
+        "Gamelan orchestra",
+        "Gong",
+        "Kendhang (drum)",
+        "Saron",
+        "Bonang",
+        "Suling (flute)"
+      ],
+      "meter": "Colotomic cycles (Gamelan structure)",
+      "mood_keywords": [
+        "serene",
+        "meditative",
+        "refined",
+        "stately"
+      ],
+      "musical_form": "Cyclical structures based on gong punctuation.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Interlocking patterns of gongs, kempul, and kenong.",
+      "sound_description": "A shimmering, metallic texture created by bronze percussion, characterized by slow, expansive cycles and sudden shifts in tempo led by the drum.",
+      "tempo_bpm": "Variable (often slow to moderate)",
+      "vocal_style": "Poetic chanting or choral singing in courtly forms."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume a grounded, centered posture with knees slightly bent.",
+        "Execute slow, deliberate hand gestures (mudras) with fingers often curved.",
+        "Shift weight with controlled, gliding footwork that maintains a level head height.",
+        "Practice 'seleh'—the moments of stillness and composure between movements."
+      ],
+      "formation": "Varies from precise rows in Bedhaya to circular or open formations in folk styles.",
+      "level_notes": "Beginners start with basic posture and hand positions before moving to narrative character styles.",
+      "rhythm": "Slow and meditative, dictated by the Gamelan's cycles."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7aafe48ee701c4abca8feac84b4aced64b7fce0be56addebe4d324101d006d5f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific differences in foot placement between the 'alus' and 'gagah' styles? Evidence needed: https://en.wikipedia.org/wiki/Javanese_dances"
+    ]
+  },
+  "id": "atlas:javanese-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Javanese dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "fa921e4d7ddfa139",
+      "next_evidence": "https://en.wikipedia.org/wiki/Javanese_dances",
+      "question": "What are the specific differences in foot placement between the 'alus' and 'gagah' styles?",
+      "source": "https://en.wikipedia.org/wiki/Javanese_dances",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately teach the narrative dance roles in Wayang wong."
+    }
+  ],
+  "research_file": "research_results/javanese-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "javanese-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Javanese_dances",
+    "https://www.wikidata.org/wiki/Q6165226"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

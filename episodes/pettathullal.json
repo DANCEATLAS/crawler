@@ -1,0 +1,371 @@
+{
+ "slug": "pettathullal",
+ "name": "Pettathullal",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:18Z",
+ "researched_at": "2026-11-24T20:40:12Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Documentary presenter / Cultural custodian detailing Kerala sacred traditions",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Pettathullal",
+   "Pettat kettu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Pettathullal",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Sacred Dance of Unity: Kerala's Pettathullal",
+     "This is Pettathullal. Ancient / Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Pettathullal · India · Ancient / Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Pettathullal is a historic ritualistic tradition associated with the Sabarimala pilgrimage at Erumely in Kottayam district, Kerala.",
+     "The dance commemorates the joyful celebration of the local people following the mythological destruction of the demoness Mahishi by Lord Ayyappa.",
+     "Historically, the ritual involves two distinct communities: the Ambalappuzha group and the Alangadu group."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Pettathullal is celebrated annually on the 27th day of the Malayalam month of Dhanu during the Mandalam-Makaravilakku pilgrimage period (spanning November, December, and January).",
+     "The ritual signifies spiritual purification and the victory of good over evil as represented by Ayyappa's defeat of Mahishi.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is executed in group formations by pilgrims who chant \"Ayyappa thinthakathom, Swamy thinthakathom\" in rhythm with loud percussion ensembles.",
+     "Dancers leap and step rhythmically while holding wooden weapons such as sarakkol (arrows) and wooden maces.",
+     "First-time Sabarimala pilgrims (Kanni Ayyappas) carry a bundle filled with cereals and vegetables tied to a stick across their shoulders, alongside a mandatory wooden arrow.",
+     "Watch for Petta Thullal Step."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Mass group procession starting at Kochambalam temple, circumambulating the Vavar mosque, and moving 0.5 km to Valiyambalam Sastha temple"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The ritual dance is accompanied by vibrant traditional instrumental ensembles, sacred mantras, and vocal hymns.",
+     "Key instruments specified in the traditional performance include Chenda melam (percussion ensemble), Nagaswaram (double-reed wind instrument), and Pambamelam (traditional drumming).",
+     "Listen for the Chenda, Nagaswaram, Pamba.",
+     "A powerful, resonant outdoor ritual sound environment dominated by the thunderous percussion of Chenda melam and Pambamelam, melodic lines from the Nagaswaram, and the collective vocal shouting and chanting of thousands of pilgrims."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic accompaniment matched to the chant 'Ayyappa thinthakathom, Swamy thinthakathom'"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Participants dress in tribal-style attire, smearing their faces and bodies with bright paints and charcoal.",
+     "They carry symbolic wooden weapons including sarakkol (arrows) and wooden maces.",
+     "Kanni Ayyappas also carry a shoulder stick with a tied bundle containing vegetables and grains."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The performance involves key traditional roles rather than individual artistic performers.",
+     "These include the Periyaswami (the chief elder/leader who receives Dakshina), the Kanni Ayyappas (first-time pilgrims who must perform specific rituals with wooden arrows), members of the Ambalappuzha and Alangadu traditional groups, and representatives of the Mahallu Jamaat committee of the Vavar mosque who welcome the dancers.",
+     "Two distinct traditional groups perform regional variations of the ritual on the same day: the Ambalappuzha group and the Alangadu group.",
+     "The ritual lineage is preserved through hereditary regional participation by the Ambalappuzha and Alangadu communities, passed down through generations of Sabarimala devotees and led by senior spiritual leaders known as Periyaswamis."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Pettathullal is a sacred pilgrimage ritual connected to Lord Ayyappa and the Sabarimala pilgrimage. Outsiders should respect all religious observances, dietary/fasting vows (vrata kalam), and local temple customs. Participation in the ritual steps and carrying of sacred items (such as the irumudikettu and sarakkol) is traditionally reserved for practicing devotees."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Thousands of painted devotees dance through the streets of Erumely, bridging sacred temples and a historic mosque to celebrate Lord Ayyappa's triumph.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic accompaniment matched to the chant 'Ayyappa thinthakathom, Swamy thinthakathom'",
+  "instruments": [
+   "Chenda",
+   "Nagaswaram",
+   "Pamba"
+  ],
+  "vocal_style": "Group chanting of mantras, hymns, and the refrain 'Ayyappa thinthakathom, Swamy thinthakathom'",
+  "musical_form": "Continuous ritual procession music driven by drum ensembles and response chanting",
+  "mood": [
+   "ecstatic",
+   "devotional",
+   "joyful",
+   "sacred",
+   "rhythmic"
+  ],
+  "sound_description": "A powerful, resonant outdoor ritual sound environment dominated by the thunderous percussion of Chenda melam and Pambamelam, melodic lines from the Nagaswaram, and the collective vocal shouting and chanting of thousands of pilgrims.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Pettathullal (India). Rhythm pattern: Rhythmic accompaniment matched to the chant 'Ayyappa thinthakathom, Swamy thinthakathom'. Instruments: Chenda, Nagaswaram, Pamba. Vocal style: Group chanting of mantras, hymns, and the refrain 'Ayyappa thinthakathom, Swamy thinthakathom'. Form: Continuous ritual procession music driven by drum ensembles and response chanting. Mood: ecstatic, devotional, joyful, sacred, rhythmic. It should sound like this: A powerful, resonant outdoor ritual sound environment dominated by the thunderous percussion of Chenda melam and Pambamelam, melodic lines from the Nagaswaram, and the collective vocal shouting and chanting of thousands of pilgrims. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Participants dress in tribal-style attire, smearing their faces and bodies with bright paints and charcoal. They carry symbolic wooden weapons including sarakkol (arrows) and wooden maces. Kanni Ayyappas also carry a shoulder stick with a tied bundle containing vegetables and grains. The physical setting spans three primary sacred sites in Erumely: beginning at the Petta Sree Dharmasastha temple (Kochambalam), passing around the adjacent Vavar mosque, and concluding at the Valiyambalam Sastha temple located 0.5 km away.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AErumeli_Petta_Sastha_Temple.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Erumeli_Petta_Sastha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Erumeli_Petta_Sastha_Temple.jpg/1280px-Erumeli_Petta_Sastha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Akhilan / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AErumeli_Petta_Sastha_Temple.jpg",
+    "description": "എരുമേലി പേട്ട ധർമ്മശാസ്താക്ഷേത്രം"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Charcoal-painted faces and vibrant body paints",
+   "Wooden arrows (sarakkol) held aloft",
+   "Dancers moving from Hindu temple to Islamic mosque",
+   "Sacred eagle circling in the blue sky"
+  ],
+  "costume_notes": "Participants dress in tribal-style attire, smearing their faces and bodies with bright paints and charcoal. They carry symbolic wooden weapons including sarakkol (arrows) and wooden maces. Kanni Ayyappas also carry a shoulder stick with a tied bundle containing vegetables and grains. The physical setting spans three primary sacred sites in Erumely: beginning at the Petta Sree Dharmasastha temple (Kochambalam), passing around the adjacent Vavar mosque, and concluding at the Valiyambalam Sastha temple located 0.5 km away.",
+  "setting_notes": "Pettathullal is celebrated annually on the 27th day of the Malayalam month of Dhanu during the Mandalam-Makaravilakku pilgrimage period (spanning November, December, and January). The ritual signifies spiritual purification and the victory of good over evil as represented by Ayyappa's defeat of Mahishi. It begins with 'Prayashchitham' (atonement for sins committed during the fasting period) through offerings of betel leaves and coins on the irumudikettu travel kit, followed by offering Dakshina (Pettapanam kettal) to the Periyaswami. The event also stands as a famous symbol of Hindu-Muslim communal harmony due to the integration of the Vavar mosque into the sacred procession.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "15 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 15,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pettathullal",
+  "https://www.wikidata.org/wiki/Q27916531"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "6404cb05afbc1ea59a222c712da038af6a8cf4e5fd350a2c37d7932bdc18f0a4",
+ "hero_checked": null
+}

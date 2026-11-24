@@ -73,7 +73,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -93,43 +93,80 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "d8023fdef5c371e1",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "70d3DA3Td5A",
+   "url": "https://www.youtube.com/watch?v=70d3DA3Td5A",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "public outdoor spaces, streets, and a stage, likely during festivals or cultural events",
+    "dancers": "mixed groups of men, women, and children; group dancing",
+    "formation_and_space": "processions, circles, and lines; the group travels through the space",
+    "posture": "upright torso, knees often bent, weight shifts between feet",
+    "footwork": "rhythmic stepping, often with a bounce or hop; precise footwork is obscured by camera cuts and low resolution",
+    "arms_and_hands": "arms move dynamically, often held out or up; some dancers hold canes or umbrellas",
+    "hips_and_torso": "some torso movement and hip engagement, but generally upright",
+    "partnering": "none; group performance",
+    "levels_jumps_turns": "jumps, squats, and some turns are visible",
+    "costume_and_props": "colorful traditional clothing, some with patterned fabrics; props include canes and umbrellas",
+    "cannot_infer": "low-resolution sampled frames do not establish exact weight transfer or fast footwork; camera cuts and varying video quality make it difficult to see specific details of the dance steps",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "rattles"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 40,
+      "end_s": 46,
+      "what": "a group of dancers in traditional attire moving in a line, with rhythmic steps and arm movements"
+     },
+     {
+      "start_s": 47,
+      "end_s": 51,
+      "what": "dancers in a circle, some squatting and jumping while holding canes"
+     },
+     {
+      "start_s": 58,
+      "end_s": 60,
+      "what": "a group of dancers moving in a line, holding umbrellas and canes"
+     },
+     {
+      "start_s": 114,
+      "end_s": 117,
+      "what": "dancers in white skirts and feathered headpieces, performing energetic jumps and movements"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "901c0f2c03650576",
+ "updated": "2026-11-24"
 }

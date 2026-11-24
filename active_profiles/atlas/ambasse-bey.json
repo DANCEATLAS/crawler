@@ -1,13 +1,67 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding hands in couples; shoulders swaying like bird wings",
+      "difficulty": "intermediate",
+      "footwork": "Fluid steps with jerky body movements",
+      "formation_and_space": "Group, couple, or solo",
+      "hips_and_torso": "Jerky body movements",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples hold hands and twirl",
+      "posture": "Upright with active shoulder engagement",
+      "signature_moves": [
+        {
+          "description": "The old monkey step used to open the dance and commune with ancestors.",
+          "name": "Mudun'a Sombo"
+        }
+      ],
+      "tempo_feel": "Fast",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "guitar",
+        "sticks",
+        "bottles",
+        "Conga (Njembe)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "rhythmic",
+        "festive",
+        "lively"
+      ],
+      "musical_form": "Folk music",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythm of a moving broom",
+      "sound_description": "Fast-paced acoustic guitar-driven music with percussive accents from bottles and sticks, creating a rhythmic, driving pulse.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Sung in Douala"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Mudun'a Sombo (old monkey) steps",
+        "Fluid steps",
+        "Jerky body movements",
+        "Shoulder swaying"
+      ],
+      "formation": "Solo, couple, or group",
+      "level_notes": "Requires synchronization of shoulder movements and fluid footwork.",
+      "rhythm": "Fast-paced, similar to a moving broom"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "87c7b6ef8e73401a3cc4d6d7f5fca2e22bc1a3d0c6197ff86652aa9f9ea6e022",
+  "fingerprint": "ac171a857864e3519029314a5bf802ec67c1b8a996863a1f9edf9256b9348b4d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +69,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, documented footwork patterns beyond the 'Mudun'a Sombo'? Evidence needed: Ethnographic field recordings or dance notation."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +99,18 @@
   ],
   "music_options": [],
   "name": "Ambasse bey",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c20b02bf66e927fd",
+      "next_evidence": "Ethnographic field recordings or dance notation.",
+      "question": "Are there specific, documented footwork patterns beyond the 'Mudun'a Sombo'?",
+      "source": "https://en.wikipedia.org/wiki/Ambasse_bey",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate technical instruction for the dance."
+    }
+  ],
+  "research_file": "research_results/ambasse-bey.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +122,11 @@
   "slug": "ambasse-bey",
   "sources": [
     "https://en.wikipedia.org/wiki/Ambasse_bey",
-    "Source: Ambasse bey on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ambasse_bey"
+    "https://www.wikidata.org/wiki/Q4741152",
+    "https://es.wikipedia.org/wiki/Ambasse_bey",
+    "https://fr.wikipedia.org/wiki/Ambas-bay",
+    "https://it.wikipedia.org/wiki/Ambasse_bey"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

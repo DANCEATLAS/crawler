@@ -236,7 +236,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -244,28 +244,16 @@
     "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
    "signature_moves": "lesson",
+   "sound": "performance",
    "study_video": "lesson"
   }
  },
@@ -368,6 +356,72 @@
    }
   }
  ],
+ "performances": [
+  {
+   "youtube_id": "C_M_HrnFUSw",
+   "url": "https://www.youtube.com/watch?v=C_M_HrnFUSw",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A classroom with desks and chairs, likely a rehearsal space.",
+    "dancers": "Four women, dancing in a line.",
+    "formation_and_space": "A line formation, moving in a circle around the room.",
+    "posture": "Upright torso, knees slightly bent, weight shifts between feet.",
+    "footwork": "The dancers perform a series of steps including hops, kicks, and side-steps, moving in a rhythmic pattern that aligns with the music's beat. The exact weight transfer is difficult to see due to the video's resolution.",
+    "arms_and_hands": "The dancers hold hands in a line, with arms held at waist level.",
+    "hips_and_torso": "The torso remains relatively still, with some slight movement as the dancers shift their weight.",
+    "partnering": "The dancers are connected by holding hands in a line.",
+    "levels_jumps_turns": "The dancers perform hops and kicks, maintaining a consistent level throughout the dance.",
+    "costume_and_props": "The dancers are wearing casual clothing, including black dresses, skirts, and jeans.",
+    "cannot_infer": "The exact weight transfer and fast footwork are difficult to see due to the video's resolution.",
+    "music_heard": {
+     "instruments": [
+      "Accordion",
+      "Percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "compound"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "The dancers perform a series of hops and kicks, moving in a rhythmic pattern that aligns with the music's beat."
+     },
+     {
+      "start_s": 12,
+      "end_s": 20,
+      "what": "The dancers perform a series of side-steps, moving in a circle around the room."
+     },
+     {
+      "start_s": 25,
+      "end_s": 35,
+      "what": "The dancers perform a series of hops and kicks, moving in a rhythmic pattern that aligns with the music's beat."
+     },
+     {
+      "start_s": 40,
+      "end_s": 50,
+      "what": "The dancers perform a series of side-steps, moving in a circle around the room."
+     },
+     {
+      "start_s": 55,
+      "end_s": 65,
+      "what": "The dancers perform a series of hops and kicks, moving in a rhythmic pattern that aligns with the music's beat."
+     },
+     {
+      "start_s": 70,
+      "end_s": 80,
+      "what": "The dancers perform a series of side-steps, moving in a circle around the room."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -377,6 +431,6 @@
   "polished": false,
   "file": "episodes/petrunino-horo.json"
  },
- "fingerprint": "12ed59456a46890f",
+ "fingerprint": "f40c22ffaa03001f",
  "updated": "2026-11-24"
 }

@@ -340,7 +340,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 12 tutorial(s) of the ballroom-partner family studied · videos studied: 12
+Source: 13 tutorial(s) of the ballroom-partner family studied · videos studied: 13
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
 Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; side with the left; bring it in; switch weight; change weight onto the left; side close side; step and point; turn turn turn; replace; side replace close

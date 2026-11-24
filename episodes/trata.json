@@ -2,7 +2,7 @@
  "slug": "trata",
  "name": "Trata",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:28Z",
+ "built_at": "2026-11-24T22:53:18Z",
  "researched_at": "2026-11-23T21:58:42Z",
  "qc_score": 8.8,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Trata. Ottoman Greece or older."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (t6LfUh9w0Xs)",
      "Title card: Trata · Greece · Ottoman Greece or older"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Net-hauling motion."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (t6LfUh9w0Xs)",
      "Captions name each signature move as it appears",
      "Formation: Group line or open circle executed in open space outside Saint John the Dancer chapel in Megara, or general social spaces in the Aegean Islands"
     ],
@@ -699,7 +699,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "t6LfUh9w0Xs",
+   "checked_by_vision_model": false,
+   "title": "Diego LaToo Trata la Seriedad #The #CuesDance Video oficial"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -734,8 +738,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "71 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 71,
+  "source": "73 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 73,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -747,6 +751,7 @@
    "1-2-3-4",
    "1-2-3",
    "5-6-7-8",
+   "step to the right",
    "un dos tres",
    "side side side side",
    "rock step rock step",
@@ -754,15 +759,14 @@
    "don't forget to breathe",
    "drop your shoulders",
    "keep a flat back",
-   "flexionar las rodillas",
-   "doble golpe con cada pie"
+   "flexionar las rodillas"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "full_demo",
    "warmup",
+   "full_demo",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -775,7 +779,7 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the music & instruments section",
@@ -791,6 +795,6 @@
  "claims_verified": 6,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "024c57deb8b7679bca93d63483c5618dd2fa359092a4c9698f6f744f2bd6b4b9",
- "hero_checked": null
+ "input_fingerprint": "54a96bfd0e5054d0d4eedfcd30bd54240e13c65ed6ef0c49b89a1a479965391a",
+ "hero_checked": "fail"
 }

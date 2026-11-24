@@ -2,7 +2,7 @@
  "slug": "tatsia",
  "name": "Tatsia",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:28Z",
+ "built_at": "2026-11-24T22:53:18Z",
  "researched_at": "2026-11-23T22:07:19Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Tatsia. Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (L1hfMo4Y1Gc)",
      "Title card: Tatsia · Cyprus · Traditional"
     ],
     "music": "theme (30 s)"
@@ -79,7 +79,7 @@
     ],
     "on_screen": [
      "Map: Cyprus · Europe",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -108,7 +108,7 @@
      "Watch for The 8, The Reverse 8, The Change."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (L1hfMo4Y1Gc)",
      "Captions name each signature move as it appears",
      "Formation: Solo dancer in place or spinning on axis, requiring enough clear space for arm-length sieve arcs."
     ],
@@ -144,13 +144,10 @@
      "The glasses must never touch the top perimeter of the sieve."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 3 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "images"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
@@ -723,13 +720,21 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "L1hfMo4Y1Gc",
+   "checked_by_vision_model": true,
+   "title": "HoneywellIncentives Cyprus Traditional Dance (Tatsia- Zeimbekiko- Sousta)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "Tatsia is performed with a traditional wooden sieve (tatsia) and wine glasses filled to mid-level. For advanced demonstrations, dancers use a larger sieve fitted with a small piece of wooden planking laid across three base glasses to create an elevated platform for additional glasses. The glasses must never touch the top perimeter of the sieve.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACypriot_Traditional_Dance%2C_Tatsia.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACypriot_Traditional_Dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACypriot_Traditional_Dance-Tatsia.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -737,7 +742,32 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Cypriot_Traditional_Dance%2C_Tatsia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cypriot_Traditional_Dance%2C_Tatsia.jpg/1280px-Cypriot_Traditional_Dance%2C_Tatsia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Angeliki Giorgalli / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACypriot_Traditional_Dance%2C_Tatsia.jpg",
+    "description": "Tatsia (Τατσια) is a dance of skill, combining the hand and body in non-stop movement. The dancer holds a sieve in his hand with the four main fingers on the top of the inside perimeter of the sieve, while his thumb is on the top of the outside. Then an assistant of the dancer (usually a woman), or even the dancer himself, puts a glass of wine on the bottom of the inside perimeter of the sieve. Th"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cypriot_Traditional_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cypriot_Traditional_Dance.jpg/1280px-Cypriot_Traditional_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Angeliki Giorgalli / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACypriot_Traditional_Dance.jpg",
+    "description": "Tatsia (Τατσια) is a dance of skill, combining the hand and body in non-stop movement. The dancer holds a sieve in his hand with the four main fingers on the top of the inside perimeter of the sieve, while his thumb is on the top of the outside. Then an assistant of the dancer (usually a woman), or even the dancer himself, puts a glass of wine on the bottom of the inside perimeter of the sieve. Th"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cypriot_Traditional_Dance-Tatsia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cypriot_Traditional_Dance-Tatsia.jpg/1280px-Cypriot_Traditional_Dance-Tatsia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Angeliki Giorgalli / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACypriot_Traditional_Dance-Tatsia.jpg",
+    "description": "Tatsia (Τατσια) is a dance of skill, combining the hand and body in non-stop movement. The dancer holds a sieve in his hand with the four main fingers on the top of the inside perimeter of the sieve, while his thumb is on the top of the outside. Then an assistant of the dancer (usually a woman), or even the dancer himself, puts a glass of wine on the bottom of the inside perimeter of the sieve. Th"
+   }
+  ],
   "footage": [],
   "motifs": [
    "Close-up of fingers gripping the wooden rim of the sieve.",
@@ -759,8 +789,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "71 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 71,
+  "source": "73 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 73,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -772,6 +802,7 @@
    "1-2-3-4",
    "1-2-3",
    "5-6-7-8",
+   "step to the right",
    "un dos tres",
    "side side side side",
    "rock step rock step",
@@ -779,15 +810,14 @@
    "don't forget to breathe",
    "drop your shoulders",
    "keep a flat back",
-   "flexionar las rodillas",
-   "doble golpe con cada pie"
+   "flexionar las rodillas"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "full_demo",
    "warmup",
+   "full_demo",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -799,8 +829,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
-  "licensed images (3 needed)",
   "licensed reference footage",
   "notable figures",
   "two or more connections"
@@ -812,6 +840,6 @@
  "claims_verified": 6,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "3abaa489f8926d18a69fb007a9db07edbd9d09f60683692a56faab5b2b1831fb",
- "hero_checked": null
+ "input_fingerprint": "ef3108c9dee97dbb76131483e1e61968edacb06445478f21f150e5abb5b2f509",
+ "hero_checked": "pass"
 }

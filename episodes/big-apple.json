@@ -1,0 +1,851 @@
+{
+ "slug": "big-apple",
+ "name": "Big Apple",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:17Z",
+ "researched_at": "2026-11-24T22:05:20Z",
+ "qc_score": 9.65,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Energetic swing dance historian.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Big Apple"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Big Apple",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Big Apple: The Dance That Swept the Nation",
+     "This is Big Apple. 20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (H1K5M5xluZs)",
+     "Title card: Big Apple · United States · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in the early 1930s at the Big Apple Night Club in Columbia, South Carolina.",
+     "It was later popularized by university students and professional dance troupes, eventually becoming a national craze in 1937."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance was a social activity meant for group enjoyment.",
+     "It served as a 'pepper-upper' at parties and was used as a performance piece in theaters.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:\"Big Apple\" routine at Lindy on the Rocks 2024.webm (https://upload.wikimedia.org/wikipedia/commons/9/95/%22Big_Apple%22_routine_at_Lindy_on_the_Rocks_2024.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a circle with participants facing the center.",
+     "A leader calls out steps, and individual couples ('shiners') take turns performing in the center.",
+     "The dance is highly improvisational and uses 8-count patterns.",
+     "Watch for Susie Q, Truckin, Shorty George."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (H1K5M5xluZs)",
+     "Captions name each signature move as it appears",
+     "Formation: Circle formation with participants facing the center."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The Big Apple is danced to swing music.",
+     "The rhythm is fast-paced and energetic, requiring dancers to keep up with the tempo of the jazz band.",
+     "Listen for the Brass, Woodwinds, Percussion, Piano.",
+     "The pulse is 4/4.",
+     "Fast-paced, high-energy swing music characterized by a driving beat that supports vigorous, improvisational dance movements."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historically performed in social settings like juke joints, theaters, and dance studios.",
+     "No specific costume is mandated, though 1930s social attire is typical for revivals."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Frankie Manning, Betty Wood, Billy Spivey, Donald Davis, Harold 'Goo-Goo' Wiles, Frank 'Fat Sam' Boyd.",
+     "The 'Little Apple' is a variation involving fewer dancers, where participants take turns grabbing a partner to dance in the center of the circle.",
+     "The Big Apple is closely related to the Lindy Hop, Charleston, Black Bottom, and the Shag, sharing a common improvisational spirit and jazz-based movement."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Big Apple is shares music of Lindy Hop: Both dances share the same swing music and improvisational spirit.",
+     "Big Apple is shares music of Charleston: The Big Apple incorporates Charleston steps."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Apple Jacks",
+     "Shorty George",
+     "Count it: 8-count phrasing.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the high-energy circle dance that defined the swing era.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic circle formation and rhythm.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic circle formation and rhythm..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Energetic swing dance historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but flexible, with knees often bent.",
+      "High arm gestures and expressive movements; specific hand positions for moves like the Susie Q.",
+      "Active torso movement, including twisting and shifting weight."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 8-count phrasing. The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Apple Jacks",
+      "Step 2: Shorty George",
+      "Footwork from the sources: 8-count patterns; includes steps like the Susie Q, Truckin, and Shorty George.",
+      "Drill: Circle walking"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "8-count phrasing",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Basic Charleston step"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "8-count phrasing",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Clapping to the beat"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform arm gestures and torso twists while seated. · For children: Circle game where children take turns dancing in the center."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm gestures and torso twists while seated.",
+      "For children: Circle game where children take turns dancing in the center."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 8-count phrasing.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic circle formation and rhythm..",
+      "The dance was a social activity meant for group enjoyment.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Learn signature moves.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Learn signature moves..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Energetic swing dance historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but flexible, with knees often bent.",
+      "High arm gestures and expressive movements; specific hand positions for moves like the Susie Q.",
+      "Active torso movement, including twisting and shifting weight."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 8-count phrasing. The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Apple Jacks",
+      "Step 2: Shorty George",
+      "Drill: Susie Q"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "8-count phrasing",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Susie Q: A twisting footwork pattern where heels and toes scoot in a specific direction.",
+      "Truckin: A shuffle step variation with a wagging index finger.",
+      "Drill: Truckin"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "8-count phrasing",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Shorty George"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform arm gestures and torso twists while seated. · For children: Circle game where children take turns dancing in the center."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm gestures and torso twists while seated.",
+      "For children: Circle game where children take turns dancing in the center."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 8-count phrasing.",
+      "Full tempo, the whole sequence, twice. Formation: Circle formation with participants facing the center."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn signature moves..",
+      "Frankie Manning, Betty Wood, Billy Spivey, Donald Davis, Harold 'Goo-Goo' Wiles, Frank 'Fat Sam' Boyd.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform a 'shiner' sequence.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform a 'shiner' sequence..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Energetic swing dance historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but flexible, with knees often bent.",
+      "High arm gestures and expressive movements; specific hand positions for moves like the Susie Q.",
+      "Active torso movement, including twisting and shifting weight."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 8-count phrasing. The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Apple Jacks",
+      "Step 2: Shorty George",
+      "Drill: Improvising in the center"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "8-count phrasing",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Shorty George: Walking in a straight line with small steps and dramatic knee bending.",
+      "Drill: Transitioning between moves"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "8-count phrasing",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: The 'Hallelujah' finale"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform arm gestures and torso twists while seated. · For children: Circle game where children take turns dancing in the center."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm gestures and torso twists while seated.",
+      "For children: Circle game where children take turns dancing in the center."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 8-count phrasing.",
+      "Full tempo, the whole sequence, twice. Formation: Circle formation with participants facing the center."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform a 'shiner' sequence..",
+      "The Big Apple is closely related to the Lindy Hop, Charleston, Black Bottom, and the Shag, sharing a common improvisational spirit and jazz-based movement.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": null,
+  "instruments": [
+   "Brass",
+   "Woodwinds",
+   "Percussion",
+   "Piano"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "energetic",
+   "lusty",
+   "swinging"
+  ],
+  "sound_description": "Fast-paced, high-energy swing music characterized by a driving beat that supports vigorous, improvisational dance movements.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Big Apple (United States). Meter 4/4. Instruments: Brass, Woodwinds, Percussion, Piano. Mood: energetic, lusty, swinging. It should sound like this: Fast-paced, high-energy swing music characterized by a driving beat that supports vigorous, improvisational dance movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "H1K5M5xluZs",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historically performed in social settings like juke joints, theaters, and dance studios. No specific costume is mandated, though 1930s social attire is typical for revivals.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:\"Big Apple\" routine at Lindy on the Rocks 2024.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/%22Big_Apple%22_routine_at_Lindy_on_the_Rocks_2024.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Sdkb / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "1930s jazz band",
+   "Circle of dancers in a juke joint",
+   "Vintage theater posters"
+  ],
+  "costume_notes": "Historically performed in social settings like juke joints, theaters, and dance studios. No specific costume is mandated, though 1930s social attire is typical for revivals.",
+  "setting_notes": "The dance was a social activity meant for group enjoyment. It served as a 'pepper-upper' at parties and was used as a performance piece in theaters.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "8-count phrasing",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: full"
+  ],
+  "cues": [
+   "hit your butt on count 8"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "follow_along",
+   "breakdown"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Rocks",
+    "counts": "8",
+    "description": "Rocking movement starting on count 8."
+   },
+   {
+    "name": "Boogie Forwards / Drunken Sailors",
+    "counts": "1-8",
+    "description": "Stepping and boogying forward."
+   },
+   {
+    "name": "Boogie Backs",
+    "counts": "1-8",
+    "description": "Boogying backward."
+   },
+   {
+    "name": "Apple Jacks",
+    "counts": "1-8",
+    "description": "Swiveling heels side to side."
+   },
+   {
+    "name": "Gaze Afar",
+    "counts": "1-8",
+    "description": "Stylized looking gesture."
+   },
+   {
+    "name": "Suzie Q",
+    "counts": "1-8",
+    "description": "Crossing step pattern."
+   },
+   {
+    "name": "Spank the Baby",
+    "counts": "1-8",
+    "description": "Kicking and slapping step."
+   },
+   {
+    "name": "Jump Charleston",
+    "counts": "1-8",
+    "description": "Charleston steps incorporating jumps."
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Big_Apple_(dance)",
+  "https://www.wikidata.org/wiki/Q4904933",
+  "https://archive.org/details/GAT_1937111601"
+ ],
+ "claims_verified": 5,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "8faec84e9fd86cf1d97c8576b93625e4917fedf05db4fe035c381e38daadc0e4",
+ "hero_checked": "pass"
+}

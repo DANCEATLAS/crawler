@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "angelica",
  "name": "Angelica",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GR"
@@ -46,6 +46,13 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 8.1,
+  "last_researched_at": "2026-11-24T21:51:19Z",
+  "pipeline_version": "v3.3",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "The dance was performed in the context of religious festivals for Artemis Chitonea; historical records indicate it was associated with the myth of Persephone's abduction.",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -59,6 +66,30 @@
    "leventikos"
   ]
  },
- "fingerprint": "0a967a9851e1138a",
- "updated": "2026-11-21"
+ "readiness": {
+  "standard": "AR-1",
+  "have": 2,
+  "of": 6,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ]
+ },
+ "teaching_withheld": "The dance was performed in the context of religious festivals for Artemis Chitonea; historical records indicate it was associated with the myth of Persephone's abduction.",
+ "fingerprint": "698ae811d77300a2",
+ "updated": "2026-11-24"
 }

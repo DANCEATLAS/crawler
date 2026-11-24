@@ -1,0 +1,137 @@
+{
+ "youtube_id": "2ctx-ZaNxq8",
+ "slug": "attan",
+ "dance": "Attan",
+ "title": "Learn Attan In Three Easy Steps",
+ "channel": "Farhad Afghan",
+ "viewer_ratio": 4.0,
+ "analysed_at": "2026-11-24T22:26:45Z",
+ "url": "https://www.youtube.com/watch?v=2ctx-ZaNxq8",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains the structure of the dance verbally before demonstrating each step clearly from a front-facing perspective. He breaks down movements into specific step categories and practices them repeatedly with counting.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Instructor introduces himself and the dance tutorial"
+   },
+   {
+    "t": "0:14",
+    "segment": "context",
+    "note": "Explains the breakdown of steps into 7 parts with three main steps"
+   },
+   {
+    "t": "1:06",
+    "segment": "breakdown",
+    "note": "Demonstrates the first three steps"
+   },
+   {
+    "t": "1:22",
+    "segment": "breakdown",
+    "note": "Demonstrates full round turning step"
+   },
+   {
+    "t": "1:51",
+    "segment": "breakdown",
+    "note": "Demonstrates half turn step"
+   },
+   {
+    "t": "2:32",
+    "segment": "music_practice",
+    "note": "Practices all steps along with music"
+   }
+  ],
+  "counting_scheme": "1-2-3",
+  "cues": [
+   "That's it",
+   "Got it",
+   "Now turn"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 3
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "First three steps",
+    "counts": "1-2-3",
+    "description": "Basic side step movement repeated three times"
+   },
+   {
+    "name": "Full round",
+    "counts": "1-2-3",
+    "description": "Putting left foot in front of right and turning fully"
+   },
+   {
+    "name": "Half turn",
+    "counts": "1-2-3",
+    "description": "Putting right foot in front of left and turning half"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear breakdown of steps and numbers before practice",
+    "Repetition of each sequence"
+   ],
+   "what_hinders": [
+    "Camera angle and framing make full footwork hard to see at times"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:07",
+    "text": "Today I'm going to show you how to do Attan."
+   },
+   {
+    "t": "0:43",
+    "text": "All you have to do is just concentrate on what I'm doing."
+   },
+   {
+    "t": "3:58",
+    "text": "I hope this video is workable for you people."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Instructor talking to camera sitting down",
+    "viewpoint": "front, unknown if mirrored",
+    "cannot_infer": "footwork",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 106,
+    "end_s": 120,
+    "topic": "movement",
+    "observation": "Instructor demonstrating step one moving arms and feet",
+    "viewpoint": "front, unknown if mirrored",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down the tutorial into specific numerical step categories and repetition counts upfront before execution."
+ },
+ "attempts": 2
+}

@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.15 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; posture, arms and hands; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior member of a laer with deep knowledge of the Pellissier family history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Picnic That Built a Nation's Dance
 NARRATION: This is Volkspele. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (agCCmJo8CLc)
 ON SCREEN: Title card: Volkspele · South Africa · 20th century
 MUSIC: theme (30 s)
 
@@ -22,7 +22,7 @@ NARRATION: Volkspele was the brainchild of Dr. SH Pellissier, who was inspired b
 NARRATION: He introduced the first translated dances at a Boshof Sunday School picnic in 1914.
 NARRATION: The movement expanded nationwide with the support of the Reddingsdaadbond, an organization created to assist Afrikaners after the Anglo-Boer War.
 ON SCREEN: Map: South Africa · Africa
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -37,7 +37,7 @@ NARRATION: The dance is performed by groups called laers.
 NARRATION: It involves both singing and movement, categorized into 'folk-games'.
 NARRATION: Participation is divided by age groups, with juniors in school and seniors out of school.
 NARRATION: Watch for Volkspele.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (agCCmJo8CLc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers organize into groups known as laers and participate in large gatherings called saamtrekke.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -55,10 +55,9 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Dancers wear volkspeledrag, based on 19th-century Voortrekker pioneer dress.
 NARRATION: While the style is uniform nationwide, each laer uses specific colors for dresses and waistcoats, which are decorated with embroidered indigenous flowers.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 5 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Dr. SH Pellissier is the founder and creator of the tradition.
@@ -293,8 +292,8 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear volkspeledrag, based on 19th-century Voortrekker pioneer dress. While the style is uniform nationwide, each laer uses specific colors for dresses and waistcoats, which are decorated with embroidered indigenous flowers.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
-Images: 0 licensed
+Hero video: {'youtube_id': 'agCCmJo8CLc', 'checked_by_vision_model': True, 'title': 'Volkspele Malmesbury 2016'}
+Images: 5 licensed — Filmdiens, Dept. van Onderwys, Kuns en Wetenskap / Wikimedia Commons / Public domain (Public domain); Cape Argus / Wikimedia Commons / Public domain (Public domain); Katrine Harries / Wikimedia Commons / Public domain (Public domain); Katrine Harries / Wikimedia Commons / Public domain (Public domain); Cape Argus / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Voortrekker-style pioneer dresses, Embroidered indigenous flowers, Large outdoor picnic settings, Groups of youth in standardized waistcoats
 Costume notes: Dancers wear volkspeledrag, based on 19th-century Voortrekker pioneer dress. While the style is uniform nationwide, each laer uses specific colors for dresses and waistcoats, which are decorated with embroidered indigenous flowers.
@@ -303,9 +302,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Volkspele; https://www.wikidata.org/wiki/Q7940288

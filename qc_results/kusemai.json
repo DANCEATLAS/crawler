@@ -1,0 +1,118 @@
+{
+ "slug": "kusemai",
+ "qc_at": "2026-11-24T22:10:55Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kusemai"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "87"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "191"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 14th-century Muromachi period, kusemai performers—often young boys or men"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "356"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2208"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Japan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 5,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "An excellent, highly accurate profile of a historical performance art. It correctly identifies the limitations of the source material regarding specific dance techniques, maintaining academic integrity. The teaching value is low only because the dance is extinct, which the profile transparently acknowledges."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.25"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-24T21:13:50Z"
+}

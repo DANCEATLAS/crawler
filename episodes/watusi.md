@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Upbeat 1960s dance archivist and instructor.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The 1960s Craze That Pushed Arms into Motion
 NARRATION: This is Watusi. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (TZdvihA7Y1A)
 ON SCREEN: Title card: Watusi · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The Watusi is danced solo with the performer standing almost stationa
 NARRATION: The dancer may execute one or two small rhythmic steps forward and backward.
 NARRATION: The arms are held nearly straight with flat, aligned palms, moving alternately up and down in a vertical trajectory.
 NARRATION: Watch for Vertical Arm Pump.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (TZdvihA7Y1A)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo dancer staying largely in place or moving within a small personal space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance was performed in casual party, dance hall, and beach environments. In American surf and beach culture during the 1960s, dancers performed outdoors on sand, incorporating beach aesthetic context into their movement styling.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'TZdvihA7Y1A', 'checked_by_vision_model': True, 'title': "DANCE CRAZES OF THE '60S (Compiled by Toni Basil)"}
 Images: 0 licensed
 Footage: Nudie Cuties 370 — https://archive.org/details/nc-370
 Motifs: 1960s vinyl records spinning, Dancers on a beach scene, Close-ups of vertical arm movements
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
+Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
+Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (3): https://en.wikipedia.org/wiki/Watusi_(dance); https://www.wikidata.org/wiki/Q7773761; https://es.wikipedia.org/wiki/Watusi

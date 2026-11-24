@@ -1,0 +1,137 @@
+{
+ "youtube_id": "Z0oHxyensok",
+ "slug": "sharo",
+ "dance": "sharo",
+ "title": "How to dance The Charleston from the 1920s",
+ "channel": "Sharon Davis",
+ "viewer_ratio": 4.0,
+ "analysed_at": "2026-11-24T22:26:33Z",
+ "url": "https://www.youtube.com/watch?v=Z0oHxyensok",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher demonstrates solo jazz Charleston steps with verbal counting and on-screen text instructions. She breaks down footwork clearly from multiple angles including front, back, and foot-focused closeups.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:04",
+    "segment": "intro",
+    "note": "Title screen for Authentic Jazz Dance Steps: The Charleston."
+   },
+   {
+    "t": "0:08",
+    "segment": "full_demo",
+    "note": "Demonstration of the Charleston without twists."
+   },
+   {
+    "t": "0:23",
+    "segment": "breakdown",
+    "note": "Footwork demonstration and breakdown from the back angle."
+   },
+   {
+    "t": "0:44",
+    "segment": "breakdown",
+    "note": "Demonstrating timing of twists and weight placement."
+   },
+   {
+    "t": "1:13",
+    "segment": "slow_practice",
+    "note": "Practicing weight shift from one foot to another with twists."
+   },
+   {
+    "t": "1:27",
+    "segment": "full_demo",
+    "note": "Putting steps together from the front and back angles."
+   },
+   {
+    "t": "1:52",
+    "segment": "music_practice",
+    "note": "Practicing at a faster tempo with foot closeups."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "Touch and step",
+   "Weight forward on your toes"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "The Charleston",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Basic Charleston step combining touches, steps, and optional twists."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear camera angles focusing on footwork",
+    "On-screen text summaries complementing verbal instructions"
+   ],
+   "what_hinders": [
+    "Lack of detailed verbal breakdown for every step transition"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:13",
+    "text": "In the twenties dancers would start on either side"
+   },
+   {
+    "t": "0:16",
+    "text": "But modern dancers usually start with the right foot like this"
+   },
+   {
+    "t": "0:54",
+    "text": "Weight forward on your toes"
+   },
+   {
+    "t": "1:13",
+    "text": "Practice shifting your weight from one foot to the other with the twists"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 8,
+    "end_s": 22,
+    "topic": "movement",
+    "observation": "Teacher demonstrates basic Charleston facing forward with arm and leg movements.",
+    "viewpoint": "front, unknown",
+    "cannot_infer": "exact weight transfer details due to distance",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 23,
+    "end_s": 29,
+    "topic": "movement",
+    "observation": "Close-up of feet executing touch and step movements.",
+    "viewpoint": "overhead, unknown",
+    "cannot_infer": "upper body posture",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using on-screen text overlays to guide viewer attention on historical context and technique tips simultaneously while dancing."
+ },
+ "attempts": 1
+}

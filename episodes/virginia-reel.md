@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.25 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic 19th-century 'Master of Ceremonies' who emphasizes both energy and etiquette.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Great American Mixer
 NARRATION: This is Virginia reel. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (gnLEnf-6S_U)
 ON SCREEN: Title card: Virginia reel · USA · 19th century
 MUSIC: theme (30 s)
 
@@ -22,7 +22,7 @@ NARRATION: The dance dates to the 17th century and is generally considered an En
 NARRATION: It evolved from the English dance 'Sir Roger de Coverley,' which was brought to Virginia by colonists.
 NARRATION: In America, it reached its zenith of popularity between 1830 and 1890, appearing at prestigious events like the governor's inauguration balls in Hartford, Connecticut.
 ON SCREEN: Map: USA · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -38,7 +38,7 @@ NARRATION: Dancers form two lines of 5-8 couples facing each other.
 NARRATION: The 'head' lady and 'foot' man perform figures (forward and back, two-hand turn, do-si-do), followed by the head man and foot lady.
 NARRATION: The head couple then 'reels' down the line: they swing each other by the right arm, then swing the next person in the opposite line by the left arm.
 NARRATION: Watch for The Reel, Do-si-do.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (gnLEnf-6S_U)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two facing lines (longways set); movement occurs in the 'aisle' between lines and behind the lines during the march
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -57,7 +57,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Historically performed in ballrooms and community halls, the dance was a 'beautiful expression of refined jollity.' In the 19th century, it was associated with formal attire at inauguration balls.
 NARRATION: In modern Finland, it is performed by students in formal evening wear during the 'Vanhojen tanssit' proms.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Forward and back (4 steps each way)
 NARRATION: Two-hand turn (join hands and rotate once)
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -110,7 +110,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Rhythm pattern: Continuous eighth notes with strong downbeats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,10 +122,10 @@ NARRATION: Step 1: Forward and back (4 steps each way)
 NARRATION: Step 2: Two-hand turn (join hands and rotate once)
 NARRATION: Footwork from the sources: Walking steps or a light 'bounce' step; sashay (side-slip and close) for the center travel
 NARRATION: Drill: Walking 4 steps in and 4 steps out in unison
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Do-si-do (pass right shoulders, go back-to-back)
@@ -133,7 +133,7 @@ NARRATION: Step 4: Sashay/Chasse (side-slip down the center and back)
 NARRATION: Drill: Practicing the two-hand turn with a partner
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -152,7 +152,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Dancers sit in two rows; perform 'forward and back' by leaning and 'turns' by circling arms with a partner. · For children: The 'Dancing Game' version: use simplified lyrics like 'Heel and toe, away we go' to cue movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -183,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Rhythm pattern: Continuous eighth notes with strong downbeats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -194,10 +194,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Reel (alternate arm swings with partner and line members)
 NARRATION: Step 2: The March (turn outward and file to the foot)
 NARRATION: Drill: Side-slip (sashay) down the center for 8 counts
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: The Arch (head couple forms a gate for others to pass through)
@@ -207,7 +207,7 @@ NARRATION: Drill: Peeling off the line to lead the march
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -226,7 +226,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Dancers sit in two rows; perform 'forward and back' by leaning and 'turns' by circling arms with a partner. · For children: The 'Dancing Game' version: use simplified lyrics like 'Heel and toe, away we go' to cue movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two facing lines (longways set); movement occurs in the 'aisle' between lines and behind the lines during the march
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -257,7 +257,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8. The meter is 2/4.
 NARRATION: Rhythm pattern: Continuous eighth notes with strong downbeats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -268,10 +268,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The March (turn outward and file to the foot)
 NARRATION: Step 2: The Arch (head couple forms a gate for others to pass through)
 NARRATION: Drill: Right-arm swing with partner (1.5 turns)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Reel: Head couple links right arms for a 1.5 turn, then left arm to the next person in the opposite line.
@@ -280,7 +280,7 @@ NARRATION: Drill: Left-arm swing with a 'neutral' dancer
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -299,7 +299,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Dancers sit in two rows; perform 'forward and back' by leaning and 'turns' by circling arms with a partner. · For children: The 'Dancing Game' version: use simplified lyrics like 'Heel and toe, away we go' to cue movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two facing lines (longways set); movement occurs in the 'aisle' between lines and behind the lines during the march
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -328,8 +328,8 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically performed in ballrooms and community halls, the dance was a 'beautiful expression of refined jollity.' In the 19th century, it was associated with formal attire at inauguration balls. In modern Finland, it is performed by students in formal evening wear during the 'Vanhojen tanssit' proms.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
-Images: 0 licensed
+Hero video: {'youtube_id': 'gnLEnf-6S_U', 'checked_by_vision_model': True, 'title': 'Virginia Reel'}
+Images: 2 licensed — Francis Stewart / Wikimedia Commons / Public domain (Public domain); John Doyle / Wikimedia Commons / CC0 (CC0)
 Footage: File:Ceili dance (Alexandria, VA, 2019).webm — https://upload.wikimedia.org/wikipedia/commons/7/70/Ceili_dance_%28Alexandria%2C_VA%2C_2019%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: The 'Aisle' between the two lines, The interlocking elbows of the reel, The tunnel formed by the archway of hands
 Costume notes: Historically performed in ballrooms and community halls, the dance was a 'beautiful expression of refined jollity.' In the 19th century, it was associated with formal attire at inauguration balls. In modern Finland, it is performed by students in formal evening wear during the 'Vanhojen tanssit' proms.
@@ -338,9 +338,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, overhead; tempo progression: slow → full
+Cues: right hand to your partner left hand to your friend; go-see-do with your partner; reeling the set; peeling the banana
 
 Sources (5): https://en.wikipedia.org/wiki/Virginia_reel_(dance); https://www.wikidata.org/wiki/Q7934709; https://archive.org/details/SongsOfTheChildWorld; https://archive.org/details/danceman093; https://archive.org/details/danceman186

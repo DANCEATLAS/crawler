@@ -3,31 +3,31 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 45,
+  "read": 51,
   "next": 6,
-  "waiting": 23,
+  "waiting": 17,
   "thin": 3,
   "no_sources": 0,
   "unanswered": 3,
   "owner_topics": 14,
   "owner_read": 12,
-  "papers": 19,
-  "papers_shown": 19,
-  "findings_checked": 197,
+  "papers": 23,
+  "papers_shown": 23,
+  "findings_checked": 225,
   "searches": 50,
-  "searches_asked": 12
+  "searches_asked": 13
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "mastery_learning",
-  "growth_mindset",
-  "flow",
-  "play",
-  "overlearning",
-  "retrieval_practice"
+  "moving_together",
+  "older_learners",
+  "children",
+  "dance_across_life",
+  "embodied_cognition",
+  "gamification"
  ],
  "groups": [
   {
@@ -1254,18 +1254,81 @@
     {
      "key": "mastery_learning",
      "name": "mastery learning",
-     "state": "next",
+     "state": "read",
      "tags": [
       "repetition",
       "progression"
+     ],
+     "on": "2026-11-24",
+     "principle": "Students achieve high competence when they master prerequisite knowledge through repeated practice and personalized time before advancing to new material.",
+     "for_the_teacher": [
+      "Ensure learners reach a high level of competence in a movement before moving on to new material.",
+      "Provide repeated opportunities and additional support for learners who do not achieve mastery initially."
+     ],
+     "findings": [
+      {
+       "finding": "Mastery learning requires students to reach a high level of competence before moving forward.",
+       "quote": "Mastery learning is an instructional strategy and educational philosophy that emphasizes the importance of students achieving a high level of competence",
+       "source": "https://en.wikipedia.org/wiki/Mastery_learning"
+      },
+      {
+       "finding": "Students who do not achieve mastery receive additional support and repeated assessments until they succeed.",
+       "quote": "If a student does not initially achieve mastery, they receive additional instruction and support until they do.",
+       "source": "https://en.wikipedia.org/wiki/Mastery_learning"
+      },
+      {
+       "finding": "Tailoring instruction to the individual time needed for each learner contrasts with traditional fixed-time models.",
+       "quote": "Mastery-based learning methods emphasize that instruction should be tailored to the individual time needed for each student to master the same content.",
+       "source": "https://en.wikipedia.org/wiki/Mastery_learning"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mastery_learning",
+       "title": "Mastery learning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "overlearning",
      "name": "overlearning",
-     "state": "next",
+     "state": "read",
      "tags": [
       "repetition"
+     ],
+     "on": "2026-11-24",
+     "principle": "Practicing a skill beyond the point of initial mastery can improve short-term retention, though its long-term benefits for physical tasks may vary.",
+     "for_the_teacher": [
+      "Encourage students to continue practicing a movement sequence even after they have performed it correctly once.",
+      "Incorporate extra repetitions of a physical movement to help solidify the skill for short-term retention."
+     ],
+     "when_it_does_not_apply": "The effects of overlearning tend to be short-lived, and it may be an inefficient method for long-term retention compared to other strategies.",
+     "findings": [
+      {
+       "finding": "Overlearning is defined as continuing to practice a skill after it has been mastered.",
+       "quote": "Overlearning refers to practicing newly acquired skills beyond the point of initial mastery.",
+       "source": "https://en.wikipedia.org/wiki/Overlearning"
+      },
+      {
+       "finding": "Physical tasks show improved retention when practiced beyond the point of initial mastery.",
+       "quote": "The amount of overlearning affected retention: more overlearning led to more retention on both types of task.",
+       "source": "https://en.wikipedia.org/wiki/Overlearning"
+      },
+      {
+       "finding": "Unlike cognitive tasks, physical tasks may show performance gains during the time between practice sessions.",
+       "quote": "Whereas participants overlearning physical tasks increased in ability during the retention interval, participants who overlearned cognitive tasks decreased in recall ability over time.",
+       "source": "https://en.wikipedia.org/wiki/Overlearning"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Overlearning",
+       "title": "Overlearning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     }
    ]
@@ -1688,16 +1751,53 @@
     {
      "key": "flow",
      "name": "flow",
-     "state": "next",
+     "state": "read",
      "tags": [
       "feel_and_groove",
       "progression"
+     ],
+     "on": "2026-11-24",
+     "principle": "Flow is an intrinsically rewarding state of focused concentration achieved when the challenge of a task matches a person's skill level.",
+     "for_the_teacher": [
+      "Match the complexity of the movement to the learner's skill level to maintain an optimal balance of challenge."
+     ],
+     "findings": [
+      {
+       "finding": "Flow is characterized by complete absorption and a balance between skill and task challenge.",
+       "quote": "In essence, flow is characterized by the complete absorption in what one does, and a resulting transformation in one's sense of time. Flow is the bonding together of action and consciousness; the state of finding a balance between a skill and how challenging that task is.",
+       "source": "https://en.wikipedia.org/wiki/Flow_(psychology)"
+      },
+      {
+       "finding": "Optimal challenge and perceived capability are core antecedents of the flow state.",
+       "quote": "Optimal challenge: A perceived capability to meet the challenging demands of the situation",
+       "source": "https://en.wikipedia.org/wiki/Flow_(psychology)"
+      },
+      {
+       "finding": "All three emotional regulation strategies can enhance flow states in performers.",
+       "quote": "However, all three strategies enhanced flow states.",
+       "source": "https://europepmc.org/article/MED/37700880"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Flow_(psychology)",
+       "title": "Flow (psychology)",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/37700880",
+       "title": "The Effects of Emotional Labor on Work Strain and Nonwork Strain Among Dancers: A Person-Centered Approach",
+       "authors": "Liu X, He T, Yu S, Duan J, Gao R.",
+       "year": "2023",
+       "journal": "Psychology research and behavior management"
+      }
      ]
     },
     {
      "key": "embodied_cognition",
      "name": "embodied cognition",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "feel_and_groove",
       "culture_and_meaning"
@@ -2204,25 +2304,116 @@
     {
      "key": "growth_mindset",
      "name": "growth mindset",
-     "state": "next",
+     "state": "read",
      "tags": [
       "normalise_mistakes",
       "praise_and_expectancy"
+     ],
+     "on": "2026-11-24",
+     "principle": "Believing that abilities can be developed through effort helps learners embrace challenges, learn from mistakes, and stay engaged in skill acquisition.",
+     "for_the_teacher": [
+      "Praise learners specifically for their effort, persistence, and the strategies they use rather than labeling them as naturally talented.",
+      "Frame difficult movements and challenges as fun, exciting opportunities for the brain rather than tests of innate ability.",
+      "Use the word 'yet' when a learner feels they cannot do a step, reinforcing that their abilities are continually developing."
+     ],
+     "findings": [
+      {
+       "finding": "People with a growth mindset view intelligence and abilities as qualities that can be developed over time through learning and effort.",
+       "quote": "Those with a growth mindset believe that \"intelligence can be developed\", and their abilities can be increased by learning.",
+       "source": "https://en.wikipedia.org/wiki/Mindset"
+      },
+      {
+       "finding": "A growth mindset is strongly associated with higher satisfaction in physical and athletic activities.",
+       "quote": "growth mindset ( r = 0.501) showed the strongest association with sport satisfaction.",
+       "source": "https://europepmc.org/article/MED/42347446"
+      },
+      {
+       "finding": "Praising learners for their process and effort yields better long-term benefits than simply telling them they are smart.",
+       "quote": "Praising students for the process they have engaged in—the effort they applied, the strategies they used, the choices they made, the persistence they displayed, and so on—yields more long-term benefits",
+       "source": "https://en.wikipedia.org/wiki/Mindset"
+      },
+      {
+       "finding": "Portraying challenges as fun and exciting makes learning tasks more engaging for the brain.",
+       "quote": "The teacher should portray challenges as fun and exciting, while portraying easy tasks as boring and less useful for the brain",
+       "source": "https://en.wikipedia.org/wiki/Mindset"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mindset",
+       "title": "Mindset",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42347446",
+       "title": "Sport Satisfaction and Psychological Well-Being in Collegiate Athletes: The Role of Upbringing, Athletic Status, and Adaptive Psychological Attributes",
+       "authors": "Teriba AA, Mitic RR, Ellingson KM, Peterson AM, Cooper AM, Lenway AC, Brown CM, Rott H, Morin JJ.",
+       "year": "2026",
+       "journal": "Sports (Basel, Switzerland)"
+      }
      ]
     },
     {
      "key": "play",
      "name": "play",
-     "state": "next",
+     "state": "read",
      "tags": [
       "fun_and_energy",
       "play_and_variation"
+     ],
+     "on": "2026-11-24",
+     "principle": "Play is an intrinsically motivated, flexible activity that promotes learning, adaptive problem-solving, and well-being across all life stages.",
+     "for_the_teacher": [
+      "Encourage learners to experiment with different ways to execute a movement rather than focusing on a single 'correct' version.",
+      "Incorporate creative play tasks where learners use their imagination to adapt a movement or solve a physical challenge.",
+      "Frame practice sessions as an opportunity for exploration and discovery to maintain intrinsic motivation."
+     ],
+     "when_it_does_not_apply": "High levels of structured learning support in early childhood education have been observed to have a negative association with certain dimensions of children's playfulness.",
+     "findings": [
+      {
+       "finding": "Playfulness is linked to curiosity and the capacity to learn freely in humans.",
+       "quote": "The theory of neoteny assumes that adult animals that are higher on the phylogenetic scale retain juvenile characteristics for greater periods of their lifetime. This hypothesis would account for the continuation of curiosity, learning and playfulness in humans",
+       "source": "https://europepmc.org/article/MED/1853297"
+      },
+      {
+       "finding": "Engaging in play-based activities helps individuals develop innovative solutions and transfer skills like flexibility into their daily lives.",
+       "quote": "Professional dramaturgical processes of storytelling, reminiscence, and playfulness were key elements in participants' generative learning. They augmented older adults' and university students' ability to understand their situations and try innovative solutions.",
+       "source": "https://europepmc.org/article/MED/26933005"
+      },
+      {
+       "finding": "Play promotes cognitive flexibility and the ability to discover multiple ways to achieve a desired result.",
+       "quote": "Findings in neuroscience suggest that play promotes flexibility of mind, including adaptive practices such as discovering multiple ways to achieve a desired result, or creative ways to improve or reorganize a given situation.",
+       "source": "https://en.wikipedia.org/wiki/Play_(activity)"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/1853297",
+       "title": "Dementia praecox as a failure of neoteny",
+       "authors": "Bemporad JR.",
+       "year": "1991",
+       "journal": "Theoretical medicine"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/26933005",
+       "title": "Translating Knowledge: Promoting Health Through Intergenerational Community Arts Programming",
+       "authors": "Anderson S, Fast J, Keating N, Eales J, Chivers S, Barnet D.",
+       "year": "2017",
+       "journal": "Health promotion practice"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Play_(activity)",
+       "title": "Play (activity)",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "moving_together",
      "name": "moving together",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "social_connection"
      ]
@@ -2230,7 +2421,7 @@
     {
      "key": "gamification",
      "name": "gamification",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "social_connection",
       "reason_to_return"
@@ -2730,16 +2921,49 @@
     {
      "key": "retrieval_practice",
      "name": "retrieval practice",
-     "state": "next",
+     "state": "read",
      "tags": [
       "self_check",
       "recap_and_practice_plan"
+     ],
+     "on": "2026-11-24",
+     "principle": "Actively recalling information from memory is more effective for long-term retention than passively reviewing or repeating material.",
+     "for_the_teacher": [
+      "Ask the learner to perform a dance phrase from memory before showing them the video again.",
+      "Encourage the learner to attempt a difficult step without visual aids before providing a demonstration.",
+      "Incorporate 'test' moments where the learner must recall the sequence of steps without the teacher's guidance.",
+      "Provide feedback only after the learner has made an active attempt to recall and execute the movement."
+     ],
+     "findings": [
+      {
+       "finding": "Active attempts to recall information are more effective for learning than passive repetition.",
+       "quote": "Active repetition is very much more effective than passive repetition. ... there are two ways of introducing further repetitions. We may re-read this list: this is passive repetition.",
+       "source": "https://en.wikipedia.org/wiki/Testing_effect"
+      },
+      {
+       "finding": "Effortful retrieval processes lead to better long-term memory than easier, passive methods.",
+       "quote": "difficult but successful retrievals are better for memory than easier successful retrievals",
+       "source": "https://en.wikipedia.org/wiki/Testing_effect"
+      },
+      {
+       "finding": "Retrieval practice helps identify errors and misconceptions while improving long-term retention.",
+       "quote": "Using retrieval practices also produces less forgetting than studying and restudying while helping to identify misconceptions and errors with effects lasting years.",
+       "source": "https://en.wikipedia.org/wiki/Testing_effect"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Testing_effect",
+       "title": "Testing effect",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "older_learners",
      "name": "older learners",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "body_adaptation"
      ]
@@ -2747,7 +2971,7 @@
     {
      "key": "children",
      "name": "children",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "body_adaptation",
       "play_and_variation"
@@ -2756,7 +2980,7 @@
     {
      "key": "dance_across_life",
      "name": "dance across life",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "body_adaptation",
       "reason_to_return"
@@ -2911,6 +3135,177 @@
   }
  ],
  "papers": [
+  {
+   "key": "paper-med-42172216",
+   "title": "Peer-mediated instruction improves acquisition of complex wrestling techniques in school physical education",
+   "on": "2026-11-24",
+   "tags": [
+    "teach_back",
+    "social_connection"
+   ],
+   "authors": "Gürsoy S, Zekioglu A.",
+   "year": "2026",
+   "journal": "PloS one",
+   "url": "https://europepmc.org/article/MED/42172216",
+   "cited_by": 0,
+   "principle": "Peer-mediated instruction can be more effective than direct instruction for learning complex physical techniques that require high levels of coordination.",
+   "for_the_teacher": [
+    "Encourage learners to explain or demonstrate techniques to a partner to reinforce their own understanding.",
+    "Incorporate collaborative tasks where students provide feedback to one another on complex movement sequences."
+   ],
+   "when_it_does_not_apply": "The study focused on middle school students in a physical education setting; results may vary for other age groups or non-educational environments.",
+   "findings": [
+    {
+     "finding": "Peer-mediated instruction is particularly beneficial for mastering complex physical movements.",
+     "quote": "These results suggest that peer-mediated instruction may be more effective than direct instruction for techniques that demand higher perceptual-motor coordination and involve greater task complexity.",
+     "source": "https://europepmc.org/article/MED/42172216"
+    },
+    {
+     "finding": "Peer-assisted learning promotes both skill acquisition and collaborative engagement in physical education settings.",
+     "quote": "The study adds to the sport pedagogy literature by demonstrating that peer-assisted learning can support skill development and collaborative participation in school-based physical education.",
+     "source": "https://europepmc.org/article/MED/42172216"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/42172216",
+     "title": "Peer-mediated instruction improves acquisition of complex wrestling techniques in school physical education",
+     "authors": "Gürsoy S, Zekioglu A.",
+     "year": "2026",
+     "journal": "PloS one"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-42465972",
+   "title": "How do students learn to move? A systematic review of collaborative and game-based pedagogies in physical education",
+   "on": "2026-11-24",
+   "tags": [
+    "social_connection",
+    "play_and_variation",
+    "teach_back"
+   ],
+   "authors": "Saha S, İlbak İ, Abdi E, Deutsch J, Katanić B, Choudhary S, Choudhary PK, de Souza LN, da Silva Júnior RR, Tornóczky GJ.",
+   "year": "2026",
+   "journal": "Frontiers in sports and active living",
+   "url": "https://europepmc.org/article/MED/42465972",
+   "cited_by": 0,
+   "principle": "Collaborative and game-based instructional models can effectively support movement learning when the teaching design is specifically aligned with the desired movement outcomes.",
+   "for_the_teacher": [
+    "Incorporate peer-teaching activities where students explain or demonstrate movements to one another to foster collaborative learning.",
+    "Use game-based structures or challenges to practice specific technical skills rather than relying solely on repetitive drills.",
+    "Ensure that the chosen game or collaborative activity is directly aligned with the specific movement skill you want the student to master."
+   ],
+   "when_it_does_not_apply": "The effectiveness of these approaches varies due to heterogeneity in study designs, participant ages, and outcome measures, meaning results are not universally consistent.",
+   "findings": [
+    {
+     "finding": "Collaborative and game-based teaching methods are viable approaches for improving movement skills in educational settings.",
+     "quote": "Collaborative and game-based pedagogies appear pedagogically viable in PE, particularly when instructional design aligns with targeted movement outcomes.",
+     "source": "https://europepmc.org/article/MED/42465972"
+    },
+    {
+     "finding": "A variety of instructional models, including peer teaching and game-based learning, have been used to foster motor competence.",
+     "quote": "Pedagogical models included cooperative learning, peer teaching, Team Games Tournament, exergame-based learning, and structured game-based movement models",
+     "source": "https://europepmc.org/article/MED/42465972"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/42465972",
+     "title": "How do students learn to move? A systematic review of collaborative and game-based pedagogies in physical education",
+     "authors": "Saha S, İlbak İ, Abdi E, Deutsch J, Katanić B, Choudhary S, Choudhary PK, de Souza LN, da Silva Júnior RR, Tornóczky GJ.",
+     "year": "2026",
+     "journal": "Frontiers in sports and active living"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-37997820",
+   "title": "Examining Single Session Peer-Teaching Instructional Approaches on Pre-Service Physical Education Teachers' Throwing Techniques",
+   "on": "2026-11-24",
+   "tags": [
+    "self_check",
+    "teach_back"
+   ],
+   "authors": "Beseler B, Plumb MS, Spittle M, Johnson NF, Harvey JT, Mesagno C.",
+   "year": "2024",
+   "journal": "Perceptual and motor skills",
+   "url": "https://europepmc.org/article/MED/37997820",
+   "cited_by": 1,
+   "principle": "Using video analysis technology alongside peer-teaching can significantly accelerate the acquisition of new motor skills.",
+   "for_the_teacher": [
+    "Provide a feature that allows learners to record themselves and review their movement immediately after a practice attempt.",
+    "Encourage learners to analyze their own movement or a partner's movement to improve their diagnostic skills."
+   ],
+   "findings": [
+    {
+     "finding": "Video analysis feedback during practice sessions leads to faster improvement in motor skill performance.",
+     "quote": "A single 20-minute session of peer teaching with video analysis feedback during practice led to rapid enhancements in non-dominant hand overarm throwing skills.",
+     "source": "https://europepmc.org/article/MED/37997820"
+    },
+    {
+     "finding": "Peer-teaching interventions are effective for improving both technical performance and the ability to diagnose movement.",
+     "quote": "Participants in both the VAG and VG groups reported that their respective interventions improved their throwing and Qualitative Movement Diagnosis (QMD) skills.",
+     "source": "https://europepmc.org/article/MED/37997820"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/37997820",
+     "title": "Examining Single Session Peer-Teaching Instructional Approaches on Pre-Service Physical Education Teachers' Throwing Techniques",
+     "authors": "Beseler B, Plumb MS, Spittle M, Johnson NF, Harvey JT, Mesagno C.",
+     "year": "2024",
+     "journal": "Perceptual and motor skills"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-25741309",
+   "title": "The effects of formalized and trained non-reciprocal peer teaching on psychosocial, behavioral, pedagogical, and motor learning outcomes in physical education",
+   "on": "2026-11-24",
+   "tags": [
+    "teach_back",
+    "method_made_visible"
+   ],
+   "authors": "Whipp PR, Jackson B, Dimmock JA, Soh J.",
+   "year": "2015",
+   "journal": "Frontiers in psychology",
+   "url": "https://europepmc.org/article/MED/25741309",
+   "cited_by": 3,
+   "principle": "Providing peer teachers with formal training and structured resources significantly improves the motor performance and learning engagement of their students.",
+   "for_the_teacher": [
+    "Provide learners with structured resources and clear pedagogical frameworks if they are asked to teach or demonstrate steps to others.",
+    "Ensure that peer-led practice sessions include specific, actionable feedback rather than just general observation.",
+    "Structure practice time clearly to maximize the amount of time students spend actively performing the movements."
+   ],
+   "when_it_does_not_apply": "The study focused specifically on high school students in a physical education setting using a tactical games approach.",
+   "findings": [
+    {
+     "finding": "Trained peer teachers facilitate better motor performance in their students compared to untrained peers.",
+     "quote": "the T-PT program significantly enhanced in-game performance actions and academic learning time among student recipients.",
+     "source": "https://europepmc.org/article/MED/25741309"
+    },
+    {
+     "finding": "Formalized training enables peer teachers to provide more effective feedback and better-structured practice sessions.",
+     "quote": "Those in the T-PT also provided greater levels of feedback and structured learning time, as well as reporting more positive feelings about peer teaching",
+     "source": "https://europepmc.org/article/MED/25741309"
+    },
+    {
+     "finding": "Structured support for teachers leads to a more positive learning environment with fewer obstacles for students.",
+     "quote": "fewer perceived barriers to accessing learning outcomes. These findings show that non-reciprocal peer-teachers who receive formalized support through training and tactical games approach-based teaching resources can enhance behavioral",
+     "source": "https://europepmc.org/article/MED/25741309"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/25741309",
+     "title": "The effects of formalized and trained non-reciprocal peer teaching on psychosocial, behavioral, pedagogical, and motor learning outcomes in physical education",
+     "authors": "Whipp PR, Jackson B, Dimmock JA, Soh J.",
+     "year": "2015",
+     "journal": "Frontiers in psychology"
+    }
+   ]
+  },
   {
    "key": "paper-med-22705939",
    "title": "Mindful movement program for older breast cancer survivors: a pilot study",
@@ -3740,6 +4135,6 @@
    ]
   }
  ],
- "fingerprint": "19ebb41630b81258",
+ "fingerprint": "10cb225dfb3c3997",
  "updated": "2026-11-24"
 }

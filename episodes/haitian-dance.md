@@ -115,9 +115,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: count the Mostly duple (2/4 or 4/4), with polyrhythmic layering in Vodou music bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Haiti; https://www.wikidata.org/wiki/Q125268369

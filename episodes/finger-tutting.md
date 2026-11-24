@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-2-3-4-5-6-7-8
-Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 3
+Demonstration: views used by most teachers: front, overhead; tempo progression: slow → full; repetitions per step: about 3
 Cues: make an l; close the box; make a little heart; make these two touch at the top; make it nice make it neat; make sure you keep your thumbs connected
 Common mistakes the studied teachers name: trying to do finger tutting with tense or stiff hands
 

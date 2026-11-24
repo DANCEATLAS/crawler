@@ -1,0 +1,824 @@
+{
+ "slug": "suscia",
+ "name": "Suscia",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:18Z",
+ "researched_at": "2026-11-24T20:36:00Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic regional culture bearer from Tocantins who emphasizes joy, community connection, and rhythmic precision.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Suscia",
+   "Sussa",
+   "Suça",
+   "Súcia",
+   "Sussia"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Suscia",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Ant Farm Dance of Tocantins",
+     "This is Suscia. 18th to 19th century origins."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Suscia · Brazil · 18th to 19th century origins"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Suscia originated among Afro-Brazilian communities in Tocantins, with debates surrounding whether it was created by enslaved people working for gold miners or within quilombos—settlements established by escaped slaves.",
+     "The exact historic origin remains contested, and the name varies across communities as Sussa, Suça, Súcia, or Sussia."
+    ],
+    "on_screen": [
+     "Map: Brazil · South America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is primarily performed during religious celebrations, particularly the monthlong festival of the Festa do Divino Espírito Santo.",
+     "Despite its sensual nature and songs centered on flirting, the local church supports and encourages the tradition as an integral piece of regional culture.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a large circle.",
+     "One male and one female dancer step into the center, hopping in circles in close proximity to one another.",
+     "Members of the outer circle clap, sing short ditties, and beat drums.",
+     "Watch for Jiquitaia Scratch, Tap-In Swap."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Large outer standing ring enclosing a tight central space where one couple dances."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for Suscia relies strictly on non-electric, acoustic instrumentation.",
+     "The musical accompaniment consists of vocals, clapping, and homemade wooden drums created by hollowed-out tree trunks covered with cowhide on one end.",
+     "Listen for the Hollowed tree trunk drum with cowhide head, Acoustic string guitar, Lead and chorus vocals, Handclaps.",
+     "A high-energy acoustic texture driven by deep, handmade cowhide trunk drums and steady handclaps. Call-and-response vocals sing short, playful ditties about flirting and local humor, punctuated by acoustic guitar strumming."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Frenetic drum beats paired with synchronized handclapping"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Suscia is performed outdoors or in public community gatherings, predominantly in the Tocantins cities of Peixe, Natividade, and Arrais during local religious festivals.",
+     "Specific traditional costumes are not detailed in the sources."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Variants exist across different municipalities in Tocantins, such as Peixe, Natividade, and Arrais, primarily reflected in minor linguistic variations of the dance's name (Sussa, Suça, Súcia, Sussia).",
+     "Rooted in 18th and 19th-century Afro-Brazilian slave culture and quilombo resistance traditions in central Brazil, Suscia continues today under civic preservation programs sponsored by the state government of Tocantins."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form a wide outer circle with all participants except one active central couple.",
+     "The central male and female couple hop continuously in close proximity in a circular path.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the heart of Brazil, an Afro-Brazilian tradition survives through sacred festivals, frenetic drum rhythms, and playful ant-scratching pantomime.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the outer circle role",
+   "level": "Level 1",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the outer circle role.",
+      "Level: Level 1. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic regional culture bearer from Tocantins who emphasizes joy, community connection, and rhythmic precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, energetic, ready to hop and move fluidly in close proximity.",
+      "Used for expressive pantomime, such as scratching the body during ant-themed songs, and handclapping in the outer circle.",
+      "Sensual and dynamic movement centered within a close-partnering ring."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Frenetic drum beats paired with synchronized handclapping.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a wide outer circle with all participants except one active central couple.",
+      "Step 2: The central male and female couple hop continuously in close proximity in a circular path.",
+      "Footwork from the sources: Continuous hopping in circular paths.",
+      "Drill: Practice rhythmic handclapping to acoustic drum beats."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform bodily pantomime (e.g., body scratching) matched to the song's verse narrative.",
+      "Step 4: An outer circle member approaches, taps the active dancer of the same gender, and takes their place in the center.",
+      "Drill: Learn the call-and-response vocal refrain for 'Formiga que doi e jiquitaia'."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not remain in the center indefinitely; honor the tag-in turn-taking system from the outer ring."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Participants sit in a circle, performing the rhythmic handclapping, singing chorus lines, and executing upper-body ant-scratching gestures in time with the drums. · For children: The 'Jiquitaia Ant Tag' game: children form a ring, and when the lead singer calls out 'jiquitaia!', the central pair must freeze and scratch before tapping the next classmate to jump in."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Participants sit in a circle, performing the rhythmic handclapping, singing chorus lines, and executing upper-body ant-scratching gestures in time with the drums.",
+      "For children: The 'Jiquitaia Ant Tag' game: children form a ring, and when the lead singer calls out 'jiquitaia!', the central pair must freeze and scratch before tapping the next classmate to jump in."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the outer circle role.",
+      "The dance is primarily performed during religious celebrations, particularly the monthlong festival of the Festa do Divino Espírito Santo.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Central partner hopping",
+   "level": "Level 2",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Central partner hopping.",
+      "Level: Level 2. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic regional culture bearer from Tocantins who emphasizes joy, community connection, and rhythmic precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, energetic, ready to hop and move fluidly in close proximity.",
+      "Used for expressive pantomime, such as scratching the body during ant-themed songs, and handclapping in the outer circle.",
+      "Sensual and dynamic movement centered within a close-partnering ring."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Frenetic drum beats paired with synchronized handclapping.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a wide outer circle with all participants except one active central couple.",
+      "Step 2: The central male and female couple hop continuously in close proximity in a circular path.",
+      "Drill: Execute continuous light hopping while moving in a circular path with a partner."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform bodily pantomime (e.g., body scratching) matched to the song's verse narrative.",
+      "Step 4: An outer circle member approaches, taps the active dancer of the same gender, and takes their place in the center.",
+      "Jiquitaia Scratch: Dancers scratch their arms and body in rhythm to mimic being bitten by swarms of jiquitaia ants.",
+      "Tap-In Swap: An outer circle dancer taps an inner dancer on the shoulder to instantly replace them in the circle.",
+      "Drill: Maintain close proximity while navigating spatial awareness."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not remain in the center indefinitely; honor the tag-in turn-taking system from the outer ring."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Participants sit in a circle, performing the rhythmic handclapping, singing chorus lines, and executing upper-body ant-scratching gestures in time with the drums. · For children: The 'Jiquitaia Ant Tag' game: children form a ring, and when the lead singer calls out 'jiquitaia!', the central pair must freeze and scratch before tapping the next classmate to jump in."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Participants sit in a circle, performing the rhythmic handclapping, singing chorus lines, and executing upper-body ant-scratching gestures in time with the drums.",
+      "For children: The 'Jiquitaia Ant Tag' game: children form a ring, and when the lead singer calls out 'jiquitaia!', the central pair must freeze and scratch before tapping the next classmate to jump in."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Large outer standing ring enclosing a tight central space where one couple dances."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Central partner hopping.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Pantomime and dynamic tap-in",
+   "level": "Level 3",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Pantomime and dynamic tap-in.",
+      "Level: Level 3. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic regional culture bearer from Tocantins who emphasizes joy, community connection, and rhythmic precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, energetic, ready to hop and move fluidly in close proximity.",
+      "Used for expressive pantomime, such as scratching the body during ant-themed songs, and handclapping in the outer circle.",
+      "Sensual and dynamic movement centered within a close-partnering ring."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Frenetic drum beats paired with synchronized handclapping.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform bodily pantomime (e.g., body scratching) matched to the song's verse narrative.",
+      "Step 2: An outer circle member approaches, taps the active dancer of the same gender, and takes their place in the center.",
+      "Drill: Integrate upper-body scratching gestures into footwork hopping."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Jiquitaia Scratch: Dancers scratch their arms and body in rhythm to mimic being bitten by swarms of jiquitaia ants.",
+      "Tap-In Swap: An outer circle dancer taps an inner dancer on the shoulder to instantly replace them in the circle.",
+      "Drill: Execute fluid tap-in transitions from the outer loop into the dance center."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not remain in the center indefinitely; honor the tag-in turn-taking system from the outer ring."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Participants sit in a circle, performing the rhythmic handclapping, singing chorus lines, and executing upper-body ant-scratching gestures in time with the drums. · For children: The 'Jiquitaia Ant Tag' game: children form a ring, and when the lead singer calls out 'jiquitaia!', the central pair must freeze and scratch before tapping the next classmate to jump in."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Participants sit in a circle, performing the rhythmic handclapping, singing chorus lines, and executing upper-body ant-scratching gestures in time with the drums.",
+      "For children: The 'Jiquitaia Ant Tag' game: children form a ring, and when the lead singer calls out 'jiquitaia!', the central pair must freeze and scratch before tapping the next classmate to jump in."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Large outer standing ring enclosing a tight central space where one couple dances."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Pantomime and dynamic tap-in.",
+      "Rooted in 18th and 19th-century Afro-Brazilian slave culture and quilombo resistance traditions in central Brazil, Suscia continues today under civic preservation programs sponsored by the state government of Tocantins.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Frenetic drum beats paired with synchronized handclapping",
+  "instruments": [
+   "Hollowed tree trunk drum with cowhide head",
+   "Acoustic string guitar",
+   "Lead and chorus vocals",
+   "Handclaps"
+  ],
+  "vocal_style": "Short sung ditties, call-and-response group vocals",
+  "musical_form": "Short repeated verses, often single-verse ditties",
+  "mood": [
+   "frenetic",
+   "sensual",
+   "festive",
+   "flirtatious"
+  ],
+  "sound_description": "A high-energy acoustic texture driven by deep, handmade cowhide trunk drums and steady handclaps. Call-and-response vocals sing short, playful ditties about flirting and local humor, punctuated by acoustic guitar strumming.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Suscia (Brazil). Rhythm pattern: Frenetic drum beats paired with synchronized handclapping. Instruments: Hollowed tree trunk drum with cowhide head, Acoustic string guitar, Lead and chorus vocals, Handclaps. Vocal style: Short sung ditties, call-and-response group vocals. Form: Short repeated verses, often single-verse ditties. Mood: frenetic, sensual, festive, flirtatious. It should sound like this: A high-energy acoustic texture driven by deep, handmade cowhide trunk drums and steady handclaps. Call-and-response vocals sing short, playful ditties about flirting and local humor, punctuated by acoustic guitar strumming. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Suscia is performed outdoors or in public community gatherings, predominantly in the Tocantins cities of Peixe, Natividade, and Arrais during local religious festivals. Specific traditional costumes are not detailed in the sources.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Carved cowhide drums resting on red earth.",
+   "Clapping hands forming a wide supportive circle.",
+   "Dancers' feet hopping rapidly in tight central circles.",
+   "Expressive scratching gestures during playful songs."
+  ],
+  "costume_notes": "Suscia is performed outdoors or in public community gatherings, predominantly in the Tocantins cities of Peixe, Natividade, and Arrais during local religious festivals. Specific traditional costumes are not detailed in the sources.",
+  "setting_notes": "The dance is primarily performed during religious celebrations, particularly the monthlong festival of the Festa do Divino Espírito Santo. Despite its sensual nature and songs centered on flirting, the local church supports and encourages the tradition as an integral piece of regional culture.",
+  "map": {
+   "country": "Brazil",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "73 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 73,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "step to the right",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Suscia",
+  "https://www.wikidata.org/wiki/Q23808001"
+ ],
+ "claims_verified": 9,
+ "claims": 9,
+ "polished": false,
+ "input_fingerprint": "8f3f4197968335023f0a1680e4ae47ab5d0953d132bb4f59759e3cca1c10a4bc",
+ "hero_checked": null
+}

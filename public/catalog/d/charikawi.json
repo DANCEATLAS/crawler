@@ -35,7 +35,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 1,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -55,30 +55,6 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
@@ -87,15 +63,71 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "61a89c4fce1a1700",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "uSFw2ra-D-g",
+   "url": "https://www.youtube.com/watch?v=uSFw2ra-D-g",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "outdoor public space at night, likely a community gathering or street festival",
+    "dancers": "multiple, mixed gender, adults and children, group",
+    "formation_and_space": "loose, informal group, dancers move in and out of a central space",
+    "posture": "upright torso, knees slightly bent, weight shifts between feet",
+    "footwork": "rhythmic stepping, shuffling, and small hops; exact weight transfer is difficult to see due to low light and resolution",
+    "arms_and_hands": "arms move freely, often held at waist or shoulder height, some dancers hold sticks or other objects",
+    "hips_and_torso": "subtle hip movements and torso swaying, consistent with the rhythm",
+    "partnering": "none, dancers move independently",
+    "levels_jumps_turns": "mostly upright, occasional small jumps or dips",
+    "costume_and_props": "casual clothing, some dancers wear masks, some hold sticks",
+    "cannot_infer": "low resolution and lighting make it difficult to see precise footwork and subtle body movements",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "saxophone"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "dancers in masks moving rhythmically with sticks"
+     },
+     {
+      "start_s": 40,
+      "end_s": 45,
+      "what": "dancers in masks interacting with the crowd"
+     },
+     {
+      "start_s": 120,
+      "end_s": 125,
+      "what": "dancers in masks performing a rhythmic step sequence"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "1d5c72414de95261",
+ "updated": "2026-11-24"
 }

@@ -2,7 +2,7 @@
  "slug": "bubble-dance",
  "name": "Bubble dance",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:27Z",
+ "built_at": "2026-11-24T22:53:17Z",
  "researched_at": "2026-11-16T20:14:35Z",
  "qc_score": 7.9,
  "status": "draft",
@@ -79,7 +79,7 @@
     ],
     "on_screen": [
      "Map: United States · North America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -140,13 +140,10 @@
      "In contemporary 1930s film appearances and cartoon depictions, stage settings feature dramatic spotlighting, stage curtains, and proscenium framing that emphasize the soloist's movement."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 5 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore",
-    "needs": [
-     "images"
-    ]
+    "music": "underscore"
    },
    {
     "code": "people",
@@ -696,7 +693,11 @@
    "dress_the_narrator": true,
    "restricted_attire": false,
    "from_sources": "The defining attire of the soloist in classic bubble dance performances is nudity, with the dancer relying on a large spherical prop shaped like a balloon or ball placed between herself and the spectators. In contemporary 1930s film appearances and cartoon depictions, stage settings feature dramatic spotlighting, stage curtains, and proscenium framing that emphasize the soloist's movement.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABerlin_Scala_Girls_mit_Ballons_010174.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AInside_The_Bubble_%2849123758%29.jpeg",
+    "https://commons.wikimedia.org/wiki/File%3ADesha_in_The_Bubble_Dance._-_Theatre_Magazine_1922.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -704,7 +705,48 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Berlin_Scala_Girls_mit_Ballons_010174.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Berlin_Scala_Girls_mit_Ballons_010174.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Willy Pragher / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Scala_Girls_mit_Ballons_010174.jpg",
+    "description": "Scala (Berlin): Scala Girls mit Ballons"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Inside_The_Bubble_%2849123758%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Inside_The_Bubble_%2849123758%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Nicu Buculei / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AInside_The_Bubble_%2849123758%29.jpeg",
+    "description": "500px provided description: the dancers are performing inside the bubble [#dance ,#sexy ,#bubble]"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Desha_in_The_Bubble_Dance._-_Theatre_Magazine_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Desha_in_The_Bubble_Dance._-_Theatre_Magazine_1922.jpg/1280px-Desha_in_The_Bubble_Dance._-_Theatre_Magazine_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Maurice Goldberg / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADesha_in_The_Bubble_Dance._-_Theatre_Magazine_1922.jpg",
+    "description": "Desha in The Bubble Dance."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bubble_dance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bubble_dance.png/1280px-Bubble_dance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "AnonymousUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABubble_dance.png",
+    "description": "Noel Toy's famous Bubble Dance sparked the popularity of Forbidden City."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Myrio_And_Desha_-_Apr_1927_Variety.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/36/Myrio_And_Desha_-_Apr_1927_Variety.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "William Morris Agency / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMyrio_And_Desha_-_Apr_1927_Variety.jpg",
+    "description": "Advertisement for a dance performance by the married dancers Jean Myrio (Jean Henry Raoul Delteil) and Desha Delteil, on page 21 of the April 27, 1927 Variety. She is represented by a \"bubble dance sculpture\" by Harriet Frishmuth that she had posed for."
+   }
+  ],
   "footage": [
    {
     "title": "SALLY RAND BALLOON BUBBLE DANCE PERFORMANCE LITA BARON & GRACIE BARRIE 1940s MUSIC VIDEO XD10084",
@@ -788,7 +830,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "licensed images (3 needed)",
   "posture, arms and hands",
   "the how-it-is-danced section",
   "the music & instruments section",
@@ -804,6 +845,6 @@
  "claims_verified": 5,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "125a9875da7ad20bb504ca337ecc7d0d19b5be3d380e2fd42f66679716122ab8",
+ "input_fingerprint": "1e3cd8ef5d49d17042462bf8c27be846f0314590ed3120703e7f627a6c8240d8",
  "hero_checked": "pass"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "formation-dance",
  "name": "Formation dance",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GB"
@@ -381,16 +381,11 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   }
-  ],
   "via": {
    "footwork_counts": "lesson",
+   "sound": "performance",
    "study_video": "lesson"
   }
  },
@@ -619,6 +614,52 @@
    }
   }
  ],
+ "performances": [
+  {
+   "youtube_id": "O3D6zvWHHs8",
+   "url": "https://www.youtube.com/watch?v=O3D6zvWHHs8",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "open-air sports ground or school field during daytime with an audience watching from the side",
+    "dancers": "large group of children in school uniforms, mixed boys and girls",
+    "formation_and_space": "groups arranged in long lines holding large colored cloths that create geometric patterns, waves, and circle formations",
+    "posture": "upright posture, alternating between standing and squatting/kneeling",
+    "footwork": "marching steps and moving in coordinated lines or circles; details obscured by aerial view and resolution",
+    "arms_and_hands": "arms extended holding large colored fabric sheets overhead and rippling them",
+    "hips_and_torso": "minimal torso movement, bending at knees and waist for level changes",
+    "partnering": "group coordination and line formation, no direct couple contact",
+    "levels_jumps_turns": "standing and crouching levels, walking and turning in circles",
+    "costume_and_props": "matching school uniforms with colored caps, holding very large colored cloths (yellow, blue, red, green)",
+    "cannot_infer": "exact footwork details and weight transfers are occluded by the high-angle drone shot and fast-moving group patterns",
+    "music_heard": {
+     "instruments": [
+      "electronic synthesizer",
+      "drums"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 207,
+      "end_s": 219,
+      "what": "dancers in lines raising and lowering large blue fabric to create waves"
+     },
+     {
+      "start_s": 240,
+      "end_s": 260,
+      "what": "lines of dancers rippling cloths to form a zig-zag pattern"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -628,6 +669,6 @@
   "polished": false,
   "file": "episodes/formation-dance.json"
  },
- "fingerprint": "01035ce8c93f93f7",
+ "fingerprint": "3ab1363678a6c139",
  "updated": "2026-11-24"
 }

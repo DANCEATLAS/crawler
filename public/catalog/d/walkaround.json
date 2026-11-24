@@ -37,6 +37,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Walkaround",
   "wikidata_qid": "Q7962157",
   "unesco": false,
+  "hero_video_youtube_id": "hpNdQDWgy7I",
+  "video_stack": [
+   {
+    "youtube_id": "hpNdQDWgy7I",
+    "role": "hero",
+    "title": "JUBA DANCE: The dance of African slaves in American plantations",
+    "channel": "FREE STEP ITALIA OFFICIAL",
+    "hd": true
+   },
+   {
+    "youtube_id": "AYh9S2hvgA8",
+    "role": "rendition",
+    "title": "LionC | Walkaround of the 100% type C electric school bus",
+    "channel": "Lion Electric",
+    "hd": true
+   },
+   {
+    "youtube_id": "KVvgkproyTg",
+    "role": "rendition",
+    "title": "Ford Spectron XL-T Turbo in the USA - Walkaround video",
+    "channel": "fahrer4184",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -83,6 +107,12 @@
   "needs_eyes_on": true,
   "movie_ready": true,
   "tradition_status": "historical",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:13:13Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "ring-shout",
    "cakewalk"
@@ -319,7 +349,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -335,10 +365,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -349,11 +375,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/walkaround.json"
  },
- "fingerprint": "ab377fc3f8e3e05a",
+ "fingerprint": "188c423f9ccdebfb",
  "updated": "2026-11-24"
 }

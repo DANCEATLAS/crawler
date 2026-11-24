@@ -31,9 +31,9 @@
   },
   "tier": "content_ready",
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 6.9,
-  "last_researched_at": "2026-11-01T17:30:39Z",
+  "research_gate": "reject",
+  "qc_score": 6.4,
+  "last_researched_at": "2026-11-24T21:28:20Z",
   "pipeline_version": "v3.3",
   "related_slugs": [
    "khon",
@@ -44,7 +44,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 1,
+  "have": 0,
   "of": 15,
   "missing": [
    {
@@ -102,9 +102,13 @@
    {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
    }
   ]
  },
- "fingerprint": "d6688b5a87e2203d",
- "updated": "2026-11-21"
+ "fingerprint": "94024f40f83ec69b",
+ "updated": "2026-11-24"
 }

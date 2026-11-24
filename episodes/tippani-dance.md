@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior woman from the Koli community who emphasizes the strength and history of the laboring ancestors.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of the Foundation
 NARRATION: This is Tippani Dance. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (_VDciQxlM5I)
 ON SCREEN: Title card: Tippani Dance · India · 19th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Women hold 175-centimeter wooden poles and stand in two opposite rows
 NARRATION: They strike the floor with the weighted end of the pole in synchronization with folk songs.
 NARRATION: The movement involves lifting the heavy mallet and bringing it down firmly to create a percussive beat against the ground.
 NARRATION: Watch for Tippani Strike.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (_VDciQxlM5I)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two opposite rows facing each other
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '_VDciQxlM5I', 'checked_by_vision_model': True, 'title': 'Tippani Dance'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: The 175cm wooden poles, Dust rising from the floor impact, The brass thali being struck, Two parallel lines of women
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Tippani; https://www.wikidata.org/wiki/Q7808860

@@ -1,13 +1,95 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex acrobatic moves",
+          "High-speed footwork"
+        ],
+        "counts": "Simplified 4-count steps.",
+        "duration_minutes": "15",
+        "game_version": "Circle game where children take turns dancing in the center."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid knee bending",
+          "High-impact footwork"
+        ],
+        "counts": "Simplified 4-count patterns.",
+        "seated_version": "Perform arm gestures and torso twists while seated.",
+        "standing_version": "Reduced tempo, focus on arm movements, avoid jumps.",
+        "tempo_and_range": "Slowed tempo, limited range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "High arm gestures and expressive movements; specific hand positions for moves like the Susie Q.",
+      "difficulty": "intermediate",
+      "footwork": "8-count patterns; includes steps like the Susie Q, Truckin, and Shorty George.",
+      "formation_and_space": "Circle formation with participants facing the center.",
+      "hips_and_torso": "Active torso movement, including twisting and shifting weight.",
+      "levels_and_jumps": "Includes athletic movements and high-energy transitions.",
+      "partnering": "Leader-follower dynamic during 'shiners' and group movement.",
+      "posture": "Upright but flexible, with knees often bent.",
+      "signature_moves": [
+        {
+          "description": "A twisting footwork pattern where heels and toes scoot in a specific direction.",
+          "name": "Susie Q"
+        },
+        {
+          "description": "A shuffle step variation with a wagging index finger.",
+          "name": "Truckin"
+        },
+        {
+          "description": "Walking in a straight line with small steps and dramatic knee bending.",
+          "name": "Shorty George"
+        }
+      ],
+      "tempo_feel": "Fast and energetic.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Brass",
+        "Woodwinds",
+        "Percussion",
+        "Piano"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "lusty",
+        "swinging"
+      ],
+      "musical_form": "Swing",
+      "reference_recordings": [],
+      "rhythm_pattern": "Swing jazz rhythm",
+      "sound_description": "Fast-paced, high-energy swing music characterized by a driving beat that supports vigorous, improvisational dance movements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Susie Q",
+        "Apple Jacks",
+        "Truckin",
+        "Shorty George",
+        "Praises"
+      ],
+      "formation": "Circle",
+      "level_notes": "Requires high physical stamina and familiarity with swing jazz rhythms.",
+      "rhythm": "8-count centered"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b6681c78f8895ac3574a1c392aa141736d800e0af1617c05cde1eb959057d679",
+  "fingerprint": "07d08ec31569814d9e142364a306bf1d94eacd9f299dbd9dd08ba388f7222d06",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +97,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -33,7 +113,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -46,7 +125,7 @@
   "music_options": [],
   "name": "Big Apple",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/big-apple.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +137,15 @@
   "slug": "big-apple",
   "sources": [
     "https://en.wikipedia.org/wiki/Big_Apple_(dance)",
-    "Source: Big Apple (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Big_Apple_(dance)"
+    "https://www.wikidata.org/wiki/Q4904933",
+    "https://archive.org/details/GAT_1937111601"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/grDYvkjIACw.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=grDYvkjIACw"
+    }
+  ]
 }

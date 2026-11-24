@@ -1,46 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Not derivable yet"
+        ],
+        "counts": "Not derivable yet.",
+        "duration_minutes": "Not derivable yet.",
+        "game_version": "Not derivable yet."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Not derivable yet"
+        ],
+        "counts": "Not derivable yet.",
+        "seated_version": "The dance is already performed seated for women, making it accessible.",
+        "standing_version": "Not derivable yet.",
+        "tempo_and_range": "Not derivable yet."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Not described in sources",
-      "difficulty": "Not described in sources",
-      "footwork": "Not described in sources",
-      "formation_and_space": "Group formation with gender-specific posture (seated women, standing men)",
-      "hips_and_torso": "Not described in sources",
-      "levels_and_jumps": "Not described in sources",
-      "partnering": "Not described in sources",
-      "posture": "Women seated, men standing",
+      "arms_and_hands": "Gestures are choreographed to match the words of the songs.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Women seated facing the audience, men standing behind them.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Two levels: seated (women) and standing (men).",
+      "partnering": "not described in sources",
+      "posture": "Women are seated; men are standing.",
       "signature_moves": [],
-      "tempo_feel": "Not described in sources",
-      "what_to_avoid": "Not described in sources"
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "palau drum"
+        "palau (nafa)",
+        "guitar",
+        "ukulele",
+        "bass drum"
       ],
-      "meter": "",
-      "mood_keywords": [],
-      "musical_form": "Not described in sources",
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "communal"
+      ],
+      "musical_form": "Multiple items per performance, often following familiar Niuean and Pacific melodies.",
       "reference_recordings": [],
-      "rhythm_pattern": "",
-      "sound_description": "The palau drum provides the rhythmic foundation for the dance, likely with traditional Niuean drum patterns accompanying group singing.",
-      "tempo_bpm": "",
-      "vocal_style": "Not described in sources"
+      "rhythm_pattern": "Provided by the palau or nafa drum beat.",
+      "sound_description": "The music is characterized by group singing accompanied by the rhythmic beat of a wooden drum (palau) or modern stringed instruments like the guitar and ukulele.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Group singing of Niuean songs."
     },
     "teaching": {
       "basic_steps": [
-        "Women seated throughout the dance",
-        "Men standing throughout the dance",
-        "Follow the rhythm of the palau drum"
+        "Seated posture for women facing the audience",
+        "Standing posture for men positioned behind the women",
+        "Gestural movements choreographed to match song lyrics"
       ],
-      "formation": "Group formation with women seated and men standing",
-      "level_notes": "Technique not described in sources",
-      "rhythm": "Not described in sources"
+      "formation": "Group formation with women seated in front and men standing behind.",
+      "level_notes": "not described in sources",
+      "rhythm": "Provided by the palau or nafa drum."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "be598faf20dbfa43d88d64028465ac356f8348b41d12f78c2745d75a2146a912",
+  "fingerprint": "1f36e0c368f5dc3c3f8c106f1f8515c78ad6c0ba759ea5e4e96ebe3b85752fa7",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -48,10 +78,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific arm and hand gestures used in Tā Mē to interpret the song lyrics? Evidence needed: Field observation or ethnographic study of Niuean dance.",
+      "Investigate: Are there specific traditional costumes worn during Tā Mē performances? Evidence needed: Visual documentation or cultural archives."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -77,8 +108,27 @@
     "Video model observations are candidates, not motion capture or expert verification."
   ],
   "music_options": [],
-  "name": "Ta Me",
-  "open_questions": [],
+  "name": "Tā Mē",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "430961d679ed0559",
+      "next_evidence": "Field observation or ethnographic study of Niuean dance.",
+      "question": "What are the specific arm and hand gestures used in Tā Mē to interpret the song lyrics?",
+      "source": "https://en.wikipedia.org/wiki/Music_of_Niue",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source notes that choreography matches lyrics, but does not detail the specific movements required for instruction."
+    },
+    {
+      "domain": "research",
+      "id": "45636340930c3fed",
+      "next_evidence": "Visual documentation or cultural archives.",
+      "question": "Are there specific traditional costumes worn during Tā Mē performances?",
+      "source": "https://en.wikipedia.org/wiki/Music_of_Niue",
+      "status": "candidate_unreviewed",
+      "why_needed": "Costume is a key component of cultural dance identity, and the current source does not provide this information."
+    }
+  ],
   "research_file": "research_results/ta-me.json",
   "runtime_active": false,
   "scope": {
@@ -90,12 +140,9 @@
   },
   "slug": "ta-me",
   "sources": [
-    "https://en.wikipedia.org/wiki/Ta-Nehisi_Coates",
-    "https://www.wikidata.org/wiki/Q15452495",
-    "https://es.wikipedia.org/wiki/Ta-Nehisi_Coates",
-    "https://fr.wikipedia.org/wiki/Ta-Nehisi_Coates",
-    "https://de.wikipedia.org/wiki/Ta-Nehisi_Coates"
+    "https://en.wikipedia.org/wiki/Music_of_Niue",
+    "https://www.wikidata.org/wiki/Q14548294"
   ],
-  "state": "teaching_withheld",
+  "state": "researching",
   "video_evidence": []
 }

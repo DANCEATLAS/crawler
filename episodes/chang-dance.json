@@ -2,7 +2,7 @@
  "slug": "chang-dance",
  "name": "Chang dance",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:28Z",
+ "built_at": "2026-11-24T22:53:17Z",
  "researched_at": "2026-11-23T22:30:24Z",
  "qc_score": 8.95,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Chang dance. Contemporary/Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (szu7X9nvggE)",
      "Title card: Chang dance · India · Contemporary/Traditional"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Sang."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (szu7X9nvggE)",
      "Captions name each signature move as it appears",
      "Formation: Group dance performed in a village square (Chauk)"
     ],
@@ -728,7 +728,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "szu7X9nvggE",
+   "checked_by_vision_model": true,
+   "title": "Rajasthani Chang dance || Holi dance"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -775,8 +779,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "71 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 71,
+  "source": "73 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 73,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -788,6 +792,7 @@
    "1-2-3-4",
    "1-2-3",
    "5-6-7-8",
+   "step to the right",
    "un dos tres",
    "side side side side",
    "rock step rock step",
@@ -795,15 +800,14 @@
    "don't forget to breathe",
    "drop your shoulders",
    "keep a flat back",
-   "flexionar las rodillas",
-   "doble golpe con cada pie"
+   "flexionar las rodillas"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "full_demo",
    "warmup",
+   "full_demo",
    "breakdown",
    "slow_practice",
    "music_practice",
@@ -815,7 +819,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections",
@@ -828,6 +831,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "ac5e086e34e6f9fb1a90814550e6770e148a51aa3bb0e5005ff860e59d864661",
- "hero_checked": null
+ "input_fingerprint": "a9fdcc874ec88393a6bcf814a6b460ea63304795a9dddc59c6d405cac666197c",
+ "hero_checked": "pass"
 }

@@ -48,7 +48,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -68,43 +68,74 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "8f1e09980056bf3f",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "rRFQbUxYWyM",
+   "url": "https://www.youtube.com/watch?v=rRFQbUxYWyM",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "outdoor dirt or grass clearing, surrounded by a large crowd of spectators, with large stack of loudspeakers visible on the right",
+    "dancers": "mixed group of young adults and teenagers, men and women, dancing in couples and small groups",
+    "formation_and_space": "informal circle of spectators with couples dancing in the center space",
+    "posture": "upright torso with soft knees, body bouncing to the beat, occasional deep knee bends",
+    "footwork": "quick shifting of weight, stepping side-to-side and in place, low steps on the beat",
+    "arms_and_hands": "arms held near the torso or raised, sometimes holding hands with partner or resting on hips",
+    "hips_and_torso": "frequent hip movements, rolling hips, and torso bouncing or pelvic movement toward a partner",
+    "partnering": "couples facing each other with close proximity, pelvic positioning near partner without full body grip",
+    "levels_jumps_turns": "low levels with deep squats and hip thrusts, minimal jumps, occasional spins",
+    "costume_and_props": "casual clothing including white shirts, patterned skirts, shorts, and pants",
+    "cannot_infer": "exact footwork details and precise weight distribution are obscured by low video resolution and camera angles",
+    "music_heard": {
+     "instruments": [
+      "electronic speakers playing recorded percussion and bass hea"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 27,
+      "end_s": 33,
+      "what": "a dancer in yellow shorts crouches low with knees bent, bouncing while facing a partner who steps around in place"
+     },
+     {
+      "start_s": 107,
+      "end_s": 113,
+      "what": "a female dancer drops into a low knee bend and shakes her hips rapidly while facing another dancer"
+     },
+     {
+      "start_s": 204,
+      "end_s": 213,
+      "what": "a dancer in a camo shirt crouches low on the floor, thrusting hips toward a partner while stepping circularly"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "bb019b047bcedae9",
+ "updated": "2026-11-24"
 }

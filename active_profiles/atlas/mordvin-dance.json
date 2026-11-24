@@ -1,20 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "round dance",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
     "teaching": {
-      "basic_steps": [
-        "Technique not described in sources"
-      ],
-      "formation": "Round dance",
-      "level_notes": "General community participation",
-      "rhythm": "Not described in sources"
+      "basic_steps": [],
+      "formation": "round dance",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0a8c7befdfed1b4db13500606c2cab48978a5ad407861140de328437ca5b6519",
+  "fingerprint": "8c4dd479e47b7dbf8e57f0a90711e91a3b2fea52a782dc289f00792fe92164fa",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -22,9 +62,11 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments used during the Baltai festival? Evidence needed: Ethnographic field recordings of Baltai festivals in Tatarstan.",
+      "Investigate: Are there specific footwork patterns or hand gestures associated with the round dance? Evidence needed: Video documentation of the Baltai festival dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -51,7 +93,26 @@
   ],
   "music_options": [],
   "name": "Mordvin dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e83c2209a22bc110",
+      "next_evidence": "Ethnographic field recordings of Baltai festivals in Tatarstan.",
+      "question": "What are the specific musical instruments used during the Baltai festival?",
+      "source": "https://en.wikipedia.org/wiki/Baltai",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not mention the music, which is essential for recreating the dance."
+    },
+    {
+      "domain": "research",
+      "id": "48c1a14b375a0435",
+      "next_evidence": "Video documentation of the Baltai festival dance.",
+      "question": "Are there specific footwork patterns or hand gestures associated with the round dance?",
+      "source": "https://en.wikipedia.org/wiki/Baltai",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources only identify it as a 'round dance' without technical detail."
+    }
+  ],
   "research_file": "research_results/mordvin-dance.json",
   "runtime_active": false,
   "scope": {

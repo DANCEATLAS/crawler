@@ -2,19 +2,28 @@
  "contract": "da_dance_v1",
  "slug": "ambasse-bey",
  "name": "Ambasse bey",
- "state": "listed",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
+  "CM",
   "DE"
  ],
  "card": {
   "slug": "ambasse-bey",
   "name": "Ambasse bey",
   "country": "Germany",
+  "country_code": "CM",
+  "flag_emoji": "🇨🇲",
   "region": "Europe",
-  "tagline": "Germany — style of folk music and dance from Cameroon",
-  "profile": "Ambasse bey or ambas-i-bay is a style of folk music and dance from Cameroon. The music is based on commonly available instruments, especially guitar, with percussion provided by sticks and bottles. The music is faster-paced than assiko. John Hall described its rhythm as the one of a moving broom. Where dancers swing their shoulders like the wings of birds, the dance is composed of sequences of fluid steps and jerky body movements performed in accordance with the music, which is generally the makossa. In order to perform this dance, the dancers must wear traditional sawa outfits.",
-  "insight": "According to several contemporaries, the Ambass Bey was first taught in Douala by the Dayas family, notably Joseph Dayas and Engom'a Dayas at Bonadouma Home.",
+  "family": "folk-circle",
+  "era": "20th century",
+  "tagline": "A traditional Cameroonian dance and music style originating from the Yabassi people.",
+  "profile": "Ambasse bey is a traditional dance and music style from the Littoral region of Cameroon, rooted in the Yabassi ethnic group. Characterized by rhythmic shoulder movements likened to the wings of birds and a blend of fluid and jerky body motions, it evolved during the colonial era as a parody of German court dances. Today, it remains a significant cultural expression performed at festive and funeral ceremonies, often accompanied by guitar and percussion.",
+  "insight": "The dance begins with the 'Mudun'a Sombo' (old monkey) steps, a ritualized movement intended to commune with ancestors and gather positive forces to ward off negative ones.",
+  "aliases": [
+   "ambas-i-bay",
+   "Ambas-Bay"
+  ],
   "related": [
    "assiko",
    "azonto",
@@ -29,14 +38,42 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ambasse_bey",
-   "Source: Ambasse bey on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ambasse_bey"
+   "Source: Ambasse bey on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ambasse_bey",
+   "https://www.wikidata.org/wiki/Q4741152",
+   "https://es.wikipedia.org/wiki/Ambasse_bey",
+   "https://fr.wikipedia.org/wiki/Ambas-bay",
+   "https://it.wikipedia.org/wiki/Ambasse_bey"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ambasse_bey",
   "wikidata_qid": "Q4741152",
   "unesco": false,
   "hero_video_youtube_id": "BT8oYj4fMPU",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 8.85,
+  "last_researched_at": "2026-11-24T21:29:59Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Ambasse bey, also known as ambas-i-bay, is a traditional dance and music genre originating from the Yabassi ethnic group in the Littoral region of Cameroon. The style emerged during the colonial period, where local populations observed and parodied German court dances. This historical influence remains embedded in the performance, as the maestro often provides instructions in German, such as 'Seis Taché' or 'Drempa'. Following its origins, the style gained significant popularity in Douala after World War II, evolving through the 1950s and 1960s. It served as a precursor to makossa, the dominant form of modern Cameroonian music, with artists like Eboa Lotin bridging the two styles in the mid-1960s.\n\nThe music of Ambasse bey is noted for its fast pace, described by John Hall as having the rhythm of 'a moving broom.' Instrumentation is typically centered on the guitar, often accompanied by percussion instruments such as sticks, bottles, and the Conga (Njembe). The dance itself is highly expressive, requiring dancers to move their shoulders with elegance and synchronization, mimicking the flight of sparrowhawks. A performance typically commences with the 'Mudun'a Sombo' (old monkey) steps, which serve as a spiritual entry point to commune with ancestors and gather positive energy. This is followed by a lively sequence of fluid steps and jerky body movements. The dance is performed in solo, couple, or group formations, with couples often holding hands and twirling under the guidance of a lead instructor. Traditional Sawa attire is mandatory for performers: men wear the loincloth known as the Sanja, while women wear the Kaba. The dance remains a living tradition, used to enliven both festive and funeral ceremonies, having been revived and popularized by figures such as the 'King of Ambasse bey,' Sallé John.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ambass%27Bay_-_ballet_traditionnel_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ambass%27Bay_-_ballet_traditionnel_15.JPG/1280px-Ambass%27Bay_-_ballet_traditionnel_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4928,
+    "height": 3264,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Bathilde Maestracci / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAmbass%27Bay_-_ballet_traditionnel_15.JPG",
+    "description": "Ambass'Bay - ballet traditionnel. Presented as an off event of the SUD Salon Urbain de Douala 2013."
+   }
+  ],
+  "publish_gate": "publish",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "The opening 'Mudun'a Sombo' sequence is a ritualized act to commune with ancestors and ward off negative forces.",
+  "movie_ready": true,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_weak",
   "hero_qc": {
    "verdict": "pass",
@@ -57,6 +94,141 @@
    "semba"
   ]
  },
- "fingerprint": "954b2c3276067959",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Originating among the Yabassi people, the dance was inspired by German court dances during the colonial era. It gained prominence in Douala post-WWII and served as the foundation for the development of makossa music in the 1960s.",
+   "how_it_is_danced": "Dancers perform fluid steps and jerky body movements, with a focus on rhythmic shoulder swaying. The dance begins with the 'Mudun'a Sombo' (old monkey) steps, followed by sequences performed in groups, pairs, or solo. Instructors provide cues in German.",
+   "music_and_instruments": "The music is faster than assiko and relies on the guitar, sticks, bottles, and the Conga (Njembe). It is often sung in the Douala language.",
+   "costume_and_setting": "Performers wear traditional Sawa outfits: the Sanja (loincloth) for men and the Kaba for women. It is performed at festive and funeral ceremonies.",
+   "occasions_and_meaning": "The dance is a cultural expression used to enliven ceremonies. The opening 'Mudun'a Sombo' sequence is a ritualized act to commune with ancestors and ward off negative forces.",
+   "notable_figures": "Sallé John (King of Ambasse bey), Eboa Lotin, the Dayas family (Joseph and Engom'a), Tchako, Lobè Ramaud, Belmond M'Packo, and the musician Manulo.",
+   "regional_variants": "not described in sources",
+   "lineage": "It is a precursor to makossa and shares roots with assiko."
+  },
+  "claims": [
+   {
+    "text": "Ambasse bey originated among the Yabassi ethnic group.",
+    "source": "https://en.wikipedia.org/wiki/Ambasse_bey"
+   },
+   {
+    "text": "The dance was inspired by German colonial dances.",
+    "source": "https://fr.wikipedia.org/wiki/Ambas-bay"
+   },
+   {
+    "text": "John Hall described the rhythm as a moving broom.",
+    "source": "https://en.wikipedia.org/wiki/Ambasse_bey"
+   },
+   {
+    "text": "The dance begins with the 'Mudun'a Sombo' (old monkey) steps.",
+    "source": "https://en.wikipedia.org/wiki/Ambasse_bey"
+   },
+   {
+    "text": "Sallé John is known as the 'King of Ambasse bey'.",
+    "source": "https://fr.wikipedia.org/wiki/Ambas-bay"
+   },
+   {
+    "text": "The dance is performed in traditional Sawa outfits.",
+    "source": "https://en.wikipedia.org/wiki/Ambasse_bey"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Ambass'Bay - ballet traditionnel 15.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ambass%27Bay_-_ballet_traditionnel_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ambass%27Bay_-_ballet_traditionnel_15.JPG/1280px-Ambass%27Bay_-_ballet_traditionnel_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4928,
+    "height": 3264,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Bathilde Maestracci",
+    "description": "Ambass'Bay - ballet traditionnel. Presented as an off event of the SUD Salon Urbain de Douala 2013.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAmbass%27Bay_-_ballet_traditionnel_15.JPG",
+    "attribution": "Bathilde Maestracci / Wikimedia Commons / CC BY-SA 3.0"
+   }
+  ],
+  "gaps": [
+   "Tempo (BPM) not specified in sources.",
+   "Specific footwork counts not described in sources.",
+   "Detailed safety precautions for seniors not described in sources."
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "Rhythm of a moving broom",
+   "instruments": [
+    "guitar",
+    "sticks",
+    "bottles",
+    "Conga (Njembe)"
+   ],
+   "vocal_style": "Sung in Douala",
+   "musical_form": "Folk music",
+   "mood_keywords": [
+    "rhythmic",
+    "festive",
+    "lively"
+   ],
+   "reference_recordings": [],
+   "sound_description": "Fast-paced acoustic guitar-driven music with percussive accents from bottles and sticks, creating a rhythmic, driving pulse."
+  },
+  "episode_brief": {
+   "title_hook": "The Rhythm of the Sparrowhawk",
+   "logline": "Discover the colonial-era roots and spiritual significance of Cameroon's Ambasse bey.",
+   "beats": [
+    "Introduction to the Littoral region of Cameroon.",
+    "The history of the Yabassi people and colonial German influences.",
+    "The spiritual opening: The Mudun'a Sombo.",
+    "Learning the shoulder movements of the sparrowhawk.",
+    "The role of the maestro and German-language cues.",
+    "The transition from Ambasse bey to modern makossa.",
+    "A performance showcase in traditional Sawa attire."
+   ],
+   "visual_motifs": [
+    "Traditional Kaba and Sanja fabrics",
+    "Guitar strings",
+    "Sparrowhawk imagery"
+   ],
+   "music_cue": "Fast-paced guitar rhythm with bottle percussion"
+  },
+  "connections": [
+   {
+    "name": "makossa",
+    "relation": "child",
+    "note": "Ambasse bey is the precursor to the makossa style."
+   },
+   {
+    "name": "assiko",
+    "relation": "parent",
+    "note": "Ambasse bey originated from the older assiko style."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "researched_at": "2026-11-24T21:29:59Z",
+  "qc_score": 8.85
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 6,
+  "of": 6
+ },
+ "teaching_withheld": "The opening 'Mudun'a Sombo' sequence is a ritualized act to commune with ancestors and ward off negative forces.",
+ "episodes": {
+  "status": "withheld-chapters",
+  "chapters": 0,
+  "scenes": 10,
+  "gaps": 4,
+  "runtime_min": 9,
+  "polished": false,
+  "file": "episodes/ambasse-bey.json"
+ },
+ "fingerprint": "a010ccb5a01ef45d",
+ "updated": "2026-11-24"
 }

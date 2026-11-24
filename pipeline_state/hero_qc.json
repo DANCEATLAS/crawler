@@ -60710,10 +60710,13 @@
   "history": []
  },
  "chestnut": {
-  "checked_at": "",
+  "checked_at": "2026-11-24T22:12:02Z",
   "hero": "G0rxZCYTkmw",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -60723,10 +60726,32 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 7,
+   "reason": "Stage dance showcase featuring a group performing modern choreography, not traditional English dance."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "chukchu": {
   "checked_at": "2026-11-24T00:21:11Z",
@@ -61670,5 +61695,526 @@
   },
   "history": [],
   "remove_from_db": false
+ },
+ "chang-dance": {
+  "checked_at": "2026-11-24T22:12:07Z",
+  "hero": "szu7X9nvggE",
+  "verdict": "pass",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Authentic performance of Rajasthani Chang dance outdoors with musicians and dancers."
+  },
+  "history": [
+   {
+    "replaced": "DiiqD_RAI6I",
+    "with": "szu7X9nvggE",
+    "at": "2026-11-24T22:12:14Z",
+    "reason": [
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "DiiqD_RAI6I"
+ },
+ "gloving": {
+  "checked_at": "2026-11-24T22:12:18Z",
+  "hero": "4uafkkjy-EU",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear professional shot of a person performing gloving with LED lights."
+  },
+  "history": []
+ },
+ "koothu": {
+  "checked_at": "2026-11-24T22:12:22Z",
+  "hero": "ViIjbr9hxew",
+  "verdict": "pass",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Dancer in a traditional posture performing Koothu in an indoor setting with title text overlay."
+  },
+  "history": [
+   {
+    "replaced": "-XkJrhJNX70",
+    "with": "ViIjbr9hxew",
+    "at": "2026-11-24T22:12:28Z",
+    "reason": [
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "-XkJrhJNX70"
+ },
+ "tatsia": {
+  "checked_at": "2026-11-24T22:12:32Z",
+  "hero": "L1hfMo4Y1Gc",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [
+   "hd"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 5,
+   "reason": "Dancer in traditional costume performing, slightly blurry motion."
+  },
+  "history": []
+ },
+ "the-frug": {
+  "checked_at": "2026-11-24T22:12:40Z",
+  "hero": "mcrZIK3gqbU",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "A high-quality still from the iconic Rich Man's Frug dance sequence choreographed by Bob Fosse."
+  },
+  "history": []
+ },
+ "the-mule": {
+  "checked_at": "2026-11-24T22:12:44Z",
+  "hero": "X5TEsdb918c",
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": false,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 10
+  },
+  "vision": {
+   "dance_visible": false,
+   "people_count": 2,
+   "talking_head": true,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 10,
+   "reason": "This is a professional studio shot of two comedians on the SNL Weekend Update set."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "tippani-dance": {
+  "checked_at": "2026-11-24T22:12:48Z",
+  "hero": "_VDciQxlM5I",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "The image shows a group of performers in traditional attire executing the Tippani dance with sticks."
+  },
+  "history": []
+ },
+ "trata": {
+  "checked_at": "2026-11-24T22:12:58Z",
+  "hero": "t6LfUh9w0Xs",
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "hd",
+   "camera_ok"
+  ],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": false,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 2
+  },
+  "vision": {
+   "dance_visible": false,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 2,
+   "reason": "The image shows people on motorcycles at night, not a dance performance."
+  },
+  "history": [],
+  "remove_from_db": false
+ },
+ "virginia-reel": {
+  "checked_at": "2026-11-24T22:13:01Z",
+  "hero": "gnLEnf-6S_U",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "Clear, high-quality image of people in period clothing performing a traditional Virginia Reel dance."
+  },
+  "history": []
+ },
+ "volkspele": {
+  "checked_at": "2026-11-24T22:13:06Z",
+  "hero": "agCCmJo8CLc",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Shows a group of people performing traditional Volkspele dance in authentic attire outdoors."
+  },
+  "history": []
+ },
+ "walkaround": {
+  "checked_at": "2026-11-24T22:13:13Z",
+  "hero": "hpNdQDWgy7I",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 8,
+   "reason": "The thumbnail shows a historical reenactment of Juba dance alongside a period illustration."
+  },
+  "history": []
+ },
+ "watusi": {
+  "checked_at": "2026-11-24T22:13:18Z",
+  "hero": "TZdvihA7Y1A",
+  "verdict": "pass",
+  "hard_fail": [],
+  "soft_fail": [],
+  "checks": {
+   "exists": true,
+   "embeddable": true,
+   "duration_ok": true,
+   "hd": true,
+   "not_music_video": true,
+   "not_movie": true,
+   "not_live": true,
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
+  },
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "A professional black and white clip showing performers dancing in a 1960s style."
+  },
+  "history": []
  }
 }

@@ -39,6 +39,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Frug_(dance)",
   "wikidata_qid": "Q7735386",
   "unesco": false,
+  "hero_video_youtube_id": "mcrZIK3gqbU",
+  "video_stack": [
+   {
+    "youtube_id": "mcrZIK3gqbU",
+    "role": "hero",
+    "title": "Bob Fosse dance numbers -  \" The Rich Man's Frug \"",
+    "channel": "Freds Channel One",
+    "hd": true
+   },
+   {
+    "youtube_id": "qojedNWwP0c",
+    "role": "rendition",
+    "title": "Dance Moms: Full Dance - The Frug (Season 8) | Lifetime",
+    "channel": "Lifetime",
+    "hd": true
+   },
+   {
+    "youtube_id": "K2Govy3_dEs",
+    "role": "rendition",
+    "title": "DANCE COACH REACTS TO THE FRUG!",
+    "channel": "Jordan Sparks",
+    "hd": true
+   },
+   {
+    "youtube_id": "paH6QDIHZsM",
+    "role": "rendition",
+    "title": "Helen Dances The Frug",
+    "channel": "Mister Naidu",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -72,6 +103,12 @@
   ],
   "movie_ready": true,
   "tradition_status": "revived",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:12:40Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "twist",
    "the-chicken",
@@ -294,7 +331,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -302,28 +339,80 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "mcrZIK3gqbU",
+   "url": "https://www.youtube.com/watch?v=mcrZIK3gqbU",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A formal, upscale nightclub or ballroom with a stage, featuring classical-style statues and a fire pit.",
+    "dancers": "A large group of men and women, mixed, performing as a chorus line with a female lead.",
+    "formation_and_space": "The dancers move in lines, circles, and a long, snake-like procession, utilizing the entire stage space.",
+    "posture": "Upright torso, knees are frequently bent in a deep, athletic crouch, with weight shifted dynamically.",
+    "footwork": "Fast, rhythmic stepping, including kicks, pivots, and slides; the steps are syncopated and sharp, often landing on the beat.",
+    "arms_and_hands": "Arms are used expressively, often held high, extended, or bent at the elbows; hands are frequently open, gesturing, or framing the face.",
+    "hips_and_torso": "Prominent hip isolations, torso twists, and rhythmic shimmies that emphasize the beat.",
+    "partnering": "Minimal direct contact; the dancers move in unison or in a call-and-response style, with the lead dancer interacting with the group.",
+    "levels_jumps_turns": "Frequent use of deep squats, high kicks, and sharp, rapid turns.",
+    "costume_and_props": "Women wear short, black, sleeveless dresses with metallic accents and elaborate, colorful wigs; men wear formal tuxedos.",
+    "cannot_infer": "The fast-paced camera cuts and low-resolution footage make it difficult to determine the exact weight transfer or the complexity of the footwork.",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "brass",
+      "piano"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "The dancers perform a synchronized, sharp, and rhythmic sequence of arm and hip movements while in a deep, crouched position."
+     },
+     {
+      "start_s": 37,
+      "end_s": 45,
+      "what": "The lead dancer walks forward while the chorus line performs a series of sharp, rhythmic kicks and arm gestures."
+     },
+     {
+      "start_s": 146,
+      "end_s": 152,
+      "what": "The dancers pair up and perform a synchronized, deep-crouch hip-sway movement."
+     },
+     {
+      "start_s": 249,
+      "end_s": 255,
+      "what": "The group stands in a line, arms raised high, performing a rhythmic, synchronized torso and arm movement."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/the-frug.json"
  },
- "fingerprint": "ea777d4af89d844c",
+ "fingerprint": "34b2488fcf24283e",
  "updated": "2026-11-24"
 }

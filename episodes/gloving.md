@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A veteran glover who speaks with the technical precision of a geometrician and the energy of a street dancer.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Light at the Fingertips
 NARRATION: This is Gloving. 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (4uafkkjy-EU)
 ON SCREEN: Title card: Gloving · United States · 21st century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is performed primarily with the hands and fingers.
 NARRATION: It incorporates 'liquiding' (fluid arm movements), 'finger-tutting' (geometric finger shapes), and 'popping.' Dancers use fingertip LED lights to accentuate patterns, often performing 'light-shows' for a single viewer.
 NARRATION: The technique involves applying hip-hop dance concepts to the small-scale movements of the fingers and wrists.
 NARRATION: Watch for Finger-tutting, Liquiding.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (4uafkkjy-EU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Intimate, focused on the 'box' of space directly in front of the viewer.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -123,7 +123,7 @@ NARRATION: Step 1: Finger rolls: Sequentially curling and uncurling fingers to c
 NARRATION: Step 2: Liquid paths: Moving the hands in fluid, interconnected lines.
 NARRATION: Footwork from the sources: Minimal; the dancer typically remains stationary.
 NARRATION: Drill: Sequential finger curling (pinky to thumb).
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -195,7 +195,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Finger rolls: Sequentially curling and uncurling fingers to create a wave effect.
 NARRATION: Step 2: Liquid paths: Moving the hands in fluid, interconnected lines.
 NARRATION: Drill: Creating a four-finger square.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -270,7 +270,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Tutting boxes: Creating 90-degree angles with fingers and wrists.
 NARRATION: Step 2: Strobe hits: Timing a sharp movement or 'pop' with a musical beat or light flash.
 NARRATION: Drill: Transitioning from a fluid wave into a static tut.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -328,7 +328,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The essential costume consists of white or black gloves with LED lights at the fingertips. The setting is typically a dark environment, such as a rave or music festival, to maximize the visibility of the lights. The performance is often intimate, with the dancer and viewer in close proximity.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '4uafkkjy-EU', 'checked_by_vision_model': True, 'title': '"Circus Lights" | Finger Circus | Gloving Choreography in 4k | LED Light show'}
 Images: 1 licensed — SamanthaDex / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MagicMtn Gloving 057: Happy Mother's Day - All You Need To Know (JVNA Remix). — https://archive.org/details/magic-mtn-gloving-057-happy-mothers-day-all-you-need-to-know-jvna-remix; MagicMtn Gloving 052: Elephant Closer (Virtu Remix). — https://archive.org/details/magic-mtn-gloving-052-elephant-closer-virtu-remix; MagicMtn Gloving and Shuffling thru the Southwest. — https://archive.org/details/magic-mtn-gloving-shuffling-thru-the-southwest; These Competitors Want 'Gloving' To Be The Next Big Sport: VICE News Tonight on HBO — https://archive.org/details/youtube-yCBTG_LKOtg
 Motifs: Light trails in long-exposure photography, Close-ups of twitching fingers, The contrast of white gloves against black backgrounds, Digital glitch aesthetics
@@ -338,9 +338,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: start off with your hands fingers facing out; pivot over and under; fan that way; put your elbows up
 
 Sources (2): https://en.wikipedia.org/wiki/Gloving; https://www.wikidata.org/wiki/Q19571960

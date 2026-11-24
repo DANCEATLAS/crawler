@@ -52,7 +52,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -60,36 +60,12 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
     "key": "signature_moves",
     "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -100,15 +76,60 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "2a28b12ff926fe2f",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "mE688LgQP_k",
+   "url": "https://www.youtube.com/watch?v=mE688LgQP_k",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A stage performance with a live band and a large group of dancers.",
+    "dancers": "A large group of mixed men and women.",
+    "formation_and_space": "The dancers are arranged in rows and move in a coordinated, synchronized manner across the stage.",
+    "posture": "The dancers maintain an upright torso with slightly bent knees, and their weight is evenly distributed.",
+    "footwork": "The dancers perform a rhythmic stepping pattern that is synchronized with the music. The exact footwork is difficult to see due to the camera angle and the long costumes.",
+    "arms_and_hands": "The dancers use their arms and hands in graceful, fluid movements, often with fingers extended and palms facing outward.",
+    "hips_and_torso": "The dancers' torsos remain relatively still, with the focus on the arm and hand movements.",
+    "partnering": "There is no direct partnering or physical contact between the dancers.",
+    "levels_jumps_turns": "The dancers remain at a consistent level, with no jumps or floor work. There are no turns.",
+    "costume_and_props": "The dancers are wearing traditional Cambodian clothing, including sampots (wrap-around skirts) and tops with intricate designs.",
+    "cannot_infer": "The exact footwork and weight transfer are difficult to see due to the long costumes and the camera angle.",
+    "music_heard": {
+     "instruments": [
+      "violin",
+      "keyboard"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "The dancers perform a synchronized hand movement where they extend their arms and flex their fingers in a graceful, flowing motion."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "cf6ec6bc2c06c778",
+ "updated": "2026-11-24"
 }

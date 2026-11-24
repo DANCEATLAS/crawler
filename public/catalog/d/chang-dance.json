@@ -35,6 +35,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Chang_dance",
   "wikidata_qid": "Q19752913",
   "unesco": false,
+  "hero_video_youtube_id": "szu7X9nvggE",
+  "video_stack": [
+   {
+    "youtube_id": "szu7X9nvggE",
+    "role": "hero",
+    "title": "Rajasthani Chang dance || Holi dance",
+    "channel": "Rustic Girlio",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -62,6 +72,14 @@
   "needs_eyes_on": true,
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:12:07Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "ghoomar",
    "kalbelia"
@@ -274,7 +292,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -298,10 +316,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -312,11 +326,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/chang-dance.json"
  },
- "fingerprint": "10021db851cd6a1f",
+ "fingerprint": "17cb62cd4b41a40e",
  "updated": "2026-11-24"
 }

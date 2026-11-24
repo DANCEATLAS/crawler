@@ -2,7 +2,7 @@
  "slug": "watusi",
  "name": "Watusi",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:28Z",
+ "built_at": "2026-11-24T22:53:18Z",
  "researched_at": "2026-11-23T21:43:11Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Watusi. 1960s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (TZdvihA7Y1A)",
      "Title card: Watusi · United States · 1960s"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Vertical Arm Pump."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (TZdvihA7Y1A)",
      "Captions name each signature move as it appears",
      "Formation: Solo dancer staying largely in place or moving within a small personal space."
     ],
@@ -723,7 +723,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "TZdvihA7Y1A",
+   "checked_by_vision_model": true,
+   "title": "DANCE CRAZES OF THE '60S (Compiled by Toni Basil)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -766,8 +770,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "69 tutorial(s) of the street-urban family studied",
-  "videos_studied": 69,
+  "source": "73 tutorial(s) of the street-urban family studied",
+  "videos_studied": 73,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -778,6 +782,7 @@
   "cues": [
    "down and up",
    "step touch",
+   "one two three four",
    "one and two",
    "5-6-7-8",
    "heel toe",
@@ -786,8 +791,7 @@
    "pivot your feet",
    "turn your torso",
    "heel step",
-   "stomp",
-   "farmer"
+   "stomp"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -804,7 +808,6 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -815,6 +818,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "9deea6196dc4c0aaf96aced6d98e028fae4cdae354c2fa94d911ae36fb473122",
- "hero_checked": null
+ "input_fingerprint": "b20543f92839dadb1be9cc345b78e9230bb95e372b54378d8a5efbc94245799f",
+ "hero_checked": "pass"
 }

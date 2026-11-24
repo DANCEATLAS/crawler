@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Open public streets, neighborhood spaces, and processional parade paths",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes elevated stilt performance (Moko-Yombi); specific jumps not described in sources",
+      "partnering": "Theatrical character interaction (e.g., David and Goliath duel pairing)",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Masquerade character movement performed on elevated stilts",
+          "name": "Moko-Yombi stilt walking"
+        },
+        {
+          "description": "Festive masquerade movement incorporating theatrical scenes and comic interaction",
+          "name": "Niega business masquerade"
+        }
+      ],
+      "tempo_feel": "Upbeat and processional",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "scratch band instruments",
+        "string band instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "dramatic",
+        "celebratory",
+        "community"
+      ],
+      "musical_form": "Sectional processional and dramatic scene accompaniment",
+      "reference_recordings": [],
+      "rhythm_pattern": "African-derived syncopated rhythms",
+      "sound_description": "A vibrant fusion of rhythmic scratch band percussion and acoustic string playing accompanying vocal caroling and theatrical street dialogue.",
+      "tempo_bpm": "",
+      "vocal_style": "Christmas caroling and theatrical dialogue delivery"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Processional street stepping (technique not described in sources)",
+        "Masquerade character mime (technique not described in sources)"
+      ],
+      "formation": "Street processional and open theatrical circle",
+      "level_notes": "Preserved primarily through community street performance; formal beginner curriculum is not described in sources.",
+      "rhythm": "African-derived syncopated street rhythms supported by scratch and string bands"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "12ea9e84932147fb7d30057beb9a9ef8fdb5be980a2fb963f3b5b7515df7a354",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific movement patterns and footwork steps are performed by the remaining Cocolo troupe during street drama scenes? Evidence needed: Video documentation and movement analysis of the remaining Cocolo troupe in performance."
+    ]
+  },
+  "id": "atlas:cocolo",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Cocolo",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "9b11ec5418bbef51",
+      "next_evidence": "Video documentation and movement analysis of the remaining Cocolo troupe in performance.",
+      "question": "What specific movement patterns and footwork steps are performed by the remaining Cocolo troupe during street drama scenes?",
+      "source": "https://ich.unesco.org/en/RL/00104",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement technique details are absent from textual sources, preventing accurate dance instruction modeling."
+    }
+  ],
+  "research_file": "research_results/cocolo.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "cocolo",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cocolo_(dance)",
+    "https://www.wikidata.org/wiki/Q22092272",
+    "https://ich.unesco.org/en/RL/00104"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

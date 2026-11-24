@@ -65,10 +65,55 @@
    "voice": [
     "energetic",
     "warm",
-    "playful"
+    "playful",
+    "patient"
    ],
-   "beliefs": [],
-   "feelings": []
+   "beliefs": [
+    {
+     "t": "0:06",
+     "belief": "Anyone can dance, even if they find some steps difficult, by using a beginner-friendly, repetitive routine.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "0:23",
+     "belief": "Repeating steps more frequently helps beginners learn and enjoy the dance while still getting a good workout.",
+     "about": "how_people_learn"
+    }
+   ],
+   "feelings": [
+    {
+     "t": "0:12",
+     "feeling": "frustrated",
+     "response": "The teacher acknowledges that some steps can be difficult and offers a beginner-friendly version to make the dance accessible."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:06",
+     "moment": "opening",
+     "says": "The teacher introduces a special, non-stop Bollywood dance routine designed specifically for beginners who find some steps difficult.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:23",
+     "moment": "before_hard_part",
+     "says": "The teacher explains that the steps will be repeated more often, allowing the learner to enjoy the dance while still getting a good workout.",
+     "tag": "progression"
+    },
+    {
+     "t": "0:30",
+     "moment": "check_in",
+     "says": "The teacher introduces two other dancers who have been practicing with her for over a year and are now capable of performing her most intense routines.",
+     "tag": "social_connection"
+    },
+    {
+     "t": "0:48",
+     "moment": "before_hard_part",
+     "says": "The teacher encourages the learners to get ready and have fun as they begin the warm-up.",
+     "tag": "fun_and_energy"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and encouraged, knowing that even if they find steps difficult, they can still enjoy dancing and get a great workout."
   },
   "learner_voice": {
    "struggles": [
@@ -129,5 +174,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-24T22:21:06Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 4,
+  "beliefs": 2,
+  "feelings": 1
+ }
 }

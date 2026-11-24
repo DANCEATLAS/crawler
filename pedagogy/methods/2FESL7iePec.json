@@ -88,7 +88,8 @@
     "precise",
     "warm",
     "patient",
-    "humorous"
+    "humorous",
+    "calm"
    ],
    "beliefs": [
     {
@@ -102,7 +103,46 @@
      "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "6:01",
+     "feeling": "frustrated",
+     "response": "The teacher validates that the step is a nightmare to learn and encourages the learner to go back to the basic in-place step."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:43",
+     "moment": "before_hard_part",
+     "says": "The teacher explains the necessary body posture, emphasizing bent knees and a forward hinge at the hips to maintain a good chest position.",
+     "tag": "other"
+    },
+    {
+     "t": "1:46",
+     "moment": "after_mistake",
+     "says": "The teacher clarifies that there is no full weight change on the press, correcting the common mistake of shifting weight completely.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "2:59",
+     "moment": "before_hard_part",
+     "says": "The teacher demonstrates a generic, unisex version of the steps to help the learner get a feel for the coordination.",
+     "tag": "regression"
+    },
+    {
+     "t": "6:51",
+     "moment": "check_in",
+     "says": "The teacher acknowledges that the step is difficult to learn and encourages the learner to repeat it until they feel comfortable.",
+     "tag": "long_road"
+    },
+    {
+     "t": "8:07",
+     "moment": "after_success",
+     "says": "The teacher invites the learner to practice a sequence that incorporates the coordination and relates the steps to the music.",
+     "tag": "recap_and_practice_plan"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling that they can master complex rhythms and movements through patience and practice."
   },
   "learner_voice": {
    "struggles": [
@@ -153,5 +193,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-24T22:19:31Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 0,
+  "feelings": 1
+ }
 }

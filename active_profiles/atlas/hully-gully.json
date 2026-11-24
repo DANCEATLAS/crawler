@@ -1,0 +1,141 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Line formation facing the stage",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "No physical contact",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Fast",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fast",
+        "energetic"
+      ],
+      "musical_form": "Pop song",
+      "reference_recordings": [
+        {
+          "artist": "The Olympics",
+          "title": "Hully Gully"
+        },
+        {
+          "artist": "The Dovells",
+          "title": "Hully Gully Baby"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Upbeat 1960s pop music with a steady, fast-paced rhythm suitable for line dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a line facing the front",
+        "Listen for the MC to call out a step",
+        "Execute the step quickly to match the tempo"
+      ],
+      "formation": "Line dance",
+      "level_notes": "Technique not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e0137168e5795a8a631d0d95b2b64041f2e9e9364a28a2e3bf13331928b28d4d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there surviving instructional manuals or film footage detailing the specific 'steps' called out by the MC? Evidence needed: Archive video of 1960s dance revues."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:hully-gully",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Hully Gully",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8266aa07a9b9d509",
+      "next_evidence": "Archive video of 1960s dance revues.",
+      "question": "Are there surviving instructional manuals or film footage detailing the specific 'steps' called out by the MC?",
+      "source": "https://en.wikipedia.org/wiki/Hully_Gully",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the dance as 'unstructured' and 'MC-led' without defining the actual movements."
+    }
+  ],
+  "research_file": "research_results/hully-gully.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "hully-gully",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hully_Gully",
+    "https://www.wikidata.org/wiki/Q5936128",
+    "https://fr.wikipedia.org/wiki/Hully-Gully",
+    "https://de.wikipedia.org/wiki/Hully_Gully",
+    "https://it.wikipedia.org/wiki/Hully_gully"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

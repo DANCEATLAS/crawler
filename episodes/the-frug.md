@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A sharp, stylish 1960s choreographer with a focus on rhythmic precision and individual flair.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of Exhaustion
 NARRATION: This is The Frug. Mid-1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mcrZIK3gqbU)
 ON SCREEN: Title card: The Frug · USA · Mid-1960s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers stand in place and move their hips vigorously from side to si
 NARRATION: The feet remain largely stationary while the torso and arms perform various expressive gestures.
 NARRATION: It is a solo dance that emphasizes lateral motion and rhythmic intensity.
 NARRATION: Watch for The Aloof, The Heavyweight.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mcrZIK3gqbU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Stationary solo dancing; requires very little floor space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Typically performed in social settings like discotheques or parties. 1960s mod fashion, including miniskirts and boots, often accompanied the dance. In theatrical contexts, it was performed in stylized, high-fashion costumes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mcrZIK3gqbU', 'checked_by_vision_model': True, 'title': 'Bob Fosse dance numbers -  " The Rich Man\'s Frug "'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Black and white television scan lines, Go-go boots on a wooden floor, Close-ups of rhythmic hip swaying, Angular, Fosse-style silhouettes
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
+Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
+Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/Frug_(dance); https://www.wikidata.org/wiki/Q7735386

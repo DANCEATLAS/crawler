@@ -3,21 +3,22 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "not derivable yet"
+          "complex hip isolations"
         ],
-        "counts": "not derivable yet",
-        "duration_minutes": "not derivable yet",
-        "game_version": "not derivable yet"
+        "counts": "Basic 4-count steps.",
+        "duration_minutes": "3",
+        "game_version": "Follow-the-leader dance game."
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "not derivable yet"
+          "rapid hip jerks",
+          "excessive weight shifting"
         ],
-        "counts": "not derivable yet",
-        "seated_version": "not derivable yet",
-        "standing_version": "not derivable yet",
-        "tempo_and_range": "not derivable yet"
+        "counts": "Simplified 4-count rhythm.",
+        "seated_version": "Perform hip sways and arm movements while seated.",
+        "standing_version": "Supportive standing with reduced hip range.",
+        "tempo_and_range": "Reduced tempo to ensure comfort."
       }
     },
     "interaction_profile": {
@@ -27,66 +28,67 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Fluid, expressive movements.",
+      "arms_and_hands": "Fluid, expressive movements that often follow the melody of the lead guitar.",
       "difficulty": "intermediate",
-      "footwork": "Shifting weight between legs, rhythmic stepping.",
-      "formation_and_space": "Freestyle, individual or group.",
-      "hips_and_torso": "Energetic hip movements are a signature element.",
+      "footwork": "Shifting weight between legs in a rhythmic cadence.",
+      "formation_and_space": "Freestyle; dancers often occupy space in clubs or dance halls.",
+      "hips_and_torso": "Rapid, rhythmic hip movements are the defining feature of the dance.",
       "levels_and_jumps": "not described in sources",
-      "partnering": "not described in sources",
-      "posture": "Upright with fluid torso movement.",
+      "partnering": "Can be performed solo or as a partnered dance.",
+      "posture": "Upright but relaxed, with knees slightly bent to allow for hip mobility.",
       "signature_moves": [
         {
-          "description": "Rapid, rhythmic motion of the hips.",
-          "name": "Hip movement"
+          "description": "Rapid, rhythmic movement of the hips synchronized with the percussion.",
+          "name": "Hip Shaking"
         }
       ],
       "tempo_feel": "Fast and energetic.",
-      "what_to_avoid": "not described in sources"
+      "what_to_avoid": "Avoid rigid posture; the dance requires fluidity and continuous motion."
     },
     "music_profile": {
       "instruments": [
-        "Electric guitar",
-        "Double bass",
-        "Congas",
-        "Brass",
-        "Woodwinds"
+        "electric guitar",
+        "double bass",
+        "congas",
+        "brass",
+        "woodwinds"
       ],
       "meter": "4/4",
       "mood_keywords": [
-        "Energetic",
-        "Festive",
-        "Hypnotic"
+        "energetic",
+        "festive",
+        "hypnotic"
       ],
-      "musical_form": "Alternation between vocal passages and extended instrumental sebene.",
+      "musical_form": "Alternation between vocal passages and the sebene (instrumental bridge).",
       "reference_recordings": [
-        {
-          "artist": "Antoine Wendo Kolosoy",
-          "title": "Marie-Louise"
-        },
         {
           "artist": "Docteur Nico",
           "title": "Kiri-Kiri Mabina Ya Sika"
+        },
+        {
+          "artist": "African All Stars",
+          "title": "Suzana Coulibaly"
         }
       ],
-      "rhythm_pattern": "16th-note bass cadence, cavacha percussion beat.",
-      "sound_description": "Characterized by rapid, intricate electric guitar solos in the higher registers and a driving, percussive bassline.",
-      "tempo_bpm": "128",
+      "rhythm_pattern": "16th-note bass cadence, cavacha percussion rhythm",
+      "sound_description": "Fast-paced, guitar-driven music featuring intricate, high-pitched lead guitar lines and a rhythmic, driving bassline.",
+      "tempo_bpm": "not described in sources",
       "vocal_style": "Call-and-response, often in Lingala, Kikongo, French, or Swahili."
     },
     "teaching": {
       "basic_steps": [
-        "Shifting body weight between legs",
-        "Rhythmic hip movement",
-        "Freestyle movement during sebene"
+        "Shift weight from left to right leg in time with the 4/4 beat.",
+        "Engage hips in a rhythmic, circular or side-to-side motion.",
+        "Maintain a slight knee bend to facilitate fluid movement.",
+        "Incorporate freestyle arm movements that mirror the guitar's melody."
       ],
-      "formation": "Freestyle, often in dance halls or clubs.",
-      "level_notes": "Requires high energy and coordination of hip and leg movements.",
-      "rhythm": "Fast-paced 4/4 time, often with a 16th-note bass cadence."
+      "formation": "Freestyle, often in pairs or groups in a club or social setting.",
+      "level_notes": "Requires high stamina and coordination between hip and foot movement.",
+      "rhythm": "Fast-paced 4/4 time with a 16th-note bass cadence."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "50f3036cbf634e106fe73b6f390d9b6d0e1d73d181c9418643cfb2bc4278d709",
+  "fingerprint": "2de7809da4f23b8bb3d6ac386f8a173550444ae05abc5d06d60f98cc0dfc343e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -94,8 +96,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific standardized footwork patterns for the sebene section that can be taught to beginners? Evidence needed: Instructional dance videos or pedagogical manuals on Congolese dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -122,7 +124,17 @@
   ],
   "music_options": [],
   "name": "soukous",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "d21f9c991c4a1c74",
+      "next_evidence": "Instructional dance videos or pedagogical manuals on Congolese dance.",
+      "question": "Are there specific standardized footwork patterns for the sebene section that can be taught to beginners?",
+      "source": "https://en.wikipedia.org/wiki/Soukous",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide clear, actionable teaching material for the interactive platform."
+    }
+  ],
   "research_file": "research_results/soukous.json",
   "runtime_active": false,
   "scope": {
@@ -136,9 +148,10 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Soukous",
     "https://www.wikidata.org/wiki/Q1752683",
-    "https://es.wikipedia.org/wiki/Soukous",
     "https://fr.wikipedia.org/wiki/Soukous",
+    "https://es.wikipedia.org/wiki/Soukous",
     "https://de.wikipedia.org/wiki/Soukous",
+    "https://it.wikipedia.org/wiki/Rumba_africana",
     "https://archive.org/details/breakoutprofiles00stew"
   ],
   "state": "researching",

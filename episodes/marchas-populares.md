@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.7 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -22,7 +22,7 @@ NARRATION: Historical records mention neighborhood marches in Lisbon as early as
 NARRATION: Organized by José Leitão de Barros and Norberto de Araújo, the first event aimed to centralize the various local celebrations into a single grand parade.
 NARRATION: By 1940, the marches took on national significance during the double centenary of the Portuguese State and the Restoration of Independence.
 ON SCREEN: Map: Portugal · Europe
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -54,10 +54,9 @@ NEEDS: tempo, meter
 NARRATION: Costumes are handmade and elaborate, designed to reflect the year's specific theme while incorporating traditional Portuguese motifs.
 NARRATION: Common visual elements include the 'manjerico' plant and maritime symbols.
 NARRATION: The primary setting is the Avenida da Liberdade in Lisbon, which is lined with spectators, though preliminary judging occurs in closed stadiums like the Altice Arena.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 6 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: José Leitão de Barros is credited with creating the modern competitive format in 1932.
@@ -289,7 +288,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 6 licensed — Béria Lima de Rodríguez / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Béria Lima de Rodríguez / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Béria Lima de Rodríguez / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Béria Lima de Rodríguez / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Béria Lima de Rodríguez / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 
 Costume notes: Costumes are handmade and elaborate, designed to reflect the year's specific theme while incorporating traditional Portuguese motifs. Common visual elements include the 'manjerico' plant and maritime symbols. The primary setting is the Avenida da Liberdade in Lisbon, which is lined with spectators, though preliminary judging occurs in closed stadiums like the Altice Arena.
@@ -298,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (4): https://en.wikipedia.org/wiki/Marchas_Populares; https://www.wikidata.org/wiki/Q1893443; https://pt.wikipedia.org/wiki/Marchas_populares_de_Lisboa; https://de.wikipedia.org/wiki/Marchas_Populares

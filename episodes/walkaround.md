@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.45 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historical dance archivist focused on 19th-century stage performance mechanics and rhythm.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: From Sacred Ring to Minstrel Stage
 NARRATION: This is walkaround. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (hpNdQDWgy7I)
 ON SCREEN: Title card: walkaround · United States · 19th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers start seated in a semicircle.
 NARRATION: At the onset of fast 2/4 or 4/4 music, they stand and clap or slap their bodies ('patting Juba').
 NARRATION: Individual dancers or couples step downstage to the center of the semicircle, performing elaborate steps for roughly 16 bars.
 NARRATION: Watch for Patting Juba, Downstage Solo.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (hpNdQDWgy7I)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers begin seated in an opening semicircle, move downstage to the focal point for solos, and break ranks across the stage for the finale.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'hpNdQDWgy7I', 'checked_by_vision_model': True, 'title': 'JUBA DANCE: The dance of African slaves in American plantations'}
 Images: 2 licensed — Wikimedia Commons / Public domain (Public domain); Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Semicircle stage layout, Body slap hand contact, Center-stage spotlight downstage
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
+Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
+Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (3): https://en.wikipedia.org/wiki/Walkaround; https://www.wikidata.org/wiki/Q7962157; https://fr.wikipedia.org/wiki/Walkaround

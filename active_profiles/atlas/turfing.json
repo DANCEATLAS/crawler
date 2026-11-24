@@ -1,13 +1,93 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex contortioning",
+          "High-impact floor work"
+        ],
+        "counts": "Simplified counts",
+        "duration_minutes": "15",
+        "game_version": "Use storytelling pantomime to act out simple everyday activities or animal movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Balance-intensive movements",
+          "Knee-straining pivots",
+          "Floor work"
+        ],
+        "counts": "Not derivable yet",
+        "seated_version": "Focus on arm and hand movements such as waving, tutting, and flexing while seated.",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Reduced tempo and range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Includes waving, tutting, and flexing.",
+      "difficulty": "beginner",
+      "footwork": "Gliding is heavily used to create optical illusions.",
+      "formation_and_space": "Improvisational and free-flowing; dancers take up room on the floor.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Pantomime-based style used to act out life stories or everyday activities.",
+          "name": "Storytelling"
+        },
+        {
+          "description": "Movement used to create optical illusions of weightlessness.",
+          "name": "Gliding"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "expressive",
+        "emotional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "E-40",
+          "title": "Tell Me When to Go"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Two step",
+        "Brookfield",
+        "Auntie",
+        "Shaking",
+        "The busta",
+        "Cliffhangers",
+        "Tsunamis",
+        "Traces"
+      ],
+      "formation": "Improvisational and free-flowing",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "8030d9644826e258ff42ebd4e0aa0adcef4ab8038f48874cc59b12aaec71bda3",
+  "fingerprint": "7a7bf15fd7c24c9241126ae25e0e2835db6ebf286c5bddbda0538455b572b5f6",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +95,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical characteristics (tempo, meter, instrumentation) of the hyphy music used for turfing? Evidence needed: Musicological analysis of Oakland hyphy tracks."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +113,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,8 +124,18 @@
   ],
   "music_options": [],
   "name": "Turfing",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e392e71609165b03",
+      "next_evidence": "Musicological analysis of Oakland hyphy tracks.",
+      "question": "What are the specific musical characteristics (tempo, meter, instrumentation) of the hyphy music used for turfing?",
+      "source": "https://en.wikipedia.org/wiki/Turfing",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current music profile lacks technical detail required for musical recreation."
+    }
+  ],
+  "research_file": "research_results/turfing.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +147,14 @@
   "slug": "turfing",
   "sources": [
     "https://en.wikipedia.org/wiki/Turfing",
-    "Source: Turfing on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Turfing"
+    "https://www.wikidata.org/wiki/Q10385518"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/xdJqRc3kX-4.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=xdJqRc3kX-4"
+    }
+  ]
 }

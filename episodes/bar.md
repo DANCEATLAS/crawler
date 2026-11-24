@@ -98,7 +98,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars. The meter is 5/8, 9/8, 6/8, 12/8.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -106,16 +106,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -132,7 +132,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,7 +160,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars. The meter is 5/8, 9/8, 6/8, 12/8.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -168,16 +168,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -194,7 +194,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Side-by-side group formation in open spaces.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -222,7 +222,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars. The meter is 5/8, 9/8, 6/8, 12/8.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -230,16 +230,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -256,7 +256,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Side-by-side group formation in open spaces.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -294,9 +294,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
-Counting: count the 5/8, 9/8, 6/8, 12/8 bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: step to the right; right step right touch; step touch; right left right touch
 
 Sources (2): https://en.wikipedia.org/wiki/Bar_(dance); https://www.wikidata.org/wiki/Q4857863

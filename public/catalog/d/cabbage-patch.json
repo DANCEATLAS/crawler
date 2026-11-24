@@ -71,24 +71,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "picture",
@@ -97,13 +85,111 @@
   ],
   "via": {
    "footwork_counts": "lesson",
+   "posture": "performance",
+   "formation": "performance",
    "signature_moves": "lesson",
    "rhythm": "lesson",
+   "sound": "performance",
    "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "EUuqLa1oqo8",
+   "url": "https://www.youtube.com/watch?v=EUuqLa1oqo8",
+   "title": "Learn Hip Hop Dance: Cabbage Patch",
+   "channel": "MahaloDance",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8 / 1-2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Instructor introduces himself and the Cabbage Patch move"
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "Breaks down the footwork starting with the right foot"
+    },
+    {
+     "t": "1:13",
+     "seconds": 73,
+     "segment": "breakdown",
+     "note": "Adds arm movements and running image instruction"
+    },
+    {
+     "t": "1:59",
+     "seconds": 119,
+     "segment": "breakdown",
+     "note": "Teaches an alternative variation using hops"
+    },
+    {
+     "t": "2:26",
+     "seconds": 146,
+     "segment": "music_practice",
+     "note": "Demonstrates the dance with music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Cabbage Patch (Footwork)",
+     "counts": "1-2-3-4",
+     "description": "Step and tap foot pattern starting with the right foot"
+    },
+    {
+     "name": "Cabbage Patch (Arms)",
+     "counts": "1-2-3-4",
+     "description": "Alternating arm pumping motion simulating running"
+    }
+   ],
+   "cues": [
+    "one two three and four",
+    "right left right"
+   ],
+   "images": [
+    "like I'm running"
+   ],
+   "teacher_style": "The instructor breaks down movements methodically from the feet up to the arms. He provides multiple variations of the step and pairs them with music demonstration.",
+   "distinctive_method": "Uses split screen to simultaneously show a full body view and a close-up angle of the feet.",
+   "what_works": [
+    "Splits the lesson into feet first then arms",
+    "Provides split screen showing close up of feet"
+   ],
+   "what_hinders": [
+    "No back angle demonstration"
+   ],
+   "evidence": [
+    {
+     "start_s": 13,
+     "end_s": 22,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates foot movement while split screen shows foot close-up",
+     "viewpoint": "front",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 113,
+     "end_s": 124,
+     "topic": "movement",
+     "observation": "Instructor coordinates arm pumping action with step",
+     "viewpoint": "front",
+     "cannot_infer": "tension in shoulders",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "d8OdqTcpuj8",
    "url": "https://www.youtube.com/watch?v=d8OdqTcpuj8",
@@ -254,6 +340,46 @@
    }
   }
  ],
- "fingerprint": "407e448c16fd17aa",
+ "performances": [
+  {
+   "youtube_id": "iThvvymF-5o",
+   "url": "https://www.youtube.com/watch?v=iThvvymF-5o",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A studio with a plain blue background and purple-tinted floor.",
+    "dancers": "One man demonstrating, then various individuals (men and women) attempting the dance.",
+    "formation_and_space": "Solo dancers standing in front of a stationary person holding a sign.",
+    "posture": "Upright torso, knees slightly bent, weight shifting from side to side.",
+    "footwork": "A side-to-side step-touch or weight shift, keeping the feet relatively close together.",
+    "arms_and_hands": "Hands are held in loose fists and rotated in a circular, swirling motion in front of the chest.",
+    "hips_and_torso": "Minimal torso movement, slight swaying with the weight shifts.",
+    "partnering": "None.",
+    "levels_jumps_turns": "Standing level, no jumps or turns.",
+    "costume_and_props": "Casual street clothes (jeans, t-shirts, hoodies, sneakers). One person holds a sign reading 'CABBAGE PATCH'.",
+    "cannot_infer": "The video is a series of short clips and comedic attempts, making it difficult to determine the full, continuous footwork or the exact rhythm of the dance.",
+    "music_heard": {
+     "instruments": [
+      "electronic beat"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 2,
+      "what": "The demonstrator stands with knees bent and rotates both hands in loose fists in a circular motion in front of the chest while shifting weight side to side."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "85d8814e7b1c4b95",
  "updated": "2026-11-24"
 }

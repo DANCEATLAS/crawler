@@ -1,106 +1,106 @@
 {
- "updated_at": "2026-11-23T21:30:31Z",
- "qc_records_considered": 991,
+ "updated_at": "2026-11-24T20:13:43Z",
+ "qc_records_considered": 1039,
  "gate_failures": [
   [
    "sections_filled",
-   216
+   224
   ],
   [
    "citations",
-   118
+   123
   ],
   [
    "sacred_handled",
-   95
+   99
   ],
   [
    "profile_long_len",
-   92
-  ],
-  [
-   "banned_phrasing",
-   91
-  ],
-  [
-   "country",
-   88
+   97
   ],
   [
    "insight_concrete",
-   86
+   94
+  ],
+  [
+   "banned_phrasing",
+   93
+  ],
+  [
+   "country",
+   91
+  ],
+  [
+   "sources",
+   39
   ],
   [
    "not_duplicate",
    39
   ],
   [
-   "sources",
-   37
-  ],
-  [
-   "region",
-   10
+   "profile_len",
+   11
   ]
  ],
  "reasons": [
   [
    "sacred",
-   406
+   418
   ],
   [
    "sections_filled",
-   216
+   224
   ],
   [
    "not_a_dance",
-   189
+   195
   ],
   [
    "citations",
-   118
+   123
   ],
   [
    "sacred_handled",
-   95
+   99
   ],
   [
    "profile_long_len",
-   92
-  ],
-  [
-   "banned_phrasing",
-   91
-  ],
-  [
-   "country",
-   88
+   97
   ],
   [
    "insight_concrete",
-   86
+   94
+  ],
+  [
+   "banned_phrasing",
+   93
+  ],
+  [
+   "country",
+   91
   ],
   [
    "doubts=1",
-   73
+   74
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'unsupported'",
-   34
+   35
   ],
   [
    "judge notes mention 'thin'",
-   23
+   24
   ],
   [
    "judge notes mention 'missing'",
-   22
+   23
   ],
   [
    "judge notes mention 'generic'",
-   10
+   11
   ],
   [
    "judge notes mention 'inaccura'",
@@ -108,7 +108,11 @@
   ],
   [
    "judge notes mention 'placeholder'",
-   4
+   7
+  ],
+  [
+   "judge notes mention 'stereotyp'",
+   2
   ],
   [
    "doubt: The claim that the 'Harlem Shuffle' is a 25-step line dance originating in the Harlem Renaissance is historically unsubs",
@@ -121,98 +125,94 @@
   [
    "doubt: P'aquchi is identified in archival and genealogical data repositories as a Bolivian dance tradition.",
    1
-  ],
-  [
-   "doubt: Listed in international cataloguing databases as a distinct dance form.",
-   1
   ]
  ],
  "episode_gaps_top": [
   [
    "a verified recording to listen to",
-   490
+   519
   ],
   [
    "tempo (bpm)",
-   484
-  ],
-  [
-   "licensed images (3 needed)",
-   401
-  ],
-  [
-   "meter",
-   365
+   510
   ],
   [
    "licensed reference footage",
-   313
+   419
+  ],
+  [
+   "licensed images (3 needed)",
+   409
+  ],
+  [
+   "meter",
+   381
   ],
   [
    "two or more connections",
-   293
+   307
   ],
   [
    "what to avoid / common mistakes",
-   201
+   212
   ],
   [
    "instruments",
-   166
-  ],
-  [
-   "signature moves",
-   155
+   174
   ],
   [
    "notable figures",
-   154
+   164
+  ],
+  [
+   "signature moves",
+   160
   ],
   [
    "a hero video",
-   152
+   156
   ],
   [
    "the costume & setting section",
-   137
+   141
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (216 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (118 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (95 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (92 pages in 30 days)",
-  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (91 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (224 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (123 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (99 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (97 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (94 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "a verified recording to listen to",
-   "pages": 490,
+   "pages": 519,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "tempo (bpm)",
-   "pages": 484,
+   "pages": 510,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
+   "gap": "licensed reference footage",
+   "pages": 419,
+   "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
+  },
+  {
    "gap": "licensed images (3 needed)",
-   "pages": 401,
+   "pages": 409,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "meter",
-   "pages": 365,
+   "pages": 381,
    "what_helps": "a source that states the time signature"
   },
   {
-   "gap": "licensed reference footage",
-   "pages": 313,
-   "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
-  },
-  {
    "gap": "two or more connections",
-   "pages": 293,
+   "pages": 307,
    "what_helps": "sources that relate the dance to its relatives"
   }
  ]

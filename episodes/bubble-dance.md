@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 7.9 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; posture, arms and hands; the how-it-is-danced section; the music & instruments section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Theatrical historian specializing in 20th-century stage performance
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The bubble dance emerged in early 20th-century entertainment and gained defining recognition when performer Sally Rand popularized the solo stage act in the 1930s.
 NARRATION: The routine featured a performer maneuvering a large spherical prop while dancing on stage before a live audience.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -49,10 +49,9 @@ NEEDS: music_and_instruments, tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The defining attire of the soloist in classic bubble dance performances is nudity, with the dancer relying on a large spherical prop shaped like a balloon or ball placed between herself and the spectators.
 NARRATION: In contemporary 1930s film appearances and cartoon depictions, stage settings feature dramatic spotlighting, stage curtains, and proscenium framing that emphasize the soloist's movement.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 5 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Sally Rand is the central historical figure associated with the bubble dance, having brought the form to national fame in the 1930s.
@@ -277,7 +276,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'XM1BX5ka5Zg', 'checked_by_vision_model': True, 'title': "Burlesque dancer - Sally Rand's 'Bubble Dance'"}
-Images: 0 licensed
+Images: 5 licensed — Willy Pragher / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Nicu Buculei / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Maurice Goldberg / Wikimedia Commons / Public domain (Public domain); AnonymousUnknown author / Wikimedia Commons / Public domain (Public domain); William Morris Agency / Wikimedia Commons / Public domain (Public domain)
 Footage: SALLY RAND BALLOON BUBBLE DANCE PERFORMANCE LITA BARON & GRACIE BARRIE 1940s MUSIC VIDEO XD10084 — https://archive.org/details/xd-10084-ive-got-to-get-hot-vwr-1; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand_202609; Bubble Dance By Sally Rand — https://archive.org/details/bubble-dance-by-sally-rand
 Motifs: Large spherical opaque or translucent balloon, Dramatic stage spotlighting, Vintage theatre curtain backdrop
 Costume notes: The defining attire of the soloist in classic bubble dance performances is nudity, with the dancer relying on a large spherical prop shaped like a balloon or ball placed between herself and the spectators. In contemporary 1930s film appearances and cartoon depictions, stage settings feature dramatic spotlighting, stage curtains, and proscenium framing that emphasize the soloist's movement.

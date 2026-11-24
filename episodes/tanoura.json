@@ -1,0 +1,463 @@
+{
+ "slug": "tanoura",
+ "name": "Tanoura",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:18Z",
+ "researched_at": "2026-11-24T21:35:48Z",
+ "qc_score": 9.1,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A professional Tanoura dancer from Cairo.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tanoura",
+   "tannoura",
+   "tanura",
+   "skirt dance",
+   "Egyptian Sufi whirling"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tanoura",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Spinning Cosmos of Egypt",
+     "This is Tanoura. 13th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (752UqrT3Mxk)",
+     "Title card: Tanoura · Egypt · 13th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Tanoura originated from the Sufi whirling tradition, which was established by the mystic poet Rumi in the 13th century.",
+     "While the Mevlevi order in Turkey maintained the white-robed sema, the Egyptian form evolved into the tanoura, incorporating colorful skirts and becoming a distinct folk dance."
+    ],
+    "on_screen": [
+     "Map: Egypt · Middle East",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Tanoura is performed at Sufi festivals, moulids, and as a concert dance.",
+     "It serves as a visual representation of the cosmos and the connection between the divine and humanity, while also functioning as a form of entertainment.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Tanoura.Traditioneller ägyptischer Volkstanz 2H1A0277.webm (https://upload.wikimedia.org/wikipedia/commons/8/8c/Tanoura.Traditioneller_%C3%A4gyptischer_Volkstanz_2H1A0277.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dancer spins continuously, typically counter-clockwise, around the left foot.",
+     "The right foot provides the impetus for the rotation.",
+     "Arms are held with the right hand directed toward the sky and the left hand toward the earth.",
+     "Watch for Whirling."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (752UqrT3Mxk)",
+     "Captions name each signature move as it appears",
+     "Formation: Solo, circular path."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music is central to the performance, often featuring the ney (flute) and various percussion instruments.",
+     "The music is derived from the dhikr, a form of Islamic prayer and remembrance, and is intended to nourish the soul.",
+     "Listen for the ney, percussion.",
+     "The music is characterized by the haunting sound of the ney flute and steady, rhythmic percussion, creating a trance-like atmosphere suitable for long-duration spinning."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: repetitive, hypnotic"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The primary costume is the tanoura, a heavy, multi-layered, and colorful skirt.",
+     "The colors represent different Sufi orders.",
+     "The dance is performed in various settings, including Sufi festivals, cultural heritage venues, and concert halls."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Shafik Ibrahim Abd El Hamed (record holder for most whirls in one hour).",
+     "The Turkish Mevlevi sema (white robes, meditative), Pakistani Dhamaal (performed at shrines, involves skipping and drumming).",
+     "Derived from the Sufi dhikr and the Mevlevi sema ceremony."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tanoura is parent of Sufi whirling: Tanoura is the Egyptian adaptation of the original Sufi whirling ritual."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "While the performance version is secular, the dance originates from the sacred Sufi dhikr. Performers and observers should treat the spiritual origins with respect, particularly when performed in a religious context."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the hypnotic art of Tanoura, where ancient Sufi meditation meets modern performance.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "repetitive, hypnotic",
+  "instruments": [
+   "ney",
+   "percussion"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "meditative",
+   "ecstatic",
+   "spiritual"
+  ],
+  "sound_description": "The music is characterized by the haunting sound of the ney flute and steady, rhythmic percussion, creating a trance-like atmosphere suitable for long-duration spinning.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Tanoura (Egypt). Rhythm pattern: repetitive, hypnotic. Instruments: ney, percussion. Mood: meditative, ecstatic, spiritual. It should sound like this: The music is characterized by the haunting sound of the ney flute and steady, rhythmic percussion, creating a trance-like atmosphere suitable for long-duration spinning. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "752UqrT3Mxk",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The primary costume is the tanoura, a heavy, multi-layered, and colorful skirt. The colors represent different Sufi orders. The dance is performed in various settings, including Sufi festivals, cultural heritage venues, and concert halls.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AWhirlingdervishes.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AWhirling_dervishes%2C_Rumi_Fest_2007.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AWhirling_Dervishes_2.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Whirlingdervishes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Whirlingdervishes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "myself / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWhirlingdervishes.JPG",
+    "description": "Whirling Dervishes from Turkey. They belong to a Sufi Islamic sect called the Mevlevi founded by the famous philosopher Mevlana. Picture was taken from the top viewing gallery."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Whirling_dervishes%2C_Rumi_Fest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Whirling_dervishes%2C_Rumi_Fest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "diaz / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWhirling_dervishes%2C_Rumi_Fest_2007.jpg",
+    "description": "Whirling dervishes or Darveshes, Rumi Fest 2007."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Whirling_Dervishes_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Whirling_Dervishes_2.JPG/1280px-Whirling_Dervishes_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Vladimer Shioshvili / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWhirling_Dervishes_2.JPG",
+    "description": "Followers of the Sufi Mysticism. Two different groups give concerts at the Sirkeci Railway Station in Istanbul on different days of the week. One hour session starts with a Sufi concert and is followed by the ceremony called Sema."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Turkish_whirling_dervishes_of_Mevlevi_Order%2C_bowing_in_unison_during_the_Sema_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Turkish_whirling_dervishes_of_Mevlevi_Order%2C_bowing_in_unison_during_the_Sema_ceremony.jpg/1280px-Turkish_whirling_dervishes_of_Mevlevi_Order%2C_bowing_in_unison_during_the_Sema_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Quinn Dombrowski / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATurkish_whirling_dervishes_of_Mevlevi_Order%2C_bowing_in_unison_during_the_Sema_ceremony.jpg",
+    "description": "Turkish whirling dervishes of Mevlevi Order, bowing in unison during the Sema ceremony at Chicago Turkish Festival."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Dervishes_Avanos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Dervishes_Avanos.JPG/1280px-Dervishes_Avanos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Schorle / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADervishes_Avanos.JPG",
+    "description": "Semâ ceremony at the Dervishes Culture Center at Avanos, Turkey.  A huge \"Thank You\" to the dervishes for the opportunity to make this foto at their holy ceremony."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dansende_derwisjen_Rijksmuseum_SK-A-4081.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dansende_derwisjen_Rijksmuseum_SK-A-4081.jpeg/1280px-Dansende_derwisjen_Rijksmuseum_SK-A-4081.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jean Baptiste Vanmour / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADansende_derwisjen_Rijksmuseum_SK-A-4081.jpeg",
+    "description": "Derwishen of islamitische heiligmannen namen in het religieus tolerante Istanbul een bijzondere plaats in. Net als christelijke monniken zwierven sommige derwishen over het platteland of door de stad, terwijl anderen in gemeenschappen of ordes leefden. De bekenste orde is die van de Mevlevi-derwishen, de volgelingen van de filosoof en mystieke dichter Jalal ad-Din Rumi (1207-1273), die ook wel Mev"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tanoura_Dance%2C_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanoura_Dance%2C_Egypt.jpg/1280px-Tanoura_Dance%2C_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tsidoti / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATanoura_Dance%2C_Egypt.jpg",
+    "description": "This is an image of Cultural Fashion or Adornment from"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Whirling_Dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Whirling_Dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Viapastrengo / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWhirling_Dancer.jpg",
+    "description": "My photo of a whirling dance artist performing a whirling dance."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Tanoura.Traditioneller ägyptischer Volkstanz 2H1A0277.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tanoura.Traditioneller_%C3%A4gyptischer_Volkstanz_2H1A0277.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Kora27 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Tanoura.Traditioneller ägyptischer Volkstanz 2H1A1584.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tanoura.Traditioneller_%C3%A4gyptischer_Volkstanz_2H1A1584.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Kora27 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Tanoura.Traditioneller ägyptischer Volkstanz 2H1A15842H1A1585.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tanoura.Traditioneller_%C3%A4gyptischer_Volkstanz_2H1A15842H1A1585.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Kora27 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "The Egyptian boy fighting cancer with Tanoura dancing",
+    "url": "https://archive.org/details/youtube-Am2eCF6VroU",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Tanura-Tänzer. Drehtanz. Ägypten MVI 4596.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tanura-T%C3%A4nzer._Drehtanz._%C3%84gypten_MVI_4596.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Kora27 / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Colorful spinning skirts",
+   "Close-up of the dancer's feet",
+   "The ney flute player"
+  ],
+  "costume_notes": "The primary costume is the tanoura, a heavy, multi-layered, and colorful skirt. The colors represent different Sufi orders. The dance is performed in various settings, including Sufi festivals, cultural heritage venues, and concert halls.",
+  "setting_notes": "Tanoura is performed at Sufi festivals, moulids, and as a concert dance. It serves as a visual representation of the cosmos and the connection between the divine and humanity, while also functioning as a form of entertainment.",
+  "map": {
+   "country": "Egypt",
+   "region": "Middle East",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "15 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 15,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sufi_whirling",
+  "https://www.wikidata.org/wiki/Q4120716",
+  "https://it.wikipedia.org/wiki/Derviscio_rotante"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "89390c0fc0b59c8eee35548c7dcc9aa7b2455130dce7f19bf5bda22dc85ef00d",
+ "hero_checked": "pass"
+}

@@ -1,0 +1,165 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex elliptical paths until basic rhythm is mastered"
+        ],
+        "counts": "Simple 1-2 stepping.",
+        "duration_minutes": "3",
+        "game_version": "The 'Mixing Pot' game: children must 'stir' faster as the music speeds up."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid weight shifts",
+          "Overextending shoulders during high arm movements"
+        ],
+        "counts": "Focus on a steady 1-2-1-2 count for hands.",
+        "seated_version": "Perform the elliptical hand motions while seated, focusing on the push-pull coordination.",
+        "standing_version": "Maintain a wider stance for balance; reduce the height of foot lifts.",
+        "tempo_and_range": "Perform to slower kachāshī tracks like 'Amakawa bushi'."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands raised high; elliptical 'push and pull' motion; palms flat for women, fists for men.",
+      "difficulty": "intermediate",
+      "footwork": "Alternately lifting and lowering the feet to the rhythm; mostly improvised.",
+      "formation_and_space": "Spontaneous group 'mixing'; no fixed formation.",
+      "hips_and_torso": "Loose and responsive to the rhythmic stepping.",
+      "levels_and_jumps": "Low to ground; no significant jumps described.",
+      "partnering": "None, though performed in a dense communal group.",
+      "posture": "Slightly bow-legged, grounded but bouncy.",
+      "signature_moves": [
+        {
+          "description": "Alternating elliptical hand movements mimicking the act of mixing.",
+          "name": "The Stirring Motion"
+        }
+      ],
+      "tempo_feel": "Very fast and driving.",
+      "what_to_avoid": "Avoid stiff arms; the motion must be fluid and elliptical, not jerky."
+    },
+    "music_profile": {
+      "instruments": [
+        "Sanshin",
+        "Drum",
+        "Yubi-bue (finger whistle)"
+      ],
+      "meter": "2/4 or 4/4",
+      "mood_keywords": [
+        "festive",
+        "ecstatic",
+        "energetic",
+        "communal"
+      ],
+      "musical_form": "Strophic with accelerating tempo.",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Tooshin dooi"
+        },
+        {
+          "artist": "Traditional",
+          "title": "Kaadikuuu"
+        }
+      ],
+      "rhythm_pattern": "Rapid, driving eighth-note plucking on the sanshin with steady drum pulses.",
+      "sound_description": "A high-energy sound dominated by the bright, percussive twang of the sanshin and the sharp, piercing interruptions of finger whistling. The tempo often increases toward a frantic, joyful climax.",
+      "tempo_bpm": "140-180",
+      "vocal_style": "Energetic, celebratory chanting and singing."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume a slight bow-legged stance with knees relaxed.",
+        "Raise both hands above head level.",
+        "For men, curl hands into fists; for women, keep palms flat.",
+        "Move hands in an alternating elliptical motion, one pushing out and up, the other pulling in and down.",
+        "Step rhythmically by lifting and lowering feet in place to the sanshin beat."
+      ],
+      "formation": "Improvisational group gathering, often forming a spontaneous crowd.",
+      "level_notes": "The hand coordination is considered difficult for beginners and requires specific training.",
+      "rhythm": "Fast, driving syncopation punctuated by finger whistles."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "aa549ee5f88117165314b0457e30eb8b6f492b7cbee4c7c78c270caafe4241f6",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific 'yubi-bue' patterns that correspond to changes in the dance movement? Evidence needed: https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the exact degree of the 'slight bow-legged stance' required for authentic balance? Evidence needed: https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB"
+    ]
+  },
+  "id": "atlas:kachashi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "kachāshī",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "195e916fd34e7a6a",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB",
+      "question": "What is the exact degree of the 'slight bow-legged stance' required for authentic balance?",
+      "source": "https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure correct posture in interactive skeletal tracking."
+    },
+    {
+      "domain": "research",
+      "id": "e1d06c711f64f33e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB",
+      "question": "Are there specific 'yubi-bue' patterns that correspond to changes in the dance movement?",
+      "source": "https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB",
+      "status": "candidate_unreviewed",
+      "why_needed": "To determine if the whistling acts as a cue for dancers or is purely atmospheric."
+    }
+  ],
+  "research_file": "research_results/kachashi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kachashi",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB",
+    "https://www.wikidata.org/wiki/Q6149547",
+    "https://pt.wikipedia.org/wiki/Kachāshī"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

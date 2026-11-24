@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "te-buki",
  "name": "Te Buki",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "KI"
@@ -12,7 +12,9 @@
   "name": "Te Buki",
   "country": "Kiribati",
   "country_code": "KI",
+  "flag_emoji": "🇰🇮",
   "region": "Kiribati",
+  "family": "ritual-sacred",
   "era": "Relatively modern within Kiribati dance history",
   "tagline": "I-Kiribati women's hip-swaying dance in heavy skirt",
   "profile": "Te Buki is a Kiribati dance performed only by women, originating in the northern Gilbert islands of Butaritari and Makin but danced throughout the islands (Wikipedia: Dance in Kiribati). The dancer wears a thick, heavy coconut-frond skirt (te kakoko) that can weigh up to ten kilograms (22 pounds) and is generally shin length; as in other Pacific dances such as the Tahitian hura, the buki emphasises hip movement, with the torso and shoulders kept still and the hips moving gracefully like water. A wooden box (te orobaoki) is struck as percussion during formal performances.",
@@ -31,8 +33,12 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Dance_in_Kiribati",
-   "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   "https://en.wikipedia.org/wiki/Music_of_Kiribati",
+   "https://www.wikidata.org/wiki/Q6942139",
+   "https://es.wikipedia.org/wiki/Música_de_Kiribati"
   ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Music_of_Kiribati",
+  "wikidata_qid": "Q6942139",
   "unesco": false,
   "hero_video_youtube_id": "0ENOTPX-Btk",
   "video_stack": [
@@ -54,6 +60,26 @@
   "updated_at": "2026-06-08",
   "_is_sacred": false,
   "publish_gate": "publish",
+  "research_gate": "publish",
+  "qc_score": 8.5,
+  "last_researched_at": "2026-11-24T21:27:57Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Te Buki is a significant cultural expression within the archipelago of Kiribati, recognized specifically as a hip-swaying dance performed by women. Unlike the stick dances or the standing dance known as te kaimatoa, te buki focuses on the fluidity and control of the hips. The performance is deeply integrated with the musical traditions of the islands, which have remained relatively insulated from Western influence due to the late arrival of Europeans in 1892. The dance is not merely a display of movement but a formal event that requires specific rhythmic support from a male chorus. This chorus sits around a wooden box, known as te orobaoki, which is constructed to produce a deep, hollow, and reverberating sound when struck simultaneously by the men. This percussion serves as the heartbeat of the dance, dictating the tempo and intensity of the hip movements. The tradition of music and dance in Kiribati is historically linked to the te kainikamaen, composers who were believed to receive their songs through myth or magic, a skill passed down through generations. While modern compositions have become more accessible to the general public, the traditional structure of these performances remains a cornerstone of Kiribati identity. The dance is often categorized alongside other traditional series such as the ruoia, which includes various songs and movements documented by researchers like Gerd Koch in the 1960s. Because the music and dance are tied to cultural beliefs, including traditional warnings against misrepresenting songs as magical when they are merely poetic, the performance of te buki carries a weight of historical and social significance. It is a living tradition that continues to be practiced, maintaining its formal requirements even as the broader landscape of Kiribati music evolves with the introduction of guitars and other modern instruments in public settings.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kiribati_dancers_%287754772046%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Kiribati_dancers_%287754772046%29_%282%29.jpg/1280px-Kiribati_dancers_%287754772046%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2592,
+    "height": 1944,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Julie Lyn from Washington, DC, USA / Wikimedia Commons / CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKiribati_dancers_%287754772046%29_%282%29.jpg",
+    "description": "Kiribati dancers"
+   }
+  ],
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -67,6 +93,213 @@
    "te-kaimatoa"
   ]
  },
- "fingerprint": "ed1e6d35943564b8",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Te Buki is a traditional dance form of Kiribati. Its musical accompaniment is historically linked to the te kainikamaen, composers who were said to receive songs through myth or magic. The dance has been documented in various islands, including Tabiteuea, Onotoa, and Nonouti, notably by Gerd Koch in 1963.",
+   "how_it_is_danced": "The dance is performed by women who focus on hip movements. Formal performances require a seated chorus of men to strike a wooden box (te orobaoki) to provide the necessary percussion. Technique not described in sources beyond the emphasis on hip movement.",
+   "music_and_instruments": "The primary instrument for te buki is the te orobaoki, a wooden box constructed to produce a hollow, reverberating tone. The music is provided by a chorus of men who strike the box simultaneously. Traditional Kiribati music is often vocal-based, utilizing chanting.",
+   "costume_and_setting": "Formal performances of te buki take place in settings where a male chorus can be seated to strike the wooden box. Specific costume details are not described in sources.",
+   "occasions_and_meaning": "Te Buki is performed during formal occasions. It is a distinct form of dance within the Kiribati tradition, separate from competitive, religious, or war-themed songs.",
+   "notable_figures": "Bata Teinamati is noted as one of Kiribati's most notable musicians.",
+   "regional_variants": "The dance is performed across the islands of Kiribati, with documentation existing for performances in Tabiteuea, Onotoa, and Nonouti.",
+   "lineage": "Te Buki is part of the broader Kiribati dance tradition, which includes the ruoia series, te kaimatoa, and various stick dances (tirere)."
+  },
+  "teaching": {
+   "basic_steps": [
+    "not described in sources"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "Women dance while a chorus of men sits around a wooden box.",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "During formal performances of the hip dance (Te Buki) a wooden box is used as a percussion instrument.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   },
+   {
+    "text": "The wooden box is constructed to give a hollow and reverberating tone when struck by a chorus of men.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   },
+   {
+    "text": "In 1963, Gerd Koch filmed traditional dances and songs of the ruoia series, which includes various dance forms.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   },
+   {
+    "text": "Traditional music in Kiribati was composed by people known as te kainikamaen.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   },
+   {
+    "text": "Bata Teinamati is described as one of Kiribati's most notable musicians.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   },
+   {
+    "text": "Te Buki is a living tradition, as it is described as a dance performed in modern Kiribati.",
+    "source": "https://en.wikipedia.org/wiki/Music_of_Kiribati"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Kiribati dancers (7754772046) (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kiribati_dancers_%287754772046%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Kiribati_dancers_%287754772046%29_%282%29.jpg/1280px-Kiribati_dancers_%287754772046%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2592,
+    "height": 1944,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Julie Lyn from Washington, DC, USA",
+    "description": "Kiribati dancers",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKiribati_dancers_%287754772046%29_%282%29.jpg",
+    "attribution": "Julie Lyn from Washington, DC, USA / Wikimedia Commons / CC BY 2.0"
+   }
+  ],
+  "gaps": [
+   "Detailed footwork",
+   "Specific costume descriptions",
+   "Instructional methodology",
+   "Specific musical notation"
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "te orobaoki (wooden box)"
+   ],
+   "vocal_style": "chanting or vocalizing",
+   "musical_form": "formal performance",
+   "mood_keywords": [
+    "formal",
+    "reverberating"
+   ],
+   "reference_recordings": [],
+   "sound_description": "A hollow, reverberating tone produced by a chorus of men striking a wooden box simultaneously."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "hip-swaying movement",
+   "formation_and_space": "Women dance while a chorus of men sits around a wooden box.",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "not described in sources",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Rhythm of the Box: Te Buki",
+   "logline": "An exploration of the formal hip-swaying dance of Kiribati and the wooden box that drives its rhythm.",
+   "beats": [
+    "Introduction to the Kiribati islands",
+    "The role of the te kainikamaen composers",
+    "The construction of the te orobaoki",
+    "The male chorus and the hollow tone",
+    "The female dancer's hip movement",
+    "Historical documentation by Gerd Koch",
+    "The cultural significance of formal performances"
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Wooden box percussion",
+    "Coastal Kiribati landscape",
+    "Group performance"
+   ],
+   "instructor_persona": "not described in sources",
+   "music_cue": "Rhythmic striking of a wooden box"
+  },
+  "connections": [
+   {
+    "name": "Te Kaimatoa",
+    "relation": "sibling",
+    "note": "Another formal standing dance in Kiribati that also utilizes the wooden box for percussion."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-24T21:27:57Z",
+  "qc_score": 8.5
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 5,
+  "of": 15,
+  "missing": [
+   {
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "arms",
+    "label": "arms and hands"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 12,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/te-buki.json"
+ },
+ "fingerprint": "db561797372457ed",
+ "updated": "2026-11-24"
 }

@@ -12,7 +12,7 @@
 
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The eleventh-century antlers of Abbots Bromley.
-NARRATION: This is the Abbots Bromley Horn Dance. Medieval and seventeenth-century.
+NARRATION: This is the Abbots Bromley Horn Dance, dating from medieval and seventeenth-century times.
 ON SCREEN: Hero video, first 10 seconds (q5qCfQlipqE)
 ON SCREEN: Title card: Abbots Bromley Horn Dance · United Kingdom · Medieval / 17th century
 MUSIC: theme (30 s)
@@ -37,7 +37,7 @@ MUSIC: underscore
 NARRATION: The dance is composed of two main figures.
 NARRATION: In the first figure, the dancers process around in a circle before turning and circling back.
 NARRATION: In the second figure, the dancers face off in two rows, dancing together and apart before crossing over, turning around, and returning to their original places.
-NARRATION: Watch for the horn circle and row cross-over.
+NARRATION: Watch for the horn circle and the row cross-over.
 ON SCREEN: Hero video full screen, 30–45 s (q5qCfQlipqE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular procession followed by two opposing rows that face off, dance together, and cross over
@@ -47,7 +47,7 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 NARRATION: The dance is accompanied by a musician playing an accordion, historically a violin, and a youth with a triangle.
 NARRATION: Dancers holding the hobby horse's jaw and the bow and arrow also use them as percussion instruments to keep time.
 NARRATION: Listen for the accordion, triangle, jaw of the hobby horse, and bow and arrow percussion.
-NARRATION: The pulse is four-four.
+NARRATION: The pulse is 4/4.
 NARRATION: A steady country-dance air plays on an accordion, accompanied by the sharp strike of a triangle and percussion from the hobby horse's jaw, maintaining a measured, plodding pulse.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
@@ -78,9 +78,9 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, try one step. A steady circular procession walk.
-NARRATION: Followed by a two-row face-off approach and retreat.
-NARRATION: Count it: one-two-three-four, then five-six-seven-eight, covering eight counts and two bars.
+NARRATION: Before we go, learn one step: a steady circular procession walk.
+NARRATION: Then try the two-row face-off approach and retreat.
+NARRATION: Count it: 1-2-3-4, then 5-6-7-8, spanning eight counts and two bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -95,9 +95,9 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — Master the basic circular procession and row crossing figures · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps. Today, master the basic circular procession and row crossing figures.
-NARRATION: Level: Beginner. Difficulty of the dance overall: Beginner.
-NARRATION: Your instructor is a traditional side leader grounded in community custom.
+NARRATION: Chapter 1 — First steps. Today: Master the basic circular procession and row crossing figures.
+NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
+NARRATION: Your instructor: A traditional side leader grounded in community custom
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -116,17 +116,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: A steady circular procession walk.
-NARRATION: Step 2: A two-row face-off approach and retreat.
-NARRATION: Drill: A steady walking drill maintaining four-four time with an accordion.
+NARRATION: Step 1 is a steady circular procession walk.
+NARRATION: Step 2 is a two-row face-off approach and retreat.
+NARRATION: Drill a steady walking motion maintaining 4/4 time with an accordion.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: A cross-over and turn sequence.
-NARRATION: Drill: A circular group procession formation.
+NARRATION: Step 3 is the cross-over and turn sequence.
+NARRATION: Drill the circular group procession formation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -148,8 +148,8 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the upper body turns, arm lifts, and rhythmic steps while seated, using lightweight replica poles. · For children: A shorter circular procession game using lightweight cardboard antlers or props. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in: one-two-three-four, then five-six-seven-eight for eight counts and two bars.
-NARRATION: Dance the full tempo, the whole sequence, twice.
+NARRATION: Count in 1-2-3-4, then 5-6-7-8 for eight counts and two bars.
+NARRATION: Dance the full sequence at full tempo, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -186,17 +186,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: A steady circular procession walk.
-NARRATION: Step 2: A two-row face-off approach and retreat.
+NARRATION: Step 1 is a steady circular procession walk.
+NARRATION: Step 2 is a two-row face-off approach and retreat.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: A cross-over and turn sequence.
-NARRATION: Horn Circle: Dancers process around in a circle before turning and circling back.
-NARRATION: Row Cross-Over: Dancers face off in two rows, dancing together and apart before crossing over and turning around.
+NARRATION: Step 3 is the cross-over and turn sequence.
+NARRATION: In the horn circle, dancers process around in a circle before turning and circling back.
+NARRATION: In the row cross-over, dancers face off in two rows, dancing together and apart before crossing over and turning around.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -218,14 +218,14 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the upper body turns, arm lifts, and rhythmic steps while seated, using lightweight replica poles. · For children: A shorter circular procession game using lightweight cardboard antlers or props. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in: one-two-three-four, then five-six-seven-eight for eight counts and two bars.
-NARRATION: Dance the full tempo, the whole sequence, twice. The formation features a circular procession followed by two opposing rows that face off, dance together, and cross over.
+NARRATION: Count in 1-2-3-4, then 5-6-7-8 for eight counts and two bars.
+NARRATION: Dance the full sequence at full tempo twice, using a circular procession followed by two opposing rows that face off, dance together, and cross over.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now build the dance of the Abbots Bromley Horn Dance.
+NARRATION: You can now build the dance of Abbots Bromley.
 NARRATION: Key figures documented in the history of the dance include Robert Plot, who provided the first detailed description in 1686; Cecil Sharp, who recorded the dance figures and music in 1911; and local families such as the Bentleys and Fowells, who have historically led the tradition.
 NARRATION: Next is Chapter 3.
 ON SCREEN: Recap card with the counts
@@ -256,16 +256,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: A two-row face-off approach and retreat.
-NARRATION: Step 2: A cross-over and turn sequence.
+NARRATION: Step 1 is the two-row face-off approach and retreat.
+NARRATION: Step 2 is the cross-over and turn sequence.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Horn Circle: Dancers process around in a circle before turning and circling back.
-NARRATION: Row Cross-Over: Dancers face off in two rows, dancing together and apart before crossing over and turning around.
+NARRATION: In the horn circle, dancers process around in a circle before turning and circling back.
+NARRATION: In the row cross-over, dancers face off in two rows, dancing together and apart before crossing over and turning around.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -287,14 +287,14 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the upper body turns, arm lifts, and rhythmic steps while seated, using lightweight replica poles. · For children: A shorter circular procession game using lightweight cardboard antlers or props. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count in: one-two-three-four, then five-six-seven-eight for eight counts and two bars.
-NARRATION: Dance the full tempo, the whole sequence, twice. The formation features a circular procession followed by two opposing rows that face off, dance together, and cross over.
+NARRATION: Count in 1-2-3-4, then 5-6-7-8 for eight counts and two bars.
+NARRATION: Dance the full sequence at full tempo twice, using a circular procession followed by two opposing rows that face off, dance together, and cross over.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now dance the Abbots Bromley Horn Dance fully.
+NARRATION: You can now dance it fully.
 NARRATION: The dance is connected to broader English morris and ritual animal disguise traditions, sharing historical performance contexts with winter guising customs across the Midlands.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (3): https://en.wikipedia.org/wiki/Abbots_Bromley_Horn_Dance; https://www.wikidata.org/wiki/Q4664265; https://fr.wikipedia.org/wiki/Abbots_Bromley_Horn_Dance

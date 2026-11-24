@@ -1,0 +1,120 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Three players standing in a group.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "sorrowful",
+        "dramatic"
+      ],
+      "musical_form": "ballad",
+      "reference_recordings": [
+        {
+          "artist": "Kōwakamai Preservation Society",
+          "title": "Atsumori"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is defined by the rhythmic oral recitation of dramatic prose, focusing on the vocal delivery of sorrowful narratives.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "recitative"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Three players: one principal tayū and two supporting actors (waki and shite).",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "9d712302b48ba12baf405e1ba0c25c2f86591d399f3876c4e4902463c4047da0",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific physical movements or gestures that constitute the 'dance' component of Kōwakamai? Evidence needed: Field observation or detailed ethnographic study of the Kōwakamai Preservation Society's practice."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:kowakamai",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kōwakamai",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "d5db67e4114d36aa",
+      "next_evidence": "Field observation or detailed ethnographic study of the Kōwakamai Preservation Society's practice.",
+      "question": "What are the specific physical movements or gestures that constitute the 'dance' component of Kōwakamai?",
+      "source": "https://en.wikipedia.org/wiki/K%C5%8Dwakamai",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources state there are no recognizable choreographic movements in the European sense, but a movement profile requires concrete descriptions for instruction."
+    }
+  ],
+  "research_file": "research_results/kowakamai.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kowakamai",
+  "sources": [
+    "https://en.wikipedia.org/wiki/K%C5%8Dwakamai",
+    "https://www.wikidata.org/wiki/Q6455326"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

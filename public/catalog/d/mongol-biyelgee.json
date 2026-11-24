@@ -249,7 +249,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -257,23 +257,61 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "qCNlGz-d9mA",
+   "url": "https://www.youtube.com/watch?v=qCNlGz-d9mA",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Inside a traditional Mongolian yurt, decorated with traditional furniture and patterns.",
+    "dancers": "One woman, solo.",
+    "formation_and_space": "Solo dancer, stationary in the center of the yurt.",
+    "posture": "Torso is upright, knees are bent, weight is shifted from side to side.",
+    "footwork": "Small, rhythmic steps, shifting weight from one foot to the other, keeping time with the music.",
+    "arms_and_hands": "Arms are extended, moving in fluid, graceful motions, hands are expressive.",
+    "hips_and_torso": "Subtle hip and torso movements, swaying in time with the music.",
+    "partnering": "None.",
+    "levels_jumps_turns": "No jumps or floor work, some subtle turns.",
+    "costume_and_props": "Traditional Mongolian deel (robe) with a floral pattern, white boots.",
+    "cannot_infer": "The exact footwork is difficult to see due to the camera angle and the dancer's long robe.",
+    "music_heard": {
+     "instruments": [
+      "Traditional Mongolian string instrument, possibly a morin kh"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "The dancer performs a series of fluid arm movements while keeping her knees bent and shifting her weight."
+     },
+     {
+      "start_s": 15,
+      "end_s": 20,
+      "what": "The dancer extends her arms wide and sways her torso in a graceful, rhythmic motion."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -283,6 +321,6 @@
   "polished": false,
   "file": "episodes/mongol-biyelgee.json"
  },
- "fingerprint": "7271f5d641bc9861",
+ "fingerprint": "30415db5952f30e6",
  "updated": "2026-11-24"
 }

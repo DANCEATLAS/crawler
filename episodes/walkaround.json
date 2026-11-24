@@ -2,7 +2,7 @@
  "slug": "walkaround",
  "name": "walkaround",
  "pack_version": "e2",
- "built_at": "2026-11-24T03:20:28Z",
+ "built_at": "2026-11-24T22:53:18Z",
  "researched_at": "2026-11-23T21:59:26Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is walkaround. 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (hpNdQDWgy7I)",
      "Title card: walkaround · United States · 19th century"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Patting Juba, Downstage Solo."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (hpNdQDWgy7I)",
      "Captions name each signature move as it appears",
      "Formation: Dancers begin seated in an opening semicircle, move downstage to the focal point for solos, and break ranks across the stage for the finale."
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "hpNdQDWgy7I",
+   "checked_by_vision_model": true,
+   "title": "JUBA DANCE: The dance of African slaves in American plantations"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -774,8 +778,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "69 tutorial(s) of the street-urban family studied",
-  "videos_studied": 69,
+  "source": "73 tutorial(s) of the street-urban family studied",
+  "videos_studied": 73,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -786,6 +790,7 @@
   "cues": [
    "down and up",
    "step touch",
+   "one two three four",
    "one and two",
    "5-6-7-8",
    "heel toe",
@@ -794,8 +799,7 @@
    "pivot your feet",
    "turn your torso",
    "heel step",
-   "stomp",
-   "farmer"
+   "stomp"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -813,7 +817,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "what to avoid / common mistakes"
@@ -826,6 +829,6 @@
  "claims_verified": 9,
  "claims": 9,
  "polished": false,
- "input_fingerprint": "a1b3ffb88a9942a88afa194eab50302110c4df6d79b840b0fa9c996e0c5baf9b",
- "hero_checked": null
+ "input_fingerprint": "e51163c46ba5911e2e1e036f6a099b2155cd64c28c4118fbbef5fb78212c469e",
+ "hero_checked": "pass"
 }

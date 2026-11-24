@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "quadrille",
  "name": "Quadrille",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "FR"
@@ -11,7 +11,10 @@
   "slug": "quadrille",
   "name": "Quadrille",
   "country": "France",
+  "country_code": "FR",
+  "flag_emoji": "🇫🇷",
   "region": "Western Europe",
+  "family": "folk-circle",
   "era": "French Empire-era court · Early 19th century",
   "tagline": "Napoleon's ballroom dance for four couples — the French square-formation that became American square dance and Caribbean creolized national dances.",
   "profile": "The quadrille is a dance that was fashionable in late 18th- and 19th-century Europe and its colonies. The quadrille consists of a chain of four to six contredanses. Latterly the quadrille was frequently danced to a medley of opera melodies. Performed by four couples in a rectangular formation, it is related to American square dancing. The quadrille also gave rise to Cape Breton Square Dancing via American square dancing in New England.",
@@ -28,7 +31,8 @@
    "Quadrille (Tanz)",
    "Cuadrilla (danza)",
    "Quadrille (danse)",
-   "Tari Quadrille"
+   "Tari Quadrille",
+   "Quadrilha"
   ],
   "related": [
    "world-latin-dance-champions",
@@ -38,9 +42,18 @@
    "country-dance"
   ],
   "sources": [
-   "https://en.wikipedia.org/wiki/Quadrille"
+   "https://en.wikipedia.org/wiki/Quadrille",
+   "https://www.wikidata.org/wiki/Q394084",
+   "https://fr.wikipedia.org/wiki/Quadrille_(danse)",
+   "https://pt.wikipedia.org/wiki/Quadrilha_(dança)",
+   "https://de.wikipedia.org/wiki/Quadrille_(Tanz)",
+   "https://it.wikipedia.org/wiki/Quadriglia",
+   "https://archive.org/details/danceman235",
+   "https://archive.org/details/danceman085",
+   "https://archive.org/details/danceman154"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Quadrille",
+  "wikidata_qid": "Q394084",
   "unesco": false,
   "hero_video_youtube_id": "8qXaUL6K2bk",
   "image_significance": {
@@ -82,6 +95,45 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 10.0,
+  "last_researched_at": "2026-11-24T21:35:01Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The quadrille emerged in 18th-century France as a refined evolution of the contredanse, a form of social dance that had dominated European ballrooms. Its name is derived from the Italian 'quadriglia', referencing 17th-century military parades where four horsemen performed maneuvers in square formations. By 1760, the dance had transitioned into the ballroom, initially performed as a cotillion with two couples before expanding to the standard four-couple square formation. Each couple occupied a side of the square, facing the center, with one pair designated as the 'head' and the others as 'sides'.\n\nDuring the 19th century, the quadrille became the quintessential ballroom dance of the French Empire and its colonies. It was structured into a sequence of five or six distinct figures, each with specific musical and choreographic requirements. The standard figures—Le Pantalon, L'été, La Poule, La Pastourelle (or Trénis), and the Finale—were often set to medleys of popular opera melodies or contemporary songs. The dance required a high degree of coordination and elegance, utilizing terminology derived from ballet, such as jeté, chassé, croisé, and plié. As the dance evolved, it incorporated elements from other styles, such as the waltz and the galop, and composers like the Strauss family and Philippe Musard created music specifically for its complex structure.\n\nBeyond the aristocratic courts, the quadrille spread globally, adapting to local contexts. In the Caribbean, it evolved into distinct folk forms like the Jamaican 'campstyle' and the Francophone 'kwadril'. In Brazil, it became a central feature of June festivals (Festa Junina). In North America, the quadrille served as a direct ancestor to American square dancing and Cape Breton square dancing. While its popularity in high society waned after the First World War, the quadrille remains a living tradition, practiced today in military academies, historical reenactment groups, and folk dance clubs across Europe and the Americas.",
+  "album_candidates": [
+   {
+    "title": "Fledermaus-Quadrille",
+    "artist": "Johann Strauss (Sohn)",
+    "source": "https://de.wikipedia.org/wiki/Quadrille_(Tanz)",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_First_Quadrille_at_Almack%27s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_First_Quadrille_at_Almack%27s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 800,
+    "height": 524,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_First_Quadrille_at_Almack%27s.jpg",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/1817-accidents-in-quadrille-dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/1817-accidents-in-quadrille-dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 840,
+    "height": 624,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A1817-accidents-in-quadrille-dancing.jpg",
+    "description": ""
+   }
+  ],
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -93,6 +145,286 @@
    "country-dance"
   ]
  },
- "fingerprint": "8ef6a462d5407d4e",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The dance originated from 17th-century military horse parades and was introduced to French ballrooms around 1760. It gained immense popularity in 1816 when Lady Jersey brought it to English high society, eventually becoming a symbol of the 19th-century European ballroom.",
+   "how_it_is_danced": "Four couples form a square, facing the center. The dance consists of five or six figures (Pantalon, Été, Poule, Trénis/Pastourelle, Finale). Dancers perform steps such as chassé, jeté, and balancé, with figures often repeated by head and side couples.",
+   "music_and_instruments": "Music is typically in 2/4 or 6/8 time. Historically, it was played by orchestras using violins and woodwinds, though folk variants often utilize the accordion or diatonic organetto. Composers frequently arranged medleys of popular opera themes.",
+   "costume_and_setting": "In the 19th century, the quadrille was a formal ballroom event requiring elegant evening wear. In modern folk contexts, costumes vary by region, often reflecting local traditional dress.",
+   "occasions_and_meaning": "Historically a courtly social dance, it is now performed at military galas, historical balls, and regional folk festivals such as the Brazilian Festa Junina.",
+   "notable_figures": "Philippe Musard ('The Napoleon of the Quadrille'), Isaac Strauss, and the dance master Trenitz, who invented the Trénis figure.",
+   "regional_variants": "Variants include the Lancers, the Viennese quadrille, the Jamaican 'campstyle' quadrille, the Brazilian quadrilha, and the Corsican 'U Quadrigliu Corsu'.",
+   "lineage": "Derived from the French contredanse; influenced the development of American square dance, Cape Breton square dance, and Irish set dance."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Chassé (a sliding step)",
+    "Jeté (a springing step)",
+    "Balancé (a rocking step)",
+    "Tour de main (turning with hands)"
+   ],
+   "rhythm": "2/4 or 6/8 meter",
+   "formation": "Four couples in a square",
+   "level_notes": "Beginners should focus on the square formation and the timing of the five figures."
+  },
+  "claims": [
+   {
+    "text": "The quadrille was introduced in France around 1760.",
+    "source": "https://en.wikipedia.org/wiki/Quadrille"
+   },
+   {
+    "text": "The dance is performed by four couples in a rectangular formation.",
+    "source": "https://en.wikipedia.org/wiki/Quadrille"
+   },
+   {
+    "text": "The quadrille is a living tradition in places like Jamaica.",
+    "source": "https://en.wikipedia.org/wiki/Quadrille"
+   },
+   {
+    "text": "The dance was brought to English high society in 1816 by Lady Jersey.",
+    "source": "https://en.wikipedia.org/wiki/Quadrille"
+   },
+   {
+    "text": "The dance uses ballet terminology.",
+    "source": "https://en.wikipedia.org/wiki/Quadrille"
+   },
+   {
+    "text": "The quadrille is a living tradition in Brazil.",
+    "source": "https://pt.wikipedia.org/wiki/Quadrilha_(dança)"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:The First Quadrille at Almack's.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_First_Quadrille_at_Almack%27s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_First_Quadrille_at_Almack%27s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 800,
+    "height": 524,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "",
+    "description": "",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_First_Quadrille_at_Almack%27s.jpg",
+    "attribution": "Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:1817-accidents-in-quadrille-dancing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/1817-accidents-in-quadrille-dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/1817-accidents-in-quadrille-dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 840,
+    "height": 624,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "",
+    "description": "",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A1817-accidents-in-quadrille-dancing.jpg",
+    "attribution": "Wikimedia Commons / Public domain"
+   }
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "2/4 or 6/8",
+   "rhythm_pattern": "Standard 8-measure themes",
+   "instruments": [
+    "Violin",
+    "Piano",
+    "Accordion",
+    "Organetto"
+   ],
+   "vocal_style": "Instrumental, though some folk variants use a 'caller' (marcante)",
+   "musical_form": "Suite of 5-6 figures",
+   "mood_keywords": [
+    "Lively",
+    "Stately",
+    "Elegant"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Fledermaus-Quadrille",
+     "artist": "Johann Strauss (Sohn)"
+    }
+   ],
+   "sound_description": "A structured, rhythmic sound characterized by clear, repetitive 8-measure phrases, often incorporating melodies from contemporary operas or popular songs."
+  },
+  "movement_profile": {
+   "posture": "Upright, elegant carriage of the body",
+   "footwork": "Jeté, chassé, croisé, plié, and arabesque",
+   "arms_and_hands": "Arms rounded and supple; hands held during turns",
+   "hips_and_torso": "Stable and upright",
+   "formation_and_space": "Four couples in a square, facing the center",
+   "partnering": "Couples perform figures together; exchange of partners occurs in some figures",
+   "tempo_feel": "Varies from stately to lively",
+   "signature_moves": [
+    {
+     "name": "Chaine des Dames",
+     "description": "Ladies' chain; ladies cross the square and turn opposite gentlemen"
+    },
+    {
+     "name": "Dos-à-dos",
+     "description": "Back-to-back movement between dancers"
+    }
+   ],
+   "levels_and_jumps": "Includes small jumps (jeté)",
+   "difficulty": "intermediate",
+   "what_to_avoid": "Avoid slouching; maintain the square formation"
+  },
+  "episode_brief": {
+   "title_hook": "The Square That Conquered the World",
+   "logline": "Discover how a French military drill transformed into the global language of the ballroom.",
+   "beats": [
+    "Introduction to the square formation.",
+    "The military origins of the quadrille.",
+    "The five classic figures explained.",
+    "The transition from courtly dance to global folk tradition.",
+    "Demonstration of the 'Pantalon' figure.",
+    "The role of the caller in folk variants."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Master the square formation",
+     "drills": [
+      "Walking the square",
+      "Facing the center",
+      "Partner identification"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "19th-century ballroom illustrations",
+    "Square floor markings",
+    "Orchestral sheet music"
+   ],
+   "instructor_persona": "A dance historian with a background in 19th-century social etiquette.",
+   "music_cue": "A lively 2/4 violin melody typical of the 1850s."
+  },
+  "connections": [
+   {
+    "name": "Contredanse",
+    "relation": "parent",
+    "note": "The quadrille evolved directly from the 18th-century French contredanse."
+   },
+   {
+    "name": "Square dance",
+    "relation": "child",
+    "note": "The quadrille is a direct ancestor of American square dancing."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Perform arm and upper body gestures while seated in a square formation.",
+    "standing_version": "Reduced tempo, simplified footwork without jumps.",
+    "tempo_and_range": "Slowed tempo, limited range of motion.",
+    "counts": "Simplified 4-count steps.",
+    "avoid": [
+     "Jumps",
+     "Rapid turns",
+     "High-impact steps"
+    ]
+   },
+   "children": {
+    "game_version": "Simplified square dance game with basic walking steps.",
+    "duration_minutes": "15",
+    "counts": "Simple 1-2-3-4 counts.",
+    "avoid": [
+     "Complex ballet terminology",
+     "Long sequences"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-24T21:35:01Z",
+  "qc_score": 10.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 14,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   }
+  ],
+  "via": {
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "8qXaUL6K2bk",
+   "url": "https://www.youtube.com/watch?v=8qXaUL6K2bk",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Grand staircase of the Palais Garnier, Paris, during a formal ball.",
+    "dancers": "Large group of mixed-gender couples.",
+    "formation_and_space": "Couples are arranged in a long, double-file line, moving in a procession down the stairs and onto the floor.",
+    "posture": "Upright, formal, and elegant.",
+    "footwork": "Walking steps, precise and rhythmic, matching the beat of the music. The low resolution makes it difficult to see the exact footwork.",
+    "arms_and_hands": "Partners hold hands, with arms held in a formal, slightly elevated position. Some dancers hold their partner's hand while the other hand is at their side or holding their dress.",
+    "hips_and_torso": "Still and upright, maintaining a formal posture.",
+    "partnering": "Couples hold hands, with a clear lead-and-follow dynamic as they move in unison.",
+    "levels_jumps_turns": "No jumps or floor work; the movement is primarily walking and turning.",
+    "costume_and_props": "Men wear formal military-style uniforms with gold buttons and white gloves. Women wear long, elegant red evening gowns with black gloves.",
+    "cannot_infer": "The low resolution and camera angles make it difficult to see the exact footwork and weight transfer.",
+    "music_heard": {
+     "instruments": [
+      "Violin",
+      "Cello",
+      "Piano"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "The procession of couples walking down the grand staircase in a synchronized, formal manner."
+     },
+     {
+      "start_s": 35,
+      "end_s": 45,
+      "what": "Couples walking in a line, maintaining a consistent, elegant pace."
+     },
+     {
+      "start_s": 50,
+      "end_s": 60,
+      "what": "Couples turning and interacting with their partners while maintaining the line formation."
+     },
+     {
+      "start_s": 210,
+      "end_s": 220,
+      "what": "Couples performing a synchronized turn while moving in the procession."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 3,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/quadrille.json"
+ },
+ "fingerprint": "ec6b7b84e09ab4c9",
+ "updated": "2026-11-24"
 }

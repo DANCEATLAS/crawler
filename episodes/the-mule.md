@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A high-energy 1960s 'dance master' who emphasizes the 'groove' and the 'accent.'
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance That Sold a Drink
 NARRATION: This is The Mule. 1910s and 1965.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (X5TEsdb918c)
 ON SCREEN: Title card: The Mule · United States · 1910s and 1965
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers start facing their partner with feet apart.
 NARRATION: The right hand is lifted high with a bent elbow, then brought down vigorously as the right knee is lifted to hip height, leaning the chest forward.
 NARRATION: This is repeated on the left side.
 NARRATION: Watch for The Mule Walk, Mule Flap.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (X5TEsdb918c)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Partners facing each other; involves turning in place.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -329,7 +329,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: In its 1910s form, it was a social dance performed in casinos and dance halls. By 1965, it was marketed as a club and party dance, often associated with the 'mod' aesthetic of the era as seen in Smirnoff advertisements featuring Killer Joe Piro.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'X5TEsdb918c', 'checked_by_vision_model': False, 'title': "Weekend Update: Pete Davidson & John Mulaney Review Clint Eastwood's The Mule - SNL"}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Piano keys moving in stride style, Mule ears/gestures, 1960s cocktail glasses, Killer Joe Piro's sharp movements
@@ -339,9 +339,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
+Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
+Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (5): https://en.wikipedia.org/wiki/Mule_(dance); https://www.wikidata.org/wiki/Q7752610; https://archive.org/details/b10408654; https://archive.org/details/ADN_1917032901; https://archive.org/details/EPE_1917041201

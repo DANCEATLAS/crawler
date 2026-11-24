@@ -1,0 +1,152 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex 6-measure phrasing (simplify to 4 if needed)",
+          "Over-extending the lower back"
+        ],
+        "counts": "1, 2, 1, 2",
+        "duration_minutes": "3",
+        "game_version": "Follow the leader in a 'New Road' parade, focusing on the 'wiggle' (hip tilt)."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid weight shifts",
+          "Long periods of standing without support"
+        ],
+        "counts": "1, 2, 1, 2 (walking counts)",
+        "seated_version": "Perform the hip tilts and arm movements while seated, using the feet to tap the 2/4 rhythm.",
+        "standing_version": "Perform the walk with a smaller range of motion, using a chair for balance if needed.",
+        "tempo_and_range": "Maintain the slow tempo; reduce the depth of the hip tilts."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding hands in a curved line",
+      "difficulty": "beginner",
+      "footwork": "Walking steps in a 6-measure pattern",
+      "formation_and_space": "Curved line moving to the dancer's right",
+      "hips_and_torso": "Sensuous hip tilts synchronized with the walking rhythm",
+      "levels_and_jumps": "Low to the ground; no jumps described",
+      "partnering": "None (line dance)",
+      "posture": "Upright but relaxed to allow for hip movement",
+      "signature_moves": [
+        {
+          "description": "A rhythmic, sensuous inclination of the hips performed while walking",
+          "name": "Hip Tilt"
+        }
+      ],
+      "tempo_feel": "Slow and deliberate",
+      "what_to_avoid": "Avoid stiffening the torso; the dance requires fluid hip movement."
+    },
+    "music_profile": {
+      "instruments": [
+        "Brass band",
+        "Trumpet",
+        "Tuba",
+        "Drums"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "Sensuous",
+        "Steady",
+        "Soulful",
+        "Brass-heavy"
+      ],
+      "musical_form": "Čoček",
+      "reference_recordings": [
+        {
+          "artist": "Traditional Romani Brass Bands",
+          "title": "Rumelaj"
+        }
+      ],
+      "rhythm_pattern": "Walking rhythm within a 6-measure pattern",
+      "sound_description": "A slow, driving 2/4 beat led by heavy brass instruments, creating a soulful and rhythmic atmosphere typical of Balkan Romani music.",
+      "tempo_bpm": "Slow",
+      "vocal_style": "Often instrumental, but can be accompanied by Romani vocals"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a curved line holding hands with neighbors",
+        "Begin a slow walking step moving toward the right",
+        "Incorporate a rhythmic tilt of the hips with each step",
+        "Complete the six-measure step pattern before repeating"
+      ],
+      "formation": "Curved line",
+      "level_notes": "Focus on the fluidity of the hips rather than the complexity of the feet.",
+      "rhythm": "2/4 walking rhythm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "b3b09a87dcf2cc807a7b91910ada23f86e3890a9d19c3f6d3fd7f088f0cb1aaa",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific foot placements within the 6-measure pattern? Evidence needed: https://en.wikipedia.org/wiki/Jeni_Jol"
+    ]
+  },
+  "id": "atlas:jeni-jol",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Jeni Jol",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "4b70a28837205c9b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Jeni_Jol",
+      "question": "What are the specific foot placements within the 6-measure pattern?",
+      "source": "https://en.wikipedia.org/wiki/Jeni_Jol",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention a 6-measure pattern but do not detail individual steps (e.g., step-close, grapevine, or simple walking)."
+    }
+  ],
+  "research_file": "research_results/jeni-jol.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "jeni-jol",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jeni_Jol",
+    "https://www.wikidata.org/wiki/Q6177458",
+    "https://pt.wikipedia.org/wiki/Jeni_Jol"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

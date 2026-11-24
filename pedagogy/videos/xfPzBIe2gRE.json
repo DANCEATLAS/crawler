@@ -1,0 +1,136 @@
+{
+ "youtube_id": "xfPzBIe2gRE",
+ "slug": "bossa-nova",
+ "dance": "Bossa Nova",
+ "title": "Bosa Nova Line Dance (Dance & teach / Démo & explications / French & English)",
+ "channel": "Stéphane Beauchamp",
+ "viewer_ratio": 3.0,
+ "analysed_at": "2026-11-24T22:29:25Z",
+ "url": "https://www.youtube.com/watch?v=xfPzBIe2gRE",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor demonstrates the line dance with clean counts and full-body execution before breaking down steps clearly in French. He speaks at a steady pace and guides through each part with alternate counts.",
+  "language": "French",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Title and info slides for Bossa Nova line dance"
+   },
+   {
+    "t": "0:13",
+    "segment": "full_demo",
+    "note": "Full demonstration of the dance routine facing the mirror"
+   },
+   {
+    "t": "3:09",
+    "segment": "context",
+    "note": "Instructor introduces himself and describes the dance details in French"
+   },
+   {
+    "t": "3:37",
+    "segment": "breakdown",
+    "note": "Breakdown and teaching of the first part step by step"
+   }
+  ],
+  "counting_scheme": "5-6-7-8 / 1-2-3-touch-5-6-7-kick / 1-and-2-3-and-4",
+  "cues": [
+   "Côté ensemble côté touché",
+   "Kick en diagonale",
+   "1 et 2, 3 et 4"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Chassé à gauche",
+    "counts": "1-2-3-4",
+    "description": "Step side, together, side, touch"
+   },
+   {
+    "name": "Kick en diagonale",
+    "counts": "5-6-7-8",
+    "description": "Step side, together, side, kick"
+   },
+   {
+    "name": "Lock step",
+    "counts": "1-and-2",
+    "description": "Lock step forward with counts"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear demonstration first",
+    "Spoken breakdown with counts"
+   ],
+   "what_hinders": [
+    "Fast-paced transitions between parts"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "3:10",
+    "text": "Bonjour tout le monde, Stéphane Beauchamp, j'espère que vous allez bien."
+   },
+   {
+    "t": "3:32",
+    "text": "Je vais le compter un petit peu différemment de la feuille."
+   },
+   {
+    "t": "4:43",
+    "text": "Ici on va changer de compte."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 3,
+    "end_s": 12,
+    "topic": "teaching",
+    "observation": "Title cards displaying dance details and structure in French and English",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 13,
+    "end_s": 35,
+    "topic": "movement",
+    "observation": "Full demonstration of steps moving across the floor facing away from the camera toward a mirror",
+    "viewpoint": "back",
+    "cannot_infer": "weight transfer",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 340,
+    "end_s": 360,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates side steps and diagonal kicks while counting aloud",
+    "viewpoint": "back",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Teaches the counts using alternative phrasing to simplify execution compared to the original cue sheet."
+ },
+ "attempts": 1
+}

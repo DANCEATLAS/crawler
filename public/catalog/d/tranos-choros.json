@@ -244,7 +244,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -252,23 +252,68 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "signature_moves": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "QEuoRyl73aw",
+   "url": "https://www.youtube.com/watch?v=QEuoRyl73aw",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Outdoor public square and open field during a festival",
+    "dancers": "Large group of mixed men and women of various ages, including some children",
+    "formation_and_space": "Large, open circle formation; the group moves slowly in a counter-clockwise direction",
+    "posture": "Upright torso, relaxed knees, weight shifts with each step",
+    "footwork": "Slow, deliberate stepping pattern, moving on the beat; the steps are simple and rhythmic",
+    "arms_and_hands": "Dancers hold hands or link arms in a circle; some individuals hold handkerchiefs or other small items",
+    "hips_and_torso": "Minimal movement, torso remains relatively still",
+    "partnering": "None, the dance is a collective group activity",
+    "levels_jumps_turns": "No jumps or floor work; the dance remains on a single level",
+    "costume_and_props": "Traditional Greek clothing, including vests, skirts, and headpieces; some dancers wear modern formal attire",
+    "cannot_infer": "The low resolution and camera angles make it difficult to see the precise weight transfer and footwork details.",
+    "music_heard": {
+     "instruments": [
+      "violin",
+      "lute",
+      "tambourine"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 34,
+      "end_s": 40,
+      "what": "The group moves in a slow, rhythmic step, with the leader holding a handkerchief and guiding the circle."
+     },
+     {
+      "start_s": 158,
+      "end_s": 165,
+      "what": "Dancers in a circle, holding hands and moving in a slow, steady, rhythmic step."
+     },
+     {
+      "start_s": 253,
+      "end_s": 260,
+      "what": "A solo dancer in the circle performs a slightly more expressive step while the group continues the basic movement."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -278,6 +323,6 @@
   "polished": false,
   "file": "episodes/tranos-choros.json"
  },
- "fingerprint": "3ce52eaa1f7394f8",
+ "fingerprint": "fca0413ae1b6f41c",
  "updated": "2026-11-24"
 }

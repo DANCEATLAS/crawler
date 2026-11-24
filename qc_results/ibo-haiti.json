@@ -1,0 +1,121 @@
+{
+ "slug": "ibo-haiti",
+ "qc_at": "2026-11-24T22:11:33Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.15,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ibo (Haiti)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Ibo dance is a ritual expression of the Igbo nation's historical resistance,"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "378"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2232"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Haiti"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "testament to,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "review": "review",
+  "notes": "Accurate and respectful treatment of a sacred Vodou dance tradition, but suffers from low specificity and empty teaching sections due to lack of source material."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=7.15",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-24T21:37:11Z"
+}

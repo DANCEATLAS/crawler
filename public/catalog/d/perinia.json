@@ -53,7 +53,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -61,43 +61,72 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "77ec879f505382ec",
+ "performances": [
+  {
+   "youtube_id": "NdT_Dj-WBEo",
+   "url": "https://www.youtube.com/watch?v=NdT_Dj-WBEo",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Stage of a public performance hall, with a banner in the background.",
+    "dancers": "Group of 12 dancers, mixed men and women, in couples.",
+    "formation_and_space": "Circle formation, moving clockwise and counter-clockwise.",
+    "posture": "Upright torso, knees slightly bent, weight shifts between feet.",
+    "footwork": "Rhythmic stepping, including side-to-side steps, small hops, and stamps on the beat.",
+    "arms_and_hands": "Dancers hold hands in a circle, sometimes raising them, sometimes lowering them.",
+    "hips_and_torso": "Minimal torso movement, focus on leg and foot coordination.",
+    "partnering": "Couples hold hands, sometimes changing partners as they move around the circle.",
+    "levels_jumps_turns": "Small hops and rhythmic stamps, no complex floor work or high jumps.",
+    "costume_and_props": "Traditional Romanian folk costumes: women in white blouses, embroidered vests, and skirts; men in white shirts, vests, and trousers.",
+    "cannot_infer": "The low resolution makes it difficult to see the exact weight transfer or the finer details of the footwork.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "violin"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 114,
+      "end_s": 125,
+      "what": "The group moves in a circle, holding hands, with rhythmic side-stepping."
+     },
+     {
+      "start_s": 212,
+      "end_s": 220,
+      "what": "Couples perform a small, rhythmic hop while holding hands."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "dd446792255d8827",
  "updated": "2026-11-24"
 }

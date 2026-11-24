@@ -1,0 +1,832 @@
+{
+ "slug": "atilogwu",
+ "name": "Atilogwu",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:17Z",
+ "researched_at": "2026-11-24T21:27:44Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Igbo dance practitioner with a focus on cultural history and physical safety.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Atilogwu",
+   "Ile-Wonder Atilogwu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Atilogwu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Atilogwu: The Magic of Igbo Acrobatics",
+     "This is Atilogwu. 20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (Hdl7myUxXSI)",
+     "Title card: Atilogwu · Nigeria · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Origins are traced to the Udi Hills near Enugu, Nigeria.",
+     "The dance gained international prominence through 20th-century ethnographic research and competition, notably the 1952 Nigerian Festival of Arts and the 1970 post-Biafra War festival in Lagos."
+    ],
+    "on_screen": [
+     "Map: Nigeria · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed at festivals, coronations, marriage ceremonies, and harvest thanksgiving.",
+     "It serves as a display of youth vitality and cultural identity.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:ATỊLỌGWỤ DANCE.webm (https://upload.wikimedia.org/wikipedia/commons/3/3d/AT%E1%BB%8AL%E1%BB%8CGW%E1%BB%A4_DANCE.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance involves a row of performers led by the 'Otu Ugo'.",
+     "Movement includes measured foot taps, waist shaking, arm swinging, and high-level acrobatics like flips and human towers.",
+     "The lead dancer sets the sequence, and the group follows with synchronized steps and stunts.",
+     "Watch for Human Tower."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (Hdl7myUxXSI)",
+     "Captions name each signature move as it appears",
+     "Formation: Row formation led by the 'Otu Ugo', transitioning into human towers."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The ensemble typically includes the ogene (gong), ekwe (slit-drum), alo, gedegwu, ichaka (beaded gourd), and the oja (flute).",
+     "The flute player acts as the conductor, setting the pace for the dancers.",
+     "Listen for the ogene, ekwe, alo, gedegwu.",
+     "A high-energy, percussive sound dominated by the metallic ring of the ogene and the rhythmic, piercing melody of the oja flute, layered over the deep resonance of the ekwe slit-drum."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear short skirts or wrappers, often in bright colors like red, yellow, and green.",
+     "Seed rattles are worn at the waist and ankles to provide rhythmic accompaniment.",
+     "Leaders may wear tall plumes or carry a horsewhisk, while other dancers might carry palm-leaf fans."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Augustine Ene, a dancer who popularized the form in the 1950s, and the Nkpokiti dance group, which gained fame in 1970.",
+     "The Ile-Wonder Atilogwu of Umunede is a noted variant with specific techniques and sequences that have evolved over time.",
+     "Part of the broader Igbo dance tradition; some researchers have hypothesized links to other acrobatic traditions, though these remain unverified."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Atilogwu is shares region of Muixeranga: Some researchers have suggested a historical link between Atilogwu and the human tower traditions of Valencia, though this is not universally accepted."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Measured foot taps in rhythm with the ogene",
+     "Waist shaking and arm swinging while moving in a row",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the high-energy world of Atilogwu, where village youth defy gravity through rhythm and human towers.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic rhythmic foot stomp.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic rhythmic foot stomp..",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: An experienced Igbo dance practitioner with a focus on cultural history and physical safety."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic, requiring high physical fitness.",
+      "Swinging arms and use of hand fans or horsewhisks by leaders.",
+      "Waist shaking and torso movement integrated into the dance sequence."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Measured foot taps in rhythm with the ogene",
+      "Step 2: Waist shaking and arm swinging while moving in a row",
+      "Footwork from the sources: Rhythmic foot stomps and measured taps accented by leg rattles.",
+      "Drill: Stomp to the beat of the ogene"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Forward movement signaled by 'Iru nuo' chant",
+      "Step 4: Backward movement signaled by 'Azu nuo' chant",
+      "Drill: Coordinate arm swings with foot taps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic rhythmic foot stomp..",
+      "Performed at festivals, coronations, marriage ceremonies, and harvest thanksgiving.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Learn the directional cues.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Learn the directional cues..",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: An experienced Igbo dance practitioner with a focus on cultural history and physical safety."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic, requiring high physical fitness.",
+      "Swinging arms and use of hand fans or horsewhisks by leaders.",
+      "Waist shaking and torso movement integrated into the dance sequence."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Measured foot taps in rhythm with the ogene",
+      "Step 2: Waist shaking and arm swinging while moving in a row",
+      "Drill: Practice 'Iru nuo' forward movement"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Forward movement signaled by 'Iru nuo' chant",
+      "Step 4: Backward movement signaled by 'Azu nuo' chant",
+      "Human Tower: A formation where five or six dancers climb and balance on each other.",
+      "Drill: Practice 'Azu nuo' backward movement"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Row formation led by the 'Otu Ugo', transitioning into human towers."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn the directional cues..",
+      "Augustine Ene, a dancer who popularized the form in the 1950s, and the Nkpokiti dance group, which gained fame in 1970.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Understand formation transitions.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Understand formation transitions..",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: An experienced Igbo dance practitioner with a focus on cultural history and physical safety."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic, requiring high physical fitness.",
+      "Swinging arms and use of hand fans or horsewhisks by leaders.",
+      "Waist shaking and torso movement integrated into the dance sequence."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Forward movement signaled by 'Iru nuo' chant",
+      "Step 2: Backward movement signaled by 'Azu nuo' chant",
+      "Drill: Group synchronization in a row"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Human Tower: A formation where five or six dancers climb and balance on each other.",
+      "Drill: Safe transition into basic human formations"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Row formation led by the 'Otu Ugo', transitioning into human towers."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand formation transitions..",
+      "Part of the broader Igbo dance tradition; some researchers have hypothesized links to other acrobatic traditions, though these remain unverified.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent.",
+  "instruments": [
+   "ogene",
+   "ekwe",
+   "alo",
+   "gedegwu",
+   "ichaka",
+   "oja"
+  ],
+  "vocal_style": "Chanting cues for movement direction.",
+  "musical_form": "Ensemble-led percussion with flute-driven tempo changes.",
+  "mood": [
+   "energetic",
+   "spirited",
+   "vigorous"
+  ],
+  "sound_description": "A high-energy, percussive sound dominated by the metallic ring of the ogene and the rhythmic, piercing melody of the oja flute, layered over the deep resonance of the ekwe slit-drum.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Atilogwu (Nigeria). Rhythm pattern: Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent.. Instruments: ogene, ekwe, alo, gedegwu, ichaka, oja. Vocal style: Chanting cues for movement direction.. Form: Ensemble-led percussion with flute-driven tempo changes.. Mood: energetic, spirited, vigorous. It should sound like this: A high-energy, percussive sound dominated by the metallic ring of the ogene and the rhythmic, piercing melody of the oja flute, layered over the deep resonance of the ekwe slit-drum. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "Hdl7myUxXSI",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear short skirts or wrappers, often in bright colors like red, yellow, and green. Seed rattles are worn at the waist and ankles to provide rhythmic accompaniment. Leaders may wear tall plumes or carry a horsewhisk, while other dancers might carry palm-leaf fans.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAtilogu_Dancer_-_Igbo_Tribe_-_Oji_River_-_Enugu_State_-_Nigeria.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Atilogu_Dancer_-_Igbo_Tribe_-_Oji_River_-_Enugu_State_-_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Atilogu_Dancer_-_Igbo_Tribe_-_Oji_River_-_Enugu_State_-_Nigeria.jpg/1280px-Atilogu_Dancer_-_Igbo_Tribe_-_Oji_River_-_Enugu_State_-_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAtilogu_Dancer_-_Igbo_Tribe_-_Oji_River_-_Enugu_State_-_Nigeria.jpg",
+    "description": "This is an image from"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:ATỊLỌGWỤ DANCE.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/AT%E1%BB%8AL%E1%BB%8CGW%E1%BB%A4_DANCE.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "AID Project / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "ATILOGU DANCE",
+    "url": "https://archive.org/details/atilogu-dance",
+    "year": 2022,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Bright red, yellow, and green costumes",
+   "Tall plumes on the leader's headdress",
+   "The metallic glint of the ogene",
+   "Human towers against a landscape background"
+  ],
+  "costume_notes": "Dancers wear short skirts or wrappers, often in bright colors like red, yellow, and green. Seed rattles are worn at the waist and ankles to provide rhythmic accompaniment. Leaders may wear tall plumes or carry a horsewhisk, while other dancers might carry palm-leaf fans.",
+  "setting_notes": "Performed at festivals, coronations, marriage ceremonies, and harvest thanksgiving. It serves as a display of youth vitality and cultural identity.",
+  "map": {
+   "country": "Nigeria",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: full"
+  ],
+  "cues": [
+   "work with your feet shoulders  waist",
+   "shake your waist freely"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Igbo cultural dance basic movement",
+    "counts": "",
+    "description": "Footwork, shoulder movement, and waist shaking combined."
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Atilogwu",
+  "https://www.wikidata.org/wiki/Q4815811",
+  "https://es.wikipedia.org/wiki/Atilogwu"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "55e425e6de259f835f189f0ef784eafd8abaae1ff810e933dd787936a62fc82b",
+ "hero_checked": "pass"
+}

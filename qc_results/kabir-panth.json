@@ -1,0 +1,120 @@
+{
+ "slug": "kabir-panth",
+ "qc_at": "2026-11-24T22:10:51Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.2,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kabir Panth"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "57"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "179"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Followers of the 15th-century poet Kabir maintain a lineage of 42 generations of"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "661"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2858"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'god', 'worship', 'spirit', 'religious', 'devotional', 'priest']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 5,
+  "verdict": "reject",
+  "notes": "The subject is a religious sect and spiritual tradition, not a dance. While the profile acknowledges the lack of dance technique, the Dancing Atlas is for dance traditions. Including this as a 'dance' is a category error, despite the rhythmic musical accompaniment."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.2",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-24T21:12:38Z"
+}

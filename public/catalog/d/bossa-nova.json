@@ -113,6 +113,109 @@
    "samba"
   ]
  },
- "fingerprint": "0d6b2623c78a0821",
- "updated": "2026-11-21"
+ "lessons": [
+  {
+   "youtube_id": "xfPzBIe2gRE",
+   "url": "https://www.youtube.com/watch?v=xfPzBIe2gRE",
+   "title": "Bosa Nova Line Dance (Dance & teach / Démo & explications / French & English)",
+   "channel": "Stéphane Beauchamp",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "French",
+   "counting_scheme": "5-6-7-8 / 1-2-3-touch-5-6-7-kick / 1-and-2-3-and-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Title and info slides for Bossa Nova line dance"
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "full_demo",
+     "note": "Full demonstration of the dance routine facing the mirror"
+    },
+    {
+     "t": "3:09",
+     "seconds": 189,
+     "segment": "context",
+     "note": "Instructor introduces himself and describes the dance details in French"
+    },
+    {
+     "t": "3:37",
+     "seconds": 217,
+     "segment": "breakdown",
+     "note": "Breakdown and teaching of the first part step by step"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Chassé à gauche",
+     "counts": "1-2-3-4",
+     "description": "Step side, together, side, touch"
+    },
+    {
+     "name": "Kick en diagonale",
+     "counts": "5-6-7-8",
+     "description": "Step side, together, side, kick"
+    },
+    {
+     "name": "Lock step",
+     "counts": "1-and-2",
+     "description": "Lock step forward with counts"
+    }
+   ],
+   "cues": [
+    "Côté ensemble côté touché",
+    "Kick en diagonale",
+    "1 et 2, 3 et 4"
+   ],
+   "teacher_style": "The instructor demonstrates the line dance with clean counts and full-body execution before breaking down steps clearly in French. He speaks at a steady pace and guides through each part with alternate counts.",
+   "distinctive_method": "Teaches the counts using alternative phrasing to simplify execution compared to the original cue sheet.",
+   "what_works": [
+    "Clear demonstration first",
+    "Spoken breakdown with counts"
+   ],
+   "what_hinders": [
+    "Fast-paced transitions between parts"
+   ],
+   "evidence": [
+    {
+     "start_s": 3,
+     "end_s": 12,
+     "topic": "teaching",
+     "observation": "Title cards displaying dance details and structure in French and English",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 13,
+     "end_s": 35,
+     "topic": "movement",
+     "observation": "Full demonstration of steps moving across the floor facing away from the camera toward a mirror",
+     "viewpoint": "back",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 340,
+     "end_s": 360,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates side steps and diagonal kicks while counting aloud",
+     "viewpoint": "back",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "266d20370190ab3f",
+ "updated": "2026-11-24"
 }

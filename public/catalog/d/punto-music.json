@@ -264,7 +264,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -274,13 +274,63 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "IrsyBbWyLrQ",
+   "url": "https://www.youtube.com/watch?v=IrsyBbWyLrQ",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Indoors on a polished wooden floor against a rustic stone wall, with seated musicians playing in the background.",
+    "dancers": "One male and one female dancer, performing as a couple.",
+    "formation_and_space": "Couples facing each other or moving in circular patterns around the performance space.",
+    "posture": "Upright torso, upright head, relaxed knees, weight shifting between feet.",
+    "footwork": "Shuffling and stepping pattern on the beat, low to the ground; precise foot placement cannot be seen in detail.",
+    "arms_and_hands": "The female dancer holds the sides of her large skirt and moves it gracefully; the male dancer holds a hat in one hand and gestures or holds the female's hand.",
+    "hips_and_torso": "Torso remains relatively upright and stable while shifting weight; minimal hip isolation.",
+    "partnering": "Open dance position transitioning to close hold and turning together, with clear lead and follow.",
+    "levels_jumps_turns": "Turns performed in place and while traveling; bending of knees; male dancer kneels briefly at the beginning.",
+    "costume_and_props": "Female wears an elaborate traditional white ruffled dress with red embroidery and hair ornaments; male wears a white shirt, dark trousers, and a hat.",
+    "cannot_infer": "Low-resolution and camera angles obscure exact foot positions and weight transfer details.",
+    "music_heard": {
+     "instruments": [
+      "violin",
+      "drum"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 6,
+      "what": "Male dancer kneels on one knee while the female dancer circles around him, holding and fanning her ruffled skirt."
+     },
+     {
+      "start_s": 23,
+      "end_s": 35,
+      "what": "Dancers move apart and circle each other while manipulating their costumes and hats, keeping an upright posture."
+     },
+     {
+      "start_s": 140,
+      "end_s": 155,
+      "what": "Couple comes together in a close embrace hold, spinning in unison while maintaining precise foot steps."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -290,6 +340,6 @@
   "polished": false,
   "file": "episodes/punto-music.json"
  },
- "fingerprint": "7a932b6e461db6e7",
+ "fingerprint": "fb945530373593e8",
  "updated": "2026-11-24"
 }

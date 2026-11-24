@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorial(s) of the street-urban family studied · videos studied: 69
+Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp; farmer
+Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (6): https://en.wikipedia.org/wiki/Moshing; https://www.wikidata.org/wiki/Q1463560; https://es.wikipedia.org/wiki/Mosh; https://fr.wikipedia.org/wiki/Mosh; https://pt.wikipedia.org/wiki/Mosh; https://it.wikipedia.org/wiki/Mosh

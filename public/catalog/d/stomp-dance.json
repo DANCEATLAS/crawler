@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "stomp-dance",
  "name": "Stomp dance",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -189,25 +189,19 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "picture",
-    "label": "a licensed picture or licensed footage"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "The stomp dance is a religious ceremony. Photography is prohibited, and participants must adhere to strict rules regarding alcohol, drugs, and personal conduct. Outsiders should not attempt to record or participate without explicit invitation and guidance from the community.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/stomp-dance.json"
  },
- "fingerprint": "134fe806bef4cd0b",
+ "fingerprint": "bcc290da890beb4c",
  "updated": "2026-11-24"
 }

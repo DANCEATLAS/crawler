@@ -1,6 +1,6 @@
 # THE ULTIMATE TEACHER — how the best online dance teachers teach
 
-*Built by the machine from 262 tutorial lessons across 175 dances and 8 dance families (studied: 297 videos; 28 were not lessons; 7 could not be read). Updated 2026-11-24. It grows every day. The chapter scripts in `episodes/` follow it. See `MOVIE_PHASE.md`.*
+*Built by the machine from 293 tutorial lessons across 204 dances and 8 dance families (studied: 333 videos; 32 were not lessons; 8 could not be read). Updated 2026-11-24. It grows every day. The chapter scripts in `episodes/` follow it. See `MOVIE_PHASE.md`.*
 
 ## The lesson skeleton the best teachers share
 
@@ -15,7 +15,7 @@
 
 ## How they count
 
-Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9); 1-2 (6)
+Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (32); 1-2-3-4 (19); 1-2-3 (11); 1-2 (6)
 
 ## How they demonstrate
 
@@ -25,18 +25,18 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 
 ## The cues they repeat
 
-- 1-2-3-4
 - 5-6-7-8
-- side to side
-- shift your weight
+- 1-2-3-4
 - rock step
+- side to side
+- right left right
+- step touch
+- shift your weight
+- bend your knees
+- one two three four
 - cross
 - 1-2-3-4-5-6-7-8
 - 1-2-3
-- triple step
-- slow slow quick quick
-- stomp
-- down and up
 
 ## Images they use
 
@@ -78,25 +78,25 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 ## What makes a lesson absorbable
 
 - clear verbal instructions
-- clear verbal cues
 - clear visual demonstrations from multiple angles
+- clear verbal cues
+- demonstration from multiple angles
+- clear counting
 - slow-motion demonstrations
 - clear step-by-step breakdown
 - clear verbal explanations
 - repetition of steps
-- demonstration from multiple angles
-- demonstrating from multiple angles
-- step-by-step breakdown
+- clear numbering of steps
 
 ## What gets in the way
 
 - none noted
+- fast transitions between steps
+- no verbal breakdown or explanation of steps
 - long explanations before dancing
 - no multi-angle demonstration
 - limited camera angles
 - lack of explicit verbal counting
-- fast transitions between steps
-- no verbal breakdown or explanation of steps
 - long explanations without music practice during the breakdown
 
 ## In their words
@@ -114,13 +114,13 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 
 ## By dance family
 
-**folk-circle** (71 lessons): counting 1-2-3-4-5-6-7-8; order: welcome and what you will learn → where the dance comes from → the whole step at full speed, once → warm-up → breakdown, one movement at a time → slow practice → practice with the music, full tempo → recap and homework; cues: 1-2-3-4, 1-2-3, 5-6-7-8, un dos tres, side side side side
-**street-urban** (69 lessons): counting 5-6-7-8; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → slow practice → adding the next layer (arms, turns, partner) → practice with the music, full tempo → recap and homework; cues: down and up, step touch, one and two, 5-6-7-8, heel toe
-**ritual-sacred** (14 lessons): counting 5-6-7-8 and 1-2-3-4-5-6-7-8; order: welcome and what you will learn → where the dance comes from → breakdown, one movement at a time → the whole step at full speed, once → slow practice → practice with the music, full tempo; cues: uno dos, stretch one and two, lift three and four, shift your weight, move your hips side to side
-**african-diaspora** (14 lessons): counting 5-6-7-8; order: welcome and what you will learn → where the dance comes from → warm-up → the whole step at full speed, once → breakdown, one movement at a time → slow practice → practice with the music, full tempo; cues: 5-6-7-8-hold, lets build it up, now put them together, bend the knees, change the weight
+**street-urban** (73 lessons): counting 5-6-7-8; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → slow practice → adding the next layer (arms, turns, partner) → practice with the music, full tempo → recap and homework; cues: down and up, step touch, one two three four, one and two, 5-6-7-8
+**folk-circle** (73 lessons): counting 1-2-3-4-5-6-7-8; order: welcome and what you will learn → where the dance comes from → warm-up → the whole step at full speed, once → breakdown, one movement at a time → slow practice → practice with the music, full tempo → recap and homework; cues: 1-2-3-4, 1-2-3, 5-6-7-8, step to the right, un dos tres
+**ritual-sacred** (15 lessons): counting 5-6-7-8 and 1-2-3-4-5-6-7-8; order: welcome and what you will learn → where the dance comes from → breakdown, one movement at a time → the whole step at full speed, once → slow practice → practice with the music, full tempo; cues: uno dos, stretch one and two, lift three and four, shift your weight, move your hips side to side
+**african-diaspora** (15 lessons): counting 5-6-7-8; order: welcome and what you will learn → where the dance comes from → warm-up → the whole step at full speed, once → breakdown, one movement at a time → slow practice → practice with the music, full tempo; cues: 5-6-7-8-hold, lets build it up, now put them together, bend the knees, change the weight
 **classical-court** (13 lessons): counting 5-6-7-8; order: welcome and what you will learn → warm-up → where the dance comes from → breakdown, one movement at a time → the whole step at full speed, once → slow practice → practice with the music, full tempo; cues: 1, 2, 3, 4, 5
+**ballroom-partner** (13 lessons): counting 5-6-7-8; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → slow practice → common mistakes and corrections → practice with the music, full tempo; cues: aprovechar la inercia, todo tiene que ir fluido, no se debera cortar el movimiento, side with the left, bring it in
 **stage-contemporary** (12 lessons): counting 5-6-7-8; order: welcome and what you will learn → warm-up → the whole step at full speed, once → where the dance comes from → slow practice → breakdown, one movement at a time → practice with the music, full tempo → adding the next layer (arms, turns, partner); cues: reach out, through the pli, relax the chest, push three and four, up seven down eight
-**ballroom-partner** (12 lessons): counting 5-6-7-8; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → slow practice → common mistakes and corrections → practice with the music, full tempo; cues: aprovechar la inercia, todo tiene que ir fluido, no se debera cortar el movimiento, side with the left, bring it in
 **latin-caribbean** (2 lessons): counting 1-2-3 / 5-6-7-8; order: welcome and what you will learn → breakdown, one movement at a time → slow practice → practice with the music, full tempo → the whole step at full speed, once → recap and homework; cues: mujeres, exhibela, abajo, desplazate, culebra
 
 ## By dance
@@ -131,26 +131,35 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **airflare** — 2 lessons; counting time-based drills / step callouts; steps as taught: Monkey Swings; Swipes; Tornadoes; Airflare Setup & Pivot Drill (time-based); mistakes: dropping hips instead of popping them up, going for a full 360 too early, letting the lower body get away from the upper body
 - **alegras** — 1 lesson; counting 12-1-2-3-4-5-6-7-8-9-10; steps as taught: Marcaje (marking steps) (12 counts); mistakes: letting the skirt drop or holding it incorrectly
 - **american-tribal-style-belly-dance** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Horizontal chest circles (1-8); Ribcage slides (1-8); Ribcage forward and back (1-8); Vertical chest circles (1-8); mistakes: weight in the wrong part of the foot, slouching or leading forward, squashing the neck
+- **animal-dance** — 1 lesson; counting 5-6-7-8 / 1-2-and-3-4-5-6-and-7-8; steps as taught: Animal dance choreo (5-6-7-8)
 - **apache** — 2 lessons; counting 5-6-7-8 and 1-2-3-4; steps as taught: Apache Toprock Step (5-6-7-8); Apache (1-2-3-5-6-7); mistakes: incorrect weight transfer location during the step, hammerlock hand placement difficulty
+- **atilogwu** — 1 lesson; counting —; steps as taught: Igbo cultural dance basic movement
+- **attan** — 1 lesson; counting 1-2-3; steps as taught: First three steps (1-2-3); Full round (1-2-3); Half turn (1-2-3)
+- **azonto-ghana** — 1 lesson; counting —; steps as taught: The Azonto Foot (uncounted); Azonto Foot + Up and Down (uncounted); Azonto Step (uncounted)
 - **bachata** — 1 lesson; counting the teachers do not use a verbal counting scheme; steps as taught: Side to Side Basic Step (1-2-3-4); Front Basic Step (1-2-3-4); Box Step (1-2-3-4); Woman's Turn (1-2-3-4)
 - **ballet** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: half-toe, full-toe (1-2-3-4); pedals (1-8); elevés (1-8); first position (N/A); mistakes: rolling in (weight shifting forward)
 - **ballos** — 1 lesson; counting 6 movimenti per battuta / 1-2-3-4-5-6; steps as taught: Passo base maschile (6 movimenti); Passo base femminile (6 movimenti)
 - **ballroom-dance** — 1 lesson; counting 1-2-3-4-5-6 / quick-quick-slow; steps as taught: Box Step (6 steps); Triple Step (3 steps); Rock Step (2 steps); mistakes: not changing body weight on the together steps
 - **ballu-tundu** — 1 lesson; counting 1-2-3 / right-left-right-left; steps as taught: Sa Seria (1-2-3-4); S'Allegrada (1-2-3)
 - **bankhead-bounce** — 1 lesson; counting 5-6-7-8 and 1-2-3-4-5-6-7-8; steps as taught: Bankhead Bounce (8 counts)
+- **bar** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Box / Square (1-2-3-4-5-6-7-8); Step Touch (1-2-3-4); Grapevine (1-2-3-4)
 - **baton-twirling** — 2 lessons; counting —; steps as taught: Fan motion; Backhand roll; Fishtails; mistakes: cutting your baton diagonally
 - **belly-dance** — 1 lesson; counting 4-3-2-1 / slow counting; steps as taught: Basic Posture; Plie Stretch Warmup; Hip Side Stretch (4-3-2-1); Hip Shifts (4-3-2-1); mistakes: bending forward instead of keeping posture, arching pelvis too far under or back, slanted side-to-side movement instead of pulling
 - **bhangra** — 1 lesson; counting 5-6-7-8; steps as taught: Bedi (5-6-7-8); Dhamaal (5-6-7-8); mistakes: slams foot down with the entire foot, which can hurt the shin, leaving too much space in between feet during the dhamaal step
 - **bharatanatyam-india** — 1 lesson; counting —; steps as taught: pataaka; tripataaka; ardhapataaka; kartareemukha
+- **big-apple** — 1 lesson; counting 8-count phrasing; steps as taught: Rocks (8); Boogie Forwards / Drunken Sailors (1-8); Boogie Backs (1-8); Apple Jacks (1-8)
 - **bihu-dance** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Kokal bhanga (1-2-3-4); mistakes: placing hands on the sides of the waist instead of the back, moving shoulders and back instead of hips
 - **black-bottom** — 1 lesson; counting 5-6-7-8 / 1-2-3-4-5-6-7-8; steps as taught: Charleston basic steps (1-2-3-4-5-6-7-8); Mess around (1-2-3-4-5-6-7-8); Slapping move / Slaps (8-1-2-3-4-5-6-7)
 - **blues-dancing** — 1 lesson; counting 1-and-2-and-3-and-4; steps as taught: Down pulse (1-2-3-4); Up pulse (1-2-3-4); Side to side basic step (1 and 2 and); mistakes: doing the drum hit too hard and hurting your knees
 - **bollywood** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Shoulders Roll (1-8); Shoulder Pull (1-8); Kick (1-4)
 - **bondar** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: demi plie (1-2); grand plie (3-4); releve (5-6)
+- **boogaloo** — 1 lesson; counting —; steps as taught: Basic double leg roll; Single leg rolls; Hip Boogaloo Rolls; Boogaloo Chest; mistakes: losing isolation when rolling legs too wide, upper body moving too much when attempting lower body rolls
+- **bossa-nova** — 1 lesson; counting 5-6-7-8 / 1-2-3-touch-5-6-7-kick / 1-and-2-3-and-4; steps as taught: Chassé à gauche (1-2-3-4); Kick en diagonale (5-6-7-8); Lock step (1-and-2)
+- **breaking-usa** — 1 lesson; counting 5-6-7-8; steps as taught: Backspin (5-6-7-8); mistakes: spinning on the mid or lower back, not keeping the body symmetrical, not keeping legs straight
 - **bunny-hop** — 2 lessons; counting left-right-left; steps as taught: Bunny hop (left-right-left); Meerkat position; Preload; mistakes: stabbing your toe pick in, forgetting to step your other foot down, doing too many toe picks and sliding on your face
 - **butterfly-dance** — 2 lessons; counting 5-6-7-8 / 1-and-2-and; steps as taught: Part 1 Opening (8 - 1 & 2 &); Milking Texture Section (3 - 8 &); Butterfly dance (1-2-3-4); mistakes: we snap up on 2, snap down on and
 - **butterfly-dance-plains** — 1 lesson; counting —
-- **cabbage-patch** — 1 lesson; counting 6-7-8 and 1-2-3-4-5-6-7-8; steps as taught: Cabbage Patch (Basic) (1-2-3-4-5-6-7-8); Around The World (1-2-3-4-5-6-7-8); Stir The Pot (1-2-3-4-5-6-7-8); Side to Side (1-2-3-4-5-6-7-8); mistakes: confusing the cabbage patch with the reebok
+- **cabbage-patch** — 2 lessons; counting 5-6-7-8 / 1-2-3-4; steps as taught: Cabbage Patch (Footwork) (1-2-3-4); Cabbage Patch (Arms) (1-2-3-4); Cabbage Patch (Basic) (1-2-3-4-5-6-7-8); Around The World (1-2-3-4-5-6-7-8); mistakes: confusing the cabbage patch with the reebok
 - **calypso-tt** — 1 lesson; counting 5-6-7-and 1-2-3-4; steps as taught: Calypso (5-6-7-and 1-2-3-4); High chaine low chaine prep (5-6-7-and 1-2-3-4); mistakes: <dipping the knee down instead of keeping knee above toe>, <bringing shoulders up to ears>, <going too slow on the chaine leading to a weighted feel>
 - **carinosa** — 2 lessons; counting 1-2-3; steps as taught: Three Steps and a Point (1-2-3); Pointing (1-2-3); Back-to-back (1-2-3); Hide and seek with fan (1-2-3)
 - **carolina-shag** — 3 lessons; counting 1-and-2-3-and-4-5-6; steps as taught: basic (1-and-2-3-and-4-5-6); male turn (1-and-2-3-and-4-5-6); female turn (1-and-2-3-and-4-5-6); start step (1-and-2-3-and-4-5-6); mistakes: not maintaining tension, hand placement too low, bouncing hands up and down
@@ -167,10 +176,12 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **condong** — 1 lesson; counting 1-2-3-4-5-6; steps as taught: Berjalan memegang lamak (1-6)
 - **contact-improvisation** — 2 lessons; counting —; steps as taught: The Point of Contact; Rolling the Point; Replacing the Point; Sliding
 - **contemporary-dance** — 1 lesson; counting 5-6-7-8; steps as taught: shoulder roll (7-8); brush (1); plie frame (2); thread (3); mistakes: not dropping the head when clasping hands, not lifting the chin with the hands
+- **contra-dance** — 1 lesson; counting —; steps as taught: Do-Si-Do; See-Saw; Allemande; Balance; mistakes: clashing with your partner during a do-si-do, uncomfortable about going backwards while facing away from your partner
 - **country-dance** — 1 lesson; counting quick-quick-slow-slow; steps as taught: Two Step (quick-quick-slow-slow); Country Swing; Country Line Dance; West Coast Swing
 - **country-swing-dance** — 2 lessons; counting 1-2; steps as taught: The Basic Step; The Back Slide; The Basic Dip; Slow Dancing; mistakes: being too rigid or loose in connection, throwing partner out instead of keeping them close, straightening the bottom leg during the dip
 - **crip-walk** — 1 lesson; counting 5-6-7-8; steps as taught: scoopty (1-2); shifty (1-2); key and lock (1-2); reverse (1-2); mistakes: sitting down while dancing, watching the video while on the toilet
 - **crnogorka** — 1 lesson; counting 5-6-7-8 / 1-2-left / 2-2-right; steps as taught: Crnogorka Part 1 (1-2-left, 2-2-right); Crnogorka Part 2 (step in front, step behind, 1-2-right)
+- **cuban-rumba** — 1 lesson; counting 1-2-3-4 / ba-change-ba-ru-pa-change; steps as taught: Basic step in place (press and step); Side step (press and step); Traveling forward/back (press and step); 3-step (1-2-3); mistakes: losing chest posture when bending knees, making side steps massive and messing up weight transfer
 - **cumbia** — 1 lesson; counting 1-2-3 / 5-6-7 / quick-quick-slow; steps as taught: Cumbia Basic Step (1-2-3, 5-6-7); Side to Side Basic Step (1-2-3, 5-6-7)
 - **dabke** — 1 lesson; counting 1-2-3-4-5-6; steps as taught: Basic Dabke Steps (1-2-3-4-5-6); Sab'a (7 counts); Midwaz (multiple)
 - **dancesport** — 1 lesson; counting 1-2-triple step-triple step; steps as taught: back break (1-2); chasse (triple step-triple step); mistakes: taking the upper body back over the back leg, dancing with knees straight
@@ -178,12 +189,14 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **dutty-wine** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Dutty Wine Warm-up (1-8); Half Rotation (1-8); Full Rotation (1-8); mistakes: starting in heels when doing it for the first time, wearing long earrings that could injure your neck or hair
 - **electric-boogaloo** — 2 lessons; counting 3-2-1-go; steps as taught: Neck O Flex; Time Stopping; tap tap (1-2); shake shake (3-4); mistakes: forgetting the sequence of steps, getting the timing wrong
 - **electric-slide** — 2 lessons; counting 1-2-3-4; steps as taught: Steps to the right (1-2-3-4); Steps to the left (1-2-3-4); Steps back (1-2-3-4); Step touch and step kick (1-2); mistakes: struggling with the turn when facing a different wall
+- **eskista-ethiopia** — 1 lesson; counting the teacher uses verbal descriptions of the movement rather ; steps as taught: Basic Eskista; Side-to-side variation; Double-count variation; mistakes: moving the neck too much
 - **fa-ataupati** — 1 lesson; counting 1-2-3-4 / lualua tongi e / a'a tongi e; steps as taught: First Step (Lualua tongi e) (lualua tongi e / e a'a tongi e); Second Step (1-2-3-4)
 - **fancy-shawl-dance** — 1 lesson; counting 1-2 / 1-1-1; steps as taught: Traveling spin (1-2); Single beat spin (1-1-1); Front cross spin (1-2); Back cross spin (1-2)
 - **farruca** — 1 lesson; counting 1-2-3-4 / y-tac-tac; steps as taught: Farruca footwork sequence (1-2-3-4)
-- **finger-tutting** — 2 lessons; counting 1-2-3-4-5-6-7-8; steps as taught: Basic Combo; Digits; Monsters; Finger Tutting Box Routine (1-8); mistakes: trying to do finger tutting with tense or stiff hands
+- **finger-tutting** — 3 lessons; counting 1-2-3-4-5-6-7-8; steps as taught: Step 1; Diamond Shape; Finger open; Slide; mistakes: trying to do finger tutting with tense or stiff hands
 - **flamenco** — 1 lesson; counting 1-2-3-4; steps as taught: Hand clapping rhythm in compas (1-2-3-4); mistakes: keeping arms straight instead of rounded, moving arms along with the hands
 - **floss** — 1 lesson; counting 1-2-3; steps as taught: The Floss (1-2-3); mistakes: stopping when losing the rhythm
+- **footwork** — 1 lesson; counting —; steps as taught: Footwork Move 1; Footwork Move 2; Footwork Move 3
 - **formation-dance** — 2 lessons; counting 5-6-7-8; steps as taught: Arm scoop and step back (1-2); Swings and punch (3-4); Pottys and body roll (5-6); Jump and punch (1-2); mistakes: putting the foot down when it should be kept up
 - **fouette** — 2 lessons; counting 5-6-7-8; steps as taught: First position (1-2); Passé (1-2); Fouetté turn (1-2-3-4); Parallel Pirouette (1-2); mistakes: sticking the booty out (corrected by instructing to neutralize the pelvis), leaning forward or back during a plié, letting the outside arm get behind the body
 - **foxtrot-usa** — 1 lesson; counting slow-slow-quick-quick; steps as taught: Foxtrot Basic (slow-slow-quick-quick); Promenade Basic (slow-slow-quick-quick); Promenade with an Underarm Turn (slow-slow-quick-quick); mistakes: followers leaning on the leader, turning our shoulders instead of using hand pressure
@@ -194,7 +207,9 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **garrotin** — 1 lesson; counting 1-2-1-2; steps as taught: Movimiento del sombrero (1-2); Zapateado (1-2)
 - **gato** — 1 lesson; counting the teacher does not use a formal counting scheme, instead u; steps as taught: Tango Walk; mistakes: leaning forward, pushing hips too far ahead of the body, sudden change of weight
 - **ghoomar** — 1 lesson; counting 1-2-3-4; steps as taught: Step 1 (1-2-3-4); Step 2 (1-2-3-4); Step 3 (1-2-3-4); Step 4 (1-2-3-4)
+- **ghost-dance** — 1 lesson; counting 5-6-7-8; steps as taught: Move 1 (5-6-7-8); Move 2 (5-6-7-8); Move 3 (5-6-7-8); Move 4 (5-6-7-8)
 - **giddha** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Taali Giddha (Clapping variation) (1-8); Single Addi (1-8); Double Addi (1-8); mistakes: locking the knees during double addi
+- **gloving** — 1 lesson; counting —; steps as taught: Figure 8s
 - **goli** — 1 lesson; counting 1-2-3-4; steps as taught: Gun Shot & Wink (1-2); Hip Bends (1-2-3-4); Eye Blinking (1-2-3-4-5); mistakes: moving feet instead of only bending knees, changing hand positions incorrectly
 - **grand-pas** — 1 lesson; counting 5-6-7-8; steps as taught: demi-plie (5-6-7-8); pas de bourree (1-2-3); releve (various); mistakes: going up and down instead of staying at the same level during transitions
 - **grass-dance** — 1 lesson; counting 1-2 / 1-2-3-4 / 1-2-3; steps as taught: Criss-Cross (1-2); Right over Left (1-2); Pitter-Pat Spin (1-2-3-4); Ninja Kick (1-2); mistakes: being in a hurry and missing the 'tail' or ending of a song
@@ -209,7 +224,10 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **hustle** — 2 lessons; counting 1-2-3-4 / and-1-and-2; steps as taught: Rock Step (1-2); Basic Hustle (1-2-3-4); Stationary Basic (1-2-3-4); Rotating Basic (1-2-3-4-5-6-7-8); mistakes: putting all weight on the rock step
 - **jacking** — 3 lessons; counting 5-6-7-8; steps as taught: Heel Step; Farmer; Stomp; Basic Jack; mistakes: don't open your legs too much, do not bend your knees deeply, do not tilt your upper body forward too much
 - **jazz-dance** — 3 lessons; counting 5-6-7-8; steps as taught: Jumping jacks (5-6-7-8); High knees (5-6-7-8); Plie (1-2-3-4); Jazz Walks (null); mistakes: rounding over instead of keeping a flat back during stretches, pitching forward during a sumo squat, leaning back during a sumo squat
+- **jhumar-pakistan** — 1 lesson; counting 1-and-2-3-4; steps as taught: Single Jhummar (1-and-2-3-4); mistakes: using traps instead of delts for the shoulder shake
+- **jig** — 1 lesson; counting 6-2-3 and 7-2-3 and 8-2-3; steps as taught: Beginner Jig Step 1 (1-2-3-4); mistakes: knee out to the side instead of aligned with belly button
 - **jingle-dress** — 1 lesson; counting 1-2 / 1-2 shuffle / 1-2-3; steps as taught: Basic step (1-2); Shuffle step (1-2 shuffle); Switch step (1-2-3 hop); Side step (up-apart down-together); mistakes: going backwards, doing footwork, doing spins
+- **jive** — 1 lesson; counting 1-2-3-a-4-5-6; steps as taught: basic jive footwork (1-2-3-a-4-5-6); mistakes: slouching and lacking posture, not timing the quarter beat correctly
 - **jumpstyle** — 2 lessons; counting 1-2-3-4-5; steps as taught: Oldschool Basic (1-2-3-4-5); The Basis (1-2-3-4-5-6-7); The Half Twist (1-2-3-4); The Full Twist (1-2-3-4-5-6-7)
 - **kathak** — 1 lesson; counting ta-thai-thai-tat-aa-thai-thai-tat; steps as taught: Tatkaar (16)
 - **kathak-india** — 1 lesson; counting 5-6-7-8 / 1-2-3-4-5-6-7-8; steps as taught: Footwork chaal (1-8); Hand movements chaal (1-8); Diagonal chaal with spin (1-8); mistakes: incorrect energy and pull during turns
@@ -218,9 +236,14 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **khigga** — 1 lesson; counting 1-2-3; steps as taught: 3-step (1-2-3); mistakes: crossing the foot from the back instead of the front, stiffening the arms while holding hands
 - **kizomba** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Basic 1 (1-2-3-4-5-6-7-8); Basic 2 (1-2-3-4-5-6-7-8); Basic 3 (1-2-3-1-2-3); mistakes: bringing your heels up, bringing the balls of your feet up, pushing your bum out
 - **kizomba-angola** — 1 lesson; counting and-1-and-2 / 5-6-7-8; steps as taught: slow march (and-1 and-2 and-3 and-4); side step with a tap (1-2-3-4-5-6-7-8); walking and rocking (1-2-rock-step); mistakes: sliding feet on the ground instead of lifting them slightly, tilting the upper body while walking
+- **kolo-serbia** — 1 lesson; counting 1-2-3 / 5-6-7-8; steps as taught: Basic Step (1-2-3); Touches (1-2-3); Hop Variation (1-2-3); Dive Variation (1-2-3)
+- **kuchipudi-india** — 1 lesson; counting —; steps as taught: Namaskaram; Aramandi
+- **kuduro-angola** — 1 lesson; counting 1-2-3-4; steps as taught: Chorus Move 1 (1-2); Grapevine Variation (1-2-3); Part A Step (1-1-2); Part B Step (1-2-3-4)
 - **la-bamba** — 2 lessons; counting 1-2-3-and-4-5-6-7-and-8; steps as taught: Paso 1 (1 to 2); Paso 2 (1 to 4); Paso 3 (1 to 3); Paso 4 (1 to 3)
+- **lambada** — 1 lesson; counting 1-2-3; steps as taught: The Basic (1-2-3); The Side Sit (1-2-3); The Turn (1-2-3); The Dip (1-2-3)
 - **landler** — 1 lesson; counting down-up-up; steps as taught: The Basic step (down-up-up); Step 1: Step & stop (1-2-3); Step 2: Down, step, hop (down-step-hop); Step 3: Under Turn (1-2-3-4)
 - **latin-dance** — 1 lesson; counting 1-2-3-4; steps as taught: Cumbia Two-Step (1-2-3-4); Cumbia Front and Back (1-2-3-4); Merengue March (1-2-3-4); Merengue Six-Count (1-2-3-4-5-6); mistakes: not relaxing the upper body or back foot during cumbia and merengue
+- **lavani** — 1 lesson; counting 5-6-7-8; steps as taught: Dip / Dipping (1-2-3-4); Step ball change (1-2); Hop step (1-2); Slide (1-2); mistakes: doing dipping on toes instead of flat feet, bending knees incorrectly during slides and hurting knees, knees opening too wide while sitting on the floor
 - **lezginka** — 1 lesson; counting 1-2-3-4 / 1-and-2-and; steps as taught: Basic Lezginka Footwork (1-2-3-4); Arm Port de Bras (1-2-3-4); mistakes: dropping or not fixing the fingers, moving shoulders, neck, and head instead of isolating the upper body, moving arms too fast or bouncing around
 - **lindy-hop-usa** — 1 lesson; counting 1-2-1-2; steps as taught: Charleston Rhythm / Basic (1-2)
 - **line-dance** — 3 lessons; counting 1-2-3-4 / 5-6-7-8; steps as taught: Fan motion / Heels and Toes (1-2-3-4); Alternating Heels and Toes (5-6-7-8); Step Kick Step Touch (1-2-3-4); Grapevine (1-2-3-4); mistakes: people get messed up on section 2 footwork, people get confused on the turn in section 4
@@ -240,6 +263,7 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **pantsula** — 3 lessons; counting 1-2-3; steps as taught: Right Outer-lock (1-2-3); Left Outer-lock (1-2-3); Dual Outer-locks (1-2-3); Spharaphara (5-6-7-8); mistakes: not hearing the sound of the step harder on the floor
 - **para-para** — 1 lesson; counting 5-6-7-8; steps as taught: Para Para basic steps (5-6-7-8)
 - **pas-de-deux** — 2 lessons; counting 2 counts off, 2 counts on; steps as taught: Soutenu balance (2 counts off, 2 counts on); mistakes: trying to stay on leg by yourself
+- **paso-doble** — 1 lesson; counting 1-2-3-4; steps as taught: Promenade Link (1-2-3-4); Chasse to the Right (1-2-3-4); Separation (1-2-3-4-5-6-7-8); Ecart (1-2-3-4); mistakes: picking up the foot and stopping it down during the 'appel' instead of a full, grounded step
 - **passacaglia** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: Paso básico (8); Paseíllo (8); Trenzado (3)
 - **passinho-do-jamal** — 2 lessons; counting pisa-pisa-pisa-marcha; steps as taught: Marcha (unspecified); Pisada (unspecified); Passinho do Jamal (1-2-3-4-5-6-7-8); mistakes: moving same arm and leg instead of opposite, andar com braço esquerdo e perna esquerda separados em vez de juntos
 - **pembe** — 2 lessons; counting 7-8 / 1-2-3-4; steps as taught: bakıyorsun step (7-8); Tozpembe opening step (1-2-3-4); mistakes: not placing weight on the correct foot before jumping, arm placement differing from the original choreography
@@ -262,12 +286,15 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **robot** — 3 lessons; counting 1-2-3-4-5-6-7-8 / 1-and-2-and-3-and-4; steps as taught: Wrist Twist (1-2); Arm Raise (3-4); Foot Pivot (7-8); Torso Turn (1-2); mistakes: not maintaining enough tension in the movements, not coordinating the head and body movements, moving everything below the elbow instead of including the elbow
 - **royal-ballet-cambodia** — 1 lesson; counting —; steps as taught: Tree gesture; Leaves gesture; Flowers gesture; Fruit gesture
 - **rueda-de-casino** — 2 lessons; counting 1-2-3 / 5-6-7-8; steps as taught: Dile que no (1-2-3, 5-6-7); Exhibela (1-2-3, 5-6-7); Culebra (1-2-3, 5-6-7); Sombrero (1-2-3, 5-6-7); mistakes: panicking and going forward instead of starting with the right leg back for girls
+- **rumba** — 1 lesson; counting slow-quick-quick; steps as taught: Basic Box (slow-quick-quick slow-quick-quick); Turning Box (slow-quick-quick slow-quick-quick); mistakes: not changing feet, staying lined up together
 - **salsa** — 1 lesson; counting 1-2-3, 5-6-7; steps as taught: Basic in place (1-2-3, 5-6-7); Forward and back basic (1-2-3, 5-6-7); Side to side basic (1-2-3, 5-6-7); Open break (1-2-3, 5-6-7); mistakes: not shifting weight, looking down at feet, feeling robotic
 - **samba** — 1 lesson; counting 1-and-2-3; steps as taught: Basic Samba Step (1-and-2-3); mistakes: getting confused with the coordination of the arms
 - **sammi** — 2 lessons; counting 1-2-3-4; steps as taught: Sammi (1-2-3-4); Sammi (1-2-3-4); mistakes: not keeping legs back, confusing count with claps
 - **sega** — 3 lessons; counting 1-2-1-2; steps as taught: Hip movements (1-2); Feet movements (1-2); Grounded movement; Travel step; mistakes: putting too much weight on the front leg, keeping the top part of the body still, confusion while using the left leg
 - **seis** — 1 lesson; counting 1-2; steps as taught: Sicá (basic step); Cuembé (back and forth); Yubá (1-2); Holandés (running-style)
 - **sequence-dance** — 1 lesson; counting 1-2-3-4; steps as taught: Walks and Point (1-2-3-4); Side Close Side (1-2-3-4); Three Step Turn (1-2-3-4)
+- **sharo** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: The Charleston (1-2-3-4-5-6-7-8)
+- **shexani** — 1 lesson; counting 1-2-1-2; steps as taught: Sheikhani Basic Step (1-2)
 - **shim-sham** — 3 lessons; counting 5-6-7-8; steps as taught: Shim Sham (5-6-7-8); Cross Over (5-6-7-8); Pushes (5-6-7-8); Tack Annie (5-6-7-8); mistakes: making steps too big instead of using rhythm, being too upright during stomp-off instead of using body movement, making the kick too big instead of letting the movement do the work
 - **siva-afi** — 1 lesson; counting 1-2-3-4-5; steps as taught: Vili Kua (1-5)
 - **skank** — 2 lessons; counting 1-2-3-4-5; steps as taught: Step 1 (1); Step 2 (2); Step 3 (3); Step 4 (4); mistakes: wearing casual clothes instead of appropriate attire
@@ -288,9 +315,11 @@ Most common: **5-6-7-8** — also: 1-2-3-4-5-6-7-8 (30); 1-2-3-4 (17); 1-2-3 (9)
 - **tobas** — 2 lessons; counting 1-2 / 3-2-1; steps as taught: Paso de entrada (1-2); Salticado doble (1-2); Marcación básica (1-2-3); Paso uno (1-2-3-4)
 - **tribal-fusion-belly-dance** — 3 lessons; counting the teacher does not use a formal counting scheme, instead f; steps as taught: Hip shifts (N/A); Torso snake (N/A); Arm snake (N/A); Finger wave (N/A); mistakes: trying to copy the teacher exactly instead of feeling the movement, <mistake the teacher names and corrects>
 - **trojak** — 1 lesson; counting 1-and-2-and-3-and; steps as taught: Krok podstawowy (1-and-2-and-3-and); Ukłon (1-and-2-and-3-and); Obroty tancerek (1-and-2-and); Skoki tancerzy (1-and-2-and)
+- **turfing** — 1 lesson; counting 5-6-7-8 / 1-2-3-4; steps as taught: Arm Traces with Shoulder Lever (1-2-3-4); mistakes: don't have it too loose because it'll lose the effect
 - **ura** — 1 lesson; counting the teacher does not use a formal counting scheme, instead u; steps as taught: Takapini; Ura Viviki; mistakes: not having the back mobility yet, doing the movement with the back instead of the hips
 - **urban-kiz** — 2 lessons; counting 1-2-3-4-5-6-7; steps as taught: First Slide (1-2-3-4-5-6-7); Second Slide (1-2-3-4-5-6-7); Pivot Slide (1-2-3-4-5-6-7); Urban Kiz Trick Sequence (1-8); mistakes: hanging around the neck like a koala bear, pushing too much and losing balance, making the slide too big
 - **uzicko-kolo** — 1 lesson; counting 1-2-3-2-2-3-3-2-3-4-2-3; steps as taught: Uzicko Kolo basic step (1-2-3-2-2-3-3-2-3-4-2-3)
+- **virginia-reel** — 1 lesson; counting 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8; steps as taught: Single hand spin (8 beats); Both hands spin (8 beats); Go-see-do (8 beats); Reeling the set (8 beats per turn)
 - **voguing** — 1 lesson; counting 1-2-3-4-5-6-7-8; steps as taught: basic catwalk (1-2-3-4-5-6-7-8); mistakes: crossing over while walking, having a wide stance, favoring one side
 - **waacking** — 3 lessons; counting 5-6-7-8 and 1-and-2-and-3-and-4-and; steps as taught: lines and overheads (8 counts); Single Arm Roll (1-2-3-4); psyche (1-2-3-4); hit (1-2-3-4-5-6); mistakes: going outwards instead of staying very close to the ears, one arm being stronger than the other, not doing the arm movement around the head separately
 - **waka-waka** — 2 lessons; counting 5-6-7-8; steps as taught: Getting up from sleep (5-6-7-8); Jump and hand pull (5-6-7-8); Aerobic dance (5-6-7-8); Swimming arms (5-6-7-8); mistakes: not taking the chest out, not transferring the body weight correctly, separating the arms and waist

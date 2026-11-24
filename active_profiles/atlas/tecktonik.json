@@ -2,104 +2,92 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "complex arm patterns requiring fine motor skills",
-          "fast tempo that may overwhelm beginners"
-        ],
+        "avoid": [],
         "counts": "not derivable yet",
         "duration_minutes": "not derivable yet",
         "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "fast arm movements that may strain shoulders",
-          "rapid foot shuffles that challenge balance"
-        ],
+        "avoid": [],
         "counts": "not derivable yet",
         "seated_version": "not derivable yet",
         "standing_version": "not derivable yet",
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Intricate, fast arm movements using glowsticking patterns like figure eights; one hand leads the other in geometric patterns",
-      "difficulty": "beginner to intermediate",
-      "footwork": "Shuffling steps, rhythmic foot taps, toprock and b-boy style footwork elements; feet move smoothly and lightly",
-      "formation_and_space": "Usually danced solo or in informal street gatherings without fixed formations",
-      "hips_and_torso": "Subtle hip and torso movements complement arm work; hips and knees move softly to the beat",
-      "levels_and_jumps": "No jumps or acrobatic moves described; focus on arm complexity and foot rhythm",
+      "arms_and_hands": "predominantly arm movements, drawing from glowsticking techniques such as freehand patterns, the figure eight, and the concept of a leading hand",
+      "difficulty": "intermediate",
+      "footwork": "shuffling steps and rhythmic footwork, sometimes incorporating elements of toprock and b-boy-style footwork",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "dancers tend to use their hips, knees, and feet smoothly across the floor",
+      "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Upright with angular arm positions and dynamic upper body movement",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Arm movement tracing a figure eight pattern with one hand leading",
-          "name": "Freehand figure eight"
+          "description": "A geometric arm pattern where hands follow a figure-eight path.",
+          "name": "Figure Eight"
         },
         {
-          "description": "Sharp, disco-inspired arm and body poses",
-          "name": "Angular pose"
-        },
-        {
-          "description": "Quick, rhythmic foot shuffles in time with music",
-          "name": "Shuffle step"
+          "description": "A technique where one hand geometrically follows the movement of the other.",
+          "name": "Leading Hand"
         }
       ],
-      "tempo_feel": "Fast-paced and energetic, matching techno and electro house beats",
-      "what_to_avoid": "Avoid confusing the trademarked name with generic electro dance Avoid high-impact jumps or moves not suited for club floors"
+      "tempo_feel": "fast-paced",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "synthesizers",
-        "drum machines",
-        "electronic basslines"
+        "electronic synthesizers",
+        "drum machines"
       ],
       "meter": "4/4",
       "mood_keywords": [
+        "frenetic",
         "energetic",
-        "fast-paced",
-        "electronic",
-        "club"
+        "fast-paced"
       ],
-      "musical_form": "Club-oriented tracks with repetitive beats and build-ups",
+      "musical_form": "electro house, techno, hardstyle, jumpstyle",
       "reference_recordings": [
         {
           "artist": "Mondotek",
-          "source": "https://fr.wikipedia.org/wiki/Tecktonik",
-          "title": "Alive!"
+          "title": "Alive"
         },
         {
-          "artist": "Yelle",
-          "source": "https://fr.wikipedia.org/wiki/Tecktonik",
-          "title": "À cause des garçons (Tepr remix)"
+          "artist": "Yelle (Tepr remix)",
+          "title": "A cause des Garçons"
         },
         {
           "artist": "Dim Chris",
-          "source": "https://fr.wikipedia.org/wiki/Tecktonik",
           "title": "Sucker"
         }
       ],
-      "rhythm_pattern": "Driving electronic beats characteristic of techno and electro house",
-      "sound_description": "Energetic electronic club music with fast tempos, repetitive synth lines, and strong rhythmic pulses designed to support rapid arm and foot movements.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Fast-paced, high-energy electronic music characterized by repetitive, driving beats and synthesized melodies typical of early 2000s European club culture.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Mostly instrumental or with electronic vocal samples"
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Raise arms and perform freehand glowsticking patterns such as figure eights",
-        "Lead one hand with the other in angular, sharp movements",
-        "Incorporate disco-inspired poses with angular arm positions",
-        "Shuffle feet rhythmically in time with fast-paced electro house music",
-        "Add toprock or b-boy style footwork elements as comfortable"
+        "Arm patterns using glowsticking techniques",
+        "Shuffling footwork",
+        "Toprock-inspired rhythmic steps"
       ],
-      "formation": "Typically solo or in street gatherings; no formal formation described",
-      "level_notes": "Beginners start with basic arm patterns and simple foot shuffles; advanced dancers add complex arm sequences and footwork",
-      "rhythm": "Fast-paced techno and electro house beats, generally 4/4 meter"
+      "formation": "Individual or group freestyle",
+      "level_notes": "not described in sources",
+      "rhythm": "Fast-paced electro house beats"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "db2b73f42f9c544d2ae0bea1926525fb01e89ecb3e596d2ff57d305bf4ce57ec",
+  "fingerprint": "88b382f63a7c269893b4bf5b4f313491c3d4bb3dd7e8c82192edd91840142102",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -107,7 +95,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, formation_and_space, what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific BPM ranges used in contemporary Electro Dance? Evidence needed: Musicological analysis of popular Electro Dance tracks."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -134,7 +125,17 @@
   ],
   "music_options": [],
   "name": "Tecktonik",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "038db6ad0bd01d7e",
+      "next_evidence": "Musicological analysis of popular Electro Dance tracks.",
+      "question": "What are the specific BPM ranges used in contemporary Electro Dance?",
+      "source": "https://en.wikipedia.org/wiki/Electro_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate musical guidance for practitioners."
+    }
+  ],
   "research_file": "research_results/tecktonik.json",
   "runtime_active": false,
   "scope": {
@@ -148,9 +149,10 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Electro_dance",
     "https://www.wikidata.org/wiki/Q754504",
-    "https://es.wikipedia.org/wiki/Tecktonik",
     "https://fr.wikipedia.org/wiki/Tecktonik",
-    "https://pt.wikipedia.org/wiki/Tecktonik"
+    "https://es.wikipedia.org/wiki/Tecktonik",
+    "https://pt.wikipedia.org/wiki/Tecktonik",
+    "https://de.wikipedia.org/wiki/Tecktonik"
   ],
   "state": "researching",
   "video_evidence": [

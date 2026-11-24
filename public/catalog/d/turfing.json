@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "turfing",
  "name": "Turfing",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -11,10 +11,14 @@
   "slug": "turfing",
   "name": "Turfing",
   "country": "United States",
+  "country_code": "US",
+  "flag_emoji": "🇺🇸",
   "region": "North America",
-  "tagline": "United States — form of street dance that originated in Oakland, California, United States, characterized by rhythmic movem…",
-  "profile": "Turfing (or turf dancing) is a form of street dance that originated in Oakland, California, United States, characterized by rhythmic movement combined with waving, floor moves, gliding, flexing, and contortioning. It was developed by youth from West Oakland and organized by dancer Jeriel Bey, who coined the name \"turf dancing,\" or \"Turfin\" and named his Organization The Architeckz™. Bey named the dance form as an acronym for \"Taking Up Room on the Floor.\" The style was originally known by the terms \"having fun with it\" or \"hitting it\", but these names didn't seem marketable.",
-  "insight": "Turf dancing was first displayed on videos from artists such as Baby Bash, Keak Da Sneak, and E-40 by innovative and influential turf dancers (and creators of the turfing Lifestyle) Jeriel Bey.",
+  "family": "street-urban",
+  "era": "1990s-present",
+  "tagline": "A street dance from Oakland, California, blending storytelling and illusion.",
+  "profile": "Turfing is a street dance originating in West Oakland, California, characterized by rhythmic movement, gliding, and complex storytelling. Developed in the 1990s, it serves as both a creative outlet and a social critique, addressing police brutality and honoring lost lives within the community. The style integrates elements of Boogaloo, tutting, and animation, emphasizing individual expression and the creation of optical illusions.",
+  "insight": "In 2005, The Architeckz used turfing as a tool for dispute resolution, engaging in city-level dance battles against krump dancers from Los Angeles to replace violence with competition.",
   "related": [
    "salsa",
    "charleston",
@@ -24,14 +28,36 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Turfing",
-   "Source: Turfing on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Turfing"
+   "Source: Turfing on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Turfing",
+   "https://www.wikidata.org/wiki/Q10385518"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Turfing",
   "wikidata_qid": "Q10385518",
   "unesco": false,
   "hero_video_youtube_id": "JQRRnAhmB58",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.7,
+  "last_researched_at": "2026-11-24T21:30:34Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Turfing, also known as turf dancing, is a distinctive street dance form that emerged from the youth culture of West Oakland, California, during the 1990s. While its roots are deeply embedded in the Boogaloo movement that flourished in Oakland during the 1960s, turfing evolved into a unique genre that serves as a powerful medium for social commentary and community identity. The name itself is often interpreted as an acronym for 'Taking Up Room on the Floor,' though some practitioners suggest it refers to the 'turfs' or territories that dancers represent, echoing the neighborhood-based pride of the East Bay. The dance is not merely a performance but a social critique, frequently used to recognize lost lives, address police brutality, and foster empathy and peace in the very streets where violence has occurred.\n\nThe technical foundation of turfing is highly improvisational and free-flowing, prioritizing the creation of optical illusions and the display of personal style. Dancers utilize a wide array of movements, including waving, flexing, contortioning, tutting, and animation. Gliding is a particularly essential element, as it allows the dancer to manipulate space and create the illusion of weightlessness or fluid movement. The dance also incorporates 'storytelling,' a style based on pantomime that allows the performer to act out everyday activities or specific life narratives. This focus on individual expression is captured in the concept of 'going dumb,' a term used to describe the act of completely letting one's emotions loose on the dance floor.\n\nHistorically, the movement gained significant structure in 2002 when Jeriel Bey established his group, The Architeckz™. This organization helped formalize the dance and promoted it as a constructive alternative to neighborhood conflict. By 2005, The Architeckz were using dance battles as a method of dispute resolution, famously engaging in city-level competitions against krump dancers from Los Angeles. This spirit of friendly rivalry expanded to include dancers from New York City and Memphis, Tennessee. The dance form gained broader visibility through the music industry, appearing in videos by artists such as Baby Bash, Keak Da Sneak, and E-40. E-40’s 2006 single 'Tell Me When to Go' was instrumental in bringing international attention to the movement. In 2012, the visibility of the form reached a national stage when Alonzo (Turf) Jones, a dancer and skateboarder from the Bay Area, competed on the television show America’s Got Talent.\n\nThe dance relies on a series of foundational movements that represent different Oakland turfs. These include the 'two step,' 'brookfield,' 'auntie,' 'shaking,' 'the busta,' 'cliffhangers,' 'tsunamis,' and 'traces.' These foundational steps are often combined with the more technical elements of popping, locking, and miming. Because the dance is improvisational, there is no single 'correct' way to perform it; rather, it is defined by the dancer's ability to create a politicized awareness of their environment while maintaining a distinct personal aesthetic. As a living tradition, turfing continues to be a vital part of the street culture in the East Bay, serving as a testament to the resilience and creativity of the community.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Popping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Popping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 600,
+    "height": 900,
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "attribution": "Stefan Bootin / Wikimedia Commons / CC BY-SA 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APopping.jpg",
+    "description": "From a popping performance choreographed and performed by Stefan Bootin."
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_weak",
   "hero_qc": {
    "verdict": "pass",
@@ -46,6 +72,392 @@
    "breaking"
   ]
  },
- "fingerprint": "2038ccfe35016477",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Turfing originated in West Oakland in the 1990s, evolving from the 1960s Boogaloo movement. It gained prominence in 2002 with the formation of The Architeckz™ by Jeriel Bey, who used the dance to promote peace and resolve disputes.",
+   "how_it_is_danced": "Turfing is improvisational and free-flowing. It incorporates specific foundational steps like 'two step' and 'cliffhangers' alongside technical elements such as gliding, waving, flexing, and storytelling through pantomime.",
+   "music_and_instruments": "Turfing is closely associated with hyphy music. The music serves as a backdrop for the dancer to 'go dumb,' or express emotions freely.",
+   "costume_and_setting": "not described in sources",
+   "occasions_and_meaning": "Turfing is a social critique used to honor lost lives, address police brutality, and promote peace and empathy within the community.",
+   "notable_figures": "Jeriel Bey (founder of The Architeckz™) and Alonzo (Turf) Jones (a.k.a. Retro).",
+   "regional_variants": "not described in sources",
+   "lineage": "Influenced by the Boogaloo movement of the 1960s; shares elements with popping, locking, and krump."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Two step",
+    "Brookfield",
+    "Auntie",
+    "Shaking",
+    "The busta",
+    "Cliffhangers",
+    "Tsunamis",
+    "Traces"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "Improvisational and free-flowing",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "Turfing is a form of street dance that originated in Oakland, California, characterized by rhythmic movement combined with waving, floor moves, gliding, flexing, and contortioning.",
+    "source": "https://en.wikipedia.org/wiki/Turfing"
+   },
+   {
+    "text": "The dance was organized by Jeriel Bey, who coined the name as an acronym for 'Taking Up Room on the Floor.'",
+    "source": "https://en.wikipedia.org/wiki/Turfing"
+   },
+   {
+    "text": "Turfing is a social critique and recognition of lost African American lives, police brutality, and race relations in Oakland.",
+    "source": "https://en.wikipedia.org/wiki/Turfing"
+   },
+   {
+    "text": "The foundation of turf dance includes steps such as 'two step,' 'brookfield,' 'auntie,' 'shaking,' 'the busta,' 'cliffhangers,' 'tsunamis' and 'traces.'",
+    "source": "https://en.wikipedia.org/wiki/Turfing"
+   },
+   {
+    "text": "In 2005, The Architeckz built on the concept of dance battle by engaging krump dancers from Los Angeles in city-level competition.",
+    "source": "https://en.wikipedia.org/wiki/Turfing"
+   },
+   {
+    "text": "Turf dance includes 'story telling' which is a style based on pantomime 'life stories' or 'everyday activities'.",
+    "source": "https://en.wikipedia.org/wiki/Turfing"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Popping.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Popping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Popping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 600,
+    "height": 900,
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "artist": "Stefan Bootin",
+    "description": "From a popping performance choreographed and performed by Stefan Bootin.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APopping.jpg",
+    "attribution": "Stefan Bootin / Wikimedia Commons / CC BY-SA 2.5"
+   }
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "expressive",
+    "emotional"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Tell Me When to Go",
+     "artist": "E-40"
+    }
+   ],
+   "sound_description": "not described in sources"
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "Gliding is heavily used to create optical illusions.",
+   "arms_and_hands": "Includes waving, tutting, and flexing.",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "Improvisational and free-flowing; dancers take up room on the floor.",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [
+    {
+     "name": "Storytelling",
+     "description": "Pantomime-based style used to act out life stories or everyday activities."
+    },
+    {
+     "name": "Gliding",
+     "description": "Movement used to create optical illusions of weightlessness."
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "beginner",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "Taking Up Room: The Story of Oakland Turfing",
+   "logline": "Discover how a street dance from West Oakland became a powerful tool for social justice and community healing.",
+   "beats": [
+    "Introduction to the origins of Turfing in West Oakland.",
+    "Explanation of the acronym 'Taking Up Room on the Floor'.",
+    "The role of Jeriel Bey and The Architeckz™ in formalizing the dance.",
+    "Demonstration of foundational steps like 'two step' and 'cliffhangers'.",
+    "The use of storytelling and pantomime to convey life experiences.",
+    "The history of dance battles as a form of dispute resolution.",
+    "The connection between turfing and social critique regarding police brutality.",
+    "Closing reflection on the dance as a movement for peace."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Learn basic foundational steps",
+     "drills": [
+      "Practice the two step",
+      "Practice the brookfield step",
+      "Practice the auntie step"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Urban street settings in Oakland",
+    "Close-ups of gliding footwork",
+    "Dancers performing storytelling pantomime"
+   ],
+   "instructor_persona": "A community-based turf dancer from Oakland",
+   "music_cue": "Hyphy-style beat"
+  },
+  "connections": [
+   {
+    "name": "Boogaloo",
+    "relation": "influence",
+    "note": "Turfing traces its earliest influences back to the Boogaloo movement of the 1960s."
+   },
+   {
+    "name": "krump",
+    "relation": "influence",
+    "note": "The Architeckz engaged in city-level competitions with krump dancers from Los Angeles."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Focus on arm and hand movements such as waving, tutting, and flexing while seated.",
+    "standing_version": "Not derivable yet",
+    "tempo_and_range": "Reduced tempo and range of motion.",
+    "counts": "Not derivable yet",
+    "avoid": [
+     "Balance-intensive movements",
+     "Knee-straining pivots",
+     "Floor work"
+    ]
+   },
+   "children": {
+    "game_version": "Use storytelling pantomime to act out simple everyday activities or animal movements.",
+    "duration_minutes": "15",
+    "counts": "Simplified counts",
+    "avoid": [
+     "Complex contortioning",
+     "High-impact floor work"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-24T21:30:34Z",
+  "qc_score": 9.7
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "xdJqRc3kX-4",
+   "url": "https://www.youtube.com/watch?v=xdJqRc3kX-4",
+   "title": "How to Do Turfing Traces for Arms | Street Dance",
+   "channel": "Howcast",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8 / 1-2-3-4",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "Instructor introduces himself and the topic of arm traces."
+    },
+    {
+     "t": "0:19",
+     "seconds": 19,
+     "segment": "breakdown",
+     "note": "Instructor explains how arm traces resemble a simplified wave."
+    },
+    {
+     "t": "0:29",
+     "seconds": 29,
+     "segment": "breakdown",
+     "note": "Instructor demonstrates the wave using visual comparisons like an alligator or Pac-Man."
+    },
+    {
+     "t": "1:07",
+     "seconds": 67,
+     "segment": "breakdown",
+     "note": "Instructor breaks down using the shoulder as a lever for the arm trace."
+    },
+    {
+     "t": "2:22",
+     "seconds": 142,
+     "segment": "music_practice",
+     "note": "Instructor practices the arm traces with background music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Arm Traces with Shoulder Lever",
+     "counts": "1-2-3-4",
+     "description": "Isolating movement from shoulder to elbow, wrist, and hand out."
+    }
+   ],
+   "cues": [
+    "One, two, three, four",
+    "Shoulder, elbow, wrist, hand out",
+    "Five, six, seven, eight"
+   ],
+   "images": [
+    "like a normal wave",
+    "like your alligator",
+    "like it's a lever"
+   ],
+   "common_mistakes": [
+    "Don't have it too loose because it'll lose the effect"
+   ],
+   "teacher_style": "The instructor uses casual, encouraging dialogue to break down complex arm movements into relatable components. He pairs verbal instructions with step-by-step physical demonstrations, frequently repeating counts and visual metaphors.",
+   "distinctive_method": "Comparing arm trace mechanics to everyday visual imagery like an alligator mouth and mechanical levers to explain joint articulation.",
+   "what_works": [
+    "Breaking down the arm movement into specific joints (shoulder, elbow, wrist, hand)",
+    "Counting aloud clearly during demonstration"
+   ],
+   "what_hinders": [
+    "Lack of alternate camera angles to see arm positioning from the side or back"
+   ],
+   "evidence": [
+    {
+     "start_s": 5,
+     "end_s": 15,
+     "topic": "teaching",
+     "observation": "Instructor stands facing the camera and introduces the lesson with hand gestures.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact footwork details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 41,
+     "end_s": 46,
+     "topic": "movement",
+     "observation": "Instructor demonstrates arm movement counting 1 through 4.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "tension in the arm muscles",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 119,
+     "end_s": 129,
+     "topic": "movement",
+     "observation": "Instructor sequentially moves shoulder, elbow, wrist, and hand.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "subtle joint rotations",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "JQRRnAhmB58",
+   "url": "https://www.youtube.com/watch?v=JQRRnAhmB58",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "outdoor urban street corner, rainy day",
+    "dancers": "group of 4 young men",
+    "formation_and_space": "loose group, dancers take turns in the center of the space",
+    "posture": "torso often bent forward, knees bent, weight shifted low",
+    "footwork": "fast, intricate, and percussive stepping, sliding, and tapping; often involves rapid weight shifts and quick changes of direction",
+    "arms_and_hands": "expressive, fluid, and sharp movements; hands often used for gestures or to balance during floor work",
+    "hips_and_torso": "frequent isolations, sharp twists, and fluid, rhythmic movements",
+    "partnering": "none, solo performances in turn",
+    "levels_jumps_turns": "frequent transitions between standing, crouching, and floor work; includes spins, slides, and acrobatic movements like handstands and backbends",
+    "costume_and_props": "casual streetwear, hoodies, jackets, jeans, sneakers; some wear masks or hoods",
+    "cannot_infer": "low-resolution sampled frames make it difficult to determine the exact weight transfer or the speed of the footwork",
+    "music_heard": {
+     "instruments": [
+      "electronic beat",
+      "synthesizer"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 26,
+      "end_s": 32,
+      "what": "a dancer performs a series of rapid, low-level movements, including a crouch and a sharp, rhythmic arm gesture"
+     },
+     {
+      "start_s": 51,
+      "end_s": 56,
+      "what": "a dancer executes a fluid, acrobatic move involving a low-level spin and a quick transition to a standing position"
+     },
+     {
+      "start_s": 111,
+      "end_s": 116,
+      "what": "a dancer performs a series of sharp, percussive steps and leg extensions"
+     },
+     {
+      "start_s": 236,
+      "end_s": 241,
+      "what": "a dancer performs a backbend while on the floor, followed by a quick, fluid transition to a standing position"
+     },
+     {
+      "start_s": 247,
+      "end_s": 252,
+      "what": "a dancer executes a series of rapid, low-level movements, including a spin and a sharp, rhythmic arm gesture"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 5,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/turfing.json"
+ },
+ "fingerprint": "5e27114277bffa36",
+ "updated": "2026-11-24"
 }

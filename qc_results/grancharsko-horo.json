@@ -1,0 +1,126 @@
+{
+ "slug": "grancharsko-horo",
+ "qc_at": "2026-11-24T22:09:24Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 3.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Grancharsko horo"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "58"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "89"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Grancharsko horo is cataloged under Wikidata entity Q28136458 as a recognized da"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "289"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "444"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/1 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 10,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Grancharsko horo is recorded in standard databases as a distinct type of dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile contains no actual information about the dance, its origins, or its movements. It is essentially a placeholder stating that no information exists. A dance profile must contain substantive cultural or technical content to be publishable."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "country",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=3.25",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-24T20:42:10Z"
+}

@@ -125,10 +125,50 @@
   "mentor": {
    "voice": [
     "warm",
-    "precise"
+    "precise",
+    "energetic"
    ],
-   "beliefs": [],
-   "feelings": []
+   "beliefs": [
+    {
+     "t": "0:22",
+     "belief": "The teacher believes that knowing how to shift weight and bend knees is the first essential thing to dance Latin rhythm.",
+     "about": "how_people_learn"
+    }
+   ],
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:21",
+     "moment": "opening",
+     "says": "The teacher invites the learner to get started with learning easy Latin dance steps.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "0:22",
+     "moment": "before_hard_part",
+     "says": "The teacher explains the foundational posture of weight forward and bent knees, warning against stretching legs which blocks movement.",
+     "tag": "body_adaptation"
+    },
+    {
+     "t": "1:35",
+     "moment": "before_hard_part",
+     "says": "The teacher suggests adding upper body movements to take the first dance step to the next level.",
+     "tag": "progression"
+    },
+    {
+     "t": "4:27",
+     "moment": "before_hard_part",
+     "says": "The teacher demonstrates how to add hip, torso, and arm movements while reminding the learner how arms should not look.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "8:30",
+     "moment": "closing",
+     "says": "The teacher encourages the learner to practice all the learned steps together from the top.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling equipped and excited to show off new dance moves at any party."
   },
   "learner_voice": {
    "struggles": [
@@ -184,5 +224,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-24T22:21:13Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

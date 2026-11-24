@@ -1,13 +1,65 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms extended, right hand toward the sky, left hand toward the earth.",
+      "difficulty": "advanced",
+      "footwork": "Rotation around the left foot, with the ball of the foot in contact with the floor.",
+      "formation_and_space": "Solo, circular path.",
+      "hips_and_torso": "Upright, balanced.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None.",
+      "posture": "Head tilted at approximately 25 degrees.",
+      "signature_moves": [
+        {
+          "description": "Continuous rotation around a central axis.",
+          "name": "Whirling"
+        }
+      ],
+      "tempo_feel": "Steady, increasing.",
+      "what_to_avoid": "Avoid rapid head movements to prevent vertigo."
+    },
+    "music_profile": {
+      "instruments": [
+        "ney",
+        "percussion"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "meditative",
+        "ecstatic",
+        "spiritual"
+      ],
+      "musical_form": "dhikr-based",
+      "reference_recordings": [],
+      "rhythm_pattern": "repetitive, hypnotic",
+      "sound_description": "The music is characterized by the haunting sound of the ney flute and steady, rhythmic percussion, creating a trance-like atmosphere suitable for long-duration spinning.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Sufi chant"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand with feet together.",
+        "Extend arms outward, right palm up, left palm down.",
+        "Pivot on the ball of the left foot.",
+        "Use the right foot to push and create momentum for a 360-degree rotation."
+      ],
+      "formation": "Solo dancer in a central space.",
+      "level_notes": "Requires significant balance training to avoid vertigo.",
+      "rhythm": "Steady, repetitive, often increasing in tempo."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ebbf6aa6844213d2febcdf47a6648f987433055f6c56b3c97c1eee2ae058417f",
+  "fingerprint": "94fb08b2c7e63e798c3501ada1952e665d74bcbde31864b552bb2be8b111e50f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +67,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, standardized musical compositions or rhythmic patterns used exclusively for Tanoura performances? Evidence needed: Musicological analysis of Egyptian Tanoura performances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +96,18 @@
   ],
   "music_options": [],
   "name": "Tanoura",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "178b87fb0ae51ce6",
+      "next_evidence": "Musicological analysis of Egyptian Tanoura performances.",
+      "question": "Are there specific, standardized musical compositions or rhythmic patterns used exclusively for Tanoura performances?",
+      "source": "https://en.wikipedia.org/wiki/Sufi_whirling",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a more precise music_profile for practitioners."
+    }
+  ],
+  "research_file": "research_results/tanoura.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +118,10 @@
   },
   "slug": "tanoura",
   "sources": [
-    "https://egyptianstreets.com/2021/10/03/spinning-away-the-origin-of-egypts-folkloric-tanoura-dance/",
-    "https://thearabweekly.com/egypt-tanoura-puts-kaleidoscopic-spin-dervish-tradition"
+    "https://en.wikipedia.org/wiki/Sufi_whirling",
+    "https://www.wikidata.org/wiki/Q4120716",
+    "https://it.wikipedia.org/wiki/Derviscio_rotante"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

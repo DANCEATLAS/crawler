@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "virginia-reel",
  "name": "Virginia reel",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -38,6 +38,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_reel_(dance)",
   "wikidata_qid": "Q7934709",
   "unesco": false,
+  "hero_video_youtube_id": "gnLEnf-6S_U",
+  "video_stack": [
+   {
+    "youtube_id": "gnLEnf-6S_U",
+    "role": "hero",
+    "title": "Virginia Reel",
+    "channel": "Mormon Pioneer Dances",
+    "hd": true
+   },
+   {
+    "youtube_id": "7ciPQOvX6J4",
+    "role": "rendition",
+    "title": "How To Dance The Virginia Reel",
+    "channel": "Dancing for Dunces",
+    "hd": true
+   },
+   {
+    "youtube_id": "Tj4rANTDchc",
+    "role": "rendition",
+    "title": "Virginia Reel",
+    "channel": "Compagnia Nazionale di Danza Storica",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -59,6 +83,12 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:13:01Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "money-musk"
   ]
@@ -281,32 +311,193 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   }
-  ]
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "7ciPQOvX6J4",
+   "url": "https://www.youtube.com/watch?v=7ciPQOvX6J4",
+   "title": "How To Dance The Virginia Reel",
+   "channel": "Dancing for Dunces",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Welcome to Dancing for Dunces and introduction to the Virginia Reel tutorial."
+    },
+    {
+     "t": "0:14",
+     "seconds": 14,
+     "segment": "context",
+     "note": "Explanation of reel form, top of the room, and set positioning."
+    },
+    {
+     "t": "0:38",
+     "seconds": 38,
+     "segment": "breakdown",
+     "note": "Step-by-step breakdown of the opening eight-beat spinning movements with partners."
+    },
+    {
+     "t": "1:33",
+     "seconds": 93,
+     "segment": "breakdown",
+     "note": "Demonstration of sashing down the set and reeling the set."
+    },
+    {
+     "t": "3:01",
+     "seconds": 181,
+     "segment": "breakdown",
+     "note": "Explanation of casting off, also known as peeling the banana."
+    },
+    {
+     "t": "3:35",
+     "seconds": 215,
+     "segment": "full_demo",
+     "note": "Complete dance demonstration through in full with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Single hand spin",
+     "counts": "8 beats",
+     "description": "Extend right arm to partner and spin round clockwise until back home, then repeat with left."
+    },
+    {
+     "name": "Both hands spin",
+     "counts": "8 beats",
+     "description": "Extend both hands to partner and spin around till home."
+    },
+    {
+     "name": "Go-see-do",
+     "counts": "8 beats",
+     "description": "Pass right shoulders with partner."
+    },
+    {
+     "name": "Reeling the set",
+     "counts": "8 beats per turn",
+     "description": "Top couple links right arms and turns one and a half times, then left arm with next friend."
+    },
+    {
+     "name": "Casting off",
+     "counts": "8 beats",
+     "description": "Top couple turns and walks behind the line with all gentlemen/ladies following."
+    }
+   ],
+   "cues": [
+    "Right hand to your partner, left hand to your friend",
+    "Go-see-do with your partner",
+    "Reeling the set",
+    "Peeling the banana"
+   ],
+   "images": [
+    "Peeling the banana"
+   ],
+   "teacher_style": "The instructor provides clear verbal explanations supported by on-screen text overlays and diagrams to define terms like top of the room and set. They break down each component of the Virginia Reel with visual demonstrations using a group of dancers.",
+   "distinctive_method": "Using overhead drone-style camera footage throughout the tutorial to clearly illustrate spatial geometry and group positioning in contra/reel dancing.",
+   "what_works": [
+    "Overhead aerial view clearly shows group formations and movements",
+    "Text overlays reinforce key terms and directional cues"
+   ],
+   "what_hinders": [
+    "Demonstrations rely entirely on the group moving rather than slow individual footwork closeups"
+   ],
+   "evidence": [
+    {
+     "start_s": 14,
+     "end_s": 30,
+     "topic": "teaching",
+     "observation": "Teacher stands in front of lined-up dancers while on-screen text labels positions.",
+     "viewpoint": "front",
+     "cannot_infer": "exact spacing measurements",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 35,
+     "end_s": 50,
+     "topic": "movement",
+     "observation": "Overhead view showing dancers moving in two parallel lines and holding hands with partners.",
+     "viewpoint": "overhead",
+     "cannot_infer": "individual footwork details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "gnLEnf-6S_U",
+   "url": "https://www.youtube.com/watch?v=gnLEnf-6S_U",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A large, indoor room with wooden floors, likely a historical site or community hall, with people sitting on the sides watching.",
+    "dancers": "Ten dancers, mixed men and women, arranged in two parallel lines facing each other.",
+    "formation_and_space": "Two parallel lines facing each other, with the lead couple at the top of the lines. The dancers move forward and back, and the lead couple performs figures down the center of the lines.",
+    "posture": "Upright torso, relaxed knees, weight shifts with the steps.",
+    "footwork": "Walking steps, skipping steps, and turning steps. The footwork is rhythmic and matches the beat of the music.",
+    "arms_and_hands": "Dancers hold hands with partners during turns and swings. When not in contact, arms are held at the sides or used for balance.",
+    "hips_and_torso": "Generally still, with natural movement during turns and swings.",
+    "partnering": "Couples hold hands for turns and swings. The lead couple interacts with each person in the line as they progress down the center.",
+    "levels_jumps_turns": "The dancers perform turns and swings, maintaining a consistent level throughout the dance.",
+    "costume_and_props": "Historical-style clothing: women in long dresses, men in vests and trousers.",
+    "cannot_infer": "The video is a wide shot, so specific footwork details like weight transfer are difficult to see clearly. The speed of the dance is moderate, but the camera cuts make it hard to track the full sequence.",
+    "music_heard": {
+     "instruments": [
+      "fiddle",
+      "piano"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 16,
+      "end_s": 25,
+      "what": "The lead couple joins hands and swings each other down the center of the lines."
+     },
+     {
+      "start_s": 32,
+      "end_s": 45,
+      "what": "The lead couple performs a right-hand turn with the first person in the opposite line, then a left-hand turn with their partner."
+     },
+     {
+      "start_s": 108,
+      "end_s": 115,
+      "what": "The lead couple performs a series of turns with each person in the line, moving down the set."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/virginia-reel.json"
  },
- "fingerprint": "598fd0aadeb0c95b",
+ "fingerprint": "ee6af3737e8bf3e8",
  "updated": "2026-11-24"
 }

@@ -22,7 +22,7 @@ NARRATION: The Nae Nae was created in 2013 by the Atlanta hip-hop group We Are T
 NARRATION: The dance references Sheneneh Jenkins, a character from the 1990s sitcom Martin.
 NARRATION: In 2014, the move became a viral sensation across Vine, Twitter, Instagram, and YouTube.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -47,7 +47,7 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Performed in clubs, athletic arenas during collegiate and professional sporting events, and across digital social media videos.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -285,7 +285,7 @@ Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconst
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 1 licensed — Six Flags Over Texas / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 
 Costume notes: Performed in clubs, athletic arenas during collegiate and professional sporting events, and across digital social media videos.

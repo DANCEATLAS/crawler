@@ -59,7 +59,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -67,36 +67,8 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -105,13 +77,74 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "875213b8f4fa34cd",
+ "performances": [
+  {
+   "youtube_id": "sFW3kJs_Y1Y",
+   "url": "https://www.youtube.com/watch?v=sFW3kJs_Y1Y",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "a stage with a dark background and large vertical screens displaying circular patterns",
+    "dancers": "a group of 10 men",
+    "formation_and_space": "the dancers move in lines, circles, and pairs, frequently changing formations across the stage",
+    "posture": "upright torso, knees slightly bent, weight shifts between feet",
+    "footwork": "quick, intricate steps, including small jumps, toe-taps, and rapid, light-footed movements; the exact timing of weight transfer is difficult to see due to the camera distance and speed",
+    "arms_and_hands": "arms are held in various positions, often extended or raised; hands hold colorful scarves that are waved and manipulated throughout the dance",
+    "hips_and_torso": "the torso remains relatively upright, with some subtle swaying and turning movements",
+    "partnering": "the dancers interact in pairs, sometimes holding hands or coordinating their movements with scarves",
+    "levels_jumps_turns": "the dance includes jumps, turns, and some floor work where dancers drop to one knee",
+    "costume_and_props": "the dancers wear black, long-sleeved tunics with red accents, dark trousers, and black caps; they use colorful scarves as props",
+    "cannot_infer": "the exact timing of weight transfer and the speed of the footwork are difficult to determine due to the camera distance and the fast-paced nature of the dance",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "stringed instruments"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "the dancers perform a synchronized, rapid, light-footed step while waving their scarves"
+     },
+     {
+      "start_s": 48,
+      "end_s": 55,
+      "what": "a solo dancer performs a series of jumps and turns while the others watch"
+     },
+     {
+      "start_s": 147,
+      "end_s": 155,
+      "what": "a dancer balances a bottle on his head while performing intricate footwork"
+     },
+     {
+      "start_s": 215,
+      "end_s": 225,
+      "what": "the dancers perform a series of quick, light-footed steps while moving in a circle"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "83a496a18a0bd274",
  "updated": "2026-11-24"
 }

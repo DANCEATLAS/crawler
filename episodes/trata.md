@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.8 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Warm cultural ethnographer and Greek folk dance specialist
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Hauling Nets by the Chapel: The Legacy of the Trata
 NARRATION: This is Trata. Ottoman Greece or older.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (t6LfUh9w0Xs)
 ON SCREEN: Title card: Trata · Greece · Ottoman Greece or older
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance features physical movements that imitate the action of haul
 NARRATION: In Megara, women perform the dance together on the open space outside the chapel of Saint John the Dancer.
 NARRATION: In the Aegean Islands, the dance takes the form of a Syrtos, featuring specific movements performed during the chorus on islands such as Ikaria.
 NARRATION: Watch for Net-hauling motion.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (t6LfUh9w0Xs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group line or open circle executed in open space outside Saint John the Dancer chapel in Megara, or general social spaces in the Aegean Islands
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -287,7 +287,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 't6LfUh9w0Xs', 'checked_by_vision_model': False, 'title': 'Diego LaToo Trata la Seriedad #The #CuesDance Video oficial'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Open plaza before the tiny chapel of Saint John the Dancer, Synchronized arm pulls simulating fishing nets, Aegean coastal and island celebration settings
@@ -297,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Trata_(dance); https://www.wikidata.org/wiki/Q7835768

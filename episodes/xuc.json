@@ -1,0 +1,836 @@
+{
+ "slug": "xuc",
+ "name": "Xuc",
+ "pack_version": "e2",
+ "built_at": "2026-11-24T22:53:18Z",
+ "researched_at": "2026-11-24T20:57:25Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic Salvadoran folklorist who emphasizes 'alegría' and the specific history of Palaviccini.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Xuc",
+   "Música folclórica salvadoreña"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Xuc",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Rhythm of the Friction Drum",
+     "This is Xuc. 1942–present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Xuc · El Salvador · 1942–present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Xuc was created in 1942 by Francisco 'Paquito' Palaviccini in Cojutepeque, Cuscatlán.",
+     "Palaviccini sought to create a unique Salvadoran rhythm after finding no existing records of national genres during his international travels.",
+     "He based the rhythm on his observations of a musical group in Tacuba that used the juco, a friction drum."
+    ],
+    "on_screen": [
+     "Map: El Salvador · Central America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Xuc is a celebratory dance associated with Salvadoran national pride and local harvests.",
+     "It was specifically composed for the 'fiestas de la caña' (sugar cane festivals).",
+     "It represents the 'alegría' (joy) of the Salvadoran people and is the signature rhythm of the San Miguel Carnival, one of the largest festivals in Central America.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is dynamic and characterized by small jumps and specific foot placements.",
+     "The primary step involves a 'heel-toe-heel' sequence with both the right and left feet.",
+     "Dancers also perform a crossing step where feet are kept stretched and moved back and forth while taking short jumps.",
+     "Watch for Talón-punta-talón, The Wheel."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers form wheels (circles) and move collectively while flirting."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The genre is named after the 'juco' or 'juque' instrument, which produces a 'xuc, xuc' sound.",
+     "Traditional ensembles described by Palaviccini included the teponahuaste (log drum), quijada de burro (donkey jawbone), juco, and a unique instrument made from a folded leaf placed on the tongue.",
+     "Listen for the Juco (friction drum), Teponahuaste, Quijada de burro (donkey jawbone), Tamborón.",
+     "The pulse is 2/4 or 6/8.",
+     "A bright, driving orchestral folk sound characterized by a rhythmic pulse that mimics the 'xuc-xuc' scratching of a friction drum, often featuring prominent brass and traditional percussion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Adentro Cojutepeque — Paquito Palaviccini; El Carnaval de San Miguel — Paquito Palaviccini; Paquito Palaviccini presenta el xuc: nuevo ritmo salvadoreño — Paquito Palaviccini, Orquesta Internacional Polio (1962)",
+     "Waveform or rhythm-pattern graphic: Syncopated friction-drum mimicry ('xuc, xuc')"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear 'traje típico' (typical folk costumes).",
+     "Women wear long, colorful skirts made of traditional fabric, which are essential to the choreography.",
+     "Men wear trousers made of cotton or ixtle (agave fiber)."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Francisco 'Paquito' Palaviccini is the creator and primary popularizer of the genre.",
+     "Morena Celarie is the namesake of the dance group that developed the first choreography.",
+     "While born in Cojutepeque (Cuscatlán), the dance is heavily associated with San Miguel due to its carnival.",
+     "Xuc is a 20th-century creation that synthesized rural indigenous and mestizo instrumental sounds (like the juco and teponahuaste) into a popular orchestral folk genre."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Xuc is shares music of Carnaval de San Miguel: The Xuc is the primary rhythm and dance of this famous carnival."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Heel-toe-heel position with the right foot",
+     "Heel-toe-heel position with the left foot",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a composer's quest for a national sound turned the scratching of a folk drum into El Salvador's most iconic dance.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the Xuc pulse",
+   "level": "1",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the Xuc pulse.",
+      "Level: 1. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Salvadoran folklorist who emphasizes 'alegría' and the specific history of Palaviccini."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic; men keep hands in front pockets, women use hands to move skirts.",
+      "Men: hands in front pockets of cotton/ixtle pants. Women: holding and moving the skirt. Group: holding hands with arms stretched in a circle.",
+      "Dynamic movement reflecting the joy of the feet; head moves according to the direction of the step."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 6/8.",
+      "Rhythm pattern: Syncopated friction-drum mimicry ('xuc, xuc').",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Heel-toe-heel position with the right foot",
+      "Step 2: Heel-toe-heel position with the left foot",
+      "Footwork from the sources: Heel-toe-heel positions alternating feet, combined with small jumps; feet move back and forth in a crossed fashion while jumping.",
+      "Drill: Marching to the 2/4 'xuc-xuc' rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Small jumps combined with the heel-toe sequence",
+      "Step 4: Crossed foot movement (back and forth) with short distance jumps",
+      "Drill: Basic heel-toe-heel tap without jumps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Losing the 'xuc' beat during the jumping sequences; men should avoid taking hands out of pockets if following traditional styling."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the heel-toe-heel sequence while seated, tapping the floor without the jumps. · For children: A 'follow the leader' circle game where children must keep their hands in their pockets (boys) or hold their 'skirts' (girls) while jumping."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the heel-toe-heel sequence while seated, tapping the floor without the jumps.",
+      "For children: A 'follow the leader' circle game where children must keep their hands in their pockets (boys) or hold their 'skirts' (girls) while jumping."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the Xuc pulse.",
+      "Xuc is a celebratory dance associated with Salvadoran national pride and local harvests.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Add the bounce",
+   "level": "2",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Add the bounce.",
+      "Level: 2. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Salvadoran folklorist who emphasizes 'alegría' and the specific history of Palaviccini."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic; men keep hands in front pockets, women use hands to move skirts.",
+      "Men: hands in front pockets of cotton/ixtle pants. Women: holding and moving the skirt. Group: holding hands with arms stretched in a circle.",
+      "Dynamic movement reflecting the joy of the feet; head moves according to the direction of the step."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 6/8.",
+      "Rhythm pattern: Syncopated friction-drum mimicry ('xuc, xuc').",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Circular formation (wheel) with arms stretched holding hands",
+      "Drill: Combining the heel-toe-heel with small vertical jumps"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Talón-punta-talón: A heel-toe-heel sequence combined with small jumps.",
+      "The Wheel: Dancers hold hands with arms stretched wide, moving in a circle.",
+      "Drill: Practicing the crossed-foot jumping walk"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Losing the 'xuc' beat during the jumping sequences; men should avoid taking hands out of pockets if following traditional styling."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the heel-toe-heel sequence while seated, tapping the floor without the jumps. · For children: A 'follow the leader' circle game where children must keep their hands in their pockets (boys) or hold their 'skirts' (girls) while jumping."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the heel-toe-heel sequence while seated, tapping the floor without the jumps.",
+      "For children: A 'follow the leader' circle game where children must keep their hands in their pockets (boys) or hold their 'skirts' (girls) while jumping."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Dancers form wheels (circles) and move collectively while flirting."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Add the bounce.",
+      "Francisco 'Paquito' Palaviccini is the creator and primary popularizer of the genre.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Styling and Formation",
+   "level": "3",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Styling and Formation.",
+      "Level: 3. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Salvadoran folklorist who emphasizes 'alegría' and the specific history of Palaviccini."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic; men keep hands in front pockets, women use hands to move skirts.",
+      "Men: hands in front pockets of cotton/ixtle pants. Women: holding and moving the skirt. Group: holding hands with arms stretched in a circle.",
+      "Dynamic movement reflecting the joy of the feet; head moves according to the direction of the step."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 6/8.",
+      "Rhythm pattern: Syncopated friction-drum mimicry ('xuc, xuc').",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Crossed foot movement (back and forth) with short distance jumps",
+      "Step 2: Circular formation (wheel) with arms stretched holding hands",
+      "Drill: Women: Skirt manipulation while jumping"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Talón-punta-talón: A heel-toe-heel sequence combined with small jumps.",
+      "The Wheel: Dancers hold hands with arms stretched wide, moving in a circle.",
+      "Drill: Men: Maintaining hands in pockets during footwork"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Group: Maintaining the circle with stretched arms"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Losing the 'xuc' beat during the jumping sequences; men should avoid taking hands out of pockets if following traditional styling."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the heel-toe-heel sequence while seated, tapping the floor without the jumps. · For children: A 'follow the leader' circle game where children must keep their hands in their pockets (boys) or hold their 'skirts' (girls) while jumping."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the heel-toe-heel sequence while seated, tapping the floor without the jumps.",
+      "For children: A 'follow the leader' circle game where children must keep their hands in their pockets (boys) or hold their 'skirts' (girls) while jumping."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Dancers form wheels (circles) and move collectively while flirting."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Styling and Formation.",
+      "Xuc is a 20th-century creation that synthesized rural indigenous and mestizo instrumental sounds (like the juco and teponahuaste) into a popular orchestral folk genre.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4 or 6/8",
+  "rhythm_pattern": "Syncopated friction-drum mimicry ('xuc, xuc')",
+  "instruments": [
+   "Juco (friction drum)",
+   "Teponahuaste",
+   "Quijada de burro (donkey jawbone)",
+   "Tamborón",
+   "Folded leaf (vocal instrument)"
+  ],
+  "vocal_style": "Melodic and celebratory, often orchestral accompaniment",
+  "musical_form": "Orchestral folk songs with repetitive rhythmic hooks",
+  "mood": [
+   "joyful",
+   "dynamic",
+   "festive",
+   "nationalistic"
+  ],
+  "sound_description": "A bright, driving orchestral folk sound characterized by a rhythmic pulse that mimics the 'xuc-xuc' scratching of a friction drum, often featuring prominent brass and traditional percussion.",
+  "listen_before_composing": [
+   "Adentro Cojutepeque — Paquito Palaviccini",
+   "El Carnaval de San Miguel — Paquito Palaviccini",
+   "Paquito Palaviccini presenta el xuc: nuevo ritmo salvadoreño — Paquito Palaviccini, Orquesta Internacional Polio (1962)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Xuc (El Salvador). Meter 2/4 or 6/8. Rhythm pattern: Syncopated friction-drum mimicry ('xuc, xuc'). Instruments: Juco (friction drum), Teponahuaste, Quijada de burro (donkey jawbone), Tamborón, Folded leaf (vocal instrument). Vocal style: Melodic and celebratory, often orchestral accompaniment. Form: Orchestral folk songs with repetitive rhythmic hooks. Mood: joyful, dynamic, festive, nationalistic. It should sound like this: A bright, driving orchestral folk sound characterized by a rhythmic pulse that mimics the 'xuc-xuc' scratching of a friction drum, often featuring prominent brass and traditional percussion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear 'traje típico' (typical folk costumes). Women wear long, colorful skirts made of traditional fabric, which are essential to the choreography. Men wear trousers made of cotton or ixtle (agave fiber). The dance is most famously performed outdoors during patron saint festivities, specifically the San Miguel Carnival and sugar cane festivals.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABallet_folklorico_de_El_Salvador_by_Jesus_Sanchez.png"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ballet_folklorico_de_El_Salvador_by_Jesus_Sanchez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ballet_folklorico_de_El_Salvador_by_Jesus_Sanchez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jesus Sanchez from Monterrey, Mexico / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABallet_folklorico_de_El_Salvador_by_Jesus_Sanchez.png",
+    "description": "ballet folklorico de El Salvador"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The juco drum being rubbed",
+   "Sugar cane fields of Cojutepeque",
+   "Swirling colorful folk skirts",
+   "The crowded streets of the San Miguel Carnival"
+  ],
+  "costume_notes": "Dancers wear 'traje típico' (typical folk costumes). Women wear long, colorful skirts made of traditional fabric, which are essential to the choreography. Men wear trousers made of cotton or ixtle (agave fiber). The dance is most famously performed outdoors during patron saint festivities, specifically the San Miguel Carnival and sugar cane festivals.",
+  "setting_notes": "Xuc is a celebratory dance associated with Salvadoran national pride and local harvests. It was specifically composed for the 'fiestas de la caña' (sugar cane festivals). It represents the 'alegría' (joy) of the Salvadoran people and is the signature rhythm of the San Miguel Carnival, one of the largest festivals in Central America.",
+  "map": {
+   "country": "El Salvador",
+   "region": "Central America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "73 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 73,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "1-2-3",
+   "5-6-7-8",
+   "step to the right",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "flexionar las rodillas"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Xuc",
+  "https://www.wikidata.org/wiki/Q6169362",
+  "https://es.wikipedia.org/wiki/Xuc",
+  "https://pt.wikipedia.org/wiki/Xuc"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "bc0d606dc5fb088464016dd49c3851388f6d315dc53a8b33e741188c36c9d72f",
+ "hero_checked": null
+}

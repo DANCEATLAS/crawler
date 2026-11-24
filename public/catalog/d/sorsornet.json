@@ -59,7 +59,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -79,43 +79,69 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "f7f8c41a6b139649",
- "updated": "2026-11-22"
+ "performances": [
+  {
+   "youtube_id": "YvsZridQvSQ",
+   "url": "https://www.youtube.com/watch?v=YvsZridQvSQ",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Outdoor stage in a park, public performance",
+    "dancers": "Mixed group of men, women, and children",
+    "formation_and_space": "Group formation, moving in a circle and across the stage",
+    "posture": "Torso upright, knees bent, weight shifted with steps",
+    "footwork": "Rhythmic stepping, jumping, and hopping on the beat",
+    "arms_and_hands": "Arms raised and moving rhythmically, hands open",
+    "hips_and_torso": "Torso and hip movements, some swaying",
+    "partnering": "None",
+    "levels_jumps_turns": "Jumps, squats, and turns",
+    "costume_and_props": "Traditional patterned clothing, some wearing headwraps",
+    "cannot_infer": "Exact footwork details due to camera distance and movement speed",
+    "music_heard": {
+     "instruments": [
+      "Drums"
+     ],
+     "vocals": "Chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 10,
+      "end_s": 20,
+      "what": "Group jumping and moving in a circle with arms raised"
+     },
+     {
+      "start_s": 130,
+      "end_s": 140,
+      "what": "Dancers performing a squat and jump sequence"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "b92410dcc0971a0c",
+ "updated": "2026-11-24"
 }

@@ -286,7 +286,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -294,27 +294,60 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
     "key": "signature_moves",
     "label": "two or more signature moves"
    },
    {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "lu01R77Pp9k",
+   "url": "https://www.youtube.com/watch?v=lu01R77Pp9k",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "outdoor public square, daytime, likely a cultural festival or celebration",
+    "dancers": "large group of men, standing in two parallel lines",
+    "formation_and_space": "two parallel lines facing each other, with dancers standing shoulder-to-shoulder",
+    "posture": "upright torso, knees slightly bent, weight distributed evenly on both feet",
+    "footwork": "rhythmic stepping, shifting weight from one foot to the other in time with the beat; precise footwork is obscured by the long robes",
+    "arms_and_hands": "arms held at the sides or slightly bent, some men hold swords in their right hands, pointing them upwards or resting them on their shoulders",
+    "hips_and_torso": "slight, rhythmic swaying of the torso in unison with the group",
+    "partnering": "none, the dance is performed as a collective group movement",
+    "levels_jumps_turns": "mostly standing, with occasional rhythmic knee bends",
+    "costume_and_props": "traditional Saudi attire: thobe (long white robe), bisht (cloak), and ghutra/shemagh (head covering); some men carry swords",
+    "cannot_infer": "the exact footwork is obscured by the long thobes, and the camera angle makes it difficult to see the full range of motion",
+    "music_heard": {
+     "instruments": [
+      "drums"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 20,
+      "end_s": 25,
+      "what": "the group sways in unison while holding swords, creating a synchronized, powerful visual effect"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -324,6 +357,6 @@
   "polished": false,
   "file": "episodes/alardah-alnajdiyah.json"
  },
- "fingerprint": "21193b4726049bbc",
+ "fingerprint": "ecfca14163d1c956",
  "updated": "2026-11-24"
 }

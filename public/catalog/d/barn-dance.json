@@ -346,24 +346,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
    },
    {
     "key": "lesson_plan",
@@ -372,13 +360,68 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "20AzpUhcl_E",
+   "url": "https://www.youtube.com/watch?v=20AzpUhcl_E",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A large wooden dance hall decorated with bunting, with tables and chairs visible in the background and musicians at the back.",
+    "dancers": "A large group of mixed adults and children dancing together in a circle.",
+    "formation_and_space": "Large circle formation moving around the room, which then breaks into smaller pairs or groups.",
+    "posture": "Upright torso, slightly bent knees, weight shifting with steps.",
+    "footwork": "Bouncy stepping and skipping pattern on the beat, moving in a circle or turning with partners.",
+    "arms_and_hands": "Holding hands in a large circle, or holding partner's hands for turns and spins.",
+    "hips_and_torso": "Natural movement with the step, relatively upright and stable.",
+    "partnering": "Holding hands with neighbors in the circle, and two-hand holds with partners during spinning segments.",
+    "levels_jumps_turns": "Bouncy stepping, spinning turns in pairs.",
+    "costume_and_props": "Casual everyday clothing including jeans, shirts, skirts, dresses, and a few traditional garments like a kilt.",
+    "cannot_infer": "Exact foot placement and individual weight transfer cannot be determined precisely due to distance and group movement.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "fiddle",
+      "piano",
+      "drums"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 8,
+      "end_s": 22,
+      "what": "Dancers hold hands in a large circle and skip sideways around the floor."
+     },
+     {
+      "start_s": 25,
+      "end_s": 41,
+      "what": "Dancers break into smaller groups holding hands and spin around each other in pairs."
+     },
+     {
+      "start_s": 42,
+      "end_s": 56,
+      "what": "Dancers reform the large circle and skip in the opposite direction."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -388,6 +431,6 @@
   "polished": false,
   "file": "episodes/barn-dance.json"
  },
- "fingerprint": "53586d89fd3e20d5",
+ "fingerprint": "401abd0464e4ecc3",
  "updated": "2026-11-24"
 }

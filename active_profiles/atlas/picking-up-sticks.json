@@ -1,0 +1,136 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Three couples arranged in a line",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples dance within a three-couple linear set",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "violin",
+        "recorder"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "stately",
+        "social"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by the 1651 tune 'Lavena', substituted by Cecil Sharp in the early 20th century.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Set in a line of three couples",
+        "Follow reconstructed 1651 figure patterns"
+      ],
+      "formation": "Three couples in a line",
+      "level_notes": "Reconstructed historical country dance set.",
+      "rhythm": "Standard meter associated with the tune Lavena"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "2e2641dc5bc7ca809a8baa4794bdb28215c550b750f4dfdb33fec54b736aa88b",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the exact step sequences and figure counts described in Greg Lindahl's reconstruction of Picking Up Sticks? Evidence needed: Primary notation or publication of Greg Lindahl's dance reconstruction for Picking Up Sticks."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:picking-up-sticks",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Picking Up Sticks",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "0f65a57cfe758384",
+      "next_evidence": "Primary notation or publication of Greg Lindahl's dance reconstruction for Picking Up Sticks.",
+      "question": "What are the exact step sequences and figure counts described in Greg Lindahl's reconstruction of Picking Up Sticks?",
+      "source": "https://en.wikipedia.org/wiki/Picking_Up_Sticks",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided source notes that steps were reconstructed by Greg Lindahl but does not detail the exact step choreography, counts, or movements required to teach the dance."
+    }
+  ],
+  "research_file": "research_results/picking-up-sticks.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "picking-up-sticks",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Picking_Up_Sticks",
+    "https://www.wikidata.org/wiki/Q27833463"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

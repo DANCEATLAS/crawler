@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful tribal elder or designated community leader.
@@ -21,7 +21,7 @@ MUSIC: theme (30 s)
 NARRATION: The stomp dance is an Eastern Woodland tradition practiced by tribes such as the Muscogee, Cherokee, and Seminole.
 NARRATION: Its structure is centered on the Square Ground, a space designed with arbors and a central fire, which has been maintained across generations, particularly in Oklahoma and the southeastern United States.
 ON SCREEN: Map: United States · North America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -57,10 +57,9 @@ NEEDS: tempo, meter
 NARRATION: Dancers wear casual but respectful attire, often including ribbon shirts.
 NARRATION: Women wear full cotton skirts, sometimes featuring ribbonwork.
 NARRATION: The setting is the Square Ground, an outdoor ceremonial space with a central fire and surrounding clan-houses or camps.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 4 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: Redbird Smith, a leader in the Cherokee traditionalist revival; Lydia Sam, a Natchez-Cherokee traditionalist who introduced the use of tin can shackles.
@@ -103,7 +102,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'mSRdqn2U-T8', 'checked_by_vision_model': True, 'title': 'Stomp Dancing'}
-Images: 0 licensed
+Images: 4 licensed — Monongahela National Forest from Elkins, WV, United States / Wikimedia Commons / Public domain (Public domain); USDAgov / Wikimedia Commons / Public domain (Public domain); USDAgov / Wikimedia Commons / Public domain (Public domain); USDAgov / Wikimedia Commons / Public domain (Public domain)
 Footage: Native American Social Dance and Stomp Dance — https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance
 Motifs: The central ceremonial fire, Turtle shell leg shakers, The spiral formation of dancers, The Square Ground arbors
 Costume notes: Dancers wear casual but respectful attire, often including ribbon shirts. Women wear full cotton skirts, sometimes featuring ribbonwork. The setting is the Square Ground, an outdoor ceremonial space with a central fire and surrounding clan-houses or camps.
@@ -112,7 +111,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ritual-sacred family studied · videos studied: 14
+Source: 15 tutorial(s) of the ritual-sacred family studied · videos studied: 15
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

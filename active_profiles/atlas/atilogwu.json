@@ -1,13 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Swinging arms and use of hand fans or horsewhisks by leaders.",
+      "difficulty": "advanced",
+      "footwork": "Rhythmic foot stomps and measured taps accented by leg rattles.",
+      "formation_and_space": "Row formation led by the 'Otu Ugo', transitioning into human towers.",
+      "hips_and_torso": "Waist shaking and torso movement integrated into the dance sequence.",
+      "levels_and_jumps": "Includes high jumps, flips, and twists.",
+      "partnering": "Human towers involve climbing and balancing on other dancers.",
+      "posture": "Upright and energetic, requiring high physical fitness.",
+      "signature_moves": [
+        {
+          "description": "A formation where five or six dancers climb and balance on each other.",
+          "name": "Human Tower"
+        }
+      ],
+      "tempo_feel": "Fast-paced, matching the flute and drum cues.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "ogene",
+        "ekwe",
+        "alo",
+        "gedegwu",
+        "ichaka",
+        "oja"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "spirited",
+        "vigorous"
+      ],
+      "musical_form": "Ensemble-led percussion with flute-driven tempo changes.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythm is dictated by the percussion ensemble and the oja flute, with leg rattles providing a constant percussive accent.",
+      "sound_description": "A high-energy, percussive sound dominated by the metallic ring of the ogene and the rhythmic, piercing melody of the oja flute, layered over the deep resonance of the ekwe slit-drum.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanting cues for movement direction."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Measured foot taps in rhythm with the ogene",
+        "Waist shaking and arm swinging while moving in a row",
+        "Forward movement signaled by 'Iru nuo' chant",
+        "Backward movement signaled by 'Azu nuo' chant"
+      ],
+      "formation": "Group formation led by the 'Otu Ugo' in a row, often transitioning into acrobatic human towers.",
+      "level_notes": "Requires high physical fitness and stamina due to the intensity and duration of the performance.",
+      "rhythm": "Rhythmic footwork following the beat of the drums and oja flute."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "eca6c12f016f795a6672dda3d3721f549814791cb7658113b4e9e18afeb6747b",
+  "fingerprint": "553e97eca9397a52379df71efee1af2c49f98e2e56a58aa26f4c875858f438b6",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +83,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific safety protocols for the 'human tower' formations used in modern Atilogwu? Evidence needed: Interviews with contemporary Igbo dance troupe leaders."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +101,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,8 +112,18 @@
   ],
   "music_options": [],
   "name": "Atilogwu",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "6b2172933f1d1463",
+      "next_evidence": "Interviews with contemporary Igbo dance troupe leaders.",
+      "question": "Are there specific safety protocols for the 'human tower' formations used in modern Atilogwu?",
+      "source": "https://en.wikipedia.org/wiki/Atilogwu",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide responsible teaching instructions for a potentially high-risk acrobatic move."
+    }
+  ],
+  "research_file": "research_results/atilogwu.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +135,15 @@
   "slug": "atilogwu",
   "sources": [
     "https://en.wikipedia.org/wiki/Atilogwu",
-    "Source: Atilogwu on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Atilogwu"
+    "https://www.wikidata.org/wiki/Q4815811",
+    "https://es.wikipedia.org/wiki/Atilogwu"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/uFGPzC96OnE.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=uFGPzC96OnE"
+    }
+  ]
 }

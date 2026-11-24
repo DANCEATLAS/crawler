@@ -75,16 +75,38 @@
    "voice": [
     "precise",
     "patient",
-    "energetic"
+    "energetic",
+    "warm",
+    "playful"
    ],
    "beliefs": [
+    {
+     "t": "1:07",
+     "belief": "Understanding music structure and predicting patterns helps learners tremendously with choreography and freestyling.",
+     "about": "how_people_learn"
+    },
     {
      "t": "2:49",
      "belief": "Having students march on the beat is an effective way to help them find rhythm in music.",
      "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:05",
+     "moment": "opening",
+     "says": "The teacher introduces herself with a bright smile and invites viewers to join a highly requested lesson on dance counts.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "4:36",
+     "moment": "after_success",
+     "says": "The teacher smiles and playfully invites the learner to try counting out rapid subdivisions together.",
+     "tag": "praise_and_expectancy"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling equipped and confident in their ability to understand musical counts and rhythm."
   },
   "learner_voice": {
    "struggles": [
@@ -140,5 +162,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-24T22:21:22Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 2,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

@@ -26,6 +26,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tatsia",
   "wikidata_qid": "Q7688253",
   "unesco": false,
+  "hero_video_youtube_id": "L1hfMo4Y1Gc",
+  "video_stack": [
+   {
+    "youtube_id": "L1hfMo4Y1Gc",
+    "role": "hero",
+    "title": "HoneywellIncentives Cyprus Traditional Dance (Tatsia- Zeimbekiko- Sousta)",
+    "channel": "Honeywell Incentives",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -38,7 +48,15 @@
   "pipeline_version": "v3.3",
   "profile_long": "Tatsia origins and history trace back to traditional male social gatherings in Cyprus, where the dance developed as a physical test of agility, stamina, and hand control. Named directly after the Cypriot dialect word for a sieve—τατσιά—the dance transformed an everyday agricultural household tool into a dramatic prop for bravado and competitive courtship. Dancers sought to outdo one another by performing complex geometric patterns with the sieve while keeping wine glasses balanced inside, demonstrating total mastery over centrifugal motion.\n\nHow it is danced hinges on absolute continuous movement paired with precise upper-body control and traditional Cypriot footwork. The dancer holds the sieve with four fingers placed inside the top rim and the thumb resting on the outside edge. An assistant or the dancer places a glass filled with wine—never exceeding the middle of the glass—onto the inside bottom rim. The performer then drives the sieve through fluid, sweeping loops around the torso and head. Key figures include the Basic 8, where the hand twists inward to pass the sieve under the armpit before looping over the head, and the Reverse 8, which reverses the circular sweep. Intermediate transfers like the Change and Reverse Change require shifting the sieve behind the back or overhead from hand to hand while maintaining rotational momentum.\n\nMusic and instruments follow standard Cypriot folk dance accompaniment, providing a rhythmic framework for the dancer's footwork and manual acrobatics. The rhythm must maintain a precise tempo, as any sudden change in pace or abrupt jerk of the arm breaks the centrifugal balance, sending the glass off the surface or spilling the wine.\n\nCostume and setting are rooted in rural Cypriot tradition, originally performed in village squares, coffee houses, or wedding celebrations. The central visual element is the prop itself: a wooden flour sieve containing one or more wine glasses. To increase difficulty, expert dancers use larger sieves, inserting a small wooden platform across three base glasses to stack additional filled glasses on top.\n\nOccasions and meaning center on athletic competition, showmanship, and entertainment. Created by Cypriot men as a form of friendly rivalry, the dance serves as a public demonstration of grace under pressure, endurance, and immaculate control.",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-24T22:12:32Z",
+   "soft_fail": [
+    "hd"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -230,40 +248,79 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
-    "key": "picture",
-    "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "L1hfMo4Y1Gc",
+   "url": "https://www.youtube.com/watch?v=L1hfMo4Y1Gc",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Outdoor patio at night, likely a restaurant or hotel, with a small stage for musicians.",
+    "dancers": "Mixed group of men and women; solo, pairs, and small group.",
+    "formation_and_space": "Dancers move freely in the open space, often in pairs or solo, occasionally forming a loose line.",
+    "posture": "Upright torso, knees slightly bent, weight shifts between feet.",
+    "footwork": "Rhythmic stepping, including hops, kicks, and stamps; precise footwork is difficult to see due to low resolution.",
+    "arms_and_hands": "Arms are often held out to the sides or raised, sometimes snapping fingers or holding props like a tambourine.",
+    "hips_and_torso": "Generally upright, with some slight swaying or turning of the torso.",
+    "partnering": "Minimal direct contact; dancers often mirror each other or dance in proximity.",
+    "levels_jumps_turns": "Includes jumps, kicks, and occasional kneeling or floor-level movements.",
+    "costume_and_props": "Traditional Cypriot attire: men in white shirts, vests, and dark trousers/breeches; women in long, patterned dresses. One man uses a tambourine as a prop.",
+    "cannot_infer": "Low resolution makes it difficult to see precise footwork, weight transfer, or subtle hand movements.",
+    "music_heard": {
+     "instruments": [
+      "bouzouki",
+      "keyboard"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "A man kneeling while spinning a tambourine on the floor."
+     },
+     {
+      "start_s": 120,
+      "end_s": 130,
+      "what": "A man performing a series of quick, rhythmic kicks while moving across the floor."
+     },
+     {
+      "start_s": 200,
+      "end_s": 210,
+      "what": "A man performing a sequence of jumps and stamps, ending in a brief crouch."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/tatsia.json"
  },
- "fingerprint": "970c103dbd882d52",
+ "fingerprint": "83e7e75830609cdb",
  "updated": "2026-11-24"
 }

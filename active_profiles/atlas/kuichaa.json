@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-exertion of the voice",
+          "Colliding in the circle during jumps"
+        ],
+        "counts": "Simple 1-2-3-4 rhythm",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' circle where children mimic the arm shakes and try to jump the highest during the chorus."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "High jumps",
+          "Forceful stamping that may impact joints"
+        ],
+        "counts": "Focus on a simple 4-count rhythm for clapping and tapping.",
+        "seated_version": "Perform the arm shaking and hand clapping while seated, using heel taps instead of full stamps.",
+        "standing_version": "Maintain the circle formation but replace high jumps with gentle knee bends.",
+        "tempo_and_range": "Reduce the tempo by 25% and limit arm range to shoulder height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms shaking to and fro and left and right; hand clapping",
+      "difficulty": "intermediate",
+      "footwork": "Stamping on the ground and jumping high",
+      "formation_and_space": "A group forms a circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "High jumps are a characteristic feature",
+      "partnering": "None; communal group dance",
+      "posture": "Upright and energetic",
+      "signature_moves": [
+        {
+          "description": "Rhythmic and forceful striking of the legs against the ground",
+          "name": "Stamping"
+        },
+        {
+          "description": "Continuous movement of arms to and fro and side to side",
+          "name": "Arm Shaking"
+        }
+      ],
+      "tempo_feel": "Vigorous and rhythmical",
+      "what_to_avoid": "Avoid lack of synchronization with the group's vocal rhythm"
+    },
+    "music_profile": {
+      "instruments": [
+        "Voice",
+        "Hand claps"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vigorous",
+        "rhythmical",
+        "celebratory",
+        "communal"
+      ],
+      "musical_form": "Lyric songs with free verse forms",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmical stamping and hand clapping",
+      "sound_description": "A powerful blend of unison group singing and percussive body sounds. The music is driven by the 'kui' (combined voices) of the participants, punctuated by sharp hand claps and the heavy, resonant thud of feet stamping in unison on the earth.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Group singing, free verse, call-and-response shouts"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circular formation with other participants",
+        "Begin the rhythmic group chant to establish tempo",
+        "Shake arms forward and backward in a continuous motion",
+        "Stamp feet firmly on the ground on the primary beats",
+        "Incorporate high jumps and hand claps during the chorus"
+      ],
+      "formation": "Circle",
+      "level_notes": "Requires high physical stamina for continuous jumping and stamping.",
+      "rhythm": "Vigorous and rhythmical with heavy emphasis on the downbeat"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "ffc096b9023710211a9ebbe4dfc6acdf7eb2f1643dd315f0603e0bd83714ce75",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific hand-clapping patterns (syncopated or straight) for different songs? Evidence needed: https://en.wikipedia.org/wiki/Kuichaa"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the specific height and landing technique for the 'dancing high' jumps? Evidence needed: https://en.wikipedia.org/wiki/Kuichaa"
+    ]
+  },
+  "id": "atlas:kuichaa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kuichaa",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "e499d70a4248c9f4",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kuichaa",
+      "question": "What is the specific height and landing technique for the 'dancing high' jumps?",
+      "source": "https://en.wikipedia.org/wiki/Kuichaa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure safe and accurate instruction for the most physically demanding part of the dance."
+    },
+    {
+      "domain": "research",
+      "id": "08d555c552e5dc5e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kuichaa",
+      "question": "Are there specific hand-clapping patterns (syncopated or straight) for different songs?",
+      "source": "https://en.wikipedia.org/wiki/Kuichaa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions clapping but not the rhythmic relationship to the vocal meter."
+    }
+  ],
+  "research_file": "research_results/kuichaa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kuichaa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kuichaa",
+    "https://www.wikidata.org/wiki/Q6442237"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

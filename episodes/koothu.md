@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior nattuvanar from a traditional koothu pattarai, carrying commanding knowledge of epic lore, rhythmic pacing, and ritual stagecraft.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Voices in the Temple Square: The Overnight Epics of Koothu
 NARRATION: This is Koothu. Ancient (Sangam period) to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ViIjbr9hxew)
 ON SCREEN: Title card: Koothu · India · Ancient (Sangam period) to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Koothu is danced as street theatre in open public areas like village 
 NARRATION: Dancers enact scenes through play performance, narration, and singing, executing turns that cause their swirling skirts to billow outward.
 NARRATION: Footwork relies on the weight of heavy anklets sounding against the earth.
 NARRATION: Watch for Skirt Swirl, Anklet Strike.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ViIjbr9hxew)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Open public spaces, village squares, or temple grounds; arranged either in mobile procession or on a fixed outdoor performance area
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -106,7 +106,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ViIjbr9hxew', 'checked_by_vision_model': True, 'title': 'Taga Taga | Shiva Shakti Koothu | Bharatanatyam |'}
 Images: 2 licensed — Rajavasanthan / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Wikimedia Commons / CC0 (CC0)
 Footage: File:MANNAN Tribe - Part 3- Kalaavoottu- Annual Festival of Dance, Tribute & Atonement - ARPO Earthlore.webm — https://upload.wikimedia.org/wikipedia/commons/e/e0/MANNAN_Tribe_-_Part_3-_Kalaavoottu-_Annual_Festival_of_Dance%2C_Tribute_%26_Atonement_-_ARPO_Earthlore.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Chakyar Koothu of Kerala — https://archive.org/details/dni.ncaa.CVI-BETA_796-BC; Kalaavoottu: Annual Festival of Dance, Tribute & Atonement | MANNAN Tribe | Part 3 — https://archive.org/details/kaalayoottu-4-k
 Motifs: Towering carved wooden headgear silhouetted against the night sky, Swirling skirts expanding in circular motion, Vivid, high-contrast face paint reflecting festival lamps, Heavy metal anklets striking the dust of an open village square
@@ -116,9 +116,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Koothu; https://www.wikidata.org/wiki/Q7681407

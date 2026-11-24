@@ -48,16 +48,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
     "key": "status",
@@ -68,28 +64,8 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
     "key": "signature_moves",
     "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -98,13 +74,51 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "c652eebfe09ece89",
- "updated": "2026-11-21"
+ "performances": [
+  {
+   "youtube_id": "EjkZ92W8Br0",
+   "url": "https://www.youtube.com/watch?v=EjkZ92W8Br0",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Public plaza in front of a colonial-style building with arches, daytime, outdoor performance.",
+    "dancers": "Group of mixed men and women, dancing in pairs.",
+    "formation_and_space": "The dancers form a circle around a central pole, moving in a counter-clockwise direction while weaving ribbons around the pole.",
+    "posture": "Upright torso, knees slightly bent, weight is shifted from foot to foot with a light, bouncy quality.",
+    "footwork": "The dancers perform a rhythmic, shuffling step, moving on the beat. The specific footwork is partially obscured by the long skirts of the women and the camera angle.",
+    "arms_and_hands": "The dancers hold ribbons attached to the top of the pole, moving their arms in a circular motion to weave the ribbons. The women hold the edges of their skirts, lifting them slightly as they move.",
+    "hips_and_torso": "The torso remains relatively still, with minimal hip movement.",
+    "partnering": "The dancers move in pairs, coordinating their movements to weave the ribbons around the pole.",
+    "levels_jumps_turns": "The dancers maintain a consistent level, with no significant jumps or floor work. They perform turns as they move around the pole.",
+    "costume_and_props": "The men wear white shirts and trousers, with a red sash around their waist. The women wear white dresses with colorful floral embroidery and a red hair accessory. The dancers hold ribbons attached to a central pole.",
+    "cannot_infer": "The specific footwork is partially obscured by the long skirts of the women and the camera angle. The exact weight transfer cannot be determined due to the low-resolution video.",
+    "music_heard": {
+     "instruments": [
+      "brass instruments",
+      "percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    }
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "9a1b111177ed0dd2",
+ "updated": "2026-11-24"
 }

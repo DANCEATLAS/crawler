@@ -1,0 +1,167 @@
+{
+ "youtube_id": "MCRoUqSmJX0",
+ "slug": "kuduro-angola",
+ "dance": "kuduro angola",
+ "title": "Danza Kuduro Tutorial",
+ "channel": "MzJocieD",
+ "viewer_ratio": 3.0,
+ "analysed_at": "2026-11-24T22:33:02Z",
+ "url": "https://www.youtube.com/watch?v=MCRoUqSmJX0",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the choreography into structured sections, demonstrating movements step-by-step while explaining counts and directions. She is joined by an assistant to show full movement execution.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:04",
+    "segment": "intro",
+    "note": "Teacher introduces the song and explains she will break it down into parts."
+   },
+   {
+    "t": "0:11",
+    "segment": "breakdown",
+    "note": "Breaks down the chorus into smaller moves step-by-step."
+   },
+   {
+    "t": "0:42",
+    "segment": "breakdown",
+    "note": "Teaches part A with directional footwork."
+   },
+   {
+    "t": "1:12",
+    "segment": "breakdown",
+    "note": "Teaches part B incorporating steps and arm movements."
+   },
+   {
+    "t": "1:40",
+    "segment": "music_practice",
+    "note": "Full demonstration to music with the assistant."
+   }
+  ],
+  "counting_scheme": "1-2-3-4",
+  "cues": [
+   "One two",
+   "One two three up",
+   "One one two"
+  ],
+  "metaphors": [
+   "kind of like a salsa",
+   "kind of like a grapevine"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Chorus Move 1",
+    "counts": "1-2",
+    "description": "Stepping to the side twice."
+   },
+   {
+    "name": "Grapevine Variation",
+    "counts": "1-2-3",
+    "description": "Grapevine movement stepping side and up."
+   },
+   {
+    "name": "Part A Step",
+    "counts": "1-1-2",
+    "description": "Facing diagonal and stepping side with arms."
+   },
+   {
+    "name": "Part B Step",
+    "counts": "1-2-3-4",
+    "description": "Traveling forward and stepping side to side."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Dividing the song into distinct labeled parts like chorus, A, and B",
+    "Showing the slow breakdown before dancing to music"
+   ],
+   "what_hinders": [
+    "Only teaching facing the front without back-view demonstrations"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:08",
+    "text": "What I'm going to do is I'm going to break it down into three parts."
+   },
+   {
+    "t": "0:24",
+    "text": "Kind of like a salsa."
+   },
+   {
+    "t": "0:29",
+    "text": "Kind of like a grapevine."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 4,
+    "end_s": 15,
+    "topic": "teaching",
+    "observation": "Teacher stands facing front explaining the breakdown structure with hand gestures.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "weight transfer",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 16,
+    "end_s": 41,
+    "topic": "movement",
+    "observation": "Teacher demonstrates chorus footwork and arm movements slowly in place.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "exact foot placement details from front angle",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 46,
+    "end_s": 61,
+    "topic": "movement",
+    "observation": "Teacher and assistant demonstrate side-to-side steps facing diagonally.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "precise weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 115,
+    "end_s": 135,
+    "topic": "movement",
+    "observation": "Teacher demonstrates arm extensions and stepping combinations.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "lower body footwork obscured by dark pants",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 140,
+    "end_s": 240,
+    "topic": "movement",
+    "observation": "Full speed routine danced to music by both instructors.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "fast footwork details due to camera distance",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Labeling song sections clearly as Chorus, A, and B to structure the choreography breakdown."
+ },
+ "attempts": 2
+}

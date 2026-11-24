@@ -6,9 +6,10 @@
  "teacher": "MihranTV",
  "teacher_key": "mihrantv",
  "teacher_score": 66.9,
- "analysed_at": "2026-11-17T05:31:17Z",
+ "analysed_at": "2026-11-24T22:18:14Z",
  "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk",
  "comments_read": 60,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -16,12 +17,13 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher demonstrates the move once with music, then breaks down the footwork step-by-step from a mirrored angle. He repeats the sequence slowly, gradually adding counts and momentum before practicing with music at increasing speeds.",
-  "signature": "Explicitly stating that the video has been mirrored for the learner to follow along easily.",
+  "teacher_system": "Mihran demonstrates the reject step with music, breaks down the footwork and body momentum in slow motion, and then guides learners through repetitions at increasing tempos with music.",
+  "signature": "demo_first",
   "screen": {
    "views": [
     "front",
-    "side"
+    "side",
+    "feet_closeup"
    ],
    "on_screen": [
     "captions"
@@ -32,100 +34,66 @@
    {
     "tag": "demo_first",
     "t": "0:21",
-    "what": "Demonstrates the reject step once to music from a side profile view."
+    "what": "Performs the full reject step to music from the side view as a demonstration."
    },
    {
     "tag": "chunking",
-    "t": "0:27",
-    "what": "Breaks down the first part of the movement starting with the left leg jumping back and right leg kicking up."
-   },
-   {
-    "tag": "repetition",
-    "t": "0:42",
-    "what": "Repeats the first segment multiple times with verbal counts."
+    "t": "0:34",
+    "what": "Breaks down the first step: jumping back on the left leg and kicking the right leg up."
    },
    {
     "tag": "chunking",
     "t": "0:47",
-    "what": "Adds the second part of the movement: taking the right leg back and hopping forward on the left leg."
+    "what": "Breaks down the second step: taking the right leg back and hopping forward on the left leg."
    },
    {
-    "tag": "counts_and_rhythm",
-    "t": "1:00",
-    "what": "Connects both parts together using counts 5, 6, 7, 8 and jump 1, 2."
+    "tag": "repetition",
+    "t": "1:03",
+    "what": "Demonstrates the footwork close-up from the side view, repeating the sequence slowly."
+   },
+   {
+    "tag": "chunking",
+    "t": "1:40",
+    "what": "Teaches the switch where the right leg goes down and the left leg kicks up."
+   },
+   {
+    "tag": "repetition",
+    "t": "2:13",
+    "what": "Practices the continuous footwork slowly with counts, emphasizing the 'and' beats."
+   },
+   {
+    "tag": "feel_and_groove",
+    "t": "3:05",
+    "what": "Instructs learners to keep momentum going forward with the body, bouncing within oneself."
    },
    {
     "tag": "tempo_ramp",
-    "t": "2:21",
-    "what": "Reviews the entire sequence slowly from the top with continuous counts."
-   },
-   {
-    "tag": "music_early",
-    "t": "4:07",
-    "what": "Practices the learned reject step sequence together with music at a slow tempo."
+    "t": "4:12",
+    "what": "Practices the complete routine to music at a slower tempo."
    },
    {
     "tag": "tempo_ramp",
-    "t": "4:45",
-    "what": "Executes the full step to music at full tempo."
+    "t": "4:53",
+    "what": "Executes the full reject step routine with music at full tempo."
    }
   ],
   "adaptations": [],
   "entry_points": [
    "watch_first",
-   "feet_first",
-   "count_first"
+   "feet_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
    "seconds_before_first_movement": 21,
    "pieces_taught": 2
   },
-  "learner_voice": {
-   "struggles": [
-    {
-     "theme": "Trouble keeping balance and staying on one leg",
-     "tag": "other",
-     "count": 1
-    },
-    {
-     "theme": "Putting leg back instead of forward and mixing up legs",
-     "tag": "other",
-     "count": 2
-    },
-    {
-     "theme": "Gathering momentum on the second step",
-     "tag": "other",
-     "count": 1
-    }
-   ],
-   "clicked": [
-    {
-     "theme": "Clear step-by-step breakdown made it easy to learn quickly",
-     "tag": "other",
-     "count": 6
-    },
-    {
-     "theme": "Turning off the sound helps avoid getting confused by legs",
-     "tag": "other",
-     "count": 1
-    }
-   ],
-   "requests": [
-    {
-     "theme": "Tutorial for Despacito choreography",
-     "tag": "other",
-     "count": 1
-    }
-   ]
-  },
-  "limits": "The video does not show upper body styling or arm movements in detail, focusing strictly on footwork.",
   "mentor": {
    "voice": [
     "energetic",
     "precise",
     "direct",
-    "patient"
+    "patient",
+    "warm"
    ],
    "beliefs": [
     {
@@ -186,10 +154,72 @@
     }
    ],
    "what_stays": "The teacher leaves the learner feeling capable and rhythmic by breaking down a high-energy move into manageable, repeatable segments."
-  }
+  },
+  "learner_voice": {
+   "struggles": [
+    {
+     "theme": "Trouble keeping balance and staying on one leg",
+     "tag": "other",
+     "count": 1
+    },
+    {
+     "theme": "Getting confused about which leg to move",
+     "tag": "other",
+     "count": 1
+    },
+    {
+     "theme": "Looking like playing hopscotch instead of dancing",
+     "tag": "other",
+     "count": 1
+    },
+    {
+     "theme": "Putting the steps together because mind forgets next move",
+     "tag": "other",
+     "count": 1
+    }
+   ],
+   "clicked": [
+    {
+     "theme": "Clear step-by-step breakdown made it easy to learn",
+     "tag": "other",
+     "count": 5
+    },
+    {
+     "theme": "Learning the move in just a few minutes after struggling",
+     "tag": "other",
+     "count": 4
+    },
+    {
+     "theme": "Turning off the sound helped avoid leg confusion",
+     "tag": "other",
+     "count": 1
+    }
+   ],
+   "requests": [
+    {
+     "theme": "Keep making more tutorials",
+     "tag": "other",
+     "count": 1
+    }
+   ],
+   "meant": [
+    {
+     "theme": "Helped pass dancing test and feel like a professional",
+     "tag": "other",
+     "count": 3
+    },
+    {
+     "theme": "Brought back nostalgia of school life learning dance",
+     "tag": "other",
+     "count": 1
+    }
+   ]
+  },
+  "limits": "Audio track in the video consists of instrumental beat looping without spoken voiceover during demonstration sections; teacher's spoken instructions are limited to intro and transitional segments."
  },
+ "kind": "lesson",
  "status": "ok",
- "attempts": 1,
+ "attempts": 2,
  "mentor_look": {
   "at": "2026-11-17T06:50:30Z",
   "attempts": 1,

@@ -11,14 +11,14 @@
 ## Episode 1 · Meet Affranchi · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: This is Affranchi, a dance of the free people of color.
+NARRATION: This is Affranchi, the dance of the free people of color.
 NARRATION: It spans from the colonial era to the present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Affranchi · Haiti · colonial era to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Affranchi originated in colonial Saint-Domingue among free people of color called affranchis, meaning manumitted.
+NARRATION: Affranchi originated in colonial Saint-Domingue among free people of color called affranchis, meaning 'manumitted'.
 NARRATION: Initially, the term described free people of mixed French-African descent.
 NARRATION: After the Haitian Revolution, it referred to the light-skinned elite known as the Mulatto ascendancy.
 ON SCREEN: Map: Haiti · Caribbean
@@ -26,10 +26,9 @@ ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Affranchi was performed for colonial entertainment by Europeans and affranchis, and sometimes involved enslaved people dancing for guests.
-NARRATION: It is associated with African-descended Kings and Queens and carries regal connotations.
-NARRATION: Today, it is performed at Haitian country festivals, Vodou services, and as a tourist attraction.
-NARRATION: It is a living tradition.
+NARRATION: Europeans and affranchis performed this dance for colonial entertainment, sometimes involving enslaved people dancing for guests.
+NARRATION: It carries regal connotations and is associated with African-descended Kings and Queens.
+NARRATION: Today, it is a living tradition performed at Haitian country festivals, Vodou services, and as a tourist attraction.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
@@ -42,10 +41,10 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The dance uses string and woodwind instruments instead of drums, distinguishing it from many African-derived dances.
-NARRATION: The sources do not detail the specific instruments, rhythm patterns, or tempo.
+NARRATION: String and woodwind instruments accompany the dance, distinguishing it from many African-derived styles.
+NARRATION: Specific instruments, rhythm patterns, and tempo are not detailed in the sources.
 NARRATION: Listen for the string and woodwind instruments.
-NARRATION: The music features string and woodwind instruments, supporting formal French-style figures and African improvisation without drum rhythms.
+NARRATION: The music features strings and woodwinds, supporting formal French-style figures and African improvisation without drum rhythms.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -60,14 +59,14 @@ NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
 NARRATION: The National Troupe of Haiti played a key role in reviving Affranchi in the 1950s.
-NARRATION: The dance influenced the tumba francesa in Cuba, which shares the African improvisation element but uses drums instead of strings and woodwinds.
-NARRATION: Affranchi is a Haitian folk dance with roots in colonial free people of color culture, blending French formal dance figures with African improvisation, influencing diaspora dances like Cuba's tumba francesa.
+NARRATION: The dance influenced the tumba francesa in Cuba, which shares the element of African improvisation but uses drums instead of strings and woodwinds.
+NARRATION: Affranchi is a Haitian folk dance with roots in the culture of colonial free people of color, blending French formal figures with African improvisation and influencing diaspora dances like Cuba's tumba francesa.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Affranchi is a sibling of tumba francesa. It shares African improvisation but uses drums and was developed in Cuba by Haitian refugees.
+NARRATION: Affranchi is a sibling of the tumba francesa, which developed in Cuba through Haitian refugees and shares African improvisation but uses drums.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
@@ -129,7 +128,7 @@ NEEDS: teaching steps
 NARRATION: Perform Step A, then Step B, without stopping. Start slow.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Hold torso steady during movements.
+NARRATION: Drill: Hold your torso steady during movements.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -186,8 +185,8 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures are formal, upright movements with a held torso.
-NARRATION: African improvisation involves free, expressive movements in the final set.
+NARRATION: French-style figures: formal, upright movements with held torso.
+NARRATION: African improvisation: free, expressive movements in the final set.
 NARRATION: Drill: Practice transitioning from figures to improvisation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -254,8 +253,8 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures are formal, upright movements with a held torso.
-NARRATION: African improvisation involves free, expressive movements in the final set.
+NARRATION: French-style figures: formal, upright movements with held torso.
+NARRATION: African improvisation: free, expressive movements in the final set.
 NARRATION: Drill: Develop personal improvisational style.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -313,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Affranchi_(dance); https://www.wikidata.org/wiki/Q16147009

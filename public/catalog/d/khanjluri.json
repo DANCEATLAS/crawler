@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "khanjluri",
  "name": "Khanjluri",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GE"
@@ -12,7 +12,9 @@
   "name": "Khanjluri",
   "country": "Georgia",
   "country_code": "GE",
+  "flag_emoji": "🇬🇪",
   "region": "-",
+  "family": "ritual-sacred",
   "era": "Traditional (mountain/shepherd origin)",
   "tagline": "Daring Georgian dagger competition dance",
   "profile": "Khanjluri is a competitive war-themed dance in which shepherds dressed in red chokhas compete in dagger skills and complex movements, one performer replacing another to showcase courage and skill (Wikipedia; Sukhishvili). The Sukhishvili repertoire describes it as a dance depicting warriors' descent from the mountains with swords and knives, where dancers compete in rapidly performing the most complex feats. Because it involves daggers and knives thrown into the air, spun and used in combat-simulating maneuvers, it demands exceptional practice and precision (iberogeorgia).",
@@ -30,8 +32,12 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Georgian_dance",
-   "http://www.sukhishvili.com/repertoire/old_dances/khandjluri.html"
+   "http://www.sukhishvili.com/repertoire/old_dances/khandjluri.html",
+   "https://www.wikidata.org/wiki/Q3647082",
+   "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
   ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Georgian_dance",
+  "wikidata_qid": "Q3647082",
   "unesco": false,
   "hero_video_youtube_id": "xZOnUxcACkA",
   "image_significance": "Shepherds duel with daggers. A representative image shows upright carriage, sweeping arm lines and embroidered dress — Georgia.",
@@ -41,6 +47,103 @@
   "updated_at": "2026-06-08",
   "_is_sacred": false,
   "publish_gate": "publish",
+  "research_gate": "publish",
+  "qc_score": 8.25,
+  "last_researched_at": "2026-11-24T21:35:24Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Khanjluri is a distinctively masculine competitive dance originating from the mountainous regions of Georgia. It is deeply embedded in the cultural ethos of the shepherd, where the ability to handle tools and weapons with speed and precision was a necessity of life. The dance serves as a performative arena where men test their physical limits and technical skill against one another. Unlike dances that focus on narrative or romantic interaction, Khanjluri is defined by the spirit of individual challenge and the display of martial-adjacent dexterity. \n\nCentral to the performance is the khanjali, the traditional Georgian dagger. The dancers, clad in the iconic red chokha, use these blades not merely as props but as extensions of their movement. The choreography requires the dancers to execute complicated maneuvers while manipulating the daggers, often throwing, spinning, or balancing them. The structure of the dance is fluid; as one performer completes a feat or tires, another steps in to take their place, ensuring a continuous cycle of competition and bravado. This relay-style participation highlights the individual's capacity to perform under pressure. \n\nBecause the dance involves real blades, it demands an exceptional level of practice and focus. The movements are sharp, vigorous, and require a high degree of spatial awareness to ensure the safety of the performers while maintaining the illusion of a dangerous, high-stakes environment. The dance does not rely on complex group formations like the Khorumi, but rather on the intensity of the solo or small-group interaction. It is a celebration of the mountain spirit, reflecting the rugged, demanding conditions of the Caucasus where the dance was born. Today, it remains a staple of the Georgian national repertoire, preserved by professional ensembles that emphasize the technical rigor and the historical martial heritage of the Georgian people.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 952,
+    "height": 432,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "George Kvizhinadze from Tbilisi, Georgia / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_dance_7.jpg",
+    "description": "Georgian folk dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Georgian_Folk_Dance_1.JPG/1280px-Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3153,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Folk_Dance_1.JPG",
+    "description": "Georgian national folk dance, performed by Sukhihsvili Ensemble in New York during their US tour, Fall 2007."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Georgian_folk_dance_Simdi.JPG/1280px-Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3296,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_folk_dance_Simdi.JPG",
+    "description": "Georgian Folk dance \"Simdi\" (Ossetian Folk dance \"Simd\"), performed by Sukhishvili Ensemble"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 873,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMtiuluri.jpg",
+    "description": "Georgian Folk Dance, mtiuluri, mountain dance of Georgia."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 767,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQartuli.jpg",
+    "description": "Georgian Folk Dance, Qartuli or kartuli"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Sukhishvili_dancers_1.jpg/1280px-Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3945,
+    "height": 2634,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Rob Hurson / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASukhishvili_dancers_1.jpg",
+    "description": "Unfortunately I couldn't really stop to watch these guys. We were accompanied by a 1½ year old, so I could only fire off a couple of shots as we walked past."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg/1280px-Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1745,
+    "height": 1313,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "tomislav medak / Wikimedia Commons / CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABatumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg",
+    "description": "Batumi - Georgian Folklore Dance - Adjaruli"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Georgian_Dancers_%2814632845282%29.jpg/1280px-Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4080,
+    "height": 3264,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Jesse Gudí / Wikimedia Commons / CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Dancers_%2814632845282%29.jpg",
+    "description": "Georgian Dancers"
+   }
+  ],
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -54,6 +157,339 @@
    "khorumi"
   ]
  },
- "fingerprint": "59b66f5bd8e1d95d",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Khanjluri originates from the mountain regions of Georgia, specifically associated with the life and traditions of shepherds. It is a manifestation of the martial and competitive spirit of the Georgian people, historically rooted in the necessity of skill and courage in mountain life.",
+   "how_it_is_danced": "The dance is performed by men who compete in a relay-like fashion. Dancers execute complex movements while handling khanjali daggers. The performance requires significant technical practice to manage the blades safely during rapid, intricate physical feats.",
+   "music_and_instruments": "The dance is accompanied by traditional Georgian folk music. While specific instruments for Khanjluri are not detailed in the sources, Georgian folk dance music generally utilizes instruments such as the panduri, changi, doli, and bagpipes.",
+   "costume_and_setting": "Performers wear the traditional red chokha, a long-sleeved coat with cartridge holders on the chest, often cinched with a belt that carries the khanjali dagger.",
+   "occasions_and_meaning": "Khanjluri is a celebration of masculine courage, skill, and competitive spirit. It serves as a display of the performer's ability to master dangerous tools, reflecting the historical warrior and shepherd traditions of the Georgian mountains.",
+   "notable_figures": "not described in sources",
+   "regional_variants": "not described in sources",
+   "lineage": "Khanjluri belongs to the broader family of Georgian mountain dances, sharing themes of competition and martial skill with dances like Khevsuruli and Mtiuluri."
+  },
+  "teaching": {
+   "basic_steps": [
+    "not described in sources"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "not described in sources",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "Khanjluri is a Georgian dance based on the idea of competition and war.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "In this dance, shepherds dressed in red chokhas compete with each other in dagger skills.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "One performer replaces another to showcase courage and skill.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "Because it involves daggers and knives, it requires tremendous practice.",
+    "source": "https://en.wikipedia.org/wiki/Georgian_dance"
+   },
+   {
+    "text": "The dance takes its name from the traditional dagger, the khanjali.",
+    "source": "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
+   },
+   {
+    "text": "The dance features shepherds measuring their skills against one another.",
+    "source": "https://fr.wikipedia.org/wiki/Danse_traditionnelle_géorgienne"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Georgian dance 7.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Georgian_dance_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 952,
+    "height": 432,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "George Kvizhinadze from Tbilisi, Georgia",
+    "description": "Georgian folk dance",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_dance_7.jpg",
+    "attribution": "George Kvizhinadze from Tbilisi, Georgia / Wikimedia Commons / CC BY-SA 2.0"
+   },
+   {
+    "title": "File:Georgian Folk Dance 1.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Georgian_Folk_Dance_1.JPG/1280px-Georgian_Folk_Dance_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3153,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Alsandro",
+    "description": "Georgian national folk dance, performed by Sukhihsvili Ensemble in New York during their US tour, Fall 2007.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Folk_Dance_1.JPG",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Georgian folk dance Simdi.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Georgian_folk_dance_Simdi.JPG/1280px-Georgian_folk_dance_Simdi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3296,
+    "height": 2102,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Alsandro",
+    "description": "Georgian Folk dance \"Simdi\" (Ossetian Folk dance \"Simd\"), performed by Sukhishvili Ensemble",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_folk_dance_Simdi.JPG",
+    "attribution": "Alsandro / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Mtiuluri.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mtiuluri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 873,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "GeorgianFolk",
+    "description": "Georgian Folk Dance, mtiuluri, mountain dance of Georgia.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMtiuluri.jpg",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Qartuli.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Qartuli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 877,
+    "height": 767,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "GeorgianFolk",
+    "description": "Georgian Folk Dance, Qartuli or kartuli",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQartuli.jpg",
+    "attribution": "GeorgianFolk / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Sukhishvili dancers 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Sukhishvili_dancers_1.jpg/1280px-Sukhishvili_dancers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3945,
+    "height": 2634,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Rob Hurson",
+    "description": "Unfortunately I couldn't really stop to watch these guys. We were accompanied by a 1½ year old, so I could only fire off a couple of shots as we walked past.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASukhishvili_dancers_1.jpg",
+    "attribution": "Rob Hurson / Wikimedia Commons / CC BY-SA 2.0"
+   },
+   {
+    "title": "File:Batumi - Georgian Folklore Dance - Adjaruli (5024683805).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg/1280px-Batumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1745,
+    "height": 1313,
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "tomislav medak",
+    "description": "Batumi - Georgian Folklore Dance - Adjaruli",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABatumi_-_Georgian_Folklore_Dance_-_Adjaruli_%285024683805%29.jpg",
+    "attribution": "tomislav medak / Wikimedia Commons / CC BY 2.0"
+   },
+   {
+    "title": "File:Georgian Dancers (14632845282).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Georgian_Dancers_%2814632845282%29.jpg/1280px-Georgian_Dancers_%2814632845282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4080,
+    "height": 3264,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Jesse Gudí",
+    "description": "Georgian Dancers",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_Dancers_%2814632845282%29.jpg",
+    "attribution": "Jesse Gudí / Wikimedia Commons / CC BY-SA 2.0"
+   }
+  ],
+  "gaps": [
+   "Specific musical instruments used for Khanjluri",
+   "Detailed footwork and movement counts",
+   "Specific historical context regarding the evolution of the dance",
+   "Names of notable performers or choreographers specific to Khanjluri"
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "competitive",
+    "vigorous"
+   ],
+   "reference_recordings": [],
+   "sound_description": "not described in sources"
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "not described in sources",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [
+    {
+     "name": "Dagger manipulation",
+     "description": "Handling and spinning of khanjali daggers during complex movements."
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "advanced",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Dagger Dance of the Shepherds",
+   "logline": "Explore the high-stakes world of Khanjluri, where Georgian shepherds turn martial skill into a test of nerves.",
+   "beats": [
+    "Introduction to the mountain origins of the dance.",
+    "The significance of the red chokha and the khanjali.",
+    "The competitive relay structure of the performance.",
+    "The technical demands of handling blades while dancing.",
+    "The role of the dance in preserving martial tradition."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Red chokha",
+    "Khanjali daggers",
+    "Mountain landscape"
+   ],
+   "instructor_persona": "not described in sources",
+   "music_cue": "not described in sources"
+  },
+  "connections": [
+   {
+    "name": "Khevsuruli",
+    "relation": "sibling",
+    "note": "Shares themes of mountain competition and martial skill."
+   },
+   {
+    "name": "Mtiuluri",
+    "relation": "sibling",
+    "note": "Shares the competitive mountain dance tradition."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-24T21:35:24Z",
+  "qc_score": 8.25
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 12,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "xZOnUxcACkA",
+   "url": "https://www.youtube.com/watch?v=xZOnUxcACkA",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "Stage of an indoor hall with columns, blue and red stage lighting, and musicians seated in the background.",
+    "dancers": "10 male dancers in traditional costume performing in a group.",
+    "formation_and_space": "Group formations ranging from staggered lines, diagonal rows, holding hands in a line, and solo turns in the center.",
+    "posture": "Upright and proud torso with chest open; knees flexible and bent during fast footwork and jumps; weight shifts dynamically.",
+    "footwork": "Rapid stepping, high knee lifts, kicks, and toe-heel stamps aligned with the fast tempo of the music.",
+    "arms_and_hands": "Arms held wide, crossed at the chest, akimbo on hips, or outstretched to balance during turns and jumps.",
+    "hips_and_torso": "Torso remains upright and controlled while executing spins, deep kneeling positions, and leaps.",
+    "partnering": "None; ensemble folk dance with synchronized movements and group holds.",
+    "levels_jumps_turns": "Frequent high leaps, spinning jumps, deep kneeling drops to the floor, and rapid pirouette turns.",
+    "costume_and_props": "Red long-sleeved tunics with dark trousers, tall white fluffy papakha hats, and furry boot covers.",
+    "cannot_infer": "Precise footwork details such as exact toe-heel weights are partially obscured by distance and low resolution.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "drums",
+      "wind instrument",
+      "string instrument"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 103,
+      "end_s": 113,
+      "what": "A solo dancer performs energetic high leaps and spins while other dancers kneel in lines."
+     },
+     {
+      "start_s": 140,
+      "end_s": 146,
+      "what": "Dancers hold hands in a straight line and step synchronously to the side."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 9,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/khanjluri.json"
+ },
+ "fingerprint": "77846f34329f721a",
+ "updated": "2026-11-24"
 }

@@ -54,10 +54,10 @@
   "profile_long": "Chestnut, which also carries the title Dove's Figary, represents a distinctive piece of seventeenth-century social choreography preserved in the British dance repertoire. The dance was first set down in print by the London bookseller and publisher John Playford in 1651, when it appeared in the initial edition of The English Dancing Master. This historic publication systematically documented social figures that were enjoyed across various strata of English society during the mid-seventeenth century, providing short musical notations coupled with concise walking and spatial directions.\n\nThe dance is designated structurally as an English country dance arranged for three couples standing in a line. In this specific set-dance format, three pairs of dancers face one another along a straight column or set, creating an intimate six-person social dynamic that differs both from longways-for-as-many-as-will progressions and circular formations. While the original seventeenth-century publication presented the framework and tune for Chestnut, the exact nuances of execution and period phrasing in contemporary performance trace back to modern analytical reconstruction work. Notable reconstructions of the figures have been prepared by dance researchers Delbert von Straßburg and Stephen Fischer, enabling early dance ensembles and historical dance groups to interpret the original 1651 notations.\n\nMusically, Chestnut is paired with its own country dance tune recorded alongside the notation in Playford's 1651 manual. The historical documentation focuses squarely on the melodic line and line configuration without preserving comprehensive records of specific instrumentation, vocal performance, or dynamic variations, reflecting the utilitarian printing conventions of seventeenth-century dance manuals. The dance survives through its inclusion in early English country dance books, including Estienne's country dance book and facsimiles of Playford's first edition, serving as an enduring window into the popular recreational dances of Commonwealth-era England.",
   "movie_ready": false,
   "tradition_status": "revived",
-  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
-   "verdict": "pass",
-   "checked_at": "",
+   "verdict": "fail",
+   "checked_at": "2026-11-24T22:12:02Z",
    "soft_fail": []
   }
  },
@@ -181,7 +181,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 2,
   "of": 15,
   "missing": [
    {
@@ -225,6 +225,10 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    },
@@ -238,11 +242,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 15,
+  "gaps": 16,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/chestnut.json"
  },
- "fingerprint": "25fc2f4c626c360a",
+ "fingerprint": "e698ea661e85dc80",
  "updated": "2026-11-24"
 }

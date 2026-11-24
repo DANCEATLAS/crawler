@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-24 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned village elder from Sikar who emphasizes the 'discipline' and 'systematic' nature of the Shekhawati style.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Giant Drums of Shekhawati
 NARRATION: This is Chang dance. Contemporary/Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (szu7X9nvggE)
 ON SCREEN: Title card: Chang dance · India · Contemporary/Traditional
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is a group performance where men move, sing, and carouse to
 NARRATION: It is often performed in a village square known as a Chauk.
 NARRATION: While the specific technical footwork is not detailed in the sources, it is described as a systematic and disciplined performance in its core regions.
 NARRATION: Watch for Sang.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (szu7X9nvggE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group dance performed in a village square (Chauk)
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'szu7X9nvggE', 'checked_by_vision_model': True, 'title': 'Rajasthani Chang dance || Holi dance'}
 Images: 1 licensed — Vinodtiwari2608 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The turmeric-stained sheepskin of the chang, The eight-holed bamboo flute, Dust rising from the village Chauk under the dancers' feet, The vibrant colors of the Holi festival
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 71 tutorial(s) of the folk-circle family studied · videos studied: 71
+Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas; doble golpe con cada pie
+Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Chang_dance; https://www.wikidata.org/wiki/Q19752913

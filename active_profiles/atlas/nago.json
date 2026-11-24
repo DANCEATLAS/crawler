@@ -4,32 +4,33 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
-      "difficulty": "intermediate",
-      "footwork": "Fast footwork combined with rhythmic swaying",
+      "difficulty": "not described in sources",
+      "footwork": "fast footwork",
       "formation_and_space": "not described in sources",
-      "hips_and_torso": "Strong thrusting and shoulder undulations",
+      "hips_and_torso": "swaying and shoulder undulations",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
-      "posture": "Grounded, masculine, and powerful",
+      "posture": "muscular and strong",
       "signature_moves": [
         {
-          "description": "Rhythmic movement of the shoulders to the drum beat",
-          "name": "Shoulder undulations"
-        },
-        {
-          "description": "Powerful, grounded torso movements",
-          "name": "Strong thrusting"
+          "description": "Strong, militant body movements reflecting the warrior nature of the Ogou.",
+          "name": "Thrusting"
         }
       ],
-      "tempo_feel": "Varies between fast (Chaud) and slow/heavy (Grand Coup)",
+      "tempo_feel": "varies from fast (Chaud) to slow (Grand Coup)",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Three Rada cowhide-head drums"
+        "three Rada cowhide-head drums"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
@@ -39,26 +40,26 @@
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Nago Chaud (fast) and Nago Grand Coup (slow/heavy)",
-      "sound_description": "The music is driven by the polyrhythmic interplay of three Rada cowhide-head drums, alternating between fast, driving beats and slow, heavy, percussive pulses.",
+      "rhythm_pattern": "Nago Chaud (fast) or Nago Grand Coup (slow/heavy)",
+      "sound_description": "The music is driven by three Rada cowhide-head drums, alternating between fast-paced, high-energy rhythms and slow, heavy, grounding beats.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Ritual singing, including the 'Haut Chant Nago'"
+      "vocal_style": "ritual calls and welcoming songs like the Haut Chant Nago"
     },
     "teaching": {
       "basic_steps": [
-        "Rhythmic swaying of the torso",
-        "Shoulder undulations",
-        "Strong, grounded thrusting movements",
-        "Fast-paced footwork patterns",
-        "Pirouettes"
+        "strong thrusting",
+        "swaying",
+        "shoulder undulations",
+        "pirouettes",
+        "fast footwork"
       ],
       "formation": "not described in sources",
-      "level_notes": "Requires high physical stamina and coordination due to the muscular nature of the movements.",
-      "rhythm": "Nago Chaud (fast) or Nago Grand Coup (slow/heavy)"
+      "level_notes": "not described in sources",
+      "rhythm": "Nago Chaud (fast-paced) or Nago Grand Coup (slow, heavy)"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "cc0d4516cbf9bae4f30eb4373e013850d9cb069d2637e0f49ddff974ac1368f8",
+  "fingerprint": "ddbe145a95f13d5d028379e40fc349829b6a87d9e86b80c52329342f2095ea67",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -68,7 +69,8 @@
     "research": [
       "movement: formation_and_space, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific, non-sacred pedagogical exercises derived from Nago movements that can be safely taught to general audiences? Evidence needed: Ethnographic studies on secularized or performance-based Nago dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -95,7 +97,17 @@
   ],
   "music_options": [],
   "name": "Nago",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "a0249109ded2ed5a",
+      "next_evidence": "Ethnographic studies on secularized or performance-based Nago dance.",
+      "question": "Are there specific, non-sacred pedagogical exercises derived from Nago movements that can be safely taught to general audiences?",
+      "source": "https://en.wikipedia.org/wiki/Nago_lwa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The dance is sacred, and current sources do not provide non-sacred versions for teaching."
+    }
+  ],
   "research_file": "research_results/nago.json",
   "runtime_active": false,
   "scope": {

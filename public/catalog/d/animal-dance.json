@@ -51,7 +51,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 6,
   "of": 15,
   "missing": [
    {
@@ -71,10 +71,6 @@
     "label": "arms and hands"
    },
    {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
    },
@@ -91,15 +87,67 @@
     "label": "a hero video that passed the vision check"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "rhythm": "lesson",
+   "study_video": "lesson"
+  }
  },
- "fingerprint": "9c07493ad4a3aa80",
+ "lessons": [
+  {
+   "youtube_id": "2IuNdyPk8aI",
+   "url": "https://www.youtube.com/watch?v=2IuNdyPk8aI",
+   "title": "KATSEYE - ANIMAL Dance Tutorial (Horizontal ver.)",
+   "channel": "Jessy🌙",
+   "analysed_on": "2026-11-24",
+   "level": "beginner",
+   "language": "en",
+   "counting_scheme": "5-6-7-8 / 1-2-and-3-4-5-6-and-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "follow_along",
+     "note": "Demonstrating at 0.5x speed"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Animal dance choreo",
+     "counts": "5-6-7-8",
+     "description": "Full routine demonstration starting with 5-6-7-8"
+    }
+   ],
+   "teacher_style": "The instructor demonstrates the choreography silently while counting out loud. Progression moves from slow to full speed over multiple repetitions.",
+   "distinctive_method": "Silent tutorial relying entirely on counted audio track and visual mirroring at varying speeds.",
+   "what_works": [
+    "Mirrored tutorial format",
+    "Progressive speed increase from 0.5x to normal speed"
+   ],
+   "what_hinders": [
+    "No verbal breakdown or explanation of steps"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "Dancer in black outfit performing choreography facing front",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "exact weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "5227f58eeb56991d",
  "updated": "2026-11-24"
 }

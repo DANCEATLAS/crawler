@@ -1,13 +1,48 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "The dance involved a series of gestures to the audience to illustrate events.",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9c20ac1ad6b08625fc526c4f22c19a52a6cf00878dc571030e6ce5e7b87d0c56",
+  "fingerprint": "6a00baf030b5ba6eaa4ae06c8b68fc581b7107b7d4c4eea53a86b3d7d965ca24",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +50,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -46,7 +80,7 @@
   "music_options": [],
   "name": "Angelica",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/angelica.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +92,8 @@
   "slug": "angelica",
   "sources": [
     "https://en.wikipedia.org/wiki/Angelica_(dance)",
-    "Source: Angelica (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Angelica_(dance)"
+    "https://www.wikidata.org/wiki/Q4762655"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

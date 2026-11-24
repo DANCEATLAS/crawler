@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-24 · judge 9.35 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -22,7 +22,7 @@ NARRATION: The term Taualuga refers to the final stage of traditional house buil
 NARRATION: Historically, the dance was a sacred rite reserved for the virgins of the aristocracy, specifically the taupou (chief's daughter) or manaia (chief's son).
 NARRATION: The taupou was protected by 'tausi' (older women) to preserve her reputation, as she was the leader of the unmarried women and the face of her village's hospitality.
 ON SCREEN: Map: Samoa · Oceania
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -54,10 +54,9 @@ NEEDS: tempo, meter
 NARRATION: The dancer wears an 'ie toga (fine mat) wrapped with a tapa sash (vala).
 NARRATION: The body is anointed with scented coconut oil.
 NARRATION: The most distinct element is the 'tuiga' headdress, traditionally composed of a turtle shell faceplate (lave), a headband of nautilus shells (pale fuiono), a wig of human hair (ie lau'ulu), and red feathers (ie'ula).
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 4 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
 
 ### 7. The people (60 s) · `people`
 NARRATION: The performance is centered on the 'taupou' (daughter of a high chief) or the 'manaia' (son of a high chief).
@@ -99,7 +98,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'QKrW6uCHhm8', 'checked_by_vision_model': True, 'title': None}
-Images: 0 licensed
+Images: 4 licensed — Smita Biswas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Smita Biswas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Smita Biswas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Smita Biswas / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: MISSING
 
 Costume notes: The dancer wears an 'ie toga (fine mat) wrapped with a tapa sash (vala). The body is anointed with scented coconut oil. The most distinct element is the 'tuiga' headdress, traditionally composed of a turtle shell faceplate (lave), a headband of nautilus shells (pale fuiono), a wig of human hair (ie lau'ulu), and red feathers (ie'ula). Modern versions often use mirrors, sequins, and dyed chicken feathers.

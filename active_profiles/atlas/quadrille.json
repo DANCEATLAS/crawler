@@ -1,13 +1,95 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex ballet terminology",
+          "Long sequences"
+        ],
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "15",
+        "game_version": "Simplified square dance game with basic walking steps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid turns",
+          "High-impact steps"
+        ],
+        "counts": "Simplified 4-count steps.",
+        "seated_version": "Perform arm and upper body gestures while seated in a square formation.",
+        "standing_version": "Reduced tempo, simplified footwork without jumps.",
+        "tempo_and_range": "Slowed tempo, limited range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms rounded and supple; hands held during turns",
+      "difficulty": "intermediate",
+      "footwork": "Jeté, chassé, croisé, plié, and arabesque",
+      "formation_and_space": "Four couples in a square, facing the center",
+      "hips_and_torso": "Stable and upright",
+      "levels_and_jumps": "Includes small jumps (jeté)",
+      "partnering": "Couples perform figures together; exchange of partners occurs in some figures",
+      "posture": "Upright, elegant carriage of the body",
+      "signature_moves": [
+        {
+          "description": "Ladies' chain; ladies cross the square and turn opposite gentlemen",
+          "name": "Chaine des Dames"
+        },
+        {
+          "description": "Back-to-back movement between dancers",
+          "name": "Dos-à-dos"
+        }
+      ],
+      "tempo_feel": "Varies from stately to lively",
+      "what_to_avoid": "Avoid slouching; maintain the square formation"
+    },
+    "music_profile": {
+      "instruments": [
+        "Violin",
+        "Piano",
+        "Accordion",
+        "Organetto"
+      ],
+      "meter": "2/4 or 6/8",
+      "mood_keywords": [
+        "Lively",
+        "Stately",
+        "Elegant"
+      ],
+      "musical_form": "Suite of 5-6 figures",
+      "reference_recordings": [
+        {
+          "artist": "Johann Strauss (Sohn)",
+          "title": "Fledermaus-Quadrille"
+        }
+      ],
+      "rhythm_pattern": "Standard 8-measure themes",
+      "sound_description": "A structured, rhythmic sound characterized by clear, repetitive 8-measure phrases, often incorporating melodies from contemporary operas or popular songs.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Instrumental, though some folk variants use a 'caller' (marcante)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Chassé (a sliding step)",
+        "Jeté (a springing step)",
+        "Balancé (a rocking step)",
+        "Tour de main (turning with hands)"
+      ],
+      "formation": "Four couples in a square",
+      "level_notes": "Beginners should focus on the square formation and the timing of the five figures.",
+      "rhythm": "2/4 or 6/8 meter"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e5523390cd03b9d0508be8883df4e836817bfe4072b1f62ec7ed29231fc1626e",
+  "fingerprint": "ad703e97223ac798e0d606c055d13e40a33b5db79f0074b7dfceab9924713000",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +97,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific choreographic differences between the Jamaican 'campstyle' quadrille and the French 'quadrille français'? Evidence needed: Ethnographic field reports from Jamaica."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +125,18 @@
   ],
   "music_options": [],
   "name": "Quadrille",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "2d68f9224512b6a9",
+      "next_evidence": "Ethnographic field reports from Jamaica.",
+      "question": "What are the specific choreographic differences between the Jamaican 'campstyle' quadrille and the French 'quadrille français'?",
+      "source": "https://en.wikipedia.org/wiki/Quadrille",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching instructions for regional variants."
+    }
+  ],
+  "research_file": "research_results/quadrille.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +147,15 @@
   },
   "slug": "quadrille",
   "sources": [
-    "https://en.wikipedia.org/wiki/Quadrille"
+    "https://en.wikipedia.org/wiki/Quadrille",
+    "https://www.wikidata.org/wiki/Q394084",
+    "https://fr.wikipedia.org/wiki/Quadrille_(danse)",
+    "https://pt.wikipedia.org/wiki/Quadrilha_(dança)",
+    "https://de.wikipedia.org/wiki/Quadrille_(Tanz)",
+    "https://it.wikipedia.org/wiki/Quadriglia",
+    "https://archive.org/details/danceman235",
+    "https://archive.org/details/danceman085",
+    "https://archive.org/details/danceman154"
   ],
   "state": "researching",
   "video_evidence": []

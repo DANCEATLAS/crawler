@@ -1,0 +1,148 @@
+{
+ "youtube_id": "HdcACqkWwg4",
+ "slug": "kolo-serbia",
+ "dance": "kolo serbia",
+ "title": "Kolo Dance Lesson",
+ "channel": "SimplySlavic",
+ "viewer_ratio": 3.0,
+ "analysed_at": "2026-11-24T22:32:54Z",
+ "url": "https://www.youtube.com/watch?v=HdcACqkWwg4",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor provides clear verbal explanations combined with step-by-step demonstrations. She breaks down movements into manageable components before practicing them to music.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:21",
+    "segment": "intro",
+    "note": "Introduction to the Kolo dance and instructor name"
+   },
+   {
+    "t": "0:34",
+    "segment": "breakdown",
+    "note": "Breaking down the basic steps of Kolo-Sest"
+   },
+   {
+    "t": "2:34",
+    "segment": "music_practice",
+    "note": "Practicing basic steps with music"
+   },
+   {
+    "t": "3:14",
+    "segment": "layering",
+    "note": "Adding hop variation to the basic step"
+   },
+   {
+    "t": "6:15",
+    "segment": "layering",
+    "note": "Adding dive variation to the basic step"
+   },
+   {
+    "t": "7:04",
+    "segment": "layering",
+    "note": "Adding stamp behind variation"
+   }
+  ],
+  "counting_scheme": "1-2-3 / 5-6-7-8",
+  "cues": [
+   "right, left, right",
+   "touch, touch, touch",
+   "left, right, left"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Basic Step",
+    "counts": "1-2-3",
+    "description": "Three steps moving right or left"
+   },
+   {
+    "name": "Touches",
+    "counts": "1-2-3",
+    "description": "Three touches crossing in front or back"
+   },
+   {
+    "name": "Hop Variation",
+    "counts": "1-2-3",
+    "description": "Stepping and hopping on the supporting foot"
+   },
+   {
+    "name": "Dive Variation",
+    "counts": "1-2-3",
+    "description": "Bending forward while doing the steps"
+   },
+   {
+    "name": "Stamp Behind Variation",
+    "counts": "1-2-3",
+    "description": "Stamping and crossing behind"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal breakdown",
+    "Repetition of steps before adding variations"
+   ],
+   "what_hinders": [
+    "Limited camera angles for footwork"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:24",
+    "text": "Today I'm going to teach you a Kolo."
+   },
+   {
+    "t": "2:33",
+    "text": "Want to try it with some music?"
+   },
+   {
+    "t": "3:01",
+    "text": "Now that you've learned the basic, this dance is done at all different parties."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 34,
+    "end_s": 42,
+    "topic": "teaching",
+    "observation": "Instructor demonstrates the first three steps slowly facing front",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 152,
+    "end_s": 205,
+    "topic": "movement",
+    "observation": "Close-up shot of feet demonstrating touch steps from side angle",
+    "viewpoint": "side, unmirrored",
+    "cannot_infer": "upper body posture",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Progressively layering variations onto a single foundational footwork pattern"
+ },
+ "attempts": 1
+}

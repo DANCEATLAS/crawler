@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "big-apple",
  "name": "Big Apple",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -11,11 +11,14 @@
   "slug": "big-apple",
   "name": "Big Apple",
   "country": "United States",
+  "country_code": "US",
+  "flag_emoji": "🇺🇸",
   "region": "North America",
+  "family": "african-diaspora",
   "era": "20th century",
-  "tagline": "United States, 20th century — The Big Apple is both a partner dance and a circle dance that originated in the Afro-American community of …",
-  "profile": "The Big Apple is both a partner dance and a circle dance that originated in the Afro-American community of the United States in the beginning of the 20th century.",
-  "insight": "They were the only black performers in the production that lasted from August 1938 until spring 1939.",
+  "tagline": "A high-energy 1930s circle dance from South Carolina that became a national craze.",
+  "profile": "The Big Apple is a high-energy circle dance that emerged in the African-American community of Columbia, South Carolina, during the early 1930s. It combines elements of jazz, swing, and traditional social dance, featuring a leader who calls out specific moves for the group or individual couples known as 'shiners.' After gaining fame in New York theaters and through Arthur Murray's dance studios, it became a national phenomenon by 1937. Today, the dance is kept alive by swing dance communities who have revived it since the 1980s.",
+  "insight": "In 1938, the only black performers in the Hollywood Hotel Revue production were the eight dancers who brought the Big Apple to international audiences.",
   "related": [
    "salsa",
    "charleston",
@@ -25,14 +28,24 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Big_Apple_(dance)",
-   "Source: Big Apple (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Big_Apple_(dance)"
+   "Source: Big Apple (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Big_Apple_(dance)",
+   "https://www.wikidata.org/wiki/Q4904933",
+   "https://archive.org/details/GAT_1937111601"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Big_Apple_(dance)",
   "wikidata_qid": "Q4904933",
   "unesco": false,
   "hero_video_youtube_id": "H1K5M5xluZs",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.65,
+  "last_researched_at": "2026-11-24T22:05:20Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The Big Apple originated in the early 1930s at the Big Apple Night Club in Columbia, South Carolina, a venue formerly known as the House of Peace Synagogue. The dance is characterized by its formation as a circle, where participants face the center and follow a leader who calls out specific jazz-based steps. This structure allows for both collective movement and individual expression, as the leader nominates specific couples to enter the center of the circle to perform 'shiners'—exhibition-style improvisations. The dance gained national attention in 1937 when college students from the University of South Carolina brought it to the Pavilion in Myrtle Beach, eventually leading to performances at the Roxy Theater in New York City. Arthur Murray, a prominent dance instructor, incorporated the Big Apple into his swing syllabus, which helped spread the dance to franchises across the United States. During the late 1930s, the dance was featured in various films and variety shows, cementing its status as a cultural phenomenon. While its popularity declined by 1941, the dance was revived in the 1980s and 1990s by dancers such as Betty Wood and Frankie Manning. The Big Apple is deeply rooted in the Afro-American vernacular dance tradition, sharing a common improvisational spirit with dances like the Lindy Hop, the Charleston, and the Shag. It is a physically demanding dance, often described as requiring the 'muscles of a kangaroo' and a 'stout respiration.' The dance is performed to swing music, with the group moving in unison before breaking into individual performances. The 'shiners' section is a highlight, where couples showcase their agility and creativity, often incorporating complex footwork and acrobatic elements. The dance concludes with a traditional ending known as 'Praises' or 'Hallelujah,' where participants run to the center of the circle and throw their hands in the air. Despite its historical decline, the Big Apple remains a significant part of the swing dance repertoire, serving as both a performance piece and a social activity that connects modern dancers to the jazz-age traditions of the 1930s.",
+  "publish_gate": "publish",
+  "movie_ready": true,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -66,6 +79,406 @@
    "breaking"
   ]
  },
- "fingerprint": "99b1dbe84e86513c",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The dance originated in the early 1930s at the Big Apple Night Club in Columbia, South Carolina. It was later popularized by university students and professional dance troupes, eventually becoming a national craze in 1937.",
+   "how_it_is_danced": "The dance is performed in a circle with participants facing the center. A leader calls out steps, and individual couples ('shiners') take turns performing in the center. The dance is highly improvisational and uses 8-count patterns.",
+   "music_and_instruments": "The Big Apple is danced to swing music. The rhythm is fast-paced and energetic, requiring dancers to keep up with the tempo of the jazz band.",
+   "costume_and_setting": "Historically performed in social settings like juke joints, theaters, and dance studios. No specific costume is mandated, though 1930s social attire is typical for revivals.",
+   "occasions_and_meaning": "The dance was a social activity meant for group enjoyment. It served as a 'pepper-upper' at parties and was used as a performance piece in theaters.",
+   "notable_figures": "Frankie Manning, Betty Wood, Billy Spivey, Donald Davis, Harold 'Goo-Goo' Wiles, Frank 'Fat Sam' Boyd.",
+   "regional_variants": "The 'Little Apple' is a variation involving fewer dancers, where participants take turns grabbing a partner to dance in the center of the circle.",
+   "lineage": "The Big Apple is closely related to the Lindy Hop, Charleston, Black Bottom, and the Shag, sharing a common improvisational spirit and jazz-based movement."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Susie Q",
+    "Apple Jacks",
+    "Truckin",
+    "Shorty George",
+    "Praises"
+   ],
+   "rhythm": "8-count centered",
+   "formation": "Circle",
+   "level_notes": "Requires high physical stamina and familiarity with swing jazz rhythms."
+  },
+  "claims": [
+   {
+    "text": "The Big Apple is both a partner dance and a circle dance that originated in the Afro-American community of the United States in the beginning of the 20th century.",
+    "source": "https://en.wikipedia.org/wiki/Big_Apple_(dance)"
+   },
+   {
+    "text": "The dance that eventually became known as the Big Apple is speculated to have been created in the early 1930s by African-American youth dancing at the Big Apple Club.",
+    "source": "https://en.wikipedia.org/wiki/Big_Apple_(dance)"
+   },
+   {
+    "text": "They were the only black performers in the production that lasted from August 1938 until spring 1939.",
+    "source": "https://en.wikipedia.org/wiki/Big_Apple_(dance)"
+   },
+   {
+    "text": "The only prerequisites in a performer are versatility in modern dance steps (of which the shag is the most essential), a familiarity with the lusty lingo in which the turns are calléd, and, above all, a stout respiration and the muscles of a kangaroo.",
+    "source": "https://archive.org/details/GAT_1937111601"
+   },
+   {
+    "text": "In the 1980s, Lance Benishek and Betty Wood started to tour the US and Europe teaching the Big Apple.",
+    "source": "https://en.wikipedia.org/wiki/Big_Apple_(dance)"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 5,
+   "rate": 0.833
+  },
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "4/4",
+   "rhythm_pattern": "Swing jazz rhythm",
+   "instruments": [
+    "Brass",
+    "Woodwinds",
+    "Percussion",
+    "Piano"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "Swing",
+   "mood_keywords": [
+    "energetic",
+    "lusty",
+    "swinging"
+   ],
+   "reference_recordings": [],
+   "sound_description": "Fast-paced, high-energy swing music characterized by a driving beat that supports vigorous, improvisational dance movements."
+  },
+  "movement_profile": {
+   "posture": "Upright but flexible, with knees often bent.",
+   "footwork": "8-count patterns; includes steps like the Susie Q, Truckin, and Shorty George.",
+   "arms_and_hands": "High arm gestures and expressive movements; specific hand positions for moves like the Susie Q.",
+   "hips_and_torso": "Active torso movement, including twisting and shifting weight.",
+   "formation_and_space": "Circle formation with participants facing the center.",
+   "partnering": "Leader-follower dynamic during 'shiners' and group movement.",
+   "tempo_feel": "Fast and energetic.",
+   "signature_moves": [
+    {
+     "name": "Susie Q",
+     "description": "A twisting footwork pattern where heels and toes scoot in a specific direction."
+    },
+    {
+     "name": "Truckin",
+     "description": "A shuffle step variation with a wagging index finger."
+    },
+    {
+     "name": "Shorty George",
+     "description": "Walking in a straight line with small steps and dramatic knee bending."
+    }
+   ],
+   "levels_and_jumps": "Includes athletic movements and high-energy transitions.",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Big Apple: The Dance That Swept the Nation",
+   "logline": "Discover the high-energy circle dance that defined the swing era.",
+   "beats": [
+    "Introduction to the Big Apple Night Club in South Carolina.",
+    "The transition from a local juke joint to the Roxy Theater.",
+    "The role of the leader and the 'shiners' in the circle.",
+    "Learning the basic 8-count rhythm.",
+    "The cultural impact of the dance in the late 1930s.",
+    "The revival of the dance in the 1980s."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Master the basic circle formation and rhythm.",
+     "drills": [
+      "Circle walking",
+      "Basic Charleston step",
+      "Clapping to the beat"
+     ]
+    },
+    {
+     "level": "Intermediate",
+     "goal": "Learn signature moves.",
+     "drills": [
+      "Susie Q",
+      "Truckin",
+      "Shorty George"
+     ]
+    },
+    {
+     "level": "Advanced",
+     "goal": "Perform a 'shiner' sequence.",
+     "drills": [
+      "Improvising in the center",
+      "Transitioning between moves",
+      "The 'Hallelujah' finale"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "1930s jazz band",
+    "Circle of dancers in a juke joint",
+    "Vintage theater posters"
+   ],
+   "instructor_persona": "Energetic swing dance historian.",
+   "music_cue": "Up-tempo 1930s swing jazz."
+  },
+  "connections": [
+   {
+    "name": "Lindy Hop",
+    "relation": "shares_music",
+    "note": "Both dances share the same swing music and improvisational spirit."
+   },
+   {
+    "name": "Charleston",
+    "relation": "shares_music",
+    "note": "The Big Apple incorporates Charleston steps."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Perform arm gestures and torso twists while seated.",
+    "standing_version": "Reduced tempo, focus on arm movements, avoid jumps.",
+    "tempo_and_range": "Slowed tempo, limited range of motion.",
+    "counts": "Simplified 4-count patterns.",
+    "avoid": [
+     "Jumps",
+     "Rapid knee bending",
+     "High-impact footwork"
+    ]
+   },
+   "children": {
+    "game_version": "Circle game where children take turns dancing in the center.",
+    "duration_minutes": "15",
+    "counts": "Simplified 4-count steps.",
+    "avoid": [
+     "Complex acrobatic moves",
+     "High-speed footwork"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-24T22:05:20Z",
+  "qc_score": 9.65
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 14,
+  "of": 15,
+  "missing": [
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   }
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "grDYvkjIACw",
+   "url": "https://www.youtube.com/watch?v=grDYvkjIACw",
+   "title": "Learn the Big Apple Part 1 - Lindy Hop and Swing Dance",
+   "channel": "Laura Glaess",
+   "analysed_on": "2026-11-24",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "8-count phrasing",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to Part 1 of the Big Apple dance tutorial."
+    },
+    {
+     "t": "0:03",
+     "seconds": 3,
+     "segment": "full_demo",
+     "note": "Demonstration of the Big Apple routine by a group of dancers."
+    },
+    {
+     "t": "1:42",
+     "seconds": 102,
+     "segment": "context",
+     "note": "Historical background on the Big Apple dance and Frankie Manning."
+    },
+    {
+     "t": "2:04",
+     "seconds": 124,
+     "segment": "other",
+     "note": "Listing the required moves for the routine."
+    },
+    {
+     "t": "2:43",
+     "seconds": 163,
+     "segment": "follow_along",
+     "note": "Dancing through the first two phrases of the routine to music."
+    },
+    {
+     "t": "5:26",
+     "seconds": 326,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of the choreography details and historical nuances."
+    },
+    {
+     "t": "7:16",
+     "seconds": 436,
+     "segment": "breakdown",
+     "note": "Breakdown of the intro break step variation."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Rocks",
+     "counts": "8",
+     "description": "Rocking movement starting on count 8."
+    },
+    {
+     "name": "Boogie Forwards / Drunken Sailors",
+     "counts": "1-8",
+     "description": "Stepping and boogying forward."
+    },
+    {
+     "name": "Boogie Backs",
+     "counts": "1-8",
+     "description": "Boogying backward."
+    },
+    {
+     "name": "Apple Jacks",
+     "counts": "1-8",
+     "description": "Swiveling heels side to side."
+    },
+    {
+     "name": "Gaze Afar",
+     "counts": "1-8",
+     "description": "Stylized looking gesture."
+    },
+    {
+     "name": "Suzie Q",
+     "counts": "1-8",
+     "description": "Crossing step pattern."
+    },
+    {
+     "name": "Spank the Baby",
+     "counts": "1-8",
+     "description": "Kicking and slapping step."
+    },
+    {
+     "name": "Jump Charleston",
+     "counts": "1-8",
+     "description": "Charleston steps incorporating jumps."
+    }
+   ],
+   "cues": [
+    "hit your butt on count 8"
+   ],
+   "teacher_style": "The instructor provides historical context and stylistic tips before demonstrating moves clearly to music. She breaks down complex choreography into manageable parts with clear visual breakdowns and verbal guidance.",
+   "distinctive_method": "Integrating historical film footage comparison to explain variations between original dancers and modern interpretations.",
+   "what_works": [
+    "Demonstrating with music before detailed breakdown",
+    "Listing moves on screen for clarity",
+    "Providing historical context"
+   ],
+   "what_hinders": [
+    "Rapid pacing through the full demonstration without prior explanation"
+   ],
+   "evidence": [
+    {
+     "start_s": 2,
+     "end_s": 4,
+     "topic": "teaching",
+     "observation": "Teacher speaks directly to the camera on a porch setting.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 4,
+     "end_s": 22,
+     "topic": "movement",
+     "observation": "Group of dancers performing a swing routine in a studio space.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "weight transfer specifics due to group movement",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "H1K5M5xluZs",
+   "url": "https://www.youtube.com/watch?v=H1K5M5xluZs",
+   "analysed_on": "2026-11-24",
+   "observation": {
+    "setting": "A nightclub or stage set with tables, checkered tablecloths, and an orchestra performing in the background.",
+    "dancers": "A large mixed group of men and women, appearing as multiple couples and as a larger ensemble.",
+    "formation_and_space": "Couples spread out across the dance floor, transitioning into a group line formation facing the audience.",
+    "posture": "Athletic and upright with an energetic, forward-leaning stance and slightly bent knees.",
+    "footwork": "Fast-paced stepping and shuffling on the balls of the feet in time with the driving swing rhythm.",
+    "arms_and_hands": "Arms swing naturally, reach outward, or clasping partner hands; sometimes raised overhead.",
+    "hips_and_torso": "Bending at the waist and twisting torso movements coordinated with footwork.",
+    "partnering": "Couples alternate between closed dance hold, open hand-to-hand holds, and solo breaks.",
+    "levels_jumps_turns": "Frequent jumps, low crouches close to the floor, and rapid spins.",
+    "costume_and_props": "Men wear light-colored short-sleeved shirts and dark trousers; women wear light tops with dark skirts.",
+    "cannot_infer": "Low resolution and fast motion make exact individual weight transfer details difficult to track precisely.",
+    "music_heard": {
+     "instruments": [
+      "saxophone",
+      "piano",
+      "double bass",
+      "drums",
+      "brass instruments"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 10,
+      "end_s": 16,
+      "what": "Couples break apart from closed hold into fast solo Charleston-style footwork."
+     },
+     {
+      "start_s": 33,
+      "end_s": 38,
+      "what": "Dancers drop down into a low crouch while sweeping their legs."
+     },
+     {
+      "start_s": 143,
+      "end_s": 150,
+      "what": "The group lines up side-by-side, executing synchronized kicks and crouches."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 5,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/big-apple.json"
+ },
+ "fingerprint": "e81f5ab5e203488c",
+ "updated": "2026-11-24"
 }
