@@ -92,6 +92,24 @@ class ProgressDigestTests(unittest.TestCase):
         self.assertIn('Actual spending and remaining balance are not measured',text)
         self.assertIn('No recent completed report',text)
 
+    def test_the_week_comes_first_in_hebrew_with_the_report_s_own_numbers(self):
+        now = self.fixture()
+        week = dict(now, active_ready=now['active_ready'] - 3, published=now['published'] + 2)
+        he = d.hebrew_summary(now, week, WHEN)
+        self.assertIn(f"{now['active_ready']:,} ריקודים מוכנים להפעלה (+3 השבוע)", he[1])
+        self.assertIn(f"{now['published']:,} פרופילים מלאים פורסמו (−2 השבוע)", he[2])
+        self.assertIn("ללא שינוי השבוע", he[3])
+        self.assertEqual(he[4], "ממך: לא צריך כלום השבוע.")
+        self.assertNotIn("השבוע)", d.hebrew_summary(now, None, WHEN)[1])                      # no earlier week: no change is claimed
+        now['vision'] = {'owner_action': {'status': 'open', 'title': 'Sign in', 'verified_at': '2026-11-09', 'valid_days': 7}}
+        self.assertIn("מחכה לך", d.hebrew_summary(now, week, WHEN)[4])
+        h = w.health([], '2026-11-03')
+        page = d.render_html(now, week, None, None, {}, [], WHEN, h)
+        block = page[page.index("<div dir='rtl' lang='he'"):]
+        self.assertLess(page.index("<div dir='rtl' lang='he'"), page.index("ACTION NEEDED"))    # before the English action box
+        self.assertIn("השבוע בקצרה", block[:400])
+        self.assertTrue(d.render_md(now, week, None, None, {}, [], WHEN, h).split("\n")[2].startswith("**השבוע בקצרה"))
+
     def test_html_escapes_content_and_unsafe_action_url(self):
         m=self.fixture(); m['vision']={'reviewed_at':'2026-11-10','areas':[{'id':'x','title':'<script>bad</script>','text':'A & B','status':'Draft'}], 'owner_action':{'status':'open','verified_at':'2026-11-10','title':'Sign in','url':'javascript:alert(1)'}}
         page=w.render_email_html(m,None,None,None,{},[],WHEN)

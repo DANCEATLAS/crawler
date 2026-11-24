@@ -159,7 +159,9 @@ def priorities(now, when):
 
 def render_md(now, week, month, start, labels, hist, when, h):
     action = owner_action(now, when)
+    he = hebrew_summary(now, week, when)
     lines = [f"# Dance Atlas — weekly report · {when.strftime('%a %d %b %Y')}", "",
+             "**" + he[0] + "**", "", *["- " + x for x in he[1:]], "",
              "## Your week at a glance", "", *["- " + x for x in highlights(now, week)], "",
              "**Active-ready means the machine has gathered and source-checked what a teaching service needs. Draft scripts and automated checks are preparation, not validated classes.**", "",
              "## " + action["title"], "", action["reason"]]
@@ -173,6 +175,24 @@ def render_md(now, week, month, start, labels, hist, when, h):
     lines += ["", "## Next work", ""] + ["- " + x for x in priorities(now, when)]
     lines += ["", f"[Explore the evidence and detailed numbers]({DETAIL}) · [Full vision]({BASE}/blob/main/PRODUCT_VISION.md) · [Platform ledger]({BASE}/blob/main/IMPLEMENTATION_LEDGER.md)", ""]
     return "\n".join(lines)
+
+
+def hebrew_summary(now, week, when):
+    """The week in a few Hebrew lines, first in the e-mail: the owner reads Hebrew faster than English (24 November
+    2026). Only numbers this report already measured; whether something waits for him comes from owner_action."""
+    def moved(key):
+        before = (week or {}).get(key)
+        if before is None or now.get(key) is None:
+            return ""
+        d = now[key] - before
+        return " (ללא שינוי השבוע)" if d == 0 else f" ({'+' if d > 0 else '−'}{abs(d):,} השבוע)"
+    waiting = owner_action(now, when)["title"].startswith("ACTION NEEDED")
+    return ["השבוע בקצרה",
+            f"{now['active_ready']:,} ריקודים מוכנים להפעלה{moved('active_ready')}",
+            f"{now['published']:,} פרופילים מלאים פורסמו{moved('published')}",
+            f"{now['dances_live']:,} ריקודים באטלס{moved('dances_live')}",
+            "ממך: יש דבר אחד שמחכה לך. הפרטים בתיבה הצהובה למטה." if waiting else "ממך: לא צריך כלום השבוע.",
+            "הפירוט המלא, באנגלית, ממשיך למטה."]
 
 
 def subject(now, week, when):
@@ -191,6 +211,10 @@ def render_html(now, week, month, start, labels, hist, when, h):
     body = f"<p style='margin:0 0 9px;{font}font-size:16px;font-weight:bold;letter-spacing:1px;color:{green}'>DANCE ATLAS</p>"
     body += f"<h1 style='margin:0 0 10px;{font}font-size:34px;line-height:1.15;color:{ink}'>Your weekly progress</h1>"
     body += p(when.strftime("%d %B %Y") + " · A clear view of the whole vision", 16)
+    he = hebrew_summary(now, week, when)
+    body += (f"<div dir='rtl' lang='he' style='direction:rtl;text-align:right;background:#f6f1e6;padding:18px 20px;margin:18px 0 6px;{font}color:{ink}'>"
+             f"<p style='margin:0 0 10px;font-size:21px;line-height:1.4;font-weight:bold'>{esc(he[0])}</p>"
+             + "".join(f"<p style='margin:0 0 7px;font-size:19px;line-height:1.5'>{esc(x)}</p>" for x in he[1:]) + "</div>")
     body += "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='width:100%;margin-top:20px;border-collapse:collapse'><tr>"
     for key, label in [("active_ready", "active-ready profiles"), ("published", "published deep profiles")]:
         body += (f"<td class='metric' width='50%' style='vertical-align:top;background:#edf4ee;padding:18px;border:4px solid white;{font}'>"

@@ -291,6 +291,20 @@ class TeachingResearchTests(Project):
         before = {"A1": {"status": "ok", "teacher_key": "ana-dance", "method": teaching.normalise_method(METHOD)}}
         self.assertEqual(pick(before, 2), ["A1", "B1"])
 
+    def test_lessons_read_before_the_practices_were_widened_are_read_once_more_a_few_a_night(self):
+        today = dt.date(2026, 11, 24)
+        ok = lambda day, **more: dict({"status": "ok", "schema": teaching.SCHEMA, "analysed_at": day + "T20:00:00Z", "method": teaching.normalise_method(METHOD)}, **more)
+        methods = {"A1": ok("2026-11-18", youtube_id="A1"), "B1": ok("2026-11-17", youtube_id="B1"), "C1": ok("2026-11-22", youtube_id="C1"),
+                   "A2": ok("2026-11-19", youtube_id="A2", attempted_at="2026-11-23T20:00:00Z"),        # its second reading failed last night
+                   "GONE": ok("2026-11-17", youtube_id="GONE"), "X9": {"status": "not_a_lesson", "analysed_at": "2026-11-17T20:00:00Z", "youtube_id": "X9"}}
+        teachers = teaching.build_teachers(LESSONS, {}, methods)
+        ids = lambda picked: [l["youtube_id"] for _, l in picked]
+        self.assertEqual(ids(teaching.refresh(teachers, methods, 3, today=today)), ["B1", "A1"])            # the oldest reading first; not the one read since, not last night's failure
+        self.assertEqual(ids(teaching.refresh(teachers, methods, 1, today=today)), ["B1"])
+        self.assertEqual(ids(teaching.refresh(teachers, methods, 3, skip={"B1"}, today=today)), ["A1"])     # already among tonight's lessons
+        self.assertEqual(ids(teaching.refresh(teachers, methods, 3, today=dt.date(2026, 12, 8))), ["B1", "A1", "A2"])   # two weeks on, the failed one is tried again
+        self.assertEqual(teaching.refresh(teachers, methods, 0, today=today), [])
+
     def test_a_teachers_talk_is_studied_first_each_night_when_one_is_waiting(self):
         today, out = dt.date(2026, 11, 17), {"X9": {"status": "not_a_lesson"}}
         lessons = dict(LESSONS, **{teaching.BASICS + "first-steps": {"lessons": [{"youtube_id": "F1", "channel": "Ana Dance", "title": "Your first steps", "pos": 20, "neg": 0}]},
