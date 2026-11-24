@@ -32,6 +32,12 @@ for _l,_cs in {"es":"mexico,argentina,spain,colombia,peru,chile,cuba,venezuela,b
 TUT_POS=["finally clicked","best teacher","so clear","i learned so much","wish i had this earlier","made it simple","thank you so much","understand now","perfect breakdown","amazing instructor","patient teacher","easy to follow","changed my life","this works","helped me a lot","great teacher","well explained","makes sense now"]
 TUT_NEG=["too fast","confusing","wrong","misleading","inappropriate","cultural appropriation","incorrect","misrepresents","hard to follow","can't keep up"]
 TUT_HARD=["cultural appropriation","misrepresents","inappropriate","disrespectful"]
+# The rule a dance was looked for under. 2 (24 November 2026): a video whose own title names the dance and a lesson is a
+# candidate even when few people watched or praised it. Under rule 1 a lesson needed two praising comments in English or
+# 1,500 views, and 277 of the 312 published dances that lack "the steps with their counts" had no lesson found at all,
+# while the nightly video study (40 lessons a night) had one lesson left to watch. A candidate is not shown anywhere until
+# that study has watched it and found that it teaches this dance (pipeline/pedagogy.py, build_catalog.attach_media).
+TUT_RULE=2
 LEVELS=[("advanced",re.compile(r"\badvanced\b|\bpro\b|\bexpert\b",re.I)),("intermediate",re.compile(r"intermediate|level\s*2|improver",re.I)),("beginner",re.compile(r"beginner|basics|for\s*beginners|level\s*1|\bintro\b|\beasy\b|first\s*lesson",re.I))]
 
 def norm(s): return str(s or "").lower()
@@ -178,8 +184,10 @@ def lesson_eval(dance,keys):
         nt=norm(t); nd=norm(desc)
         relevant=name_in(nt,names) or name_in(nd,names)
         is_tut=bool(TUT_WORD.search(t)) or bool(TUT_WORD.search(desc[:200]))
-        ok=relevant and is_tut and cat!="10" and not SONGHARD.search(t+" "+ch) and not MOVIE.search(t+" "+ch) and emb and 60<=D<=4800 and ncom>0 and healthy
-        if ok: cands.append({"id":it["id"],"title":t,"channel":ch,"likes":likes,"ncom":ncom,"hd":hd,"strong":name_in(nt,names) and bool(TUT_WORD.search(t)) and views>=1500 and lvr>=0.008 and 120<=D<=3600})
+        clean=cat!="10" and not SONGHARD.search(t+" "+ch) and not MOVIE.search(t+" "+ch) and emb and healthy
+        titled=name_in(nt,names) and bool(TUT_WORD.search(t)) and 120<=D<=3600   # the title itself names the dance and a lesson
+        ok=relevant and is_tut and clean and 60<=D<=4800 and ncom>0
+        if ok or (titled and clean): cands.append({"id":it["id"],"title":t,"channel":ch,"likes":likes,"ncom":ncom,"hd":hd,"strong":titled and views>=1500 and lvr>=0.008,"titled":titled})
     cands.sort(key=lambda c:-((c["ncom"]*5+c["likes"])*(1.2 if c.get("hd") else 1.0)))
     lessons=[]
     for c in cands[:6]:
@@ -197,6 +205,10 @@ def lesson_eval(dance,keys):
             # no praise in the listed (English) phrases, but the title names the dance and a lesson, and viewers engage:
             # a candidate. The video-study stage watches it and keeps it only when it really teaches this dance.
             lessons.append({"youtube_id":c["id"],"title":c["title"][:140],"channel":c["channel"],"level":lvl,"pos":pos,"neg":neg,"ratio":0.5,"evidence":[],"lesson_status":"candidate"})
+        elif c.get("titled") and neg<=pos and sum(1 for l in lessons if l["lesson_status"]=="candidate")<2:
+            # a small teacher of a small dance: nobody praised it in the listed phrases and few watched, but its title names
+            # the dance and a lesson. A candidate, last in line: the video study decides whether it teaches this dance.
+            lessons.append({"youtube_id":c["id"],"title":c["title"][:140],"channel":c["channel"],"level":lvl,"pos":pos,"neg":neg,"ratio":0.25,"evidence":[],"lesson_status":"candidate"})
         if len(lessons)>=3: break
     lessons.sort(key=lambda l:-l["ratio"])
     return lessons
@@ -281,25 +293,39 @@ def main():
     if MODE in ("all","tutorial"):
         tcache=jload("tutorial_cache.json",{}); tout=jload("tutorial_results.json",{}); done=0; wrote=0; skipped=0
         TUT_RETRY=int(os.environ.get("TUT_RETRY_DAYS","45")); tday=time.strftime("%Y-%m-%d")
+        TUT_WAVE=int(os.environ.get("TUT_WAVE","100")); TUT_MINUTES=int(os.environ.get("TUT_MAX_MINUTES","100")); t_start=time.time(); redo=0
+        line=(jload(os.path.join("pipeline_state","active_ready.json"),{}) or {}).get("profiles") or {}
+        def _old_rule(slug):
+            c=tcache.get(slug); return isinstance(c,dict) and not c.get("n") and c.get("v")!=TUT_RULE
+        def _need(slug):
+            """0 for a published dance on the way to the starting line that lacks what only a lesson gives; then the fewest items missing."""
+            v=line.get(slug) or {}; miss=v.get("missing") or []
+            return (0 if v.get("state")=="building" and {"footwork_counts","study_video","mistakes","lesson_plan"} & set(miss) else 1, len(miss))
         def _tut_due(slug):
-            """Never tried, or tried and found nothing at least TUT_RETRY days ago (lessons appear on the web all the time)."""
+            """Never tried; or found nothing under an older rule (once more under this one, TUT_WAVE dances a day); or
+            tried and found nothing at least TUT_RETRY days ago (lessons appear on the web all the time)."""
             c=tcache.get(slug)
             if c is None: return True
             if not isinstance(c,dict) or c.get("n"): return False
+            if c.get("v")!=TUT_RULE: return True
             try: return (time.mktime(time.strptime(tday,"%Y-%m-%d"))-time.mktime(time.strptime(c.get("at") or "2026-01-01","%Y-%m-%d")))/86400.0>=TUT_RETRY
             except Exception: return True
         elig=[d for d in dances if d.get("publish") and d.get("slug") not in SACRED and not d.get("is_sacred") and _tut_due(d.get("slug")) and d.get("wikipedia")]
-        elig.sort(key=lambda d: 0 if d.get("slug") not in tcache else 1)   # never-tried dances first
+        elig.sort(key=lambda d: (0 if d.get("slug") not in tcache else 1,)+_need(d.get("slug")))   # never-tried dances first, then those nearest the line
         for d in elig:
             if done>=B_TUT: break
+            if time.time()-t_start>TUT_MINUTES*60: print("tut stop: "+str(TUT_MINUTES)+" minutes used, the rest wait for tomorrow"); break
+            if _old_rule(d.get("slug")):
+                if redo>=TUT_WAVE: continue
+                redo+=1
             try: lessons=lesson_eval(d,keys); done+=1
             except RuntimeError as e: print("tut stop: "+str(e)); break
-            except Exception as e: lessons=[]; print("tut err "+d["slug"]+" "+str(e)[:60])
-            tcache[d["slug"]]={"n":len(lessons),"at":tday}
+            except Exception as e: print("tut err "+d["slug"]+" "+str(e)[:60]); continue   # a search that broke is not "no lesson exists": the dance is looked for again tomorrow
+            tcache[d["slug"]]={"n":len(lessons),"at":tday,"v":TUT_RULE}
             if lessons: tout[d["slug"]]={"lessons":lessons,"status":"in_review"}; wrote+=1; print("TUT ok "+d["slug"]+" lessons="+str(len(lessons)))
             else: print("TUT -- "+d["slug"]+" none")
             jsave("tutorial_cache.json",tcache); jsave("tutorial_results.json",tout)
-        print("tutorial: +"+str(wrote)+" ("+str(len(tout))+" total); sacred auto-skipped")
+        print("tutorial: +"+str(wrote)+" ("+str(len(tout))+" total); looked for again under rule "+str(TUT_RULE)+": "+str(redo)+"; sacred auto-skipped")
 
     if MODE in ("all","viral"):
         vcache=jload("viral_cache.json",{}); vout=jload("viral_results.json",{}); done=0; wrote=0
