@@ -171,10 +171,6 @@ def run(only=None, max_n=200):
     todo = todo[:max_n]
     rep.note(f"qc targets: {len(todo)} (judge enabled={llm.enabled})")
     for slug in todo:
-        if llm.stuck():   # nobody can be asked and the stage's waiting is used up: the rest are judged on the next run, not written off tonight
-            rep.inc("stopped_early")
-            rep.note("no model can be asked: the profiles not yet judged wait for the next run")
-            break
         rec = jload(os.path.join(RESULTS_DIR, slug + ".json"))
         if not rec or rec.get("status") != "researched":
             continue

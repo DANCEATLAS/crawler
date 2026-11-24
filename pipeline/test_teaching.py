@@ -56,24 +56,20 @@ class PatientClientTests(unittest.TestCase):
         with a, b as http, c, d, e:
             self.assertIsNone(first.json("system", "user"))          # its own share (30 s) does not cover the 46-second wait
             self.assertEqual((http.call_count, first.unanswered, first.waited, common.LLM.WAITED), (1, 1, 0.0, 0.0))
+            self.assertEqual(first.unserved, 1)                      # no model gave any answer: the provider's side
         nxt = self.llm()                                             # the next stage of the same night has its own share
         a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER], {"LLM_WAIT_STAGE_SECONDS": "900"})
         with a, b, c, d, e:
             self.assertEqual(nxt.json("system", "user"), {"ok": True})
         self.assertTrue(40 <= nxt.waited == common.LLM.WAITED <= 60, (nxt.waited, common.LLM.WAITED))
 
-    def test_a_stage_knows_when_nobody_can_be_asked_three_questions_in_a_row(self):
+    def test_an_answer_nobody_can_use_is_the_questions_side_not_the_providers(self):
         llm = self.llm()
-        a, b, c, d, e = self.running(ONE_MODEL, [BUSY, ANSWER], {"LLM_WAIT_STAGE_SECONDS": "0"})
-        with a, b as http, c, d, e:
-            self.assertIsNone(llm.json("system", "user"))            # asked, overloaded, no waiting: unanswered, yet somebody was asked
-            self.assertFalse(llm.stuck())
-            for _ in range(3):                                       # the only model rests: nobody is asked at all
-                self.assertIsNone(llm.json("system", "user"))
-            self.assertEqual((http.call_count, llm.why.get("no_model_available"), llm.stuck()), (1, 3, True))
-            self.clock[0] += 100                                     # the rest is over: an answer ends the run of misses
-            self.assertEqual(llm.json("system", "user"), {"ok": True})
-            self.assertFalse(llm.stuck())
+        a, b, c, d, e = self.running(ONE_MODEL, [EMPTY, EMPTY, EMPTY, EMPTY])
+        with a, b, c, d, e, patch.object(common, "warn"):
+            self.assertIsNone(llm.json("system", "user"))
+        self.assertEqual((llm.unanswered, llm.unserved), (1, 0))     # the model answered each time, with nothing usable
+        self.assertGreaterEqual(llm.why.get("unusable_answer", 0), 1)
 
     def test_a_model_whose_day_is_spent_is_not_asked_again_by_the_later_stages_of_the_night(self):
         whole = self.refusal("GenerateRequestsPerDayPerProjectPerModel-FreeTier", 20, 19153)

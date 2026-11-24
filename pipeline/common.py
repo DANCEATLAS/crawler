@@ -295,7 +295,8 @@ class LLM:
         self._list_tries, self._lane_logged, self._last_call, self._rest = 0, False, {}, {}
         self.dead = set()
         self.waited = 0.0          # seconds THIS stage has waited: its own share of the night's waiting (see _may_wait)
-        self.nobody_run = 0        # questions in a row for which no model could even be asked (see stuck)
+        self.unserved = 0          # questions that ended with no answer of any kind from any model (overloaded, limited, spent,
+                                   # unreachable, nobody to ask): the provider's side. An unusable answer is the question's side.
         self.strikes = {}          # model -> consecutive timeouts / dropped connections; MAX_STRIKES in a row rest the model
         self._busy, self._unusable = {}, {}   # model -> consecutive "overloaded" answers / consecutive unusable answers
         self.why = {}              # what went wrong this stage, by kind — written into the run record (no log reading needed)
@@ -500,11 +501,6 @@ class LLM:
         self.waited += wait
         self._why("waited_seconds", int(wait))
 
-    def stuck(self, n=3):
-        """Nobody could be asked, n questions in a row: the models are spent or resting and the waiting is used up. A stage
-        that went on would only run through its queue writing "unanswered"; it stops and leaves the rest for the next night."""
-        return self.nobody_run >= n
-
     def _why(self, kind, n=1):
         self.why[kind] = self.why.get(kind, 0) + n
 
@@ -569,7 +565,6 @@ class LLM:
                         txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong, video_url, video_seconds)
                         out = self.parse_json(txt)
                         self.strikes[model] = self._busy[model] = self._unusable[model] = 0
-                        self.nobody_run = 0
                         return out
                     except SpendingBlocked:
                         self.unanswered += 1
@@ -646,7 +641,8 @@ class LLM:
                 break
         if not tried:
             self._why("no_model_available")
-        self.nobody_run = 0 if tried else self.nobody_run + 1
+        if not bad:   # no model gave any answer at all: what failed is the provider's night, not this question
+            self.unserved += 1
         self.unanswered += 1
         return None
 
@@ -654,6 +650,8 @@ class LLM:
         """Write this LLM's counters into a stage Report (attempts, failed attempts, questions, unanswered questions)."""
         rep.inc("llm_calls", self.calls); rep.inc("llm_failures", self.failures)
         rep.inc("llm_requests", self.requests); rep.inc("llm_unanswered", self.unanswered)
+        if self.unserved:   # of the unanswered: those no model answered at all (the rest got answers nobody could use)
+            rep.inc("llm_unserved", self.unserved)
         if self.why:
             rep.note("model trouble: " + ", ".join(f"{k} {v}" for k, v in sorted(self.why.items(), key=lambda kv: -kv[1])))
         if self.spent:   # which model, which quota, what kind of question: the night of 21 November 2026 could not be read without the log
