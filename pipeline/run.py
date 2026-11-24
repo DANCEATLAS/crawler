@@ -19,6 +19,7 @@
   python -m pipeline.run pictures     # a licensed picture for the profiles that have none: found near the dance on Wikimedia, read before it is kept (pipeline/pictures.py)
   python -m pipeline.run daily        # bootstrap → health → audit → discover → research → qc → hero_qc → build → teaching → pedagogy → footage → pictures → episodes → translate → activation → readiness → door → sync → report
   python -m pipeline.run selftest     # offline checks, no network
+  python -m pipeline.run build,episodes,activation,readiness,door   # several stages in one run, in the order given: it stops at the first that fails
 """
 import sys, os, argparse, json, traceback
 
@@ -27,6 +28,20 @@ def _env_int(k, d):
         return int(os.environ.get(k, d))
     except Exception:
         return d
+
+DAILY = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "teaching", "pedagogy", "footage", "pictures", "episodes", "translate", "activation", "readiness", "door", "sync", "report"]
+
+
+def stages_of(stage):
+    """What one run does. "daily" is the whole night. One name is one stage. Several names with commas are run in the order given, in one run:
+    after a stage was run alone by hand, build,episodes,activation,readiness,door brings the open files up to date in one run instead of five
+    (the workflows share one waiting place: a second waiting run replaces the first, so a chain of runs by hand has to be watched).
+    None when a name is not a stage: nothing at all is run then, so a slip of the hand cannot run half a chain."""
+    if stage == "daily":
+        return list(DAILY)
+    names = [n.strip() for n in (stage or "").split(",") if n.strip()]
+    return names if names and all(n in DAILY or n == "selftest" for n in names) else None
+
 
 def main(argv=None):
     ap = argparse.ArgumentParser()
@@ -40,7 +55,9 @@ def main(argv=None):
     a = ap.parse_args(argv)
     only = [s.strip() for s in a.only.split(",") if s.strip()] or None
     results = {}
-    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "teaching", "pedagogy", "footage", "pictures", "episodes", "translate", "activation", "readiness", "door", "sync", "report"] if a.stage == "daily" else [a.stage]
+    stages = stages_of(a.stage)
+    if stages is None:
+        print("unknown stage", a.stage); return 2
     daily = a.stage == "daily"
     def budget(name, value):
         """In the daily run the budgets follow pipeline_state/tuning.json (health stage): less when the models were failing, never more than set."""
@@ -98,6 +115,8 @@ def main(argv=None):
             traceback.print_exc()
             results[st] = {"error": str(e)}
             if a.stage != "daily":
+                if len(stages) > 1:
+                    print("STOPPED at", st, "- not run:", ", ".join(stages[stages.index(st) + 1:]) or "nothing")
                 return 1
     print("SUMMARY", json.dumps({k: (v.get("counters") if isinstance(v, dict) else v) for k, v in results.items()}, ensure_ascii=False))
     return 1 if any(isinstance(v, dict) and v.get("error") for v in results.values()) else 0
