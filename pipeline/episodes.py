@@ -22,6 +22,7 @@ import os, re, json, glob, hashlib
 from .common import jload, jsave, load_state, save_state, log, warn, Report, LLM, now_iso, PIPELINE_VERSION
 from .research import _said, _said_not, CHECKLIST
 from .qc import QC_DIR
+from .footage import confirmed as footage_confirmed
 
 EPISODE_DIR = "episodes"
 RESEARCH_DIR = "research_results"
@@ -441,11 +442,13 @@ def run(polish_budget=0, only=None):
     gaps_all = {}
     llm = LLM() if polish_budget > 0 else None
     polished = 0
+    fchecks = load_state("footage_checks.json", {}) or {}
     targets = [s for s, v in qidx.items() if v.get("publish_gate") == "publish" and s not in retired and (not only or s in only)]
     for slug in sorted(targets):
         rec = jload(os.path.join(RESEARCH_DIR, slug + ".json"), None)
         if not rec or rec.get("status") != "researched":
             continue
+        rec = dict(rec, footage=footage_confirmed(slug, rec, fchecks))   # a pack cites only clips that were read and show the dance
         qc = jload(os.path.join(QC_DIR, slug + ".json"), {}) or {}
         prev = jload(os.path.join(EPISODE_DIR, slug + ".json"), None)
         selected_patterns = patterns_for(slug, rec.get("family"), patterns)

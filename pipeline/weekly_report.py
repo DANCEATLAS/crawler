@@ -15,8 +15,10 @@ from collections import Counter
 
 try:
     from .research import class_checklist, movie_ready, CHECKLIST, _said, _said_not
+    from .footage import confirmed as footage_confirmed
 except ImportError:  # pragma: no cover
     from research import class_checklist, movie_ready, CHECKLIST, _said, _said_not
+    from footage import confirmed as footage_confirmed
 
 REPO = "DANCEATLAS/crawler"
 FILM_SCORE = 9.5          # judge score a film-grade page must reach (QC runs it under the current judge version)
@@ -156,6 +158,7 @@ def measure(root):
     retired = {r.get("slug") for r in ((_j(P("public", "catalog", "retired.json"), {}) or {}).get("retired") or []) if isinstance(r, dict)}
     ridx = _j(P("pipeline_state", "research_index.json"), {}) or {}
     qidx = _j(P("pipeline_state", "qc_index.json"), {}) or {}
+    fchecks = _j(P("pipeline_state", "footage_checks.json"), {}) or {}
     audit = _j(P("pipeline_state", "audit.json"), {}) or {}
     cands = _j(P("pipeline_state", "candidates.json"), {}) or {}
     notes = _j(P("pipeline_state", "editor_notes.json"), {}) or {}
@@ -212,6 +215,7 @@ def measure(root):
         if s not in live or (qidx.get(s) or {}).get("publish_gate") != "publish":
             continue
         qc = _j(P("qc_results", s + ".json"), {}) or {}
+        rec = dict(rec, footage=footage_confirmed(s, rec, fchecks))   # only clips that were read and show the dance count as reference footage
         ev = eval_record(s, rec, qc, styles.get(s) or {}, approvals, notes, extra)
         m["published"] += 1
         m["published_slugs"].append(s)
