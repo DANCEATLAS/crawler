@@ -213,6 +213,20 @@ class Door(unittest.TestCase):
         self.assertEqual([(x["date"], x["whole"], x["minutes"], x["questions"]) for x in door.nights(running)][-1], ("2026-11-21", True, 160, 164))
         self.assertEqual(door.nights(running[:-1])[-1]["whole"], False)   # research and one more stage tried by hand are not a night
 
+    def test_stages_run_by_hand_near_a_night_are_not_added_to_it(self):
+        # 25 November 2026: a lesson study run by hand five hours after the night's report made the page say that the night
+        # of 24 November had worked 503 minutes and asked 391 questions. It had worked 161 minutes and asked 335.
+        rec = lambda stage, a, b, q=0: {"stage": stage, "started": a + ":00Z", "finished": b + ":00Z", "counters": {"llm_requests": q}, "notes": [], "errors": []}
+        night = [rec("health", "2026-11-24T20:13", "2026-11-24T20:13"), rec("research", "2026-11-24T20:16", "2026-11-24T22:06", 63),
+                 rec("teaching", "2026-11-24T22:13", "2026-11-24T22:21", 35), rec("pedagogy", "2026-11-24T22:21", "2026-11-24T22:48", 90),
+                 rec("report", "2026-11-24T22:56", "2026-11-24T22:56")]
+        by_hand_after = [rec("pedagogy", "2026-11-25T04:00", "2026-11-25T04:08", 24), rec("episodes", "2026-11-25T04:08", "2026-11-25T04:08", 4)]
+        by_hand_before = [rec("pictures", "2026-11-24T18:30", "2026-11-24T18:50", 40)]
+        n = door.nights(by_hand_before + night + by_hand_after)
+        self.assertEqual([(x["whole"], x["minutes"], x["questions"]) for x in n], [(False, 20, 40), (True, 163, 188), (False, 8, 28)])
+        m = door.nights(night[:4])                                     # the door is built before the report: the night is still one run
+        self.assertEqual([(x["whole"], x["minutes"], x["questions"]) for x in m], [(True, 155, 188)])
+
     def test_the_machine_page_shows_the_last_whole_night_and_the_pace(self):
         door.run(self.root, DAY1)
         m = read(self.root, "machine.json")
