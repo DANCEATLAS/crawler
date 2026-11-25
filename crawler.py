@@ -62,6 +62,14 @@ class Keys:
         return s.ks[s.i]
     def rot(s): s.dead.add(s.i); s.i=(s.i+1)%len(s.ks)
 
+KEY_SPENT={"quotaExceeded","dailyLimitExceeded","rateLimitExceeded","userRateLimitExceeded"}   # the refusals that are about the key
+def refusal(e):
+    """Why the video service refused: the first reason in the error it sent back, or "" when it cannot be read."""
+    try:
+        err=(json.loads(e.read().decode("utf-8","replace")) or {}).get("error") or {}
+        return str(((err.get("errors") or [{}])[0] or {}).get("reason") or err.get("status") or "")
+    except Exception: return ""
+
 def api(path,params,keys):
     tries=0
     while True:
@@ -72,7 +80,13 @@ def api(path,params,keys):
         try:
             with urllib.request.urlopen(url,timeout=30) as r: return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
-            if e.code in (403,429): keys.rot(); continue
+            if e.code in (403,429):
+                # A video whose comments are turned off answers 403 too. That is an answer about the video, not about the key.
+                # Read as a spent key it retired every key in turn on one video, and the rest of the run had none
+                # (the crawl of 24 November 2026: the lesson search ended after two dances, the viral search found nothing).
+                why=refusal(e)
+                if path=="commentThreads" and why not in KEY_SPENT: raise LookupError("comments not to be read: "+(why or "no reason given"))
+                keys.rot(); continue
             if e.code>=500 and tries<3: tries+=1; time.sleep(2*tries); continue
             raise
         except Exception:
@@ -192,7 +206,8 @@ def lesson_eval(dance,keys):
     cands.sort(key=lambda c:-((c["ncom"]*5+c["likes"])*(1.2 if c.get("hd") else 1.0)))
     lessons=[]
     for c in cands[:6]:
-        cs=comments(c["id"],keys,100); low=" \n ".join(cs).lower()
+        cs=comments(c["id"],keys,100) if c["ncom"]>0 else []   # nothing to read: the question is not asked (rule 2 lets a lesson in by its title, with or without comments)
+        low=" \n ".join(cs).lower()
         if sum(low.count(s) for s in TUT_HARD)>=2: continue
         pos=sum(low.count(s) for s in TUT_POS); neg=sum(low.count(s) for s in TUT_NEG)
         ratio=pos/(neg+1.0)
