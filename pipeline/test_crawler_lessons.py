@@ -1,9 +1,12 @@
 """Offline checks for the lesson search of 24 November 2026 (crawler.py, rule 2): a video whose own title names the dance
 and a lesson is a candidate even when few people watched it, and the dances that found nothing under the older rule are
 looked for once more, a bounded number a day, those nearest the starting line first."""
+import io
+import json
 import os
 import sys
 import unittest
+import urllib.error
 from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -31,6 +34,15 @@ class LessonRuleTests(unittest.TestCase):
         out = self.find([video("a", "Odzemek dance tutorial - basic steps")])
         self.assertEqual([(l["youtube_id"], l["lesson_status"], l["ratio"]) for l in out], [("a", "candidate", 0.25)])
 
+    def test_comments_are_not_asked_for_when_the_video_has_none(self):
+        asked = []
+        items = [video("a", "Odzemek dance tutorial - basic steps"), video("b", "Odzemek dance tutorial for beginners", comments=7)]
+        with patch.object(crawler, "search_ids", return_value=["a", "b"]), patch.object(crawler, "_ytdlp_search", return_value=[]), \
+                patch.object(crawler, "videos", return_value=items), patch.object(crawler, "comments", side_effect=lambda vid, keys, n=100: asked.append(vid) or []):
+            out = crawler.lesson_eval(self.DANCE, None)
+        self.assertEqual(asked, ["b"])                                                     # "a" has no comments, or has them turned off
+        self.assertEqual(sorted(l["youtube_id"] for l in out), ["a", "b"])                 # and is a candidate all the same
+
     def test_the_title_has_to_name_both_the_dance_and_a_lesson(self):
         self.assertEqual(self.find([video("a", "Folk dance tutorial", description="We learn the Odzemek today")]), [])      # the dance only in the description
         self.assertEqual(self.find([video("b", "Odzemek at the festival in Detva")]), [])                                    # no lesson in the title
@@ -52,6 +64,50 @@ class LessonRuleTests(unittest.TestCase):
 
     def test_viewers_who_say_it_is_wrong_keep_a_small_candidate_out(self):
         self.assertEqual(self.find([video("a", "Odzemek tutorial", comments=3)], {"a": ["this is wrong", "confusing and too fast"]}), [])
+
+
+class VideoServiceTests(unittest.TestCase):
+    """The crawl of 24 November 2026: a video with its comments turned off answers 403; read as a spent key, it retired every
+    key in turn on that one video, the lesson search ended after two dances and the viral search found nothing."""
+
+    @staticmethod
+    def refused(reason, code=403):
+        body = json.dumps({"error": {"code": code, "errors": [{"reason": reason}]}}).encode() if reason is not None else b"not json"
+        return urllib.error.HTTPError("https://video.invalid/", code, "refused", None, io.BytesIO(body))
+
+    def service(self, answers):
+        """answers: key -> a reason for refusing, or a dict to answer with."""
+        asked = []
+        def urlopen(url, timeout=30):
+            key = url.split("key=")[1].split("&")[0]; asked.append(key); a = answers[key]
+            if isinstance(a, dict): return io.BytesIO(json.dumps(a).encode())
+            raise self.refused(a)
+        return patch.object(crawler.urllib.request, "urlopen", side_effect=urlopen), asked
+
+    def test_comments_turned_off_is_an_answer_about_the_video_and_no_key_is_retired(self):
+        for reason in ("commentsDisabled", "forbidden", None):                             # None: a refusal that cannot be read
+            keys = crawler.Keys(["k1", "k2"]); net, asked = self.service({"k1": reason, "k2": reason})
+            with net:
+                with self.assertRaises(LookupError):
+                    crawler.api("commentThreads", {"videoId": "x"}, keys)
+                self.assertEqual(crawler.comments("x", keys), [])
+            self.assertEqual((asked, keys.dead, keys.cur()), (["k1", "k1"], set(), "k1"), reason)
+
+    def test_a_spent_key_is_retired_and_the_next_one_is_asked(self):
+        keys = crawler.Keys(["k1", "k2"]); net, asked = self.service({"k1": "quotaExceeded", "k2": {"items": [{"id": "v"}]}})
+        with net:
+            self.assertEqual(crawler.videos(["v"], keys), [{"id": "v"}])
+            self.assertEqual(crawler.api("commentThreads", {"videoId": "v"}, keys), {"items": [{"id": "v"}]})
+        self.assertEqual((asked, keys.dead, keys.cur()), (["k1", "k2", "k2"], {0}, "k2"))
+
+    def test_when_every_key_is_spent_the_run_is_told_so(self):
+        keys = crawler.Keys(["k1", "k2"]); net, asked = self.service({"k1": "quotaExceeded", "k2": "dailyLimitExceeded"})
+        with net, self.assertRaises(RuntimeError):
+            crawler.videos(["v"], keys)
+        self.assertEqual((asked, keys.cur()), (["k1", "k2"], None))
+        keys = crawler.Keys(["k1"]); net, asked = self.service({"k1": "quotaExceeded"})   # a spent key is a spent key on the comments question too
+        with net, self.assertRaises(RuntimeError):
+            crawler.api("commentThreads", {"videoId": "x"}, keys)
 
 
 class LookedForAgainTests(TemporaryProject):
