@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-25T04:36:57Z",
+ "generated_at": "2026-11-25T04:53:13Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -43,7 +43,7 @@
    "file": "machine.json",
    "contract": "da_machine_v1",
    "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
-   "bytes": 15055
+   "bytes": 14973
   },
   {
    "file": "site.json",
@@ -133,7 +133,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 28825990,
+  "bytes_behind_this_door": 28825908,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },
