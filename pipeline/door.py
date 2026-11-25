@@ -277,13 +277,19 @@ def _time(s):
 
 
 def nights(runs, gap_hours=6):
-    """The stage records of pipeline_state/runs.json, joined into runs: a new one starts after a pause of `gap_hours`."""
+    """The stage records of pipeline_state/runs.json, joined into runs: a new one starts after a pause of `gap_hours`,
+    after a night's report, and at a night's health check."""
     out, last = [], None
     for r in runs or []:
         t = _time(r.get("started")) if isinstance(r, dict) else None
         if t is None:
             continue
-        if not out or (t - last).total_seconds() > gap_hours * 3600:
+        # A run begins after a pause. It also begins where a night's own order says so, pause or no pause: a night ends with
+        # its report and begins with its health check. Without this, stages run by hand in the hours after a night were added
+        # to that night (25 November 2026: the page said the night of 24 November had worked 503 minutes and asked 391
+        # questions; it had worked 161 minutes and asked 335).
+        if (not out or (t - last).total_seconds() > gap_hours * 3600 or "report" in out[-1]["stages"]
+                or (r.get("stage") == "health" and out[-1]["stages"])):
             out.append({"date": r["started"][:10], "started": r["started"], "stages": [], "errors": [], "questions": 0, "unanswered": 0, "trouble": []})
         n = out[-1]
         n["finished"] = r.get("finished") or r["started"]
