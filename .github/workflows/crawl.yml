@@ -48,10 +48,6 @@ jobs:
           git commit -m "crawler results" || echo "nothing to commit"
           git pull --rebase origin main
           git push
-      - name: Score virals (windows all/year/month)
-        if: always()
-        continue-on-error: true
-        run: python score_virals.py
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      # The step "Score virals" (score_virals.py) was taken out on 25 November 2026. It failed every day since at least 31 October
+      # (the mirror answers 400 to its first question), nothing reads what it wrote (the site takes the viral list from
+      # public/catalog/), and its red mark sat on every crawl. The script stays in the repository.
