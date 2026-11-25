@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the african-diaspora family studied · videos studied: 17
+Source: 18 tutorial(s) of the african-diaspora family studied · videos studied: 18
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; bend your knees; one and two and; put all your weight on your right leg; and out and out and in and in; double double
+Cues: bend your knees; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in; double double
 
 Sources (4): https://en.wikipedia.org/wiki/Calinda; https://www.wikidata.org/wiki/Q2741465; https://es.wikipedia.org/wiki/Kalenda; https://fr.wikipedia.org/wiki/Calinda

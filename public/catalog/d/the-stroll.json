@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "the-stroll",
  "name": "The Stroll",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -347,16 +347,11 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   }
-  ],
   "via": {
-   "signature_moves": "performance",
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
    "study_video": "lesson"
   }
  },
@@ -473,6 +468,121 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "eX3Wec91ARk",
+   "url": "https://www.youtube.com/watch?v=eX3Wec91ARk",
+   "title": "How To Do The Stroll",
+   "channel": "What's On In Surrey TV",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:03",
+     "seconds": 3,
+     "segment": "intro",
+     "note": "Instructors introduce the stroll dance from the 1940s"
+    },
+    {
+     "t": "0:23",
+     "seconds": 23,
+     "segment": "full_demo",
+     "note": "Demonstration of the dance routine with music"
+    },
+    {
+     "t": "1:20",
+     "seconds": 80,
+     "segment": "breakdown",
+     "note": "Detailed step-by-step breakdown of the first movement"
+    },
+    {
+     "t": "3:39",
+     "seconds": 219,
+     "segment": "breakdown",
+     "note": "Breakdown of the scuff and turn movement"
+    },
+    {
+     "t": "6:31",
+     "seconds": 391,
+     "segment": "recap",
+     "note": "Closing remarks and sign-off"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Side tap left and right",
+     "counts": "5-6-7-8",
+     "description": "Step side to left then right with taps"
+    },
+    {
+     "name": "Back step taps",
+     "counts": "1-2-3-4",
+     "description": "Step backward alternating feet with taps"
+    },
+    {
+     "name": "Scuff turn",
+     "counts": "1-2-3-4",
+     "description": "Scuff right heel on floor and turn left"
+    }
+   ],
+   "cues": [
+    "Left right left tap",
+    "Right left right tap",
+    "Back tap back tap",
+    "Scuff and turn"
+   ],
+   "images": [
+    "Cowboy step"
+   ],
+   "common_mistakes": [
+    "Putting weight down on the tap foot"
+   ],
+   "teacher_style": "The instructor patiently demonstrates vintage line dance steps while wearing period-appropriate military uniform. He breaks down movements step by step and encourages repetition to build confidence.",
+   "distinctive_method": "Teaching in period military dress with synchronized partner demonstration from behind",
+   "what_works": [
+    "Clear counting",
+    "Repetition of sequences",
+    "Breaking movements into smaller parts"
+   ],
+   "what_hinders": [
+    "Instructors face forward away from camera during practice"
+   ],
+   "evidence": [
+    {
+     "start_s": 23,
+     "end_s": 35,
+     "topic": "movement",
+     "observation": "Instructors standing side by side beginning a dance routine to music",
+     "viewpoint": "front view, unmirrored",
+     "cannot_infer": "exact foot weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 120,
+     "end_s": 130,
+     "topic": "teaching",
+     "observation": "Instructor demonstrating side steps with verbal count",
+     "viewpoint": "back view, unmirrored",
+     "cannot_infer": "hidden footwork details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 395,
+     "end_s": 405,
+     "topic": "movement",
+     "observation": "Instructor demonstrating scuff turn movement",
+     "viewpoint": "back view, unmirrored",
+     "cannot_infer": "exact heel contact pressure",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -547,6 +657,6 @@
   "polished": false,
   "file": "episodes/the-stroll.json"
  },
- "fingerprint": "a94714fc0879045a",
+ "fingerprint": "1b272e85f266846d",
  "updated": "2026-11-25"
 }

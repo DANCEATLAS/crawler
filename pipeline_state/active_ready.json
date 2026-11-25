@@ -22,13 +22,13 @@
   "listed": 1345,
   "researched": 739,
   "published": 607,
-  "active_ready": 36,
+  "active_ready": 38,
   "one_short": 61,
-  "two_short": 55,
+  "two_short": 53,
   "three_to_five_short": 144,
   "story_ready_teaching_withheld": 62,
-  "lessons_studied": 303,
-  "performances_observed": 282
+  "lessons_studied": 312,
+  "performances_observed": 294
  },
  "profiles": {
   "abbots-bromley-horn-dance": {
@@ -721,9 +721,9 @@
    "via": {
     "posture": "performance",
     "signature_moves": "performance",
-    "rhythm": "performance",
+    "rhythm": "lesson",
     "sound": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -1539,9 +1539,9 @@
     "posture": "performance",
     "arms": "performance",
     "signature_moves": "performance",
-    "rhythm": "performance",
+    "rhythm": "lesson",
     "sound": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -2700,7 +2700,7 @@
     "signature_moves": "performance",
     "rhythm": "performance",
     "sound": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -3768,15 +3768,15 @@
    "ritual_context": true
   },
   "gay-gordons": {
-   "have": 13,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "mistakes"
+    "footwork_counts"
    ],
    "via": {
     "posture": "performance",
-    "study_video": "performance"
+    "mistakes": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -4184,17 +4184,16 @@
    "ritual_context": true
   },
   "hand-jive": {
-   "have": 13,
+   "have": 15,
    "of": 15,
-   "missing": [
-    "footwork_counts",
-    "mistakes"
-   ],
+   "missing": [],
    "via": {
-    "signature_moves": "performance",
-    "study_video": "performance"
+    "footwork_counts": "lesson",
+    "signature_moves": "lesson",
+    "mistakes": "lesson",
+    "study_video": "lesson"
    },
-   "state": "building"
+   "state": "active_ready"
   },
   "harlem-shake": {
    "have": 13,
@@ -9281,16 +9280,15 @@
    "state": "building"
   },
   "the-stroll": {
-   "have": 14,
+   "have": 15,
    "of": 15,
-   "missing": [
-    "footwork_counts"
-   ],
+   "missing": [],
    "via": {
-    "signature_moves": "performance",
+    "footwork_counts": "lesson",
+    "signature_moves": "lesson",
     "study_video": "lesson"
    },
-   "state": "building"
+   "state": "active_ready"
   },
   "theeyaattam": {
    "have": 5,

@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Shift weight from left to right leg in time with the 4/4 beat.
 NARRATION: Engage hips in a rhythmic, circular or side-to-side motion.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: 16th-note bass cadence, cavacha percussion rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,7 +123,7 @@ NARRATION: Drill: Step side to side on the beat.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain a slight knee bend to facilitate fluid movement.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Incorporate freestyle arm movements that mirror the guitar's 
 NARRATION: Drill: Add a slight hip sway to the weight shift.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,13 +143,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid posture; the dance requires fluidity and continuous motion.
+NARRATION: Teachers of this dance warn against: upper body moving instead of staying still
+NARRATION: Teachers of this dance warn against: not jiggling the butt/hips correctly
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip sways and arm movements while seated. · For children: Follow-the-leader dance game.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip sways and arm movements while seated. · For children: Follow-the-leader dance game. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -180,7 +182,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: 16th-note bass cadence, cavacha percussion rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -195,7 +197,7 @@ NARRATION: Drill: Isolate hip movement while keeping feet steady.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain a slight knee bend to facilitate fluid movement.
@@ -205,7 +207,7 @@ NARRATION: Drill: Practice the weight shift at a faster tempo.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -217,13 +219,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid posture; the dance requires fluidity and continuous motion.
+NARRATION: Teachers of this dance warn against: upper body moving instead of staying still
+NARRATION: Teachers of this dance warn against: not jiggling the butt/hips correctly
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip sways and arm movements while seated. · For children: Follow-the-leader dance game.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip sways and arm movements while seated. · For children: Follow-the-leader dance game. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Freestyle; dancers often occupy space in clubs or dance halls.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -254,7 +258,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: 16th-note bass cadence, cavacha percussion rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -268,14 +272,14 @@ NARRATION: Step 2: Incorporate freestyle arm movements that mirror the guitar's 
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Hip Shaking: Rapid, rhythmic movement of the hips synchronized with the percussion.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -287,13 +291,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid posture; the dance requires fluidity and continuous motion.
+NARRATION: Teachers of this dance warn against: upper body moving instead of staying still
+NARRATION: Teachers of this dance warn against: not jiggling the butt/hips correctly
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip sways and arm movements while seated. · For children: Follow-the-leader dance game.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip sways and arm movements while seated. · For children: Follow-the-leader dance game. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Freestyle; dancers often occupy space in clubs or dance halls.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -332,9 +338,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front; tempo progression: full
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full
+Cues: stand with feet apart; bend your knees; keep your upper body still
+Common mistakes the studied teachers name: upper body moving instead of staying still; not jiggling the butt/hips correctly
 
 Sources (7): https://en.wikipedia.org/wiki/Soukous; https://www.wikidata.org/wiki/Q1752683; https://fr.wikipedia.org/wiki/Soukous; https://es.wikipedia.org/wiki/Soukous; https://de.wikipedia.org/wiki/Soukous; https://it.wikipedia.org/wiki/Rumba_africana; https://archive.org/details/breakoutprofiles00stew

@@ -416,6 +416,101 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "yzMREFY9XNQ",
+   "url": "https://www.youtube.com/watch?v=yzMREFY9XNQ",
+   "title": "Baroque Dancing Lesson 3 - Temps de Courante",
+   "channel": "Lesley Strachan",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4 and 1-2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Welcomes viewers and introduces lesson 3 on the temps de courante step"
+    },
+    {
+     "t": "0:11",
+     "seconds": 11,
+     "segment": "breakdown",
+     "note": "Breaks down mechanics holding onto a cupboard for balance"
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "full_demo",
+     "note": "Demonstrates the step slowly counting out loud from the front"
+    },
+    {
+     "t": "1:21",
+     "seconds": 81,
+     "segment": "other",
+     "note": "Demonstrates the exercise from the back view"
+    },
+    {
+     "t": "1:47",
+     "seconds": 107,
+     "segment": "other",
+     "note": "Explains why she calls it the carrot step and concludes"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Temps de Courante",
+     "counts": "1-2-3-4 and 1-2-3-4",
+     "description": "Rising to demi-plie/demi-point, sliding and straightening legs into first position"
+    }
+   ],
+   "cues": [
+    "Rise onto the ball of the foot",
+    "Straighten both legs",
+    "Slide the right foot along",
+    "Come down into first position"
+   ],
+   "images": [
+    "Pulling the carrot out of the floor"
+   ],
+   "common_mistakes": [
+    "Bending legs when up on the demi point"
+   ],
+   "teacher_style": "Lesley Strachan provides clear verbal explanations combined with slow full-body demonstrations, often using imagery to aid understanding. She guides students through both front-facing and back-facing demonstrations to ensure all angles of the step are visible.",
+   "distinctive_method": "Labeling the step 'the carrot step' to create a mental image of pulling something up from the floor.",
+   "what_works": [
+    "Showing the exercise from both front and back views",
+    "Breaking down counts slowly with verbal prompts"
+   ],
+   "what_hinders": [
+    "Dancing in a restricted domestic space without background contrast"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Teacher speaks to camera introducing the lesson topic.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 18,
+     "end_s": 33,
+     "topic": "movement",
+     "observation": "Teacher holds a piece of furniture for balance while demonstrating demi-plié and rising on the ball of the foot.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution on the floor",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -473,6 +568,6 @@
   "polished": false,
   "file": "episodes/courante.json"
  },
- "fingerprint": "8292e5dabfa30425",
+ "fingerprint": "524395e7f168c788",
  "updated": "2026-11-25"
 }

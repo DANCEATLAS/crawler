@@ -9,7 +9,7 @@ Evaluated 2026-11-25. No model calls; existing budgets unchanged.
 | Work stream | Profiles with gaps |
 |---|---:|
 | research | 1525 |
-| video | 1485 |
+| video | 1483 |
 | rights | 1528 |
 | review | 1528 |
 | platform | 1528 |

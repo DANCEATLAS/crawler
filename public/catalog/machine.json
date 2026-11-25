@@ -1,14 +1,14 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-25T04:08:48Z",
+ "generated_at": "2026-11-25T04:36:57Z",
  "last_night": {
   "date": "2026-11-24",
   "started": "2026-11-24T20:13:43Z",
-  "finished": "2026-11-25T04:08:47Z",
-  "minutes": 475,
-  "questions": 363,
+  "finished": "2026-11-25T04:36:56Z",
+  "minutes": 503,
+  "questions": 391,
   "unanswered": 4,
-  "stages": 17,
+  "stages": 19,
   "errors": [],
   "trouble": [
    "research: model trouble: waited_seconds 447, overloaded 42, day_quota_used_up 5, timeout_or_network 2, unusable_answer 2, model_gone 2",
@@ -228,8 +228,8 @@
   },
   {
    "date": "2026-11-24",
-   "minutes": 475,
-   "questions": 363,
+   "minutes": 503,
+   "questions": 391,
    "unanswered": 4,
    "errors": 0
   }
@@ -238,13 +238,13 @@
   "listed": 1345,
   "researched": 739,
   "published": 607,
-  "active_ready": 36,
+  "active_ready": 38,
   "one_short": 61,
-  "two_short": 55,
+  "two_short": 53,
   "three_to_five_short": 144,
   "story_ready_teaching_withheld": 62,
-  "lessons_studied": 303,
-  "performances_observed": 282
+  "lessons_studied": 312,
+  "performances_observed": 294
  },
  "line": [
   {
@@ -324,9 +324,9 @@
    "listed": 1345,
    "researched": 739,
    "published": 607,
-   "active_ready": 36,
-   "lessons_studied": 303,
-   "performances_observed": 282
+   "active_ready": 38,
+   "lessons_studied": 312,
+   "performances_observed": 294
   }
  ],
  "pace": {
@@ -334,14 +334,14 @@
   "per_night": {
    "listed": 21.1,
    "published": 27.6,
-   "active_ready": 3.4
+   "active_ready": 3.7
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 355
+   "profiles": 353
   },
   {
    "key": "study_video",
@@ -351,7 +351,7 @@
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 214
+   "profiles": 212
   },
   {
    "key": "hero_video",
@@ -661,6 +661,16 @@
    ]
   },
   {
+   "slug": "gay-gordons",
+   "name": "Gay Gordons",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
    "slug": "geommu",
    "name": "Geommu",
    "needs": [
@@ -799,16 +809,6 @@
    "need_keys": [
     "footwork_counts"
    ]
-  },
-  {
-   "slug": "pas-de-deux",
-   "name": "pas de deux",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
   }
  ],
  "owner": {
@@ -837,5 +837,23 @@
   "findings_checked": 225,
   "practices": 37,
   "practices_in_dna": 29
+ },
+ "last_crawl": {
+  "at": "2026-11-25T04:32:00Z",
+  "hero": {
+   "to_try": 0,
+   "tried": 0,
+   "found": 0
+  },
+  "lessons": {
+   "due": 319,
+   "looked_at": 100,
+   "found": 12,
+   "second_looks": 100
+  },
+  "viral": {
+   "found": 0
+  },
+  "stops": []
  }
 }

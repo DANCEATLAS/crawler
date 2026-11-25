@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form two lines facing each other (men on one side, women on the other)
 NARRATION: Step-touch or sway in place to the slow beat
-NARRATION: Count it: side-tap-tap-tap-side-cross.
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -109,7 +109,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: side-tap-tap-tap-side-cross. The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Slow, steady backbeat with a heavy emphasis on beats 2 and 4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -121,10 +121,10 @@ NARRATION: Step 1: Form two lines facing each other (men on one side, women on t
 NARRATION: Step 2: Step-touch or sway in place to the slow beat
 NARRATION: Footwork from the sources: In the lines: side-to-side step-touches. In the center: stylized walking, often with a 'drag' or 'slide' feel.
 NARRATION: Drill: Step-touch to the left on counts 1-2
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: side-tap-tap-tap-side-cross · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: The lead couple meets in the center at the top of the line
@@ -132,7 +132,7 @@ NARRATION: Step 4: The couple travels down the center aisle with stylized walkin
 NARRATION: Drill: Step-touch to the right on counts 3-4
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: side-tap-tap-tap-side-cross · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,13 +145,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rushing the tempo; the dance relies on the 'slow' feel of the rock 'n' roll beat.
+NARRATION: Teachers of this dance warn against: putting weight down on the tap foot
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the step-touch rhythm with feet while seated; use arms to mimic the promenade motion. · For children: A 'follow the leader' style where the center couple chooses a funny walk that everyone must copy.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the step-touch rhythm with feet while seated; use arms to mimic the promenade motion. · For children: A 'follow the leader' style where the center couple chooses a funny walk that everyone must copy. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: side-tap-tap-tap-side-cross.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 90 bpm
@@ -182,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: side-tap-tap-tap-side-cross. The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Slow, steady backbeat with a heavy emphasis on beats 2 and 4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,10 +193,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: The couple splits at the end of the line to rejoin their respective sides
 NARRATION: Drill: Top couple meets in the middle on count 1
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: side-tap-tap-tap-side-cross · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Promenade: Walking down the center aisle with stylized, rhythmic steps while the group watches.
@@ -203,7 +204,7 @@ NARRATION: Drill: Join inside hands
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: side-tap-tap-tap-side-cross · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,13 +217,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rushing the tempo; the dance relies on the 'slow' feel of the rock 'n' roll beat.
+NARRATION: Teachers of this dance warn against: putting weight down on the tap foot
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the step-touch rhythm with feet while seated; use arms to mimic the promenade motion. · For children: A 'follow the leader' style where the center couple chooses a funny walk that everyone must copy.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the step-touch rhythm with feet while seated; use arms to mimic the promenade motion. · For children: A 'follow the leader' style where the center couple chooses a funny walk that everyone must copy. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: side-tap-tap-tap-side-cross.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two parallel lines creating a central corridor or 'aisle'.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 90 bpm
@@ -253,7 +255,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: side-tap-tap-tap-side-cross. The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Slow, steady backbeat with a heavy emphasis on beats 2 and 4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -264,10 +266,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The couple travels down the center aisle with stylized walking or 'elaborate' steps
 NARRATION: Step 2: The couple splits at the end of the line to rejoin their respective sides
 NARRATION: Drill: Add a 'drag' to the trailing foot during the walk
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: side-tap-tap-tap-side-cross · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Promenade: Walking down the center aisle with stylized, rhythmic steps while the group watches.
@@ -275,7 +277,7 @@ NARRATION: Drill: Incorporate a shoulder shimmy
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: side-tap-tap-tap-side-cross · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,13 +290,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rushing the tempo; the dance relies on the 'slow' feel of the rock 'n' roll beat.
+NARRATION: Teachers of this dance warn against: putting weight down on the tap foot
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the step-touch rhythm with feet while seated; use arms to mimic the promenade motion. · For children: A 'follow the leader' style where the center couple chooses a funny walk that everyone must copy.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the step-touch rhythm with feet while seated; use arms to mimic the promenade motion. · For children: A 'follow the leader' style where the center couple chooses a funny walk that everyone must copy. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: side-tap-tap-tap-side-cross.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two parallel lines creating a central corridor or 'aisle'.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 90 bpm
@@ -333,9 +336,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: side-tap-tap-tap-side-cross
-Demonstration: views used by most teachers: front, back; tempo progression: slow
-Cues: side tap tap tap side cross
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 3
+Cues: left right left tap; right left right tap; back tap back tap; scuff and turn; side tap tap tap side cross
+Common mistakes the studied teachers name: putting weight down on the tap foot
 
 Sources (2): https://en.wikipedia.org/wiki/The_Stroll; https://www.wikidata.org/wiki/Q7767048

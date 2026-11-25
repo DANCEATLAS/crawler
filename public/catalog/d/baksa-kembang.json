@@ -422,11 +422,69 @@
   "via": {
    "posture": "performance",
    "signature_moves": "performance",
-   "rhythm": "performance",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "TeRCTMtuVUI",
+   "url": "https://www.youtube.com/watch?v=TeRCTMtuVUI",
+   "title": "Belajar Cara Memperagakan Gerakan Tari Baksa Kembang",
+   "channel": "Nafisa putri Amanda",
+   "analysed_on": "2026-11-25",
+   "level": "mixed",
+   "language": "Indonesian",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "intro",
+     "note": "Title and group members introduction screen"
+    },
+    {
+     "t": "0:15",
+     "seconds": 15,
+     "segment": "full_demo",
+     "note": "Demonstration of Baksa Kembang dance movement with group"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Baksa Kembang basic movement",
+     "counts": "5-6-7-8",
+     "description": "Traditional arm and body movements performed in sync with the group"
+    }
+   ],
+   "teacher_style": "The teacher demonstrates the traditional dance steps outdoors with a group of learners. She leads the group in practice sessions to music without verbal instruction.",
+   "distinctive_method": "Group rehearsal format without spoken instructions or count-ins.",
+   "what_works": [
+    "Group demonstration allows learners to follow along visually"
+   ],
+   "what_hinders": [
+    "No verbal breakdown or explanation of steps",
+    "No counts or music cues spoken aloud"
+   ],
+   "evidence": [
+    {
+     "start_s": 15,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "Group of dancers performing arm gestures and footwork together outdoors.",
+     "viewpoint": "front",
+     "cannot_infer": "exact foot placement due to distance and lighting",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "ybK43LXtAwE",
@@ -493,6 +551,6 @@
   "polished": false,
   "file": "episodes/baksa-kembang.json"
  },
- "fingerprint": "67cc962ec7684b83",
- "updated": "2026-11-21"
+ "fingerprint": "97081ba73243539c",
+ "updated": "2026-11-25"
 }

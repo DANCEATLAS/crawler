@@ -310,11 +310,91 @@
    "posture": "performance",
    "arms": "performance",
    "signature_moves": "performance",
-   "rhythm": "performance",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "FZcPouSGhOU",
+   "url": "https://www.youtube.com/watch?v=FZcPouSGhOU",
+   "title": "LEARNING HOW TO DANCE BWOLA (Acoli royal dance)",
+   "channel": "Acoli Xtinct Culture TV",
+   "analysed_on": "2026-11-25",
+   "level": "mixed",
+   "language": "Acoli",
+   "counting_scheme": "other",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Group forms line and begins singing and dancing outdoors"
+    },
+    {
+     "t": "0:52",
+     "seconds": 52,
+     "segment": "follow_along",
+     "note": "Group bends down and steps in unison with drums"
+    },
+    {
+     "t": "2:30",
+     "seconds": 150,
+     "segment": "follow_along",
+     "note": "Larger group forms circle around drummers"
+    },
+    {
+     "t": "4:00",
+     "seconds": 240,
+     "segment": "music_practice",
+     "note": "Young drummers and dancers practice together"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Bwola basic step",
+     "counts": "other",
+     "description": "Rhythmic stepping and body lowering to drum beat"
+    }
+   ],
+   "teacher_style": "The instructor leads community members in traditional Bwola dance practice outdoors. The teaching style is participatory and communal, with group singing and drumming accompanying the steps.",
+   "distinctive_method": "Traditional community-based learning through collective dancing and singing rather than verbal instruction.",
+   "what_works": [
+    "Call and response singing helps maintain rhythm",
+    "Large group setting allows learners to follow peers"
+   ],
+   "what_hinders": [
+    "No verbal breakdown or counting provided",
+    "Camera movement and angles vary"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "Dancers moving in a line with rattles and small drums",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact foot placement",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 52,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "Dancers lowering upper bodies while keeping rhythm with feet",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "2FYXw2I726M",
@@ -370,6 +450,6 @@
   "polished": false,
   "file": "episodes/bwola.json"
  },
- "fingerprint": "208aa785cf8b7c84",
- "updated": "2026-11-21"
+ "fingerprint": "e0820b247607e4fa",
+ "updated": "2026-11-25"
 }

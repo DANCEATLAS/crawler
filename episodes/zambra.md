@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 76 tutorial(s) of the folk-circle family studied · videos studied: 76
+Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (6): https://en.wikipedia.org/wiki/Zambra_(dance); https://www.wikidata.org/wiki/Q2572946; https://es.wikipedia.org/wiki/Zambra_(palo_flamenco); https://fr.wikipedia.org/wiki/Zambra; https://pt.wikipedia.org/wiki/Zambra; https://archive.org/details/friendshipsoffer00unse_2

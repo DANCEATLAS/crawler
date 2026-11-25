@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 76 tutorial(s) of the folk-circle family studied · videos studied: 76
+Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (6): https://en.wikipedia.org/wiki/Azerbaijani_dances; https://www.wikidata.org/wiki/Q724234; https://es.wikipedia.org/wiki/Bailes_nacionales_de_Azerbaiyán; https://fr.wikipedia.org/wiki/Danses_azerbaïdjanaises; https://de.wikipedia.org/wiki/Aserbaidschanische_Volkstänze; https://it.wikipedia.org/wiki/Balli_tipici_dell'Azerbaigian

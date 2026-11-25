@@ -91,7 +91,7 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Initially hold shoulders, transitioning to holding hands.
+NARRATION: Initially hold shoulders, then transition to holding hands.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -106,7 +106,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Balance in a half-circle formation while holding shoulders.
 NARRATION: Step 2: Transition to holding hands as the tempo increases.
-NARRATION: Drill: Formation practice.
+NARRATION: Drill: formation practice.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -123,7 +123,7 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Basic balancing rhythm.
+NARRATION: Drill: basic balancing rhythm.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -153,14 +153,14 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Transition to hand-holding and increase tempo. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Transition to hand-holding and increase tempo.
-NARRATION: Level: Intermediate. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A local Macedonian dance expert from the Veles region.
+NARRATION: Chapter 2. Building the dance. Today: transition to hand-holding and increase tempo.
+NARRATION: Level: intermediate. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: a local Macedonian dance expert from the Veles region.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Initially hold shoulders, transitioning to holding hands.
+NARRATION: Initially hold shoulders, then transition to holding hands.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -175,7 +175,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Balance in a half-circle formation while holding shoulders.
 NARRATION: Step 2: Transition to holding hands as the tempo increases.
-NARRATION: Drill: Hand-hold transition.
+NARRATION: Drill: hand-hold transition.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -195,7 +195,7 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Basic jump technique.
+NARRATION: Drill: basic jump technique.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -231,7 +231,7 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Initially hold shoulders, transitioning to holding hands.
+NARRATION: Initially hold shoulders, then transition to holding hands.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -253,9 +253,9 @@ MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Kneeling: Lower to the ground during the faster phase.
-NARRATION: Turning: Rotation performed during the faster phase.
-NARRATION: Drill: Turning technique.
+NARRATION: Kneeling: lower to the ground during the faster phase.
+NARRATION: Turning: rotation performed during the faster phase.
+NARRATION: Drill: turning technique.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -265,7 +265,7 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Full sequence flow.
+NARRATION: Drill: full sequence flow.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -315,9 +315,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 76 tutorial(s) of the folk-circle family studied · videos studied: 76
+Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
 
 Sources (2): https://en.wikipedia.org/wiki/Adana_(dance); https://www.wikidata.org/wiki/Q4680603

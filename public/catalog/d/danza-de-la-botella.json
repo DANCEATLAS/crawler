@@ -344,9 +344,78 @@
    "signature_moves": "performance",
    "rhythm": "performance",
    "sound": "performance",
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "UiGqCBIkpWQ",
+   "url": "https://www.youtube.com/watch?v=UiGqCBIkpWQ",
+   "title": "¡Nuestras paraguayitas de #VLT aprende la danza de la botella! 🇵🇾😍",
+   "channel": "Vive La Tarde Paraguay",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "es",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "Introduction to the bottle dance segment with hosts and instructor."
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "Explaining how the bottle base sits and head placement."
+    },
+    {
+     "t": "1:25",
+     "seconds": 85,
+     "segment": "breakdown",
+     "note": "Starting with a walking step before adding more movement."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Caminata",
+     "description": "Initial walking step while balancing a bottle on the head."
+    }
+   ],
+   "cues": [
+    "Caminata",
+    "Paso básico",
+    "Sonrisa"
+   ],
+   "common_mistakes": [
+    "Placing the bottle too far back on the head"
+   ],
+   "teacher_style": "The instructor explains foundational tips for balancing a bottle on the head while participants try out the steps. The tone is light and humorous, combining demonstration with practical advice.",
+   "distinctive_method": "Using live TV demonstration with humorous commentary and real-time balancing attempts by novices.",
+   "what_works": [
+    "Step-by-step guidance starting from balance to walking."
+   ],
+   "what_hinders": [
+    "Casual talk and distractions on a TV show format."
+   ],
+   "evidence": [
+    {
+     "start_s": 25,
+     "end_s": 35,
+     "topic": "teaching",
+     "observation": "Instructor places a bottle on a participant's head to demonstrate placement.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight transfer of the participant",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "QMacCsP9Oy4",
@@ -407,6 +476,6 @@
   "polished": false,
   "file": "episodes/danza-de-la-botella.json"
  },
- "fingerprint": "a2d2118cb74798b7",
- "updated": "2026-11-21"
+ "fingerprint": "2777cf8b8253d15b",
+ "updated": "2026-11-25"
 }

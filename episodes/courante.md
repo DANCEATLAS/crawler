@@ -141,6 +141,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante or ignoring national stylistic differences.
+NARRATION: Teachers of this dance warn against: bending legs when up on the demi point
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -215,6 +216,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante or ignoring national stylistic differences.
+NARRATION: Teachers of this dance warn against: bending legs when up on the demi point
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -286,6 +288,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante or ignoring national stylistic differences.
+NARRATION: Teachers of this dance warn against: bending legs when up on the demi point
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -329,9 +332,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2 / one-two
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 2
-Cues: start off on the right foot; pass the foot through first; step forward one step forward two
+Cues: start off on the right foot; pass the foot through first; step forward one step forward two; rise onto the ball of the foot; straighten both legs; slide the right foot along; come down into first position
+Common mistakes the studied teachers name: bending legs when up on the demi point
 
 Sources (7): https://en.wikipedia.org/wiki/Courante; https://www.wikidata.org/wiki/Q664056; https://es.wikipedia.org/wiki/Courante; https://fr.wikipedia.org/wiki/Courante; https://pt.wikipedia.org/wiki/Courante; https://archive.org/details/danceman160; https://archive.org/details/danceman219

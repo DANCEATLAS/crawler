@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An encouraging Scottish ceilidh caller who emphasizes steady rhythmic timing and inclusive social enjoyment.
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Walk forward anti-clockwise in circle for four bars in allemande hold
 NARRATION: Pivot to face clockwise and walk backwards for four bars
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2-3-4. The meter is 2/4 or 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,17 +119,17 @@ NARRATION: Step 1: Walk forward anti-clockwise in circle for four bars in allema
 NARRATION: Step 2: Pivot to face clockwise and walk backwards for four bars
 NARRATION: Footwork from the sources: Walking and marching steps forward and backward
 NARRATION: Drill: Practice marching four bars forward anti-clockwise
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Turn lady under arm and set or progress to next partner between bars 12 and 13
 NARRATION: Drill: Practice pivoting and walking backwards for four bars
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,14 +140,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,7 +177,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2-3-4. The meter is 2/4 or 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,10 +188,10 @@ NEEDS: tempo
 NARRATION: Step 1: Walk forward anti-clockwise in circle for four bars in allemande hold
 NARRATION: Step 2: Pivot to face clockwise and walk backwards for four bars
 NARRATION: Drill: Hold allemande position with partner while maintaining timing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Turn lady under arm and set or progress to next partner between bars 12 and 13
@@ -201,7 +201,7 @@ NARRATION: Drill: Practice turning lady under the gentleman's arm
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,14 +212,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples in a circle around the room facing anti-clockwise, ladies on the right
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -249,7 +249,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2-3-4. The meter is 2/4 or 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -260,10 +260,10 @@ NEEDS: tempo
 NARRATION: Step 1: Pivot to face clockwise and walk backwards for four bars
 NARRATION: Step 2: Turn lady under arm and set or progress to next partner between bars 12 and 13
 NARRATION: Drill: Time the shift between bars 12 and 13 to join the next partner ahead
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Allemande hold march: Couples hold hands in allemande position while marching anti-clockwise.
@@ -271,7 +271,7 @@ NARRATION: Progressive shift: Ladies move to the partner ahead in the circle bet
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -282,14 +282,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples in a circle around the room facing anti-clockwise, ladies on the right
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -328,9 +328,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 76 tutorial(s) of the folk-circle family studied · videos studied: 76
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
+Cues: forwards 2 3 turn around; backwards 2 3 stop
+Common mistakes the studied teachers name: getting mixed up with hands and twisted round in the wrong way
 
 Sources (2): https://en.wikipedia.org/wiki/Gay_Gordons_(dance); https://www.wikidata.org/wiki/Q5528586

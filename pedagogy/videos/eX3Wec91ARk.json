@@ -1,0 +1,148 @@
+{
+ "youtube_id": "eX3Wec91ARk",
+ "slug": "the-stroll",
+ "dance": "The Stroll",
+ "title": "How To Do The Stroll",
+ "channel": "What's On In Surrey TV",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-25T04:32:50Z",
+ "url": "https://www.youtube.com/watch?v=eX3Wec91ARk",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor patiently demonstrates vintage line dance steps while wearing period-appropriate military uniform. He breaks down movements step by step and encourages repetition to build confidence.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:03",
+    "segment": "intro",
+    "note": "Instructors introduce the stroll dance from the 1940s"
+   },
+   {
+    "t": "0:23",
+    "segment": "full_demo",
+    "note": "Demonstration of the dance routine with music"
+   },
+   {
+    "t": "1:20",
+    "segment": "breakdown",
+    "note": "Detailed step-by-step breakdown of the first movement"
+   },
+   {
+    "t": "3:39",
+    "segment": "breakdown",
+    "note": "Breakdown of the scuff and turn movement"
+   },
+   {
+    "t": "6:31",
+    "segment": "recap",
+    "note": "Closing remarks and sign-off"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Left right left tap",
+   "Right left right tap",
+   "Back tap back tap",
+   "Scuff and turn"
+  ],
+  "metaphors": [
+   "Cowboy step"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 3
+  },
+  "common_mistakes": [
+   "Putting weight down on the tap foot"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Side tap left and right",
+    "counts": "5-6-7-8",
+    "description": "Step side to left then right with taps"
+   },
+   {
+    "name": "Back step taps",
+    "counts": "1-2-3-4",
+    "description": "Step backward alternating feet with taps"
+   },
+   {
+    "name": "Scuff turn",
+    "counts": "1-2-3-4",
+    "description": "Scuff right heel on floor and turn left"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear counting",
+    "Repetition of sequences",
+    "Breaking movements into smaller parts"
+   ],
+   "what_hinders": [
+    "Instructors face forward away from camera during practice"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "It's a very simple dance and we'll break it down."
+   },
+   {
+    "t": "1:30",
+    "text": "It's very important when you do the tap not to put your weight down on it."
+   },
+   {
+    "t": "2:58",
+    "text": "Now this is the easiest part of the dance."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 23,
+    "end_s": 35,
+    "topic": "movement",
+    "observation": "Instructors standing side by side beginning a dance routine to music",
+    "viewpoint": "front view, unmirrored",
+    "cannot_infer": "exact foot weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 120,
+    "end_s": 130,
+    "topic": "teaching",
+    "observation": "Instructor demonstrating side steps with verbal count",
+    "viewpoint": "back view, unmirrored",
+    "cannot_infer": "hidden footwork details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 395,
+    "end_s": 405,
+    "topic": "movement",
+    "observation": "Instructor demonstrating scuff turn movement",
+    "viewpoint": "back view, unmirrored",
+    "cannot_infer": "exact heel contact pressure",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Teaching in period military dress with synchronized partner demonstration from behind"
+ },
+ "attempts": 1
+}

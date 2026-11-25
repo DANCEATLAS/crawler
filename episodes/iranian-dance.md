@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 303 tutorials across the atlas studied · videos studied: 303
+Source: 312 tutorials across the atlas studied · videos studied: 312
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; right left right; step touch; shift your weight; bend your knees; one two three four; cross; 1-2-3-4-5-6-7-8; 1-2-3
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; right left right; step touch; shift your weight; one two three four; cross; 1-2-3-4-5-6-7-8; 1-2-3
 
 Sources (5): https://en.wikipedia.org/wiki/Iranian_dance; https://www.wikidata.org/wiki/Q2351372; https://es.wikipedia.org/wiki/Danza_persa; https://fr.wikipedia.org/wiki/Danses_d'Iran; https://pt.wikipedia.org/wiki/Dança_persa

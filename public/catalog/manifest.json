@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-25T04:08:48Z",
+ "generated_at": "2026-11-25T04:36:57Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -25,7 +25,7 @@
    "file": "index.json",
    "contract": "da_index_v1",
    "holds": "every dance in a few fields, with the address and fingerprint of its own file",
-   "bytes": 698617
+   "bytes": 698685
   },
   {
    "file": "bdf_teaching_system.json",
@@ -37,13 +37,13 @@
    "file": "active_ready.json",
    "contract": "da_active_ready_v1",
    "holds": "the starting line: which dances have everything a teaching service needs",
-   "bytes": 2186
+   "bytes": 2217
   },
   {
    "file": "machine.json",
    "contract": "da_machine_v1",
    "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
-   "bytes": 14799
+   "bytes": 15055
   },
   {
    "file": "site.json",
@@ -97,7 +97,7 @@
   "pattern": "d/{slug}.json",
   "contract": "da_dance_v1",
   "count": 1345,
-  "bytes": 14245721,
+  "bytes": 14299453,
   "sections": {
    "card": "identity and the short story: names, places, era, family, hero video, pictures, sources",
    "profile": "the deep profile of a published dance: story sections, music, movement, connections, footage, checked claims",
@@ -113,13 +113,13 @@
   "listed": 1345,
   "researched": 739,
   "published": 607,
-  "active_ready": 36,
+  "active_ready": 38,
   "one_short": 61,
-  "two_short": 55,
+  "two_short": 53,
   "three_to_five_short": 144,
   "story_ready_teaching_withheld": 62,
-  "lessons_studied": 303,
-  "performances_observed": 282,
+  "lessons_studied": 312,
+  "performances_observed": 294,
   "in_the_door": 1345
  },
  "teaching": {
@@ -133,7 +133,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 28771903,
+  "bytes_behind_this_door": 28825990,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },

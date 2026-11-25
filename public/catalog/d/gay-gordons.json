@@ -419,23 +419,102 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
    }
   ],
   "via": {
    "posture": "performance",
-   "study_video": "performance"
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "7YIqMg8jnpE",
+   "url": "https://www.youtube.com/watch?v=7YIqMg8jnpE",
+   "title": "Learning the Gay Gordons",
+   "channel": "USCN",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4",
+   "parts": [
+    {
+     "t": "0:09",
+     "seconds": 9,
+     "segment": "intro",
+     "note": "Introduction of instructors and musicians"
+    },
+    {
+     "t": "0:32",
+     "seconds": 32,
+     "segment": "breakdown",
+     "note": "Explanation of hold and starting positions"
+    },
+    {
+     "t": "1:02",
+     "seconds": 62,
+     "segment": "breakdown",
+     "note": "Step-by-step breakdown of walking forward and backward"
+    },
+    {
+     "t": "2:17",
+     "seconds": 137,
+     "segment": "breakdown",
+     "note": "Twirling under arms and ballroom hold"
+    },
+    {
+     "t": "3:11",
+     "seconds": 191,
+     "segment": "full_demo",
+     "note": "Full demonstration of the dance sequence with music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Forward and backward steps",
+     "counts": "1-2-3-4",
+     "description": "Three steps forward and turn around, then three steps backward and stop"
+    }
+   ],
+   "cues": [
+    "Forwards 2 3 turn around",
+    "Backwards 2 3 stop"
+   ],
+   "common_mistakes": [
+    "Getting mixed up with hands and twisted round in the wrong way"
+   ],
+   "teacher_style": "The instructor uses a friendly, direct tone, demonstrating with a partner while verbally guiding through each count. She breaks down the footwork and hand holds clearly, turning around to show perspective from behind.",
+   "distinctive_method": "Turning around 180 degrees during instruction so learners can follow directly from behind.",
+   "what_works": [
+    "Clear demonstration with two people showing both front and back views"
+   ],
+   "what_hinders": [
+    "None noted"
+   ],
+   "evidence": [
+    {
+     "start_s": 32,
+     "end_s": 50,
+     "topic": "teaching",
+     "observation": "Instructor demonstrates partner hold face-on then turns around",
+     "viewpoint": "front and back, unmirrored",
+     "cannot_infer": "exact finger pressure",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "7YIqMg8jnpE",
@@ -486,11 +565,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/gay-gordons.json"
  },
- "fingerprint": "6edac676ccd94402",
- "updated": "2026-11-24"
+ "fingerprint": "a0df5fa0463c597c",
+ "updated": "2026-11-25"
 }

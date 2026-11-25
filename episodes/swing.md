@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the african-diaspora family studied · videos studied: 17
+Source: 18 tutorial(s) of the african-diaspora family studied · videos studied: 18
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; bend your knees; one and two and; put all your weight on your right leg; and out and out and in and in; double double
+Cues: bend your knees; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in; double double
 
 Sources (8): https://en.wikipedia.org/wiki/Swing_(dance); https://www.wikidata.org/wiki/Q123704; https://es.wikipedia.org/wiki/Swing_(baile); https://fr.wikipedia.org/wiki/Swing_(danse); https://pt.wikipedia.org/wiki/Swing_(dança); https://de.wikipedia.org/wiki/Swing_(Tanz); https://archive.org/details/childrensliterat0000curr; https://archive.org/details/smash-hits-1981-03-19

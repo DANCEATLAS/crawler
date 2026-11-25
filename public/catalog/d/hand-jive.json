@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "hand-jive",
  "name": "Hand Jive",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GB"
@@ -305,23 +305,195 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   }
-  ],
   "via": {
-   "signature_moves": "performance",
-   "study_video": "performance"
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "AsINOD9YjI0",
+   "url": "https://www.youtube.com/watch?v=AsINOD9YjI0",
+   "title": "Dance Tutorial: Hand Jive | Grease",
+   "channel": "Stage Entertainment NL - Musicals",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Dutch",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction of the hosts and the topic of learning the Hand Jive from Grease."
+    },
+    {
+     "t": "0:47",
+     "seconds": 47,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the first step (heel touches)."
+    },
+    {
+     "t": "1:35",
+     "seconds": 95,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the second step (toe scuffs/scars)."
+    },
+    {
+     "t": "1:46",
+     "seconds": 106,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the third step (hands dancing/cross)."
+    },
+    {
+     "t": "2:32",
+     "seconds": 152,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the fourth step (hip slicing)."
+    },
+    {
+     "t": "3:20",
+     "seconds": 200,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the fifth step (fists and scoops)."
+    },
+    {
+     "t": "3:56",
+     "seconds": 236,
+     "segment": "music_practice",
+     "note": "Practicing the steps so far with music."
+    },
+    {
+     "t": "4:27",
+     "seconds": 267,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the sixth step (spreading fingers/shocking movements)."
+    },
+    {
+     "t": "5:22",
+     "seconds": 322,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the seventh step (iPad hands/head)."
+    },
+    {
+     "t": "5:54",
+     "seconds": 354,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the eighth step (knee slaps and elbows)."
+    },
+    {
+     "t": "6:20",
+     "seconds": 380,
+     "segment": "breakdown",
+     "note": "Breakdown and practice of the ninth step (quacking duck/chicken)."
+    },
+    {
+     "t": "7:14",
+     "seconds": 434,
+     "segment": "music_practice",
+     "note": "Final full run-through of the Hand Jive routine with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Heel touches",
+     "counts": "rechts-links-rechts-stop",
+     "description": "Stepping and tapping heels outward alternatively."
+    },
+    {
+     "name": "Toe scuffs",
+     "counts": "rechts-links-rechts-stop",
+     "description": "Scuffing toes in and out while standing on heels."
+    },
+    {
+     "name": "Dancing hands",
+     "counts": "1-2-3-4",
+     "description": "Crossing arms and clapping hands in rhythm."
+    },
+    {
+     "name": "Hip slicing",
+     "counts": "1-2-3-4",
+     "description": "Slicing hand motions near the hips with foot taps."
+    },
+    {
+     "name": "Fists and scoops",
+     "counts": "1-2-3-4",
+     "description": "Fists together and opening outward in a scoop motion."
+    },
+    {
+     "name": "Shocking fingers",
+     "counts": "1-2-3-4",
+     "description": "Spreading fingers and making sharp, shocking upper body movements."
+    },
+    {
+     "name": "iPad hands",
+     "counts": "1-2-3-4",
+     "description": "Holding hands up like an iPad framing the head and moving down."
+    },
+    {
+     "name": "Knee slaps and elbows",
+     "counts": "1-2-3-4",
+     "description": "Slapping knees and raising elbows upward."
+    },
+    {
+     "name": "Duck/Chicken",
+     "counts": "1-2-3-4",
+     "description": "Quacking hand motion like a duck followed by a final pose."
+    }
+   ],
+   "cues": [
+    "rechts links rechts stop",
+    "handen",
+    "5-6-7-8"
+   ],
+   "images": [
+    "als een pinguin",
+    "een soort snijmessen",
+    "alsof je een denkbeeldige iPad vastheeft"
+   ],
+   "common_mistakes": [
+    "losing breath due to fast movements"
+   ],
+   "teacher_style": "The instructor breaks down the Hand Jive choreography step by step while adding humorous commentary with her co-presenter. They combine verbal explanations of arm and foot placements with live demonstrations and music trials.",
+   "distinctive_method": "Using humor, pop culture comparisons (like Friends and iPad), and a co-host who reacts in real-time to make the tutorial entertaining.",
+   "what_works": [
+    "Clear step-by-step breakdown",
+    "Demonstrating both slow practice and practice with music"
+   ],
+   "what_hinders": [
+    "Fast tempo in the final routine can be overwhelming for beginners"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Two presenters standing side by side in a studio setting talking to the camera.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact footwork",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 100,
+     "end_s": 110,
+     "topic": "movement",
+     "observation": "Instructor demonstrates foot heel touches while counting.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "QvOuTInrue0",
@@ -379,11 +551,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/hand-jive.json"
  },
- "fingerprint": "995f924e0c423bae",
- "updated": "2026-11-21"
+ "fingerprint": "b73a05bfd9c19309",
+ "updated": "2026-11-25"
 }

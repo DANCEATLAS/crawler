@@ -114,7 +114,7 @@ NARRATION: Step 1: Stand upright with a glass bottle balanced on the head
 NARRATION: Step 2: Extend arms to hold the ruffles of the skirt
 NARRATION: Footwork from the sources: Improvised basic steps matching polka rhythm
 NARRATION: Drill: Practice standing still with bottle on head
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -136,6 +136,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid sudden head movements that may dislodge bottles
+NARRATION: Teachers of this dance warn against: placing the bottle too far back on the head
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -181,7 +182,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Advance to balancing multiple stacked bottles as skill improves
 NARRATION: Drill: Increase tempo of steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -203,6 +204,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid sudden head movements that may dislodge bottles
+NARRATION: Teachers of this dance warn against: placing the bottle too far back on the head
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -249,7 +251,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Maintain steady posture and balance throughout
 NARRATION: Step 2: Advance to balancing multiple stacked bottles as skill improves
 NARRATION: Drill: Stack and balance up to ten bottles
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -271,6 +273,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid sudden head movements that may dislodge bottles
+NARRATION: Teachers of this dance warn against: placing the bottle too far back on the head
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -312,9 +315,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 76 tutorial(s) of the folk-circle family studied · videos studied: 76
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front; tempo progression: slow
+Cues: caminata; paso bsico; sonrisa
+Common mistakes the studied teachers name: placing the bottle too far back on the head
 
 Sources (3): https://en.wikipedia.org/wiki/Paraguayan_bottle_dance; https://www.wikidata.org/wiki/Q96398402; https://es.wikipedia.org/wiki/Danza_de_la_botella

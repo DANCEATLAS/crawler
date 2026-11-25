@@ -2,7 +2,7 @@
  "slug": "bwola",
  "name": "Bwola",
  "pack_version": "e2",
- "built_at": "2026-11-24T22:53:17Z",
+ "built_at": "2026-11-25T04:36:55Z",
  "researched_at": "2026-11-07T17:22:08Z",
  "qc_score": 9.3,
  "status": "draft",
@@ -183,7 +183,7 @@
     "narration": [
      "Before we go, one step. Step in a circular path",
      "Maintain a rhythmic foot pattern",
-     "Count it: .",
+     "Count it: other.",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -246,7 +246,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: other.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -268,11 +268,11 @@
       "Step 2: Maintain a rhythmic foot pattern"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "other",
      "repetitions": 3
     },
     {
@@ -286,7 +286,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "other",
      "repetitions": 3
     },
     {
@@ -324,7 +324,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: other.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -387,7 +387,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: other.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -409,11 +409,11 @@
       "Step 2: Maintain a rhythmic foot pattern"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "other",
      "repetitions": 3
     },
     {
@@ -427,7 +427,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "other",
      "repetitions": 3
     },
     {
@@ -465,7 +465,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: other.",
       "Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise"
      ],
      "on_screen": [
@@ -527,7 +527,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: other.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -549,11 +549,11 @@
       "Step 2: Keep the upper body still"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "other",
      "repetitions": 3
     },
     {
@@ -565,7 +565,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "other",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -606,7 +606,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: other.",
       "Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise"
      ],
      "on_screen": [
@@ -760,39 +760,32 @@
   ]
  },
  "teaching_formula": {
-  "source": "15 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 15,
-  "counting": "",
-  "counting_basis": "missing",
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "other",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front",
+   "tempo progression: full"
   ],
   "cues": [
-   "uno dos",
-   "stretch one and two",
-   "lift three and four",
-   "shift your weight",
-   "move your hips side to side",
-   "scrape it along the floor",
-   "remember to breathe",
-   "criss-cross now",
-   "forward and back",
-   "plant the left foot",
-   "kick with emphasis",
-   "smash the grass"
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
-   "breakdown",
-   "full_demo",
-   "slow_practice",
+   "follow_along",
    "music_practice"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Bwola basic step",
+    "counts": "other",
+    "description": "Rhythmic stepping and body lowering to drum beat"
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
@@ -812,6 +805,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "6ca9fdf326038154bd5c9b23f8543a208739adea175821969100ae3f090f9e48",
+ "input_fingerprint": "d86aabec983247546bc9847ffe587468652da062eb6f911b8171b67693ff115e",
  "hero_checked": "pass"
 }

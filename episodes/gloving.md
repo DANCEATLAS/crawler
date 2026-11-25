@@ -149,6 +149,7 @@ MUSIC: lesson_slow then lesson_full
 NARRATION: Avoid blocking the lights with the palms; ensure movements are large enough to be seen but contained within the viewer's field of vision.
 NARRATION: Teachers of this dance warn against: not bending wrists back 90 degrees, resulting in smaller circles and sloppy illusions
 NARRATION: Teachers of this dance warn against: having palms facing outward to the sides instead of directly toward the viewer receiving the light show
+NARRATION: Teachers of this dance warn against: rushing the finger rolls before building muscle memory
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: The dance is naturally performed seated, making it highly accessible. · For children: Follow-the-leader light patterns using colorful finger lights.
 MUSIC: silence
@@ -226,6 +227,7 @@ MUSIC: lesson_slow then lesson_full
 NARRATION: Avoid blocking the lights with the palms; ensure movements are large enough to be seen but contained within the viewer's field of vision.
 NARRATION: Teachers of this dance warn against: not bending wrists back 90 degrees, resulting in smaller circles and sloppy illusions
 NARRATION: Teachers of this dance warn against: having palms facing outward to the sides instead of directly toward the viewer receiving the light show
+NARRATION: Teachers of this dance warn against: rushing the finger rolls before building muscle memory
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: The dance is naturally performed seated, making it highly accessible. · For children: Follow-the-leader light patterns using colorful finger lights.
 MUSIC: silence
@@ -301,6 +303,7 @@ MUSIC: lesson_slow then lesson_full
 NARRATION: Avoid blocking the lights with the palms; ensure movements are large enough to be seen but contained within the viewer's field of vision.
 NARRATION: Teachers of this dance warn against: not bending wrists back 90 degrees, resulting in smaller circles and sloppy illusions
 NARRATION: Teachers of this dance warn against: having palms facing outward to the sides instead of directly toward the viewer receiving the light show
+NARRATION: Teachers of this dance warn against: rushing the finger rolls before building muscle memory
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: The dance is naturally performed seated, making it highly accessible. · For children: Follow-the-leader light patterns using colorful finger lights.
 MUSIC: silence
@@ -344,10 +347,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: start off with your hands fingers facing out; pivot over and under; fan that way; put your elbows up; l-shaped sort of tut; roll it outwards; close it; bend your wrist as far back as possible; pinky out; index out
-Common mistakes the studied teachers name: not bending wrists back 90 degrees, resulting in smaller circles and sloppy illusions; having palms facing outward to the sides instead of directly toward the viewer receiving the light show
+Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full
+Cues: start off with your hands fingers facing out; pivot over and under; fan that way; put your elbows up; l-shaped sort of tut; roll it outwards; close it; bend your wrist as far back as possible; pinky out; index out; open one finger at a time; make sure your pinkies are connected
+Common mistakes the studied teachers name: not bending wrists back 90 degrees, resulting in smaller circles and sloppy illusions; having palms facing outward to the sides instead of directly toward the viewer receiving the light show; rushing the finger rolls before building muscle memory; relying on tilting the hands instead of clean finger motion
 
 Sources (2): https://en.wikipedia.org/wiki/Gloving; https://www.wikidata.org/wiki/Q19571960
