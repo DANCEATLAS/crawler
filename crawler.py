@@ -260,6 +260,16 @@ def jload(p,d):
 def jsave(p,o):
     json.dump(o,open(p,"w",encoding="utf-8"),ensure_ascii=False,indent=1)
 
+# The crawl's own report (pipeline_state/crawl_report.json): what each part looked for and found, and every part that ended
+# before its work was done. The machine's page shows the stops with the notes of the night (pipeline/door.py). On 24 November
+# 2026 the lesson search ended after two dances and the run was green all the same: nothing but its log said so.
+REPORT={"stops":[]}
+def stopped(part,why):
+    print(part+" stop: "+why); REPORT["stops"].append(part+" stop: "+str(why)[:140])
+def report_saved():
+    REPORT["at"]=time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()); REPORT["mode"]=MODE
+    os.makedirs("pipeline_state",exist_ok=True); jsave(os.path.join("pipeline_state","crawl_report.json"),REPORT)
+
 def fetch_viral_targets():
     url=os.environ.get("SUPABASE_URL","").rstrip("/"); key=os.environ.get("SUPABASE_SERVICE_KEY","")
     if not url or not key: return []
@@ -273,6 +283,7 @@ def fetch_viral_targets():
 def main():
     if not YT_KEYS: print("ERROR: set YT_API_KEYS"); sys.exit(1)
     keys=Keys(YT_KEYS)
+    REPORT.clear(); REPORT["stops"]=[]
     dances=jload(LIST_PATH,[])
     print("MODE="+MODE+" | dances="+str(len(dances))+" | keys="+str(len(YT_KEYS)))
 
@@ -298,13 +309,14 @@ def main():
         for d in todo:
             if done>=B_HERO: break
             try: res=pick_hero(d,keys); done+=1
-            except RuntimeError as e: print("hero stop: "+str(e)); break
+            except RuntimeError as e: stopped("hero",str(e)); break
             except Exception as e: res={"status":"error","reason":str(e)[:80]}
             if isinstance(res,dict): res["tried_at"]=today
             cache[d["slug"]]=res
             if res.get("hero_video_youtube_id"): out[d["slug"]]=res; wrote+=1; print("HERO ok "+d["slug"]+" "+res["hero_video_youtube_id"])
             jsave("crawler_cache.json",cache); jsave("hero_results.json",out)
         print("hero: +"+str(wrote)+" ("+str(len(out))+" total)")
+        REPORT["hero"]={"to_try":len(todo),"tried":done,"found":wrote}
 
     if MODE in ("all","tutorial"):
         tcache=jload("tutorial_cache.json",{}); tout=jload("tutorial_results.json",{}); done=0; wrote=0; skipped=0
@@ -330,21 +342,22 @@ def main():
         elig.sort(key=lambda d: (0 if d.get("slug") not in tcache else 1,)+_need(d.get("slug")))   # never-tried dances first, then those nearest the line
         for d in elig:
             if done>=B_TUT: break
-            if time.time()-t_start>TUT_MINUTES*60: print("tut stop: "+str(TUT_MINUTES)+" minutes used, the rest wait for tomorrow"); break
+            if time.time()-t_start>TUT_MINUTES*60: stopped("tut",str(TUT_MINUTES)+" minutes used, the rest wait for tomorrow"); break
             if _old_rule(d.get("slug")):
                 if redo>=TUT_WAVE: continue
                 redo+=1
             try: lessons=lesson_eval(d,keys); done+=1; broke=0
-            except RuntimeError as e: print("tut stop: "+str(e)); break
+            except RuntimeError as e: stopped("tut",str(e)); break
             except Exception as e:   # a search that broke or gave nothing at all is not "no lesson exists": the dance is looked for again tomorrow
                 print("tut err "+d["slug"]+" "+str(e)[:60]); broke+=1
-                if broke>=5: print("tut stop: five searches in a row broke or gave nothing; the rest wait for tomorrow"); break
+                if broke>=5: stopped("tut","five searches in a row broke or gave nothing; the rest wait for tomorrow"); break
                 continue
             tcache[d["slug"]]={"n":len(lessons),"at":tday,"v":TUT_RULE}
             if lessons: tout[d["slug"]]={"lessons":lessons,"status":"in_review"}; wrote+=1; print("TUT ok "+d["slug"]+" lessons="+str(len(lessons)))
             else: print("TUT -- "+d["slug"]+" none")
             jsave("tutorial_cache.json",tcache); jsave("tutorial_results.json",tout)
         print("tutorial: +"+str(wrote)+" ("+str(len(tout))+" total); looked for again under rule "+str(TUT_RULE)+": "+str(redo)+"; sacred auto-skipped")
+        REPORT["lessons"]={"due":len(elig),"looked_at":done,"found":wrote,"second_looks":redo}
 
     if MODE in ("all","viral"):
         vcache=jload("viral_cache.json",{}); vout=jload("viral_results.json",{}); done=0; wrote=0
@@ -360,7 +373,7 @@ def main():
         for s in todo:
             if done>=B_VIRAL: break
             try: r=viral_eval(s,keys); done+=1
-            except RuntimeError as e: print("viral stop: "+str(e)); break
+            except RuntimeError as e: stopped("viral",str(e)); break
             except Exception as e: r=None; print("viral err "+str(s.get("slug"))+" "+str(e)[:60])
             vcache[s["slug"]]=True
             if r:
@@ -368,7 +381,9 @@ def main():
             else: print("VIRAL -- "+s["slug"]+" none")
             jsave("viral_cache.json",vcache); jsave("viral_results.json",vout)
         print("viral: +"+str(wrote)+" ("+str(len(vout))+" total)")
+        REPORT["viral"]={"found":wrote}
 
+    report_saved()
     print("RUN COMPLETE | searches used="+str(keys.n))
 
 if __name__=="__main__":

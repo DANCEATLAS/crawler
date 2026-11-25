@@ -468,7 +468,20 @@ def viral(root):
             "categories": dict(sorted(Counter(x["category"] for x in rows if x.get("category")).items())), "challenges": rows}
 
 
-def machine(runs, hist, state, names, owner, gen, study=None):
+def crawl_notes(crawl, gen):
+    """What the crawl said about itself (pipeline_state/crawl_report.json, written by crawler.py), as notes for the machine's
+    page: every part that ended before its work was done, and silence for two days. Without these a crawl that found
+    almost nothing looks like any other: its run is green and only its log knows (24 November 2026)."""
+    if not isinstance(crawl, dict) or not crawl.get("at"):
+        return []
+    notes = ["crawl: " + str(x)[:160] for x in crawl.get("stops") or []]
+    a, b = _time(crawl.get("at")), _time(gen)
+    if a and b and (b - a).total_seconds() > 48 * 3600:
+        notes.append(f"crawl: no report since {str(crawl['at'])[:10]}")
+    return notes
+
+
+def machine(runs, hist, state, names, owner, gen, study=None, crawl=None):
     """How the machine is doing, for one page in large type."""
     whole = [n for n in nights(runs) if n["whole"]]
     brief = lambda n: {k: n[k] for k in ("date", "started", "finished", "minutes", "questions", "unanswered")} | {"stages": len(n["stages"]), "errors": n["errors"][:10], "trouble": n["trouble"][:10]}
@@ -489,6 +502,10 @@ def machine(runs, hist, state, names, owner, gen, study=None):
             "owner": _full({"status": (owner or {}).get("status"), "text": (owner or {}).get("reason"), "verified_at": (owner or {}).get("verified_at")})}
     if study:
         out["study"] = study
+    if isinstance(crawl, dict) and crawl.get("at"):
+        out["last_crawl"] = {k: crawl.get(k) for k in ("at", "hero", "lessons", "viral", "stops")}
+        if out["last_night"]:
+            out["last_night"]["trouble"] = (crawl_notes(crawl, gen) + out["last_night"]["trouble"])[:10]
     return out
 
 
@@ -527,7 +544,7 @@ def run(root=".", today=None):
                 index, {k: retired[k] for k in sorted(retired)})
     owner = (_load(P("pipeline_state", "vision_status.json"), {}) or {}).get("owner_action")
     _save(C("machine.json"), machine(_load(P("pipeline_state", "runs.json"), []), _load(P("pipeline_state", "active_ready_history.json"), []), state, names, owner, gen,
-                                     study(root, today)))
+                                     study(root, today), crawl=_load(P("pipeline_state", "crawl_report.json"), None)))
     chart = viral(root)
     if chart:
         write_dance(C("viral.json"), chart, today)        # like a dance file: no clock inside, rewritten only when it changed

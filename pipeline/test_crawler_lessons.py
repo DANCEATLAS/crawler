@@ -163,6 +163,16 @@ class LookedForAgainTests(TemporaryProject):
         tried, cache, _ = self.crawl(names, {}, {}, found={n: silent for n in names[:4]})
         self.assertEqual((len(tried), sorted(cache)), (8, names[4:]))                     # four broke, then the search answered: the day goes on
 
+    def test_the_crawl_writes_down_what_it_did_and_every_part_that_ended_early(self):
+        lesson = [{"youtube_id": "v", "lesson_status": "candidate"}]
+        self.crawl(["a", "b", "c"], {"c": {"n": 0, "at": "2026-01-01"}}, {}, found={"a": lesson})
+        report = jload("pipeline_state/crawl_report.json")
+        self.assertEqual((report["lessons"], report["stops"], report["mode"]), ({"due": 3, "looked_at": 3, "found": 1, "second_looks": 1}, [], "tutorial"))
+        self.assertRegex(report["at"], r"^20\d\d-\d\d-\d\dT\d\d:\d\d:\d\dZ$")
+        self.crawl(["a", "b", "c"], {}, {}, found={"b": RuntimeError("all keys exhausted (quota)")})
+        report = jload("pipeline_state/crawl_report.json")                                 # the crawl of 24 November 2026, as it would have been written
+        self.assertEqual((report["lessons"]["looked_at"], report["stops"]), (1, ["tut stop: all keys exhausted (quota)"]))
+
 
 if __name__ == "__main__":
     unittest.main()
