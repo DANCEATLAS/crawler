@@ -223,6 +223,26 @@ class Door(unittest.TestCase):
         self.assertEqual(m["closest"], [{"slug": "salsa", "name": "Salsa", "needs": ["what to avoid: common mistakes or safety"], "need_keys": ["mistakes"]}])
         self.assertEqual(m["owner"]["text"], "Nothing needs you.")
 
+    def test_the_machine_page_shows_what_the_crawl_said_about_itself(self):
+        def crawl(report):
+            path = os.path.join(self.root, "pipeline_state", "crawl_report.json")
+            if report is None:
+                if os.path.exists(path): os.remove(path)
+            else:
+                with open(path, "w", encoding="utf-8") as f: json.dump(report, f)
+            door.run(self.root, DAY1)
+            return read(self.root, "machine.json")
+        m = crawl(None)                                                                     # before the crawl ever reported: nothing is added
+        plain = m["last_night"]["trouble"]
+        self.assertNotIn("last_crawl", m)
+        good = {"at": door.now_iso(), "hero": {"to_try": 27, "tried": 27, "found": 12}, "lessons": {"due": 500, "looked_at": 130, "found": 40, "second_looks": 100}, "viral": {"found": 0}, "stops": []}
+        m = crawl(good)
+        self.assertEqual((m["last_crawl"]["lessons"]["found"], m["last_night"]["trouble"]), (40, plain))    # a crawl that did its work adds no note
+        m = crawl(dict(good, stops=["tut stop: all keys exhausted (quota)"]))               # the night of 24 November 2026
+        self.assertEqual(m["last_night"]["trouble"], ["crawl: tut stop: all keys exhausted (quota)"] + plain)
+        m = crawl(dict(good, at="2026-01-01T08:00:00Z"))                                    # the crawl has not been heard from
+        self.assertEqual(m["last_night"]["trouble"], ["crawl: no report since 2026-01-01"] + plain)
+
     def test_the_machine_page_says_how_far_the_mentors_study_has_come(self):
         from . import teaching
         first, plain = teaching.FIRST_TOPICS[0], teaching.SCIENCE[0][0]
