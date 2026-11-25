@@ -19,16 +19,16 @@
   "picture"
  ],
  "counts": {
-  "listed": 1345,
-  "researched": 739,
-  "published": 607,
-  "active_ready": 38,
-  "one_short": 61,
-  "two_short": 53,
-  "three_to_five_short": 144,
-  "story_ready_teaching_withheld": 62,
-  "lessons_studied": 312,
-  "performances_observed": 294
+  "listed": 1365,
+  "researched": 770,
+  "published": 631,
+  "active_ready": 39,
+  "one_short": 67,
+  "two_short": 59,
+  "three_to_five_short": 145,
+  "story_ready_teaching_withheld": 66,
+  "lessons_studied": 341,
+  "performances_observed": 343
  },
  "profiles": {
   "abbots-bromley-horn-dance": {
@@ -67,7 +67,7 @@
    "state": "building"
   },
   "adana": {
-   "have": 6,
+   "have": 7,
    "of": 15,
    "missing": [
     "story",
@@ -77,10 +77,11 @@
     "sound",
     "mistakes",
     "hero_video",
-    "study_video",
     "picture"
    ],
-   "via": {},
+   "via": {
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "aerial-dance": {
@@ -371,7 +372,7 @@
    "state": "building"
   },
   "animal-dance": {
-   "have": 6,
+   "have": 7,
    "of": 15,
    "missing": [
     "published",
@@ -381,8 +382,7 @@
     "sound",
     "lesson_plan",
     "mistakes",
-    "hero_video",
-    "picture"
+    "hero_video"
    ],
    "via": {
     "rhythm": "lesson",
@@ -666,6 +666,43 @@
    "via": {},
    "state": "teaching_withheld"
   },
+  "baamaaya": {
+   "have": 13,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "mistakes"
+   ],
+   "via": {
+    "posture": "performance",
+    "arms": "performance",
+    "signature_moves": "performance",
+    "rhythm": "performance",
+    "study_video": "performance"
+   },
+   "state": "building",
+   "ritual_context": true
+  },
+  "baba-karam": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "published",
+    "footwork_counts",
+    "lesson_plan",
+    "mistakes"
+   ],
+   "via": {
+    "posture": "performance",
+    "arms": "performance",
+    "formation": "performance",
+    "signature_moves": "performance",
+    "sound": "performance",
+    "study_video": "performance"
+   },
+   "state": "not_published",
+   "ritual_context": true
+  },
   "bacha-nagma": {
    "have": 8,
    "of": 15,
@@ -832,9 +869,9 @@
    "via": {
     "posture": "performance",
     "arms": "performance",
-    "rhythm": "performance",
+    "rhythm": "lesson",
     "sound": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -906,18 +943,18 @@
    "state": "teaching_withheld"
   },
   "bar": {
-   "have": 11,
+   "have": 12,
    "of": 15,
    "missing": [
     "story",
     "posture",
-    "mistakes",
     "hero_video"
    ],
    "via": {
     "footwork_counts": "lesson",
     "signature_moves": "lesson",
     "lesson_plan": "lesson",
+    "mistakes": "lesson",
     "study_video": "lesson"
    },
    "state": "building"
@@ -959,6 +996,18 @@
    "via": {},
    "state": "story_ready_teaching_withheld"
   },
+  "basse-danse": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "published",
+    "arms",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "not_published"
+  },
   "baton-twirling": {
    "have": 13,
    "of": 15,
@@ -997,12 +1046,11 @@
    "state": "building"
   },
   "bele": {
-   "have": 12,
+   "have": 13,
    "of": 15,
    "missing": [
     "published",
-    "footwork_counts",
-    "picture"
+    "footwork_counts"
    ],
    "via": {
     "study_video": "performance"
@@ -1029,6 +1077,22 @@
     "study_video": "performance"
    },
    "state": "not_published"
+  },
+  "beni-ngoma-tanzania": {
+   "have": 7,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "arms",
+    "signature_moves",
+    "rhythm",
+    "lesson_plan",
+    "mistakes",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
   },
   "bergamask": {
    "have": 7,
@@ -1915,8 +1979,8 @@
     "posture": "performance",
     "arms": "performance",
     "signature_moves": "performance",
-    "rhythm": "performance",
-    "study_video": "performance"
+    "rhythm": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -2209,16 +2273,16 @@
    "state": "not_published"
   },
   "chunaengjeon": {
-   "have": 10,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "signature_moves",
-    "rhythm",
-    "hero_video",
-    "study_video"
+    "footwork_counts"
    ],
-   "via": {},
+   "via": {
+    "signature_moves": "performance",
+    "rhythm": "performance",
+    "study_video": "performance"
+   },
    "state": "building"
   },
   "chuvash-folk-dance": {
@@ -2227,7 +2291,6 @@
    "missing": [
     "published",
     "story",
-    "status",
     "footwork_counts",
     "posture",
     "arms",
@@ -2235,6 +2298,7 @@
     "signature_moves",
     "rhythm",
     "sound",
+    "lesson_plan",
     "mistakes",
     "hero_video",
     "study_video",
@@ -2322,7 +2386,7 @@
    "state": "active_ready"
   },
   "cocolo": {
-   "have": 7,
+   "have": 8,
    "of": 15,
    "missing": [
     "footwork_counts",
@@ -2331,7 +2395,6 @@
     "rhythm",
     "lesson_plan",
     "mistakes",
-    "hero_video",
     "study_video"
    ],
    "via": {},
@@ -2876,18 +2939,19 @@
    "state": "story_ready_teaching_withheld"
   },
   "didong": {
-   "have": 8,
+   "have": 10,
    "of": 15,
    "missing": [
     "story",
     "footwork_counts",
     "signature_moves",
-    "rhythm",
     "mistakes",
-    "hero_video",
-    "study_video"
+    "hero_video"
    ],
-   "via": {},
+   "via": {
+    "rhythm": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "dihosana": {
@@ -3101,16 +3165,17 @@
    "state": "building"
   },
   "earl-of-erroll": {
-   "have": 10,
+   "have": 13,
    "of": 15,
    "missing": [
-    "footwork_counts",
     "posture",
-    "signature_moves",
-    "hero_video",
-    "study_video"
+    "hero_video"
    ],
-   "via": {},
+   "via": {
+    "footwork_counts": "lesson",
+    "signature_moves": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "earsdon-sword-dance": {
@@ -3181,17 +3246,19 @@
    "ritual_context": true
   },
   "ekitaguriro": {
-   "have": 13,
+   "have": 12,
    "of": 15,
    "missing": [
     "footwork_counts",
+    "lesson_plan",
     "mistakes"
    ],
    "via": {
     "posture": "performance",
     "formation": "performance",
-    "rhythm": "performance",
-    "study_video": "performance"
+    "rhythm": "lesson",
+    "sound": "performance",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -3673,6 +3740,27 @@
    "via": {},
    "state": "teaching_withheld"
   },
+  "gandagana": {
+   "have": 2,
+   "of": 15,
+   "missing": [
+    "published",
+    "story",
+    "footwork_counts",
+    "posture",
+    "arms",
+    "formation",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "lesson_plan",
+    "mistakes",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
+   "state": "not_published"
+  },
   "gandrung": {
    "have": 8,
    "of": 15,
@@ -3768,17 +3856,16 @@
    "ritual_context": true
   },
   "gay-gordons": {
-   "have": 14,
+   "have": 15,
    "of": 15,
-   "missing": [
-    "footwork_counts"
-   ],
+   "missing": [],
    "via": {
+    "footwork_counts": "lesson",
     "posture": "performance",
     "mistakes": "lesson",
     "study_video": "lesson"
    },
-   "state": "building"
+   "state": "active_ready"
   },
   "gendang-beleq": {
    "have": 4,
@@ -3925,21 +4012,22 @@
    "state": "building"
   },
   "goralski": {
-   "have": 5,
+   "have": 9,
    "of": 15,
    "missing": [
     "story",
-    "footwork_counts",
     "posture",
     "arms",
-    "rhythm",
     "sound",
-    "lesson_plan",
     "mistakes",
-    "hero_video",
-    "study_video"
+    "hero_video"
    ],
-   "via": {},
+   "via": {
+    "footwork_counts": "lesson",
+    "rhythm": "lesson",
+    "lesson_plan": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "goravara-kunitha": {
@@ -4271,15 +4359,15 @@
    "state": "building"
   },
   "hitch-hike": {
-   "have": 11,
+   "have": 13,
    "of": 15,
    "missing": [
     "footwork_counts",
-    "hero_video",
-    "study_video",
     "picture"
    ],
-   "via": {},
+   "via": {
+    "study_video": "performance"
+   },
    "state": "building"
   },
   "ho-jamalo": {
@@ -4402,23 +4490,23 @@
    "state": "teaching_withheld"
   },
   "huaylarsh": {
-   "have": 14,
+   "have": 13,
    "of": 15,
    "missing": [
+    "published",
     "picture"
    ],
    "via": {
     "footwork_counts": "lesson",
     "posture": "performance",
     "arms": "performance",
-    "formation": "performance",
     "signature_moves": "lesson",
     "rhythm": "lesson",
     "lesson_plan": "lesson",
     "mistakes": "lesson",
     "study_video": "lesson"
    },
-   "state": "building"
+   "state": "not_published"
   },
   "huaylas": {
    "have": 14,
@@ -4465,20 +4553,20 @@
    "state": "story_ready_teaching_withheld"
   },
   "hully-gully": {
-   "have": 6,
+   "have": 13,
    "of": 15,
    "missing": [
     "footwork_counts",
-    "posture",
-    "arms",
-    "signature_moves",
-    "rhythm",
-    "sound",
-    "mistakes",
-    "hero_video",
-    "study_video"
+    "mistakes"
    ],
-   "via": {},
+   "via": {
+    "posture": "performance",
+    "arms": "performance",
+    "signature_moves": "performance",
+    "rhythm": "lesson",
+    "sound": "performance",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "humppa": {
@@ -4560,18 +4648,18 @@
    "state": "not_published"
   },
   "improv-tribal-style-belly-dance": {
-   "have": 8,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "posture",
-    "arms",
-    "rhythm",
-    "sound",
-    "hero_video",
-    "study_video"
+    "footwork_counts"
    ],
-   "via": {},
+   "via": {
+    "posture": "performance",
+    "arms": "performance",
+    "rhythm": "lesson",
+    "sound": "performance",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "inai": {
@@ -4826,13 +4914,11 @@
    "state": "teaching_withheld"
   },
   "javanese-dance": {
-   "have": 5,
+   "have": 6,
    "of": 6,
-   "missing": [
-    "hero_video"
-   ],
+   "missing": [],
    "via": {},
-   "state": "teaching_withheld"
+   "state": "story_ready_teaching_withheld"
   },
   "jazz-dance": {
    "have": 15,
@@ -4873,6 +4959,25 @@
    "state": "building",
    "ritual_context": true
   },
+  "jikey": {
+   "have": 5,
+   "of": 15,
+   "missing": [
+    "story",
+    "footwork_counts",
+    "posture",
+    "arms",
+    "signature_moves",
+    "rhythm",
+    "lesson_plan",
+    "mistakes",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building",
+   "ritual_context": true
+  },
   "jingle-dress-dance": {
    "have": 5,
    "of": 6,
@@ -4883,15 +4988,15 @@
    "state": "teaching_withheld"
   },
   "jota-aragonesa": {
-   "have": 12,
+   "have": 14,
    "of": 15,
    "missing": [
-    "status",
-    "footwork_counts",
-    "signature_moves"
+    "status"
    ],
    "via": {
-    "study_video": "performance"
+    "footwork_counts": "lesson",
+    "signature_moves": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -4931,12 +5036,11 @@
    "state": "building"
   },
   "kachashi": {
-   "have": 11,
+   "have": 12,
    "of": 15,
    "missing": [
     "footwork_counts",
     "signature_moves",
-    "hero_video",
     "study_video"
    ],
    "via": {},
@@ -5041,21 +5145,18 @@
    "state": "teaching_withheld"
   },
   "kanyarkali": {
-   "have": 5,
+   "have": 6,
    "of": 6,
-   "missing": [
-    "hero_video"
-   ],
+   "missing": [],
    "via": {},
-   "state": "teaching_withheld"
+   "state": "story_ready_teaching_withheld"
   },
   "kaosikii-dance": {
-   "have": 2,
+   "have": 3,
    "of": 6,
    "missing": [
     "story",
     "sound",
-    "hero_video",
     "picture"
    ],
    "via": {},
@@ -5262,6 +5363,23 @@
    },
    "state": "building"
   },
+  "khevsuruli": {
+   "have": 13,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "mistakes"
+   ],
+   "via": {
+    "posture": "performance",
+    "arms": "performance",
+    "formation": "performance",
+    "rhythm": "performance",
+    "sound": "performance",
+    "study_video": "performance"
+   },
+   "state": "building"
+  },
   "khiamniungan-folk-dance": {
    "have": 5,
    "of": 6,
@@ -5286,21 +5404,21 @@
    "state": "not_published"
   },
   "khorezm-lazgi": {
-   "have": 11,
+   "have": 13,
    "of": 15,
    "missing": [
     "status",
-    "footwork_counts",
-    "mistakes",
     "picture"
    ],
    "via": {
+    "footwork_counts": "lesson",
     "posture": "performance",
     "arms": "performance",
-    "signature_moves": "performance",
-    "rhythm": "performance",
+    "signature_moves": "lesson",
+    "rhythm": "lesson",
     "sound": "performance",
-    "study_video": "performance"
+    "mistakes": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -5324,6 +5442,19 @@
    ],
    "via": {},
    "state": "not_published"
+  },
+  "kikkli": {
+   "have": 10,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "signature_moves",
+    "rhythm",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
   },
   "kilic-kalkan": {
    "have": 11,
@@ -5384,6 +5515,21 @@
    ],
    "via": {},
    "state": "not_published"
+  },
+  "koftos": {
+   "have": 8,
+   "of": 15,
+   "missing": [
+    "story",
+    "footwork_counts",
+    "signature_moves",
+    "sound",
+    "hero_video",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
+   "state": "building"
   },
   "kolbasti": {
    "have": 4,
@@ -5680,6 +5826,17 @@
    },
    "state": "active_ready"
   },
+  "lingada-birana-kunitha": {
+   "have": 3,
+   "of": 6,
+   "missing": [
+    "story",
+    "sound",
+    "hero_video"
+   ],
+   "via": {},
+   "state": "teaching_withheld"
+  },
   "lipsi": {
    "have": 9,
    "of": 15,
@@ -5806,19 +5963,19 @@
    "state": "building"
   },
   "loure": {
-   "have": 11,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "lesson_plan",
-    "mistakes",
     "picture"
    ],
    "via": {
+    "footwork_counts": "lesson",
     "posture": "performance",
     "arms": "performance",
-    "signature_moves": "performance",
-    "study_video": "performance"
+    "signature_moves": "lesson",
+    "lesson_plan": "lesson",
+    "mistakes": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -5921,6 +6078,54 @@
    },
    "state": "building"
   },
+  "mahari-dance": {
+   "have": 4,
+   "of": 6,
+   "missing": [
+    "sound",
+    "hero_video"
+   ],
+   "via": {},
+   "state": "teaching_withheld"
+  },
+  "mak-inang": {
+   "have": 3,
+   "of": 15,
+   "missing": [
+    "story",
+    "footwork_counts",
+    "posture",
+    "arms",
+    "formation",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "lesson_plan",
+    "mistakes",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
+  },
+  "mak-sa-moa": {
+   "have": 5,
+   "of": 15,
+   "missing": [
+    "story",
+    "footwork_counts",
+    "posture",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "lesson_plan",
+    "hero_video",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "makaya": {
    "have": 0,
    "of": 15,
@@ -5975,6 +6180,34 @@
    "via": {},
    "state": "story_ready_teaching_withheld"
   },
+  "mangambeu": {
+   "have": 8,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "posture",
+    "arms",
+    "signature_moves",
+    "hero_video",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
+   "state": "building",
+   "ritual_context": true
+  },
+  "marfa": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "signature_moves",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "marinera-nortena": {
    "have": 15,
    "of": 15,
@@ -5984,6 +6217,24 @@
     "study_video": "lesson"
    },
    "state": "active_ready"
+  },
+  "maringa": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "signature_moves",
+    "lesson_plan",
+    "mistakes"
+   ],
+   "via": {
+    "posture": "performance",
+    "arms": "performance",
+    "formation": "performance",
+    "rhythm": "performance",
+    "study_video": "performance"
+   },
+   "state": "building"
   },
   "matachines": {
    "have": 4,
@@ -6005,7 +6256,7 @@
    "via": {
     "signature_moves": "performance",
     "rhythm": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -6204,6 +6455,20 @@
    "via": {},
    "state": "teaching_withheld"
   },
+  "milonguero-style": {
+   "have": 9,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "mirzayi": {
    "have": 4,
    "of": 15,
@@ -6246,19 +6511,39 @@
    "via": {},
    "state": "building"
   },
-  "money-musk": {
-   "have": 8,
+  "mohobelo": {
+   "have": 4,
    "of": 15,
    "missing": [
+    "published",
     "story",
     "footwork_counts",
     "posture",
-    "sound",
+    "arms",
+    "formation",
+    "signature_moves",
+    "rhythm",
+    "lesson_plan",
     "mistakes",
-    "hero_video",
     "study_video"
    ],
    "via": {},
+   "state": "not_published"
+  },
+  "money-musk": {
+   "have": 10,
+   "of": 15,
+   "missing": [
+    "story",
+    "posture",
+    "sound",
+    "mistakes",
+    "hero_video"
+   ],
+   "via": {
+    "footwork_counts": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "mongol-biyelgee": {
@@ -6273,6 +6558,39 @@
     "sound": "performance",
     "study_video": "performance"
    },
+   "state": "building"
+  },
+  "monkey": {
+   "have": 3,
+   "of": 15,
+   "missing": [
+    "story",
+    "footwork_counts",
+    "posture",
+    "arms",
+    "formation",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "lesson_plan",
+    "mistakes",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building",
+   "ritual_context": true
+  },
+  "monodiplos": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "signature_moves",
+    "hero_video",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
    "state": "building"
   },
   "montea": {
@@ -6382,6 +6700,19 @@
    "state": "building",
    "ritual_context": true
   },
+  "mugo": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "rhythm",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building",
+   "ritual_context": true
+  },
   "muixeranga": {
    "have": 6,
    "of": 6,
@@ -6408,18 +6739,19 @@
    "state": "building"
   },
   "nagila": {
-   "have": 8,
+   "have": 13,
    "of": 15,
    "missing": [
     "story",
-    "footwork_counts",
-    "signature_moves",
-    "rhythm",
-    "mistakes",
-    "hero_video",
-    "study_video"
+    "hero_video"
    ],
-   "via": {},
+   "via": {
+    "footwork_counts": "lesson",
+    "signature_moves": "lesson",
+    "rhythm": "lesson",
+    "mistakes": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "nago": {
@@ -6459,6 +6791,16 @@
    ],
    "via": {},
    "state": "building"
+  },
+  "nangiar-koothu": {
+   "have": 4,
+   "of": 6,
+   "missing": [
+    "story",
+    "hero_video"
+   ],
+   "via": {},
+   "state": "teaching_withheld"
   },
   "nantgarw-dances": {
    "have": 4,
@@ -6559,13 +6901,20 @@
    "state": "teaching_withheld"
   },
   "ngajat": {
-   "have": 5,
-   "of": 6,
+   "have": 8,
+   "of": 15,
    "missing": [
-    "sound"
+    "footwork_counts",
+    "posture",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "mistakes",
+    "study_video"
    ],
    "via": {},
-   "state": "teaching_withheld"
+   "state": "building",
+   "ritual_context": true
   },
   "ngororombe": {
    "have": 3,
@@ -6645,11 +6994,10 @@
    "state": "building"
   },
   "nutbush": {
-   "have": 11,
+   "have": 12,
    "of": 15,
    "missing": [
     "footwork_counts",
-    "hero_video",
     "study_video",
     "picture"
    ],
@@ -6815,18 +7163,25 @@
    "ritual_context": true
   },
   "pajoge": {
-   "have": 13,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "mistakes"
+    "footwork_counts"
    ],
    "via": {
     "signature_moves": "performance",
-    "rhythm": "performance",
-    "study_video": "performance"
+    "rhythm": "lesson",
+    "mistakes": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
+  },
+  "pandanggo-sa-ilaw": {
+   "have": 6,
+   "of": 6,
+   "missing": [],
+   "via": {},
+   "state": "story_ready_teaching_withheld"
   },
   "pangalay": {
    "have": 9,
@@ -7400,6 +7755,19 @@
    "via": {},
    "state": "story_ready_teaching_withheld"
   },
+  "pop-goes-the-weasel": {
+   "have": 13,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "mistakes"
+   ],
+   "via": {
+    "signature_moves": "performance",
+    "study_video": "performance"
+   },
+   "state": "building"
+  },
   "potrculka": {
    "have": 7,
    "of": 15,
@@ -7504,6 +7872,27 @@
    "via": {},
    "state": "story_ready_teaching_withheld"
   },
+  "qasemabadi": {
+   "have": 2,
+   "of": 15,
+   "missing": [
+    "published",
+    "story",
+    "status",
+    "footwork_counts",
+    "posture",
+    "arms",
+    "formation",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "lesson_plan",
+    "mistakes",
+    "study_video"
+   ],
+   "via": {},
+   "state": "not_published"
+  },
   "qaytarma": {
    "have": 12,
    "of": 15,
@@ -7552,18 +7941,18 @@
    "state": "active_ready"
   },
   "queer-tango": {
-   "have": 13,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "mistakes"
+    "footwork_counts"
    ],
    "via": {
     "posture": "performance",
     "arms": "performance",
-    "rhythm": "performance",
+    "rhythm": "lesson",
     "sound": "performance",
-    "study_video": "performance"
+    "mistakes": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -8762,6 +9151,40 @@
    },
    "state": "building"
   },
+  "stanky-legg": {
+   "have": 3,
+   "of": 15,
+   "missing": [
+    "published",
+    "story",
+    "footwork_counts",
+    "posture",
+    "arms",
+    "formation",
+    "signature_moves",
+    "rhythm",
+    "sound",
+    "lesson_plan",
+    "mistakes",
+    "study_video"
+   ],
+   "via": {},
+   "state": "not_published"
+  },
+  "starotikvesko": {
+   "have": 9,
+   "of": 15,
+   "missing": [
+    "story",
+    "footwork_counts",
+    "posture",
+    "hero_video",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "stave-dancing": {
    "have": 11,
    "of": 15,
@@ -8800,6 +9223,19 @@
    "state": "building",
    "ritual_context": true
   },
+  "stick-dance-african-american": {
+   "have": 10,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "signature_moves",
+    "rhythm",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "stiletto-dance": {
    "have": 14,
    "of": 15,
@@ -8837,12 +9273,24 @@
    },
    "state": "not_published"
   },
+  "strip-the-willow": {
+   "have": 11,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "signature_moves",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "suahongi": {
    "have": 3,
    "of": 6,
    "missing": [
     "story",
-    "status",
+    "sound",
     "hero_video"
    ],
    "via": {},
@@ -8950,6 +9398,39 @@
    "via": {},
    "state": "building"
   },
+  "ta-xila": {
+   "have": 5,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "posture",
+    "arms",
+    "formation",
+    "signature_moves",
+    "lesson_plan",
+    "mistakes",
+    "hero_video",
+    "study_video",
+    "picture"
+   ],
+   "via": {},
+   "state": "building"
+  },
+  "tajaraste": {
+   "have": 8,
+   "of": 15,
+   "missing": [
+    "footwork_counts",
+    "posture",
+    "signature_moves",
+    "rhythm",
+    "mistakes",
+    "hero_video",
+    "study_video"
+   ],
+   "via": {},
+   "state": "building"
+  },
   "takalo": {
    "have": 12,
    "of": 15,
@@ -9014,15 +9495,16 @@
    "ritual_context": true
   },
   "tango-liso": {
-   "have": 11,
+   "have": 13,
    "of": 15,
    "missing": [
-    "footwork_counts",
     "hero_video",
-    "study_video",
     "picture"
    ],
-   "via": {},
+   "via": {
+    "footwork_counts": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "tanoura": {
@@ -9178,13 +9660,11 @@
    "state": "building"
   },
   "tertali": {
-   "have": 5,
+   "have": 6,
    "of": 6,
-   "missing": [
-    "hero_video"
-   ],
+   "missing": [],
    "via": {},
-   "state": "teaching_withheld"
+   "state": "story_ready_teaching_withheld"
   },
   "thacholikali": {
    "have": 11,
@@ -9199,14 +9679,15 @@
    "state": "building"
   },
   "the-chicken": {
-   "have": 12,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "hero_video",
-    "study_video"
+    "hero_video"
    ],
-   "via": {},
+   "via": {
+    "footwork_counts": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "the-freddie": {
@@ -9404,11 +9885,10 @@
    "state": "not_published"
   },
   "tongyeong-ogwandae": {
-   "have": 4,
+   "have": 5,
    "of": 6,
    "missing": [
-    "hero_video",
-    "picture"
+    "hero_video"
    ],
    "via": {},
    "state": "teaching_withheld"
@@ -9522,7 +10002,7 @@
    "state": "teaching_withheld"
   },
   "troika": {
-   "have": 5,
+   "have": 6,
    "of": 15,
    "missing": [
     "story",
@@ -9533,10 +10013,11 @@
     "sound",
     "mistakes",
     "hero_video",
-    "study_video",
     "picture"
    ],
-   "via": {},
+   "via": {
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "trojak": {
@@ -9554,7 +10035,7 @@
    "state": "building"
   },
   "tropanka": {
-   "have": 8,
+   "have": 9,
    "of": 15,
    "missing": [
     "story",
@@ -9562,10 +10043,11 @@
     "posture",
     "sound",
     "hero_video",
-    "study_video",
     "picture"
    ],
-   "via": {},
+   "via": {
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "tsakonikos": {
@@ -10047,11 +10529,10 @@
    "state": "not_published"
   },
   "wari": {
-   "have": 4,
+   "have": 5,
    "of": 6,
    "missing": [
-    "hero_video",
-    "picture"
+    "hero_video"
    ],
    "via": {},
    "state": "teaching_withheld"
@@ -10261,14 +10742,14 @@
    "state": "building"
   },
   "xuc": {
-   "have": 12,
+   "have": 14,
    "of": 15,
    "missing": [
-    "footwork_counts",
-    "hero_video",
-    "study_video"
+    "footwork_counts"
    ],
-   "via": {},
+   "via": {
+    "study_video": "performance"
+   },
    "state": "building"
   },
   "yablochko": {
@@ -10458,20 +10939,21 @@
    "ritual_context": true
   },
   "zaramo": {
-   "have": 6,
+   "have": 8,
    "of": 15,
    "missing": [
     "story",
     "footwork_counts",
     "arms",
-    "rhythm",
     "sound",
     "mistakes",
     "hero_video",
-    "study_video",
     "picture"
    ],
-   "via": {},
+   "via": {
+    "rhythm": "lesson",
+    "study_video": "lesson"
+   },
    "state": "building"
   },
   "zbojnicki": {

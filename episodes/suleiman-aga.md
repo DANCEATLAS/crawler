@@ -115,7 +115,7 @@ NARRATION: Step 1: Step 1 (duration 2 counts): Small step forward or side facing
 NARRATION: Step 2: Step 2 (duration 2 counts): Small step matching rhythm
 NARRATION: Footwork from the sources: Four small steps per measure following a 2+2+2+3 duration scheme
 NARRATION: Drill: Clap the 9/8 rhythm emphasizing beat 7 (the 3-count step)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -185,7 +185,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Step 1 (duration 2 counts): Small step forward or side facing partner
 NARRATION: Step 2: Step 2 (duration 2 counts): Small step matching rhythm
 NARRATION: Drill: Maintain open alignment while executing basic four-step movement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -255,7 +255,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step 3 (duration 2 counts): Small step maintaining face-to-face orientation
 NARRATION: Step 2: Step 4 (duration 3 counts): Slightly extended step resolving the 9/8 measure
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: count the 9/8 bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Karsilamas; https://www.wikidata.org/wiki/Q16939287

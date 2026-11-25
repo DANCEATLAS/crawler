@@ -82,7 +82,8 @@
    "voice": [
     "warm",
     "precise",
-    "patient"
+    "patient",
+    "direct"
    ],
    "beliefs": [
     {
@@ -91,7 +92,22 @@
      "about": "how_people_learn"
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:18",
+     "moment": "opening",
+     "says": "The teacher introduces himself and announces that he is going to show a basic pachanga step in this lesson.",
+     "tag": "other"
+    },
+    {
+     "t": "8:51",
+     "moment": "closing",
+     "says": "The teacher hopes the lesson was useful, encourages the learner to leave a comment and subscribe for more videos, and says goodbye.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and well-prepared to practice pachanga basics at home through patient breakdown and clear guidance."
   },
   "learner_voice": {
    "struggles": [
@@ -132,5 +148,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-25T21:11:36Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 2,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

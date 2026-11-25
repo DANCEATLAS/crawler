@@ -1,0 +1,131 @@
+{
+ "youtube_id": "o034qLnYwVI",
+ "slug": "zaramo",
+ "dance": "Zaramo",
+ "title": "Zaramo, Grecia, tutorial in italiano con Juancarlos Battilani",
+ "channel": "Juan Carlos Battilani",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-25T21:29:36Z",
+ "url": "https://www.youtube.com/watch?v=o034qLnYwVI",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains the steps verbally while standing in a circle with students before demonstrating. He guides the practice with spoken counts and transitions to music accompaniment.",
+  "language": "italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:08",
+    "segment": "context",
+    "note": "Teacher introduces Zaramo as a simple Greek dance based on the six model."
+   },
+   {
+    "t": "0:25",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the step pattern and count sequence slowly."
+   },
+   {
+    "t": "1:09",
+    "segment": "music_practice",
+    "note": "Class dances along with music in a circle."
+   },
+   {
+    "t": "1:22",
+    "segment": "context",
+    "note": "Teacher explains traditional roles and posture for men and women."
+   },
+   {
+    "t": "1:47",
+    "segment": "full_demo",
+    "note": "Full dance practice with music continuing through the end."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6",
+  "cues": [],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Zaramo step",
+    "counts": "1-2-3-4-5-6",
+    "description": "Six-count step where left foot goes back and right foot goes forward."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal explanation of counts before moving",
+    "Demonstration within a circle with students"
+   ],
+   "what_hinders": [
+    "Camera angle remains static from the front"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "vi propongo Zaramo che è una danza greca molto molto semplice"
+   },
+   {
+    "t": "0:25",
+    "text": "che è un passo passo passo"
+   },
+   {
+    "t": "1:17",
+    "text": "balliamo questa Zaramo"
+   },
+   {
+    "t": "4:11",
+    "text": "Eccoci la festa greca Zaramo"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 8,
+    "end_s": 25,
+    "topic": "teaching",
+    "observation": "Teacher stands facing the camera with four students arranged in a semicircle holding hands, explaining the dance origin.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact foot placement details due to distance",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 25,
+    "end_s": 44,
+    "topic": "movement",
+    "observation": "Teacher demonstrates footwork counting aloud from one to six while stepping in place.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "weight distribution on individual feet",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 109,
+    "end_s": 120,
+    "topic": "movement",
+    "observation": "The group moves in a circle holding hands while performing the steps to music.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "footwork precision of students in the back",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explaining the cultural context of traditional Greek men's and women's postures before practicing with music."
+ },
+ "attempts": 1
+}

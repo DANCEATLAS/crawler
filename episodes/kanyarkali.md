@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-25 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Nair community elder with deep knowledge of Palakkad's social history and ritual precision.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Nine-Pillared Night
 NARRATION: This is Kanyarkali. Medieval to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (syuUP1cWJZM)
 ON SCREEN: Title card: Kanyarkali · India · Medieval to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The performance begins with Vattakali, a rhythmic circular dance perf
 NARRATION: Dancers move along the periphery while singers and musicians stay in the center.
 NARRATION: This is followed by Purattu, which are dramatic sketches.
 NARRATION: Watch for Vattakali, Purattu.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (syuUP1cWJZM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular dancing along the periphery of a square pandal around a central lamp.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'syuUP1cWJZM', 'checked_by_vision_model': True, 'title': 'Kanyarkali - A Traditional Folklore Dance of Palakkad - Her Holidays - July 27-28, 2019'}
 Images: 6 licensed — Surajme23 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Surajme23 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Gangadasp / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Gangadasp / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Gangadasp / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The flickering central lamp in the dark pandal, The nine wooden pillars supporting the roof, The contrast between martial costumes and cross-dressed female attire, The circular blur of dancers against the square stage
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Kanyarkali; https://www.wikidata.org/wiki/Q6365848

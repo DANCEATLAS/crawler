@@ -113,7 +113,7 @@ NARRATION: Step 1: Form parallel lines facing front
 NARRATION: Step 2: Step forward in synchronized rhythm with fast-paced folk cadence
 NARRATION: Footwork from the sources: Fast-paced folk steps executed in line formation
 NARRATION: Drill: Practice keeping even spacing in a straight line
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -180,7 +180,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form parallel lines facing front
 NARRATION: Step 2: Step forward in synchronized rhythm with fast-paced folk cadence
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -245,7 +245,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step forward in synchronized rhythm with fast-paced folk cadence
 NARRATION: Step 2: Execute subtle hand gestures matching line movement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -307,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Cambodia; https://www.wikidata.org/wiki/Q7340702

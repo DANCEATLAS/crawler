@@ -114,7 +114,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Open circle hand-hold step
 NARRATION: Step 2: Slow heavy step
 NARRATION: Drill: Circle walking step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -179,7 +179,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Open circle hand-hold step
 NARRATION: Step 2: Slow heavy step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -243,7 +243,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Slow heavy step
 NARRATION: Step 2: Agile leap
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -305,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (5): https://en.wikipedia.org/wiki/Greek_dances; https://www.wikidata.org/wiki/Q5601924; https://de.wikipedia.org/wiki/Griechischer_Tanz; https://archive.org/details/antiquegreekdan00emmagoog; https://archive.org/details/cu31924019239668

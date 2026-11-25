@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a hero video; licensed images (3 needed); posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic dance historian
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Hully Gully: The Dance That Swept the World
 NARRATION: This is Hully Gully. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (6fMlfXmHsb4)
 ON SCREEN: Title card: Hully Gully · United States · 20th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: Dancers stand in lines facing the stage.
 NARRATION: There is no physical contact between dancers.
 NARRATION: An MC calls out steps, which are simple to execute but require speed to keep up with the music.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (6fMlfXmHsb4)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Line formation facing the stage
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand in a line facing the front
 NARRATION: Listen for the MC to call out a step
-NARRATION: Count it: .
+NARRATION: Count it: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -102,7 +102,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -112,14 +112,16 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a line facing the front
 NARRATION: Step 2: Listen for the MC to call out a step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 7-8 / 1-2-3-4 / 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute the step quickly to match the tempo
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 7-8 / 1-2-3-4 / 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -135,7 +137,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -164,7 +166,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -174,14 +176,16 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a line facing the front
 NARRATION: Step 2: Listen for the MC to call out a step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 7-8 / 1-2-3-4 / 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute the step quickly to match the tempo
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 7-8 / 1-2-3-4 / 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -197,7 +201,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Line formation facing the stage
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -226,7 +230,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -236,13 +240,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Listen for the MC to call out a step
 NARRATION: Step 2: Execute the step quickly to match the tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 7-8 / 1-2-3-4 / 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 7-8 / 1-2-3-4 / 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -259,7 +265,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 7-8 / 1-2-3-4 / 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Line formation facing the stage
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -288,7 +294,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance was popularized in hotels, such as the Cadillac Hotel in Miami Beach, and at public venues like the New York World's Fair and NATO bases in Europe.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '6fMlfXmHsb4', 'checked_by_vision_model': True, 'title': 'The Olympics The Hully Gully'}
 Images: 0 licensed
 Footage: File:Gröna Lund Hully-Gully, Dansbanan 1987.webm — https://upload.wikimedia.org/wikipedia/commons/6/6f/Gr%C3%B6na_Lund_Hully-Gully%2C_Dansbanan_1987.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 1960s dance halls, Line formations, Archive footage of Frank Rocco
@@ -298,9 +304,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 78 tutorial(s) of the street-urban family studied · videos studied: 78
-Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 7-8 / 1-2-3-4 / 5-6-7-8
+Demonstration: views used by most teachers: back; tempo progression: slow; repetitions per step: about 3
+Cues: apri sinistra; incrocio avanti destra; calchetto col piede destro; facendo snap
 
 Sources (5): https://en.wikipedia.org/wiki/Hully_Gully; https://www.wikidata.org/wiki/Q5936128; https://fr.wikipedia.org/wiki/Hully-Gully; https://de.wikipedia.org/wiki/Hully_Gully; https://it.wikipedia.org/wiki/Hully_gully

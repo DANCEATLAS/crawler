@@ -3,31 +3,31 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 51,
+  "read": 57,
   "next": 6,
-  "waiting": 17,
+  "waiting": 11,
   "thin": 3,
   "no_sources": 0,
   "unanswered": 3,
   "owner_topics": 14,
   "owner_read": 12,
-  "papers": 23,
-  "papers_shown": 23,
-  "findings_checked": 225,
+  "papers": 24,
+  "papers_shown": 24,
+  "findings_checked": 249,
   "searches": 50,
-  "searches_asked": 13
+  "searches_asked": 14
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "moving_together",
-  "older_learners",
-  "children",
-  "dance_across_life",
-  "embodied_cognition",
-  "gamification"
+  "coach_and_learner_relationship",
+  "working_alliance",
+  "teacher_enthusiasm",
+  "need_supportive_teaching",
+  "teacher_expectations",
+  "self_compassion"
  ],
  "groups": [
   {
@@ -1797,10 +1797,43 @@
     {
      "key": "embodied_cognition",
      "name": "embodied cognition",
-     "state": "next",
+     "state": "read",
      "tags": [
       "feel_and_groove",
       "culture_and_meaning"
+     ],
+     "on": "2026-11-25",
+     "principle": "Cognition is not just a brain activity but is deeply shaped by the body's physical state, sensorimotor capacities, and active interactions with the environment.",
+     "for_the_teacher": [
+      "Encourage learners to use their physical environment as a tool to support their learning process.",
+      "Focus on movement as a way to build cognitive understanding rather than just memorizing abstract steps.",
+      "Design exercises that require the learner to actively explore and modify their physical space to improve their performance."
+     ],
+     "when_it_does_not_apply": "The sources note that embodied cognition is a research program with overlapping and sometimes competing theories rather than a single, well-defined unified theory.",
+     "findings": [
+      {
+       "finding": "Cognition is fundamentally linked to the body's physical characteristics and its ability to interact with the world.",
+       "quote": "cognition depends upon the kinds of experience that come from having a body with various sensorimotor capacities",
+       "source": "https://en.wikipedia.org/wiki/Embodied_cognition"
+      },
+      {
+       "finding": "The primary purpose of cognitive processes is to facilitate effective action within the environment.",
+       "quote": "the gaining of knowledge is a stepping stone to achieving the more immediate goal of guiding behavior in response to the system's changing surroundings.",
+       "source": "https://en.wikipedia.org/wiki/Embodied_cognition"
+      },
+      {
+       "finding": "Cognitive tasks are often performed by utilizing the environment rather than relying solely on internal mental processing.",
+       "quote": "we off-load cognitive work onto the environment",
+       "source": "https://en.wikipedia.org/wiki/Embodied_cognition"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Embodied_cognition",
+       "title": "Embodied cognition",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     }
    ]
@@ -2413,24 +2446,121 @@
     {
      "key": "moving_together",
      "name": "moving together",
-     "state": "next",
+     "state": "read",
      "tags": [
       "social_connection"
+     ],
+     "on": "2026-11-25",
+     "principle": "Observing and moving in synchrony with others enhances social bonding, cognitive processing, and the desire to move.",
+     "for_the_teacher": [
+      "Encourage learners to dance together in time with the music to foster social bonding and enhance their desire to move."
+     ],
+     "findings": [
+      {
+       "finding": "People acquire new behaviors through observing and imitating others in a social context.",
+       "quote": "Social learning theory is a psychological theory of social behavior that explains how people acquire new behaviors, attitudes, and emotional reactions through observing and imitating others.",
+       "source": "https://en.wikipedia.org/wiki/Social_learning_theory"
+      },
+      {
+       "finding": "Dancing to the same music significantly enhances interpersonal memory for person-related targets.",
+       "quote": "Results showed that same-music dancing significantly enhanced memory for sash color and sash symbol.",
+       "source": "https://europepmc.org/article/MED/26941668"
+      },
+      {
+       "finding": "Movement synchrony among performers predicts brain synchrony among spectators.",
+       "quote": "Thirdly, we show that movement synchrony among performers is the best predictor of brain synchrony among both expert and novice spectators.",
+       "source": "https://europepmc.org/article/MED/39333777"
+      },
+      {
+       "finding": "Increasing synchrony between instruments leads to greater listener pleasantness and desire to move or dance.",
+       "quote": "Results of the behavioral experiment showed increasing pleasantness and desire to move/dance with increasing synchrony between instruments.",
+       "source": "https://europepmc.org/article/MED/35281511"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Social_learning_theory",
+       "title": "Social learning theory",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/26941668",
+       "title": "Effects on Inter-Personal Memory of Dancing in Time with Others",
+       "authors": "Woolhouse MH, Tidhar D, Cross I.",
+       "year": "2016",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/39333777",
+       "title": "Movement synchrony among dance performers predicts brain synchrony among dance spectators",
+       "authors": "Orgs G, Vicary S, Sperling M, Richardson DC, Williams AL.",
+       "year": "2024",
+       "journal": "Scientific reports"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/35281511",
+       "title": "Neural Correlates of Listening to Varying Synchrony Between Beats in Samba Percussion and Relations to Feeling the Groove",
+       "authors": "Engel A, Hoefle S, Monteiro MC, Moll J, Keller PE.",
+       "year": "2022",
+       "journal": "Frontiers in neuroscience"
+      }
      ]
     },
     {
      "key": "gamification",
      "name": "gamification",
-     "state": "next",
+     "state": "read",
      "tags": [
       "social_connection",
       "reason_to_return"
+     ],
+     "on": "2026-11-25",
+     "principle": "Gamification uses game design elements like goal-setting, progress tracking, and feedback to increase learner motivation and engagement in non-game contexts.",
+     "for_the_teacher": [
+      "Frame dance practice sessions as 'quests' or 'challenges' to encourage students to take ownership of their learning.",
+      "Use progress bars or visual trackers to show students how far they have come in mastering a specific dance routine.",
+      "Provide immediate feedback on movement accuracy to help students adjust their performance in real-time.",
+      "Combine multiple game elements, such as goal-setting and social connection, rather than relying solely on points or badges."
+     ],
+     "when_it_does_not_apply": "Gamification of physical activity is less distributed among older adults and patients with specific diseases compared to younger populations, and results in some studies are mixed or show only weak indications of positive effects.",
+     "findings": [
+      {
+       "finding": "Gamification elements such as goal-setting, progress bars, and feedback can increase participation in physical activity.",
+       "quote": "The most frequently used game elements were goal-setting, followed by progress bars, rewards, points, and feedback. This review demonstrated that gamification interventions could increase PA participation",
+       "source": "https://europepmc.org/article/MED/35113034"
+      },
+      {
+       "finding": "Effective gamification requires a balanced combination of elements rather than relying on superficial incentives like points alone.",
+       "quote": "Business initiatives designed to use gamification to retain and recruit customers, but do not incorporate a creative and balanced approach to combining game elements, may be destined to fail.",
+       "source": "https://en.wikipedia.org/wiki/Gamification_of_learning"
+      },
+      {
+       "finding": "Gamification can help learners develop metacognitive skills by framing tasks as challenges, allowing them to take ownership of their progress.",
+       "quote": "By framing assignments as challenges or quests, gamified strategies help students develop metacognitive skills that enable them to strategize and take ownership of their learning journey.",
+       "source": "https://en.wikipedia.org/wiki/Gamification_of_learning"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/35113034",
+       "title": "The Effects of mHealth-Based Gamification Interventions on Participation in Physical Activity: Systematic Review",
+       "authors": "Xu L, Shi H, Shen M, Ni Y, Zhang X, Pang Y, Yu T, Lian X, Yu T, Yang X, Li F.",
+       "year": "2022",
+       "journal": "JMIR mHealth and uHealth"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Gamification_of_learning",
+       "title": "Gamification of learning",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "teacher_enthusiasm",
      "name": "teacher enthusiasm",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "fun_and_energy"
      ]
@@ -2438,7 +2568,7 @@
     {
      "key": "need_supportive_teaching",
      "name": "need supportive teaching",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "autonomy",
       "learner_as_dancer",
@@ -2963,27 +3093,180 @@
     {
      "key": "older_learners",
      "name": "older learners",
-     "state": "next",
+     "state": "read",
      "tags": [
       "body_adaptation"
+     ],
+     "on": "2026-11-25",
+     "principle": "Exercise interventions incorporating physical and cognitive components can improve balance, reduce falls, and enhance executive functions and brain plasticity in older adults.",
+     "for_the_teacher": [
+      "Include balance challenges and single-leg standing tasks into lessons to support stability and fall prevention.",
+      "Combine simultaneous cognitive tasks, such as memory or attention cues, with physical steps to engage executive functions."
+     ],
+     "findings": [
+      {
+       "finding": "Physical exercise interventions effectively reduce the rate of falls in older adults living in the community.",
+       "quote": "Exercise reduces the rate of falls by 23% (pooled rate ratio (RaR) 0.77, 95% confidence interval (CI) 0.71 to 0.83, 64 studies, high certainty evidence).",
+       "source": "https://europepmc.org/article/MED/33239019"
+      },
+      {
+       "finding": "Three-dimensional exercise interventions, including dance and yoga, demonstrate improvements in balance measures such as single-leg stance and Timed Up & Go test scores.",
+       "quote": "3D (3 dimensional) exercise (including Tai Chi, qi gong, dance, yoga) (15 studies of which seven provided primary outcome data): Timed Up & Go Test",
+       "source": "https://europepmc.org/article/MED/22071817"
+      },
+      {
+       "finding": "Interactive video game dancing combined with balance training modulates prefrontal brain activity during walking and enhances cognitive executive functions.",
+       "quote": "Both interventions significantly reduced left and right hemispheric PFC oxygenation during the acceleration of walking (p < 0.05 or trend, r = 0.25-0.36), while DANCE showed a larger reduction at the end of the 30-s walking task compared to BALANCE in the left PFC",
+       "source": "https://europepmc.org/article/MED/27148041"
+      },
+      {
+       "finding": "Simultaneous cognitive-physical training programs like video game dancing provide added benefits in dimensions of executive function compared to exclusively physical training.",
+       "quote": "Advantages of the simultaneous cognitive-physical programs were found in two dimensions of executive function.",
+       "source": "https://europepmc.org/article/MED/26316729"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/33239019",
+       "title": "Evidence on physical activity and falls prevention for people aged 65+ years: systematic review to inform the WHO guidelines on physical activity and sedentary behaviour",
+       "authors": "Sherrington C, Fairhall N, Kwok W, Wallbank G, Tiedemann A, Michaleff ZA, Ng CACM, Bauman A.",
+       "year": "2020",
+       "journal": "The international journal of behavioral nutrition and physical activity"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/22071817",
+       "title": "Exercise for improving balance in older people",
+       "authors": "Howe TE, Rochester L, Neil F, Skelton DA, Ballinger C.",
+       "year": "2011",
+       "journal": "The Cochrane database of systematic reviews"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/27148041",
+       "title": "Exergame and Balance Training Modulate Prefrontal Brain Activity during Walking and Enhance Executive Function in Older Adults",
+       "authors": "Eggenberger P, Wolf M, Schumann M, de Bruin ED.",
+       "year": "2016",
+       "journal": "Frontiers in aging neuroscience"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/26316729",
+       "title": "Does multicomponent physical exercise with simultaneous cognitive training boost cognitive performance in older adults? A 6-month randomized controlled trial with a 1-year follow-up",
+       "authors": "Eggenberger P, Schumacher V, Angst M, Theill N, de Bruin ED.",
+       "year": "2015",
+       "journal": "Clinical interventions in aging"
+      }
      ]
     },
     {
      "key": "children",
      "name": "children",
-     "state": "next",
+     "state": "read",
      "tags": [
       "body_adaptation",
       "play_and_variation"
+     ],
+     "on": "2026-11-25",
+     "principle": "Structured instruction and practice in fundamental movement skills significantly improve young children's motor proficiency and broader developmental outcomes.",
+     "for_the_teacher": [
+      "Incorporate regular practice of fundamental movement skills like jumping, hopping, and crossing the midline into lessons for young children."
+     ],
+     "findings": [
+      {
+       "finding": "Practicing fundamental movement skills through structured interventions yields significant improvements in children's movement abilities.",
+       "quote": "preschooler's participation in the intervention resulted in greater improvement in 12 movement skills",
+       "source": "https://europepmc.org/article/MED/32365601"
+      },
+      {
+       "finding": "Children with higher locomotor scores engage in more frequent dancing activities.",
+       "quote": "Children in the highest locomotor tertile engaged in more dancing than children in the lowest tertile",
+       "source": "https://europepmc.org/article/MED/24342373"
+      },
+      {
+       "finding": "Fundamental movement skill practice can positively impact socio-emotional and cognitive functions in children with autism spectrum disorder.",
+       "quote": "The FMS intervention led to improvements in both social interaction abilities and executive function in children with autism spectrum disorder.",
+       "source": "https://europepmc.org/article/MED/41039500"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/32365601",
+       "title": "Preschoolers Build Fundamental Motor Skills Critical to an Active Lifestyle: The <i>All 4 Kids<sup>©</sup></i> Intervention Study",
+       "authors": "Lindsay AR, Starrett A, Brian A, Byington TA, Lucas J, Sigman-Grant M.",
+       "year": "2020",
+       "journal": "International journal of environmental research and public health"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/24342373",
+       "title": "Young children's motor skill performance: relationships with activity types and parent perception of athletic competence",
+       "authors": "O'Neill JR, Williams HG, Pfeiffer KA, Dowda M, McIver KL, Brown WH, Pate RR.",
+       "year": "2014",
+       "journal": "Journal of science and medicine in sport"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/41039500",
+       "title": "Effect of fundamental movement skills practice on executive function and social interaction ability in children with moderate autism: a randomized controlled trial",
+       "authors": "Wang Q, Jia S, Ding F, Wang X, Si Y, Wang X, Sun J.",
+       "year": "2025",
+       "journal": "BMC complementary medicine and therapies"
+      }
      ]
     },
     {
      "key": "dance_across_life",
      "name": "dance across life",
-     "state": "next",
+     "state": "read",
      "tags": [
       "body_adaptation",
       "reason_to_return"
+     ],
+     "on": "2026-11-25",
+     "principle": "Structured dance practice across the lifespan significantly improves physical health, balance, and cognitive function while requiring careful attention to injury prevention.",
+     "for_the_teacher": [
+      "Always lead the learners through a proper warm-up before starting movements to prevent injury.",
+      "Remind learners not to push through pain and to stop and rest when needed."
+     ],
+     "findings": [
+      {
+       "finding": "Dancing helps improve balance, coordination, posture, and muscle strength across various ages.",
+       "quote": "Dance also increases core strength which can improve balance, coordination, and posture (which can, in turn, reduce mechanical back pain).",
+       "source": "https://en.wikipedia.org/wiki/Dance_and_health"
+      },
+      {
+       "finding": "Structured dance interventions significantly improve body composition, blood biomarkers, and musculoskeletal function.",
+       "quote": "Meta-analyses showed dance interventions significantly improved body composition, blood biomarkers, and musculoskeletal function.",
+       "source": "https://europepmc.org/article/MED/29270864"
+      },
+      {
+       "finding": "Long-term dancing interventions can improve balance abilities and hippocampal brain structures in older adults.",
+       "quote": "Moreover, only the dancers achieved a significant increase in the balance composite score.",
+       "source": "https://europepmc.org/article/MED/28674488"
+      },
+      {
+       "finding": "Proper warmups, technique, and avoiding dancing through pain help prevent common injuries in training.",
+       "quote": "Warming up and cooling down exercises are recommended before and after exercises to avoid strain, muscle pains, and possible injury.",
+       "source": "https://en.wikipedia.org/wiki/Dance_and_health"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Dance_and_health",
+       "title": "Dance and health",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/29270864",
+       "title": "The Effectiveness of Dance Interventions on Physical Health Outcomes Compared to Other Forms of Physical Activity: A Systematic Review and Meta-Analysis",
+       "authors": "Fong Yan A, Cobley S, Chan C, Pappas E, Nicholson LL, Ward RE, Murdoch RE, Gu Y, Trevor BL, Vassallo AJ, Wewege MA, Hiller CE.",
+       "year": "2018",
+       "journal": "Sports medicine (Auckland, N.Z.)"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28674488",
+       "title": "Dancing or Fitness Sport? The Effects of Two Training Programs on Hippocampal Plasticity and Balance Abilities in Healthy Seniors",
+       "authors": "Rehfeld K, Müller P, Aye N, Schmicker M, Dordevic M, Kaufmann J, Hökelmann A, Müller NG.",
+       "year": "2017",
+       "journal": "Frontiers in human neuroscience"
+      }
      ]
     }
    ]
@@ -2996,7 +3279,7 @@
     {
      "key": "coach_and_learner_relationship",
      "name": "coach and learner relationship",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "checks_in",
       "own_story",
@@ -3006,7 +3289,7 @@
     {
      "key": "working_alliance",
      "name": "working alliance",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "checks_in",
       "names_the_feeling"
@@ -3015,7 +3298,7 @@
     {
      "key": "teacher_expectations",
      "name": "teacher expectations",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "learner_as_dancer",
       "praise_and_expectancy"
@@ -3024,7 +3307,7 @@
     {
      "key": "self_compassion",
      "name": "self compassion",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "rest_and_kindness",
       "normalise_mistakes"
@@ -3135,6 +3418,53 @@
   }
  ],
  "papers": [
+  {
+   "key": "paper-med-39355859",
+   "title": "Dance for Parkinson, multifaceted experiences of persons living with Parkinson's Disease",
+   "on": "2026-11-25",
+   "tags": [
+    "body_adaptation",
+    "social_connection",
+    "fun_and_energy"
+   ],
+   "authors": "Andreasson I, Björkdahl A, Fristedt S, Bergman P, Filipowicz K, Johansson IK, Santos Tavares Silva I.",
+   "year": "2024",
+   "journal": "Scandinavian journal of occupational therapy",
+   "url": "https://europepmc.org/article/MED/39355859",
+   "cited_by": 3,
+   "principle": "Dance classes for individuals with Parkinson's disease improve well-being by providing social connection, aesthetic enjoyment, and movements tailored to their specific physical needs.",
+   "for_the_teacher": [
+    "Incorporate movements that can be customized to accommodate the physical limitations of students with Parkinson's disease.",
+    "Foster a sense of social connection and community within the dance class environment.",
+    "Emphasize the aesthetic and pleasurable aspects of dance to enhance the overall experience for participants."
+   ],
+   "findings": [
+    {
+     "finding": "Dance classes offer a multifaceted experience that enhances the well-being of participants.",
+     "quote": "Dance for PD provided a multifaceted experience related to social relationships, aesthetic context, feelings of wellbeing and the physical experience of dancing.",
+     "source": "https://europepmc.org/article/MED/39355859"
+    },
+    {
+     "finding": "Participants benefit from movements that are specifically adapted to their physical condition.",
+     "quote": "The main theme contained four sub-themes: Connectedness, Pleasure and glamour, Well-being in mind and body and Customized movements.",
+     "source": "https://europepmc.org/article/MED/39355859"
+    },
+    {
+     "finding": "Dance is considered an enjoyable activity that effectively addresses the unique requirements of those living with Parkinson's disease.",
+     "quote": "It is an enjoyable activity that meets the specific needs of persons living with the consequences of PD and should therefore be promoted by occupational therapists.",
+     "source": "https://europepmc.org/article/MED/39355859"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/39355859",
+     "title": "Dance for Parkinson, multifaceted experiences of persons living with Parkinson's Disease",
+     "authors": "Andreasson I, Björkdahl A, Fristedt S, Bergman P, Filipowicz K, Johansson IK, Santos Tavares Silva I.",
+     "year": "2024",
+     "journal": "Scandinavian journal of occupational therapy"
+    }
+   ]
+  },
   {
    "key": "paper-med-42172216",
    "title": "Peer-mediated instruction improves acquisition of complex wrestling techniques in school physical education",
@@ -4135,6 +4465,6 @@
    ]
   }
  ],
- "fingerprint": "10cb225dfb3c3997",
- "updated": "2026-11-24"
+ "fingerprint": "acc36affc6652122",
+ "updated": "2026-11-25"
 }

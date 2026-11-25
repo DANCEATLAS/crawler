@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "gay-gordons",
  "name": "Gay Gordons",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GB"
@@ -135,6 +135,19 @@
    "checked_at": "2026-11-21T19:20:53Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "7YIqMg8jnpE",
+    "title": "Learning the Gay Gordons",
+    "channel": "USCN",
+    "level": "general",
+    "pos": 2,
+    "neg": 2,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "chapelloise"
   ]
@@ -419,15 +432,10 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   }
-  ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "mistakes": "lesson",
    "study_video": "lesson"
@@ -513,6 +521,116 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "k7qRWdtDVYk",
+   "url": "https://www.youtube.com/watch?v=k7qRWdtDVYk",
+   "title": "The Gay Gordons – Easy Party Dance Tutorial | Step‑by‑Step for Beginners",
+   "channel": "Savoy Dance Tutorials – Sequence & Old Time",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "intro",
+     "note": "Introduction to the Gay Gordons dance"
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "Demonstrating the hold and starting footwork"
+    },
+    {
+     "t": "1:18",
+     "seconds": 78,
+     "segment": "breakdown",
+     "note": "Teaching step-turn"
+    },
+    {
+     "t": "1:55",
+     "seconds": 115,
+     "segment": "breakdown",
+     "note": "Teaching waltz section"
+    },
+    {
+     "t": "2:55",
+     "seconds": 175,
+     "segment": "music_practice",
+     "note": "Dancing with music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Walking steps",
+     "counts": "1-2-3-4",
+     "description": "Walking forward and backward starting on the left foot"
+    },
+    {
+     "name": "Step turn",
+     "counts": "1-2",
+     "description": "Turning in place with step turns"
+    },
+    {
+     "name": "Waltz",
+     "counts": "1-2-3",
+     "description": "Waltz steps in ballroom hold"
+    }
+   ],
+   "cues": [
+    "left right left right",
+    "tap",
+    "step turn"
+   ],
+   "common_mistakes": [
+    "starting on the wrong foot"
+   ],
+   "teacher_style": "The instructor demonstrates the steps clearly while facing the camera and breaking down movements for both lead and follow. She provides continuous verbal cues and counts while her partner demonstrates alongside her.",
+   "distinctive_method": "Dividing instructions explicitly by role (ladies vs gentlemen) during partner dance sequences.",
+   "what_works": [
+    "clear separate instructions for ladies and gentlemen",
+    "repetition of phrases"
+   ],
+   "what_hinders": [
+    "limited angle changes during detailed footwork"
+   ],
+   "evidence": [
+    {
+     "start_s": 15,
+     "end_s": 23,
+     "topic": "teaching",
+     "observation": "Instructor explains handhold positions between lead and follow",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact pressure in the handhold",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 33,
+     "end_s": 42,
+     "topic": "movement",
+     "observation": "Demonstrating forward and turning walking steps",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "weight distribution on feet",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 124,
+     "end_s": 130,
+     "topic": "movement",
+     "observation": "Demonstrating step turns in closed hold",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "floor friction",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -570,6 +688,6 @@
   "polished": false,
   "file": "episodes/gay-gordons.json"
  },
- "fingerprint": "a0df5fa0463c597c",
+ "fingerprint": "bd9412e3fb326774",
  "updated": "2026-11-25"
 }

@@ -2,7 +2,7 @@
  "slug": "vayia-strose-kai-louloudia",
  "name": "Vayia Strose kai Louloudia",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-20T18:31:55Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -270,7 +270,7 @@
       "Drill: Practice simple traveling steps in a circular line formation"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -418,7 +418,7 @@
       "Drill: Practice stepping from an inner/outer double line into a merged single file line on cue"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -568,7 +568,7 @@
       "Drill: Perform complete cycles of line collapsing and expanding at musical intervals"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -741,18 +741,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -760,15 +762,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -798,6 +799,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "dedb4a54d1ba5cafe7a4b44983cd425c01018eca54f546c2c716851014cd786e",
+ "input_fingerprint": "e8fa841257fb6d8319abdb2448d36d6f0d5dfa98597b0abb7569aee1f80c228a",
  "hero_checked": null
 }

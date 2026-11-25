@@ -2,7 +2,7 @@
 
 _Measured 2026-11-25 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 38 profiles are active-ready
+## 39 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
@@ -10,37 +10,37 @@ Since 24 November 2026 a reference clip counts as the licensed picture only when
 
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,345 |
-| Researched from sources (in the atlas) | 739 |
-| Published (passed every gate) | 607 |
-| **Active-ready** | **38** |
-| One item short | 61 |
-| Two items short | 53 |
-| Three to five short | 144 |
-| Story-ready, teaching withheld (sacred or restricted) | 62 |
+| In the atlas | 1,365 |
+| Researched from sources (in the atlas) | 770 |
+| Published (passed every gate) | 631 |
+| **Active-ready** | **39** |
+| One item short | 67 |
+| Two items short | 59 |
+| Three to five short | 145 |
+| Story-ready, teaching withheld (sacred or restricted) | 66 |
 
-Video studied so far: 312 lessons, 294 performances.
+Video studied so far: 341 lessons, 343 performances.
 
 Pace over the last two weeks: +26 active-ready a week.
-Pace over the last two weeks: +193 published a week.
+Pace over the last two weeks: +212 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 353 |
-| a lesson or performance the machine studied, with timestamps | 232 |
-| what to avoid: common mistakes or safety | 212 |
-| a hero video that passed the vision check | 177 |
-| two or more signature moves | 153 |
-| a licensed picture or licensed footage | 147 |
-| tempo, meter or the teacher's count | 146 |
-| posture | 135 |
-| arms and hands | 104 |
-| ordered basic steps or a lesson ladder | 102 |
-| the instruments and what the music sounds like | 88 |
-| origins, meaning and occasions, dress and setting — written from sources | 78 |
-| formation and use of space | 50 |
+| the steps with their counts | 364 |
+| a lesson or performance the machine studied, with timestamps | 234 |
+| what to avoid: common mistakes or safety | 217 |
+| a hero video that passed the vision check | 186 |
+| two or more signature moves | 165 |
+| a licensed picture or licensed footage | 152 |
+| tempo, meter or the teacher's count | 150 |
+| posture | 142 |
+| arms and hands | 108 |
+| ordered basic steps or a lesson ladder | 108 |
+| the instruments and what the music sounds like | 92 |
+| origins, meaning and occasions, dress and setting — written from sources | 84 |
+| formation and use of space | 53 |
 | known to be living, revived or historical | 30 |
 
 ## Closest to the line
@@ -57,6 +57,7 @@ Pace over the last two weeks: +193 published a week.
 - **Charleston Stroll** — needs: a lesson or performance the machine studied, with timestamps
 - **Chinese square dancing** — needs: the steps with their counts
 - **Choobazi** — needs: the steps with their counts
+- **Chunaengjeon** — needs: the steps with their counts
 - **Condong** — needs: the steps with their counts
 - **Courante** — needs: known to be living, revived or historical
 - **Dance of Osman Taka** — needs: the steps with their counts
@@ -70,21 +71,20 @@ Pace over the last two weeks: +193 published a week.
 - **Fouetté** — needs: the instruments and what the music sounds like
 - **Fusion Dance** — needs: what to avoid: common mistakes or safety
 - **Garrotín** — needs: what to avoid: common mistakes or safety
-- **Gay Gordons** — needs: the steps with their counts
 - **Geommu** — needs: the steps with their counts
 - **Gloving** — needs: the steps with their counts
 - **Gombey** — needs: the steps with their counts
 - **Grotesque dance** — needs: the steps with their counts
 - **Hiplet** — needs: the steps with their counts
-- **Huaylarsh** — needs: a licensed picture or licensed footage
 - **Huaylas (Huaylarsh)** — needs: a licensed picture or licensed footage
+- **Improv Tribal Style Belly Dance** — needs: the steps with their counts
 - **J-Setting** — needs: the steps with their counts
 - **Jacking** — needs: a licensed picture or licensed footage
+- **Jota Aragonesa** — needs: known to be living, revived or historical
 - **Kebyar duduk** — needs: the steps with their counts
+- **loure** — needs: a licensed picture or licensed footage
 - **Luddi** — needs: known to be living, revived or historical
 - **makossa** — needs: what to avoid: common mistakes or safety
-- **Melbourne shuffle** — needs: a licensed picture or licensed footage
-- **pachanga** — needs: the steps with their counts
 
 ## The fifteen items
 

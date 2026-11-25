@@ -85,7 +85,8 @@
   "mentor": {
    "voice": [
     "precise",
-    "patient"
+    "patient",
+    "energetic"
    ],
    "beliefs": [],
    "feelings": [
@@ -94,7 +95,34 @@
      "feeling": "self_doubt",
      "response": "The teacher admits he is a 'pretty crappy dancer' to normalize the learning process."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:03",
+     "moment": "opening",
+     "says": "The teacher introduces himself and promises the learner can learn to shuffle in only five minutes by following along.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "0:48",
+     "moment": "before_hard_part",
+     "says": "The teacher tells the learner to hop with their body and bring the movement in and up.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "2:35",
+     "moment": "after_success",
+     "says": "The teacher says 'good' after completing a sequence and transitions to the next step.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:34",
+     "moment": "closing",
+     "says": "The teacher congratulates the learner on a nice job, encourages them to subscribe for more tutorials, and wishes them well.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling encouraged that they can master shuffling quickly with practice."
   },
   "learner_voice": {
    "struggles": [
@@ -129,5 +157,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-25T21:11:14Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 4,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

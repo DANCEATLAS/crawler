@@ -122,7 +122,7 @@ NARRATION: Step 1: Form a circle with all dancers.
 NARRATION: Step 2: Step forward with the right foot.
 NARRATION: Footwork from the sources: Step forward with right foot, then two steps backward with left foot, repeated in a pendulum motion.
 NARRATION: Drill: Practice stepping forward with right foot.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -192,7 +192,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: If using sticks, move them rhythmically in time with the steps.
 NARRATION: Drill: Practice stepping and swinging sticks in time.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -263,7 +263,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Swing arms and body in rhythm with steps.
 NARRATION: Step 2: If using sticks, move them rhythmically in time with the steps.
 NARRATION: Drill: Synchronize singing with steps and stick movements.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (5): https://en.wikipedia.org/wiki/Dance_First; https://www.wikidata.org/wiki/Q116198475; https://fr.wikipedia.org/wiki/Dance_First; https://it.wikipedia.org/wiki/Prima_danza,_poi_pensa._Alla_ricerca_di_Beckett; https://archive.org/details/poesapopularcol00pidagoog

@@ -1,6 +1,6 @@
 # Turfing — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); the costume & setting section
 
@@ -313,10 +313,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8 / 1-2-3-4
 Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 4
-Cues: one two three four; shoulder elbow wrist hand out; five six seven eight
+Cues: one two three four; shoulder elbow wrist hand out; five six seven eight; keep everything still; keep your left leg still; right knee out
 Common mistakes the studied teachers name: don't have it too loose because it'll lose the effect
 
 Sources (2): https://en.wikipedia.org/wiki/Turfing; https://www.wikidata.org/wiki/Q10385518

@@ -123,7 +123,7 @@ NARRATION: Step 1: Slow sailor entrance with broad sweeping arm gestures
 NARRATION: Step 2: Shoulder-to-shoulder formation with synchronized fast foot taps
 NARRATION: Footwork from the sources: Rapid chechotka (tap dance) steps, percussive stomps, heel thrusts, and deep prisiadka squat extensions
 NARRATION: Drill: Broad arm open-and-sweep entrance drill
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -196,7 +196,7 @@ NEEDS: tempo
 NARRATION: Step 1: Khlopushka clapping and slapping combinations against thighs and boots
 NARRATION: Step 2: Kolenko trick exchange mirroring and answering a partner's movement
 NARRATION: Drill: Khlopushka boot and thigh slap rhythm coordination
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -270,7 +270,7 @@ NEEDS: tempo
 NARRATION: Step 1: Khlopushka clapping and slapping combinations against thighs and boots
 NARRATION: Step 2: Kolenko trick exchange mirroring and answering a partner's movement
 NARRATION: Drill: Half-squat knee balance and weight shift
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (4): https://en.wikipedia.org/wiki/Yablochko; https://www.wikidata.org/wiki/Q4535968; https://fr.wikipedia.org/wiki/Yablotchko; https://pt.wikipedia.org/wiki/Yablochko

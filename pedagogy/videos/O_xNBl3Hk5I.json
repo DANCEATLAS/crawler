@@ -1,0 +1,154 @@
+{
+ "youtube_id": "O_xNBl3Hk5I",
+ "slug": "tropanka",
+ "dance": "Tropanka",
+ "title": "Varnenska Tropanka, Bulgaria, tutorial di Juancarlos Battilani",
+ "channel": "Juan Carlos Battilani",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-25T21:26:06Z",
+ "url": "https://www.youtube.com/watch?v=O_xNBl3Hk5I",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Juan Carlos Battilani guides students through Bulgarian folk dances using clear step-by-step breakdowns and verbal counting. He demonstrates variations in entry points to match the phrasing of the music.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Teacher introduces himself and the topic in Italian."
+   },
+   {
+    "t": "0:31",
+    "segment": "context",
+    "note": "Teacher introduces Varnenska Tropanka from Bulgaria and its characteristic rhythm."
+   },
+   {
+    "t": "1:07",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the sequence starting with the right foot."
+   },
+   {
+    "t": "1:40",
+    "segment": "breakdown",
+    "note": "Teacher explains starting the sequence from the left foot to match the melody."
+   },
+   {
+    "t": "2:05",
+    "segment": "layering",
+    "note": "Teacher adds arm movements for line dancing."
+   },
+   {
+    "t": "2:39",
+    "segment": "music_practice",
+    "note": "Full demonstration of the dance with music."
+   },
+   {
+    "t": "5:18",
+    "segment": "recap",
+    "note": "Closing remarks and sign off."
+   }
+  ],
+  "counting_scheme": "1-cia 1-cia 1-cia-cia / shuffle step",
+  "cues": [
+   "un-cia un-cia un-cia-cia",
+   "shuffle step"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Varnenska Tropanka step",
+    "counts": "1-cia 1-cia 1-cia-cia",
+    "description": "Step sequence with shuffle and rhythm accents."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Breaking down the steps with count repetition",
+    "Showing how to adapt the entry to the music"
+   ],
+   "what_hinders": [
+    "Limited camera angles"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:34",
+    "text": "La danza che vorrei presentarvi oggi si chiama Varnenska Tropanka"
+   },
+   {
+    "t": "0:47",
+    "text": "la melodia ci fa sentire molto bene questo un-cia un-cia un-cia-cia"
+   },
+   {
+    "t": "1:40",
+    "text": "anziché farvi entrare con il destro, preferirei con voi partire a metà frase di sinistro"
+   },
+   {
+    "t": "5:19",
+    "text": "questa era la nuova danza"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 1,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Teacher talks to camera wearing red hat and red shirt in a room with white tiles.",
+    "viewpoint": "overhead, unknown if mirrored",
+    "cannot_infer": "exact footwork",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 31,
+    "end_s": 45,
+    "topic": "teaching",
+    "observation": "Teacher wearing patterned hat and striped shirt explains the dance context.",
+    "viewpoint": "overhead, unknown if mirrored",
+    "cannot_infer": "exact footwork",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 108,
+    "end_s": 125,
+    "topic": "movement",
+    "observation": "Teacher demonstrates footwork with back to the camera, counting aloud.",
+    "viewpoint": "overhead, unknown if mirrored",
+    "cannot_infer": "weight transfer details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 251,
+    "end_s": 290,
+    "topic": "movement",
+    "observation": "Teacher dances to music with arm movements and shuffling steps.",
+    "viewpoint": "overhead, unknown if mirrored",
+    "cannot_infer": "continuous ground contact",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Emphasizing starting the dance on the left foot instead of the right to better align with the phrasing of the melody."
+ },
+ "attempts": 1
+}

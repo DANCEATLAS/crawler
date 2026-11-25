@@ -2,7 +2,7 @@
  "slug": "duke-of-perth",
  "name": "Duke of Perth",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:55Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-17T19:44:13Z",
  "qc_score": 9.3,
  "status": "draft",
@@ -273,7 +273,7 @@
       "Drill: Clapping the rant beat"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -418,7 +418,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -560,7 +560,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -736,18 +736,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -755,15 +757,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -793,6 +794,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "9b061520f0ebdfb00bb897f3f1df043ed027c26b4b6f893b5b4d55f05b5c1ffc",
+ "input_fingerprint": "dff4ad1dd7b8bd6fd70fd0cc68b5cd46619a08da9be615ff2b1f3a07c092ebd9",
  "hero_checked": null
 }

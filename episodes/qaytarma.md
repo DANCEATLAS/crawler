@@ -114,7 +114,7 @@ NEEDS: tempo
 NARRATION: Step 1: Smooth rotational hand movements for women
 NARRATION: Step 2: Short, provocative jumps for men
 NARRATION: Footwork from the sources: short, provocative movements with small jumps (men); exact movements of legs (women)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 or 7/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -179,7 +179,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Smooth rotational hand movements for women
 NARRATION: Step 2: Short, provocative jumps for men
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 or 7/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -245,7 +245,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Smooth rotational hand movements for women
 NARRATION: Step 2: Short, provocative jumps for men
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 or 7/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: count the 9/8 or 7/8 bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Qaytarma; https://www.wikidata.org/wiki/Q18225375

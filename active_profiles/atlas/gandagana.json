@@ -1,13 +1,68 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "longing",
+        "heartache"
+      ],
+      "musical_form": "Song with chorus",
+      "reference_recordings": [
+        {
+          "artist": "Karmate",
+          "title": "Nayino"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Georgian vocal polyphony"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "41052931765c8616f69e7d11982d1625797ba00d465f129823fe710609fea3dc",
+  "fingerprint": "ef9fffc7e891c9fa1d743b0b3f58a212b8b38a66f2e7e10f16eadd987673d384",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +70,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific choreographic steps or movement patterns that define the Acharuli Gandagana? Evidence needed: Ethnographic dance manuals or video documentation of traditional Georgian dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +100,18 @@
   ],
   "music_options": [],
   "name": "Gandagana",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "48c629afa83d30c7",
+      "next_evidence": "Ethnographic dance manuals or video documentation of traditional Georgian dance.",
+      "question": "What are the specific choreographic steps or movement patterns that define the Acharuli Gandagana?",
+      "source": "https://en.wikipedia.org/wiki/Gandagana",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the song and cultural context but provide zero information on the dance technique."
+    }
+  ],
+  "research_file": "research_results/gandagana.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +122,8 @@
   },
   "slug": "gandagana",
   "sources": [
-    "https://en.wikipedia.org/wiki/Draft:Gandagana",
-    "https://gtarchive.georgiatoday.ge/news/17815/The-Immortalization-of-Gandagana--the-Adjarian-Folk-Dance"
+    "https://en.wikipedia.org/wiki/Gandagana",
+    "https://www.wikidata.org/wiki/Q16366636"
   ],
   "state": "researching",
   "video_evidence": []

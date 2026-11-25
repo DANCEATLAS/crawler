@@ -68,7 +68,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step in a circular path
 NARRATION: Maintain a rhythmic foot pattern
-NARRATION: Count it: other.
+NARRATION: Count it: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -95,7 +95,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: other.
+NARRATION: Count: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -108,13 +108,13 @@ NARRATION: Step 2: Maintain a rhythmic foot pattern
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: other · repetitions: 3
+COUNTS: the teacher uses rhythmic vocalizations and the beat of the  · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Keep the upper body still
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: other · repetitions: 3
+COUNTS: the teacher uses rhythmic vocalizations and the beat of the  · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -130,7 +130,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: other.
+NARRATION: Count-in: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -159,7 +159,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: other.
+NARRATION: Count: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -172,13 +172,13 @@ NARRATION: Step 2: Maintain a rhythmic foot pattern
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: other · repetitions: 3
+COUNTS: the teacher uses rhythmic vocalizations and the beat of the  · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Keep the upper body still
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: other · repetitions: 3
+COUNTS: the teacher uses rhythmic vocalizations and the beat of the  · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -194,7 +194,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: other.
+NARRATION: Count-in: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -222,7 +222,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: other.
+NARRATION: Count: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -235,12 +235,12 @@ NARRATION: Step 2: Keep the upper body still
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: other · repetitions: 3
+COUNTS: the teacher uses rhythmic vocalizations and the beat of the  · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: other · repetitions: 3
+COUNTS: the teacher uses rhythmic vocalizations and the beat of the  · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -257,7 +257,7 @@ MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: other.
+NARRATION: Count-in: the teacher uses rhythmic vocalizations and the beat of the .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -293,9 +293,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: other
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: the teacher uses rhythmic vocalizations and the beat of the 
 Demonstration: views used by most teachers: front; tempo progression: full
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Cues: acel aryo; wot wot
 
 Sources (2): https://en.wikipedia.org/wiki/Bwola; https://www.wikidata.org/wiki/Q124214913

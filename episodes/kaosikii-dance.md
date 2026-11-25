@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-25 · judge 7.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; the music & instruments section; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; the music & instruments section; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A calm, focused spiritual teacher from the Ananda Marga tradition.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of the Mind
 NARRATION: This is Kaosikii dance. 20th century (1978).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (wrZTPxQJBmM)
 ON SCREEN: Title card: Kaosikii dance · India · 20th century (1978)
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance is described as a psycho-physical exercise.
 NARRATION: While specific step-by-step mechanics are not fully detailed in the sources, it is known to involve rhythmic movement designed to develop the 'koshas' or layers of the mind.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (wrZTPxQJBmM)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
@@ -91,7 +91,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'wrZTPxQJBmM', 'checked_by_vision_model': True, 'title': 'Kaoshikii dance 21 minutes. Fast tempo. Dancing Together'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Layers of a lotus or onion representing the koshas, Rhythmic side-to-side swaying, The date September 6, 1978
@@ -101,7 +101,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ritual-sacred family studied · videos studied: 16
+Source: 18 tutorial(s) of the ritual-sacred family studied · videos studied: 18
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

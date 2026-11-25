@@ -2,8 +2,8 @@
  "slug": "suahongi",
  "name": "Suahongi",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
- "researched_at": "2026-11-01T17:30:58Z",
+ "built_at": "2026-11-25T21:47:20Z",
+ "researched_at": "2026-11-25T20:39:55Z",
  "qc_score": 9.55,
  "status": "withheld-chapters",
  "release_status": "not_validated",
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A Bellonese cultural practitioner",
+   "persona": "Cultural historian or ethnomusicologist familiar with Bellonese tradition.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -75,9 +75,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The dance originates from Bellona (Mungiki) Island.",
-     "It was suppressed by missionaries in the 1940s and revived in 1974.",
-     "It is deeply tied to the manga'e harvest ceremony."
+     "Suahongi originated on the island of Bellona (Mungiki).",
+     "It was forbidden by Christian missionaries in the 1940s but was revived in 1974 by Jane Mink Rossen, who recorded the dance and music in Honiara."
     ],
     "on_screen": [
      "Map: Solomon Islands · Oceania",
@@ -90,7 +89,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Performed at the end of the manga'e ceremony, which is a ritual for sharing surplus fish and garden crops."
+     "Suahongi is performed at the conclusion of the manga'e ceremony, which is a ritual for sharing the surplus harvest of fish and garden crops.",
+     "Today it is a living tradition."
     ],
     "on_screen": [
      "Footage — MISSING (use images)"
@@ -102,16 +102,17 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Buatanga."
+     "The dance is performed by men in a ritual lasting about thirty minutes.",
+     "It is structured in three parts: the first part, the buatanga, is performed in a circle, and the remaining two parts are performed in lines."
     ],
     "on_screen": [
      "Hero video — MISSING",
-     "Captions name each signature move as it appears",
-     "Formation: Circle for the first part (buatanga), lines for the second and third parts."
+     "Signature moves — MISSING",
+     "Formation: Circular formation for the first part (buatanga), followed by lines for the second and third parts."
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
     "needs": [
-     "how_it_is_danced"
+     "signature_moves"
     ]
    },
    {
@@ -119,14 +120,14 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Accompanied by call-and-response speech-songs.",
-     "The music is described as 'coordinate polyphony' involving two songs performed simultaneously.",
-     "A complex vocal layering known as coordinate polyphony, where two distinct songs are performed simultaneously, accompanied by rhythmic speech-song patterns."
+     "The music is highly rhythmic and features 'coordinate polyphony', where two songs are performed simultaneously.",
+     "The songs are in a call-and-response, speech-song format and recount the history of Bellona.",
+     "A complex vocal performance featuring two distinct songs sung simultaneously in a rhythmic, speech-song style."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Listen later: Songs of Bellona Island — Jane Mink Rossen",
-     "Waveform or rhythm-pattern graphic: "
+     "Waveform or rhythm-pattern graphic: Highly rhythmic, call-and-response speech-song."
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -154,20 +155,22 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Jane Mink Rossen, who revived the dance-music form and documented it in her book 'Songs of Bellona Island' (1987).",
-     "Bellonese tradition."
+     "Jane Mink Rossen, who revived the dance-music form and documented it in her 1987 book, 'Songs of Bellona Island'."
     ],
     "on_screen": [
      "Names on screen as they are spoken"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "lineage"
+    ]
    },
    {
     "code": "family",
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Suahongi is sibling of Mako hakapaungo: Another Bellonese dance form described by Rossen."
+     "Suahongi is sibling of Mako hakapaungo: A line dance performed by men with fighting clubs and staffs, also described by Jane Mink Rossen."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -182,7 +185,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "It is a ritual dance associated with the manga'e harvest ceremony."
+     "The dance is performed at the conclusion of the manga'e ceremony, a ritual of sharing the surplus harvest of fish and garden crops."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -194,7 +197,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "After being silenced for decades, the men of Bellona reclaim their history through the Suahongi ritual.",
+     "Discover the Suahongi, a ritual dance of the Solomon Islands that survived missionary suppression to preserve the history of the manga'e harvest.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -212,20 +215,19 @@
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": null,
+  "rhythm_pattern": "Highly rhythmic, call-and-response speech-song.",
   "instruments": [],
-  "vocal_style": null,
-  "musical_form": "coordinate polyphony",
+  "vocal_style": "Coordinate polyphony of two songs rendered simultaneously.",
+  "musical_form": "Three parts, call-and-response.",
   "mood": [
    "rhythmic",
-   "historical",
-   "ritual"
+   "ritualistic"
   ],
-  "sound_description": "A complex vocal layering known as coordinate polyphony, where two distinct songs are performed simultaneously, accompanied by rhythmic speech-song patterns.",
+  "sound_description": "A complex vocal performance featuring two distinct songs sung simultaneously in a rhythmic, speech-song style.",
   "listen_before_composing": [
    "Songs of Bellona Island — Jane Mink Rossen"
   ],
-  "prompt": "Original instrumental composition in the musical world of Suahongi (Solomon Islands). Form: coordinate polyphony. Mood: rhythmic, historical, ritual. It should sound like this: A complex vocal layering known as coordinate polyphony, where two distinct songs are performed simultaneously, accompanied by rhythmic speech-song patterns. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Suahongi (Solomon Islands). Rhythm pattern: Highly rhythmic, call-and-response speech-song.. Vocal style: Coordinate polyphony of two songs rendered simultaneously.. Form: Three parts, call-and-response.. Mood: rhythmic, ritualistic. It should sound like this: A complex vocal performance featuring two distinct songs sung simultaneously in a rhythmic, speech-song style. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -296,11 +298,11 @@
   "footage": [],
   "motifs": [
    "Circular formations",
-   "Harvest surplus",
-   "Archival recordings"
+   "Line formations",
+   "Archival recordings of Bellonese music"
   ],
   "costume_notes": null,
-  "setting_notes": "Performed at the end of the manga'e ceremony, which is a ritual for sharing surplus fish and garden crops.",
+  "setting_notes": "Suahongi is performed at the conclusion of the manga'e ceremony, which is a ritual for sharing the surplus harvest of fish and garden crops.",
   "map": {
    "country": "Solomon Islands",
    "region": "Oceania",
@@ -313,8 +315,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 16,
+  "source": "18 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 18,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -339,8 +341,8 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "follow_along",
    "context",
+   "follow_along",
    "breakdown",
    "full_demo",
    "slow_practice",
@@ -356,17 +358,18 @@
   "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
-  "the how-it-is-danced section",
+  "signature moves",
   "the costume & setting section",
+  "lineage",
   "two or more connections"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Solomon_Islands_dance",
   "https://www.wikidata.org/wiki/Q7558659"
  ],
- "claims_verified": 5,
- "claims": 5,
+ "claims_verified": 8,
+ "claims": 8,
  "polished": false,
- "input_fingerprint": "584dc8db8152f751fb9f3f1285ccaeb94af13aa28365c1fa0152c4306e3e09d2",
+ "input_fingerprint": "cdce7937b606414a0962caf351588f4c913fe52f4fe9e56e43f2c3ea2632795a",
  "hero_checked": null
 }

@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy instruments",
+          "Complex historical romances"
+        ],
+        "counts": "Simplified 4-count rhythm",
+        "duration_minutes": "3",
+        "game_version": "A call-and-response game where children mimic the rhythm of the chácaras with their hands."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "High-impact jumping"
+        ],
+        "counts": "1-2-3-4 with emphasis on the syncopated off-beats.",
+        "seated_version": "Focus on the upper body and the playing of chácaras or clapping the syncopated rhythm while seated.",
+        "standing_version": "Small rhythmic steps in place without complex turns to maintain balance.",
+        "tempo_and_range": "Reduce the tempo of the syncopation to allow for clear articulation of movements."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Collective dance performed by pairs within a group setting.",
+          "source": "https://en.wikipedia.org/wiki/Tajaraste"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used to play chácaras (castanet-like instruments) while dancing",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Collective dance performed in pairs",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Danced in pairs within a larger group",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Upbeat and happy",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "tambourine",
+        "drum",
+        "chácaras"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "upbeat",
+        "happy",
+        "syncopated",
+        "festive"
+      ],
+      "musical_form": "Ancient romances",
+      "reference_recordings": [],
+      "rhythm_pattern": "Syncopated and upbeat",
+      "sound_description": "A percussive-heavy sound dominated by the sharp clacking of chácaras and the steady beat of drums or tambourines, overlaid with narrative vocal storytelling.",
+      "tempo_bpm": "",
+      "vocal_style": "Romances (narrative singing)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Establish the syncopated pulse with the feet",
+        "Form pairs within a collective group",
+        "Coordinate hand movements with the rhythm of the chácaras",
+        "Execute island-specific turns and partner changes"
+      ],
+      "formation": "Collective pairs",
+      "level_notes": "The basic rhythm is accessible, but coordinating the chácaras while dancing requires practice.",
+      "rhythm": "Upbeat and syncopated"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "651f1932e865572423762fd8fd0e580aa38baa108f5510e37c9f5d939e63db3d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What is the precise musical meter of the syncopated rhythm? Evidence needed: http://www.tajaraste.org/index2.php"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific step differences between the Tenerife and La Gomera variants? Evidence needed: https://www.youtube.com/watch?v=B6xZn77yi9I"
+    ]
+  },
+  "id": "atlas:tajaraste",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "tajaraste",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "53c05fa3c94d70e5",
+      "next_evidence": "https://www.youtube.com/watch?v=B6xZn77yi9I",
+      "question": "What are the specific step differences between the Tenerife and La Gomera variants?",
+      "source": "https://en.wikipedia.org/wiki/Tajaraste",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for regional styles."
+    },
+    {
+      "domain": "research",
+      "id": "0a8eaf4ef331a692",
+      "next_evidence": "http://www.tajaraste.org/index2.php",
+      "question": "What is the precise musical meter of the syncopated rhythm?",
+      "source": "https://en.wikipedia.org/wiki/Tajaraste",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow a composer to recreate the backing track accurately."
+    }
+  ],
+  "research_file": "research_results/tajaraste.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tajaraste",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tajaraste",
+    "https://www.wikidata.org/wiki/Q7676784",
+    "https://es.wikipedia.org/wiki/Tajaraste"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

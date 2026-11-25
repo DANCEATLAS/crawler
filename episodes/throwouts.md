@@ -1,6 +1,6 @@
 # Throwouts — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the music & instruments section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ballroom-partner family studied · videos studied: 13
+Source: 14 tutorial(s) of the ballroom-partner family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; side with the left; bring it in; switch weight; change weight onto the left; side close side; step and point; turn turn turn; replace; side replace close
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; walk walk; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
 
 Sources (3): https://en.wikipedia.org/wiki/Throwouts_(dance); https://www.wikidata.org/wiki/Q7798562; https://archive.org/details/NPDP19330425

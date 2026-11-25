@@ -2,7 +2,7 @@
  "slug": "kachashi",
  "name": "kachāshī",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:55Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-24T20:57:52Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is kachāshī. 19th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (NbCWMBJ1Kk0)",
      "Title card: kachāshī · Japan · 19th century to present"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for The Stirring Motion."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (NbCWMBJ1Kk0)",
      "Captions name each signature move as it appears",
      "Formation: Spontaneous group 'mixing'; no fixed formation."
     ],
@@ -278,7 +278,7 @@
       "Drill: Find the bow-legged stance"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -424,7 +424,7 @@
       "Drill: Practice the 'push-pull' motion with one hand"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -570,7 +570,7 @@
       "Drill: Combine footwork and hand motions at half speed"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -717,7 +717,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "NbCWMBJ1Kk0",
+   "checked_by_vision_model": true,
+   "title": "Kachashi Finale - Uchinanchu No Hi"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -764,18 +768,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -783,15 +789,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -802,7 +807,6 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "notable figures",
@@ -816,6 +820,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "4d2f3f23ae290c28ffba46e85e7bc5722e1bcab7d77cce0c26d144e14559f115",
- "hero_checked": null
+ "input_fingerprint": "2cd70ebb515773cd0f4a6732c61a216f6154f32506a8be74100890b5f56fd055",
+ "hero_checked": "pass"
 }

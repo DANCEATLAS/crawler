@@ -2,7 +2,7 @@
  "slug": "xuc",
  "name": "Xuc",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-24T20:57:25Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Xuc. 1942–present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (EUxFducYXyk)",
      "Title card: Xuc · El Salvador · 1942–present"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Talón-punta-talón, The Wheel."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (EUxFducYXyk)",
      "Captions name each signature move as it appears",
      "Formation: Dancers form wheels (circles) and move collectively while flirting."
     ],
@@ -283,7 +283,7 @@
       "Drill: Marching to the 2/4 'xuc-xuc' rhythm"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -431,7 +431,7 @@
       "Drill: Combining the heel-toe-heel with small vertical jumps"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -581,7 +581,7 @@
       "Drill: Women: Skirt manipulation while jumping"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -732,7 +732,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "EUxFducYXyk",
+   "checked_by_vision_model": true,
+   "title": "El Salvador Folk Dance  -   Salvadoran Xuc !!  South America Latino Festival ,Federation Square"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -779,18 +783,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -798,15 +804,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -817,7 +822,6 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections"
@@ -831,6 +835,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "be0e9ff72e6ce2286118edcdd5f6bf9bd53e5e99e4c04390ebfea17618166d63",
- "hero_checked": null
+ "input_fingerprint": "f03a5e55a0db9d6147ad6d4acef479c9c9d9cae4c6d5eac9c7a5bfd431ccf8ba",
+ "hero_checked": "pass"
 }

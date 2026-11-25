@@ -123,7 +123,7 @@ NARRATION: Step 1: Identify the specific island dance (e.g., Syrtos or Ballos)
 NARRATION: Step 2: Join the chain or line formation, typically holding hands
 NARRATION: Footwork from the sources: Varies from gliding steps (Syrtos) to energetic hops (Pidikhtos)
 NARRATION: Drill: Side-step right, cross left behind, side-step right, lift left
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Varies (2/4, 7/8, 8/8) bar out loud, then in pairs of bars · repetitions: 3
@@ -194,7 +194,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Incorporate light, springing steps for 'Pidikhtos' style variants
 NARRATION: Drill: Adding the 'island bounce' to the knees
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Varies (2/4, 7/8, 8/8) bar out loud, then in pairs of bars · repetitions: 3
@@ -266,7 +266,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: In partner dances like Ballos, face the partner and mirror movements
 NARRATION: Step 2: Incorporate light, springing steps for 'Pidikhtos' style variants
 NARRATION: Drill: The approach and retreat steps facing a partner
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Varies (2/4, 7/8, 8/8) bar out loud, then in pairs of bars · repetitions: 3
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: count the Varies (2/4, 7/8, 8/8) bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Nisiotika; https://www.wikidata.org/wiki/Q12881722

@@ -1,8 +1,24 @@
 {
   "candidate_material": {
     "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
       "derived": true,
-      "withheld": "sacred or restricted dance: no teaching adaptations"
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
     },
     "interaction_profile": {
       "feedback_rules": [],
@@ -11,17 +27,17 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Hand gestures mimic the wing-spreading behavior of the great argus.",
-      "difficulty": "not described in sources",
+      "arms_and_hands": "wing-spreading behavior is mirrored in the dancers' hand gestures",
+      "difficulty": "intermediate",
       "footwork": "not described in sources",
-      "formation_and_space": "Dancers stand in a circle or lead a procession.",
-      "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "Dancers jump while standing in a circle.",
+      "formation_and_space": "dancers stand on the circle",
+      "hips_and_torso": "body swinging to the left and to the right",
+      "levels_and_jumps": "dancers stand on the circle and jump accompanied by the music",
       "partnering": "not described in sources",
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Movements derived from observing the great argus bird.",
+          "description": "Hand gestures mirroring the wing-spreading behavior of the great argus bird.",
           "name": "Bungai Ajat"
         }
       ],
@@ -39,9 +55,9 @@
       ],
       "meter": "not described in sources",
       "mood_keywords": [
+        "ceremonial",
         "warrior",
-        "celebratory",
-        "graceful"
+        "celebratory"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
@@ -52,17 +68,17 @@
     },
     "teaching": {
       "basic_steps": [
-        "Mimicry of bird movements with hand gestures",
-        "Jumping while standing in a circle",
-        "Swinging the body to the left and right while holding a shield and sword"
+        "Swinging body to the left and to the right",
+        "Jumping accompanied by the music",
+        "Heel touch on the stage"
       ],
-      "formation": "Solo, circle, or procession",
-      "level_notes": "Technique not described in sources",
+      "formation": "Standing on the circle or processing towards the tanju",
+      "level_notes": "beginner and stage versions like Ngajat Serakup exist, but specific technical progression is not described in sources.",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5eb3eb99250f3680cfc109c8b8bddae213417a50fa1377254426e0acccced396",
+  "fingerprint": "9408ca24971b9a859c2e57c8b9973032baee85783812906c3b1e0c25e7fb1167",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -88,7 +104,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise footwork counts and weight shifts for Ngajat Serakup? Evidence needed: Field recordings or instructional video documentation from Dayak Dance And Cultural Association."
     ]
   },
   "id": "atlas:ngajat",
@@ -99,7 +116,17 @@
   ],
   "music_options": [],
   "name": "Ngajat",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "b8dbfbddf7d5aac5",
+      "next_evidence": "Field recordings or instructional video documentation from Dayak Dance And Cultural Association.",
+      "question": "What are the precise footwork counts and weight shifts for Ngajat Serakup?",
+      "source": "https://en.wikipedia.org/wiki/Ngajat",
+      "status": "candidate_unreviewed",
+      "why_needed": "Needed for interactive step-by-step instruction since source mentions jumping and body swinging without detailed counts."
+    }
+  ],
   "research_file": "research_results/ngajat.json",
   "runtime_active": false,
   "scope": {

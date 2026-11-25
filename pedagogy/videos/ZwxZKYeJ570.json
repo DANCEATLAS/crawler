@@ -1,0 +1,217 @@
+{
+ "youtube_id": "ZwxZKYeJ570",
+ "slug": "bar",
+ "dance": "Bar",
+ "title": "A Bar Song Line Dance Tutorial",
+ "channel": "Dirt Road Dancing",
+ "viewer_ratio": 2.0,
+ "analysed_at": "2026-11-25T21:23:45Z",
+ "url": "https://www.youtube.com/watch?v=ZwxZKYeJ570",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher provides clear, step-by-step instructions while facing away from the camera to mirror the students. She breaks down the dance into manageable 8-count segments, consistently adding counts and then music to reinforce learning.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "The teacher introduces herself and the dance."
+   },
+   {
+    "t": "0:36",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the first 8 counts."
+   },
+   {
+    "t": "1:17",
+    "segment": "count_in",
+    "note": "The teacher adds counts to the first 8-count segment."
+   },
+   {
+    "t": "1:31",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the second 8 counts."
+   },
+   {
+    "t": "2:02",
+    "segment": "count_in",
+    "note": "The teacher adds counts to the second 8-count segment."
+   },
+   {
+    "t": "2:15",
+    "segment": "recap",
+    "note": "The teacher reviews the first 16 counts."
+   },
+   {
+    "t": "2:38",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the third 8 counts."
+   },
+   {
+    "t": "3:14",
+    "segment": "count_in",
+    "note": "The teacher adds counts to the third 8-count segment."
+   },
+   {
+    "t": "3:27",
+    "segment": "recap",
+    "note": "The teacher reviews the first 24 counts."
+   },
+   {
+    "t": "3:53",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the fourth 8 counts."
+   },
+   {
+    "t": "4:26",
+    "segment": "count_in",
+    "note": "The teacher adds counts to the fourth 8-count segment."
+   },
+   {
+    "t": "4:39",
+    "segment": "recap",
+    "note": "The teacher reviews all 32 counts."
+   },
+   {
+    "t": "5:11",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the tag."
+   },
+   {
+    "t": "5:49",
+    "segment": "other",
+    "note": "The teacher concludes the lesson."
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "step to the side",
+   "touch in with that left",
+   "step back with that left",
+   "bring in our right foot",
+   "step out with that left",
+   "hop out with our right heel"
+  ],
+  "metaphors": [
+   "creating a rumba box",
+   "grapevine to the right",
+   "grapevine with a scuff at the end"
+  ],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [
+   "keeping our weight on that right foot"
+  ],
+  "steps_taught": [
+   {
+    "name": "rumba box",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "A series of steps creating a box pattern."
+   },
+   {
+    "name": "step touches",
+    "counts": "1-2-3-4",
+    "description": "Stepping to the side and touching the opposite foot."
+   },
+   {
+    "name": "grapevine",
+    "counts": "5-6-7-8",
+    "description": "A side-to-side step pattern with a scuff."
+   },
+   {
+    "name": "hop and switch",
+    "counts": "1-2-3-4",
+    "description": "Hopping and switching weight between feet."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The teacher's use of back-facing demonstrations makes it easy to follow along.",
+    "The incremental approach of adding counts and then reviewing segments helps build muscle memory."
+   ],
+   "what_hinders": [
+    "The lack of music during the breakdown segments might make it harder to visualize the final performance."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:45",
+    "text": "we're going to step with our right foot to the side creating a rumba box"
+   },
+   {
+    "t": "1:41",
+    "text": "we're going to step to the side with our right foot"
+   },
+   {
+    "t": "2:49",
+    "text": "what we do to the right side we now got to do to the left"
+   },
+   {
+    "t": "4:10",
+    "text": "we're going to hop out with our right heel for one hold two"
+   },
+   {
+    "t": "5:16",
+    "text": "this song has a four count tag towards the end"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 42,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the rumba box step by stepping to the side and bringing the other foot in.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 145,
+    "end_s": 150,
+    "topic": "movement",
+    "observation": "The teacher demonstrates step touches by stepping to the right and touching the left foot, then vice versa.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 207,
+    "end_s": 212,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the grapevine by stepping to the side, crossing behind, and stepping out.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 410,
+    "end_s": 418,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the hop and switch by hopping on the right heel and then switching to the left.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher consistently uses a 'back-facing' perspective for all demonstrations, which simplifies the learning process for students by mirroring their movements."
+ },
+ "attempts": 1
+}

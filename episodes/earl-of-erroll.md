@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Preparation in first position
 NARRATION: Balletic foot placements
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: hop-hop-point / hop-brush-beat / single / together-out-toget.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: hop-hop-point / hop-brush-beat / single / together-out-toget. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 70 bpm
@@ -117,17 +117,17 @@ NARRATION: Step 1: Preparation in first position
 NARRATION: Step 2: Balletic foot placements
 NARRATION: Footwork from the sources: Intricate step dancing; originally hard-soled, now soft-shoe
 NARRATION: Drill: Walking to the 4/4 slow reel beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: hop-hop-point / hop-brush-beat / single / together-out-toget · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Transition between the two reels
 NARRATION: Drill: Basic Scottish first and second positions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: hop-hop-point / hop-brush-beat / single / together-out-toget · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -146,7 +146,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the footwork patterns while seated, focusing on the rhythmic tapping of the toes and heels. · For children: A 'follow the leader' game focusing on the precise placement of feet in 'secret' patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: hop-hop-point / hop-brush-beat / single / together-out-toget.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 100 bpm
@@ -176,7 +176,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: hop-hop-point / hop-brush-beat / single / together-out-toget. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 70 bpm
@@ -186,10 +186,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Preparation in first position
 NARRATION: Step 2: Balletic foot placements
 NARRATION: Drill: Arm positioning (National style)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: hop-hop-point / hop-brush-beat / single / together-out-toget · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Transition between the two reels
@@ -198,7 +198,7 @@ NARRATION: Drill: Slow-motion foot placements
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: hop-hop-point / hop-brush-beat / single / together-out-toget · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -217,7 +217,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the footwork patterns while seated, focusing on the rhythmic tapping of the toes and heels. · For children: A 'follow the leader' game focusing on the precise placement of feet in 'secret' patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: hop-hop-point / hop-brush-beat / single / together-out-toget.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo, stationary or limited travel on a platform
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 100 bpm
@@ -247,7 +247,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: hop-hop-point / hop-brush-beat / single / together-out-toget. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 70 bpm
@@ -257,10 +257,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Balletic foot placements
 NARRATION: Step 2: Transition between the two reels
 NARRATION: Drill: Linking steps from the Hill manuscript
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: hop-hop-point / hop-brush-beat / single / together-out-toget · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step dancing: Intricate footwork derived from 19th-century manuscripts
@@ -268,7 +268,7 @@ NARRATION: Drill: Managing the transition between the two reels
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: hop-hop-point / hop-brush-beat / single / together-out-toget · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -287,7 +287,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the footwork patterns while seated, focusing on the rhythmic tapping of the toes and heels. · For children: A 'follow the leader' game focusing on the precise placement of feet in 'secret' patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: hop-hop-point / hop-brush-beat / single / together-out-toget.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo, stationary or limited travel on a platform
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 100 bpm
@@ -326,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: hop-hop-point / hop-brush-beat / single / together-out-toget
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 2
+Cues: spring onto the right; left behind; out to the second; together out together; hop hop and point
 
 Sources (2): https://en.wikipedia.org/wiki/Earl_of_Erroll_(reel); https://www.wikidata.org/wiki/Q20046370

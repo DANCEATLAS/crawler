@@ -1,0 +1,803 @@
+{
+ "slug": "strip-the-willow",
+ "name": "Strip the willow",
+ "pack_version": "e2",
+ "built_at": "2026-11-25T21:47:20Z",
+ "researched_at": "2026-11-25T19:40:05Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Warm, energetic Scottish ceilidh caller focused on social fun and clear counting",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Strip the willow"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Strip the willow",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Spinning Down the Line: The Wild Energy of Strip the Willow",
+     "This is Strip the willow. 18th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Strip the willow · Scotland · 18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Strip the Willow is a Scottish ceilidh dance documented through early music transcriptions dating back to the 18th century, notably in David Young's 1734 manuscript and later in Francis O'Neill's 1907 collection."
+    ],
+    "on_screen": [
+     "Map: Scotland · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed at ceilidhs, weddings, and social gatherings as an inclusive, high-energy group celebration.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers form longways sets of partners facing each other.",
+     "The top couple spins for 16 beats, then the lady strips down the line alternating left-hand turns with opposing men and right-hand turns with her partner.",
+     "The gentleman repeats the process up the line of ladies, followed by both stripping down the line together.",
+     "Watch for The Willow Strip."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Longways set facing partner across a parallel aisle"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Accompanied by traditional tunes such as 'Drops of Brandy', played on accordion, fiddle, and ceilidh band instruments in energetic compound metre.",
+     "Listen for the Fiddle, Accordion, Tin whistle, Piano.",
+     "The pulse is 9/8 or 6/8 at about 120 beats a minute.",
+     "Energetic, driving accordion and fiddle jigs playing continuous compound-meter melodies like 'Drops of Brandy'."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Continuous driving compound jig pulse"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "danced in everyday modern social wear or traditional Scottish attire like kilts in community halls, ballrooms, and ceilidh venues."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "David Young (1734 manuscript transcriber) and Francis O'Neill (1907 music collector).",
+     "The Orcadian Strip the Willow features multiple couples stripping downwards simultaneously every fourth or fifth position in long sets.",
+     "Part of the Scottish country dance and longways folk set lineage."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Top couple link right arms and spin in the center for 16 beats.",
+     "Lady turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+     "Count it: count the 9/8 or 6/8 bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how an 18th-century Scottish tune grew into the ultimate high-energy ceilidh dance finale.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master partner elbow spin for 16 counts",
+   "level": "Basic",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master partner elbow spin for 16 counts.",
+      "Level: Basic. Difficulty of the dance overall: beginner.",
+      "Your instructor: Warm, energetic Scottish ceilidh caller focused on social fun and clear counting"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, active social dance stance with flexible knees and firm elbow connections",
+      "Linked elbows (left arm to outside line, right arm to partner)",
+      "Torso rotates smoothly to absorb momentum of continuous turning"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 9/8 or 6/8 bar out loud, then in pairs of bars. The meter is 9/8 or 6/8.",
+      "Rhythm pattern: Continuous driving compound jig pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Top couple link right arms and spin in the center for 16 beats.",
+      "Step 2: Lady turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+      "Footwork from the sources: Skip-change step or relaxed rhythmic walking turn step",
+      "Drill: Practice linking right elbows and spinning in place for 16 beats"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Gentleman turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+      "Step 4: Both partners simultaneously turn line dancers anti-clockwise and each other clockwise down the set."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Pulling forcefully on partner arms or losing count of arm alternations"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform alternating right and left arm links with seated side partners at reduced tempo. · For children: Run the weaving line game where children high-five alternating side partners down the track."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform alternating right and left arm links with seated side partners at reduced tempo.",
+      "For children: Run the weaving line game where children high-five alternating side partners down the track."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 9/8 or 6/8 bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master partner elbow spin for 16 counts.",
+      "Performed at ceilidhs, weddings, and social gatherings as an inclusive, high-energy group celebration.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute single-person stripping down a 4-couple set",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute single-person stripping down a 4-couple set.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: Warm, energetic Scottish ceilidh caller focused on social fun and clear counting"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, active social dance stance with flexible knees and firm elbow connections",
+      "Linked elbows (left arm to outside line, right arm to partner)",
+      "Torso rotates smoothly to absorb momentum of continuous turning"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 9/8 or 6/8 bar out loud, then in pairs of bars. The meter is 9/8 or 6/8.",
+      "Rhythm pattern: Continuous driving compound jig pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Top couple link right arms and spin in the center for 16 beats.",
+      "Step 2: Lady turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+      "Drill: Practice alternating left elbow turn with line dancer and right elbow turn with partner"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Gentleman turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+      "Step 4: Both partners simultaneously turn line dancers anti-clockwise and each other clockwise down the set.",
+      "The Willow Strip: Alternating left-elbow turn with line dancer and right-elbow turn with partner progressing down the line"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Pulling forcefully on partner arms or losing count of arm alternations"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform alternating right and left arm links with seated side partners at reduced tempo. · For children: Run the weaving line game where children high-five alternating side partners down the track."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform alternating right and left arm links with seated side partners at reduced tempo.",
+      "For children: Run the weaving line game where children high-five alternating side partners down the track."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 9/8 or 6/8 bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Longways set facing partner across a parallel aisle"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute single-person stripping down a 4-couple set.",
+      "David Young (1734 manuscript transcriber) and Francis O'Neill (1907 music collector).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute full joint stripping down the set simultaneously",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute full joint stripping down the set simultaneously.",
+      "Level: Advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: Warm, energetic Scottish ceilidh caller focused on social fun and clear counting"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, active social dance stance with flexible knees and firm elbow connections",
+      "Linked elbows (left arm to outside line, right arm to partner)",
+      "Torso rotates smoothly to absorb momentum of continuous turning"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 9/8 or 6/8 bar out loud, then in pairs of bars. The meter is 9/8 or 6/8.",
+      "Rhythm pattern: Continuous driving compound jig pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Gentleman turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+      "Step 2: Both partners simultaneously turn line dancers anti-clockwise and each other clockwise down the set.",
+      "Drill: Both partners strip down opposing lines simultaneously without colliding in the aisle"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Willow Strip: Alternating left-elbow turn with line dancer and right-elbow turn with partner progressing down the line"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Pulling forcefully on partner arms or losing count of arm alternations"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform alternating right and left arm links with seated side partners at reduced tempo. · For children: Run the weaving line game where children high-five alternating side partners down the track."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform alternating right and left arm links with seated side partners at reduced tempo.",
+      "For children: Run the weaving line game where children high-five alternating side partners down the track."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 9/8 or 6/8 bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Longways set facing partner across a parallel aisle"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute full joint stripping down the set simultaneously.",
+      "Part of the Scottish country dance and longways folk set lineage.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 120,
+  "meter": "9/8 or 6/8",
+  "rhythm_pattern": "Continuous driving compound jig pulse",
+  "instruments": [
+   "Fiddle",
+   "Accordion",
+   "Tin whistle",
+   "Piano"
+  ],
+  "vocal_style": "Instrumental dance music, occasionally accompanied by caller prompts or vocal shouts",
+  "musical_form": "AABB repeating structure adjusted to set length",
+  "mood": [
+   "Exhilarating",
+   "Joyful",
+   "Rhythmic",
+   "Social"
+  ],
+  "sound_description": "Energetic, driving accordion and fiddle jigs playing continuous compound-meter melodies like 'Drops of Brandy'.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Strip the willow (Scotland). Meter 9/8 or 6/8. Tempo about 120 bpm. Rhythm pattern: Continuous driving compound jig pulse. Instruments: Fiddle, Accordion, Tin whistle, Piano. Vocal style: Instrumental dance music, occasionally accompanied by caller prompts or vocal shouts. Form: AABB repeating structure adjusted to set length. Mood: Exhilarating, Joyful, Rhythmic, Social. It should sound like this: Energetic, driving accordion and fiddle jigs playing continuous compound-meter melodies like 'Drops of Brandy'. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 84
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 120
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "danced in everyday modern social wear or traditional Scottish attire like kilts in community halls, ballrooms, and ceilidh venues.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADancingAtGaskellBall.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/DancingAtGaskellBall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0d/DancingAtGaskellBall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Argyriou at English Wikipedia / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancingAtGaskellBall.jpg",
+    "description": "Photograph of dancers at The Gaskell Ball, dancing Strip The Willow"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Interlocking elbows in fast circular motion",
+   "Parallel rows of dancers clapping and stepping in time",
+   "Overhead wide shot of longways lines weaving"
+  ],
+  "costume_notes": "danced in everyday modern social wear or traditional Scottish attire like kilts in community halls, ballrooms, and ceilidh venues.",
+  "setting_notes": "Performed at ceilidhs, weddings, and social gatherings as an inclusive, high-energy group celebration.",
+  "map": {
+   "country": "Scotland",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
+  "counting": "count the 9/8 or 6/8 bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 3"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
+   "1-2-3",
+   "step to the right",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Strip_the_willow",
+  "https://www.wikidata.org/wiki/Q7624100"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "df5ffc2b39ef1469fff0fae7ebdc642ac0f222b3c7cd65a3201e189f77e16387",
+ "hero_checked": null
+}

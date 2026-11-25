@@ -2,7 +2,7 @@
  "slug": "set-dance",
  "name": "Set Dance",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-01T16:27:38Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -282,7 +282,7 @@
       "Drill: Walk the perimeter square and return to home station"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -428,7 +428,7 @@
       "Drill: Low-to-the-floor gliding steps across the set"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -575,7 +575,7 @@
       "Drill: Basic low battering tap drills on accented counts"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -760,18 +760,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -779,15 +781,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -812,6 +813,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "1a702b7c716a110c2bcdeb40c54aa6fb718c2d75c8561aff8266d245b0f766b6",
+ "input_fingerprint": "3a90df1795ef81261bc3120681a77006730106761a2c5a1a53cd4f116f9c8048",
  "hero_checked": "pass"
 }

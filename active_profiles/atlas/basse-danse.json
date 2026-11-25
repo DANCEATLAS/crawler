@@ -1,13 +1,100 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "running",
+          "leaping",
+          "complex hemiola math"
+        ],
+        "counts": "Simplified counts of 2 or 3 steps per measure.",
+        "duration_minutes": "5",
+        "game_version": "A royal procession game where children practice smooth, sliding steps across the room like kings and queens."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "deep knee bends",
+          "sudden weight transfers",
+          "loss of balance"
+        ],
+        "counts": "Counted steadily in 2 or 3 slow beats per movement.",
+        "seated_version": "Perform the arm and torso weight shifts while seated upright in a sturdy chair.",
+        "standing_version": "Practice slow gliding weight shifts holding onto a stable barre or wall support, omitting deep bows.",
+        "tempo_and_range": "Reduced tempo with shortened step lengths to ensure absolute balance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Slow gliding or walking motion without leaving the floor; no jumps or leaps.",
+      "formation_and_space": "Processional pairs moving through courtly spaces in open formation.",
+      "hips_and_torso": "Subtle rising and lowering of the body combined with slight lateral oscillations during branles.",
+      "levels_and_jumps": "Low level exclusively; feet remain in constant contact with the floor with zero jumps or leaps.",
+      "partnering": "Couples holding hands or moving in coordination within open pairs.",
+      "posture": "Stately, upright, and graceful posture with controlled carriage.",
+      "signature_moves": [
+        {
+          "description": "A formal bow or curtsy executed over one measure, typically beginning with the left foot.",
+          "name": "Révérence"
+        },
+        {
+          "description": "A lateral step to the left with weight shift and close, accompanied by a light bodily oscillation.",
+          "name": "Branle"
+        }
+      ],
+      "tempo_feel": "Slow, unhurried, and majestic.",
+      "what_to_avoid": "Leaving the floor with jumps or leaps, rushing the tempo, or using high-dance ballet elevation techniques."
+    },
+    "music_profile": {
+      "instruments": [
+        "three or four instrumentalists improvising polyphony",
+        "lute"
+      ],
+      "meter": "6/4 and 3/2 (hemiola)",
+      "mood_keywords": [
+        "stately",
+        "dignified",
+        "majestic",
+        "calm"
+      ],
+      "musical_form": "Binary form with each section repeated (AABB)",
+      "reference_recordings": [
+        {
+          "artist": "Pierre Attaingnant",
+          "title": "La brosse"
+        },
+        {
+          "artist": "Pierre Attaingnant",
+          "title": "N.º 1: Basse danse"
+        }
+      ],
+      "rhythm_pattern": "Divisions of six beats grouped as 3-3 or 2-2-2",
+      "sound_description": "A measured, stately instrumental texture driven by a tenor cantus firmus, featuring flexible polyphony and shifting rhythmic pulses between triple and duple feel.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Révérence (R): A bow or curtsy taking place over one measure.",
+        "Pas simple (ss): Two steps (typically left then right) counted in 2-2-2 over one measure.",
+        "Pas double (d): Three steps utilizing hemiola timing, counted as 3-3.",
+        "Démarche / Reprise (r): A step backward followed by shifting weight forward and back in three motions.",
+        "Branle (b): A lateral step to the left, shifting weight, and closing in two motions."
+      ],
+      "formation": "Couples arranged in open procession or facing circles/lines.",
+      "level_notes": "Beginners start by mastering the gliding footwork without lifting the feet, then combine simple and double steps into basic measures.",
+      "rhythm": "Counted in sixes with hemiola divisions of 3-3 or 2-2-2 (6/4 and 3/2 time)."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "059b6309db64105a750bb597ada68cd8ecef636b1814701d254b9642b9401081",
+  "fingerprint": "0b4c90bf752a1433777872b17e8b4daa418aa6067e91f0f4c70b7c1e0caa38f8",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +102,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific instrumental ornamentations were applied by performers during 16th-century improvisations over the tenor cantus firmus? Evidence needed: Detailed performance practice manuals from the period."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +119,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How do physical reconstructions of the Brussels manuscript steps align with surviving historical spacing diagrams in court ballrooms? Evidence needed: Reconstruction footage and spatial analysis from historical dance societies."
     ]
   },
   "id": "atlas:basse-danse",
@@ -45,8 +131,27 @@
   ],
   "music_options": [],
   "name": "Basse danse",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "57b8568ef7962214",
+      "next_evidence": "Detailed performance practice manuals from the period.",
+      "question": "What specific instrumental ornamentations were applied by performers during 16th-century improvisations over the tenor cantus firmus?",
+      "source": "https://en.wikipedia.org/wiki/Basse_danse",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate authentic polyphonic textures without relying solely on skeletal manuscript notes."
+    },
+    {
+      "domain": "video",
+      "id": "8dc655116c50ec02",
+      "next_evidence": "Reconstruction footage and spatial analysis from historical dance societies.",
+      "question": "How do physical reconstructions of the Brussels manuscript steps align with surviving historical spacing diagrams in court ballrooms?",
+      "source": "https://en.wikipedia.org/wiki/Basse_danse",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure spatial accuracy in interactive floor-path digital tutorials."
+    }
+  ],
+  "research_file": "research_results/basse-danse.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +163,12 @@
   "slug": "basse-danse",
   "sources": [
     "https://en.wikipedia.org/wiki/Basse_danse",
-    "Source: Basse danse on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Basse_danse"
+    "https://www.wikidata.org/wiki/Q810479",
+    "https://es.wikipedia.org/wiki/Baja_danza",
+    "https://fr.wikipedia.org/wiki/Basse_danse",
+    "https://pt.wikipedia.org/wiki/Basse_dance",
+    "https://de.wikipedia.org/wiki/Basse_danse",
+    "https://archive.org/details/capriolsuitefors0000warl"
   ],
   "state": "researching",
   "video_evidence": []

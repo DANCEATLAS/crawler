@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-25 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the music & instruments section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the music & instruments section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Reverent, focused cultural practitioner emphasizing precision, balance, and respect for Kamar tribal heritage.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rhythms of the Thirteen Cymbals
 NARRATION: This is Tertali.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (9o9UETCnUIo)
 ON SCREEN: Title card: Tertali · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ NARRATION: The dance is generally performed by two or three women sitting on the
 NARRATION: Performers tie thirteen manjiras (small metal cymbals) to different parts of their body and strike them rhythmically.
 NARRATION: At times, dancers clench a small sword between their teeth and balance an ornamental pot on their head while playing the cymbals.
 NARRATION: Watch for Manjira Striking, Head Balancing, Sword Clenching.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (9o9UETCnUIo)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two or three women seated on the ground.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '9o9UETCnUIo', 'checked_by_vision_model': True, 'title': 'Terah Taali | Rajasthani Folk Dance | International Folklore Festival Spain 2023 | GURU-TheArtsHub'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.RS-92-VHS; Manganiar Songs,Teratali and Kuchamanai Khayal — https://archive.org/details/dni.ncaa.RS-12-VHS; Rajasthani Folk Music and Teratali Dance — https://archive.org/details/dni.ncaa.RS-047-VHS; Teratali Dance Workshop — https://archive.org/details/dni.ncaa.RS-568-MDV
 Motifs: Thirteen metal manjira cymbals bound to limbs, Ornamental pot balanced atop head with petha, Small sword held horizontally between teeth, Seated posture on ground
@@ -104,7 +104,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ritual-sacred family studied · videos studied: 16
+Source: 18 tutorial(s) of the ritual-sacred family studied · videos studied: 18
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

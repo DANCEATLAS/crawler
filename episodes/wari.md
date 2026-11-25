@@ -22,7 +22,7 @@ NARRATION: Wari originates from a pre-Inca agricultural festival called pocoy mi
 NARRATION: It was documented in 1570 by Cristóbal de Molina as Waritaki and evolved through Spanish influence, blending indigenous and Christian elements.
 NARRATION: The dance is linked to the arrival of rains and religious festivals such as the Exaltation of the Holy Cross and the Virgin of the Rosary.
 ON SCREEN: Map: Peru · South America
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -59,7 +59,7 @@ NEEDS: tempo
 NARRATION: Dancers wear formal blue or black suits with white shirts and ties, floral shawls tied over the chest, golden embroidered sashes, and carry handkerchiefs.
 NARRATION: The head is covered with a white cloth called uma paño and a pink mesh mask painted with facial features.
 NARRATION: They wear white toquilla straw hats decorated with silk ribbons and artificial flowers.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -104,7 +104,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': '6aCSB5NBsd8', 'checked_by_vision_model': False, 'title': 'CGs - Wari Tunwalo | Paisa Jhare Maruni'}
-Images: 0 licensed
+Images: 1 licensed — Ondando / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Pink mesh masks, Floral shawls, Bells on knee pads, Toquilla straw hats, Pinkullo flute and wanqar drum
 Costume notes: Dancers wear formal blue or black suits with white shirts and ties, floral shawls tied over the chest, golden embroidered sashes, and carry handkerchiefs. The head is covered with a white cloth called uma paño and a pink mesh mask painted with facial features. They wear white toquilla straw hats decorated with silk ribbons and artificial flowers. Pants are rolled up, covered by black velvet knee pads embroidered with 35-40 bells each. White gloves and a command baton with a dog-head handle and leather whip complete the attire.
@@ -113,7 +113,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ritual-sacred family studied · videos studied: 16
+Source: 18 tutorial(s) of the ritual-sacred family studied · videos studied: 18
 Counting: count the not explicitly described, but rhythmic emphasis on fourth beat suggests a 4/4 pattern bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

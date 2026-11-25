@@ -1,0 +1,864 @@
+{
+ "slug": "maringa",
+ "name": "Maringa",
+ "pack_version": "e2",
+ "built_at": "2026-11-25T21:47:20Z",
+ "researched_at": "2026-11-25T20:34:47Z",
+ "qc_score": 9.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A cultural historian specializing in Central African urban music evolution.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Maringa",
+   "maringa",
+   "rumba maringa",
+   "Kongo maringa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Maringa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Bottle and the Bass Drum: The Roots of Congolese Rumba",
+     "This is Maringa. 1920s–1940s."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (GnkIe6s6pv0)",
+     "Title card: Maringa · Republic of the Congo / Democratic Republic of the Congo / Angola · 1920s–1940s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Maringa derived from the traditional nkumba dance of the former Kingdom of Loango, which spans parts of today's Republic of the Congo, southern Gabon, and Angola's Cabinda.",
+     "During the 1920s to 1940s, it flourished within the urban bar-dancing culture of Brazzaville and Léopoldville.",
+     "In the subsequent decades of the 1940s and 1950s, the arrival of Cuban son recordings catalyzed its direct transformation into Congolese rumba."
+    ],
+    "on_screen": [
+     "Map: Republic of the Congo / Democratic Republic of the Congo / Angola · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Maringa served as a key transitional urban social dance, bridging ancestral folk traditions from the Kingdom of Loango with the modern commercial nightlife of expanding colonial cities.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (GnkIe6s6pv0)",
+     "Signature moves — MISSING",
+     "Formation: partnered couple-dance"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Early maringa performances incorporated a distinct ensemble consisting of a bass drum, an accordion or likembe (lamellophone), and empty glass bottles struck vertically with spoons to produce percussive accents.",
+     "Listen for the bass drum, accordion (likembe), glass bottles.",
+     "Early maringa combined the resonant drive of a bass drum with the plucked tones of an accordion or likembe, accented by the sharp clinking of glass bottles struck vertically as percussive instruments."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance was performed primarily in the lively bar-dancing culture and social venues of Brazzaville and Léopoldville during the colonial era of the 1920s through the 1940s."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Associated primarily with the Kingdom of Loango, Brazzaville, and Léopoldville.",
+     "Derived from nkumba; served as the direct evolutionary ancestor to Congolese rumba, which later branched into soukous and ndombolo."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Maringa is child of Congolese rumba: Maringa transformed directly into Congolese rumba during the 1940s and 1950s.",
+     "Maringa is parent of nkumba: Maringa was derived from the nkumba of the Kingdom of Loango."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore maringa, the 1920s Bakongo partner-dance that birthed modern African popular music.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Maringa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Maringa.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A cultural historian specializing in Central African urban music evolution."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Maringa.",
+      "Maringa served as a key transitional urban social dance, bridging ancestral folk traditions from the Kingdom of Loango with the modern commercial nightlife of expanding colonial cities.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Maringa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Maringa.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A cultural historian specializing in Central African urban music evolution."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: partnered couple-dance"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Maringa.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Maringa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Maringa.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A cultural historian specializing in Central African urban music evolution."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: partnered couple-dance"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Maringa.",
+      "Derived from nkumba; served as the direct evolutionary ancestor to Congolese rumba, which later branched into soukous and ndombolo.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "bass drum",
+   "accordion (likembe)",
+   "glass bottles"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "festive",
+   "transitional",
+   "bar-dancing"
+  ],
+  "sound_description": "Early maringa combined the resonant drive of a bass drum with the plucked tones of an accordion or likembe, accented by the sharp clinking of glass bottles struck vertically as percussive instruments.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Maringa (Republic of the Congo / Democratic Republic of the Congo / Angola). Instruments: bass drum, accordion (likembe), glass bottles. Mood: festive, transitional, bar-dancing. It should sound like this: Early maringa combined the resonant drive of a bass drum with the plucked tones of an accordion or likembe, accented by the sharp clinking of glass bottles struck vertically as percussive instruments. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "GnkIe6s6pv0",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance was performed primarily in the lively bar-dancing culture and social venues of Brazzaville and Léopoldville during the colonial era of the 1920s through the 1940s.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABangongo_or_Magician%2C_who_discovers_by_divination_suitable_me_Wellcome_M0009592.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACH-NB_-_Belgisch-Kongo%2C_Leopoldville_%28Kinshasa%29-_Menschen_-_Annemarie_Schwarzenbach_-_SLA-Schwarzenbach-A-5-26-001.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADj_Spilulu_live_at_Amani_Fest_Day_3.png"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Bangongo_or_Magician%2C_who_discovers_by_divination_suitable_me_Wellcome_M0009592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Bangongo_or_Magician%2C_who_discovers_by_divination_suitable_me_Wellcome_M0009592.jpg/1280px-Bangongo_or_Magician%2C_who_discovers_by_divination_suitable_me_Wellcome_M0009592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABangongo_or_Magician%2C_who_discovers_by_divination_suitable_me_Wellcome_M0009592.jpg",
+    "description": "Bangongo or Magician, who discovers by divination suitable methods of treatment, Congo.\n\nWellcome Images\nKeywords: medicine man: congo; practitioner and equipment; Ethnography"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/CH-NB_-_Belgisch-Kongo%2C_Leopoldville_%28Kinshasa%29-_Menschen_-_Annemarie_Schwarzenbach_-_SLA-Schwarzenbach-A-5-26-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/CH-NB_-_Belgisch-Kongo%2C_Leopoldville_%28Kinshasa%29-_Menschen_-_Annemarie_Schwarzenbach_-_SLA-Schwarzenbach-A-5-26-001.jpg/1280px-CH-NB_-_Belgisch-Kongo%2C_Leopoldville_%28Kinshasa%29-_Menschen_-_Annemarie_Schwarzenbach_-_SLA-Schwarzenbach-A-5-26-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Annemarie Schwarzenbach / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACH-NB_-_Belgisch-Kongo%2C_Leopoldville_%28Kinshasa%29-_Menschen_-_Annemarie_Schwarzenbach_-_SLA-Schwarzenbach-A-5-26-001.jpg",
+    "description": "Belgisch-Kongo, Leopoldville (Kinshasa): Menschen; Mehrere farbige Männer sitzen im Kreis und spielen auf einem Tam-Tam (Trommel)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dj_Spilulu_live_at_Amani_Fest_Day_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dj_Spilulu_live_at_Amani_Fest_Day_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Lubumbashi1 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADj_Spilulu_live_at_Amani_Fest_Day_3.png",
+    "description": "dj Spilulu live at Amani Fest Day 3"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Mbokamosika / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AA_posture_of_Pepe_Kalle_in_1978.jpg",
+    "description": "Transporting us to a bygone era, this shot captures the heart of the iconic Congolese soukous musician, Pépé Kallé, in a vintage pose. With an air of elegance and charisma, Pépé Kallé’s presence is indeed fascinating, taking us on a nostalgic journey to a golden age of Congolese and African music in general. As a pioneering figure in the world of soukous music, he left an unforgettable impact on t"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAbeti_Masikini%2C_1978.jpg",
+    "description": "L'artiste congolaise de soukous et de rumba Abeti Masikini prenant la pose après la sortie de son single à succès \"Singa Mwambe\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg/1280px-Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Lemvo Jean Abou Bakar Depara / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AClub_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg",
+    "description": "Deux hommes se produisant dans un club de rumba congolaise à Léopoldville"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fran%C3%A7ois_Luambo_Luanzo_Makiadi_se_produisant_au_Za%C3%AFre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Fran%C3%A7ois_Luambo_Luanzo_Makiadi_se_produisant_au_Za%C3%AFre.jpg/1280px-Fran%C3%A7ois_Luambo_Luanzo_Makiadi_se_produisant_au_Za%C3%AFre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Therumbakings.com / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFran%C3%A7ois_Luambo_Luanzo_Makiadi_se_produisant_au_Za%C3%AFre.jpg",
+    "description": "Franco Luambo et son orchestre OK Jazz en concert live au Zaïre 74, un festival de musique live sur trois jours qui s'est tenu du 22 au 24 septembre 1974 au Stade du 20 Mai à Kinshasa, Zaïre. Cet événement était également une importante opération de promotion pour le match de championnat du monde de boxe poids lourds entre Muhammad Ali et George Foreman, connu sous le nom de \"The Rumble in the Jun"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Innoss%27B_%2821600557166%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Innoss%27B_%2821600557166%29_%28cropped%29.jpg/1280px-Innoss%27B_%2821600557166%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "MONUSCO Photos / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AInnoss%27B_%2821600557166%29_%28cropped%29.jpg",
+    "description": "photo MONUSCO / Abel Kavanagh"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "glass bottles struck with spoons",
+   "bass drums",
+   "bar dance floors"
+  ],
+  "costume_notes": "The dance was performed primarily in the lively bar-dancing culture and social venues of Brazzaville and Léopoldville during the colonial era of the 1920s through the 1940s.",
+  "setting_notes": "Maringa served as a key transitional urban social dance, bridging ancestral folk traditions from the Kingdom of Loango with the modern commercial nightlife of expanding colonial cities.",
+  "map": {
+   "country": "Republic of the Congo / Democratic Republic of the Congo / Angola",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "18 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 18,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "bend your knees",
+   "5-6-7-8-hold",
+   "lets build it up",
+   "now put them together",
+   "bend the knees",
+   "change the weight",
+   "turn on the heels",
+   "keep it small",
+   "one and two and",
+   "put all your weight on your right leg",
+   "and out and out and in and in",
+   "double double"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "notable figures",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Music_of_the_Democratic_Republic_of_the_Congo",
+  "https://www.wikidata.org/wiki/Q1955040",
+  "https://pt.wikipedia.org/wiki/Música_da_República_Democrática_do_Congo",
+  "https://fr.wikipedia.org/wiki/Musique_de_la_république_démocratique_du_Congo",
+  "https://es.wikipedia.org/wiki/Música_de_la_República_Democrática_del_Congo",
+  "https://de.wikipedia.org/wiki/Musik_in_der_Demokratischen_Republik_Kongo"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "68b1e1c7d4881294d1b6cf8ca18d80e658cc7981bed99e93ec0b66a9177ba70f",
+ "hero_checked": "pass"
+}

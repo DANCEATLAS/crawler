@@ -441,16 +441,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 9,
   "of": 15,
   "missing": [
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    },
    {
     "key": "posture",
@@ -461,16 +457,8 @@
     "label": "arms and hands"
    },
    {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
@@ -479,13 +467,111 @@
    {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "rhythm": "lesson",
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "U4jnZ6CXIMI",
+   "url": "https://www.youtube.com/watch?v=U4jnZ6CXIMI",
+   "title": "Goralski, Polonia, dance tutorial di Juancarlos Battilani",
+   "channel": "Juan Carlos Battilani",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Italian",
+   "counting_scheme": "1-2-3",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "intro",
+     "note": "Teacher introduces the Goralski dance."
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "segment": "breakdown",
+     "note": "Breakdown of the first step on the spot."
+    },
+    {
+     "t": "0:56",
+     "seconds": 56,
+     "segment": "breakdown",
+     "note": "Breakdown of the bear step holding hands."
+    },
+    {
+     "t": "1:13",
+     "seconds": 73,
+     "segment": "breakdown",
+     "note": "Breakdown of turning step with 1-2-3 counts."
+    },
+    {
+     "t": "2:18",
+     "seconds": 138,
+     "segment": "music_practice",
+     "note": "Group practices the steps to music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "passo sul posto",
+     "counts": "1-2-3",
+     "description": "Opening and closing on the spot"
+    },
+    {
+     "name": "passo dell'orso",
+     "counts": "1-2-3",
+     "description": "Bear step moving forward with curved back"
+    }
+   ],
+   "cues": [
+    "il passo dell'orso",
+    "1-2-3 clap"
+   ],
+   "images": [
+    "il passo dell'orso"
+   ],
+   "teacher_style": "The instructor explains steps clearly while standing in front of the group, occasionally demonstrating movements. He breaks down the routine into manageable sections before having students practice along with music.",
+   "distinctive_method": "Combining vocal rhythm imitations like 'ta-ta-ta' with physical demonstration before integrating music.",
+   "what_works": [
+    "Clear verbal breakdown of each step before dancing to music"
+   ],
+   "what_hinders": [
+    "Group blocks some camera angles during partner practice"
+   ],
+   "evidence": [
+    {
+     "start_s": 36,
+     "end_s": 40,
+     "topic": "movement",
+     "observation": "Teacher demonstrates opening and closing steps on the spot facing the front.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 101,
+     "end_s": 107,
+     "topic": "movement",
+     "observation": "Teacher and students move in a circle holding hands executing the bear step.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "footwork detail due to group occlusion",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -495,6 +581,6 @@
   "polished": false,
   "file": "episodes/goralski.json"
  },
- "fingerprint": "a13b98dcd55e1430",
- "updated": "2026-11-24"
+ "fingerprint": "9008b31895b5122b",
+ "updated": "2026-11-25"
 }

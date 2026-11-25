@@ -122,7 +122,7 @@ NARRATION: Step 1: Left foot steps forward to the left
 NARRATION: Step 2: Right foot steps to the left, replacing left foot's position
 NARRATION: Footwork from the sources: Six-step pattern moving leftward: step left forward, right foot replaces left, repeat, then right foot steps sideways or back, left foot follows
 NARRATION: Drill: Practice right hand overlapping left hand hold
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the six-bar phrases bar out loud, then in pairs of bars · repetitions: 3
@@ -193,7 +193,7 @@ NEEDS: tempo
 NARRATION: Step 1: Right foot steps sideways to the right or one step backward
 NARRATION: Step 2: Left foot follows right foot
 NARRATION: Drill: Practice moving with chain's inward and outward curves
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the six-bar phrases bar out loud, then in pairs of bars · repetitions: 3
@@ -265,7 +265,7 @@ NEEDS: tempo
 NARRATION: Step 1: Right foot steps sideways to the right or one step backward
 NARRATION: Step 2: Left foot follows right foot
 NARRATION: Drill: Practice stillness and backward steps during verses
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the six-bar phrases bar out loud, then in pairs of bars · repetitions: 3
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: count the six-bar phrases bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (3): https://en.wikipedia.org/wiki/Faroese_chain_dance; https://www.wikidata.org/wiki/Q615031; https://de.wikipedia.org/wiki/Färöischer_Kettentanz

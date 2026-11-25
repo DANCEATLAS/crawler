@@ -1,0 +1,858 @@
+{
+ "slug": "pop-goes-the-weasel",
+ "name": "Pop Goes the Weasel",
+ "pack_version": "e2",
+ "built_at": "2026-11-25T21:47:20Z",
+ "researched_at": "2026-11-25T20:46:03Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A lively dance historian familiar with 19th-century social customs",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Pop Goes the Weasel"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Pop Goes the Weasel",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Tune That Launched a Craze",
+     "This is Pop Goes the Weasel. 19th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (1bDwpmLuaEs)",
+     "Title card: Pop Goes the Weasel · United Kingdom · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance and tune emerged in the early 1850s as a variation of 'The Haymakers', a jig dating back to the 18th century.",
+     "By December 1852, it became a fashionable social dance in the United Kingdom, championed by dance-masters like Eugène Coulon and featured at court balls.",
+     "Sheet music was published in London and America in 1853."
+    ],
+    "on_screen": [
+     "Map: United Kingdom · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally performed at fashionable social balls, private parties, and theatrical stages, later becoming a children's playground game.",
+     "The title phrase has inspired numerous interpretations, including spinner's weaver gears, tailor's tools, and Cockney rhyming slang for pawning a coat.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Danced in two parallel lines of couples.",
+     "Figures include balancing (Ballaneez), galloping down the inside and back, taking hands in circles with neighboring partners, and passing a partner under raised arms while the group sings the refrain 'pop goes the weasel'.",
+     "In the later children's game variant, participants circle around rings and scramble for spots when the song reaches the pop refrain.",
+     "Watch for Passing under arms."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (1bDwpmLuaEs)",
+     "Captions name each signature move as it appears",
+     "Formation: two parallel lines of couples or a circular ring formation"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Built upon a traditional jig rhythm, predominantly in 6/8 meter with an animated tempo.",
+     "Historical instruments include fiddles, pianos, guitars, and mechanical street hand-organs.",
+     "Listen for the fiddle, piano, guitar, hand-organs.",
+     "The pulse is 6/8.",
+     "A lively, bouncing jig melody driven by rhythmic string or keyboard instrumentation that builds in energy before concluding with a sudden, pronounced vocal or mechanical pop."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: When We Were Very Young — Gene Kelly; Pop Goes the Weasel — Anthony Newley",
+     "Waveform or rhythm-pattern graphic: jig rhythm with a characteristic accented refrain"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "19th-century ballroom attire for court and private soirées, later transitioning to everyday Victorian children's and street clothing.",
+     "Performed in ballrooms, stage halls, streets, and school playgrounds."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Eugène Coulon introduced the fashionable dance-master choreography to court balls.",
+     "James W. Porter arranged American sheet music variants.",
+     "British versions reference local London landmarks such as City Road and the Eagle pub, as well as tuppenny rice and treacle.",
+     "Directly descended from 18th-century English jigs and country dances such as 'The Haymakers', evolving into 19th-century ballroom dances, children's singing games, and modern popular culture references."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Pop Goes the Weasel is parent of The Haymakers: The tune and dance trace back to The Haymakers from the 1700s."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form in Two Lines",
+     "Ballaneez for Four Bars",
+     "Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the 19th-century origins of Pop Goes the Weasel from aristocratic ballrooms to street organs and children's games.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn the basic line formation and gallop step",
+   "level": "Level 1: Fundamentals",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn the basic line formation and gallop step.",
+      "Level: Level 1: Fundamentals. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively dance historian familiar with 19th-century social customs"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright, social ballroom or country dance posture",
+      "holding hands in lines or circles, and raising arms to allow dancers to pass underneath"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.",
+      "Rhythm pattern: jig rhythm with a characteristic accented refrain.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form in Two Lines",
+      "Step 2: Ballaneez for Four Bars",
+      "Footwork from the sources: galloping steps, balancing steps (Ballaneez), and walking in lines or around rings",
+      "Drill: Two-line alignment drill"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Gallop down inside and back",
+      "Step 4: Hands Round with the next Lady",
+      "Drill: Basic gallop down the inside and back"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated upper-body arm-raising and clapping on the pop refrain · For children: Play the traditional musical chairs or ring game version"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body arm-raising and clapping on the pop refrain",
+      "For children: Play the traditional musical chairs or ring game version"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn the basic line formation and gallop step.",
+      "Originally performed at fashionable social balls, private parties, and theatrical stages, later becoming a children's playground game.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the hands round and passing under arms",
+   "level": "Level 2: Interaction",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the hands round and passing under arms.",
+      "Level: Level 2: Interaction. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively dance historian familiar with 19th-century social customs"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright, social ballroom or country dance posture",
+      "holding hands in lines or circles, and raising arms to allow dancers to pass underneath"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.",
+      "Rhythm pattern: jig rhythm with a characteristic accented refrain.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Pass partner under your arms on 'Pop goes the weasel'",
+      "Drill: Hands round in fours"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Passing under arms: One pair of dancers moves underneath the raised arms of another while shouting or singing the refrain.",
+      "Drill: Passing under raised arms on the refrain"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated upper-body arm-raising and clapping on the pop refrain · For children: Play the traditional musical chairs or ring game version"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body arm-raising and clapping on the pop refrain",
+      "For children: Play the traditional musical chairs or ring game version"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: two parallel lines of couples or a circular ring formation"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the hands round and passing under arms.",
+      "Eugène Coulon introduced the fashionable dance-master choreography to court balls.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Play the musical game version",
+   "level": "Level 3: Game Variant",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Play the musical game version.",
+      "Level: Level 3: Game Variant. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively dance historian familiar with 19th-century social customs"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright, social ballroom or country dance posture",
+      "holding hands in lines or circles, and raising arms to allow dancers to pass underneath"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.",
+      "Rhythm pattern: jig rhythm with a characteristic accented refrain.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hands Round with the next Lady",
+      "Step 2: Pass partner under your arms on 'Pop goes the weasel'",
+      "Drill: Ring formation movement"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Passing under arms: One pair of dancers moves underneath the raised arms of another while shouting or singing the refrain.",
+      "Drill: Quick securing of rings on the pop cue"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated upper-body arm-raising and clapping on the pop refrain · For children: Play the traditional musical chairs or ring game version"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body arm-raising and clapping on the pop refrain",
+      "For children: Play the traditional musical chairs or ring game version"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: two parallel lines of couples or a circular ring formation"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Play the musical game version.",
+      "Directly descended from 18th-century English jigs and country dances such as 'The Haymakers', evolving into 19th-century ballroom dances, children's singing games, and modern popular culture references.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "6/8",
+  "rhythm_pattern": "jig rhythm with a characteristic accented refrain",
+  "instruments": [
+   "fiddle",
+   "piano",
+   "guitar",
+   "hand-organs",
+   "jack-in-the-box mechanisms"
+  ],
+  "vocal_style": "group singing or shouting of the refrain",
+  "musical_form": null,
+  "mood": [
+   "mirth-inspiring",
+   "animated",
+   "lively",
+   "playful"
+  ],
+  "sound_description": "A lively, bouncing jig melody driven by rhythmic string or keyboard instrumentation that builds in energy before concluding with a sudden, pronounced vocal or mechanical pop.",
+  "listen_before_composing": [
+   "When We Were Very Young — Gene Kelly",
+   "Pop Goes the Weasel — Anthony Newley"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Pop Goes the Weasel (United Kingdom). Meter 6/8. Rhythm pattern: jig rhythm with a characteristic accented refrain. Instruments: fiddle, piano, guitar, hand-organs, jack-in-the-box mechanisms. Vocal style: group singing or shouting of the refrain. Mood: mirth-inspiring, animated, lively, playful. It should sound like this: A lively, bouncing jig melody driven by rhythmic string or keyboard instrumentation that builds in energy before concluding with a sudden, pronounced vocal or mechanical pop. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "1bDwpmLuaEs",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "19th-century ballroom attire for court and private soirées, later transitioning to everyday Victorian children's and street clothing. Performed in ballrooms, stage halls, streets, and school playgrounds.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AEagle_City_Road_London_2005.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACharlene_Parker_demonstrating_how_thread_or_yarn_is_tranferred_from_a_spinning_wheel_to_a_clock_reel..jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASinging_games_-_Pop_goes_the_weasel.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eagle_City_Road_London_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Eagle_City_Road_London_2005.jpg/1280px-Eagle_City_Road_London_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "User:Justinc / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEagle_City_Road_London_2005.jpg",
+    "description": "The Eagle pub, City Road, London, mentioned in nursery rhyme \"Pop goes the weasel\" 2 Shepherdess Walk, Old Street, London, N1 7LB"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Charlene_Parker_demonstrating_how_thread_or_yarn_is_tranferred_from_a_spinning_wheel_to_a_clock_reel..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Charlene_Parker_demonstrating_how_thread_or_yarn_is_tranferred_from_a_spinning_wheel_to_a_clock_reel..jpg/1280px-Charlene_Parker_demonstrating_how_thread_or_yarn_is_tranferred_from_a_spinning_wheel_to_a_clock_reel..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "DTParker1000 / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACharlene_Parker_demonstrating_how_thread_or_yarn_is_tranferred_from_a_spinning_wheel_to_a_clock_reel..jpg",
+    "description": "Charlene Parker, spinner at Knott's Berry Farm with spinning wheel and clock reel."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Singing_games_-_Pop_goes_the_weasel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Singing_games_-_Pop_goes_the_weasel.jpg/1280px-Singing_games_-_Pop_goes_the_weasel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Author Josephine Pollard\n\nIllustrator Ferdinand Schuyler Mathews / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASinging_games_-_Pop_goes_the_weasel.jpg",
+    "description": "Singing games - Pop goes the weasel."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pop_goes_the_Weasel_%28piano_arrangement_with_dance_description%2C_1853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pop_goes_the_Weasel_%28piano_arrangement_with_dance_description%2C_1853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jas. W. Porter (arrangement) / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APop_goes_the_Weasel_%28piano_arrangement_with_dance_description%2C_1853%29.jpg",
+    "description": "Pop goes the Weasel, piano arrangement by Jas. W. Porter with dance description"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "1854 sheet music illustrations",
+   "Jack-in-the-box toys",
+   "The Eagle pub facade on City Road"
+  ],
+  "costume_notes": "19th-century ballroom attire for court and private soirées, later transitioning to everyday Victorian children's and street clothing. Performed in ballrooms, stage halls, streets, and school playgrounds.",
+  "setting_notes": "Originally performed at fashionable social balls, private parties, and theatrical stages, later becoming a children's playground game. The title phrase has inspired numerous interpretations, including spinner's weaver gears, tailor's tools, and Cockney rhyming slang for pawning a coat.",
+  "map": {
+   "country": "United Kingdom",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
+  "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 3"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
+   "1-2-3",
+   "step to the right",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed reference footage",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pop_Goes_the_Weasel",
+  "https://www.wikidata.org/wiki/Q7229002",
+  "https://fr.wikipedia.org/wiki/Pop_Goes_the_Weasel",
+  "https://pt.wikipedia.org/wiki/Pop!_Goes_the_Weasel",
+  "https://de.wikipedia.org/wiki/Pop!_Goes_the_Weasel",
+  "https://it.wikipedia.org/wiki/Pop_Goes_the_Weasel"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "4d612b47a8f68c0b51df38b2e45888b0282595cd8afb5f3ade1323d99a0b0e73",
+ "hero_checked": "pass"
+}

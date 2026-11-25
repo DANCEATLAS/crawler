@@ -2,7 +2,7 @@
  "slug": "javanese-dance",
  "name": "Javanese dance",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:55Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-24T20:58:43Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -66,7 +66,7 @@
      "This is Javanese dance. Ancient to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (O4550EZz8f0)",
      "Title card: Javanese dance · Indonesia · Ancient to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Alus, Gagah."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (O4550EZz8f0)",
      "Captions name each signature move as it appears",
      "Formation: Distinct staging with subtle layers of meaning; often symmetrical in court rituals."
     ],
@@ -269,7 +269,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "O4550EZz8f0",
+   "checked_by_vision_model": true,
+   "title": "Javanese Traditional Dance, Yogyakarta Palace  Indonesia"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -396,8 +400,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the classical-court family studied",
-  "videos_studied": 16,
+  "source": "17 tutorial(s) of the classical-court family studied",
+  "videos_studied": 17,
   "counting": "count the Colotomic cycles (Gamelan structure) bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -424,16 +428,15 @@
    "intro",
    "context",
    "breakdown",
-   "full_demo",
    "slow_practice",
+   "full_demo",
    "music_practice"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "tempo (bpm)",
-  "a verified recording to listen to",
-  "a hero video"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Javanese_dances",
@@ -442,6 +445,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "221823d0657588c6fbbf5a9f9c3f0ccc0362e906e674a9ddc02e7438a51c8b12",
- "hero_checked": null
+ "input_fingerprint": "4f433d1ee3f21ee1e726469b056d1e0f22dd20547579ff843faae44d70d5025f",
+ "hero_checked": "pass"
 }

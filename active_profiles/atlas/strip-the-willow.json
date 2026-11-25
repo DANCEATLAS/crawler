@@ -1,0 +1,156 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Yanked arm links",
+          "Tripping in central aisle"
+        ],
+        "counts": "Simplified 4-count elbow turns.",
+        "duration_minutes": "5",
+        "game_version": "Run the weaving line game where children high-five alternating side partners down the track."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Fast continuous spinning",
+          "Sudden arm pulls"
+        ],
+        "counts": "Use 8 counts per spin instead of 16 to reduce dizziness.",
+        "seated_version": "Perform alternating right and left arm links with seated side partners at reduced tempo.",
+        "standing_version": "Walk the line turns at half tempo using gentle forearm touches instead of fast elbow spins.",
+        "tempo_and_range": "Reduce tempo to 80-90 BPM and limit spin rotation speed."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Mastering the alternating arm-link turn progression down a longways set.",
+          "source": "https://en.wikipedia.org/wiki/Strip_the_willow"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Longways set with couples progressing from top to bottom through arm turns.",
+          "source": "https://en.wikipedia.org/wiki/Strip_the_willow"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Linked elbows (left arm to outside line, right arm to partner)",
+      "difficulty": "beginner",
+      "footwork": "Skip-change step or relaxed rhythmic walking turn step",
+      "formation_and_space": "Longways set facing partner across a parallel aisle",
+      "hips_and_torso": "Torso rotates smoothly to absorb momentum of continuous turning",
+      "levels_and_jumps": "Ground-level traveling turns without high leaps",
+      "partnering": "Alternating forearm or linked elbow turns with partner and line members",
+      "posture": "Upright, active social dance stance with flexible knees and firm elbow connections",
+      "signature_moves": [
+        {
+          "description": "Alternating left-elbow turn with line dancer and right-elbow turn with partner progressing down the line",
+          "name": "The Willow Strip"
+        }
+      ],
+      "tempo_feel": "Brisk, relentless driving turn momentum",
+      "what_to_avoid": "Pulling forcefully on partner arms or losing count of arm alternations"
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle",
+        "Accordion",
+        "Tin whistle",
+        "Piano"
+      ],
+      "meter": "9/8 or 6/8",
+      "mood_keywords": [
+        "Exhilarating",
+        "Joyful",
+        "Rhythmic",
+        "Social"
+      ],
+      "musical_form": "AABB repeating structure adjusted to set length",
+      "reference_recordings": [],
+      "rhythm_pattern": "Continuous driving compound jig pulse",
+      "sound_description": "Energetic, driving accordion and fiddle jigs playing continuous compound-meter melodies like 'Drops of Brandy'.",
+      "tempo_bpm": "110-130 BPM",
+      "vocal_style": "Instrumental dance music, occasionally accompanied by caller prompts or vocal shouts"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Top couple link right arms and spin in the center for 16 beats.",
+        "Lady turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+        "Gentleman turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.",
+        "Both partners simultaneously turn line dancers anti-clockwise and each other clockwise down the set."
+      ],
+      "formation": "Longways set (line of gentlemen facing line of ladies)",
+      "level_notes": "Accessible to beginners; requires stamina for continuous turning.",
+      "rhythm": "6/8 or 9/8 slip jig / jig tempo"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "5b540ed28615fb6b917f7436efbc28d03ff8d52df01823a15e55c2a47ab40ce4",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What standard footwork step (skip-change vs marching step) is most commonly taught by modern ceilidh callers during Strip the Willow? Evidence needed: Ceilidh caller instructional manuals or formal Royal Scottish Country Dance Society video materials."
+    ]
+  },
+  "id": "atlas:strip-the-willow",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Strip the willow",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "b3b7179e1bc02463",
+      "next_evidence": "Ceilidh caller instructional manuals or formal Royal Scottish Country Dance Society video materials.",
+      "question": "What standard footwork step (skip-change vs marching step) is most commonly taught by modern ceilidh callers during Strip the Willow?",
+      "source": "https://en.wikipedia.org/wiki/Strip_the_willow",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to standardize interactive tutorial instructions for digital learners."
+    }
+  ],
+  "research_file": "research_results/strip-the-willow.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "strip-the-willow",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Strip_the_willow",
+    "https://www.wikidata.org/wiki/Q7624100"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -120,7 +120,7 @@ NARRATION: Step 1: Form two concentric circles, with women in the inner circle a
 NARRATION: Step 2: Step rhythmically in a clockwise direction while striking khanda sticks in time with the drums
 NARRATION: Footwork from the sources: Series of intricate pattern steps and directional circle changes
 NARRATION: Drill: Step to a steady drum beat in a clockwise ring
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -189,7 +189,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Switch circle layers, moving men into the inner circle and women to the outer ring
 NARRATION: Drill: Execute a controlled half-swirl turn while maintaining foot placement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -259,7 +259,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Execute half-swirl turns to flare the pleated tunic or skirt
 NARRATION: Step 2: Switch circle layers, moving men into the inner circle and women to the outer ring
 NARRATION: Drill: Accelerate footwork to complex rhythmic patterns
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Gair_dance; https://www.wikidata.org/wiki/Q5517326

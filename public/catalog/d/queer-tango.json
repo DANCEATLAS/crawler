@@ -267,26 +267,108 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
    }
   ],
   "via": {
    "posture": "performance",
    "arms": "performance",
-   "rhythm": "performance",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "csVSyLaSfew",
+   "url": "https://www.youtube.com/watch?v=csVSyLaSfew",
+   "title": "Learn Queer Tango for Smoqua 2020",
+   "channel": "LORI",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "the teacher does not use a specific counting scheme, but rat",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "The teacher introduces himself and the topic of the video."
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "context",
+     "note": "The teacher explains the difference between Argentine Tango and Queer Tango."
+    },
+    {
+     "t": "4:03",
+     "seconds": 243,
+     "segment": "breakdown",
+     "note": "The teacher explains the basic steps of Tango, including weight transfer and the follower cross."
+    },
+    {
+     "t": "7:44",
+     "seconds": 464,
+     "segment": "breakdown",
+     "note": "The teacher explains the 'ocho atrás' step."
+    }
+   ],
+   "steps": [
+    {
+     "name": "follower cross",
+     "description": "The free leg crosses over the supporting leg and replaces the axis."
+    },
+    {
+     "name": "ocho atrás",
+     "description": "A pivot followed by a step backwards."
+    }
+   ],
+   "cues": [
+    "forward",
+    "sideways",
+    "backwards",
+    "pivot"
+   ],
+   "images": [
+    "imaginary train tracks"
+   ],
+   "common_mistakes": [
+    "stepping diagonally",
+    "changing the hips too much during the follower cross"
+   ],
+   "teacher_style": "The teacher is very enthusiastic and uses a clear, structured approach to explain the basics of Queer Tango. He emphasizes the importance of having fun and encourages students to practice by repeating steps.",
+   "distinctive_method": "The teacher emphasizes the de-genderization of roles in Queer Tango, allowing both partners to lead and follow.",
+   "what_works": [
+    "The teacher's clear explanations and the use of a partner to demonstrate the steps."
+   ],
+   "what_hinders": [
+    "The lack of a specific counting scheme might make it difficult for some students to follow the rhythm."
+   ],
+   "evidence": [
+    {
+     "start_s": 415,
+     "end_s": 425,
+     "topic": "movement",
+     "observation": "The teacher demonstrates weight transfer between legs.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "onynuHmBUmQ",
@@ -348,11 +430,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 12,
+  "gaps": 11,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/queer-tango.json"
  },
- "fingerprint": "4b5e7c60e748a9fb",
- "updated": "2026-11-24"
+ "fingerprint": "6890f3738bda0bb7",
+ "updated": "2026-11-25"
 }

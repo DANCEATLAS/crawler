@@ -2,43 +2,43 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "complex footwork"
-        ],
-        "counts": "Simplified 4-count rhythm.",
-        "duration_minutes": "2-3 minutes",
-        "game_version": "A 'follow the cow' game where children mimic the gait and horn shapes."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "rapid weight shifts",
-          "unsupported balance"
-        ],
-        "counts": "Simplified 4-count rhythm.",
-        "seated_version": "Perform the arm gestures while seated, focusing on the horn shape.",
-        "standing_version": "Perform the side-to-side sway with support if needed.",
-        "tempo_and_range": "Reduced tempo to ensure stability."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Women spread hands across and above their heads to represent long-horned cattle.",
+      "arms_and_hands": "women sway side to side, spreading hands across and above their heads",
       "difficulty": "beginner",
-      "footwork": "Men step from one leg to another to imitate cow movement.",
+      "footwork": "stepping from one leg to another",
       "formation_and_space": "not described in sources",
-      "hips_and_torso": "Women sway from side to side.",
+      "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Men step from one leg to another to imitate the walking of cows.",
-          "name": "Cow Gait"
+          "description": "poetry performed by men narrating their life achievements",
+          "name": "Okwevuga"
         },
         {
-          "description": "Women spread their hands across and above their heads to represent long-horned cattle.",
-          "name": "Horn Representation"
+          "description": "men stepping from one leg to another imitating walking cows",
+          "name": "Cow gait imitation"
         }
       ],
       "tempo_feel": "not described in sources",
@@ -49,25 +49,24 @@
         "flutes",
         "Engalabi",
         "shakers",
-        "drums"
+        "drums",
+        "clapping of the hands"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "celebratory",
-        "rhythmic"
+        "celebratory"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The music features a combination of melodic flute lines, percussive drum beats from the Engalabi, the sound of shakers, and rhythmic hand clapping.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "Okwevuga (poetry)"
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Men: Step from one leg to another to imitate cow walking.",
-        "Women: Sway from side to side.",
-        "Women: Spread hands across and above the head to represent horns."
+        "stepping from one leg to another to imitate cow movement",
+        "women swaying from side to side with hands across and above heads"
       ],
       "formation": "not described in sources",
       "level_notes": "not described in sources",
@@ -75,7 +74,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "45dfec274e230977e1e8c11a24d66e963271d30cb3307972fcc3c032d6af9e5a",
+  "fingerprint": "6c52fcf521ec7a4b88786a4bf6c6695925ab8805eeaa6e2464ec9e8c75501e65",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -84,7 +83,7 @@
     ],
     "research": [
       "movement: posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern",
+      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -100,7 +99,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -128,5 +126,11 @@
     "https://www.wikidata.org/wiki/Q124333764"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/SeVEsZNpxnU.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=SeVEsZNpxnU"
+    }
+  ]
 }

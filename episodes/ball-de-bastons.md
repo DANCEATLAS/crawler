@@ -118,7 +118,7 @@ NARRATION: Step 1: Stand in parallel double file facing partner with stick held 
 NARRATION: Step 2: Step forward on count 1 in 2/4 meter while striking partner's stick at chest level
 NARRATION: Footwork from the sources: Springy marching steps, directional passes, and single-leg lifts in 2/4 rhythm.
 NARRATION: Drill: Practice basic right-to-left stick contact with partner on count 1 and 2
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -189,7 +189,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Stand in parallel double file facing partner with stick held upright in right hand
 NARRATION: Step 2: Step forward on count 1 in 2/4 meter while striking partner's stick at chest level
 NARRATION: Drill: Perform pasada step-through while maintaining stick strike rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -263,7 +263,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Execute pasada by stepping past partner to the right while striking sticks in passing
 NARRATION: Step 2: Perform bajocama by lifting left leg and striking sticks underneath the raised thigh
 NARRATION: Drill: Master the bajocama under-leg strike timing at full speed
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (4): https://en.wikipedia.org/wiki/Ball_de_bastons; https://www.wikidata.org/wiki/Q4851249; https://es.wikipedia.org/wiki/Baile_de_bastones; https://fr.wikipedia.org/wiki/Danse_des_bâtons

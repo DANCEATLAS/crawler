@@ -2,13 +2,13 @@
  "slug": "ngajat",
  "name": "Ngajat",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
- "researched_at": "2026-11-15T17:29:33Z",
+ "built_at": "2026-11-25T21:47:20Z",
+ "researched_at": "2026-11-25T20:15:22Z",
  "qc_score": 9.7,
- "status": "withheld-chapters",
+ "status": "draft",
  "release_status": "not_validated",
- "sacred": true,
- "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "sacred": false,
+ "chapters_note": null,
  "formula": {
   "episode_1": [
    "hook",
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "persona": "A knowledgeable cultural practitioner from Sarawak.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -61,7 +61,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Bird-Warrior Dance of Sarawak",
+     "The Bird and the Warrior",
      "This is Ngajat. 16th century to present."
     ],
     "on_screen": [
@@ -74,23 +74,22 @@
     "code": "where",
     "title": "Where and when",
     "duration_s": 70,
-    "narration": [
-     "The dance is believed to have originated in the 16th century.",
-     "Ancestors of the Iban community created the movements after observing the footprints of a common hill myna and the wing-spreading behavior of the great argus."
-    ],
+    "narration": [],
     "on_screen": [
      "Map: Malaysia · Southeast Asia",
      "Image 1 with attribution"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "origins_and_history"
+    ]
    },
    {
     "code": "occasion",
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Ngajat is performed during Gawai festivals, to welcome special guests, and historically to celebrate the success of headhunting.",
-     "It serves as a display of masculinity, warrior strength, and cultural identity.",
+     "The dance is characterised by its graceful movements, often mimicking the actions of tribal warriors returning from battle or celebrating the harvest during Gawai.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -103,15 +102,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance features graceful, bird-like movements.",
-     "Male dancers may use props like swords and shields.",
-     "In Ngajat Lesong, a dancer lifts a wooden rice mortar weighing 7 to 20 kilograms with his teeth.",
+     "Ngajat consists of several types, including Ngajat Serakup, a standardised version for stage performance created in the early 80s and modernised in the late 90s.",
+     "Ngajat Bebunoh is presented by young men replicating enemy confrontations or hunting.",
+     "Ngajat Lesong illustrates masculinity by having a warrior lift a wooden rice mortar weighing 7 to 20 kilograms with his teeth.",
      "Watch for Bungai Ajat."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (luVI7fwzuiI)",
      "Captions name each signature move as it appears",
-     "Formation: Dancers stand in a circle or lead a procession."
+     "Formation: dancers stand on the circle"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -120,7 +119,8 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Musical instruments include large and medium gongs (tawak and bebendai), drums (ketebung/dumba), a set of small gongs (engkromong), and the belikan string instrument.",
+     "Musical instruments include large and medium gongs (tawak and bebendai), drums or ketebung/dumba and a set of small gongs engkromong.",
+     "Belikan is another string instrument used to perform ngajat dance.",
      "Listen for the tawak, bebendai, ketebung, dumba."
     ],
     "on_screen": [
@@ -139,8 +139,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Male dancers wear 'gagung' (traditionally animal skin, now often goatskin) and feathered headdresses.",
-     "Female dancers wear headdresses, chest hooks, waist cloths, and bracelets."
+     "Male dancers wear traditional costumes like mesh, gagung or bird clothes.",
+     "Gagung is a kind of thick and hard armour made of animal skin such as bear in the past which has been replaced with the current Jamnapari breed goatskin bought from neighbouring Indonesia where it is known as Etawah, but not stitched on the sides with dancers also wear hats decorated with feathers."
     ],
     "on_screen": [
      "Image gallery: 3 licensed images with attribution",
@@ -153,23 +153,27 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Dion Das Louis, an eight-year-old dancer from Sarawak, won two gold medals at the 2024 World Performing Arts Championships.",
-     "Variants include Ngajat Serakup (standardized stage version), Ngajat Bebunoh (combat/hunting), Ngajat Lesong (strength), Ngajat Induk (female performance), Ngajat Muka Kuta (mixed gender), and Ngajat Ngalu Temuai (welcoming).",
-     "The dance is a traditional Iban practice, with modern stage versions like Ngajat Serakup developed by the Dayak Dance And Cultural Association."
+     "During the 2024 World Performing Arts Championships in Long Beach, California of the United States, Dion Das Louis, an eight-year-old dancer from Sarawak, won two gold medals by bringing through the dance performances.",
+     "The Ngajat is a traditional dance performed by the Iban community of Sarawak in Malaysia, as well as Dayak Iban and Bidayuh communities in both neighbouring Brunei and West Kalimantan of Indonesia, where it consists of several further Ngajat dance classifications."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
      "Variant names as a small list"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "lineage"
+    ]
    },
    {
     "code": "family",
     "title": "Family tree",
     "duration_s": 40,
-    "narration": [],
+    "narration": [
+     "Ngajat is variant of Ngajat Serakup: A standardised version of Ngajat for stage performance created in the early 80s."
+    ],
     "on_screen": [
-     "Connections — MISSING"
+     "Graph: the connections with their relation labels"
     ],
     "music": "underscore",
     "needs": [
@@ -178,22 +182,26 @@
    },
    {
     "code": "first_step",
-    "title": "A respectful note",
-    "duration_s": 30,
+    "title": "Try one step",
+    "duration_s": 60,
     "narration": [
-     "The dance is part of the Iban tangible and intangible cultural heritage, including ritual processes that are protected by the Malaysian federal and Sarawak state governments."
+     "Before we go, one step. Swinging body to the left and to the right",
+     "Jumping accompanied by the music",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
-     "Calm wide shot, no demonstration"
+     "Instructor, front view, slow",
+     "Count on screen"
     ],
-    "music": "underscore"
+    "music": "lesson_slow"
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover the Ngajat, an ancient Iban tradition that transforms the movements of the jungle into a powerful display of warrior strength.",
+     "Explore the Iban traditional dance of Sarawak, mirroring the movements of warriors and birds.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -202,9 +210,440 @@
     "music": "theme (20 s)"
    }
   ],
-  "runtime_s": 525
+  "runtime_s": 555
  },
- "chapters": [],
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic wing and body swings",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic wing and body swings.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable cultural practitioner from Sarawak."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "wing-spreading behavior is mirrored in the dancers' hand gestures",
+      "body swinging to the left and to the right"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Swinging body to the left and to the right",
+      "Step 2: Jumping accompanied by the music",
+      "Drill: Practice arm extensions mimicking bird wings"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Heel touch on the stage",
+      "Drill: Body swaying left and right"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic wing and body swings.",
+      "The dance is characterised by its graceful movements, often mimicking the actions of tribal warriors returning from battle or celebrating the harvest during Gawai.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Ngajat",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Ngajat.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable cultural practitioner from Sarawak."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "wing-spreading behavior is mirrored in the dancers' hand gestures",
+      "body swinging to the left and to the right"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Swinging body to the left and to the right",
+      "Step 2: Jumping accompanied by the music"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Heel touch on the stage",
+      "Bungai Ajat: Hand gestures mirroring the wing-spreading behavior of the great argus bird."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: dancers stand on the circle"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Ngajat.",
+      "During the 2024 World Performing Arts Championships in Long Beach, California of the United States, Dion Das Louis, an eight-year-old dancer from Sarawak, won two gold medals by bringing through the dance performances.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Ngajat",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Ngajat.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable cultural practitioner from Sarawak."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "wing-spreading behavior is mirrored in the dancers' hand gestures",
+      "body swinging to the left and to the right"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Jumping accompanied by the music",
+      "Step 2: Heel touch on the stage"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bungai Ajat: Hand gestures mirroring the wing-spreading behavior of the great argus bird."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: dancers stand on the circle"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Ngajat.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
  "music_brief": {
   "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
   "rights_status": "not_assessed",
@@ -223,13 +662,13 @@
   "vocal_style": null,
   "musical_form": null,
   "mood": [
+   "ceremonial",
    "warrior",
-   "celebratory",
-   "graceful"
+   "celebratory"
   ],
   "sound_description": null,
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Ngajat (Malaysia). Instruments: tawak, bebendai, ketebung, dumba, engkromong, belikan. Mood: warrior, celebratory, graceful. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Ngajat (Malaysia). Instruments: tawak, bebendai, ketebung, dumba, engkromong, belikan. Mood: ceremonial, warrior, celebratory. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -268,10 +707,10 @@
    "title": null
   },
   "wardrobe": {
-   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
-   "dress_the_narrator": false,
-   "restricted_attire": true,
-   "from_sources": "Male dancers wear 'gagung' (traditionally animal skin, now often goatskin) and feathered headdresses. Female dancers wear headdresses, chest hooks, waist cloths, and bracelets.",
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Male dancers wear traditional costumes like mesh, gagung or bird clothes. Gagung is a kind of thick and hard armour made of animal skin such as bear in the past which has been replaced with the current Jamnapari breed goatskin bought from neighbouring Indonesia where it is known as Etawah, but not stitched on the sides with dancers also wear hats decorated with feathers. Female dancers dubbed Kumang, they wear clothes such as a headdress, hooks high on the chest, cloth tied at the waist, hands and feet bracelets and earrings.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AArgusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg",
     "https://commons.wikimedia.org/wiki/File%3AAcridotheres_tristis00.jpg",
@@ -313,12 +752,12 @@
   "footage": [],
   "motifs": [
    "Feathered headdresses",
-   "Pua Kumbu fabric",
-   "Traditional gongs",
-   "Wooden shields"
+   "Terabai shields",
+   "Gong ensembles",
+   "Longhouse settings"
   ],
-  "costume_notes": "Male dancers wear 'gagung' (traditionally animal skin, now often goatskin) and feathered headdresses. Female dancers wear headdresses, chest hooks, waist cloths, and bracelets.",
-  "setting_notes": "Ngajat is performed during Gawai festivals, to welcome special guests, and historically to celebrate the success of headhunting. It serves as a display of masculinity, warrior strength, and cultural identity.",
+  "costume_notes": "Male dancers wear traditional costumes like mesh, gagung or bird clothes. Gagung is a kind of thick and hard armour made of animal skin such as bear in the past which has been replaced with the current Jamnapari breed goatskin bought from neighbouring Indonesia where it is known as Etawah, but not stitched on the sides with dancers also wear hats decorated with feathers. Female dancers dubbed Kumang, they wear clothes such as a headdress, hooks high on the chest, cloth tied at the waist, hands and feet bracelets and earrings.",
+  "setting_notes": "The dance is characterised by its graceful movements, often mimicking the actions of tribal warriors returning from battle or celebrating the harvest during Gawai.",
   "map": {
    "country": "Malaysia",
    "region": "Southeast Asia",
@@ -331,8 +770,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 16,
+  "source": "18 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 18,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -357,8 +796,8 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "follow_along",
    "context",
+   "follow_along",
    "breakdown",
    "full_demo",
    "slow_practice",
@@ -371,7 +810,10 @@
   "meter",
   "a verified recording to listen to",
   "licensed reference footage",
-  "two or more connections"
+  "the origins & history section",
+  "lineage",
+  "two or more connections",
+  "what to avoid / common mistakes"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Ngajat",
@@ -380,6 +822,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "c80b62f37cb9aee928c48ca0f439eb9bd88ac270e4727c8bf06b77ca7ed62a77",
+ "input_fingerprint": "821e525404dd68b01b3215ca17d82d329be99d54418ea3264dc1d8ba42f1f0de",
  "hero_checked": "pass"
 }

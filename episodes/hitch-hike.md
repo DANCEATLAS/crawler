@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic 1960s dance show host, energetic and encouraging.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Thumb Out: The Story of the Hitch Hike
 NARRATION: This is Hitch hike. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (hqukP-JABKI)
 ON SCREEN: Title card: Hitch hike · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is based on the hitchhiking gesture of waving a stuck-out t
 NARRATION: The standard Motown sequence consists of waving the right thumb over the right shoulder three times, followed by a clap, then repeating the same sequence with the left thumb and another clap.
 NARRATION: This is performed alongside shimmying body ripples.
 NARRATION: Watch for The Thumb Wave, The Motown Clap.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (hqukP-JABKI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Stationary or moving laterally/backward in a social dance floor setting
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Originally performed in 1960s social settings such as dance clubs and televised music programs. The attire was typical of 1960s youth fashion, which allowed for the torso 'shimmy' and arm movements. In modern contexts, it is often seen in retro-themed performances or jazz dance classes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'hqukP-JABKI', 'checked_by_vision_model': True, 'title': 'Hitchhike on Hollywood A Go Go'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Vintage Motown record spinning, Split-screen showing the literal gesture vs. the dance move, Black and white television studio aesthetics
@@ -336,7 +336,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 78 tutorial(s) of the street-urban family studied · videos studied: 78
+Source: 82 tutorial(s) of the street-urban family studied · videos studied: 82
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp

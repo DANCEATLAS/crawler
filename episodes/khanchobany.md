@@ -116,7 +116,7 @@ NARRATION: Step 1: Maintain a high-energy upright posture
 NARRATION: Step 2: Execute synchronized footwork in time with the fast national music
 NARRATION: Footwork from the sources: Quick, synchronized steps
 NARRATION: Drill: Clapping to the fast national music tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -182,7 +182,7 @@ NEEDS: meter
 NARRATION: Step 1: Maintain a high-energy upright posture
 NARRATION: Step 2: Execute synchronized footwork in time with the fast national music
 NARRATION: Drill: Mirroring a partner's movements at a slow tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -250,7 +250,7 @@ NEEDS: meter
 NARRATION: Step 1: Execute synchronized footwork in time with the fast national music
 NARRATION: Step 2: Coordinate arm movements with the group to ensure visual unity
 NARRATION: Drill: Performing the synchronized sequence at the traditional fast pace
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -316,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Khanchobany_(dance); https://www.wikidata.org/wiki/Q3793330

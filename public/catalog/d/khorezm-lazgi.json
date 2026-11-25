@@ -139,7 +139,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -147,27 +147,176 @@
     "label": "known to be living, revived or historical"
    },
    {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "arms": "performance",
-   "signature_moves": "performance",
-   "rhythm": "performance",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "JWTB5qspcUI",
+   "url": "https://www.youtube.com/watch?v=JWTB5qspcUI",
+   "title": "Lazgi Foundation Lesson by Dilorom Madrakhimova and Sherzod Kenjebaev",
+   "channel": "British-Uzbek Society",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Russian",
+   "counting_scheme": "the teacher uses verbal cues and rhythmic counts to guide th",
+   "parts": [
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the hand and arm movements."
+    },
+    {
+     "t": "0:28",
+     "seconds": 28,
+     "segment": "breakdown",
+     "note": "A male teacher demonstrates the footwork and body posture."
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "segment": "breakdown",
+     "note": "The teacher explains the hand movements and the importance of the 'strike' gesture."
+    },
+    {
+     "t": "0:54",
+     "seconds": 54,
+     "segment": "breakdown",
+     "note": "The teacher demonstrates the movement of the hands and the rotation of the body."
+    },
+    {
+     "t": "1:21",
+     "seconds": 81,
+     "segment": "recap",
+     "note": "The teacher performs the full sequence of movements."
+    },
+    {
+     "t": "2:42",
+     "seconds": 162,
+     "segment": "follow_along",
+     "note": "A group of students follows the teacher's movements in a video call."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hand movements",
+     "counts": "1-2-3",
+     "description": "The hands are moved in a rhythmic and graceful manner."
+    },
+    {
+     "name": "Footwork",
+     "counts": "1-2-3",
+     "description": "The feet are moved in a rhythmic and graceful manner."
+    },
+    {
+     "name": "Body posture",
+     "counts": "1-2-3",
+     "description": "The body is held in a graceful and upright position."
+    }
+   ],
+   "cues": [
+    "Snyizu ruchka",
+    "Na verkh brosili",
+    "Pravaya kist",
+    "Levaya posmotret",
+    "Udar",
+    "Plechi na pravo"
+   ],
+   "images": [
+    "The teacher uses the image of throwing the hands up and the idea of a 'strike' with the hands."
+   ],
+   "common_mistakes": [
+    "The teacher emphasizes the importance of the 'strike' gesture and the correct movement of the hands."
+   ],
+   "safety": [
+    "The teacher emphasizes the importance of maintaining a good posture and the correct movement of the hands."
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions in Russian, focusing on hand movements and posture. She demonstrates each movement with grace and encourages students to follow along with the rhythm.",
+   "distinctive_method": "The teacher uses a combination of verbal cues and rhythmic counts to guide the students, and she also uses visual demonstrations to help students understand the movements.",
+   "what_works": [
+    "The teacher's clear and concise instructions make the movements easy to follow.",
+    "The use of visual demonstrations and rhythmic cues helps students understand the movements."
+   ],
+   "what_hinders": [
+    "The language barrier may be a challenge for some students.",
+    "The fast pace of the movements may be difficult for beginners to follow."
+   ],
+   "evidence": [
+    {
+     "start_s": 13,
+     "end_s": 27,
+     "topic": "teaching",
+     "observation": "The teacher demonstrates the hand movements while facing the camera.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 28,
+     "end_s": 33,
+     "topic": "movement",
+     "observation": "The male teacher demonstrates the footwork and body posture.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 34,
+     "end_s": 43,
+     "topic": "teaching",
+     "observation": "The teacher explains the hand movements and the importance of the 'strike' gesture.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 54,
+     "end_s": 57,
+     "topic": "teaching",
+     "observation": "The teacher demonstrates the movement of the hands and the rotation of the body.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 121,
+     "end_s": 126,
+     "topic": "teaching",
+     "observation": "The teacher performs the full sequence of movements.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 242,
+     "end_s": 251,
+     "topic": "teaching",
+     "observation": "A group of students follows the teacher's movements in a video call.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "gLcj_WLam9w",
@@ -223,11 +372,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 10,
+  "gaps": 9,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/khorezm-lazgi.json"
  },
- "fingerprint": "7c9a3e89e0486b85",
- "updated": "2026-11-21"
+ "fingerprint": "c214f68871cb9bdd",
+ "updated": "2026-11-25"
 }

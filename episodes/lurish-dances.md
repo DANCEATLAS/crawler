@@ -120,7 +120,7 @@ NARRATION: Step 1: Cross the right foot over the left foot.
 NARRATION: Step 2: Take two steps forward.
 NARRATION: Footwork from the sources: Right foot crosses left, two steps forward, left toe touch to side, stepping forward right-left-right with knee flexion.
 NARRATION: Drill: Practice right-across-left cross steps in place.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -191,7 +191,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Transition into three forward steps starting with the right foot (Sepâ phase).
 NARRATION: Drill: Three-step acceleration forward starting right foot.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -263,7 +263,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Bring the left foot beside the right foot.
 NARRATION: Step 2: Transition into three forward steps starting with the right foot (Sepâ phase).
 NARRATION: Drill: Timed vertical leaps to dodge low horizontal stick sweeps.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (6): https://en.wikipedia.org/wiki/Luri_dances; https://www.wikidata.org/wiki/Q30166378; https://es.wikipedia.org/wiki/Baile_luro; https://fr.wikipedia.org/wiki/Danse_lori; https://de.wikipedia.org/wiki/Lurischer_Tanz; https://it.wikipedia.org/wiki/Danza_luro

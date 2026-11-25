@@ -2,7 +2,7 @@
  "slug": "wari",
  "name": "Wari",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-14T16:50:13Z",
  "qc_score": 10.0,
  "status": "withheld-chapters",
@@ -83,7 +83,7 @@
     ],
     "on_screen": [
      "Map: Peru · South America",
-     "Image — MISSING"
+     "Image 1 with attribution"
     ],
     "music": "underscore"
    },
@@ -150,7 +150,7 @@
      "They wear white toquilla straw hats decorated with silk ribbons and artificial flowers."
     ],
     "on_screen": [
-     "Images — MISSING",
+     "Image gallery: 1 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
@@ -280,7 +280,9 @@
    "dress_the_narrator": false,
    "restricted_attire": true,
    "from_sources": "Dancers wear formal blue or black suits with white shirts and ties, floral shawls tied over the chest, golden embroidered sashes, and carry handkerchiefs. The head is covered with a white cloth called uma paño and a pink mesh mask painted with facial features. They wear white toquilla straw hats decorated with silk ribbons and artificial flowers. Pants are rolled up, covered by black velvet knee pads embroidered with 35-40 bells each. White gloves and a command baton with a dog-head handle and leather whip complete the attire.",
-   "reference_images": [],
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AHuari_Danza.jpg"
+   ],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -288,7 +290,16 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Huari_Danza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Huari_Danza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ondando / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHuari_Danza.jpg",
+    "description": "Danza ritual de la ciudad de Huari en Áncash."
+   }
+  ],
   "footage": [],
   "motifs": [
    "Pink mesh masks",
@@ -311,8 +322,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 16,
+  "source": "18 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 18,
   "counting": "count the not explicitly described, but rhythmic emphasis on fourth beat suggests a 4/4 pattern bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -337,8 +348,8 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "follow_along",
    "context",
+   "follow_along",
    "breakdown",
    "full_demo",
    "slow_practice",
@@ -362,6 +373,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "72ebe3ba616b4d52c82e137859ab72fa115ad5df103795f6fb1230127b84b592",
+ "input_fingerprint": "8f4a549ecd0f2d069ec86c9d622c5da2c53e2f086ca37eb5ad3129b4cc243c10",
  "hero_checked": "fail"
 }

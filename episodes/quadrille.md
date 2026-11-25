@@ -329,7 +329,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: front; tempo progression: full
 Cues: changing of the places; face each other; take all four steps to the side; touch right hand to right hand; go in one circle; ladies' solo

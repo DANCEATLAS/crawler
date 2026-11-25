@@ -1,0 +1,805 @@
+{
+ "slug": "mangambeu",
+ "name": "mangambeu",
+ "pack_version": "e2",
+ "built_at": "2026-11-25T21:47:20Z",
+ "researched_at": "2026-11-25T19:44:40Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A rhythmic specialist who emphasizes the 'explosive' energy and the history of the Ndé department",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "mangambeu",
+   "tchatcho",
+   "mamgambeu",
+   "mangabeu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet mangambeu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Girl Named Mangambeu",
+     "This is mangambeu. 1950s to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: mangambeu · Cameroon · 1950s to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Mangambeu emerged in the early 1950s in Vendja-Bagangté, Ndé department.",
+     "It evolved from the Netchaa rhythm during the funeral wake of Mafeun Biatat.",
+     "The name honors a dancer, Dangmi Marie, whose performance was so striking that her praise-name was adopted for the style."
+    ],
+    "on_screen": [
+     "Map: Cameroon · Africa",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally born at a funeral, it is now used for births, weddings, and celebrations.",
+     "In Balengou and Bamena communities, it is called 'tchatcho' and celebrates people of exceptional achievement.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers move with small steps while swaying their hips.",
+     "The torso is frequently leaned forward.",
+     "It is a social dance performed by both men and women, characterized by rhythmic precision that matches the complex polyrhythms of the music.",
+     "Watch for Déhanchement."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers evolve through the space using small steps"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is modal, usually oscillating between two chords.",
+     "It features a rhythmic superposition where the bass plays in 4/4 while xylophones and percussions play in 3/4 or 6/8.",
+     "Listen for the Xylophone (Mendzan), Sanza Mambala, Drums (Tam-tam), Electric Guitar.",
+     "The pulse is Polymetric (4/4 and 6/8) at about 110 beats a minute.",
+     "A dense, interlocking sound where a steady 4/4 pulse is challenged by rapid, triple-meter xylophone patterns and percussive accents."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Mythologie du Mangambeu — Pierre Didy Tchakounté; Mangambeu sophistiqué — Pierre Didy Tchakounté",
+     "Waveform or rhythm-pattern graphic: Bass in 4/4; Xylophones/Percussion in 3/4 or 6/8"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performed in communal settings such as courtyards or festive halls.",
+     "While the sources do not specify a unique ritual costume, it is associated with Bamiléké festive attire used during births, weddings, and funerals."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Pierre Didy Tchakounté is the 'King of Mangambeu' for modernizing the sound.",
+     "Other key figures include the dancer Dangmi Marie, guitarist Jack Djeyim, and artists Daniel Njiké, Pierre Tchana, and Nya Directeur.",
+     "Known as 'tchatcho' among the Balengou and Bamena peoples.",
+     "Derived from the Netchaa rhythm."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "mangambeu is parent of Netchaa: Mangambeu evolved directly from the Netchaa rhythm during a funeral wake.",
+     "mangambeu is sibling of Ben-skin: Another popular Bamiléké dance form from the same region."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Adopt a forward-leaning torso posture",
+     "Execute small, rhythmic steps in place or moving slowly",
+     "Count it: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a 1950s funeral wake in Cameroon gave birth to a polyrhythmic dance revolution named after its greatest star.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the forward-leaning posture",
+   "level": "The Foundation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the forward-leaning posture.",
+      "Level: The Foundation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A rhythmic specialist who emphasizes the 'explosive' energy and the history of the Ndé department"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Torso leaned forward",
+      "Active hip swaying (déhanchement) with a forward-tilted upper body"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars. The meter is Polymetric (4/4 and 6/8).",
+      "Rhythm pattern: Bass in 4/4; Xylophones/Percussion in 3/4 or 6/8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Adopt a forward-leaning torso posture",
+      "Step 2: Execute small, rhythmic steps in place or moving slowly",
+      "Footwork from the sources: Small, rhythmic steps (petits pas)",
+      "Drill: Practice the forward tilt without losing balance"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Initiate a rhythmic swaying of the hips (déhanchement)",
+      "Step 4: Coordinate hip movements with the 6/8 pulse of the xylophones",
+      "Drill: Step in 4/4 time while maintaining the tilt"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid upright, stiff posture; the dance requires a forward lean and fluid hips"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the hip swaying and torso leaning while seated; use feet to tap the 4/4 pulse. · For children: A 'follow the leader' game where children must mimic the 'Mangambeu' dancer's hip sways."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the hip swaying and torso leaning while seated; use feet to tap the 4/4 pulse.",
+      "For children: A 'follow the leader' game where children must mimic the 'Mangambeu' dancer's hip sways."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the forward-leaning posture.",
+      "Originally born at a funeral, it is now used for births, weddings, and celebrations.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Isolate the hip movement",
+   "level": "The Pulse",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Isolate the hip movement.",
+      "Level: The Pulse. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A rhythmic specialist who emphasizes the 'explosive' energy and the history of the Ndé department"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Torso leaned forward",
+      "Active hip swaying (déhanchement) with a forward-tilted upper body"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars. The meter is Polymetric (4/4 and 6/8).",
+      "Rhythm pattern: Bass in 4/4; Xylophones/Percussion in 3/4 or 6/8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Adopt a forward-leaning torso posture",
+      "Step 2: Execute small, rhythmic steps in place or moving slowly",
+      "Drill: Slow hip sways to a 6/8 count"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Initiate a rhythmic swaying of the hips (déhanchement)",
+      "Step 4: Coordinate hip movements with the 6/8 pulse of the xylophones",
+      "Déhanchement: Rhythmic swaying of the hips synchronized with the percussion",
+      "Drill: Combining small steps with hip movement"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid upright, stiff posture; the dance requires a forward lean and fluid hips"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the hip swaying and torso leaning while seated; use feet to tap the 4/4 pulse. · For children: A 'follow the leader' game where children must mimic the 'Mangambeu' dancer's hip sways."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the hip swaying and torso leaning while seated; use feet to tap the 4/4 pulse.",
+      "For children: A 'follow the leader' game where children must mimic the 'Mangambeu' dancer's hip sways."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Dancers evolve through the space using small steps"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Isolate the hip movement.",
+      "Pierre Didy Tchakounté is the 'King of Mangambeu' for modernizing the sound.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Coordinate feet and hips to polyrhythms",
+   "level": "The Syncopation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Coordinate feet and hips to polyrhythms.",
+      "Level: The Syncopation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A rhythmic specialist who emphasizes the 'explosive' energy and the history of the Ndé department"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Torso leaned forward",
+      "Active hip swaying (déhanchement) with a forward-tilted upper body"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars. The meter is Polymetric (4/4 and 6/8).",
+      "Rhythm pattern: Bass in 4/4; Xylophones/Percussion in 3/4 or 6/8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Initiate a rhythmic swaying of the hips (déhanchement)",
+      "Step 2: Coordinate hip movements with the 6/8 pulse of the xylophones",
+      "Drill: Marching in 4 while swaying in 6"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Déhanchement: Rhythmic swaying of the hips synchronized with the percussion",
+      "Drill: Increasing tempo to match the 'explosive' feel"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid upright, stiff posture; the dance requires a forward lean and fluid hips"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the hip swaying and torso leaning while seated; use feet to tap the 4/4 pulse. · For children: A 'follow the leader' game where children must mimic the 'Mangambeu' dancer's hip sways."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the hip swaying and torso leaning while seated; use feet to tap the 4/4 pulse.",
+      "For children: A 'follow the leader' game where children must mimic the 'Mangambeu' dancer's hip sways."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Dancers evolve through the space using small steps"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate feet and hips to polyrhythms.",
+      "Derived from the Netchaa rhythm.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 110,
+  "meter": "Polymetric (4/4 and 6/8)",
+  "rhythm_pattern": "Bass in 4/4; Xylophones/Percussion in 3/4 or 6/8",
+  "instruments": [
+   "Xylophone (Mendzan)",
+   "Sanza Mambala",
+   "Drums (Tam-tam)",
+   "Electric Guitar",
+   "Bass Guitar"
+  ],
+  "vocal_style": "Praise-singing and call-and-response",
+  "musical_form": "Modal, oscillating between two chords with rhythmic improvisation",
+  "mood": [
+   "explosive",
+   "festive",
+   "rhythmic",
+   "driving"
+  ],
+  "sound_description": "A dense, interlocking sound where a steady 4/4 pulse is challenged by rapid, triple-meter xylophone patterns and percussive accents.",
+  "listen_before_composing": [
+   "Mythologie du Mangambeu — Pierre Didy Tchakounté",
+   "Mangambeu sophistiqué — Pierre Didy Tchakounté"
+  ],
+  "prompt": "Original instrumental composition in the musical world of mangambeu (Cameroon). Meter Polymetric (4/4 and 6/8). Tempo about 110 bpm. Rhythm pattern: Bass in 4/4; Xylophones/Percussion in 3/4 or 6/8. Instruments: Xylophone (Mendzan), Sanza Mambala, Drums (Tam-tam), Electric Guitar, Bass Guitar. Vocal style: Praise-singing and call-and-response. Form: Modal, oscillating between two chords with rhythmic improvisation. Mood: explosive, festive, rhythmic, driving. It should sound like this: A dense, interlocking sound where a steady 4/4 pulse is challenged by rapid, triple-meter xylophone patterns and percussive accents. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 77
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 110
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performed in communal settings such as courtyards or festive halls. While the sources do not specify a unique ritual costume, it is associated with Bamiléké festive attire used during births, weddings, and funerals.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "The wooden keys of the xylophone",
+   "Dust rising from small steps in a courtyard",
+   "The forward-tilted silhouette of the dancers",
+   "Archival photos of 1950s Bamiléké gatherings"
+  ],
+  "costume_notes": "Performed in communal settings such as courtyards or festive halls. While the sources do not specify a unique ritual costume, it is associated with Bamiléké festive attire used during births, weddings, and funerals.",
+  "setting_notes": "Originally born at a funeral, it is now used for births, weddings, and celebrations. In Balengou and Bamena communities, it is called 'tchatcho' and celebrates people of exceptional achievement.",
+  "map": {
+   "country": "Cameroon",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
+  "counting": "count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 3"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
+   "1-2-3",
+   "step to the right",
+   "un dos tres",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "don't forget to breathe",
+   "drop your shoulders"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://www.wikidata.org/wiki/Q6748746",
+  "https://fr.wikipedia.org/wiki/Mangambeu"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "6acadcfc69d8759b56f1e8d1e4c048d0a884fe2671ad652bc802a50834c8b459",
+ "hero_checked": null
+}

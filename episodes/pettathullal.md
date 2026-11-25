@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-25 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Documentary presenter / Cultural custodian detailing Kerala sacred traditions
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sacred Dance of Unity: Kerala's Pettathullal
 NARRATION: This is Pettathullal. Ancient / Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cWOzRRFlucA)
 ON SCREEN: Title card: Pettathullal · India · Ancient / Traditional
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is executed in group formations by pilgrims who chant "Ayya
 NARRATION: Dancers leap and step rhythmically while holding wooden weapons such as sarakkol (arrows) and wooden maces.
 NARRATION: First-time Sabarimala pilgrims (Kanni Ayyappas) carry a bundle filled with cereals and vegetables tied to a stick across their shoulders, alongside a mandatory wooden arrow.
 NARRATION: Watch for Petta Thullal Step.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cWOzRRFlucA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Mass group procession starting at Kochambalam temple, circumambulating the Vavar mosque, and moving 0.5 km to Valiyambalam Sastha temple
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cWOzRRFlucA', 'checked_by_vision_model': False, 'title': 'Erumeli Petta Thullal'}
 Images: 1 licensed — Akhilan / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Charcoal-painted faces and vibrant body paints, Wooden arrows (sarakkol) held aloft, Dancers moving from Hindu temple to Islamic mosque, Sacred eagle circling in the blue sky
@@ -112,7 +112,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ritual-sacred family studied · videos studied: 16
+Source: 18 tutorial(s) of the ritual-sacred family studied · videos studied: 18
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

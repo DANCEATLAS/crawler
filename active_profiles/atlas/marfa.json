@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Sharp daggers",
+          "High-intensity jumping"
+        ],
+        "counts": "1-2-3",
+        "duration_minutes": "5",
+        "game_version": "Rhythm imitation game using plastic pots and sticks"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid torso shaking",
+          "Heavy swords"
+        ],
+        "counts": "1-2-3-pause",
+        "seated_version": "Perform the rhythmic jiggling and arm movements with canes while seated",
+        "standing_version": "Reduced tempo stepping while holding a stationary support",
+        "tempo_and_range": "Slow the 'teen maar' beat significantly"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active use of hands to wield swords, daggers, or canes",
+      "difficulty": "intermediate",
+      "footwork": "Rhythmic stepping aligned with the three-beat cycle",
+      "formation_and_space": "Group performance, often in open celebratory spaces",
+      "hips_and_torso": "Continuous rhythmic jiggling or shaking in sync with the percussion",
+      "levels_and_jumps": "Primarily ground-based rhythmic movement",
+      "partnering": "not described in sources",
+      "posture": "Upright but flexible to allow for 'jiggling' movements",
+      "signature_moves": [
+        {
+          "description": "Rhythmic shaking of the body while holding daggers or swords to the beat",
+          "name": "Weapon Jiggling"
+        }
+      ],
+      "tempo_feel": "Very fast and driving",
+      "what_to_avoid": "Lack of synchronization with the rapid 'teen maar' beats; improper handling of ceremonial weapons"
+    },
+    "music_profile": {
+      "instruments": [
+        "marfa (kettledrum)",
+        "daff",
+        "dhol",
+        "sticks",
+        "steel pots",
+        "thapi (wooden strips)"
+      ],
+      "meter": "4/4 or 2/4",
+      "mood_keywords": [
+        "energetic",
+        "celebratory",
+        "martial",
+        "driving"
+      ],
+      "musical_form": "Rhythmic cycles based on specific named beats",
+      "reference_recordings": [],
+      "rhythm_pattern": "Teen maar taal",
+      "sound_description": "A high-tempo, percussive sound dominated by the sharp strike of wooden thapi and the metallic resonance of steel pots, layered over deep kettledrum beats.",
+      "tempo_bpm": "140",
+      "vocal_style": "Chorus effects set according to beats"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand with feet shoulder-width apart, holding a cane or sword in the dominant hand",
+        "Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum",
+        "Step in coordination with the 'teen maar' (three-beat) rhythmic cycle",
+        "Swing the cane or sword in synchronized patterns following the high-tempo percussion"
+      ],
+      "formation": "Typically performed in a group, often in a line or informal circle",
+      "level_notes": "Requires high stamina due to the rapid tempo and coordination with handheld props.",
+      "rhythm": "Teen maar taal (three-beat rhythmic structure)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "1126ae2561d24d4e9c3b26cfc52aec56d3665b67fdfa40b7ef978e2828fe2aa8",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific synchronized arm patterns used when wielding the janbiya during the 'teen maar' beat? Evidence needed: https://en.wikipedia.org/wiki/Marfa_(music)"
+    ]
+  },
+  "id": "atlas:marfa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Marfa",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "0fb1b1b458aa9132",
+      "next_evidence": "https://en.wikipedia.org/wiki/Marfa_(music)",
+      "question": "What are the specific synchronized arm patterns used when wielding the janbiya during the 'teen maar' beat?",
+      "source": "https://en.wikipedia.org/wiki/Marfa_(music)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the signature weapon movements."
+    }
+  ],
+  "research_file": "research_results/marfa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "marfa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Marfa_(music)",
+    "https://www.wikidata.org/wiki/Q6759033"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,13 +1,66 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "chain dance",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "6/8 (shir-e mâdar)",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "chain dance",
+      "level_notes": "not described in sources",
+      "rhythm": "6/8 meter (referred to as shir-e mâdar)"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "4bc13b6cdef7d0c06c10279222166330f3e13413813549739af26e4f461d8f5a",
+  "fingerprint": "4922860f54b711bfcad6f674a62f2cfacd16e037a1e8e5c8461ce4bffa8c7916",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +68,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the precise historical origins, musical composition details, and choreographic steps of Baba Karam beyond the general Sufi tale? Evidence needed: Ethnomusicological studies and detailed field documentation of Iranian chain dances."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +98,18 @@
   ],
   "music_options": [],
   "name": "Baba Karam",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "edf19f3cb782d196",
+      "next_evidence": "Ethnomusicological studies and detailed field documentation of Iranian chain dances.",
+      "question": "What are the precise historical origins, musical composition details, and choreographic steps of Baba Karam beyond the general Sufi tale?",
+      "source": "https://en.wikipedia.org/wiki/Iranian_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources only mention a general Sufi story and modern hip-hop association without technical choreography or musical specifics."
+    }
+  ],
+  "research_file": "research_results/baba-karam.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,9 +120,13 @@
   },
   "slug": "baba-karam",
   "sources": [
-    "http://middleeasterndancing.com/baba-karam-dance",
-    "https://en.wikipedia.org/wiki/Iranian_dance"
+    "https://en.wikipedia.org/wiki/Iranian_dance",
+    "https://www.wikidata.org/wiki/Q2351372",
+    "https://es.wikipedia.org/wiki/Danza_persa",
+    "https://fr.wikipedia.org/wiki/Danses_d'Iran",
+    "https://pt.wikipedia.org/wiki/Dança_persa",
+    "https://it.wikipedia.org/wiki/Danza_in_Iran"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

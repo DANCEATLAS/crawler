@@ -64,6 +64,19 @@
    "checked_at": "2026-10-29T17:28:09Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "xdJqRc3kX-4",
+    "title": "How to Do Turfing Traces for Arms | Street Dance",
+    "channel": "Howcast",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "salsa",
    "charleston",
@@ -256,6 +269,48 @@
    },
    "derived": true
   },
+  "footage": [
+   {
+    "title": "Electro: Furió Experimental - ¡Modo Victoria!",
+    "url": "https://archive.org/details/furio-experimental-beat-mode",
+    "year": 2012,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Alejandro Furió - Modo Victoria - Relajación improvisada. Música: Pixelord - Sueño de kiwi. Electro Tutting Experimental, Turfing, Hip-Hop, Casa y Danza.",
+    "source": "archive"
+   },
+   {
+    "title": "INTRICATE BONE-BREAK Def. Of Gassing!",
+    "url": "https://archive.org/details/intricate-def.-of-gassin",
+    "year": 2012,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Dancer: Intricate; Style: Bone-breaking and Turfing; Music: Young Gully Definition of Gassing.",
+    "source": "archive"
+   },
+   {
+    "title": "Wilson Flix x P-Ynikxx || Showcase || Dream Flexing Dance Competition sec. 3 || 2020!",
+    "url": "https://archive.org/details/wilson-flix-x-p-ynikxx-showcase-dream-dance-competition-sec-3-2020",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "It's time to TURFING!",
+    "source": "archive"
+   },
+   {
+    "title": "P-ynikxx vs Karan Turfing vs Flexing Battle in Area 51 jam 2016!",
+    "url": "https://archive.org/details/p-ynikxx-vs-karan-turfing-vs-flexing-battle-in-area-51-jam-2016",
+    "year": 2016,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Flexing dance battle.",
+    "source": "archive"
+   }
+  ],
   "researched_at": "2026-11-24T21:30:34Z",
   "qc_score": 9.7
  },
@@ -282,6 +337,99 @@
   }
  },
  "lessons": [
+  {
+   "youtube_id": "jDPvnAStdQA",
+   "url": "https://www.youtube.com/watch?v=jDPvnAStdQA",
+   "title": "How to Do Turfing Miming | Street Dance",
+   "channel": "Howcast",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the concept of miming."
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "breakdown",
+     "note": "Teacher breaks down a short routine using hands and head."
+    },
+    {
+     "t": "1:45",
+     "seconds": 105,
+     "segment": "music_practice",
+     "note": "Teacher performs the routine with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Miming routine",
+     "counts": "1-8",
+     "description": "A sequence involving hand movements and head isolations while keeping the body still."
+    }
+   ],
+   "cues": [
+    "keep everything still",
+    "keep your left leg still",
+    "right knee out"
+   ],
+   "images": [
+    "holding on a wall",
+    "grabbing a pole or stick",
+    "invisible object"
+   ],
+   "safety": [
+    "keep your left leg still and your right knee out"
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions for specific dance moves. He emphasizes the importance of practice to improve technique and body control.",
+   "distinctive_method": "The teacher focuses on the concept of interacting with 'invisible objects' to define the dance style.",
+   "what_works": [
+    "clear verbal counting",
+    "slow demonstration of the steps"
+   ],
+   "what_hinders": [
+    "lack of close-up shots for hand details"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Teacher explains the concept of miming using hand gestures.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 45,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "Teacher demonstrates the routine slowly, counting aloud.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 146,
+     "end_s": 155,
+     "topic": "movement",
+     "observation": "Teacher performs the routine with music.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "xdJqRc3kX-4",
    "url": "https://www.youtube.com/watch?v=xdJqRc3kX-4",
@@ -458,6 +606,6 @@
   "polished": false,
   "file": "episodes/turfing.json"
  },
- "fingerprint": "5e27114277bffa36",
- "updated": "2026-11-24"
+ "fingerprint": "eb6328ff34c78eab",
+ "updated": "2026-11-25"
 }

@@ -112,7 +112,7 @@ NARRATION: Step 1: Form a circle holding hands with adjacent dancers, palms join
 NARRATION: Step 2: Execute the repeating ten-step sequence moving along the circle.
 NARRATION: Footwork from the sources: Ten-step walking and stamping sequence; dancers stamp their feet on the ground
 NARRATION: Drill: Join palms with neighbors to either side with arms crossed downward
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -182,7 +182,7 @@ NEEDS: tempo
 NARRATION: Step 1: Form a circle holding hands with adjacent dancers, palms joined and arms crossed down.
 NARRATION: Step 2: Execute the repeating ten-step sequence moving along the circle.
 NARRATION: Drill: Count out the 2/4 meter aloud
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -253,7 +253,7 @@ NEEDS: tempo
 NARRATION: Step 1: Execute the repeating ten-step sequence moving along the circle.
 NARRATION: Step 2: Incorporate the characteristic foot stamp against the floor mimicking nervous sheep.
 NARRATION: Drill: Isolate the single foot stamp on the floor in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Apanomeritis; https://www.wikidata.org/wiki/Q113103557

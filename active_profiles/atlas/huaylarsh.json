@@ -3,48 +3,50 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "Complex partnering",
-          "High-intensity fatigue"
+          "not derivable yet"
         ],
-        "counts": "Simplified 1-2-3-4 counts.",
-        "duration_minutes": "3",
-        "game_version": "A bird-mimicry game where children pair up and follow the leader's hopping patterns."
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "Jumping",
-          "High-impact movements",
-          "Unbalanced turns"
+          "not derivable yet"
         ],
-        "counts": "Simplified 4/4 counts.",
-        "seated_version": "Rhythmic upper body swaying and arm movements mimicking bird gestures.",
-        "standing_version": "Stepping in place without jumping, focusing on the courtship arm gestures.",
-        "tempo_and_range": "Reduced tempo, limited range of motion."
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "intermediate",
-      "footwork": "Jumping",
-      "formation_and_space": "Pairs",
+      "footwork": "not described in sources",
+      "formation_and_space": "danced by pairs of dancers",
       "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "High-energy jumping",
-      "partnering": "Couples mimicking bird courtship",
-      "posture": "Energetic",
+      "levels_and_jumps": "features high energy and jumping by the dancers",
+      "partnering": "danced by pairs",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Dancers perform movements that represent the falling in love of birds.",
-          "name": "Bird courtship mimicry"
+          "description": "High-energy jumping representing the courtship of birds.",
+          "name": "Jumping courtship movement"
         }
       ],
-      "tempo_feel": "Lively",
+      "tempo_feel": "lively and cheerful with energetic jumping",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Brass orchestras"
+        "brass instruments"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
@@ -52,25 +54,24 @@
         "cheerful",
         "energetic"
       ],
-      "musical_form": "Orchestral accompaniment",
+      "musical_form": "not described in sources",
       "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "Lively and cheerful brass-led music designed to accompany high-energy dance.",
+      "sound_description": "Interpreted by musical groups and brass orchestras providing a lively and cheerful accompaniment for energetic jumping.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Energetic jumping",
-        "Pair-based movement mimicking bird courtship"
+        "not described in sources"
       ],
-      "formation": "Pairs",
-      "level_notes": "Requires high energy and stamina due to the jumping nature of the dance.",
+      "formation": "danced by pairs of dancers",
+      "level_notes": "not described in sources",
       "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "550dcea1978ceb58b9b79791c96e7edb1ff0560efdf430b827afe454f4eb5abc",
+  "fingerprint": "3c8b50f6aacc59b79986f372b1d14efc2098c63ee0d57880c8a56d018f1d7752",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -78,7 +79,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -95,7 +96,8 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step counts and footwork patterns executed by dancers during the high-energy jumping sections of Huaylarsh? Evidence needed: Field recordings or instructional video documentation from Huancayo."
     ]
   },
   "id": "atlas:huaylarsh",
@@ -106,7 +108,17 @@
   ],
   "music_options": [],
   "name": "Huaylarsh",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "6656076548d750c4",
+      "next_evidence": "Field recordings or instructional video documentation from Huancayo.",
+      "question": "What are the exact step counts and footwork patterns executed by dancers during the high-energy jumping sections of Huaylarsh?",
+      "source": "https://en.wikipedia.org/wiki/Dance_in_Peru",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources confirm energetic jumping but lack granular pedagogical footwork descriptions."
+    }
+  ],
   "research_file": "research_results/huaylarsh.json",
   "runtime_active": false,
   "scope": {

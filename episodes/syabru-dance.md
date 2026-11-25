@@ -111,7 +111,7 @@ NARRATION: Step 1: Gather in a communal line or circular formation alongside oth
 NARRATION: Step 2: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Footwork from the sources: Slow progression moving in a line or circle (circulus)
 NARRATION: Drill: Assemble into a continuous circular formation with balanced spacing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -179,7 +179,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Gather in a communal line or circular formation alongside other participants
 NARRATION: Step 2: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Drill: Listen to and repeat simple traditional vocal phrases while standing in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -246,7 +246,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Step 2: Step slowly along the line or circulus in coordination with the vocal song and dramnyen accompaniment
 NARRATION: Drill: Identify the plucked strumming pattern of the dramnyen
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Syabru_(dance); https://www.wikidata.org/wiki/Q114552797

@@ -38,6 +38,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hully_Gully",
   "wikidata_qid": "Q5936128",
   "unesco": false,
+  "hero_video_youtube_id": "6fMlfXmHsb4",
+  "video_stack": [
+   {
+    "youtube_id": "6fMlfXmHsb4",
+    "role": "hero",
+    "title": "The Olympics The Hully Gully",
+    "channel": "hollywoodagogo",
+    "hd": true
+   },
+   {
+    "youtube_id": "Fc1fqIm39Ig",
+    "role": "rendition",
+    "title": "L' ITALIANO || TOTO CUTUGNO || HULLY GULLY || SOCIAL DANCE || BALLI DI GRUPPO 2023 || ANDREA STELLA",
+    "channel": "Andrea Stella Choreo Dance",
+    "hd": true
+   },
+   {
+    "youtube_id": "og4OZZdTpy8",
+    "role": "rendition",
+    "title": "HULLY GULLY  CONTEST - Speciale Celentano Magica Produzioni || ANDREA STELLA || BALLI DI GRUPPO 2022",
+    "channel": "Andrea Stella Choreo Dance",
+    "hd": true
+   },
+   {
+    "youtube_id": "4G3xFRXdVXI",
+    "role": "rendition",
+    "title": "The Hully Gully",
+    "channel": "TheRedHead1",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -71,6 +102,12 @@
   ],
   "movie_ready": false,
   "tradition_status": "historical",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T20:59:35Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "twist",
    "madison",
@@ -229,12 +266,24 @@
    },
    "derived": true
   },
+  "footage": [
+   {
+    "title": "File:Gröna Lund Hully-Gully, Dansbanan 1987.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Gr%C3%B6na_Lund_Hully-Gully%2C_Dansbanan_1987.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Holger.Ellgaard / Wikimedia Commons / CC BY-SA 3.0",
+    "description": "Gröna Lund: Hully-Gully, Dansbanan 1987",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGr%C3%B6na_Lund_Hully-Gully%2C_Dansbanan_1987.webm",
+    "source": "commons"
+   }
+  ],
   "researched_at": "2026-11-24T21:04:46Z",
   "qc_score": 9.55
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -242,48 +291,222 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "wYedFJzyGO8",
+   "url": "https://www.youtube.com/watch?v=wYedFJzyGO8",
+   "title": "Hully Gully Tutorial",
+   "channel": "seccubana",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Italian",
+   "counting_scheme": "7-8 / 1-2-3-4 / 5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces the Hully Gully dance."
+    },
+    {
+     "t": "0:22",
+     "seconds": 22,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the steps for the Hully Gully."
+    },
+    {
+     "t": "0:43",
+     "seconds": 43,
+     "segment": "slow_practice",
+     "note": "The teacher practices the steps slowly."
+    },
+    {
+     "t": "1:19",
+     "seconds": 79,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the steps for the Hully Gully again."
+    },
+    {
+     "t": "1:41",
+     "seconds": 101,
+     "segment": "slow_practice",
+     "note": "The teacher practices the steps slowly again."
+    },
+    {
+     "t": "2:30",
+     "seconds": 150,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the steps for the Hully Gully again."
+    },
+    {
+     "t": "3:12",
+     "seconds": 192,
+     "segment": "slow_practice",
+     "note": "The teacher practices the steps slowly again."
+    },
+    {
+     "t": "4:42",
+     "seconds": 282,
+     "segment": "music_practice",
+     "note": "The teacher dances to the music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hully Gully",
+     "counts": "1-2-3-4",
+     "description": "A series of steps involving opening, crossing, and kicking."
+    }
+   ],
+   "cues": [
+    "apri sinistra",
+    "incrocio avanti destra",
+    "calchetto col piede destro",
+    "facendo snap"
+   ],
+   "images": [
+    "il ballo che a loop a quadrato in tutte le direzioni"
+   ],
+   "teacher_style": "The teacher is very enthusiastic and uses a friendly, encouraging tone. She breaks down the steps clearly and repeats them multiple times to ensure the student understands.",
+   "distinctive_method": "The teacher uses a loop-based approach, repeating the same steps in different directions.",
+   "what_works": [
+    "The teacher breaks down the steps clearly and repeats them multiple times."
+   ],
+   "what_hinders": [
+    "The teacher only demonstrates from the back, which can make it difficult to see the steps clearly."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher introduces the dance and explains the purpose of the tutorial.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 22,
+     "end_s": 32,
+     "topic": "teaching",
+     "observation": "The teacher turns around to demonstrate the steps from the back.",
+     "viewpoint": "back",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 33,
+     "end_s": 42,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the steps for the Hully Gully.",
+     "viewpoint": "back",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 43,
+     "end_s": 48,
+     "topic": "movement",
+     "observation": "The teacher practices the steps slowly.",
+     "viewpoint": "back",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 119,
+     "end_s": 125,
+     "topic": "teaching",
+     "observation": "The teacher breaks down the steps for the Hully Gully again.",
+     "viewpoint": "back",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 141,
+     "end_s": 148,
+     "topic": "movement",
+     "observation": "The teacher practices the steps slowly again.",
+     "viewpoint": "back",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "6fMlfXmHsb4",
+   "url": "https://www.youtube.com/watch?v=6fMlfXmHsb4",
+   "analysed_on": "2026-11-25",
+   "observation": {
+    "setting": "television studio with a brick wall backdrop and a circular stage",
+    "dancers": "five men in suits, plus other people in the background; group",
+    "formation_and_space": "the five men are in a line on the circular stage, moving in unison",
+    "posture": "upright torso, knees slightly bent, weight shifts from side to side",
+    "footwork": "a side-to-side stepping pattern, stepping out and bringing the other foot to meet it, often with a slight kick or tap; the steps are on the beat",
+    "arms_and_hands": "arms are held at the sides or bent at the elbows, moving in rhythm with the steps; sometimes hands are on hips or gesturing",
+    "hips_and_torso": "slight hip movement and torso swaying in rhythm with the steps",
+    "partnering": "none",
+    "levels_jumps_turns": "mostly at one level, with occasional slight knee bends and small jumps",
+    "costume_and_props": "men are wearing suits and ties",
+    "cannot_infer": "low resolution makes it difficult to see the exact footwork and weight transfer",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "bass",
+      "guitar",
+      "horns"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 32,
+      "end_s": 35,
+      "what": "a side-to-side step where the dancers step out with one foot and bring the other to meet it, while swaying their hips and moving their arms in rhythm"
+     },
+     {
+      "start_s": 108,
+      "end_s": 111,
+      "what": "the dancers perform a side-to-side step while moving their arms in a rhythmic, coordinated fashion"
+     },
+     {
+      "start_s": 151,
+      "end_s": 154,
+      "what": "the dancers perform a side-to-side step while moving their arms in a rhythmic, coordinated fashion"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/hully-gully.json"
  },
- "fingerprint": "5c83bcadbd955ef1",
- "updated": "2026-11-24"
+ "fingerprint": "059dcc19b2ca8945",
+ "updated": "2026-11-25"
 }

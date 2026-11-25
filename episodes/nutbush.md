@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An enthusiastic Australian physical education teacher or community event leader who keeps energy high and counts clear.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Outback Line Dance Tina Turner Never Danced
 NARRATION: This is Nutbush. 1970s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (qHqzjQty7aY)
 ON SCREEN: Title card: Nutbush · Australia · 1970s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Dancers arrange themselves in a grid or box formation with hands akimbo and feet shoulder-width apart.
 NARRATION: Watch for Turn-and-clap, Criss-cross variation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (qHqzjQty7aY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Box or grid formation, dancers facing the same wall and turning 90 degrees clockwise at the end of each 32-beat cycle.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -118,7 +118,7 @@ NARRATION: Step 1: Touch right foot to the side and return twice, then touch lef
 NARRATION: Step 2: Touch right foot half a pace back and return twice, then touch left foot back and return twice (8 beats)
 NARRATION: Footwork from the sources: Side touches right and left (8 counts), back touches right and left (8 counts), knee raises (8 counts), cross kicks (4 counts), quarter turn and clap (4 counts).
 NARRATION: Drill: Practice double right side touch and left side touch on beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -188,7 +188,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Turn 1/4 clockwise, pause, and clap hands (4 beats)
 NARRATION: Drill: Lift right knee to left hip twice, left knee to right hip twice
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -260,7 +260,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Kick right leg across body once, then kick left leg across body once (4 beats)
 NARRATION: Step 2: Turn 1/4 clockwise, pause, and clap hands (4 beats)
 NARRATION: Drill: Practice the turn-and-clap step to reorient facing wall
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: No specialized costume is worn for the Nutbush; participants dance in whatever attire fits the social occasion, ranging from school uniforms and sports gear to wedding attire and casual festival clothes. Settings include school halls, community centers, reception venues, and outdoor desert sites.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'qHqzjQty7aY', 'checked_by_vision_model': True, 'title': 'Koala Nutbush - Line Dance'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Grid array of dancers seen from a high overhead angle, Dust kicking up under boots at an outback festival, Hands akimbo on hips in unified timing
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Nutbush_(dance); https://www.wikidata.org/wiki/Q7754521

@@ -123,7 +123,7 @@ NARRATION: Step 1: Stand in the center of the terreru with a panu tied around th
 NARRATION: Step 2: Execute the galion phase by swaying the body gently while shifting weight between alternate legs on the downbeat.
 NARRATION: Footwork from the sources: Alternate stepping of the legs marking the downbeat during the first movement; grounded foot placement supporting rapid knee flexions in the second movement
 NARRATION: Drill: Step right foot on downbeat 1, step left foot on downbeat 2.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -195,7 +195,7 @@ NEEDS: tempo
 NARRATION: Step 1: Stand in the center of the terreru with a panu tied around the hips.
 NARRATION: Step 2: Execute the galion phase by swaying the body gently while shifting weight between alternate legs on the downbeat.
 NARRATION: Drill: Assume a grounded parallel stance with soft knees.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -270,7 +270,7 @@ NEEDS: tempo
 NARRATION: Step 1: Upon the shift to txabéta, soften the knees into an athletic stance.
 NARRATION: Step 2: Perform da ku tornu: rapidly flex and release the knees to drive rhythmic oscillation through the hips.
 NARRATION: Drill: Transition on cue from the slow galion sway to the rapid knee pump.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (4): https://en.wikipedia.org/wiki/Batuque_(Cape_Verde); https://www.wikidata.org/wiki/Q2891921; https://fr.wikipedia.org/wiki/Batuque_(Cap-Vert); https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)

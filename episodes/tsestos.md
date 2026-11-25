@@ -114,7 +114,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Grasp the belts (zonaria) of adjacent dancers on the left and right.
 NARRATION: Step 2: Bend both knees deeply to maintain a low center of gravity throughout.
 NARRATION: Drill: Practice holding adjacent belts while maintaining a low bent-knee posture.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -180,7 +180,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Grasp the belts (zonaria) of adjacent dancers on the left and right.
 NARRATION: Step 2: Bend both knees deeply to maintain a low center of gravity throughout.
 NARRATION: Drill: Practice accelerating footwork while maintaining knee flex.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -248,7 +248,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Follow the leader on the right side of the line in step with the Thracian rhythm.
 NARRATION: Step 2: Accelerate footwork speed while maintaining belt-hold as the transition to fast tsestos occurs.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Zonaradiko; https://www.wikidata.org/wiki/Q7849577

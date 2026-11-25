@@ -273,33 +273,183 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 14,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "arms": "performance",
-   "signature_moves": "performance",
-   "study_video": "performance"
+   "signature_moves": "lesson",
+   "lesson_plan": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "t3XrGGpfM04",
+   "url": "https://www.youtube.com/watch?v=t3XrGGpfM04",
+   "title": "📣 TUTORIAL‼️ROSETADA NA MALVADA - Us Agroboy, Luan Pereira, Camila Loures | FitDance (Coreografia)",
+   "channel": "GRINGADança",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Portuguese",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "The teacher introduces herself and the song."
+    },
+    {
+     "t": "0:38",
+     "seconds": 38,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the first part of the choreography."
+    },
+    {
+     "t": "1:08",
+     "seconds": 68,
+     "segment": "slow_practice",
+     "note": "The teacher practices the first part with counts."
+    },
+    {
+     "t": "1:40",
+     "seconds": 100,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the chorus."
+    },
+    {
+     "t": "2:43",
+     "seconds": 163,
+     "segment": "slow_practice",
+     "note": "The teacher practices the chorus with counts."
+    },
+    {
+     "t": "3:33",
+     "seconds": 213,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the final part of the choreography."
+    },
+    {
+     "t": "4:00",
+     "seconds": 240,
+     "segment": "music_practice",
+     "note": "The teacher practices the final part with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "rosetada",
+     "counts": "1-2-3-4",
+     "description": "A series of steps involving arm movements and hip sways."
+    },
+    {
+     "name": "galope",
+     "counts": "1-2-3-4",
+     "description": "A side-to-side movement with a galloping motion."
+    },
+    {
+     "name": "joelhinho",
+     "counts": "1-2",
+     "description": "A knee-lifting movement with arm coordination."
+    }
+   ],
+   "cues": [
+    "trompetinho",
+    "para, para, para",
+    "não para, não para, não para",
+    "eu fico fraca"
+   ],
+   "images": [
+    "trompetinho",
+    "rosetada na malvada",
+    "puxa a crina",
+    "meto tapa",
+    "meto a língua"
+   ],
+   "common_mistakes": [
+    "The teacher corrects the hand placement, emphasizing that the hand should be crossed."
+   ],
+   "teacher_style": "The teacher is energetic and uses a friendly, encouraging tone to guide her students. She breaks down the choreography into small, manageable segments, often using verbal cues to help students follow along.",
+   "distinctive_method": "The teacher uses a combination of verbal cues and counts to help students learn the choreography, and she also emphasizes the importance of feeling the music.",
+   "what_works": [
+    "The teacher breaks down the choreography into small, manageable segments.",
+    "The teacher uses clear verbal cues and counts."
+   ],
+   "what_hinders": [
+    "The video is fast-paced, which might make it difficult for beginners to follow along."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher introduces the dance and the song with a group of students.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 38,
+     "end_s": 45,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the first part of the choreography, focusing on arm movements.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 108,
+     "end_s": 118,
+     "topic": "teaching",
+     "observation": "The teacher counts out the steps for the students to follow.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 140,
+     "end_s": 150,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the chorus, including the 'galope' step.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 243,
+     "end_s": 252,
+     "topic": "teaching",
+     "observation": "The teacher practices the chorus with the students, using verbal cues.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 333,
+     "end_s": 343,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the final part of the choreography.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "6xY5KrF2qGc",
@@ -373,11 +523,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/loure.json"
  },
- "fingerprint": "749837cae27f36bb",
- "updated": "2026-11-24"
+ "fingerprint": "582f76d4f0505782",
+ "updated": "2026-11-25"
 }

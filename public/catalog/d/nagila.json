@@ -247,7 +247,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -255,40 +255,195 @@
     "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "YZJgV1TQs-s",
+   "url": "https://www.youtube.com/watch?v=YZJgV1TQs-s",
+   "title": "Hava Nagila to Crossover - L3 Line Dance Lesson & Dance Along - Music @ 3:04",
+   "channel": "Kari - Kari's Line Dancing",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the first section of the dance."
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "count_in",
+     "note": "The teacher counts through the first section."
+    },
+    {
+     "t": "0:47",
+     "seconds": 47,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the second section of the dance."
+    },
+    {
+     "t": "1:06",
+     "seconds": 66,
+     "segment": "count_in",
+     "note": "The teacher counts through the second section."
+    },
+    {
+     "t": "1:20",
+     "seconds": 80,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the third section of the dance."
+    },
+    {
+     "t": "1:55",
+     "seconds": 115,
+     "segment": "count_in",
+     "note": "The teacher counts through the third section."
+    },
+    {
+     "t": "3:05",
+     "seconds": 185,
+     "segment": "music_practice",
+     "note": "The teacher performs the full dance with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "vine",
+     "counts": "1-2-3-4",
+     "description": "a side-to-side step pattern"
+    },
+    {
+     "name": "point",
+     "counts": "5-6-7-8",
+     "description": "tapping the toe in different directions"
+    },
+    {
+     "name": "hitch",
+     "counts": "4",
+     "description": "lifting the knee"
+    },
+    {
+     "name": "step block step",
+     "counts": "1-2-3",
+     "description": "a forward moving step sequence"
+    },
+    {
+     "name": "stomp",
+     "counts": "4",
+     "description": "a firm step with weight transfer"
+    },
+    {
+     "name": "heel switch",
+     "counts": "1-2-3-4",
+     "description": "alternating heel taps"
+    },
+    {
+     "name": "heel hook",
+     "counts": "7-8",
+     "description": "tapping the heel and then hooking it behind the other leg"
+    }
+   ],
+   "cues": [
+    "vine to the right",
+    "four more points",
+    "vine to the left",
+    "quarter right vine with a hitch",
+    "step block step with a stomp",
+    "left heel switch",
+    "twist our heels"
+   ],
+   "images": [
+    "vine",
+    "hitch",
+    "stomp",
+    "heel switch",
+    "heel hook"
+   ],
+   "common_mistakes": [
+    "not getting weight on the stomp"
+   ],
+   "safety": [
+    "get our weight on that stomp, really important we do that"
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions for each section of the line dance. She emphasizes the importance of weight transfer and provides consistent verbal cues throughout the lesson.",
+   "distinctive_method": "The teacher uses a specific sequence of 'vine', 'point', 'hitch', 'step block step', 'stomp', 'heel switch', and 'heel hook' to build the dance.",
+   "what_works": [
+    "clear verbal cues",
+    "consistent counting",
+    "breaking the dance into manageable sections"
+   ],
+   "what_hinders": [
+    "lack of front-facing demonstration"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher demonstrates a vine step while facing away from the camera.",
+     "viewpoint": "back",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "The teacher performs a hitch and a stomp, emphasizing the weight transfer.",
+     "viewpoint": "back",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 120,
+     "end_s": 130,
+     "topic": "movement",
+     "observation": "The teacher demonstrates a heel switch.",
+     "viewpoint": "back",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 133,
+     "end_s": 140,
+     "topic": "movement",
+     "observation": "The teacher performs a heel twist and a heel hook.",
+     "viewpoint": "back",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 10,
+  "gaps": 9,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/nagila.json"
  },
- "fingerprint": "25e192729379378d",
- "updated": "2026-11-24"
+ "fingerprint": "cc731632194c9967",
+ "updated": "2026-11-25"
 }

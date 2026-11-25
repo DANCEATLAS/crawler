@@ -2,7 +2,7 @@
  "slug": "chunaengjeon",
  "name": "Chunaengjeon",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:55Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-24T20:43:10Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Chunaengjeon. 17th-19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (mXhwZCgqY2E)",
      "Title card: Chunaengjeon · South Korea · 17th-19th century"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for hwajeontae."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (mXhwZCgqY2E)",
      "Captions name each signature move as it appears",
      "Formation: Solo performance strictly confined to a single floral-patterned straw mat (hwamunseok)."
     ],
@@ -722,7 +722,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "mXhwZCgqY2E",
+   "checked_by_vision_model": true,
+   "title": "제5회 한국의 풍류 비엔나 - 춘앵전 (송영인, 락음국악단) (7분18초)"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -768,8 +772,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the classical-court family studied",
-  "videos_studied": 16,
+  "source": "17 tutorial(s) of the classical-court family studied",
+  "videos_studied": 17,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -796,8 +800,8 @@
    "intro",
    "context",
    "breakdown",
-   "full_demo",
    "slow_practice",
+   "full_demo",
    "music_practice"
   ],
   "steps_as_taught": []
@@ -806,7 +810,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -817,6 +820,6 @@
  "claims_verified": 9,
  "claims": 9,
  "polished": false,
- "input_fingerprint": "c1379dc34ec1fdc35eebfbcef856063dffd81fceb53be2162c0cc5a558f89a3d",
- "hero_checked": null
+ "input_fingerprint": "7ee998b310b4ed400707fbcecb4cc08d748ac605854bd553079aef81eaf1b436",
+ "hero_checked": "pass"
 }

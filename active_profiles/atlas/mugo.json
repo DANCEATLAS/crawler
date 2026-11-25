@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy drumsticks",
+          "Complex spatial transitions"
+        ],
+        "counts": "1-2-3-strike",
+        "duration_minutes": "3",
+        "game_version": "A 'musical directions' game where children move to the color/direction called out by the leader."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid rotations",
+          "Deep knee bends"
+        ],
+        "counts": "Simple 4-beat counts for strikes.",
+        "seated_version": "Dancers sit in a circle around a central table-top drum, using light sticks to tap the rhythm.",
+        "standing_version": "Reduced circular walking speed; focus on arm movements with the sticks while standing in place.",
+        "tempo_and_range": "Slower tempo; smaller arm arcs when striking the drum."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Wonmu hold a drumstick in each hand; Hyeopmu hold a flower-shaped stick in each hand",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Eight dancers; four inner (wonmu) and four outer (hyeopmu) surrounding a central drum",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Ensemble coordination between inner and outer circles",
+      "posture": "Upright and formal courtly posture",
+      "signature_moves": [
+        {
+          "description": "Main dancers strike the central drum with sticks held in both hands",
+          "name": "Wonmu drum strike"
+        },
+        {
+          "description": "Assisting dancers form an outer circle holding flower-shaped sticks",
+          "name": "Hyeopmu circling"
+        }
+      ],
+      "tempo_feel": "Deliberate and ceremonial",
+      "what_to_avoid": "Breaking the directional symmetry or the circular formation"
+    },
+    "music_profile": {
+      "instruments": [
+        "Large drum (go)",
+        "Court music ensemble"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "stately",
+        "rhythmic",
+        "ceremonial"
+      ],
+      "musical_form": "Dongdongok and Muaegok",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The sound is dominated by the resonant strikes of a large central drum, accompanied by traditional court music and historical vocalizations of the Jeongeupsa song.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanted or sung lyrics (Jeongeupsa)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Approach the central drum in a circular path",
+        "Wonmu: Raise drumsticks in both hands to strike the drum head",
+        "Hyeopmu: Circle the wonmu while holding flower-shaped sticks",
+        "Rotate positions according to the cardinal directions (North, South, East, West)"
+      ],
+      "formation": "Concentric circles around a central drum",
+      "level_notes": "Requires precise spatial awareness and synchronization between the inner and outer circles.",
+      "rhythm": "Courtly and measured, synchronized with the central drum strikes"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "b7081fc7b0a79207bf261906f4bed13710535b2e36ea2597605ada930e17f6c1",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns played on the central drum? Evidence needed: https://en.wikipedia.org/wiki/Mugo"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns (counts and steps) used by the wonmu and hyeopmu? Evidence needed: https://en.wikipedia.org/wiki/Mugo"
+    ]
+  },
+  "id": "atlas:mugo",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Mugo",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1ae47fcb22413291",
+      "next_evidence": "https://en.wikipedia.org/wiki/Mugo",
+      "question": "What are the specific footwork patterns (counts and steps) used by the wonmu and hyeopmu?",
+      "source": "https://en.wikipedia.org/wiki/Mugo",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources describe the formation but not the specific steps, which is essential for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "6b0dbf78efcf9fcf",
+      "next_evidence": "https://en.wikipedia.org/wiki/Mugo",
+      "question": "What are the specific rhythmic patterns played on the central drum?",
+      "source": "https://en.wikipedia.org/wiki/Mugo",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the music profile accurately for a composer or student."
+    }
+  ],
+  "research_file": "research_results/mugo.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "mugo",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mugo",
+    "https://www.wikidata.org/wiki/Q6932216",
+    "https://archive.org/details/ERIC_EJ1137053"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -242,7 +242,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 6,
   "of": 15,
   "missing": [
    {
@@ -278,15 +278,63 @@
     "label": "a hero video that passed the vision check"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "2dtCThQOqiY",
+   "url": "https://www.youtube.com/watch?v=2dtCThQOqiY",
+   "title": "\"Troika\" - 1º Período B APRENDIZ 2018",
+   "channel": "FÁBIO SENA",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Portuguese",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Children and teacher perform Troika in a classroom circle"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Troika circle dance",
+     "description": "Children hold hands in circles and move together to music."
+    }
+   ],
+   "teacher_style": "The teacher guides young children through group folk dance in a classroom setting. He participates actively while assisting a child in a wheelchair.",
+   "distinctive_method": "Integrating a child in a wheelchair into the active circle dance group interaction.",
+   "what_works": [
+    "Group participation"
+   ],
+   "what_hinders": [
+    "No verbal instruction given in video"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "Children dancing in circles holding hands while teacher pushes a child in a wheelchair",
+     "viewpoint": "front",
+     "cannot_infer": "specific footwork details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -296,6 +344,6 @@
   "polished": false,
   "file": "episodes/troika.json"
  },
- "fingerprint": "a2c29b799e0161c0",
- "updated": "2026-11-24"
+ "fingerprint": "53d9377bb849b9f3",
+ "updated": "2026-11-25"
 }

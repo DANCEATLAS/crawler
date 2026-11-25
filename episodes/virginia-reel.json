@@ -2,7 +2,7 @@
  "slug": "virginia-reel",
  "name": "Virginia reel",
  "pack_version": "e2",
- "built_at": "2026-11-24T22:53:18Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-23T22:17:24Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -275,7 +275,7 @@
       "Drill: Walking 4 steps in and 4 steps out in unison"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 1",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -422,7 +422,7 @@
       "Drill: Side-slip (sashay) down the center for 8 counts"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 1",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -571,7 +571,7 @@
       "Drill: Right-arm swing with partner (1.5 turns)"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 1",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -787,25 +787,30 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
    "views used by most teachers: front, overhead",
-   "tempo progression: slow → full"
+   "tempo progression: slow → full",
+   "repetitions per step: about 1"
   ],
   "cues": [
    "right hand to your partner left hand to your friend",
    "go-see-do with your partner",
    "reeling the set",
-   "peeling the banana"
+   "peeling the banana",
+   "move forward like this",
+   "take four steps back into your spot",
+   "link your right elbow"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "breakdown",
+   "recap",
    "full_demo"
   ],
   "steps_as_taught": [
@@ -833,6 +838,31 @@
     "name": "Casting off",
     "counts": "8 beats",
     "description": "Top couple turns and walks behind the line with all gentlemen/ladies following."
+   },
+   {
+    "name": "Forward and back",
+    "counts": "1-8",
+    "description": "Four steps forward toward partner and four steps back."
+   },
+   {
+    "name": "Right elbow swing",
+    "counts": "1-8",
+    "description": "Link right elbows and swing for eight counts."
+   },
+   {
+    "name": "Left elbow swing",
+    "counts": "1-8",
+    "description": "Link left elbows and swing for eight counts."
+   },
+   {
+    "name": "Both hands swing",
+    "counts": "1-8",
+    "description": "Hold both hands with partner and travel clockwise for eight counts."
+   },
+   {
+    "name": "Back-to-back",
+    "counts": "1-8",
+    "description": "Pass right shoulder then left shoulder passing partner back-to-back."
    }
   ]
  },
@@ -850,6 +880,6 @@
  "claims_verified": 6,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "a2e7a77b7e02d0f8851ba973e64f5e83a18bb32ed9dccf5224f2a10a20ca6706",
+ "input_fingerprint": "74f233a6387b34581cee4557d657271d73896d0f30667f2a4f054c8976b2b67d",
  "hero_checked": "pass"
 }

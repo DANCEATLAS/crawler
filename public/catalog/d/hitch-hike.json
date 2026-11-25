@@ -31,6 +31,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hitch_hike_(dance)",
   "wikidata_qid": "Q5871753",
   "unesco": false,
+  "hero_video_youtube_id": "hqukP-JABKI",
+  "video_stack": [
+   {
+    "youtube_id": "hqukP-JABKI",
+    "role": "hero",
+    "title": "Hitchhike on Hollywood A Go Go",
+    "channel": "hollywoodagogo",
+    "hd": true
+   },
+   {
+    "youtube_id": "qmZ2wvOpz-o",
+    "role": "rendition",
+    "title": "How to HITCH HIKE ? #Lockingtutorials | Udhay",
+    "channel": "udhaydancechannel",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -58,6 +75,14 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T20:59:32Z",
+   "soft_fail": [
+    "camera_ok"
+   ]
+  },
   "related_slugs": [
    "disco",
    "jazz-dance"
@@ -269,7 +294,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -277,28 +302,66 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "hqukP-JABKI",
+   "url": "https://www.youtube.com/watch?v=hqukP-JABKI",
+   "analysed_on": "2026-11-25",
+   "observation": {
+    "setting": "television studio stage with a brick wall backdrop and raised platforms",
+    "dancers": "one male singer and a group of female dancers",
+    "formation_and_space": "the women are arranged in a line on the raised platforms, moving in unison",
+    "posture": "upright torso, knees slightly bent, weight shifts between feet",
+    "footwork": "rhythmic stepping, shifting weight from side to side, often involving a step-touch or a small hop on the beat",
+    "arms_and_hands": "arms are extended and move in a hitchhiking gesture, with the thumb pointing over the shoulder",
+    "hips_and_torso": "slight hip swaying and torso rotation to accompany the arm movements",
+    "partnering": "none",
+    "levels_jumps_turns": "small hops and rhythmic bounces",
+    "costume_and_props": "the women wear short skirts and matching tops; the man wears a suit and tie",
+    "cannot_infer": "the low resolution and fast camera cuts make it difficult to see the precise footwork and weight transfer",
+    "music_heard": {
+     "instruments": [
+      "drums",
+      "bass",
+      "guitar",
+      "horns"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "the hitchhiking gesture: extending one arm with the thumb pointing over the shoulder while stepping to the side"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/hitch-hike.json"
  },
- "fingerprint": "6d50e6e29b3db493",
- "updated": "2026-11-24"
+ "fingerprint": "bf65f5a7af0433ba",
+ "updated": "2026-11-25"
 }

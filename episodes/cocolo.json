@@ -2,7 +2,7 @@
  "slug": "cocolo",
  "name": "Cocolo",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:55Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-24T20:36:46Z",
  "qc_score": 9.3,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Cocolo. 19th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (D7zWZf_0nLs)",
      "Title card: Cocolo · Dominican Republic · 19th century to present"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Moko-Yombi stilt walking, Niega business masquerade."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (D7zWZf_0nLs)",
      "Captions name each signature move as it appears",
      "Formation: Open public streets, neighborhood spaces, and processional parade paths"
     ],
@@ -274,7 +274,7 @@
       "Drill: Basic processional step to scratch band pulse"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -420,7 +420,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -565,7 +565,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -707,7 +707,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "D7zWZf_0nLs",
+   "checked_by_vision_model": true,
+   "title": "Guloyas - Danza (Teatro Danzante Cocolo)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -753,18 +757,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -772,15 +778,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -793,7 +798,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -810,6 +814,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "c7ebafbea0e11f1d00af1823c2299af9d970bab685d582217a2a07da810c33f4",
- "hero_checked": null
+ "input_fingerprint": "d2b4de6d7ad516f37f29b756f5142a3445a3cbc1917626bffd9d2fb0c8f65400",
+ "hero_checked": "pass"
 }

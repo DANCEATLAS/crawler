@@ -249,7 +249,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 7,
   "of": 15,
   "missing": [
    {
@@ -281,15 +281,57 @@
     "label": "a hero video that passed the vision check"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "AVomw_YvdTQ",
+   "url": "https://www.youtube.com/watch?v=AVomw_YvdTQ",
+   "title": "Adana-Teental//Dance tutorial//Classical dance//Bong lady Sanita",
+   "channel": "Bong lady Sanita",
+   "analysed_on": "2026-11-25",
+   "level": "intermediate",
+   "language": "none",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "The teacher performs the dance routine on a rooftop."
+    }
+   ],
+   "teacher_style": "The teacher performs the dance in a traditional costume, focusing on fluid hand gestures and rhythmic footwork. She demonstrates the sequence without verbal instruction, relying on the music to guide the viewer.",
+   "distinctive_method": "The teacher uses a performance-based approach, presenting the dance as a complete, artistic expression rather than a step-by-step tutorial.",
+   "what_works": [
+    "The clear, full-body view allows the viewer to observe the entire choreography."
+   ],
+   "what_hinders": [
+    "The lack of verbal explanation or breakdown makes it difficult for beginners to learn the steps."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "The dancer performs a sequence of hand gestures and footwork while holding a small idol.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -299,6 +341,6 @@
   "polished": true,
   "file": "episodes/adana.json"
  },
- "fingerprint": "9a56bc27099e5fe6",
- "updated": "2026-11-24"
+ "fingerprint": "4baed223189db35a",
+ "updated": "2026-11-25"
 }

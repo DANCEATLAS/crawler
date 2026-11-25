@@ -2,7 +2,7 @@
  "slug": "nutbush",
  "name": "Nutbush",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-24T20:16:19Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Nutbush. 1970s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (qHqzjQty7aY)",
      "Title card: Nutbush · Australia · 1970s"
     ],
     "music": "theme (30 s)"
@@ -107,7 +107,7 @@
      "Watch for Turn-and-clap, Criss-cross variation."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (qHqzjQty7aY)",
      "Captions name each signature move as it appears",
      "Formation: Box or grid formation, dancers facing the same wall and turning 90 degrees clockwise at the end of each 32-beat cycle."
     ],
@@ -272,7 +272,7 @@
       "Drill: Practice double right side touch and left side touch on beat"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -417,7 +417,7 @@
       "Drill: Lift right knee to left hip twice, left knee to right hip twice"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -564,7 +564,7 @@
       "Drill: Practice the turn-and-clap step to reorient facing wall"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -712,7 +712,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "qHqzjQty7aY",
+   "checked_by_vision_model": true,
+   "title": "Koala Nutbush - Line Dance"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -747,18 +751,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "80 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 80,
+  "source": "100 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 100,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 3"
   ],
   "cues": [
-   "1-2-3-4",
    "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
    "1-2-3",
    "step to the right",
    "un dos tres",
@@ -766,15 +772,14 @@
    "rock step rock step",
    "have fun",
    "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "flexionar las rodillas"
+   "drop your shoulders"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
+   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -784,7 +789,6 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections"
@@ -796,6 +800,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "08e7e2ad09f710d564bfcbd479c265c7b8824693c41f7b5ac8c75ceecce6e38e",
- "hero_checked": null
+ "input_fingerprint": "13db18a7766012091ede74e9c093338779bdba68b9443b7b2d2e2a25c32345ba",
+ "hero_checked": "pass"
 }

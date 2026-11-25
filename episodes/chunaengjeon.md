@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Dignified court dance master emphasizing precision, historical restraint, and poise.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Flower of the Joseon Court
 NARRATION: This is Chunaengjeon. 17th-19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mXhwZCgqY2E)
 ON SCREEN: Title card: Chunaengjeon · South Korea · 17th-19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Chunaengjeon is performed as a solo dance entirely on a woven floral 
 NARRATION: The dancer moves back and forth and turns around using defined and controlled steps without stepping off the mat.
 NARRATION: Dancers wear traditional beoseon socks instead of shoes.
 NARRATION: Watch for hwajeontae.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mXhwZCgqY2E)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance strictly confined to a single floral-patterned straw mat (hwamunseok).
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mXhwZCgqY2E', 'checked_by_vision_model': True, 'title': '제5회 한국의 풍류 비엔나 - 춘앵전 (송영인, 락음국악단) (7분18초)'}
 Images: 1 licensed — Korea.net / Korean Culture and Information Service (Jeon Han) / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
 Footage: MISSING
 Motifs: Yellow aengsam robe against a woven floral hwamunseok mat, Close-up of white beoseon socks stepping on straw, Gentle smile of the dancer during hwajeontae
@@ -324,7 +324,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the classical-court family studied · videos studied: 16
+Source: 17 tutorial(s) of the classical-court family studied · videos studied: 17
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

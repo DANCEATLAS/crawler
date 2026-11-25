@@ -1,0 +1,149 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Colliding during sudden directional changes."
+        ],
+        "counts": "Simple 2-measure counting with immediate freezes.",
+        "duration_minutes": "5",
+        "game_version": "Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Sudden twisting or sharp stops that compromise balance."
+        ],
+        "counts": "2-measure cycles with static pause on the musical break.",
+        "seated_version": "Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops.",
+        "standing_version": "Execute gentle side-steps in a supported line, pausing in place during the musical breaks.",
+        "tempo_and_range": "Moderate tempo with smaller step range to ensure stability."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Execute the sudden Koftos pause and shout during a musical break.",
+          "source": "https://en.wikipedia.org/wiki/Koftos"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Line or circle dance that can also be performed with partners or moving back and forth.",
+          "source": "https://en.wikipedia.org/wiki/Koftos"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Connected hands in line formation; during breaks, arms raise up, drop down, or clap.",
+      "difficulty": "beginner",
+      "footwork": "Two-measure (sta dio) fast Syrtos steps traveling sideways, forward, or backward.",
+      "formation_and_space": "Open circle or line, moving laterally, in/out, or with partners.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Can be danced as a group line or adapted for couples/partners.",
+      "posture": "Upright line-dance posture with connected arms.",
+      "signature_moves": [
+        {
+          "description": "Freezing in place during a sudden music break while shouting 'Hey!' and clapping or shifting arm positions.",
+          "name": "The Cut (Koftos Stop)"
+        }
+      ],
+      "tempo_feel": "Fast and alert.",
+      "what_to_avoid": "Failing to stop when the music cuts; missing the vocal accent."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2-measure (sta dio) structure",
+      "mood_keywords": [
+        "lively",
+        "playful",
+        "energetic",
+        "abrupt"
+      ],
+      "musical_form": "Periodic melodic phrases punctuated by sudden cuts/silences",
+      "reference_recordings": [],
+      "rhythm_pattern": "Fast Syrtos pattern with sudden complete rest/break measures",
+      "sound_description": "A fast, driving Greek Syrtos melody that repeatedly stops short without warning, prompting a collective shout of 'Hey!' from the dancers during the brief silent breaks.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Group shouting ('Hey!') during musical breaks"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Travel laterally using a fast two-measure Syrtos step progression.",
+        "Optionally transition movement direction forward and backward or face a partner.",
+        "Upon the sudden musical cut, halt movement immediately.",
+        "Shout 'Hey!' while simultaneously raising arms, dropping arms, or clapping."
+      ],
+      "formation": "Open line or circle; can also be danced in partner formation.",
+      "level_notes": "Beginners should focus on maintaining the fast Syrtos footwork while staying alert for the sudden musical silences.",
+      "rhythm": "Fast two-measure (sta dio) Syrtos rhythm featuring abrupt musical stops."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e0e1498e517d4f0accaf7766f898b830485fd47a3a3833ad5d534940dffc3a67",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What exact footwork counts and step sequence constitute the sta dio fast Syrtos step used in Koftos across Thessaly versus Epirus? Evidence needed: Video analysis or pedagogical manuals of regional Greek folk dances detailing Koftos footwork steps."
+    ]
+  },
+  "id": "atlas:koftos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Koftos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "a285556cd7cd284f",
+      "next_evidence": "Video analysis or pedagogical manuals of regional Greek folk dances detailing Koftos footwork steps.",
+      "question": "What exact footwork counts and step sequence constitute the sta dio fast Syrtos step used in Koftos across Thessaly versus Epirus?",
+      "source": "https://en.wikipedia.org/wiki/Koftos",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided text notes it is a two-measure fast Syrtos style but lacks specific step-by-step breakdown needed for interactive instruction."
+    }
+  ],
+  "research_file": "research_results/koftos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "koftos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koftos",
+    "https://www.wikidata.org/wiki/Q6425740"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

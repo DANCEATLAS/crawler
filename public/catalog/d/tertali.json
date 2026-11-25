@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "tertali",
  "name": "Tertali",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -30,6 +30,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Teratali",
   "wikidata_qid": "Q7705236",
   "unesco": false,
+  "hero_video_youtube_id": "9o9UETCnUIo",
+  "video_stack": [
+   {
+    "youtube_id": "9o9UETCnUIo",
+    "role": "hero",
+    "title": "Terah Taali | Rajasthani Folk Dance | International Folklore Festival Spain 2023 | GURU-TheArtsHub",
+    "channel": "GURU - The Arts Hub",
+    "hd": true
+   },
+   {
+    "youtube_id": "iHChnBVjmpE",
+    "role": "rendition",
+    "title": "शानदार तेरहताली डांस | terah taali dance performance At Rankpur festival",
+    "channel": "Marwar entertainment",
+    "hd": true
+   },
+   {
+    "youtube_id": "CjIye2P52ds",
+    "role": "rendition",
+    "title": "Gypsy Folk Dance - Teratali Performance by Utkarsh Dance Academy LLP",
+    "channel": "Utkarsh Dance Academy LLP",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -57,7 +81,13 @@
   "needs_eyes_on": true,
   "sacred_note": "Described as an elaborate ritual of the Kamar tribes. Outsiders should respect ritual context and sacred performance elements.",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T21:00:37Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -161,30 +191,66 @@
   "movie_ready": false,
   "schema": 5,
   "tradition_status": "living",
+  "footage": [
+   {
+    "title": "Folk Dances of Rajasthan",
+    "url": "https://archive.org/details/dni.ncaa.RS-92-VHS",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive",
+    "description": "Administrative Source Rupayan Sansthan, Jodhpur ( RS ) Collection Shri Komal Kothari Identifier 92 Title Folk Dances of Rajasthan Alternative RS-92-VHS Medium Video Analog VHS (Panasoni) ExtentOriginal 00:42:38 Spatial Rupayan Sansthan, Jodhpur Temporal Documentation Condition Average Relation “Raja",
+    "source": "archive"
+   },
+   {
+    "title": "Manganiar Songs,Teratali and Kuchamanai Khayal",
+    "url": "https://archive.org/details/dni.ncaa.RS-12-VHS",
+    "year": 1989,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive",
+    "description": "Administrative Source Rupayan Sansthan, Jodhpur ( RS ) Collection Shri Komal Kothari Identifier 12 Title Manganiar Songs,Teratali and Kuchamanai Khayal Alternative RS-12-VHS Medium Video Analog VHS (Kodak) ExtentOriginal 01:52:30 Spatial Tilonia Temporal Documentation Created 18.03.1989 Condition Go",
+    "source": "archive"
+   },
+   {
+    "title": "Rajasthani Folk Music and Teratali Dance",
+    "url": "https://archive.org/details/dni.ncaa.RS-047-VHS",
+    "year": 1990,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive",
+    "description": "Administrative Source Rupayan Sansthan, Jodhpur ( RS ) Collection Shri Kuldeep Kothari Identifier 047 Title Rajasthani Folk Music and Teratali Dance Alternative RS-047-VHS Medium Video Home System ExtentOriginal 02:03:37 Spatial Rajasthan Temporal Documentation Created 02.04.1990 Condition Good Righ",
+    "source": "archive"
+   },
+   {
+    "title": "Teratali Dance Workshop",
+    "url": "https://archive.org/details/dni.ncaa.RS-568-MDV",
+    "year": 2011,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive",
+    "description": "Administrative Source Rupayan Sansthan, Jodhpur ( RS ) Collection Shri Kuldeep Kothari Identifier 568 Title Teratali Dance Workshop Alternative RS-568-MDV Medium Mini Digital Video (Panasonic) ExtentOriginal 00:43:33 Spatial Rupayan Sansthan, Jodhpur Temporal Documentation Created 12.07.2011 Conditi",
+    "source": "archive"
+   }
+  ],
   "researched_at": "2026-11-24T20:18:10Z",
   "qc_score": 9.7
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Described as an elaborate ritual of the Kamar tribes. Outsiders should respect ritual context and sacred performance elements.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/tertali.json"
  },
- "fingerprint": "4e8ebac7caaa8d74",
- "updated": "2026-11-24"
+ "fingerprint": "147c1d5a636cdb01",
+ "updated": "2026-11-25"
 }

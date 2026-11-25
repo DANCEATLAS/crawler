@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "graceful court posture",
+      "signature_moves": [],
+      "tempo_feel": "graceful and measured",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "graceful",
+        "courtly",
+        "refined"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A unique traditional Malay composition featuring Chinese musical influences, historically sung and played for royal court entertainments in Malacca.",
+      "tempo_bpm": "",
+      "vocal_style": "court song performed by palace singer-dancers (Inang)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "technique not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "af48bcc893431d5287de02506f742faa510c1d9f9b880233b053986d084311c1",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Which specific traditional instruments comprise the Mak Inang ensemble? Evidence needed: Ethnomusicological studies on Malaccan court music ensembles."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step counts, arm positions, and spatial paths executed in classical Mak Inang? Evidence needed: Video documentation or archival recording of a authentic Mak Inang performance from a recognized Malaysian cultural institute."
+    ]
+  },
+  "id": "atlas:mak-inang",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Mak Inang",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d4ce7655bb53a37d",
+      "next_evidence": "Video documentation or archival recording of a authentic Mak Inang performance from a recognized Malaysian cultural institute.",
+      "question": "What are the exact step counts, arm positions, and spatial paths executed in classical Mak Inang?",
+      "source": "https://en.wikipedia.org/wiki/Mak_Inang",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profiles and instructional ladders require specific step counts and body mechanics which are missing from the Wikipedia summary."
+    },
+    {
+      "domain": "research",
+      "id": "a277bba504744d89",
+      "next_evidence": "Ethnomusicological studies on Malaccan court music ensembles.",
+      "question": "Which specific traditional instruments comprise the Mak Inang ensemble?",
+      "source": "https://en.wikipedia.org/wiki/Mak_Inang",
+      "status": "candidate_unreviewed",
+      "why_needed": "A full musical profile requires instrument lists and meter signatures to accurately describe the soundscape."
+    }
+  ],
+  "research_file": "research_results/mak-inang.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "mak-inang",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mak_Inang",
+    "https://www.wikidata.org/wiki/Q6738543"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

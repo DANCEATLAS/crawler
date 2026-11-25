@@ -1,0 +1,161 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex lead dancer improvisations",
+          "Pulling too hard on hands in the circle"
+        ],
+        "counts": "Use 'Big-small-small' instead of numbers",
+        "duration_minutes": "3",
+        "game_version": "The 'Echo' game: the leader does a single step, the children must 'echo' with a double step."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid backward steps",
+          "High arm positions if shoulder mobility is limited"
+        ],
+        "counts": "1-2-3 (tap), 4-5 (tap), 6-7 (tap)",
+        "seated_version": "Perform the 7/8 rhythm with foot taps; tap right-left-right for the 'double' variation.",
+        "standing_version": "Reduce the travel of the steps; perform the back variation as a small weight shift rather than a full step.",
+        "tempo_and_range": "Slow the music to 100 BPM; keep steps under 6 inches."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand hold at shoulder height ('W' position) or joined downwards ('V' position)",
+      "difficulty": "intermediate",
+      "footwork": "Alternating single steps and double steps backward within the 7/8 meter",
+      "formation_and_space": "Circular progression moving to the right",
+      "hips_and_torso": "Stable torso with slight bounce in the knees",
+      "levels_and_jumps": "Low to ground; lead dancer may perform small leaps",
+      "partnering": "None; communal circle",
+      "posture": "Upright, proud Peloponnesian stance",
+      "signature_moves": [
+        {
+          "description": "A variation where the dancer takes two steps backward instead of continuing the forward progression",
+          "name": "Double step back"
+        }
+      ],
+      "tempo_feel": "Lively and bouncing",
+      "what_to_avoid": "Losing the 7/8 count during the backward step transition"
+    },
+    "music_profile": {
+      "instruments": [
+        "Clarinet",
+        "Violin",
+        "Lute",
+        "Santouri"
+      ],
+      "meter": "7/8",
+      "mood_keywords": [
+        "festive",
+        "rhythmic",
+        "communal"
+      ],
+      "musical_form": "Strophic with instrumental interludes",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Stin Apano Geitonia"
+        }
+      ],
+      "rhythm_pattern": "Long-short-short (3+2+2)",
+      "sound_description": "A bright, driving 7/8 rhythm led by a melodic clarinet, featuring the specific 'Stin Apano Geitonia' melody which dictates the step changes.",
+      "tempo_bpm": "120-140",
+      "vocal_style": "Greek folk (Dimotiko)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step forward with the right foot on the long beat (count 1-2-3)",
+        "Step forward with the left foot (count 4-5)",
+        "Step forward with the right foot (count 6-7)",
+        "Execute a single step variation as described in sources",
+        "Execute a double step back variation as described in sources"
+      ],
+      "formation": "Open circle (chain) moving counter-clockwise",
+      "level_notes": "Requires familiarity with the Kalamatiano 7/8 rhythm before attempting the back-step variations.",
+      "rhythm": "7/8 (3+2+2)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "db3d390c251b1fbe78bc15867919e849789257917500fae89a5889ab6616cf89",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Does the lead dancer perform specific improvisations during the 'double step' phase? Evidence needed: https://en.wikipedia.org/wiki/Monodiplos"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How exactly does the 'double step back' align with the 7/8 meter counts? Evidence needed: https://en.wikipedia.org/wiki/Monodiplos"
+    ]
+  },
+  "id": "atlas:monodiplos",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Monodiplos",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "3822f33741d8b248",
+      "next_evidence": "https://en.wikipedia.org/wiki/Monodiplos",
+      "question": "How exactly does the 'double step back' align with the 7/8 meter counts?",
+      "source": "https://en.wikipedia.org/wiki/Monodiplos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional counts for the interactive learning module."
+    },
+    {
+      "domain": "research",
+      "id": "f4205f19dfb2d570",
+      "next_evidence": "https://en.wikipedia.org/wiki/Monodiplos",
+      "question": "Does the lead dancer perform specific improvisations during the 'double step' phase?",
+      "source": "https://en.wikipedia.org/wiki/Monodiplos",
+      "status": "candidate_unreviewed",
+      "why_needed": "To determine if the variation is a collective change or a lead-driven cue."
+    }
+  ],
+  "research_file": "research_results/monodiplos.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "monodiplos",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Monodiplos",
+    "https://www.wikidata.org/wiki/Q6901521"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

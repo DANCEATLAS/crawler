@@ -272,31 +272,150 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
    {
     "key": "posture",
     "label": "posture"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "M2h0hp2qOK0",
+   "url": "https://www.youtube.com/watch?v=M2h0hp2qOK0",
+   "title": "Learn steps 1 and 2 of The Earl of Erroll",
+   "channel": "RSCDS Edinburgh",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "hop-hop-point / hop-brush-beat / single / together-out-toget",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces the dance and explains the need for four bars of chorus."
+    },
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the chorus step by step."
+    },
+    {
+     "t": "1:13",
+     "seconds": 73,
+     "segment": "music_practice",
+     "note": "The teacher practices the chorus with music."
+    },
+    {
+     "t": "2:58",
+     "seconds": 178,
+     "segment": "breakdown",
+     "note": "The teacher breaks down step 1."
+    },
+    {
+     "t": "5:23",
+     "seconds": 323,
+     "segment": "breakdown",
+     "note": "The teacher breaks down step 2."
+    },
+    {
+     "t": "7:43",
+     "seconds": 463,
+     "segment": "full_demo",
+     "note": "The teacher puts step 1 and 2 together."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Chorus",
+     "counts": "4 bars",
+     "description": "A series of hops, points, and brushes."
+    },
+    {
+     "name": "Step 1",
+     "counts": "4 bars",
+     "description": "A series of hops, points, and a single step."
+    },
+    {
+     "name": "Step 2",
+     "counts": "4 bars",
+     "description": "A series of hops, points, and a double step."
+    }
+   ],
+   "cues": [
+    "spring onto the right",
+    "left behind",
+    "out to the second",
+    "together out together",
+    "hop hop and point"
+   ],
+   "teacher_style": "The teacher demonstrates the steps clearly and provides verbal instructions for each movement. She breaks down the dance into smaller, manageable segments and practices them with the students.",
+   "distinctive_method": "The teacher uses a combination of verbal instructions and physical demonstration to teach the steps.",
+   "what_works": [
+    "The teacher breaks down the steps into smaller, manageable segments.",
+    "The teacher provides clear verbal instructions for each movement."
+   ],
+   "what_hinders": [
+    "The teacher does not provide any visual aids or diagrams to help students understand the steps."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher stands in front of the camera and demonstrates the steps.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 11,
+     "end_s": 20,
+     "topic": "movement",
+     "observation": "The teacher performs the chorus step.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 113,
+     "end_s": 120,
+     "topic": "movement",
+     "observation": "The teacher performs the chorus step with music.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 298,
+     "end_s": 305,
+     "topic": "movement",
+     "observation": "The teacher performs step 1.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -306,6 +425,6 @@
   "polished": false,
   "file": "episodes/earl-of-erroll.json"
  },
- "fingerprint": "36efbc17dbf686e6",
- "updated": "2026-11-24"
+ "fingerprint": "b1a6c9a5028ba726",
+ "updated": "2026-11-25"
 }

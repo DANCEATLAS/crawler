@@ -1,58 +1,58 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "Circle for the first part (buatanga), lines for the second and third parts.",
+      "formation_and_space": "Circular formation for the first part (buatanga), followed by lines for the second and third parts.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
       "partnering": "not described in sources",
       "posture": "not described in sources",
-      "signature_moves": [
-        {
-          "description": "The first part of the dance performed in a circular formation.",
-          "name": "Buatanga"
-        }
-      ],
+      "signature_moves": [],
       "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
-      "instruments": [
-        "not described in sources"
-      ],
+      "instruments": [],
       "meter": "not described in sources",
       "mood_keywords": [
         "rhythmic",
-        "historical",
-        "ritual"
+        "ritualistic"
       ],
-      "musical_form": "coordinate polyphony",
+      "musical_form": "Three parts, call-and-response.",
       "reference_recordings": [
         {
           "artist": "Jane Mink Rossen",
           "title": "Songs of Bellona Island"
         }
       ],
-      "rhythm_pattern": "call and response",
-      "sound_description": "A complex vocal layering known as coordinate polyphony, where two distinct songs are performed simultaneously, accompanied by rhythmic speech-song patterns.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "speech-song"
+      "rhythm_pattern": "Highly rhythmic, call-and-response speech-song.",
+      "sound_description": "A complex vocal performance featuring two distinct songs sung simultaneously in a rhythmic, speech-song style.",
+      "tempo_bpm": "",
+      "vocal_style": "Coordinate polyphony of two songs rendered simultaneously."
     },
     "teaching": {
       "basic_steps": [
-        "Not described in sources"
+        "not described in sources"
       ],
-      "formation": "Circle (part one), lines (parts two and three)",
-      "level_notes": "Not described in sources",
-      "rhythm": "Highly rhythmic call-and-response"
+      "formation": "Starts in a circle (buatanga) and transitions to lines.",
+      "level_notes": "not described in sources",
+      "rhythm": "Highly rhythmic, call-and-response speech-song."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "eaf1131f7f288659d0ac4bdf16ef177a1fcc6c162c9de29d8a13058d5845f04c",
+  "fingerprint": "79eb31833db882cc5f65d6c8d673c6bb9b7e589b99b9dc6efe305697725dc983",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -62,7 +62,9 @@
     "research": [
       "movement: footwork, posture, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific physical movements or footwork define the three parts of the Suahongi dance? Evidence needed: Ethnographic field notes or video documentation of the 1974 revival.",
+      "Investigate: Are there specific traditional costumes worn during the performance of Suahongi? Evidence needed: Visual documentation from the 1974 revival or Jane Mink Rossen's 'Songs of Bellona Island'."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -89,7 +91,26 @@
   ],
   "music_options": [],
   "name": "Suahongi",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e9cf76db5e63aece",
+      "next_evidence": "Ethnographic field notes or video documentation of the 1974 revival.",
+      "question": "What specific physical movements or footwork define the three parts of the Suahongi dance?",
+      "source": "https://en.wikipedia.org/wiki/Solomon_Islands_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source material describes the formation (circle to lines) but lacks the movement vocabulary required for instruction."
+    },
+    {
+      "domain": "research",
+      "id": "adfaa05c8290eeb9",
+      "next_evidence": "Visual documentation from the 1974 revival or Jane Mink Rossen's 'Songs of Bellona Island'.",
+      "question": "Are there specific traditional costumes worn during the performance of Suahongi?",
+      "source": "https://en.wikipedia.org/wiki/Solomon_Islands_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source provides general information about Solomon Islands dance costumes but does not specify attire for this particular ritual."
+    }
+  ],
   "research_file": "research_results/suahongi.json",
   "runtime_active": false,
   "scope": {

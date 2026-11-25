@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic Salvadoran folklorist who emphasizes 'alegría' and the specific history of Palaviccini.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of the Friction Drum
 NARRATION: This is Xuc. 1942–present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (EUxFducYXyk)
 ON SCREEN: Title card: Xuc · El Salvador · 1942–present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is dynamic and characterized by small jumps and specific fo
 NARRATION: The primary step involves a 'heel-toe-heel' sequence with both the right and left feet.
 NARRATION: Dancers also perform a crossing step where feet are kept stretched and moved back and forth while taking short jumps.
 NARRATION: Watch for Talón-punta-talón, The Wheel.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (EUxFducYXyk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers form wheels (circles) and move collectively while flirting.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -124,7 +124,7 @@ NARRATION: Step 1: Heel-toe-heel position with the right foot
 NARRATION: Step 2: Heel-toe-heel position with the left foot
 NARRATION: Footwork from the sources: Heel-toe-heel positions alternating feet, combined with small jumps; feet move back and forth in a crossed fashion while jumping.
 NARRATION: Drill: Marching to the 2/4 'xuc-xuc' rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -195,7 +195,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Circular formation (wheel) with arms stretched holding hands
 NARRATION: Drill: Combining the heel-toe-heel with small vertical jumps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -268,7 +268,7 @@ NEEDS: tempo
 NARRATION: Step 1: Crossed foot movement (back and forth) with short distance jumps
 NARRATION: Step 2: Circular formation (wheel) with arms stretched holding hands
 NARRATION: Drill: Women: Skirt manipulation while jumping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -328,7 +328,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear 'traje típico' (typical folk costumes). Women wear long, colorful skirts made of traditional fabric, which are essential to the choreography. Men wear trousers made of cotton or ixtle (agave fiber). The dance is most famously performed outdoors during patron saint festivities, specifically the San Miguel Carnival and sugar cane festivals.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'EUxFducYXyk', 'checked_by_vision_model': True, 'title': 'El Salvador Folk Dance  -   Salvadoran Xuc !!  South America Latino Festival ,Federation Square'}
 Images: 1 licensed — Jesus Sanchez from Monterrey, Mexico / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: The juco drum being rubbed, Sugar cane fields of Cojutepeque, Swirling colorful folk skirts, The crowded streets of the San Miguel Carnival
@@ -338,9 +338,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (4): https://en.wikipedia.org/wiki/Xuc; https://www.wikidata.org/wiki/Q6169362; https://es.wikipedia.org/wiki/Xuc; https://pt.wikipedia.org/wiki/Xuc

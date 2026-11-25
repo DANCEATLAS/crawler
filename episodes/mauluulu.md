@@ -115,7 +115,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Sit crosslegged on the ground with the right leg over the left.
 NARRATION: Step 2: Execute close-armed hand gestures (haka nounou) synchronized with the upper body.
 NARRATION: Drill: Sit crosslegged with right leg over left.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -181,7 +181,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Sit crosslegged on the ground with the right leg over the left.
 NARRATION: Step 2: Execute close-armed hand gestures (haka nounou) synchronized with the upper body.
 NARRATION: Drill: Practice short-armed gestures close to the body.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -249,7 +249,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Execute close-armed hand gestures (haka nounou) synchronized with the upper body.
 NARRATION: Step 2: Transition from the silent tafua gestural sequence to the sung portion of the performance.
 NARRATION: Drill: Transition smoothly between silent tafua and sung sequences.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -311,9 +311,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: say the count before the move; name the body part, then the direction; one correction at a time
 
 Sources (2): https://en.wikipedia.org/wiki/M%C4%81%CA%BBulu%CA%BBulu; https://www.wikidata.org/wiki/Q3711190

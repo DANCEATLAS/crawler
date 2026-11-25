@@ -57,10 +57,38 @@
    "voice": [
     "calm",
     "patient",
-    "direct"
+    "direct",
+    "warm"
    ],
-   "beliefs": [],
-   "feelings": []
+   "beliefs": [
+    {
+     "t": "3:22",
+     "belief": "Rhythm internalizes over time with short daily practice, transforming early struggles into natural timing within ten days.",
+     "about": "how_people_learn"
+    }
+   ],
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:04",
+     "moment": "opening",
+     "says": "The teacher introduces himself and addresses students who struggle with rhythm and keeping a steady pulse.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:30",
+     "moment": "before_hard_part",
+     "says": "The teacher demonstrates setting up a metronome app at a moderate tempo to clap along with.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "3:05",
+     "moment": "closing",
+     "says": "The teacher recommends practicing five minutes daily with headphones and metronome, and promises noticeable improvement within a week.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable of mastering rhythm through simple, consistent daily practice."
   },
   "learner_voice": {
    "struggles": [
@@ -95,5 +123,13 @@
  },
  "kind": "teacher_talk",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-25T21:11:45Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 1,
+  "feelings": 0
+ }
 }

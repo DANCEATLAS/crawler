@@ -1,6 +1,6 @@
 # Virginia reel — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.25 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.25 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Forward and back (4 steps each way)
 NARRATION: Step 2: Two-hand turn (join hands and rotate once)
 NARRATION: Footwork from the sources: Walking steps or a light 'bounce' step; sashay (side-slip and close) for the center travel
 NARRATION: Drill: Walking 4 steps in and 4 steps out in unison
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 1
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
@@ -194,7 +194,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The Reel (alternate arm swings with partner and line members)
 NARRATION: Step 2: The March (turn outward and file to the foot)
 NARRATION: Drill: Side-slip (sashay) down the center for 8 counts
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 1
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
@@ -268,7 +268,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: The March (turn outward and file to the foot)
 NARRATION: Step 2: The Arch (head couple forms a gate for others to pass through)
 NARRATION: Drill: Right-arm swing with partner (1.5 turns)
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 1
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8 · repetitions: 3
@@ -338,9 +338,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8 and left 2-3-4-5-6-7-8
-Demonstration: views used by most teachers: front, overhead; tempo progression: slow → full
-Cues: right hand to your partner left hand to your friend; go-see-do with your partner; reeling the set; peeling the banana
+Demonstration: views used by most teachers: front, overhead; tempo progression: slow → full; repetitions per step: about 1
+Cues: right hand to your partner left hand to your friend; go-see-do with your partner; reeling the set; peeling the banana; move forward like this; take four steps back into your spot; link your right elbow
 
 Sources (5): https://en.wikipedia.org/wiki/Virginia_reel_(dance); https://www.wikidata.org/wiki/Q7934709; https://archive.org/details/SongsOfTheChildWorld; https://archive.org/details/danceman093; https://archive.org/details/danceman186

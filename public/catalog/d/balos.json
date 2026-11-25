@@ -264,11 +264,84 @@
   "via": {
    "posture": "performance",
    "arms": "performance",
-   "rhythm": "performance",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "uOmymkd2Y8A",
+   "url": "https://www.youtube.com/watch?v=uOmymkd2Y8A",
+   "title": "Meccamee Class: Apollo Balos",
+   "channel": "Meccamee",
+   "analysed_on": "2026-11-25",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "The teacher and students perform the full routine in the studio."
+    },
+    {
+     "t": "2:08",
+     "seconds": 128,
+     "segment": "breakdown",
+     "note": "The teacher performs the routine alone, breaking down the steps for the students."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Balos",
+     "counts": "5-6-7-8",
+     "description": "A series of rhythmic, energetic movements involving footwork and arm gestures."
+    }
+   ],
+   "cues": [
+    "5-6-7-8",
+    "And 1",
+    "And 2"
+   ],
+   "teacher_style": "The teacher leads a group of students in a studio setting, demonstrating the choreography while facing the mirror. He provides minimal verbal instruction, focusing primarily on visual demonstration and repetition.",
+   "distinctive_method": "The teacher relies almost entirely on visual modeling, with very little verbal guidance or breakdown of the steps.",
+   "what_works": [
+    "The teacher demonstrates the steps clearly in the mirror, allowing students to follow along easily.",
+    "The repetition of the routine helps students internalize the choreography."
+   ],
+   "what_hinders": [
+    "The lack of verbal explanation for the steps might make it difficult for some students to understand the nuances of the movements.",
+    "The fast pace of the demonstration could be challenging for beginners."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "The teacher and students are performing a synchronized dance routine in a studio.",
+     "viewpoint": "mirror",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 208,
+     "end_s": 218,
+     "topic": "teaching",
+     "observation": "The teacher is demonstrating the dance steps alone in front of the class.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "EtKfru3fEWc",
@@ -312,6 +385,6 @@
   "polished": false,
   "file": "episodes/balos.json"
  },
- "fingerprint": "b1bf35ccbaf79ca6",
- "updated": "2026-11-24"
+ "fingerprint": "c458ec1fd7caab15",
+ "updated": "2026-11-25"
 }

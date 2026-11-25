@@ -96,6 +96,19 @@
     "hd"
    ]
   },
+  "tutorials": [
+   {
+    "youtube_id": "AsINOD9YjI0",
+    "title": "Dance Tutorial: Hand Jive | Grease",
+    "channel": "Stage Entertainment NL - Musicals",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "juba-dance"
   ]
@@ -492,6 +505,80 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "Lsz-iGL89so",
+   "url": "https://www.youtube.com/watch?v=Lsz-iGL89so",
+   "title": "How To Do 'THE HAND JIVE' | andreakswilson (HOW TO)",
+   "channel": "Andrea Wilson",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and",
+   "parts": [
+    {
+     "t": "0:03",
+     "seconds": 3,
+     "segment": "intro",
+     "note": "Teacher introduces the hand jive tutorial."
+    },
+    {
+     "t": "0:39",
+     "seconds": 39,
+     "segment": "breakdown",
+     "note": "Breaks down part one: the hand jive hand movements."
+    },
+    {
+     "t": "2:37",
+     "seconds": 157,
+     "segment": "breakdown",
+     "note": "Breaks down part two: Sandy and Danny step footwork and arm motions."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hand Jive",
+     "counts": "1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and",
+     "description": "Two thigh slaps, two claps, two arm crosses, two fist stacks, and two thumb hitches."
+    },
+    {
+     "name": "Sandy and Danny",
+     "counts": "1-and-2-and-3-and-4-5-and-6-and-7-and-8",
+     "description": "Step together step with directional chest orientation and hand pointing."
+    }
+   ],
+   "cues": [
+    "count this",
+    "step together step"
+   ],
+   "common_mistakes": [
+    "going too fast or too slow on the count of eight"
+   ],
+   "teacher_style": "The teacher breaks down choreography step-by-step with counts and builds up the speed gradually. She explains proper positioning and encourages practice.",
+   "distinctive_method": "Associating each arm movement with a distinct number in an 8-count sequence.",
+   "what_works": [
+    "breaking the dance into two parts",
+    "practicing slowly with counts before speeding up"
+   ],
+   "what_hinders": [
+    "fast transitions between movements"
+   ],
+   "evidence": [
+    {
+     "start_s": 40,
+     "end_s": 58,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates hand jive positioning facing forward while explaining counts.",
+     "viewpoint": "front",
+     "cannot_infer": "exact foot placement details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -556,6 +643,6 @@
   "polished": false,
   "file": "episodes/hand-jive.json"
  },
- "fingerprint": "b73a05bfd9c19309",
+ "fingerprint": "074a1547f9cfc8a8",
  "updated": "2026-11-25"
 }

@@ -1,0 +1,128 @@
+{
+ "slug": "kothammuriyattam",
+ "qc_at": "2026-11-25T20:49:07Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 2.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kothammuriyattam"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "54"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "114"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Documented in performance registers as a distinct dance tradition, Kothammuriyat"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "279"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1163"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/1 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 5,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Kothammuriyattam is documented in reference registries as a type of dance.",
+   "Kothammuriyattam is recorded as a type of dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile contains no verifiable factual information about the dance, relying entirely on placeholders stating details are not described in sources. This fails specificity, teaching value, and accuracy."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sources",
+  "country",
+  "profile_long_len",
+  "sacred_handled",
+  "judge_score=2.0",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-25T19:37:25Z"
+}

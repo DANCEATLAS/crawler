@@ -112,7 +112,7 @@ NARRATION: Step 1: Dance a few laps around the playing field
 NARRATION: Step 2: Swing the short tarkeh stick while yelling and threatening
 NARRATION: Footwork from the sources: dancing a few laps around the playing field before entering the stick attack and spinning
 NARRATION: Drill: Walk in laps around the circle while maintaining spatial awareness
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -180,7 +180,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Dance a few laps around the playing field
 NARRATION: Step 2: Swing the short tarkeh stick while yelling and threatening
 NARRATION: Drill: Practice a controlled spin while maintaining balance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -250,7 +250,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Hold the stick in front of the face and execute a spin
 NARRATION: Step 2: Deliver a single targeted strike toward the opponent's legs
 NARRATION: Drill: Combine the roar, the spin, and the single leg strike
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (3): https://en.wikipedia.org/wiki/Choobazi; https://www.wikidata.org/wiki/Q16050652; https://fr.wikipedia.org/wiki/Chub_bazi

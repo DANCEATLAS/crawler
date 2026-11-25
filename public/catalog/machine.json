@@ -1,34 +1,27 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-25T04:53:13Z",
+ "generated_at": "2026-11-25T21:48:07Z",
  "last_night": {
-  "date": "2026-11-24",
-  "started": "2026-11-24T20:13:43Z",
-  "finished": "2026-11-24T22:56:09Z",
-  "minutes": 162,
-  "questions": 335,
-  "unanswered": 4,
-  "stages": 15,
+  "date": "2026-11-25",
+  "started": "2026-11-25T19:24:13Z",
+  "finished": "2026-11-25T21:48:06Z",
+  "minutes": 144,
+  "questions": 333,
+  "unanswered": 3,
+  "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: waited_seconds 447, overloaded 42, day_quota_used_up 5, timeout_or_network 2, unusable_answer 2, model_gone 2",
-   "qc: model trouble: waited_seconds 44, overloaded 5, model_gone 2",
-   "hero_qc: model trouble: overloaded 1",
-   "teaching: model trouble: waited_seconds 15, overloaded 5, unusable_answer 2, model_gone 2, rate_limited 1",
-   "pedagogy: model trouble: waited_seconds 152, overloaded 16, unusable_answer 4, model_gone 2",
-   "pictures: model trouble: overloaded 2",
-   "episodes: model trouble: overloaded 1",
+   "research: model trouble: waited_seconds 461, overloaded 43, day_quota_used_up 5, unusable_answer 5, model_gone 2",
+   "qc: model trouble: waited_seconds 185, overloaded 9, model_gone 2, timeout_or_network 1",
+   "hero_qc: model trouble: overloaded 2",
+   "teaching: model trouble: waited_seconds 135, overloaded 11, timeout_or_network 2, model_gone 2, unusable_answer 1",
+   "pedagogy: model trouble: waited_seconds 57, overloaded 11, model_gone 2, unusable_answer 2, timeout_or_network 1",
+   "footage: model trouble: overloaded 2",
+   "pictures: model trouble: overloaded 3",
    "translate: model trouble: overloaded 1"
   ]
  },
  "nights": [
-  {
-   "date": "2026-10-29",
-   "minutes": 9,
-   "questions": 0,
-   "unanswered": 0,
-   "errors": 0
-  },
   {
    "date": "2026-10-29",
    "minutes": 14,
@@ -231,19 +224,26 @@
    "questions": 335,
    "unanswered": 4,
    "errors": 0
+  },
+  {
+   "date": "2026-11-25",
+   "minutes": 144,
+   "questions": 333,
+   "unanswered": 3,
+   "errors": 0
   }
  ],
  "counts": {
-  "listed": 1345,
-  "researched": 739,
-  "published": 607,
-  "active_ready": 38,
-  "one_short": 61,
-  "two_short": 53,
-  "three_to_five_short": 144,
-  "story_ready_teaching_withheld": 62,
-  "lessons_studied": 312,
-  "performances_observed": 294
+  "listed": 1365,
+  "researched": 770,
+  "published": 631,
+  "active_ready": 39,
+  "one_short": 67,
+  "two_short": 59,
+  "three_to_five_short": 145,
+  "story_ready_teaching_withheld": 66,
+  "lessons_studied": 341,
+  "performances_observed": 343
  },
  "line": [
   {
@@ -320,87 +320,87 @@
   },
   {
    "date": "2026-11-25",
-   "listed": 1345,
-   "researched": 739,
-   "published": 607,
-   "active_ready": 38,
-   "lessons_studied": 312,
-   "performances_observed": 294
+   "listed": 1365,
+   "researched": 770,
+   "published": 631,
+   "active_ready": 39,
+   "lessons_studied": 341,
+   "performances_observed": 343
   }
  ],
  "pace": {
   "days": 9,
   "per_night": {
-   "listed": 21.1,
-   "published": 27.6,
-   "active_ready": 3.7
+   "listed": 23.3,
+   "published": 30.2,
+   "active_ready": 3.8
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 353
+   "profiles": 364
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 232
+   "profiles": 234
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 212
+   "profiles": 217
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 177
+   "profiles": 186
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 153
+   "profiles": 165
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 147
+   "profiles": 152
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 146
+   "profiles": 150
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 135
+   "profiles": 142
   },
   {
    "key": "arms",
    "label": "arms and hands",
-   "profiles": 104
+   "profiles": 108
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 102
+   "profiles": 108
   },
   {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 88
+   "profiles": 92
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 78
+   "profiles": 84
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 50
+   "profiles": 53
   },
   {
    "key": "status",
@@ -522,6 +522,16 @@
   {
    "slug": "choobazi",
    "name": "Choobazi",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
+   "slug": "chunaengjeon",
+   "name": "Chunaengjeon",
    "needs": [
     "the steps with their counts"
    ],
@@ -660,16 +670,6 @@
    ]
   },
   {
-   "slug": "gay-gordons",
-   "name": "Gay Gordons",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
    "slug": "geommu",
    "name": "Geommu",
    "needs": [
@@ -720,8 +720,8 @@
    ]
   },
   {
-   "slug": "huaylarsh",
-   "name": "Huaylarsh",
+   "slug": "huaylas",
+   "name": "Huaylas (Huaylarsh)",
    "needs": [
     "a licensed picture or licensed footage"
    ],
@@ -730,13 +730,13 @@
    ]
   },
   {
-   "slug": "huaylas",
-   "name": "Huaylas (Huaylarsh)",
+   "slug": "improv-tribal-style-belly-dance",
+   "name": "Improv Tribal Style Belly Dance",
    "needs": [
-    "a licensed picture or licensed footage"
+    "the steps with their counts"
    ],
    "need_keys": [
-    "picture"
+    "footwork_counts"
    ]
   },
   {
@@ -760,6 +760,16 @@
    ]
   },
   {
+   "slug": "jota-aragonesa",
+   "name": "Jota Aragonesa",
+   "needs": [
+    "known to be living, revived or historical"
+   ],
+   "need_keys": [
+    "status"
+   ]
+  },
+  {
    "slug": "kebyar-duduk",
    "name": "Kebyar duduk",
    "needs": [
@@ -767,6 +777,16 @@
    ],
    "need_keys": [
     "footwork_counts"
+   ]
+  },
+  {
+   "slug": "loure",
+   "name": "loure",
+   "needs": [
+    "a licensed picture or licensed footage"
+   ],
+   "need_keys": [
+    "picture"
    ]
   },
   {
@@ -788,26 +808,6 @@
    "need_keys": [
     "mistakes"
    ]
-  },
-  {
-   "slug": "melbourne-shuffle",
-   "name": "Melbourne shuffle",
-   "needs": [
-    "a licensed picture or licensed footage"
-   ],
-   "need_keys": [
-    "picture"
-   ]
-  },
-  {
-   "slug": "pachanga",
-   "name": "pachanga",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
   }
  ],
  "owner": {
@@ -817,37 +817,37 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 51,
+  "topics_read": 57,
   "first": {
    "topics": 14,
    "read": 12
   },
   "next": [
-   "moving_together",
-   "older_learners",
-   "children",
-   "dance_across_life",
-   "embodied_cognition",
-   "gamification"
+   "coach_and_learner_relationship",
+   "working_alliance",
+   "teacher_enthusiasm",
+   "need_supportive_teaching",
+   "teacher_expectations",
+   "self_compassion"
   ],
-  "papers_read": 23,
-  "lessons_studied": 107,
-  "teachers_studied": 95,
-  "findings_checked": 225,
+  "papers_read": 24,
+  "lessons_studied": 117,
+  "teachers_studied": 104,
+  "findings_checked": 249,
   "practices": 37,
   "practices_in_dna": 29
  },
  "last_crawl": {
-  "at": "2026-11-25T04:32:00Z",
+  "at": "2026-11-25T18:46:16Z",
   "hero": {
    "to_try": 0,
    "tried": 0,
    "found": 0
   },
   "lessons": {
-   "due": 319,
+   "due": 219,
    "looked_at": 100,
-   "found": 12,
+   "found": 34,
    "second_looks": 100
   },
   "viral": {

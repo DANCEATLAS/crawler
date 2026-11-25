@@ -1,0 +1,131 @@
+{
+ "youtube_id": "jDPvnAStdQA",
+ "slug": "turfing",
+ "dance": "Turfing",
+ "title": "How to Do Turfing Miming | Street Dance",
+ "channel": "Howcast",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-25T21:17:09Z",
+ "url": "https://www.youtube.com/watch?v=jDPvnAStdQA",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher provides clear, step-by-step instructions for specific dance moves. He emphasizes the importance of practice to improve technique and body control.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:05",
+    "segment": "intro",
+    "note": "Teacher introduces himself and the concept of miming."
+   },
+   {
+    "t": "0:45",
+    "segment": "breakdown",
+    "note": "Teacher breaks down a short routine using hands and head."
+   },
+   {
+    "t": "1:45",
+    "segment": "music_practice",
+    "note": "Teacher performs the routine with music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "keep everything still",
+   "keep your left leg still",
+   "right knee out"
+  ],
+  "metaphors": [
+   "holding on a wall",
+   "grabbing a pole or stick",
+   "invisible object"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [
+   "keep your left leg still and your right knee out"
+  ],
+  "steps_taught": [
+   {
+    "name": "Miming routine",
+    "counts": "1-8",
+    "description": "A sequence involving hand movements and head isolations while keeping the body still."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "clear verbal counting",
+    "slow demonstration of the steps"
+   ],
+   "what_hinders": [
+    "lack of close-up shots for hand details"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:08",
+    "text": "Miming is basically looking like you're holding on a wall"
+   },
+   {
+    "t": "0:15",
+    "text": "It's basically it looks like an invisible object that you're using"
+   },
+   {
+    "t": "0:42",
+    "text": "to get the technique it does take some time"
+   },
+   {
+    "t": "1:32",
+    "text": "keep everything still while you do it"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Teacher explains the concept of miming using hand gestures.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 45,
+    "end_s": 60,
+    "topic": "movement",
+    "observation": "Teacher demonstrates the routine slowly, counting aloud.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 146,
+    "end_s": 155,
+    "topic": "movement",
+    "observation": "Teacher performs the routine with music.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher focuses on the concept of interacting with 'invisible objects' to define the dance style."
+ },
+ "attempts": 1
+}

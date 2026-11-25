@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 312 tutorials across the atlas studied · videos studied: 312
+Source: 341 tutorials across the atlas studied · videos studied: 341
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; right left right; step touch; shift your weight; one two three four; cross; 1-2-3-4-5-6-7-8; 1-2-3
+Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; right left right; step touch; shift your weight; let's go; quick quick slow; one two three four; cross
 
 Sources (2): https://en.wikipedia.org/wiki/Rejang_dance; https://www.wikidata.org/wiki/Q12519987

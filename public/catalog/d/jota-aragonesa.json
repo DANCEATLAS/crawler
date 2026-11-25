@@ -314,26 +314,178 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "status",
     "label": "known to be living, revived or historical"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
    }
   ],
   "via": {
-   "study_video": "performance"
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "5sVyvKVZ1ZA",
+   "url": "https://www.youtube.com/watch?v=5sVyvKVZ1ZA",
+   "title": "Cómo bailar la Jota - Tutorial escolar ADMURM",
+   "channel": "Folklore y Escuela",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Spanish",
+   "counting_scheme": "1-2-3",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the purpose of the video."
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "segment": "breakdown",
+     "note": "Teacher explains and demonstrates the basic step of the Jota."
+    },
+    {
+     "t": "1:27",
+     "seconds": 87,
+     "segment": "breakdown",
+     "note": "Teacher introduces the 'apoyo' step."
+    },
+    {
+     "t": "2:06",
+     "seconds": 126,
+     "segment": "layering",
+     "note": "Teacher adds arm movements to the steps."
+    },
+    {
+     "t": "3:00",
+     "seconds": 180,
+     "segment": "context",
+     "note": "Teacher explains the structure of the Jota, including 'estribillos' and 'mudanzas'."
+    },
+    {
+     "t": "4:28",
+     "seconds": 268,
+     "segment": "breakdown",
+     "note": "Teacher breaks down a specific sequence of steps."
+    },
+    {
+     "t": "6:09",
+     "seconds": 369,
+     "segment": "recap",
+     "note": "Teacher reviews the basic sequence."
+    },
+    {
+     "t": "6:45",
+     "seconds": 405,
+     "segment": "breakdown",
+     "note": "Teacher introduces a second 'mudanza' sequence."
+    }
+   ],
+   "steps": [
+    {
+     "name": "paso típico de jota",
+     "counts": "1-2",
+     "description": "a basic stepping movement"
+    },
+    {
+     "name": "apoyo",
+     "counts": "1-2",
+     "description": "a step followed by placing the toe of the other foot in front"
+    },
+    {
+     "name": "mudanza",
+     "counts": "1-2-3",
+     "description": "a sequence of steps used in the dance"
+    }
+   ],
+   "cues": [
+    "piso y piso",
+    "piso apoyo",
+    "derecha",
+    "izquierda"
+   ],
+   "images": [
+    "piso al pollo",
+    "el del burro"
+   ],
+   "common_mistakes": [
+    "jumping too high instead of staying in place"
+   ],
+   "safety": [
+    "ensure you have enough space to move"
+   ],
+   "teacher_style": "The teacher uses a friendly, encouraging tone, often addressing his students directly. He breaks down complex movements into simple, manageable parts, using clear verbal cues and physical demonstrations.",
+   "distinctive_method": "The teacher uses colored lines on the floor to help students visualize their positioning.",
+   "what_works": [
+    "clear, repetitive demonstrations",
+    "breaking down complex steps into smaller parts",
+    "using simple, relatable metaphors"
+   ],
+   "what_hinders": [
+    "lack of music to practice with",
+    "the teacher's explanations can be a bit repetitive"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher introduces himself and the context of the lesson.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the basic step of the Jota.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 135,
+     "end_s": 145,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the 'apoyo' step.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 215,
+     "end_s": 225,
+     "topic": "movement",
+     "observation": "The teacher adds arm movements to the steps.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 430,
+     "end_s": 440,
+     "topic": "movement",
+     "observation": "The teacher demonstrates a sequence of steps from the back.",
+     "viewpoint": "back",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "xfDMK5Ibs_s",
@@ -377,6 +529,6 @@
   "polished": false,
   "file": "episodes/jota-aragonesa.json"
  },
- "fingerprint": "d184a3c6df0fe865",
- "updated": "2026-11-21"
+ "fingerprint": "90cf446e95e44eb2",
+ "updated": "2026-11-25"
 }

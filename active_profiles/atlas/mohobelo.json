@@ -1,13 +1,70 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "concertina",
+        "accordion",
+        "electric backing band"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Vocal and concertina records in a call-and-response style, with the concertina used as a counterpoint to the lead vocal, later featuring an accordion and electric backing band.",
+      "tempo_bpm": "",
+      "vocal_style": "call-and-response style"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "eff89b5dcc80283aa6390b67fb6379770ba270db16be06c997409918e6fbbf07",
+  "fingerprint": "a6c9642a79e34ed09571b2f04313683c08da5f0a6f423af269cd639a63849217",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +72,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific movement mechanics and footwork patterns of Mohobelo beyond its classification as a Sotho neo-traditional genre? Evidence needed: Ethnographic field recordings and Sotho dance monographs."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +102,18 @@
   ],
   "music_options": [],
   "name": "Mohobelo",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "95c9d03a6f7a0f86",
+      "next_evidence": "Ethnographic field recordings and Sotho dance monographs.",
+      "question": "What are the specific movement mechanics and footwork patterns of Mohobelo beyond its classification as a Sotho neo-traditional genre?",
+      "source": "https://en.wikipedia.org/wiki/Music_of_South_Africa",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources lack movement descriptions, preventing precise teaching design."
+    }
+  ],
+  "research_file": "research_results/mohobelo.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +124,10 @@
   },
   "slug": "mohobelo",
   "sources": [
-    "https://www.musicinafrica.net/magazine/mohobelo-music-lesotho",
-    "https://southafrica.co.za/cultural-practices-of-the-basotho.html"
+    "https://en.wikipedia.org/wiki/Music_of_South_Africa",
+    "https://www.wikidata.org/wiki/Q4794612",
+    "https://fr.wikipedia.org/wiki/Musique_sud-africaine",
+    "https://pt.wikipedia.org/wiki/Música_da_África_do_Sul"
   ],
   "state": "researching",
   "video_evidence": []

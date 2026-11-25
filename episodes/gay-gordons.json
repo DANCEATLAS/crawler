@@ -2,7 +2,7 @@
  "slug": "gay-gordons",
  "name": "Gay Gordons",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:55Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-20T17:59:19Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -315,7 +315,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way"
+      "Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way",
+      "Teachers of this dance warn against: starting on the wrong foot"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -464,7 +465,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way"
+      "Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way",
+      "Teachers of this dance warn against: starting on the wrong foot"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -611,7 +613,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way"
+      "Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way",
+      "Teachers of this dance warn against: starting on the wrong foot"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -803,8 +806,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -813,21 +816,41 @@
   ],
   "cues": [
    "forwards 2 3 turn around",
-   "backwards 2 3 stop"
+   "backwards 2 3 stop",
+   "left right left right",
+   "tap",
+   "step turn"
   ],
   "common_mistakes": [
-   "getting mixed up with hands and twisted round in the wrong way"
+   "getting mixed up with hands and twisted round in the wrong way",
+   "starting on the wrong foot"
   ],
   "segment_order": [
    "intro",
    "breakdown",
-   "full_demo"
+   "full_demo",
+   "music_practice"
   ],
   "steps_as_taught": [
    {
     "name": "Forward and backward steps",
     "counts": "1-2-3-4",
     "description": "Three steps forward and turn around, then three steps backward and stop"
+   },
+   {
+    "name": "Walking steps",
+    "counts": "1-2-3-4",
+    "description": "Walking forward and backward starting on the left foot"
+   },
+   {
+    "name": "Step turn",
+    "counts": "1-2",
+    "description": "Turning in place with step turns"
+   },
+   {
+    "name": "Waltz",
+    "counts": "1-2-3",
+    "description": "Waltz steps in ballroom hold"
    }
   ]
  },
@@ -843,6 +866,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "1ca92ce0264e5b8e872023578d896d8068850f10aefdbbbc3c6bc1ea257d6d0b",
+ "input_fingerprint": "d742704d8d90a56c9d049c9ae631b5f5e96ccf6ac235cacdbe5ded256c80e8f1",
  "hero_checked": "pass"
 }

@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Respectful cultural guide highlighting community heritage
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Sticks of Defense: The Tharu Laathi Nach
 NARRATION: This is Laathi nach. Traditional / contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (enqWkVgK0Co)
 ON SCREEN: Title card: Laathi nach · Nepal · Traditional / contemporary
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is performed by participants striking sticks together in co
 NARRATION: The main physical movement centers on stick-on-stick striking.
 NARRATION: While it bears structural similarities to Dandiya Raas from Gujarat, India, it differs in its precise movement patterns and overall style.
 NARRATION: Watch for Stick strike.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (enqWkVgK0Co)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group performance space, indoor or outdoor
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -114,7 +114,7 @@ NARRATION: Step 1: Hold stick firmly in one or both hands
 NARRATION: Step 2: Step in rhythm towards a partner or neighboring dancer
 NARRATION: Footwork from the sources: Rhythmic stepping coordinated with stick strikes
 NARRATION: Drill: Single-hand forward strike practice with partner
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -180,7 +180,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hold stick firmly in one or both hands
 NARRATION: Step 2: Step in rhythm towards a partner or neighboring dancer
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -247,7 +247,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step in rhythm towards a partner or neighboring dancer
 NARRATION: Step 2: Strike stick against partner's stick to mark the primary beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -300,7 +300,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is performed both outdoors in daytime or at night, as well as indoors during organized community events. Performance settings documented include villages in Chitwan and Gochhada in Nawalparasi district.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'enqWkVgK0Co', 'checked_by_vision_model': False, 'title': 'Lathi Nach |  Tharu stick Dance | Typical Nepali Dance | लोक मन्च २०७३'}
 Images: 2 licensed — Less than 3 / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Pratap Baniya / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Polished wooden sticks, Open outdoor village grounds
@@ -310,9 +310,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Lathi_Nach; https://www.wikidata.org/wiki/Q28184013

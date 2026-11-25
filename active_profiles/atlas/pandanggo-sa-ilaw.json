@@ -1,13 +1,55 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Castanets"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "jovial",
+        "lively"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by castanets and clapping, with a tempo that increases with each repetition.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ae664fe882eef24de713c67b4c8f5231c1cb2be3fc9219e50dbd0669a0370ca1",
+  "fingerprint": "fb8c3c0848232308edcfe0e2cca1b2de860533f3307ef5b9ca2cc532e245c4de",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +57,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns and counts used in the Pandanggo sa Ilaw? Evidence needed: Instructional manuals or dance notation from the Cultural Center of the Philippines."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +87,18 @@
   ],
   "music_options": [],
   "name": "Pandanggo sa Ilaw",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5d7315a911cdeb0e",
+      "next_evidence": "Instructional manuals or dance notation from the Cultural Center of the Philippines.",
+      "question": "What are the specific footwork patterns and counts used in the Pandanggo sa Ilaw?",
+      "source": "https://en.wikipedia.org/wiki/Pandanggo",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only mention the balancing of lights, not the actual dance steps."
+    }
+  ],
+  "research_file": "research_results/pandanggo-sa-ilaw.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +109,9 @@
   },
   "slug": "pandanggo-sa-ilaw",
   "sources": [
-    "https://en.wikipedia.org/wiki/Pandanggo_sa_Ilaw"
+    "https://en.wikipedia.org/wiki/Pandanggo",
+    "https://www.wikidata.org/wiki/Q7130492"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

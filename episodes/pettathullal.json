@@ -2,7 +2,7 @@
  "slug": "pettathullal",
  "name": "Pettathullal",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:36:56Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-24T20:40:12Z",
  "qc_score": 9.7,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Pettathullal. Ancient / Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (cWOzRRFlucA)",
      "Title card: Pettathullal · India · Ancient / Traditional"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Petta Thullal Step."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (cWOzRRFlucA)",
      "Captions name each signature move as it appears",
      "Formation: Mass group procession starting at Kochambalam temple, circumambulating the Vavar mosque, and moving 0.5 km to Valiyambalam Sastha temple"
     ],
@@ -269,7 +269,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "cWOzRRFlucA",
+   "checked_by_vision_model": false,
+   "title": "Erumeli Petta Thullal"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -316,8 +320,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 16,
+  "source": "18 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 18,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -342,8 +346,8 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "follow_along",
    "context",
+   "follow_along",
    "breakdown",
    "full_demo",
    "slow_practice",
@@ -355,7 +359,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections"
@@ -367,6 +371,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "7fc59f42ab2d637d39d2cf73a35eb77719eaa9e171401a13e31dbfd24d71feda",
- "hero_checked": null
+ "input_fingerprint": "c5224b14ec54de080c867e03d2325a5e8a3671633bdee48ce8c4af2d6eeef432",
+ "hero_checked": "fail"
 }

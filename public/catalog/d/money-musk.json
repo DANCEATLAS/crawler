@@ -299,16 +299,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 10,
   "of": 15,
   "missing": [
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    },
    {
     "key": "posture",
@@ -325,13 +321,106 @@
    {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "u9YTNVnVls4",
+   "url": "https://www.youtube.com/watch?v=u9YTNVnVls4",
+   "title": "Money Musk-other dancers-Beginners Scottish Country Dance 2014",
+   "channel": "Jessie D. Chan",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "The group performs the dance together."
+    },
+    {
+     "t": "0:15",
+     "seconds": 15,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the steps for the participants."
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "music_practice",
+     "note": "The group practices the steps with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Setting",
+     "counts": "1-2-3-4",
+     "description": "A step-hop movement performed while facing the partner."
+    },
+    {
+     "name": "Turning",
+     "counts": "1-2-3-4",
+     "description": "A rotation performed with the partner using hands."
+    }
+   ],
+   "cues": [
+    "Right hand to your partner",
+    "Left hand to your partner",
+    "Set to your partner",
+    "Turn your partner"
+   ],
+   "teacher_style": "The teacher provides clear, rhythmic instructions while demonstrating the steps alongside the students. She maintains a steady pace, ensuring that all participants can follow the sequence of the dance.",
+   "distinctive_method": "The teacher uses a group-based approach, where everyone learns and practices the dance together in a large, open space.",
+   "what_works": [
+    "The teacher's clear, rhythmic counting helps students keep time.",
+    "The repetitive nature of the steps makes them easier to learn."
+   ],
+   "what_hinders": [
+    "The video's wide angle makes it difficult to see the footwork clearly."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "A group of people in a large hall are performing a Scottish country dance in a line formation.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 15,
+     "end_s": 25,
+     "topic": "teaching",
+     "observation": "The teacher is guiding the participants through the steps of the dance.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 30,
+     "end_s": 40,
+     "topic": "movement",
+     "observation": "The participants are performing the steps in time with the music.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -341,6 +430,6 @@
   "polished": false,
   "file": "episodes/money-musk.json"
  },
- "fingerprint": "669bbb3679e7d22d",
- "updated": "2026-11-24"
+ "fingerprint": "248edb0c2aacbeb7",
+ "updated": "2026-11-25"
 }

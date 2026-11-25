@@ -34,6 +34,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Xuc",
   "wikidata_qid": "Q6169362",
   "unesco": false,
+  "hero_video_youtube_id": "EUxFducYXyk",
+  "video_stack": [
+   {
+    "youtube_id": "EUxFducYXyk",
+    "role": "hero",
+    "title": "El Salvador Folk Dance  -   Salvadoran Xuc !!  South America Latino Festival ,Federation Square",
+    "channel": "MelbourneBusker PopSinger Frankie Lee ",
+    "hd": false
+   },
+   {
+    "youtube_id": "HhEdFpXnshk",
+    "role": "rendition",
+    "title": "Ballet Folklórico Nacional - El xuc de San Salvador",
+    "channel": "Ministerio de Cultura de El Salvador",
+    "hd": true
+   },
+   {
+    "youtube_id": "0clyggCcUrs",
+    "role": "rendition",
+    "title": "El Xuc",
+    "channel": "Xochitl Dance",
+    "hd": true
+   },
+   {
+    "youtube_id": "IS7_ALyfufA",
+    "role": "rendition",
+    "title": "Xuc de San Salvador",
+    "channel": "Liceo Salvadoreño",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -71,7 +102,15 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T21:00:44Z",
+   "soft_fail": [
+    "hd"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -301,32 +340,73 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "EUxFducYXyk",
+   "url": "https://www.youtube.com/watch?v=EUxFducYXyk",
+   "analysed_on": "2026-11-25",
+   "observation": {
+    "setting": "on an outdoor stage at night with stage lighting and a white backdrop",
+    "dancers": "six women, group",
+    "formation_and_space": "horizontal line moving across and around the stage, turning in place and in small groups",
+    "posture": "upright torso, relaxed knees, weight shifting across feet",
+    "footwork": "marching steps and side-to-side steps on the beat",
+    "arms_and_hands": "holding and waving wide skirt hems, occasionally placed on hips or raised overhead",
+    "hips_and_torso": "minimal torso movement, natural sway with steps",
+    "partnering": "none",
+    "levels_jumps_turns": "standing level, turning spins in place",
+    "costume_and_props": "matching long blue and white ruffled skirts, white blouses, hair decorated with pink flowers",
+    "cannot_infer": "exact footwork details under long skirts and foot-to-ground contact",
+    "music_heard": {
+     "instruments": [
+      "brass",
+      "percussion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 32,
+      "end_s": 45,
+      "what": "dancers spin in place while holding out and shaking the wide ruffles of their blue skirts"
+     },
+     {
+      "start_s": 150,
+      "end_s": 160,
+      "what": "solo dancer steps forward with hands on hips, then shakes skirt while turning"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/xuc.json"
  },
- "fingerprint": "066a74f06a16c27f",
- "updated": "2026-11-24"
+ "fingerprint": "c835df8686f96e5e",
+ "updated": "2026-11-25"
 }

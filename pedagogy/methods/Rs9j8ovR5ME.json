@@ -6,7 +6,7 @@
  "teacher": "Rianna Bartuli",
  "teacher_key": "rianna-bartuli",
  "teacher_score": 78.4,
- "analysed_at": "2026-11-17T06:27:12Z",
+ "analysed_at": "2026-11-25T21:09:16Z",
  "url": "https://www.youtube.com/watch?v=Rs9j8ovR5ME",
  "comments_read": 60,
  "schema": 3,
@@ -17,61 +17,81 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces basic party dance steps, breaks down footwork and arm positions sequentially, and then puts them together with music repetitions.",
-  "signature": "",
+  "teacher_system": "The teacher breaks down five basic dance moves into small, manageable chunks. He demonstrates each move clearly, then encourages the learner to practice it repeatedly, often with music, to build confidence and rhythm. He emphasizes keeping movements simple and relaxed to ensure the learner feels comfortable and successful.",
+  "signature": "The teacher explicitly advises against 'over-dancing' with the arms, framing it as a way to avoid looking 'dangerous' or 'dervish-like' to others on the dance floor.",
   "screen": {
    "views": [
     "front"
    ],
-   "on_screen": [],
+   "on_screen": [
+    "captions"
+   ],
    "editing": []
   },
   "practices": [
    {
-    "tag": "layering",
-    "t": "1:07",
-    "what": "The teacher explains arm movements separately before combining them with the steps."
+    "tag": "chunking",
+    "t": "0:45",
+    "what": "The teacher breaks down a basic step-and-touch move, demonstrating it slowly and then repeating it."
    },
    {
-    "tag": "music_early",
+    "tag": "layering",
+    "t": "1:12",
+    "what": "The teacher explains how to position the arms in a relaxed, 'volleyball' style, separate from the footwork."
+   },
+   {
+    "tag": "repetition",
     "t": "2:23",
-    "what": "The teacher demonstrates the first movement sequence to music."
+    "what": "The teacher leads a follow-along practice of the first move, repeating it multiple times to music."
    },
    {
     "tag": "chunking",
-    "t": "2:57",
-    "what": "The teacher introduces the second variation by adding a second step in one direction."
+    "t": "3:03",
+    "what": "The teacher introduces a variation: two steps in one direction, adding a second step to the basic move."
    },
    {
     "tag": "layering",
-    "t": "3:53",
-    "what": "The teacher adds complex arm positions to the second movement pattern."
-   },
-   {
-    "tag": "music_early",
-    "t": "5:05",
-    "what": "The teacher practices the second movement combination with music."
+    "t": "3:54",
+    "what": "The teacher adds arm styling to the existing footwork, showing how to alternate between wide and narrow positions."
    },
    {
     "tag": "chunking",
-    "t": "5:53",
-    "what": "The teacher introduces the third movement, a three-step turn."
+    "t": "5:54",
+    "what": "The teacher breaks down a three-step turn, demonstrating the footwork and the final clap."
    },
    {
-    "tag": "music_early",
-    "t": "9:26",
-    "what": "The teacher performs the third movement combination along with music."
+    "tag": "chunking",
+    "t": "8:00",
+    "what": "The teacher introduces a forward-and-back movement, focusing on the weight transfer and the 'point' of the foot."
    }
   ],
-  "adaptations": [],
+  "adaptations": [
+   {
+    "t": "3:33",
+    "difficulty": "The learner might feel overwhelmed by the arm movements.",
+    "adjustment": "The teacher suggests keeping the arms simple, at shoulder level, or even just clapping.",
+    "kind": "easier"
+   },
+   {
+    "t": "4:09",
+    "difficulty": "The learner might find it hard to coordinate complex arm movements.",
+    "adjustment": "The teacher suggests focusing on simple, contrasting movements like wide and narrow.",
+    "kind": "easier"
+   },
+   {
+    "t": "4:54",
+    "difficulty": "The learner might find the arm movements repetitive.",
+    "adjustment": "The teacher suggests moving the arms forward, backward, or in any direction that feels natural.",
+    "kind": "different_body"
+   }
+  ],
   "entry_points": [
-   "feet_first",
-   "rhythm_first"
+   "feet_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 11,
-   "pieces_taught": 3
+   "seconds_before_first_movement": 45,
+   "pieces_taught": 5
   },
   "mentor": {
    "voice": [
@@ -91,9 +111,20 @@
      "t": "3:47",
      "belief": "Dancing is personal expression, creativity, and following your inner feeling rather than strict rules.",
      "about": "what_dancing_is_for"
+    },
+    {
+     "t": "5:46",
+     "belief": "Consistent practice and patience are the keys to overcoming initial difficulties in learning to dance.",
+     "about": "how_people_learn"
     }
    ],
-   "feelings": [],
+   "feelings": [
+    {
+     "t": "5:46",
+     "feeling": "frustrated",
+     "response": "The teacher reassures the learner that it is normal for things not to work perfectly at first."
+    }
+   ],
    "moments": [
     {
      "t": "0:11",
@@ -125,38 +156,38 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Complex coordination and body control required for smooth movement",
+     "theme": "Difficulty in achieving natural, fluid movement",
      "tag": "other",
-     "count": 2
+     "count": 1
     }
    ],
    "clicked": [
     {
-     "theme": "Clear and simple step-by-step explanations",
+     "theme": "Clear, accessible, and encouraging teaching style",
      "tag": "other",
-     "count": 12
+     "count": 15
     }
    ],
    "requests": [
     {
-     "theme": "More dance tutorials and new routines",
+     "theme": "Requests for more dance tutorials",
      "tag": "other",
-     "count": 3
+     "count": 2
     }
    ],
    "meant": [
     {
-     "theme": "Brought joy, positive energy, and motivated older adults to dance",
+     "theme": "Feeling of joy, confidence, and connection to youth",
      "tag": "other",
-     "count": 25
+     "count": 10
     }
    ]
   },
-  "limits": "The video does not show back views or alternate camera angles."
+  "limits": "The video only shows the teacher's front view, which may make it harder for some learners to mirror the movements accurately."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1,
+ "attempts": 2,
  "mentor_look": {
   "at": "2026-11-17T06:44:59Z",
   "attempts": 1,

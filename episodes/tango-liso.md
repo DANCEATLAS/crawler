@@ -1,6 +1,6 @@
 # Tango Liso — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
 
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Caminada (walking steps forward)
 NARRATION: Ochos (figure-eight patterns)
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3 / 5-6-7-8 / quick-quick-slow.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -110,7 +110,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3 / 5-6-7-8 / quick-quick-slow. The meter is 4/4.
 NARRATION: Rhythm pattern: Simplified and less aggressive than earlier African-influenced tango rhythms..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,10 +123,10 @@ NARRATION: Step 1: Caminada (walking steps forward)
 NARRATION: Step 2: Ochos (figure-eight patterns)
 NARRATION: Footwork from the sources: Feet must remain flush to the ground; elimination of taconeo (heel-stamping).
 NARRATION: Drill: Walking in a straight line with feet flush to the floor.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 / 5-6-7-8 / quick-quick-slow · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Molinetes (grapevine-like circular steps)
@@ -134,7 +134,7 @@ NARRATION: Step 4: Rotary-type couple rotation in place
 NARRATION: Drill: Maintaining the offset-right position with a partner.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 / 5-6-7-8 / quick-quick-slow · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,13 +147,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid aggressive cuts (cortes), breaks (quebradas), hooks (ganchos), or any acrobatic moves like sentadas.
+NARRATION: Teachers of this dance warn against: the teacher mentions that the arms should be in a specific position
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor. · For children: A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor. · For children: A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3 / 5-6-7-8 / quick-quick-slow.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -184,7 +185,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3 / 5-6-7-8 / quick-quick-slow. The meter is 4/4.
 NARRATION: Rhythm pattern: Simplified and less aggressive than earlier African-influenced tango rhythms..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -196,10 +197,10 @@ NEEDS: tempo
 NARRATION: Step 1: Caminada (walking steps forward)
 NARRATION: Step 2: Ochos (figure-eight patterns)
 NARRATION: Drill: Executing small steps forward followed by a rotary turn.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 / 5-6-7-8 / quick-quick-slow · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Molinetes (grapevine-like circular steps)
@@ -210,7 +211,7 @@ NARRATION: Drill: Transitioning between close and open embrace.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 / 5-6-7-8 / quick-quick-slow · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -223,13 +224,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid aggressive cuts (cortes), breaks (quebradas), hooks (ganchos), or any acrobatic moves like sentadas.
+NARRATION: Teachers of this dance warn against: the teacher mentions that the arms should be in a specific position
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor. · For children: A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor. · For children: A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3 / 5-6-7-8 / quick-quick-slow.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples remain offset to their right; movement is often rotary to accommodate crowded dance floors.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -260,7 +262,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3 / 5-6-7-8 / quick-quick-slow. The meter is 4/4.
 NARRATION: Rhythm pattern: Simplified and less aggressive than earlier African-influenced tango rhythms..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -272,10 +274,10 @@ NEEDS: tempo
 NARRATION: Step 1: Molinetes (grapevine-like circular steps)
 NARRATION: Step 2: Rotary-type couple rotation in place
 NARRATION: Drill: Tracing figure-eights while keeping knees slightly softened.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 / 5-6-7-8 / quick-quick-slow · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Caminada: The fundamental walking step of the dance.
@@ -284,7 +286,7 @@ NARRATION: Drill: Coordinating Molinetes within the rotary flow.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3 / 5-6-7-8 / quick-quick-slow · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -297,13 +299,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid aggressive cuts (cortes), breaks (quebradas), hooks (ganchos), or any acrobatic moves like sentadas.
+NARRATION: Teachers of this dance warn against: the teacher mentions that the arms should be in a specific position
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor. · For children: A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Focus on the upper body verticality and arm frame while performing rhythmic foot taps flush to the floor. · For children: A 'traffic jam' game where children must navigate a crowded room using only smooth walks and small turns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3 / 5-6-7-8 / quick-quick-slow.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples remain offset to their right; movement is often rotary to accommodate crowded dance floors.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -340,9 +343,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the ballroom-partner family studied · videos studied: 13
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; side with the left; bring it in; switch weight; change weight onto the left; side close side; step and point; turn turn turn; replace; side replace close
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3 / 5-6-7-8 / quick-quick-slow
+Demonstration: views used by most teachers: front, mirror; tempo progression: slow; repetitions per step: about 2
+Cues: walk walk; step point; side by side; quick quick slow
+Common mistakes the studied teachers name: the teacher mentions that the arms should be in a specific position
 
 Sources (2): https://en.wikipedia.org/wiki/Tango_Liso; https://www.wikidata.org/wiki/Q131378736

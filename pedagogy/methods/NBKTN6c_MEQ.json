@@ -73,10 +73,32 @@
   "mentor": {
    "voice": [
     "precise",
-    "patient"
+    "patient",
+    "warm",
+    "direct"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:08",
+     "moment": "opening",
+     "says": "The teacher greets the viewers and introduces himself and his partner, stating they will teach how to waltz.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:43",
+     "moment": "before_hard_part",
+     "says": "The teacher explains they will turn around so learners can follow along more easily from behind.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:05",
+     "moment": "closing",
+     "says": "The teacher invites the viewer to like, share, and get the full course on the website.",
+     "tag": "reason_to_return"
+    }
+   ]
   },
   "learner_voice": {
    "struggles": [
@@ -117,5 +139,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-25T21:14:04Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

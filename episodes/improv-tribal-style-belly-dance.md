@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A focused, rhythmic leader who emphasizes sharp execution and group awareness.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Secret Language of the Tribe
 NARRATION: This is Improv Tribal Style Belly Dance. 21st century (2006).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (LBaFK3ithUw)
 ON SCREEN: Title card: Improv Tribal Style Belly Dance · United States · 21st century (2006)
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: ITS is performed by a group consisting of one or more leaders and fol
 NARRATION: The dance is structured around 'stall movements' which have no cue and can be repeated indefinitely from a 'ground zero' position.
 NARRATION: To transition into more complex sequences, the leader performs a 'cue'—a distinct movement that signals a specific 'combo' (a short choreographed sequence).
 NARRATION: Watch for Stall Movement, Cue, Combination.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (LBaFK3ithUw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group formations including 'V' shapes and staggered lines; uses 'concepts' for directional turns and fadebacks.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Establish 'Ground Zero' starting position
 NARRATION: Execute a Stall Movement (repetitive movement with minimum counts)
-NARRATION: Count it: .
+NARRATION: Count it: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -117,9 +117,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Establish 'Ground Zero' starting position
 NARRATION: Step 2: Execute a Stall Movement (repetitive movement with minimum counts)
 NARRATION: Drill: Maintain a 4-count hip sway in 'ground zero'
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: the teacher does not use a formal counting scheme, instead u · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Observe the Leader for a Cue (distinct signal movement)
@@ -127,6 +128,7 @@ NARRATION: Step 4: Perform the corresponding Combination (choreographed sequence
 NARRATION: Drill: Practice traveling forward while maintaining the sway
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: the teacher does not use a formal counting scheme, instead u · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -139,13 +141,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid performing combinations without a leader's cue; avoid breaking the 'ground zero' position during stalls.
+NARRATION: Teachers of this dance warn against: having the elbow pointing down and having sloppy arms
+NARRATION: Teachers of this dance warn against: having the arm too low down
+NARRATION: Teachers of this dance warn against: body wave stops and stalls out
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform stall movements and arm-based cues while seated, focusing on torso isolations. · For children: A 'Follow the Leader' game where children take turns being the one to give the 'cue'.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform stall movements and arm-based cues while seated, focusing on torso isolations. · For children: A 'Follow the Leader' game where children take turns being the one to give the 'cue'. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,7 +179,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -184,9 +189,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Return to a Stall Movement or transition via a Concept (formation change)
 NARRATION: Drill: Identify three distinct arm cues
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: the teacher does not use a formal counting scheme, instead u · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Stall Movement: A repetitive movement with a minimum number of counts that can be sustained indefinitely without a cue.
@@ -195,6 +201,7 @@ NARRATION: Drill: Snap into a 4-count combo immediately following a cue
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: the teacher does not use a formal counting scheme, instead u · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,13 +214,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid performing combinations without a leader's cue; avoid breaking the 'ground zero' position during stalls.
+NARRATION: Teachers of this dance warn against: having the elbow pointing down and having sloppy arms
+NARRATION: Teachers of this dance warn against: having the arm too low down
+NARRATION: Teachers of this dance warn against: body wave stops and stalls out
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform stall movements and arm-based cues while seated, focusing on torso isolations. · For children: A 'Follow the Leader' game where children take turns being the one to give the 'cue'.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform stall movements and arm-based cues while seated, focusing on torso isolations. · For children: A 'Follow the Leader' game where children take turns being the one to give the 'cue'. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Group formations including 'V' shapes and staggered lines; uses 'concepts' for directional turns and fadebacks.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -242,7 +252,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -253,9 +263,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Perform the corresponding Combination (choreographed sequence)
 NARRATION: Step 2: Return to a Stall Movement or transition via a Concept (formation change)
 NARRATION: Drill: Leader practices selecting combos based on drum accents
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: the teacher does not use a formal counting scheme, instead u · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Combination: A short choreographed sequence of movements with a defined beginning and end.
@@ -263,6 +274,7 @@ NARRATION: Drill: Followers practice 'fadebacks' to change positions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: the teacher does not use a formal counting scheme, instead u · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -275,13 +287,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid performing combinations without a leader's cue; avoid breaking the 'ground zero' position during stalls.
+NARRATION: Teachers of this dance warn against: having the elbow pointing down and having sloppy arms
+NARRATION: Teachers of this dance warn against: having the arm too low down
+NARRATION: Teachers of this dance warn against: body wave stops and stalls out
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform stall movements and arm-based cues while seated, focusing on torso isolations. · For children: A 'Follow the Leader' game where children take turns being the one to give the 'cue'.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform stall movements and arm-based cues while seated, focusing on torso isolations. · For children: A 'Follow the Leader' game where children take turns being the one to give the 'cue'. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead u.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Group formations including 'V' shapes and staggered lines; uses 'concepts' for directional turns and fadebacks.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -308,7 +323,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The costuming for ITS is generally simpler than the elaborate multi-cultural attire of American Tribal Style. It frequently consists of black pants, a tank top, and a metal belt. Dancers often incorporate elements of Tribal Fusion, such as antique jewelry, tattoos, and piercings. The setting is typically a stage or performance space that allows for group formations and movement.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'LBaFK3ithUw', 'checked_by_vision_model': True, 'title': 'Tribal Fest 13 - WildCard BellyDance Improv Tribal Style'}
 Images: 1 licensed — WeeRedLass / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Heavy metal belts clashing against black fabric, Tattooed arms moving in perfect unison, The intense eye contact between leader and followers, Industrial urban backdrops
@@ -318,9 +333,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: the teacher does not use a formal counting scheme, instead u
+Demonstration: views used by most teachers: front, side; tempo progression: slow
+Cues: slide the ribcage forward; lift it up; engage all the core muscles; pelvis goes back to neutral; wrists are on the outside wall; bring them to the inside wall
+Common mistakes the studied teachers name: having the elbow pointing down and having sloppy arms; having the arm too low down; body wave stops and stalls out
 
 Sources (2): https://en.wikipedia.org/wiki/Improvisational_Team_Synchronization; https://www.wikidata.org/wiki/Q6007801

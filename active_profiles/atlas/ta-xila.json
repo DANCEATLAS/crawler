@@ -1,0 +1,139 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex partner coordination"
+        ],
+        "counts": "1, 2, 3, 4",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' game in groups of four to mimic the dance formation."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "Unsupported weight shifts"
+        ],
+        "counts": "1, 2, 3, 4",
+        "seated_version": "Perform the 4-beat rhythm using hand taps on knees while seated.",
+        "standing_version": "Gentle weight shifts from side to side following the 4/4 meter with support.",
+        "tempo_and_range": "Reduced tempo; focus on upper body sway."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed as a couple dance or in groups of four.",
+          "source": "https://en.wikipedia.org/wiki/Ta_Xila"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Syrto style (dragging/leading steps)",
+      "formation_and_space": "Couple or groups of four",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Active partner dance",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Steady four-beat pulse",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Santouri (cimbalom)"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "celebratory",
+        "rhythmic",
+        "traditional"
+      ],
+      "musical_form": "Based on a Turkish patinada",
+      "reference_recordings": [],
+      "rhythm_pattern": "Four-beat instrumental",
+      "sound_description": "The sound is dominated by the percussive and melodic resonance of the santouri, playing a steady four-beat rhythm derived from a Turkish patinada.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Instrumental"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Couple or groups of four",
+      "level_notes": "The dance is performed in social settings like weddings, suggesting it is accessible to community members.",
+      "rhythm": "4/4"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a0594e7fcf8d4c2f36b38b486556afc0829a7af8b49fea7e202de0fcc57d7a27",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns and hand-hold positions used by couples in Lesvos for Ta Xila? Evidence needed: https://en.wikipedia.org/wiki/Ta_Xila"
+    ]
+  },
+  "id": "atlas:ta-xila",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Ta Xila",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "339a077447170d2c",
+      "next_evidence": "https://en.wikipedia.org/wiki/Ta_Xila",
+      "question": "What are the specific footwork patterns and hand-hold positions used by couples in Lesvos for Ta Xila?",
+      "source": "https://en.wikipedia.org/wiki/Ta_Xila",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only identify it as a 'syrto', which is a broad category; specific regional mechanics are needed for teaching."
+    }
+  ],
+  "research_file": "research_results/ta-xila.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "ta-xila",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ta_Xila",
+    "https://www.wikidata.org/wiki/Q7672787"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

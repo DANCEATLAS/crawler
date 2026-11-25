@@ -1,0 +1,178 @@
+{
+ "youtube_id": "wYedFJzyGO8",
+ "slug": "hully-gully",
+ "dance": "Hully Gully",
+ "title": "Hully Gully Tutorial",
+ "channel": "seccubana",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-25T21:27:36Z",
+ "url": "https://www.youtube.com/watch?v=wYedFJzyGO8",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher is very enthusiastic and uses a friendly, encouraging tone. She breaks down the steps clearly and repeats them multiple times to ensure the student understands.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "The teacher introduces the Hully Gully dance."
+   },
+   {
+    "t": "0:22",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the steps for the Hully Gully."
+   },
+   {
+    "t": "0:43",
+    "segment": "slow_practice",
+    "note": "The teacher practices the steps slowly."
+   },
+   {
+    "t": "1:19",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the steps for the Hully Gully again."
+   },
+   {
+    "t": "1:41",
+    "segment": "slow_practice",
+    "note": "The teacher practices the steps slowly again."
+   },
+   {
+    "t": "2:30",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the steps for the Hully Gully again."
+   },
+   {
+    "t": "3:12",
+    "segment": "slow_practice",
+    "note": "The teacher practices the steps slowly again."
+   },
+   {
+    "t": "4:42",
+    "segment": "music_practice",
+    "note": "The teacher dances to the music."
+   }
+  ],
+  "counting_scheme": "7-8 / 1-2-3-4 / 5-6-7-8",
+  "cues": [
+   "apri sinistra",
+   "incrocio avanti destra",
+   "calchetto col piede destro",
+   "facendo snap"
+  ],
+  "metaphors": [
+   "il ballo che a loop a quadrato in tutte le direzioni"
+  ],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": 3
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Hully Gully",
+    "counts": "1-2-3-4",
+    "description": "A series of steps involving opening, crossing, and kicking."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The teacher breaks down the steps clearly and repeats them multiple times."
+   ],
+   "what_hinders": [
+    "The teacher only demonstrates from the back, which can make it difficult to see the steps clearly."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:22",
+    "text": "vi do le spalle per facilitare la comprensione dei passi"
+   },
+   {
+    "t": "1:19",
+    "text": "si fa una terza volta a sinistra la stessa cosa"
+   },
+   {
+    "t": "3:31",
+    "text": "questo è un ballo che a loop a quadrato in tutte le direzioni"
+   },
+   {
+    "t": "4:42",
+    "text": "la canzone procede così dall'inizio fino alla fine"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher introduces the dance and explains the purpose of the tutorial.",
+    "viewpoint": "front",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 22,
+    "end_s": 32,
+    "topic": "teaching",
+    "observation": "The teacher turns around to demonstrate the steps from the back.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 33,
+    "end_s": 42,
+    "topic": "movement",
+    "observation": "The teacher demonstrates the steps for the Hully Gully.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 43,
+    "end_s": 48,
+    "topic": "movement",
+    "observation": "The teacher practices the steps slowly.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 119,
+    "end_s": 125,
+    "topic": "teaching",
+    "observation": "The teacher breaks down the steps for the Hully Gully again.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 141,
+    "end_s": 148,
+    "topic": "movement",
+    "observation": "The teacher practices the steps slowly again.",
+    "viewpoint": "back",
+    "cannot_infer": "",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a loop-based approach, repeating the same steps in different directions."
+ },
+ "attempts": 1
+}

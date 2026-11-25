@@ -325,23 +325,125 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
    {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "ayKlFF9SOnE",
+   "url": "https://www.youtube.com/watch?v=ayKlFF9SOnE",
+   "title": "How to do the Chicken Dance in PE |Practicing Locomotor Movements|",
+   "channel": "The PE Specialist",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to the Chicken Dance and locomotor movements in PE class."
+    },
+    {
+     "t": "0:26",
+     "seconds": 26,
+     "segment": "breakdown",
+     "note": "Explaining the 4-count dance steps: beaks, wings, tail feathers, and claps."
+    },
+    {
+     "t": "1:13",
+     "seconds": 73,
+     "segment": "breakdown",
+     "note": "Explaining locomotor movements like skipping, sliding, and galloping."
+    },
+    {
+     "t": "2:42",
+     "seconds": 162,
+     "segment": "music_practice",
+     "note": "Practicing the routine with music alternating between dance and movement breaks."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Beaks",
+     "counts": "1-2-3-4",
+     "description": "Four counts of beak hand gestures."
+    },
+    {
+     "name": "Wings",
+     "counts": "1-2-3-4",
+     "description": "Four counts of wing hand gestures."
+    },
+    {
+     "name": "Tail Feathers",
+     "counts": "1-2-3-4",
+     "description": "Four counts of tail feather wiggle."
+    },
+    {
+     "name": "Claps",
+     "counts": "1-2-3-4",
+     "description": "Four claps."
+    },
+    {
+     "name": "Skip",
+     "counts": "4 counts",
+     "description": "Skipping locomotor movement in open space."
+    },
+    {
+     "name": "Slide",
+     "counts": "4 counts",
+     "description": "Sliding locomotor movement sideways."
+    },
+    {
+     "name": "Gallop",
+     "counts": "4 counts",
+     "description": "Galloping locomotor movement forward."
+    }
+   ],
+   "cues": [
+    "Beaks",
+    "Wings",
+    "Tail feathers",
+    "Claps",
+    "Skip",
+    "Slide",
+    "Gallop"
+   ],
+   "teacher_style": "The teacher uses an energetic and structured approach tailored for physical education classes. He combines upbeat music with verbal counting and intermittent locomotor movement breaks.",
+   "distinctive_method": "Integrating traditional folk dance moves with PE locomotor movement intervals like skipping, sliding, and galloping.",
+   "what_works": [
+    "Breaking down the dance into clear four-count sections",
+    "Alternating between stationary dance steps and locomotor movement breaks"
+   ],
+   "evidence": [
+    {
+     "start_s": 31,
+     "end_s": 45,
+     "topic": "movement",
+     "observation": "Teacher demonstrates hand gestures for beaks, wings, tail feathers, and claps facing forward.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "footwork and weight distribution details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -351,6 +453,6 @@
   "polished": false,
   "file": "episodes/the-chicken.json"
  },
- "fingerprint": "93ce21ae0265ed83",
- "updated": "2026-11-24"
+ "fingerprint": "d503ca27b3d4a580",
+ "updated": "2026-11-25"
 }

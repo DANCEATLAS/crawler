@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic Okinawan elder who emphasizes 'feeling the mix' over rigid technique.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: At the climax of Okinawan weddings or elections, the crowd erupts into kachāshī, a dance where men clench their fists and women flatten their palms to mimic the churning of a celebratory mixture.
 NARRATION: This is kachāshī. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (NbCWMBJ1Kk0)
 ON SCREEN: Title card: kachāshī · Japan · 19th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers raise their hands in the air and perform an elliptical up-and
 NARRATION: Men dance with fists or curled hands, while women use flat palms.
 NARRATION: The stance is slightly bow-legged, with the feet lifting and lowering rhythmically.
 NARRATION: Watch for The Stirring Motion.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (NbCWMBJ1Kk0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Spontaneous group 'mixing'; no fixed formation.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -120,7 +120,7 @@ NARRATION: Step 1: Assume a slight bow-legged stance with knees relaxed.
 NARRATION: Step 2: Raise both hands above head level.
 NARRATION: Footwork from the sources: Alternately lifting and lowering the feet to the rhythm; mostly improvised.
 NARRATION: Drill: Find the bow-legged stance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -191,7 +191,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step rhythmically by lifting and lowering feet in place to the sanshin beat.
 NARRATION: Drill: Practice the 'push-pull' motion with one hand
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -262,7 +262,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Move hands in an alternating elliptical motion, one pushing out and up, the other pulling in and down.
 NARRATION: Step 2: Step rhythmically by lifting and lowering feet in place to the sanshin beat.
 NARRATION: Drill: Combine footwork and hand motions at half speed
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -321,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Kachāshī is performed in various settings including weddings, festivals, and victory celebrations. While often danced in casual attire during spontaneous celebrations, traditional Okinawan dress is common at formal festivals. The dance typically occurs in open communal spaces where large groups can gather and 'mix.'
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'NbCWMBJ1Kk0', 'checked_by_vision_model': True, 'title': 'Kachashi Finale - Uchinanchu No Hi'}
 Images: 1 licensed — No machine-readable author provided. コロスケ＠1億円~commonswiki assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 2.5 (CC BY-SA 2.5)
 Footage: MISSING
 Motifs: Sanshin strings vibrating, Hands silhouetted against a festive sky, The 'stirring' motion of a large crowd, Sweat and smiles in a crowded banquet hall
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (3): https://en.wikipedia.org/wiki/Kach%C4%81sh%C4%AB; https://www.wikidata.org/wiki/Q6149547; https://pt.wikipedia.org/wiki/Kachāshī

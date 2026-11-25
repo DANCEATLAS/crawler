@@ -141,6 +141,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way
+NARRATION: Teachers of this dance warn against: starting on the wrong foot
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses.
 MUSIC: silence
@@ -213,6 +214,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way
+NARRATION: Teachers of this dance warn against: starting on the wrong foot
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses.
 MUSIC: silence
@@ -283,6 +285,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: getting mixed up with hands and twisted round in the wrong way
+NARRATION: Teachers of this dance warn against: starting on the wrong foot
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm positioning (allemande hold frame) and seated marching foot taps to the 2/4 meter. · For children: Create a musical statues variant where children march in couples and must switch partners when the music pauses.
 MUSIC: silence
@@ -328,10 +331,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full
-Cues: forwards 2 3 turn around; backwards 2 3 stop
-Common mistakes the studied teachers name: getting mixed up with hands and twisted round in the wrong way
+Cues: forwards 2 3 turn around; backwards 2 3 stop; left right left right; tap; step turn
+Common mistakes the studied teachers name: getting mixed up with hands and twisted round in the wrong way; starting on the wrong foot
 
 Sources (2): https://en.wikipedia.org/wiki/Gay_Gordons_(dance); https://www.wikidata.org/wiki/Q5528586

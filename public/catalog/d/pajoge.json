@@ -419,24 +419,135 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
    }
   ],
   "via": {
    "signature_moves": "performance",
-   "rhythm": "performance",
-   "study_video": "performance"
+   "rhythm": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "a0y4MMuhuWM",
+   "url": "https://www.youtube.com/watch?v=a0y4MMuhuWM",
+   "title": "BELAJAR TARI PAJOGE'",
+   "channel": "B-one Tv",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Indonesian",
+   "counting_scheme": "tum-ta-ta-tum-tum",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "context",
+     "note": "The teacher explains the importance of the eyes and body movement in the dance."
+    },
+    {
+     "t": "1:29",
+     "seconds": 89,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the entrance and the initial steps."
+    },
+    {
+     "t": "2:12",
+     "seconds": 132,
+     "segment": "mistakes",
+     "note": "The teacher corrects the students' hand positioning."
+    },
+    {
+     "t": "4:13",
+     "seconds": 253,
+     "segment": "count_in",
+     "note": "The teacher counts the steps while demonstrating."
+    },
+    {
+     "t": "5:57",
+     "seconds": 357,
+     "segment": "follow_along",
+     "note": "The students follow the teacher's movements."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Pajoge basic step",
+     "counts": "tum-ta-ta-tum-tum",
+     "description": "A rhythmic step involving specific hand and body movements."
+    }
+   ],
+   "cues": [
+    "tum-ta-ta-tum-tum",
+    "putar tangan kiri",
+    "putar tangan kanan"
+   ],
+   "images": [
+    "Pajoge is a form of entertainment"
+   ],
+   "common_mistakes": [
+    "incorrect hand positioning"
+   ],
+   "teacher_style": "The teacher is very hands-on, frequently demonstrating the steps himself while correcting his students' posture and hand movements. He uses a direct, instructional tone, emphasizing the importance of specific techniques to achieve the desired aesthetic.",
+   "distinctive_method": "The teacher emphasizes the emotional and performative aspect of the dance, specifically the need to entertain the audience.",
+   "what_works": [
+    "The teacher breaks down the steps into smaller, manageable parts.",
+    "The teacher demonstrates the steps from different angles."
+   ],
+   "what_hinders": [
+    "The teacher's explanations are sometimes repetitive."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher is sitting and explaining the importance of eye movement in the dance.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 129,
+     "end_s": 135,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the entrance and the initial steps.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 212,
+     "end_s": 218,
+     "topic": "teaching",
+     "observation": "The teacher corrects the students' hand positioning.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 413,
+     "end_s": 420,
+     "topic": "movement",
+     "observation": "The teacher counts the steps while demonstrating.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "7NqU6HQMWU0",
@@ -492,11 +603,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/pajoge.json"
  },
- "fingerprint": "8496fc9f2155f355",
- "updated": "2026-11-21"
+ "fingerprint": "6344fc12347023c9",
+ "updated": "2026-11-25"
 }

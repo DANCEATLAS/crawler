@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Contact with other children's sticks",
+          "High-speed spins"
+        ],
+        "counts": "Call-and-response patterns (e.g., 'I say 1, you say 2').",
+        "duration_minutes": "15",
+        "game_version": "A 'statue' game where children shuffle until the music changes, then strike a 'hero' pose with their stick."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Acrobatics",
+          "Jumps",
+          "Rapid torso twisting"
+        ],
+        "counts": "Simple 1-2-3-4 walking counts.",
+        "seated_version": "Perform the rhythmic stick tapping and call-and-response while seated, using the stick to tap patterns on the floor.",
+        "standing_version": "Focus on the 'elderly shuffle' and rhythmic walking without the acrobatic transitions.",
+        "tempo_and_range": "Maintain a slow, steady tempo; limit stick movements to waist height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "The hands grip a stick or cane, used both as a support and a weapon for striking and acrobatic leverage.",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performed within a circle of people gathering around the fighters.",
+      "hips_and_torso": "Engaged in energetic, capoeira-like acrobatic movements.",
+      "levels_and_jumps": "Includes acrobatic jumps and low-level maneuvers similar to capoeira.",
+      "partnering": "Competitive; dancers act as 'fighters' against one another or perform solo within the circle.",
+      "posture": "Transitions from a hunched, elderly shuffle to an upright, athletic, and acrobatic stance.",
+      "signature_moves": [
+        {
+          "description": "A sudden shift from shuffling like an elderly man to performing high-energy acrobatics.",
+          "name": "The Cane Transformation"
+        }
+      ],
+      "tempo_feel": "Sudden shifts from slow, deliberate movements to high-speed acrobatics.",
+      "what_to_avoid": "Avoid treating the stick as a mere prop; it must be handled with the tension of a weapon."
+    },
+    "music_profile": {
+      "instruments": [
+        "Banjo",
+        "Drum",
+        "Berimbau",
+        "Sticks"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "competitive",
+        "energetic",
+        "humorous",
+        "martial"
+      ],
+      "musical_form": "Cyclical rhythmic accompaniment",
+      "reference_recordings": [],
+      "rhythm_pattern": "Call-and-response with rhythmic clapping",
+      "sound_description": "The sound is dominated by the percussive strike of sticks and rhythmic hand clapping. A lead caller provides a vocal melody that the crowd answers, backed by the sharp, twanging strings of a banjo and steady drumming.",
+      "tempo_bpm": "",
+      "vocal_style": "Call-and-response led by a single caller"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Enter with a slow, shuffling gait using the stick as a walking cane",
+        "Establish a rhythmic pulse through call-and-response singing with the audience",
+        "Transition from the shuffle into a wide, athletic stance",
+        "Execute acrobatic maneuvers using the stick for balance or as a focal point",
+        "Perform competitive striking or defensive motions with the stick"
+      ],
+      "formation": "A circle of observers surrounding competitive individual dancers",
+      "level_notes": "Requires significant upper body strength and acrobatic agility for the minstrel-style transitions.",
+      "rhythm": "Call-and-response with syncopated clapping"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "d6eadce3c9e19a6f79c5e74b56d52ce1186f9b22f0a58704a4f7faf84af5588b",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What were the specific 'military drills' referenced in the plantation era? Evidence needed: https://en.wikipedia.org/wiki/Stick_dance_(African-American)"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there archival recordings of the minstrel-era 'transformation' stick dance? Evidence needed: https://en.wikipedia.org/wiki/Stick_dance_(African-American)"
+    ]
+  },
+  "id": "atlas:stick-dance-african-american",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "stick dance (African-American)",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "feb978866ba17167",
+      "next_evidence": "https://en.wikipedia.org/wiki/Stick_dance_(African-American)",
+      "question": "Are there archival recordings of the minstrel-era 'transformation' stick dance?",
+      "source": "https://en.wikipedia.org/wiki/Stick_dance_(African-American)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately model the transition from the shuffle to acrobatics for the movement profile."
+    },
+    {
+      "domain": "research",
+      "id": "0faa7f779defdd4f",
+      "next_evidence": "https://en.wikipedia.org/wiki/Stick_dance_(African-American)",
+      "question": "What were the specific 'military drills' referenced in the plantation era?",
+      "source": "https://en.wikipedia.org/wiki/Stick_dance_(African-American)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To distinguish between purely decorative movements and functional martial strikes in the teaching section."
+    }
+  ],
+  "research_file": "research_results/stick-dance-african-american.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "stick-dance-african-american",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Stick_dance_(African-American)",
+    "https://www.wikidata.org/wiki/Q7616234"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

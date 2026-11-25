@@ -22,7 +22,7 @@ NARRATION: The dance originated in the 16th century alongside the establishment 
 NARRATION: It was historically performed by 30 musicians drafted from small islands who practiced for several days before marching in procession from New Year's Eve until the 15th of January.
 NARRATION: In the early 20th century, the tradition was revitalized by groups such as Uiheunggye and Nansagye, with Jang jae-bong restoring the form at age 29.
 ON SCREEN: Map: South Korea · East Asia
-ON SCREEN: Image — MISSING
+ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
@@ -57,7 +57,7 @@ NEEDS: tempo, meter
 NARRATION: Performers wear specific masks representing the 'five clowns' and other characters like the leper, the monster Youngno, and the lion.
 NARRATION: The setting was traditionally the office districts and private houses of Tongyeong during the lunar New Year period.
 NARRATION: The lion mask is a unique feature of this specific regional tradition.
-ON SCREEN: Images — MISSING
+ON SCREEN: Image gallery: 2 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
@@ -104,7 +104,7 @@ Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric onl
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: MISSING
-Images: 0 licensed
+Images: 2 licensed — Grampus / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Grampus / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: The grotesque and expressive wooden masks, The coastal backdrop of Tongyeong, The vibrant lion costume, The contrast between the noblemen's fine clothes and the servant's mask
 Costume notes: Performers wear specific masks representing the 'five clowns' and other characters like the leper, the monster Youngno, and the lion. The setting was traditionally the office districts and private houses of Tongyeong during the lunar New Year period. The lion mask is a unique feature of this specific regional tradition.
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Tongyeong_ogwangdae; https://www.wikidata.org/wiki/Q7821215

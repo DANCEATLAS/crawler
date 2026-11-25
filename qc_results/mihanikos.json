@@ -1,0 +1,121 @@
+{
+ "slug": "mihanikos",
+ "qc_at": "2026-11-25T20:50:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Mihanikos"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "64"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "204"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Dancers simulate the 'bends' or decompression sickness, where a man with stiff, "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "524"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3077"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/2 rate=0.5"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "An excellent, culturally sensitive profile. It accurately captures the historical context of the Kalymnian sponge divers and treats the subject of disability with dignity. The teaching instructions are clear and emphasize the importance of avoiding mockery."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "insight_concrete",
+  "judge_score=9.5"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 1,
+  "rate": 0.5
+ },
+ "researched_at": "2026-11-25T20:00:43Z"
+}

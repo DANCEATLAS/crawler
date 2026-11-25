@@ -61,12 +61,14 @@
    "voice": [
     "warm",
     "patient",
-    "precise"
+    "precise",
+    "playful",
+    "passionate"
    ],
    "beliefs": [
     {
-     "t": "3:03",
-     "belief": "Listening to music is often more advanced than our actual ability to execute the movement physically.",
+     "t": "2:54",
+     "belief": "Listening to music and dancing to it are two different skills that need to be bridged.",
      "about": "how_people_learn"
     }
    ],
@@ -74,9 +76,54 @@
     {
      "t": "2:46",
      "feeling": "frustrated",
-     "response": "The teacher acknowledges struggling to match the music during his own dance practice and uses it to explain the core lesson."
+     "response": "The teacher validates the struggle by sharing their own experience of being unable to execute the music perfectly."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:00",
+     "moment": "opening",
+     "says": "The teacher introduces a simple exercise to help the learner improve their musicality.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "0:28",
+     "moment": "before_hard_part",
+     "says": "The teacher asks the learner if they can dance exactly the way they listen to the music.",
+     "tag": "self_check"
+    },
+    {
+     "t": "0:53",
+     "moment": "after_mistake",
+     "says": "The teacher shares a personal story about struggling to catch subtle beats in music while dancing.",
+     "tag": "own_story"
+    },
+    {
+     "t": "3:43",
+     "moment": "before_hard_part",
+     "says": "The teacher suggests practicing the musicality exercise with just the fingers first, without moving the whole body.",
+     "tag": "regression"
+    },
+    {
+     "t": "4:04",
+     "moment": "after_success",
+     "says": "The teacher encourages the learner to try the exercise, noting that even advanced dancers can benefit from it.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:16",
+     "moment": "check_in",
+     "says": "The teacher invites the learner to play with their fingers to check how they listen to the music.",
+     "tag": "checks_in"
+    },
+    {
+     "t": "7:20",
+     "moment": "before_hard_part",
+     "says": "The teacher explains how to transfer the finger-based musicality exercise into small body movements.",
+     "tag": "progression"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling that they can improve their musicality by starting small and practicing with patience."
   },
   "learner_voice": {
    "struggles": [
@@ -132,5 +179,13 @@
  },
  "kind": "teacher_talk",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-25T21:10:33Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 7,
+  "beliefs": 1,
+  "feelings": 1
+ }
 }

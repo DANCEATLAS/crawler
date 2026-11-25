@@ -1,0 +1,134 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Street parade or stationary",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Military-influenced upright posture",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Brass instruments",
+        "Large military drums",
+        "Percussion",
+        "Wooden wind instruments (in some Kenyan variants)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Competitive",
+        "Joyous",
+        "Celebratory"
+      ],
+      "musical_form": "Brass band music adapted to indigenous ngoma rhythms",
+      "reference_recordings": [],
+      "rhythm_pattern": "African cross-beats and polyrhythms",
+      "sound_description": "A fusion of Western brass band instrumentation with indigenous African polyrhythmic percussion, characterized by the subversion of military march time.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Swahili songs"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Military-style marching",
+        "Rhythmic steps adapted to cross-beats"
+      ],
+      "formation": "Street parade or stationary group formation",
+      "level_notes": "not described in sources",
+      "rhythm": "African cross-beats and polyrhythms replacing standard march time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "3a3e92a2cd2d4930641339cc1c9a679949b242819e5b209eab7b8bd376f5eafe",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns or 'military-drill' modifications used in modern Beni ngoma? Evidence needed: Ethnographic field notes or dance notation from Swahili coastal research."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:beni-ngoma-tanzania",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Beni ngoma",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "e92b15b97961d206",
+      "next_evidence": "Ethnographic field notes or dance notation from Swahili coastal research.",
+      "question": "What are the specific footwork patterns or 'military-drill' modifications used in modern Beni ngoma?",
+      "source": "https://en.wikipedia.org/wiki/Beni_(music)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources describe the genre as a military-drill adaptation but lack specific movement instructions for teaching."
+    }
+  ],
+  "research_file": "research_results/beni-ngoma-tanzania.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "beni-ngoma-tanzania",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Beni_(music)",
+    "https://www.wikidata.org/wiki/Q55605210"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

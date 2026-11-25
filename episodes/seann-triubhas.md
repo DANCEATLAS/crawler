@@ -117,7 +117,7 @@ NARRATION: Step 1: Brushing (first step)
 NARRATION: Step 2: Side travel
 NARRATION: Footwork from the sources: Brushing, shedding, highcuts, entrechats, and back-stepping.
 NARRATION: Drill: Slow weight transfers
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -184,7 +184,7 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Shedding with back-step
 NARRATION: Drill: Tempo acceleration practice
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -252,7 +252,7 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Backward travel
 NARRATION: Step 2: Shedding with back-step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -318,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (3): https://en.wikipedia.org/wiki/Seann_triubhas; https://www.wikidata.org/wiki/Q2262295; https://de.wikipedia.org/wiki/Seann_Triubhas

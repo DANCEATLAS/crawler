@@ -1,0 +1,145 @@
+{
+ "youtube_id": "BCHDlVcB8gM",
+ "slug": "virginia-reel",
+ "dance": "Virginia reel",
+ "title": "How To: Perform the Virginia Reel!",
+ "channel": "Montgomery Docents",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-25T21:30:24Z",
+ "url": "https://www.youtube.com/watch?v=BCHDlVcB8gM",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher presents in character with historical costume, breaking down steps clearly with a partner and numerical counts. She uses a peer demonstrator to show movements side-by-side.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Teacher introduces herself and the Virginia Reel in historical costume."
+   },
+   {
+    "t": "0:16",
+    "segment": "context",
+    "note": "Explains that she will teach the partner portion of the dance and brings in a partner."
+   },
+   {
+    "t": "0:24",
+    "segment": "breakdown",
+    "note": "Teaches forward and backward walking steps and partner swings."
+   },
+   {
+    "t": "1:29",
+    "segment": "recap",
+    "note": "Recaps the lesson and introduces a special doll performance."
+   },
+   {
+    "t": "1:39",
+    "segment": "full_demo",
+    "note": "Doll performance of the Virginia Reel to Irish Washerwoman music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "Move forward like this",
+   "Take four steps back into your spot",
+   "Link your right elbow"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": 1
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Forward and back",
+    "counts": "1-8",
+    "description": "Four steps forward toward partner and four steps back."
+   },
+   {
+    "name": "Right elbow swing",
+    "counts": "1-8",
+    "description": "Link right elbows and swing for eight counts."
+   },
+   {
+    "name": "Left elbow swing",
+    "counts": "1-8",
+    "description": "Link left elbows and swing for eight counts."
+   },
+   {
+    "name": "Both hands swing",
+    "counts": "1-8",
+    "description": "Hold both hands with partner and travel clockwise for eight counts."
+   },
+   {
+    "name": "Back-to-back",
+    "counts": "1-8",
+    "description": "Pass right shoulder then left shoulder passing partner back-to-back."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear numerical counting for each movement",
+    "Demonstration with a live partner in frame"
+   ],
+   "what_hinders": [
+    "Only front angle shown during instruction"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:02",
+    "text": "My name is Catherine Gonzalez, and today I'll be teaching you some of the Virginia Reel."
+   },
+   {
+    "t": "0:21",
+    "text": "So go grab a buddy."
+   },
+   {
+    "t": "1:27",
+    "text": "And you're done. Happy dancing!"
+   },
+   {
+    "t": "1:32",
+    "text": "Let's watch a special performance where there are multiple different pairs of partners."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 24,
+    "end_s": 35,
+    "topic": "movement",
+    "observation": "Two people facing each other walking forward 4 steps and backward 4 steps",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact footwork details due to camera distance",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 41,
+    "end_s": 46,
+    "topic": "movement",
+    "observation": "Linking right elbows and circling around each other",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact hand grip",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using American Girl dolls in historical dress to perform the full dance routine at the end of the tutorial."
+ },
+ "attempts": 1
+}

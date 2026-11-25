@@ -2,7 +2,7 @@
  "slug": "bar",
  "name": "Bar",
  "pack_version": "e2",
- "built_at": "2026-11-24T22:53:17Z",
+ "built_at": "2026-11-25T21:47:19Z",
  "researched_at": "2026-11-23T23:51:51Z",
  "qc_score": 9.7,
  "status": "draft",
@@ -252,7 +252,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4-5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.",
+      "Count: 5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -274,7 +274,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "5-6-7-8",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -289,7 +289,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "5-6-7-8",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -330,7 +330,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Count-in: 5-6-7-8.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -392,7 +392,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4-5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.",
+      "Count: 5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -414,7 +414,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "5-6-7-8",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -429,7 +429,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "5-6-7-8",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -470,7 +470,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Count-in: 5-6-7-8.",
       "Full tempo, the whole sequence, twice. Formation: Side-by-side group formation in open spaces."
      ],
      "on_screen": [
@@ -532,7 +532,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4-5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.",
+      "Count: 5-6-7-8. The meter is 5/8, 9/8, 6/8, 12/8.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -554,7 +554,7 @@
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "5-6-7-8",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -569,7 +569,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4-5-6-7-8",
+     "counts": "5-6-7-8",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -610,7 +610,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4-5-6-7-8.",
+      "Count-in: 5-6-7-8.",
       "Full tempo, the whole sequence, twice. Formation: Side-by-side group formation in open spaces."
      ],
      "on_screen": [
@@ -737,15 +737,21 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
-  "counting": "1-2-3-4-5-6-7-8",
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
+  "counting": "5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front",
+   "views used by most teachers: back, front",
    "tempo progression: slow → full"
   ],
   "cues": [
+   "step to the side",
+   "touch in with that left",
+   "step back with that left",
+   "bring in our right foot",
+   "step out with that left",
+   "hop out with our right heel",
    "step to the right",
    "right step right touch",
    "step touch",
@@ -755,9 +761,31 @@
   "segment_order": [
    "intro",
    "context",
-   "breakdown"
+   "count_in",
+   "breakdown",
+   "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "rumba box",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "A series of steps creating a box pattern."
+   },
+   {
+    "name": "step touches",
+    "counts": "1-2-3-4",
+    "description": "Stepping to the side and touching the opposite foot."
+   },
+   {
+    "name": "grapevine",
+    "counts": "5-6-7-8",
+    "description": "A side-to-side step pattern with a scuff."
+   },
+   {
+    "name": "hop and switch",
+    "counts": "1-2-3-4",
+    "description": "Hopping and switching weight between feet."
+   },
    {
     "name": "Box / Square",
     "counts": "1-2-3-4-5-6-7-8",
@@ -796,6 +824,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "3b064ed37808abd92409fbb986c02a5f3f99dc2bc84c2113b500943ab20b9e57",
+ "input_fingerprint": "532f1d702686f206d3bcc2ee52fcfd3f544fbaf4faa50907577c79e13246dd3e",
  "hero_checked": "fail"
 }

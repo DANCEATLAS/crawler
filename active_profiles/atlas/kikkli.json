@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Releasing grip while spinning fast",
+          "Unequal counter-pulling"
+        ],
+        "counts": "1-2-3-4 steady circular rotation counts.",
+        "duration_minutes": "2",
+        "game_version": "Children pair up to practice holding crossed hands and seeing how smoothly they can twirl together for short counts."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid rotation",
+          "Backward torso inclination",
+          "Sudden pulling forces on shoulders and wrists"
+        ],
+        "counts": "Continuous steady cadence without rapid acceleration.",
+        "seated_version": "Two seated participants sit face-to-face, hold hands gently, and guide their arms in rhythmic circular patterns.",
+        "standing_version": "Perform slow-paced hand-held circular movement without leaning backward or fast spinning.",
+        "tempo_and_range": "Slow tempo with minimal inclination of the torso."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Crossed-hand interlocking balance grip and backward lean inclination.",
+          "source": "https://en.wikipedia.org/wiki/Kikkli"
+        },
+        {
+          "description": "Continuous fast paired circular rotation.",
+          "source": "https://en.wikipedia.org/wiki/Kikkli"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Paired face-to-face rotation or four-person group rotation surrounded by singing and clapping onlookers.",
+          "source": "https://en.wikipedia.org/wiki/Kikkli"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms crossed in front of partner, extended to maximum strain, hands interlocked securely.",
+      "difficulty": "intermediate",
+      "footwork": "Wheeling rapidly and continuously in small circular paths while maintaining counter-balanced weight.",
+      "formation_and_space": "Small stationary circular footprint, twirling in place in pairs or groups of four.",
+      "hips_and_torso": "Torso tilted backward away from partner to establish centrifugal balancing forces.",
+      "levels_and_jumps": "Upright standing posture with continuous ground balance; no jumps described.",
+      "partnering": "Face-to-face counterweight balance with interlocked crossed hands.",
+      "posture": "Body inclined backward with arms crossed, fully extended, and hands interlocked firmly with partner.",
+      "signature_moves": [
+        {
+          "description": "Two dancers hold crossed hands, lean back to stretch arms fully, and spin continuously in a tight circle.",
+          "name": "Interlocked Twirl"
+        }
+      ],
+      "tempo_feel": "Fast and accelerating continuously.",
+      "what_to_avoid": "Avoid releasing the hand grip prematurely or losing counter-balance posture during high-speed rotation."
+    },
+    "music_profile": {
+      "instruments": [
+        "clapping"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "playful",
+        "sporty",
+        "lively"
+      ],
+      "musical_form": "Vocal folk song with audience clapping",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Vocal folk singing accompanied by hand clapping and the continuous tinkling of dancers' anklets as they spin.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Folk songs sung by surrounding women to encourage faster movement"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand face-to-face close to a partner.",
+        "Cross arms and interlock hands firmly with the partner.",
+        "Incline body backward until arms are stretched to maximum length.",
+        "Wheel round continuously in rapid circular motions while maintaining balance."
+      ],
+      "formation": "Pair face-to-face circle, or four-person joined circle.",
+      "level_notes": "Requires strong upper-body tension, counter-balancing with a partner, and steady footwork during fast spinning.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "d8876fc3ba7a7edc8cb016a05440432c56b872dbb56c291f63bac92a9c13cc72",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific footwork stepping patterns (pivots vs small steps) are used by dancers to maintain speed during fast spinning? Evidence needed: High-frame-rate video recordings of traditional Punjabi Kikkli dancers."
+    ]
+  },
+  "id": "atlas:kikkli",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kikkli",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "a3b6c38abc6f51ab",
+      "next_evidence": "High-frame-rate video recordings of traditional Punjabi Kikkli dancers.",
+      "question": "What specific footwork stepping patterns (pivots vs small steps) are used by dancers to maintain speed during fast spinning?",
+      "source": "https://en.wikipedia.org/wiki/Kikkli",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to build precise step-by-step interactive instructional modules."
+    }
+  ],
+  "research_file": "research_results/kikkli.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kikkli",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kikkli",
+    "https://www.wikidata.org/wiki/Q6406312",
+    "https://fr.wikipedia.org/wiki/Kikkli"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

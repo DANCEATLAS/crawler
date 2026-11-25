@@ -111,7 +111,7 @@ NEEDS: tempo
 NARRATION: Step 1: Arrange group into a trio of three dancers (typically two men and one woman)
 NARRATION: Step 2: Form a tight V shape formation
 NARRATION: Drill: Position three dancers in a V formation with the central dancer slightly recessed or advanced.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -177,7 +177,7 @@ NEEDS: tempo
 NARRATION: Step 1: Arrange group into a trio of three dancers (typically two men and one woman)
 NARRATION: Step 2: Form a tight V shape formation
 NARRATION: Drill: Step in place to the count of 1-2 following the 2/4 violin tempo.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -244,7 +244,7 @@ NEEDS: tempo
 NARRATION: Step 1: Form a tight V shape formation
 NARRATION: Step 2: Step in synchronization to the 2/4 meter, following the violin melody
 NARRATION: Drill: Travel forward and laterally as a trio in 2/4 time while holding exact formation distances.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -307,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Pirgousikos; https://www.wikidata.org/wiki/Q16934494

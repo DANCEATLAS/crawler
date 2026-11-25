@@ -1,13 +1,97 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "overly aggressive pushing during the ring scramble"
+        ],
+        "counts": "counting steps around the ring until the final note",
+        "duration_minutes": "10",
+        "game_version": "Play the traditional musical chairs or ring game version"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "rapid running",
+          "sudden turns",
+          "rushing to seats"
+        ],
+        "counts": "standard jig counts adapted to slow walking",
+        "seated_version": "Seated upper-body arm-raising and clapping on the pop refrain",
+        "standing_version": "Supported stepping in lines without galloping or rushing",
+        "tempo_and_range": "reduced tempo, limited range of motion"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "holding hands in lines or circles, and raising arms to allow dancers to pass underneath",
+      "difficulty": "beginner",
+      "footwork": "galloping steps, balancing steps (Ballaneez), and walking in lines or around rings",
+      "formation_and_space": "two parallel lines of couples or a circular ring formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "standing level with rapid movement and rushing in the game variant",
+      "partnering": "coupled dancing with active interaction between neighboring pairs in the line",
+      "posture": "upright, social ballroom or country dance posture",
+      "signature_moves": [
+        {
+          "description": "One pair of dancers moves underneath the raised arms of another while shouting or singing the refrain.",
+          "name": "Passing under arms"
+        }
+      ],
+      "tempo_feel": "fast and animated",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "fiddle",
+        "piano",
+        "guitar",
+        "hand-organs",
+        "jack-in-the-box mechanisms"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "mirth-inspiring",
+        "animated",
+        "lively",
+        "playful"
+      ],
+      "musical_form": "jig with variations",
+      "reference_recordings": [
+        {
+          "artist": "Gene Kelly",
+          "title": "When We Were Very Young"
+        },
+        {
+          "artist": "Anthony Newley",
+          "title": "Pop Goes the Weasel"
+        }
+      ],
+      "rhythm_pattern": "jig rhythm with a characteristic accented refrain",
+      "sound_description": "A lively, bouncing jig melody driven by rhythmic string or keyboard instrumentation that builds in energy before concluding with a sudden, pronounced vocal or mechanical pop.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "group singing or shouting of the refrain"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form in Two Lines",
+        "Ballaneez for Four Bars",
+        "Gallop down inside and back",
+        "Hands Round with the next Lady",
+        "Pass partner under your arms on 'Pop goes the weasel'"
+      ],
+      "formation": "Two lines or circular ring formation",
+      "level_notes": "beginner friendly social dance and playground game",
+      "rhythm": "jig"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "49d53096aca94267987c7b2aea26be45d6c8a248e0df885548c82a27bd7aad89",
+  "fingerprint": "2be611b646dd58fba9b08ab2474da72935fab96fdef495a0c06eac46f086d94f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +99,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -34,7 +116,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there surviving video recordings or live demonstrations of the 19th-century social dance choreography documented by Eugène Coulon? Evidence needed: Historical dance reconstruction society footage or visual archives of 1850s country dances."
     ]
   },
   "id": "atlas:pop-goes-the-weasel",
@@ -45,8 +128,18 @@
   ],
   "music_options": [],
   "name": "Pop Goes the Weasel",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "b12b04c68ebccf3b",
+      "next_evidence": "Historical dance reconstruction society footage or visual archives of 1850s country dances.",
+      "question": "Are there surviving video recordings or live demonstrations of the 19th-century social dance choreography documented by Eugène Coulon?",
+      "source": "https://en.wikipedia.org/wiki/Pop_Goes_the_Weasel",
+      "status": "candidate_unreviewed",
+      "why_needed": "To verify spatial dynamics and exact footwork pacing beyond textual descriptions."
+    }
+  ],
+  "research_file": "research_results/pop-goes-the-weasel.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +151,11 @@
   "slug": "pop-goes-the-weasel",
   "sources": [
     "https://en.wikipedia.org/wiki/Pop_Goes_the_Weasel",
-    "Source: Pop Goes the Weasel on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Pop_Goes_the_Weasel"
+    "https://www.wikidata.org/wiki/Q7229002",
+    "https://fr.wikipedia.org/wiki/Pop_Goes_the_Weasel",
+    "https://pt.wikipedia.org/wiki/Pop!_Goes_the_Weasel",
+    "https://de.wikipedia.org/wiki/Pop!_Goes_the_Weasel",
+    "https://it.wikipedia.org/wiki/Pop_Goes_the_Weasel"
   ],
   "state": "researching",
   "video_evidence": []

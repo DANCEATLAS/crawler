@@ -1,0 +1,127 @@
+{
+ "youtube_id": "U4jnZ6CXIMI",
+ "slug": "goralski",
+ "dance": "Goralski",
+ "title": "Goralski, Polonia, dance tutorial di Juancarlos Battilani",
+ "channel": "Juan Carlos Battilani",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-25T21:29:56Z",
+ "url": "https://www.youtube.com/watch?v=U4jnZ6CXIMI",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains steps clearly while standing in front of the group, occasionally demonstrating movements. He breaks down the routine into manageable sections before having students practice along with music.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:06",
+    "segment": "intro",
+    "note": "Teacher introduces the Goralski dance."
+   },
+   {
+    "t": "0:34",
+    "segment": "breakdown",
+    "note": "Breakdown of the first step on the spot."
+   },
+   {
+    "t": "0:56",
+    "segment": "breakdown",
+    "note": "Breakdown of the bear step holding hands."
+   },
+   {
+    "t": "1:13",
+    "segment": "breakdown",
+    "note": "Breakdown of turning step with 1-2-3 counts."
+   },
+   {
+    "t": "2:18",
+    "segment": "music_practice",
+    "note": "Group practices the steps to music."
+   }
+  ],
+  "counting_scheme": "1-2-3",
+  "cues": [
+   "il passo dell'orso",
+   "1-2-3 clap"
+  ],
+  "metaphors": [
+   "il passo dell'orso"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "passo sul posto",
+    "counts": "1-2-3",
+    "description": "Opening and closing on the spot"
+   },
+   {
+    "name": "passo dell'orso",
+    "counts": "1-2-3",
+    "description": "Bear step moving forward with curved back"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal breakdown of each step before dancing to music"
+   ],
+   "what_hinders": [
+    "Group blocks some camera angles during partner practice"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:08",
+    "text": "vogliamo ballare una danza polacca simpatica delle montagne che si chiama Góralski"
+   },
+   {
+    "t": "0:51",
+    "text": "questo viene veramente il passo dell'orso"
+   },
+   {
+    "t": "1:13",
+    "text": "andiamo a compiere un giro sulla nostra spalla destra"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 36,
+    "end_s": 40,
+    "topic": "movement",
+    "observation": "Teacher demonstrates opening and closing steps on the spot facing the front.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 101,
+    "end_s": 107,
+    "topic": "movement",
+    "observation": "Teacher and students move in a circle holding hands executing the bear step.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "footwork detail due to group occlusion",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining vocal rhythm imitations like 'ta-ta-ta' with physical demonstration before integrating music."
+ },
+ "attempts": 1
+}

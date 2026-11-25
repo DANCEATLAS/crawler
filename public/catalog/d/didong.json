@@ -370,7 +370,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -386,23 +386,103 @@
     "label": "two or more signature moves"
    },
    {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "rhythm": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "-ZMzeABH4EM",
+   "url": "https://www.youtube.com/watch?v=-ZMzeABH4EM",
+   "title": "Orang japan,belajar(DIDONG.)seni gayo.",
+   "channel": "DEGAYO REGGAE",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Indonesian",
+   "counting_scheme": "the teacher does not use a formal counting scheme, instead r",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces the lesson on Didong."
+    },
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "breakdown",
+     "note": "The teacher demonstrates the hand clapping and sitting posture."
+    },
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "segment": "follow_along",
+     "note": "The student practices the clapping pattern while the teacher guides him."
+    },
+    {
+     "t": "1:03",
+     "seconds": 63,
+     "segment": "music_practice",
+     "note": "The teacher and student perform the clapping pattern while singing."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Didong clapping pattern",
+     "description": "A rhythmic clapping pattern performed while sitting."
+    }
+   ],
+   "cues": [
+    "kamu juga ikuti seperti ini",
+    "duduknya kaki seperti ini",
+    "seperti ini caranya tepukan tangannya",
+    "kamu tetap seperti itu tepukannya"
+   ],
+   "teacher_style": "The teacher uses a direct, hands-on approach, demonstrating the movements while the student mimics them. He provides immediate feedback and encouragement to ensure the student understands the rhythm and technique.",
+   "distinctive_method": "The teacher uses a call-and-response style of teaching, where he demonstrates a movement and the student immediately repeats it, often while singing.",
+   "what_works": [
+    "The teacher demonstrates the movement clearly and slowly.",
+    "The teacher provides immediate feedback to the student."
+   ],
+   "what_hinders": [
+    "The lack of a formal counting scheme might make it difficult for some learners to follow the rhythm."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher demonstrates the hand clapping and sitting posture to the student.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 12,
+     "end_s": 20,
+     "topic": "movement",
+     "observation": "The student attempts to mimic the teacher's clapping pattern.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -412,6 +492,6 @@
   "polished": false,
   "file": "episodes/didong.json"
  },
- "fingerprint": "7e766f999d5ff5c0",
- "updated": "2026-11-21"
+ "fingerprint": "6ce67670e02558c9",
+ "updated": "2026-11-25"
 }

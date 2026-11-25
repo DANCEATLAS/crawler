@@ -1,0 +1,123 @@
+{
+ "slug": "kongo-haiti",
+ "qc_at": "2026-11-25T20:54:26Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kongo (Haiti)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "207"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Kongo tradition in Haiti is a foundational element of the national dance, Mé"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "421"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2183"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Haiti"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 7,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile states 'Petro represents a large family of rhythms... from the Kongo/Angola nation' in the evidence, but the profile text incorrectly attributes this definition to 'Kongo' as a standalone rite rather than the Petro nation/rite."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The profile is respectful and acknowledges the sacred nature of the tradition. However, it conflates the 'Kongo' nation/rite with the 'Petro' rite mentioned in the evidence. While the Kongo influence is real, the specific definition provided in the evidence refers to the Petro family, which should be clarified for better accuracy."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=7.35",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-25T20:35:51Z"
+}

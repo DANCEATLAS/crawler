@@ -29,6 +29,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Pettathullal",
   "wikidata_qid": "Q27916531",
   "unesco": false,
+  "hero_video_youtube_id": "cWOzRRFlucA",
+  "video_stack": [
+   {
+    "youtube_id": "cWOzRRFlucA",
+    "role": "hero",
+    "title": "Erumeli Petta Thullal",
+    "channel": "Manorama Online",
+    "hd": true
+   },
+   {
+    "youtube_id": "7ood5pfFQng",
+    "role": "rendition",
+    "title": "Experience Vibrant Pettathullal Ritual at Erumeli | Legendary Pilgrimage Stopover to Sabarimala",
+    "channel": "Kerala Tourism",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -56,7 +73,13 @@
   "needs_eyes_on": true,
   "sacred_note": "Pettathullal is a sacred pilgrimage ritual connected to Lord Ayyappa and the Sabarimala pilgrimage. Outsiders should respect all religious observances, dietary/fasting vows (vrata kalam), and local temple customs. Participation in the ritual steps and carrying of sacred items (such as the irumudikettu and sarakkol) is traditionally reserved for practicing devotees.",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-25T21:00:24Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -195,6 +218,6 @@
   "polished": false,
   "file": "episodes/pettathullal.json"
  },
- "fingerprint": "3ed7dc5a9d276b3e",
- "updated": "2026-11-24"
+ "fingerprint": "2e0c8f662e4f4f7f",
+ "updated": "2026-11-25"
 }

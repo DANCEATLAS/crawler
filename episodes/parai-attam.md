@@ -123,7 +123,7 @@ NARRATION: Step 1: Strap the parai over one shoulder using the nadai harness, se
 NARRATION: Step 2: Grip the Adi Kucchi (short stick) loosely between the thumb and fingers of the dominant hand near the drum's lower rim.
 NARRATION: Footwork from the sources: Rhythmic stamping of the feet in synchronization with drum beats, walking transitions, and patterned floor steps resembling classical dance geometry.
 NARRATION: Drill: Fit the nadai cloth harness over one shoulder and position the drum against the ribcage.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -194,7 +194,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Execute the slap stroke across the drum center using the long bamboo stick.
 NARRATION: Step 2: Perform the compound stroke by striking with the dominant stick immediately followed by the off stick.
 NARRATION: Drill: Execute alternating foot stamps on each primary beat while sustaining the Othayadi rhythm.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -268,7 +268,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stamp the feet rhythmically in place while swaying the torso in synchronization with the drum strikes.
 NARRATION: Step 2: Advance through spatial pathways while sustaining the rhythm in one of the five core meters such as Othayadi or Thullal.
 NARRATION: Drill: Shift between standing, stepping, and seated lap playing without breaking tempo.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Parai; https://www.wikidata.org/wiki/Q28457169

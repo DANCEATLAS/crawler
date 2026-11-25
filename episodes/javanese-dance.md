@@ -2,7 +2,7 @@
 
 *Status: withheld-chapters · built 2026-11-25 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A dignified palace elder who speaks in metaphors of self-reflection.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In the kratons of Yogyakarta and Surakarta, dance is treated as a 'pusaka'—a sacred heirloom that functions as a tool for moral education and self-reflection rather than mere entertainment.
 NARRATION: This is Javanese dance. Ancient to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (O4550EZz8f0)
 ON SCREEN: Title card: Javanese dance · Indonesia · Ancient to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The movement is characterized by deliberate, slow, and controlled ges
 NARRATION: Courtly styles require intense discipline to master specific body and hand gestures.
 NARRATION: Men's dances (Beksan putra) range from martial drills to narrative roles, while women's dances (Beksan putri) focus on subtle, precise staging.
 NARRATION: Watch for Alus, Gagah.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (O4550EZz8f0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Distinct staging with subtle layers of meaning; often symmetrical in court rituals.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'O4550EZz8f0', 'checked_by_vision_model': True, 'title': 'Javanese Traditional Dance, Yogyakarta Palace  Indonesia'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); F.C. Wilsen (Tekenaar). / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: Kebyar Cosmic Dance To Phil Morton And The Javanese People — https://archive.org/details/kebyar__cosmic__dance; UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000642a_ac; UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000672_pt1_ac
 Motifs: Shadows of Wayang Kulit puppets, Intricate batik patterns, Bronze Gamelan instruments, The open-air architecture of the Pendopo
@@ -113,7 +113,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the classical-court family studied · videos studied: 16
+Source: 17 tutorial(s) of the classical-court family studied · videos studied: 17
 Counting: count the Colotomic cycles (Gamelan structure) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

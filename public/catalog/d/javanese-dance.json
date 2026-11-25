@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "javanese-dance",
  "name": "Javanese dance",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "ID"
@@ -39,6 +39,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Javanese_dances",
   "wikidata_qid": "Q6165226",
   "unesco": false,
+  "hero_video_youtube_id": "O4550EZz8f0",
+  "video_stack": [
+   {
+    "youtube_id": "O4550EZz8f0",
+    "role": "hero",
+    "title": "Javanese Traditional Dance, Yogyakarta Palace  Indonesia",
+    "channel": "Travel with Tommy",
+    "hd": true
+   },
+   {
+    "youtube_id": "s8QFBnF2Kd0",
+    "role": "rendition",
+    "title": "Ramayana Ballet In Thailand | Traditional Javanese Dance Spectacle | WION World DNA",
+    "channel": "WION",
+    "hd": true
+   },
+   {
+    "youtube_id": "goJkDNhx3-g",
+    "role": "rendition",
+    "title": "Modern Javanese Dance by Hannah Setu & Matriya Dewi at 3rd Coast 2015",
+    "channel": "Rosanna Setu",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -144,6 +168,12 @@
   "sacred_note": "Certain court dances are considered 'pusaka' (sacred heirlooms) and are performed as meditative rituals for moral education and spiritual reflection within the palace context.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T20:59:43Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "balinese-dance",
    "sundanese-dance",
@@ -365,30 +395,56 @@
   "movie_ready": false,
   "schema": 5,
   "tradition_status": "living",
+  "footage": [
+   {
+    "title": "Kebyar Cosmic Dance To Phil Morton And The Javanese People",
+    "url": "https://archive.org/details/kebyar__cosmic__dance",
+    "year": 2021,
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "attribution": "Internet Archive",
+    "description": "Traditional Javanese dance & Gamelan Gong mix with early computer video art by Phil Morton. Music by rADio eNd, still not release but there is few other albums in free download here http://horsnorme.org/rADio_eNd/rADio_eNd_english.html More free music here https://archive.org/details/le-colibri-necr",
+    "source": "archive"
+   },
+   {
+    "title": "UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Java Ensemble",
+    "url": "https://archive.org/details/calauem_200201_omvf0000642a_ac",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Spring Festival of World Music: Music of Java -- Joko Sutrisno, Director PROGRAM GAMBYONG MUDHOTOMO: Gambyong dances were developed in the court of Surakarta during the rule of Paku Buwono IV (1788-1820) based on the dances of traveling female performers. Dancer- choreographers in the palace altered",
+    "source": "archive"
+   },
+   {
+    "title": "UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble",
+    "url": "https://archive.org/details/calauem_200201_omvf0000672_pt1_ac",
+    "year": 2025,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "MUSIC OF JAVA PROGRAM NOTES PAMBUKO Pambuko is a short opening piece composed for Kasuryan (Javanese Gamelan & Dance of Los Angeles). Written in Javanese, the song celebrates playing gamelan music in California. It was composed by Dr Widodo Broto Sejati professor of Semarang State University (UNNES)",
+    "source": "archive"
+   }
+  ],
   "researched_at": "2026-11-24T20:58:43Z",
   "qc_score": 9.85
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Certain court dances are considered 'pusaka' (sacred heirlooms) and are performed as meditative rituals for moral education and spiritual reflection within the palace context.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 3,
+  "gaps": 2,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/javanese-dance.json"
  },
- "fingerprint": "c7f4512c3e7a4249",
- "updated": "2026-11-24"
+ "fingerprint": "9850bca1390a413b",
+ "updated": "2026-11-25"
 }

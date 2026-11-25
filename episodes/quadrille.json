@@ -2,7 +2,7 @@
  "slug": "quadrille",
  "name": "Quadrille",
  "pack_version": "e2",
- "built_at": "2026-11-25T04:08:47Z",
+ "built_at": "2026-11-25T21:47:20Z",
  "researched_at": "2026-11-24T21:35:01Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -829,8 +829,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -848,10 +848,28 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "context",
    "breakdown",
-   "music_practice"
+   "follow_along",
+   "music_practice",
+   "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "The Chip Step / The Balance Step",
+    "counts": "",
+    "description": "Stepping side to side while manipulating the skirt"
+   },
+   {
+    "name": "The Wheel",
+    "counts": "",
+    "description": "Turning movement typically done with a partner"
+   },
+   {
+    "name": "Figure 8",
+    "counts": "",
+    "description": "Tracing a figure eight pattern with footwork and skirt movement"
+   },
    {
     "name": "changing of places",
     "counts": "1-8",
@@ -898,6 +916,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "da86ef3eb1f5025957e4c66c3324547a593f0cfbe75b21c85dd05d1a3f1e7ef2",
+ "input_fingerprint": "b54635ba464f34b0b85748b00a7ca39d3a049e785aa01d032736d09c7ef84e33",
  "hero_checked": "pass"
 }

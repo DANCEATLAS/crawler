@@ -219,7 +219,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -243,15 +243,133 @@
     "label": "a hero video that passed the vision check"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "O_xNBl3Hk5I",
+   "url": "https://www.youtube.com/watch?v=O_xNBl3Hk5I",
+   "title": "Varnenska Tropanka, Bulgaria, tutorial di Juancarlos Battilani",
+   "channel": "Juan Carlos Battilani",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "Italian",
+   "counting_scheme": "1-cia 1-cia 1-cia-cia / shuffle step",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the topic in Italian."
+    },
+    {
+     "t": "0:31",
+     "seconds": 31,
+     "segment": "context",
+     "note": "Teacher introduces Varnenska Tropanka from Bulgaria and its characteristic rhythm."
+    },
+    {
+     "t": "1:07",
+     "seconds": 67,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the sequence starting with the right foot."
+    },
+    {
+     "t": "1:40",
+     "seconds": 100,
+     "segment": "breakdown",
+     "note": "Teacher explains starting the sequence from the left foot to match the melody."
+    },
+    {
+     "t": "2:05",
+     "seconds": 125,
+     "segment": "layering",
+     "note": "Teacher adds arm movements for line dancing."
+    },
+    {
+     "t": "2:39",
+     "seconds": 159,
+     "segment": "music_practice",
+     "note": "Full demonstration of the dance with music."
+    },
+    {
+     "t": "5:18",
+     "seconds": 318,
+     "segment": "recap",
+     "note": "Closing remarks and sign off."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Varnenska Tropanka step",
+     "counts": "1-cia 1-cia 1-cia-cia",
+     "description": "Step sequence with shuffle and rhythm accents."
+    }
+   ],
+   "cues": [
+    "un-cia un-cia un-cia-cia",
+    "shuffle step"
+   ],
+   "teacher_style": "Juan Carlos Battilani guides students through Bulgarian folk dances using clear step-by-step breakdowns and verbal counting. He demonstrates variations in entry points to match the phrasing of the music.",
+   "distinctive_method": "Emphasizing starting the dance on the left foot instead of the right to better align with the phrasing of the melody.",
+   "what_works": [
+    "Breaking down the steps with count repetition",
+    "Showing how to adapt the entry to the music"
+   ],
+   "what_hinders": [
+    "Limited camera angles"
+   ],
+   "evidence": [
+    {
+     "start_s": 1,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Teacher talks to camera wearing red hat and red shirt in a room with white tiles.",
+     "viewpoint": "overhead, unknown if mirrored",
+     "cannot_infer": "exact footwork",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 31,
+     "end_s": 45,
+     "topic": "teaching",
+     "observation": "Teacher wearing patterned hat and striped shirt explains the dance context.",
+     "viewpoint": "overhead, unknown if mirrored",
+     "cannot_infer": "exact footwork",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 108,
+     "end_s": 125,
+     "topic": "movement",
+     "observation": "Teacher demonstrates footwork with back to the camera, counting aloud.",
+     "viewpoint": "overhead, unknown if mirrored",
+     "cannot_infer": "weight transfer details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 251,
+     "end_s": 290,
+     "topic": "movement",
+     "observation": "Teacher dances to music with arm movements and shuffling steps.",
+     "viewpoint": "overhead, unknown if mirrored",
+     "cannot_infer": "continuous ground contact",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -261,6 +379,6 @@
   "polished": false,
   "file": "episodes/tropanka.json"
  },
- "fingerprint": "8fa0e6bf71f89c6b",
- "updated": "2026-11-24"
+ "fingerprint": "cd96c66f11d9c9ee",
+ "updated": "2026-11-25"
 }

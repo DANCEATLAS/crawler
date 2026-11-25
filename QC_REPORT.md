@@ -1,5 +1,5 @@
 # QC review queue
-_Generated 2026-11-24T22:56:09Z_
+_Generated 2026-11-25T21:48:53Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
@@ -12,6 +12,7 @@ _Generated 2026-11-24T22:56:09Z_
 | father-daughter-dance | reject | 10.0 | sacred_handled, judge_score=10.0, not_a_dance, sacred |  |
 | the-strictly | reject | 10.0 | judge_score=10.0, not_a_dance |  |
 | bistritsa-babi-bulgaria | reject | 10.0 | judge_score=10.0, not_a_dance, sacred |  |
+| tarantas | reject | 10.0 | judge_score=10.0, not_a_dance |  |
 | eurythmy | reject | 9.85 | insight_concrete, judge_score=9.85, not_a_dance, sacred |  |
 | feather-step | reject | 9.85 | citations, country, region, judge_score=9.85, not_a_dance |  |
 | fleckerl | reject | 9.85 | judge_score=9.85, not_a_dance |  |
@@ -63,6 +64,7 @@ _Generated 2026-11-24T22:56:09Z_
 | cantes-a-palo-seco | reject | 9.3 | insight_concrete, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
 | first-dance | reject | 9.3 | country, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
 | baton-twirling | reject | 9.25 | banned_phrasing, judge_score=9.25, not_a_dance |  |
+| son-mexicano | reject | 9.25 | insight_concrete, sacred_handled, judge_score=9.25, doubts=1, not_a_dance, sacred |  |
 | duckwalk | reject | 9.1 | judge_score=9.1, doubts=1, not_a_dance |  |
 | rada | reject | 9.1 | judge_score=9.1, not_a_dance, sacred |  |
 | japanese-traditional-dance | reject | 9.1 | judge_score=9.1, not_a_dance, sacred |  |
@@ -82,6 +84,7 @@ _Generated 2026-11-24T22:56:09Z_
 | jharkhand-folk-dance | reject | 8.95 | judge_score=8.95, not_a_dance |  |
 | dagbon-music-and-dance | reject | 8.95 | judge_score=8.95, not_a_dance, sacred |  |
 | italian-folk-dance | reject | 8.95 | judge_score=8.95, not_a_dance |  |
+| moresche | reject | 8.9 | judge_score=8.9, not_a_dance |  |
 | israeli-dance | reject | 8.85 | judge_score=8.85, not_a_dance |  |
 | variation | reject | 8.85 | country, insight_concrete, sections_filled, judge_score=8.85, not_a_dance |  |
 | cabbage-patch | reject | 8.85 | sections_filled, judge_score=8.85, doubts=1, not_a_dance |  |
@@ -90,6 +93,7 @@ _Generated 2026-11-24T22:56:09Z_
 | filipino-american-dance | reject | 8.8 | banned_phrasing, judge_score=8.8, doubts=1, not_a_dance |  |
 | punchdance | reject | 8.8 | sections_filled, judge_score=8.8, not_a_dance |  |
 | victory-dance | reject | 8.8 | country, judge_score=8.8, not_a_dance |  |
+| longa | reject | 8.8 | judge_score=8.8, not_a_dance |  |
 | vernacular-dance | reject | 8.75 | country, not_duplicate, judge_score=8.75, not_a_dance | hip-hop-dance |
 | tecno-brega | reject | 8.7 | insight_concrete, judge_score=8.7, not_a_dance |  |
 | sun-dance | reject | 8.7 | insight_concrete, judge_score=8.7, not_a_dance, sacred |  |
@@ -147,6 +151,7 @@ _Generated 2026-11-24T22:56:09Z_
 | partner-dance | reject | 8.2 | country, judge_score=8.2, not_a_dance |  |
 | zandunga | reject | 8.2 | judge_score=8.2, not_a_dance |  |
 | kabir-panth | reject | 8.2 | judge_score=8.2, not_a_dance, sacred |  |
+| mohobelo | reject | 8.15 | profile_long_len, sections_filled, judge_score=8.15, not_a_dance |  |
 | medieval-dance | reject | 8.1 | country, not_duplicate, judge_score=8.1, doubts=1, not_a_dance, sacred | kolo-serbia |
 | sandiwara | reject | 8.1 | sacred_handled, judge_score=8.1, not_a_dance, sacred |  |
 | jewish-dance | reject | 8.1 | banned_phrasing, judge_score=8.1, doubts=3, not_a_dance, sacred |  |
@@ -214,6 +219,8 @@ _Generated 2026-11-24T22:56:09Z_
 | saidi | reject | 6.4 | citations, profile_len, profile_long_len, sections_filled, region, judge_score=6.4, not_a_dance |  |
 | tropotianka | reject | 6.4 | citations, sources, profile_len, profile_long_len, sections_filled, judge_score=6.4 |  |
 | zaharoula | reject | 6.4 | citations, sources, profile_long_len, sections_filled, judge_score=6.4 |  |
+| kerkiraikos | reject | 6.4 | citations, sources, profile_long_len, sections_filled, judge_score=6.4 |  |
+| kastorianos | reject | 6.4 | citations, sources, profile_long_len, sections_filled, judge_score=6.4 |  |
 | rainmaking-rites | reject | 6.15 | country, judge_score=6.15, doubts=3, harm, not_a_dance, sacred |  |
 | headroll-dance | reject | 6.1 | citations, sources, country, insight_concrete, profile_long_len, sections_filled, judge_score=6.1, doubts=1 |  |
 | war-dance | reject | 6.1 | country, insight_concrete, judge_score=6.1, doubts=1, not_a_dance, sacred |  |
@@ -227,6 +234,7 @@ _Generated 2026-11-24T22:56:09Z_
 | harlem-shuffle | reject | 4.6 | sections_filled, judge_score=4.6, doubts=2, harm, not_a_dance |  |
 | sinsin | reject | 4.55 | sacred_handled, judge_score=4.55, doubts=1, sacred |  |
 | solo-dance | reject | 4.45 | country, profile_long_len, sections_filled, judge_score=4.45, doubts=3, harm, not_a_dance |  |
+| makedonia | reject | 4.3 | citations, judge_score=4.3, doubts=1 |  |
 | umushagiriro | reject | 4.05 | citations, profile_long_len, sections_filled, judge_score=4.05, doubts=2 |  |
 | husachok | reject | 4.05 | citations, sources, country, profile_len, profile_long_len, sections_filled, judge_score=4.05, doubts=2 |  |
 | rasanritya | reject | 4.05 | sources, country, sections_filled, sacred_handled, judge_score=4.05, doubts=3, harm, not_a_dance |  |
@@ -238,10 +246,14 @@ _Generated 2026-11-24T22:56:09Z_
 | cilveloy | reject | 3.6 | citations, sources, country, profile_long_len, sections_filled, judge_score=3.6, doubts=2 |  |
 | wu-tang | reject | 3.6 | citations, sources, country, sections_filled, banned_phrasing, judge_score=3.6, doubts=3, not_a_dance |  |
 | toycular-yarcan | reject | 3.6 | citations, sources, country, profile_len, profile_long_len, sections_filled, judge_score=3.6, doubts=1 |  |
+| lambri-kamara | reject | 3.6 | citations, sources, profile_len, profile_long_len, sections_filled, judge_score=3.6, doubts=1 |  |
 | pique | reject | 3.25 | citations, profile_long_len, sections_filled, judge_score=3.25, not_a_dance |  |
 | kambara-dance | reject | 3.25 | citations, profile_len, profile_long_len, sections_filled, judge_score=3.25, doubts=1, not_a_dance |  |
 | nizamikos | reject | 3.25 | citations, sources, profile_long_len, sections_filled, judge_score=3.25, doubts=1 |  |
 | grancharsko-horo | reject | 3.25 | citations, sources, country, profile_long_len, sections_filled, judge_score=3.25, doubts=1 |  |
+| van-papuri | reject | 3.25 | citations, sources, country, insight_concrete, profile_long_len, sections_filled, judge_score=3.25, doubts=1 |  |
+| teke-zortlatmasi | reject | 3.25 | citations, sources, country, profile_long_len, sections_filled, judge_score=3.25, doubts=2 |  |
+| makrinitsa-dance | reject | 3.25 | citations, sources, sections_filled, judge_score=3.25, doubts=2 |  |
 | ndazola | reject | 3.1 | citations, sources, profile_long_len, sacred_handled, judge_score=3.1, doubts=5, sacred |  |
 | lanytanc | reject | 3.1 | citations, sources, profile_long_len, sections_filled, judge_score=3.1, doubts=3 |  |
 | p-aquchi | reject | 3.1 | citations, sources, sections_filled, judge_score=3.1, doubts=2, sacred |  |
@@ -250,6 +262,7 @@ _Generated 2026-11-24T22:56:09Z_
 | charikawi | reject | 2.35 | citations, sources, country, profile_len, profile_long_len, sections_filled, judge_score=2.35, doubts=2 |  |
 | zervodexios | reject | 2.0 | citations, sources, profile_long_len, sections_filled, judge_score=2.0, doubts=3 |  |
 | trizalis | reject | 2.0 | citations, sources, country, insight_concrete, profile_len, profile_long_len, sections_filled, judge_score=2.0 |  |
+| kothammuriyattam | reject | 2.0 | citations, sources, country, profile_long_len, sacred_handled, judge_score=2.0, doubts=2, sacred |  |
 | dinki-mini | reject | 1.0 | citations, country, insight_len, insight_concrete, profile_len, profile_long_len, sections_filled, region |  |
 | hinde | reject | 1.0 | profile_long_len, sections_filled, judge_score=1.0, doubts=1, not_a_dance |  |
 | kyrgyzstani-dance | reject | 1.0 | insight_len, insight_concrete, profile_len, profile_long_len, sections_filled, judge_score=1.0, doubts=1, harm |  |
@@ -265,6 +278,9 @@ _Generated 2026-11-24T22:56:09Z_
 | grossvater-tanz | review | 10.0 | citations, sacred_handled, judge_score=10.0, sacred |  |
 | horos | review | 10.0 | not_duplicate, sacred_handled, judge_score=10.0, sacred | greek-dance |
 | tranky-doo | review | 10.0 | banned_phrasing, sacred_handled, judge_score=10.0, sacred |  |
+| tropak | review | 10.0 | not_duplicate, sacred_handled, judge_score=10.0, sacred | trepak |
+| svadbarsko | review | 10.0 | not_duplicate, sacred_handled, judge_score=10.0, sacred | tuljak |
+| basse-danse | review | 10.0 | insight_concrete, banned_phrasing, judge_score=10.0 |  |
 | maxixe | review | 9.85 | not_duplicate, judge_score=9.85 | samba-de-gafieira |
 | pole-dance | review | 9.85 | country, banned_phrasing, judge_score=9.85 |  |
 | rigaudon | review | 9.85 | banned_phrasing, sacred_handled, judge_score=9.85, sacred |  |
@@ -287,22 +303,6 @@ _Generated 2026-11-24T22:56:09Z_
 | georgian-folk-dance | review | 9.6 | not_duplicate, judge_score=9.6, sacred | kartuli |
 | entarisi-ala-benziyor | review | 9.6 | country, sections_filled, judge_score=9.6 |  |
 | diablada-de-oruro | review | 9.55 | not_duplicate, judge_score=9.55, sacred | diablada |
-| samri | review | 9.55 | sections_filled, banned_phrasing, judge_score=9.55 |  |
-| calabrian-tarantella | review | 9.5 | insight_concrete, sacred_handled, judge_score=9.5, sacred |  |
-| guaguanco | review | 9.5 | citations, insight_concrete, judge_score=9.5 |  |
-| kerala-natanam | review | 9.5 | banned_phrasing, sacred_handled, judge_score=9.5, sacred |  |
-| serpent-dance | review | 9.45 | citations, country, region, sacred_handled, judge_score=9.45, sacred |  |
-| kola | review | 9.45 | not_duplicate, judge_score=9.45, sacred | buta-kola |
-| maach | review | 9.45 | insight_concrete, sacred_handled, judge_score=9.45, sacred |  |
-| keisabadi | review | 9.45 | profile_long_len, sections_filled, judge_score=9.45 |  |
-| southern-straight-dance | review | 9.45 | insight_concrete, sections_filled, judge_score=9.45 |  |
-| american-smooth | review | 9.45 | citations, judge_score=9.45 |  |
-| karikz | review | 9.45 | insight_concrete, profile_long_len, judge_score=9.45 |  |
-| salty-dog-rag | review | 9.4 | profile_long_len, sections_filled, judge_score=9.4 |  |
-| pangalay | review | 9.35 | insight_concrete, sacred_handled, judge_score=9.35, sacred |  |
-| wheelchair-dancesport | review | 9.35 | country, judge_score=9.35 |  |
-| tappa-dance | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3 |  |
-| tientos | review | 9.3 | sections_filled, banned_phrasing, judge_score=9.3 |  |
 
 ## Audit: possible duplicates kept live, need a human (1)
 

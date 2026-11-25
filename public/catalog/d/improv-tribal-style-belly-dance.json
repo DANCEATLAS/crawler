@@ -36,6 +36,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Improvisational_Team_Synchronization",
   "wikidata_qid": "Q6007801",
   "unesco": false,
+  "hero_video_youtube_id": "LBaFK3ithUw",
+  "video_stack": [
+   {
+    "youtube_id": "LBaFK3ithUw",
+    "role": "hero",
+    "title": "Tribal Fest 13 - WildCard BellyDance Improv Tribal Style",
+    "channel": "danomoon",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -62,6 +72,12 @@
   ],
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T20:59:41Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "american-tribal-style-belly-dance",
    "tribal-fusion-belly-dance"
@@ -276,48 +292,237 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "ZUSvzz7ZhPA",
+   "url": "https://www.youtube.com/watch?v=ZUSvzz7ZhPA",
+   "title": "Tribal Belly Dance Lessons - Body Wave in WildCard BellyDance ITS",
+   "channel": "danomoon",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "the teacher does not use a formal counting scheme, instead u",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "intro",
+     "note": "Teacher introduces herself and the dance style."
+    },
+    {
+     "t": "0:22",
+     "seconds": 22,
+     "segment": "full_demo",
+     "note": "Teacher demonstrates the body wave."
+    },
+    {
+     "t": "0:51",
+     "seconds": 51,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the body wave movement."
+    },
+    {
+     "t": "2:44",
+     "seconds": 164,
+     "segment": "other",
+     "note": "Teacher explains how to transition into the body wave."
+    },
+    {
+     "t": "3:18",
+     "seconds": 198,
+     "segment": "breakdown",
+     "note": "Teacher explains the arm movement (floreo)."
+    },
+    {
+     "t": "4:22",
+     "seconds": 262,
+     "segment": "layering",
+     "note": "Teacher combines the arm movement with the body wave."
+    },
+    {
+     "t": "5:00",
+     "seconds": 300,
+     "segment": "other",
+     "note": "Teacher demonstrates a one-arm variation."
+    },
+    {
+     "t": "6:11",
+     "seconds": 371,
+     "segment": "other",
+     "note": "Teacher explains how to turn while doing the body wave."
+    },
+    {
+     "t": "7:45",
+     "seconds": 465,
+     "segment": "other",
+     "note": "Teacher explains how to do a level change with the body wave."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Body Wave",
+     "description": "A fluid movement involving the ribcage and core."
+    },
+    {
+     "name": "Floreo",
+     "description": "A fluid hand movement."
+    },
+    {
+     "name": "Turn",
+     "description": "A pivot turn while performing the body wave."
+    },
+    {
+     "name": "Level Change",
+     "description": "A change in height while performing the body wave."
+    }
+   ],
+   "cues": [
+    "slide the ribcage forward",
+    "lift it up",
+    "engage all the core muscles",
+    "pelvis goes back to neutral",
+    "wrists are on the outside wall",
+    "bring them to the inside wall"
+   ],
+   "images": [
+    "fluid, almost like smoke",
+    "lazy susan"
+   ],
+   "common_mistakes": [
+    "having the elbow pointing down and having sloppy arms",
+    "having the arm too low down",
+    "body wave stops and stalls out"
+   ],
+   "safety": [
+    "keep knees soft"
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions with a focus on body mechanics and alignment. She uses consistent terminology and demonstrates movements from multiple angles to ensure clarity.",
+   "distinctive_method": "The teacher uses the concept of a 'lazy susan' to explain the rotation of the body during the turn.",
+   "what_works": [
+    "clear verbal explanations",
+    "demonstrations from multiple angles",
+    "breaking down complex movements into smaller parts"
+   ],
+   "what_hinders": [
+    "lack of a formal counting scheme"
+   ],
+   "evidence": [
+    {
+     "start_s": 206,
+     "end_s": 216,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the body wave from the side, showing the ribcage movement.",
+     "viewpoint": "side",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 334,
+     "end_s": 344,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the floreo hand movement from the front.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 422,
+     "end_s": 432,
+     "topic": "movement",
+     "observation": "The teacher combines the floreo and body wave.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "LBaFK3ithUw",
+   "url": "https://www.youtube.com/watch?v=LBaFK3ithUw",
+   "analysed_on": "2026-11-25",
+   "observation": {
+    "setting": "Indoor stage with a painted backdrop of a Middle Eastern-style palace interior, during a public performance.",
+    "dancers": "5 women, group.",
+    "formation_and_space": "Initially a line, then shifting to a semi-circle and pairs, using the full width of the stage.",
+    "posture": "Upright torso, knees slightly bent, weight centered.",
+    "footwork": "Small, rhythmic steps, often shifting weight from side to side or walking in place; precise footwork is obscured by long skirts.",
+    "arms_and_hands": "Arms held in various positions, often raised or framing the head; hands are expressive, sometimes holding swords.",
+    "hips_and_torso": "Prominent hip shimmies, undulations, and torso isolations.",
+    "partnering": "Some interaction between dancers, including mirroring and coordinated movements, but no physical contact.",
+    "levels_jumps_turns": "Occasional turns and subtle level changes through knee bends.",
+    "costume_and_props": "Elaborate tribal-style belly dance costumes with layered skirts, coin belts, and tops; some dancers hold swords.",
+    "cannot_infer": "The exact footwork and weight transfer are obscured by the long, layered skirts and the camera angle.",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "stringed instrument"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "The group enters in a line, performing synchronized hip shimmies and arm movements."
+     },
+     {
+      "start_s": 40,
+      "end_s": 50,
+      "what": "The dancers perform a synchronized backbend while in a line formation."
+     },
+     {
+      "start_s": 110,
+      "end_s": 120,
+      "what": "Two dancers move to the center and perform a coordinated, mirrored sequence of hip movements and turns."
+     },
+     {
+      "start_s": 230,
+      "end_s": 240,
+      "what": "The group performs a series of rapid, rhythmic hip shimmies while maintaining a static position."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 7,
+  "gaps": 6,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/improv-tribal-style-belly-dance.json"
  },
- "fingerprint": "605cde0cb71530e6",
- "updated": "2026-11-24"
+ "fingerprint": "2d29084f7954922d",
+ "updated": "2026-11-25"
 }

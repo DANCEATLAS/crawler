@@ -109,7 +109,7 @@ NARRATION: Step 1: Form a line holding hands in a basket weave (cross) hold, led
 NARRATION: Step 2: Execute the six-step sequence in 2/4 meter, similar to Sta Tria footwork.
 NARRATION: Footwork from the sources: Six steps to the dance, similar to Sta Tria.
 NARRATION: Drill: Practice cross-arm basket weave positioning in a line.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -177,7 +177,7 @@ NEEDS: tempo
 NARRATION: Step 1: Form a line holding hands in a basket weave (cross) hold, led by a male dancer.
 NARRATION: Step 2: Execute the six-step sequence in 2/4 meter, similar to Sta Tria footwork.
 NARRATION: Drill: Execute the six-step footwork sequence moving laterally.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -244,7 +244,7 @@ NEEDS: tempo
 NARRATION: Step 1: Execute the six-step sequence in 2/4 meter, similar to Sta Tria footwork.
 NARRATION: Step 2: Allow female dancers to join the line as the dance progresses, maintaining male dancers at both the front and end positions.
 NARRATION: Drill: Practice line entry where male lead initiates and end dancer anchors.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Sianos; https://www.wikidata.org/wiki/Q16929850

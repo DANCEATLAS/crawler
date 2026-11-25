@@ -1,0 +1,125 @@
+{
+ "slug": "son-mexicano",
+ "qc_at": "2026-11-25T20:49:48Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "son mexicano"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "59"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "172"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "In son mexicano, the dancers are the percussionists: their rapid-fire stomping o"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "566"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2316"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mexico"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ceremon', 'ancestor', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile identifies 'son mexicano' as a dance, but the evidence claims and the text itself describe it as a category of music that includes dance, making it a genre rather than a specific dance style."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is excellent and well-researched. The only technical issue is that 'son mexicano' is a broad musical genre/category rather than a single dance, but the profile handles this distinction well by focusing on the shared zapateado tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "sacred_handled",
+  "judge_score=9.25",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-25T19:45:09Z"
+}

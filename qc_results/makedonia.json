@@ -1,0 +1,122 @@
+{
+ "slug": "makedonia",
+ "qc_at": "2026-11-25T20:47:22Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 4.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Makedonia"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "117"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Makedonia is a Greek folk dance adaptation of Hasapiko performed to the patrioti"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "431"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2384"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "4/6 rate=0.667"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Greece"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 9,
+  "specificity": 2,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile describes 'Makedonia' as a distinct dance variant, but the evidence indicates it is essentially just the dance Hasapiko performed to a specific song ('Makedonia Xakousti'), making the existence of a unique dance form questionable."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Hasapiko",
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "Makedonia is not a distinct traditional dance style, but rather the Hasapiko dance performed to a specific regional song. The profile relies heavily on filler stating information is 'not described in sources' across nearly every section, resulting in low specificity and teaching value."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=4.3",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 4,
+  "rate": 0.667
+ },
+ "researched_at": "2026-11-25T19:26:59Z"
+}

@@ -71,7 +71,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Crouch slightly and slap thighs twice.
 NARRATION: Cross palms over and under.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -100,7 +100,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -115,7 +115,7 @@ NARRATION: Drill: Thigh slap rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pound fists on top of each other twice.
@@ -123,7 +123,7 @@ NARRATION: Step 4: Touch elbows one at a time.
 NARRATION: Drill: Wrist crossing coordination
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -135,6 +135,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: going too fast or too slow on the count of eight
 NARRATION: Teachers of this dance warn against: losing breath due to fast movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle.
@@ -142,7 +143,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,7 +174,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -185,14 +186,14 @@ NARRATION: Step 1: Hitchhike over each shoulder twice.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Hitchhike: Making fists with thumbs extended and pointing them over the shoulder.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -203,6 +204,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: going too fast or too slow on the count of eight
 NARRATION: Teachers of this dance warn against: losing breath due to fast movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle.
@@ -210,7 +212,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary; performed in tight spaces.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -241,7 +243,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and. The meter is 4/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -254,14 +256,14 @@ NARRATION: Step 2: Hitchhike over each shoulder twice.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Hitchhike: Making fists with thumbs extended and pointing them over the shoulder.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -272,6 +274,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: going too fast or too slow on the count of eight
 NARRATION: Teachers of this dance warn against: losing breath due to fast movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle.
@@ -279,7 +282,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the entire sequence while seated in a chair. · For children: Play as a 'follow the leader' game in a circle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary; performed in tight spaces.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -318,10 +321,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 5-6-7-8
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-and-2-and-3-and-4-and-5-and-6-and-7-and-8-and
 Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: rechts links rechts stop; handen; 5-6-7-8
-Common mistakes the studied teachers name: losing breath due to fast movements
+Cues: count this; step together step; rechts links rechts stop; handen; 5-6-7-8
+Common mistakes the studied teachers name: going too fast or too slow on the count of eight; losing breath due to fast movements
 
 Sources (4): https://en.wikipedia.org/wiki/Hand_jive; https://www.wikidata.org/wiki/Q2392517; https://fr.wikipedia.org/wiki/Hand_jive; https://history-of-rock.com/dancing_in_the_fifties.htm

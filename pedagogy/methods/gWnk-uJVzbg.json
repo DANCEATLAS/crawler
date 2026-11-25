@@ -70,13 +70,25 @@
    "voice": [
     "warm",
     "precise",
-    "patient"
+    "patient",
+    "calm",
+    "direct"
    ],
    "beliefs": [
     {
-     "t": "0:35",
-     "belief": "Awkwardness is not a lack of talent, but the result of invisible chains of past shame and fear.",
+     "t": "0:29",
+     "belief": "Anyone can dance, but awkwardness often stems from holding back out of fear rather than a lack of talent.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "1:22",
+     "belief": "Dancing should flow naturally; trying to calculate every step makes the body stiff and robotic.",
      "about": "how_people_learn"
+    },
+    {
+     "t": "5:14",
+     "belief": "Everyone gets judged and criticized, but real dancers do not let it stop them from moving freely.",
+     "about": "who_can_dance"
     },
     {
      "t": "5:46",
@@ -91,11 +103,54 @@
      "response": "Acknowledge that you are traumatized by past laughter and that you must face this to stop dancing awkwardly."
     },
     {
+     "t": "0:21",
+     "feeling": "self_doubt",
+     "response": "The teacher advises forgiving past hurt, recognizing that past laughter was wrong, and proving to oneself that fear can be overcome."
+    },
+    {
+     "t": "2:43",
+     "feeling": "frustrated",
+     "response": "The teacher advises staying in the awkward moment instead of running away, as facing discomfort is essential for growth."
+    },
+    {
      "t": "3:16",
      "feeling": "awkward",
      "response": "When a move feels awkward, pause and stay in that moment; it is the exact place you need to stay to fix it."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:04",
+     "moment": "opening",
+     "says": "The teacher introduces the first hidden reason why learners look awkward while dancing, focusing on trauma and emotional pain from past experiences.",
+     "tag": "other"
+    },
+    {
+     "t": "1:08",
+     "moment": "before_hard_part",
+     "says": "The teacher addresses overthinking every movement, explaining how calculating steps makes the body stiff and robotic rather than natural and flowing.",
+     "tag": "other"
+    },
+    {
+     "t": "4:15",
+     "moment": "before_hard_part",
+     "says": "The teacher explains how excessive bouncing without control makes movements look messy and childish instead of intentional and professional.",
+     "tag": "other"
+    },
+    {
+     "t": "5:54",
+     "moment": "before_hard_part",
+     "says": "The teacher cautions against focusing solely on memorizing moves rather than listening to the music, rhythm, and emotion of the song.",
+     "tag": "other"
+    },
+    {
+     "t": "7:02",
+     "moment": "closing",
+     "says": "The teacher concludes by explaining that poor footwork ruins the rest of the dance, urging learners to return to basics and practice deliberately.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling empowered to embrace their awkwardness, release past judgment, and build confidence from a solid foundation."
   },
   "learner_voice": {
    "struggles": [
@@ -146,5 +201,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-25T21:11:25Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 3,
+  "feelings": 2
+ }
 }

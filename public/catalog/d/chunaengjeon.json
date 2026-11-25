@@ -37,6 +37,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Chunaengjeon",
   "wikidata_qid": "Q27861554",
   "unesco": false,
+  "hero_video_youtube_id": "mXhwZCgqY2E",
+  "video_stack": [
+   {
+    "youtube_id": "mXhwZCgqY2E",
+    "role": "hero",
+    "title": "제5회 한국의 풍류 비엔나 - 춘앵전 (송영인, 락음국악단) (7분18초)",
+    "channel": "크라운해태",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -63,8 +73,17 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-25T20:59:16Z",
+   "soft_fail": [
+    "named"
+   ]
+  },
   "related_slugs": [
    "cheoyongmu",
+   "mugo",
    "geommu"
   ]
  },
@@ -284,40 +303,76 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "mXhwZCgqY2E",
+   "url": "https://www.youtube.com/watch?v=mXhwZCgqY2E",
+   "analysed_on": "2026-11-25",
+   "observation": {
+    "setting": "A formal concert hall with an audience, on a stage with a wooden floor and tiered seating in the background.",
+    "dancers": "One female soloist, accompanied by a group of five seated musicians.",
+    "formation_and_space": "The dancer moves across the stage, often returning to a central position.",
+    "posture": "Upright, elegant torso; knees are slightly bent, with weight shifting smoothly between feet.",
+    "footwork": "Slow, deliberate steps, often involving a heel-to-toe motion that aligns with the rhythmic beats of the music.",
+    "arms_and_hands": "The dancer uses long, flowing sleeves (hansam) to create graceful, sweeping arcs and circular motions, often extending arms fully.",
+    "hips_and_torso": "The torso remains relatively still, with subtle, controlled movements that emphasize the fluidity of the arms.",
+    "partnering": "None.",
+    "levels_jumps_turns": "The dancer maintains a consistent level, with no jumps or floor work; turns are slow and controlled.",
+    "costume_and_props": "The dancer wears a traditional, brightly colored hanbok with long, white, flowing sleeves (hansam) and an ornate headpiece.",
+    "cannot_infer": "The low-resolution video makes it difficult to discern the precise nature of the footwork or the subtle weight transfers.",
+    "music_heard": {
+     "instruments": [
+      "flute",
+      "string instrument",
+      "drum"
+     ],
+     "vocals": "none",
+     "tempo_feel": "slow",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 145,
+      "end_s": 150,
+      "what": "The dancer extends both arms fully to the sides, creating a wide, graceful arc with the long sleeves."
+     },
+     {
+      "start_s": 246,
+      "end_s": 251,
+      "what": "The dancer performs a slow, controlled turn while keeping the arms extended and the sleeves flowing."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/chunaengjeon.json"
  },
- "fingerprint": "0af8938dd329b149",
- "updated": "2026-11-24"
+ "fingerprint": "fb427828de5a18db",
+ "updated": "2026-11-25"
 }

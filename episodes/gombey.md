@@ -122,7 +122,7 @@ NARRATION: Step 1: Scouting: The Lead Indian moves ahead of the troupe with a bo
 NARRATION: Step 2: Warrior Walk: Dancers march with tomahawks resting on their shoulders.
 NARRATION: Footwork from the sources: Rhythmic steps driven by snare drum patterns and rimshots.
 NARRATION: Drill: Step in time with the bass pulse.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -192,7 +192,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Scouting: The Lead Indian moves ahead of the troupe with a bow and arrow to survey the path.
 NARRATION: Step 2: Warrior Walk: Dancers march with tomahawks resting on their shoulders.
 NARRATION: Drill: Listen for the snare rimshot cue.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -265,7 +265,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Cockfight: Two warriors face each other in a ritualized competitive dance.
 NARRATION: Step 2: Rimshot Response: Dancers execute sharp footwork changes in direct response to snare drum rimshots.
 NARRATION: Drill: Mirror a partner's movements in a circle.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 80 tutorial(s) of the folk-circle family studied · videos studied: 80
+Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
 
 Sources (2): https://en.wikipedia.org/wiki/Gombey; https://www.wikidata.org/wiki/Q5581130
