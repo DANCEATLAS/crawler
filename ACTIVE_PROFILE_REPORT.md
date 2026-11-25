@@ -1,6 +1,6 @@
 # Active Profile readiness
 
-Evaluated 2026-11-24. No model calls; existing budgets unchanged.
+Evaluated 2026-11-25. No model calls; existing budgets unchanged.
 
 1,528 dossiers; 0 ready for activation; 0 running interactive experiences.
 

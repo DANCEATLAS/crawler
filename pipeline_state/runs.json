@@ -6918,5 +6918,48 @@
   "notes": [],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "pedagogy",
+  "started": "2026-11-25T04:00:02Z",
+  "finished": "2026-11-25T04:08:20Z",
+  "counters": {
+   "video_ok": 10,
+   "video_not_a_lesson": 2,
+   "performance_ok": 12,
+   "llm_calls": 32,
+   "llm_failures": 7,
+   "llm_requests": 24,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "lessons to study: 12 (budget 12)",
+   "performances to observe: 12",
+   "model trouble: overloaded 5, model_gone 1, timeout_or_network 1",
+   "playbook: 303 lessons across 212 dances"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "episodes",
+  "started": "2026-11-25T04:08:20Z",
+  "finished": "2026-11-25T04:08:47Z",
+  "counters": {
+   "built": 314,
+   "polished": 4,
+   "status_draft": 455,
+   "unchanged": 301,
+   "status_withheld-chapters": 160,
+   "llm_calls": 5,
+   "llm_failures": 0,
+   "llm_requests": 4,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "episode packs: 615 (0 complete, 6 polished); gaps for 614 packs"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]

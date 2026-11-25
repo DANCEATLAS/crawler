@@ -323,9 +323,53 @@
    }
   ],
   "via": {
-   "study_video": "performance"
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "tzaxYfyjyWU",
+   "url": "https://www.youtube.com/watch?v=tzaxYfyjyWU",
+   "title": "Beginners Ballet Choreography Hiplet Routine Let's Move Studio Fall 2019",
+   "channel": "Let's Move Studio",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Full routine performance by the dancers in holiday attire"
+    }
+   ],
+   "teacher_style": "The instructor leads a group performance routine in a dance studio setting. The instruction is purely demonstration-based with dancers performing the choreography alongside music.",
+   "what_works": [
+    "Clear full-body visibility of the dancers",
+    "Multiple angles shown during performance"
+   ],
+   "what_hinders": [
+    "No verbal breakdown or step-by-step instruction given"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "Dancers perform choreography facing the front in a studio.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact foot placement details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "lxvUfgAKZi8",
@@ -401,6 +445,6 @@
   "polished": false,
   "file": "episodes/hiplet.json"
  },
- "fingerprint": "ce0c76bb7f379c5b",
- "updated": "2026-11-22"
+ "fingerprint": "0f0b651f58e0bad8",
+ "updated": "2026-11-25"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "moshing",
  "name": "moshing",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -485,18 +485,139 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   }
-  ],
   "via": {
-   "study_video": "performance"
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "GUT1Uop_gP4",
+   "url": "https://www.youtube.com/watch?v=GUT1Uop_gP4",
+   "title": "MOSHING TUTORIAL!?!?",
+   "channel": "AlwaysErrday",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces the dance as moshing."
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the steps into a sequence."
+    },
+    {
+     "t": "3:48",
+     "seconds": 228,
+     "segment": "breakdown",
+     "note": "The teacher explicitly names and demonstrates steps 1, 2, and 3."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Step 1",
+     "counts": "1",
+     "description": "A stance with feet apart and knees bent."
+    },
+    {
+     "name": "Step 2",
+     "counts": "2",
+     "description": "Jump up and down."
+    },
+    {
+     "name": "Step 3",
+     "counts": "3",
+     "description": "Flail arms and hit other people."
+    }
+   ],
+   "cues": [
+    "Jump at the same time",
+    "Play with your arms",
+    "Hit other people"
+   ],
+   "images": [
+    "You're like a noodle",
+    "You're like one of those blow-up things at the car dealership"
+   ],
+   "common_mistakes": [
+    "Closing eyes while headbanging"
+   ],
+   "safety": [
+    "Be careful of dizziness"
+   ],
+   "teacher_style": "The teacher uses a playful, informal, and highly energetic approach to instruction. She demonstrates the steps alongside her student, focusing on fun and movement rather than technical precision.",
+   "distinctive_method": "The teacher uses a 'negative dance party' approach, which involves encouraging chaotic and uninhibited movement rather than structured choreography.",
+   "what_works": [
+    "The teacher breaks the dance down into simple, numbered steps.",
+    "The teacher demonstrates the moves alongside the student."
+   ],
+   "what_hinders": [
+    "The teacher's informal and chaotic style makes it difficult to follow the steps clearly.",
+    "The video lacks clear, focused instruction on the technique of the dance."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher and student are standing in a room, and the teacher is explaining the dance.",
+     "viewpoint": "front",
+     "cannot_infer": "unknown",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "The student is demonstrating a headbanging movement while the teacher watches.",
+     "viewpoint": "front",
+     "cannot_infer": "unknown",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 114,
+     "end_s": 124,
+     "topic": "movement",
+     "observation": "The teacher and student are both performing a flailing arm movement.",
+     "viewpoint": "front",
+     "cannot_infer": "unknown",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 348,
+     "end_s": 358,
+     "topic": "teaching",
+     "observation": "The teacher is counting and demonstrating the steps.",
+     "viewpoint": "front",
+     "cannot_infer": "unknown",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 398,
+     "end_s": 408,
+     "topic": "movement",
+     "observation": "The teacher and student are jumping and flailing their arms.",
+     "viewpoint": "front",
+     "cannot_infer": "unknown",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "xS5o0bZT4zY",
@@ -540,6 +661,6 @@
   "polished": false,
   "file": "episodes/moshing.json"
  },
- "fingerprint": "6781574123ae5ce9",
- "updated": "2026-11-24"
+ "fingerprint": "77d222e81becd157",
+ "updated": "2026-11-25"
 }

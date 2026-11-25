@@ -1,6 +1,6 @@
 # Gainjeonmokdan — episode pack
 
-*Status: draft · built 2026-11-22 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; what to avoid / common mistakes
 
@@ -107,7 +107,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Move in two groups around the central vase of peonies
 NARRATION: Step 2: Pick a peony from the vase one by one
 NARRATION: Drill: Form two groups
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -171,7 +171,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Move in two groups around the central vase of peonies
 NARRATION: Step 2: Pick a peony from the vase one by one
 NARRATION: Drill: Reach and gently grasp a prop flower
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -237,7 +237,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Pick a peony from the vase one by one
 NARRATION: Step 2: Execute calm movements
 NARRATION: Drill: Move in sync with Changsa vocal verses
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -299,9 +299,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (2): https://en.wikipedia.org/wiki/Gainjeonmokdan; https://www.wikidata.org/wiki/Q645548

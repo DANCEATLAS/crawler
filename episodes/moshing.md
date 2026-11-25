@@ -1,6 +1,6 @@
 # moshing — episode pack
 
-*Status: draft · built 2026-11-24 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed reference footage
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Pogo: Jump vertically with arms at sides
 NARRATION: HB Strut: Walk in a circular path while swinging arms horizontally
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Aggressive, driving eighth notes with syncopated breakdowns.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,10 +119,10 @@ NARRATION: Step 1: Pogo: Jump vertically with arms at sides
 NARRATION: Step 2: HB Strut: Walk in a circular path while swinging arms horizontally
 NARRATION: Footwork from the sources: Running, jumping, or crossing steps (two-step)
 NARRATION: Drill: Vertical jumping in place to a 160 BPM beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Two-step: Cross one leg over the other in a rhythmic running motion
@@ -130,7 +130,7 @@ NARRATION: Step 4: Circle Pit: Run at high speed following the counter-clockwise
 NARRATION: Drill: The 'Brace': Practicing a low-stance with arms up for protection
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,13 +143,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid wearing jewelry or glasses; do not target the head or neck; do not leave a fallen person on the ground.
+NARRATION: Teachers of this dance warn against: closing eyes while headbanging
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat. · For children: The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat. · For children: The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 170 bpm
@@ -180,7 +181,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Aggressive, driving eighth notes with syncopated breakdowns.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,10 +192,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Pogo: Jump vertically with arms at sides
 NARRATION: Step 2: HB Strut: Walk in a circular path while swinging arms horizontally
 NARRATION: Drill: Counter-clockwise jogging in a tight circle
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Two-step: Cross one leg over the other in a rhythmic running motion
@@ -205,7 +206,7 @@ NARRATION: Drill: The Two-Step: Crossing the right leg over left on beat 1, left
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,13 +219,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid wearing jewelry or glasses; do not target the head or neck; do not leave a fallen person on the ground.
+NARRATION: Teachers of this dance warn against: closing eyes while headbanging
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat. · For children: The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat. · For children: The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular (circle pit) or linear (wall of death) within a confined 'pit'
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 170 bpm
@@ -255,7 +257,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Aggressive, driving eighth notes with syncopated breakdowns.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -266,10 +268,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Two-step: Cross one leg over the other in a rhythmic running motion
 NARRATION: Step 2: Circle Pit: Run at high speed following the counter-clockwise flow of the crowd
 NARRATION: Drill: The 'Shoulder Check': Absorbing impact using the upper arm/shoulder
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Floor punching: Bending low and striking toward the ground with fists
@@ -277,7 +279,7 @@ NARRATION: Drill: The 'Pick-Up': A drill for spotting a fallen partner and lifti
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,13 +292,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid wearing jewelry or glasses; do not target the head or neck; do not leave a fallen person on the ground.
+NARRATION: Teachers of this dance warn against: closing eyes while headbanging
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat. · For children: The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated pogo: Rhythmic toe-tapping and gentle shoulder shrugging to the beat. · For children: The 'Bubble Pit': Children move in a circle and 'bounce' off imaginary bubbles without touching each other. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular (circle pit) or linear (wall of death) within a confined 'pit'
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 170 bpm
@@ -335,9 +338,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: jump at the same time; play with your arms; hit other people
+Common mistakes the studied teachers name: closing eyes while headbanging
 
 Sources (6): https://en.wikipedia.org/wiki/Moshing; https://www.wikidata.org/wiki/Q1463560; https://es.wikipedia.org/wiki/Mosh; https://fr.wikipedia.org/wiki/Mosh; https://pt.wikipedia.org/wiki/Mosh; https://it.wikipedia.org/wiki/Mosh

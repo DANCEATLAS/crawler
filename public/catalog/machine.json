@@ -1,14 +1,14 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-24T22:54:15Z",
+ "generated_at": "2026-11-25T04:08:48Z",
  "last_night": {
   "date": "2026-11-24",
   "started": "2026-11-24T20:13:43Z",
-  "finished": "2026-11-24T22:54:14Z",
-  "minutes": 161,
-  "questions": 335,
+  "finished": "2026-11-25T04:08:47Z",
+  "minutes": 475,
+  "questions": 363,
   "unanswered": 4,
-  "stages": 13,
+  "stages": 17,
   "errors": [],
   "trouble": [
    "research: model trouble: waited_seconds 447, overloaded 42, day_quota_used_up 5, timeout_or_network 2, unusable_answer 2, model_gone 2",
@@ -18,7 +18,8 @@
    "pedagogy: model trouble: waited_seconds 152, overloaded 16, unusable_answer 4, model_gone 2",
    "pictures: model trouble: overloaded 2",
    "episodes: model trouble: overloaded 1",
-   "translate: model trouble: overloaded 1"
+   "translate: model trouble: overloaded 1",
+   "pedagogy: model trouble: overloaded 5, model_gone 1, timeout_or_network 1"
   ]
  },
  "nights": [
@@ -227,8 +228,8 @@
   },
   {
    "date": "2026-11-24",
-   "minutes": 161,
-   "questions": 335,
+   "minutes": 475,
+   "questions": 363,
    "unanswered": 4,
    "errors": 0
   }
@@ -237,13 +238,13 @@
   "listed": 1345,
   "researched": 739,
   "published": 607,
-  "active_ready": 33,
-  "one_short": 63,
-  "two_short": 56,
+  "active_ready": 36,
+  "one_short": 61,
+  "two_short": 55,
   "three_to_five_short": 144,
   "story_ready_teaching_withheld": 62,
-  "lessons_studied": 293,
-  "performances_observed": 270
+  "lessons_studied": 303,
+  "performances_observed": 282
  },
  "line": [
   {
@@ -317,21 +318,30 @@
    "active_ready": 33,
    "lessons_studied": 293,
    "performances_observed": 270
+  },
+  {
+   "date": "2026-11-25",
+   "listed": 1345,
+   "researched": 739,
+   "published": 607,
+   "active_ready": 36,
+   "lessons_studied": 303,
+   "performances_observed": 282
   }
  ],
  "pace": {
-  "days": 8,
+  "days": 9,
   "per_night": {
-   "listed": 23.8,
-   "published": 31.0,
-   "active_ready": 3.5
+   "listed": 21.1,
+   "published": 27.6,
+   "active_ready": 3.4
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 358
+   "profiles": 355
   },
   {
    "key": "study_video",
@@ -341,7 +351,7 @@
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 215
+   "profiles": 214
   },
   {
    "key": "hero_video",
@@ -451,16 +461,6 @@
    ]
   },
   {
-   "slug": "big-apple",
-   "name": "Big Apple",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
-  },
-  {
    "slug": "bugg",
    "name": "Bugg",
    "needs": [
@@ -538,6 +538,16 @@
    ],
    "need_keys": [
     "footwork_counts"
+   ]
+  },
+  {
+   "slug": "courante",
+   "name": "Courante",
+   "needs": [
+    "known to be living, revived or historical"
+   ],
+   "need_keys": [
+    "status"
    ]
   },
   {
@@ -781,8 +791,8 @@
    ]
   },
   {
-   "slug": "moshing",
-   "name": "moshing",
+   "slug": "pachanga",
+   "name": "pachanga",
    "needs": [
     "the steps with their counts"
    ],
@@ -791,8 +801,8 @@
    ]
   },
   {
-   "slug": "pachanga",
-   "name": "pachanga",
+   "slug": "pas-de-deux",
+   "name": "pas de deux",
    "needs": [
     "the steps with their counts"
    ],

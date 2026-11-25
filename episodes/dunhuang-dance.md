@@ -1,6 +1,6 @@
 # Dunhuang dance — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: S-curve posture (Sanwan) alignment
 NARRATION: Step 2: Mudra hand gesture formation
 NARRATION: Footwork from the sources: Soft, gliding steps; often performed on the balls of the feet to suggest weightlessness.
 NARRATION: Drill: Isolating head, ribcage, and hip shifts
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -191,7 +191,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Gliding walk to simulate floating
 NARRATION: Drill: Figure-eight ribbon patterns
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -264,7 +264,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Pipa-holding pose (behind the back)
 NARRATION: Step 2: Gliding walk to simulate floating
 NARRATION: Drill: Complex 'Thousand Hand' timing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (2): https://en.wikipedia.org/wiki/Dunhuang_dance; https://www.wikidata.org/wiki/Q5315282

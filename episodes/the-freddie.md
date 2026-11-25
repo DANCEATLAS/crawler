@@ -1,6 +1,6 @@
 # The Freddie — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.65 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.65 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -303,7 +303,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
+Source: 77 tutorial(s) of the street-urban family studied · videos studied: 77
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp

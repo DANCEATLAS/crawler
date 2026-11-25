@@ -1,6 +1,6 @@
 # Zebola — episode pack
 
-*Status: withheld-chapters · built 2026-11-24 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-25 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section
 
@@ -105,7 +105,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 15 tutorial(s) of the african-diaspora family studied · videos studied: 15
+Source: 17 tutorial(s) of the african-diaspora family studied · videos studied: 17
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; bend your knees; one and two and; put all your weight on your right leg; and out and out and in and in; double double

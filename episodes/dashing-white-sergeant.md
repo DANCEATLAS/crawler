@@ -1,6 +1,6 @@
 # Dashing White Sergeant — episode pack
 
-*Status: draft · built 2026-11-24 · judge 8.9 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 8.9 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Circle left for 8 counts
 NARRATION: Circle right for 8 counts
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 8 counts.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 8 counts. The meter is 4/4.
 NARRATION: Rhythm pattern: Continuous eighth notes typical of a Scottish reel.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,10 +119,10 @@ NARRATION: Step 1: Circle left for 8 counts
 NARRATION: Step 2: Circle right for 8 counts
 NARRATION: Footwork from the sources: Traveling steps for the circle; 'setting' steps (step-close-step) for the middle section; three stamps on the advance.
 NARRATION: Drill: Circle left 8 counts
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 8 counts · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Leader sets to and turns right-hand partner
@@ -130,7 +130,7 @@ NARRATION: Step 4: Leader sets to and turns left-hand partner
 NARRATION: Drill: Circle right 8 counts
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 8 counts · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -149,7 +149,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and claps while seated; march feet in place instead of traveling. · For children: Focus on the 'arch' as a bridge game; emphasize the loud stamps and claps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 8 counts.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -180,7 +180,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 8 counts. The meter is 4/4.
 NARRATION: Rhythm pattern: Continuous eighth notes typical of a Scottish reel.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,10 +191,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Advance 2 steps and stamp 3 times
 NARRATION: Step 2: Retreat 2 steps and clap 3 times
 NARRATION: Drill: Setting step in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 8 counts · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Advance and pass through arches to next set
@@ -204,7 +204,7 @@ NARRATION: Drill: Right-hand turn with partner
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 8 counts · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -223,7 +223,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and claps while seated; march feet in place instead of traveling. · For children: Focus on the 'arch' as a bridge game; emphasize the loud stamps and claps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 8 counts.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Starts as a circle of six, transitions to two lines of three facing each other, moves linearly through the room.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -254,7 +254,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 8 counts. The meter is 4/4.
 NARRATION: Rhythm pattern: Continuous eighth notes typical of a Scottish reel.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -265,10 +265,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Retreat 2 steps and clap 3 times
 NARRATION: Step 2: Advance and pass through arches to next set
 NARRATION: Drill: Advance 2 steps, 3 stamps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 8 counts · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Arch: One set of three raises joined hands for the opposing set to dance under.
@@ -277,7 +277,7 @@ NARRATION: Drill: Retreat 2 steps, 3 claps
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 8 counts · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -296,7 +296,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and claps while seated; march feet in place instead of traveling. · For children: Focus on the 'arch' as a bridge game; emphasize the loud stamps and claps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 8 counts.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Starts as a circle of six, transitions to two lines of three facing each other, moves linearly through the room.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 73 tutorial(s) of the folk-circle family studied · videos studied: 73
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 1-2-3; 5-6-7-8; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders; keep a flat back; flexionar las rodillas
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 8 counts
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: go clockwise in a circle; split off into your threes
 
 Sources (2): https://en.wikipedia.org/wiki/Dashing_White_Sergeant; https://www.wikidata.org/wiki/Q5226627

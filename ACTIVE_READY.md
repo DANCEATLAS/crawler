@@ -1,8 +1,8 @@
 # Active-ready — the starting line
 
-_Measured 2026-11-24 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
+_Measured 2026-11-25 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 33 profiles are active-ready
+## 36 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
@@ -13,24 +13,24 @@ Since 24 November 2026 a reference clip counts as the licensed picture only when
 | In the atlas | 1,345 |
 | Researched from sources (in the atlas) | 739 |
 | Published (passed every gate) | 607 |
-| **Active-ready** | **33** |
-| One item short | 63 |
-| Two items short | 56 |
+| **Active-ready** | **36** |
+| One item short | 61 |
+| Two items short | 55 |
 | Three to five short | 144 |
 | Story-ready, teaching withheld (sacred or restricted) | 62 |
 
-Video studied so far: 293 lessons, 270 performances.
+Video studied so far: 303 lessons, 282 performances.
 
 Pace over the last two weeks: +24 active-ready a week.
-Pace over the last two weeks: +217 published a week.
+Pace over the last two weeks: +193 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 358 |
+| the steps with their counts | 355 |
 | a lesson or performance the machine studied, with timestamps | 232 |
-| what to avoid: common mistakes or safety | 215 |
+| what to avoid: common mistakes or safety | 214 |
 | a hero video that passed the vision check | 177 |
 | two or more signature moves | 153 |
 | a licensed picture or licensed footage | 147 |
@@ -50,7 +50,6 @@ Pace over the last two weeks: +217 published a week.
 - **Aerial dance** — needs: the steps with their counts
 - **Alegrías** — needs: the steps with their counts
 - **Ballos** — needs: what to avoid: common mistakes or safety
-- **Big Apple** — needs: what to avoid: common mistakes or safety
 - **Bugg** — needs: ordered basic steps or a lesson ladder
 - **Bush dance** — needs: the steps with their counts
 - **Cariñosa** — needs: what to avoid: common mistakes or safety
@@ -59,6 +58,7 @@ Pace over the last two weeks: +217 published a week.
 - **Chinese square dancing** — needs: the steps with their counts
 - **Choobazi** — needs: the steps with their counts
 - **Condong** — needs: the steps with their counts
+- **Courante** — needs: known to be living, revived or historical
 - **Dance of Osman Taka** — needs: the steps with their counts
 - **Dikir barat** — needs: the steps with their counts
 - **Dutty Wine** — needs: a licensed picture or licensed footage
@@ -83,8 +83,8 @@ Pace over the last two weeks: +217 published a week.
 - **Luddi** — needs: known to be living, revived or historical
 - **makossa** — needs: what to avoid: common mistakes or safety
 - **Melbourne shuffle** — needs: a licensed picture or licensed footage
-- **moshing** — needs: the steps with their counts
 - **pachanga** — needs: the steps with their counts
+- **pas de deux** — needs: the steps with their counts
 
 ## The fifteen items
 

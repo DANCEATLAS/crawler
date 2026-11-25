@@ -1,6 +1,6 @@
 {
  "standard": "AR-1",
- "evaluated_on": "2026-11-24",
+ "evaluated_on": "2026-11-25",
  "items": [
   "published",
   "story",
@@ -22,13 +22,13 @@
   "listed": 1345,
   "researched": 739,
   "published": 607,
-  "active_ready": 33,
-  "one_short": 63,
-  "two_short": 56,
+  "active_ready": 36,
+  "one_short": 61,
+  "two_short": 55,
   "three_to_five_short": 144,
   "story_ready_teaching_withheld": 62,
-  "lessons_studied": 293,
-  "performances_observed": 270
+  "lessons_studied": 303,
+  "performances_observed": 282
  },
  "profiles": {
   "abbots-bromley-horn-dance": {
@@ -991,8 +991,8 @@
     "picture"
    ],
    "via": {
-    "signature_moves": "performance",
-    "study_video": "performance"
+    "signature_moves": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -1100,16 +1100,15 @@
    "state": "building"
   },
   "big-apple": {
-   "have": 14,
+   "have": 15,
    "of": 15,
-   "missing": [
-    "mistakes"
-   ],
+   "missing": [],
    "via": {
     "footwork_counts": "lesson",
+    "mistakes": "lesson",
     "study_video": "lesson"
    },
-   "state": "building"
+   "state": "active_ready"
   },
   "bigwala": {
    "have": 6,
@@ -2489,14 +2488,14 @@
    "state": "building"
   },
   "courante": {
-   "have": 13,
+   "have": 14,
    "of": 15,
    "missing": [
-    "status",
-    "footwork_counts"
+    "status"
    ],
    "via": {
-    "study_video": "performance"
+    "footwork_counts": "lesson",
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -2765,7 +2764,7 @@
     "picture"
    ],
    "via": {
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -4268,7 +4267,7 @@
     "footwork_counts"
    ],
    "via": {
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -6335,15 +6334,14 @@
    "state": "building"
   },
   "moshing": {
-   "have": 14,
+   "have": 15,
    "of": 15,
-   "missing": [
-    "footwork_counts"
-   ],
+   "missing": [],
    "via": {
-    "study_video": "performance"
+    "footwork_counts": "lesson",
+    "study_video": "lesson"
    },
-   "state": "building"
+   "state": "active_ready"
   },
   "mtiuluri": {
    "have": 12,
@@ -7535,15 +7533,14 @@
    "state": "teaching_withheld"
   },
   "quadrille": {
-   "have": 14,
+   "have": 15,
    "of": 15,
-   "missing": [
-    "footwork_counts"
-   ],
+   "missing": [],
    "via": {
-    "study_video": "performance"
+    "footwork_counts": "lesson",
+    "study_video": "lesson"
    },
-   "state": "building"
+   "state": "active_ready"
   },
   "quebradita": {
    "have": 15,
@@ -8675,7 +8672,7 @@
    ],
    "via": {
     "signature_moves": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },
@@ -9291,7 +9288,7 @@
    ],
    "via": {
     "signature_moves": "performance",
-    "study_video": "performance"
+    "study_video": "lesson"
    },
    "state": "building"
   },

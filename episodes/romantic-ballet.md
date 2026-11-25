@@ -1,6 +1,6 @@
 # Romantic ballet — episode pack
 
-*Status: draft · built 2026-11-22 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
@@ -113,7 +113,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Pointe work (early stage)
 NARRATION: Step 2: Coupes (strengthening exercise)
 NARRATION: Drill: Soft arm placement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -176,7 +176,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Pointe work (early stage)
 NARRATION: Step 2: Coupes (strengthening exercise)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -240,7 +240,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Coupes (strengthening exercise)
 NARRATION: Step 2: Forward tilt of the upper body
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -303,9 +303,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (5): https://en.wikipedia.org/wiki/Romantic_ballet; https://www.wikidata.org/wiki/Q2707421; https://es.wikipedia.org/wiki/Ballet_romántico; https://fr.wikipedia.org/wiki/Ballet_romantique; https://pt.wikipedia.org/wiki/Balé_romântico

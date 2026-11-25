@@ -1,6 +1,6 @@
 # Chunaengjeon — episode pack
 
-*Status: draft · built 2026-11-24 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Position feet in padded beoseon socks at the center of the hw
 NARRATION: Step 2: Execute slow, defined forward steps within mat boundary
 NARRATION: Footwork from the sources: Defined and controlled steps executed strictly within the boundary of a floral mat (hwamunseok) in beoseon socks.
 NARRATION: Drill: Practice controlled slow stepping forward and backward on a marked mat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -189,7 +189,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Position feet in padded beoseon socks at the center of the hwamunseok mat
 NARRATION: Step 2: Execute slow, defined forward steps within mat boundary
 NARRATION: Drill: Sleeve sweeping drills synchronized with slow turns
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -260,7 +260,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Perform controlled turning movement while handling extended gown sleeves
 NARRATION: Step 2: Execute hwajeontae movement: draw long sleeves behind the back, turn torso slightly, and smile softly
 NARRATION: Drill: Folding sleeves behind the back while executing a subtle facial smile
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (2): https://en.wikipedia.org/wiki/Chunaengjeon; https://www.wikidata.org/wiki/Q27861554

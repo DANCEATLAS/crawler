@@ -1,6 +1,6 @@
 # Batusi — episode pack
 
-*Status: draft · built 2026-11-24 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Form a horizontal V-sign with the index and middle fingers of
 NARRATION: Step 2: Position your fingers in front of your eyes so your eyes look between the V-shape.
 NARRATION: Footwork from the sources: Simple rhythmic weight shifts, 1960s go-go stepping or foot tapping on the beat.
 NARRATION: Drill: Practice forming the horizontal V-sign with palms facing inward.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -143,6 +143,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Turning palms outward away from face (which reflects the Pulp Fiction variation rather than the 1966 original).
+NARRATION: Teachers of this dance warn against: incorrect hand placement for the batusi
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair. · For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal.
 MUSIC: silence
@@ -191,7 +192,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Form a horizontal V-sign with the index and middle fingers of both hands, palms facing toward your face.
 NARRATION: Step 2: Position your fingers in front of your eyes so your eyes look between the V-shape.
 NARRATION: Drill: Add side-to-side weight transfer while executing eye swipes.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -216,6 +217,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Turning palms outward away from face (which reflects the Pulp Fiction variation rather than the 1966 original).
+NARRATION: Teachers of this dance warn against: incorrect hand placement for the batusi
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair. · For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal.
 MUSIC: silence
@@ -263,7 +265,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Draw both hands outward away from the center of the face horizontally in time with the music beat.
 NARRATION: Step 2: Maintain a continuous rhythmic go-go step or torso twist with the lower body.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -285,6 +287,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Turning palms outward away from face (which reflects the Pulp Fiction variation rather than the 1966 original).
+NARRATION: Teachers of this dance warn against: incorrect hand placement for the batusi
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair. · For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal.
 MUSIC: silence
@@ -330,9 +333,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 73 tutorial(s) of the street-urban family studied · videos studied: 73
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
+Demonstration: views used by most teachers: front; tempo progression: slow
+Cues: don't do this; do this; put your two fingers up
+Common mistakes the studied teachers name: incorrect hand placement for the batusi
 
 Sources (3): https://en.wikipedia.org/wiki/Batusi; https://www.wikidata.org/wiki/Q4873372; https://es.wikipedia.org/wiki/Batusi

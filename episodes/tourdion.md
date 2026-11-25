@@ -1,6 +1,6 @@
 # Tourdion — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.65 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.65 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Start in posture gauche (left foot slightly forward, weight e
 NARRATION: Step 2: Pied en l'air droit: Small kick of right foot with a tiny hop on the left (Beat 1)
 NARRATION: Footwork from the sources: Cinq pas: four small kicks (pieds en l'air) with hops, followed by a jump (saut moyen) and landing (cadence).
 NARRATION: Drill: Practice Posture Droit (right foot forward)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -192,7 +192,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Pied en l'air gauche: Repeat kick/hop (Beat 4)
 NARRATION: Step 2: Saut moyen: A small jump into the air (Beat 5)
 NARRATION: Drill: Small kick with the right foot while hopping on the left
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -265,7 +265,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Saut moyen: A small jump into the air (Beat 5)
 NARRATION: Step 2: Cadence: Land in posture droit to finish the sequence (Beat 6)
 NARRATION: Drill: Four alternating kicks followed by a small jump (saut moyen)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (6): https://en.wikipedia.org/wiki/Tourdion; https://www.wikidata.org/wiki/Q2141850; https://fr.wikipedia.org/wiki/Tourdion; https://es.wikipedia.org/wiki/Turdión; https://pt.wikipedia.org/wiki/Tourdion; https://de.wikipedia.org/wiki/Tourdion

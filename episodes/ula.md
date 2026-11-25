@@ -1,6 +1,6 @@
 # Ula — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section
 
@@ -114,7 +114,7 @@ NARRATION: Step 1: Divide the ensemble into two flanking groups offstage to the 
 NARRATION: Step 2: Process inward toward center stage until lines meet and merge into a single row
 NARRATION: Footwork from the sources: Minimal lower-body involvement; occasional steps or lowering to a kneeling position
 NARRATION: Drill: Left-and-right entry marching drill to center mark
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -184,7 +184,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Divide the ensemble into two flanking groups offstage to the left and right
 NARRATION: Step 2: Process inward toward center stage until lines meet and merge into a single row
 NARRATION: Drill: Wrist flexibility and finger placement drill
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -257,7 +257,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Assume an upright, stiff torso posture with minimal leg movement
 NARRATION: Step 2: Execute subtle, supple hand postures in coordination with head tilts while holding a seated, standing, or occasional kneeling posture
 NARRATION: Drill: Reciting the 'tulituli faiva' chant while advancing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (2): https://en.wikipedia.org/wiki/Ula_(dance); https://www.wikidata.org/wiki/Q11650728

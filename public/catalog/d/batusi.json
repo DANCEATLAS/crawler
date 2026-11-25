@@ -326,10 +326,155 @@
    }
   ],
   "via": {
-   "signature_moves": "performance",
-   "study_video": "performance"
+   "signature_moves": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "zTUMWc3Wtp0",
+   "url": "https://www.youtube.com/watch?v=zTUMWc3Wtp0",
+   "title": "The Batusi Tutorial",
+   "channel": "The Only Empire Is Back",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces himself as Batman and explains the purpose of the video."
+    },
+    {
+     "t": "0:29",
+     "seconds": 29,
+     "segment": "breakdown",
+     "note": "The teacher explains the hand movements for the Batusi."
+    },
+    {
+     "t": "1:14",
+     "seconds": 74,
+     "segment": "breakdown",
+     "note": "The teacher demonstrates the arm movements."
+    },
+    {
+     "t": "2:12",
+     "seconds": 132,
+     "segment": "layering",
+     "note": "The teacher incorporates the cape into the dance."
+    },
+    {
+     "t": "2:38",
+     "seconds": 158,
+     "segment": "layering",
+     "note": "The teacher adds the leg movements."
+    },
+    {
+     "t": "3:29",
+     "seconds": 209,
+     "segment": "music_practice",
+     "note": "The teacher performs the full dance to music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Batusi hand movement",
+     "description": "Two fingers up near the eyes, moving in a circular motion."
+    },
+    {
+     "name": "Arm movement",
+     "description": "Arms held straight and moving in a rhythmic, crossing motion."
+    },
+    {
+     "name": "Leg movement",
+     "description": "Raising one leg at a time while jumping."
+    }
+   ],
+   "cues": [
+    "Don't do this",
+    "Do this",
+    "Put your two fingers up"
+   ],
+   "images": [
+    "dramatic jump"
+   ],
+   "common_mistakes": [
+    "Incorrect hand placement for the Batusi"
+   ],
+   "teacher_style": "The teacher adopts a persona, using a casual and encouraging tone to guide the viewer. He breaks down the movements into simple, manageable steps while emphasizing the importance of practice.",
+   "distinctive_method": "The teacher uses a character persona (Batman) to teach the dance, which adds a unique and entertaining element to the tutorial.",
+   "what_works": [
+    "The teacher breaks down the movements into simple, manageable steps.",
+    "The teacher provides clear visual demonstrations of each step."
+   ],
+   "what_hinders": [
+    "The teacher's costume, specifically the mask and cape, can sometimes obscure the movements.",
+    "The lack of a clear counting scheme might make it difficult for some learners to follow the rhythm."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher stands in front of the camera and speaks directly to the audience.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 60,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the hand movement by placing two fingers near his eyes.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 115,
+     "end_s": 125,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the arm movement by crossing his arms in front of his chest.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 212,
+     "end_s": 222,
+     "topic": "movement",
+     "observation": "The teacher incorporates his cape into the dance by holding it and moving it.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 240,
+     "end_s": 250,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the leg movement by raising one leg at a time.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 330,
+     "end_s": 340,
+     "topic": "movement",
+     "observation": "The teacher performs the full dance to music.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "RsYA8Gr5NTY",
@@ -387,6 +532,6 @@
   "polished": false,
   "file": "episodes/batusi.json"
  },
- "fingerprint": "a45857bcb0f2d843",
- "updated": "2026-11-24"
+ "fingerprint": "f68a43821fa51487",
+ "updated": "2026-11-25"
 }

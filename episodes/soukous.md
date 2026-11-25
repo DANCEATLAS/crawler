@@ -1,6 +1,6 @@
 # soukous — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.5 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.5 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Shift weight from left to right leg in time with the 4/4 beat
 NARRATION: Step 2: Engage hips in a rhythmic, circular or side-to-side motion.
 NARRATION: Footwork from the sources: Shifting weight between legs in a rhythmic cadence.
 NARRATION: Drill: Step side to side on the beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: Shift weight from left to right leg in time with the 4/4 beat.
 NARRATION: Step 2: Engage hips in a rhythmic, circular or side-to-side motion.
 NARRATION: Drill: Isolate hip movement while keeping feet steady.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -265,7 +265,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Maintain a slight knee bend to facilitate fluid movement.
 NARRATION: Step 2: Incorporate freestyle arm movements that mirror the guitar's melody.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 15 tutorial(s) of the african-diaspora family studied · videos studied: 15
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; bend your knees; one and two and; put all your weight on your right leg; and out and out and in and in; double double
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: say the count before the move; name the body part, then the direction; one correction at a time
 
 Sources (7): https://en.wikipedia.org/wiki/Soukous; https://www.wikidata.org/wiki/Q1752683; https://fr.wikipedia.org/wiki/Soukous; https://es.wikipedia.org/wiki/Soukous; https://de.wikipedia.org/wiki/Soukous; https://it.wikipedia.org/wiki/Rumba_africana; https://archive.org/details/breakoutprofiles00stew

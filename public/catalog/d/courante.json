@@ -311,22 +311,113 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "status",
     "label": "known to be living, revived or historical"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    }
   ],
   "via": {
-   "study_video": "performance"
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "qCcSG37KDDQ",
+   "url": "https://www.youtube.com/watch?v=qCcSG37KDDQ",
+   "title": "Baroque Dancing - Lesson 7 - Pas Coupe added onto Temps de Courante & Demi Jete",
+   "channel": "Winchester Baroque Dancers",
+   "analysed_on": "2026-11-25",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "1-2 / one-two",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to the pas coupe and sequence of steps"
+    },
+    {
+     "t": "0:20",
+     "seconds": 20,
+     "segment": "breakdown",
+     "note": "Breakdown of the pas coupe step"
+    },
+    {
+     "t": "1:07",
+     "seconds": 67,
+     "segment": "breakdown",
+     "note": "Combining tonde courante, demi jete, and pas coupe"
+    },
+    {
+     "t": "2:12",
+     "seconds": 132,
+     "segment": "follow_along",
+     "note": "Practicing the sequence with back to camera"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Pas Coupe",
+     "counts": "1-2",
+     "description": "Two steps passing through first position with weight transfers"
+    },
+    {
+     "name": "Tonde Courante",
+     "counts": "1",
+     "description": "One transfer of weight"
+    },
+    {
+     "name": "Demi Jete",
+     "counts": "1",
+     "description": "A small jump or step transfer of weight"
+    }
+   ],
+   "cues": [
+    "Start off on the right foot",
+    "Pass the foot through first",
+    "Step forward one, step forward two"
+   ],
+   "teacher_style": "The teacher breaks down Baroque dance steps clearly, explaining the mechanical transfers of weight and combining steps into sequences. She demonstrates from both front and back views to help students follow along.",
+   "distinctive_method": "Focusing explicitly on the number of weight transfers per step to differentiate similar Baroque dance movements.",
+   "what_works": [
+    "Repeating the steps multiple times from different angles",
+    "Focusing on the transfer of weight rather than just counting"
+   ],
+   "what_hinders": [
+    "Limited space makes full movement difficult to show"
+   ],
+   "evidence": [
+    {
+     "start_s": 20,
+     "end_s": 32,
+     "topic": "movement",
+     "observation": "Teacher demonstrates pas coupe stepping forward with weight transfers from front view.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact foot placement details due to camera angle",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 212,
+     "end_s": 224,
+     "topic": "movement",
+     "observation": "Teacher demonstrates the combined sequence facing away from the camera.",
+     "viewpoint": "back, unmirrored",
+     "cannot_infer": "exact floor pressure and precise joint alignment",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "KdYoW6lhf6A",
@@ -382,6 +473,6 @@
   "polished": false,
   "file": "episodes/courante.json"
  },
- "fingerprint": "dad6f301b6ca7f18",
- "updated": "2026-11-21"
+ "fingerprint": "8292e5dabfa30425",
+ "updated": "2026-11-25"
 }

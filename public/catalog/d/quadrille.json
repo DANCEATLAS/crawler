@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "quadrille",
  "name": "Quadrille",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "FR"
@@ -347,18 +347,160 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   }
-  ],
   "via": {
-   "study_video": "performance"
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "8zp8QuNkGH8",
+   "url": "https://www.youtube.com/watch?v=8zp8QuNkGH8",
+   "title": "Austrian Ball 2019 in London - How to dance Quadrille 1",
+   "channel": "austrianclublondon",
+   "analysed_on": "2026-11-25",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "intro",
+     "note": "The teacher introduces the first part of the Quadrille."
+    },
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "segment": "breakdown",
+     "note": "The teacher explains and demonstrates the changing of places."
+    },
+    {
+     "t": "0:23",
+     "seconds": 23,
+     "segment": "breakdown",
+     "note": "The teacher explains the side steps and the curtsy/nod."
+    },
+    {
+     "t": "0:43",
+     "seconds": 43,
+     "segment": "breakdown",
+     "note": "The teacher explains the touch and circle step."
+    },
+    {
+     "t": "0:59",
+     "seconds": 59,
+     "segment": "breakdown",
+     "note": "The teacher explains the ladies' solo."
+    },
+    {
+     "t": "1:18",
+     "seconds": 78,
+     "segment": "breakdown",
+     "note": "The teacher explains the final part, which repeats the beginning."
+    },
+    {
+     "t": "1:36",
+     "seconds": 96,
+     "segment": "music_practice",
+     "note": "The dancers perform the full sequence with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "changing of places",
+     "counts": "1-8",
+     "description": "Dancers swap positions with their partners."
+    },
+    {
+     "name": "side steps",
+     "counts": "1-4",
+     "description": "Dancers take four steps to the side."
+    },
+    {
+     "name": "curtsy/nod",
+     "counts": "5-8",
+     "description": "Ladies curtsy and gentlemen nod to the outside."
+    },
+    {
+     "name": "touch and circle",
+     "counts": "1-8",
+     "description": "Dancers touch right hands and walk in a circle."
+    },
+    {
+     "name": "ladies' solo",
+     "counts": "1-8",
+     "description": "Ladies meet and greet in a figure of eight to change partners."
+    }
+   ],
+   "cues": [
+    "changing of the places",
+    "face each other",
+    "take all four steps to the side",
+    "touch right hand to right hand",
+    "go in one circle",
+    "ladies' solo"
+   ],
+   "images": [
+    "figure of eight"
+   ],
+   "teacher_style": "The teacher provides clear, concise verbal instructions while standing to the side of the dancers. She uses a formal, structured approach to explain each sequence of the Quadrille.",
+   "distinctive_method": "The teacher uses a 'call and response' style where she speaks the instructions while the dancers perform the movements simultaneously.",
+   "what_works": [
+    "The teacher breaks the dance into distinct, manageable segments.",
+    "The verbal cues are synchronized with the counts."
+   ],
+   "what_hinders": [
+    "The video lacks slow-motion demonstrations.",
+    "The camera angle is static and does not show footwork clearly."
+   ],
+   "evidence": [
+    {
+     "start_s": 12,
+     "end_s": 18,
+     "topic": "movement",
+     "observation": "The dancers move in a line, swapping positions with their partners.",
+     "viewpoint": "front",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 36,
+     "end_s": 42,
+     "topic": "movement",
+     "observation": "The dancers step to the side and perform a curtsy or nod.",
+     "viewpoint": "front",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 50,
+     "end_s": 56,
+     "topic": "movement",
+     "observation": "The dancers touch right hands and walk in a circle.",
+     "viewpoint": "front",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 107,
+     "end_s": 113,
+     "topic": "movement",
+     "observation": "The ladies move in a figure-of-eight pattern to change partners.",
+     "viewpoint": "front",
+     "cannot_infer": "weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "8qXaUL6K2bk",
@@ -425,6 +567,6 @@
   "polished": false,
   "file": "episodes/quadrille.json"
  },
- "fingerprint": "ec6b7b84e09ab4c9",
- "updated": "2026-11-24"
+ "fingerprint": "f8bc1e489e8b5c2e",
+ "updated": "2026-11-25"
 }

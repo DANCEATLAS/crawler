@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "big-apple",
  "name": "Big Apple",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -267,20 +267,157 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 14,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   }
-  ],
   "via": {
    "footwork_counts": "lesson",
+   "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "8SR9nDmkldI",
+   "url": "https://www.youtube.com/watch?v=8SR9nDmkldI",
+   "title": "Learn The Big Apple, Pt2 - for Lindy Hop and Swing Dance",
+   "channel": "Laura Glaess",
+   "analysed_on": "2026-11-25",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "The teacher introduces the lesson as part 2 of the Big Apple."
+    },
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "full_demo",
+     "note": "The teacher performs the full routine to music."
+    },
+    {
+     "t": "2:07",
+     "seconds": 127,
+     "segment": "breakdown",
+     "note": "The teacher lists and demonstrates the specific moves used in the routine."
+    },
+    {
+     "t": "2:23",
+     "seconds": 143,
+     "segment": "follow_along",
+     "note": "The teacher leads the student through the routine with counts."
+    },
+    {
+     "t": "5:24",
+     "seconds": 324,
+     "segment": "context",
+     "note": "The teacher discusses the importance of individual style in Lindy Hop."
+    },
+    {
+     "t": "5:58",
+     "seconds": 358,
+     "segment": "breakdown",
+     "note": "The teacher analyzes specific steps by comparing her own performance to historical footage."
+    },
+    {
+     "t": "7:21",
+     "seconds": 441,
+     "segment": "music_practice",
+     "note": "The teacher performs the routine at a faster tempo."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Shorty George",
+     "counts": "1-2-3-4",
+     "description": "A classic jazz step involving knee swivels."
+    },
+    {
+     "name": "Suzie Q",
+     "counts": "1-2-3-4",
+     "description": "A traveling step with swiveling feet."
+    },
+    {
+     "name": "Half Break",
+     "counts": "1-2-3-4",
+     "description": "A rhythmic transition step."
+    },
+    {
+     "name": "Lock Turn",
+     "counts": "1-2-3-4",
+     "description": "A turning step with a locked leg position."
+    },
+    {
+     "name": "Jump Charleston",
+     "counts": "1-2-3-4",
+     "description": "A high-energy step with a jump."
+    },
+    {
+     "name": "Rocks",
+     "counts": "1-2-3-4",
+     "description": "A rhythmic rocking motion."
+    },
+    {
+     "name": "Around the World",
+     "counts": "1-2-3-4",
+     "description": "A circular movement step."
+    },
+    {
+     "name": "Break a Leg",
+     "counts": "1-2-3-4",
+     "description": "A low-level floor step."
+    }
+   ],
+   "cues": [
+    "kick ball change on count eight",
+    "flicking your feet forward",
+    "jump backwards on seven"
+   ],
+   "images": [
+    "flicking your feet forward",
+    "jump backwards on seven"
+   ],
+   "common_mistakes": [
+    "jumping with the right leg back instead of the left"
+   ],
+   "teacher_style": "The teacher provides a detailed, analytical breakdown of specific dance steps by comparing them to historical footage. She encourages students to develop their own personal style while acknowledging the foundational movements.",
+   "distinctive_method": "The teacher uses historical footage to analyze and critique her own performance, highlighting discrepancies between her interpretation and the original choreography.",
+   "what_works": [
+    "The teacher uses side-by-side comparisons with historical footage to clarify complex movements.",
+    "The teacher clearly labels each step before demonstrating it."
+   ],
+   "what_hinders": [
+    "The fast pace of the routine may be challenging for beginners to follow without frequent pausing."
+   ],
+   "evidence": [
+    {
+     "start_s": 6,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "The teacher performs a series of rhythmic steps including swivels and kicks.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 224,
+     "end_s": 230,
+     "topic": "teaching",
+     "observation": "The teacher demonstrates the routine while counting aloud.",
+     "viewpoint": "front",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "grDYvkjIACw",
    "url": "https://www.youtube.com/watch?v=grDYvkjIACw",
@@ -474,11 +611,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/big-apple.json"
  },
- "fingerprint": "e81f5ab5e203488c",
- "updated": "2026-11-24"
+ "fingerprint": "6fdc36af7ce50d5f",
+ "updated": "2026-11-25"
 }

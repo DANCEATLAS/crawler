@@ -1,6 +1,6 @@
 # Geommu — episode pack
 
-*Status: draft · built 2026-11-22 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Ipchum-sawi: Form two parallel rows facing your partner, stan
 NARRATION: Step 2: Sleeve release and floor passage: Perform controlled sleeve waves around swords lying on the floor.
 NARRATION: Footwork from the sources: Smooth gliding step executed in thick white socks (beoseon) without outer shoes, progressing into swift circular walking and floor pivots.
 NARRATION: Drill: Practice standing posture with extended arms while wearing sleeve extensions.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Varied changdan meters bar out loud, then in pairs of bars · repetitions: 3
@@ -191,7 +191,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Yeonpungdae: Form a large group circle and rotate smoothly in spatial coordination while twirling the short blades.
 NARRATION: Drill: Practice Anjeon-sawi knee drops with vertical torso alignment.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Varied changdan meters bar out loud, then in pairs of bars · repetitions: 3
@@ -264,7 +264,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Sword lift: Lift the twin short swords (ssang dan geom) from the floor while maintaining knee placement or standing up.
 NARRATION: Step 2: Yeonpungdae: Form a large group circle and rotate smoothly in spatial coordination while twirling the short blades.
 NARRATION: Drill: Practice synchronized circular rotation in group formation.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Varied changdan meters bar out loud, then in pairs of bars · repetitions: 3
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
+Source: 14 tutorial(s) of the classical-court family studied · videos studied: 14
 Counting: count the Varied changdan meters bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
 
 Sources (4): https://en.wikipedia.org/wiki/Geommu; https://www.wikidata.org/wiki/Q5371834; https://fr.wikipedia.org/wiki/Geommu; https://it.wikipedia.org/wiki/Geommu

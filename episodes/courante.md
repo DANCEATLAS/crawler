@@ -1,6 +1,6 @@
 # Courante — episode pack
 
-*Status: draft · built 2026-11-24 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-25 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -75,7 +75,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Simple à gauche: left foot steps to the left, right foot joins.
 NARRATION: Simple à droite: right foot steps to the right, left foot joins.
-NARRATION: Count it: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-2 / one-two.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -104,7 +104,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars. The meter is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
+NARRATION: Count: 1-2 / one-two. The meter is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
 NARRATION: Rhythm pattern: Upbeat entry (levée) followed by metric ambiguities and hemiolas across bar lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -117,10 +117,10 @@ NARRATION: Step 1: Simple à gauche: left foot steps to the left, right foot joi
 NARRATION: Step 2: Simple à droite: right foot steps to the right, left foot joins.
 NARRATION: Footwork from the sources: Alternating simple and double steps featuring springing or jumping movements (*pas sauté*) in the Renaissance style, evolving into measured, gliding, and crossing steps in the Baroque French style.
 NARRATION: Drill: Foot weight-shifting on beats 1, 2, and 3
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2 / one-two · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Double à gauche: left foot steps left, right closes, left steps left, right joins with a slight spring or greve.
@@ -128,7 +128,7 @@ NARRATION: Step 4: Double à droite: repeated on the opposite side with reversed
 NARRATION: Drill: Practicing the upbeat (levée) step start
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2 / one-two · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,7 +145,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2 / one-two.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -176,7 +176,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars. The meter is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
+NARRATION: Count: 1-2 / one-two. The meter is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
 NARRATION: Rhythm pattern: Upbeat entry (levée) followed by metric ambiguities and hemiolas across bar lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -188,10 +188,10 @@ NEEDS: tempo
 NARRATION: Step 1: Simple à gauche: left foot steps to the left, right foot joins.
 NARRATION: Step 2: Simple à droite: right foot steps to the right, left foot joins.
 NARRATION: Drill: Simple à gauche and simple à droite drill
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2 / one-two · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Double à gauche: left foot steps left, right closes, left steps left, right joins with a slight spring or greve.
@@ -202,7 +202,7 @@ NARRATION: Drill: Double à gauche with closed foot transitions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2 / one-two · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +219,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2 / one-two.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples traveling along the perimeter of the hall, turning, and executing advances and retreats.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -250,7 +250,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars. The meter is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
+NARRATION: Count: 1-2 / one-two. The meter is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
 NARRATION: Rhythm pattern: Upbeat entry (levée) followed by metric ambiguities and hemiolas across bar lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,10 +262,10 @@ NEEDS: tempo
 NARRATION: Step 1: Double à gauche: left foot steps left, right closes, left steps left, right joins with a slight spring or greve.
 NARRATION: Step 2: Double à droite: repeated on the opposite side with reversed footwork.
 NARRATION: Drill: Stepping through metric shifts without losing tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 10
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2 / one-two · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Pas sauté: A jumping step where the dancer springs on one foot and moves forward on the other.
@@ -274,7 +274,7 @@ NARRATION: Drill: Stylistic transition between French grave and Italian lively f
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2 / one-two · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,7 +290,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2 / one-two.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples traveling along the perimeter of the hall, turning, and executing advances and retreats.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the classical-court family studied · videos studied: 13
-Counting: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 10
-Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2 / one-two
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 2
+Cues: start off on the right foot; pass the foot through first; step forward one step forward two
 
 Sources (7): https://en.wikipedia.org/wiki/Courante; https://www.wikidata.org/wiki/Q664056; https://es.wikipedia.org/wiki/Courante; https://fr.wikipedia.org/wiki/Courante; https://pt.wikipedia.org/wiki/Courante; https://archive.org/details/danceman160; https://archive.org/details/danceman219
